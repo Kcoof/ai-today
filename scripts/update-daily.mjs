@@ -394,7 +394,8 @@ async function callGlm(prompt) {
       { role: "user", content: prompt },
     ],
     temperature: 0.4,
-    max_tokens: 7000,
+    max_tokens: 12000,
+    response_format: { type: "json_object" }, // forces valid JSON on GLM-4.5+
   };
 
   let lastErr;
@@ -407,6 +408,11 @@ async function callGlm(prompt) {
       }, 300000); // large prompt + long generation needs well over 2 minutes
       if (!res.ok) {
         const text = await res.text().catch(() => "");
+        // Older models reject response_format — drop it and retry immediately.
+        if (text.includes("response_format")) {
+          delete body.response_format;
+          throw new Error(`response_format rejected, retrying without: ${text.slice(0, 120)}`);
+        }
         throw new Error(`API HTTP ${res.status}: ${text.slice(0, 300)}`);
       }
       const json = await res.json();
