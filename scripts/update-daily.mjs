@@ -397,7 +397,7 @@ async function callGlm(prompt) {
         method: "POST",
         headers: { "Content-Type": "application/json", Authorization: `Bearer ${API_KEY}` },
         body: JSON.stringify(body),
-      }, 120000);
+      }, 300000); // large prompt + long generation needs well over 2 minutes
       if (!res.ok) {
         const text = await res.text().catch(() => "");
         throw new Error(`API HTTP ${res.status}: ${text.slice(0, 300)}`);
