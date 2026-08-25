@@ -1,6 +1,57 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-25-بناء-نظام-rag-بسيط-باستخدام-python",
+      "title": "بناء نظام RAG بسيط باستخدام Python",
+      "why": "أنظمة RAG (Retrieval-Augmented Generation) تسمح للنماذج اللغوية بالوصول إلى معرفة خارجية محدثة، مما يحسن دقة الإجابات ويقلل من الهلاكات. هذه المهارة أساسية لإنشاء تطبيقات AI قوية وموثوقة.",
+      "difficulty": "intermediate",
+      "steps": [
+        {
+          "title": "تثبيت المكتبات اللازمة",
+          "detail": "قم بتثبيت مكتبات مثل langchain, faiss-cpu, و transformers باستخدام pip لتوفير الأدوات اللازمة لبناء نظام RAG."
+        },
+        {
+          "title": "تحميل نموذج التضمين والنموذج اللغوي",
+          "detail": "اختر نموذج تضمين مثل sentence-transformers/all-MiniLM-L6-v2 ونموذج لغوي مثل gpt2 أو نموذج أصغر لتقليل استخدام الموارد."
+        },
+        {
+          "title": "معالجة وتضمين المستندات",
+          "detail": "اقرأ المستندات، قسّمها إلى أجزاء صغيرة، ثم استخدم نموذج التضمين لتحويل كل جزء إلى متجهات رقمية."
+        },
+        {
+          "title": "بناء قاعدة بيانات المتجهات",
+          "detail": "استخدم FAISS أو قاعدة بيانات متجهات أخرى لتخزين المتجهات بشكل فعال وتمكين البحث السريع."
+        },
+        {
+          "title": "دمج البحث والاستدلال",
+          "detail": "عند استفسار المستخدم، ابحث عن أجزاء المستندات الأكثر صلة، وأضفها إلى السياق، ثم اطلب من النموذج اللغوي توليد إجابة."
+        }
+      ],
+      "code": "from langchain.document_loaders import TextLoader\nfrom langchain.text_splitter import CharacterTextSplitter\nfrom langchain.embeddings import HuggingFaceEmbeddings\nfrom langchain.vectorstores import FAISS\nfrom langchain.chains import RetrievalQA\nfrom langchain.llms import HuggingFacePipeline\n\n# تحميل ومعالجة المستندات\ndocuments = TextLoader('data.txt').load()\ntext_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)\ndocs = text_splitter.split_documents(documents)\n\n# إنشاء التضمين\nembeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')\ndb = FAISS.from_documents(docs, embeddings)\n\n# بناء سلسلة RAG\nllm = HuggingFacePipeline.from_model_id(\n    model_id='gpt2',\n    task='text-generation',\n    pipeline_kwargs={'max_new_tokens': 200}\n)\nqa = RetrievalQA.from_chain_type(\n    llm=llm,\n    chain_type='stuff',\n    retriever=db.as_retriever()\n)\n\n# الاستخدام\nresult = qa.run('ما هي فوائد استخدام أنظمة RAG؟')\nprint(result)",
+      "resources": [
+        {
+          "name": "LangChain Documentation",
+          "url": "https://python.langchain.com/docs/"
+        },
+        {
+          "name": "Building RAG Systems with LangChain",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        },
+        {
+          "name": "FAISS Documentation",
+          "url": "https://faiss.ai/"
+        }
+      ],
+      "tags": [
+        "RAG",
+        "LangChain",
+        "FAISS",
+        "Vector Databases",
+        "Python"
+      ],
+      "addedAt": "2026-08-25"
+    },
+    {
       "id": "k-2026-08-25-كيف-تحمي-نفسك-من-هجمات-حقن-الموجهات-prompt-injecti",
       "title": "كيف تحمي نفسك من هجمات حقن الموجهات (Prompt Injection)",
       "why": "لأن حقن الموجهات أصبح من أكثر الهجمات شيوعاً على تطبيقات الذكاء الاصطناعي، وفهمه ضروري لأي شخص يبني أو يستخدم وكلاء ذكاء اصطناعي",
