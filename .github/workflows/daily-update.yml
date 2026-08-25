@@ -31,6 +31,13 @@ jobs:
           ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
           GLM_MODEL: ${{ vars.GLM_MODEL }}
 
+      - name: Update MCP directory
+        run: node scripts/update-mcp.mjs
+        continue-on-error: true # MCP directory is a bonus — never block the news edition
+        env:
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          GLM_MODEL: ${{ vars.GLM_MODEL }}
+
       - name: Commit and push data
         run: |
           git config user.name "ai-today-bot"

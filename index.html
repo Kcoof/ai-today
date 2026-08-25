@@ -30,6 +30,7 @@
         <a href="#top-story" data-i18n="nav.top">الأهم اليوم</a>
         <a href="#news" data-i18n="nav.news">الأخبار</a>
         <a href="#models" data-i18n="nav.models">النماذج الجديدة</a>
+        <a href="#mcp" data-i18n="nav.mcp">أدوات MCP</a>
         <a href="#benchmarks" data-i18n="nav.benchmarks">المعايير</a>
         <a href="#knowledge" data-i18n="nav.knowledge">مهارات ومعرفة</a>
         <a href="#security" data-i18n="nav.security">أمن الذكاء الاصطناعي</a>
@@ -99,6 +100,23 @@
         <p class="section-sub" data-i18n="models.sub">أحدث إصدارات نماذج الذكاء الاصطناعي حول العالم</p>
       </div>
       <div class="models-grid" id="modelsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ======= MCP directory ======= -->
+  <section class="section" id="mcp" hidden>
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title"><span class="section-icon">🧰</span> <span data-i18n="mcp.title">أدوات ومهارات MCP</span></h2>
+        <p class="section-sub" data-i18n="mcp.sub">أفضل أدوات ووكلاء MCP من ModelScope — مترجمة للعربية، محدثة يومياً</p>
+        <div class="news-controls">
+          <input type="search" id="mcpSearch" class="search-input" placeholder="ابحث في الأدوات…" data-i18n-placeholder="mcp.search" aria-label="ابحث في أدوات MCP" data-i18n-arialabel="mcp.search">
+          <div class="category-filters" id="mcpFilters" role="group" aria-label="تصفية أدوات MCP"></div>
+        </div>
+      </div>
+      <div class="mcp-grid" id="mcpGrid"></div>
+      <p class="empty-state" id="mcpEmpty" hidden data-i18n="mcp.empty">لا توجد أدوات مطابقة.</p>
+      <button class="load-more-btn" id="mcpMore" type="button" data-i18n="mcp.more">عرض المزيد</button>
     </div>
   </section>
 

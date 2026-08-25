@@ -1,0 +1,2378 @@
+{
+  "updatedAt": "2026-08-25T22:23:59.571Z",
+  "servers": [
+    {
+      "id": "jinzcdev/Markmap",
+      "nameEn": "Markmap",
+      "nameZh": "Markmap思维导图",
+      "nameAr": "",
+      "descEn": "# Markmap MCP Server\n\n![Sample Mindmap](./docs/markmap.svg)",
+      "descZh": "Markmap MCP 服务器基于模型上下文协议（MCP），允许一键将 Markdown 文本转换为交互式思维导图，支持多种格式导出和丰富的交互操作。它基于开源项目 markmap 构建。",
+      "descAr": "",
+      "categories": [
+        "knowledge-and-memory"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/0b35c428-874e-4272-9d18-ff2abe20ac44.png",
+      "views": 1038172,
+      "url": "https://modelscope.cn/mcp/servers/jinzcdev/Markmap"
+    },
+    {
+      "id": "jinzcdev/leetcode-mcp-server",
+      "nameEn": "leetcode-mcp-server",
+      "nameZh": "LeetCode(力扣)",
+      "nameAr": "",
+      "descEn": "LeetCode MCP server implementation for LeetCode API integration, enabling automated access to programming problems, user data, and contest information.",
+      "descZh": "MCP 服务器实现 LeetCode API 集成，支持自动化获取编程题库、用户数据和竞赛信息。",
+      "descAr": "",
+      "categories": [
+        "research-and-data",
+        "knowledge-and-memory",
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_402ed2b0-a575-4187-813f-ae82d89af6a1.png",
+      "views": 669585,
+      "url": "https://modelscope.cn/mcp/servers/jinzcdev/leetcode-mcp-server"
+    },
+    {
+      "id": "@modelcontextprotocol/fetch",
+      "nameEn": "fetch",
+      "nameZh": "Fetch网页内容抓取",
+      "nameAr": "",
+      "descEn": "This server enables LLMs to retrieve and process content from web pages, converting HTML to markdown for easier consumption.",
+      "descZh": "该服务器使大型语言模型能够检索和处理网页内容，将HTML转换为markdown格式，以便于更轻松地使用。",
+      "descAr": "",
+      "categories": [
+        "browser-automation"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_761f7bfe-fc5c-4753-b955-dcdd3288941b.png",
+      "views": 591056,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/fetch"
+    },
+    {
+      "id": "@amap/amap-maps",
+      "nameEn": "amap-maps",
+      "nameZh": "高德地图",
+      "nameAr": "",
+      "descEn": "Amap Maps is a server that supports any MCP protocol client, allowing users to easily utilize the Amap Maps MCP server for various location-based services.",
+      "descZh": "高德地图是一个支持任何MCP协议客户端的服务器，允许用户轻松利用高德地图MCP服务器获取各种基于位置的服务。",
+      "descAr": "",
+      "categories": [
+        "location-services"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_982efeea-b6fe-4c38-91da-501de5a7f098.png",
+      "views": 401788,
+      "url": "https://modelscope.cn/mcp/servers/@amap/amap-maps"
+    },
+    {
+      "id": "@Joooook/12306-mcp",
+      "nameEn": "12306-mcp",
+      "nameZh": "12306-MCP车票查询工具",
+      "nameAr": "",
+      "descEn": "A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.",
+      "descZh": "基于Model Context Protocol (MCP) 的12306购票搜索服务器。提供了简单的API接口，允许大模型利用接口搜索12306购票信息。",
+      "descAr": "",
+      "categories": [
+        "travel-and-transportation",
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/73d15a75-fe8c-4c67-813a-c9ba74bc9cfc.png",
+      "views": 279315,
+      "url": "https://modelscope.cn/mcp/servers/@Joooook/12306-mcp"
+    },
+    {
+      "id": "slcatwujian/bing-cn-mcp-server",
+      "nameEn": "bing-cn-mcp-server",
+      "nameZh": "必应搜索中文",
+      "nameAr": "",
+      "descEn": "让 AI 助手（如 Claude）能够使用必应搜索引擎实时获取网络信息的工具。 MCP（Model Context Protocol）是一个让 AI 助手能够调用外部工具的协议。这个项目提供了一个必应搜索工具，让 AI 可以帮你搜索网络信息并返回结果。",
+      "descZh": "让 AI 助手（如 Claude）能够使用必应搜索引擎实时获取网络信息的工具。提供了一个必应搜索工具和网页抓取功能，专为中文搜索优化，无需申请 API 密钥。",
+      "descAr": "",
+      "categories": [
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-prod/studio-cover_c1a4feec-7dd2-4188-bd72-aebde64758f3.png",
+      "views": 216637,
+      "url": "https://modelscope.cn/mcp/servers/slcatwujian/bing-cn-mcp-server"
+    },
+    {
+      "id": "antvis/mcp-server-chart",
+      "nameEn": "mcp-server-chart",
+      "nameZh": "可视化图表-MCP-Server",
+      "nameAr": "",
+      "descEn": "# MCP Server Chart  ![](https://badge.mcpx.dev?type=server 'MCP Server')  [![build](https://github.com/antvis/mcp-server-chart/actions/workflows/build.yml/badge.svg)](https://github.com/antvis/mcp-server-chart/actions/workflows/build.yml) [![npm Version](https://img.shields.io/npm/v/@antv/mcp-server-chart.svg)](https://www.npmjs.com/package/@antv/mcp-server-chart) [![smithery badge](https://smithery.ai/badge/@antvis/mcp-server-chart)](https://smithery.ai/server/@antvis/mcp-server-chart) [![npm License](https://img.shields.io/npm/l/@antv/mcp-server-chart.svg)](https://www.npmjs.com/package/@antv/mcp-server-chart)\n\nA Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/).",
+      "descZh": "这是一个基于AntV的模型上下文协议服务器，用于生成图表。它支持超过20种类型的图表，并且可以与多种桌面应用程序和平台一起使用。",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/ec4a0829-8d46-4709-88e9-67927e639b18.JPG",
+      "views": 137201,
+      "url": "https://modelscope.cn/mcp/servers/antvis/mcp-server-chart"
+    },
+    {
+      "id": "Alipay/mcp-server-alipay",
+      "nameEn": "mcp-server-alipay",
+      "nameZh": "支付宝MCP",
+      "nameAr": "",
+      "descEn": "@alipay/mcp-server-alipay 是支付宝开放平台提供的 MCP Server，让你可以轻松将支付宝开放平台提供的交易创建、查询、退款等能力集成到你的 LLM 应用中，并进一步创建具备支付能力的智能工具。",
+      "descZh": "是支付宝开放平台提供的 MCP Server，让你可以轻松将支付宝开放平台提供的交易创建、查询、退款等能力集成到你的 LLM 应用中，并进一步创建具备支付能力的智能工具。",
+      "descAr": "",
+      "categories": [
+        "finance"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/a2a75cf8-470e-4d12-a0fe-8e02d6995ce2.png",
+      "views": 90695,
+      "url": "https://modelscope.cn/mcp/servers/Alipay/mcp-server-alipay"
+    },
+    {
+      "id": "@worryzyy/howtocook-mcp",
+      "nameEn": "howtocook-mcp",
+      "nameZh": "今天吃什么",
+      "nameAr": "",
+      "descEn": "Turn your AI assistant into a personal chef that helps plan your daily meals!",
+      "descZh": "让 AI 助手变身私人大厨，为你的一日三餐出谋划策！",
+      "descAr": "",
+      "categories": [
+        "art-and-culture"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_07affeaa-4d37-4e6d-bad8-47b5f57f0ce4.png",
+      "views": 83467,
+      "url": "https://modelscope.cn/mcp/servers/@worryzyy/howtocook-mcp"
+    },
+    {
+      "id": "@modelcontextprotocol/github",
+      "nameEn": "github",
+      "nameZh": "GitHub",
+      "nameAr": "",
+      "descEn": "MCP Server for the GitHub API, enabling file operations, repository management, search functionality, and more.",
+      "descZh": "用于GitHub API的MCP服务器，支持文件操作、仓库管理、搜索功能等更多功能。",
+      "descAr": "",
+      "categories": [
+        "version-control",
+        "file-systems",
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_71c6eb33-fe4a-4142-918f-34c3fe6e6d3a.png",
+      "views": 75062,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/github"
+    },
+    {
+      "id": "@modelcontextprotocol/filesystem",
+      "nameEn": "filesystem",
+      "nameZh": "文件系统",
+      "nameAr": "",
+      "descEn": "Node.js server implementing Model Context Protocol (MCP) for filesystem operations.",
+      "descZh": "实现用于文件系统操作的模型上下文协议（MCP）的 Node.js 服务器。",
+      "descAr": "",
+      "categories": [
+        "file-systems"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_6fa38c35-7f1b-479c-80fa-4a6903e59568.jpg",
+      "views": 71780,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/filesystem"
+    },
+    {
+      "id": "@modelcontextprotocol/sequentialthinking",
+      "nameEn": "sequentialthinking",
+      "nameZh": "Sequential Thinking",
+      "nameAr": "",
+      "descEn": "An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process.",
+      "descZh": "一种MCP服务器实现，它通过结构化的思维过程提供了一种动态且反射性的解决问题的工具。",
+      "descAr": "",
+      "categories": [
+        "research-and-data"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/modelcontextprotocol.png",
+      "views": 66746,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/sequentialthinking"
+    },
+    {
+      "id": "@microsoft/playwright-mcp",
+      "nameEn": "playwright-mcp",
+      "nameZh": "微软Playwright",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server that enables LLMs to interact with web pages through structured accessibility snapshots without requiring vision models or screenshots.",
+      "descZh": "一种模型上下文协议服务器，它使大型语言模型能够通过结构化的可访问性快照与网页交互，而无需使用视觉模型或截图。",
+      "descAr": "",
+      "categories": [
+        "browser-automation",
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/microsoft.png",
+      "views": 66506,
+      "url": "https://modelscope.cn/mcp/servers/@microsoft/playwright-mcp"
+    },
+    {
+      "id": "@tavily-ai/tavily-mcp",
+      "nameEn": "tavily-mcp",
+      "nameZh": "Tavily智搜",
+      "nameAr": "",
+      "descEn": "This server enables AI systems to integrate with Tavily's search and data extraction tools, providing real-time web information access and domain-specific searches.",
+      "descZh": "该服务器使AI系统能够与Tavily的搜索和数据提取工具集成，提供实时的网络信息访问和领域特定的搜索。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "browser-automation"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/tavily-ai.png",
+      "views": 64535,
+      "url": "https://modelscope.cn/mcp/servers/@tavily-ai/tavily-mcp"
+    },
+    {
+      "id": "@ChromeDevTools/chrome-devtools-mcp",
+      "nameEn": "chrome-devtools-mcp",
+      "nameZh": "Chrome开发者工具MCP",
+      "nameAr": "",
+      "descEn": "chrome-devtools-mcp lets your coding agent (such as Gemini, Claude, Cursor or Copilot) control and inspect a live Chrome browser.",
+      "descZh": "chrome-devtools-mcp 是一个工具，允许编码代理控制和检查实时的 Chrome 浏览器。它作为一个 MCP 服务器运行，提供对 Chrome DevTools 的完全访问权限，以实现自动化、调试和性能分析。",
+      "descAr": "",
+      "categories": [
+        "browser-automation"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/12024e82-58cd-431f-9038-77f3b25c2a61.png",
+      "views": 63796,
+      "url": "https://modelscope.cn/mcp/servers/@ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "id": "@upstash/context7-mcp",
+      "nameEn": "context7-mcp",
+      "nameZh": "MCP上下文模型文档",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server that fetches up-to-date, version-specific documentation and code examples from libraries directly into LLM prompts, helping developers get accurate answers without outdated or hallucinated information.",
+      "descZh": "一种模型上下文协议服务器，它从库中直接获取最新、特定版本的文档和代码示例并将其引入LLM提示中，帮助开发人员在无需过时或虚构信息的情况下获得准确的答案。",
+      "descAr": "",
+      "categories": [
+        "developer-tools",
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/upstash.png",
+      "views": 62287,
+      "url": "https://modelscope.cn/mcp/servers/@upstash/context7-mcp"
+    },
+    {
+      "id": "ZhipuAI/Zhipu-Web-Search",
+      "nameEn": "Zhipu-Web-Search",
+      "nameZh": "智谱联网搜索",
+      "nameAr": "",
+      "descEn": "Zhipu Web Search MCP Server is a search engine specifically designed for large models. It integrates four search engines, allowing users to flexibly compare and switch between them. Building upon the web crawling and ranking capabilities of traditional search engines, it enhances intent recognition capabilities, returning results more suitable for large model processing (such as webpage titles, URLs, summaries, site names, site icons, etc.). This helps AI applications achieve \"dynamic knowledge acquisition\" and \"precise scenario adaptation\" capabilities.",
+      "descZh": "智谱网络搜索MCP服务器是专为大模型设计的搜索引擎，整合了四种搜索引擎，可以让用户灵活对比和切换。在传统搜索引擎的网页爬取和排序能力基础上，增强意图识别能力，返回更适用于大模型处理的结果（如网页标题、网址、摘要、站点名称、站点图标等），帮助AI应用实现“动态知识获取”和“精准场景适配”的能力。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/af9e8d5f-0e30-4092-a9f8-c869bc868391.png",
+      "views": 54870,
+      "url": "https://modelscope.cn/mcp/servers/ZhipuAI/Zhipu-Web-Search"
+    },
+    {
+      "id": "@baidu-maps/mcp",
+      "nameEn": "mcp",
+      "nameZh": "百度地图",
+      "nameAr": "",
+      "descEn": "百度地图提供的MCP Server，包含10个符合MCP协议标准的API接口，涵盖逆地理编码、地点检索、路线规划等。",
+      "descZh": "百度地图提供的MCP Server，包含10个符合MCP协议标准的API接口，涵盖逆地理编码、地点检索、路线规划等。  \n\n（正文语言为中文，无需翻译）",
+      "descAr": "",
+      "categories": [
+        "location-services"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_e6ac53fa-6eec-4ba3-8fb1-c66b12b28a9a.png",
+      "views": 54063,
+      "url": "https://modelscope.cn/mcp/servers/@baidu-maps/mcp"
+    },
+    {
+      "id": "@modelcontextprotocol/time",
+      "nameEn": "time",
+      "nameZh": "时间服务",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server that provides time and timezone conversion capabilities. This server enables LLMs to get current time information and perform timezone conversions using IANA timezone names, with automatic system timezone detection.",
+      "descZh": "一个提供时间和时区转换功能的模型上下文协议服务器。该服务器使大型语言模型能够获取当前时间信息，并使用IANA时区名称进行时区转换，同时具备自动检测系统时区的功能。",
+      "descAr": "",
+      "categories": [
+        "calendar-management"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_ac639221-aa2e-4235-8087-abd65ab6ab73.jpg",
+      "views": 53130,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/time"
+    },
+    {
+      "id": "zephyr/douyin-mcp-server",
+      "nameEn": "douyin-mcp-server",
+      "nameZh": "抖音小助手（by 云中江树）",
+      "nameAr": "",
+      "descEn": "抖音运营助手，提取抖音无水印视频链接，视频文案， IP文案，素材文案，文案对标改写等。\n\n官方地址：https://github.com/yzfly/douyin-mcp-server",
+      "descZh": "抖音运营助手，用于提取抖音无水印视频链接、视频文案、IP文案、素材文案以及文案对标改写等功能。\n\n官方地址：https://github.com/yzfly/douyin-mcp-server",
+      "descAr": "",
+      "categories": [
+        "entertainment-and-media"
+      ],
+      "logo": "",
+      "views": 52425,
+      "url": "https://modelscope.cn/mcp/servers/zephyr/douyin-mcp-server"
+    },
+    {
+      "id": "@cantian-ai/Bazi-MCP",
+      "nameEn": "Bazi-MCP",
+      "nameZh": "八字MCP",
+      "nameAr": "",
+      "descEn": "Provide precise Bazi (Chinese Horoscope) knowledge to empower AI agents with accurate personality and destiny insights.",
+      "descZh": "为AI提供精准的八字排盘信息",
+      "descAr": "",
+      "categories": [
+        "entertainment-and-media",
+        "art-and-culture"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/a08d182b-91b6-46c2-b28c-e18ffc3cc106.png",
+      "views": 50622,
+      "url": "https://modelscope.cn/mcp/servers/@cantian-ai/Bazi-MCP"
+    },
+    {
+      "id": "metasota/metaso-search",
+      "nameEn": "metaso-search",
+      "nameZh": "秘塔AI搜索",
+      "nameAr": "",
+      "descEn": "MCP Service of Mitell AI Search\n\n## 1. 概述\n秘塔AI搜索的MCP（Multi-Cloud Platform）服务是一种多云平台解决方案，旨在帮助企业更高效地管理和利用来自不同云服务商的资源。通过MCP，用户可以轻松地在多个云环境之间迁移应用和服务，同时享受统一的管理和监控体验。\n\n## 2. 功能特点\n- **跨云管理**：支持对阿里云、腾讯云等主流云服务商的资源进行集中管理。\n- **自动化运维**：提供自动化的部署、更新和维护工具，简化日常运维工作。\n- **成本优化**：通过智能分析帮助用户识别并减少不必要的开支。\n- **安全性高**：采用先进的安全技术保护数据免受攻击。\n\n## 3. 快速开始\n### 3.1 创建账户\n访问[秘塔官网](https://www.mitell.com)注册账号，并按照指引完成身份验证流程。\n\n### 3.2 配置云服务\n登录后，在控制台中选择“添加云服务”，根据提示输入您的云服务提供商信息及相应的API密钥。\n\nplaintext\n例如：\n- 云服务提供商: 阿里云\n- API Key: your_api_key_here\n- Secret Key: your_secret_key_here\n\n\n### 3.3 使用MCP\n配置完成后，您就可以开始使用MCP的各项功能了。更多详细操作指南请参阅[官方文档](https://docs.mitell.com/mcp/)。\n\n## 4. 常见问题解答\n- **Q: MCP是否支持所有类型的云服务？**\n  A: 目前MCP主要支持市场上主流的IaaS和PaaS服务。对于特定需求，请联系客服获取更多信息。\n- **Q: 如何保证我的数据安全？**\n  A: 我们采用了包括但不限于加密传输、定期备份以及严格的访问控制在内的多种措施来确保您的信息安全。\n\n## 5. 联系我们\n如果您有任何疑问或需要进一步的帮助，请随时联系我们：\n- 客服邮箱: support@mitell.com\n- 官方网站: [https://www.mitell.com](https://www.mitell.com)\n\n---\n\n希望这份文档能够帮助您更好地了解和使用秘塔AI搜索的MCP服务！",
+      "descZh": "秘塔AI搜索的MCP服务",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "",
+      "views": 49818,
+      "url": "https://modelscope.cn/mcp/servers/metasota/metaso-search"
+    },
+    {
+      "id": "MChina/mcd_mcp_server",
+      "nameEn": "mcd_mcp_server",
+      "nameZh": "麦当劳MCP Server",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "other",
+        "calendar-management",
+        "location-services"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/f8d1d758-b73c-4e80-bca5-7c4bad5619d3.png",
+      "views": 47577,
+      "url": "https://modelscope.cn/mcp/servers/MChina/mcd_mcp_server"
+    },
+    {
+      "id": "@mendableai/firecrawl-mcp-server",
+      "nameEn": "firecrawl-mcp-server",
+      "nameZh": "FireCrawl网络抓取服务器",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol (MCP) server implementation that integrates with FireCrawl for advanced web scraping capabilities.",
+      "descZh": "一个模型上下文协议（MCP）服务器实现，它与FireCrawl集成以实现高级网络爬取功能。",
+      "descAr": "",
+      "categories": [
+        "browser-automation"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_a5ee45a5-d67c-488e-b5df-bd4be85643a5.png",
+      "views": 47563,
+      "url": "https://modelscope.cn/mcp/servers/@mendableai/firecrawl-mcp-server"
+    },
+    {
+      "id": "ddpenpal/pozansky-stock-server",
+      "nameEn": "pozansky-stock-server",
+      "nameZh": "股票K线分析MCP",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "finance",
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/507ae2d8-8f5f-427f-9ace-e0e7d29f3a8f.jpg",
+      "views": 45752,
+      "url": "https://modelscope.cn/mcp/servers/ddpenpal/pozansky-stock-server"
+    },
+    {
+      "id": "@open-dingtalk/dingtalk-mcp",
+      "nameEn": "dingtalk-mcp",
+      "nameZh": "钉钉MCP",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/a8605868-b41f-4826-b44c-272b4568b028.jpeg",
+      "views": 45589,
+      "url": "https://modelscope.cn/mcp/servers/@open-dingtalk/dingtalk-mcp"
+    },
+    {
+      "id": "@GLips/Figma-Context-MCP",
+      "nameEn": "Figma-Context-MCP",
+      "nameZh": "Figma",
+      "nameAr": "",
+      "descEn": "Framelink MCP for Figma Give your coding agent access to your Figma data.Implement designs in any framework in one-shot.",
+      "descZh": "此项目提供了一个模型上下文协议（MCP）服务器，允许像Cursor这样的AI编码工具访问和使用Figma设计数据。它简化了Figma API的响应，仅提供最相关的布局和样式信息，从而提高了AI生成代码的准确性。",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_533dd447-0a44-4f35-b723-0e331da31cde.png",
+      "views": 44738,
+      "url": "https://modelscope.cn/mcp/servers/@GLips/Figma-Context-MCP"
+    },
+    {
+      "id": "@negokaz/excel-mcp-server",
+      "nameEn": "excel-mcp-server",
+      "nameZh": "Excel文件服务",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server that enables AI assistants to read from and write to Microsoft Excel files, supporting formats like xlsx, xlsm, xltx, and xltm.",
+      "descZh": "一个模型上下文协议服务器，使人工智能助手能够读取和写入Microsoft Excel文件，支持xlsx、xlsm、xltx和xltm等格式。",
+      "descAr": "",
+      "categories": [
+        "file-systems"
+      ],
+      "logo": "",
+      "views": 42403,
+      "url": "https://modelscope.cn/mcp/servers/@negokaz/excel-mcp-server"
+    },
+    {
+      "id": "@MiniMax-AI/MiniMax-MCP",
+      "nameEn": "MiniMax-MCP",
+      "nameZh": "MiniMax",
+      "nameAr": "",
+      "descEn": "Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech and video/image generation APIs. This server allows MCP clients like Claude Desktop, Cursor, Windsurf, OpenAI Agents and others to generate speech, clone voices, generate video, generate image and more.",
+      "descZh": "官方 MiniMax 模型上下文协议 (MCP) 服务器，支持与强大的文本转语音和视频/图像生成 API 进行交互。该服务器允许Claude Desktop、Cursor、Windsurf、OpenAI Agents等 MCP 客户端生成语音、克隆声音、生成视频、生成图像等。",
+      "descAr": "",
+      "categories": [
+        "AIGC"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_4b0061a7-e072-48cc-ba12-df0cc1201ae0.jpeg",
+      "views": 42135,
+      "url": "https://modelscope.cn/mcp/servers/@MiniMax-AI/MiniMax-MCP"
+    },
+    {
+      "id": "@regenrek/mcp-deepwiki",
+      "nameEn": "mcp-deepwiki",
+      "nameZh": "Github的维基百科DeepWiKi",
+      "nameAr": "",
+      "descEn": "📖 MCP Server is used to fetch the latest knowledge from deepwiki.com and utilize it in Cursor and other code editors.",
+      "descZh": "📖 MCP 服务器用于获取 deepwiki.com 的最新知识，并在 Cursor 和其他代码编辑器中使用",
+      "descAr": "",
+      "categories": [
+        "search",
+        "knowledge-and-memory",
+        "research-and-data"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/a0450a13-31e0-48c1-9f61-51309894f02a.png",
+      "views": 37951,
+      "url": "https://modelscope.cn/mcp/servers/@regenrek/mcp-deepwiki"
+    },
+    {
+      "id": "@variflight-ai/variflight-mcp",
+      "nameEn": "variflight-mcp",
+      "nameZh": "飞常准-Aviation",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol (MCP) server implementation for VariFlight flight information services. This server provides various tools to query flight information, weather data, and flight comfort metrics.",
+      "descZh": "VariFlight航班信息服务的模型上下文协议（MCP）服务器实现方案。该服务器提供了多种工具，支持查询航班信息、天气数据及航班舒适度指标。",
+      "descAr": "",
+      "categories": [
+        "calendar-management",
+        "developer-tools",
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-prod/studio-cover_f25abcc8-4e80-4d9c-8944-a5de1db7eb8e.png",
+      "views": 37516,
+      "url": "https://modelscope.cn/mcp/servers/@variflight-ai/variflight-mcp"
+    },
+    {
+      "id": "Dennisyk348/TuriX-Computer-Use-Agent",
+      "nameEn": "TuriX-Computer-Use-Agent",
+      "nameZh": "TuriX电脑操作智能体",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "other",
+        "browser-automation"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/9525bc2f-8694-4a75-ac09-58921ffcfddf.png",
+      "views": 37013,
+      "url": "https://modelscope.cn/mcp/servers/Dennisyk348/TuriX-Computer-Use-Agent"
+    },
+    {
+      "id": "@package/mcp-server-weread",
+      "nameEn": "mcp-server-weread",
+      "nameZh": "微信读书",
+      "nameAr": "",
+      "descEn": "A tool that provides MCP (Model Context Protocol) services for WeChat Reading, enabling the sharing of books, notes, and highlighted text from WeChat Reading with large language model clients that support MCP, such as Claude Desktop.",
+      "descZh": "一个为微信读书提供MCP（Model Context Protocol）服务的工具，支持将微信读书的书籍、笔记和划线数据提供给支持MCP的大语言模型客户端，如Claude Desktop。",
+      "descAr": "",
+      "categories": [
+        "knowledge-and-memory"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/70b2d49b-7425-452d-ba3f-79a84a30ebf5.png",
+      "views": 36751,
+      "url": "https://modelscope.cn/mcp/servers/@package/mcp-server-weread"
+    },
+    {
+      "id": "MemTensor/MemoryOperatingSystem",
+      "nameEn": "MemoryOperatingSystem",
+      "nameZh": "MemOS 记忆操作系统",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "knowledge-and-memory"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/7e5668b2-a694-4d07-9e57-c4ef6b5a7029.png",
+      "views": 36364,
+      "url": "https://modelscope.cn/mcp/servers/MemTensor/MemoryOperatingSystem"
+    },
+    {
+      "id": "@baranwang/mcp-trends-hub",
+      "nameEn": "mcp-trends-hub",
+      "nameZh": "MCP 中文趋势聚合",
+      "nameAr": "",
+      "descEn": "A MCP server that aggregates hot trends and rankings from various Chinese websites and platforms including Weibo, Zhihu, Bilibili, and more.",
+      "descZh": "一个MCP服务器，聚合了来自新浪微博、知乎、Bilibili等中国各大网站和平台的热门趋势和排行榜。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "browser-automation"
+      ],
+      "logo": "",
+      "views": 34589,
+      "url": "https://modelscope.cn/mcp/servers/@baranwang/mcp-trends-hub"
+    },
+    {
+      "id": "@MrCare/mcp_tool",
+      "nameEn": "mcp_tool",
+      "nameZh": "天气查询工具",
+      "nameAr": "",
+      "descEn": "A minimalist weather query tool that lets you check global weather with just one sentence, perfectly integrated with Cursor editor.",
+      "descZh": "一个极简的天气查询工具，只需一句话即可查看全球天气，完美集成到Cursor编辑器中。",
+      "descAr": "",
+      "categories": [],
+      "logo": "",
+      "views": 33774,
+      "url": "https://modelscope.cn/mcp/servers/@MrCare/mcp_tool"
+    },
+    {
+      "id": "@XGenerationLab/xhs_mcp_server",
+      "nameEn": "xhs_mcp_server",
+      "nameZh": "小红书MCP发布器",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol (MCP) server to post xiaohongshu(rednote)",
+      "descZh": "一种用于发布小红书（红笔记）的模型上下文协议（MCP）服务器",
+      "descAr": "",
+      "categories": [
+        "art-and-culture"
+      ],
+      "logo": "https://img.alicdn.com/imgextra/i4/O1CN01wBl8wv1cqD5Dpfn4O_!!6000000003651-2-tps-1929-2007.png",
+      "views": 33619,
+      "url": "https://modelscope.cn/mcp/servers/@XGenerationLab/xhs_mcp_server"
+    },
+    {
+      "id": "@designcomputer/mysql_mcp_server",
+      "nameEn": "mysql_mcp_server",
+      "nameZh": "MySQL MCP 服务器",
+      "nameAr": "",
+      "descEn": "Allows AI assistants to list tables, read data, and execute SQL queries through a controlled interface, making database exploration and analysis safer and more structured.",
+      "descZh": "允许AI助手通过受控接口列出表、读取数据和执行SQL查询，使数据库的探索和分析更加安全和有结构。",
+      "descAr": "",
+      "categories": [
+        "databases"
+      ],
+      "logo": "",
+      "views": 33241,
+      "url": "https://modelscope.cn/mcp/servers/@designcomputer/mysql_mcp_server"
+    },
+    {
+      "id": "AgentBay/wuying-agentbay-mcp-server",
+      "nameEn": "wuying-agentbay-mcp-server",
+      "nameZh": "无影 Agent 开发套件 AgentBay",
+      "nameAr": "",
+      "descEn": "无影AgentBay是AI 时代的Agent云基础设施， 面向企业、开发者、AI厂商，提供可一键配置的AI Agent任务执行工具和执行环境。您可以通过无影API或AgentBay MCP Server快速集成，并调用相关工具获取Serverless服务。",
+      "descZh": "无影AgentBay是AI 时代的Agent云基础设施， 面向企业、开发者、AI厂商，提供可一键配置的AI Agent任务执行工具和执行环境。您可以通过无影API或AgentBay MCP Server快速集成，并调用相关工具获取Serverless服务。",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_97ce290c-1269-428f-87d0-f90f46f039a9.png",
+      "views": 31992,
+      "url": "https://modelscope.cn/mcp/servers/AgentBay/wuying-agentbay-mcp-server"
+    },
+    {
+      "id": "@GongRzhe/Office-Word-MCP-Server",
+      "nameEn": "Office-Word-MCP-Server",
+      "nameZh": "AI Word文档助手",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server that enables AI assistants to create, read, edit, and format Microsoft Word documents through standardized tools and resources.",
+      "descZh": "一个模型上下文协议服务器，它使人工智能助手能够通过标准化的工具和资源创建、读取、编辑和格式化Microsoft Word文档。",
+      "descAr": "",
+      "categories": [
+        "file-systems",
+        "note-taking"
+      ],
+      "logo": "",
+      "views": 31013,
+      "url": "https://modelscope.cn/mcp/servers/@GongRzhe/Office-Word-MCP-Server"
+    },
+    {
+      "id": "@blazickjp/arxiv-mcp-server",
+      "nameEn": "arxiv-mcp-server",
+      "nameZh": "ArXiv AI搜索服务",
+      "nameAr": "",
+      "descEn": "The ArXiv MCP Server bridges the gap between AI models and academic research by providing a sophisticated interface to arXiv's extensive research repository. This server enables AI assistants to perform precise paper searches and access full paper content, enhancing their ability to engage with scientific literature.",
+      "descZh": "ArXiv MCP服务器通过提供一个 sophisticated interface（ sophisticated接口）来连接arXiv庞大的研究资源库，从而弥合了人工智能模型与学术研究之间的差距。该服务器使人工智能助手能够进行精确的论文搜索并访问完整的论文内容，从而增强了它们与科学文献互动的能力。",
+      "descAr": "",
+      "categories": [
+        "research-and-data",
+        "search"
+      ],
+      "logo": "",
+      "views": 29922,
+      "url": "https://modelscope.cn/mcp/servers/@blazickjp/arxiv-mcp-server"
+    },
+    {
+      "id": "KUN03036/LLM_output_with_docxpdf_MCP_Agent_Challenge",
+      "nameEn": "LLM_output_with_docxpdf_MCP_Agent_Challenge",
+      "nameZh": "DOCX/PDF文档生成服务-MCP（MCP&Agent挑战赛）",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "other",
+        "knowledge-and-memory",
+        "file-systems"
+      ],
+      "logo": "",
+      "views": 28352,
+      "url": "https://modelscope.cn/mcp/servers/KUN03036/LLM_output_with_docxpdf_MCP_Agent_Challenge"
+    },
+    {
+      "id": "@mastergo-design/mastergo-magic-mcp",
+      "nameEn": "mastergo-magic-mcp",
+      "nameZh": "MasterGo设计协作工具",
+      "nameAr": "",
+      "descEn": "MasterGo Magic MCP is a standalone MCP (Model Context Protocol) service designed to connect MasterGo design tools with AI models. It enables AI models to directly retrieve DSL data from MasterGo design files.",
+      "descZh": "MasterGo Magic MCP 是一个独立的 MCP（模型上下文协议）服务，旨在将 MasterGo 设计工具与 AI 模型连接起来。它使 AI 模型能够直接从 MasterGo 设计文件中检索 DSL 数据。",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_10e23f96-0608-412b-9bda-40b1b740cc1a.png",
+      "views": 26441,
+      "url": "https://modelscope.cn/mcp/servers/@mastergo-design/mastergo-magic-mcp"
+    },
+    {
+      "id": "Launini/ChatPPT-MCP",
+      "nameEn": "ChatPPT-MCP",
+      "nameZh": "ChatPPT-MCP",
+      "nameAr": "",
+      "descEn": "ChatPPT​​ is an AI-powered presentation generation service that allows users to: - Generate PPTs ​​based on themes or requirements​​. - Upload documents​​ (e.g., Word, PDF) for automatic PPT creation.",
+      "descZh": "ChatPPT 是一个基于AI的演示文稿生成服务，允许用户根据主题或需求生成、上传和编辑PPT。它支持18种智能文档处理API，并可以通过Python、Node.js或可流式传输的HTTP来体验。",
+      "descAr": "",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/125fb451-e89d-4ea9-aee9-c731c12a3f51.png",
+      "views": 26204,
+      "url": "https://modelscope.cn/mcp/servers/Launini/ChatPPT-MCP"
+    },
+    {
+      "id": "Halfmm/sequentialthinking",
+      "nameEn": "sequentialthinking",
+      "nameZh": "顺序思考",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "browser-automation"
+      ],
+      "logo": "",
+      "views": 25862,
+      "url": "https://modelscope.cn/mcp/servers/Halfmm/sequentialthinking"
+    },
+    {
+      "id": "modelscope/ModelScope-Image-Generation-MCP",
+      "nameEn": "ModelScope-Image-Generation-MCP",
+      "nameZh": "ModelScope-Image-Generation-MCP",
+      "nameAr": "",
+      "descEn": "Support for using models on ModelScope for text-to-image generation.",
+      "descZh": "支持使用ModelScope上的模型进行文本到图像的生成。",
+      "descAr": "",
+      "categories": [
+        "aigc"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/0750ab4a-efde-4ee6-835a-ee1faa036594.png",
+      "views": 25614,
+      "url": "https://modelscope.cn/mcp/servers/modelscope/ModelScope-Image-Generation-MCP"
+    },
+    {
+      "id": "WEIAIb/mind-map-mcp",
+      "nameEn": "mind-map-mcp",
+      "nameZh": "思维导图 MCP",
+      "nameAr": "",
+      "descEn": "一个用于生成思维导图的 MCP (Model Context Protocol) 服务器。",
+      "descZh": "一个用于生成思维导图的 MCP (Model Context Protocol) 服务器。 \n\n看起来您的请求中没有提供具体的英文技术文档内容以供翻译。如果您能分享更多详细信息或具体段落，我将能够帮助您将其准确地翻译成中文，同时保留代码块、链接、格式结构和专业术语的准确性。请提供需要翻译的具体文本。",
+      "descAr": "",
+      "categories": [
+        "developer-tools",
+        "file-systems",
+        "communication"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/c5e95335-aaf0-4396-afbb-17db050ae542.png",
+      "views": 25394,
+      "url": "https://modelscope.cn/mcp/servers/WEIAIb/mind-map-mcp"
+    },
+    {
+      "id": "@zcaceres/markdownify-mcp",
+      "nameEn": "markdownify-mcp",
+      "nameZh": "转Markdown工具",
+      "nameAr": "",
+      "descEn": "Converts various file types and web content to Markdown format. It provides a set of tools to transform PDFs, images, audio files, web pages, and more into easily readable and shareable Markdown text.",
+      "descZh": "将各种文件类型和网页内容转换为Markdown格式。它提供了一套工具，可以将PDF、图像、音频文件、网页等转换为易读且易于分享的Markdown文本。",
+      "descAr": "",
+      "categories": [
+        "browser-automation",
+        "file-systems",
+        "developer-tools"
+      ],
+      "logo": "",
+      "views": 25166,
+      "url": "https://modelscope.cn/mcp/servers/@zcaceres/markdownify-mcp"
+    },
+    {
+      "id": "itshen/xsct-bench",
+      "nameEn": "xsct-bench",
+      "nameZh": "XSCT 模型选型 MCP",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "",
+      "views": 24789,
+      "url": "https://modelscope.cn/mcp/servers/itshen/xsct-bench"
+    },
+    {
+      "id": "Aasee1/open-webSearch",
+      "nameEn": "open-webSearch",
+      "nameZh": "OpenWebSearch 网络搜索 MCP 服务器",
+      "nameAr": "",
+      "descEn": "# Open-WebSearch MCP 服务器\n\n[English](./README.md)",
+      "descZh": "一个基于多引擎搜索结果的模型上下文协议(MCP)服务器，支持免费网络搜索，无需API密钥。它支持多个搜索引擎，并提供带有标题、URL和描述的结构化结果。",
+      "descAr": "",
+      "categories": [
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/87cc7d4b-3431-4156-8552-1ec18d75271c.png",
+      "views": 24647,
+      "url": "https://modelscope.cn/mcp/servers/Aasee1/open-webSearch"
+    },
+    {
+      "id": "@mem0ai/OpenMemory",
+      "nameEn": "OpenMemory",
+      "nameZh": "OpenMemory",
+      "nameAr": "",
+      "descEn": "OpenMemory is your personal memory layer for LLMs - private, portable, and open-source. Your memories live locally, giving you complete control over your data. Build AI applications with personalized memories while keeping your data secure.",
+      "descZh": "OpenMemory 是您的个人记忆层，适用于大型语言模型（LLM）——私有、便携且开源。您的记忆数据存储在本地，让您完全掌控自己的数据。在构建具有个性化记忆的AI应用程序的同时，确保您的数据安全。",
+      "descAr": "",
+      "categories": [
+        "Knowledge&Memory"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/6a92b62f-fb85-4410-abb1-25b15dafa354.png",
+      "views": 24449,
+      "url": "https://modelscope.cn/mcp/servers/@mem0ai/OpenMemory"
+    },
+    {
+      "id": "@tokenizin-agency/mcp-npx-fetch",
+      "nameEn": "mcp-npx-fetch",
+      "nameZh": "内容抓取转换器",
+      "nameAr": "",
+      "descEn": "A powerful MCP server for fetching and transforming web content into various formats (HTML, JSON, Markdown, Plain Text) with ease.",
+      "descZh": "一个强大的MCP服务器，可以轻松地将网页内容抓取并转换为各种格式（HTML、JSON、Markdown、纯文本）。",
+      "descAr": "",
+      "categories": [
+        "browser-automation"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/tokenizin-agency.png",
+      "views": 24268,
+      "url": "https://modelscope.cn/mcp/servers/@tokenizin-agency/mcp-npx-fetch"
+    },
+    {
+      "id": "@zhiwei5576/excel-mcp-server",
+      "nameEn": "excel-mcp-server",
+      "nameZh": "Excel-MCP服务",
+      "nameAr": "",
+      "descEn": "Enables seamless reading, writing, and analyzing of Excel files through Model Context Protocol, with features for worksheet management, structure analysis, and automated caching.",
+      "descZh": "通过模型上下文协议（Model Context Protocol）， enables 无缝读取、写入和分析 Excel 文件，具有工作表管理、结构分析和自动缓存等功能。",
+      "descAr": "",
+      "categories": [
+        "file-systems",
+        "developer-tools"
+      ],
+      "logo": "",
+      "views": 24002,
+      "url": "https://modelscope.cn/mcp/servers/@zhiwei5576/excel-mcp-server"
+    },
+    {
+      "id": "Alobak/automation-xhs",
+      "nameEn": "automation-xhs",
+      "nameZh": "小红书一站式自动化MCP（10月17可用）",
+      "nameAr": "",
+      "descEn": "Xiaohongshu MCP Service,\n1. Supports automatic publishing\n2. Supports searching for notes\n3. Supports analyzing note content\n4. Supports multi-account management\n5. Supports pre-publishing (publish after manual review)\n6. Supports directing traffic to specific notes via comments, supports @mentioning specific users\n\nSupports MCP, API calls",
+      "descZh": "小红书mcp服务，\n1. 支持自动发布\n2. 支持搜索笔记\n3. 支持分析笔记内容\n4. 支持多账户管理\n5. 支持预发布（人工审核后发布）\n6. 支持评论特定笔记引流，支持@指定人\n\n支持mcp，api调用",
+      "descAr": "",
+      "categories": [
+        "browser-automation",
+        "entertainment-and-media"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/076cbec9-9156-4108-936d-99da7362f10a.png",
+      "views": 23794,
+      "url": "https://modelscope.cn/mcp/servers/Alobak/automation-xhs"
+    },
+    {
+      "id": "/mcp-playwright",
+      "nameEn": "mcp-playwright",
+      "nameZh": "Playwright浏览器自动化工具",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a real browser environment.",
+      "descZh": "一个使用 Playwright 提供浏览器自动化功能的模型上下文协议服务器。此服务器使大型语言模型（LLMs）能够与网页交互、截屏以及在真实的浏览器环境中执行 JavaScript。",
+      "descAr": "",
+      "categories": [
+        "browser-automation"
+      ],
+      "logo": "",
+      "views": 23506,
+      "url": "https://modelscope.cn/mcp/servers//mcp-playwright"
+    },
+    {
+      "id": "AdrianWangs/MinerU",
+      "nameEn": "MinerU",
+      "nameZh": "MinerU：文档解析器(PDF/Word/PPT/图片)",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "file-systems",
+        "developer-tools",
+        "knowledge-and-memory"
+      ],
+      "logo": "",
+      "views": 22509,
+      "url": "https://modelscope.cn/mcp/servers/AdrianWangs/MinerU"
+    },
+    {
+      "id": "@jinzcdev/markmap-mcp-server",
+      "nameEn": "markmap-mcp-server",
+      "nameZh": "MarkMap-MCP服务器",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server that converts Markdown text to interactive mind maps with support for rich interactive operations and multi-format exports.",
+      "descZh": "一个模型上下文协议服务器，可将Markdown文本转换为支持丰富交互操作和多格式导出的交互式思维导图。",
+      "descAr": "",
+      "categories": [
+        "developer-tools",
+        "content-management-systems"
+      ],
+      "logo": "",
+      "views": 21887,
+      "url": "https://modelscope.cn/mcp/servers/@jinzcdev/markmap-mcp-server"
+    },
+    {
+      "id": "rockcj/Docx_MCP",
+      "nameEn": "Docx_MCP",
+      "nameZh": "word文档编辑mcp全面升级版(支持本地和web上传)",
+      "nameAr": "",
+      "descEn": "A powerful Word document processing MCP service that provides a complete document processing solution, including document structure extraction, content modification, and cloud storage integration. It supports features such as downloading documents from URLs, batch content modification, and automatic uploading to Alibaba Cloud OSS. The service is fully compatible with the MCP protocol and can be seamlessly integrated into various AI assistants.",
+      "descZh": "一个功能强大的 Word 文档处理 MCP 服务，提供文档结构提取、内容修改、云存储集成等完整的文档处理解决方案。支持从URL下载文档、批量修改内容、自动上传到阿里云OSS等功能，完全兼容MCP协议，可无缝集成到各种AI助手中。",
+      "descAr": "",
+      "categories": [
+        "file-systems"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/837d7fcd-b531-43f4-969f-43dc1af4583a.png",
+      "views": 21086,
+      "url": "https://modelscope.cn/mcp/servers/rockcj/Docx_MCP"
+    },
+    {
+      "id": "@PsychArch/Jina-AI-MCP-Tools",
+      "nameEn": "Jina-AI-MCP-Tools",
+      "nameZh": "Jina-AI-MCP-Tools",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol (MCP) server that integrates with . This MCP server provides access to the following Jina AI APIs: - Web Reader - Extract content from web pages using r.jina.",
+      "descZh": "一个与Jina AI搜索基础API集成的模型上下文协议（MCP）服务器，提供网页阅读和搜索功能。",
+      "descAr": "",
+      "categories": [
+        "Search"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/3981b5de-be7a-4134-9ced-488018601ebc.png",
+      "views": 20785,
+      "url": "https://modelscope.cn/mcp/servers/@PsychArch/Jina-AI-MCP-Tools"
+    },
+    {
+      "id": "@modelcontextprotocol/redis",
+      "nameEn": "redis",
+      "nameZh": "Redis数据库",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server that provides access to Redis databases. This server enables LLMs to interact with Redis key-value stores through a set of standardized tools.",
+      "descZh": "一个提供访问Redis数据库的模型上下文协议服务器。该服务器通过一系列标准化工具使大语言模型能够与Redis键值存储进行交互。",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_2e30f8dc-57ac-47c3-a1d4-ae99e41bbaed.png",
+      "views": 20643,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/redis"
+    },
+    {
+      "id": "@deckflow/gezhe-mcp-server",
+      "nameEn": "gezhe-mcp-server",
+      "nameZh": "歌者PPT",
+      "nameAr": "",
+      "descEn": "AI-powered presentation creation",
+      "descZh": "由人工智能驱动的演示文稿创建",
+      "descAr": "",
+      "categories": [
+        "AIGC"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/0242c547-e0a6-4fd7-a636-59aea5ce6cb1.png",
+      "views": 20119,
+      "url": "https://modelscope.cn/mcp/servers/@deckflow/gezhe-mcp-server"
+    },
+    {
+      "id": "@ahujasid/blender-mcp",
+      "nameEn": "blender-mcp",
+      "nameZh": "Blender",
+      "nameAr": "",
+      "descEn": "Connects Blender to Claude AI through the Model Context Protocol (MCP), allowing Claude to directly interact with and control Blender for AI-assisted 3D modeling, scene manipulation, and rendering.",
+      "descZh": "通过模型上下文协议（MCP）将Blender连接到Claude AI，使Claude能够直接与Blender交互并对其进行控制，从而实现AI辅助的3D建模、场景操作和渲染。",
+      "descAr": "",
+      "categories": [
+        "image-and-video-processing",
+        "developer-tools",
+        "other"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_075663ba-3797-4876-9667-b7bd3a7bcc84.jpg",
+      "views": 20014,
+      "url": "https://modelscope.cn/mcp/servers/@ahujasid/blender-mcp"
+    },
+    {
+      "id": "@allvoicelab/AllVoiceLab",
+      "nameEn": "AllVoiceLab",
+      "nameZh": "趣丸千音",
+      "nameAr": "",
+      "descEn": "Official AllVoiceLab Model Context Protocol (MCP) server, supporting interaction with powerful text-to-speech and video translation APIs. Enables MCP clients like Claude Desktop, Cursor, Windsurf, OpenAI Agents to generate speech, translate videos, and perform intelligent voice conversion.",
+      "descZh": "官方 AllVoiceLab 模型上下文协议(MCP)服务器，支持与强大的文本转语音和视频翻译API交互。允许MCP客户端如Claude Desktop、Cursor、Windsurf、OpenAI Agents等生成语音、翻译视频、智能变声等功能。",
+      "descAr": "",
+      "categories": [
+        "entertainment-and-media",
+        "art-and-culture"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/16b32714-6fb0-4eef-b574-aa57a47878fb.png",
+      "views": 19932,
+      "url": "https://modelscope.cn/mcp/servers/@allvoicelab/AllVoiceLab"
+    },
+    {
+      "id": "@wopal-cn/mcp-hotnews-server",
+      "nameEn": "mcp-hotnews-server",
+      "nameZh": "热闻社媒服务",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server that provides real-time hot trending topics from major Chinese social platforms and news sites.",
+      "descZh": "一个模型上下文协议服务器，提供来自主要中文社交平台和新闻网站的实时热门话题。",
+      "descAr": "",
+      "categories": [
+        "social-media",
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/wopal-cn.png",
+      "views": 19891,
+      "url": "https://modelscope.cn/mcp/servers/@wopal-cn/mcp-hotnews-server"
+    },
+    {
+      "id": "@giptilabs/mcp-stock-analysis",
+      "nameEn": "mcp-stock-analysis",
+      "nameZh": "MCP股票分析",
+      "nameAr": "",
+      "descEn": "Provides access to real-time and historical Indian stock data via Yahoo Finance API, enabling local LLMs to retrieve stock information through MCP-compatible agents like Claude Desktop and Cursor.",
+      "descZh": "通过Yahoo Finance API提供对实时和历史印度股票数据的访问，使本地LLM能够通过与MCP兼容的代理（如Claude Desktop和Cursor）检索股票信息。",
+      "descAr": "",
+      "categories": [
+        "finance",
+        "search"
+      ],
+      "logo": "",
+      "views": 19507,
+      "url": "https://modelscope.cn/mcp/servers/@giptilabs/mcp-stock-analysis"
+    },
+    {
+      "id": "postback/china-stock-mcp",
+      "nameEn": "china-stock-mcp",
+      "nameZh": "中国股票数据MCP",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "finance"
+      ],
+      "logo": "",
+      "views": 19153,
+      "url": "https://modelscope.cn/mcp/servers/postback/china-stock-mcp"
+    },
+    {
+      "id": "@TencentEdgeOne/edgeone-pages-mcp",
+      "nameEn": "edgeone-pages-mcp",
+      "nameZh": "EdgeOne Pages",
+      "nameAr": "",
+      "descEn": "An MCP service for deploying HTML content to EdgeOne Pages and obtaining a publicly accessible URL.",
+      "descZh": "基于 EdgeOne Pages 的 MCP 服务器，支持代码部署为在线页面。",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn//mcp-covers/avatar/TencentEdgeOne.jpeg",
+      "views": 18591,
+      "url": "https://modelscope.cn/mcp/servers/@TencentEdgeOne/edgeone-pages-mcp"
+    },
+    {
+      "id": "@exa-labs/exa-mcp-server",
+      "nameEn": "exa-mcp-server",
+      "nameZh": "Exa搜索",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API for web searches. This setup allows AI models to get real-time web information in a safe and controlled way.",
+      "descZh": "模型上下文协议（MCP）服务器让像克劳德这样的AI助手可以使用Exa AI搜索API进行网络搜索。这种设置使AI模型能够以安全和受控的方式获取实时网络信息。",
+      "descAr": "",
+      "categories": [
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/exa-labs.png",
+      "views": 18407,
+      "url": "https://modelscope.cn/mcp/servers/@exa-labs/exa-mcp-server"
+    },
+    {
+      "id": "yorklu/AI_Go_Hotel_MCP",
+      "nameEn": "AI_Go_Hotel_MCP",
+      "nameZh": "道旅RollingGo酒店MCP",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "search",
+        "developer-tools",
+        "location-services"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/c35f7272-7f8a-4fba-86a2-a25bd43588ea.png",
+      "views": 18389,
+      "url": "https://modelscope.cn/mcp/servers/yorklu/AI_Go_Hotel_MCP"
+    },
+    {
+      "id": "@modelcontextprotocol/knowledge-graph-memory-server",
+      "nameEn": "knowledge-graph-memory-server",
+      "nameZh": "知识图谱记忆",
+      "nameAr": "",
+      "descEn": "A basic implementation of persistent memory using a local knowledge graph. This lets Claude remember information about the user across chats.",
+      "descZh": "使用本地知识图谱实现持久内存的基本方法。这使得Claude能够在多次聊天中记住用户的相关信息。",
+      "descAr": "",
+      "categories": [
+        "knowledge-and-memory"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/modelcontextprotocol.png",
+      "views": 18084,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/knowledge-graph-memory-server"
+    },
+    {
+      "id": "@modelcontextprotocol/brave-search",
+      "nameEn": "brave-search",
+      "nameZh": "Brave搜索",
+      "nameAr": "",
+      "descEn": "An MCP server implementation that integrates the Brave Search API, providing both web and local search capabilities.",
+      "descZh": "一个集成了Brave Search API的MCP服务器实现，提供网页和本地搜索功能。",
+      "descAr": "",
+      "categories": [
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_0d3bee45-492b-499d-9f44-b5b32a0e5ce8.png",
+      "views": 17520,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/brave-search"
+    },
+    {
+      "id": "@supabase-community/supabase-mcp",
+      "nameEn": "supabase-mcp",
+      "nameZh": "",
+      "nameAr": "",
+      "descEn": "> Connect your Supabase projects to Cursor, Claude, Windsurf, and other AI assistants. The (MCP) standardizes how Large Language Models (LLMs) talk to external services like Supabase.",
+      "descZh": "Supabase MCP（模型上下文协议）服务器将您的Supabase项目连接到AI助手，使它们能够管理表、获取配置和查询数据。它支持多种功能，如只读模式、项目范围限定和功能组。",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/48d5a74f-4ce0-47ed-98d9-2311ca56e4a4.jpeg",
+      "views": 17128,
+      "url": "https://modelscope.cn/mcp/servers/@supabase-community/supabase-mcp"
+    },
+    {
+      "id": "@elastic/mcp-server-elasticsearch",
+      "nameEn": "mcp-server-elasticsearch",
+      "nameZh": "Elasticsearch",
+      "nameAr": "",
+      "descEn": "Connects Claude and other MCP clients to Elasticsearch data, allowing users to interact with their Elasticsearch indices through natural language conversations.",
+      "descZh": "将Claude和其他MCP客户端连接到Elasticsearch数据，允许用户通过自然语言对话与其Elasticsearch索引进行交互。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "databases"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/elastic.png",
+      "views": 16578,
+      "url": "https://modelscope.cn/mcp/servers/@elastic/mcp-server-elasticsearch"
+    },
+    {
+      "id": "@wukan1986/query_table",
+      "nameEn": "query_table",
+      "nameZh": "QueryTable 股票数据查询工具",
+      "nameAr": "",
+      "descEn": "A web scraper for financial table data that implements the Model Context Protocol, allowing users to query stock data from multiple Chinese financial websites including THS, TDX, and EastMoney.",
+      "descZh": "一个实现了模型上下文协议的金融表格数据网络爬虫，允许用户从多个中国金融网站（包括同花顺、通达信和东方财富）查询股票数据。",
+      "descAr": "",
+      "categories": [
+        "finance",
+        "browser-automation",
+        "search"
+      ],
+      "logo": "",
+      "views": 16562,
+      "url": "https://modelscope.cn/mcp/servers/@wukan1986/query_table"
+    },
+    {
+      "id": "@NeekChaw/okppt",
+      "nameEn": "okppt",
+      "nameZh": "搞定ppt",
+      "nameAr": "",
+      "descEn": "#This project is a creative solution enabling large language models (like Claude, GPT, etc.) to autonomously design PowerPoint presentations. By allowing AI to generate SVG images and using this tool to insert them full-screen into PPT slides, we've successfully achieved AI's complete control over PPT design without directly manipulating the complex PPT object model.",
+      "descZh": "此项目是让大型语言模型（如Claude、GPT等）能够自主设计PowerPoint演示文稿的\"曲线救国\"解决方案。通过让AI生成SVG图像，再借助本工具将其全屏插入PPT幻灯片，我们成功实现了AI完全控制PPT设计的能力，而无需直接操作复杂的PPT对象模型。",
+      "descAr": "",
+      "categories": [
+        "communication",
+        "research-and-data"
+      ],
+      "logo": "",
+      "views": 16533,
+      "url": "https://modelscope.cn/mcp/servers/@NeekChaw/okppt"
+    },
+    {
+      "id": "mcpdev/gaokao-expert-mcp",
+      "nameEn": "gaokao-expert-mcp",
+      "nameZh": "全国高考志愿填报助手MCP",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "knowledge-and-memory",
+        "search",
+        "research-and-data"
+      ],
+      "logo": "",
+      "views": 16532,
+      "url": "https://modelscope.cn/mcp/servers/mcpdev/gaokao-expert-mcp"
+    },
+    {
+      "id": "TianYanCha/tyc-mcp",
+      "nameEn": "tyc-mcp",
+      "nameZh": "天眼查MCP",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "finance",
+        "search",
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/dd09b25d-0a9e-4d82-b34b-39c9ec5b6fa3.jpeg",
+      "views": 15791,
+      "url": "https://modelscope.cn/mcp/servers/TianYanCha/tyc-mcp"
+    },
+    {
+      "id": "@modelcontextprotocol/puppeteer",
+      "nameEn": "puppeteer",
+      "nameZh": "Puppeteer浏览器自动化",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server that provides browser automation capabilities using Puppeteer. This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a real browser environment.",
+      "descZh": "一个使用Puppeteer提供浏览器自动化功能的Model Context Protocol服务器。此服务器使LLM能够与网页交互、截屏以及在真实的浏览器环境中执行JavaScript。",
+      "descAr": "",
+      "categories": [
+        "browser-automation"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_aefa5ea6-7938-479f-bffb-0ad5609607f4.png",
+      "views": 15756,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/puppeteer"
+    },
+    {
+      "id": "Alipay/alipay-subscription",
+      "nameEn": "alipay-subscription",
+      "nameZh": "AI订阅付费组件",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "finance"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/c9e49ac6-649e-4626-8aa7-3d95a8e68c43.png",
+      "views": 15594,
+      "url": "https://modelscope.cn/mcp/servers/Alipay/alipay-subscription"
+    },
+    {
+      "id": "@modelcontextprotocol/everything",
+      "nameEn": "everything",
+      "nameZh": "MCP官方示例",
+      "nameAr": "",
+      "descEn": "This MCP server attempts to exercise all the features of the MCP protocol. It is not intended to be a useful server, but rather a test server for builders of MCP clients. It implements prompts, tools, resources, sampling, and more to showcase MCP capabilities.",
+      "descZh": "这个MCP服务器试图运用MCP协议的所有功能。它并不是一个实用的服务器，而是为MCP客户端开发者提供的测试服务器。它实现了提示、工具、资源、采样等功能，以展示MCP的能力。",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_b7b44d22-e3c5-42af-b350-a4af1debc333.png",
+      "views": 15261,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/everything"
+    },
+    {
+      "id": "tianyuio/worldbank-mcp",
+      "nameEn": "worldbank-mcp",
+      "nameZh": "World Bank MCP - 世界银行 MCP",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "search",
+        "finance",
+        "research-and-data"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/714a51dd-c5a3-4f1c-8292-53e77edae222.png",
+      "views": 14908,
+      "url": "https://modelscope.cn/mcp/servers/tianyuio/worldbank-mcp"
+    },
+    {
+      "id": "@mamertofabian/mcp-everything-search",
+      "nameEn": "mcp-everything-search",
+      "nameZh": "Everything搜索",
+      "nameAr": "",
+      "descEn": "This server provides:\n\n* Fast file search capabilities using Everything SDK\n* Windows-specific implementation\n* Complements existing filesystem servers with specialized search functionality",
+      "descZh": "该服务器提供：\n\n* 使用Everything SDK的快速文件搜索功能\n* 针对Windows的具体实现\n* 通过专用搜索功能补充现有的文件系统服务器",
+      "descAr": "",
+      "categories": [
+        "file-systems",
+        "search"
+      ],
+      "logo": "",
+      "views": 14764,
+      "url": "https://modelscope.cn/mcp/servers/@mamertofabian/mcp-everything-search"
+    },
+    {
+      "id": "@browserbase/mcp-server-browserbase",
+      "nameEn": "mcp-server-browserbase",
+      "nameZh": "BrowserBase云浏览器自动化",
+      "nameAr": "",
+      "descEn": "This server provides cloud browser automation capabilities using Browserbase, Puppeteer, and Stagehand. This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment.",
+      "descZh": "该服务器使用 Browserbase、Puppeteer 和 Stagehand 提供云浏览器自动化功能。此服务器使大型语言模型（LLMs）能够与网页交互、截屏以及在云浏览器环境中执行 JavaScript。",
+      "descAr": "",
+      "categories": [
+        "browser-automation"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/browserbase.png",
+      "views": 14499,
+      "url": "https://modelscope.cn/mcp/servers/@browserbase/mcp-server-browserbase"
+    },
+    {
+      "id": "@UnionPay/unionpay-mcp-server",
+      "nameEn": "unionpay-mcp-server",
+      "nameZh": "银联MCP支付服务",
+      "nameAr": "",
+      "descEn": "The MCP Server provided by the UnionPay Open Platform allows you to easily integrate transaction creation, query, refund, and other capabilities offered by the UnionPay Open Platform into your LLM applications, enabling you to further develop intelligent tools with payment functionalities.",
+      "descZh": "银联开放平台提供的MCP服务器，可以帮助您轻松地将银联开放平台的交易创建、查询、退款等能力集成到您的LLM应用中，让您进一步开发带有支付功能的智能工具。",
+      "descAr": "",
+      "categories": [
+        "finance"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/6a3eac2d-f5db-4bbb-919c-f33a84d3b204.png",
+      "views": 13536,
+      "url": "https://modelscope.cn/mcp/servers/@UnionPay/unionpay-mcp-server"
+    },
+    {
+      "id": "Arsene/jimenggen-mcp",
+      "nameEn": "jimenggen-mcp",
+      "nameZh": "图片视频生成MCP(即梦AI)",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "entertainment-and-media",
+        "art-and-culture",
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/57a64291-0ee1-42c6-8367-c26b58c7c3fb",
+      "views": 13401,
+      "url": "https://modelscope.cn/mcp/servers/Arsene/jimenggen-mcp"
+    },
+    {
+      "id": "@Ozamatash/deep-research-mcp",
+      "nameEn": "deep-research-mcp",
+      "nameZh": "深度调研-MCP",
+      "nameAr": "",
+      "descEn": "Enables iterative deep research by integrating AI agents with search engines, web scraping, and large language models for efficient data gathering and comprehensive reporting.",
+      "descZh": "通过将人工智能代理与搜索引擎、网络爬虫和大型语言模型集成，实现迭代深入研究，以高效收集数据并进行全面报告。",
+      "descAr": "",
+      "categories": [
+        "research-and-data",
+        "browser-automation",
+        "search"
+      ],
+      "logo": "",
+      "views": 13271,
+      "url": "https://modelscope.cn/mcp/servers/@Ozamatash/deep-research-mcp"
+    },
+    {
+      "id": "@modelcontextprotocol/git",
+      "nameEn": "git",
+      "nameZh": "Git",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server for Git repository interaction and automation. This server provides tools to read, search, and manipulate Git repositories via Large Language Models.",
+      "descZh": "一个用于Git仓库交互和自动化的模型上下文协议服务器。该服务器提供工具，可通过大型语言模型读取、搜索和操作Git仓库。",
+      "descAr": "",
+      "categories": [
+        "version-control"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_78961bb5-6d67-4c9d-91bf-4735f0f5ae37.png",
+      "views": 13231,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/git"
+    },
+    {
+      "id": "@21st-dev/magic-mcp",
+      "nameEn": "magic-mcp",
+      "nameZh": "智能组件生成器",
+      "nameAr": "",
+      "descEn": "An AI-powered tool that generates modern UI components from natural language descriptions, integrating with popular IDEs to streamline UI development workflow.",
+      "descZh": "一个由人工智能驱动的工具，可以从自然语言描述生成现代UI组件，并与流行的IDE集成，以简化UI开发工作流程。",
+      "descAr": "",
+      "categories": [
+        "developer-tools",
+        "image-and-video-processing"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/21st-dev.png",
+      "views": 12999,
+      "url": "https://modelscope.cn/mcp/servers/@21st-dev/magic-mcp"
+    },
+    {
+      "id": "@modelcontextprotocol/gitlab",
+      "nameEn": "gitlab",
+      "nameZh": "GitLab版本控制工具",
+      "nameAr": "",
+      "descEn": "The GitLab API's MCP server supports more features such as project management, file operations, and more.",
+      "descZh": "GitLab API的MCP服务器，支持项目管理、文件操作等更多功能。",
+      "descAr": "",
+      "categories": [
+        "version-control"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_ef6e0ecc-062f-49fe-8ec0-dae015dcbec1.png",
+      "views": 12768,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/gitlab"
+    },
+    {
+      "id": "@DataV-Atlas/atlas-tools-mcp-server",
+      "nameEn": "atlas-tools-mcp-server",
+      "nameZh": "DataV-Atlas地理可视化",
+      "nameAr": "",
+      "descEn": "DataV Atlas MCP service is a geospatial data visualization MCP service provided by the Alibaba Cloud DataV team. It offers large-scale model visual analytics capabilities for geospatial data, including geospatial data processing, geospatial data generation, geospatial visualization layout algorithms, and geospatial visualization encoding tools.",
+      "descZh": "DataV Atlas MCP服务是阿里云DataV团队提供的地理空间数据可视化MCP服务，提供地理空间数据的大模型可视分析能力，包含地理空间数据处理、地理空间数据生成、地理空间可视化布局算法、地理空间可视化编码工具等。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "developer-tools",
+        "location-services",
+        "AIGC"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/22aca491-c43b-4fc4-a7b7-7e54afff4d99.png",
+      "views": 12619,
+      "url": "https://modelscope.cn/mcp/servers/@DataV-Atlas/atlas-tools-mcp-server"
+    },
+    {
+      "id": "@manimohans/verge-news-mcp",
+      "nameEn": "verge-news-mcp",
+      "nameZh": "Verge新闻获取器",
+      "nameAr": "",
+      "descEn": "Provides tools to fetch and search news from The Verge's RSS feed, allowing users to get today's news, retrieve random articles from the past week, and search for specific keywords in recent Verge content.",
+      "descZh": "提供从The Verge的RSS源获取和搜索新闻的工具，允许用户获取当天的新闻、检索过去一周的随机文章以及在近期的Verge内容中搜索特定关键词。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "browser-automation",
+        "entertainment-and-media"
+      ],
+      "logo": "",
+      "views": 12607,
+      "url": "https://modelscope.cn/mcp/servers/@manimohans/verge-news-mcp"
+    },
+    {
+      "id": "haymai/fxbaogao",
+      "nameEn": "fxbaogao",
+      "nameZh": "发现报告",
+      "nameAr": "",
+      "descEn": "The Discovery Report is a professional research report search platform. It comprehensively covers the search and reading of related research reports including industry analysis, company research, macro strategies, financial reports, and prospectuses.",
+      "descZh": "发现报告是专业研报搜索平台。全面覆盖行业分析、公司研究、宏观策略、财报、招股书等研究报告的相关搜索和阅读。",
+      "descAr": "",
+      "categories": [
+        "finance",
+        "research-and-data",
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/56c6bbdd-6615-4389-b1db-4aacaeca78b4.jpg",
+      "views": 12263,
+      "url": "https://modelscope.cn/mcp/servers/haymai/fxbaogao"
+    },
+    {
+      "id": "@afrise/academic-search-mcp-server",
+      "nameEn": "academic-search-mcp-server",
+      "nameZh": "学术搜索助手",
+      "nameAr": "",
+      "descEn": "Enables real-time search and retrieval of academic paper information from multiple sources, providing access to paper metadata, abstracts, and full-text content when available, with structured data responses for integration with AI models that support tool/function calling.",
+      "descZh": "启用从多个来源实时搜索和检索学术论文信息的功能，提供对论文元数据、摘要和全文内容（如有可用）的访问，并以结构化数据响应的形式提供，以便与支持工具/功能调用的AI模型进行集成。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "research-and-data"
+      ],
+      "logo": "",
+      "views": 12025,
+      "url": "https://modelscope.cn/mcp/servers/@afrise/academic-search-mcp-server"
+    },
+    {
+      "id": "@Geeksfino/kb-mcp-server",
+      "nameEn": "kb-mcp-server",
+      "nameZh": "知识库MCP服务",
+      "nameAr": "",
+      "descEn": "An MCP server aimed to be portable, local, easy and convenient to support semantic/graph based retrieval of txtai \"all in one\" embeddings database. Any txtai embeddings db in tar.gz form can be loaded",
+      "descZh": "一个便携式、本地化、简单便捷的MCP服务器，用于支持txtai“一体化”嵌入式数据库的语义/图谱检索。任何以tar.gz形式存在的txtai嵌入式数据库都可以被加载。",
+      "descAr": "",
+      "categories": [
+        "knowledge-and-memory",
+        "search",
+        "research-and-data"
+      ],
+      "logo": "",
+      "views": 11952,
+      "url": "https://modelscope.cn/mcp/servers/@Geeksfino/kb-mcp-server"
+    },
+    {
+      "id": "kuaidi100/kuaidi100-mcp",
+      "nameEn": "kuaidi100-mcp",
+      "nameZh": "快递100 MCP Server",
+      "nameAr": "",
+      "descEn": "The Express100 MCP Server provides functions such as querying express delivery information, comparing and estimating express delivery costs, and checking delivery times (including pre-shipment delivery time inquiries and in-transit dynamic delivery time inquiries).",
+      "descZh": "快递100 MCP Server提供快递信息查询、快递运费预估比价、快递时效查询（含发货前时效查询与在途动态时效查询）等功能。",
+      "descAr": "",
+      "categories": [
+        "other",
+        "search",
+        "browser-automation",
+        "communication",
+        "developer-tools",
+        "entertainment-and-media",
+        "file-systems",
+        "finance",
+        "knowledge-and-memory",
+        "location-services",
+        "art-and-culture",
+        "research-and-data",
+        "calendar-management"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/2215808c-f281-47c2-9db9-cb3ba0496c03.png",
+      "views": 11601,
+      "url": "https://modelscope.cn/mcp/servers/kuaidi100/kuaidi100-mcp"
+    },
+    {
+      "id": "@shanggqm/hefeng-mcp-weather",
+      "nameEn": "hefeng-mcp-weather",
+      "nameZh": "和风天气",
+      "nameAr": "",
+      "descEn": "Provides weather forecast data for locations in China using the HeFeng Weather API, with real-time, hourly, or daily forecasts and location-based queries.",
+      "descZh": "使用和风天气API为中国地区的地点提供天气预报数据，包括实时、逐小时或逐日的预报以及基于位置的查询。",
+      "descAr": "",
+      "categories": [
+        "location-services",
+        "travel-and-transportation"
+      ],
+      "logo": "",
+      "views": 11538,
+      "url": "https://modelscope.cn/mcp/servers/@shanggqm/hefeng-mcp-weather"
+    },
+    {
+      "id": "DannyWong/real-time-stock-mcp",
+      "nameEn": "real-time-stock-mcp",
+      "nameZh": "实时股票分析 MCP 服务",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "finance"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/4c20d589-efae-4860-869f-c7ccb23bd6a7.png",
+      "views": 11397,
+      "url": "https://modelscope.cn/mcp/servers/DannyWong/real-time-stock-mcp"
+    },
+    {
+      "id": "virgo777/Stock-Quant-Calculator-MCP",
+      "nameEn": "Stock-Quant-Calculator-MCP",
+      "nameZh": "股票量化支撑点位计算器",
+      "nameAr": "",
+      "descEn": "Based on the Qwen3 inference engine, the stock quant agent calculates the support levels for a specific stock when it is declining and provides recommendations. Detailed usage instructions can be obtained through the \"Query Operation Manual\" built into the MCP platform.\nFor the web version, please log in at: http://49.235.53.176:929\nFor detailed usage instructions on the Qwen3-powered quantitative trading agent with advanced reasoning capabilities for stock market analysis, please refer to the MCP Query Cookbook accessible via the platform's built-in documentation system.",
+      "descZh": "基于Qwen3推理引擎的股票量化智能体，计算特定股票下跌时的介入支撑位，并提供建议。\n其详细使用方法可通过MCP平台内置的《查询操作手册》获取。\n网页版请登录：http://49.235.53.176:929\nFor detailed usage instructions on the Qwen3-powered quantitative trading agent with advanced reasoning capabilities for stock market analysis, please refer to the MCP Query Cookbook accessible via the platform's built-in documentation system.",
+      "descAr": "",
+      "categories": [
+        "communication",
+        "finance"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/685e8f5f-6509-44e7-a600-d6d3724fb669.jpg",
+      "views": 11287,
+      "url": "https://modelscope.cn/mcp/servers/virgo777/Stock-Quant-Calculator-MCP"
+    },
+    {
+      "id": "@modelcontextprotocol/sqlite",
+      "nameEn": "sqlite",
+      "nameZh": "SQLite",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol (MCP) server implementation that provides database interaction and business intelligence capabilities through SQLite. This server enables running SQL queries, analyzing business data, and automatically generating business insight memos.",
+      "descZh": "一种模型上下文协议（MCP）服务器实现，通过SQLite提供数据库交互和商业智能功能。该服务器支持运行SQL查询、分析业务数据以及自动生成业务洞察备忘录。",
+      "descAr": "",
+      "categories": [
+        "databases",
+        "research-and-data",
+        "other"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_493192d0-fbad-49ca-bd67-11a78cb5270b.png",
+      "views": 11018,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/sqlite"
+    },
+    {
+      "id": "@chenningling/Redbook-Search-Comment-MCP2.0",
+      "nameEn": "Redbook-Search-Comment-MCP2.0",
+      "nameZh": "小红书自动搜索评论工具",
+      "nameAr": "",
+      "descEn": "This is an automated Xiaohongshu (Redbook) search and comment tool developed using Playwright. As an MCP Server, it can be integrated with MCP Client (e.g., Claude for Desktop) through specific configurations. It helps users automatically log in to Xiaohongshu, search for keywords, retrieve note content, and post AI-generated comments.",
+      "descZh": "这是一款基于 Playwright 开发的小红书自动搜索和评论工具，作为 MCP Server，可通过特定配置接入 MCP Client（如Claude for Desktop），帮助用户自动完成登录小红书、搜索关键词、获取笔记内容及发布AI生成评论等操作。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "browser-automation",
+        "entertainment-and-media"
+      ],
+      "logo": "",
+      "views": 10284,
+      "url": "https://modelscope.cn/mcp/servers/@chenningling/Redbook-Search-Comment-MCP2.0"
+    },
+    {
+      "id": "@chatmcp/mcp-server-flomo",
+      "nameEn": "mcp-server-flomo",
+      "nameZh": "MCP Flomo笔记助手",
+      "nameAr": "",
+      "descEn": "A TypeScript-based MCP server to help you write notes into Flomo.",
+      "descZh": "一个基于 TypeScript 的 MCP 服务器，帮助您将笔记写入 Flomo。",
+      "descAr": "",
+      "categories": [
+        "knowledge-and-memory"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_2ee48488-82a8-445c-80be-b5fb5223c6ed.png",
+      "views": 9834,
+      "url": "https://modelscope.cn/mcp/servers/@chatmcp/mcp-server-flomo"
+    },
+    {
+      "id": "mcpdev/search_movie",
+      "nameEn": "search_movie",
+      "nameZh": "电影搜索工具",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "entertainment-and-media",
+        "art-and-culture"
+      ],
+      "logo": "",
+      "views": 9590,
+      "url": "https://modelscope.cn/mcp/servers/mcpdev/search_movie"
+    },
+    {
+      "id": "FKWD123/RedBook_auxiliary_fuction",
+      "nameEn": "RedBook_auxiliary_fuction",
+      "nameZh": "小红书辅助功能",
+      "nameAr": "",
+      "descEn": "Help users quickly complete the entire process from account creation to content generation and compliance checks.",
+      "descZh": "帮助用户快速完成从账号打造到内容生成、合规检测的全流程操作。",
+      "descAr": "",
+      "categories": [
+        "entertainment-and-media"
+      ],
+      "logo": "",
+      "views": 9474,
+      "url": "https://modelscope.cn/mcp/servers/FKWD123/RedBook_auxiliary_fuction"
+    },
+    {
+      "id": "@CodeByWaqas/weather-mcp-server",
+      "nameEn": "weather-mcp-server",
+      "nameZh": "实时天气MCP服务器",
+      "nameAr": "",
+      "descEn": "An MCP server that provides real-time weather information including temperature, humidity, wind speed, and sunrise/sunset times through the OpenWeatherMap API.",
+      "descZh": "一个通过OpenWeatherMap API提供实时天气信息（包括温度、湿度、风速和日出/日落时间）的MCP服务器。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "other"
+      ],
+      "logo": "",
+      "views": 9294,
+      "url": "https://modelscope.cn/mcp/servers/@CodeByWaqas/weather-mcp-server"
+    },
+    {
+      "id": "@Yevanchen/difyapp_as_mcp_server",
+      "nameEn": "difyapp_as_mcp_server",
+      "nameZh": "Dify MCP服务",
+      "nameAr": "",
+      "descEn": "Exposes Dify applications (both Chatflow and Workflow) as MCP (Model Context Protocol) servers, allowing Claude and other MCP clients to directly interact with Dify apps through a standardized protocol.",
+      "descZh": "将Dify应用程序（包括Chatflow和Workflow）作为MCP（模型上下文协议）服务器进行暴露，允许Claude和其他MCP客户端通过标准化协议直接与Dify应用交互。",
+      "descAr": "",
+      "categories": [
+        "communication",
+        "developer-tools"
+      ],
+      "logo": "",
+      "views": 9214,
+      "url": "https://modelscope.cn/mcp/servers/@Yevanchen/difyapp_as_mcp_server"
+    },
+    {
+      "id": "virgo777/Stock-Quant-Agent",
+      "nameEn": "Stock-Quant-Agent",
+      "nameZh": "用于股票量化计算的智能体",
+      "nameAr": "",
+      "descEn": "Based on the Qwen3 inference engine, the detailed usage method for the stock quantification agent can be obtained through the \"Query Operation Manual\" built into the MCP platform.\n\nFor detailed usage instructions on the Qwen3-powered quantitative trading agent with advanced reasoning capabilities for stock market analysis, please refer to the MCP Query Cookbook accessible via the platform's built-in documentation system.",
+      "descZh": "基于Qwen3推理引擎的股票量化智能体，其详细使用方法可通过MCP平台内置的《查询操作手册》获取。\n\nFor detailed usage instructions on the Qwen3-powered quantitative trading agent with advanced reasoning capabilities for stock market analysis, please refer to the MCP Query Cookbook accessible via the platform's built-in documentation system.",
+      "descAr": "",
+      "categories": [
+        "finance",
+        "search",
+        "knowledge-and-memory",
+        "developer-tools",
+        "communication",
+        "entertainment-and-media",
+        "file-systems"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/012cf0df-0f98-4ec7-9324-185023880d0f.jpg",
+      "views": 9208,
+      "url": "https://modelscope.cn/mcp/servers/virgo777/Stock-Quant-Agent"
+    },
+    {
+      "id": "@loonghao/wecom-bot-mcp-server",
+      "nameEn": "wecom-bot-mcp-server",
+      "nameZh": "企业微信机器人消息服务器",
+      "nameAr": "",
+      "descEn": "A server for sending messages via WeCom bots using FastMCP, supporting asynchronous communication and message tracking through webhooks.",
+      "descZh": "一个使用FastMCP通过企业微信机器人发送消息的服务器，支持通过Webhook进行异步通信和消息追踪。",
+      "descAr": "",
+      "categories": [
+        "communication"
+      ],
+      "logo": "",
+      "views": 8793,
+      "url": "https://modelscope.cn/mcp/servers/@loonghao/wecom-bot-mcp-server"
+    },
+    {
+      "id": "@ipfred/aiwen-mcp-server-geoip",
+      "nameEn": "aiwen-mcp-server-geoip",
+      "nameZh": "埃文IP定位MCP",
+      "nameAr": "",
+      "descEn": "Aiwen Mcp Server Geoip , quickly query IP and determine user location",
+      "descZh": "埃文科技IP定位MCP，提供高精度的IP定位服务，快速查询IP地址相关信息和确定用户位置",
+      "descAr": "",
+      "categories": [
+        "location-services"
+      ],
+      "logo": "",
+      "views": 8589,
+      "url": "https://modelscope.cn/mcp/servers/@ipfred/aiwen-mcp-server-geoip"
+    },
+    {
+      "id": "@sdd330/feishu-mcp-server",
+      "nameEn": "feishu-mcp-server",
+      "nameZh": "MCP飞书服务",
+      "nameAr": "",
+      "descEn": "An MCP-based service that enables AI models to seamlessly interact with Feishu (Lark) platform, supporting document reading and chatbot messaging capabilities.",
+      "descZh": "一种基于MCP的服务，使人工智能模型能够与飞书（Lark）平台无缝交互，支持文档阅读和聊天机器人消息功能。",
+      "descAr": "",
+      "categories": [
+        "communication"
+      ],
+      "logo": "",
+      "views": 8544,
+      "url": "https://modelscope.cn/mcp/servers/@sdd330/feishu-mcp-server"
+    },
+    {
+      "id": "@ppl-ai/modelcontextprotocol",
+      "nameEn": "modelcontextprotocol",
+      "nameZh": "Perplexity Ask",
+      "nameAr": "",
+      "descEn": "A MCP server implementation that integrates the Sonar API, providing Claude with unparalleled real-time, full-network research capabilities.",
+      "descZh": "一种MCP服务器实现，它集成了Sonar API，为克劳德提供了无与伦比的实时、全网研究能力。",
+      "descAr": "",
+      "categories": [
+        "search"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_90ca73da-c981-4ecc-9631-2c094a42bfef.png",
+      "views": 8542,
+      "url": "https://modelscope.cn/mcp/servers/@ppl-ai/modelcontextprotocol"
+    },
+    {
+      "id": "codeyijun/excel-mcp-server",
+      "nameEn": "excel-mcp-server",
+      "nameZh": "",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "communication"
+      ],
+      "logo": "",
+      "views": 8448,
+      "url": "https://modelscope.cn/mcp/servers/codeyijun/excel-mcp-server"
+    },
+    {
+      "id": "@modelcontextprotocol/google-maps",
+      "nameEn": "google-maps",
+      "nameZh": "谷歌地图",
+      "nameAr": "",
+      "descEn": "MCP Server for the Google Maps API.",
+      "descZh": "Google Maps API 的 MCP 服务器。",
+      "descAr": "",
+      "categories": [
+        "location-services"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_b5db6529-3335-452a-a494-346dc28fee56.png",
+      "views": 8126,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/google-maps"
+    },
+    {
+      "id": "@chatmcp/mcp-server-chatsum",
+      "nameEn": "mcp-server-chatsum",
+      "nameZh": "MCP聊天摘要",
+      "nameAr": "",
+      "descEn": "Summarizes your chat messages.",
+      "descZh": "总结你的聊天信息。",
+      "descAr": "",
+      "categories": [
+        "other"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/chatmcp.png",
+      "views": 7558,
+      "url": "https://modelscope.cn/mcp/servers/@chatmcp/mcp-server-chatsum"
+    },
+    {
+      "id": "@haris-musa/excel-mcp-server",
+      "nameEn": "excel-mcp-server",
+      "nameZh": "Excel服务器",
+      "nameAr": "",
+      "descEn": "Provides Excel file manipulation capabilities. This server enables workbook creation, data manipulation, formatting, and advanced Excel features.",
+      "descZh": "提供对Excel文件的操纵功能。此服务器启用工作簿创建、数据操纵、格式设置和高级Excel功能。",
+      "descAr": "",
+      "categories": [
+        "developer-tools",
+        "databases",
+        "other"
+      ],
+      "logo": "",
+      "views": 7012,
+      "url": "https://modelscope.cn/mcp/servers/@haris-musa/excel-mcp-server"
+    },
+    {
+      "id": "@vivekVells/mcp-pandoc",
+      "nameEn": "mcp-pandoc",
+      "nameZh": "文档转换工具",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server that enables document format conversion between different formats like markdown, HTML, PDF, DOCX, RST, LaTeX, and EPUB while preserving formatting and structure.",
+      "descZh": "一种模型上下文协议服务器，能够在保留格式和结构的同时，实现不同格式（如 Markdown、HTML、PDF、DOCX、RST、LaTeX 和 EPUB）之间的文档格式转换。",
+      "descAr": "",
+      "categories": [
+        "file-systems",
+        "other"
+      ],
+      "logo": "",
+      "views": 6976,
+      "url": "https://modelscope.cn/mcp/servers/@vivekVells/mcp-pandoc"
+    },
+    {
+      "id": "@mobvoi/mobvoi-mcp",
+      "nameEn": "mobvoi-mcp",
+      "nameZh": "mobvoi-mcp",
+      "nameAr": "",
+      "descEn": "Official Mobvoi Model Context Protocol (MCP) server that enables interaction with Mobvoi powerful Text to Speech, Voice Clone, Photo-Driven Avatar,  Video Dubbing, Video Translation APIs. This server allows MCP clients like Cursor, Claude Desktop, Cline, Windsurf, OpenAI Agent and other Client to call tools to generate speech, clone voices, photo drive avatar, video dubbing, video translation and more.",
+      "descZh": "官方的Mobvoi模型上下文协议（MCP）服务器，能够与Mobvoi强大的文本转语音、声音克隆、照片驱动虚拟形象、视频配音、视频翻译API进行交互。该服务器允许MCP客户端（如Cursor、Claude Desktop、Cline、Windsurf、OpenAI Agent及其他客户端）调用工具来生成语音、克隆声音、照片驱动虚拟形象、视频配音、视频翻译等更多功能。",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/eb29e78d-ca27-4768-a0bc-dd3084a3e029.png",
+      "views": 6599,
+      "url": "https://modelscope.cn/mcp/servers/@mobvoi/mobvoi-mcp"
+    },
+    {
+      "id": "linkun56/GaodeMapMCPServer",
+      "nameEn": "GaodeMapMCPServer",
+      "nameZh": "高德地图 MCP Server",
+      "nameAr": "",
+      "descEn": "该高德地图 MCP Server 发布在 。 本服务提供以下工具： 将一个高德经纬度坐标转换为行政区划地址信息 参数： - location: 经纬度坐标 将详细的结构化地址转换为经纬度坐标。支持对地标性名胜景区、建筑物名称解析为经纬度坐标 参数： - address: 结构化地址 - city (可选): 指定查询的城市 IP 定位根据用户输入的 IP 地址，定位 IP 的所在位置 参数： - ip: IP地址 根据城市名称或者标准adcode查",
+      "descZh": "这是一个高德地图MCP服务器，提供地理编码、IP定位、天气查询、路线规划（骑行、步行、驾车和公共交通）、距离测量以及POI搜索等工具。",
+      "descAr": "",
+      "categories": [
+        "location-services"
+      ],
+      "logo": "https://resouces.modelscope.cn/mcp-server-cover/186b2e12-5ab6-4a31-9afe-3a5df4a9d6f8",
+      "views": 6349,
+      "url": "https://modelscope.cn/mcp/servers/linkun56/GaodeMapMCPServer"
+    },
+    {
+      "id": "@suekou/mcp-notion-server",
+      "nameEn": "mcp-notion-server",
+      "nameZh": "Notion MCP",
+      "nameAr": "",
+      "descEn": "MCP Server for the Notion API, enabling Claude to interact with Notion workspaces.",
+      "descZh": "用于Notion API的MCP服务器，使Claude能够与Notion工作区进行交互。",
+      "descAr": "",
+      "categories": [
+        "note-taking",
+        "developer-tools"
+      ],
+      "logo": "",
+      "views": 6170,
+      "url": "https://modelscope.cn/mcp/servers/@suekou/mcp-notion-server"
+    },
+    {
+      "id": "@FelixFoster/enhance-prompt-server",
+      "nameEn": "enhance-prompt-server",
+      "nameZh": "提示词增强",
+      "nameAr": "",
+      "descEn": "Accepts a simple keyword, phrase, or initial brief prompt and enhances it into a detailed, high-quality prompt. This tool elevates minimal input by adding structure, context, and specificity, transforming basic ideas into effective prompts optimized for generating better and more predictable results from AI models.",
+      "descZh": "接受简单的关键词、短语或初始简短提示，并将其增强为详细、高质量的提示。此工具通过添加结构、上下文和具体性来提升最低限度的输入，将基本想法转化为有效的提示，并进行优化，以便从 AI 模型中生成更好、更可预测的结果。",
+      "descAr": "",
+      "categories": [
+        "AIGC",
+        "art-and-culture"
+      ],
+      "logo": "",
+      "views": 5636,
+      "url": "https://modelscope.cn/mcp/servers/@FelixFoster/enhance-prompt-server"
+    },
+    {
+      "id": "deeppathai/mcp-chinese-fortune",
+      "nameEn": "mcp-chinese-fortune",
+      "nameZh": "算命大师",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "art-and-culture"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/8c21b5c7-8d3a-427c-a0a3-39b59868a17a.png",
+      "views": 5534,
+      "url": "https://modelscope.cn/mcp/servers/deeppathai/mcp-chinese-fortune"
+    },
+    {
+      "id": "@thirdstrandstudio/mcp-figma",
+      "nameEn": "mcp-figma",
+      "nameZh": "Figma MCP API工具",
+      "nameAr": "",
+      "descEn": "Figma MCP with full API functionality",
+      "descZh": "语言类型：英语  \n翻译结果：具有完整API功能的Figma MCP",
+      "descAr": "",
+      "categories": [
+        "art-and-culture",
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/thirdstrandstudio.png",
+      "views": 5037,
+      "url": "https://modelscope.cn/mcp/servers/@thirdstrandstudio/mcp-figma"
+    },
+    {
+      "id": "@Kuaizi/Kuaizi-MCP",
+      "nameEn": "Kuaizi-MCP",
+      "nameZh": "Kuaizi-视频创作",
+      "nameAr": "",
+      "descEn": "Kuaizi MCP Server has created a seamless integration of LLM Agents and the capabilities of the Kuaizi SaaS platform.  Through six core service interfaces, it empowers the commercial video production process in all aspects.  From AI script generation, Lingguangsuo creative mining, Zhijing video structure analysis, to one-click automatic synthesis of finished videos, intelligent slicing of long videos and multi-language AI dubbing, we provide users with end-to-end video content production solutions.",
+      "descZh": "Kuaizi MCP Server 打造了LLM Agent与Kuaizi SaaS平台能力的无缝融合，通过6大核心服务接口，全方位赋能商业视频制作流程。从AI脚本生成、灵光索创意挖掘、智镜视频结构解析，到一键成片自动合成、长视频智能切片及多语言AI配音，为用户提供端到端的视频内容生产解决方案。",
+      "descAr": "",
+      "categories": [
+        "entertainment-and-media",
+        "art-and-culture"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-prod/studio-cover_7be5ca79-43a0-49e3-a4da-9d0abb6de4df.jpg",
+      "views": 4918,
+      "url": "https://modelscope.cn/mcp/servers/@Kuaizi/Kuaizi-MCP"
+    },
+    {
+      "id": "@modelcontextprotocol/slack",
+      "nameEn": "slack",
+      "nameZh": "Slack",
+      "nameAr": "",
+      "descEn": "MCP Server for the Slack API, enabling Claude to interact with Slack workspaces.",
+      "descZh": "用于Slack API的MCP服务器，使Claude能够与Slack工作区进行交互。",
+      "descAr": "",
+      "categories": [
+        "communication"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_481f03bd-3b9f-4da7-b7a1-eb89a5c76d5e.png",
+      "views": 4347,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/slack"
+    },
+    {
+      "id": "@yting27/weather-my-mcp",
+      "nameEn": "weather-my-mcp",
+      "nameZh": "MCP天气预报服务",
+      "nameAr": "",
+      "descEn": "Model Context Protocol (MCP) server that provides weather forecast, warnings, water level associated with flood, and earthquake reports from Malaysia Government's Open API.",
+      "descZh": "提供与洪水相关的水位、天气预报、警报以及地震报告的模型上下文协议（MCP）服务器，数据来源于马来西亚政府的开放API。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "location-services"
+      ],
+      "logo": "",
+      "views": 4188,
+      "url": "https://modelscope.cn/mcp/servers/@yting27/weather-my-mcp"
+    },
+    {
+      "id": "mcpdev/bilibili_api",
+      "nameEn": "bilibili_api",
+      "nameZh": "B站API服务器",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "entertainment-and-media",
+        "art-and-culture",
+        "research-and-data"
+      ],
+      "logo": "",
+      "views": 4065,
+      "url": "https://modelscope.cn/mcp/servers/mcpdev/bilibili_api"
+    },
+    {
+      "id": "@abhiz123/todoist-mcp-server",
+      "nameEn": "todoist-mcp-server",
+      "nameZh": "Todoist-MCP 服务器（待办事项自然语言管理工具）",
+      "nameAr": "",
+      "descEn": "An MCP server that integrates Claude with Todoist, enabling natural language task management including creating, updating, completing, and deleting tasks.",
+      "descZh": "一个集成了Claude与Todoist的MCP服务器，支持使用自然语言进行任务管理，包括创建、更新、完成和删除任务。",
+      "descAr": "",
+      "categories": [
+        "note-taking",
+        "calendar-management"
+      ],
+      "logo": "",
+      "views": 4045,
+      "url": "https://modelscope.cn/mcp/servers/@abhiz123/todoist-mcp-server"
+    },
+    {
+      "id": "dingtalk/Weather-query",
+      "nameEn": "Weather-query",
+      "nameZh": "天气查询",
+      "nameAr": "",
+      "descEn": "Check the global weather anytime and anywhere, from real-time conditions to future forecasts all at your fingertips.",
+      "descZh": "随时随地查询全球天气，从实时状况到未来预报一手掌握。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "knowledge-and-memory",
+        "location-services"
+      ],
+      "logo": "https://i01.lw.aliimg.com/media/lALPM3Zr6yRbPzPNAljNAlg_600_600.png",
+      "views": 4016,
+      "url": "https://modelscope.cn/mcp/servers/dingtalk/Weather-query"
+    },
+    {
+      "id": "laiyelijingao/Agentic_Document_Processing_MCP",
+      "nameEn": "Agentic_Document_Processing_MCP",
+      "nameZh": "智能体文档处理 MCP",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "communication",
+        "knowledge-and-memory",
+        "developer-tools"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/9529142f-0420-4e53-9bff-2a5bed5a337e.png",
+      "views": 3542,
+      "url": "https://modelscope.cn/mcp/servers/laiyelijingao/Agentic_Document_Processing_MCP"
+    },
+    {
+      "id": "@cloudflare/workers-mcp",
+      "nameEn": "workers-mcp",
+      "nameZh": "Cloudflare Workers MCP连接器",
+      "nameAr": "",
+      "descEn": "A package that connects Claude Desktop and other MCP clients to Cloudflare Workers, enabling custom functionality to be accessed via natural language through the Model Context Protocol.",
+      "descZh": "一个将 Claude Desktop 和其他 MCP 客户端连接到 Cloudflare Workers 的软件包，通过模型上下文协议（Model Context Protocol）， enables 自定义功能可以通过自然语言访问。",
+      "descAr": "",
+      "categories": [
+        "developer-tools",
+        "cloud-platforms"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/cloudflare.png",
+      "views": 3515,
+      "url": "https://modelscope.cn/mcp/servers/@cloudflare/workers-mcp"
+    },
+    {
+      "id": "mcpdev/airbnb_search",
+      "nameEn": "airbnb_search",
+      "nameZh": "Airbnb搜索扩展",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "search",
+        "entertainment-and-media",
+        "calendar-management"
+      ],
+      "logo": "",
+      "views": 3469,
+      "url": "https://modelscope.cn/mcp/servers/mcpdev/airbnb_search"
+    },
+    {
+      "id": "mcpdev/AI-persona",
+      "nameEn": "AI-persona",
+      "nameZh": "AI人格服务器",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "entertainment-and-media",
+        "art-and-culture",
+        "calendar-management"
+      ],
+      "logo": "",
+      "views": 3297,
+      "url": "https://modelscope.cn/mcp/servers/mcpdev/AI-persona"
+    },
+    {
+      "id": "@neondatabase-labs/mcp-server-neon",
+      "nameEn": "mcp-server-neon",
+      "nameZh": "Neon数据库",
+      "nameAr": "",
+      "descEn": "Lets you use Claude Desktop, or any MCP Client, to use natural language to accomplish things with [Neon](https://neon.tech/).",
+      "descZh": "让你能够使用 Claude Desktop 或任何 MCP 客户端，通过自然语言来使用 [Neon](https://neon.tech/) 完成任务。",
+      "descAr": "",
+      "categories": [
+        "databases"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/neondatabase-labs.png",
+      "views": 3245,
+      "url": "https://modelscope.cn/mcp/servers/@neondatabase-labs/mcp-server-neon"
+    },
+    {
+      "id": "@wllcnm/dingding_mcp_v2",
+      "nameEn": "dingding_mcp_v2",
+      "nameZh": "钉钉MCP服务器",
+      "nameAr": "",
+      "descEn": "A Model Control Protocol server for integrating with DingTalk, enabling users to send messages, retrieve conversation/user information, and query calendar events through Claude.",
+      "descZh": "一种用于与钉钉集成的模型控制协议服务器，允许用户通过克劳德发送消息、检索会话/用户信息以及查询日历事件。",
+      "descAr": "",
+      "categories": [
+        "communication",
+        "calendar-management"
+      ],
+      "logo": "",
+      "views": 3233,
+      "url": "https://modelscope.cn/mcp/servers/@wllcnm/dingding_mcp_v2"
+    },
+    {
+      "id": "@ahujasid/ableton-mcp",
+      "nameEn": "ableton-mcp",
+      "nameZh": "Ableton",
+      "nameAr": "",
+      "descEn": "Connects Ableton Live to Claude AI through the Model Context Protocol, enabling AI-assisted music production by allowing Claude to directly interact with and control Ableton Live sessions.",
+      "descZh": "通过模型上下文协议将Ableton Live与Claude AI连接起来，通过允许Claude直接与Ableton Live会话交互和控制，实现人工智能辅助的音乐制作。",
+      "descAr": "",
+      "categories": [
+        "entertainment-and-media",
+        "os-automation"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_4f162c8b-eb82-4634-9d86-61981b735e3c.jpg",
+      "views": 2932,
+      "url": "https://modelscope.cn/mcp/servers/@ahujasid/ableton-mcp"
+    },
+    {
+      "id": "mcpdev/time_zone",
+      "nameEn": "time_zone",
+      "nameZh": "时区管理服务器",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "knowledge-and-memory",
+        "calendar-management"
+      ],
+      "logo": "",
+      "views": 2670,
+      "url": "https://modelscope.cn/mcp/servers/mcpdev/time_zone"
+    },
+    {
+      "id": "harykali/7daysfoodHelperV3.0",
+      "nameEn": "7daysfoodHelperV3.0",
+      "nameZh": "七日餐饮助手3.0（MCP&Agent挑战赛）",
+      "nameAr": "",
+      "descEn": "",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "calendar-management",
+        "art-and-culture",
+        "knowledge-and-memory"
+      ],
+      "logo": "",
+      "views": 2656,
+      "url": "https://modelscope.cn/mcp/servers/harykali/7daysfoodHelperV3.0"
+    },
+    {
+      "id": "@microsoft/MarkItDown",
+      "nameEn": "MarkItDown",
+      "nameZh": "MarkItDown",
+      "nameAr": "",
+      "descEn": "MarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to textract, but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant to be consumed by text analysis tools -- and may not be the best option for high-fidelity document conversions for human consumption.",
+      "descZh": "MarkItDown 是一款轻量级的 Python 工具，可以将各种文件转换为 Markdown 格式，适用于与 LLMs 及相关文本分析流程配合使用。与 textract 类似，它更专注于保留文档的重要结构和内容作为 Markdown（包括：标题、列表、表格、链接等）。尽管输出通常易于阅读且适合人类阅读，但其主要面向文本分析工具，可能不是为人类阅读而进行高保真文档转换的最佳选择。",
+      "descAr": "",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "",
+      "views": 2640,
+      "url": "https://modelscope.cn/mcp/servers/@microsoft/MarkItDown"
+    },
+    {
+      "id": "@modelcontextprotocol/gdrive",
+      "nameEn": "gdrive",
+      "nameZh": "谷歌云盘文件管理器",
+      "nameAr": "",
+      "descEn": "This MCP server integrates with Google Drive to allow listing, reading, and searching over files.",
+      "descZh": "该MCP服务器与Google Drive集成，以允许列出、读取和搜索文件。",
+      "descAr": "",
+      "categories": [
+        "research-and-data"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_bbbedf4b-06fa-4b63-a558-c00938e8ee65.png",
+      "views": 2301,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/gdrive"
+    },
+    {
+      "id": "@Ejb503/systemprompt-mcp-google",
+      "nameEn": "systemprompt-mcp-google",
+      "nameZh": "Google MCP服务",
+      "nameAr": "",
+      "descEn": "A specialized Model Context Protocol (MCP) server that integrates Google services (Gmail, Calendar, etc.) into your AI workflows. This server enables seamless access to Google services through MCP, allowing AI agents to interact with Gmail, Google Calendar, and other Google services.",
+      "descZh": "一种专门的模型上下文协议（MCP）服务器，可将谷歌服务（如Gmail、日历等）集成到您的AI工作流中。该服务器通过MCP实现与谷歌服务的无缝接入，使AI代理能够与Gmail、谷歌日历和其他谷歌服务进行交互。",
+      "descAr": "",
+      "categories": [
+        "calendar-management",
+        "communication",
+        "other"
+      ],
+      "logo": "",
+      "views": 2161,
+      "url": "https://modelscope.cn/mcp/servers/@Ejb503/systemprompt-mcp-google"
+    },
+    {
+      "id": "Mic752/ResearchArxivPaper-WithMcp-Mic",
+      "nameEn": "ResearchArxivPaper-WithMcp-Mic",
+      "nameZh": "搜论文Arxiv 袁明伟 (MCP&Agent挑战赛) 班级群2",
+      "nameAr": "",
+      "descEn": "Based on the arXiv Open API for Paper Search\n\n---\n\n## Introduction\narXiv 是一个用于发布科学论文的开放存取库，涵盖了物理学、数学、计算机科学等多个领域。通过使用 arXiv 提供的开放 API，开发者可以轻松地进行论文搜索和获取相关信息。\n\n## Getting Started\n### Prerequisites\n- 你需要一个 arXiv API 密钥。你可以从 [arXiv API 官方网站](https://info.arxiv.org/help/api/index.html) 获取。\n- 确保你的开发环境已经安装了 `requests` 库。如果没有，请使用以下命令安装：\n  bash\n  pip install requests\n  \n\n### Example Code\n下面是一个简单的示例代码，演示如何使用 arXiv API 进行论文搜索：\n\npython\nimport requests\n\ndef search_arxiv(query, max_results=10):\n    base_url = \"http://export.arxiv.org/api/query\"\n    params = {\n        'search_query': query,\n        'start': 0,\n        'max_results': max_results\n    }\n    response = requests.get(base_url, params=params)\n    \n    if response.status_code == 200:\n        return response.text\n    else:\n        print(f\"Error: {response.status_code}\")\n        return None\n\n# 示例查询\nquery = \"quantum computing\"\nresults = search_arxiv(query, max_results=5)\nprint(results)\n\n\n## Parameters\n- `search_query`: 搜索关键词或短语。\n- `start`: 结果的起始索引（默认为 0）。\n- `max_results`: 返回的最大结果数量（默认为 10）。\n\n## Response Format\nAPI 返回的数据格式是 Atom XML。你可以使用 Python 的 `xml.etree.ElementTree` 或第三方库如 `lxml` 来解析这些数据。\n\n### Example Response\nxml\n<feed xmlns=\"http://www.w3.org/2005/Atom\">\n  <entry>\n    <id>http://arxiv.org/abs/1207.0500</id>\n    <title>Quantum Computing and Hidden Variables</title>\n    <summary>...</summary>\n    <author>\n      <name>John Doe</name>\n    </author>\n    <published>2012-07-02T16:00:00Z</published>\n    <link href=\"http://arxiv.org/abs/1207.0500\" rel=\"alternate\" type=\"text/html\"/>\n    <category term=\"quant-ph\" scheme=\"http://arxiv.org/schemas/atom\"/>\n  </entry>\n  ...\n</feed>\n\n\n## Parsing the Response\n你可以使用 `xml.etree.ElementTree` 来解析返回的 XML 数据。以下是一个示例代码：\n\npython\nimport xml.etree.ElementTree as ET\n\ndef parse_response(xml_data):\n    root = ET.fromstring(xml_data)\n    entries = root.findall('{http://www.w3.org/2005/Atom}entry')\n    results = []\n    for entry in entries:\n        title = entry.find('{http://www.w3.org/2005/Atom}title').text\n        summary = entry.find('{http://www.w3.org/2005/Atom}summary').text\n        published = entry.find('{http://www.w3.org/2005/Atom}published').text\n        author = entry.find('{http://www.w3.org/2005/Atom}author/{http://www.w3.org/2005/Atom}name').text\n        link = entry.find('{http://www.w3.org/2005/Atom}link[@rel=\"alternate\"]')['href']\n        \n        results.append({\n            'title': title,\n            'summary': summary,\n            'published': published,\n            'author': author,\n            'link': link\n        })\n    \n    return results\n\n# 解析示例响应\nparsed_results = parse_response(results)\nfor result in parsed_results:\n    print(result)\n\n\n## Conclusion\n通过使用 arXiv API，你可以轻松地在 arXiv 上进行论文搜索，并获取详细的论文信息。希望这个文档对你有所帮助！如果你有任何问题或需要进一步的帮助，请参考 [arXiv API 官方文档](https://info.arxiv.org/help/api/index.html)。",
+      "descZh": "基于 arXiv 的开放 API 进行论文搜索的",
+      "descAr": "",
+      "categories": [
+        "calendar-management",
+        "search"
+      ],
+      "logo": "",
+      "views": 2101,
+      "url": "https://modelscope.cn/mcp/servers/Mic752/ResearchArxivPaper-WithMcp-Mic"
+    },
+    {
+      "id": "@modelcontextprotocol/sentry",
+      "nameEn": "sentry",
+      "nameZh": "Sentry监控工具",
+      "nameAr": "",
+      "descEn": "This server provides tools to inspect error reports, stacktraces, and other debugging information from your Sentry account.",
+      "descZh": "此服务器提供了用于查看来自您的 Sentry 账户的错误报告、堆栈跟踪和其他调试信息的工具。",
+      "descAr": "",
+      "categories": [
+        "monitoring"
+      ],
+      "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_c1f05f51-704c-45c2-8091-444c8149c912.png",
+      "views": 1831,
+      "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/sentry"
+    },
+    {
+      "id": "@wonderwhy-er/desktop-commander",
+      "nameEn": "desktop-commander",
+      "nameZh": "",
+      "nameAr": "",
+      "descEn": "MCP server for terminal commands, file operations, and process management",
+      "descZh": "",
+      "descAr": "",
+      "categories": [
+        "file-systems"
+      ],
+      "logo": "",
+      "views": 1795,
+      "url": "https://modelscope.cn/mcp/servers/@wonderwhy-er/desktop-commander"
+    },
+    {
+      "id": "@mongodb-developer/mongodb-mcp-server",
+      "nameEn": "mongodb-mcp-server",
+      "nameZh": "MongoDB MCP 服务器",
+      "nameAr": "",
+      "descEn": "Provides read-only access to MongoDB databases for LLMs to inspect collection schemas and execute aggregation pipelines.",
+      "descZh": "# 翻译\n为LLM提供对MongoDB数据库的只读访问，以便检查集合模式和执行聚合管道。",
+      "descAr": "",
+      "categories": [
+        "databases"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/mongodb-developer.png",
+      "views": 1178,
+      "url": "https://modelscope.cn/mcp/servers/@mongodb-developer/mongodb-mcp-server"
+    },
+    {
+      "id": "deeppathai/mcp-marketing-site",
+      "nameEn": "mcp-marketing-site",
+      "nameZh": "营销大师-落地页评估",
+      "nameAr": "",
+      "descEn": "Marketing Master - Landing Page Evaluation\n\n## 一、简介\n营销大师的落地页评估功能旨在帮助用户优化其网站或应用的着陆页面，通过分析页面设计、内容布局等因素，提供改进建议以提高转化率。\n\n## 二、使用步骤\n### 2.1 登录系统\n访问[营销大师官网](https://www.example.com)，使用您的账号密码登录。\n\n### 2.2 选择服务\n在主界面中找到并点击“落地页评估”选项。\n\n### 2.3 提交待评估页面\n- 输入您想要评估的网页URL。\n- 点击提交按钮。\n\nplaintext\n示例：\nhttps://www.yourwebsite.com/landingpage\n\n\n### 2.4 查看报告\n提交后，系统将自动开始分析，并在几分钟内生成详细的评估报告。您可以直接在线查看或者下载PDF版本。\n\n## 三、报告解读\n报告通常包括以下几个部分：\n- **页面加载速度**：影响用户体验的关键因素之一。\n- **视觉吸引力**：色彩搭配、图片质量等对访客的第一印象至关重要。\n- **信息清晰度**：确保目标受众能够快速理解页面传达的信息。\n- **行动号召（CTA）的有效性**：检查CTA按钮的位置、颜色是否足够吸引人去点击。\n- **移动设备友好性**：随着越来越多的人使用手机上网，确保您的页面在小屏幕上也能良好显示变得越来越重要。\n\n## 四、常见问题解答\n**Q: 我可以同时提交多个页面进行评估吗？**\nA: 当前版本支持一次提交一个页面链接。如果您需要评估多个页面，请逐个提交。\n\n**Q: 分析结果多久能出来？**\nA: 一般情况下，从提交到收到完整报告大约需要5至10分钟时间。具体时长取决于当前服务器负载情况。\n\n**Q: 如果我对报告中的建议有疑问怎么办？**\nA: 您可以通过客服联系我们的专业团队获取更多帮助和支持。联系方式见[这里](https://www.example.com/contact)。\n\n希望这份指南能帮助您更好地利用营销大师的落地页评估工具来提升您的在线业务表现！",
+      "descZh": "营销大师-落地页评估",
+      "descAr": "",
+      "categories": [
+        "customer-and-marketing"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/3a4e963c-bde3-454d-b866-4d49e86f2216.png",
+      "views": 897,
+      "url": "https://modelscope.cn/mcp/servers/deeppathai/mcp-marketing-site"
+    },
+    {
+      "id": "dingtalk/Parcel-tracking",
+      "nameEn": "Parcel-tracking",
+      "nameZh": "快递查询",
+      "nameAr": "",
+      "descEn": "One-click query for express logistics, easily keep track of your package's status, just like having a smart delivery assistant with you.",
+      "descZh": "一键查询快递物流，轻松掌握包裹动态，如同随身携带的智能快递助手。",
+      "descAr": "",
+      "categories": [
+        "search",
+        "customer-and-marketing"
+      ],
+      "logo": "https://i01.lw.aliimg.com/media/lALPD1oVOqutM8vNAljNAlg_600_600.png",
+      "views": 623,
+      "url": "https://modelscope.cn/mcp/servers/dingtalk/Parcel-tracking"
+    },
+    {
+      "id": "@evalstate/mcp-miro",
+      "nameEn": "mcp-miro",
+      "nameZh": "MCP-MIRO连接器",
+      "nameAr": "",
+      "descEn": "A Model Context Protocol server to connect to the MIRO Whiteboard Application. Allows Board manipulation, sticky creation, bulk operations and more.",
+      "descZh": "用于连接MIRO白板应用的模型上下文协议服务器。允许进行白板操作、便签创建、批量操作等更多功能。",
+      "descAr": "",
+      "categories": [
+        "developer-tools",
+        "other"
+      ],
+      "logo": "",
+      "views": 520,
+      "url": "https://modelscope.cn/mcp/servers/@evalstate/mcp-miro"
+    },
+    {
+      "id": "dingtalk/DingTalk-OA-Approval",
+      "nameEn": "DingTalk-OA-Approval",
+      "nameZh": "钉钉OA审批",
+      "nameAr": "",
+      "descEn": "Easily manage the approval process and check pending and submitted approval forms at any time.",
+      "descZh": "轻松管理审批流程，随时查询待处理和已提交的审批单。",
+      "descAr": "",
+      "categories": [
+        "communication",
+        "customer-and-marketing"
+      ],
+      "logo": "https://img.alicdn.com/imgextra/i4/O1CN01hal37H1lMHoLIrwcp_!!6000000004804-2-tps-480-480.png",
+      "views": 450,
+      "url": "https://modelscope.cn/mcp/servers/dingtalk/DingTalk-OA-Approval"
+    },
+    {
+      "id": "dingtalk/Attendance-clock-in",
+      "nameEn": "Attendance-clock-in",
+      "nameZh": "考勤打卡",
+      "nameAr": "",
+      "descEn": "Effortlessly manage attendance, as if you have a dedicated HR assistant, and stay informed about your team's status anytime, anywhere.",
+      "descZh": "轻松管理考勤，如同拥有专属人事助手，随时随地掌握团队动态。",
+      "descAr": "",
+      "categories": [
+        "communication",
+        "customer-and-marketing"
+      ],
+      "logo": "https://img.alicdn.com/imgextra/i2/O1CN01YGwD3b20y2hMZuhT0_!!6000000006917-2-tps-480-480.png",
+      "views": 395,
+      "url": "https://modelscope.cn/mcp/servers/dingtalk/Attendance-clock-in"
+    },
+    {
+      "id": "dingtalk/Corporate-job-postings",
+      "nameEn": "Corporate-job-postings",
+      "nameZh": "企业招聘信息",
+      "nameAr": "",
+      "descEn": "One-click to query the details of enterprise recruitment, and keep track of job positions and candidate dynamics as if observing a chess game in your hand.",
+      "descZh": "一键查询企业招聘详情，掌握职位与候选人动态如掌中观棋。",
+      "descAr": "",
+      "categories": [
+        "communication",
+        "customer-and-marketing"
+      ],
+      "logo": "https://i01.lw.aliimg.com/media/lALPM2xCw1MKJh_NAljNAlg_600_600.png",
+      "views": 252,
+      "url": "https://modelscope.cn/mcp/servers/dingtalk/Corporate-job-postings"
+    },
+    {
+      "id": "yongyang599/mcd-mcp-app",
+      "nameEn": "mcd-mcp-app",
+      "nameZh": "麦当劳MCP App",
+      "nameAr": "",
+      "descEn": "> ⚠️ 免责声明: 本项目仅供学习和技术研究使用，请勿用于任何商业用途。 这是一个基于 Model Context Protocol (MCP) 标准构建的应用程序，专为麦当劳中国用户设计的 MCP App，结合了后端逻辑与 React 前端界面，为您提供直观、可视化的交互体验。",
+      "descZh": "这是一个基于Model Context Protocol (MCP)标准构建的应用程序，专为麦当劳中国用户设计。它结合了后端逻辑与React前端界面，为您提供直观、可视化的交互体验。通过本应用，您可以在支持MCP App的AI助手中，直接通过对话查询麦当劳活动、浏览优惠券，并享受一键领券的便捷服务。",
+      "descAr": "",
+      "categories": [
+        "customer-and-marketing"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/7cdb39aa-3483-4050-8f44-f7d4a852cb43.jpg",
+      "views": 212,
+      "url": "https://modelscope.cn/mcp/servers/yongyang599/mcd-mcp-app"
+    }
+  ]
+}

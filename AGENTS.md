@@ -82,6 +82,20 @@ Benchmarks: llm-stats.com leaderboard text (fed to GLM verbatim; scores must com
 ### data/archive.json — `{ "editions": [{ "date": "YYYY-MM-DD", "topHeadlines": ["…", "…", "…"] }] }` (newest first)
 ### data/archive/YYYY-MM-DD.json — a full past edition (same shape as latest.json)
 
+### data/mcp.json — MCP tools & skills directory (from ModelScope)
+```json
+{ "updatedAt": "ISO", "servers": [{
+    "id": "@org/name", "nameEn": "…", "nameZh": "…", "nameAr": "…",
+    "descEn": "…", "descZh": "…", "descAr": "…",
+    "categories": ["search"], "logo": "https://…", "views": 123, 
+    "url": "https://modelscope.cn/mcp/servers/@org/name"
+}] }
+```
+Built by `scripts/update-mcp.mjs` (top ~150 by views; Arabic translations cached per
+entry — only new/changed entries are translated). Runs in the Action as a
+`continue-on-error` step. `nameAr/descAr` may be empty for brand-new entries; the UI
+falls back to English.
+
 ## Common tasks
 
 ### Run a real daily update locally

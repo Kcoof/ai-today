@@ -9,6 +9,7 @@
       "nav.top": "الأهم اليوم",
       "nav.news": "الأخبار",
       "nav.models": "النماذج الجديدة",
+      "nav.mcp": "أدوات MCP",
       "nav.benchmarks": "المعايير",
       "nav.knowledge": "مهارات ومعرفة",
       "nav.security": "أمن الذكاء الاصطناعي",
@@ -59,6 +60,30 @@
       "models.title": "النماذج الجديدة",
       "models.sub": "أحدث إصدارات نماذج الذكاء الاصطناعي حول العالم",
       "models.details": "التفاصيل ←",
+      "mcp.title": "أدوات ومهارات MCP",
+      "mcp.sub": "أفضل أدوات ووكلاء MCP من ModelScope — مترجمة للعربية، محدثة يومياً",
+      "mcp.search": "ابحث في الأدوات…",
+      "mcp.empty": "لا توجد أدوات مطابقة.",
+      "mcp.more": "عرض المزيد",
+      "mcp.views": "استخدام",
+      "mcp.link": "الصفحة ←",
+      "mcp.tool": "أداة MCP",
+      "mcp.cat.search": "البحث",
+      "mcp.cat.developer-tools": "أدوات المطورين",
+      "mcp.cat.browser-automation": "أتمتة المتصفح",
+      "mcp.cat.knowledge-and-memory": "المعرفة والذاكرة",
+      "mcp.cat.file-systems": "أنظمة الملفات",
+      "mcp.cat.communication": "التواصل",
+      "mcp.cat.research-and-data": "الأبحاث والبيانات",
+      "mcp.cat.finance": "المالية",
+      "mcp.cat.location-services": "خدمات الموقع",
+      "mcp.cat.entertainment-and-media": "الترفيه والوسائط",
+      "mcp.cat.customer-and-marketing": "العملاء والتسويق",
+      "mcp.cat.calendar-management": "إدارة التقويم",
+      "mcp.cat.art-and-culture": "الفن والثقافة",
+      "mcp.cat.travel-and-transportation": "السفر والنقل",
+      "mcp.cat.version-control": "إدارة الإصدارات",
+      "mcp.cat.other": "أخرى",
       "knowledge.title": "مهارات ومعرفة",
       "knowledge.sub": "قاعدة معرفية تنمو كل يوم: مهارة جديدة مع خطوات تعلّمها عملياً",
       "knowledge.copy": "نسخ",
@@ -95,6 +120,7 @@
       "palette.news": "خبر",
       "palette.skill": "مهارة",
       "palette.model": "نموذج",
+      "palette.mcp": "أداة MCP",
       "palette.empty": "لا توجد نتائج",
       "palette.sections.news": "الأخبار اليومية",
       "palette.sections.models": "النماذج الجديدة",
@@ -117,6 +143,7 @@
       "nav.top": "Top Story",
       "nav.news": "News",
       "nav.models": "New Models",
+      "nav.mcp": "MCP Tools",
       "nav.benchmarks": "Benchmarks",
       "nav.knowledge": "Skills & Knowledge",
       "nav.security": "AI Security",
@@ -167,6 +194,30 @@
       "models.title": "New Models",
       "models.sub": "The latest AI model releases from around the world",
       "models.details": "Details →",
+      "mcp.title": "MCP Tools & Skills",
+      "mcp.sub": "The best MCP tools & agents from ModelScope — translated to Arabic, refreshed daily",
+      "mcp.search": "Search tools…",
+      "mcp.empty": "No matching tools.",
+      "mcp.more": "Show more",
+      "mcp.views": "uses",
+      "mcp.link": "Page →",
+      "mcp.tool": "MCP tool",
+      "mcp.cat.search": "Search",
+      "mcp.cat.developer-tools": "Developer Tools",
+      "mcp.cat.browser-automation": "Browser Automation",
+      "mcp.cat.knowledge-and-memory": "Knowledge & Memory",
+      "mcp.cat.file-systems": "File Systems",
+      "mcp.cat.communication": "Communication",
+      "mcp.cat.research-and-data": "Research & Data",
+      "mcp.cat.finance": "Finance",
+      "mcp.cat.location-services": "Location Services",
+      "mcp.cat.entertainment-and-media": "Entertainment & Media",
+      "mcp.cat.customer-and-marketing": "Customer & Marketing",
+      "mcp.cat.calendar-management": "Calendar",
+      "mcp.cat.art-and-culture": "Art & Culture",
+      "mcp.cat.travel-and-transportation": "Travel & Transport",
+      "mcp.cat.version-control": "Version Control",
+      "mcp.cat.other": "Other",
       "knowledge.title": "Skills & Knowledge",
       "knowledge.sub": "A knowledge base that grows daily: one new skill with practical steps each day",
       "knowledge.copy": "Copy",
@@ -203,6 +254,7 @@
       "palette.news": "news",
       "palette.skill": "skill",
       "palette.model": "model",
+      "palette.mcp": "MCP tool",
       "palette.empty": "No results",
       "palette.sections.news": "Daily News",
       "palette.sections.models": "New Models",
@@ -266,11 +318,15 @@
   const state = {
     edition: null,
     knowledge: [],
+    mcp: [],
     archiveIndex: { editions: [] },
     category: "all",
     query: "",
     difficulty: "all",
     track: "all",
+    mcpCategory: "all",
+    mcpQuery: "",
+    mcpShown: 24,
   };
 
   const $ = (id) => document.getElementById(id);
@@ -655,6 +711,7 @@
     renderNews();
     renderModels();
     renderBenchmarks();
+    renderMcp();
     renderSecurity();
     renderKnowledgeFilters();
     renderKnowledgeList();
@@ -715,6 +772,26 @@
     });
 
     $("langToggle").addEventListener("click", () => setLang(isAr() ? "en" : "ar"));
+
+    let mcpDebounce;
+    $("mcpSearch").addEventListener("input", (e) => {
+      clearTimeout(mcpDebounce);
+      mcpDebounce = setTimeout(() => {
+        state.mcpQuery = e.target.value;
+        renderMcpList(true);
+      }, 200);
+    });
+    $("mcpFilters").addEventListener("click", (e) => {
+      const btn = e.target.closest(".filter-chip");
+      if (!btn || !btn.dataset.mcat) return;
+      state.mcpCategory = btn.dataset.mcat;
+      renderMcpFilters();
+      renderMcpList(true);
+    });
+    $("mcpMore").addEventListener("click", () => {
+      state.mcpShown += MCP_PAGE;
+      renderMcpList(false);
+    });
   }
 
   /* ================= quiz ================= */
@@ -743,6 +820,89 @@
     const score = quizBox.querySelector(".quiz-score");
     score.hidden = false;
     score.textContent = t("quiz.score").replace("{got}", got).replace("{total}", total);
+  }
+
+  /* ================= MCP directory ================= */
+
+  const MCP_PAGE = 24;
+
+  const mcpCatLabel = (c) => {
+    const key = "mcp.cat." + c;
+    return I18N[LANG][key] || I18N.ar[key] || c.replace(/-/g, " ");
+  };
+
+  function mcpFiltered() {
+    const q = state.mcpQuery.trim().toLowerCase();
+    return state.mcp.filter((s) => {
+      if (state.mcpCategory !== "all" && !s.categories.includes(state.mcpCategory)) return false;
+      if (q) {
+        const hay = `${s.nameEn} ${s.nameAr} ${s.descEn} ${s.descAr} ${s.id}`.toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+  }
+
+  function renderMcpFilters() {
+    const counts = {};
+    state.mcp.forEach((s) => (s.categories || []).forEach((c) => { counts[c] = (counts[c] || 0) + 1; }));
+    const cats = Object.keys(counts).sort((a, b) => counts[b] - counts[a]).slice(0, 10);
+    $("mcpFilters").innerHTML =
+      `<button class="filter-chip ${state.mcpCategory === "all" ? "active" : ""}" data-mcat="all">${t("filters.all")} (${state.mcp.length})</button>` +
+      cats.map((c) => `<button class="filter-chip ${state.mcpCategory === c ? "active" : ""}" data-mcat="${escapeHtml(c)}">${mcpCatLabel(c)} (${counts[c]})</button>`).join("");
+  }
+
+  function stripMd(s) {
+    return String(s)
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, "") // images
+      .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1") // links → text
+      .replace(/^#{1,6}\s+/gm, "") // headings
+      .replace(/[*_`>]+/g, "") // emphasis/quote chars
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function mcpCard(s) {
+    const nameAr = s.nameAr || s.nameEn;
+    const desc = stripMd(isAr() ? (s.descAr || s.descEn) : (s.descEn || s.descAr));
+    const views = s.views >= 1000 ? Math.round(s.views / 1000) + "k" : String(s.views);
+    const cat = (s.categories || [])[0] || "other";
+    const logo = s.logo
+      ? `<img class="mcp-logo" src="${escapeHtml(s.logo)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+      : `<div class="mcp-logo mcp-logo-fallback">🧩</div>`;
+    return `
+      <article class="mcp-card">
+        <div class="mcp-head">
+          ${logo}
+          <div class="mcp-names">
+            <span class="mcp-name" dir="${isAr() && s.nameAr ? "rtl" : "ltr"}">${escapeHtml(isAr() ? nameAr : s.nameEn)}</span>
+            ${isAr() ? `<span class="mcp-name-en">${escapeHtml(s.nameEn)}</span>` : (s.nameAr ? `<span class="mcp-name-en">${escapeHtml(s.nameAr)}</span>` : "")}
+          </div>
+        </div>
+        <p class="mcp-desc">${escapeHtml(desc).slice(0, 220)}</p>
+        <div class="mcp-meta">
+          <span class="news-category">${mcpCatLabel(cat)}</span>
+          <span class="mcp-views">👁 ${views} ${t("mcp.views")}</span>
+          <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${t("mcp.link")}</a>
+        </div>
+      </article>`;
+  }
+
+  function renderMcpList(reset) {
+    if (reset) state.mcpShown = MCP_PAGE;
+    const items = mcpFiltered();
+    const shown = items.slice(0, state.mcpShown);
+    $("mcpGrid").innerHTML = shown.map(mcpCard).join("");
+    $("mcpEmpty").hidden = items.length > 0;
+    $("mcpMore").hidden = state.mcpShown >= items.length;
+  }
+
+  function renderMcp() {
+    const has = state.mcp.length > 0;
+    $("mcp").hidden = !has;
+    if (!has) return;
+    renderMcpFilters();
+    renderMcpList(true);
   }
 
   /* ================= cheat sheet ================= */
@@ -780,6 +940,8 @@
       items.push({ type: "news", label: n.title, searchText: n.title + " " + n.summary, action: () => { jumpTo("news"); highlightCard(`.news-card`, n.title); } }));
     state.knowledge.forEach((k) =>
       items.push({ type: "skill", label: k.title, searchText: k.title + " " + (k.quickRef || ""), action: () => { jumpTo("knowledge"); openKnowledge(k.id); } }));
+    state.mcp.slice(0, 60).forEach((s) =>
+      items.push({ type: "mcp", label: `${isAr() ? (s.nameAr || s.nameEn) : s.nameEn}`, searchText: `${s.nameEn} ${s.nameAr || ""} ${(s.categories || []).join(" ")} mcp`, action: () => { jumpTo("mcp"); highlightCard(".mcp-card", s.nameEn); } }));
     (state.edition?.models || []).forEach((m) =>
       items.push({ type: "model", label: m.name, searchText: m.name + " " + m.org + " " + m.highlights, action: () => { jumpTo("models"); highlightCard(`.model-card`, m.name); } }));
     ((state.edition?.benchmarks || {}).topModels || []).forEach((m) =>
@@ -815,7 +977,7 @@
       ? palette.items.filter((it) => it.searchText.toLowerCase().includes(q))
       : palette.items.slice(0, 12);
     palette.selected = 0;
-    const typeIcon = { section: "📍", news: "📰", skill: "🎓", model: "🧠" };
+    const typeIcon = { section: "📍", news: "📰", skill: "🎓", model: "🧠", mcp: "🧩" };
     $("paletteResults").innerHTML =
       matches.slice(0, 14)
         .map((it, i) => `
@@ -940,14 +1102,16 @@
     setLang(LANG); // applies dir/lang/static texts on load
 
     try {
-      const [edition, knowledge, archive] = await Promise.all([
+      const [edition, knowledge, archive, mcp] = await Promise.all([
         fetchJson("data/latest.json"),
         fetchJson("data/knowledge.json"),
         fetchJson("data/archive.json").catch(() => ({ editions: [] })),
+        fetchJson("data/mcp.json").catch(() => ({ servers: [] })),
       ]);
       state.edition = edition;
       state.knowledge = knowledge.entries || [];
       state.archiveIndex = archive;
+      state.mcp = mcp.servers || [];
       renderAll();
     } catch (err) {
       console.error(err);
