@@ -38,9 +38,26 @@ runs `scripts/update-daily.mjs`, which fetches public sources, asks a GLM model
     "specs": { "context": "1M", "params": "32B" },
     "url": "https://…"
   }],
-  "highlights": [{ "id": "h-…", "text": "Arabic", "level": "info|warning|critical", "url": "https://… | null" }]
+  "highlights": [{ "id": "h-…", "text": "Arabic", "level": "info|warning|critical", "url": "https://… | null" }],
+  "security": [{
+    "id": "sec-…", "title": "Arabic", "summary": "Arabic — include the technique/prompt used when reported",
+    "type": "breach|prompt-injection|jailbreak|malware|backdoor|policy",
+    "severity": "info|warning|critical", "url": "https://…", "source": "…", "date": "YYYY-MM-DD"
+  }],
+  "benchmarks": {
+    "asOf": "YYYY-MM-DD", "source": "LLM Stats", "url": "https://llm-stats.com/",
+    "topModels": [{ "name": "Latin", "org": "Latin", "score": "57.4" }],
+    "highlights": "Arabic commentary"
+  }
 }
 ```
+`security` and `benchmarks` may be `[]`/`null` — their page sections hide themselves when empty.
+
+### News sources (fetched daily by scripts/update-daily.mjs)
+Community/aggregators: Hacker News, arXiv, HuggingFace (new models + daily papers), TechCrunch AI, VentureBeat AI, The Batch.
+Official provider blogs (models/features/skills/plugins): OpenAI RSS, Google DeepMind RSS, Anthropic/Mistral/Meta (HTML scrape), Kimi/Z.ai/Qwen/DeepSeek/xAI (Google News RSS fallback).
+AI security: Schneier on Security RSS + a security-keyword filter that flags hack/breach/jailbreak/prompt-injection items from every source.
+Benchmarks: llm-stats.com leaderboard text (fed to GLM verbatim; scores must come from it).
 
 ### data/knowledge.json — cumulative knowledge base (the "مهارات ومعرفة" section)
 ```json
@@ -75,9 +92,15 @@ The script rotates the previous `latest.json` into `data/archive/` automatically
    `data/archive/<old-date>.json` and prepend it to `data/archive.json`.
 4. Commit + push — Cloudflare deploys automatically.
 
-### Add a knowledge entry by hand
-Append an entry object (see schema) to the TOP of `data/knowledge.json` `entries`
-array with a unique `id` (`k-<date>-<slug>`) and today's `addedAt`. Keep ≤150 entries.
+### Add a knowledge entry (skill)
+Preferred: the CLI wizard — it validates, previews, and asks before writing:
+```bash
+node scripts/add-skill.mjs            # interactive wizard
+node scripts/add-skill.mjs --test --title "…" --why "…" --difficulty beginner \
+  --steps "عنوان|تفصيل;;عنوان|تفصيل"  # validate only, no write
+```
+Or by hand: prepend an entry object (see schema) to the TOP of `data/knowledge.json`
+`entries` array with a unique `id` (`k-<date>-<slug>`) and today's `addedAt`. Keep ≤150 entries.
 
 ### Test the site locally
 ```bash

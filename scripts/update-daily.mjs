@@ -50,8 +50,19 @@ const AI_REGEXES = AI_KEYWORDS.map((k) =>
     : new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`, "i")
 );
 
+const SECURITY_KEYWORDS = [
+  "hack", "breach", "breached", "exploit", "vulnerab", "jailbreak",
+  "prompt injection", "injection attack", "malware", "ransomware",
+  "phishing", "cve-", "0-day", "zero-day", "backdoor", "data leak",
+  "leaked", "intrusion", "attack", "compromis", "security incident",
+  "watering hole", "supply chain attack",
+];
+
+const SECURITY_REGEXES = SECURITY_KEYWORDS.map((k) => new RegExp(k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"));
+
 const log = (msg) => console.log(`[update] ${msg}`);
 const today = () => new Date().toISOString().slice(0, 10);
+const UA = "ai-today-newsletter/1.0";
 
 /* ================================================================
  * Sources — each returns [{title, url, source, publishedAt, description}]
@@ -72,6 +83,11 @@ async function timedFetch(url, opts = {}, ms = 20000) {
 function matchesAi(text) {
   const t = text.toLowerCase();
   return AI_REGEXES.some((r) => r.test(t));
+}
+
+function matchesSecurity(text) {
+  const t = text.toLowerCase();
+  return SECURITY_REGEXES.some((r) => r.test(t));
 }
 
 async function fetchHackerNews(cutoffHours = 48) {
@@ -142,7 +158,7 @@ async function fetchHuggingFace() {
 
 async function fetchReddit(sub) {
   const res = await timedFetch(`https://www.reddit.com/r/${sub}/top.json?t=day&limit=20`, {
-    headers: { "User-Agent": "ai-today-newsletter/1.0" },
+    headers: { "User-Agent": UA },
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const json = await res.json();
@@ -160,7 +176,7 @@ async function fetchReddit(sub) {
 }
 
 async function fetchRss(name, feedUrl) {
-  const res = await timedFetch(feedUrl, { headers: { "User-Agent": "ai-today-newsletter/1.0" } });
+  const res = await timedFetch(feedUrl, { headers: { "User-Agent": UA } });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const xml = await res.text();
   return xml.split("<item>").slice(1).map((block) => {
@@ -179,6 +195,56 @@ async function fetchRss(name, feedUrl) {
   }).filter((i) => i.title && i.url).slice(0, 8);
 }
 
+/** Google News RSS search URL for a query, limited to the last 7 days. */
+function googleNewsRss(query) {
+  return `https://news.google.com/rss/search?q=${encodeURIComponent(query + " when:7d")}&hl=en-US&gl=US&ceid=US:en`;
+}
+
+/**
+ * Generic article-list scraper for provider news/blog pages without RSS.
+ * Extracts anchors whose href contains one of `hrefHints`, with visible text
+ * long enough to be an article title.
+ */
+async function scrapeArticleLinks(name, pageUrl, hrefHints = []) {
+  const res = await timedFetch(pageUrl, { headers: { "User-Agent": UA } }, 25000);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const html = await res.text();
+  const anchors = html.matchAll(/<a\b[^>]*href="([^"#]+)"[^>]*>([\s\S]*?)<\/a>/g);
+  const items = [];
+  const seen = new Set();
+  for (const m of anchors) {
+    let href = m[1];
+    if (href.startsWith("/")) href = new URL(href, pageUrl).href;
+    if (!href.startsWith("http")) continue;
+    if (hrefHints.length && !hrefHints.some((h) => href.includes(h))) continue;
+    const title = m[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+    if (title.length < 12 || title.length > 200) continue;
+    const key = href.replace(/[#?].*$/, "");
+    if (seen.has(key) || key === pageUrl.replace(/\/$/, "")) continue;
+    seen.add(key);
+    items.push({ title, url: key, source: name, publishedAt: "", description: "" });
+    if (items.length >= 8) break;
+  }
+  if (items.length === 0) throw new Error("no article links found");
+  return items;
+}
+
+/** llm-stats.com renders its leaderboard into the HTML — extract readable text. */
+async function fetchLlmStatsText() {
+  const res = await timedFetch("https://llm-stats.com/", { headers: { "User-Agent": UA } }, 30000);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const html = await res.text();
+  const text = html
+    .replace(/<script[\s\S]*?<\/script>/g, " ")
+    .replace(/<style[\s\S]*?<\/style>/g, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&[a-z]+;/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  // The leaderboard sits near the top of the page content; keep a bounded window.
+  return text.slice(0, 8000);
+}
+
 async function collectCandidates() {
   const jobs = [
     ["HackerNews", () => fetchHackerNews()],
@@ -189,6 +255,20 @@ async function collectCandidates() {
     ["TheBatch", () => fetchRss("The Batch", "https://www.deeplearning.ai/the-batch/feed/")],
     ["TechCrunchAI", () => fetchRss("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/")],
     ["VentureBeatAI", () => fetchRss("VentureBeat AI", "https://venturebeat.com/category/ai/feed/")],
+    // Official provider blogs (announcements: models, features, skills, plugins)
+    ["OpenAI", () => fetchRss("OpenAI", "https://openai.com/news/rss.xml")],
+    ["DeepMind", () => fetchRss("Google DeepMind", "https://deepmind.google/blog/rss.xml")],
+    ["Anthropic", () => scrapeArticleLinks("Anthropic", "https://www.anthropic.com/news", ["/news/"])],
+    ["Mistral", () => scrapeArticleLinks("Mistral AI", "https://mistral.ai/news/", ["/news/"])],
+    ["MetaAI", () => scrapeArticleLinks("Meta AI", "https://ai.meta.com/blog/", ["/blog/"])],
+    // JS-rendered provider pages → Google News RSS fallback (last 7 days)
+    ["Kimi/Moonshot", () => fetchRss("Moonshot AI (news)", googleNewsRss("Kimi Moonshot AI model"))],
+    ["Z.ai", () => fetchRss("Z.ai (news)", googleNewsRss("Z.ai GLM model release"))],
+    ["Qwen", () => fetchRss("Qwen (news)", googleNewsRss("Qwen Alibaba model"))],
+    ["DeepSeek", () => fetchRss("DeepSeek (news)", googleNewsRss("DeepSeek model"))],
+    ["xAI", () => fetchRss("xAI (news)", googleNewsRss("Grok xAI model"))],
+    // AI security
+    ["Schneier", () => fetchRss("Schneier on Security", "https://www.schneier.com/feed/")],
   ];
   const results = await Promise.allSettled(jobs.map(([_, fn]) => fn()));
   const all = [];
@@ -200,33 +280,39 @@ async function collectCandidates() {
       log(`source ${jobs[i][0]} FAILED: ${r.reason?.message || r.reason} (continuing)`);
     }
   });
-  // de-duplicate by URL
+  // de-duplicate by URL; flag security-relevant items so the model notices them
   const seen = new Set();
-  return all.filter((c) => {
-    const key = c.url.replace(/[#?].*$/, "");
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
+  return all
+    .filter((c) => {
+      const key = c.url.replace(/[#?].*$/, "");
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .map((c) => ({ ...c, sec: matchesSecurity(`${c.title} ${c.description || ""}`) ? true : undefined }));
 }
 
 /* ================================================================
  * GLM call
  * ================================================================ */
 
-function buildPrompt(candidates, recentKnowledgeTitles, yesterdayHeadlines) {
+function buildPrompt(candidates, recentKnowledgeTitles, yesterdayHeadlines, llmStatsText) {
   const compact = candidates.map((c, i) => ({
     i,
     t: c.title.slice(0, 140),
     s: c.source,
     d: c.publishedAt,
     n: (c.description || "").slice(0, 90),
+    ...(c.sec ? { sec: true } : {}),
   }));
 
   return `You are the editor of "AI اليوم", a daily Arabic-language AI newsletter.
 
 Below is a JSON array of ${compact.length} candidate stories collected from the web today
-(index i, title t, source s, date d, notes n).
+(index i, title t, source s, date d, notes n; sec=true marks security-relevant items).
+The sources include the OFFICIAL news feeds of AI providers (OpenAI, Google DeepMind,
+Anthropic, Moonshot/Kimi, Mistral, Z.ai, Meta, Qwen, DeepSeek, xAI) — pay special
+attention to their announcements of new models, features, skills, and plugins.
 
 YOUR TASKS:
 
@@ -234,6 +320,7 @@ YOUR TASKS:
    For each: write an accurate Arabic title (concise) and an Arabic summary (2-3 sentences,
    informative, no fluff). Choose category: one of ${JSON.stringify(CATEGORIES)}.
    Rate importance 1-5 (5 = major breakthrough/industry-shaping). Reference the candidate by "sourceIndex".
+   Feature/plugin/skill announcements from official provider blogs are valuable news (usually category "tools").
 
 2) MODELS: From the candidates, extract actual NEW AI model releases/announcements
    (new checkpoint, version, or open-weights drop). Only include if genuinely a model release,
@@ -241,11 +328,23 @@ YOUR TASKS:
    specs as short strings (e.g. {"context": "1M", "params": "32B", "modality": "text+vision"}).
    Reference "sourceIndex" for the link.
 
-3) HIGHLIGHTS: 0-3 items of important info the reader must know (security incidents,
-   major policy/regulation, big funding). text in Arabic, level one of "info"/"warning"/"critical".
+3) HIGHLIGHTS: 0-3 items of important info the reader must know (major announcements,
+   big funding, market moves). text in Arabic, level one of "info"/"warning"/"critical".
    Reference "sourceIndex" when applicable, otherwise null.
 
-4) KNOWLEDGE ENTRY: Exactly ONE new entry for the "مهارات ومعرفة" section — a practical
+4) SECURITY: Pick 2-5 items about AI SECURITY specifically: AI-related hacks and breaches,
+   prompt injections and jailbreaks, AI malware, leaked or discovered system prompts,
+   model backdoors, AI-powered attacks. Fields: title and summary in Arabic (if the article
+   reveals the actual prompt, technique, or vulnerability used, DESCRIBE it in the summary),
+   type one of "breach"/"prompt-injection"/"jailbreak"/"malware"/"backdoor"/"policy",
+   severity one of "info"/"warning"/"critical", and "sourceIndex". Only AI-related items.
+
+5) BENCHMARKS: Based ONLY on the leaderboard text below (LLM Stats), build:
+   topModels: the top 10 models as {name, org, score} exactly as they appear in the data
+   (name/org Latin, score as displayed); highlights: 1-2 sentences in Arabic commenting on
+   the current ranking (biggest mover, close races). Do NOT invent models or scores.
+
+6) KNOWLEDGE ENTRY: Exactly ONE new entry for the "مهارات ومعرفة" section — a practical
    skill taught as knowledge: what it is, why it matters, and concrete steps of how to
    learn/add this skill. Vary the topic across days. AVOID these recent topics:
    ${JSON.stringify(recentKnowledgeTitles.slice(0, 12))}.
@@ -257,8 +356,8 @@ YOUR TASKS:
    resources: 1-3 well-known real URLs, tags: 2-4 Arabic or English tags.
 
 HARD RULES:
-- ALL free-text fields for news/models/highlights/knowledge must be in ARABIC (except
-  model names, orgs, code, URLs, tags which stay Latin).
+- ALL free-text fields for news/models/highlights/security/knowledge must be in ARABIC (except
+  model names, orgs, code, URLs, tags which stay Latin). Benchmarks topModels stays Latin.
 - NEVER invent URLs. Use "sourceIndex" to reference candidates; the pipeline resolves links.
 - Only reference indices that exist (0-${compact.length - 1}).
 - Yesterday's top headlines (do NOT repeat them): ${JSON.stringify(yesterdayHeadlines)}
@@ -266,11 +365,16 @@ HARD RULES:
 CANDIDATES:
 ${JSON.stringify(compact)}
 
+LLM STATS LEADERBOARD TEXT (for task 5):
+${llmStatsText || "(leaderboard unavailable today — return empty benchmarks object)"}
+
 Respond with ONLY a valid JSON object, no markdown fences, exactly this shape:
 {
   "news": [{"title": "...", "summary": "...", "category": "models", "importance": 4, "sourceIndex": 0}],
   "models": [{"name": "...", "org": "...", "releaseDate": "YYYY-MM-DD", "highlights": "...", "specs": {}, "sourceIndex": 0}],
   "highlights": [{"text": "...", "level": "info", "sourceIndex": 0}],
+  "security": [{"title": "...", "summary": "...", "type": "breach", "severity": "warning", "sourceIndex": 0}],
+  "benchmarks": {"topModels": [{"name": "...", "org": "...", "score": "..."}], "highlights": "..."},
   "knowledgeEntry": {"title": "...", "why": "...", "difficulty": "beginner", "steps": [{"title": "...", "detail": "..."}], "code": "", "resources": [{"name": "...", "url": "..."}], "tags": ["..."]}
 }`;
 }
@@ -367,6 +471,39 @@ function buildEdition(raw, candidates) {
     })
     .filter(Boolean);
 
+  const SECURITY_TYPES = ["breach", "prompt-injection", "jailbreak", "malware", "backdoor", "policy"];
+  const security = (raw.security || [])
+    .map((s, i) => {
+      const src = resolve(s.sourceIndex);
+      if (!s.title || !s.summary || !src) return null;
+      return {
+        id: `sec-${date}-${i + 1}`,
+        title: String(s.title).trim(),
+        summary: String(s.summary).trim(),
+        type: SECURITY_TYPES.includes(s.type) ? s.type : "policy",
+        severity: ["info", "warning", "critical"].includes(s.severity) ? s.severity : "info",
+        url: src.url,
+        source: src.source,
+        date: src.publishedAt || date,
+      };
+    })
+    .filter(Boolean);
+
+  const rawBench = raw.benchmarks;
+  const topModels = (rawBench && Array.isArray(rawBench.topModels) ? rawBench.topModels : [])
+    .filter((m) => m && m.name)
+    .slice(0, 10)
+    .map((m) => ({ name: String(m.name).trim(), org: String(m.org || "").trim(), score: String(m.score ?? "").trim() }));
+  const benchmarks = topModels.length
+    ? {
+        asOf: date,
+        source: "LLM Stats",
+        url: "https://llm-stats.com/",
+        topModels,
+        highlights: String(rawBench.highlights || "").trim(),
+      }
+    : null;
+
   const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9\u0600-\u06FF]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 50);
   const ke = raw.knowledgeEntry;
   const knowledgeEntry = ke && ke.title && Array.isArray(ke.steps) && ke.steps.length
@@ -384,7 +521,7 @@ function buildEdition(raw, candidates) {
     : null;
 
   if (news.length === 0) throw new Error("model returned zero usable news items");
-  return { date, generatedAt: new Date().toISOString(), news, models, highlights, knowledgeEntry };
+  return { date, generatedAt: new Date().toISOString(), news, models, highlights, security, benchmarks, knowledgeEntry };
 }
 
 /* ================================================================
@@ -422,6 +559,8 @@ function sampleEdition() {
     ],
     models: [],
     highlights: [{ id: `h-${date}-1`, text: "هذه نسخة تجريبية من النشرة.", level: "info", url: null }],
+    security: [],
+    benchmarks: null,
     knowledgeEntry: null,
   };
 }
@@ -485,8 +624,16 @@ async function main() {
   log(`total unique candidates: ${candidates.length}`);
   if (candidates.length < 10) throw new Error("too few candidates collected today — aborting instead of publishing junk");
 
+  let llmStatsText = "";
+  try {
+    llmStatsText = await fetchLlmStatsText();
+    log(`llm-stats leaderboard text: ${llmStatsText.length} chars`);
+  } catch (err) {
+    log(`llm-stats fetch FAILED: ${err.message} (benchmarks will be skipped)`);
+  }
+
   if (FETCH_ONLY) {
-    console.log(candidates.slice(0, 15).map((c) => `- [${c.source}] ${c.title}`).join("\n"));
+    console.log(candidates.slice(0, 15).map((c) => `- [${c.source}${c.sec ? "/SEC" : ""}] ${c.title}`).join("\n"));
     return;
   }
 
@@ -498,7 +645,7 @@ async function main() {
   const previous = await readJsonIfExists(path.join(DATA, "latest.json"), null);
   const yesterdayHeadlines = previous ? (previous.news || []).slice(0, 5).map((n) => n.title) : [];
 
-  const prompt = buildPrompt(candidates, kb.entries.map((e) => e.title), yesterdayHeadlines);
+  const prompt = buildPrompt(candidates, kb.entries.map((e) => e.title), yesterdayHeadlines, llmStatsText);
   log(`prompt ready (${prompt.length} chars) — calling ${MODEL}…`);
   const raw = await callGlm(prompt);
   log("GLM response received, validating…");

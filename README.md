@@ -57,10 +57,11 @@ npx serve .   # preview the site locally
 | Path | Purpose |
 |---|---|
 | `index.html`, `assets/` | The Arabic RTL landing page (no build step) |
-| `data/latest.json` | Today's edition (news, models, highlights) |
+| `data/latest.json` | Today's edition (news, models, security, benchmarks, highlights) |
 | `data/knowledge.json` | Growing skills/knowledge base |
 | `data/archive/` + `data/archive.json` | Past editions |
-| `scripts/update-daily.mjs` | The daily pipeline script |
+| `scripts/update-daily.mjs` | The daily pipeline script (19 sources → GLM → JSON) |
+| `scripts/add-skill.mjs` | Interactive CLI to add a skill entry (validate → preview → confirm) |
 | `.github/workflows/daily-update.yml` | Scheduled automation |
 | `AGENTS.md` | Instructions for AI agents maintaining this site |
 

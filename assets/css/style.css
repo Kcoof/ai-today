@@ -479,6 +479,142 @@ html[dir="ltr"] .model-highlights, html[dir="ltr"] .step-detail { text-align: le
   color: var(--text-faint);
 }
 
+/* ============ Benchmarks ============ */
+.bench-highlights {
+  color: var(--text-dim);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-bottom: 18px;
+}
+
+.bench-table-wrap {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow-x: auto;
+  box-shadow: var(--shadow);
+}
+
+.bench-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 520px;
+}
+
+.bench-table th {
+  text-align: start;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  font-weight: 700;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-alt);
+}
+
+.bench-table td {
+  padding: 12px 18px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+
+.bench-table tbody tr:last-child td { border-bottom: none; }
+
+.bench-table tbody tr:hover { background: var(--card-hover); }
+
+.bench-table tbody tr:first-child .bench-rank { color: #facc15; }
+.bench-table tbody tr:nth-child(2) .bench-rank { color: #cbd5e1; }
+.bench-table tbody tr:nth-child(3) .bench-rank { color: #d97706; }
+
+.bench-rank { font-weight: 800; font-size: 1.05rem; }
+
+.bench-model { font-weight: 700; direction: ltr; text-align: start; font-family: "IBM Plex Mono", monospace; font-size: 0.88rem; }
+
+.bench-org { color: var(--text-dim); font-size: 0.88rem; }
+
+.bench-score {
+  font-weight: 800;
+  color: var(--accent);
+  direction: ltr;
+  text-align: start;
+}
+
+.bench-src { margin-top: 12px; color: var(--text-faint); font-size: 0.84rem; }
+
+.bench-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.bench-links-label { color: var(--text-dim); font-size: 0.86rem; }
+
+/* ============ AI Security ============ */
+.security-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 18px;
+}
+
+.security-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-inline-start: 4px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.security-card.severity-warning { border-inline-start-color: var(--warning); }
+.security-card.severity-critical { border-inline-start-color: var(--danger); }
+
+.security-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.security-type {
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.security-sev {
+  font-size: 0.74rem;
+  font-weight: 800;
+  padding: 3px 12px;
+  border-radius: 999px;
+}
+
+.security-sev.sev-info { background: rgba(56, 189, 248, 0.14); color: var(--accent); }
+.security-sev.sev-warning { background: rgba(251, 191, 36, 0.14); color: var(--warning); }
+.security-sev.sev-critical { background: rgba(248, 113, 113, 0.16); color: var(--danger); }
+
+.security-title { font-size: 1.02rem; font-weight: 700; line-height: 1.55; }
+
+.security-summary { color: var(--text-dim); font-size: 0.92rem; flex: 1; }
+
+.security-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  font-size: 0.8rem;
+  color: var(--text-faint);
+}
+
+.security-meta a { font-weight: 700; }
+
 /* ============ Knowledge ============ */
 .knowledge-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
 

@@ -9,11 +9,38 @@
       "nav.top": "الأهم اليوم",
       "nav.news": "الأخبار",
       "nav.models": "النماذج الجديدة",
+      "nav.benchmarks": "المعايير",
       "nav.knowledge": "مهارات ومعرفة",
+      "nav.security": "أمن الذكاء الاصطناعي",
       "nav.important": "معلومات مهمة",
       "nav.archive": "الأرشيف",
       "important.title": "معلومات مهمة",
       "news.title": "الأخبار اليومية",
+      "bench.title": "المعايير والترتيب",
+      "bench.sub": "ترتيب أقوى النماذج حسب لوحة صدارة LLM Stats — يتحدث يومياً",
+      "bench.rank": "الترتيب",
+      "bench.model": "النموذج",
+      "bench.org": "الشركة",
+      "bench.score": "النتيجة",
+      "bench.source": "المصدر:",
+      "bench.highlights": "قراءة في الترتيب",
+      "bench.llmstats": "لوحة LLM Stats",
+      "bench.lmarena": "LMArena",
+      "bench.aa": "Artificial Analysis",
+      "bench.hfllm": "Open LLM Leaderboard",
+      "bench.otherBoards": "لوحات صدارة أخرى:",
+      "sec.title": "أمن الذكاء الاصطناعي",
+      "sec.sub": "اختراقات وهجمات وثغرات تتعلق بالذكاء الاصطناعي — والأساليب والموجهات المستخدمة فيها",
+      "sec.type.breach": "اختراق",
+      "sec.type.prompt-injection": "حقن موجّهات",
+      "sec.type.jailbreak": "كسر قيود",
+      "sec.type.malware": "برمجية خبيثة",
+      "sec.type.backdoor": "باب خلفي",
+      "sec.type.policy": "سياسة وتنظيم",
+      "sec.sev.info": "معلومة",
+      "sec.sev.warning": "تحذير",
+      "sec.sev.critical": "خطير",
+      "sec.source": "المصدر ←",
       "meta.lastUpdate": "آخر تحديث للنشرة",
       "hero.kicker": "نشرة الذكاء الاصطناعي اليومية",
       "hero.loading": "جارٍ تحميل النشرة…",
@@ -22,6 +49,7 @@
       "hero.failHint": "شغّل سكربت التحديث أو افتح الصفحة عبر خادم محلي (راجع README.md).",
       "stats.news": "خبراً اليوم",
       "stats.models": "إصدارات نماذج",
+      "stats.security": "أخبار أمنية",
       "stats.knowledge": "مهارة في القاعدة المعرفية",
       "top.tag": "أهم خبر اليوم",
       "top.readSource": "اقرأ من المصدر",
@@ -61,11 +89,38 @@
       "nav.top": "Top Story",
       "nav.news": "News",
       "nav.models": "New Models",
+      "nav.benchmarks": "Benchmarks",
       "nav.knowledge": "Skills & Knowledge",
+      "nav.security": "AI Security",
       "nav.important": "Important",
       "nav.archive": "Archive",
       "important.title": "Important Info",
       "news.title": "Daily News",
+      "bench.title": "Benchmarks & Rankings",
+      "bench.sub": "Top models according to the LLM Stats leaderboard — refreshed daily",
+      "bench.rank": "Rank",
+      "bench.model": "Model",
+      "bench.org": "Organization",
+      "bench.score": "Score",
+      "bench.source": "Source:",
+      "bench.highlights": "Reading the rankings",
+      "bench.llmstats": "LLM Stats board",
+      "bench.lmarena": "LMArena",
+      "bench.aa": "Artificial Analysis",
+      "bench.hfllm": "Open LLM Leaderboard",
+      "bench.otherBoards": "Other leaderboards:",
+      "sec.title": "AI Security",
+      "sec.sub": "AI-related breaches, attacks and vulnerabilities — including the techniques and prompts behind them",
+      "sec.type.breach": "Breach",
+      "sec.type.prompt-injection": "Prompt injection",
+      "sec.type.jailbreak": "Jailbreak",
+      "sec.type.malware": "Malware",
+      "sec.type.backdoor": "Backdoor",
+      "sec.type.policy": "Policy",
+      "sec.sev.info": "Info",
+      "sec.sev.warning": "Warning",
+      "sec.sev.critical": "Critical",
+      "sec.source": "Source →",
       "meta.lastUpdate": "Last newsletter update",
       "hero.kicker": "The Daily AI Bulletin",
       "hero.loading": "Loading today's edition…",
@@ -74,6 +129,7 @@
       "hero.failHint": "Run the update script or serve this page over a local HTTP server (see README.md).",
       "stats.news": "stories today",
       "stats.models": "model releases",
+      "stats.security": "security stories",
       "stats.knowledge": "skills in the knowledge base",
       "top.tag": "Top story of the day",
       "top.readSource": "Read the source",
@@ -252,6 +308,7 @@
     const stats = [
       { value: ed.news.length, label: t("stats.news") },
       { value: ed.models.length, label: t("stats.models") },
+      { value: (ed.security || []).length, label: t("stats.security") },
       { value: state.knowledge.length, label: t("stats.knowledge") },
     ];
     $("heroStats").innerHTML = stats
@@ -319,8 +376,7 @@
     $("newsEmpty").hidden = items.length > 0;
   }
 
-  function renderModels() {
-    $("modelsGrid").innerHTML = state.edition.models
+  function renderModels() {    $("modelsGrid").innerHTML = state.edition.models
       .map((m) => {
         const initials = (m.org || "?").replace(/[^A-Za-z0-9]/g, "").slice(0, 2).toUpperCase() || "?";
         const specs = Object.entries(m.specs || {})
@@ -344,6 +400,68 @@
         </article>`;
       })
       .join("");
+  }
+
+  const SECURITY_TYPES = ["breach", "prompt-injection", "jailbreak", "malware", "backdoor", "policy"];
+
+  function renderSecurity() {
+    const items = state.edition.security || [];
+    $("security").hidden = items.length === 0;
+    const typeIcon = { breach: "🔓", "prompt-injection": "💉", jailbreak: "⛓️", malware: "🦠", backdoor: "🚪", policy: "🏛️" };
+    $("securityGrid").innerHTML = items
+      .map((s) => `
+        <article class="security-card severity-${escapeHtml(s.severity || "info")}">
+          <div class="security-top">
+            <span class="security-type">${typeIcon[s.type] || "🏛️"} ${t("sec.type." + (SECURITY_TYPES.includes(s.type) ? s.type : "policy"))}</span>
+            <span class="security-sev sev-${escapeHtml(s.severity || "info")}">${t("sec.sev." + (["info", "warning", "critical"].includes(s.severity) ? s.severity : "info"))}</span>
+          </div>
+          <h3 class="security-title">${escapeHtml(s.title)}</h3>
+          <p class="security-summary">${escapeHtml(s.summary)}</p>
+          <div class="security-meta">
+            <span>${escapeHtml(s.source || "")} • ${formatShortDate(s.date || state.edition.date)}</span>
+            <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${t("sec.source")}</a>
+          </div>
+        </article>`)
+      .join("");
+  }
+
+  function renderBenchmarks() {
+    const b = state.edition.benchmarks;
+    $("benchmarks").hidden = !b || !b.topModels || b.topModels.length === 0;
+    if (!b || !b.topModels || b.topModels.length === 0) return;
+
+    const rows = b.topModels
+      .map((m, i) => `
+        <tr>
+          <td class="bench-rank">${i + 1}</td>
+          <td class="bench-model">${escapeHtml(m.name)}</td>
+          <td class="bench-org">${escapeHtml(m.org)}</td>
+          <td class="bench-score">${escapeHtml(m.score)}</td>
+        </tr>`)
+      .join("");
+
+    $("benchContent").innerHTML = `
+      ${b.highlights ? `<p class="bench-highlights">💡 ${escapeHtml(b.highlights)}</p>` : ""}
+      <div class="bench-table-wrap">
+        <table class="bench-table">
+          <thead>
+            <tr>
+              <th>${t("bench.rank")}</th>
+              <th>${t("bench.model")}</th>
+              <th>${t("bench.org")}</th>
+              <th>${t("bench.score")}</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+      <p class="bench-src">${t("bench.source")} <a href="${escapeHtml(b.url)}" target="_blank" rel="noopener">${escapeHtml(b.source)}</a></p>`;
+
+    $("benchLinks").innerHTML = `
+      <span class="bench-links-label">${t("bench.otherBoards")}</span>
+      <a class="resource-link" href="https://lmarena.ai/" target="_blank" rel="noopener">${t("bench.lmarena")}</a>
+      <a class="resource-link" href="https://artificialanalysis.ai/" target="_blank" rel="noopener">${t("bench.aa")}</a>
+      <a class="resource-link" href="https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard" target="_blank" rel="noopener">${t("bench.hfllm")}</a>`;
   }
 
   function renderKnowledgeFilters() {
@@ -439,6 +557,8 @@
     renderCategoryFilters();
     renderNews();
     renderModels();
+    renderBenchmarks();
+    renderSecurity();
     renderKnowledgeFilters();
     renderKnowledgeList();
     renderArchive();
