@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI اليوم — أخبار الذكاء الاصطناعي ونماذج الجديدة ومهارات ومعرفة، محدّثة يومياً">
+  <meta property="og:title" content="AI اليوم — نشرة الذكاء الاصطناعي اليومية">
+  <meta property="og:description" content="أهم أخبار الذكاء الاصطناعي وأحدث النماذج ومهارات تعلّم جديدة، كل يوم بالعربية">
+  <meta property="og:type" content="website">
+  <title>AI اليوم — نشرة الذكاء الاصطناعي اليومية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="AI اليوم — الصفحة الرئيسية">
+        <span class="logo-mark">AI</span>
+        <span class="logo-text">اليوم<span class="logo-dot">.</span></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="التنقل الرئيسي">
+        <a href="#top-story">الأهم اليوم</a>
+        <a href="#news">الأخبار</a>
+        <a href="#models">النماذج الجديدة</a>
+        <a href="#knowledge">مهارات ومعرفة</a>
+        <a href="#important">معلومات مهمة</a>
+        <a href="#archive">الأرشيف</a>
+      </nav>
+
+      <div class="header-actions">
+        <span class="live-badge" title="آخر تحديث للنشرة">
+          <span class="live-dot"></span>
+          <span id="updatedAt">—</span>
+        </span>
+        <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع الليلي/النهاري">☀️</button>
+        <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======= Hero / Top story ======= -->
+  <section class="hero" id="top-story">
+    <div class="container">
+      <div class="hero-meta">
+        <p class="hero-kicker">نشرة الذكاء الاصطناعي اليومية</p>
+        <h1 class="hero-date" id="todayDate">—</h1>
+      </div>
+      <article class="top-story" id="topStory">
+        <div class="top-story-tag">أهم خبر اليوم</div>
+        <h2 class="top-story-title">جارٍ تحميل النشرة…</h2>
+        <p class="top-story-summary">إذا استمرت هذه الرسالة، فذلك يعني عدم توفّر ملف البيانات بعد.</p>
+      </article>
+      <div class="hero-stats" id="heroStats"></div>
+    </div>
+  </section>
+
+  <!-- ======= Important info ======= -->
+  <section class="section" id="important" hidden>
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title"><span class="section-icon">⚠️</span> معلومات مهمة</h2>
+      </div>
+      <div class="important-list" id="importantList"></div>
+    </div>
+  </section>
+
+  <!-- ======= News ======= -->
+  <section class="section" id="news">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title"><span class="section-icon">📰</span> الأخبار اليومية</h2>
+        <div class="news-controls">
+          <input type="search" id="newsSearch" class="search-input" placeholder="ابحث في الأخبار…" aria-label="ابحث في الأخبار">
+          <div class="category-filters" id="categoryFilters" role="group" aria-label="تصفية حسب التصنيف"></div>
+        </div>
+      </div>
+      <div class="news-grid" id="newsGrid" aria-live="polite"></div>
+      <p class="empty-state" id="newsEmpty" hidden>لا توجد أخبار مطابقة لبحثك.</p>
+    </div>
+  </section>
+
+  <!-- ======= Models ======= -->
+  <section class="section section-alt" id="models">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title"><span class="section-icon">🧠</span> النماذج الجديدة</h2>
+        <p class="section-sub">أحدث إصدارات نماذج الذكاء الاصطناعي حول العالم</p>
+      </div>
+      <div class="models-grid" id="modelsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ======= Knowledge ======= -->
+  <section class="section" id="knowledge">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title"><span class="section-icon">🎓</span> مهارات ومعرفة</h2>
+        <p class="section-sub">قاعدة معرفية تنمو كل يوم: مهارة جديدة مع خطوات تعلّمها عملياً</p>
+      </div>
+      <div class="knowledge-filters" id="knowledgeFilters" role="group" aria-label="تصفية حسب المستوى"></div>
+      <div class="knowledge-list" id="knowledgeList"></div>
+    </div>
+  </section>
+
+  <!-- ======= Archive ======= -->
+  <section class="section section-alt" id="archive">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title"><span class="section-icon">🗂️</span> الأرشيف</h2>
+        <p class="section-sub">تصفّح نشرات الأيام السابقة</p>
+      </div>
+      <div class="archive-list" id="archiveList"></div>
+      <div class="archive-detail" id="archiveDetail" hidden></div>
+    </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">AI</span> اليوم — نشرة يومية يجمعها ويحررها الذكاء الاصطناعي.
+      </div>
+      <div class="footer-meta">
+        <span id="footerUpdated">—</span>
+        <span class="footer-sep">•</span>
+        <a href="https://github.com/" id="githubLink" target="_blank" rel="noopener">المستودع على GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
