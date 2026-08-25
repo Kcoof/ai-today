@@ -1,61 +1,11 @@
 {
   "entries": [
     {
-      "id": "k-2026-08-25-بناء-نظام-rag-بسيط-باستخدام-python",
-      "title": "بناء نظام RAG بسيط باستخدام Python",
-      "why": "أنظمة RAG (Retrieval-Augmented Generation) تسمح للنماذج اللغوية بالوصول إلى معرفة خارجية محدثة، مما يحسن دقة الإجابات ويقلل من الهلاكات. هذه المهارة أساسية لإنشاء تطبيقات AI قوية وموثوقة.",
-      "difficulty": "intermediate",
-      "steps": [
-        {
-          "title": "تثبيت المكتبات اللازمة",
-          "detail": "قم بتثبيت مكتبات مثل langchain, faiss-cpu, و transformers باستخدام pip لتوفير الأدوات اللازمة لبناء نظام RAG."
-        },
-        {
-          "title": "تحميل نموذج التضمين والنموذج اللغوي",
-          "detail": "اختر نموذج تضمين مثل sentence-transformers/all-MiniLM-L6-v2 ونموذج لغوي مثل gpt2 أو نموذج أصغر لتقليل استخدام الموارد."
-        },
-        {
-          "title": "معالجة وتضمين المستندات",
-          "detail": "اقرأ المستندات، قسّمها إلى أجزاء صغيرة، ثم استخدم نموذج التضمين لتحويل كل جزء إلى متجهات رقمية."
-        },
-        {
-          "title": "بناء قاعدة بيانات المتجهات",
-          "detail": "استخدم FAISS أو قاعدة بيانات متجهات أخرى لتخزين المتجهات بشكل فعال وتمكين البحث السريع."
-        },
-        {
-          "title": "دمج البحث والاستدلال",
-          "detail": "عند استفسار المستخدم، ابحث عن أجزاء المستندات الأكثر صلة، وأضفها إلى السياق، ثم اطلب من النموذج اللغوي توليد إجابة."
-        }
-      ],
-      "code": "from langchain.document_loaders import TextLoader\nfrom langchain.text_splitter import CharacterTextSplitter\nfrom langchain.embeddings import HuggingFaceEmbeddings\nfrom langchain.vectorstores import FAISS\nfrom langchain.chains import RetrievalQA\nfrom langchain.llms import HuggingFacePipeline\n\n# تحميل ومعالجة المستندات\ndocuments = TextLoader('data.txt').load()\ntext_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)\ndocs = text_splitter.split_documents(documents)\n\n# إنشاء التضمين\nembeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')\ndb = FAISS.from_documents(docs, embeddings)\n\n# بناء سلسلة RAG\nllm = HuggingFacePipeline.from_model_id(\n    model_id='gpt2',\n    task='text-generation',\n    pipeline_kwargs={'max_new_tokens': 200}\n)\nqa = RetrievalQA.from_chain_type(\n    llm=llm,\n    chain_type='stuff',\n    retriever=db.as_retriever()\n)\n\n# الاستخدام\nresult = qa.run('ما هي فوائد استخدام أنظمة RAG؟')\nprint(result)",
-      "resources": [
-        {
-          "name": "LangChain Documentation",
-          "url": "https://python.langchain.com/docs/"
-        },
-        {
-          "name": "Building RAG Systems with LangChain",
-          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        },
-        {
-          "name": "FAISS Documentation",
-          "url": "https://faiss.ai/"
-        }
-      ],
-      "tags": [
-        "RAG",
-        "LangChain",
-        "FAISS",
-        "Vector Databases",
-        "Python"
-      ],
-      "addedAt": "2026-08-25"
-    },
-    {
       "id": "k-2026-08-25-كيف-تحمي-نفسك-من-هجمات-حقن-الموجهات-prompt-injecti",
       "title": "كيف تحمي نفسك من هجمات حقن الموجهات (Prompt Injection)",
       "why": "لأن حقن الموجهات أصبح من أكثر الهجمات شيوعاً على تطبيقات الذكاء الاصطناعي، وفهمه ضروري لأي شخص يبني أو يستخدم وكلاء ذكاء اصطناعي",
       "difficulty": "beginner",
+      "track": "security",
       "steps": [
         {
           "title": "افهم الفكرة الأساسية",
@@ -75,9 +25,43 @@
         }
       ],
       "code": "",
-      "resources": [],
-      "tags": [
-        "أمن، موجّهات، حقن"
+      "resources": [
+        { "name": "OWASP: LLM Top 10", "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/" },
+        { "name": "دليل Anthropic لتقوية الضوابط", "url": "https://docs.anthropic.com/en/docs/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak" }
+      ],
+      "tags": ["أمن", "موجّهات", "حقن"],
+      "quickRef": "افصل دائماً بين التعليمات والبيانات، ولا تمنح الوكيل صلاحيات حساسة دون تأكيد بشري.",
+      "quiz": [
+        {
+          "q": "ما هو حقن الموجهات (Prompt Injection)؟",
+          "options": [
+            "تعليمات خفية في محتوى يقرأه النموذج تجعله يتجاهل تعليماتك الأصلية",
+            "سرقة مفتاح الـ API من الخادم",
+            "إغراق النموذج بطلبات حتى يتوقف"
+          ],
+          "answer": 0,
+          "explain": "حقن الموجهات يخدع النموذج عبر مدخلات تتظاهر بأنها بيانات بينما هي أوامر مضادة — ولهذا يجب الفصل بين التعليمات والبيانات."
+        },
+        {
+          "q": "ما الفرق بين الحقن المباشر وغير المباشر؟",
+          "options": [
+            "لا فرق بينهما إطلاقاً",
+            "المباشر في المحادثة، وغير المباشر عبر محتوى خارجي يجمعه الوكيل مثل صفحة ويب",
+            "المباشر يحدث في التدريب وغير المباشر في الاستدلال"
+          ],
+          "answer": 1,
+          "explain": "الحقن غير المباشر أخطر لأن المحتوى الخارجي (صفحة، بريد، ملف) قد يحمل أوامر خفية يقرأها الوكيل دون علمك."
+        },
+        {
+          "q": "أي إجراء هو دفاع حقيقي ضد الحقن؟",
+          "options": [
+            "زيادة حجم النموذج",
+            "كتابة «لا تتبع تعليمات غريبة» في الموجه فقط والاكتفاء بذلك",
+            "عدم منح الوكيل صلاحيات حساسة دون تأكيد بشري"
+          ],
+          "answer": 2,
+          "explain": "التحذير في الموجه يساعد لكنه لا يكفي — الحد الفعلي للضرر يكون بتقييد ما يستطيع الوكيل فعله (مبدأ أقل صلاحية)."
+        }
       ],
       "addedAt": "2026-08-25"
     },
@@ -86,6 +70,7 @@
       "title": "كيف تبني نظام RAG بسيطاً من الصفر",
       "why": "الاسترجاع المعزز بالتوليد (RAG) هو المهارة العملية الأولى التي تجعل النماذج اللغوية تجيب من بياناتك الخاصة بدل الاعتماد على ذاكرتها التدريبية فقط — وهي أساس معظم مشاريع الذكاء الاصطناعي الحقيقية في الشركات.",
       "difficulty": "beginner",
+      "track": "building",
       "steps": [
         {
           "title": "جهّز مستنداتك",
@@ -114,24 +99,43 @@
       ],
       "code": "# أبسط مثال RAG باستخدام LlamaIndex\nfrom llama_index.core import VectorStoreIndex, SimpleDirectoryReader\n\ndocs = SimpleDirectoryReader(\"data\").load_data()      # 1-2: قراءة وتقسيم تلقائي\nindex = VectorStoreIndex.from_documents(docs)          # 3-4: تضمين وفهرسة\nengine = index.as_query_engine()                       # 5: محرك سؤال وجواب\n\nprint(engine.query(\"ما أهم أخبار اليوم؟\"))",
       "resources": [
-        {
-          "name": "توثيق LlamaIndex",
-          "url": "https://docs.llamaindex.ai/"
-        },
-        {
-          "name": "دروس LangChain",
-          "url": "https://python.langchain.com/docs/introduction/"
-        },
-        {
-          "name": "دورة الاسترجاع من Hugging Face",
-          "url": "https://huggingface.co/learn/retrieval-course"
-        }
+        { "name": "توثيق LlamaIndex", "url": "https://docs.llamaindex.ai/" },
+        { "name": "دروس LangChain", "url": "https://python.langchain.com/docs/introduction/" },
+        { "name": "دورة الاسترجاع من Hugging Face", "url": "https://huggingface.co/learn/retrieval-course" }
       ],
-      "tags": [
-        "RAG",
-        "استرجاع",
-        "تطبيقات عملية",
-        "مبتدئين"
+      "tags": ["RAG", "استرجاع", "تطبيقات عملية", "مبتدئين"],
+      "quickRef": "قطّع → ضمّم → خزّن في قاعدة متجهات → استرجع الأقرب ومررها مع السؤال للنموذج.",
+      "quiz": [
+        {
+          "q": "ما الفائدة الأساسية لنظام RAG؟",
+          "options": [
+            "تسريع تدريب النموذج",
+            "جعل النموذج يجيب من بياناتك الخاصة بدل الاعتماد على ذاكرته التدريبية فقط",
+            "تقليل استهلاك الطاقة"
+          ],
+          "answer": 1,
+          "explain": "RAG يربط الاسترجاع (بحث في بياناتك) بالتوليد (إجابة النموذج)، فيجيب النموذج بمعلومات حديثة وخاصة بمصادر موثقة."
+        },
+        {
+          "q": "لماذا نقسّم المستندات إلى قطع (Chunking)؟",
+          "options": [
+            "لأن المتجهات لا تمثل النص الطويل بدقة، والقطع المتوسطة تعطي استرجاعاً أدق",
+            "لتشفير النص وإخفائه",
+            "لأن نماذج التضمين ترفض الملفات الكبيرة دائماً"
+          ],
+          "answer": 0,
+          "explain": "القطع المناسبة (300-500 كلمة مع تداخل) تحافظ على المعنى وتجعل مطابقة السؤال مع النص أدق."
+        },
+        {
+          "q": "ماذا يحدث عند طرح سؤال في نظام RAG مكتمل؟",
+          "options": [
+            "يبحث في الإنترنت بالكامل ثم يلخص النتائج",
+            "يسترجع أهم القطع المشابهة من قاعدة المتجهات ويمررها مع السؤال للنموذج اللغوي",
+            "يعيد تدريب النموذج على السؤال"
+          ],
+          "answer": 1,
+          "explain": "الاسترجاع يجلب أقرب القطع معنوياً، ثم يبني النموذج إجابته عليها فقط — وهذا ما يجعل الإجابات قابلة للمصدر."
+        }
       ],
       "addedAt": "2026-08-25"
     }

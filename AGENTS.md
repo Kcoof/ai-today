@@ -66,12 +66,18 @@ Benchmarks: llm-stats.com leaderboard text (fed to GLM verbatim; scores must com
     "title": "Arabic skill title",
     "why": "Arabic — why it matters",
     "difficulty": "beginner|intermediate|advanced",
+    "track": "basics|building|security|tools",
     "steps": [{ "title": "Arabic imperative", "detail": "Arabic 1-2 sentences" }],
     "code": "optional short snippet, ltr",
     "resources": [{ "name": "…", "url": "https://…" }],
-    "tags": ["…"], "addedAt": "YYYY-MM-DD"
+    "tags": ["…"],
+    "quickRef": "Arabic — one-line key takeaway (drives the cheat-sheet section)",
+    "quiz": [{ "q": "Arabic question", "options": ["…", "…", "…"], "answer": 0, "explain": "Arabic why" }],
+    "addedAt": "YYYY-MM-DD"
 }] }
 ```
+`quiz` (2-3 questions) and `quickRef` power the interactive self-test and the
+قسم "ورقة مراجعة سريعة". Reading time is computed client-side.
 
 ### data/archive.json — `{ "editions": [{ "date": "YYYY-MM-DD", "topHeadlines": ["…", "…", "…"] }] }` (newest first)
 ### data/archive/YYYY-MM-DD.json — a full past edition (same shape as latest.json)

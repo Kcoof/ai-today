@@ -15,6 +15,8 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
 </head>
 <body>
+  <a class="skip-link" href="#news" data-i18n="a11y.skip">تخطي إلى المحتوى</a>
+  <div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
 
   <!-- ======= Header ======= -->
   <header class="site-header">
@@ -40,6 +42,7 @@
           <span class="live-dot"></span>
           <span id="updatedAt">—</span>
         </span>
+        <button class="theme-toggle" id="paletteBtn" aria-label="بحث سريع (Ctrl+K)" data-i18n-arialabel="palette.open">🔍</button>
         <button class="theme-toggle" id="langToggle" aria-label="Switch language / تغيير اللغة">EN</button>
         <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع الليلي/النهاري">☀️</button>
         <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
@@ -133,6 +136,34 @@
       <div class="knowledge-list" id="knowledgeList"></div>
     </div>
   </section>
+
+  <!-- ======= Cheat sheet ======= -->
+  <section class="section" id="cheatsheet" hidden>
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title"><span class="section-icon">⚡</span> <span data-i18n="cheat.title">ورقة مراجعة سريعة</span></h2>
+        <p class="section-sub" data-i18n="cheat.sub">أهم نقطة من كل مهارة تعلمناها — سطر واحد لكل مهارة</p>
+        <button class="print-btn" id="printBtn" type="button">🖨️ <span data-i18n="cheat.print">طباعة</span></button>
+      </div>
+      <div class="cheat-grid" id="cheatGrid"></div>
+    </div>
+  </section>
+
+  <!-- ======= Command palette ======= -->
+  <div class="palette-overlay" id="paletteOverlay" hidden>
+    <div class="palette" role="dialog" aria-modal="true" aria-label="بحث سريع">
+      <div class="palette-input-wrap">
+        <span class="palette-icon">🔍</span>
+        <input type="search" id="paletteInput" class="palette-input" placeholder="ابحث… (أخبار، مهارات، نماذج، أقسام)" data-i18n-placeholder="palette.placeholder" autocomplete="off">
+        <kbd class="palette-kbd">Esc</kbd>
+      </div>
+      <ul class="palette-results" id="paletteResults" role="listbox"></ul>
+      <div class="palette-footer">
+        <span><kbd>↑</kbd><kbd>↓</kbd> <span data-i18n="palette.navigate">تنقل</span></span>
+        <span><kbd>Enter</kbd> <span data-i18n="palette.go">فتح</span></span>
+      </div>
+    </div>
+  </div>
 
   <!-- ======= Archive ======= -->
   <section class="section section-alt" id="archive">

@@ -615,6 +615,277 @@ html[dir="ltr"] .model-highlights, html[dir="ltr"] .step-detail { text-align: le
 
 .security-meta a { font-weight: 700; }
 
+/* ============ Accessibility / progress ============ */
+.skip-link {
+  position: absolute;
+  inset-inline-start: -9999px;
+  top: 0;
+  background: var(--accent);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0 0 10px 10px;
+  font-weight: 700;
+  z-index: 200;
+}
+
+.skip-link:focus { inset-inline-start: 12px; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+.reading-progress {
+  position: fixed;
+  top: 0;
+  inset-inline-start: 0;
+  height: 3px;
+  width: 0;
+  background: var(--gradient);
+  z-index: 300;
+  transition: width 0.1s linear;
+}
+
+.flash-highlight { animation: flashhl 2.5s ease; }
+
+@keyframes flashhl {
+  0%, 60% { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25); }
+  100% { box-shadow: none; }
+}
+
+/* ============ Quiz ============ */
+.knowledge-quiz {
+  margin-top: 18px;
+  background: var(--bg);
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+
+.quiz-head { font-weight: 800; margin-bottom: 12px; color: var(--accent); }
+
+.quiz-question { margin-bottom: 14px; }
+
+.quiz-q { font-weight: 700; font-size: 0.95rem; margin-bottom: 8px; }
+
+.quiz-options { display: grid; gap: 8px; }
+
+.quiz-option {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 9px 14px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  text-align: start;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.quiz-option:hover:not(:disabled) { border-color: var(--accent); }
+
+.quiz-option:disabled { cursor: default; opacity: 0.85; }
+
+.quiz-option.correct {
+  border-color: var(--success);
+  background: rgba(52, 211, 153, 0.14);
+  opacity: 1;
+}
+
+.quiz-option.correct::after { content: " ✓"; color: var(--success); font-weight: 800; }
+
+.quiz-option.wrong {
+  border-color: var(--danger);
+  background: rgba(248, 113, 113, 0.14);
+  opacity: 1;
+}
+
+.quiz-option.wrong::after { content: " ✗"; color: var(--danger); font-weight: 800; }
+
+.quiz-explain {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  border-inline-start: 3px solid var(--accent);
+  padding-inline-start: 10px;
+}
+
+.quiz-score { font-weight: 800; color: var(--accent); margin-top: 4px; }
+
+/* ============ Track & read-time chips ============ */
+.track-chip {
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 3px 12px;
+  border-radius: 999px;
+  background: rgba(129, 140, 248, 0.14);
+  color: #a5b4fc;
+}
+
+[data-theme="light"] .track-chip { color: #6366f1; }
+
+.readtime-chip {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--text-faint);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+
+.chip-track { border-color: rgba(129, 140, 248, 0.4); }
+
+/* ============ Cheat sheet ============ */
+.print-btn {
+  align-self: flex-start;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 8px 18px;
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.print-btn:hover { border-color: var(--accent); }
+
+.cheat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+}
+
+.cheat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-inline-start: 4px solid var(--accent-2);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+
+.cheat-title { font-weight: 800; font-size: 0.92rem; margin-bottom: 6px; }
+
+.cheat-ref { color: var(--text-dim); font-size: 0.92rem; }
+
+/* ============ Command palette ============ */
+.palette-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 8, 14, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 400;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12vh 16px 16px;
+}
+
+.palette-overlay[hidden] { display: none; }
+
+.palette {
+  width: 100%;
+  max-width: 640px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.palette-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+.palette-icon { font-size: 1.1rem; }
+
+.palette-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 1.05rem;
+}
+
+.palette-input:focus { outline: none; }
+
+.palette-kbd, .palette-footer kbd {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 0.72rem;
+  color: var(--text-faint);
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.palette-results {
+  list-style: none;
+  max-height: 46vh;
+  overflow-y: auto;
+  padding: 8px;
+}
+
+.palette-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.palette-item.selected { background: var(--tag-bg); }
+
+.palette-item-label {
+  flex: 1;
+  font-size: 0.92rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.palette-item-type {
+  font-size: 0.72rem;
+  color: var(--text-faint);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 2px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.palette-empty { padding: 20px; text-align: center; color: var(--text-dim); }
+
+.palette-footer {
+  display: flex;
+  gap: 18px;
+  padding: 10px 18px;
+  border-top: 1px solid var(--border);
+  color: var(--text-faint);
+  font-size: 0.78rem;
+}
+
+/* ============ Print (cheat sheet) ============ */
+@media print {
+  .site-header, .hero, .news-controls, #news, #models, #benchmarks, #knowledge,
+  #security, #important, #archive, .site-footer, .reading-progress,
+  .palette-overlay, .skip-link, .print-btn { display: none !important; }
+
+  body { background: #fff; color: #000; }
+
+  .cheat-card { border: 1px solid #999; break-inside: avoid; }
+
+  .cheat-title { color: #000; }
+
+  .cheat-ref { color: #333; }
+}
+
 /* ============ Knowledge ============ */
 .knowledge-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
 

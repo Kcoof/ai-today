@@ -29,6 +29,19 @@ const TEST_ONLY = process.argv.includes("--test");
 
 const DIFFICULTIES = ["beginner", "intermediate", "advanced"];
 const DIFF_LABELS = { beginner: "مبتدئ", intermediate: "متوسط", advanced: "متقدم" };
+const KNOWLEDGE_TRACKS = ["basics", "building", "security", "tools"];
+const TRACK_LABELS = { basics: "أساسيات", building: "بناء أنظمة", security: "أمن", tools: "أدوات" };
+
+/** Parse --quiz "سؤال؟|خيار1|خيار2|خيار3|1|تفسير;;سؤال2|…|2|تفسير2" */
+function parseQuizArg(raw) {
+  if (!raw) return [];
+  return raw.split(";;").filter(Boolean).map((block) => {
+    const [q, ...rest] = block.split("|");
+    const explain = rest.length > 1 ? rest.pop() : "";
+    const answer = rest.length > 1 ? parseInt(rest.pop(), 10) - 1 : 0;
+    return { q: (q || "").trim(), options: rest.map((x) => x.trim()).filter(Boolean), answer, explain: (explain || "").trim() };
+  }).filter((q) => q.q && q.options.length >= 2);
+}
 
 const args = {};
 for (let i = 2; i < process.argv.length; i++) {
@@ -84,10 +97,13 @@ async function collect() {
       title: args.title,
       why: args.why || "",
       difficulty: args.difficulty || "intermediate",
+      track: KNOWLEDGE_TRACKS.includes(args.track) ? args.track : "basics",
       steps,
       code: args.code || "",
       resources,
       tags: (args.tags || "").split(",").map((x) => x.trim()).filter(Boolean),
+      quickRef: args.quickref || "",
+      quiz: parseQuizArg(args.quiz),
     };
   }
 
@@ -116,7 +132,29 @@ async function collect() {
     resources.push({ name: name || "رابط", url: url || "" });
   });
   const tags = (await ask("وسوم مفصولة بفاصلة (اختياري): ")).split(",").map((x) => x.trim()).filter(Boolean);
-  return { title, why, difficulty, steps, code, resources, tags };
+  const quickRef = await ask("جملة مراجعة سريعة — أهم نقطة يجب تذكرها (اختياري): ");
+  let track = await ask("مسار التعلّم (basics/building/security/tools) [basics]: ", "basics");
+  if (!KNOWLEDGE_TRACKS.includes(track)) {
+    console.log(`⚠️ قيمة غير صالحة، سيُستخدم basics`);
+    track = "basics";
+  }
+  const quiz = [];
+  console.log("اختبار قصير (اختياري — اكتب 'تم' للإنهاء):");
+  while (quiz.length < 4) {
+    const q = await ask(`  سؤال ${quiz.length + 1}: `);
+    if (q === "تم" || !q) break;
+    const options = [];
+    for (let oi = 1; oi <= 4; oi++) {
+      const opt = await ask(`    الخيار ${oi} (Enter للإيقاف): `);
+      if (!opt) break;
+      options.push(opt);
+    }
+    if (options.length < 2) { console.log("    ⚠️ يلزم خياران على الأقل — تم تجاهل السؤال"); continue; }
+    const answer = parseInt(await ask(`    رقم الخيار الصحيح (1-${options.length}): `, "1"), 10) - 1;
+    const explain = await ask("    تفسير الإجابة: ");
+    quiz.push({ q, options, answer: Math.max(0, Math.min(options.length - 1, answer)), explain });
+  }
+  return { title, why, difficulty, track, steps, code, resources, tags, quickRef, quiz };
 }
 
 function validate(entry, existingIds) {
@@ -131,6 +169,11 @@ function validate(entry, existingIds) {
   (entry.resources || []).forEach((r, i) => {
     if (!/^https?:\/\/.+/.test(r.url)) errors.push(`المصدر ${i + 1}: الرابط غير صالح (${r.url || "فارغ"})`);
   });
+  if (entry.track && !KNOWLEDGE_TRACKS.includes(entry.track)) errors.push(`المسار يجب أن يكون واحداً من: ${KNOWLEDGE_TRACKS.join(", ")}`);
+  (entry.quiz || []).forEach((q, i) => {
+    if (q.options.length < 2) errors.push(`السؤال ${i + 1}: يلزم خياران على الأقل`);
+    else if (q.answer < 0 || q.answer >= q.options.length) errors.push(`السؤال ${i + 1}: رقم الإجابة الصحيحة خارج النطاق`);
+  });
   const id = `k-${new Date().toISOString().slice(0, 10)}-${slug(entry.title) || "skill"}`;
   if (existingIds.includes(id)) errors.push(`معرّف مكرر: ${id} (مهارة بنفس العنوان أُضيفت اليوم)`);
   return { errors, id };
@@ -142,11 +185,13 @@ function preview(entry, id) {
   console.log(`المعرّف:        ${id}`);
   console.log(`العنوان:        ${entry.title}`);
   console.log(`السبب:          ${entry.why}`);
-  console.log(`المستوى:        ${entry.difficulty} (${DIFF_LABELS[entry.difficulty]})`);
+  console.log(`المستوى:        ${entry.difficulty} (${DIFF_LABELS[entry.difficulty]})${entry.track ? ` | المسار: ${entry.track} (${TRACK_LABELS[entry.track]})` : ""}`);
+  if (entry.quickRef) console.log(`مراجعة سريعة:  ${entry.quickRef}`);
   entry.steps.forEach((s, i) => console.log(`  ${i + 1}. ${s.title}${s.detail ? " — " + s.detail : ""}`));
   if (entry.code) console.log(`الكود:\n${entry.code.split("\n").map((l) => "    " + l).join("\n")}`);
   if (entry.resources.length) entry.resources.forEach((r) => console.log(`🔗 ${r.name} => ${r.url}`));
   if (entry.tags.length) console.log(`الوسوم:         ${entry.tags.map((x) => "#" + x).join(" ")}`);
+  (entry.quiz || []).forEach((q, i) => console.log(`❓ س${i + 1}: ${q.q} (الصحيح: ${q.options[q.answer]})`));
   console.log("─".repeat(60));
 }
 
@@ -185,10 +230,13 @@ async function main() {
     title: entry.title,
     why: entry.why,
     difficulty: entry.difficulty,
+    track: entry.track || "basics",
     steps: entry.steps,
     code: entry.code,
     resources: entry.resources,
     tags: entry.tags,
+    quickRef: entry.quickRef || "",
+    quiz: entry.quiz || [],
     addedAt: new Date().toISOString().slice(0, 10),
   });
   kb.entries = kb.entries.slice(0, 150);

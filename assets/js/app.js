@@ -74,6 +74,34 @@
       "archive.close": "إغلاق ✕",
       "footer.updated": "آخر تحديث:",
       "footer.repo": "المستودع على GitHub",
+      "a11y.skip": "تخطي إلى المحتوى",
+      "track.basics": "أساسيات",
+      "track.building": "بناء أنظمة",
+      "track.security": "أمن",
+      "track.tools": "أدوات",
+      "kb.readTime": "دقيقة قراءة",
+      "kb.trackLabel": "المسار:",
+      "quiz.title": "اختبر فهمك",
+      "quiz.score": "أجبت {got} من {total}",
+      "quiz.retry": "إعادة المحاولة",
+      "cheat.title": "ورقة مراجعة سريعة",
+      "cheat.sub": "أهم نقطة من كل مهارة تعلمناها — سطر واحد لكل مهارة",
+      "cheat.print": "طباعة",
+      "palette.open": "بحث سريع (Ctrl+K)",
+      "palette.placeholder": "ابحث… (أخبار، مهارات، نماذج، أقسام)",
+      "palette.navigate": "تنقل",
+      "palette.go": "فتح",
+      "palette.section": "قسم",
+      "palette.news": "خبر",
+      "palette.skill": "مهارة",
+      "palette.model": "نموذج",
+      "palette.empty": "لا توجد نتائج",
+      "palette.sections.news": "الأخبار اليومية",
+      "palette.sections.models": "النماذج الجديدة",
+      "palette.sections.benchmarks": "المعايير والترتيب",
+      "palette.sections.knowledge": "مهارات ومعرفة",
+      "palette.sections.security": "أمن الذكاء الاصطناعي",
+      "palette.sections.archive": "الأرشيف",
       "filters.all": "الكل",
       "cat.models": "النماذج",
       "cat.tools": "الأدوات",
@@ -154,6 +182,34 @@
       "archive.close": "Close ✕",
       "footer.updated": "Last update:",
       "footer.repo": "GitHub repository",
+      "a11y.skip": "Skip to content",
+      "track.basics": "Basics",
+      "track.building": "Building",
+      "track.security": "Security",
+      "track.tools": "Tools",
+      "kb.readTime": "min read",
+      "kb.trackLabel": "Track:",
+      "quiz.title": "Test yourself",
+      "quiz.score": "You scored {got} of {total}",
+      "quiz.retry": "Try again",
+      "cheat.title": "Quick Reference Sheet",
+      "cheat.sub": "The one key takeaway from every skill we've covered",
+      "cheat.print": "Print",
+      "palette.open": "Quick search (Ctrl+K)",
+      "palette.placeholder": "Search… (news, skills, models, sections)",
+      "palette.navigate": "navigate",
+      "palette.go": "open",
+      "palette.section": "Section",
+      "palette.news": "news",
+      "palette.skill": "skill",
+      "palette.model": "model",
+      "palette.empty": "No results",
+      "palette.sections.news": "Daily News",
+      "palette.sections.models": "New Models",
+      "palette.sections.benchmarks": "Benchmarks & Rankings",
+      "palette.sections.knowledge": "Skills & Knowledge",
+      "palette.sections.security": "AI Security",
+      "palette.sections.archive": "Archive",
       "filters.all": "All",
       "cat.models": "Models",
       "cat.tools": "Tools",
@@ -176,6 +232,34 @@
   const catLabel = (c) => t("cat." + (CATEGORY_KEYS.includes(c) ? c : "other"));
   const DIFFICULTIES = ["beginner", "intermediate", "advanced"];
   const diffLabel = (d) => t("diff." + (DIFFICULTIES.includes(d) ? d : "intermediate"));
+  const TRACKS = ["basics", "building", "security", "tools"];
+  const trackLabel = (tr) => t("track." + (TRACKS.includes(tr) ? tr : "basics"));
+
+  function readMinutes(entry) {
+    const words = ((entry.why || "") + " " + (entry.steps || []).map((s) => s.title + " " + s.detail).join(" ") + " " + (entry.code || "")).split(/\s+/).filter(Boolean).length;
+    return Math.max(1, Math.round(words / 140) + ((entry.steps || []).length > 4 ? 1 : 0));
+  }
+
+  function quizHtml(entry) {
+    if (!entry.quiz || entry.quiz.length === 0) return "";
+    const questions = entry.quiz
+      .map((q, qi) => `
+        <div class="quiz-question" data-q="${qi}">
+          <p class="quiz-q">${escapeHtml(q.q)}</p>
+          <div class="quiz-options">
+            ${q.options.map((opt, oi) => `
+              <button class="quiz-option" type="button" data-oi="${oi}">${escapeHtml(opt)}</button>`).join("")}
+          </div>
+          <p class="quiz-explain" hidden>${escapeHtml(q.explain)}</p>
+        </div>`)
+      .join("");
+    return `
+      <div class="knowledge-quiz" data-entry="${escapeHtml(entry.id)}">
+        <div class="quiz-head">📝 <span>${t("quiz.title")}</span></div>
+        ${questions}
+        <p class="quiz-score" hidden></p>
+      </div>`;
+  }
 
   /* ================= state ================= */
 
@@ -186,6 +270,7 @@
     category: "all",
     query: "",
     difficulty: "all",
+    track: "all",
   };
 
   const $ = (id) => document.getElementById(id);
@@ -466,7 +551,7 @@
 
   function renderKnowledgeFilters() {
     const box = $("knowledgeFilters");
-    box.innerHTML =
+    const diffChips =
       `<button class="filter-chip ${state.difficulty === "all" ? "active" : ""}" data-level="all">${t("filters.all")} (${state.knowledge.length})</button>` +
       DIFFICULTIES
         .filter((l) => state.knowledge.some((k) => k.difficulty === l))
@@ -475,11 +560,20 @@
           return `<button class="filter-chip ${state.difficulty === l ? "active" : ""}" data-level="${l}">${diffLabel(l)} (${count})</button>`;
         })
         .join("");
+    const trackChips = TRACKS
+      .filter((tr) => state.knowledge.some((k) => (k.track || "basics") === tr))
+      .map((tr) => {
+        const count = state.knowledge.filter((k) => (k.track || "basics") === tr).length;
+        return `<button class="filter-chip chip-track ${state.track === tr ? "active" : ""}" data-track="${tr}">${trackLabel(tr)} (${count})</button>`;
+      })
+      .join("");
+    box.innerHTML = diffChips + trackChips;
   }
 
   function renderKnowledgeList() {
     $("knowledgeList").innerHTML = state.knowledge
       .filter((k) => state.difficulty === "all" || k.difficulty === state.difficulty)
+      .filter((k) => state.track === "all" || (k.track || "basics") === state.track)
       .map((k) => {
         const steps = (k.steps || [])
           .map((s, i) => `
@@ -509,6 +603,8 @@
             <span class="knowledge-title-wrap">
               <span class="knowledge-title">${escapeHtml(k.title)}</span>
               <span class="difficulty-chip difficulty-${escapeHtml(k.difficulty)}">${diffLabel(k.difficulty)}</span>
+              <span class="track-chip track-${escapeHtml(k.track || "basics")}">${trackLabel(k.track)}</span>
+              <span class="readtime-chip">⏱ ${readMinutes(k)} ${t("kb.readTime")}</span>
             </span>
             <span class="knowledge-chevron">▼</span>
           </summary>
@@ -517,6 +613,7 @@
             <div class="knowledge-steps">${steps}</div>
             ${code}
             <div class="knowledge-resources">${resources}</div>
+            ${quizHtml(k)}
             <div class="knowledge-footer">
               <span>${t("knowledge.added")} ${formatShortDate(k.addedAt)}</span>
               ${tags}
@@ -561,6 +658,7 @@
     renderSecurity();
     renderKnowledgeFilters();
     renderKnowledgeList();
+    renderCheatSheet();
     renderArchive();
     renderMeta();
   }
@@ -588,19 +686,27 @@
     $("knowledgeFilters").addEventListener("click", (e) => {
       const btn = e.target.closest(".filter-chip");
       if (!btn) return;
-      state.difficulty = btn.dataset.level;
+      if (btn.dataset.level) {
+        state.difficulty = btn.dataset.level;
+      } else if (btn.dataset.track) {
+        state.track = btn.dataset.track === state.track ? "all" : btn.dataset.track;
+      }
       renderKnowledgeFilters();
       renderKnowledgeList();
     });
 
     $("knowledgeList").addEventListener("click", (e) => {
       const btn = e.target.closest(".copy-btn");
-      if (!btn) return;
-      const code = btn.nextElementSibling.textContent;
-      navigator.clipboard.writeText(code).then(() => {
-        btn.textContent = t("knowledge.copied");
-        setTimeout(() => (btn.textContent = t("knowledge.copy")), 1600);
-      });
+      if (btn) {
+        const code = btn.nextElementSibling.textContent;
+        navigator.clipboard.writeText(code).then(() => {
+          btn.textContent = t("knowledge.copied");
+          setTimeout(() => (btn.textContent = t("knowledge.copy")), 1600);
+        });
+        return;
+      }
+      const opt = e.target.closest(".quiz-option");
+      if (opt) handleQuizAnswer(opt);
     });
 
     $("archiveList").addEventListener("click", (e) => {
@@ -609,6 +715,188 @@
     });
 
     $("langToggle").addEventListener("click", () => setLang(isAr() ? "en" : "ar"));
+  }
+
+  /* ================= quiz ================= */
+
+  function handleQuizAnswer(optBtn) {
+    const quizBox = optBtn.closest(".knowledge-quiz");
+    const entry = state.knowledge.find((k) => k.id === quizBox.dataset.entry);
+    if (!entry || !entry.quiz) return;
+    const questionBox = optBtn.closest(".quiz-question");
+    const qi = parseInt(questionBox.dataset.q, 10);
+    const oi = parseInt(optBtn.dataset.oi, 10);
+    const q = entry.quiz[qi];
+    if (!q || questionBox.classList.contains("answered")) return;
+
+    questionBox.classList.add("answered");
+    questionBox.querySelectorAll(".quiz-option").forEach((b, i) => {
+      b.disabled = true;
+      if (i === q.answer) b.classList.add("correct");
+      else if (i === oi) b.classList.add("wrong");
+    });
+    const explain = questionBox.querySelector(".quiz-explain");
+    explain.hidden = false;
+
+    const total = quizBox.querySelectorAll(".quiz-question").length;
+    const got = quizBox.querySelectorAll(".quiz-question.answered .quiz-option.correct:not(.wrong)").length;
+    const score = quizBox.querySelector(".quiz-score");
+    score.hidden = false;
+    score.textContent = t("quiz.score").replace("{got}", got).replace("{total}", total);
+  }
+
+  /* ================= cheat sheet ================= */
+
+  function renderCheatSheet() {
+    const items = state.knowledge.filter((k) => k.quickRef);
+    $("cheatsheet").hidden = items.length === 0;
+    if (items.length === 0) return;
+    $("cheatGrid").innerHTML = items
+      .map((k) => `
+        <div class="cheat-card">
+          <div class="cheat-title">${escapeHtml(k.title)}</div>
+          <p class="cheat-ref">💡 ${escapeHtml(k.quickRef)}</p>
+        </div>`)
+      .join("");
+  }
+
+  /* ================= command palette ================= */
+
+  const palette = { open: false, items: [], selected: 0 };
+
+  function buildPaletteIndex() {
+    const items = [];
+    const sections = [
+      { id: "news", key: "palette.sections.news" },
+      { id: "models", key: "palette.sections.models" },
+      { id: "benchmarks", key: "palette.sections.benchmarks" },
+      { id: "knowledge", key: "palette.sections.knowledge" },
+      { id: "security", key: "palette.sections.security" },
+      { id: "archive", key: "palette.sections.archive" },
+    ];
+    sections.forEach((s) => items.push({ type: "section", label: t(s.key), searchText: t(s.key), action: () => jumpTo(s.id) }));
+
+    (state.edition?.news || []).forEach((n) =>
+      items.push({ type: "news", label: n.title, searchText: n.title + " " + n.summary, action: () => { jumpTo("news"); highlightCard(`.news-card`, n.title); } }));
+    state.knowledge.forEach((k) =>
+      items.push({ type: "skill", label: k.title, searchText: k.title + " " + (k.quickRef || ""), action: () => { jumpTo("knowledge"); openKnowledge(k.id); } }));
+    (state.edition?.models || []).forEach((m) =>
+      items.push({ type: "model", label: m.name, searchText: m.name + " " + m.org + " " + m.highlights, action: () => { jumpTo("models"); highlightCard(`.model-card`, m.name); } }));
+    ((state.edition?.benchmarks || {}).topModels || []).forEach((m) =>
+      items.push({ type: "model", label: `${m.name} (${m.score})`, searchText: m.name + " " + m.org + " benchmark", action: () => jumpTo("benchmarks") }));
+
+    palette.items = items;
+  }
+
+  function jumpTo(id) {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function highlightCard(selector, titlePart) {
+    document.querySelectorAll(selector).forEach((card) => {
+      if (card.textContent.includes(titlePart)) {
+        card.classList.add("flash-highlight");
+        setTimeout(() => card.classList.remove("flash-highlight"), 2500);
+      }
+    });
+  }
+
+  function openKnowledge(id) {
+    const card = document.getElementById("kb-" + CSS.escape(id));
+    if (card) {
+      card.open = true;
+      card.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  function paletteRender(filter) {
+    const q = (filter || "").trim().toLowerCase();
+    const matches = q
+      ? palette.items.filter((it) => it.searchText.toLowerCase().includes(q))
+      : palette.items.slice(0, 12);
+    palette.selected = 0;
+    const typeIcon = { section: "📍", news: "📰", skill: "🎓", model: "🧠" };
+    $("paletteResults").innerHTML =
+      matches.slice(0, 14)
+        .map((it, i) => `
+          <li class="palette-item ${i === 0 ? "selected" : ""}" data-i="${i}" role="option">
+            <span class="palette-item-icon">${typeIcon[it.type] || "•"}</span>
+            <span class="palette-item-label">${escapeHtml(it.label)}</span>
+            <span class="palette-item-type">${t("palette." + it.type)}</span>
+          </li>`)
+        .join("") || `<li class="palette-empty">${t("palette.empty")}</li>`;
+    palette.visibleItems = matches.slice(0, 14);
+  }
+
+  function paletteSelect(delta) {
+    const boxes = $("paletteResults").querySelectorAll(".palette-item");
+    if (!boxes.length) return;
+    palette.selected = (palette.selected + delta + boxes.length) % boxes.length;
+    boxes.forEach((b, i) => b.classList.toggle("selected", i === palette.selected));
+    boxes[palette.selected].scrollIntoView({ block: "nearest" });
+  }
+
+  function paletteRun() {
+    const item = palette.visibleItems?.[palette.selected];
+    if (item) {
+      closePalette();
+      item.action();
+    }
+  }
+
+  function openPalette() {
+    if (!state.edition) return;
+    buildPaletteIndex();
+    palette.open = true;
+    $("paletteOverlay").hidden = false;
+    const input = $("paletteInput");
+    input.value = "";
+    paletteRender("");
+    input.focus();
+  }
+
+  function closePalette() {
+    palette.open = false;
+    $("paletteOverlay").hidden = true;
+  }
+
+  function initPalette() {
+    $("paletteBtn").addEventListener("click", openPalette);
+    $("paletteOverlay").addEventListener("click", (e) => {
+      if (e.target === $("paletteOverlay")) closePalette();
+    });
+    $("paletteInput").addEventListener("input", (e) => paletteRender(e.target.value));
+    $("paletteResults").addEventListener("click", (e) => {
+      const li = e.target.closest(".palette-item");
+      if (!li) return;
+      palette.selected = parseInt(li.dataset.i, 10);
+      paletteRun();
+    });
+    document.addEventListener("keydown", (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        palette.open ? closePalette() : openPalette();
+        return;
+      }
+      if (!palette.open) return;
+      if (e.key === "Escape") closePalette();
+      else if (e.key === "ArrowDown") { e.preventDefault(); paletteSelect(1); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); paletteSelect(-1); }
+      else if (e.key === "Enter") { e.preventDefault(); paletteRun(); }
+    });
+  }
+
+  /* ================= reading progress ================= */
+
+  function initProgress() {
+    const bar = $("readingProgress");
+    const update = () => {
+      const h = document.documentElement;
+      const max = h.scrollHeight - h.clientHeight;
+      bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + "%";
+    };
+    document.addEventListener("scroll", update, { passive: true });
+    update();
   }
 
   async function loadArchiveDay(date) {
@@ -646,6 +934,9 @@
     initTheme();
     initNav();
     initEvents();
+    initPalette();
+    initProgress();
+    $("printBtn").addEventListener("click", () => window.print());
     setLang(LANG); // applies dir/lang/static texts on load
 
     try {

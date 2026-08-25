@@ -34,6 +34,7 @@ const BASE_URL = process.env.ZAI_BASE_URL || "https://api.z.ai/api/paas/v4";
 
 const CATEGORIES = ["models", "tools", "research", "companies", "regulation", "other"];
 const DIFFICULTIES = ["beginner", "intermediate", "advanced"];
+const KNOWLEDGE_TRACKS = ["basics", "building", "security", "tools"];
 const AI_KEYWORDS = [
   "ai", "artificial intelligence", "llm", "gpt", "chatgpt", "claude", "gemini",
   "llama", "openai", "anthropic", "deepmind", "mistral", "qwen", "deepseek",
@@ -351,9 +352,15 @@ YOUR TASKS:
    Pick topics like: building a RAG system, fine-tuning a small model, writing good prompts,
    running local models, agents, evals, vector databases, AI safety basics, multimodal APIs…
    Fields: why (Arabic, 2 sentences), difficulty one of ${JSON.stringify(DIFFICULTIES)},
+   track one of ${JSON.stringify(KNOWLEDGE_TRACKS)} (basics=أساسيات, building=بناء أنظمة,
+   security=أمن, tools=أدوات — pick the closest fit),
    steps: 4-6 steps each {title (Arabic imperative), detail (Arabic, 1-2 sentences)},
    code: a SHORT runnable example snippet relevant to the skill (or "" if not applicable),
-   resources: 1-3 well-known real URLs, tags: 2-4 Arabic or English tags.
+   resources: 1-3 well-known real URLs, tags: 2-4 Arabic or English tags,
+   quickRef: ONE short Arabic sentence — the single key action to remember from this skill,
+   quiz: 2-3 multiple-choice questions in Arabic that test understanding of the skill:
+     {q: question, options: [3-4 short Arabic options], answer: index of correct option, explain: Arabic explanation why}.
+   The wrong options must be plausible but clearly wrong to someone who read the steps.
 
 HARD RULES:
 - ALL free-text fields for news/models/highlights/security/knowledge must be in ARABIC (except
@@ -375,7 +382,7 @@ Respond with ONLY a valid JSON object, no markdown fences, exactly this shape:
   "highlights": [{"text": "...", "level": "info", "sourceIndex": 0}],
   "security": [{"title": "...", "summary": "...", "type": "breach", "severity": "warning", "sourceIndex": 0}],
   "benchmarks": {"topModels": [{"name": "...", "org": "...", "score": "..."}], "highlights": "..."},
-  "knowledgeEntry": {"title": "...", "why": "...", "difficulty": "beginner", "steps": [{"title": "...", "detail": "..."}], "code": "", "resources": [{"name": "...", "url": "..."}], "tags": ["..."]}
+  "knowledgeEntry": {"title": "...", "why": "...", "difficulty": "beginner", "track": "basics", "steps": [{"title": "...", "detail": "..."}], "code": "", "resources": [{"name": "...", "url": "..."}], "tags": ["..."], "quickRef": "...", "quiz": [{"q": "...", "options": ["...", "...", "..."], "answer": 0, "explain": "..."}]}
 }`;
 }
 
@@ -506,16 +513,23 @@ function buildEdition(raw, candidates) {
 
   const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9\u0600-\u06FF]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 50);
   const ke = raw.knowledgeEntry;
+  const sanitizeQuiz = (quiz) => (Array.isArray(quiz) ? quiz : [])
+    .filter((q) => q && q.q && Array.isArray(q.options) && q.options.length >= 2 && Number.isInteger(q.answer) && q.answer >= 0 && q.answer < q.options.length)
+    .slice(0, 4)
+    .map((q) => ({ q: String(q.q).trim(), options: q.options.map(String), answer: q.answer, explain: String(q.explain || "").trim() }));
   const knowledgeEntry = ke && ke.title && Array.isArray(ke.steps) && ke.steps.length
     ? {
         id: `k-${date}-${slug(ke.title) || "skill"}`,
         title: String(ke.title).trim(),
         why: String(ke.why || "").trim(),
         difficulty: DIFFICULTIES.includes(ke.difficulty) ? ke.difficulty : "intermediate",
+        track: KNOWLEDGE_TRACKS.includes(ke.track) ? ke.track : "basics",
         steps: ke.steps.slice(0, 8).map((s) => ({ title: String(s.title || ""), detail: String(s.detail || "") })),
         code: String(ke.code || "").trim(),
         resources: (ke.resources || []).filter((r) => r && r.url).slice(0, 4).map((r) => ({ name: String(r.name || "رابط"), url: String(r.url) })),
         tags: (ke.tags || []).slice(0, 5).map(String),
+        quickRef: String(ke.quickRef || "").trim(),
+        quiz: sanitizeQuiz(ke.quiz),
         addedAt: date,
       }
     : null;
