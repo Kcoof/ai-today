@@ -449,6 +449,11 @@ a:hover { text-decoration: underline; }
 
 .model-name { font-size: 1.08rem; font-weight: 800; direction: ltr; text-align: right; }
 
+html[dir="ltr"] .model-name { text-align: left; }
+
+html[dir="ltr"] .top-story-summary, html[dir="ltr"] .news-summary,
+html[dir="ltr"] .model-highlights, html[dir="ltr"] .step-detail { text-align: left; }
+
 .model-org { color: var(--text-dim); font-size: 0.84rem; }
 
 .model-highlights { color: var(--text-dim); font-size: 0.92rem; flex: 1; }
