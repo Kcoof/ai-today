@@ -17,7 +17,9 @@
  */
 
 import { readFile, writeFile } from "node:fs/promises";
+import { readFileSync } from "node:fs";
 import readline from "node:readline/promises";
+import { isatty } from "node:tty";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -36,9 +38,28 @@ for (let i = 2; i < process.argv.length; i++) {
   }
 }
 
-const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+// Interactive TTY → readline. Piped/file stdin → pre-read answer queue
+// (readline/promises is unreliable with non-TTY stdin on some Node builds).
+let rl = null;
+let stdinAnswers = null;
+if (isatty(0)) {
+  rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+} else {
+  try {
+    stdinAnswers = readFileSync(0, "utf8").split(/\r?\n/);
+  } catch {
+    stdinAnswers = [];
+  }
+}
+
 const ask = async (q, fallback = "") => {
-  const v = (await rl.question(q)).trim();
+  let v;
+  if (stdinAnswers) {
+    process.stdout.write(q);
+    v = String(stdinAnswers.shift() ?? "").trim();
+  } else {
+    v = (await rl.question(q)).trim();
+  }
   return v || fallback;
 };
 
@@ -140,7 +161,7 @@ async function main() {
     console.log("\n❌ فشل التحقق:");
     errors.forEach((e) => console.log("   - " + e));
     console.log(TEST_ONLY ? "\n(وضع الاختبار: لم يُكتب شيء)" : "\nلم تُحفظ أي تغييرات. صحّح الأخطاء وحاول مجدداً.");
-    rl.close();
+    if (rl) rl.close();
     process.exit(1);
   }
 
@@ -148,12 +169,12 @@ async function main() {
 
   if (TEST_ONLY) {
     console.log("✅ التحقق ناجح (وضع الاختبار: لم يُكتب شيء)");
-    rl.close();
+    if (rl) rl.close();
     return;
   }
 
   const confirm = await ask("\nهل تريد الحفظ؟ (نعم/لا) [لا]: ");
-  rl.close();
+  if (rl) rl.close();
   if (!["نعم", "yes", "y"].includes(confirm.toLowerCase())) {
     console.log("لم تُحفظ أي تغييرات.");
     return;

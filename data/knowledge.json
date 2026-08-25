@@ -1,6 +1,36 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-25-كيف-تحمي-نفسك-من-هجمات-حقن-الموجهات-prompt-injecti",
+      "title": "كيف تحمي نفسك من هجمات حقن الموجهات (Prompt Injection)",
+      "why": "لأن حقن الموجهات أصبح من أكثر الهجمات شيوعاً على تطبيقات الذكاء الاصطناعي، وفهمه ضروري لأي شخص يبني أو يستخدم وكلاء ذكاء اصطناعي",
+      "difficulty": "beginner",
+      "steps": [
+        {
+          "title": "افهم الفكرة الأساسية",
+          "detail": "حقن الموجهات يعني إدخال تعليمات خفية في مستند أو صفحة يقرأها النموذج فتجعله يتجاهل تعليماتك الأصلية"
+        },
+        {
+          "title": "تعرف على أنواع الهجوم",
+          "detail": "هناك الحقن المباشر في المحادثة، والحقن غير المباشر عبر محتوى خارجي مثل صفحة ويب أو ملف يجمعه الوكيل"
+        },
+        {
+          "title": "طبّق الدفاع الأساسي",
+          "detail": "افصل بين التعليمات والبيانات، وحدد مصادر موثوقة فقط للقراءة، ولا تمنح الوكيل صلاحيات تنفيذ حساسة دون تأكيد بشري"
+        },
+        {
+          "title": "اختبر بنفسك",
+          "detail": "جرّب حقن عبارة بسيطة في مستند تجريبي ولاحظ استجابة النموذج ثم أضف الدفاعات وقارن"
+        }
+      ],
+      "code": "",
+      "resources": [],
+      "tags": [
+        "أمن، موجّهات، حقن"
+      ],
+      "addedAt": "2026-08-25"
+    },
+    {
       "id": "k-2026-08-25-بناء-نظام-rag",
       "title": "كيف تبني نظام RAG بسيطاً من الصفر",
       "why": "الاسترجاع المعزز بالتوليد (RAG) هو المهارة العملية الأولى التي تجعل النماذج اللغوية تجيب من بياناتك الخاصة بدل الاعتماد على ذاكرتها التدريبية فقط — وهي أساس معظم مشاريع الذكاء الاصطناعي الحقيقية في الشركات.",
@@ -33,11 +63,25 @@
       ],
       "code": "# أبسط مثال RAG باستخدام LlamaIndex\nfrom llama_index.core import VectorStoreIndex, SimpleDirectoryReader\n\ndocs = SimpleDirectoryReader(\"data\").load_data()      # 1-2: قراءة وتقسيم تلقائي\nindex = VectorStoreIndex.from_documents(docs)          # 3-4: تضمين وفهرسة\nengine = index.as_query_engine()                       # 5: محرك سؤال وجواب\n\nprint(engine.query(\"ما أهم أخبار اليوم؟\"))",
       "resources": [
-        { "name": "توثيق LlamaIndex", "url": "https://docs.llamaindex.ai/" },
-        { "name": "دروس LangChain", "url": "https://python.langchain.com/docs/introduction/" },
-        { "name": "دورة الاسترجاع من Hugging Face", "url": "https://huggingface.co/learn/retrieval-course" }
+        {
+          "name": "توثيق LlamaIndex",
+          "url": "https://docs.llamaindex.ai/"
+        },
+        {
+          "name": "دروس LangChain",
+          "url": "https://python.langchain.com/docs/introduction/"
+        },
+        {
+          "name": "دورة الاسترجاع من Hugging Face",
+          "url": "https://huggingface.co/learn/retrieval-course"
+        }
       ],
-      "tags": ["RAG", "استرجاع", "تطبيقات عملية", "مبتدئين"],
+      "tags": [
+        "RAG",
+        "استرجاع",
+        "تطبيقات عملية",
+        "مبتدئين"
+      ],
       "addedAt": "2026-08-25"
     }
   ]
