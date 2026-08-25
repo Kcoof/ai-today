@@ -1,6 +1,89 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-25-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
+      "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
+      "why": "تساعدك كتابة الأوامر الفعالة على الحصول على نتائج دقيقة ومفيدة من نماذج الذكاء الاصطناعي",
+      "difficulty": "beginner",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "حدد هدفك بوضوح",
+          "detail": "اذكر بوضوح ما تريد تحقيقه من خلال سؤالك أو طلبك"
+        },
+        {
+          "title": "قدم السياق الكافي",
+          "detail": "أضف معلومات كافية تساعد النموذج على فهم احتياجاتك بشكل أفضل"
+        },
+        {
+          "title": "استخدم تعليمات محددة",
+          "detail": "استخدم كلمات مثل 'اجعل الإجابة مختصرة' أو 'قدم ثلاثة أمثلة' لتوجيه النموذج"
+        },
+        {
+          "title": "اجرب وتعديل",
+          "detail": "جرّب أوامر مختلفة وراجع النتائج لتحسين جودة الإجابات"
+        }
+      ],
+      "code": "",
+      "resources": [
+        {
+          "name": "دليل كتابة الأوامر في OpenAI",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        },
+        {
+          "name": "مكتبة أوامر Anthropic",
+          "url": "https://www.anthropic.com/prompt-library"
+        },
+        {
+          "name": "أفضل ممارسات كتابة الأوامر",
+          "url": "https://www.promptingguide.ai"
+        }
+      ],
+      "tags": [
+        "كتابة الأوامر",
+        "الذكاء الاصطناعي",
+        "مهارات أساسية",
+        "تحسين النتائج"
+      ],
+      "quickRef": "كن محدداً في طلبك وقدم السياق الكافي للحصول على إجابات أفضل",
+      "quiz": [
+        {
+          "q": "ما هو العامل الأهم في كتابة أمر فعال للذكاء الاصطناعي؟",
+          "options": [
+            "استخدام لغة معقدة",
+            "تحديد الهدف بوضوح",
+            "إطالة الأمر قدر الإمكان",
+            "عدم تقديم أي سياق"
+          ],
+          "answer": 1,
+          "explain": "تحديد الهدف بوضوح هو العامل الأهم لأنه يساعد النموذج على فهم ما تريد تحقيقه بدقة"
+        },
+        {
+          "q": "كيف يمكنك تحسين جوبة الذكاء الاصطناعي إذا كانت غير دقيقة؟",
+          "options": [
+            "تغيير النموذج فقط",
+            "إعادة صياغة السؤال وتقديم سياق أفضل",
+            "تقليل عدد الأسئلة",
+            "استخدام لغة غير رسمية"
+          ],
+          "answer": 1,
+          "explain": "إعادة صياغة السؤال وتقديم سياق أفضل يساعد النموذج على فهم احتياجاتك بشكل أدق"
+        },
+        {
+          "q": "ماذا يعني 'توجيه النموذج' في كتابة الأوامر الفعالة؟",
+          "options": [
+            "فرض آرارك على النموذج",
+            "تحديد تنسيق أو طول الإجابة المطلوب",
+            "منع النموذج من الإجابة",
+            "تغيير لغة النموذج"
+          ],
+          "answer": 1,
+          "explain": "توجيه النموذج يعني تحديد كيفية تقديم الإجابة مثل طلب إجابة مختصرة أو أمثلة محددة"
+        }
+      ],
+      "addedAt": "2026-08-25"
+    },
+    {
       "id": "k-2026-08-25-كيف-تحمي-نفسك-من-هجمات-حقن-الموجهات-prompt-injecti",
       "title": "كيف تحمي نفسك من هجمات حقن الموجهات (Prompt Injection)",
       "why": "لأن حقن الموجهات أصبح من أكثر الهجمات شيوعاً على تطبيقات الذكاء الاصطناعي، وفهمه ضروري لأي شخص يبني أو يستخدم وكلاء ذكاء اصطناعي",
@@ -26,10 +109,20 @@
       ],
       "code": "",
       "resources": [
-        { "name": "OWASP: LLM Top 10", "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/" },
-        { "name": "دليل Anthropic لتقوية الضوابط", "url": "https://docs.anthropic.com/en/docs/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak" }
+        {
+          "name": "OWASP: LLM Top 10",
+          "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+        },
+        {
+          "name": "دليل Anthropic لتقوية الضوابط",
+          "url": "https://docs.anthropic.com/en/docs/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak"
+        }
       ],
-      "tags": ["أمن", "موجّهات", "حقن"],
+      "tags": [
+        "أمن",
+        "موجّهات",
+        "حقن"
+      ],
       "quickRef": "افصل دائماً بين التعليمات والبيانات، ولا تمنح الوكيل صلاحيات حساسة دون تأكيد بشري.",
       "quiz": [
         {
@@ -99,11 +192,25 @@
       ],
       "code": "# أبسط مثال RAG باستخدام LlamaIndex\nfrom llama_index.core import VectorStoreIndex, SimpleDirectoryReader\n\ndocs = SimpleDirectoryReader(\"data\").load_data()      # 1-2: قراءة وتقسيم تلقائي\nindex = VectorStoreIndex.from_documents(docs)          # 3-4: تضمين وفهرسة\nengine = index.as_query_engine()                       # 5: محرك سؤال وجواب\n\nprint(engine.query(\"ما أهم أخبار اليوم؟\"))",
       "resources": [
-        { "name": "توثيق LlamaIndex", "url": "https://docs.llamaindex.ai/" },
-        { "name": "دروس LangChain", "url": "https://python.langchain.com/docs/introduction/" },
-        { "name": "دورة الاسترجاع من Hugging Face", "url": "https://huggingface.co/learn/retrieval-course" }
+        {
+          "name": "توثيق LlamaIndex",
+          "url": "https://docs.llamaindex.ai/"
+        },
+        {
+          "name": "دروس LangChain",
+          "url": "https://python.langchain.com/docs/introduction/"
+        },
+        {
+          "name": "دورة الاسترجاع من Hugging Face",
+          "url": "https://huggingface.co/learn/retrieval-course"
+        }
       ],
-      "tags": ["RAG", "استرجاع", "تطبيقات عملية", "مبتدئين"],
+      "tags": [
+        "RAG",
+        "استرجاع",
+        "تطبيقات عملية",
+        "مبتدئين"
+      ],
       "quickRef": "قطّع → ضمّم → خزّن في قاعدة متجهات → استرجع الأقرب ومررها مع السؤال للنموذج.",
       "quiz": [
         {
