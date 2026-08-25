@@ -297,7 +297,7 @@ async function collectCandidates() {
  * GLM call
  * ================================================================ */
 
-function buildPrompt(candidates, recentKnowledgeTitles, yesterdayHeadlines, llmStatsText) {
+function buildEditionPrompt(candidates, yesterdayHeadlines) {
   const compact = candidates.map((c, i) => ({
     i,
     t: c.title.slice(0, 140),
@@ -315,75 +315,68 @@ The sources include the OFFICIAL news feeds of AI providers (OpenAI, Google Deep
 Anthropic, Moonshot/Kimi, Mistral, Z.ai, Meta, Qwen, DeepSeek, xAI) — pay special
 attention to their announcements of new models, features, skills, and plugins.
 
-YOUR TASKS:
+YOUR TASKS (respond with ONLY a valid JSON object, no markdown fences):
 
-1) NEWS: Pick the 8-12 MOST significant items for an Arabic-speaking AI enthusiast.
-   For each: write an accurate Arabic title (concise) and an Arabic summary (2-3 sentences,
-   informative, no fluff). Choose category: one of ${JSON.stringify(CATEGORIES)}.
-   Rate importance 1-5 (5 = major breakthrough/industry-shaping). Reference the candidate by "sourceIndex".
-   Feature/plugin/skill announcements from official provider blogs are valuable news (usually category "tools").
+1) "news": Pick the 8-12 MOST significant items. For each: accurate Arabic title
+   (concise) and Arabic summary (2-3 sentences, informative). category one of
+   ${JSON.stringify(CATEGORIES)}. importance 1-5 (5 = industry-shaping).
+   Reference the candidate by "sourceIndex".
+   Feature/plugin/skill announcements from official provider blogs are valuable news (usually "tools").
 
-2) MODELS: From the candidates, extract actual NEW AI model releases/announcements
-   (new checkpoint, version, or open-weights drop). Only include if genuinely a model release,
-   max 6. Name and org in Latin script; highlights in Arabic; releaseDate as YYYY-MM-DD;
-   specs as short strings (e.g. {"context": "1M", "params": "32B", "modality": "text+vision"}).
-   Reference "sourceIndex" for the link.
+2) "models": actual NEW model releases only, max 6. name/org Latin; highlights Arabic;
+   releaseDate YYYY-MM-DD; specs as short strings ({"context": "1M"}).
+   Reference "sourceIndex".
 
-3) HIGHLIGHTS: 0-3 items of important info the reader must know (major announcements,
-   big funding, market moves). text in Arabic, level one of "info"/"warning"/"critical".
-   Reference "sourceIndex" when applicable, otherwise null.
+3) "highlights": 0-3 items of important info (major announcements, big funding).
+   text Arabic, level one of "info"/"warning"/"critical", "sourceIndex" or null.
 
-4) SECURITY: Pick 2-5 items about AI SECURITY specifically: AI-related hacks and breaches,
-   prompt injections and jailbreaks, AI malware, leaked or discovered system prompts,
-   model backdoors, AI-powered attacks. Fields: title and summary in Arabic (if the article
-   reveals the actual prompt, technique, or vulnerability used, DESCRIBE it in the summary),
+4) "security": 2-5 items about AI SECURITY: breaches, prompt injections, jailbreaks,
+   AI malware, leaked prompts, model backdoors. title/summary Arabic (if the article
+   reveals the actual prompt or technique used, DESCRIBE it in the summary),
    type one of "breach"/"prompt-injection"/"jailbreak"/"malware"/"backdoor"/"policy",
-   severity one of "info"/"warning"/"critical", and "sourceIndex". Only AI-related items.
-
-5) BENCHMARKS: Based ONLY on the leaderboard text below (LLM Stats), build:
-   topModels: the top 10 models as {name, org, score} exactly as they appear in the data
-   (name/org Latin, score as displayed); highlights: 1-2 sentences in Arabic commenting on
-   the current ranking (biggest mover, close races). Do NOT invent models or scores.
-
-6) KNOWLEDGE ENTRY: Exactly ONE new entry for the "مهارات ومعرفة" section — a practical
-   skill taught as knowledge: what it is, why it matters, and concrete steps of how to
-   learn/add this skill. Vary the topic across days. AVOID these recent topics:
-   ${JSON.stringify(recentKnowledgeTitles.slice(0, 12))}.
-   Pick topics like: building a RAG system, fine-tuning a small model, writing good prompts,
-   running local models, agents, evals, vector databases, AI safety basics, multimodal APIs…
-   Fields: why (Arabic, 2 sentences), difficulty one of ${JSON.stringify(DIFFICULTIES)},
-   track one of ${JSON.stringify(KNOWLEDGE_TRACKS)} (basics=أساسيات, building=بناء أنظمة,
-   security=أمن, tools=أدوات — pick the closest fit),
-   steps: 4-6 steps each {title (Arabic imperative), detail (Arabic, 1-2 sentences)},
-   code: a SHORT runnable example snippet relevant to the skill (or "" if not applicable),
-   resources: 1-3 well-known real URLs, tags: 2-4 Arabic or English tags,
-   quickRef: ONE short Arabic sentence — the single key action to remember from this skill,
-   quiz: 2-3 multiple-choice questions in Arabic that test understanding of the skill:
-     {q: question, options: [3-4 short Arabic options], answer: index of correct option, explain: Arabic explanation why}.
-   The wrong options must be plausible but clearly wrong to someone who read the steps.
+   severity one of "info"/"warning"/"critical", "sourceIndex". Only AI-related items.
 
 HARD RULES:
-- ALL free-text fields for news/models/highlights/security/knowledge must be in ARABIC (except
-  model names, orgs, code, URLs, tags which stay Latin). Benchmarks topModels stays Latin.
-- NEVER invent URLs. Use "sourceIndex" to reference candidates; the pipeline resolves links.
-- Only reference indices that exist (0-${compact.length - 1}).
-- Yesterday's top headlines (do NOT repeat them): ${JSON.stringify(yesterdayHeadlines)}
+- ALL free-text in ARABIC except model names/orgs/URLs.
+- NEVER invent URLs. Use "sourceIndex" only (indices 0-${compact.length - 1}).
+- Yesterday's top headlines (do NOT repeat): ${JSON.stringify(yesterdayHeadlines)}
 
 CANDIDATES:
 ${JSON.stringify(compact)}
 
-LLM STATS LEADERBOARD TEXT (for task 5):
-${llmStatsText || "(leaderboard unavailable today — return empty benchmarks object)"}
+Shape:
+{"news": [{"title": "...", "summary": "...", "category": "models", "importance": 4, "sourceIndex": 0}], "models": [{"name": "...", "org": "...", "releaseDate": "YYYY-MM-DD", "highlights": "...", "specs": {}, "sourceIndex": 0}], "highlights": [{"text": "...", "level": "info", "sourceIndex": 0}], "security": [{"title": "...", "summary": "...", "type": "breach", "severity": "warning", "sourceIndex": 0}]}`;
+}
 
-Respond with ONLY a valid JSON object, no markdown fences, exactly this shape:
-{
-  "news": [{"title": "...", "summary": "...", "category": "models", "importance": 4, "sourceIndex": 0}],
-  "models": [{"name": "...", "org": "...", "releaseDate": "YYYY-MM-DD", "highlights": "...", "specs": {}, "sourceIndex": 0}],
-  "highlights": [{"text": "...", "level": "info", "sourceIndex": 0}],
-  "security": [{"title": "...", "summary": "...", "type": "breach", "severity": "warning", "sourceIndex": 0}],
-  "benchmarks": {"topModels": [{"name": "...", "org": "...", "score": "..."}], "highlights": "..."},
-  "knowledgeEntry": {"title": "...", "why": "...", "difficulty": "beginner", "track": "basics", "steps": [{"title": "...", "detail": "..."}], "code": "", "resources": [{"name": "...", "url": "..."}], "tags": ["..."], "quickRef": "...", "quiz": [{"q": "...", "options": ["...", "...", "..."], "answer": 0, "explain": "..."}]}
-}`;
+function buildExtrasPrompt(llmStatsText, recentKnowledgeTitles) {
+  return `You are the editor of "AI اليوم", a daily Arabic-language AI newsletter.
+Produce TWO things (respond with ONLY a valid JSON object, no markdown fences):
+
+1) "benchmarks": based ONLY on the leaderboard text below (LLM Stats):
+   topModels: the top 10 models as {name, org, score} exactly as they appear
+   (name/org Latin, score as displayed); highlights: 1-2 sentences in Arabic
+   commenting on the current ranking (biggest mover, close races).
+   Do NOT invent models or scores.
+
+2) "knowledgeEntry": ONE new entry for the "مهارات ومعرفة" section — a practical
+   skill taught as knowledge: what it is, why it matters, concrete steps.
+   Vary the topic daily. AVOID these recent topics: ${JSON.stringify(recentKnowledgeTitles.slice(0, 12))}.
+   Topics like: fine-tuning a small model, writing good prompts, running local
+   models, agents, evals, vector databases, AI safety basics, multimodal APIs…
+   Fields: title/why Arabic; difficulty one of ${JSON.stringify(DIFFICULTIES)};
+   track one of ${JSON.stringify(KNOWLEDGE_TRACKS)} (basics=أساسيات, building=بناء أنظمة,
+   security=أمن, tools=أدوات); steps 4-6 × {title (Arabic imperative), detail (Arabic 1-2 sentences)};
+   code: SHORT runnable snippet or ""; resources: 1-3 well-known real URLs;
+   tags 2-4; quickRef: ONE short Arabic sentence — the key action to remember;
+   quiz: 2-3 Arabic multiple-choice questions {q, options: [3-4 Arabic options],
+   answer: correct index, explain: Arabic explanation}. Wrong options must be
+   plausible but clearly wrong to someone who read the steps.
+
+LLM STATS LEADERBOARD TEXT:
+${llmStatsText || "(leaderboard unavailable — return empty benchmarks)"}
+
+Shape:
+{"benchmarks": {"topModels": [{"name": "...", "org": "...", "score": "..."}], "highlights": "..."}, "knowledgeEntry": {"title": "...", "why": "...", "difficulty": "beginner", "track": "basics", "steps": [{"title": "...", "detail": "..."}], "code": "", "resources": [{"name": "...", "url": "..."}], "tags": ["..."], "quickRef": "...", "quiz": [{"q": "...", "options": ["...", "...", "..."], "answer": 0, "explain": "..."}]}}`;
 }
 
 async function callGlm(prompt) {
@@ -665,12 +658,18 @@ async function main() {
   const previous = await readJsonIfExists(path.join(DATA, "latest.json"), null);
   const yesterdayHeadlines = previous ? (previous.news || []).slice(0, 5).map((n) => n.title) : [];
 
-  const prompt = buildPrompt(candidates, kb.entries.map((e) => e.title), yesterdayHeadlines, llmStatsText);
-  log(`prompt ready (${prompt.length} chars) — calling ${MODEL}…`);
-  const raw = await callGlm(prompt);
-  log("GLM response received, validating…");
+  // Keep the prompt small enough for a fast model: provider/security items first, cap total.
+  const priority = (c) => (c.sec ? 0 : /openai|deepmind|anthropic|mistral|z\.ai|moonshot|meta|qwen|deepseek|xai|schneier/i.test(c.source) ? 1 : 2);
+  const trimmed = [...candidates].sort((a, b) => priority(a) - priority(b)).slice(0, 90);
+  log(`candidates trimmed: ${candidates.length} → ${trimmed.length} (priority: provider/security first)`);
 
-  const edition = buildEdition(raw, candidates);
+  log(`calling ${MODEL} — pass 1/2 (edition: news, models, security)…`);
+  const rawEdition = await callGlm(buildEditionPrompt(trimmed, yesterdayHeadlines));
+  log("pass 1 OK — pass 2/2 (benchmarks + knowledge + quiz)…");
+  const rawExtras = await callGlm(buildExtrasPrompt(llmStatsText, kb.entries.map((e) => e.title)));
+  log("pass 2 OK, validating…");
+
+  const edition = buildEdition({ ...rawExtras, ...rawEdition }, trimmed);
   await persist(edition);
   log("done ✓");
 }
