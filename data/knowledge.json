@@ -1,6 +1,78 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-25-ضبط-دقيق-لنموذج-لغة-صغير",
+      "title": "ضبط دقيق لنموذج لغة صغير",
+      "why": "ضبط الدقيق يسمح بتخصيص النماذج اللغوية لمهام محددة، مما يحسن الأداء ويقلل من التكاليف مقارنة باستخدام النماذج الكبيرة العامة",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "اختر النموذج الأساس المناسب",
+          "detail": "اختر نموذجاً صغيراً ومفتوح المصدر مثل BERT-base أو DistilBERT بناءً على متطلبات المهام ومساحة التخزين المتاحة"
+        },
+        {
+          "title": "جهز مجموعة البيانات المدروسة",
+          "detail": "أنشئ مجموعة بيانات جيدة التنظيم ذات جودة عالية مع تسميات دقيقة تتوافق مع مهمة الهدف، مع مراعاة تنوع البيانات"
+        },
+        {
+          "title": "حدد معايير التقييم المناسبة",
+          "detail": "اختر مقاييس تقييم تعكس أداء النموذج في مهمتك المحددة مثل الدقة، F1-score، أو مقاييس مجال محددة"
+        },
+        {
+          "title": "نفذ عملية الضبط الدقيق",
+          "detail": "استخدم مكتبات مثل Hugging Face Transformers لتدريب النموذج على مجموعة البيانات مع ضبط المعلمات مثل معدل التعلم وحجم الدفعة"
+        },
+        {
+          "title": "اختبر وقارن النتائج",
+          "detail": "اختبر النموذج الجديد على مجموعة بيانات اختبار وقارن أداءه بالنموذج الأساسي للتأكد من التحسن"
+        }
+      ],
+      "code": "from transformers import Trainer, TrainingArguments\nfrom transformers import AutoModelForSequenceClassification, AutoTokenizer\n\n# تحميل النموذج والمُحلل\nmodel = AutoModelForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=2)\ntokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')\n\n# تحديد معاملات التدريب\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=64,\n    warmup_steps=500,\n    weight_decay=0.01,\n    logging_dir='./logs',\n    logging_steps=10,\n)\n\n# إنشاء المدرب\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n    eval_dataset=eval_dataset\n)\n\n# بدء التدريب\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-Tuning Documentation",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "Fine-tuning Language Models Guide",
+          "url": "https://huggingface.co/blog/fine-tuning-bert"
+        }
+      ],
+      "tags": [
+        "ضبط دقيق",
+        "نماذج لغوية",
+        "تعلم الآلة",
+        "Hugging Face"
+      ],
+      "quickRef": "ابدأ بنموذج صغير ومجموعة بيانات جودة عالية لتحقيق أفضل النتائج في الضبط الدقيق",
+      "quiz": [
+        {
+          "q": "ما هو النوع الأفضل من النماذج لبدء عملية الضبط الدقيق لمهمة محددة؟",
+          "options": [
+            "نماذج ضخمة مثل GPT-4",
+            "نماذج صغيرة ومفتوحة المصدر مثل BERT-base",
+            "نماذج مُصممة لمجالات مختلفة فقط",
+            "نماذج لا تتطلب ضبطاً دقيقاً"
+          ],
+          "answer": 1,
+          "explain": "النماذج الصغيرة والمفتوحة المصدر مثل BERT-base هي الأفضل لبدء عملية الضبط الدقيق لأنها أسرع وأقل تكلفة، وتوفر نقطة انطلاق جيدة لتخصيص النموذج لمهام محددة"
+        },
+        {
+          "q": "ما هو العامل الأهم في نجاح عملية الضبط الدقيق؟",
+          "options": [
+            "سرعة المعالج",
+            "جودة مجموعة البيانات المدروسة",
+            "حجم النموذج",
+            "عدد التكرارات"
+          ],
+          "answer": 1,
+          "explain": "جودة مجموعة البيانات المدروسة هي العامل الأهم في نجاح عملية الضبط الدقيق، لأن النموذج يتعلم من البيانات المتاحة، وبيانات منخفضة الجودة ستؤدي إلى نتائج ضعيفة بغض النظر عن المعاملات الأخرى"
+        }
+      ],
+      "addedAt": "2026-08-25"
+    },
+    {
       "id": "k-2026-08-25-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
       "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
       "why": "تساعدك كتابة الأوامر الفعالة على الحصول على نتائج دقيقة ومفيدة من نماذج الذكاء الاصطناعي",

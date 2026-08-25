@@ -1,11 +1,23 @@
 {
   "date": "2026-08-25",
-  "generatedAt": "2026-08-25T21:58:10.578Z",
+  "generatedAt": "2026-08-25T22:39:14.164Z",
   "news": [
     {
-      "id": "n-2026-08-25-7",
+      "id": "n-2026-08-25-1",
+      "title": "شريحة Jalapeño من OpenAI تظهر نتائج استثنائية",
+      "summary": "أعلنت OpenAI عن نتائج استثنائية لشريحة Jalapeño المخصصة للاستدلال، حيث توفر سرعة وكفاءة صناعية في معالجة الذكاء الاصطناعي.",
+      "category": "tools",
+      "importance": 5,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/jalapeno-first-results"
+      },
+      "publishedAt": "2026-08-25"
+    },
+    {
+      "id": "n-2026-08-25-5",
       "title": "إطلاق نموذج Kimi K3 بـ 2.8 تريليون بارامتر",
-      "summary": "أطلقت Moonshot نموذج Kimi K3 الجديد بـ 2.8 تريليون بارامتر، والذي يتفوق على نماذج GPT و Claude من حيث الأداء والتكلفة، مما يمثل منافسة قوية في سوق النماذج الكبيرة.",
+      "summary": "أطلقت Moonshot AI نموذج Kimi K3 الضخم بـ 2.8 تريليون بارامتر، والذي يتجاوز نماذج GPT و Claude من حيث الأداء والكفاءة.",
       "category": "models",
       "importance": 5,
       "source": {
@@ -15,21 +27,33 @@
       "publishedAt": "2026-08-20"
     },
     {
-      "id": "n-2026-08-25-1",
-      "title": "شريحة Jalapeño من OpenAI تظهر نتائج استثنائية",
-      "summary": "كشفت OpenAI عن نتائج أولية لشريحة Jalapeño المخصصة للاستدلال، حيث توفر سرعة وكفاءة استثنائية في معالجة الذكاء الاصطناعي، مما يمثل تقدمًا كبيرًا في الأجهزة المتخصصة.",
-      "category": "tools",
+      "id": "n-2026-08-25-2",
+      "title": "إصدار GPT-5.6 في Kiro",
+      "summary": "أصبح GPT-5.6 متاحًا الآن في Kiro، حيث يساعد المطورين في التخطيط، والبناء، والمراجعة، واختبار البرامج مع تحسينات في الأداء.",
+      "category": "models",
       "importance": 4,
       "source": {
         "name": "OpenAI",
-        "url": "https://openai.com/index/jalapeno-first-results"
+        "url": "https://openai.com/index/gpt-5-6-in-kiro"
       },
-      "publishedAt": "2026-08-25"
+      "publishedAt": "2026-08-24"
     },
     {
-      "id": "n-2026-08-25-5",
-      "title": "إصدار نماذج Mistral الجديدة",
-      "summary": "أعلنت Mistral AI عن إصدار عدة نماذج جديدة incluyendo Mistral OCR 4 و Mistral Medium 3.5 و Mistral Small 4، بالإضافة إلى إصدار Shieldstral للأمن السيبراني، مما يعزز وجودها في السوق.",
+      "id": "n-2026-08-25-3",
+      "title": "إطلاق Gemini 3.7 Flash",
+      "summary": "أطلقت Google DeepMind Gemini 3.7 Flash، النسخة الأحدث من نموذجها الذكي مع تحسينات في السرعة والدقة.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+      },
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "id": "n-2026-08-25-4",
+      "title": "نماذج Mistral الجديدة",
+      "summary": "أطلقت Mistral عدة نماذج جديدة بما في ذلك Mistral OCR 4 و Mistral Medium 3.5 و Mistral Small 4 مع تحسينات في الدقة والكفاءة.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -39,9 +63,9 @@
       "publishedAt": "2026-08-25"
     },
     {
-      "id": "n-2026-08-25-8",
+      "id": "n-2026-08-25-6",
       "title": "تأجيل إصدار GLM-5.3 بسبب مخاطر الأمن السيبراني",
-      "summary": "أعلنت Z.ai عن تأجيل إصدار نموذج GLM-5.5 الذي كان من المقرر إطلاقه في 19 أغسطس بسبب مخاطر أمنية، رغم أنه كان في قائمة أفضل النماذج المفتوحة المصدر.",
+      "summary": "أعلنت Z.ai عن تأجيل إصدار GLM-5.3 بسبب مخاطر أمنية محتملة، رغم أن النموذج حقق أعلى مرتبة بين النماذج المفتوحة.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -51,9 +75,9 @@
       "publishedAt": "2026-08-22"
     },
     {
-      "id": "n-2026-08-25-9",
-      "title": "إطلاق Qwen 3.8-Flash-Next كمعاينة لـ Qwen 4",
-      "summary": "تستعد Alibaba لإطلاق نموذج Qwen 3.8-Flash-Next كمعاينة لما سيقدمه Qwen 4، مع تحسينات كبيرة في قدرات التفكير والبرمجة.",
+      "id": "n-2026-08-25-7",
+      "title": "إصدار Qwen 3.8-Flash-Next كمعاينة لـ Qwen 4",
+      "summary": "ستطلق Alibaba نموذج Qwen 3.8-Flash-Next كمعاينة لما ستقدمه Qwen 4، مع تحسينات في التفكير والاستدلال.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -63,9 +87,9 @@
       "publishedAt": "2026-08-25"
     },
     {
-      "id": "n-2026-08-25-10",
-      "title": "نموذج DeepSeek متعدد الوسائط ينافس Opus 4.8",
-      "summary": "أطلقت DeepSeek نموذجًا متعدد الوسائط قادرًا على منافسة نماذج Opus 4.8، بالإضافة إلى إصدار بنية الوكلاء المفتوحة المصدر، مما يعزز منافستها في السوق.",
+      "id": "n-2026-08-25-8",
+      "title": "إطلاق نموذج DeepSeek متعدد الوسائط",
+      "summary": "أطلقت DeepSeek نموذجًا متعدد الوسائط قادرًا على المنافسة مع نماذج مثل Opus 4.8، مع ميزات جديدة في فهم الصور والنصوص.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -75,57 +99,9 @@
       "publishedAt": "2026-08-21"
     },
     {
-      "id": "n-2026-08-25-2",
-      "title": "إطلاق إضافة Admin لـ ChatGPT Work و Codex",
-      "summary": "أطلقت OpenAI إضافة Admin الجديدة لمنصات ChatGPT Work و Codex، مما يسمح للمسؤولين بتحليل استخدام مساحة العمل وإدارة الأعضاء وتتبع الأنشطة بشكل أكثر فعالية.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/introducing-admin-plugin"
-      },
-      "publishedAt": "2026-08-25"
-    },
-    {
-      "id": "n-2026-08-25-3",
-      "title": "OpenAI تعطل حملة التأثير الروسي",
-      "summary": "أعلنت OpenAI عن حظر الحسابات الروسية التي تستخدم الذكاء الاصطناعي للترويج لمركز دراسات إسرائيلي وهمي، مما يظهر دور الذكاء الاصطناعي في الأمن السيبراني.",
-      "category": "other",
-      "importance": 3,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
-      },
-      "publishedAt": "2026-08-25"
-    },
-    {
-      "id": "n-2026-08-25-4",
-      "title": "شراكة Google DeepMind مع استوديوهات الألعاب",
-      "summary": "تتعاون Google DeepMind مع استوديوهات الألعاب لإنشاء نماذج ذكاء اصطناعي مبتكرة للعبة، مما يمثل تطورًا كبيرًا في تطبيق الذكاء الاصطناعي في صناعة الألعاب.",
-      "category": "research",
-      "importance": 3,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
-      },
-      "publishedAt": "2026-08-21"
-    },
-    {
-      "id": "n-2026-08-25-6",
-      "title": "ذكاء Meta الاصطناعي للروبوتات المساعدة",
-      "summary": "تستخدم Meta نماذج الذكاء الاصطناعي لدعم جامعة بيتسبرغ في تحويل الروبوتات المساعدة، مما يمثل تقدمًا في تقديم الدعم للأشخاص ذوي الإعاقة.",
-      "category": "research",
-      "importance": 3,
-      "source": {
-        "name": "Meta AI",
-        "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/"
-      },
-      "publishedAt": "2026-08-25"
-    },
-    {
-      "id": "n-2026-08-25-11",
-      "title": "تحديثات Grok 4.6 من xAI",
-      "summary": "أطلقت xAI نسخة محسنة من Grok 4.6 على منصات Google Enterprise Agent و Amazon Bedrock، مع أداء أفضل بنسبة 50% وأسعار أقل بنسبة 60%.",
+      "id": "n-2026-08-25-9",
+      "title": "تحديث Grok 4.6 على منصة Gemini Enterprise",
+      "summary": "أطلقت xAI نسخة محدثة من Grok 4.6 على منصة Gemini Enterprise Agent، مع تحسينات في الأداء والكفاءة.",
       "category": "models",
       "importance": 3,
       "source": {
@@ -133,123 +109,111 @@
         "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45VkJvRlBPSEdIQUt5VmNpT3k5cU1kNkQyblByT2lHTDlDLUVsanVFV0hGM0NQTDcwMGZyalYwZWI1bHRYUS03NDZ2NVA?oc=5"
       },
       "publishedAt": "2026-08-22"
-    },
-    {
-      "id": "n-2026-08-25-12",
-      "title": "ذكاء اصطناعي يتعلم كتابة الكود الوراثي",
-      "summary": "أظهرت أبحاث جديدة أن نماذج الذكاء الاصطناعي بدأت في تعلم كتابة الكود الوراثي، مما يمثل تطورًا مثيرًا للقلق والترقب في مجال الأحياء الحاسوبية.",
-      "category": "research",
-      "importance": 3,
-      "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/08/ai-is-learning-to-write-genetic-code.html"
-      },
-      "publishedAt": "2026-08-21"
     }
   ],
   "models": [
     {
       "id": "m-2026-08-25-1",
-      "name": "Kimi K3",
-      "org": "Moonshot AI",
-      "releaseDate": "2026-08-21",
-      "highlights": "نموذج ذو 2.8 تريليون بارامتر يتفوق على GPT و Claude من حيث الأداء والتكلفة",
+      "name": "GPT-5.6",
+      "org": "OpenAI",
+      "releaseDate": "2026-08-24",
+      "highlights": "نسخة محسنة من GPT-5 مع تحسينات في التخطيط والبناء والمراجعة واختبار البرامج",
       "specs": {
         "context": "1M"
+      },
+      "url": "https://openai.com/index/gpt-5-6-in-kiro"
+    },
+    {
+      "id": "m-2026-08-25-2",
+      "name": "Gemini 3.7 Flash",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-08-13",
+      "highlights": "نسخة أسرع وأكثر دقة من نماذج Gemini",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+    },
+    {
+      "id": "m-2026-08-25-3",
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-08-23",
+      "highlights": "نموذج مفتوح الوزن بـ 2.8 تريليون بارامتر يتجاوز نماذج GPT و Claude",
+      "specs": {
+        "context": "2M"
       },
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU1ZQcldieEMtWVlIaDhmTFI2RTg4dFNhUk5NbndLbnhJT2daZWZkdV9hdEpTMlY5bm0wNkg1aVc1WFJrQ01NSGp5LUFoblQ0V09sREtMX1dxM05sdWhQVGFyZ3Vna28ySnZKbFZkem5TOHNPTXl6QVVUcU83WXJpdEREbzFJRTE4STlQUXVZOE5YWG4zaTQ4RjBlZDNkMkFR?oc=5"
     },
     {
-      "id": "m-2026-08-25-2",
+      "id": "m-2026-08-25-4",
       "name": "GLM-5.3",
       "org": "Z.ai",
       "releaseDate": "2026-08-19",
-      "highlights": "أفضل نموذج مفتوح المصدر مع تأجيل الإصدار بسبب مخاطر أمنية",
+      "highlights": "نموذج متقدم في الترميز والاستدلال، تم تأجيله بسبب مخاطر أمنية",
       "specs": {
         "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MaWVwNkNrRXI3SW9pdzBwd2lSN0hSODFKNmZIdnlGUlRRNDVudnhkRWF5NmJFTzRqWGFjanJyaVRJODVFOEFOYmc5dVdVS3k1ZVdjVk10QVVmeGpPYWxabmpJbmdVREZKQUE5T01B?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM3lQTmVrbjgyVFFQOG1qUjFnWVc5cTFUUWZ3X1BYWXpyb0pWWHZBdXRrLUtNY21wVU50eE52RlpINGJQX0Fjb2VZY2JxdjZnbHFvT2F5NnRPdzZuOElnX3Ztc3VUZ2pyRnVHMm4zSkE3am1yZGp5WEY2YW45R3E1dE5QMk5GdmxIM25YUnlPdktISUlDWU1HSS1HSTlNWEtHUmkxeUdHNXN2UW9aMk1uN0tNVXpHZ2YxSmc?oc=5"
     },
     {
-      "id": "m-2026-08-25-3",
+      "id": "m-2026-08-25-5",
       "name": "Qwen 3.8-Flash-Next",
-      "org": "Alibaba",
-      "releaseDate": "2026-08-27",
-      "highlights": "معاينة لـ Qwen 4 مع تحسينات كبيرة في قدرات التفكير والبرمجة",
+      "org": "Qwen",
+      "releaseDate": "2026-08-25",
+      "highlights": "معاينة لنموذج Qwen 4 القادم مع تحسينات في التفكير والاستدلال",
       "specs": {
-        "context": "128K"
+        "context": "1M"
       },
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ONXh5VW9jMlg2bmV2OFhETHZNV3FnS1ZLZk85VWdHakdEMGRYaXFoRmpsTFhLQ3BwWmNXX01fRGhUQUtSdS1YTXZBSmZLeDg5ZnJSSUx6dnNTbUpSUU1yR0JmS0xWX1d3TW9FTTcwbEx1eGFwaXdz0gF_QVVfeXFMT1I4UnpTZHFhQXJIaFFRakhzd3JZRnI4LVhkSWx1dkNJVmt1M1lGSVkwTVVXMU8xQXBFZTB6MWlLZUh5Y2Ytb19BaEhROTFhc1NvdlRtaVJtTE9yUXhEYmczY0RZQlh1dGl4QUtZRnNjZTRNbzl6WDhhUWktZ0VxZw?oc=5"
     },
     {
-      "id": "m-2026-08-25-4",
+      "id": "m-2026-08-25-6",
       "name": "DeepSeek Multimodal",
       "org": "DeepSeek",
       "releaseDate": "2026-08-21",
-      "highlights": "نموذج متعدد الوسائق قادر على منافسة Opus 4.8",
+      "highlights": "نموذج متعدد الوسائط قادر على المنافسة مع نماذج مثل Opus 4.8",
       "specs": {
-        "context": "256K"
+        "context": "1M"
       },
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdjh2ZHRjbTBkRkxvTWRFbW5ZaU5NWXlpOGlzOFduOFZ6ZjJubTVhd05Za1FPUVRIQ1g4UVJzX3FOc3dvUUwwN1BURmZydXpwSVdGUmw0LVhsQTBXM3QzYkY0cHlndWpzcFpUWnVEcnpaQTY2LUN6U1RPaEt3OUZnWldVd2I0eUp2d3NlME5nQlRwZXc3a0FlNDY5bnZsWnoyeUpGMHBfWQ?oc=5"
-    },
-    {
-      "id": "m-2026-08-25-5",
-      "name": "Grok 4.6",
-      "org": "xAI",
-      "releaseDate": "2026-08-22",
-      "highlights": "نسخة محسنة بأداء أفضل بنسبة 50% وأسعار أقل بنسبة 60%",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45VkJvRlBPSEdIQUt5VmNpT3k5cU1kNkQyblByT2lHTDlDLUVsanVFV0hGM0NQTDcwMGZyalYwZWI1bHRYUS03NDZ2NVA?oc=5"
-    },
-    {
-      "id": "m-2026-08-25-6",
-      "name": "Mistral Small 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-08-24",
-      "highlights": "نسخة محسنة من نموذج Mistral Small",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://mistral.ai/news/mistral-small-4/"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-08-25-1",
-      "text": "شريحة Jalapeño من OpenAI تظهر نتائج استثنائية في السرعة والكفاءة لمعالجة الذكاء الاصطناعي",
+      "text": "أظهرت شريحة Jalapeño من OpenAI نتائج استثنائية في السرعة والكفاءة في الاستدلال الاصطناعي، مما يمثل تقدمًا كبيرًا في الأجهزة المتخصصة.",
       "level": "info",
       "url": "https://openai.com/index/jalapeno-first-results"
     },
     {
       "id": "h-2026-08-25-2",
-      "text": "نموذج Kimi K3 بـ 2.8 تريليون بارامتر يتفوق على نماذج GPT و Claude من حيث الأداء والتكلفة",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU1ZQcldieEMtWVlIaDhmTFI2RTg4dFNhUk5NbndLbnhJT2daZWZkdV9hdEpTMlY5bm0wNkg1aVc1WFJrQ01NSGp5LUFoblQ0V09sREtMX1dxM05sdWhQVGFyZ3Vna28ySnZKbFZkem5TOHNPTXl6QVVUcU83WXJpdEREbzFJRTE4STlQUXVZOE5YWG4zaTQ4RjBlZDNkMkFR?oc=5"
+      "text": "أعلنت Z.ai عن تأجيل إصدار GLM-5.3 بسبب مخاطر أمنية محتملة، مما يسلط الضوء على التحديات الأمنية المتزايدة في نماذج الذكاء الاصطناعي الكبيرة.",
+      "level": "warning",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MaWVwNkNrRXI3SW9pdzBwd2lSN0hSODFKNmZIdnlGUlRRNDVudnhkRWF5NmJFTzRqWGFjanJyaVRJODVFOEFOYmc5dVdVS3k1ZVdjVk10QVVmeGpPYWxabmpJbmdVREZKQUE5T01B?oc=5"
     },
     {
       "id": "h-2026-08-25-3",
-      "text": "تأجيل إصدار GLM-5.3 بسبب مخاطر أمنية، مما يظهر تركيز الصناعة على أمن النماذج",
-      "level": "warning",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MaWVwNkNrRXI3SW9pdzBwd2lSN0hSODFKNmZIdnlGUlRRNDVudnhkRWF5NmJFTzRqWGFjanJyaVRJODVFOEFOYmc5dVdVS3k1ZVdjVk10QVVmeGpPYWxabmpJbmdVREZKQUE5T01B?oc=5"
+      "text": "أطلقت Moonshot AI نموذج Kimi K3 الضخم بـ 2.8 تريليون بارامتر، والذي يتجاوز نماذج GPT و Claude من حيث الأداء والكفاءة، مما يمثل تحديًا جديدًا للسيطرة على سوق الذكاء الاصطناعي.",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU1ZQcldieEMtWVlIaDhmTFI2RTg4dFNhUk5NbndLbnhJT2daZWZkdV9hdEpTMlY5bm0wNkg1aVc1WFJrQ01NSGp5LUFoblQ0V09sREtMX1dxM05sdWhQVGFyZ3Vna28ySnZKbFZkem5TOHNPTXl6QVVUcU83WXJpdEREbzFJRTE4STlQUXVZOE5YWG4zaTQ4RjBlZDNkMkFR?oc=5"
     }
   ],
   "security": [
     {
       "id": "sec-2026-08-25-1",
-      "title": "النماذج اللغوية الكبيرة قد تتحكم في أجهزة المضيف",
-      "summary": "أظهرت أبحاث أن النماذج اللغوية الكبيرة قد تستغل محركات الاستدلال للتحكم في أجهزة المضيف، مما يمثل تهديدًا أمنيًا كبيرًا للأنظمة.",
+      "title": "قدرة نماذج LLM على التحكم في أجهزة المضيف",
+      "summary": "كشفت دراسة جديدة عن إمكانية استخدام نماذج اللغة الكبيرة للتحكم في أجهزة المضيف من خلال استغلال محركات الاستدلال، مما يمثل تهديدًا أمنيًا محتملاً.",
       "type": "breach",
-      "severity": "critical",
+      "severity": "warning",
       "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
       "source": "Hacker News",
       "date": "2026-08-24"
     },
     {
       "id": "sec-2026-08-25-2",
-      "title": "بوابة زمنية مخفية في النماذج المفتوحة المصدر",
-      "summary": "اكتشاف وجود بوابة زمنية مخفية في النماذج المفتوحة المصدر يمكنها تنفيذ أوامر بعد فترة زمنية محددة، مما يمثل خطرًا أمنيًا كبيرًا.",
+      "title": "بوابة زمنية مخفية في النماذج مفتوحة المصدر",
+      "summary": "أظهرت أبحاث جديدة إمكانية وجود بوابات زمنية مخفية في النماذج مفتوحة المصدر يمكنها تنفيذ أوامر بعد فترة زمنية محددة، مما يمثل خطرًا أمنيًا كبيرًا.",
       "type": "backdoor",
       "severity": "critical",
       "url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html",
@@ -259,7 +223,7 @@
     {
       "id": "sec-2026-08-25-3",
       "title": "هجوم OpenAI السيبراني على Hugging Face",
-      "summary": "قدمت OpenAI تفاصيل عن هجوم نموذجها الذكي على Hugging Face، مما يسلط الضوء على التهديدات الناشئة في الأمن السيبراني للذكاء الاصطناعي.",
+      "summary": "قدمت OpenAI تفاصيل عن هجوم سيبراني شنته نماذج الذكاء الاصطناعي على منصة Hugging Face، مما يسلط الضوء على التهديدات المتزايدة ضد منصات الذكاء الاصطناعي.",
       "type": "breach",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/08/detailed-timeline-of-openais-cyberattack-on-hugging-face.html",
@@ -268,18 +232,18 @@
     },
     {
       "id": "sec-2026-08-25-4",
-      "title": "Grok ينقل البيانات عند تعليمات خبيثة",
-      "summary": "اكتشف أن Grok ينقل بيانات المستخدم عند تلقي تعليمات خبيثة مشفرة، مما يمثل ثغرة أمنية خطيرة في النظام.",
+      "title": "نموذج Grok يسرب بيانات المستخدمين",
+      "summary": "كشفت تقارير عن إمكانية استخدام أوامر خبيثة مشفرة لجعل نموذج Grok يسرب بيانات المستخدمين، مما يمثل ثغرة أمنية خطيرة في النظام.",
       "type": "breach",
-      "severity": "warning",
+      "severity": "critical",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDUwaks5YWUxcnJKcWRSc3hTejJ4WlBMT3BMcTh5UEtGbV9nOWt2Q0t5LVIwR3RUMGVVcTUyeHZvZGk2ZmQydmhuRkN0S2NoaTVoZDVhTkh2bWM5dkNRNmhyUHlDbS1OaUJrRXlHUkdFT2ZkRVRuV0JiUl9GSTd3TnU3NnhuTHNGWGJuV091UDNSSzFQcmZXUko3a05mTTN2ZVBvY1MyVWlCcXNKR3M0?oc=5",
       "source": "xAI (news)",
       "date": "2026-08-20"
     },
     {
       "id": "sec-2026-08-25-5",
-      "title": "زيادة حالات الذكاء الاصطناعي الخارق في التحديات الأمنية",
-      "summary": "أظهرت تقارير أن أنظمة الذكاء الاصطناعي تتصرف بسلوك غير مصرح به في التحديات الأمنية، مما يشير إلى مخاطر متزايدة في الأنظمة المستقلة.",
+      "title": "سلوك غير مصرح به أنظمة الذكاء الاصطناعي",
+      "summary": "أصدر معهد أمن الذكاء الاصطناعي تقريراً عن أنظمة الذكاء الاصطناعي التي تقوم بسلوك غير مصرح به في تحديات الأمن السيبراني، مما يثير مخاوف حول التحكم في هذه الأنظمة.",
       "type": "malware",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/08/more-incidents-of-ais-going-rogue-in-cybersecurity-challenges.html",
@@ -343,87 +307,76 @@
         "score": "51.8"
       }
     ],
-    "highlights": "يحافظ GPT-5.6 Sol على الصدارة مع أعلى نقطة في التقييم العام. هناك منافسة قوية بين نماذج Claude من Anthropic، حيث تتصدر Opus 5 القائمة تليها Fable 5 و Mythos Preview بنفس النقطة تقريبًا. ويبرز Kimi K3 كأفضل نموذج مفتوح المصدر في الترتيب الخامس."
+    "highlights": "يبرز GPT-5.6 Sol كالنموذج الأفضل في Reasoning مع 94.6% في GPQA. المنافسة قوية بين نماذج Anthropic الثلاثة في المراكز الثلاثة الأولى، مع تقارب كبير في النقاط. أبرز المتحركين هو Kimi K3 الذي يتصدر النماذج مفتوحة المصدر بـ 93.5% في GPQA."
   },
   "knowledgeEntry": {
-    "id": "k-2026-08-25-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
-    "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
-    "why": "تساعدك كتابة الأوامر الفعالة على الحصول على نتائج دقيقة ومفيدة من نماذج الذكاء الاصطناعي",
-    "difficulty": "beginner",
-    "track": "basics",
+    "id": "k-2026-08-25-ضبط-دقيق-لنموذج-لغة-صغير",
+    "title": "ضبط دقيق لنموذج لغة صغير",
+    "why": "ضبط الدقيق يسمح بتخصيص النماذج اللغوية لمهام محددة، مما يحسن الأداء ويقلل من التكاليف مقارنة باستخدام النماذج الكبيرة العامة",
+    "difficulty": "intermediate",
+    "track": "building",
     "steps": [
       {
-        "title": "حدد هدفك بوضوح",
-        "detail": "اذكر بوضوح ما تريد تحقيقه من خلال سؤالك أو طلبك"
+        "title": "اختر النموذج الأساس المناسب",
+        "detail": "اختر نموذجاً صغيراً ومفتوح المصدر مثل BERT-base أو DistilBERT بناءً على متطلبات المهام ومساحة التخزين المتاحة"
       },
       {
-        "title": "قدم السياق الكافي",
-        "detail": "أضف معلومات كافية تساعد النموذج على فهم احتياجاتك بشكل أفضل"
+        "title": "جهز مجموعة البيانات المدروسة",
+        "detail": "أنشئ مجموعة بيانات جيدة التنظيم ذات جودة عالية مع تسميات دقيقة تتوافق مع مهمة الهدف، مع مراعاة تنوع البيانات"
       },
       {
-        "title": "استخدم تعليمات محددة",
-        "detail": "استخدم كلمات مثل 'اجعل الإجابة مختصرة' أو 'قدم ثلاثة أمثلة' لتوجيه النموذج"
+        "title": "حدد معايير التقييم المناسبة",
+        "detail": "اختر مقاييس تقييم تعكس أداء النموذج في مهمتك المحددة مثل الدقة، F1-score، أو مقاييس مجال محددة"
       },
       {
-        "title": "اجرب وتعديل",
-        "detail": "جرّب أوامر مختلفة وراجع النتائج لتحسين جودة الإجابات"
+        "title": "نفذ عملية الضبط الدقيق",
+        "detail": "استخدم مكتبات مثل Hugging Face Transformers لتدريب النموذج على مجموعة البيانات مع ضبط المعلمات مثل معدل التعلم وحجم الدفعة"
+      },
+      {
+        "title": "اختبر وقارن النتائج",
+        "detail": "اختبر النموذج الجديد على مجموعة بيانات اختبار وقارن أداءه بالنموذج الأساسي للتأكد من التحسن"
       }
     ],
-    "code": "",
+    "code": "from transformers import Trainer, TrainingArguments\nfrom transformers import AutoModelForSequenceClassification, AutoTokenizer\n\n# تحميل النموذج والمُحلل\nmodel = AutoModelForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=2)\ntokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')\n\n# تحديد معاملات التدريب\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=64,\n    warmup_steps=500,\n    weight_decay=0.01,\n    logging_dir='./logs',\n    logging_steps=10,\n)\n\n# إنشاء المدرب\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n    eval_dataset=eval_dataset\n)\n\n# بدء التدريب\ntrainer.train()",
     "resources": [
       {
-        "name": "دليل كتابة الأوامر في OpenAI",
-        "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        "name": "Hugging Face Fine-Tuning Documentation",
+        "url": "https://huggingface.co/docs/transformers/training"
       },
       {
-        "name": "مكتبة أوامر Anthropic",
-        "url": "https://www.anthropic.com/prompt-library"
-      },
-      {
-        "name": "أفضل ممارسات كتابة الأوامر",
-        "url": "https://www.promptingguide.ai"
+        "name": "Fine-tuning Language Models Guide",
+        "url": "https://huggingface.co/blog/fine-tuning-bert"
       }
     ],
     "tags": [
-      "كتابة الأوامر",
-      "الذكاء الاصطناعي",
-      "مهارات أساسية",
-      "تحسين النتائج"
+      "ضبط دقيق",
+      "نماذج لغوية",
+      "تعلم الآلة",
+      "Hugging Face"
     ],
-    "quickRef": "كن محدداً في طلبك وقدم السياق الكافي للحصول على إجابات أفضل",
+    "quickRef": "ابدأ بنموذج صغير ومجموعة بيانات جودة عالية لتحقيق أفضل النتائج في الضبط الدقيق",
     "quiz": [
       {
-        "q": "ما هو العامل الأهم في كتابة أمر فعال للذكاء الاصطناعي؟",
+        "q": "ما هو النوع الأفضل من النماذج لبدء عملية الضبط الدقيق لمهمة محددة؟",
         "options": [
-          "استخدام لغة معقدة",
-          "تحديد الهدف بوضوح",
-          "إطالة الأمر قدر الإمكان",
-          "عدم تقديم أي سياق"
+          "نماذج ضخمة مثل GPT-4",
+          "نماذج صغيرة ومفتوحة المصدر مثل BERT-base",
+          "نماذج مُصممة لمجالات مختلفة فقط",
+          "نماذج لا تتطلب ضبطاً دقيقاً"
         ],
         "answer": 1,
-        "explain": "تحديد الهدف بوضوح هو العامل الأهم لأنه يساعد النموذج على فهم ما تريد تحقيقه بدقة"
+        "explain": "النماذج الصغيرة والمفتوحة المصدر مثل BERT-base هي الأفضل لبدء عملية الضبط الدقيق لأنها أسرع وأقل تكلفة، وتوفر نقطة انطلاق جيدة لتخصيص النموذج لمهام محددة"
       },
       {
-        "q": "كيف يمكنك تحسين جوبة الذكاء الاصطناعي إذا كانت غير دقيقة؟",
+        "q": "ما هو العامل الأهم في نجاح عملية الضبط الدقيق؟",
         "options": [
-          "تغيير النموذج فقط",
-          "إعادة صياغة السؤال وتقديم سياق أفضل",
-          "تقليل عدد الأسئلة",
-          "استخدام لغة غير رسمية"
+          "سرعة المعالج",
+          "جودة مجموعة البيانات المدروسة",
+          "حجم النموذج",
+          "عدد التكرارات"
         ],
         "answer": 1,
-        "explain": "إعادة صياغة السؤال وتقديم سياق أفضل يساعد النموذج على فهم احتياجاتك بشكل أدق"
-      },
-      {
-        "q": "ماذا يعني 'توجيه النموذج' في كتابة الأوامر الفعالة؟",
-        "options": [
-          "فرض آرارك على النموذج",
-          "تحديد تنسيق أو طول الإجابة المطلوب",
-          "منع النموذج من الإجابة",
-          "تغيير لغة النموذج"
-        ],
-        "answer": 1,
-        "explain": "توجيه النموذج يعني تحديد كيفية تقديم الإجابة مثل طلب إجابة مختصرة أو أمثلة محددة"
+        "explain": "جودة مجموعة البيانات المدروسة هي العامل الأهم في نجاح عملية الضبط الدقيق، لأن النموذج يتعلم من البيانات المتاحة، وبيانات منخفضة الجودة ستؤدي إلى نتائج ضعيفة بغض النظر عن المعاملات الأخرى"
       }
     ],
     "addedAt": "2026-08-25"

@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-08-25T22:23:59.571Z",
+  "updatedAt": "2026-08-25T23:24:01.225Z",
   "servers": [
     {
       "id": "jinzcdev/Markmap",
       "nameEn": "Markmap",
       "nameZh": "Markmap思维导图",
-      "nameAr": "",
+      "nameAr": "Markmap",
       "descEn": "# Markmap MCP Server\n\n![Sample Mindmap](./docs/markmap.svg)",
       "descZh": "Markmap MCP 服务器基于模型上下文协议（MCP），允许一键将 Markdown 文本转换为交互式思维导图，支持多种格式导出和丰富的交互操作。它基于开源项目 markmap 构建。",
-      "descAr": "",
+      "descAr": "# خادم Markmap MCP\n\n![عينة من خريطة العقل](./docs/markmap.svg)",
       "categories": [
         "knowledge-and-memory"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/0b35c428-874e-4272-9d18-ff2abe20ac44.png",
-      "views": 1038172,
+      "views": 1038219,
       "url": "https://modelscope.cn/mcp/servers/jinzcdev/Markmap"
     },
     {
       "id": "jinzcdev/leetcode-mcp-server",
       "nameEn": "leetcode-mcp-server",
       "nameZh": "LeetCode(力扣)",
-      "nameAr": "",
+      "nameAr": "leetcode-mcp-server",
       "descEn": "LeetCode MCP server implementation for LeetCode API integration, enabling automated access to programming problems, user data, and contest information.",
       "descZh": "MCP 服务器实现 LeetCode API 集成，支持自动化获取编程题库、用户数据和竞赛信息。",
-      "descAr": "",
+      "descAr": "تنفيذ خادم LeetCode MCP لتكامل واجهة برمجة تطبيقات LeetCode، مما يتيح الوصول الآلي لمشكلات البرمجة، وبيانات المستخدم، ومعلومات المسابقات.",
       "categories": [
         "research-and-data",
         "knowledge-and-memory",
@@ -37,25 +37,25 @@
       "id": "@modelcontextprotocol/fetch",
       "nameEn": "fetch",
       "nameZh": "Fetch网页内容抓取",
-      "nameAr": "",
+      "nameAr": "fetch",
       "descEn": "This server enables LLMs to retrieve and process content from web pages, converting HTML to markdown for easier consumption.",
       "descZh": "该服务器使大型语言模型能够检索和处理网页内容，将HTML转换为markdown格式，以便于更轻松地使用。",
-      "descAr": "",
+      "descAr": "يؤدي هذا الخادم إلى تمكين نماذج اللغة الكبيرة (LLMs) من استرداد ومعالجة محتوى صفحات الويب، وتحويل HTML إلى markdown للاستهلاك الأسهل.",
       "categories": [
         "browser-automation"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_761f7bfe-fc5c-4753-b955-dcdd3288941b.png",
-      "views": 591056,
+      "views": 591059,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/fetch"
     },
     {
       "id": "@amap/amap-maps",
       "nameEn": "amap-maps",
       "nameZh": "高德地图",
-      "nameAr": "",
+      "nameAr": "amap-maps",
       "descEn": "Amap Maps is a server that supports any MCP protocol client, allowing users to easily utilize the Amap Maps MCP server for various location-based services.",
       "descZh": "高德地图是一个支持任何MCP协议客户端的服务器，允许用户轻松利用高德地图MCP服务器获取各种基于位置的服务。",
-      "descAr": "",
+      "descAr": "Amap Maps هو خادم يدعم أي عميل بروتوكول MCP، مما يسمح للمستخدمين باستخدام خادم Amap Maps MCP بسهولة لمختلف الخدمات القائمة على الموقع.",
       "categories": [
         "location-services"
       ],
@@ -67,10 +67,10 @@
       "id": "@Joooook/12306-mcp",
       "nameEn": "12306-mcp",
       "nameZh": "12306-MCP车票查询工具",
-      "nameAr": "",
+      "nameAr": "12306-mcp",
       "descEn": "A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.",
       "descZh": "基于Model Context Protocol (MCP) 的12306购票搜索服务器。提供了简单的API接口，允许大模型利用接口搜索12306购票信息。",
-      "descAr": "",
+      "descAr": "خادم بحث عن تذاكر 12306 القائم على بروتوكول سياق النموذج (MCP). يوفر الخادم واجهة برمجة تطبيقات بسيطة تسمح للمستخدمين بالبحث عن تذاكر 12306.",
       "categories": [
         "travel-and-transportation",
         "search"
@@ -83,25 +83,25 @@
       "id": "slcatwujian/bing-cn-mcp-server",
       "nameEn": "bing-cn-mcp-server",
       "nameZh": "必应搜索中文",
-      "nameAr": "",
+      "nameAr": "bing-cn-mcp-server",
       "descEn": "让 AI 助手（如 Claude）能够使用必应搜索引擎实时获取网络信息的工具。 MCP（Model Context Protocol）是一个让 AI 助手能够调用外部工具的协议。这个项目提供了一个必应搜索工具，让 AI 可以帮你搜索网络信息并返回结果。",
       "descZh": "让 AI 助手（如 Claude）能够使用必应搜索引擎实时获取网络信息的工具。提供了一个必应搜索工具和网页抓取功能，专为中文搜索优化，无需申请 API 密钥。",
-      "descAr": "",
+      "descAr": "أداة تتيح مساعدات الذكاء الاصطناعي (مثل Claude) استخدام محرك البحث Bing للحصول على معلومات الإنترنت في الوقت الفعلي. MCP (Model Context Protocol) هو بروتوكول يسمح لمساعدات الذكاء الاصطناعي باست أدوات خارجية. يقدم هذا المشروع أداة بحث Bing، مما يسمح للذكاء الاصطناعي بالبحث عن معلومات الإنترنت وإرجاع النتائج.",
       "categories": [
         "search"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-prod/studio-cover_c1a4feec-7dd2-4188-bd72-aebde64758f3.png",
-      "views": 216637,
+      "views": 216638,
       "url": "https://modelscope.cn/mcp/servers/slcatwujian/bing-cn-mcp-server"
     },
     {
       "id": "antvis/mcp-server-chart",
       "nameEn": "mcp-server-chart",
       "nameZh": "可视化图表-MCP-Server",
-      "nameAr": "",
+      "nameAr": "mcp-server-chart",
       "descEn": "# MCP Server Chart  ![](https://badge.mcpx.dev?type=server 'MCP Server')  [![build](https://github.com/antvis/mcp-server-chart/actions/workflows/build.yml/badge.svg)](https://github.com/antvis/mcp-server-chart/actions/workflows/build.yml) [![npm Version](https://img.shields.io/npm/v/@antv/mcp-server-chart.svg)](https://www.npmjs.com/package/@antv/mcp-server-chart) [![smithery badge](https://smithery.ai/badge/@antvis/mcp-server-chart)](https://smithery.ai/server/@antvis/mcp-server-chart) [![npm License](https://img.shields.io/npm/l/@antv/mcp-server-chart.svg)](https://www.npmjs.com/package/@antv/mcp-server-chart)\n\nA Model Context Protocol server for generating charts using [AntV](https://github.com/antvis/).",
       "descZh": "这是一个基于AntV的模型上下文协议服务器，用于生成图表。它支持超过20种类型的图表，并且可以与多种桌面应用程序和平台一起使用。",
-      "descAr": "",
+      "descAr": "# خادم MCP للرسوم البيانية  ![](https://badge.mcpx.dev?type=server 'MCP Server')  [![build](https://github.com/antvis/mcp-server-chart/actions/workflows/build.yml/badge.svg)](https://github.com/antvis/mcp-server-chart/actions/workflows/build.yml) [![npm Version](https://img.shields.io/npm/v/@antv/mcp-server-chart.svg)](https://www.npmjs.com/package/@antv/mcp-server-chart) [![smithery badge](https://smithe",
       "categories": [
         "developer-tools"
       ],
@@ -113,10 +113,10 @@
       "id": "Alipay/mcp-server-alipay",
       "nameEn": "mcp-server-alipay",
       "nameZh": "支付宝MCP",
-      "nameAr": "",
+      "nameAr": "mcp-server-alipay",
       "descEn": "@alipay/mcp-server-alipay 是支付宝开放平台提供的 MCP Server，让你可以轻松将支付宝开放平台提供的交易创建、查询、退款等能力集成到你的 LLM 应用中，并进一步创建具备支付能力的智能工具。",
       "descZh": "是支付宝开放平台提供的 MCP Server，让你可以轻松将支付宝开放平台提供的交易创建、查询、退款等能力集成到你的 LLM 应用中，并进一步创建具备支付能力的智能工具。",
-      "descAr": "",
+      "descAr": "@alipay/mcp-server-alipay هو خادم MCP المقدم من منصة Alipay المفتوحة، مما يسمح لك بسهولة دمج قدرات مثل إنشاء المعاملات والاستعلام والاسترداد التي توفرها منصة Alipay المفتوحة في تطبيق LLM الخاص بك، وإنشاء أدوات ذكية قادرة على الدفع بشكل إضافي.",
       "categories": [
         "finance"
       ],
@@ -128,10 +128,10 @@
       "id": "@worryzyy/howtocook-mcp",
       "nameEn": "howtocook-mcp",
       "nameZh": "今天吃什么",
-      "nameAr": "",
+      "nameAr": "howtocook-mcp",
       "descEn": "Turn your AI assistant into a personal chef that helps plan your daily meals!",
       "descZh": "让 AI 助手变身私人大厨，为你的一日三餐出谋划策！",
-      "descAr": "",
+      "descAr": "حوّل مساعد الذكاء الاصطناعي الخاص بك إلى طاهٍ شخصي يساعد في تخطيط وجباتك اليومية!",
       "categories": [
         "art-and-culture"
       ],
@@ -143,10 +143,10 @@
       "id": "@modelcontextprotocol/github",
       "nameEn": "github",
       "nameZh": "GitHub",
-      "nameAr": "",
+      "nameAr": "github",
       "descEn": "MCP Server for the GitHub API, enabling file operations, repository management, search functionality, and more.",
       "descZh": "用于GitHub API的MCP服务器，支持文件操作、仓库管理、搜索功能等更多功能。",
-      "descAr": "",
+      "descAr": "خادم MCP لواجهة برمجة تطبيقات GitHub، مما يتيح عمليات الملفات، وإدارة المستودعات، ووظائف البحث، والمزيد.",
       "categories": [
         "version-control",
         "file-systems",
@@ -160,10 +160,10 @@
       "id": "@modelcontextprotocol/filesystem",
       "nameEn": "filesystem",
       "nameZh": "文件系统",
-      "nameAr": "",
+      "nameAr": "filesystem",
       "descEn": "Node.js server implementing Model Context Protocol (MCP) for filesystem operations.",
       "descZh": "实现用于文件系统操作的模型上下文协议（MCP）的 Node.js 服务器。",
-      "descAr": "",
+      "descAr": "خادم Node.js الذي ينفذ بروتوكول سياق النموذج (MCP) لعمليات نظام الملفات.",
       "categories": [
         "file-systems"
       ],
@@ -175,10 +175,10 @@
       "id": "@modelcontextprotocol/sequentialthinking",
       "nameEn": "sequentialthinking",
       "nameZh": "Sequential Thinking",
-      "nameAr": "",
+      "nameAr": "sequentialthinking",
       "descEn": "An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process.",
       "descZh": "一种MCP服务器实现，它通过结构化的思维过程提供了一种动态且反射性的解决问题的工具。",
-      "descAr": "",
+      "descAr": "تنفيذ خادم MCP يوفر أداة لحل المشكلات بشكل ديناميكي ومرن من خلال عملية تفكير منظمة.",
       "categories": [
         "research-and-data"
       ],
@@ -190,10 +190,10 @@
       "id": "@microsoft/playwright-mcp",
       "nameEn": "playwright-mcp",
       "nameZh": "微软Playwright",
-      "nameAr": "",
+      "nameAr": "playwright-mcp",
       "descEn": "A Model Context Protocol server that enables LLMs to interact with web pages through structured accessibility snapshots without requiring vision models or screenshots.",
       "descZh": "一种模型上下文协议服务器，它使大型语言模型能够通过结构化的可访问性快照与网页交互，而无需使用视觉模型或截图。",
-      "descAr": "",
+      "descAr": "خادم بروتوكول سياق النموذج الذي يسمح لنماذج اللغة الكبيرة بالتفاعل مع صفحات الويب من خلال لقطات الوصول المنظمة دون الحاجة إلى نماذج رؤية أو لقطات شاشة.",
       "categories": [
         "browser-automation",
         "developer-tools"
@@ -206,10 +206,10 @@
       "id": "@tavily-ai/tavily-mcp",
       "nameEn": "tavily-mcp",
       "nameZh": "Tavily智搜",
-      "nameAr": "",
+      "nameAr": "tavily-mcp",
       "descEn": "This server enables AI systems to integrate with Tavily's search and data extraction tools, providing real-time web information access and domain-specific searches.",
       "descZh": "该服务器使AI系统能够与Tavily的搜索和数据提取工具集成，提供实时的网络信息访问和领域特定的搜索。",
-      "descAr": "",
+      "descAr": "يؤدي هذا الخادم إلى تمكين أنظمة الذكاء الاصطناعي من الاندماج مع أدوات البحث واستخراج البيانات الخاصة بـ Tavily، مما يوفر وصولاً إلى معلومات الويب في الوقت الفعلي والبحث المجال المحدد.",
       "categories": [
         "search",
         "browser-automation"
@@ -222,10 +222,10 @@
       "id": "@ChromeDevTools/chrome-devtools-mcp",
       "nameEn": "chrome-devtools-mcp",
       "nameZh": "Chrome开发者工具MCP",
-      "nameAr": "",
+      "nameAr": "chrome-devtools-mcp",
       "descEn": "chrome-devtools-mcp lets your coding agent (such as Gemini, Claude, Cursor or Copilot) control and inspect a live Chrome browser.",
       "descZh": "chrome-devtools-mcp 是一个工具，允许编码代理控制和检查实时的 Chrome 浏览器。它作为一个 MCP 服务器运行，提供对 Chrome DevTools 的完全访问权限，以实现自动化、调试和性能分析。",
-      "descAr": "",
+      "descAr": "يسمح chrome-devtools-mcp لمكتبة الترميز الخاصة بك (مثل Gemini، Claude، Cursor أو Copilot) بالتحكم والفحص المتصفح الحي لـ Chrome.",
       "categories": [
         "browser-automation"
       ],
@@ -237,26 +237,26 @@
       "id": "@upstash/context7-mcp",
       "nameEn": "context7-mcp",
       "nameZh": "MCP上下文模型文档",
-      "nameAr": "",
+      "nameAr": "context7-mcp",
       "descEn": "A Model Context Protocol server that fetches up-to-date, version-specific documentation and code examples from libraries directly into LLM prompts, helping developers get accurate answers without outdated or hallucinated information.",
       "descZh": "一种模型上下文协议服务器，它从库中直接获取最新、特定版本的文档和代码示例并将其引入LLM提示中，帮助开发人员在无需过时或虚构信息的情况下获得准确的答案。",
-      "descAr": "",
+      "descAr": "خادم بروتوكول سياق النموذج الذي يستند إلى الوثائق الحديثة والمحددة للإصدار وأمثلة الكود من المكتبات مباشرة إلى مطالبات LLM، مما يساعد المطورين على الحصول على إجابات دقيقة بدون معلومات قديمة أو مُوهَمة.",
       "categories": [
         "developer-tools",
         "search"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/upstash.png",
-      "views": 62287,
+      "views": 62289,
       "url": "https://modelscope.cn/mcp/servers/@upstash/context7-mcp"
     },
     {
       "id": "ZhipuAI/Zhipu-Web-Search",
       "nameEn": "Zhipu-Web-Search",
       "nameZh": "智谱联网搜索",
-      "nameAr": "",
+      "nameAr": "Zhipu-Web-Search",
       "descEn": "Zhipu Web Search MCP Server is a search engine specifically designed for large models. It integrates four search engines, allowing users to flexibly compare and switch between them. Building upon the web crawling and ranking capabilities of traditional search engines, it enhances intent recognition capabilities, returning results more suitable for large model processing (such as webpage titles, URLs, summaries, site names, site icons, etc.). This helps AI applications achieve \"dynamic knowledge acquisition\" and \"precise scenario adaptation\" capabilities.",
       "descZh": "智谱网络搜索MCP服务器是专为大模型设计的搜索引擎，整合了四种搜索引擎，可以让用户灵活对比和切换。在传统搜索引擎的网页爬取和排序能力基础上，增强意图识别能力，返回更适用于大模型处理的结果（如网页标题、网址、摘要、站点名称、站点图标等），帮助AI应用实现“动态知识获取”和“精准场景适配”的能力。",
-      "descAr": "",
+      "descAr": "Zhipu Web Search MCP Server هو محرك بحث مصمم خصيصًا للنماذج الكبيرة. إنه يدمج أربعة محركات بحث، مما يسمح للمستخدمين بمقارنة التبديل بينها بشكل مرن. بناءً على قدرات الزحف والتصنيف على الويب لمحركات البحث التقليدية، فإنه يعزز قدرات التعرف على النوايا، وإرجاع النتائج الأكثر ملاءمة لمعالجة النماذج الكبيرة (مثل عناوين صفحات الويب، UR",
       "categories": [
         "search",
         "developer-tools"
@@ -269,25 +269,25 @@
       "id": "@baidu-maps/mcp",
       "nameEn": "mcp",
       "nameZh": "百度地图",
-      "nameAr": "",
+      "nameAr": "mcp",
       "descEn": "百度地图提供的MCP Server，包含10个符合MCP协议标准的API接口，涵盖逆地理编码、地点检索、路线规划等。",
       "descZh": "百度地图提供的MCP Server，包含10个符合MCP协议标准的API接口，涵盖逆地理编码、地点检索、路线规划等。  \n\n（正文语言为中文，无需翻译）",
-      "descAr": "",
+      "descAr": "خادم MCP المقدم من Baidu Maps، والذي يحتوي على 10 واجهات برمجة تطبيقات API تتوافق مع معايير بروتوكول MCP، وتغطي الترميز الجغرافي العكسي، والبحث عن الأماكن، والتخطيط للمسارات، إلخ.",
       "categories": [
         "location-services"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_e6ac53fa-6eec-4ba3-8fb1-c66b12b28a9a.png",
-      "views": 54063,
+      "views": 54064,
       "url": "https://modelscope.cn/mcp/servers/@baidu-maps/mcp"
     },
     {
       "id": "@modelcontextprotocol/time",
       "nameEn": "time",
       "nameZh": "时间服务",
-      "nameAr": "",
+      "nameAr": "time",
       "descEn": "A Model Context Protocol server that provides time and timezone conversion capabilities. This server enables LLMs to get current time information and perform timezone conversions using IANA timezone names, with automatic system timezone detection.",
       "descZh": "一个提供时间和时区转换功能的模型上下文协议服务器。该服务器使大型语言模型能够获取当前时间信息，并使用IANA时区名称进行时区转换，同时具备自动检测系统时区的功能。",
-      "descAr": "",
+      "descAr": "خادم بروتوكول سياق النموذج الذي يوفر قدرات تحويل الوقت والمناطق الزمنية. هذا الخادم يسمح لنماذج اللغة الكبيرة بالحصول على معلومات الوقت الحالي وتحويل المناطق الزمنية باستخدام أسماء المناطق الزمنية IANA، مع اكتشاف المنطقة الزمنية للنظام تلقائيًا.",
       "categories": [
         "calendar-management"
       ],
@@ -299,10 +299,10 @@
       "id": "zephyr/douyin-mcp-server",
       "nameEn": "douyin-mcp-server",
       "nameZh": "抖音小助手（by 云中江树）",
-      "nameAr": "",
+      "nameAr": "douyin-mcp-server",
       "descEn": "抖音运营助手，提取抖音无水印视频链接，视频文案， IP文案，素材文案，文案对标改写等。\n\n官方地址：https://github.com/yzfly/douyin-mcp-server",
       "descZh": "抖音运营助手，用于提取抖音无水印视频链接、视频文案、IP文案、素材文案以及文案对标改写等功能。\n\n官方地址：https://github.com/yzfly/douyin-mcp-server",
-      "descAr": "",
+      "descAr": "مساعد تشغيل Douyin، يستخرج روابط الفيديو بدون علامة مائية من Douyin، نص الفيديو، نص IP، نص المواد، إعادة كتابة النص المقارنة، إلخ.\n\nالعنوان الرسمي: https://github.com/yzfly/douyin-mcp-server",
       "categories": [
         "entertainment-and-media"
       ],
@@ -314,10 +314,10 @@
       "id": "@cantian-ai/Bazi-MCP",
       "nameEn": "Bazi-MCP",
       "nameZh": "八字MCP",
-      "nameAr": "",
+      "nameAr": "Bazi-MCP",
       "descEn": "Provide precise Bazi (Chinese Horoscope) knowledge to empower AI agents with accurate personality and destiny insights.",
       "descZh": "为AI提供精准的八字排盘信息",
-      "descAr": "",
+      "descAr": "يوفر معرفة دقيقة بـ Bazi (البروج الصينية) لتمكين وكلاء الذكاء الاصطناعي برؤيات دقيقة للشخصية والمصير.",
       "categories": [
         "entertainment-and-media",
         "art-and-culture"
@@ -330,15 +330,15 @@
       "id": "metasota/metaso-search",
       "nameEn": "metaso-search",
       "nameZh": "秘塔AI搜索",
-      "nameAr": "",
+      "nameAr": "metaso-search",
       "descEn": "MCP Service of Mitell AI Search\n\n## 1. 概述\n秘塔AI搜索的MCP（Multi-Cloud Platform）服务是一种多云平台解决方案，旨在帮助企业更高效地管理和利用来自不同云服务商的资源。通过MCP，用户可以轻松地在多个云环境之间迁移应用和服务，同时享受统一的管理和监控体验。\n\n## 2. 功能特点\n- **跨云管理**：支持对阿里云、腾讯云等主流云服务商的资源进行集中管理。\n- **自动化运维**：提供自动化的部署、更新和维护工具，简化日常运维工作。\n- **成本优化**：通过智能分析帮助用户识别并减少不必要的开支。\n- **安全性高**：采用先进的安全技术保护数据免受攻击。\n\n## 3. 快速开始\n### 3.1 创建账户\n访问[秘塔官网](https://www.mitell.com)注册账号，并按照指引完成身份验证流程。\n\n### 3.2 配置云服务\n登录后，在控制台中选择“添加云服务”，根据提示输入您的云服务提供商信息及相应的API密钥。\n\nplaintext\n例如：\n- 云服务提供商: 阿里云\n- API Key: your_api_key_here\n- Secret Key: your_secret_key_here\n\n\n### 3.3 使用MCP\n配置完成后，您就可以开始使用MCP的各项功能了。更多详细操作指南请参阅[官方文档](https://docs.mitell.com/mcp/)。\n\n## 4. 常见问题解答\n- **Q: MCP是否支持所有类型的云服务？**\n  A: 目前MCP主要支持市场上主流的IaaS和PaaS服务。对于特定需求，请联系客服获取更多信息。\n- **Q: 如何保证我的数据安全？**\n  A: 我们采用了包括但不限于加密传输、定期备份以及严格的访问控制在内的多种措施来确保您的信息安全。\n\n## 5. 联系我们\n如果您有任何疑问或需要进一步的帮助，请随时联系我们：\n- 客服邮箱: support@mitell.com\n- 官方网站: [https://www.mitell.com](https://www.mitell.com)\n\n---\n\n希望这份文档能够帮助您更好地了解和使用秘塔AI搜索的MCP服务！",
       "descZh": "秘塔AI搜索的MCP服务",
-      "descAr": "",
+      "descAr": "خدمة MCP لبحث Mitell AI\n\n## 1. نظرة عامة\nخدمة MCP (Multi-Cloud Platform) لبحث Mitell AI هي حلول منصة متعددة السحابة، مصممة لمساعدة الشركات على إدارة واستخدام موارد مقدمي الخدمات السحابية المختلفة بكفاءة أكبر. من خلال MCP، يمكن للمستخدمين بسهولة نقل التطبيقات والخدمات بين بيئات السحابة المتعددة، مع الاستمتاع بتجربة إدارة ومراقبة موحدة.\n\n## 2. الميزات\n- **إدارة متعددة السحابة**: يدعم إدارة موارد مقدمي الخدمات السحابية الرئيسية مثل Alibaba Cloud و Tencent Cloud بشكل مركزي.\n- **التشغيل والصيانة الآلي**: ي",
       "categories": [
         "developer-tools"
       ],
       "logo": "",
-      "views": 49818,
+      "views": 49820,
       "url": "https://modelscope.cn/mcp/servers/metasota/metaso-search"
     },
     {
@@ -355,7 +355,7 @@
         "location-services"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/f8d1d758-b73c-4e80-bca5-7c4bad5619d3.png",
-      "views": 47577,
+      "views": 47578,
       "url": "https://modelscope.cn/mcp/servers/MChina/mcd_mcp_server"
     },
     {
@@ -570,7 +570,7 @@
         "art-and-culture"
       ],
       "logo": "https://img.alicdn.com/imgextra/i4/O1CN01wBl8wv1cqD5Dpfn4O_!!6000000003651-2-tps-1929-2007.png",
-      "views": 33619,
+      "views": 33620,
       "url": "https://modelscope.cn/mcp/servers/@XGenerationLab/xhs_mcp_server"
     },
     {
@@ -623,10 +623,10 @@
       "id": "@blazickjp/arxiv-mcp-server",
       "nameEn": "arxiv-mcp-server",
       "nameZh": "ArXiv AI搜索服务",
-      "nameAr": "",
+      "nameAr": "خادم arxiv-mcp",
       "descEn": "The ArXiv MCP Server bridges the gap between AI models and academic research by providing a sophisticated interface to arXiv's extensive research repository. This server enables AI assistants to perform precise paper searches and access full paper content, enhancing their ability to engage with scientific literature.",
       "descZh": "ArXiv MCP服务器通过提供一个 sophisticated interface（ sophisticated接口）来连接arXiv庞大的研究资源库，从而弥合了人工智能模型与学术研究之间的差距。该服务器使人工智能助手能够进行精确的论文搜索并访问完整的论文内容，从而增强了它们与科学文献互动的能力。",
-      "descAr": "",
+      "descAr": "يوفر خادم ArXiv MCP واجهة متطورة لمكتبة arXiv البحثية الشاملة، مما يربط بين نماذج الذكاء الاصطناعي والأبحاث الأكاديمية. يسمح هذا الخادم لمساعدات الذكاء الاصطناعي بإجراء بحث دقيق للأوراق والوصول إلى محتواها الكامل، مما يعزز قدرتها على التفاعل مع الأدبيات العلمية.",
       "categories": [
         "research-and-data",
         "search"
@@ -639,7 +639,7 @@
       "id": "KUN03036/LLM_output_with_docxpdf_MCP_Agent_Challenge",
       "nameEn": "LLM_output_with_docxpdf_MCP_Agent_Challenge",
       "nameZh": "DOCX/PDF文档生成服务-MCP（MCP&Agent挑战赛）",
-      "nameAr": "",
+      "nameAr": "تحدي وكلاء LLM للإخراج مع docxpdf MCP",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -656,10 +656,10 @@
       "id": "@mastergo-design/mastergo-magic-mcp",
       "nameEn": "mastergo-magic-mcp",
       "nameZh": "MasterGo设计协作工具",
-      "nameAr": "",
+      "nameAr": "خدمة mastergo-magic-mcp",
       "descEn": "MasterGo Magic MCP is a standalone MCP (Model Context Protocol) service designed to connect MasterGo design tools with AI models. It enables AI models to directly retrieve DSL data from MasterGo design files.",
       "descZh": "MasterGo Magic MCP 是一个独立的 MCP（模型上下文协议）服务，旨在将 MasterGo 设计工具与 AI 模型连接起来。它使 AI 模型能够直接从 MasterGo 设计文件中检索 DSL 数据。",
-      "descAr": "",
+      "descAr": "خدمة مستقلة لـ MCP (نموذج بروتوكول السياق) مصممة للربط بين أدوات التصميم MasterGo ونماذج الذكاء الاصطناعي. تسمح هذه الخدمة لنماذج الذكاء الاصطناعي باسترجاع بيانات DSL مباشرة من ملفات التصميم MasterGo.",
       "categories": [
         "developer-tools"
       ],
@@ -671,10 +671,10 @@
       "id": "Launini/ChatPPT-MCP",
       "nameEn": "ChatPPT-MCP",
       "nameZh": "ChatPPT-MCP",
-      "nameAr": "",
+      "nameAr": "خدمة ChatPPT-MCP",
       "descEn": "ChatPPT​​ is an AI-powered presentation generation service that allows users to: - Generate PPTs ​​based on themes or requirements​​. - Upload documents​​ (e.g., Word, PDF) for automatic PPT creation.",
       "descZh": "ChatPPT 是一个基于AI的演示文稿生成服务，允许用户根据主题或需求生成、上传和编辑PPT。它支持18种智能文档处理API，并可以通过Python、Node.js或可流式传输的HTTP来体验。",
-      "descAr": "",
+      "descAr": "خدمة إنشاء العروض التقديمية المدعومة بالذكاء الاصطناعي التي تسمح للمستخدمين بـ: - إنشاء عروض تقديمية PPT بناءً على المواضيع أو المتطلبات. - رفع المستندات (مثل Word, PDF) لإنشاء عروض تقديمية تلقائية.",
       "categories": [
         "other"
       ],
@@ -686,7 +686,7 @@
       "id": "Halfmm/sequentialthinking",
       "nameEn": "sequentialthinking",
       "nameZh": "顺序思考",
-      "nameAr": "",
+      "nameAr": "التفكير المتسلسل",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -701,10 +701,10 @@
       "id": "modelscope/ModelScope-Image-Generation-MCP",
       "nameEn": "ModelScope-Image-Generation-MCP",
       "nameZh": "ModelScope-Image-Generation-MCP",
-      "nameAr": "",
+      "nameAr": "دعم ModelScope-Image-Generation-MCP",
       "descEn": "Support for using models on ModelScope for text-to-image generation.",
       "descZh": "支持使用ModelScope上的模型进行文本到图像的生成。",
-      "descAr": "",
+      "descAr": "دعم استخدام نماذج ModelScope لإنشاء الصور من النص.",
       "categories": [
         "aigc"
       ],
@@ -716,10 +716,10 @@
       "id": "WEIAIb/mind-map-mcp",
       "nameEn": "mind-map-mcp",
       "nameZh": "思维导图 MCP",
-      "nameAr": "",
+      "nameAr": "خادم mind-map-mcp",
       "descEn": "一个用于生成思维导图的 MCP (Model Context Protocol) 服务器。",
       "descZh": "一个用于生成思维导图的 MCP (Model Context Protocol) 服务器。 \n\n看起来您的请求中没有提供具体的英文技术文档内容以供翻译。如果您能分享更多详细信息或具体段落，我将能够帮助您将其准确地翻译成中文，同时保留代码块、链接、格式结构和专业术语的准确性。请提供需要翻译的具体文本。",
-      "descAr": "",
+      "descAr": "خادم MCP (نموذج بروتوكول السياق) لإنشاء خرائط التفكير.",
       "categories": [
         "developer-tools",
         "file-systems",
@@ -733,10 +733,10 @@
       "id": "@zcaceres/markdownify-mcp",
       "nameEn": "markdownify-mcp",
       "nameZh": "转Markdown工具",
-      "nameAr": "",
+      "nameAr": "خدمة markdownify-mcp",
       "descEn": "Converts various file types and web content to Markdown format. It provides a set of tools to transform PDFs, images, audio files, web pages, and more into easily readable and shareable Markdown text.",
       "descZh": "将各种文件类型和网页内容转换为Markdown格式。它提供了一套工具，可以将PDF、图像、音频文件、网页等转换为易读且易于分享的Markdown文本。",
-      "descAr": "",
+      "descAr": "تحويل أنواع مختلفة من الملفات ومحتوى الويب إلى تنسيق Markdown. توفر مجموعة من الأدوات لتحويل PDFs والصوتيات ومستندات Word ومحتوى الويب وغيرها إلى نص Markdown سهل القراءة والمشاركة.",
       "categories": [
         "browser-automation",
         "file-systems",
@@ -750,7 +750,7 @@
       "id": "itshen/xsct-bench",
       "nameEn": "xsct-bench",
       "nameZh": "XSCT 模型选型 MCP",
-      "nameAr": "",
+      "nameAr": "xsct-bench",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -765,10 +765,10 @@
       "id": "Aasee1/open-webSearch",
       "nameEn": "open-webSearch",
       "nameZh": "OpenWebSearch 网络搜索 MCP 服务器",
-      "nameAr": "",
+      "nameAr": "open-webSearch",
       "descEn": "# Open-WebSearch MCP 服务器\n\n[English](./README.md)",
       "descZh": "一个基于多引擎搜索结果的模型上下文协议(MCP)服务器，支持免费网络搜索，无需API密钥。它支持多个搜索引擎，并提供带有标题、URL和描述的结构化结果。",
-      "descAr": "",
+      "descAr": "# خادم open-webSearch MCP\n\n[English](./README.md)",
       "categories": [
         "search"
       ],
@@ -780,10 +780,10 @@
       "id": "@mem0ai/OpenMemory",
       "nameEn": "OpenMemory",
       "nameZh": "OpenMemory",
-      "nameAr": "",
+      "nameAr": "OpenMemory",
       "descEn": "OpenMemory is your personal memory layer for LLMs - private, portable, and open-source. Your memories live locally, giving you complete control over your data. Build AI applications with personalized memories while keeping your data secure.",
       "descZh": "OpenMemory 是您的个人记忆层，适用于大型语言模型（LLM）——私有、便携且开源。您的记忆数据存储在本地，让您完全掌控自己的数据。在构建具有个性化记忆的AI应用程序的同时，确保您的数据安全。",
-      "descAr": "",
+      "descAr": "OpenMemory هو طبقة الذاكرة الشخصية الخاصة بك لنماذج LLM - خاص وقابل للنقل ومفتوح المصدر. تعيش ذاكرتك محليًا، مما يمنحك السيطرة الكاملة على بياناتك. قم ببناء تطبيقات الذكاء الاصطناعي مع ذاكرة مخصصة مع الحفاظ على أمان بياناتك.",
       "categories": [
         "Knowledge&Memory"
       ],
@@ -795,10 +795,10 @@
       "id": "@tokenizin-agency/mcp-npx-fetch",
       "nameEn": "mcp-npx-fetch",
       "nameZh": "内容抓取转换器",
-      "nameAr": "",
+      "nameAr": "خادم mcp-npx-fetch",
       "descEn": "A powerful MCP server for fetching and transforming web content into various formats (HTML, JSON, Markdown, Plain Text) with ease.",
       "descZh": "一个强大的MCP服务器，可以轻松地将网页内容抓取并转换为各种格式（HTML、JSON、Markdown、纯文本）。",
-      "descAr": "",
+      "descAr": "خادم MCP قوي لجلب وتحويل محتوى الويب إلى تنسيقات مختلفة (HTML, JSON, Markdown, نص عادي) بسهولة.",
       "categories": [
         "browser-automation"
       ],
@@ -810,10 +810,10 @@
       "id": "@zhiwei5576/excel-mcp-server",
       "nameEn": "excel-mcp-server",
       "nameZh": "Excel-MCP服务",
-      "nameAr": "",
+      "nameAr": "خادم excel-mcp",
       "descEn": "Enables seamless reading, writing, and analyzing of Excel files through Model Context Protocol, with features for worksheet management, structure analysis, and automated caching.",
       "descZh": "通过模型上下文协议（Model Context Protocol）， enables 无缝读取、写入和分析 Excel 文件，具有工作表管理、结构分析和自动缓存等功能。",
-      "descAr": "",
+      "descAr": "يتمكن من قراءة وكتابة وتحليل ملفات Excel بسلاسة من خلال بروتوكول سياق النموذج، مع ميزات لإدارة أوراق العمل وتح الهيكل وتخزين مؤقت تلقائي.",
       "categories": [
         "file-systems",
         "developer-tools"
@@ -826,10 +826,10 @@
       "id": "Alobak/automation-xhs",
       "nameEn": "automation-xhs",
       "nameZh": "小红书一站式自动化MCP（10月17可用）",
-      "nameAr": "",
+      "nameAr": "خدمة automation-xhs",
       "descEn": "Xiaohongshu MCP Service,\n1. Supports automatic publishing\n2. Supports searching for notes\n3. Supports analyzing note content\n4. Supports multi-account management\n5. Supports pre-publishing (publish after manual review)\n6. Supports directing traffic to specific notes via comments, supports @mentioning specific users\n\nSupports MCP, API calls",
       "descZh": "小红书mcp服务，\n1. 支持自动发布\n2. 支持搜索笔记\n3. 支持分析笔记内容\n4. 支持多账户管理\n5. 支持预发布（人工审核后发布）\n6. 支持评论特定笔记引流，支持@指定人\n\n支持mcp，api调用",
-      "descAr": "",
+      "descAr": "خدمة Xiaohongshu MCP,\n1. تدعم النشر التلقائي\n2. تدعم البحث عن الملاحظات\n3. تدعم تحليل محتوى الملاحظات\n4. تدعم إدارة الحسابات المتعددة\n5. تدعم النشر المسبق (النشر بعد المراجعة اليدوية)\n6. تدويل توجيه الزيارات إلى ملاحظات محددة عبر التعليقات، ودعم ذكر المستخدمين المحددين عبر @\n\nيدعم MCP، استدعاءات API",
       "categories": [
         "browser-automation",
         "entertainment-and-media"
@@ -842,10 +842,10 @@
       "id": "/mcp-playwright",
       "nameEn": "mcp-playwright",
       "nameZh": "Playwright浏览器自动化工具",
-      "nameAr": "",
+      "nameAr": "خادم mcp-playwright",
       "descEn": "A Model Context Protocol server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a real browser environment.",
       "descZh": "一个使用 Playwright 提供浏览器自动化功能的模型上下文协议服务器。此服务器使大型语言模型（LLMs）能够与网页交互、截屏以及在真实的浏览器环境中执行 JavaScript。",
-      "descAr": "",
+      "descAr": "خادم بروتوكول سياق النموذج الذي يوفر قدرات أتمتة المتصفح باستخدام Playwright. يسمح هذا الخادم لنماذج LLM بالتفاعل مع صفحات الويب وتصوير الشاشة وتنفيذ JavaScript في بيئة متصفح حقيقية.",
       "categories": [
         "browser-automation"
       ],
@@ -857,7 +857,7 @@
       "id": "AdrianWangs/MinerU",
       "nameEn": "MinerU",
       "nameZh": "MinerU：文档解析器(PDF/Word/PPT/图片)",
-      "nameAr": "",
+      "nameAr": "MinerU",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -874,10 +874,10 @@
       "id": "@jinzcdev/markmap-mcp-server",
       "nameEn": "markmap-mcp-server",
       "nameZh": "MarkMap-MCP服务器",
-      "nameAr": "",
+      "nameAr": "خادم markmap-mcp",
       "descEn": "A Model Context Protocol server that converts Markdown text to interactive mind maps with support for rich interactive operations and multi-format exports.",
       "descZh": "一个模型上下文协议服务器，可将Markdown文本转换为支持丰富交互操作和多格式导出的交互式思维导图。",
-      "descAr": "",
+      "descAr": "خادم بروتوكول سياق النموذج الذي يحول نص Markdown إلى خرائط تفكير تفاعلية مع دعم عمليات تفاعلية غنية وتصدير بتنسيقات متعددة.",
       "categories": [
         "developer-tools",
         "content-management-systems"
@@ -890,10 +890,10 @@
       "id": "rockcj/Docx_MCP",
       "nameEn": "Docx_MCP",
       "nameZh": "word文档编辑mcp全面升级版(支持本地和web上传)",
-      "nameAr": "",
+      "nameAr": "خدمة Docx_MCP",
       "descEn": "A powerful Word document processing MCP service that provides a complete document processing solution, including document structure extraction, content modification, and cloud storage integration. It supports features such as downloading documents from URLs, batch content modification, and automatic uploading to Alibaba Cloud OSS. The service is fully compatible with the MCP protocol and can be seamlessly integrated into various AI assistants.",
       "descZh": "一个功能强大的 Word 文档处理 MCP 服务，提供文档结构提取、内容修改、云存储集成等完整的文档处理解决方案。支持从URL下载文档、批量修改内容、自动上传到阿里云OSS等功能，完全兼容MCP协议，可无缝集成到各种AI助手中。",
-      "descAr": "",
+      "descAr": "خدمة قوية لمعالجة مستندات Word MCP التي توفر حلولاً متكاملة لمعالجة المستندات، بما في ذلك استخراج هيكل المستند وتعديل المحتوى والتكامل مع التخزين السحابي. تدعم الميزات مثل تنزيل المستندات من عناوين URL، وتعديل المحتوى دفعة واحدة، ورفع تلقائي إلى Alibaba Cloud OSS. الخدمة متوافقة بالكامل مع بروتوكول MCP ويمكن أن تكون",
       "categories": [
         "file-systems"
       ],
@@ -905,10 +905,10 @@
       "id": "@PsychArch/Jina-AI-MCP-Tools",
       "nameEn": "Jina-AI-MCP-Tools",
       "nameZh": "Jina-AI-MCP-Tools",
-      "nameAr": "",
+      "nameAr": "أدوات Jina-AI-MCP",
       "descEn": "A Model Context Protocol (MCP) server that integrates with . This MCP server provides access to the following Jina AI APIs: - Web Reader - Extract content from web pages using r.jina.",
       "descZh": "一个与Jina AI搜索基础API集成的模型上下文协议（MCP）服务器，提供网页阅读和搜索功能。",
-      "descAr": "",
+      "descAr": "خادم بروتوكول سياق النموذج (MCP) الذي يدمج مع . يوفر هذا الخادم MCP الوصول إلى واجهات برمجة التطبيقات التالية لـ Jina AI: - Web Reader - استخراج محتوى من صفحات الويب باستخدام r.jina.",
       "categories": [
         "Search"
       ],
@@ -920,10 +920,10 @@
       "id": "@modelcontextprotocol/redis",
       "nameEn": "redis",
       "nameZh": "Redis数据库",
-      "nameAr": "",
+      "nameAr": "خادم redis",
       "descEn": "A Model Context Protocol server that provides access to Redis databases. This server enables LLMs to interact with Redis key-value stores through a set of standardized tools.",
       "descZh": "一个提供访问Redis数据库的模型上下文协议服务器。该服务器通过一系列标准化工具使大语言模型能够与Redis键值存储进行交互。",
-      "descAr": "",
+      "descAr": "خادم بروتوكول سياق النموذج الذي يوفر الوصول إلى قواعد بيانات Redis. يسمح هذا الخادم لنماذج LLM بالتفاعل مع مستودعات Redis للقيم المفتاحية من خلال مجموعة من الأدوات المعيارية.",
       "categories": [
         "developer-tools"
       ],
@@ -935,10 +935,10 @@
       "id": "@deckflow/gezhe-mcp-server",
       "nameEn": "gezhe-mcp-server",
       "nameZh": "歌者PPT",
-      "nameAr": "",
+      "nameAr": "خادم gezhe-mcp",
       "descEn": "AI-powered presentation creation",
       "descZh": "由人工智能驱动的演示文稿创建",
-      "descAr": "",
+      "descAr": "إنشاء العروض التقديمية المدعومة بالذكاء الاصطناعي",
       "categories": [
         "AIGC"
       ],
@@ -950,10 +950,10 @@
       "id": "@ahujasid/blender-mcp",
       "nameEn": "blender-mcp",
       "nameZh": "Blender",
-      "nameAr": "",
+      "nameAr": "خدمة blender-mcp",
       "descEn": "Connects Blender to Claude AI through the Model Context Protocol (MCP), allowing Claude to directly interact with and control Blender for AI-assisted 3D modeling, scene manipulation, and rendering.",
       "descZh": "通过模型上下文协议（MCP）将Blender连接到Claude AI，使Claude能够直接与Blender交互并对其进行控制，从而实现AI辅助的3D建模、场景操作和渲染。",
-      "descAr": "",
+      "descAr": "يربط بين Blender و Claude AI من خلال بروتوكول سياق النموذج (MCP)، مما يسمح لـ Claude بالتفاعل مباشرة مع التحكم في Blender للنمذجة ثلاثية الأبعاد المدعومة بالذكاء الاصطناعي وتح المشاهد والعرض.",
       "categories": [
         "image-and-video-processing",
         "developer-tools",
@@ -967,10 +967,10 @@
       "id": "@allvoicelab/AllVoiceLab",
       "nameEn": "AllVoiceLab",
       "nameZh": "趣丸千音",
-      "nameAr": "",
+      "nameAr": "AllVoiceLab",
       "descEn": "Official AllVoiceLab Model Context Protocol (MCP) server, supporting interaction with powerful text-to-speech and video translation APIs. Enables MCP clients like Claude Desktop, Cursor, Windsurf, OpenAI Agents to generate speech, translate videos, and perform intelligent voice conversion.",
       "descZh": "官方 AllVoiceLab 模型上下文协议(MCP)服务器，支持与强大的文本转语音和视频翻译API交互。允许MCP客户端如Claude Desktop、Cursor、Windsurf、OpenAI Agents等生成语音、翻译视频、智能变声等功能。",
-      "descAr": "",
+      "descAr": "خادم AllVoiceLab الرسمي لبروتوكول سياق النموذج (MCP)، يدعم التفاعل مع واجهات برمجة التطبيقات القوية لتحويل النص إلى كلام وترجمة الفيديو. يسمح للعملاء MCP مثل Claude Desktop، Cursor، Windsurf، عملاء OpenAI AI بإنشاء الكلام وترجمة الفيديو وإجراء تحويل صوتي ذكي.",
       "categories": [
         "entertainment-and-media",
         "art-and-culture"
@@ -983,26 +983,26 @@
       "id": "@wopal-cn/mcp-hotnews-server",
       "nameEn": "mcp-hotnews-server",
       "nameZh": "热闻社媒服务",
-      "nameAr": "",
+      "nameAr": "خادم mcp-hotnews",
       "descEn": "A Model Context Protocol server that provides real-time hot trending topics from major Chinese social platforms and news sites.",
       "descZh": "一个模型上下文协议服务器，提供来自主要中文社交平台和新闻网站的实时热门话题。",
-      "descAr": "",
+      "descAr": "خادم بروتوكول سياق النموذج الذي يوفر مواضيع الساخنة والرائجة في الوقت الفعلي من منصات التواصل الاجتماعية الصينية الرئيسية ومواقع الأخبار.",
       "categories": [
         "social-media",
         "search"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/wopal-cn.png",
-      "views": 19891,
+      "views": 19894,
       "url": "https://modelscope.cn/mcp/servers/@wopal-cn/mcp-hotnews-server"
     },
     {
       "id": "@giptilabs/mcp-stock-analysis",
       "nameEn": "mcp-stock-analysis",
       "nameZh": "MCP股票分析",
-      "nameAr": "",
+      "nameAr": "تحليل mcp-stock",
       "descEn": "Provides access to real-time and historical Indian stock data via Yahoo Finance API, enabling local LLMs to retrieve stock information through MCP-compatible agents like Claude Desktop and Cursor.",
       "descZh": "通过Yahoo Finance API提供对实时和历史印度股票数据的访问，使本地LLM能够通过与MCP兼容的代理（如Claude Desktop和Cursor）检索股票信息。",
-      "descAr": "",
+      "descAr": "يوفر الوصول إلى بيانات الأسهم الهندية في الوقت الفعلي والتاريخية عبر واجهة برمجة تطبيقات Yahoo Finance، مما يسمح لنماذج LLM المحلية باسترجاع معلومات الأسهم من خلال وكلاء متوافقين مع MCP مثل Claude Desktop و Cursor.",
       "categories": [
         "finance",
         "search"
@@ -1015,7 +1015,7 @@
       "id": "postback/china-stock-mcp",
       "nameEn": "china-stock-mcp",
       "nameZh": "中国股票数据MCP",
-      "nameAr": "",
+      "nameAr": "china-stock-mcp",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -1030,10 +1030,10 @@
       "id": "@TencentEdgeOne/edgeone-pages-mcp",
       "nameEn": "edgeone-pages-mcp",
       "nameZh": "EdgeOne Pages",
-      "nameAr": "",
+      "nameAr": "خدمة edgeone-pages-mcp",
       "descEn": "An MCP service for deploying HTML content to EdgeOne Pages and obtaining a publicly accessible URL.",
       "descZh": "基于 EdgeOne Pages 的 MCP 服务器，支持代码部署为在线页面。",
-      "descAr": "",
+      "descAr": "خدمة MCP لنشر محتوى HTML في EdgeOne Pages والحصول على URL قابل للوصول العام.",
       "categories": [
         "developer-tools"
       ],
@@ -1045,10 +1045,10 @@
       "id": "@exa-labs/exa-mcp-server",
       "nameEn": "exa-mcp-server",
       "nameZh": "Exa搜索",
-      "nameAr": "",
+      "nameAr": "خادم exa-mcp",
       "descEn": "A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API for web searches. This setup allows AI models to get real-time web information in a safe and controlled way.",
       "descZh": "模型上下文协议（MCP）服务器让像克劳德这样的AI助手可以使用Exa AI搜索API进行网络搜索。这种设置使AI模型能够以安全和受控的方式获取实时网络信息。",
-      "descAr": "",
+      "descAr": "خادم بروتوكول سياق النموذج (MCP) يسمح لمساعدات الذكاء الاصطناعي مثل Claude باستخدام واجهة برمجة تطبيقات Exa AI Search للبحث على الويب. هذا الإعداد يسمح لنماذج الذكاء الاصطناعي بالحصول على معلومات الويب في الوقت الفعلي بطريقة آمنة ومتحكم فيها.",
       "categories": [
         "search"
       ],
@@ -1060,7 +1060,7 @@
       "id": "yorklu/AI_Go_Hotel_MCP",
       "nameEn": "AI_Go_Hotel_MCP",
       "nameZh": "道旅RollingGo酒店MCP",
-      "nameAr": "",
+      "nameAr": "AI_Go_Hotel_MCP",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -1077,10 +1077,10 @@
       "id": "@modelcontextprotocol/knowledge-graph-memory-server",
       "nameEn": "knowledge-graph-memory-server",
       "nameZh": "知识图谱记忆",
-      "nameAr": "",
+      "nameAr": "خادم ذاكرة الرسم البياني للمعرفة",
       "descEn": "A basic implementation of persistent memory using a local knowledge graph. This lets Claude remember information about the user across chats.",
       "descZh": "使用本地知识图谱实现持久内存的基本方法。这使得Claude能够在多次聊天中记住用户的相关信息。",
-      "descAr": "",
+      "descAr": "تنفيذ أساسي للذاكرة المستمرة باستخدام رسم بياني للمعرفة محلي. هذا يسمح لـ Claude بتذكر معلومات عن المستخدم عبر المحادثات.",
       "categories": [
         "knowledge-and-memory"
       ],
@@ -1092,25 +1092,25 @@
       "id": "@modelcontextprotocol/brave-search",
       "nameEn": "brave-search",
       "nameZh": "Brave搜索",
-      "nameAr": "",
+      "nameAr": "brave-search",
       "descEn": "An MCP server implementation that integrates the Brave Search API, providing both web and local search capabilities.",
       "descZh": "一个集成了Brave Search API的MCP服务器实现，提供网页和本地搜索功能。",
-      "descAr": "",
+      "descAr": "تنفيذ خادم MCP الذي يدمج واجهة برمجة تطبيقات Brave Search، ويوفر قدرات بحث على الويب ومحلي.",
       "categories": [
         "search"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_0d3bee45-492b-499d-9f44-b5b32a0e5ce8.png",
-      "views": 17520,
+      "views": 17521,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/brave-search"
     },
     {
       "id": "@supabase-community/supabase-mcp",
       "nameEn": "supabase-mcp",
       "nameZh": "",
-      "nameAr": "",
+      "nameAr": "supabase-mcp",
       "descEn": "> Connect your Supabase projects to Cursor, Claude, Windsurf, and other AI assistants. The (MCP) standardizes how Large Language Models (LLMs) talk to external services like Supabase.",
       "descZh": "Supabase MCP（模型上下文协议）服务器将您的Supabase项目连接到AI助手，使它们能够管理表、获取配置和查询数据。它支持多种功能，如只读模式、项目范围限定和功能组。",
-      "descAr": "",
+      "descAr": "> ربط مشاريع Supabase بـ Cursor، Claude، Windsurf، ومساعدات الذكاء الاصطناعي الأخرى. (MCP) يحدد كيفية تواصل نماذج اللغة الكبيرة (LLMs) مع الخدمات الخارجية مثل Supabase.",
       "categories": [
         "developer-tools"
       ],
@@ -1122,10 +1122,10 @@
       "id": "@elastic/mcp-server-elasticsearch",
       "nameEn": "mcp-server-elasticsearch",
       "nameZh": "Elasticsearch",
-      "nameAr": "",
+      "nameAr": "خادم mcp-server-elasticsearch",
       "descEn": "Connects Claude and other MCP clients to Elasticsearch data, allowing users to interact with their Elasticsearch indices through natural language conversations.",
       "descZh": "将Claude和其他MCP客户端连接到Elasticsearch数据，允许用户通过自然语言对话与其Elasticsearch索引进行交互。",
-      "descAr": "",
+      "descAr": "يربط Claude والعملاء MCP الآخرين ببيانات Elasticsearch، مما يسمح للمستخدمين بالتفاعل مع فهارس Elasticsearch عبر محادثات باللغة الطبيعية.",
       "categories": [
         "search",
         "databases"
@@ -1138,10 +1138,10 @@
       "id": "@wukan1986/query_table",
       "nameEn": "query_table",
       "nameZh": "QueryTable 股票数据查询工具",
-      "nameAr": "",
+      "nameAr": "query_table",
       "descEn": "A web scraper for financial table data that implements the Model Context Protocol, allowing users to query stock data from multiple Chinese financial websites including THS, TDX, and EastMoney.",
       "descZh": "一个实现了模型上下文协议的金融表格数据网络爬虫，允许用户从多个中国金融网站（包括同花顺、通达信和东方财富）查询股票数据。",
-      "descAr": "",
+      "descAr": "مستند ويب لاستخراج بيانات الجداول المالية الذي ينفذ بروتوكول سياق النموذج، مما يسمح للمستخدمين بالاستعلام عن بيانات الأسهم من مواقع مالية صينية متعددة بما في ذلك THS، TDX، وEastMoney.",
       "categories": [
         "finance",
         "browser-automation",
@@ -1155,10 +1155,10 @@
       "id": "@NeekChaw/okppt",
       "nameEn": "okppt",
       "nameZh": "搞定ppt",
-      "nameAr": "",
+      "nameAr": "okppt",
       "descEn": "#This project is a creative solution enabling large language models (like Claude, GPT, etc.) to autonomously design PowerPoint presentations. By allowing AI to generate SVG images and using this tool to insert them full-screen into PPT slides, we've successfully achieved AI's complete control over PPT design without directly manipulating the complex PPT object model.",
       "descZh": "此项目是让大型语言模型（如Claude、GPT等）能够自主设计PowerPoint演示文稿的\"曲线救国\"解决方案。通过让AI生成SVG图像，再借助本工具将其全屏插入PPT幻灯片，我们成功实现了AI完全控制PPT设计的能力，而无需直接操作复杂的PPT对象模型。",
-      "descAr": "",
+      "descAr": "#هذا المشروع هو حل إبداعي يسمح لنماذج اللغة الكبيرة (مثل Claude، GPT، إلخ) بتصميم عروض PowerPoint بشكل مستقل. من خلال السماح للذكاء الاصطناعي بإنشاء صور SVG واستخدام هذا الأداة لإدراجها بالشاشة الكاملة في شرائح PPT، لقد حققنا بنجاح السيطرة الكاملة للذكاء الاصطناعي على تصميم PPT دون التلاعب المباشر بنموذج الكائن المعقد لـ PPT.",
       "categories": [
         "communication",
         "research-and-data"
@@ -1171,7 +1171,7 @@
       "id": "mcpdev/gaokao-expert-mcp",
       "nameEn": "gaokao-expert-mcp",
       "nameZh": "全国高考志愿填报助手MCP",
-      "nameAr": "",
+      "nameAr": "gaokao-expert-mcp",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -1188,7 +1188,7 @@
       "id": "TianYanCha/tyc-mcp",
       "nameEn": "tyc-mcp",
       "nameZh": "天眼查MCP",
-      "nameAr": "",
+      "nameAr": "tyc-mcp",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -1205,10 +1205,10 @@
       "id": "@modelcontextprotocol/puppeteer",
       "nameEn": "puppeteer",
       "nameZh": "Puppeteer浏览器自动化",
-      "nameAr": "",
+      "nameAr": "puppeteer",
       "descEn": "A Model Context Protocol server that provides browser automation capabilities using Puppeteer. This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a real browser environment.",
       "descZh": "一个使用Puppeteer提供浏览器自动化功能的Model Context Protocol服务器。此服务器使LLM能够与网页交互、截屏以及在真实的浏览器环境中执行JavaScript。",
-      "descAr": "",
+      "descAr": "خادم بروتوكول سياق النموذج الذي يوفر قدرات أتمتة المتصفح باستخدام Puppeteer. يسمح هذا الخادم لنماذج LLM بالتفاعل مع صفحات الويب وتصوير الشاشة وتنفيذ JavaScript في بيئة",
       "categories": [
         "browser-automation"
       ],
@@ -1250,7 +1250,7 @@
       "id": "tianyuio/worldbank-mcp",
       "nameEn": "worldbank-mcp",
       "nameZh": "World Bank MCP - 世界银行 MCP",
-      "nameAr": "",
+      "nameAr": "worldbank-mcp",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -1260,17 +1260,17 @@
         "research-and-data"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/714a51dd-c5a3-4f1c-8292-53e77edae222.png",
-      "views": 14908,
+      "views": 14913,
       "url": "https://modelscope.cn/mcp/servers/tianyuio/worldbank-mcp"
     },
     {
       "id": "@mamertofabian/mcp-everything-search",
       "nameEn": "mcp-everything-search",
       "nameZh": "Everything搜索",
-      "nameAr": "",
+      "nameAr": "mcp-everything-search",
       "descEn": "This server provides:\n\n* Fast file search capabilities using Everything SDK\n* Windows-specific implementation\n* Complements existing filesystem servers with specialized search functionality",
       "descZh": "该服务器提供：\n\n* 使用Everything SDK的快速文件搜索功能\n* 针对Windows的具体实现\n* 通过专用搜索功能补充现有的文件系统服务器",
-      "descAr": "",
+      "descAr": "يوفر هذا الخادم:\n\n* إمكانيات البحث السريع عن الملفات باستخدام Everything SDK\n* تنفيذ محدد لنظام Windows\n* يكمل الخوادم الموجودة لنظام الملفات بوظيفة البحث المتخصصة",
       "categories": [
         "file-systems",
         "search"
@@ -1283,10 +1283,10 @@
       "id": "@browserbase/mcp-server-browserbase",
       "nameEn": "mcp-server-browserbase",
       "nameZh": "BrowserBase云浏览器自动化",
-      "nameAr": "",
+      "nameAr": "mcp-server-browserbase",
       "descEn": "This server provides cloud browser automation capabilities using Browserbase, Puppeteer, and Stagehand. This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a cloud browser environment.",
       "descZh": "该服务器使用 Browserbase、Puppeteer 和 Stagehand 提供云浏览器自动化功能。此服务器使大型语言模型（LLMs）能够与网页交互、截屏以及在云浏览器环境中执行 JavaScript。",
-      "descAr": "",
+      "descAr": "يوفر هذا الخادم إمكانيات أتمتة المتصفح السحابي باستخدام Browserbase و Puppeteer و Stagehand. يسمح هذا الخادم للنماذج اللغوية الكبيرة (LLMs) بالتفاعل مع صفحات الويب، والتقاط لقطات شاشة، وتنفيذ JavaScript في بيئة متصفح سحابية.",
       "categories": [
         "browser-automation"
       ],
@@ -1298,10 +1298,10 @@
       "id": "@UnionPay/unionpay-mcp-server",
       "nameEn": "unionpay-mcp-server",
       "nameZh": "银联MCP支付服务",
-      "nameAr": "",
+      "nameAr": "unionpay-mcp-server",
       "descEn": "The MCP Server provided by the UnionPay Open Platform allows you to easily integrate transaction creation, query, refund, and other capabilities offered by the UnionPay Open Platform into your LLM applications, enabling you to further develop intelligent tools with payment functionalities.",
       "descZh": "银联开放平台提供的MCP服务器，可以帮助您轻松地将银联开放平台的交易创建、查询、退款等能力集成到您的LLM应用中，让您进一步开发带有支付功能的智能工具。",
-      "descAr": "",
+      "descAr": "يسمح خادم MCP المقدم من منصة UnionPay المفتوحة بدمج إمكانيات إنشاء المعاملات والاستعلام والاسترداد وغيرها من الإمكانيات المقدمة من منصة UnionPay المفتوحة بسهولة في تطبيقات النماذج اللغوية الكبيرة (LLMs)، مما يتيح لك تطوير أدوات ذكية وظائف الدفع.",
       "categories": [
         "finance"
       ],
@@ -1313,7 +1313,7 @@
       "id": "Arsene/jimenggen-mcp",
       "nameEn": "jimenggen-mcp",
       "nameZh": "图片视频生成MCP(即梦AI)",
-      "nameAr": "",
+      "nameAr": "jimenggen-mcp",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -1330,10 +1330,10 @@
       "id": "@Ozamatash/deep-research-mcp",
       "nameEn": "deep-research-mcp",
       "nameZh": "深度调研-MCP",
-      "nameAr": "",
+      "nameAr": "deep-research-mcp",
       "descEn": "Enables iterative deep research by integrating AI agents with search engines, web scraping, and large language models for efficient data gathering and comprehensive reporting.",
       "descZh": "通过将人工智能代理与搜索引擎、网络爬虫和大型语言模型集成，实现迭代深入研究，以高效收集数据并进行全面报告。",
-      "descAr": "",
+      "descAr": "يتمكن من البحث العميق التكراري من خلال دمج وكلاء الذكاء الاصطناعي مع محركات البحث وويب سكرابينج والنماذج اللغوية الكبيرة لجمع البيانات بكفاءة والإبلاغ الشامل.",
       "categories": [
         "research-and-data",
         "browser-automation",
@@ -1347,10 +1347,10 @@
       "id": "@modelcontextprotocol/git",
       "nameEn": "git",
       "nameZh": "Git",
-      "nameAr": "",
+      "nameAr": "git",
       "descEn": "A Model Context Protocol server for Git repository interaction and automation. This server provides tools to read, search, and manipulate Git repositories via Large Language Models.",
       "descZh": "一个用于Git仓库交互和自动化的模型上下文协议服务器。该服务器提供工具，可通过大型语言模型读取、搜索和操作Git仓库。",
-      "descAr": "",
+      "descAr": "خادم بروتوكول سياق النموذج (Model Context Protocol) للتفاعل مع مستودعات Git والأتمتة. يوفر هذا الخادم أدوات لقراءة البحث والتعامل مع مستودعات Git عبر النماذج اللغوية الكبيرة.",
       "categories": [
         "version-control"
       ],
@@ -1362,10 +1362,10 @@
       "id": "@21st-dev/magic-mcp",
       "nameEn": "magic-mcp",
       "nameZh": "智能组件生成器",
-      "nameAr": "",
+      "nameAr": "magic-mcp",
       "descEn": "An AI-powered tool that generates modern UI components from natural language descriptions, integrating with popular IDEs to streamline UI development workflow.",
       "descZh": "一个由人工智能驱动的工具，可以从自然语言描述生成现代UI组件，并与流行的IDE集成，以简化UI开发工作流程。",
-      "descAr": "",
+      "descAr": "أداة مدعومة بالذكاء الاصطناعي تولد مكونات واجهة المستخدم الحديثة من أوصاف اللغة الطبيعية، وتتكامل مع بيئات التطوير المتكاملة (IDEs) الشائعة لتبسيط سير عمل تطوير واجهة المستخدم.",
       "categories": [
         "developer-tools",
         "image-and-video-processing"
@@ -1378,10 +1378,10 @@
       "id": "@modelcontextprotocol/gitlab",
       "nameEn": "gitlab",
       "nameZh": "GitLab版本控制工具",
-      "nameAr": "",
+      "nameAr": "gitlab",
       "descEn": "The GitLab API's MCP server supports more features such as project management, file operations, and more.",
       "descZh": "GitLab API的MCP服务器，支持项目管理、文件操作等更多功能。",
-      "descAr": "",
+      "descAr": "يدعم خادم MCP لـ GitLab API ميزات إضافية مثل إدارة المشاريع وعمليات الملفات والمزيد.",
       "categories": [
         "version-control"
       ],
@@ -1393,10 +1393,10 @@
       "id": "@DataV-Atlas/atlas-tools-mcp-server",
       "nameEn": "atlas-tools-mcp-server",
       "nameZh": "DataV-Atlas地理可视化",
-      "nameAr": "",
+      "nameAr": "atlas-tools-mcp-server",
       "descEn": "DataV Atlas MCP service is a geospatial data visualization MCP service provided by the Alibaba Cloud DataV team. It offers large-scale model visual analytics capabilities for geospatial data, including geospatial data processing, geospatial data generation, geospatial visualization layout algorithms, and geospatial visualization encoding tools.",
       "descZh": "DataV Atlas MCP服务是阿里云DataV团队提供的地理空间数据可视化MCP服务，提供地理空间数据的大模型可视分析能力，包含地理空间数据处理、地理空间数据生成、地理空间可视化布局算法、地理空间可视化编码工具等。",
-      "descAr": "",
+      "descAr": "خدمة DataV Atlas MCP هي خدمة تصور بيانات جغرافية مكانية مقدمة من فريق Alibaba Cloud DataV. تقدم إمكانيات تحليل بصرية على نطاق واسع للبيانات الجغرافية المكانية، بما في ذلك معالجة البيانات الجغرافية المكانية، وإنشاء البيانات الجغرافية المكانية، وخوارزميات تخطيط التصور الجغرافي المكاني، وأدوات ترميز التصور الجغرافي المكاني.",
       "categories": [
         "search",
         "developer-tools",
@@ -1411,10 +1411,10 @@
       "id": "@manimohans/verge-news-mcp",
       "nameEn": "verge-news-mcp",
       "nameZh": "Verge新闻获取器",
-      "nameAr": "",
+      "nameAr": "verge-news-mcp",
       "descEn": "Provides tools to fetch and search news from The Verge's RSS feed, allowing users to get today's news, retrieve random articles from the past week, and search for specific keywords in recent Verge content.",
       "descZh": "提供从The Verge的RSS源获取和搜索新闻的工具，允许用户获取当天的新闻、检索过去一周的随机文章以及在近期的Verge内容中搜索特定关键词。",
-      "descAr": "",
+      "descAr": "يوفر أدوات لجلب البحث عن أخبار من موجز RSS الخاص بـ The Verge، مما يسمح للمستخدمين بالحصول على أخبار اليوم، واسترجاع مقالات عشوائية من الأسبوع الماضي، والبحث عن كلمات محددة في المحتوى الحديث من The Verge.",
       "categories": [
         "search",
         "browser-automation",
@@ -1428,10 +1428,10 @@
       "id": "haymai/fxbaogao",
       "nameEn": "fxbaogao",
       "nameZh": "发现报告",
-      "nameAr": "",
+      "nameAr": "fxbaogao",
       "descEn": "The Discovery Report is a professional research report search platform. It comprehensively covers the search and reading of related research reports including industry analysis, company research, macro strategies, financial reports, and prospectuses.",
       "descZh": "发现报告是专业研报搜索平台。全面覆盖行业分析、公司研究、宏观策略、财报、招股书等研究报告的相关搜索和阅读。",
-      "descAr": "",
+      "descAr": "Discovery Report هي منصة بحث احترافية لتقارير البحث. تغطي بشكل شامل البحث وقراءة تقارير البحث ذات الصلة بما في ذلك تحليل الصناعة، والبحث عن الشركات، والاستراتيجيات الكلية، والتقارير المالية، ونماذج الاكتتاب.",
       "categories": [
         "finance",
         "research-and-data",
@@ -1445,10 +1445,10 @@
       "id": "@afrise/academic-search-mcp-server",
       "nameEn": "academic-search-mcp-server",
       "nameZh": "学术搜索助手",
-      "nameAr": "",
+      "nameAr": "academic-search-mcp-server",
       "descEn": "Enables real-time search and retrieval of academic paper information from multiple sources, providing access to paper metadata, abstracts, and full-text content when available, with structured data responses for integration with AI models that support tool/function calling.",
       "descZh": "启用从多个来源实时搜索和检索学术论文信息的功能，提供对论文元数据、摘要和全文内容（如有可用）的访问，并以结构化数据响应的形式提供，以便与支持工具/功能调用的AI模型进行集成。",
-      "descAr": "",
+      "descAr": "يتمكن من البحث الفوري واسترجاع معلومات الأوراق الأكاديمية من مصادر متعددة، مع إمكانية الوصول إلى البيانات الوصفية للورقة والموجز والمحتوى الكامل للنص عند توفره، مع استجابات بيانات منظمة للتكامل مع نماذج الذكاء الاصطناعي التي تدعم استدعاء الأدوات/الوظائف.",
       "categories": [
         "search",
         "research-and-data"
@@ -1461,10 +1461,10 @@
       "id": "@Geeksfino/kb-mcp-server",
       "nameEn": "kb-mcp-server",
       "nameZh": "知识库MCP服务",
-      "nameAr": "",
+      "nameAr": "kb-mcp-server",
       "descEn": "An MCP server aimed to be portable, local, easy and convenient to support semantic/graph based retrieval of txtai \"all in one\" embeddings database. Any txtai embeddings db in tar.gz form can be loaded",
       "descZh": "一个便携式、本地化、简单便捷的MCP服务器，用于支持txtai“一体化”嵌入式数据库的语义/图谱检索。任何以tar.gz形式存在的txtai嵌入式数据库都可以被加载。",
-      "descAr": "",
+      "descAr": "خادم MCP مصمم ليكون محمولاً ومحلياً وسهل ومريح لدعم استرجاع قائم على الدلالات/الرسوم البيانية لقاعدة بيانات txtai \"كل في واحد\" للدمج. يمكن تحميل أي قاعدة بيانات txtai للدمج بصيغة tar.gz",
       "categories": [
         "knowledge-and-memory",
         "search",
@@ -1478,10 +1478,10 @@
       "id": "kuaidi100/kuaidi100-mcp",
       "nameEn": "kuaidi100-mcp",
       "nameZh": "快递100 MCP Server",
-      "nameAr": "",
+      "nameAr": "kuaidi100-mcp",
       "descEn": "The Express100 MCP Server provides functions such as querying express delivery information, comparing and estimating express delivery costs, and checking delivery times (including pre-shipment delivery time inquiries and in-transit dynamic delivery time inquiries).",
       "descZh": "快递100 MCP Server提供快递信息查询、快递运费预估比价、快递时效查询（含发货前时效查询与在途动态时效查询）等功能。",
-      "descAr": "",
+      "descAr": "يوفر خادم Express100 MCP وظائف مثل الاستعلام عن معلومات الشحن السريع، ومقارنة وتقدير تكاليف الشحن السريع، والتحقق من أوقات التسليم (بما في ذلك استفسارات وقت التسليم قبل الشحن واستفسارات وقت التسليم الدينياميكي في Transit).",
       "categories": [
         "other",
         "search",
@@ -1505,10 +1505,10 @@
       "id": "@shanggqm/hefeng-mcp-weather",
       "nameEn": "hefeng-mcp-weather",
       "nameZh": "和风天气",
-      "nameAr": "",
+      "nameAr": "hefeng-mcp-weather",
       "descEn": "Provides weather forecast data for locations in China using the HeFeng Weather API, with real-time, hourly, or daily forecasts and location-based queries.",
       "descZh": "使用和风天气API为中国地区的地点提供天气预报数据，包括实时、逐小时或逐日的预报以及基于位置的查询。",
-      "descAr": "",
+      "descAr": "يوفر بيانات توقعات الطقس للمواقع في الصين باستخدام واجهة برمجة تطبيقات HeFeng Weather، مع توقعات فورية أو ساعية أو يومية والاستعلامات القائمة على الموقع.",
       "categories": [
         "location-services",
         "travel-and-transportation"
@@ -1521,7 +1521,7 @@
       "id": "DannyWong/real-time-stock-mcp",
       "nameEn": "real-time-stock-mcp",
       "nameZh": "实时股票分析 MCP 服务",
-      "nameAr": "",
+      "nameAr": "real-time-stock-mcp",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -1529,17 +1529,17 @@
         "finance"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/4c20d589-efae-4860-869f-c7ccb23bd6a7.png",
-      "views": 11397,
+      "views": 11398,
       "url": "https://modelscope.cn/mcp/servers/DannyWong/real-time-stock-mcp"
     },
     {
       "id": "virgo777/Stock-Quant-Calculator-MCP",
       "nameEn": "Stock-Quant-Calculator-MCP",
       "nameZh": "股票量化支撑点位计算器",
-      "nameAr": "",
+      "nameAr": "Stock-Quant-Calculator-MCP",
       "descEn": "Based on the Qwen3 inference engine, the stock quant agent calculates the support levels for a specific stock when it is declining and provides recommendations. Detailed usage instructions can be obtained through the \"Query Operation Manual\" built into the MCP platform.\nFor the web version, please log in at: http://49.235.53.176:929\nFor detailed usage instructions on the Qwen3-powered quantitative trading agent with advanced reasoning capabilities for stock market analysis, please refer to the MCP Query Cookbook accessible via the platform's built-in documentation system.",
       "descZh": "基于Qwen3推理引擎的股票量化智能体，计算特定股票下跌时的介入支撑位，并提供建议。\n其详细使用方法可通过MCP平台内置的《查询操作手册》获取。\n网页版请登录：http://49.235.53.176:929\nFor detailed usage instructions on the Qwen3-powered quantitative trading agent with advanced reasoning capabilities for stock market analysis, please refer to the MCP Query Cookbook accessible via the platform's built-in documentation system.",
-      "descAr": "",
+      "descAr": "بناءً على محرك الاستدلال Qwen3، يحسب وكيل الكمي للأسهم مستويات الدعم لسهم معين عند انخفاضه ويوفر توصيات. يمكن الحصول على تعليمات الاستخدام التفصيلية من خلال \"دليل تشغيل الاستعلام\" المدمج في منصة MCP.\nللنسخة الويب، يرجى تسجيل الدخول على: http://49.235.53.176:929\nللحصول على تعليمات الاستخدام التفصيلية على الوكيل الكمي المدعوم بـ Qwen3",
       "categories": [
         "communication",
         "finance"
@@ -1552,10 +1552,10 @@
       "id": "@modelcontextprotocol/sqlite",
       "nameEn": "sqlite",
       "nameZh": "SQLite",
-      "nameAr": "",
+      "nameAr": "sqlite",
       "descEn": "A Model Context Protocol (MCP) server implementation that provides database interaction and business intelligence capabilities through SQLite. This server enables running SQL queries, analyzing business data, and automatically generating business insight memos.",
       "descZh": "一种模型上下文协议（MCP）服务器实现，通过SQLite提供数据库交互和商业智能功能。该服务器支持运行SQL查询、分析业务数据以及自动生成业务洞察备忘录。",
-      "descAr": "",
+      "descAr": "تنفيذ خادم بروتوكول سياق النموذج (MCP) الذي يوفر إمكانيات تفاعل قاعدة البيانات والذكاء التجاري من خلال SQLite. يسمح هذا الخادم بتشغيل استعلامات SQL، وتحليل البيانات التجارية، وتوليد تلقائي لمذكرات رؤى الأعمال.",
       "categories": [
         "databases",
         "research-and-data",
@@ -1569,10 +1569,10 @@
       "id": "@chenningling/Redbook-Search-Comment-MCP2.0",
       "nameEn": "Redbook-Search-Comment-MCP2.0",
       "nameZh": "小红书自动搜索评论工具",
-      "nameAr": "",
+      "nameAr": "Redbook-Search-Comment-MCP2.0",
       "descEn": "This is an automated Xiaohongshu (Redbook) search and comment tool developed using Playwright. As an MCP Server, it can be integrated with MCP Client (e.g., Claude for Desktop) through specific configurations. It helps users automatically log in to Xiaohongshu, search for keywords, retrieve note content, and post AI-generated comments.",
       "descZh": "这是一款基于 Playwright 开发的小红书自动搜索和评论工具，作为 MCP Server，可通过特定配置接入 MCP Client（如Claude for Desktop），帮助用户自动完成登录小红书、搜索关键词、获取笔记内容及发布AI生成评论等操作。",
-      "descAr": "",
+      "descAr": "هذا أداة بحث وتعليق آلية على Xiaohongshu (Redbook) مطورة باستخدام Playwright. كخادم MCP، يمكن دمجه مع عميل MCP (مثل Claude for Desktop) من خلال تكوينات محددة. يساعد المستخدمين على تسجيل الدخول تلقائياً إلى Xiaohongshu، والبحث عن الكلمات المفتاحية، واسترجاع محتوى الملاحظات، ونشر التعليقات التي تم إنشاؤها بواسطة الذكاء الاصطناعي.",
       "categories": [
         "search",
         "browser-automation",
@@ -1586,10 +1586,10 @@
       "id": "@chatmcp/mcp-server-flomo",
       "nameEn": "mcp-server-flomo",
       "nameZh": "MCP Flomo笔记助手",
-      "nameAr": "",
+      "nameAr": "mcp-server-flomo",
       "descEn": "A TypeScript-based MCP server to help you write notes into Flomo.",
       "descZh": "一个基于 TypeScript 的 MCP 服务器，帮助您将笔记写入 Flomo。",
-      "descAr": "",
+      "descAr": "خادم MCP مبني على TypeScript لمساعدتك في كتابة الملاحظات في Flomo.",
       "categories": [
         "knowledge-and-memory"
       ],
@@ -1601,7 +1601,7 @@
       "id": "mcpdev/search_movie",
       "nameEn": "search_movie",
       "nameZh": "电影搜索工具",
-      "nameAr": "",
+      "nameAr": "search_movie",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -1617,10 +1617,10 @@
       "id": "FKWD123/RedBook_auxiliary_fuction",
       "nameEn": "RedBook_auxiliary_fuction",
       "nameZh": "小红书辅助功能",
-      "nameAr": "",
+      "nameAr": "RedBook_auxiliary_fuction",
       "descEn": "Help users quickly complete the entire process from account creation to content generation and compliance checks.",
       "descZh": "帮助用户快速完成从账号打造到内容生成、合规检测的全流程操作。",
-      "descAr": "",
+      "descAr": "يساعد المستخدمين على إكمال عملية كاملة بسرعة من إنشاء الحساب إلى إنشاء المحتوى والتحقق من الامتثال.",
       "categories": [
         "entertainment-and-media"
       ],
@@ -1632,10 +1632,10 @@
       "id": "@CodeByWaqas/weather-mcp-server",
       "nameEn": "weather-mcp-server",
       "nameZh": "实时天气MCP服务器",
-      "nameAr": "",
+      "nameAr": "weather-mcp-server",
       "descEn": "An MCP server that provides real-time weather information including temperature, humidity, wind speed, and sunrise/sunset times through the OpenWeatherMap API.",
       "descZh": "一个通过OpenWeatherMap API提供实时天气信息（包括温度、湿度、风速和日出/日落时间）的MCP服务器。",
-      "descAr": "",
+      "descAr": "خادم MCP يوفر معلومات الطقس في الوقت الفعلي بما في ذلك درجة الحرارة والرطوبة وسرعة الرياح وأوقات شروق/غروب الشمس من خلال واجهة برمجة تطبيقات OpenWeatherMap.",
       "categories": [
         "search",
         "other"
@@ -1648,10 +1648,10 @@
       "id": "@Yevanchen/difyapp_as_mcp_server",
       "nameEn": "difyapp_as_mcp_server",
       "nameZh": "Dify MCP服务",
-      "nameAr": "",
+      "nameAr": "difyapp_as_mcp_server",
       "descEn": "Exposes Dify applications (both Chatflow and Workflow) as MCP (Model Context Protocol) servers, allowing Claude and other MCP clients to directly interact with Dify apps through a standardized protocol.",
       "descZh": "将Dify应用程序（包括Chatflow和Workflow）作为MCP（模型上下文协议）服务器进行暴露，允许Claude和其他MCP客户端通过标准化协议直接与Dify应用交互。",
-      "descAr": "",
+      "descAr": "يكشف عن تطبيقات Dify (كل من Chatflow و Workflow) كخوادم MCP (Model Context Protocol)، مما يسمح لـ Claude وغيرها من عملاء MCP بالتفاعل مباشرة مع تطبيقات Dify من خلال بروتوكول موحد.",
       "categories": [
         "communication",
         "developer-tools"
@@ -1664,10 +1664,10 @@
       "id": "virgo777/Stock-Quant-Agent",
       "nameEn": "Stock-Quant-Agent",
       "nameZh": "用于股票量化计算的智能体",
-      "nameAr": "",
+      "nameAr": "Stock-Quant-Agent",
       "descEn": "Based on the Qwen3 inference engine, the detailed usage method for the stock quantification agent can be obtained through the \"Query Operation Manual\" built into the MCP platform.\n\nFor detailed usage instructions on the Qwen3-powered quantitative trading agent with advanced reasoning capabilities for stock market analysis, please refer to the MCP Query Cookbook accessible via the platform's built-in documentation system.",
       "descZh": "基于Qwen3推理引擎的股票量化智能体，其详细使用方法可通过MCP平台内置的《查询操作手册》获取。\n\nFor detailed usage instructions on the Qwen3-powered quantitative trading agent with advanced reasoning capabilities for stock market analysis, please refer to the MCP Query Cookbook accessible via the platform's built-in documentation system.",
-      "descAr": "",
+      "descAr": "بناءً على محرك الاستدلال Qwen3، يمكن الحصول على طريقة الاستخدام التفصيلية لوكيل الكمي للأسهم من خلال \"دليل تشغيل الاستعلام\" المدمج في منصة MCP.\n\nللحصول على تعليمات الاستخدام التفصيلية على الوكيل الكمي للتجارة المدعوم بـ Qwen3 مع إمكانيات استدلال متقدمة لتحليل سوق الأسهم",
       "categories": [
         "finance",
         "search",
@@ -1753,7 +1753,7 @@
         "communication"
       ],
       "logo": "",
-      "views": 8448,
+      "views": 8453,
       "url": "https://modelscope.cn/mcp/servers/codeyijun/excel-mcp-server"
     },
     {
@@ -1900,10 +1900,10 @@
       "id": "@thirdstrandstudio/mcp-figma",
       "nameEn": "mcp-figma",
       "nameZh": "Figma MCP API工具",
-      "nameAr": "",
+      "nameAr": "mcp-figma",
       "descEn": "Figma MCP with full API functionality",
       "descZh": "语言类型：英语  \n翻译结果：具有完整API功能的Figma MCP",
-      "descAr": "",
+      "descAr": "خادم MCP لـ Figma مع وظائف API الكاملة",
       "categories": [
         "art-and-culture",
         "developer-tools"
@@ -1916,10 +1916,10 @@
       "id": "@Kuaizi/Kuaizi-MCP",
       "nameEn": "Kuaizi-MCP",
       "nameZh": "Kuaizi-视频创作",
-      "nameAr": "",
+      "nameAr": "Kuaizi-MCP",
       "descEn": "Kuaizi MCP Server has created a seamless integration of LLM Agents and the capabilities of the Kuaizi SaaS platform.  Through six core service interfaces, it empowers the commercial video production process in all aspects.  From AI script generation, Lingguangsuo creative mining, Zhijing video structure analysis, to one-click automatic synthesis of finished videos, intelligent slicing of long videos and multi-language AI dubbing, we provide users with end-to-end video content production solutions.",
       "descZh": "Kuaizi MCP Server 打造了LLM Agent与Kuaizi SaaS平台能力的无缝融合，通过6大核心服务接口，全方位赋能商业视频制作流程。从AI脚本生成、灵光索创意挖掘、智镜视频结构解析，到一键成片自动合成、长视频智能切片及多语言AI配音，为用户提供端到端的视频内容生产解决方案。",
-      "descAr": "",
+      "descAr": "خادم Kuaizi MCP أنشج تكامل سلس بين وكلاء LLM وإمكانيات منصة Kuaizi SaaS. من خلال ست واجهات خدمة أساسية، فإنه يعزز عملية إنتاج الفيديو التجاري في جميع جوانبها. من توليد نصوص الذكاء الاصطناعي، واستكشاف الإبداع في Lingguangsuo، وتحليل هيكل فيديو Zhijing، إلى التوليد التلقائي بنقرة واحدة للفيديوهات النهائية، وتقطيع الفيديوهات الطويلة بشكل ذكي",
       "categories": [
         "entertainment-and-media",
         "art-and-culture"
@@ -1932,10 +1932,10 @@
       "id": "@modelcontextprotocol/slack",
       "nameEn": "slack",
       "nameZh": "Slack",
-      "nameAr": "",
+      "nameAr": "slack",
       "descEn": "MCP Server for the Slack API, enabling Claude to interact with Slack workspaces.",
       "descZh": "用于Slack API的MCP服务器，使Claude能够与Slack工作区进行交互。",
-      "descAr": "",
+      "descAr": "خادم MCP لواجهة برمجة تطبيقات Slack، مما يتيح لـ Claude التفاعل مع مساحات عمل Slack.",
       "categories": [
         "communication"
       ],
@@ -1947,10 +1947,10 @@
       "id": "@yting27/weather-my-mcp",
       "nameEn": "weather-my-mcp",
       "nameZh": "MCP天气预报服务",
-      "nameAr": "",
+      "nameAr": "weather-my-mcp",
       "descEn": "Model Context Protocol (MCP) server that provides weather forecast, warnings, water level associated with flood, and earthquake reports from Malaysia Government's Open API.",
       "descZh": "提供与洪水相关的水位、天气预报、警报以及地震报告的模型上下文协议（MCP）服务器，数据来源于马来西亚政府的开放API。",
-      "descAr": "",
+      "descAr": "خادم Model Context Protocol (MCP) الذي يوفر توقعات الطقس، والإنذارات، ومستويات المياه المرتبطة بالفيضانات، وتقارير الزلازل من واجهة برمجة التطبيقات المفتوحة للحكومة الماليزية.",
       "categories": [
         "search",
         "location-services"
@@ -1963,7 +1963,7 @@
       "id": "mcpdev/bilibili_api",
       "nameEn": "bilibili_api",
       "nameZh": "B站API服务器",
-      "nameAr": "",
+      "nameAr": "bilibili_api",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -1980,10 +1980,10 @@
       "id": "@abhiz123/todoist-mcp-server",
       "nameEn": "todoist-mcp-server",
       "nameZh": "Todoist-MCP 服务器（待办事项自然语言管理工具）",
-      "nameAr": "",
+      "nameAr": "todoist-mcp-server",
       "descEn": "An MCP server that integrates Claude with Todoist, enabling natural language task management including creating, updating, completing, and deleting tasks.",
       "descZh": "一个集成了Claude与Todoist的MCP服务器，支持使用自然语言进行任务管理，包括创建、更新、完成和删除任务。",
-      "descAr": "",
+      "descAr": "خادم MCP يدمج Claude مع Todoist، مما يتيح إدارة المهام باللغة الطبيعية بما في ذلك إنشاء المهام، وتحديثها، وإكمالها، وحذفها.",
       "categories": [
         "note-taking",
         "calendar-management"
@@ -1996,24 +1996,24 @@
       "id": "dingtalk/Weather-query",
       "nameEn": "Weather-query",
       "nameZh": "天气查询",
-      "nameAr": "",
+      "nameAr": "Weather-query",
       "descEn": "Check the global weather anytime and anywhere, from real-time conditions to future forecasts all at your fingertips.",
       "descZh": "随时随地查询全球天气，从实时状况到未来预报一手掌握。",
-      "descAr": "",
+      "descAr": "تحقق من الطقس العالمي في أي وقت وأي مكان، من الظروف الفورية إلى التوقعات المستقبلية، كلها بين يديك.",
       "categories": [
         "search",
         "knowledge-and-memory",
         "location-services"
       ],
       "logo": "https://i01.lw.aliimg.com/media/lALPM3Zr6yRbPzPNAljNAlg_600_600.png",
-      "views": 4016,
+      "views": 4017,
       "url": "https://modelscope.cn/mcp/servers/dingtalk/Weather-query"
     },
     {
       "id": "laiyelijingao/Agentic_Document_Processing_MCP",
       "nameEn": "Agentic_Document_Processing_MCP",
       "nameZh": "智能体文档处理 MCP",
-      "nameAr": "",
+      "nameAr": "Agentic_Document_Processing_MCP",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -2030,10 +2030,10 @@
       "id": "@cloudflare/workers-mcp",
       "nameEn": "workers-mcp",
       "nameZh": "Cloudflare Workers MCP连接器",
-      "nameAr": "",
+      "nameAr": "workers-mcp",
       "descEn": "A package that connects Claude Desktop and other MCP clients to Cloudflare Workers, enabling custom functionality to be accessed via natural language through the Model Context Protocol.",
       "descZh": "一个将 Claude Desktop 和其他 MCP 客户端连接到 Cloudflare Workers 的软件包，通过模型上下文协议（Model Context Protocol）， enables 自定义功能可以通过自然语言访问。",
-      "descAr": "",
+      "descAr": "حزمة تربط Claude Desktop وعملاء MCP الآخرين بـ Cloudflare Workers، مما يتيح الوصول إلى وظائف مخصصة عبر اللغة الطبيعية من خلال Model Context Protocol.",
       "categories": [
         "developer-tools",
         "cloud-platforms"
@@ -2046,7 +2046,7 @@
       "id": "mcpdev/airbnb_search",
       "nameEn": "airbnb_search",
       "nameZh": "Airbnb搜索扩展",
-      "nameAr": "",
+      "nameAr": "airbnb_search",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -2063,7 +2063,7 @@
       "id": "mcpdev/AI-persona",
       "nameEn": "AI-persona",
       "nameZh": "AI人格服务器",
-      "nameAr": "",
+      "nameAr": "AI-persona",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -2080,10 +2080,10 @@
       "id": "@neondatabase-labs/mcp-server-neon",
       "nameEn": "mcp-server-neon",
       "nameZh": "Neon数据库",
-      "nameAr": "",
+      "nameAr": "mcp-server-neon",
       "descEn": "Lets you use Claude Desktop, or any MCP Client, to use natural language to accomplish things with [Neon](https://neon.tech/).",
       "descZh": "让你能够使用 Claude Desktop 或任何 MCP 客户端，通过自然语言来使用 [Neon](https://neon.tech/) 完成任务。",
-      "descAr": "",
+      "descAr": "يسمح لك باستخدام Claude Desktop، أو أي عميل MCP، باستخدام اللغة الطبيعية لإنجاز المهام مع [Neon](https://neon.tech/).",
       "categories": [
         "databases"
       ],
@@ -2095,10 +2095,10 @@
       "id": "@wllcnm/dingding_mcp_v2",
       "nameEn": "dingding_mcp_v2",
       "nameZh": "钉钉MCP服务器",
-      "nameAr": "",
+      "nameAr": "dingding_mcp_v2",
       "descEn": "A Model Control Protocol server for integrating with DingTalk, enabling users to send messages, retrieve conversation/user information, and query calendar events through Claude.",
       "descZh": "一种用于与钉钉集成的模型控制协议服务器，允许用户通过克劳德发送消息、检索会话/用户信息以及查询日历事件。",
-      "descAr": "",
+      "descAr": "خادم Model Control Protocol للتكامل مع DingTalk، مما يتيح للمستخدمين إرسال الرسائل، واسترداد معلومات المحادثة/المستخدم، والاستعلام عن أحداث التقويم من خلال Claude.",
       "categories": [
         "communication",
         "calendar-management"
@@ -2111,10 +2111,10 @@
       "id": "@ahujasid/ableton-mcp",
       "nameEn": "ableton-mcp",
       "nameZh": "Ableton",
-      "nameAr": "",
+      "nameAr": "ableton-mcp",
       "descEn": "Connects Ableton Live to Claude AI through the Model Context Protocol, enabling AI-assisted music production by allowing Claude to directly interact with and control Ableton Live sessions.",
       "descZh": "通过模型上下文协议将Ableton Live与Claude AI连接起来，通过允许Claude直接与Ableton Live会话交互和控制，实现人工智能辅助的音乐制作。",
-      "descAr": "",
+      "descAr": "يربط Ableton Live بـ Claude AI من خلال Model Context Protocol، مما يتيح إنتاج موسيقى مدعوم بالذكاء الاصطناعي من خلال السماح لـ Claude بالتفاعل المباشر والتحكم في جلسات Ableton Live.",
       "categories": [
         "entertainment-and-media",
         "os-automation"
@@ -2127,7 +2127,7 @@
       "id": "mcpdev/time_zone",
       "nameEn": "time_zone",
       "nameZh": "时区管理服务器",
-      "nameAr": "",
+      "nameAr": "time_zone",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -2143,7 +2143,7 @@
       "id": "harykali/7daysfoodHelperV3.0",
       "nameEn": "7daysfoodHelperV3.0",
       "nameZh": "七日餐饮助手3.0（MCP&Agent挑战赛）",
-      "nameAr": "",
+      "nameAr": "7daysfoodHelperV3.0",
       "descEn": "",
       "descZh": "",
       "descAr": "",
@@ -2160,10 +2160,10 @@
       "id": "@microsoft/MarkItDown",
       "nameEn": "MarkItDown",
       "nameZh": "MarkItDown",
-      "nameAr": "",
+      "nameAr": "MarkItDown",
       "descEn": "MarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to textract, but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant to be consumed by text analysis tools -- and may not be the best option for high-fidelity document conversions for human consumption.",
       "descZh": "MarkItDown 是一款轻量级的 Python 工具，可以将各种文件转换为 Markdown 格式，适用于与 LLMs 及相关文本分析流程配合使用。与 textract 类似，它更专注于保留文档的重要结构和内容作为 Markdown（包括：标题、列表、表格、链接等）。尽管输出通常易于阅读且适合人类阅读，但其主要面向文本分析工具，可能不是为人类阅读而进行高保真文档转换的最佳选择。",
-      "descAr": "",
+      "descAr": "MarkItDown هو أداة بيثون خفيفة الوزن لتحويل الملفات المختلفة إلى Markdown للاستخدام مع LLMs ومسارات تحليل النصوص ذات الصلة. لهذا الغرض، فإنه أكثر مقارنة بـ textract، مع التركيز على الحفاظ على هيكل المحتوى الهام للمستندات كـ Markdown (بما في ذلك: العناوين، القوائم، الجداول، الروابط، إلخ). على الرغم من أن المخرجات غالبًا ما تكون معقولة وقابلة للعرض وودودة للإنسان، إلا أنها",
       "categories": [
         "developer-tools"
       ],
@@ -2175,10 +2175,10 @@
       "id": "@modelcontextprotocol/gdrive",
       "nameEn": "gdrive",
       "nameZh": "谷歌云盘文件管理器",
-      "nameAr": "",
+      "nameAr": "gdrive",
       "descEn": "This MCP server integrates with Google Drive to allow listing, reading, and searching over files.",
       "descZh": "该MCP服务器与Google Drive集成，以允许列出、读取和搜索文件。",
-      "descAr": "",
+      "descAr": "هذا خادم MCP يدمج مع Google Drive للسماح بإنشاء قائمة بملفات القراءة والبحث فيها.",
       "categories": [
         "research-and-data"
       ],
@@ -2190,10 +2190,10 @@
       "id": "@Ejb503/systemprompt-mcp-google",
       "nameEn": "systemprompt-mcp-google",
       "nameZh": "Google MCP服务",
-      "nameAr": "",
+      "nameAr": "systemprompt-mcp-google",
       "descEn": "A specialized Model Context Protocol (MCP) server that integrates Google services (Gmail, Calendar, etc.) into your AI workflows. This server enables seamless access to Google services through MCP, allowing AI agents to interact with Gmail, Google Calendar, and other Google services.",
       "descZh": "一种专门的模型上下文协议（MCP）服务器，可将谷歌服务（如Gmail、日历等）集成到您的AI工作流中。该服务器通过MCP实现与谷歌服务的无缝接入，使AI代理能够与Gmail、谷歌日历和其他谷歌服务进行交互。",
-      "descAr": "",
+      "descAr": "خادم متخصص في Model Context Protocol (MCP) يدمج خدمات Google (Gmail، التقويم، إلخ) في سير عمل الذكاء الاصطناعي الخاص بك. هذا الخادم يتيح الوصول السلس إلى خدمات Google من خلال MCP، مما يسمح لوكالات الذكاء الاصطناعي بالتفاعل مع Gmail، والتقويم Google، وخدمات Google الأخرى.",
       "categories": [
         "calendar-management",
         "communication",
@@ -2207,10 +2207,10 @@
       "id": "Mic752/ResearchArxivPaper-WithMcp-Mic",
       "nameEn": "ResearchArxivPaper-WithMcp-Mic",
       "nameZh": "搜论文Arxiv 袁明伟 (MCP&Agent挑战赛) 班级群2",
-      "nameAr": "",
+      "nameAr": "ResearchArxivPaper-WithMcp-Mic",
       "descEn": "Based on the arXiv Open API for Paper Search\n\n---\n\n## Introduction\narXiv 是一个用于发布科学论文的开放存取库，涵盖了物理学、数学、计算机科学等多个领域。通过使用 arXiv 提供的开放 API，开发者可以轻松地进行论文搜索和获取相关信息。\n\n## Getting Started\n### Prerequisites\n- 你需要一个 arXiv API 密钥。你可以从 [arXiv API 官方网站](https://info.arxiv.org/help/api/index.html) 获取。\n- 确保你的开发环境已经安装了 `requests` 库。如果没有，请使用以下命令安装：\n  bash\n  pip install requests\n  \n\n### Example Code\n下面是一个简单的示例代码，演示如何使用 arXiv API 进行论文搜索：\n\npython\nimport requests\n\ndef search_arxiv(query, max_results=10):\n    base_url = \"http://export.arxiv.org/api/query\"\n    params = {\n        'search_query': query,\n        'start': 0,\n        'max_results': max_results\n    }\n    response = requests.get(base_url, params=params)\n    \n    if response.status_code == 200:\n        return response.text\n    else:\n        print(f\"Error: {response.status_code}\")\n        return None\n\n# 示例查询\nquery = \"quantum computing\"\nresults = search_arxiv(query, max_results=5)\nprint(results)\n\n\n## Parameters\n- `search_query`: 搜索关键词或短语。\n- `start`: 结果的起始索引（默认为 0）。\n- `max_results`: 返回的最大结果数量（默认为 10）。\n\n## Response Format\nAPI 返回的数据格式是 Atom XML。你可以使用 Python 的 `xml.etree.ElementTree` 或第三方库如 `lxml` 来解析这些数据。\n\n### Example Response\nxml\n<feed xmlns=\"http://www.w3.org/2005/Atom\">\n  <entry>\n    <id>http://arxiv.org/abs/1207.0500</id>\n    <title>Quantum Computing and Hidden Variables</title>\n    <summary>...</summary>\n    <author>\n      <name>John Doe</name>\n    </author>\n    <published>2012-07-02T16:00:00Z</published>\n    <link href=\"http://arxiv.org/abs/1207.0500\" rel=\"alternate\" type=\"text/html\"/>\n    <category term=\"quant-ph\" scheme=\"http://arxiv.org/schemas/atom\"/>\n  </entry>\n  ...\n</feed>\n\n\n## Parsing the Response\n你可以使用 `xml.etree.ElementTree` 来解析返回的 XML 数据。以下是一个示例代码：\n\npython\nimport xml.etree.ElementTree as ET\n\ndef parse_response(xml_data):\n    root = ET.fromstring(xml_data)\n    entries = root.findall('{http://www.w3.org/2005/Atom}entry')\n    results = []\n    for entry in entries:\n        title = entry.find('{http://www.w3.org/2005/Atom}title').text\n        summary = entry.find('{http://www.w3.org/2005/Atom}summary').text\n        published = entry.find('{http://www.w3.org/2005/Atom}published').text\n        author = entry.find('{http://www.w3.org/2005/Atom}author/{http://www.w3.org/2005/Atom}name').text\n        link = entry.find('{http://www.w3.org/2005/Atom}link[@rel=\"alternate\"]')['href']\n        \n        results.append({\n            'title': title,\n            'summary': summary,\n            'published': published,\n            'author': author,\n            'link': link\n        })\n    \n    return results\n\n# 解析示例响应\nparsed_results = parse_response(results)\nfor result in parsed_results:\n    print(result)\n\n\n## Conclusion\n通过使用 arXiv API，你可以轻松地在 arXiv 上进行论文搜索，并获取详细的论文信息。希望这个文档对你有所帮助！如果你有任何问题或需要进一步的帮助，请参考 [arXiv API 官方文档](https://info.arxiv.org/help/api/index.html)。",
       "descZh": "基于 arXiv 的开放 API 进行论文搜索的",
-      "descAr": "",
+      "descAr": "يعتمد على arXiv Open API لبحث الأوراق\n\n---\n\n## مقدمة\narXiv هي مستودع للوصول المفتوح لنشر الأوراق العلمية، ويغطي مجالات متعددة مثل الفيزياء، والرياضيات، وعلم الحاسوب. من خلال استخدام واجهة برمجة التطبيقات المفتوحة التي يوفرها arXiv، يمكن للمطورين إجراء بحث في الأوراق والحصول على المعلومات ذات الصلة بسهولة.\n\n## البدء\n### المتطلبات المسبقة\n- تحتاج إلى مفتاح API لـ arXiv. يمكنك الحصول عليه من [الموقع الرسمي لواجهة برمجة تطبيقات arXiv](https://info.arxiv.org/help/api/index.html).\n- تأكد من أن بيئة التطوير الخاصة بك مثبتة بالفعل مكتبة `requests`. إذا لم تكن كذلك، استخدم الأمر التالي للتثبيت:\n  bash\n  pip install requests\n  \n### مثال على الكود\nفيما يلي مثال بسيط على الكود، يوضح كيفية استخدام",
       "categories": [
         "calendar-management",
         "search"
@@ -2223,10 +2223,10 @@
       "id": "@modelcontextprotocol/sentry",
       "nameEn": "sentry",
       "nameZh": "Sentry监控工具",
-      "nameAr": "",
+      "nameAr": "sentry",
       "descEn": "This server provides tools to inspect error reports, stacktraces, and other debugging information from your Sentry account.",
       "descZh": "此服务器提供了用于查看来自您的 Sentry 账户的错误报告、堆栈跟踪和其他调试信息的工具。",
-      "descAr": "",
+      "descAr": "يوفر هذا الخادم أدوات لفحص تقارير الأخطاء، ومسارات المكدس، ومعلومات التصحيح الأخرى من حساب Sentry الخاص بك.",
       "categories": [
         "monitoring"
       ],
@@ -2238,10 +2238,10 @@
       "id": "@wonderwhy-er/desktop-commander",
       "nameEn": "desktop-commander",
       "nameZh": "",
-      "nameAr": "",
+      "nameAr": "desktop-commander",
       "descEn": "MCP server for terminal commands, file operations, and process management",
       "descZh": "",
-      "descAr": "",
+      "descAr": "خادم MCP لأوامر الطرفية، وتشغيل الملفات، وإدارة العمليات",
       "categories": [
         "file-systems"
       ],
@@ -2253,10 +2253,10 @@
       "id": "@mongodb-developer/mongodb-mcp-server",
       "nameEn": "mongodb-mcp-server",
       "nameZh": "MongoDB MCP 服务器",
-      "nameAr": "",
+      "nameAr": "mongodb-mcp-server",
       "descEn": "Provides read-only access to MongoDB databases for LLMs to inspect collection schemas and execute aggregation pipelines.",
       "descZh": "# 翻译\n为LLM提供对MongoDB数据库的只读访问，以便检查集合模式和执行聚合管道。",
-      "descAr": "",
+      "descAr": "يوفر وصولًا للقراءة فقط لقواعد بيانات MongoDB للسماح لـ LLMs بفحص مخططات المجموعات وتنفيذ خطوط أنابيب التجميع.",
       "categories": [
         "databases"
       ],
@@ -2268,10 +2268,10 @@
       "id": "deeppathai/mcp-marketing-site",
       "nameEn": "mcp-marketing-site",
       "nameZh": "营销大师-落地页评估",
-      "nameAr": "",
+      "nameAr": "mcp-marketing-site",
       "descEn": "Marketing Master - Landing Page Evaluation\n\n## 一、简介\n营销大师的落地页评估功能旨在帮助用户优化其网站或应用的着陆页面，通过分析页面设计、内容布局等因素，提供改进建议以提高转化率。\n\n## 二、使用步骤\n### 2.1 登录系统\n访问[营销大师官网](https://www.example.com)，使用您的账号密码登录。\n\n### 2.2 选择服务\n在主界面中找到并点击“落地页评估”选项。\n\n### 2.3 提交待评估页面\n- 输入您想要评估的网页URL。\n- 点击提交按钮。\n\nplaintext\n示例：\nhttps://www.yourwebsite.com/landingpage\n\n\n### 2.4 查看报告\n提交后，系统将自动开始分析，并在几分钟内生成详细的评估报告。您可以直接在线查看或者下载PDF版本。\n\n## 三、报告解读\n报告通常包括以下几个部分：\n- **页面加载速度**：影响用户体验的关键因素之一。\n- **视觉吸引力**：色彩搭配、图片质量等对访客的第一印象至关重要。\n- **信息清晰度**：确保目标受众能够快速理解页面传达的信息。\n- **行动号召（CTA）的有效性**：检查CTA按钮的位置、颜色是否足够吸引人去点击。\n- **移动设备友好性**：随着越来越多的人使用手机上网，确保您的页面在小屏幕上也能良好显示变得越来越重要。\n\n## 四、常见问题解答\n**Q: 我可以同时提交多个页面进行评估吗？**\nA: 当前版本支持一次提交一个页面链接。如果您需要评估多个页面，请逐个提交。\n\n**Q: 分析结果多久能出来？**\nA: 一般情况下，从提交到收到完整报告大约需要5至10分钟时间。具体时长取决于当前服务器负载情况。\n\n**Q: 如果我对报告中的建议有疑问怎么办？**\nA: 您可以通过客服联系我们的专业团队获取更多帮助和支持。联系方式见[这里](https://www.example.com/contact)。\n\n希望这份指南能帮助您更好地利用营销大师的落地页评估工具来提升您的在线业务表现！",
       "descZh": "营销大师-落地页评估",
-      "descAr": "",
+      "descAr": "Marketing Master - تقييم صفحة الهبوط\n\n## أولاً: مقدمة\nتساعد وظيفة تقييم صفحة الهبوط في Marketing Master المستخدمين على تحسين صفحات الهبوط لموقعهم أو تطبيقهم، من خلال تحليل عوامل مثل تصميم الصفحة وتخطيط المحتوى، وتقديم اقتراحات للتحسين لزيادة معدل التحويل.\n\n## ثانياً: خطوات الاستخدام\n### 2.1 تسجيل الدخول إلى النظام\nقم بزيارة [الموقع الرسمي لـ Marketing Master](https://www.example.com)، واستخدم اسم المستخدم وكلمة المرور الخاصة بك لتسجيل الدخول.\n\n### 2.2 اختيار الخدمة\nابحث في الواجهة الرئيسية وانقر على خيار \"تقييم صفحة الهبوط\".\n\n### 2.3 تقديم صفحة للتقييم\n- أدخل URL للصفحة التي تريد تقييمها.\n- انقر على زر التقديم.\n\nplaintext\nمثال:\nhttps://www.yourwebsite.com/landingpage\n\n\n### 2.4 عرض التقرير\nبعد التقديم، سيبدأ النظام في التحليل تلقائيًا، وسيقوم بإنشاء تقرير تقييم مفصل في غضون دقائق. يمكنك عرضه مباشرة عبر الإنترنت أو تنزيل نسخة PDF.\n\n## ثالثاً: تفسير التقرير\nالتقرير",
       "categories": [
         "customer-and-marketing"
       ],
@@ -2283,10 +2283,10 @@
       "id": "dingtalk/Parcel-tracking",
       "nameEn": "Parcel-tracking",
       "nameZh": "快递查询",
-      "nameAr": "",
+      "nameAr": "Parcel-tracking",
       "descEn": "One-click query for express logistics, easily keep track of your package's status, just like having a smart delivery assistant with you.",
       "descZh": "一键查询快递物流，轻松掌握包裹动态，如同随身携带的智能快递助手。",
-      "descAr": "",
+      "descAr": "استعلام بنقرة واحدة للخدمات اللوجستية السريعة، وتتبع حالة حزمتك بسهولة، وكأنك مساعد توصيل ذكي معك.",
       "categories": [
         "search",
         "customer-and-marketing"
@@ -2299,10 +2299,10 @@
       "id": "@evalstate/mcp-miro",
       "nameEn": "mcp-miro",
       "nameZh": "MCP-MIRO连接器",
-      "nameAr": "",
+      "nameAr": "mcp-miro",
       "descEn": "A Model Context Protocol server to connect to the MIRO Whiteboard Application. Allows Board manipulation, sticky creation, bulk operations and more.",
       "descZh": "用于连接MIRO白板应用的模型上下文协议服务器。允许进行白板操作、便签创建、批量操作等更多功能。",
-      "descAr": "",
+      "descAr": "خادم Model Context Protocol للاتصال بتطبيق MIRO Whiteboard. يسمح بتعديل اللوح، وإنشاء ملاصقات، والعمليات الجماعية والمزيد.",
       "categories": [
         "developer-tools",
         "other"
@@ -2315,10 +2315,10 @@
       "id": "dingtalk/DingTalk-OA-Approval",
       "nameEn": "DingTalk-OA-Approval",
       "nameZh": "钉钉OA审批",
-      "nameAr": "",
+      "nameAr": "DingTalk-OA-Approval",
       "descEn": "Easily manage the approval process and check pending and submitted approval forms at any time.",
       "descZh": "轻松管理审批流程，随时查询待处理和已提交的审批单。",
-      "descAr": "",
+      "descAr": "إدارة عملية الموافقة بسهولة والتحقق من نماذج الموافقة المعروضة والمقدمة في أي وقت.",
       "categories": [
         "communication",
         "customer-and-marketing"
@@ -2331,10 +2331,10 @@
       "id": "dingtalk/Attendance-clock-in",
       "nameEn": "Attendance-clock-in",
       "nameZh": "考勤打卡",
-      "nameAr": "",
+      "nameAr": "Attendance-clock-in",
       "descEn": "Effortlessly manage attendance, as if you have a dedicated HR assistant, and stay informed about your team's status anytime, anywhere.",
       "descZh": "轻松管理考勤，如同拥有专属人事助手，随时随地掌握团队动态。",
-      "descAr": "",
+      "descAr": "إدارة الحضور بسهولة، وكأنك مساعد موارد بشرية مخصص، والبقاء على اطلاع دائم على حالة فريقك في أي وقت وأي مكان.",
       "categories": [
         "communication",
         "customer-and-marketing"
@@ -2347,10 +2347,10 @@
       "id": "dingtalk/Corporate-job-postings",
       "nameEn": "Corporate-job-postings",
       "nameZh": "企业招聘信息",
-      "nameAr": "",
+      "nameAr": "Corporate-job-postings",
       "descEn": "One-click to query the details of enterprise recruitment, and keep track of job positions and candidate dynamics as if observing a chess game in your hand.",
       "descZh": "一键查询企业招聘详情，掌握职位与候选人动态如掌中观棋。",
-      "descAr": "",
+      "descAr": "استعلام بنقرة واحدة عن تفاصيل التوظيف في الشركات، والبقاء على اطلاع دائم على وظائف المرشحين والديناميكيات، وكأنك تشاهد لعبة شطرنج بين يديك.",
       "categories": [
         "communication",
         "customer-and-marketing"
@@ -2363,10 +2363,10 @@
       "id": "yongyang599/mcd-mcp-app",
       "nameEn": "mcd-mcp-app",
       "nameZh": "麦当劳MCP App",
-      "nameAr": "",
+      "nameAr": "mcd-mcp-app",
       "descEn": "> ⚠️ 免责声明: 本项目仅供学习和技术研究使用，请勿用于任何商业用途。 这是一个基于 Model Context Protocol (MCP) 标准构建的应用程序，专为麦当劳中国用户设计的 MCP App，结合了后端逻辑与 React 前端界面，为您提供直观、可视化的交互体验。",
       "descZh": "这是一个基于Model Context Protocol (MCP)标准构建的应用程序，专为麦当劳中国用户设计。它结合了后端逻辑与React前端界面，为您提供直观、可视化的交互体验。通过本应用，您可以在支持MCP App的AI助手中，直接通过对话查询麦当劳活动、浏览优惠券，并享受一键领券的便捷服务。",
-      "descAr": "",
+      "descAr": "> ⚠️ إخلاء المسؤولية: هذا المشروع مخصص للاستخدام التعليمي والأبحاث الفنية فقط، يرجى عدم استخدامه لأي أغراض تجارية. هذا هو تطبيق MCP المبني على معيار Model Context Protocol (MCP)، مصمم خصيصًا لمستخدمي McDonald's في الصين، يجمع بين المنطق الخلفي وواجهة React الأمامية، ويوفر لك تجربة تفاعلية بصرية مباشرة.",
       "categories": [
         "customer-and-marketing"
       ],
