@@ -279,6 +279,12 @@
   const t = (key) => I18N[LANG][key] ?? I18N.ar[key] ?? key;
   const isAr = () => LANG === "ar";
   const arrow = () => (isAr() ? "←" : "→");
+  /** Pick a bilingual content field: Arabic base field, or its En sibling in EN mode (fallback to Arabic). */
+  const L = (obj, field) => {
+    if (!obj) return "";
+    if (isAr()) return obj[field] ?? "";
+    return obj[field + "En"] || obj[field] || "";
+  };
 
   const CATEGORY_KEYS = ["models", "tools", "research", "companies", "regulation", "other"];
   const catLabel = (c) => t("cat." + (CATEGORY_KEYS.includes(c) ? c : "other"));
@@ -439,8 +445,8 @@
     if (top) {
       $("topStory").innerHTML = `
         <div class="top-story-tag">${t("top.tag")}</div>
-        <h2 class="top-story-title">${escapeHtml(top.title)}</h2>
-        <p class="top-story-summary">${escapeHtml(top.summary)}</p>
+        <h2 class="top-story-title">${escapeHtml(L(top, "title"))}</h2>
+        <p class="top-story-summary">${escapeHtml(L(top, "summary"))}</p>
         <a class="top-story-link" href="${escapeHtml(top.source.url)}" target="_blank" rel="noopener">
           ${t("top.readSource")} <span aria-hidden="true">${arrow()}</span>
         </a>`;
@@ -471,7 +477,7 @@
         <div class="important-item level-${escapeHtml(h.level || "info")}">
           <span class="important-icon">${icons[h.level] || icons.info}</span>
           <p class="important-text">
-            ${escapeHtml(h.text)}
+            ${escapeHtml(L(h, "text"))}
             ${h.url ? `<a href="${escapeHtml(h.url)}" target="_blank" rel="noopener">${t("news.source")}</a>` : ""}
           </p>
         </div>`)
@@ -497,8 +503,8 @@
           <span class="news-category">${catLabel(n.category)}</span>
           ${stars}
         </div>
-        <h3 class="news-title">${escapeHtml(n.title)}</h3>
-        <p class="news-summary">${escapeHtml(n.summary)}</p>
+        <h3 class="news-title">${escapeHtml(L(n, "title"))}</h3>
+        <p class="news-summary">${escapeHtml(L(n, "summary"))}</p>
         <div class="news-meta">
           <span>${escapeHtml(n.source.name)}</span>
           <a class="news-source-link" href="${escapeHtml(n.source.url)}" target="_blank" rel="noopener">${t("news.source")}</a>
@@ -510,7 +516,7 @@
     const q = state.query.trim();
     const items = state.edition.news.filter((n) => {
       if (state.category !== "all" && n.category !== state.category) return false;
-      if (q && !(n.title + " " + n.summary).includes(q)) return false;
+      if (q && !(`${n.title} ${n.titleEn || ""} ${n.summary} ${n.summaryEn || ""}`.includes(q))) return false;
       return true;
     });
     $("newsGrid").innerHTML = items.map(newsCard).join("");
@@ -532,7 +538,7 @@
               <div class="model-org">${escapeHtml(m.org)}</div>
             </div>
           </div>
-          <p class="model-highlights">${escapeHtml(m.highlights)}</p>
+          <p class="model-highlights">${escapeHtml(L(m, "highlights"))}</p>
           <div class="model-specs">${specs}</div>
           <div class="model-meta">
             <span>${formatShortDate(m.releaseDate)}</span>
@@ -556,8 +562,8 @@
             <span class="security-type">${typeIcon[s.type] || "🏛️"} ${t("sec.type." + (SECURITY_TYPES.includes(s.type) ? s.type : "policy"))}</span>
             <span class="security-sev sev-${escapeHtml(s.severity || "info")}">${t("sec.sev." + (["info", "warning", "critical"].includes(s.severity) ? s.severity : "info"))}</span>
           </div>
-          <h3 class="security-title">${escapeHtml(s.title)}</h3>
-          <p class="security-summary">${escapeHtml(s.summary)}</p>
+          <h3 class="security-title">${escapeHtml(L(s, "title"))}</h3>
+          <p class="security-summary">${escapeHtml(L(s, "summary"))}</p>
           <div class="security-meta">
             <span>${escapeHtml(s.source || "")} • ${formatShortDate(s.date || state.edition.date)}</span>
             <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${t("sec.source")}</a>
@@ -582,7 +588,7 @@
       .join("");
 
     $("benchContent").innerHTML = `
-      ${b.highlights ? `<p class="bench-highlights">💡 ${escapeHtml(b.highlights)}</p>` : ""}
+      ${(b.highlights || b.highlightsEn) ? `<p class="bench-highlights">💡 ${escapeHtml(L(b, "highlights"))}</p>` : ""}
       <div class="bench-table-wrap">
         <table class="bench-table">
           <thead>
@@ -631,7 +637,9 @@
       .filter((k) => state.difficulty === "all" || k.difficulty === state.difficulty)
       .filter((k) => state.track === "all" || (k.track || "basics") === state.track)
       .map((k) => {
-        const steps = (k.steps || [])
+        const enMode = !isAr();
+        const stepList = enMode && (k.stepsEn || []).length ? k.stepsEn : (k.steps || []);
+        const steps = stepList
           .map((s, i) => `
             <div class="knowledge-step">
               <span class="step-number">${i + 1}</span>
@@ -657,7 +665,7 @@
         <details class="knowledge-card" id="kb-${escapeHtml(k.id)}">
           <summary class="knowledge-head">
             <span class="knowledge-title-wrap">
-              <span class="knowledge-title">${escapeHtml(k.title)}</span>
+              <span class="knowledge-title">${escapeHtml(L(k, "title"))}</span>
               <span class="difficulty-chip difficulty-${escapeHtml(k.difficulty)}">${diffLabel(k.difficulty)}</span>
               <span class="track-chip track-${escapeHtml(k.track || "basics")}">${trackLabel(k.track)}</span>
               <span class="readtime-chip">⏱ ${readMinutes(k)} ${t("kb.readTime")}</span>
@@ -665,7 +673,7 @@
             <span class="knowledge-chevron">▼</span>
           </summary>
           <div class="knowledge-body">
-            <p class="knowledge-why">${escapeHtml(k.why)}</p>
+            <p class="knowledge-why">${escapeHtml(L(k, "why"))}</p>
             <div class="knowledge-steps">${steps}</div>
             ${code}
             <div class="knowledge-resources">${resources}</div>
@@ -914,8 +922,8 @@
     $("cheatGrid").innerHTML = items
       .map((k) => `
         <div class="cheat-card">
-          <div class="cheat-title">${escapeHtml(k.title)}</div>
-          <p class="cheat-ref">💡 ${escapeHtml(k.quickRef)}</p>
+          <div class="cheat-title">${escapeHtml(L(k, "title"))}</div>
+          <p class="cheat-ref">💡 ${escapeHtml(L(k, "quickRef"))}</p>
         </div>`)
       .join("");
   }

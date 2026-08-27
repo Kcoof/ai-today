@@ -315,29 +315,31 @@ The sources include the OFFICIAL news feeds of AI providers (OpenAI, Google Deep
 Anthropic, Moonshot/Kimi, Mistral, Z.ai, Meta, Qwen, DeepSeek, xAI) — pay special
 attention to their announcements of new models, features, skills, and plugins.
 
-YOUR TASKS (respond with ONLY a valid JSON object, no markdown fences):
+YOUR TASKS (respond with ONLY a valid JSON object, no markdown fences). The site is
+bilingual: EVERY free-text field must be given TWICE — Arabic (title/summary/…) and
+English (titleEn/summaryEn/…). The English version must be a faithful, natural
+translation of the Arabic one, not a new story.
 
-1) "news": Pick the 8-12 MOST significant items. For each: accurate Arabic title
-   (concise) and Arabic summary (2-3 sentences, informative). category one of
-   ${JSON.stringify(CATEGORIES)}. importance 1-5 (5 = industry-shaping).
-   Reference the candidate by "sourceIndex".
+1) "news": Pick the 8-12 MOST significant items. For each: Arabic title
+   (concise) + Arabic summary (2-3 sentences) AND their English counterparts
+   (titleEn, summaryEn). category one of ${JSON.stringify(CATEGORIES)}.
+   importance 1-5 (5 = industry-shaping). Reference the candidate by "sourceIndex".
    Feature/plugin/skill announcements from official provider blogs are valuable news (usually "tools").
 
-2) "models": actual NEW model releases only, max 6. name/org Latin; highlights Arabic;
-   releaseDate YYYY-MM-DD; specs as short strings ({"context": "1M"}).
+2) "models": actual NEW model releases only, max 6. name/org Latin; Arabic highlights
+   + highlightsEn; releaseDate YYYY-MM-DD; specs as short strings ({"context": "1M"}).
    Reference "sourceIndex".
 
 3) "highlights": 0-3 items of important info (major announcements, big funding).
-   text Arabic, level one of "info"/"warning"/"critical", "sourceIndex" or null.
+   Arabic text + textEn, level one of "info"/"warning"/"critical", "sourceIndex" or null.
 
 4) "security": 2-5 items about AI SECURITY: breaches, prompt injections, jailbreaks,
-   AI malware, leaked prompts, model backdoors. title/summary Arabic (if the article
-   reveals the actual prompt or technique used, DESCRIBE it in the summary),
+   AI malware, leaked prompts, model backdoors. Arabic title/summary + titleEn/summaryEn
+   (if the article reveals the actual prompt or technique used, DESCRIBE it in the summary),
    type one of "breach"/"prompt-injection"/"jailbreak"/"malware"/"backdoor"/"policy",
    severity one of "info"/"warning"/"critical", "sourceIndex". Only AI-related items.
 
 HARD RULES:
-- ALL free-text in ARABIC except model names/orgs/URLs.
 - NEVER invent URLs. Use "sourceIndex" only (indices 0-${compact.length - 1}).
 - Yesterday's top headlines (do NOT repeat): ${JSON.stringify(yesterdayHeadlines)}
 
@@ -345,7 +347,7 @@ CANDIDATES:
 ${JSON.stringify(compact)}
 
 Shape:
-{"news": [{"title": "...", "summary": "...", "category": "models", "importance": 4, "sourceIndex": 0}], "models": [{"name": "...", "org": "...", "releaseDate": "YYYY-MM-DD", "highlights": "...", "specs": {}, "sourceIndex": 0}], "highlights": [{"text": "...", "level": "info", "sourceIndex": 0}], "security": [{"title": "...", "summary": "...", "type": "breach", "severity": "warning", "sourceIndex": 0}]}`;
+{"news": [{"title": "…", "titleEn": "…", "summary": "…", "summaryEn": "…", "category": "models", "importance": 4, "sourceIndex": 0}], "models": [{"name": "...", "org": "...", "releaseDate": "YYYY-MM-DD", "highlights": "…", "highlightsEn": "…", "specs": {}, "sourceIndex": 0}], "highlights": [{"text": "…", "textEn": "…", "level": "info", "sourceIndex": 0}], "security": [{"title": "…", "titleEn": "…", "summary": "…", "summaryEn": "…", "type": "breach", "severity": "warning", "sourceIndex": 0}]}`;
 }
 
 function buildExtrasPrompt(llmStatsText, recentKnowledgeTitles) {
@@ -355,28 +357,30 @@ Produce TWO things (respond with ONLY a valid JSON object, no markdown fences):
 1) "benchmarks": based ONLY on the leaderboard text below (LLM Stats):
    topModels: the top 10 models as {name, org, score} exactly as they appear
    (name/org Latin, score as displayed); highlights: 1-2 sentences in Arabic
-   commenting on the current ranking (biggest mover, close races).
+   commenting on the current ranking (biggest mover, close races) plus an
+   English translation in highlightsEn.
    Do NOT invent models or scores.
 
 2) "knowledgeEntry": ONE new entry for the "مهارات ومعرفة" section — a practical
    skill taught as knowledge: what it is, why it matters, concrete steps.
+   BILINGUAL: give every field in Arabic AND English (titleEn, whyEn, stepsEn,
+   quickRefEn). Quiz questions stay Arabic-only.
    Vary the topic daily. AVOID these recent topics: ${JSON.stringify(recentKnowledgeTitles.slice(0, 12))}.
    Topics like: fine-tuning a small model, writing good prompts, running local
    models, agents, evals, vector databases, AI safety basics, multimodal APIs…
-   Fields: title/why Arabic; difficulty one of ${JSON.stringify(DIFFICULTIES)};
+   Fields: title/why Arabic + titleEn/whyEn; difficulty one of ${JSON.stringify(DIFFICULTIES)};
    track one of ${JSON.stringify(KNOWLEDGE_TRACKS)} (basics=أساسيات, building=بناء أنظمة,
-   security=أمن, tools=أدوات); steps 4-6 × {title (Arabic imperative), detail (Arabic 1-2 sentences)};
+   security=أمن, tools=أدوات); steps 4-6 × {title, detail} Arabic + stepsEn × {title, detail} English;
    code: SHORT runnable snippet or ""; resources: 1-3 well-known real URLs;
-   tags 2-4; quickRef: ONE short Arabic sentence — the key action to remember;
-   quiz: 2-3 Arabic multiple-choice questions {q, options: [3-4 Arabic options],
-   answer: correct index, explain: Arabic explanation}. Wrong options must be
-   plausible but clearly wrong to someone who read the steps.
+   tags 2-4; quickRef Arabic + quickRefEn; quiz: 2-3 Arabic multiple-choice
+   questions {q, options: [3-4 Arabic options], answer: correct index, explain}.
+   Wrong options must be plausible but clearly wrong to someone who read the steps.
 
 LLM STATS LEADERBOARD TEXT:
 ${llmStatsText || "(leaderboard unavailable — return empty benchmarks)"}
 
 Shape:
-{"benchmarks": {"topModels": [{"name": "...", "org": "...", "score": "..."}], "highlights": "..."}, "knowledgeEntry": {"title": "...", "why": "...", "difficulty": "beginner", "track": "basics", "steps": [{"title": "...", "detail": "..."}], "code": "", "resources": [{"name": "...", "url": "..."}], "tags": ["..."], "quickRef": "...", "quiz": [{"q": "...", "options": ["...", "...", "..."], "answer": 0, "explain": "..."}]}}`;
+{"benchmarks": {"topModels": [{"name": "...", "org": "...", "score": "..."}], "highlights": "...", "highlightsEn": "..."}, "knowledgeEntry": {"title": "...", "titleEn": "...", "why": "...", "whyEn": "...", "difficulty": "beginner", "track": "basics", "steps": [{"title": "...", "detail": "..."}], "stepsEn": [{"title": "...", "detail": "..."}], "code": "", "resources": [{"name": "...", "url": "..."}], "tags": ["..."], "quickRef": "...", "quickRefEn": "...", "quiz": [{"q": "...", "options": ["...", "...", "..."], "answer": 0, "explain": "..."}]}}`;
 }
 
 async function callGlm(prompt) {
@@ -442,7 +446,9 @@ function buildEdition(raw, candidates) {
       return {
         id: `n-${date}-${i + 1}`,
         title: String(n.title).trim(),
+        titleEn: String(n.titleEn || "").trim(),
         summary: String(n.summary).trim(),
+        summaryEn: String(n.summaryEn || "").trim(),
         category: normalizeCategory(n.category),
         importance: Math.min(5, Math.max(1, parseInt(n.importance, 10) || 3)),
         source: { name: src.source, url: src.url },
@@ -462,6 +468,7 @@ function buildEdition(raw, candidates) {
         org: String(m.org || "").trim() || (src ? src.source : ""),
         releaseDate: /^\d{4}-\d{2}-\d{2}$/.test(m.releaseDate) ? m.releaseDate : date,
         highlights: String(m.highlights || "").trim(),
+        highlightsEn: String(m.highlightsEn || "").trim(),
         specs: typeof m.specs === "object" && m.specs ? m.specs : {},
         url: src.url,
       };
@@ -473,7 +480,7 @@ function buildEdition(raw, candidates) {
       if (!h.text) return null;
       const src = resolve(h.sourceIndex);
       const level = ["info", "warning", "critical"].includes(h.level) ? h.level : "info";
-      return { id: `h-${date}-${i + 1}`, text: String(h.text).trim(), level, url: src ? src.url : null };
+      return { id: `h-${date}-${i + 1}`, text: String(h.text).trim(), textEn: String(h.textEn || "").trim(), level, url: src ? src.url : null };
     })
     .filter(Boolean);
 
@@ -485,7 +492,9 @@ function buildEdition(raw, candidates) {
       return {
         id: `sec-${date}-${i + 1}`,
         title: String(s.title).trim(),
+        titleEn: String(s.titleEn || "").trim(),
         summary: String(s.summary).trim(),
+        summaryEn: String(s.summaryEn || "").trim(),
         type: SECURITY_TYPES.includes(s.type) ? s.type : "policy",
         severity: ["info", "warning", "critical"].includes(s.severity) ? s.severity : "info",
         url: src.url,
@@ -507,6 +516,7 @@ function buildEdition(raw, candidates) {
         url: "https://llm-stats.com/",
         topModels,
         highlights: String(rawBench.highlights || "").trim(),
+        highlightsEn: String(rawBench.highlightsEn || "").trim(),
       }
     : null;
 
@@ -520,14 +530,18 @@ function buildEdition(raw, candidates) {
     ? {
         id: `k-${date}-${slug(ke.title) || "skill"}`,
         title: String(ke.title).trim(),
+        titleEn: String(ke.titleEn || "").trim(),
         why: String(ke.why || "").trim(),
+        whyEn: String(ke.whyEn || "").trim(),
         difficulty: DIFFICULTIES.includes(ke.difficulty) ? ke.difficulty : "intermediate",
         track: KNOWLEDGE_TRACKS.includes(ke.track) ? ke.track : "basics",
         steps: ke.steps.slice(0, 8).map((s) => ({ title: String(s.title || ""), detail: String(s.detail || "") })),
+        stepsEn: (Array.isArray(ke.stepsEn) ? ke.stepsEn : []).slice(0, 8).map((s) => ({ title: String(s.title || ""), detail: String(s.detail || "") })),
         code: String(ke.code || "").trim(),
         resources: (ke.resources || []).filter((r) => r && r.url).slice(0, 4).map((r) => ({ name: String(r.name || "رابط"), url: String(r.url) })),
         tags: (ke.tags || []).slice(0, 5).map(String),
         quickRef: String(ke.quickRef || "").trim(),
+        quickRefEn: String(ke.quickRefEn || "").trim(),
         quiz: sanitizeQuiz(ke.quiz),
         addedAt: date,
       }
