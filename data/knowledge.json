@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-27-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً",
+      "title": "تشغيل نماذج الذكاء الاصطناعي محلياً",
+      "titleEn": "Running Local AI Models",
+      "why": "تشغيل نماذج الذكاء الاصطناعي محلياً يمنحك التحكم الكامل في بياناتك وخصوصيتك، ويسمح لك بالعمل بدون اتصال بالإنترنت، ويوفر تكاليف الاشتراك في الخدمات السحابية.",
+      "whyEn": "Running AI models locally gives you full control over your data and privacy, allows you to work offline, and saves subscription costs for cloud services.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "اخيار النموذج المناسب",
+          "detail": "اختر نموذجاً صغير الحجم يناسب قدرات جهازك. النماذج مثل Llama 3 8B أو Mistral 7B مناسبة للأجهزة ذات المواصفات المتوسطة."
+        },
+        {
+          "title": "تثبيت الأدوات اللازمة",
+          "detail": "قم بتثبيت Python و PyTorch أو TensorFlow حسب متطلبات النموذج. قم أيضاً بتثبيت مكتبة Hugging Face Transformers التي توفر واجهة سهلة لتحميل النماذج."
+        },
+        {
+          "title": "تحميل النموذج",
+          "detail": "استخدم Hugging Face Transformers لتحميل النموذج المختار. يمكنك استخدام الكود: model = AutoModelForCausalLM.from_pretrained('model_name'). تأكد من وجود مساحة كافية في ذاكرة جهازك."
+        },
+        {
+          "title": "تشغيل النموذج",
+          "detail": "قم بإنشاء واجهة بسيطة للتفاعل مع النموذج. يمكنك استخدام واجهة سطر الأوامر أو واجهة ويب بسيطة. تأكد من تحديد المعلمات المناسبة مثل درجة الحرارة (temperature) وطول التوليد (max_length)."
+        },
+        {
+          "title": "تحسين الأداء",
+          "detail": "استخدم تقنيات مثل الكمون (quantization) لتقليل حجم النموذج وتسريع التشغيل. يمكنك أيضاً استخدام GPU إذا كان متاحاً لتسريع عمليات الاستدلال."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Choose the right model",
+          "detail": "Select a small-sized model that suits your device's capabilities. Models like Llama 3 8B or Mistral 7B are suitable for mid-range devices."
+        },
+        {
+          "title": "Install necessary tools",
+          "detail": "Install Python and PyTorch or TensorFlow according to the model requirements. Also install the Hugging Face Transformers library which provides an easy interface for loading models."
+        },
+        {
+          "title": "Download the model",
+          "detail": "Use Hugging Face Transformers to download your chosen model. You can use the code: model = AutoModelForCausalLM.from_pretrained('model_name'). Ensure you have sufficient space on your device."
+        },
+        {
+          "title": "Run the model",
+          "detail": "Create a simple interface to interact with the model. You can use a command-line interface or a simple web interface. Make sure to set appropriate parameters like temperature and max_length."
+        },
+        {
+          "title": "Optimize performance",
+          "detail": "Use techniques like quantization to reduce model size and speed up execution. You can also use GPU if available to accelerate inference processes."
+        }
+      ],
+      "code": "import torch\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\n# Load model and tokenizer\nmodel_name = 'meta-llama/Llama-2-7b-chat-hf'\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map='auto')\n\n# Generate text\nprompt = 'What are the benefits of running AI models locally?'\ninputs = tokenizer(prompt, return_tensors='pt').to('cuda')\noutputs = model.generate(**inputs, max_length=200)\nprint(tokenizer.decode(outputs[0], skip_special_tokens=True))",
+      "resources": [
+        {
+          "name": "Hugging Face Transformers Documentation",
+          "url": "https://huggingface.co/docs/transformers/index"
+        },
+        {
+          "name": "Ollama - Local AI Runner",
+          "url": "https://ollama.ai/"
+        },
+        {
+          "name": "LocalGPT - Run GPT models locally",
+          "url": "https://github.com/PromtEngineer/localGPT"
+        }
+      ],
+      "tags": [
+        "نماذج محلية",
+        "الذكاء الاصطناعي على الجهاز",
+        "الخصوصية",
+        "الأداء"
+      ],
+      "quickRef": "اختر نموذجاً مناسباً لمواصفات جهازك، قم بتثبيت الأدوات اللازمة، حمّل النموذج، وابدأ في التفاعل معه مع تحسين الأداء عند الحاجة.",
+      "quickRefEn": "Choose a model suitable for your device specs, install necessary tools, load the model, and start interacting with it while optimizing performance as needed.",
+      "quiz": [
+        {
+          "q": "ما هي الفائدة الرئيسية لتشغيل نماذج الذكاء الاصطناعي محلياً؟",
+          "options": [
+            "تقليل تكاليف البنية التحتية",
+            "زيادة سرعة المعالجة",
+            "تحسين دقة النتائج",
+            "تقليل استهلاك الطاقة"
+          ],
+          "answer": 0,
+          "explain": "الفائدة الرئيسية لتشغيل نماذج الذكاء الاصطناعي محلياً هي تقليل تكاليف البنية التحتية حيث لا تحتاج إلى دفع اشتراكات للخدمات السحابية."
+        },
+        {
+          "q": "أي من النماذج التالية مناسبة للأجهزة ذات المواصفات المتوسطة؟",
+          "options": [
+            "GPT-4",
+            "Claude Opus",
+            "Llama 3 8B",
+            "Gemini Ultra"
+          ],
+          "answer": 2,
+          "explain": "نماذج مثل Llama 3 8B صغيرة الحجم وتناسب الأجهزة ذات المواصفات المتوسطة، بينما النماذج الكبيرة مثل GPT-4 و Claude Opus تتطلب موارد كبيرة."
+        },
+        {
+          "q": "ما هي تقنية التحسين التي تساعد في تقليل حجم النموذج وتسريع التشغيل؟",
+          "options": [
+            "التدريب",
+            "الكمون (Quantization)",
+            "التجميع (Pruning)",
+            "الضغط (Compression)"
+          ],
+          "answer": 1,
+          "explain": "الكمون (Quantization) هي تقنية تحويل أوزان النموذج من نقاط عائمة عالية الدقة إلى نقاط عائمة منخفضة الدقة، مما يقلل من حجم النموذج ويحسن سرعة التشغيل."
+        }
+      ],
+      "addedAt": "2026-08-27"
+    },
+    {
       "id": "k-2026-08-27-ضبط-النموذج-اللغوي-الصغير-fine-tuning",
       "title": "ضبط النموذج اللغوي الصغير (Fine-tuning)",
       "why": "يساعد ضبط النماذج اللغوية الصغيرة على تخصيصها لمهام محددة، مما يحسن الأداء في التطبيقات المتخصصة ويقلل من التكاليف مقارنة باستخدام النماذج الكبيرة.",

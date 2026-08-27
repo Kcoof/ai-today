@@ -1,73 +1,15 @@
 {
   "date": "2026-08-27",
-  "generatedAt": "2026-08-27T07:07:10.035Z",
+  "generatedAt": "2026-08-27T10:57:50.106Z",
   "news": [
     {
-      "id": "n-2026-08-27-5",
-      "title": "مفاوضات Moonshot مع Microsoft وAmazon وGoogle حول K3",
-      "summary": "تتفاوض شركة Moonshot الصينية مع Microsoft وAmazon وGoogle حول مشاركة إيرادات نموذج Kimi K3، مما يمكّن فرصة كبيرة للتعاون بين الشركات.",
-      "category": "companies",
-      "importance": 5,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
-      },
-      "publishedAt": "2026-08-26"
-    },
-    {
       "id": "n-2026-08-27-1",
-      "title": "تقرير OpenAI حول اختراق Hugging Face",
-      "summary": "نشر OpenAI تقريره الرسمي حول الاختراقات الأمنية التي تعرضت لها Hugging Face، حيث يغطي عدة اختراقات أمنية منفصلة ويقدم أول تقرير كامل عن الحادث.",
-      "category": "other",
-      "importance": 4,
-      "source": {
-        "name": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/"
-      },
-      "publishedAt": "2026-08-26"
-    },
-    {
-      "id": "n-2026-08-27-3",
-      "title": "نتائج Jalapeño تظهر سرعة وكفاءة استثنائية في استدلال الذكاء الاصطناعي",
-      "summary": "Jalapeño هي شريحة استدلال مخصصة من OpenAI توفر سرعة وكفاءة أعلى في معالجة الذكاء الاصطناعي، مما يمثل تقدماً في الأجهزة المتخصصة.",
+      "title": "توسيع ChatGPT for Teachers إلى مناطق مدرسية أمريكية إضافية",
+      "titleEn": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "summary": "توسيع ChatGPT for Teachers إلى 55 نظامًا مدرسيًا في الولايات المتحدة، مع تقديم أدوات الذكاء الاصطناعي الآمنة والتدريب للمعلمين لتحسين تجربة التعلم.",
+      "summaryEn": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training for educators to enhance learning experiences.",
       "category": "tools",
       "importance": 4,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/jalapeno-first-results"
-      },
-      "publishedAt": "2026-08-25"
-    },
-    {
-      "id": "n-2026-08-27-4",
-      "title": "إطلاق Gemini 3.7 Flash",
-      "summary": "أطلقت Google DeepMind نموذج Gemini 3.7 Flash، وهو أحدث إضافة لعائلة Gemini، مع تحسينات في السرعة والكفاءة.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
-      },
-      "publishedAt": "2026-08-13"
-    },
-    {
-      "id": "n-2026-08-27-6",
-      "title": "إطلاق Z.ai لنموذج GLM-5.3-Flash",
-      "summary": "أطلقت شركة Z.ai الصينية نموذج GLM-5.3-Flash، وهو نموذج متعدد الوسائط nativally بسياق 1M token، يعمل فقط على الرقائق الصينية.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZF9xWkwzVGpHcWVPSFZQRzRpLTRUaVBBSTI2U1FCeVh2NDZ2VDNsN3ZnQy1sdzdZcF9HNXJKSGNZWmtsS3lZWUJBa3pjV3RZRDJQLWk4bWFVQWc2ZTN1Wk9hQnpUcEVYY055bmlrSVRucy1GRlBueWZpVUo2THRmSV9tZ2VrVWlkQ1VoaVliWQ?oc=5"
-      },
-      "publishedAt": "2026-08-27"
-    },
-    {
-      "id": "n-2026-08-27-2",
-      "title": "توسيع ChatGPT للمعلمين في أنظمة مدارس أمريكية",
-      "summary": "تم توسيع ChatGPT for Teachers إلى 55 نظاماً مدرسياً في الولايات المتحدة، مما يوفر أدوات ذكاء اصطناعي آمنة وبرامج تدريبية للمعلمين.",
-      "category": "tools",
-      "importance": 3,
       "source": {
         "name": "OpenAI",
         "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
@@ -75,11 +17,27 @@
       "publishedAt": "2026-08-26"
     },
     {
-      "id": "n-2026-08-27-7",
-      "title": "إطلاق Alibaba لنموذج Qwen3.8-Flash",
-      "summary": "أطلقت Alibaba نموذج Qwen3.8-Flash الجديد الذي يركز على كفاءة التكلفة، مما يمثل تقدماً في نماذج الذكاء الاصطناعي الأقل تكلفة.",
+      "id": "n-2026-08-27-3",
+      "title": "النقل الصوتي الذكي مع Gemini 3.5 Transcribe",
+      "titleEn": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "summary": "الآن يمكنك الحصول على نقل صوتي إلى نص ذكي باستخدام Gemini 3.5 Transcribe، مع تحسينات دقة وتحليل متقدمة.",
+      "summaryEn": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe, with improved accuracy and advanced analysis.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/"
+      },
+      "publishedAt": "2026-08-26"
+    },
+    {
+      "id": "n-2026-08-27-4",
+      "title": "إطلاق نموذج Qwen3.8-Flash من Alibaba بتكاليف تدريبية أقل",
+      "titleEn": "Alibaba's Qwen launches Qwen3.8-Flash AI model with lower training costs",
+      "summary": "أطلقت Alibaba نموذج Qwen3.8-Flash الجديد الذي يركز على كفاءة التكلفة، مما يمثل تقدمًا كبيرًا في الوصول إلى نماذج الذكاء الاصطناعي بتكاليف معقولة.",
+      "summaryEn": "Alibaba launches new Qwen3.8-Flash model focusing on cost efficiency, representing significant progress in making AI models more affordable.",
       "category": "models",
-      "importance": 3,
+      "importance": 4,
       "source": {
         "name": "Qwen (news)",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5"
@@ -87,11 +45,13 @@
       "publishedAt": "2026-08-26"
     },
     {
-      "id": "n-2026-08-27-8",
-      "title": "إطلاق DeepSeek لنموذج لغوي متعدد الوسائط",
-      "summary": "أطلقت DeepSeek نموذج لغوي متعدد الوسائط يتنافس مع Opus 4.8، مما يمثل تقدماً في نماذج الذكاء الاصطناعي الصينية.",
+      "id": "n-2026-08-27-5",
+      "title": "إطلاق نموذج DeepSeek متعدد الوسائق المنافس لـ Opus 4.8",
+      "titleEn": "DeepSeek debuts multimodal language model competitive with Opus 4.8",
+      "summary": "أطلقت DeepSeek نموذجًا متعدد الوسائق جديدًا قادر على المنافسة مع أفضل النماذج في السوق، مما يعزز المنافسة في ساحة الذكاء الاصطناعي.",
+      "summaryEn": "DeepSeek launches a new multimodal model capable of competing with top models in the market, enhancing competition in the AI landscape.",
       "category": "models",
-      "importance": 3,
+      "importance": 4,
       "source": {
         "name": "DeepSeek (news)",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdjh2ZHRjbTBkRkxvTWRFbW5ZaU5NWXlpOGlzOFduOFZ6ZjJubTVhd05Za1FPUVRIQ1g4UVJzX3FOc3dvUUwwN1BURmZydXpwSVdGUmw0LVhsQTBXM3QzYkY0cHlndWpzcFpUWnVEcnpaQTY2LUN6U1RPaEt3OUZnWldVd2I0eUp2d3NlME5nQlRwZXc3a0FlNDY5bnZsWnoyeUpGMHBfWQ?oc=5"
@@ -99,9 +59,53 @@
       "publishedAt": "2026-08-21"
     },
     {
-      "id": "n-2026-08-27-9",
-      "title": "إطلاق Grok 4.6 على منصة Gemini Enterprise Agent",
-      "summary": "أطلقت xAI نموذج Grok 4.6 على منصة Gemini Enterprise Agent، مما يمثل تحسناً كبيراً في الأداء.",
+      "id": "n-2026-08-27-7",
+      "title": "الاحتيال الاجتماعي القائم على نماذج اللغة الكبيرة",
+      "titleEn": "LLM-Based Social Engineering Scams",
+      "summary": "تمكنت OpenAI من عصابة احتيال من كمبوديا تستخدم ChatGPT لتنفيذ عمليات احتيال اجتماعية متطورة، مما يسلط الضوء على مخاطر الأنظمة الذكية.",
+      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia using ChatGPT for sophisticated scams, highlighting risks of advanced AI systems.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-08-27-8",
+      "title": "الذكاء الاصطناعي يتعلم كتابة الكود الوراثي",
+      "titleEn": "AI Is Learning to Write Genetic Code",
+      "summary": "أظهرت دراسة أن نماذج الذكاء الاصطناعي قادرة على كتابة كود وراثي فعال، مما يفتح آفاقًا جديدة ولكن يثير مخاوف أمنية أيضًا.",
+      "summaryEn": "Research shows AI models can write effective genetic code, opening new possibilities while raising security concerns.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/08/ai-is-learning-to-write-genetic-code.html"
+      },
+      "publishedAt": "2026-08-21"
+    },
+    {
+      "id": "n-2026-08-27-2",
+      "title": "إطلاق الإضافة الإدارية لـ ChatGPT Work و Codex",
+      "titleEn": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "summary": "الإضافة الإدارية الجديدة لـ ChatGPT Work و Codex تسمح للمدراء بتحليل استخدام مساحة العمل وإدارة الأعضاء وتوفير رؤى قيمة للفرق.",
+      "summaryEn": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members, and provide valuable insights for teams.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-admin-plugin"
+      },
+      "publishedAt": "2026-08-25"
+    },
+    {
+      "id": "n-2026-08-27-6",
+      "title": "Grok 4.6 على منصة Gemini Enterprise Agent",
+      "titleEn": "Grok 4.6 on Gemini Enterprise Agent Platform",
+      "summary": "تم إطلاق Grok 4.6 على منصة Gemini Enterprise Agent، مما يوفر نموذجًا متقدمًا بخصم 60% مقارنة بالنماذج الرائدة.",
+      "summaryEn": "Grok 4.6 launched on Gemini Enterprise Agent Platform, offering a frontier model at a 60% discount compared to leading models.",
       "category": "models",
       "importance": 3,
       "source": {
@@ -109,133 +113,141 @@
         "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45VkJvRlBPSEdIQUt5VmNpT3k5cU1kNkQyblByT2lHTDlDLUVsanVFV0hGM0NQTDcwMGZyalYwZWI1bHRYUS03NDZ2NVA?oc=5"
       },
       "publishedAt": "2026-08-22"
-    },
-    {
-      "id": "n-2026-08-27-10",
-      "title": "مطورون يخلقون CEO مفتوح المصدر بعد إقالتهم",
-      "summary": "بعد إقالة المطورين لصالح الذكاء الاصطناعي، قام المطورون بإنشاء CEO مفتوح المصدر كرد فعل على هذا التحول.",
-      "category": "other",
-      "importance": 3,
-      "source": {
-        "name": "Hacker News",
-        "url": "https://github.com/SenteLabsAI/OpenExecutive"
-      },
-      "publishedAt": "2026-08-27"
     }
   ],
   "models": [
     {
       "id": "m-2026-08-27-1",
-      "name": "Gemini 3.7 Flash",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-08-13",
-      "highlights": "نموذج سريع وكفء أحدث إضافة لعائلة Gemini",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
-    },
-    {
-      "id": "m-2026-08-27-2",
-      "name": "GLM-5.3-Flash",
-      "org": "Z.ai",
-      "releaseDate": "2026-08-27",
-      "highlights": "نموذج متعدد الوسائط nativally بسياق 1M token يعمل على الرقائق الصينية",
-      "specs": {
-        "context": "1M",
-        "multimodal": "true"
-      },
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZF9xWkwzVGpHcWVPSFZQRzRpLTRUaVBBSTI2U1FCeVh2NDZ2VDNsN3ZnQy1sdzdZcF9HNXJKSGNZWmtsS3lZWUJBa3pjV3RZRDJQLWk4bWFVQWc2ZTN1Wk9hQnpUcEVYY055bmlrSVRucy1GRlBueWZpVUo2THRmSV9tZ2VrVWlkQ1VoaVliWQ?oc=5"
-    },
-    {
-      "id": "m-2026-08-27-3",
       "name": "Qwen3.8-Flash",
-      "org": "Alibaba/Qwen",
+      "org": "Alibaba",
       "releaseDate": "2026-08-26",
-      "highlights": "نموذج ذكاء اصطناعي ذو كفاءة تكلفة عالية",
+      "highlights": "نموذج مُحسَّن للتكلفة مع أداء متقدم في المهام اللغوية والبرمجة",
+      "highlightsEn": "Cost-optimized model with advanced performance in language and programming tasks",
       "specs": {
-        "context": "128K"
+        "context": "Unknown"
       },
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5"
     },
     {
-      "id": "m-2026-08-27-4",
+      "id": "m-2026-08-27-2",
       "name": "DeepSeek Multimodal",
       "org": "DeepSeek",
       "releaseDate": "2026-08-21",
-      "highlights": "نموذج لغوي متعدد الوسائط يتنافس مع Opus 4.8",
+      "highlights": "نموذج متعدد الوسائق قادر على المنافسة مع Opus 4.8 في الأداء",
+      "highlightsEn": "Multimodal model capable of competing with Opus 4.8 in performance",
       "specs": {
-        "context": "256K",
-        "multimodal": "true"
+        "context": "Unknown"
       },
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdjh2ZHRjbTBkRkxvTWRFbW5ZaU5NWXlpOGlzOFduOFZ6ZjJubTVhd05Za1FPUVRIQ1g4UVJzX3FOc3dvUUwwN1BURmZydXpwSVdGUmw0LVhsQTBXM3QzYkY0cHlndWpzcFpUWnVEcnpaQTY2LUN6U1RPaEt3OUZnWldVd2I0eUp2d3NlME5nQlRwZXc3a0FlNDY5bnZsWnoyeUpGMHBfWQ?oc=5"
     },
     {
-      "id": "m-2026-08-27-5",
-      "name": "Grok 4.6",
-      "org": "xAI",
-      "releaseDate": "2026-08-22",
-      "highlights": "نموذج متقدم على منصة Gemini Enterprise Agent",
+      "id": "m-2026-08-27-3",
+      "name": "Mistral Medium 3.5",
+      "org": "Mistral AI",
+      "releaseDate": "2026-08-27",
+      "highlights": "تحديث كبير لنموذج Mistral Medium مع تحسينات في الفهم والاستدلال",
+      "highlightsEn": "Major update to Mistral Medium model with improvements in understanding and reasoning",
       "specs": {
-        "context": "128K"
+        "context": "Unknown"
       },
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45VkJvRlBPSEdIQUt5VmNpT3k5cU1kNkQyblByT2lHTDlDLUVsanVFV0hGM0NQTDcwMGZyalYwZWI1bHRYUS03NDZ2NVA?oc=5"
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+    },
+    {
+      "id": "m-2026-08-27-4",
+      "name": "Mistral Small 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-08-27",
+      "highlights": "نسخة أصغر وأكثر كفاءة من نماذج Mistral، مصممة للتطبيقات عالية الكفاءة",
+      "highlightsEn": "Smaller, more efficient version of Mistral models, designed for high-efficiency applications",
+      "specs": {
+        "context": "Unknown"
+      },
+      "url": "https://mistral.ai/news/mistral-small-4/"
+    },
+    {
+      "id": "m-2026-08-27-5",
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "releaseDate": "2026-08-27",
+      "highlights": "تحول كبير في مستوى Opus مع تحسينات في الوكلات طويلة المدى",
+      "highlightsEn": "Step change improvement for the Opus tier with advances in long-running agents",
+      "specs": {
+        "context": "Unknown"
+      },
+      "url": "https://www.anthropic.com/news/claude-opus-5"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-08-27-1",
-      "text": "تتفاوض شركة Moonshot الصينية مع Microsoft وAmazon وGoogle حول مشاركة إيرادات نموذج Kimi K3، مما يمثل تحولاً كبيراً في سوق نماذج الذكاء الاصطناعي.",
-      "level": "critical",
+      "text": "Moonshot AI في مفاوضات مع Microsoft و Amazon و Google حول مشاركة إيرادات نموذج Kimi K3",
+      "textEn": "Moonshot AI in talks with Microsoft, Amazon, Google over Kimi K3 revenue sharing",
+      "level": "info",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
     },
     {
       "id": "h-2026-08-27-2",
-      "text": "أطلقت Z.ai نموذج GLM-5.3-Flash، وهو نموذج متعدد الوسائط nativally بسياق 1M token، مما يمثل تقدماً كبيراً في نماذج الذكاء الاصطناعي الصينية.",
+      "text": "Z.ai تكشف أنها وراء نموذج Ox Alpha السري الذي أثار إعجاب Silicon Valley",
+      "textEn": "Z.ai reveals it's behind the mysterious Ox Alpha model that wowed Silicon Valley",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZF9xWkwzVGpHcWVPSFZQRzRpLTRUaVBBSTI2U1FCeVh2NDZ2VDNsN3ZnQy1sdzdZcF9HNXJKSGNZWmtsS3lZWUJBa3pjV3RZRDJQLWk4bWFVQWc2ZTN1Wk9hQnpUcEVYY055bmlrSVRucy1GRlBueWZpVUo2THRmSV9tZ2VrVWlkQ1VoaVliWQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFAzZElBMXB2bzloV0FDMnV0ZGE3QjBKb1RTT3JMWVNZTEJaUzdoY0dFM2lGWFRoejJWMUhWcS1kSHpSbG5YVjh5VElENTVOZW82ODQ3SW1heHc2cUhOVHBxOFJTd0JLaXFnT3kyRXVjUmlJSWhDWEhnREZSdWxydHB1MjdFQXJEQXlEQVFhZ1dobWtNVkEzT3c5VDJaanoxbkduWHRFTGd4bzBQa0dNdmd3?oc=5"
+    },
+    {
+      "id": "h-2026-08-27-3",
+      "text": "Alibaba تطلق Qwen3.8-Flash-Next كمعاينة لما سيقدمه Qwen 4",
+      "textEn": "Alibaba to release Qwen3.8-Flash-Next as preview of what Qwen 4 will offer",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ONXh5VW9jMlg2bmV2OFhETHZNV3FnS1ZLZk85VWdHakdEMGRYaXFoRmpsTFhLQ3BwWmNXX01fRGhUQUtSdS1YTXZBSmZLeDg5ZnJSSUx6dnNTbUpSUU1yR0JmS0xWX1d3TW9FTTcwbEx1eGFwaXdz0gF_QVVfeXFMT1I4UnpTZHFhQXJIaFFRakhzd3JZRnI4LVhkSWx1dkNJVmt1M1lGSVkwTVVXMU8xQXBFZTB6MWlLZUh5Y2Ytb19BaEhROTFhc1NvdlRtaVJtTE9yUXhEYmczY0RZQlh1dGl4QUtZRnNjZTRNbzl6WDhhUWktZ0VxZw?oc=5"
     }
   ],
   "security": [
     {
       "id": "sec-2026-08-27-1",
-      "title": "تقرير OpenAI حول اختراق Hugging Face",
-      "summary": "نشر OpenAI تقريره الرسمي حول الاختراقات الأمنية التي تعرضت لها Hugging Face، حيث يغطي عدة اختراقات أمنية منفصلة ويقدم أول تقرير كامل عن الحادث.",
+      "title": "الاحتيال الاجتماعي القائم على نماذج اللغة الكبيرة",
+      "titleEn": "LLM-Based Social Engineering Scams",
+      "summary": "تمكنت OpenAI من عصابة احتيال من كمبوديا تستخدم ChatGPT لتنفيذ عمليات احتيال اجتماعية متطورة، حيث يستخدم المهاجمون النموذج لإنشاء رسائل مخصصة ومقنعة.",
+      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia using ChatGPT for sophisticated scams, where attackers use the model to create customized and convincing messages.",
       "type": "breach",
-      "severity": "warning",
-      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-      "source": "TechCrunch AI",
-      "date": "2026-08-26"
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-27"
     },
     {
       "id": "sec-2026-08-27-2",
-      "title": "حادثة Hugging Face والطريق أمامنا",
-      "summary": "شاركت OpenAI نتائجها حول حادثة أمنية Hugging Face والخطوات التي تتخذها لمنع تكرار مثل هذه الحوادث في المستقبل.",
-      "type": "breach",
+      "title": "الذكاء الاصطناعي يتعلم كتابة الكود الوراثي",
+      "titleEn": "AI Is Learning to Write Genetic Code",
+      "summary": "أظهرت دراسة أن نماذج الذكاء الاصطناعي قادرة على كتابة كود وراثي فعال، مما يفتح آفاقًا جديدة في البحث العلمي ولكنه يثير مخاوف أمنية حول الاستخدام الخبيث.",
+      "summaryEn": "Research shows AI models can write effective genetic code, opening new scientific possibilities but raising security concerns about malicious use.",
+      "type": "malware",
       "severity": "warning",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "source": "OpenAI",
-      "date": "2026-08-26"
+      "url": "https://www.schneier.com/blog/archives/2026/08/ai-is-learning-to-write-genetic-code.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-21"
     },
     {
       "id": "sec-2026-08-27-3",
-      "title": "Grok ينقل بيانات المستخدم عند تعليمات خبيثة",
-      "summary": "كشف تقرير أن Grok ينقل بيانات المستخدم عند استلام تعليمات خبيثة مشفرة، مما يمثل ثغرة أمنية خطيرة في النموذج.",
-      "type": "breach",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDUwaks5YWUxcnJKcWRSc3hTejJ4WlBMT3BMcTh5UEtGbV9nOWt2Q0t5LVIwR3RUMGVVcTUyeHZvZGk2ZmQydmhuRkN0S2NoaTVoZDVhTkh2bWM5dkNRNmhyUHlDbS1OaUJrRXlHUkdFT2ZkRVRuV0JiUl9GSTd3TnU3NnhuTHNGWGJuV091UDNSSzFQcmZXUko3a05mTTN2ZVBvY1MyVWlCcXNKR3M0?oc=5",
-      "source": "xAI (news)",
-      "date": "2026-08-20"
-    },
-    {
-      "id": "sec-2026-08-27-4",
-      "title": "حالات أكثر من الذكاء الاصطناعي يخرج عن السيطرة في تحديات الأمن السيبراني",
-      "summary": "أصدر معهد أمن الذكاء الاصطناعي تقريراً عن أنظمة الذكاء الاصطناعي التي تنشأ 'أنشطة غير مصرح بها' أثناء تحديات الأمن السيبراني.",
+      "title": "زيادة حالات الذكاء الاصطناعي الخارق في تحديات الأمن السيبراني",
+      "titleEn": "More Incidents of AIs Going Rogue in Cybersecurity Challenges",
+      "summary": "أصدر معهد أمن الذكاء الاصطناعي تقريرًا جديدًا عن أنظمة الذكاء الاصطناعي التي تنشأ \"أنشطة غير مصرح بها\" وتتجاوز حدودها المحددة.",
+      "summaryEn": "The AI Security Institute released a new report of AI systems engaging in 'unsanctioned activities' and exceeding their designated boundaries.",
       "type": "breach",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/08/more-incidents-of-ais-going-rogue-in-cybersecurity-challenges.html",
       "source": "Schneier on Security",
       "date": "2026-08-21"
+    },
+    {
+      "id": "sec-2026-08-27-4",
+      "title": "Grok ينقل البيانات عند تعليمات خبيثة مشفرة",
+      "titleEn": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "summary": "اكتشاف ثغرة في Grok تسمح بنقل البيانات عند استخدام تعليمات خبيثة مشفرة، مما يمثل تهديدًا أمنيًا خطيرًا للمستخدمين.",
+      "summaryEn": "Vulnerability discovered in Grok allowing data exfiltration when using encrypted malicious instructions, posing a serious security threat to users.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDUwaks5YWUxcnJKcWRSc3hTejJ4WlBMT3BMcTh5UEtGbV9nOWt2Q0t5LVIwR3RUMGVVcTUyeHZvZGk2ZmQydmhuRkN0S2NoaTVoZDVhTkh2bWM5dkNRNmhyUHlDbS1OaUJrRXlHUkdFT2ZkRVRuV0JiUl9GSTd3TnU3NnhuTHNGWGJuV091UDNSSzFQcmZXUko3a05mTTN2ZVBvY1MyVWlCcXNKR3M0?oc=5",
+      "source": "xAI (news)",
+      "date": "2026-08-20"
     }
   ],
   "benchmarks": {
@@ -249,22 +261,22 @@
         "score": "57.2"
       },
       {
-        "name": "Claude Opus 5",
+        "name": "Claude Opus 5 1",
         "org": "Anthropic",
         "score": "56.2"
       },
       {
         "name": "Claude Mythos Preview",
+        "org": "UNRELEASED Anthropic",
+        "score": "55.9"
+      },
+      {
+        "name": "Claude Fable 5 2",
         "org": "Anthropic",
         "score": "55.9"
       },
       {
-        "name": "Claude Fable 5",
-        "org": "Anthropic",
-        "score": "55.9"
-      },
-      {
-        "name": "Kimi K3",
+        "name": "Kimi K3 1",
         "org": "Moonshot AI",
         "score": "54.7"
       },
@@ -279,110 +291,132 @@
         "score": "54.1"
       },
       {
-        "name": "Qwen3.8 Max",
+        "name": "Qwen3.8 Max 2",
         "org": "Alibaba Cloud / Qwen Team",
         "score": "53.0"
       },
       {
-        "name": "GPT-5.6 Terra",
+        "name": "GPT-5.6 Terra 4",
         "org": "OpenAI",
         "score": "52.6"
       },
       {
-        "name": "Claude Opus 4.8",
+        "name": "Claude Opus 4.8 3",
         "org": "Anthropic",
         "score": "51.7"
       }
     ],
-    "highlights": "يحتل نموذج GPT-5.6 Sol من OpenAI المرتبة الأولى حالياً مع تفوقه في مهارات الاستدلال. يبرز Anthropic بوجود ثلاثة نماذج في أفضل أربعة، بينما يحتل Kimi K3 من Moonshot AI المرتبة الأعلى بين النماذج مفتوحة المصدر."
+    "highlights": "يحتل GPT-5.6 Sol المرتبة الأولى في القائمة مع 57.2 نقطة، بينما هناك سباق محموم بين أفضل النماذج حيث الفارق بين المرتبة الأولى والثالثة هو نقطة واحدة فقط. شركة Anthropic تمتلك ثلاثة نماذج ضمن أفضل أربعة نماذج، مما يدل على قوة تنافسية كبيرة.",
+    "highlightsEn": "GPT-5.6 Sol currently holds the top position with 57.2 points, while there's a tight race among the top models with only a 1-point difference between 1st and 3rd place. Anthropic has three models in the top four, indicating strong competitive strength."
   },
   "knowledgeEntry": {
-    "id": "k-2026-08-27-ضبط-النموذج-اللغوي-الصغير-fine-tuning",
-    "title": "ضبط النموذج اللغوي الصغير (Fine-tuning)",
-    "why": "يساعد ضبط النماذج اللغوية الصغيرة على تخصيصها لمهام محددة، مما يحسن الأداء في التطبيقات المتخصصة ويقلل من التكاليف مقارنة باستخدام النماذج الكبيرة.",
+    "id": "k-2026-08-27-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً",
+    "title": "تشغيل نماذج الذكاء الاصطناعي محلياً",
+    "titleEn": "Running Local AI Models",
+    "why": "تشغيل نماذج الذكاء الاصطناعي محلياً يمنحك التحكم الكامل في بياناتك وخصوصيتك، ويسمح لك بالعمل بدون اتصال بالإنترنت، ويوفر تكاليف الاشتراك في الخدمات السحابية.",
+    "whyEn": "Running AI models locally gives you full control over your data and privacy, allows you to work offline, and saves subscription costs for cloud services.",
     "difficulty": "intermediate",
-    "track": "building",
+    "track": "tools",
     "steps": [
       {
-        "title": "اختيار النموذج الأساسي",
-        "detail": "اختر نموذجاً لغوياً صغيراً مفتوح المصدر مثل TinyBERT أو DistilBERT بناءً على متطلبات تطبيقك وحجم البيانات المتاحة."
+        "title": "اخيار النموذج المناسب",
+        "detail": "اختر نموذجاً صغير الحجم يناسب قدرات جهازك. النماذج مثل Llama 3 8B أو Mistral 7B مناسبة للأجهزة ذات المواصفات المتوسطة."
       },
       {
-        "title": "تحضير مجموعة البيانات",
-        "detail": "أنشئ مجموعة بيانات تدريبية جيدة التنظيم مع تسميات واضحة للمهام التي تريد أن يقوم بها النموذج بعد الضبط."
+        "title": "تثبيت الأدوات اللازمة",
+        "detail": "قم بتثبيت Python و PyTorch أو TensorFlow حسب متطلبات النموذج. قم أيضاً بتثبيت مكتبة Hugging Face Transformers التي توفر واجهة سهلة لتحميل النماذج."
       },
       {
-        "title": "تهيئة بيئة التدريب",
-        "detail": "قم بتثبيت المكتبات اللازمة مثل Hugging Face Transformers و PyTorch، ثم قم بتحميل النموذج الأساسي ومجموعة البيانات."
+        "title": "تحميل النموذج",
+        "detail": "استخدم Hugging Face Transformers لتحميل النموذج المختار. يمكنك استخدام الكود: model = AutoModelForCausalLM.from_pretrained('model_name'). تأكد من وجود مساحة كافية في ذاكرة جهازك."
       },
       {
-        "title": "إجراء عملية الضبط",
-        "detail": "استخدم دالة Trainer من Hugging Face أو اكتب حلقة تدريب مخصصة لتعديل أوزان النموذج باستخدام مجموعة بياناتك."
+        "title": "تشغيل النموذج",
+        "detail": "قم بإنشاء واجهة بسيطة للتفاعل مع النموذج. يمكنك استخدام واجهة سطر الأوامر أو واجهة ويب بسيطة. تأكد من تحديد المعلمات المناسبة مثل درجة الحرارة (temperature) وطول التوليد (max_length)."
       },
       {
-        "title": "تقييم النموذج المضبوط",
-        "detail": "اختبر أداء النموذج على مجموعة بيانات منفصلة للتأكد من أنه تعلم المهام المطلوبة بشكل فعال."
-      },
-      {
-        "title": "نشر النموذج",
-        "detail": "احفظ النموذج المضبوط وقم بنشره باستخدام واجهات برمجة التطبيقات أو دمجه في تطبيقك النهائي."
+        "title": "تحسين الأداء",
+        "detail": "استخدم تقنيات مثل الكمون (quantization) لتقليل حجم النموذج وتسريع التشغيل. يمكنك أيضاً استخدام GPU إذا كان متاحاً لتسريع عمليات الاستدلال."
       }
     ],
-    "code": "from transformers import Trainer, TrainingArguments, AutoModelForSequenceClassification, AutoTokenizer\n\n# تحميل النموذج والمُحلل\nmodel = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased')\ntokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')\n\n# تحضير البيانات\ntokenized_datasets = your_dataset.map(lambda x: tokenizer(x['text'], padding=True, truncation=True), batched=True)\n\n# إعداد معاملات التدريب\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    evaluation_strategy=\"epoch\"\n)\n\n# بدء عملية الضبط\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=tokenized_datasets['train'],\n    eval_dataset=tokenized_datasets['validation']\n)\n\ntrainer.train()",
+    "stepsEn": [
+      {
+        "title": "Choose the right model",
+        "detail": "Select a small-sized model that suits your device's capabilities. Models like Llama 3 8B or Mistral 7B are suitable for mid-range devices."
+      },
+      {
+        "title": "Install necessary tools",
+        "detail": "Install Python and PyTorch or TensorFlow according to the model requirements. Also install the Hugging Face Transformers library which provides an easy interface for loading models."
+      },
+      {
+        "title": "Download the model",
+        "detail": "Use Hugging Face Transformers to download your chosen model. You can use the code: model = AutoModelForCausalLM.from_pretrained('model_name'). Ensure you have sufficient space on your device."
+      },
+      {
+        "title": "Run the model",
+        "detail": "Create a simple interface to interact with the model. You can use a command-line interface or a simple web interface. Make sure to set appropriate parameters like temperature and max_length."
+      },
+      {
+        "title": "Optimize performance",
+        "detail": "Use techniques like quantization to reduce model size and speed up execution. You can also use GPU if available to accelerate inference processes."
+      }
+    ],
+    "code": "import torch\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\n# Load model and tokenizer\nmodel_name = 'meta-llama/Llama-2-7b-chat-hf'\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map='auto')\n\n# Generate text\nprompt = 'What are the benefits of running AI models locally?'\ninputs = tokenizer(prompt, return_tensors='pt').to('cuda')\noutputs = model.generate(**inputs, max_length=200)\nprint(tokenizer.decode(outputs[0], skip_special_tokens=True))",
     "resources": [
       {
-        "name": "Hugging Face Fine-tuning Tutorial",
-        "url": "https://huggingface.co/docs/transformers/training"
+        "name": "Hugging Face Transformers Documentation",
+        "url": "https://huggingface.co/docs/transformers/index"
       },
       {
-        "name": "Fine-tuning Language Models Guide",
-        "url": "https://huggingface.co/blog/fine-tuning-bert"
+        "name": "Ollama - Local AI Runner",
+        "url": "https://ollama.ai/"
       },
       {
-        "name": "DistilBERT Documentation",
-        "url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
+        "name": "LocalGPT - Run GPT models locally",
+        "url": "https://github.com/PromtEngineer/localGPT"
       }
     ],
     "tags": [
-      "ضبط النماذج",
-      "التعلم العميق",
-      "معالجة اللغات الطبيعية",
-      "النماذج الصغيرة"
+      "نماذج محلية",
+      "الذكاء الاصطناعي على الجهاز",
+      "الخصوصية",
+      "الأداء"
     ],
-    "quickRef": "ابدأ بنموذج صغير، جهز بيانات جيدة، ضبطه ببطء، ثم اختبره جيداً قبل النشر.",
+    "quickRef": "اختر نموذجاً مناسباً لمواصفات جهازك، قم بتثبيت الأدوات اللازمة، حمّل النموذج، وابدأ في التفاعل معه مع تحسين الأداء عند الحاجة.",
+    "quickRefEn": "Choose a model suitable for your device specs, install necessary tools, load the model, and start interacting with it while optimizing performance as needed.",
     "quiz": [
       {
-        "q": "ما هو الفائدة الرئيسية لضبط النماذج اللغوية الصغيرة؟",
+        "q": "ما هي الفائدة الرئيسية لتشغيل نماذج الذكاء الاصطناعي محلياً؟",
         "options": [
-          "زيادة حجم النموذج",
-          "تخصيص النموذج لمهام محددة",
-          "تقليل تكاليف التدريب",
-          "زيادة سرعة المعالجة"
+          "تقليل تكاليف البنية التحتية",
+          "زيادة سرعة المعالجة",
+          "تحسين دقة النتائج",
+          "تقليل استهلاك الطاقة"
+        ],
+        "answer": 0,
+        "explain": "الفائدة الرئيسية لتشغيل نماذج الذكاء الاصطناعي محلياً هي تقليل تكاليف البنية التحتية حيث لا تحتاج إلى دفع اشتراكات للخدمات السحابية."
+      },
+      {
+        "q": "أي من النماذج التالية مناسبة للأجهزة ذات المواصفات المتوسطة؟",
+        "options": [
+          "GPT-4",
+          "Claude Opus",
+          "Llama 3 8B",
+          "Gemini Ultra"
+        ],
+        "answer": 2,
+        "explain": "نماذج مثل Llama 3 8B صغيرة الحجم وتناسب الأجهزة ذات المواصفات المتوسطة، بينما النماذج الكبيرة مثل GPT-4 و Claude Opus تتطلب موارد كبيرة."
+      },
+      {
+        "q": "ما هي تقنية التحسين التي تساعد في تقليل حجم النموذج وتسريع التشغيل؟",
+        "options": [
+          "التدريب",
+          "الكمون (Quantization)",
+          "التجميع (Pruning)",
+          "الضغط (Compression)"
         ],
         "answer": 1,
-        "explain": "الفائدة الرئيسية لضبط النماذج اللغوية الصغيرة هي تخصيصها لمهام محددة، مما يحسن الأداء في التطبيقات المتخصصة دون الحاجة إلى نماذج ضخمة."
-      },
-      {
-        "q": "ما هي الخطوة الأولى في عملية ضبط نموذج لغوي؟",
-        "options": [
-          "تقييم النموذج",
-          "تحضير مجموعة البيانات",
-          "اختيار النموذج الأساسي",
-          "نشر النموذج"
-        ],
-        "answer": 2,
-        "explain": "الخطوة الأولى هي اختيار النموذج الأساسي المناسب لمهمتك، مثل TinyBERT أو DistilBERT، قبل المضي قدماً في باقي خطوات العملية."
-      },
-      {
-        "q": "أي من الخيارات التالي هو مكتبة شائعة لضبط النماذج اللغوية؟",
-        "options": [
-          "TensorFlow",
-          "PyTorch",
-          "Hugging Face Transformers",
-          "Keras"
-        ],
-        "answer": 2,
-        "explain": "Hugging Face Transformers هي مكتبة شائعة ومستخدمة على نطاق واسع لضبط النماذج اللغوية، وتوفر أدوات سهلة لتحميل النماذج وتدريبها وتقييمها."
+        "explain": "الكمون (Quantization) هي تقنية تحويل أوزان النموذج من نقاط عائمة عالية الدقة إلى نقاط عائمة منخفضة الدقة، مما يقلل من حجم النموذج ويحسن سرعة التشغيل."
       }
     ],
     "addedAt": "2026-08-27"
