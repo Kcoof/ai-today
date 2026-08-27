@@ -1,6 +1,97 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-27-ضبط-النموذج-اللغوي-الصغير-fine-tuning",
+      "title": "ضبط النموذج اللغوي الصغير (Fine-tuning)",
+      "why": "يساعد ضبط النماذج اللغوية الصغيرة على تخصيصها لمهام محددة، مما يحسن الأداء في التطبيقات المتخصصة ويقلل من التكاليف مقارنة باستخدام النماذج الكبيرة.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "اختيار النموذج الأساسي",
+          "detail": "اختر نموذجاً لغوياً صغيراً مفتوح المصدر مثل TinyBERT أو DistilBERT بناءً على متطلبات تطبيقك وحجم البيانات المتاحة."
+        },
+        {
+          "title": "تحضير مجموعة البيانات",
+          "detail": "أنشئ مجموعة بيانات تدريبية جيدة التنظيم مع تسميات واضحة للمهام التي تريد أن يقوم بها النموذج بعد الضبط."
+        },
+        {
+          "title": "تهيئة بيئة التدريب",
+          "detail": "قم بتثبيت المكتبات اللازمة مثل Hugging Face Transformers و PyTorch، ثم قم بتحميل النموذج الأساسي ومجموعة البيانات."
+        },
+        {
+          "title": "إجراء عملية الضبط",
+          "detail": "استخدم دالة Trainer من Hugging Face أو اكتب حلقة تدريب مخصصة لتعديل أوزان النموذج باستخدام مجموعة بياناتك."
+        },
+        {
+          "title": "تقييم النموذج المضبوط",
+          "detail": "اختبر أداء النموذج على مجموعة بيانات منفصلة للتأكد من أنه تعلم المهام المطلوبة بشكل فعال."
+        },
+        {
+          "title": "نشر النموذج",
+          "detail": "احفظ النموذج المضبوط وقم بنشره باستخدام واجهات برمجة التطبيقات أو دمجه في تطبيقك النهائي."
+        }
+      ],
+      "code": "from transformers import Trainer, TrainingArguments, AutoModelForSequenceClassification, AutoTokenizer\n\n# تحميل النموذج والمُحلل\nmodel = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased')\ntokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')\n\n# تحضير البيانات\ntokenized_datasets = your_dataset.map(lambda x: tokenizer(x['text'], padding=True, truncation=True), batched=True)\n\n# إعداد معاملات التدريب\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    evaluation_strategy=\"epoch\"\n)\n\n# بدء عملية الضبط\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=tokenized_datasets['train'],\n    eval_dataset=tokenized_datasets['validation']\n)\n\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Tutorial",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "Fine-tuning Language Models Guide",
+          "url": "https://huggingface.co/blog/fine-tuning-bert"
+        },
+        {
+          "name": "DistilBERT Documentation",
+          "url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "التعلم العميق",
+        "معالجة اللغات الطبيعية",
+        "النماذج الصغيرة"
+      ],
+      "quickRef": "ابدأ بنموذج صغير، جهز بيانات جيدة، ضبطه ببطء، ثم اختبره جيداً قبل النشر.",
+      "quiz": [
+        {
+          "q": "ما هو الفائدة الرئيسية لضبط النماذج اللغوية الصغيرة؟",
+          "options": [
+            "زيادة حجم النموذج",
+            "تخصيص النموذج لمهام محددة",
+            "تقليل تكاليف التدريب",
+            "زيادة سرعة المعالجة"
+          ],
+          "answer": 1,
+          "explain": "الفائدة الرئيسية لضبط النماذج اللغوية الصغيرة هي تخصيصها لمهام محددة، مما يحسن الأداء في التطبيقات المتخصصة دون الحاجة إلى نماذج ضخمة."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في عملية ضبط نموذج لغوي؟",
+          "options": [
+            "تقييم النموذج",
+            "تحضير مجموعة البيانات",
+            "اختيار النموذج الأساسي",
+            "نشر النموذج"
+          ],
+          "answer": 2,
+          "explain": "الخطوة الأولى هي اختيار النموذج الأساسي المناسب لمهمتك، مثل TinyBERT أو DistilBERT، قبل المضي قدماً في باقي خطوات العملية."
+        },
+        {
+          "q": "أي من الخيارات التالي هو مكتبة شائعة لضبط النماذج اللغوية؟",
+          "options": [
+            "TensorFlow",
+            "PyTorch",
+            "Hugging Face Transformers",
+            "Keras"
+          ],
+          "answer": 2,
+          "explain": "Hugging Face Transformers هي مكتبة شائعة ومستخدمة على نطاق واسع لضبط النماذج اللغوية، وتوفر أدوات سهلة لتحميل النماذج وتدريبها وتقييمها."
+        }
+      ],
+      "addedAt": "2026-08-27"
+    },
+    {
       "id": "k-2026-08-26-دمج-النصوص-والصور-في-نماذج-الذكاء-الاصطناعي-متعددة",
       "title": "دمج النصوص والصور في نماذج الذكاء الاصطناعي متعددة الوسائط",
       "why": "تسمح لك نماذج الذكاء الاصطناعي متعددة الوسائط بفهم وتوليد محتوى من أنواع مختلفة مثل النصوص والصور، مما يفتح آفاقاً جديدة للتطبيقات الإبداعية وتحليل البيانات المعقدة.",
