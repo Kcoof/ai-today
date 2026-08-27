@@ -2,9 +2,9 @@ name: Daily update
 
 on:
   schedule:
-    # 06:00 UTC daily = 09:00 Mecca time — lands with the morning coffee.
+    # 05:23 UTC daily = 08:23 Mecca time — off the top of the hour (GitHub delays/drops busy cron slots).
     # GitHub may delay scheduled runs by a few minutes at busy times; that's fine.
-    - cron: "0 6 * * *"
+    - cron: "23 5 * * *"
   workflow_dispatch: {} # allows a manual "Run workflow" button in the Actions tab
 
 # Avoid two overlapping runs clobbering each other's commits
