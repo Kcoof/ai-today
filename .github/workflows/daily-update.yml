@@ -4,7 +4,8 @@ on:
   schedule:
     # 05:23 UTC daily = 08:23 Mecca time — off the top of the hour (GitHub delays/drops busy cron slots).
     # GitHub may delay scheduled runs by a few minutes at busy times; that's fine.
-    - cron: "23 5 * * *"
+    - cron: "23 5 * * *"   # 08:23 Mecca — primary morning edition
+    - cron: "17 11 * * *"   # 14:17 Mecca — backup: GitHub drops busy slots; if the morning run fired, this run just rewrites the same date harmlessly
   workflow_dispatch: {} # allows a manual "Run workflow" button in the Actions tab
 
 # Avoid two overlapping runs clobbering each other's commits
