@@ -1,6 +1,110 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-28-أساسيات-قواعد-البيانات-المتجهية",
+      "title": "أساسيات قواعد البيانات المتجهية",
+      "titleEn": "Vector Database Fundamentals",
+      "why": "تعلم كيفية عمل قواعد البيانات المتجهية التي تمكّن نماذج الذكاء الاصطناعي من فهم العلاقات بين المفاهيم ومعالجة البيانات غير المهيكلة بكفاءة.",
+      "whyEn": "Learn how vector databases enable AI models to understand relationships between concepts and efficiently process unstructured data.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "فهم المتجهات",
+          "detail": "المتجهات هي تمثيلات رقمية للمفاهيم التي تحدد مكانها في الفضاء متعدد الأبعاد. كل متجه يميز مفهومًا عن الآخر بناءً على خصائصه."
+        },
+        {
+          "title": "اختيار نموذج التضمين",
+          "detail": "حدد نموذج التضمين (embedding model) المناسب لمجال عملك مثل Word2Vec, GloVe، أو نماذج التضمين الحديثة مثل BERT أو Sentence-BERT."
+        },
+        {
+          "title": "بناء قاعدة البيانات",
+          "detail": "استخدم أدوات مثل Pinecone, Weaviate، أو ChromaDB لإنشاء قاعدة بيانات متجهية وتخزين المتجهات مع بياناتها المرتبطة."
+        },
+        {
+          "title": "الاستعلام والاسترجاع",
+          "detail": "تعلم كيفية تحويل استعلامات النص إلى متجهات واستخدام خوارزميات التشابه مثل التشابه الكسوري (cosine similarity) للعثور على البيانات الأكثر صلة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Vectors",
+          "detail": "Vectors are numerical representations of concepts that define their position in multi-dimensional space. Each vector distinguishes one concept from another based on its properties."
+        },
+        {
+          "title": "Choosing an Embedding Model",
+          "detail": "Select an appropriate embedding model for your domain such as Word2Vec, GloVe, or modern embedding models like BERT or Sentence-BERT."
+        },
+        {
+          "title": "Building the Database",
+          "detail": "Use tools like Pinecone, Weaviate, or ChromaDB to create a vector database and store vectors along with their associated data."
+        },
+        {
+          "title": "Querying and Retrieval",
+          "detail": "Learn how to convert text queries into vectors and use similarity algorithms like cosine similarity to find the most relevant data."
+        }
+      ],
+      "code": "import chromadb\n\n# Initialize Chroma client\nclient = chromadb.Client()\n\n# Create a collection\ncollection = client.create_collection(\"my_collection\")\n\n# Add some documents with their embeddings\ncollection.add(\n    documents=[\"The cat sat on the mat\", \"A feline was resting on the rug\"],\n    embeddings=[[0.1, 0.2, 0.3], [0.4, 0.5, 0.6]],\n    metadatas=[{\"source\": \"doc1\"}, {\"source\": \"doc2\"}],\n    ids=[\"doc1\", \"doc2\"]\n)\n\n# Query the collection\nresults = collection.query(\n    query_texts=[\"A cat sitting\"],\n    n_results=1\n)\nprint(results)",
+      "resources": [
+        {
+          "name": "Pinecone Documentation",
+          "url": "https://docs.pinecone.io/"
+        },
+        {
+          "name": "Weaviate Documentation",
+          "url": "https://weaviate.io/developers/weaviate"
+        },
+        {
+          "name": "ChromaDB Documentation",
+          "url": "https://docs.trychroma.com/"
+        }
+      ],
+      "tags": [
+        "قواعد بيانات",
+        "متجهات",
+        "تضمين",
+        "استرجاع المعلومات"
+      ],
+      "quickRef": "قواعد البيانات المتجهية تخزن البيانات كمتجهات رقمية للبحث عن التشابه بدلاً من المطابقة الدقيقة.",
+      "quickRefEn": "Vector databases store data as numerical vectors for similarity search rather than exact matching.",
+      "quiz": [
+        {
+          "q": "ما هي المتجهات في سياق قواعد البيانات المتجهية؟",
+          "options": [
+            "تمثيلات نصية",
+            "تمثيلات رقمية للمفاهيم",
+            "أنواع قواعد البيانات",
+            "خوارزميات البحث"
+          ],
+          "answer": 1,
+          "explain": "المتجهات في سياق قواعد البيانات المتجهية هي تمثيلات رقمية للمفاهيم التي تحدد مكانها في الفضاء متعدد الأبعاد."
+        },
+        {
+          "q": "أي من الأدوات التالية ليس أداة لبناء قواعد البيانات المتجهية؟",
+          "options": [
+            "Pinecone",
+            "Weaviate",
+            "ChromaDB",
+            "MySQL"
+          ],
+          "answer": 3,
+          "explain": "MySQL هي قاعدة بيانات علائقية تقليدية وليست قاعدة بيانات متجهية مثل Pinecone و Weaviate و ChromaDB."
+        },
+        {
+          "q": "ما هي الخوارزمية الأكثر شيوعًا لمقارنة المتجهات في قواعد البيانات المتجهية؟",
+          "options": [
+            "المسافة الإقليدية",
+            "التشابه الكسوري",
+            "مقارنة السلاسل",
+            "مقارنة الأحجام"
+          ],
+          "answer": 1,
+          "explain": "التشابه الكسوري (cosine similarity) هو الخوارزمية الأكثر شيوعًا لمقارنة المتجهات في قواعد البيانات المتجهية لأنها تقيس الزاوية بين المتجهين بدلاً من المسافة المطلقة."
+        }
+      ],
+      "addedAt": "2026-08-28"
+    },
+    {
       "id": "k-2026-08-27-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً",
       "title": "تشغيل نماذج الذكاء الاصطناعي محلياً",
       "titleEn": "Running Local AI Models",
