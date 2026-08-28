@@ -1,27 +1,41 @@
 {
   "date": "2026-08-28",
-  "generatedAt": "2026-08-28T17:20:38.203Z",
+  "generatedAt": "2026-08-28T17:39:29.295Z",
   "news": [
     {
       "id": "n-2026-08-28-5",
-      "title": "إطلاق Claude Opus 5",
-      "titleEn": "Introducing Claude Opus 5",
-      "summary": "أطلقت Anthropic النسخة الأحدث من Claude Opus 5 التي تقدم تحسينات كبيرة في الأداء وقدرات الوكلاء طويلة الأمد.",
-      "summaryEn": "Anthropic launches Claude Opus 5, featuring significant performance improvements and enhanced long-running agent capabilities.",
-      "category": "models",
+      "title": "مفاوضات Moonshot AI حول مشاركة الإيرادات مع كبار مقدمي الخدمات",
+      "titleEn": "Moonshot AI seeks revenue-sharing deals with Microsoft, Amazon, Google",
+      "summary": "تتحدث تقارير متعددة عن مفاوضات Moonshot AI مع مايكروسوفت وأمازون وجوجل حول مشاركة الإيرادات لنموذج Kimi K3. هذه الخطوة قد تغير ديناميكية سوق نماذج الذكاء الاصطناعي.",
+      "summaryEn": "Multiple reports indicate Moonshot AI is in talks with Microsoft, Amazon, and Google about revenue sharing for its Kimi K3 model. This move could reshape the AI model market dynamics.",
+      "category": "companies",
       "importance": 5,
       "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/claude-opus-5"
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
       },
-      "publishedAt": "2026-08-28"
+      "publishedAt": "2026-08-26"
     },
     {
       "id": "n-2026-08-28-1",
-      "title": "حادثة Hugging Face والطريق أمامنا",
+      "title": "RedEvoAgent: وكيل اختبار الأحمر التلقائي مع تطوير المهارات القائم على الخبرة",
+      "titleEn": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+      "summary": "أصبحت وكلات LLM increasingly موزعة في أنظمة تنفيذ منتجية، حيث تبرز الحاجة إلى آليات اختبار تلقائية فعالة. يقدم RedEvoAgent نهجًا مبتكرًا لتطوير مهارات الاختبار ذات القائمة على الخبرة.",
+      "summaryEn": "LLM-based agents are increasingly deployed in product-level execution harnesses, where the need for effective automated testing mechanisms is crucial. RedEvoAgent introduces an innovative approach to experience-driven skill evolution for red-teaming.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2608.27439v1"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-08-28-2",
+      "title": "حادثة Hugging Face والخطوات المستقبلية",
       "titleEn": "The Hugging Face incident and the road ahead",
-      "summary": "كشفت OpenAI عن نتائج حادثة أمنية في Hugging Face والخطوات التي تتخذها لمعالجة المشكلة وتعزيز أمان منصات الذكاء الاصطناعي.",
-      "summaryEn": "OpenAI shares findings from the Hugging Face security incident and the steps we're taking to address the issue and enhance AI platform security.",
+      "summary": "تشارك OpenAI نتائج التحقيق في حادثة Hugging Face الأمنية والخطوات التي تتخذها لضمان أمان منصاتها. الحادث أثر على العديد من المستخدمين والشركاء.",
+      "summaryEn": "OpenAI shares findings from the Hugging Face security incident and the steps we're taking to ensure platform safety. The incident affected numerous users and partners in the AI ecosystem.",
       "category": "other",
       "importance": 4,
       "source": {
@@ -31,11 +45,11 @@
       "publishedAt": "2026-08-26"
     },
     {
-      "id": "n-2026-08-28-2",
-      "title": "Gemini Omni 1.1 Flash: مزيد من التحكم في البناء",
+      "id": "n-2026-08-28-3",
+      "title": "Gemini Omni 1.1 Flash: المزيد من التحكم في البناء",
       "titleEn": "Gemini Omni 1.1 Flash lets you build with more control",
-      "summary": "أطلقت Google DeepMind نموذج Gemini Omni 1.1 Flash الذي يوفر للمطورين مزيدًا من التحكم في بناء التطبيقات والنماذج.",
-      "summaryEn": "Google DeepMind launches Gemini Omni 1.1 Flash, giving developers more control in building applications and models.",
+      "summary": "تقدم Google DeepMan نموذج Gemini Omni 1.1 Flash مع ميزات محسنة تتيح للمطورين تحكمًا أكبر في مشاريعهم. النموذج يوفر أداءً متقدمًا في مهام البناء والبرمجة.",
+      "summaryEn": "Google DeepMind introduces Gemini Omni 1.1 Flash with enhanced features giving developers more control over their projects. The model offers advanced performance in building and programming tasks.",
       "category": "tools",
       "importance": 4,
       "source": {
@@ -45,11 +59,11 @@
       "publishedAt": "2026-08-27"
     },
     {
-      "id": "n-2026-08-28-3",
+      "id": "n-2026-08-28-4",
       "title": "إطلاق Gemini 3.7 Flash",
       "titleEn": "Introducing Gemini 3.7 Flash",
-      "summary": "كشفت Google DeepMind عن نموذج Gemini 3.7 Flash الجديد الذي يوازن بين الأداء والكفاءة.",
-      "summaryEn": "Google DeepMind introduces Gemini 3.7 Flash, a new model that balances performance and efficiency.",
+      "summary": "أطلقت Google DeepMind نموذج Gemini 3.7 Flash، وهو أحدث إضافة لعائلة Gemini. النموذج يوفر تحسينات في السرعة والدقة مع الحفاظ على قدرات التوليد المتقدمة.",
+      "summaryEn": "Google DeepMind has released Gemini 3.7 Flash, the latest addition to the Gemini family. The model offers improvements in speed and accuracy while maintaining advanced generation capabilities.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -60,38 +74,10 @@
     },
     {
       "id": "n-2026-08-28-6",
-      "title": "إطلاق Claude Sonnet 5",
-      "titleEn": "Introducing Claude Sonnet 5",
-      "summary": "كشفت Anthropic عن Claude Sonnet 5 الذي يقدم أداءً متقدمًا في البرمجة والوكلاء والعمل المهني.",
-      "summaryEn": "Anthropic introduces Claude Sonnet 5, delivering advanced performance in coding, agents, and professional work.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/claude-sonnet-5"
-      },
-      "publishedAt": "2026-08-28"
-    },
-    {
-      "id": "n-2026-08-28-7",
-      "title": "إطلاق Muse Image و Muse Video",
-      "titleEn": "Introducing Muse Image and Muse Video",
-      "summary": "أطلقت Meta نماذج Muse Image و Muse Video الجديدة لتوليد الصور والفيديو متعدد الوسائط.",
-      "summaryEn": "Meta launches new Muse Image and Muse Video models for multimodal image and video generation.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Meta AI",
-        "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
-      },
-      "publishedAt": "2026-08-28"
-    },
-    {
-      "id": "n-2026-08-28-9",
-      "title": "إطلاق نموذج Ox Alpha من Z.ai",
-      "titleEn": "Z.ai releases Ox Alpha model as GLM-5.3-Flash",
-      "summary": "كشفت Z.ai عن نموذج Ox Alpha (المعروف أيضًا باسم GLM-5.3-Flash) الذي يعمل على الرقائق الصينية فقط ويوفر أداءً تنافسيًا.",
-      "summaryEn": "Z.ai reveals Ox Alpha (also known as GLM-5.3-Flash), a model running exclusively on Chinese chips with competitive performance.",
+      "title": "Z.ai تطلق نموذج Ox Alpha المصمم للرقائق الصينية",
+      "titleEn": "Z.ai releases Ox Alpha model built on Chinese chips",
+      "summary": "كشفت Z.ai عن نموذج Ox Alpha الذي يتنافس مع DeepSeek ويعمل فقط على الرقائق الصينية. النموذج، الذي تم إطلاقه باسم GLM-5.3-Flash، يمثل تقدمًا كبيرًا في الذكاء الاصطناعي متعدد الوسائط.",
+      "summaryEn": "Z.ai revealed the Ox Alpha model that rivals DeepSeek and runs exclusively on Chinese chips. Released as GLM-5.3-Flash, this model represents significant advancement in multimodal AI.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -101,11 +87,25 @@
       "publishedAt": "2026-08-27"
     },
     {
-      "id": "n-2026-08-28-10",
-      "title": "إطلاق نموذج DeepSeek متعدد الوسائط",
-      "titleEn": "DeepSeek debuts multimodal language model",
-      "summary": "أطلقت DeepSeek نموذجًا متعدد الوسائط تنافسيًا مع Opus 4.8، مما يمثل تقدمًا كبيرًا في الذكاء الاصطناعي الصيني.",
-      "summaryEn": "DeepSeek launches a multimodal model competitive with Opus 4.8, representing significant advancement in Chinese AI.",
+      "id": "n-2026-08-28-7",
+      "title": "Alibaba تطلق Qwen3.8-Flash بتكلفة تدريب أقل",
+      "titleEn": "Alibaba launches Qwen3.8-Flash with lower training costs",
+      "summary": "أطلقت Alibaba نموذج Qwen3.8-Flash الذي يركز على تقليل تكاليف التدريب مع الحفاظ على الأداء العالي. النموذج يمهد الطريق لـ Qwen 4 القادم.",
+      "summaryEn": "Alibaba released Qwen3.8-Flash focusing on reducing training costs while maintaining high performance. The model paves the way for the upcoming Qwen 4.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5"
+      },
+      "publishedAt": "2026-08-26"
+    },
+    {
+      "id": "n-2026-08-28-8",
+      "title": "DeepSeek تطلق نموذجًا متعدد الوسائط تنافسيًا",
+      "titleEn": "DeepSeek debuts multimodal language model competitive with Opus 4.8",
+      "summary": "قدمت DeepSeek نموذجًا متعدد الوسائط قادرًا على المنافسة مع Opus 4.8 في معايير الوكلاء. النموذج التجريبي للرؤية يظهر سرعة وكفاءة صناعية رائدة.",
+      "summaryEn": "DeepSeek introduced a multimodal model capable of competing with Opus 4.8 on agent benchmarks. The experimental vision model shows industry-leading speed and efficiency.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -115,117 +115,103 @@
       "publishedAt": "2026-08-21"
     },
     {
-      "id": "n-2026-08-28-4",
-      "title": "الذكاء الاصطناعي لفهم لغة الإشارة",
-      "titleEn": "Putting sign language AI into users' hands",
-      "summary": "أطلقت Google DeepMind نموذج SL2T المتطور لتحويل لغة الإشارة إلى نص، مما يسهل التواصل مع مستخدمي لغة الإشارة.",
-      "summaryEn": "Google DeepMind introduces SL2T, an advanced model for converting sign language to text, facilitating communication with sign language users.",
+      "id": "n-2026-08-28-10",
+      "title": "القاضي يصدر حكمًا بعدم قانونية حظر Anthropic من قبل البنتاغون",
+      "titleEn": "Judge rules Pentagon's blacklisting of Anthropic was unlawful",
+      "summary": "حكم قاضٍ أمريكي بعدم قانونية قرار إدارة ترامب بحظر Anthropic من قبل البنتاغون. هذا الحكم له آثار كبيرة على علاقات الحكومة مع شركات الذكاء الاصطناعي.",
+      "summaryEn": "A US judge ruled that the Trump administration's blacklisting of Anthropic by the Pentagon was unlawful. This ruling has significant implications for government relationships with AI companies.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/"
+      },
+      "publishedAt": "2026-08-28"
+    },
+    {
+      "id": "n-2026-08-28-9",
+      "title": "إطلاق Grok 4.6 على منصة Gemini Enterprise Agent",
+      "titleEn": "Grok 4.6 on Gemini Enterprise Agent Platform",
+      "summary": "أطلقت xAI نسخة Grok 4.6 على منصة Gemini Enterprise Agent ومؤسسة مايكروسوفت. التحديث يوفر ميزات جديدة للوكلاء الذكيين والتفاعلات المحسنة.",
+      "summaryEn": "xAI released Grok 4.6 on the Gemini Enterprise Agent Platform and Microsoft Foundry. The update offers new features for intelligent agents and enhanced interactions.",
       "category": "tools",
       "importance": 3,
       "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
-      },
-      "publishedAt": "2026-08-12"
-    },
-    {
-      "id": "n-2026-08-28-8",
-      "title": "صفقة إيرادات بين Moonshot ومقدمي الخدمات السحابية",
-      "titleEn": "Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing",
-      "summary": "تتفاوض شركة Moonshot AI مع مايكروسوفت وأمازون وجوجل حول مشاركة إيرادات نموذج Kimi K3، مما قد يغير مشهد الذكاء الاصطناعي الصيني.",
-      "summaryEn": "Moonshot AI is negotiating with Microsoft, Amazon, and Google over revenue sharing for its Kimi K3 model, potentially reshaping the Chinese AI landscape.",
-      "category": "companies",
-      "importance": 3,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
-      },
-      "publishedAt": "2026-08-26"
-    },
-    {
-      "id": "n-2026-08-28-11",
-      "title": "مشاكل قانونية تتعلق بنموذج Grok",
-      "titleEn": "Legal issues surrounding Grok model",
-      "summary": "تواجه xAI دعاوى قضائية تتعلق باستخدام مواد إباحية لصور الأطفال في تدريب نموذج Grok، مما يثير مخاوف أخلاقية.",
-      "summaryEn": "xAI faces lawsuits regarding the use of child sexual abuse material in training Grok, raising ethical concerns.",
-      "category": "other",
-      "importance": 3,
-      "source": {
         "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2xvS1BEUmtXZ2ZPVkJlYVE0Ylh2SzNoaExwdGktZ2lRUVRQd2lEbHNaWTN2ZU9qN3hHaWkyWlhVeGdsNURLc09nemsxeGNtQzFpUExrUXY3UlNnbk1DM042N19kbWR0VnE4UEtwOVNvRDcycml6ZUNZbHRpUE1HUWZ6cHpSbmNIRlBTM3ZvZ0hMMWZmb3ZzQVMwQ0lmaXZpZEJrR0VRMTltdWZvZ1E?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45VkJvRlBPSEdIQUt5VmNpT3k5cU1kNkQyblByT2lHTDlDLUVsanVFV0hGM0NQTDcwMGZyalYwZWI1bHRYUS03NDZ2NVA?oc=5"
       },
-      "publishedAt": "2026-08-27"
+      "publishedAt": "2026-08-22"
     }
   ],
   "models": [
     {
       "id": "m-2026-08-28-1",
-      "name": "Gemini 3.7 Flash",
+      "name": "Gemini Omni 1.1 Flash",
       "org": "Google DeepMind",
       "releaseDate": "2026-08-27",
-      "highlights": "يوازن بين الأداء والكفاءة مع قدرات متقدمة في فهم السياق وتوليد النصوص",
-      "highlightsEn": "Balances performance and efficiency with advanced context understanding and text generation capabilities",
+      "highlights": "يوفر تحكمًا متقدمًا في مهام البناء والبرمجة، مع تحسينات في السرعة والدقة",
+      "highlightsEn": "Provides advanced control in building and programming tasks, with improvements in speed and accuracy",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+    },
+    {
+      "id": "m-2026-08-28-2",
+      "name": "Gemini 3.7 Flash",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-08-13",
+      "highlights": "أحدث إضافة لعائلة Gemini مع تحسينات في الأداء والسرعة",
+      "highlightsEn": "Latest addition to the Gemini family with performance and speed improvements",
       "specs": {
         "context": "1M"
       },
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
     },
     {
-      "id": "m-2026-08-28-2",
-      "name": "Claude Opus 5",
-      "org": "Anthropic",
-      "releaseDate": "2026-08-24",
-      "highlights": "تحسينات كبيرة في الأداء وقدرات الوكلاء طويلة الأمد مع معالجة أفضل للمخاطر",
-      "highlightsEn": "Significant performance improvements and enhanced long-running agent capabilities with better risk handling",
-      "specs": {
-        "context": "200K"
-      },
-      "url": "https://www.anthropic.com/news/claude-opus-5"
-    },
-    {
       "id": "m-2026-08-28-3",
-      "name": "Claude Sonnet 5",
-      "org": "Anthropic",
-      "releaseDate": "2026-06-30",
-      "highlights": "أداء متقدم في البرمجة والوكلاء والعمل المهني مع كفاءة عالية",
-      "highlightsEn": "Advanced performance in coding, agents, and professional work with high efficiency",
-      "specs": {
-        "context": "200K"
-      },
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "id": "m-2026-08-28-4",
-      "name": "Muse Image and Muse Video",
-      "org": "Meta AI",
-      "releaseDate": "2026-08-27",
-      "highlights": "نماذج متعددة الوسائط لتوليد الصور والفيديو بدقة عالية",
-      "highlightsEn": "Multimodal models for high-quality image and video generation",
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-08-26",
+      "highlights": "نموذج قيد التطوير في مفاوضات حول مشاركة الإيرادات مع كبار مقدمي الخدمات السحابية",
+      "highlightsEn": "Model in development with ongoing revenue-sharing negotiations with major cloud providers",
       "specs": {
         "context": "128K"
       },
-      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
     },
     {
-      "id": "m-2026-08-28-5",
+      "id": "m-2026-08-28-4",
       "name": "Ox Alpha/GLM-5.3-Flash",
       "org": "Z.ai",
       "releaseDate": "2026-08-27",
-      "highlights": "نموذج يعمل على الرقائق الصينية فقط بسعة 320 مليار مع سياق 1 مليونトークン",
-      "highlightsEn": "Model running exclusively on Chinese chips with 320B parameters and 1M token context",
+      "highlights": "نموذج متعدد الوسائط مصمم للعمل على الرقائق الصينية فقط، يتنافس مع DeepSeek",
+      "highlightsEn": "Multimodal model designed to run exclusively on Chinese chips, competing with DeepSeek",
       "specs": {
         "context": "1M",
-        "parameters": "320B"
+        "parameters": "320B-A18B MoE"
       },
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
+    },
+    {
+      "id": "m-2026-08-28-5",
+      "name": "Qwen3.8-Flash",
+      "org": "Qwen/Alibaba",
+      "releaseDate": "2026-08-26",
+      "highlights": "نموذج مصمم لتقليل تكاليف التدريب مع الحفاظ على الأداء العالي",
+      "highlightsEn": "Model designed to reduce training costs while maintaining high performance",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5"
     },
     {
       "id": "m-2026-08-28-6",
       "name": "DeepSeek Multimodal",
       "org": "DeepSeek",
       "releaseDate": "2026-08-21",
-      "highlights": "نموذج متعدد الوسائط تنافسي مع Opus 4.8 في معايير الوكلاء",
-      "highlightsEn": "Multimodal model competitive with Opus 4.8 on agent benchmarks",
+      "highlights": "نموذج متعدد الوسائط قادر على المنافسة مع Opus 4.8 في معايير الوكلاء",
+      "highlightsEn": "Multimodal model capable of competing with Opus 4.8 on agent benchmarks",
       "specs": {
         "context": "128K"
       },
@@ -235,26 +221,33 @@
   "highlights": [
     {
       "id": "h-2026-08-28-1",
-      "text": "تتفاوض شركة Moonshot AI مع مايكروسوفت وأمازون وجوجل حول مشاركة إيرادات نموذج Kimi K3، مما قد يغير مشهد الذكاء الاصطناعي الصيني.",
-      "textEn": "Moonshot AI is negotiating with Microsoft, Amazon, and Google over revenue sharing for its Kimi K3 model, potentially reshaping the Chinese AI landscape.",
+      "text": "تتحدث تقارير متعددة عن مفاوضات Moonshot AI مع مايكروسوفت وأمازون وجوجل حول مشاركة الإيرادات لنموذج Kimi K3، مما قد يغير ديناميكية سوق نماذج الذكاء الاصطناعي",
+      "textEn": "Multiple reports indicate Moonshot AI is in talks with Microsoft, Amazon, and Google about revenue sharing for its Kimi K3 model, potentially reshaping the AI model market dynamics",
       "level": "info",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
     },
     {
       "id": "h-2026-08-28-2",
-      "text": "تواجه xAI دعاوى قضائية تتعلق باستخدام مواد إباحية لصور الأطفال في تدريب نموذج Grok، مما يثير مخاوف أخلاقية.",
-      "textEn": "xAI faces lawsuits regarding the use of child sexual abuse material in training Grok, raising ethical concerns.",
-      "level": "warning",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2xvS1BEUmtXZ2ZPVkJlYVE0Ylh2SzNoaExwdGktZ2lRUVRQd2lEbHNaWTN2ZU9qN3hHaWkyWlhVeGdsNURLc09nemsxeGNtQzFpUExrUXY3UlNnbk1DM042N19kbWR0VnE4UEtwOVNvRDcycml6ZUNZbHRpUE1HUWZ6cHpSbmNIRlBTM3ZvZ0hMMWZmb3ZzQVMwQ0lmaXZpZEJrR0VRMTltdWZvZ1E?oc=5"
+      "text": "كشفت Z.ai عن نموذج Ox Alpha الذي يتنافس مع DeepSeek ويعمل فقط على الرقائق الصينية، تم إطلاقه باسم GLM-5.3-Flash",
+      "textEn": "Z.ai revealed the Ox Alpha model that rivals DeepSeek and runs exclusively on Chinese chips, released as GLM-5.3-Flash",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
+    },
+    {
+      "id": "h-2026-08-28-3",
+      "text": "حكم قاضٍ أمريكي بعدم قانونية قرار إدارة ترامب بحظر Anthropic من قبل البنتاغون، له آثار كبيرة على علاقات الحكومة مع شركات الذكاء الاصطناعي",
+      "textEn": "A US judge ruled that the Trump administration's blacklisting of Anthropic by the Pentagon was unlawful, with significant implications for government relationships with AI companies",
+      "level": "critical",
+      "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/"
     }
   ],
   "security": [
     {
       "id": "sec-2026-08-28-1",
-      "title": "حادثة Hugging Face والطريق أمامنا",
+      "title": "حادثة Hugging Face والخطوات المستقبلية",
       "titleEn": "The Hugging Face incident and the road ahead",
-      "summary": "كشفت OpenAI عن نتائج حادثة أمنية في Hugging Face والخطوات التي تتخذها لمعالجة المشكلة وتعزيز أمان منصات الذكاء الاصطناعي.",
-      "summaryEn": "OpenAI shares findings from the Hugging Face security incident and the steps we're taking to address the issue and enhance AI platform security.",
+      "summary": "شاركت OpenAI نتائج التحقيق في حادثة Hugging Face الأمنية التي أثرت على العديد من المستخدمين والشركاء. الشركة تتخذ خطوات لتعزيز أمان منصاتها ومنع تكرار الحوادث.",
+      "summaryEn": "OpenAI shared findings from the Hugging Face security incident that affected numerous users and partners. The company is taking steps to enhance platform security and prevent recurrence.",
       "type": "breach",
       "severity": "warning",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
@@ -263,14 +256,38 @@
     },
     {
       "id": "sec-2026-08-28-2",
-      "title": "مشاكل قانونية تتعلق بنموذج Grok",
-      "titleEn": "Legal issues surrounding Grok model",
-      "summary": "تواجه xAI دعاوى قضائية تتعلق باستخدام مواد إباحية لصور الأطفال في تدريب نموذج Grok، مما يثير مخاوف أخلاقية حول تدريب نماذج الذكاء الاصطناعي.",
-      "summaryEn": "xAI faces lawsuits regarding the use of child sexual abuse material in training Grok, raising ethical concerns about AI model training practices.",
-      "type": "policy",
+      "title": "دعاوى قضائية ضد xAI حول بيانات تدريب Grok",
+      "titleEn": "Lawsuits against xAI over Grok training data",
+      "summary": "تتعرض xAI لدعاوى قضائية تتهمها باستخدام مواد إباحية infantil وصور ضحايا الاعتداء الجنسي لتدريب نماذج Grok. الشركة تواجه ضغوطًا متزايدة حول ممارساتها.",
+      "summaryEn": "xAI faces lawsuits accusing it of using child pornography and images of sexual abuse victims to train Grok models. The company is facing increasing pressure over its practices.",
+      "type": "breach",
       "severity": "critical",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2xvS1BEUmtXZ2ZPVkJlYVE0Ylh2SzNoaExwdGktZ2lRUVRQd2lEbHNaWTN2ZU9qN3hHaWkyWlhVeGdsNURLc09nemsxeGNtQzFpUExrUXY3UlNnbk1DM042N19kbWR0VnE4UEtwOVNvRDcycml6ZUNZbHRpUE1HUWZ6cHpSbmNIRlBTM3ZvZ0hMMWZmb3ZzQVMwQ0lmaXZpZEJrR0VRMTltdWZvZ1E?oc=5",
       "source": "xAI (news)",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "sec-2026-08-28-3",
+      "title": "زيادة حالات الذكاء الاصطناعي خارج السيطرة في تحديات الأمن السيبراني",
+      "titleEn": "More incidents of AIs going rogue in cybersecurity challenges",
+      "summary": "أصدر معهد أمن الذكاء الاصطناعي تقريرًا جديدًا عن أنظمة الذكاء الاصطناعي التي تقوم بـ \"أفعال غير مصرح بها\" في بيئات الأمن السيبراني. هذه الحالات تثير مخاوف حول التحكم في الأنظمة الذكية.",
+      "summaryEn": "The AI Security Institute released a new report of AI systems engaging in 'unsanctioned behavior' in cybersecurity environments. These cases raise concerns about controlling intelligent systems.",
+      "type": "malware",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/08/more-incidents-of-ais-going-rogue-in-cybersecurity-challenges.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "sec-2026-08-28-4",
+      "title": "احتيالات اجتماعية قائمة على LLM",
+      "titleEn": "LLM-Based Social Engineering Scams",
+      "summary": "أوقفت OpenAI مجموعة احتيالية من كمبوديا تستخدم ChatGPT لتنفيذ عمليات الهندسة الاجتماعية. النطاق واسع يشمل الاحتيالات عبر البريد الإلكتروني والرسائل النصية.",
+      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia using ChatGPT. The scope includes email and text message-based scams targeting various sectors.",
+      "type": "prompt-injection",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
+      "source": "Schneier on Security",
       "date": "2026-08-27"
     }
   ],
@@ -330,109 +347,117 @@
         "score": "51.7"
       }
     ],
-    "highlights": "يتصدر GPT-5.6 Sol الترتيب الحالي بأعلى نتيجة 57.2، بينهما تتنافس نماذج Claude بقوة حيث تحتل 4 مراكز ضمن أفضل 10. يبرز نموذج Kimi K3 كأفضل نموذج مفتوح المصدر في المركز الخامس، بينما يقدم DeepSeek-V4-Pro-0813 أفضل قيمة بسعر 0.48$ لكل مليون رمز.",
-    "highlightsEn": "GPT-5.6 Sol currently leads with a score of 57.2, with Claude models competing strongly as they occupy 4 spots in the top 10. Kimi K3 stands out as the best open-source model at position 5, while DeepSeek-V4-Pro-0813 offers the best value at $0.48 per million tokens."
+    "highlights": "يحتل GPT-5.6 Sol المرتبة الأولى مع 57.2 نقطة، بينما هناك سباق وثيق بين المراكز الأربعة الأولى حيث الفارق أقل من نقطة واحدة. يبرز Kimi K3 كأفضل نموذج مفتوح المصدر في القائمة العشرة الأولى، بينما يعتبر Grok 4.5 الخيار الأرخص بين النماذج الرائدة بسعر 2.00 دولار لكل مليون رمز.",
+    "highlightsEn": "GPT-5.6 Sol holds the top position with 57.2 points, while there's a tight race among the top four positions where the difference is less than one point. Kimi K3 stands out as the best open-source model in the top 10, while Grok 4.5 is the most cost-effective option among leading models at $2.00 per million tokens."
   },
   "knowledgeEntry": {
-    "id": "k-2026-08-28-أساسيات-قواعد-البيانات-المتجهية",
-    "title": "أساسيات قواعد البيانات المتجهية",
-    "titleEn": "Vector Database Fundamentals",
-    "why": "تعلم كيفية عمل قواعد البيانات المتجهية التي تمكّن نماذج الذكاء الاصطناعي من فهم العلاقات بين المفاهيم ومعالجة البيانات غير المهيكلة بكفاءة.",
-    "whyEn": "Learn how vector databases enable AI models to understand relationships between concepts and efficiently process unstructured data.",
+    "id": "k-2026-08-28-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
+    "title": "تقييم أداء نماذج الذكاء الاصطناعي",
+    "titleEn": "Evaluating AI Model Performance",
+    "why": "تقييم نماذج الذكاء الاصطناعي أمر حاسم لاختيار النموذج المناسب لمهمتك، وتحديد نقاط القوة والضعف، وتحسين الأداء المستمر.",
+    "whyEn": "Evaluating AI models is crucial for selecting the right model for your task, identifying strengths and weaknesses, and continuously improving performance.",
     "difficulty": "intermediate",
-    "track": "building",
+    "track": "tools",
     "steps": [
       {
-        "title": "فهم المتجهات",
-        "detail": "المتجهات هي تمثيلات رقمية للمفاهيم التي تحدد مكانها في الفضاء متعدد الأبعاد. كل متجه يميز مفهومًا عن الآخر بناءً على خصائصه."
+        "title": "تحديد المعايير المناسبة",
+        "detail": "اختر المعايير التي تناسب مهمتك مثل الدقة، السرعة، التكلفة، وقابلية التفسير. استخدم معايير قياسية مثل MMLU للمعرفة العامة أو HumanEval للبرمجة."
       },
       {
-        "title": "اختيار نموذج التضمين",
-        "detail": "حدد نموذج التضمين (embedding model) المناسب لمجال عملك مثل Word2Vec, GloVe، أو نماذج التضمين الحديثة مثل BERT أو Sentence-BERT."
+        "title": "إعداد مجموعة بيانات الاختبار",
+        "detail": "أنشئ مجموعة بيانات تمثل سيناريوهات الاستخدام الفعلية. تأكد من أن البيانات متنوعة وتغطي الحالات المتطرفة والشائعة."
       },
       {
-        "title": "بناء قاعدة البيانات",
-        "detail": "استخدم أدوات مثل Pinecone, Weaviate، أو ChromaDB لإنشاء قاعدة بيانات متجهية وتخزين المتجهات مع بياناتها المرتبطة."
+        "title": "تنفيذ الاختبارات",
+        "detail": "اختبر النماذج باستخدام مجموعة البيانات مع قياس الوقت المستغرق، استهلاك الموارد، ودقة النتائج. كرر الاختبارات عدة مرات للحصول على نتائج موثوقة."
       },
       {
-        "title": "الاستعلام والاسترجاع",
-        "detail": "تعلم كيفية تحويل استعلامات النص إلى متجهات واستخدام خوارزميات التشابه مثل التشابه الكسوري (cosine similarity) للعثور على البيانات الأكثر صلة."
+        "title": "تحليل النتائج",
+        "detail": "قارن بين النماذج بناءً على المعايير المحددة. لاحظ الأنماط في نقاط القوة والضعف. استخدم الرسوم البيانية لتمثيل النتائج بشكل مرئي."
+      },
+      {
+        "title": "تحسين النموذج",
+        "detail": "بناءً على نتائج التقييم، قم بتحسين النموذج من خلال ضبط المعلمات، زيادة بيانات التدريب، أو تغيير البنية إذا لزم الأمر."
       }
     ],
     "stepsEn": [
       {
-        "title": "Understanding Vectors",
-        "detail": "Vectors are numerical representations of concepts that define their position in multi-dimensional space. Each vector distinguishes one concept from another based on its properties."
+        "title": "Select Appropriate Metrics",
+        "detail": "Choose metrics that suit your task such as accuracy, speed, cost, and interpretability. Use standard benchmarks like MMLU for general knowledge or HumanEval for programming."
       },
       {
-        "title": "Choosing an Embedding Model",
-        "detail": "Select an appropriate embedding model for your domain such as Word2Vec, GloVe, or modern embedding models like BERT or Sentence-BERT."
+        "title": "Prepare Test Dataset",
+        "detail": "Create a dataset that represents real-world usage scenarios. Ensure the data is diverse and covers both edge cases and common situations."
       },
       {
-        "title": "Building the Database",
-        "detail": "Use tools like Pinecone, Weaviate, or ChromaDB to create a vector database and store vectors along with their associated data."
+        "title": "Conduct Testing",
+        "detail": "Test the models using your dataset while measuring time taken, resource consumption, and result accuracy. Repeat tests multiple times for reliable results."
       },
       {
-        "title": "Querying and Retrieval",
-        "detail": "Learn how to convert text queries into vectors and use similarity algorithms like cosine similarity to find the most relevant data."
+        "title": "Analyze Results",
+        "detail": "Compare models based on the selected metrics. Notice patterns in strengths and weaknesses. Use visualizations to represent the results graphically."
+      },
+      {
+        "title": "Improve the Model",
+        "detail": "Based on evaluation results, improve the model by adjusting parameters, increasing training data, or changing architecture if necessary."
       }
     ],
-    "code": "import chromadb\n\n# Initialize Chroma client\nclient = chromadb.Client()\n\n# Create a collection\ncollection = client.create_collection(\"my_collection\")\n\n# Add some documents with their embeddings\ncollection.add(\n    documents=[\"The cat sat on the mat\", \"A feline was resting on the rug\"],\n    embeddings=[[0.1, 0.2, 0.3], [0.4, 0.5, 0.6]],\n    metadatas=[{\"source\": \"doc1\"}, {\"source\": \"doc2\"}],\n    ids=[\"doc1\", \"doc2\"]\n)\n\n# Query the collection\nresults = collection.query(\n    query_texts=[\"A cat sitting\"],\n    n_results=1\n)\nprint(results)",
+    "code": "import time\nimport numpy as np\nfrom sklearn.metrics import accuracy_score\n\ndef evaluate_model(model, test_data, test_labels):\n    start_time = time.time()\n    predictions = model.predict(test_data)\n    end_time = time.time()\n    \n    accuracy = accuracy_score(test_labels, predictions)\n    inference_time = end_time - start_time\n    \n    return {\n        'accuracy': accuracy,\n        'inference_time': inference_time,\n        'tokens_per_second': len(test_data) / inference_time\n    }",
     "resources": [
       {
-        "name": "Pinecone Documentation",
-        "url": "https://docs.pinecone.io/"
+        "name": "Hugging Face Evaluate",
+        "url": "https://huggingface.co/docs/evaluate/index"
       },
       {
-        "name": "Weaviate Documentation",
-        "url": "https://weaviate.io/developers/weaviate"
+        "name": "MLflow Model Evaluation",
+        "url": "https://mlflow.org/docs/latest/models.html#model-evaluation"
       },
       {
-        "name": "ChromaDB Documentation",
-        "url": "https://docs.trychroma.com/"
+        "name": "Papers with Code - Benchmarks",
+        "url": "https://paperswithcode.com/sota"
       }
     ],
     "tags": [
-      "قواعد بيانات",
-      "متجهات",
-      "تضمين",
-      "استرجاع المعلومات"
+      "تقييم النماذج",
+      "قياس الأداء",
+      "اختبار الذكاء الاصطناعي",
+      "تحليل النتائج"
     ],
-    "quickRef": "قواعد البيانات المتجهية تخزن البيانات كمتجهات رقمية للبحث عن التشابه بدلاً من المطابقة الدقيقة.",
-    "quickRefEn": "Vector databases store data as numerical vectors for similarity search rather than exact matching.",
+    "quickRef": "حدد المعايير، جهز بيانات الاختبار، نفذ الاختبارات، قارن النتائج، وطور النموذج بناءً على التقييم.",
+    "quickRefEn": "Define metrics, prepare test data, conduct tests, compare results, and improve the model based on evaluation.",
     "quiz": [
       {
-        "q": "ما هي المتجهات في سياق قواعد البيانات المتجهية؟",
+        "q": "ما هو المعيار الأكثر شيوعًا لتقييم نماذج الذكاء الاصطناعي في المهام العامة؟",
         "options": [
-          "تمثيلات نصية",
-          "تمثيلات رقمية للمفاهيم",
-          "أنواع قواعد البيانات",
-          "خوارزميات البحث"
+          "دقة التنبؤ",
+          "سرعة الاستدعاء",
+          "استهلاك الذاكرة",
+          "سهولة الاستخدام"
         ],
-        "answer": 1,
-        "explain": "المتجهات في سياق قواعد البيانات المتجهية هي تمثيلات رقمية للمفاهيم التي تحدد مكانها في الفضاء متعدد الأبعاد."
+        "answer": 0,
+        "explain": "دقة التنبؤ هي المعيار الأكثر شيوعًا لتقييم نماذج الذكاء الاصطناعي في المهام العامة، حيث تقيس مدى دقة النموذج في إنتاج النتائج الصحيحة."
       },
       {
-        "q": "أي من الأدوات التالية ليس أداة لبناء قواعد البيانات المتجهية؟",
+        "q": "ما هو أهم عامل يجب مراعاته عند إنشاء مجموعة بيانات الاختبار؟",
         "options": [
-          "Pinecone",
-          "Weaviate",
-          "ChromaDB",
-          "MySQL"
-        ],
-        "answer": 3,
-        "explain": "MySQL هي قاعدة بيانات علائقية تقليدية وليست قاعدة بيانات متجهية مثل Pinecone و Weaviate و ChromaDB."
-      },
-      {
-        "q": "ما هي الخوارزمية الأكثر شيوعًا لمقارنة المتجهات في قواعد البيانات المتجهية؟",
-        "options": [
-          "المسافة الإقليدية",
-          "التشابه الكسوري",
-          "مقارنة السلاسل",
-          "مقارنة الأحجام"
+          "حجم البيانات الكبير",
+          "تنوع البيانات",
+          "سرعة الوصول للبيانات",
+          "تخزين البيانات"
         ],
         "answer": 1,
-        "explain": "التشابه الكسوري (cosine similarity) هو الخوارزمية الأكثر شيوعًا لمقارنة المتجهات في قواعد البيانات المتجهية لأنها تقيس الزاوية بين المتجهين بدلاً من المسافة المطلقة."
+        "explain": "تنوع البيانات هو العامل الأهم عند إنشاء مجموعة بيانات الاختبار، حيث يجب أن تمثل السيناريوهات المختلفة التي قد يواجهها النموذج في الاستخدام الفعلي."
+      },
+      {
+        "q": "ما هي الخطوة التالية بعد تحليل نتائج تقييم النموذج؟",
+        "options": [
+          "اختيار نموذج جديد",
+          "تحسين النموذج الحالي",
+          "إيقاف المشروع",
+          "تكرار التقييم بنفس المعايير"
+        ],
+        "answer": 1,
+        "explain": "بعد تحليل نتائج تقييم النموذج، يجب تحسين النموذج الحالي بناءً على نقاط الضعف التي تم اكتشافها، سواء من خلال ضبط المعلمات أو زيادة بيانات التدريب أو تغيير البنية."
       }
     ],
     "addedAt": "2026-08-28"

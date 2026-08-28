@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-28-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
+      "title": "تقييم أداء نماذج الذكاء الاصطناعي",
+      "titleEn": "Evaluating AI Model Performance",
+      "why": "تقييم نماذج الذكاء الاصطناعي أمر حاسم لاختيار النموذج المناسب لمهمتك، وتحديد نقاط القوة والضعف، وتحسين الأداء المستمر.",
+      "whyEn": "Evaluating AI models is crucial for selecting the right model for your task, identifying strengths and weaknesses, and continuously improving performance.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "تحديد المعايير المناسبة",
+          "detail": "اختر المعايير التي تناسب مهمتك مثل الدقة، السرعة، التكلفة، وقابلية التفسير. استخدم معايير قياسية مثل MMLU للمعرفة العامة أو HumanEval للبرمجة."
+        },
+        {
+          "title": "إعداد مجموعة بيانات الاختبار",
+          "detail": "أنشئ مجموعة بيانات تمثل سيناريوهات الاستخدام الفعلية. تأكد من أن البيانات متنوعة وتغطي الحالات المتطرفة والشائعة."
+        },
+        {
+          "title": "تنفيذ الاختبارات",
+          "detail": "اختبر النماذج باستخدام مجموعة البيانات مع قياس الوقت المستغرق، استهلاك الموارد، ودقة النتائج. كرر الاختبارات عدة مرات للحصول على نتائج موثوقة."
+        },
+        {
+          "title": "تحليل النتائج",
+          "detail": "قارن بين النماذج بناءً على المعايير المحددة. لاحظ الأنماط في نقاط القوة والضعف. استخدم الرسوم البيانية لتمثيل النتائج بشكل مرئي."
+        },
+        {
+          "title": "تحسين النموذج",
+          "detail": "بناءً على نتائج التقييم، قم بتحسين النموذج من خلال ضبط المعلمات، زيادة بيانات التدريب، أو تغيير البنية إذا لزم الأمر."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select Appropriate Metrics",
+          "detail": "Choose metrics that suit your task such as accuracy, speed, cost, and interpretability. Use standard benchmarks like MMLU for general knowledge or HumanEval for programming."
+        },
+        {
+          "title": "Prepare Test Dataset",
+          "detail": "Create a dataset that represents real-world usage scenarios. Ensure the data is diverse and covers both edge cases and common situations."
+        },
+        {
+          "title": "Conduct Testing",
+          "detail": "Test the models using your dataset while measuring time taken, resource consumption, and result accuracy. Repeat tests multiple times for reliable results."
+        },
+        {
+          "title": "Analyze Results",
+          "detail": "Compare models based on the selected metrics. Notice patterns in strengths and weaknesses. Use visualizations to represent the results graphically."
+        },
+        {
+          "title": "Improve the Model",
+          "detail": "Based on evaluation results, improve the model by adjusting parameters, increasing training data, or changing architecture if necessary."
+        }
+      ],
+      "code": "import time\nimport numpy as np\nfrom sklearn.metrics import accuracy_score\n\ndef evaluate_model(model, test_data, test_labels):\n    start_time = time.time()\n    predictions = model.predict(test_data)\n    end_time = time.time()\n    \n    accuracy = accuracy_score(test_labels, predictions)\n    inference_time = end_time - start_time\n    \n    return {\n        'accuracy': accuracy,\n        'inference_time': inference_time,\n        'tokens_per_second': len(test_data) / inference_time\n    }",
+      "resources": [
+        {
+          "name": "Hugging Face Evaluate",
+          "url": "https://huggingface.co/docs/evaluate/index"
+        },
+        {
+          "name": "MLflow Model Evaluation",
+          "url": "https://mlflow.org/docs/latest/models.html#model-evaluation"
+        },
+        {
+          "name": "Papers with Code - Benchmarks",
+          "url": "https://paperswithcode.com/sota"
+        }
+      ],
+      "tags": [
+        "تقييم النماذج",
+        "قياس الأداء",
+        "اختبار الذكاء الاصطناعي",
+        "تحليل النتائج"
+      ],
+      "quickRef": "حدد المعايير، جهز بيانات الاختبار، نفذ الاختبارات، قارن النتائج، وطور النموذج بناءً على التقييم.",
+      "quickRefEn": "Define metrics, prepare test data, conduct tests, compare results, and improve the model based on evaluation.",
+      "quiz": [
+        {
+          "q": "ما هو المعيار الأكثر شيوعًا لتقييم نماذج الذكاء الاصطناعي في المهام العامة؟",
+          "options": [
+            "دقة التنبؤ",
+            "سرعة الاستدعاء",
+            "استهلاك الذاكرة",
+            "سهولة الاستخدام"
+          ],
+          "answer": 0,
+          "explain": "دقة التنبؤ هي المعيار الأكثر شيوعًا لتقييم نماذج الذكاء الاصطناعي في المهام العامة، حيث تقيس مدى دقة النموذج في إنتاج النتائج الصحيحة."
+        },
+        {
+          "q": "ما هو أهم عامل يجب مراعاته عند إنشاء مجموعة بيانات الاختبار؟",
+          "options": [
+            "حجم البيانات الكبير",
+            "تنوع البيانات",
+            "سرعة الوصول للبيانات",
+            "تخزين البيانات"
+          ],
+          "answer": 1,
+          "explain": "تنوع البيانات هو العامل الأهم عند إنشاء مجموعة بيانات الاختبار، حيث يجب أن تمثل السيناريوهات المختلفة التي قد يواجهها النموذج في الاستخدام الفعلي."
+        },
+        {
+          "q": "ما هي الخطوة التالية بعد تحليل نتائج تقييم النموذج؟",
+          "options": [
+            "اختيار نموذج جديد",
+            "تحسين النموذج الحالي",
+            "إيقاف المشروع",
+            "تكرار التقييم بنفس المعايير"
+          ],
+          "answer": 1,
+          "explain": "بعد تحليل نتائج تقييم النموذج، يجب تحسين النموذج الحالي بناءً على نقاط الضعف التي تم اكتشافها، سواء من خلال ضبط المعلمات أو زيادة بيانات التدريب أو تغيير البنية."
+        }
+      ],
+      "addedAt": "2026-08-28"
+    },
+    {
       "id": "k-2026-08-28-أساسيات-قواعد-البيانات-المتجهية",
       "title": "أساسيات قواعد البيانات المتجهية",
       "titleEn": "Vector Database Fundamentals",
