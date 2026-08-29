@@ -1,6 +1,99 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-29-أساسيات-أمان-الذكاء-الاصطناعي",
+      "title": "أساسيات أمان الذكاء الاصطناعي",
+      "titleEn": "AI Safety Basics",
+      "why": "فهم أساسيات أمان الذكاء الاصطناعي ضروري لاستخدام هذه التقنيات بشكل آمن ومسؤول، خاصة مع تزايد استخدام النماذج اللغوية الكبيرة في مختلف المجالات.",
+      "whyEn": "Understanding AI safety basics is essential for using these technologies safely and responsibly, especially with the increasing use of large language models across various domains.",
+      "difficulty": "beginner",
+      "track": "security",
+      "steps": [
+        {
+          "title": "فهم المخاطر المحتملة",
+          "detail": "تعرف على المخاطر الرئيسية المرتبطة بالذكاء الاصطناعي مثل التحيزات، المعلومات الخاطئة، والاستخدام الخاطئ."
+        },
+        {
+          "title": "تقييم النماذج",
+          "detail": "قم بتقييم النماذج التي تستخدمها من حيث دقتها وحيادها واحتمالية توليد محتوى ضار."
+        },
+        {
+          "title": "وضع إرشادات الاستخدام",
+          "detail": "أنشئ إرشادات واضحة لاستخدام الذكاء الاصطناعي في سياقك، بما في ذلك القيود والاحتياطات."
+        },
+        {
+          "title": "مراقبة النتائج",
+          "detail": "راقب باستمرار النتائج التي ينتجها النموذج وكن مستعدًا لتعديل الإعدادات أو التوقف عن الاستخدام إذا لزم الأمر."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Potential Risks",
+          "detail": "Learn about the main risks associated with AI such as biases, misinformation, and misuse."
+        },
+        {
+          "title": "Evaluate Models",
+          "detail": "Evaluate the models you use in terms of their accuracy, neutrality, and likelihood of generating harmful content."
+        },
+        {
+          "title": "Set Usage Guidelines",
+          "detail": "Create clear guidelines for using AI in your context, including limitations and precautions."
+        },
+        {
+          "title": "Monitor Outputs",
+          "detail": "Continuously monitor the outputs produced by the model and be ready to adjust settings or stop usage if necessary."
+        }
+      ],
+      "code": "",
+      "resources": [
+        {
+          "name": "AI Safety Institute",
+          "url": "https://www.gov.uk/government/organisations/ai-safety-institute"
+        },
+        {
+          "name": "Partnership on AI",
+          "url": "https://partnershiponai.org/"
+        },
+        {
+          "name": "AI Now Institute",
+          "url": "https://ainowinstitute.org/"
+        }
+      ],
+      "tags": [
+        "أمان",
+        "مسؤولية",
+        "تحيز",
+        "إشراف"
+      ],
+      "quickRef": "دائماً تحقق من مخرجات النموذج، افهم قيوده، وكن على دراية بالمخاطر المحتملة.",
+      "quickRefEn": "Always verify model outputs, understand their limitations, and be aware of potential risks.",
+      "quiz": [
+        {
+          "q": "ما هو أحد المخاطر الرئيسية المرتبطة بالذكاء الاصطناعي الذي يجب على المستخدمين الانتباه إليه؟",
+          "options": [
+            "زيادة سرعة المعالجة",
+            "التحيز في النتائج",
+            "انخفاض تكلفة التشغيل",
+            "زيادة دقة الترجمة"
+          ],
+          "answer": 1,
+          "explain": "التحيز في النتائج هو أحد المخاطر الرئيسية حيث قد تعكس نماذج الذكاء الاصطناعي التحيزات الموجودة في البيانات التي تم تدريبها عليها."
+        },
+        {
+          "q": "ما هو الإجراء الأهم الذي يجب اتخاذه عند استخدام نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "الاعتماد الكامل على النتائج",
+            "مراجعة وتحقق من المخرجات",
+            "زيادة حجم المدخلات",
+            "تقليل عدد الاستخدامات"
+          ],
+          "answer": 1,
+          "explain": "مراجعة وتحقق من المخرجات هو الإجراء الأهم لأنه يساعد في اكتشأ أي أخطاء أو تحيزات أو محتوى ضار قد ينتجه النموذج."
+        }
+      ],
+      "addedAt": "2026-08-29"
+    },
+    {
       "id": "k-2026-08-29-بناء-واجهة-مستخدم-للذكاء-الاصطناعي-التفاعلي",
       "title": "بناء واجهة مستخدم للذكاء الاصطناعي التفاعلي",
       "titleEn": "Building Interactive AI User Interfaces",
