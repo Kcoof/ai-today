@@ -1,6 +1,125 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-29-بناء-واجهة-مستخدم-للذكاء-الاصطناعي-التفاعلي",
+      "title": "بناء واجهة مستخدم للذكاء الاصطناعي التفاعلي",
+      "titleEn": "Building Interactive AI User Interfaces",
+      "why": "تعتبر واجهات المستخدم التفاعلية للذكاء الاصطناعي عنصراً حيوياً لضمان تجربة مستخدم سلسة وفعالة، مما يتيح للناس التفاعل مع نماذج الذكاء الاصطناعي بطرق بديهية ومفهومة.",
+      "whyEn": "Interactive AI user interfaces are crucial for ensuring a smooth and effective user experience, enabling people to interact with AI models in intuitive and understandable ways.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد متطلبات الواجهة",
+          "detail": "حدد الوظائف الأساسية التي تحتاجها الواجهة، مثل إدخال النص، عرض النتائج، وتوفير خيارات التفاعل. ضع في اعتبارك احتياجات المستخدمين النهائيين واستخداماتهم المتوقعة."
+        },
+        {
+          "title": "اختيار التقنيات المناسبة",
+          "detail": "اختر إطار عمل مناسب لتطوير الواجهة مثل React أو Vue.js. تأكد من دعم التقنية المختارة للتفاعل مع واجهات برمجة التطبيقات (APIs) الخاصة بنماذج الذكاء الاصطناعي."
+        },
+        {
+          "title": "تصميم تجربة المستخدم",
+          "detail": "أنشئ مخططات بسيطة (wireframes) لترتيب العناصر في الواجهة. ركز على البساطة والوضوح، مع توفير ملاحظات مرئية للتفاعل مثل مؤشرات التحميل والرسائل التأكيدية."
+        },
+        {
+          "title": "تنفيذ الواجهة الأساسية",
+          "detail": "ابدأ بتنشاء الهيكل الأساسي للواجهة مع التركيز على الوظائف الأساسية. قم بإنشاء مكونات قابلة لإعادة الاستخدام مثل حقول الإدخال وأزرار الإجراءات."
+        },
+        {
+          "title": "دمج نموذج الذكاء الاصطناعي",
+          "detail": "قم بتكامل واجهة برمجة التطبيقات (API) الخاصة بنموذج الذكاء الاصطناعي مع الواجهة. أضف معالجة الأخطاء وإدارة الحالات مثل انتظار الاستجابة من النموذج."
+        },
+        {
+          "title": "اختبار وتحسين الواجهة",
+          "detail": "اختبر الواجهة مع مجموعات متنوعة من المستخدمين لجمع الملاحظات. قم بتحسين الأداء والاستجابة، مع التركيز على تحسين تجربة المستخدم على الأجهزة المختلفة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define Interface Requirements",
+          "detail": "Identify the core functions your interface needs, such as text input, result display, and interaction options. Consider the needs of end-users and their expected use cases."
+        },
+        {
+          "title": "Choose Appropriate Technologies",
+          "detail": "Select a suitable framework for interface development like React or Vue.js. Ensure the chosen technology supports interaction with AI model APIs."
+        },
+        {
+          "title": "Design User Experience",
+          "detail": "Create simple wireframes to arrange interface elements. Focus on simplicity and clarity, providing visual feedback for interactions like loading indicators and confirmation messages."
+        },
+        {
+          "title": "Implement Basic Interface",
+          "detail": "Start by building the core structure of the interface, focusing on essential functions. Create reusable components like input fields and action buttons."
+        },
+        {
+          "title": "Integrate AI Model",
+          "detail": "Integrate the AI model's API with your interface. Add error handling and state management, such as waiting for model responses."
+        },
+        {
+          "title": "Test and Refine Interface",
+          "detail": "Test the interface with diverse user groups to gather feedback. Improve performance and responsiveness, focusing on enhancing the user experience across different devices."
+        }
+      ],
+      "code": "import React, { useState } from 'react';\n\nfunction AIInterface() {\n  const [input, setInput] = useState('');\n  const [response, setResponse] = useState('');\n  const [isLoading, setIsLoading] = useState(false);\n\n  const handleSubmit = async () => {\n    setIsLoading(true);\n    try {\n      const res = await fetch('/api/ai-model', {\n        method: 'POST',\n        body: JSON.stringify({ input })\n      });\n      const data = await res.();\n      setResponse(data.result);\n    } catch (error) {\n      setResponse('حدث خطأ أثناء معالجة طلبك');\n    }\n    setIsLoading(false);\n  };\n\n  return (\n    <div className=\"ai-interface\">\n      <textarea \n        value={input} \n        onChange={(e) => setInput(e.target.value)}\n        placeholder=\"اكتب سؤالك هنا...\"\n      />\n      <button onClick={handleSubmit} disabled={isLoading}>\n        {isLoading ? 'جاري المعالجة...' : 'إرسال'}\n      </button>\n      {response && <div className=\"response\">{response}</div>}\n    </div>\n  );\n}",
+      "resources": [
+        {
+          "name": "React Documentation",
+          "url": "https://reactjs.org/docs/getting-started.html"
+        },
+        {
+          "name": "OpenAI API Documentation",
+          "url": "https://platform.openai.com/docs/api-reference"
+        },
+        {
+          "name": "UI Design Principles for AI",
+          "url": "https://www.nngroup.com/articles/ai-user-interface/"
+        }
+      ],
+      "tags": [
+        "واجهات المستخدم",
+        "الذكاء الاصطناعي التفاعلي",
+        "تطوير الواجهات"
+      ],
+      "quickRef": "ركز على البساطة والوضوح في تصميم واجهات الذكاء الاصطناعي، مع توفير ملاحظات مرئية للتفاعل ومعالجة الأخطاء بشكل مناسب.",
+      "quickRefEn": "Focus on simplicity and clarity in AI interface design, providing visual feedback for interactions and properly handling errors.",
+      "quiz": [
+        {
+          "q": "ما هو العامل الأهم في تصميم واجهة مستخدم للذكاء الاصطناعي؟",
+          "options": [
+            "التعقيد التقني",
+            "البساطة ووضوح التفاعل",
+            "عدد الميزات",
+            "الرسوميات المعقدة"
+          ],
+          "answer": 1,
+          "explain": "البساطة ووضوح التفاعل هو العامل الأهم لأنه يضمن تجربة مستخدم سلسة وفعالة، مما يسهل على المستخدمين تحقيق أهدافهم مع النموذج دون إرباك."
+        },
+        {
+          "q": "ما هو أفضل ممارسة عند دمج نموذج الذكاء الاصطناعي مع الواجهة؟",
+          "options": [
+            "إخفاء جميع عمليات المعالجة",
+            "توفير مؤشرات بصرية للعمليات الجارية",
+            "تجنب معالجة الأخطاء",
+            "جعل الاستجابات فورية دائماً"
+          ],
+          "answer": 1,
+          "explain": "توفير مؤشرات بصرية للعمليات الجارية هو أفضل ممارسة لأنه يخبر المستخدم بما يحدث في النظام، مما يوفر تجربة مستخدم أفضل وإدارة للانتظار."
+        },
+        {
+          "q": "لماذا يعتبر اختبار الواجهة مع مجموعات متنوعة من المستخدمين مهم؟",
+          "options": [
+            "لزيادة التعقيد التقني",
+            "لتحديد المشاكل التي قد لا تظهر للمطور",
+            "لإبطاء عملية التطوير",
+            "لزيادة عدد الميزات"
+          ],
+          "answer": 1,
+          "explain": "اختبار الواجهة مع مجموعات متنوعة يساعد في تحديد المشاكل التي قد لا تظهر للمطور بسبب اعتياده على النظام، مما يؤدي إلى تحسين تجربة المستخدم بشكل عام."
+        }
+      ],
+      "addedAt": "2026-08-29"
+    },
+    {
       "id": "k-2026-08-28-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
       "title": "تقييم أداء نماذج الذكاء الاصطناعي",
       "titleEn": "Evaluating AI Model Performance",
