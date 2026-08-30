@@ -1,6 +1,114 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-30-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
+      "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
+      "titleEn": "Writing Effective AI Prompts",
+      "why": "الأوامر الفعالة تضمن نتائج دقيقة ومفيدة من نماذج الذكاء الاصطناعي، وتوفر الوقت وتقلل الحاجة لتعديلات متكررة.",
+      "whyEn": "Effective prompts ensure accurate and useful results from AI models, save time, and reduce the need for repeated revisions.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "حدد الهدف بوضوح",
+          "detail": "حدد بوضوح ما تريد تحقيقه من الأمر. ما هي المعلومات التي تحتاجها؟ ما هي المهمة التي تريد تنفيذها؟"
+        },
+        {
+          "title": "قدم السياق الكافي",
+          "detail": "أضف معلومات كافية حول السياق، بما في ذلك أي معرفة سابقة قد يحتاجها النموذج لفهم طلبك بشكل صحيح."
+        },
+        {
+          "title": "استخدم بنية واضحة",
+          "detail": "استخدم نقاطًا أو ترتيبًا منطقيًا لتقسيم طلبك إلى أجزاء صغيرة وواضحة، مما يساعد النموذج على فهم ما هو مطلوب منه."
+        },
+        {
+          "title": "حدد تنسيق المخرجات",
+          "detail": "حدد كيف تريد أن تكون النتائج، سواء كانت قائمة، جدول، فقرة، أو أي تنسيق آخر مناسب."
+        },
+        {
+          "title": "اطلب أمثلة أو توضيحات",
+          "detail": "اطلب من النموذج تقديم أمثلة أو توضيحات إذا كان الطلب معقدًا أو يتطلب دقة عالية."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Clearly define your goal",
+          "detail": "Clearly state what you want to achieve with the prompt. What information do you need? What task do you want to accomplish?"
+        },
+        {
+          "title": "Provide sufficient context",
+          "detail": "Add enough information about the context, including any prior knowledge the model might need to understand your request correctly."
+        },
+        {
+          "title": "Use clear structure",
+          "detail": "Use bullet points or logical ordering to break down your request into small, clear parts, which helps the model understand what is required."
+        },
+        {
+          "title": "Specify output format",
+          "detail": "Indicate how you want the results to be presented, whether as a list, table, paragraph, or another suitable format."
+        },
+        {
+          "title": "Request examples or clarifications",
+          "detail": "Ask the model to provide examples or clarifications if the request is complex or requires high precision."
+        }
+      ],
+      "code": "def create_effective_prompt(goal, context, structure, format, examples=False):\n    prompt = f\"\"\"Goal: {goal}\n\nContext: {context}\n\nStructure: {structure}\n\nFormat: {format}\"\"\"\n    \n    if examples:\n        prompt += \"\\n\nPlease provide examples or clarifications if needed.\"\n    \n    return prompt",
+      "resources": [
+        {
+          "name": "Prompt Engineering Guide",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "name": "OpenAI Prompt Engineering Best Practices",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        }
+      ],
+      "tags": [
+        "Prompt Engineering",
+        "AI Communication",
+        "Efficiency",
+        "Best Practices"
+      ],
+      "quickRef": "حدد الهدف، قدم السياق، استخدم البنية الواضحة، حدد التنسيق، اطلب أمثلة عند الحاجة",
+      "quickRefEn": "Define the goal, provide context, use clear structure, specify format, request examples when needed",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في كتابة أمر فعال للذكاء الاصطناعي؟",
+          "options": [
+            "استخدام لغة معقدة ومتخصصة",
+            "تحديد الهدف بوضوح",
+            "جعل الأمر طويلاً قدر الإمكان",
+            "عدم تقديم أي سياق"
+          ],
+          "answer": 1,
+          "explain": "تحديد الهدف بوضوح هو العنصر الأهم لأنه يوجه النموذج إلى ما هو مطلوب منه بدقة، مما يضمن نتائج أكثر صلة."
+        },
+        {
+          "q": "كيف يمكنك تحسين فهم النموذج لطلبك؟",
+          "options": [
+            "باستخدام لغة غامضة",
+            "بعدم تقديم أي سياق",
+            "باستخدام بنية واضحة وتقديم السياق الكافي",
+            "بجعل الطلب قصيراً جداً"
+          ],
+          "answer": 2,
+          "explain": "استخدام بنية واضحة وتقديم السياق الكافي يساعد النموذج على فهم طلبك بشكل أفضل والرد بشكل أكثر دقة."
+        },
+        {
+          "q": "ما هو التنسيج الأفضل لطلب معقد يتطلب دقة عالية؟",
+          "options": [
+            "طلب واحد طويل",
+            "طلبين منفصلين",
+            "طلب واحد مع طلب أمثلة أو توضيحات",
+            "طلب بدون تحديد تنسيج المخرجات"
+          ],
+          "answer": 2,
+          "explain": "طلب واحد مع طلب أمثلة أو توضيحات يسمح للنموذج بتقديم إجابات أكثر دقة ويمكنه توضيح أي نقاط غير واضحة."
+        }
+      ],
+      "addedAt": "2026-08-30"
+    },
+    {
       "id": "k-2026-08-29-أساسيات-أمان-الذكاء-الاصطناعي",
       "title": "أساسيات أمان الذكاء الاصطناعي",
       "titleEn": "AI Safety Basics",

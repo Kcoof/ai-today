@@ -1,0 +1,475 @@
+{
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T15:44:40.292Z",
+  "news": [
+    {
+      "id": "n-2026-08-29-5",
+      "title": "مفاوضات Moonshot AI مع مايكروسوفت وأمازون وجوجل لمشاركة الإيرادات",
+      "titleEn": "Moonshot AI in talks with Microsoft, Amazon, Google over K3 revenue sharing",
+      "summary": "تخوض شركة Moonshot AI مفاوضات مع كبار مقدمي الخدمات السحابية لمشاركة إيرادات نموذجها Kimi K3، في صفقة قد تصل إلى 30% من الإيرادات.",
+      "summaryEn": "Moonshot AI is in talks with major cloud providers to share revenues from its Kimi K3 model, in a deal that could reach 30% of revenues.",
+      "category": "companies",
+      "importance": 5,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
+      },
+      "publishedAt": "2026-08-26"
+    },
+    {
+      "id": "n-2026-08-29-9",
+      "title": "استخدام xAI لصور إساءة للأطفال في تدريب Grok",
+      "titleEn": "Elon Musk's xAI used child porn to train Grok models",
+      "summary": "اتهمت دعوى قضائية شركة xAI باستخدام صور إساءة للأطفال في تدريب نماذج Grok، مما يثير مخاوف أخلاقية كبيرة.",
+      "summaryEn": "A lawsuit accuses xAI of using child abuse images to train Grok models, raising significant ethical concerns.",
+      "category": "other",
+      "importance": 5,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2xvS1BEUmtXZ2ZPVkJlYVE0Ylh2SzNoaExwdGktZ2lRUVRQd2lEbHNaWTN2ZU9qN3hHaWkyWlhVeGdsNURLc09nemsxeGNtQzFpUExrUXY3UlNnbk1DM042N19kbWR0VnE4UEtwOVNvRDcycml6ZUNZbHRpUE1HUWZ6cHpSbmNIRlBTM3ZvZ0hMMWZmb3ZzQVMwQ0lmaXZpZEJrR0VRMTltdWZvZ1E?oc=5"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-08-29-1",
+      "title": "قرار OpenAI بخصوص Cursor بعد استحواذ SpaceX",
+      "titleEn": "OpenAI's decision on Cursor following its acquisition by SpaceX",
+      "summary": "أعلنت OpenAI عن قرارها بالتوقف عن عقد توفير نماذجها لـ Cursor بعد استحواذ SpaceX عليها، مما يعكس تغييرات استراتيجية في الشراكات.",
+      "summaryEn": "OpenAI announced its decision to wind down the contract providing its models to Cursor following SpaceX's acquisition, reflecting strategic changes in partnerships.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+      },
+      "publishedAt": "2026-08-28"
+    },
+    {
+      "id": "n-2026-08-29-3",
+      "title": "Gemini Omni 1.1 Flash: المزيد من التحكم في البناء",
+      "titleEn": "Gemini Omni 1.1 Flash lets you build with more control",
+      "summary": "أطلقت Google DeepMind تحديثًا لـ Gemini Omni 1.1 Flash يوفر تحكمًا أكبر في عملية البناء، مع تحسينات في الأداء والمرونة.",
+      "summaryEn": "Google DeepMind released an update to Gemini Omni 1.1 Flash providing more control over the building process, with performance and flexibility improvements.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-08-29-4",
+      "title": "إطلاق Gemini 3.7 Flash",
+      "titleEn": "Introducing Gemini 3.7 Flash",
+      "summary": "أعلنت Google DeepMind عن إطلاق نموذج Gemini 3.7 Flash الجديد، الذي يقدم أداءً محسّنًا مع قدرات متقدمة في فهم السياق.",
+      "summaryEn": "Google DeepMind announced the launch of new Gemini 3.7 Flash model, offering improved performance with advanced context understanding capabilities.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+      },
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "id": "n-2026-08-29-6",
+      "title": "Z.ai تطلق نموذج GLM-5.3-Flash",
+      "titleEn": "Z.ai releases GLM-5.3-Flash model",
+      "summary": "أطلقت شركة Z.ai نموذج GLM-5.3-Flash الجديد بسعة 320 مليار مع 18 مليار معاملات، يدعم السياقات الطويلة بقدرة 1 مليونトークن.",
+      "summaryEn": "Z.ai released the new GLM-5.3-Flash model with 320B parameters and 18B MoE, supporting long contexts with 1M token capacity.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRHlLLVdZV0MxamppWTRVc1U0X1lsTzBnQTBxdDd6b1Z3dW42bGZyMHNUM2gwT3F2ZzRkeGp2dnFveUZnUDd3cmE2MDZxSzloT29VZnktOTZlOVRZbS10UmZRZGk0VGFjT1RMVlc4blltUEpnbkZFWlJXa0hrVlA3Qi1XR0l6aUZMR1J2OEZEUUZjcklxejhNQnF5SXI1R3pfaUE5aDA1NmpSVWRZaGtiWm8wVXU1ZFU5QV8wdW92clhScHotUVlN0gHMAUFVX3lxTE43SUtxWWhSYk0wNnE0TjQweWZCTUdKVE1BQXFzRmQ5RF9hQnNBV2RNcDJBQkQ1T0s0UmZPR2FYNk03eE9UZlUtTEM0WnV4ZmlVbHYyUDNhR2h3SzgxX1NGVk1lMG03MXR2VUtleDVGMVJmSWtVUTM1eEZYNGtCUTM3bGJsUEwzZWphTTlKZExuU2hOcGVOa2JmTkU2enI5SkF2Q2EyckJUd2s4eEVNbGhmbjU4cnl4bGEyWXRLS3N5cEtHSDFYYXB2VHRJMA?oc=5"
+      },
+      "publishedAt": "2026-08-26"
+    },
+    {
+      "id": "n-2026-08-29-7",
+      "title": "Alibaba تطلق نموذج Qwen3.8-Flash",
+      "titleEn": "Alibaba launches Qwen3.8-Flash AI model",
+      "summary": "أطلقت علي بابا نموذج Qwen3.8-Flash الجديد الذي يركز على تقليل تكاليف التدريب مع الحفاظ على الأداء العالي.",
+      "summaryEn": "Alibaba launched the new Qwen3.8-Flash model focusing on reducing training costs while maintaining high performance.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5"
+      },
+      "publishedAt": "2026-08-26"
+    },
+    {
+      "id": "n-2026-08-29-8",
+      "title": "DeepSeek على وشك الوصول إلى تقييم 74 مليار دولار",
+      "titleEn": "DeepSeek poised to reach $74 billion valuation",
+      "summary": "تستعد شركة DeepSeek للوصول إلى تقييم يصل إلى 74 مليار دولار، مما يعكس نموًا هائلاً في قطاع الذكاء الاصطناعي الصيني.",
+      "summaryEn": "DeepSeek is poised to reach a $74 billion valuation, reflecting massive growth in the Chinese AI sector.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNN2ZVcER1YXNsaEthelVtNENlUXBCMzdyRV80bWhNWHBHSk5rVmMzZGJyaFZfWS1YclBDWklqc0RFTEZzYm1fSXJzd1RWVDR4U1d2QzZfWTRFTUtfa1Ewa2FBUzRGZU93dkE4dWZJM0YwdHFhaWlrLTF2ajRBaWt2TGZMS1oyclVaM0lpQms1dGx1T3JTVlFLdA?oc=5"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-08-29-10",
+      "title": "ضحايا الإساءة السابقة يزعمون استخدام صورهم في Grok",
+      "titleEn": "Former sexual abuse victims say Grok used their images",
+      "summary": "زعم ضحايا الإساءة السابقة أن xAI استخدمت صورهم في تطوير قدرات Deepfake لنماذج Grok، مما يزيد من المخاوف الأخلاقية.",
+      "summaryEn": "Former sexual abuse victims claim xAI used their images to develop deepfake capabilities for Grok models, increasing ethical concerns.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ualZCV2YtSnVISnFrYjluYmdJVXB5bXN4LWxBZEdCQy04VFh5bDc1M2RueTZlREdnRDJwQ3F2MTlGcWV1WWVyYV94aXN4VFV0M1JrQlJPcGxVYlZXZl9SR0xHQXlUSkZMS0E?oc=5"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-08-29-2",
+      "title": "توسع OpenAI في البرازيل",
+      "titleEn": "Expanding OpenAI's presence in Brazil",
+      "summary": "توسع OpenAI من وجودها في البرازيل، مع تعميق التعامل مع المطورين والمؤسسات، مما يعزز تواجدها في الأسواق الناشئة.",
+      "summaryEn": "OpenAI is expanding its presence in Brazil, deepening engagement with developers and businesses, enhancing its footprint in emerging markets.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/expanding-our-presence-in-brazil"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-08-29-11",
+      "title": "SpaceXAI تتبنى معالج NVIDIA Vera CPU",
+      "titleEn": "SpaceXAI adopts NVIDIA Vera CPU",
+      "summary": "أعلنت SpaceXAI عن تبنيها لمعالج NVIDIA Vera CPU لتسريع الذكاء الاعتمادي على نطاق واسع، مما يعزز قدرات الحوسبة.",
+      "summaryEn": "SpaceXAI announced adopting NVIDIA Vera CPU to accelerate agentic AI at massive scale, enhancing computing capabilities.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ0VWYXd5MnAyUzdGRDB5YkJsdzk4ZW5zbDZnTUdRNVZDS1d1dE5ISUVkVzUyUmRLcDBjNzJLQ1dWMUNkUUI3MWxIT2xZWHp6bndLYy1hM2I2ZnF1emNZRWh5ZzAxQzVYWEI3ZTFVZzJpUjhLQ05rTmVybjVkeWNfMmtMQlFPSTZGX0ZPNnRIdDJ5bmoyZlJ6TVppbHVkWnJnVmJlMU1JNDhpV1VY?oc=5"
+      },
+      "publishedAt": "2026-08-25"
+    },
+    {
+      "id": "n-2026-08-29-12",
+      "title": "OpenAI توقف مجموعة الهندسة الاجتماعية باستخدام ChatGPT",
+      "titleEn": "OpenAI disrupted social engineering group using ChatGPT",
+      "summary": "أوقفت OpenAI مجموعة من كمبوديا التي استخدمت ChatGPT في عمليات الهندسة الاجتماعية، مما يسلط الضوء على استخدامات غير مصرح بها للذكاء الاصطناعي.",
+      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT, highlighting unauthorized AI uses.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html"
+      },
+      "publishedAt": "2026-08-27"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-08-29-1",
+      "name": "Gemini 3.7 Flash",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-08-13",
+      "highlights": "نموذج متقدم مع قدرات محسنة في فهم السياق والاستجابة",
+      "highlightsEn": "Advanced model with enhanced context understanding and response capabilities",
+      "specs": {},
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+    },
+    {
+      "id": "m-2026-08-29-2",
+      "name": "GLM-5.3-Flash",
+      "org": "Z.ai",
+      "releaseDate": "2026-08-26",
+      "highlights": "نموذج سعة 320 مليار مع 18 مليار معاملات، يدعم السياقات الطويلة بقدرة 1 مليونトークن",
+      "highlightsEn": "320B parameter model with 18B MoE, supporting long contexts with 1M token capacity",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRHlLLVdZV0MxamppWTRVc1U0X1lsTzBnQTBxdDd6b1Z3dW42bGZyMHNUM2gwT3F2ZzRkeGp2dnFveUZnUDd3cmE2MDZxSzloT29VZnktOTZlOVRZbS10UmZRZGk0VGFjT1RMVlc4blltUEpnbkZFWlJXa0hrVlA3Qi1XR0l6aUZMR1J2OEZEUUZjcklxejhNQnF5SXI1R3pfaUE5aDA1NmpSVWRZaGtiWm8wVXU1ZFU5QV8wdW92clhScHotUVlN0gHMAUFVX3lxTE43SUtxWWhSYk0wNnE0TjQweWZCTUdKVE1BQXFzRmQ5RF9hQnNBV2RNcDJBQkQ1T0s0UmZPR2FYNk03eE9UZlUtTEM0WnV4ZmlVbHYyUDNhR2h3SzgxX1NGVk1lMG03MXR2VUtleDVGMVJmSWtVUTM1eEZYNGtCUTM3bGJsUEwzZWphTTlKZExuU2hOcGVOa2JmTkU2enI5SkF2Q2EyckJUd2s4eEVNbGhmbjU4cnl4bGEyWXRLS3N5cEtHSDFYYXB2VHRJMA?oc=5"
+    },
+    {
+      "id": "m-2026-08-29-3",
+      "name": "Qwen3.8-Flash",
+      "org": "Alibaba/Qwen",
+      "releaseDate": "2026-08-26",
+      "highlights": "نموذج مصمم لتقليل تكاليف التدريب مع الحفاظ على الأداء العالي",
+      "highlightsEn": "Model designed to reduce training costs while maintaining high performance",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNFBiN0MydXZkUlB3UHdHb0xzNGNqVVhKdzZVMkQwalM4WWozbUxWSkZuRTljSXdfdjdOUjZkMWN2SEVRSnBXTEJwSlJfdkNqNzJreVp5MDNULVdDZ1ozSzE1YXp6dWR6MzZsOFBlRllhdlZEQmVBa1Eyb1hpQWlMWmdUaGlzeFpUZFlDZUszLU5KRG9SblF0VTNFT092TllTQnVqVlZHY2J3Uk1WblBfOUJGRmFob041dzEwRV9WaU5TWjlxbkswcTVJRQ?oc=5"
+    },
+    {
+      "id": "m-2026-08-29-4",
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-08-26",
+      "highlights": "نموذج محوري في مفاوضات مشاركة الإيرادات مع كبار مقدمي الخدمات السحابية",
+      "highlightsEn": "Core model in revenue sharing negotiations with major cloud providers",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
+    },
+    {
+      "id": "m-2026-08-29-5",
+      "name": "Ox Alpha",
+      "org": "Z.ai",
+      "releaseDate": "2026-08-26",
+      "highlights": "نموذج سري يعمل فقط على الرقائق الصينية، ينافس DeepSeek",
+      "highlightsEn": "Stealth model running only on Chinese chips, rivaling DeepSeek",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
+    },
+    {
+      "id": "m-2026-08-29-6",
+      "name": "Qwen3.8-Flash-Next",
+      "org": "Alibaba/Qwen",
+      "releaseDate": "2026-08-25",
+      "highlights": "نسخة محدثة تهدف إلى \"الكفاءة التكلفية القصوى\" كمعاينة لما سيقدمه Qwen 4",
+      "highlightsEn": "Updated version aiming for \"ultimate cost efficiency\" as a preview of what Qwen 4 will offer",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ONXh5VW9jMlg2bmV2OFhETHZNV3FnS1ZLZk85VWdHakdEMGRYaXFoRmpsTFhLQ3BwWmNXX01fRGhUQUtSdS1YTXZBSmZLeDg5ZnJSSUx6dnNTbUpSUU1yR0JmS0xWX1d3TW9FTTcwbEx1eGFwaXdz0gF_QVVfeXFMT1I4UnpTZHFhQXJIaFFRakhzd3JZRnI4LVhkSWx1dkNJVmt1M1lGSVkwTVVXMU8xQXBFZTB6MWlLZUh5Y2Ytb19BaEhROTFhc1NvdlRtaVJtTE9yUXhEYmczY0RZQlh1dGl4QUtZRnNjZTRNbzl6WDhhUWktZ0VxZw?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-08-29-1",
+      "text": "تخوض شركة Moonshot AI مفاوضات مع كبار مقدمي الخدمات السحابية لمشاركة إيرادات نموذجها Kimi K3",
+      "textEn": "Moonshot AI is in talks with major cloud providers to share revenues from its Kimi K3 model",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
+    },
+    {
+      "id": "h-2026-08-29-2",
+      "text": "تستعد شركة DeepSeek للوصول إلى تقييم يصل إلى 74 مليار دولار",
+      "textEn": "DeepSeek is poised to reach a $74 billion valuation",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNN2ZVcER1YXNsaEthelVtNENlUXBCMzdyRV80bWhNWHBHSk5rVmMzZGJyaFZfWS1YclBDWklqc0RFTEZzYm1fSXJzd1RWVDR4U1d2QzZfWTRFTUtfa1Ewa2FBUzRGZU93dkE4dWZJM0YwdHFhaWlrLTF2ajRBaWt2TGZMS1oyclVaM0lpQms1dGx1T3JTVlFLdA?oc=5"
+    },
+    {
+      "id": "h-2026-08-29-3",
+      "text": "Z.ai تطلق نموذجًا يعمل فقط على الرقائق الصينية، مما يختبر أمنية العالم السيبرانية",
+      "textEn": "Z.ai releases a model running only on Chinese chips, potentially testing global cybersecurity",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-08-29-1",
+      "title": "OpenAI توقف مجموعة الهندسة الاجتماعية باستخدام ChatGPT",
+      "titleEn": "OpenAI disrupted social engineering group using ChatGPT",
+      "summary": "أوقفت OpenAI مجموعة من كمبوديا التي استخدمت ChatGPT في عمليات الهندسة الاجتماعية، حيث قاموا بصياغة رسائل احتيالية مستهدرة الشركات.",
+      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT to craft fraudulent business-targeting messages.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "sec-2026-08-29-2",
+      "title": "هاكرصينون يستخدمون DeepSeek في الهجمات",
+      "titleEn": "China's Hackers Use DeepSeek for Attacks",
+      "summary": "تشير الأبحاث إلى أن قراصنة صينيون يستخدمون نموذج DeepSeek في هجماتهم، مما يثير مخاوف حول استخدامات غير مصرح بها للنماذج.",
+      "summaryEn": "Research indicates Chinese hackers are using DeepSeek model in their attacks, raising concerns about unauthorized model usage.",
+      "type": "malware",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54c1dkdS0tVGV1cUlGY21rTXVoYlJHdHF2azFYTHlkeTVrYXRqZDEtUlJCUTBEOG02STc2T2xxY0F4NkhqY0NjX2R2cWhBRHBrZktxcUdFMi1fdF9sQUZDczhmM1JSR0RFaHFyLWxLdkhTWkNONWE3dGpwNGludw?oc=5",
+      "source": "DeepSeek (news)",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "sec-2026-08-29-3",
+      "title": "RedEvoAgent: وكيل اختبار الأحمر التلقائي",
+      "titleEn": "RedEvoAgent: Automatic Red-Teaming Agent",
+      "summary": "تم تطوير ويل RedEvoAgent القائم على نماذج اللغة الكبيرة لاختبار الأنظمة تلقائيًا مع تطوير المهارات القائم على الخبرة.",
+      "summaryEn": "RedEvoAgent, an LLM-based agent, has been developed for automatic system testing with experience-driven skill evolution.",
+      "type": "policy",
+      "severity": "info",
+      "url": "https://arxiv.org/abs/2608.27439v1",
+      "source": "arXiv",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "sec-2026-08-29-4",
+      "title": "استخدام xAI لصور إساءة للأطفال في تدريب Grok",
+      "titleEn": "xAI used child abuse images to train Grok models",
+      "summary": "اتهمت دعوى قضائية شركة xAI باستخدام صور إساءة للأطفال في تدريب نماذج Grok، مما يمثل خرقًا خطيرًا للمعايير الأخلاقية.",
+      "summaryEn": "A lawsuit accuses xAI of using child abuse images to train Grok models, representing a serious ethical breach.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2xvS1BEUmtXZ2ZPVkJlYVE0Ylh2SzNoaExwdGktZ2lRUVRQd2lEbHNaWTN2ZU9qN3hHaWkyWlhVeGdsNURLc09nemsxeGNtQzFpUExrUXY3UlNnbk1DM042N19kbWR0VnE4UEtwOVNvRDcycml6ZUNZbHRpUE1HUWZ6cHpSbmNIRlBTM3ZvZ0hMMWZmb3ZzQVMwQ0lmaXZpZEJrR0VRMTltdWZvZ1E?oc=5",
+      "source": "xAI (news)",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "sec-2026-08-29-5",
+      "title": "ضحايا الإساءة السابقة يزعمون استخدام صورهم في Grok",
+      "titleEn": "Former abuse victims claim xAI used their images for Grok",
+      "summary": "زعم ضحايا الإساءة السابقة أن xAI استخدمت صورهم في تطوير قدرات Deepfake لنماذج Grok، مما يمثل انتهاكًا للخصوصية.",
+      "summaryEn": "Former abuse victims claim xAI used their images to develop deepfake capabilities for Grok models, representing a privacy violation.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ualZCV2YtSnVISnFrYjluYmdJVXB5bXN4LWxBZEdCQy04VFh5bDc1M2RueTZlREdnRDJwQ3F2MTlGcWV1WWVyYV94aXN4VFV0M1JrQlJPcGxVYlZXZl9SR0xHQXlUSkZMS0E?oc=5",
+      "source": "xAI (news)",
+      "date": "2026-08-27"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-08-29",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "GPT-5.6 Sol",
+        "org": "OpenAI",
+        "score": "57.2"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "56.2"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "UNRELEASED Anthropic",
+        "score": "55.9"
+      },
+      {
+        "name": "Claude Fable 5 1",
+        "org": "Anthropic",
+        "score": "55.9"
+      },
+      {
+        "name": "Kimi K3 1",
+        "org": "Moonshot AI",
+        "score": "54.7"
+      },
+      {
+        "name": "GLM-5.3",
+        "org": "Zhipu AI",
+        "score": "54.2"
+      },
+      {
+        "name": "DeepSeek-V4-Pro-0813",
+        "org": "DeepSeek",
+        "score": "54.1"
+      },
+      {
+        "name": "Qwen3.8 Max",
+        "org": "Alibaba Cloud / Qwen Team",
+        "score": "53.0"
+      },
+      {
+        "name": "GPT-5.6 Terra",
+        "org": "OpenAI",
+        "score": "52.6"
+      },
+      {
+        "name": "Claude Opus 4.8",
+        "org": "Anthropic",
+        "score": "51.7"
+      }
+    ],
+    "highlights": "يظهر GPT-5.6 Sol في المركز الأول بفارق واضح عن بقية النماذج، بينما تنافس نماذج Anthropic بقوة في المراكز المتقدمة مع وجود 4 نماذج من Anthropic في前十. ويبرز Kimi K3 كأفضل نموذج مفتوح المصدر في التصنيف الحالي.",
+    "highlightsEn": "GPT-5.6 Sol shows a clear lead over other models, while Anthropic models compete strongly in top positions with 4 Anthropic models in the top 10. Kimi K3 stands out as the best open-source model in the current ranking."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-08-29-أساسيات-أمان-الذكاء-الاصطناعي",
+    "title": "أساسيات أمان الذكاء الاصطناعي",
+    "titleEn": "AI Safety Basics",
+    "why": "فهم أساسيات أمان الذكاء الاصطناعي ضروري لاستخدام هذه التقنيات بشكل آمن ومسؤول، خاصة مع تزايد استخدام النماذج اللغوية الكبيرة في مختلف المجالات.",
+    "whyEn": "Understanding AI safety basics is essential for using these technologies safely and responsibly, especially with the increasing use of large language models across various domains.",
+    "difficulty": "beginner",
+    "track": "security",
+    "steps": [
+      {
+        "title": "فهم المخاطر المحتملة",
+        "detail": "تعرف على المخاطر الرئيسية المرتبطة بالذكاء الاصطناعي مثل التحيزات، المعلومات الخاطئة، والاستخدام الخاطئ."
+      },
+      {
+        "title": "تقييم النماذج",
+        "detail": "قم بتقييم النماذج التي تستخدمها من حيث دقتها وحيادها واحتمالية توليد محتوى ضار."
+      },
+      {
+        "title": "وضع إرشادات الاستخدام",
+        "detail": "أنشئ إرشادات واضحة لاستخدام الذكاء الاصطناعي في سياقك، بما في ذلك القيود والاحتياطات."
+      },
+      {
+        "title": "مراقبة النتائج",
+        "detail": "راقب باستمرار النتائج التي ينتجها النموذج وكن مستعدًا لتعديل الإعدادات أو التوقف عن الاستخدام إذا لزم الأمر."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Understand Potential Risks",
+        "detail": "Learn about the main risks associated with AI such as biases, misinformation, and misuse."
+      },
+      {
+        "title": "Evaluate Models",
+        "detail": "Evaluate the models you use in terms of their accuracy, neutrality, and likelihood of generating harmful content."
+      },
+      {
+        "title": "Set Usage Guidelines",
+        "detail": "Create clear guidelines for using AI in your context, including limitations and precautions."
+      },
+      {
+        "title": "Monitor Outputs",
+        "detail": "Continuously monitor the outputs produced by the model and be ready to adjust settings or stop usage if necessary."
+      }
+    ],
+    "code": "",
+    "resources": [
+      {
+        "name": "AI Safety Institute",
+        "url": "https://www.gov.uk/government/organisations/ai-safety-institute"
+      },
+      {
+        "name": "Partnership on AI",
+        "url": "https://partnershiponai.org/"
+      },
+      {
+        "name": "AI Now Institute",
+        "url": "https://ainowinstitute.org/"
+      }
+    ],
+    "tags": [
+      "أمان",
+      "مسؤولية",
+      "تحيز",
+      "إشراف"
+    ],
+    "quickRef": "دائماً تحقق من مخرجات النموذج، افهم قيوده، وكن على دراية بالمخاطر المحتملة.",
+    "quickRefEn": "Always verify model outputs, understand their limitations, and be aware of potential risks.",
+    "quiz": [
+      {
+        "q": "ما هو أحد المخاطر الرئيسية المرتبطة بالذكاء الاصطناعي الذي يجب على المستخدمين الانتباه إليه؟",
+        "options": [
+          "زيادة سرعة المعالجة",
+          "التحيز في النتائج",
+          "انخفاض تكلفة التشغيل",
+          "زيادة دقة الترجمة"
+        ],
+        "answer": 1,
+        "explain": "التحيز في النتائج هو أحد المخاطر الرئيسية حيث قد تعكس نماذج الذكاء الاصطناعي التحيزات الموجودة في البيانات التي تم تدريبها عليها."
+      },
+      {
+        "q": "ما هو الإجراء الأهم الذي يجب اتخاذه عند استخدام نماذج الذكاء الاصطناعي؟",
+        "options": [
+          "الاعتماد الكامل على النتائج",
+          "مراجعة وتحقق من المخرجات",
+          "زيادة حجم المدخلات",
+          "تقليل عدد الاستخدامات"
+        ],
+        "answer": 1,
+        "explain": "مراجعة وتحقق من المخرجات هو الإجراء الأهم لأنه يساعد في اكتشأ أي أخطاء أو تحيزات أو محتوى ضار قد ينتجه النموذج."
+      }
+    ],
+    "addedAt": "2026-08-29"
+  }
+}
