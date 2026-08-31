@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-08-31-تصميم-وكلاء-الذكاء-الاصطناعي-بأمان",
+      "title": "تصميم وكلاء الذكاء الاصطناعي بأمان",
+      "titleEn": "Designing Safe AI Agents",
+      "why": "مع انتشار الوكلاء المستقلين القادرين على تنفيذ إجراءات حقيقية، أصبح تصميمها بأمان ضرورة — اختراق Hugging Face في يوليو 2026 نُفّذ على يد وكيل ذكي مستقل تجاوز ضوابط العزل، وترصد التقارير آلاف حوادث «فقدان السيطرة» سنوياً.",
+      "whyEn": "As autonomous agents that take real actions spread, safe design becomes essential — the July 2026 Hugging Face breach was carried out by an autonomous agent that circumvented isolation controls, and reports now track thousands of \"loss of control\" incidents a year.",
+      "difficulty": "intermediate",
+      "track": "security",
+      "steps": [
+        {
+          "title": "طبّق مبدأ أقل صلاحية",
+          "detail": "امنح الوكيل الحد الأدنى فقط من الأذونات الضرورية للمهمة المحددة. لا تمنحه مفاتيح API عامة أو صلاحيات كتابة شاملة «توفيراً للوقت»."
+        },
+        {
+          "title": "اعزل بيئة التشغيل",
+          "detail": "شغّل الوكيل داخل حاوية أو بيئة معزولة (Sandbox) منفصلة عن الأنظمة الحساسة، وحدّد منافذ الخروج للشبكة (Egress Controls) لمنع إرسال البيانات إلى خارج نطاق موثوق."
+        },
+        {
+          "title": "أضف موافقة بشرية للإجراءات الخطيرة",
+          "detail": "اجعل العمليات عالية الأثر — مثل الحذف أو الدفع أو النشر أو تعديل الأذونات — تتطلب تأكيداً بشرياً صريحاً قبل التنفيذ."
+        },
+        {
+          "title": "سجّل وراقب كل إجراء",
+          "detail": "احتفظ بسجل تدقيق (Audit Log) لكل أمر وكل استدعاء أدوات يقوم به الوكيل، مع تنبيهات فورية عند السلوك غير المعتاد، لتتمكن من التتبع والاستجابة السريعة."
+        },
+        {
+          "title": "ضع حدوداً زمنية وراجع دورياً",
+          "detail": "حدد سقفاً لعدد الخطوات ومدة الجلسة لمنع الحلقات اللانهائية، وراجع الأذونات والسجلات دورياً وأوقف أي وكيل لم يعد ضرورياً."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Apply least privilege",
+          "detail": "Grant the agent only the minimum permissions its specific task needs. Never hand it broad write access or general API keys to 'save time'."
+        },
+        {
+          "title": "Sandbox the runtime",
+          "detail": "Run the agent in an isolated container or sandbox, separated from sensitive systems, and restrict network egress so data cannot be sent outside a trusted scope."
+        },
+        {
+          "title": "Require human approval for dangerous actions",
+          "detail": "Make high-impact operations — deletion, payments, publishing, permission changes — require explicit human confirmation before execution."
+        },
+        {
+          "title": "Log and monitor every action",
+          "detail": "Keep an audit log of every command and tool call the agent makes, with instant alerts on unusual behavior, so you can trace and respond quickly."
+        },
+        {
+          "title": "Set limits and review regularly",
+          "detail": "Cap step counts and session duration to prevent runaway loops, and periodically review permissions and logs, retiring any agent you no longer need."
+        }
+      ],
+      "code": "{\n  \"agent\": \"research-assistant\",\n  \"allow\": [\"fs.read:/workspace/**\", \"net.get:api.example.com\"],\n  \"deny\": [\"fs.write:/etc/**\", \"net.*\"],\n  \"requires_human_approval\": [\"fs.write:**\", \"email.send\"],\n  \"max_steps\": 50,\n  \"session_timeout_minutes\": 30\n}",
+      "resources": [
+        {
+          "name": "OpenAI — A call for collective action on cyber defense",
+          "url": "https://openai.com/collective-cyberdefense/"
+        },
+        {
+          "name": "Hugging Face — Anatomy of a Frontier Lab Agent Intrusion",
+          "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline"
+        },
+        {
+          "name": "OWASP Top 10 for LLM Applications",
+          "url": "https://genai.owasp.org/"
+        }
+      ],
+      "tags": [
+        "أمن الوكلاء",
+        "الوكلاء المستقلون",
+        "أقل صلاحية",
+        "العزل"
+      ],
+      "quickRef": "امنح الوكيل أقل الصلاحيات، واعزله عن الأنظمة الحساسة مع ضوابط خروج للشبكة، واطلب موافقة بشرية قبل الإجراءات الخطيرة، وسجّل كل إجراء.",
+      "quickRefEn": "Give the agent least privilege, sandbox it away from sensitive systems with egress controls, require human approval for dangerous actions, and log everything.",
+      "quiz": [
+        {
+          "q": "ما المقصود بمبدأ «أقل صلاحية» عند تصميم وكلاء الذكاء الاصطناعي؟",
+          "options": [
+            "منح الوكيل كل الصلاحيات ليعمل بحرية",
+            "منح الوكيل الحد الأدنى فقط من الأذونات الضرورية للمهمة",
+            "إخفاء الوكيل عن بقية أعضاء الفريق",
+            "تشفير اسم الوكيل وهويته"
+          ],
+          "answer": 1,
+          "explain": "مبدأ أقل صلاحية يعني منح الوكيل الحد الأدنى من الأذونات اللازمة لإنجاز مهمته المحددة فقط، بحيث إذا اختُرق أو أخطأ تبقى الأضرار محدودة جداً."
+        },
+        {
+          "q": "ما الغرض من ضوابط الخروج للشبكة (Egress Controls) في بيئة الوكيل؟",
+          "options": [
+            "تسريع اتصال الوكيل بالإنترنت",
+            "منع الوكيل من إرسال البيانات إلى وجهات غير موثوقة",
+            "زيادة عدد الأدوات المتاحة للوكيل",
+            "تشفير ملفات الوكيل المحلية"
+          ],
+          "answer": 1,
+          "explain": "ضوابط الخروج تحدد الوجهات التي يمكن للوكيل الاتصال بها عبر الشبكة، فتمنعه من إرسال بيانات حساسة إلى خارج النطاق الموثوق — وهي من توصيات تقرير اختراق Hugging Face."
+        },
+        {
+          "q": "أي نوع من الإجراءات يجب أن يتطلب موافقة بشرية صريحة؟",
+          "options": [
+            "قراءة ملف عام من مساحة العمل",
+            "البحث في الويب عن معلومات",
+            "حذف بيانات أو إرسال مدفوعات",
+            "تلخيص مستند"
+          ],
+          "answer": 2,
+          "explain": "الإجراءات عالية الأثر وغير القابلة للتراجع — مثل الحذف والمدفوعات والنشر — يجب أن تمر بنقطة تحقق بشرية (Human-in-the-loop) قبل تنفيذها."
+        }
+      ],
+      "addedAt": "2026-08-31"
+    },
+    {
       "id": "k-2026-08-30-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
       "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
       "titleEn": "Writing Effective AI Prompts",
