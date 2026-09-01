@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-01-كيف-تقرأ-لوحات-نتائج-النماذج",
+      "title": "كيف تقرأ لوحات نتائج النماذج بوعي",
+      "titleEn": "How to Read AI Leaderboards Critically",
+      "why": "لوحات النتائج مثل LLM Stats وLMArena أصبحت المرجع الأول لاختيار نموذج، لكن الاعتماد الأعمى على رقم واحد يضلل: النتائج تتغير حسب الاختبار المستخدم، وقد تكون مكلفة أو ملوثة ببيانات التدريب.",
+      "whyEn": "Leaderboards like LLM Stats and LMArena are now the first stop for choosing a model, but blindly trusting a single number misleads: results vary by the benchmark used, and can be costly or contaminated by training data.",
+      "difficulty": "beginner",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "انظر إلى النتيجة المركبة لا إلى رقم واحد",
+          "detail": "النماذج تتفوق في مجالات مختلفة — برمجة أو رياضيات أو كتابة. النتيجة المركبة تعطي صورة أعمق من اختبار واحد منتقى بعناية."
+        },
+        {
+          "title": "اسأل عن تلوث بيانات الاختبار",
+          "detail": "قد تتسرب أسئلة الاختبارات إلى بيانات تدريب النموذج (Contamination) فتنتفخ درجاته. ابحث عن اختبارات حديثة أو محدّثة دورياً كمؤشر أكثر موثوقية."
+        },
+        {
+          "title": "احسب السعر مقابل الأداء",
+          "detail": "نموذج بدرجة أقل قليلاً قد يكفي لمهمتك بتكلفة أقل بكثير. قسّم النتيجة على سعر الاستخدام لكل مليون رمز للحصول على مؤشر قيمة عملي."
+        },
+        {
+          "title": "انتبه لحالة النموذج",
+          "detail": "الوسوم مثل «معاينة» (Preview) أو «غير مُصدر» تعني نتائج أولية قابلة للتغير، وقد تُسحب النسخة لاحقاً — لا تبنِ منتجاً حرجاً عليها."
+        },
+        {
+          "title": "جرّب النموذج على مهمتك الفعلية",
+          "detail": "عيّنة صغيرة من حالات استخدامك الحقيقية (20-50 حالة) أصدق دليل من أي لوحة نتائج. قارن مخرجات نموذجين أو ثلاثة على الحالات نفسها قبل القرار."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Look at composite scores, not a single number",
+          "detail": "Models excel in different areas — coding, math, or writing. A composite score gives a fuller picture than one carefully picked benchmark."
+        },
+        {
+          "title": "Ask about benchmark contamination",
+          "detail": "Test questions can leak into a model's training data (contamination) and inflate its scores. Prefer benchmarks that are recent or refreshed regularly."
+        },
+        {
+          "title": "Compute price versus performance",
+          "detail": "A slightly lower-scoring model may be good enough at a fraction of the cost. Divide the score by the price per million tokens for a practical value index."
+        },
+        {
+          "title": "Mind the model's status",
+          "detail": "Labels like \"Preview\" or \"Unreleased\" mean early, changeable results, and the version may be withdrawn later — don't build critical products on them."
+        },
+        {
+          "title": "Test the model on your actual task",
+          "detail": "A small sample of your real use cases (20-50 items) is stronger evidence than any leaderboard. Compare two or three models on the same cases before deciding."
+        }
+      ],
+      "code": "# Quick price-performance check\nmodels = [\n    {\"name\": \"Frontier A\", \"score\": 56.8, \"price_per_mtok\": 10.0},\n    {\"name\": \"Budget B\",  \"score\": 52.7, \"price_per_mtok\": 0.16},\n]\nfor m in models:\n    m[\"value\"] = round(m[\"score\"] / m[\"price_per_mtok\"], 1)\nfor m in sorted(models, key=lambda x: -x[\"value\"]):\n    print(f'{m[\"name\"]}: score {m[\"score\"]} -> value index {m[\"value\"]}')",
+      "resources": [
+        {
+          "name": "LLM Stats — composite leaderboard",
+          "url": "https://llm-stats.com/"
+        },
+        {
+          "name": "LMArena — human preference battles",
+          "url": "https://lmarena.ai/"
+        },
+        {
+          "name": "Artificial Analysis — independent model benchmarks",
+          "url": "https://artificialanalysis.ai/"
+        }
+      ],
+      "tags": [
+        "لوحات النتائج",
+        "معايير القياس",
+        "اختيار النموذج",
+        "التكلفة مقابل الأداء"
+      ],
+      "quickRef": "لا تثق برقم واحد: تحقق من النتيجة المركبة، واحذر تلوث الاختبارات، واحسب السعر مقابل الأداء، وجرّب النموذج على حالات استخدامك الفعلية قبل اعتماده.",
+      "quickRefEn": "Don't trust a single number: check composite scores, watch for contamination, compute price-performance, and test the model on your real use cases before adopting it.",
+      "quiz": [
+        {
+          "q": "ما هو «تلوث بيانات الاختبار» (Contamination) في لوحات النتائج؟",
+          "options": [
+            "اختلاط نتائج نموذجين مختلفين",
+            "تسرب أسئلة الاختبار إلى بيانات تدريب النموذج فتنتفخ درجته",
+            "خطأ في حساب النتيجة المركبة",
+            "تأخر تحديث اللوحة"
+          ],
+          "answer": 1,
+          "explain": "التلوث يعني أن النموذج رأى أسئلة الاختبار أثناء التدريب (أو ما يشبهها)، فيحصل على درجات مرتفعة لا تعكس قدرته الفعلية على مهام جديدة."
+        },
+        {
+          "q": "لماذا يُنصح بحساب «السعر مقابل الأداء» قبل اختيار نموذج؟",
+          "options": [
+            "لأن النموذج الأغلى دائماً أفضل",
+            "لأن الفارق الضئيل في الدرجات قد لا يستحق فرق التكلفة الكبير حسب مهمتك",
+            "لأن النماذج الرخيصة أسرع دائماً",
+            "لأن الأسعار لا تتغير"
+          ],
+          "answer": 1,
+          "explain": "نموذج بدرجة أعلى بنقطة قد يكلف أضعاف سعر بديل أرخص؛ إن كان البديل يكفي لمهمتك فالفارق في الدرجات لا يستحق فرق التكلفة."
+        },
+        {
+          "q": "ماذا يعني وسم «Preview» بجانب اسم نموذج في اللوحة؟",
+          "options": [
+            "أن النموذج مفتوح المصدر بالكامل",
+            "أن نتائجه أولية وقابلة للتغير وقد تُسحب النسخة لاحقاً",
+            "أنه الأفضل في البرمجة",
+            "أنه مجاني للاستخدام التجاري"
+          ],
+          "answer": 1,
+          "explain": "وسم «Preview» يشير إلى إصدار تجريبي: نتائجه قد تتغير في النسخة النهائية وقد يُسحب، لذا لا يُنصح بالبناء عليه في أنظمة حرجة."
+        }
+      ],
+      "addedAt": "2026-09-01"
+    },
+    {
       "id": "k-2026-08-31-تصميم-وكلاء-الذكاء-الاصطناعي-بأمان",
       "title": "تصميم وكلاء الذكاء الاصطناعي بأمان",
       "titleEn": "Designing Safe AI Agents",
