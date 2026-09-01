@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-01-تحليل-البيانات-وتصورها-باستخدام-الذكاء-الاصطناعي",
+      "title": "تحليل البيانات وتصورها باستخدام الذكاء الاصطناعي",
+      "titleEn": "Data Analysis and Visualization Using AI",
+      "why": "يساعدك تحليل البيانات وتصورها باستخدام الذكاء الاصطناعي على استخراج رؤى قيمة من كميات كبيرة من البيانات بشكل أسرع وأكثر دقة من الطرق التقليدية، مما يسمح باتخاذ قرارات مستنيرة في مختلف المجالات.",
+      "whyEn": "Using AI for data analysis and visualization helps you extract valuable insights from large datasets faster and more accurately than traditional methods, enabling informed decision-making across various domains.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "تحديد مشكلة البيانات",
+          "detail": "حدد السؤال الرئيسي الذي تريد الإجابة عليه أو المشكلة التي تريد حلها باستخدام البيانات. حدد نوع البيانات المتاحة وما هي النتائج المتوقعة."
+        },
+        {
+          "title": "تنظيف ومعالجة البيانات",
+          "detail": "استخدم أدوات الذكاء الاصطناعي لتنظيف البيانات ومعالجة القيم المفقودة والقيم المتطرفة. يمكن استخدام نماذج مثل GPT-4 أو Claude للمساعدة في فهم وتصحيح البيانات النصية."
+        },
+        {
+          "title": "استكشاف البيانات وتحليلها",
+          "detail": "استخدم خوارزميات التعلم الآلي لتحديد الأنماط والعلاقات في البيانات. يمكن استخدام أدوات مثل Pandas في بايثون مع مكتبات الذكاء الاصطناعي لتحليل البيانات بشكل أعمق."
+        },
+        {
+          "title": "تصور النتائج",
+          "detail": "أنشئ تصورات بصرية جذابة باستخدام أدوات مثل Tableau أو Power BI أو مكتبات Python مثل Matplotlib و Seaborn. استخدم الذكاء الاصطناعي لتحسين تصميم التصورات وتحديد أفضل طرق عرض البيانات."
+        },
+        {
+          "title": "تفسير النتائج واتخاذ القرار",
+          "detail": "استخدم نماذج الذكاء الاصطناعي لمساعدتك في تفسير النتائج وتقديم توصيات بناءً على التحليل. قدم النتائج بطريقة واضحة للمستفيدين من القرار."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define the data problem",
+          "detail": "Identify the main question you want to answer or the problem you want to solve using data. Determine the type of data available and what outcomes are expected."
+        },
+        {
+          "title": "Clean and preprocess data",
+          "detail": "Use AI tools to clean data and handle missing values and outliers. Models like GPT-4 or Claude can assist in understanding and correcting textual data."
+        },
+        {
+          "title": "Explore and analyze data",
+          "detail": "Use machine learning algorithms to identify patterns and relationships in the data. You can use tools like Pandas in Python with AI libraries for deeper data analysis."
+        },
+        {
+          "title": "Visualize results",
+          "detail": "Create engaging visualizations using tools like Tableau, Power BI, or Python libraries like Matplotlib and Seaborn. Use AI to improve visualization design and identify the best ways to display data."
+        },
+        {
+          "title": "Interpret results and make decisions",
+          "detail": "Use AI models to help interpret results and provide recommendations based on the analysis. Present findings clearly to decision-makers."
+        }
+      ],
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.ensemble import RandomForestRegressor\nfrom sklearn.metrics import mean_squared_error\n\n# Load and prepare data\ndata = pd.read_csv('your_dataset.csv')\ndata = data.dropna()  # Remove missing values\n\n# Explore data\ndata.describe()\ndata.info()\n\n# Create visualizations\nplt.figure(figsize=(10, 6))\nsns.scatterplot(x='feature1', y='feature2', hue='target', data=data)\nplt.title('Feature Relationship with Target')\nplt.show()\n\n# Train AI model\nX = data.drop('target', axis=1)\ny = data['target']\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\nmodel = RandomForestRegressor(n_estimators=100, random_state=42)\nmodel.fit(X_train, y_train)\n\n# Evaluate model\npredictions = model.predict(X_test)\nmse = mean_squared_error(y_test, predictions)\nprint(f'Mean Squared Error: {mse}')\n\n# Feature importance\nplt.figure(figsize=(10, 6))\nfeature_importance = pd.Series(model.feature_importances_, index=X.columns)\nfeature_importance.nlargest(10).plot(kind='bar')\nplt.title('Top 10 Feature Importances')\nplt.show()",
+      "resources": [
+        {
+          "name": "Kaggle Learn - Data Visualization",
+          "url": "https://www.kaggle.com/learn/data-visualization"
+        },
+        {
+          "name": "Python Data Science Handbook",
+          "url": "https://jakevdp.github.io/PythonDataScienceHandbook/"
+        },
+        {
+          "name": "Tableau Public",
+          "url": "https://public.tableau.com/"
+        }
+      ],
+      "tags": [
+        "تحليل البيانات",
+        "تصور البيانات",
+        "التعلم الآلي",
+        "Python"
+      ],
+      "quickRef": "استخدم الذكاء الاصطناعي لتنظيف البيانات، تحديد الأنماط، وتصور النتائج بشكل فعال",
+      "quickRefEn": "Use AI to clean data, identify patterns, and effectively visualize results",
+      "quiz": [
+        {
+          "q": "ما هو الخطأ الأكثر شيوعًا في تحليل البيانات باستخدام الذكاء الاصطناعي؟",
+          "options": [
+            "عدم تنظيف البيانات بشكل كافي",
+            "استخدام خوارزميات معقدة جدًا",
+            "عدم تحديد السؤال الصحيح في البداية",
+            "استخدام تصورات غير مناسبة"
+          ],
+          "answer": 2,
+          "explain": "عدم تحديد السؤال الصحيح في البداية هو الخطأ الأكثر شيوعًا، حيث يؤدي إلى تحليل غير موجه ونتائج غير مفيدة."
+        },
+        {
+          "q": "أي من الأدوات التالية يعتبر الأفضل لإنشاء تصورات تفاعلية للبيانات؟",
+          "options": [
+            "Excel",
+            "Tableau",
+            "Pandas",
+            "NumPy"
+          ],
+          "answer": 1,
+          "explain": "Tableau هو الأفضل لإنشاء تصورات تفاعلية للبيانات، حيث يوفر واجهة سهلة الاستخدام وميزات تصوية متقدمة."
+        },
+        {
+          "q": "كيف يمكن استخدام الذكاء الاصطناعي لتحسين تصور البيانات؟",
+          "options": [
+            "اختيار الألوان العشوائية",
+            "تحديد أفضل طرق العرض تلقائيًا",
+            "زيادة تعقيد التصورات",
+            "استخدام رسوم بيانية بسيطة فقط"
+          ],
+          "answer": 1,
+          "explain": "يمكن للذكاء الاصطناعي تحليل البيانات وتحديد أفضل طرق العرض تلقائيًا بناءً على نوع البيانات والنقاط الرئيسية التي يجب تسليط الضوء عليها."
+        }
+      ],
+      "addedAt": "2026-09-01"
+    },
+    {
       "id": "k-2026-09-01-كيف-تقرأ-لوحات-نتائج-النماذج",
       "title": "كيف تقرأ لوحات نتائج النماذج بوعي",
       "titleEn": "How to Read AI Leaderboards Critically",
