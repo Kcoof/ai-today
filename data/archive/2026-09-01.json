@@ -1,0 +1,484 @@
+{
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T10:24:53.290Z",
+  "news": [
+    {
+      "id": "n-2026-09-01-7",
+      "title": "كلاود أوبس 5: تحول كبير في النماذج",
+      "titleEn": "Claude Opus 5: A major leap in models",
+      "summary": "أعلنت أنثروب عن كلاود أوبس 5 الذي يمثل تحولًا كبيرًا في الأداء مع وكلاء طويلة المدى.",
+      "summaryEn": "Anthropic announced Claude Opus 5, representing a major leap in performance with long-running agents.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/claude-opus-5"
+      },
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "n-2026-09-01-8",
+      "title": "مقابلات بين مونشوت ومايكروسوفت وأمازون وجوجل حول نموذج K3",
+      "titleEn": "Moonshot in talks with Microsoft, Amazon, Google over K3 model",
+      "summary": "تتحدث شركة مونشوت الصينية مع كبار مقدمي الخدمات السحابية حول مشاركة إيرادات نموذج K3.",
+      "summaryEn": "Chinese Moonshot is in talks with major cloud providers about K3 model revenue sharing.",
+      "category": "companies",
+      "importance": 5,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
+      },
+      "publishedAt": "2026-08-26"
+    },
+    {
+      "id": "n-2026-09-01-2",
+      "title": "OpenAI تدعم مشروع قانون كاليفورنيا لتعزيز سلامة الذكاء الاصطناعي للشباب",
+      "titleEn": "OpenAI supports California's bill to advance youth AI safety",
+      "summary": "أعلنت OpenAI عن دعمها لمشروع قانون SB 1119 الذي يسعى لتطبيق ضمانات ذكاء اصطناعي قوية مناسبة للعمر للمراهقين.",
+      "summaryEn": "OpenAI announced its support for SB 1119, which aims to implement strong, age-appropriate AI safeguards for teenagers.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
+      },
+      "publishedAt": "2026-08-31"
+    },
+    {
+      "id": "n-2026-09-01-4",
+      "title": "إنجاز في توسيع الوصول إلى الذكاء الاصطناعي: ChatGPT Ads تصل إلى مليار دولار",
+      "titleEn": "A milestone in expanding access to AI: ChatGPT Ads reaches $1 billion",
+      "summary": "أعلنت OpenAI عن وصول إيرادات ChatGPT Ads إلى معدل سنوي قدره مليار دولار مع التوسع العالمي.",
+      "summaryEn": "OpenAI announced ChatGPT Ads has reached $1 billion in annualized revenue with global expansion.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+      },
+      "publishedAt": "2026-08-31"
+    },
+    {
+      "id": "n-2026-09-01-5",
+      "title": "جيميني أومني 1.1 فلاش: المزيد من التحكم في البناء",
+      "titleEn": "Gemini Omni 1.1 Flash: More control in building",
+      "summary": "أطلقت جوجل دميند نموذج جيميني أومني 1.1 فلاش الذي يوفر مزيدًا من التحكم للمطورين.",
+      "summaryEn": "Google DeepMind launched Gemini Omni 1.1 Flash, providing developers with more control.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-09-01-6",
+      "title": "تجربة أول تقييمات ذكاء اصطناعي مزدوجة العمى في العالم",
+      "titleEn": "Piloting the world's first double-blind AI evaluations",
+      "summary": "تستكشف جوجل دميند تقنية تقييمات الذكاء الاصطناعي المزدوجة العمى لتحديد التحيزات.",
+      "summaryEn": "Google DeepMind is exploring double-blind AI evaluation techniques to identify biases.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-09-01-9",
+      "title": "نموذج كيمي K3 الصيني الذي يثير اهتمام وول ستريت",
+      "titleEn": "Kimi K3: The Chinese AI model gaining Wall Street attention",
+      "summary": "يكتسب نموذج كيمي K3 الصيني اهتمامًا كبيرًا في الأسواق المالية العالمية.",
+      "summaryEn": "The Chinese Kimi K3 model is gaining significant attention in global financial markets.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNDVXcGZtZnB1R3VlbWdyemp2eWxVLUVkaUlaVkEwenJXWC13YmpRLXg2OEY5T0hUTnotQ1ZYVm55aDR3My04X19EcHRhYTAyaExxb1gzUzBCZ2drV0l1U0JqcVJUc0RXQ1Uzck9jNXpGd2J4QzZqQmpNUVc2R0twWDduamd4WWcxQmRsenpWTlpocERZN3lmY3A2YS10YVEyMlpGcnZRQkpia3c0SXZiNHBQVTZFN08zeGo4aENUd1VqSjJfM1F4Qw?oc=5"
+      },
+      "publishedAt": "2026-08-31"
+    },
+    {
+      "id": "n-2026-09-01-10",
+      "title": "Z.ai ترتفع أسهمها 8% بعد إطلاق نموذج يعمل فقط على رقائق صينية",
+      "titleEn": "Z.ai shares surge 8% after releasing model running only on Chinese chips",
+      "summary": "شهدت أسهم شركة Z.ai ارتفاعًا بنسبة 8% بعد إطلاق نموذج يعمل حصريًا على الرقائق الصينية.",
+      "summaryEn": "Z.ai shares rose 8% after launching a model that runs exclusively on Chinese chips.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-09-01-11",
+      "title": "ألكسندر 3.7 فلاش: نموذج جديد من جوجل دميند",
+      "titleEn": "Gemini 3.7 Flash: A new model from Google DeepMind",
+      "summary": "أطلقت جوجل دميند نموذج ألكسندر 3.7 فلاش مع تحسينات في الأداء والكفاءة.",
+      "summaryEn": "Google DeepMind launched Gemini 3.7 Flash with improvements in performance and efficiency.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+      },
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "id": "n-2026-09-01-12",
+      "title": "كلاود سونيت 5: أداء متقدم في البرمجة والوكلاء",
+      "titleEn": "Claude Sonnet 5: Advanced performance in coding and agents",
+      "summary": "يوفر كلاود سونيت 5 أداءً متقدمًا في البرمجة والوكلاء والعمل المهني.",
+      "summaryEn": "Claude Sonnet 5 delivers advanced performance in coding, agents, and professional work.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/claude-sonnet-5"
+      },
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "n-2026-09-01-1",
+      "title": "نظام DIASENTINEL: نظام متعدد الوكلاء للفحص القائم على الإرشادات لخطر السكري",
+      "titleEn": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
+      "summary": "نظام جديد يستخدم نماذج اللغة الكبيرة لدعم قرارات الرعاية الصحية، مع التركيز على إمكانية تدقيق النتائج.",
+      "summaryEn": "A new system using large language models for clinical decision support, focusing on auditability of results.",
+      "category": "research",
+      "importance": 3,
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2608.31128v1"
+      },
+      "publishedAt": "2026-08-31"
+    },
+    {
+      "id": "n-2026-09-01-3",
+      "title": "بولميل تبني البنية التحتية العامة للذكاء الاصطناعي التالية في اليابان",
+      "titleEn": "Polimill builds Japan's next-generation public AI infrastructure",
+      "summary": "تستخدم بولميل نماذج GPT و Codex من OpenAI لمساعدة البلديات في البحث واستخدام البيانات الإدارية.",
+      "summaryEn": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative data.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/polimill"
+      },
+      "publishedAt": "2026-08-31"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-09-01-1",
+      "name": "Gemini Omni 1.1 Flash",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-08-27",
+      "highlights": "يوفر مزيدًا من التحكم للمطورين في بناء التطبيقات",
+      "highlightsEn": "Provides developers with more control in building applications",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+    },
+    {
+      "id": "m-2026-09-01-2",
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "releaseDate": "2026-07-24",
+      "highlights": "تحول كبير في الأداء مع وكلاء طويلة المدى",
+      "highlightsEn": "Major leap in performance with long-running agents",
+      "specs": {},
+      "url": "https://www.anthropic.com/news/claude-opus-5"
+    },
+    {
+      "id": "m-2026-09-01-3",
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "releaseDate": "2026-06-30",
+      "highlights": "أداء متقدم في البرمجة والوكلاء والعمل المهني",
+      "highlightsEn": "Advanced performance in coding, agents, and professional work",
+      "specs": {},
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    {
+      "id": "m-2026-09-01-4",
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-08-31",
+      "highlights": "نموذج صيني يكتسب اهتمامًا كبيرًا في الأسواق المالية",
+      "highlightsEn": "Chinese model gaining significant attention in financial markets",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNDVXcGZtZnB1R3VlbWdyemp2eWxVLUVkaUlaVkEwenJXWC13YmpRLXg2OEY5T0hUTnotQ1ZYVm55aDR3My04X19EcHRhYTAyaExxb1gzUzBCZ2drV0l1U0JqcVJUc0RXQ1Uzck9jNXpGd2J4QzZqQmpNUVc2R0twWDduamd4WWcxQmRsenpWTlpocERZN3lmY3A2YS10YVEyMlpGcnZRQkpia3c0SXZiNHBQVTZFN08zeGo4aENUd1VqSjJfM1F4Qw?oc=5"
+    },
+    {
+      "id": "m-2026-09-01-5",
+      "name": "Ox Alpha",
+      "org": "Z.ai",
+      "releaseDate": "2026-08-27",
+      "highlights": "نموذج يعمل حصريًا على الرقائق الصينية",
+      "highlightsEn": "Model that runs exclusively on Chinese chips",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
+    },
+    {
+      "id": "m-2026-09-01-6",
+      "name": "GLM-5.3-Flash",
+      "org": "Z.ai",
+      "releaseDate": "2026-08-26",
+      "highlights": "نموذج متعدد الوسائط بحجم 320B-18B ودعم سياق 1Mトークン",
+      "highlightsEn": "320B-18B multimodal model with 1M token context support",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRHlLLVdZV0MxamppWTRVc1U0X1lsTzBnQTBxdDd6b1Z3dW42bGZyMHNUM2gwT3F2ZzRkeGp2dnFveUZnUDd3cmE2MDZxSzloT29VZnktOTZlOVRZbS10UmZRZGk0VGFjT1RMVlc4blltUEpnbkZFWlJXa0hrVlA3Qi1XR0l6aUZMR1J2OEZEUUZjcklxejhNQnF5SXI1R3pfaUE5aDA1NmpSVWRZaGtiWm8wVXU1ZFU5QV8wdW92clhScHotUVlN0gHMAUFVX3lxTE43SUtxWWhSYk0wNnE0TjQweWZCTUdKVE1BQXFzRmQ5RF9hQnNBV2RNcDJBQkQ1T0s0UmZPR2FYNk03eE9UZlUtTEM0WnV4ZmlVbHYyUDNhR2h3SzgxX1NGVk1lMG03MXR2VUtleDVGMVJmSWtVUTM1eEZYNGtCUTM3bGJsUEwzZWphTTlKZExuU2hOcGVOa2JmTkU2enI5SkF2Q2EyckJUd2s4eEVNbGhmbjU4cnl4bGEyWXRLS3N5cEtHSDFYYXB2VHRJMA?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-09-01-1",
+      "text": "ChatGPT Ads تصل إلى مليار دولار في الإيرادات السنوية",
+      "textEn": "ChatGPT Ads reaches $1 billion in annualized revenue",
+      "level": "info",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+    },
+    {
+      "id": "h-2026-09-01-2",
+      "text": "مونشوت في مفاوضات مع مايكروسوفت وأمازون وجوجل حول مشاركة إيرادات نموذج K3",
+      "textEn": "Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
+    },
+    {
+      "id": "h-2026-09-01-3",
+      "text": "أسهم Z.ai ترتفع 8% بعد إطلاق نموذج يعمل فقط على الرقائق الصينية",
+      "textEn": "Z.ai shares surge 8% after releasing model running only on Chinese chips",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-09-01-1",
+      "title": "نظام DIASENTINEL: نظام متعدد الوكلاء للفحص القائم على الإرشادات لخطر السكري",
+      "titleEn": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
+      "summary": "دراسة تظهر أن نماذج اللغة الكبيرة (LLMs) رغم وعدها بدعم قرارات الرعاية الصحية، لا تزال عرضة للثغرات وتحتاج إلى تدقيق.",
+      "summaryEn": "Research showing that large language models (LLMs), despite their promise for clinical decision support, remain vulnerable and require auditing.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://arxiv.org/abs/2608.31128v1",
+      "source": "arXiv",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "sec-2026-09-01-2",
+      "title": "هل يهاجم شخص ثلاجات وزارة الدفاع؟",
+      "titleEn": "Is Someone Hacking DoD Refrigerators?",
+      "summary": "تشير التقارير إلى وجود هجمات محتملة على أنظمة إنترنت الأشياء في منشآت عسكرية أمريكية بما في ذلك قاعدة فورت إيروين.",
+      "summaryEn": "Reports suggest potential attacks on IoT systems at U.S. military facilities including Fort Irwin.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "sec-2026-09-01-3",
+      "title": "إخفاء حقن المطالبات في الملفات القانونية",
+      "titleEn": "Hiding Prompt Injection in Legal Filing",
+      "summary": "اكتشاف تقنية جديدة لإخفاء أوامر الذكاء الاصطناعي في الملفات القانونية، مما يمثل خطرًا على سلامة النظام القانوني.",
+      "summaryEn": "Discovery of a new technique for hiding AI commands in legal documents, posing a threat to legal system integrity.",
+      "type": "prompt-injection",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "sec-2026-09-01-4",
+      "title": "الاحتيال الاجتماعي القائم على نماذج اللغة الكبيرة",
+      "titleEn": "LLM-Based Social Engineering Scams",
+      "summary": "أوقفت OpenAI مجموعة من الاحتيال الاجتماعي من كمبوديا التي استخدمت ChatGPT لتنفيذ عمليات احتيال متقدمة.",
+      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT for sophisticated scams.",
+      "type": "malware",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-27"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-09-01",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "GPT-5.6 Sol",
+        "org": "OpenAI",
+        "score": "56.8"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "55.8"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "55.7"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "55.3"
+      },
+      {
+        "name": "Kimi K3",
+        "org": "Moonshot AI",
+        "score": "54.6"
+      },
+      {
+        "name": "GLM-5.3",
+        "org": "Zhipu AI",
+        "score": "54.2"
+      },
+      {
+        "name": "DeepSeek-V4-Pro-0813",
+        "org": "DeepSeek",
+        "score": "52.9"
+      },
+      {
+        "name": "Qwen3.8 Max",
+        "org": "Alibaba Cloud / Qwen Team",
+        "score": "52.7"
+      },
+      {
+        "name": "GPT-5.6 Terra",
+        "org": "OpenAI",
+        "score": "52.2"
+      },
+      {
+        "name": "Hy4 preview",
+        "org": "Tencent",
+        "score": "51.5"
+      }
+    ],
+    "highlights": "يستمر GPT-5.6 Sol في التألق في قائمة الترتيب بأعلى نقاط، بينما تهيمن نماذج Claude على المراكز الأربعة الأولى. يبرز نموذج Kimi K3 كأفضل نموذج مفتوح المصدر في الترتيب، بينما هناك سباق محموم بين عدة نماذج في منتصف القائمة العشرة الأولى.",
+    "highlightsEn": "GPT-5.6 Sol continues to lead with the highest score, while Claude models dominate the top four positions. Kimi K3 stands out as the top open-source model, while there's a tight race among several models in the middle of the top ten."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-09-01-تحليل-البيانات-وتصورها-باستخدام-الذكاء-الاصطناعي",
+    "title": "تحليل البيانات وتصورها باستخدام الذكاء الاصطناعي",
+    "titleEn": "Data Analysis and Visualization Using AI",
+    "why": "يساعدك تحليل البيانات وتصورها باستخدام الذكاء الاصطناعي على استخراج رؤى قيمة من كميات كبيرة من البيانات بشكل أسرع وأكثر دقة من الطرق التقليدية، مما يسمح باتخاذ قرارات مستنيرة في مختلف المجالات.",
+    "whyEn": "Using AI for data analysis and visualization helps you extract valuable insights from large datasets faster and more accurately than traditional methods, enabling informed decision-making across various domains.",
+    "difficulty": "intermediate",
+    "track": "tools",
+    "steps": [
+      {
+        "title": "تحديد مشكلة البيانات",
+        "detail": "حدد السؤال الرئيسي الذي تريد الإجابة عليه أو المشكلة التي تريد حلها باستخدام البيانات. حدد نوع البيانات المتاحة وما هي النتائج المتوقعة."
+      },
+      {
+        "title": "تنظيف ومعالجة البيانات",
+        "detail": "استخدم أدوات الذكاء الاصطناعي لتنظيف البيانات ومعالجة القيم المفقودة والقيم المتطرفة. يمكن استخدام نماذج مثل GPT-4 أو Claude للمساعدة في فهم وتصحيح البيانات النصية."
+      },
+      {
+        "title": "استكشاف البيانات وتحليلها",
+        "detail": "استخدم خوارزميات التعلم الآلي لتحديد الأنماط والعلاقات في البيانات. يمكن استخدام أدوات مثل Pandas في بايثون مع مكتبات الذكاء الاصطناعي لتحليل البيانات بشكل أعمق."
+      },
+      {
+        "title": "تصور النتائج",
+        "detail": "أنشئ تصورات بصرية جذابة باستخدام أدوات مثل Tableau أو Power BI أو مكتبات Python مثل Matplotlib و Seaborn. استخدم الذكاء الاصطناعي لتحسين تصميم التصورات وتحديد أفضل طرق عرض البيانات."
+      },
+      {
+        "title": "تفسير النتائج واتخاذ القرار",
+        "detail": "استخدم نماذج الذكاء الاصطناعي لمساعدتك في تفسير النتائج وتقديم توصيات بناءً على التحليل. قدم النتائج بطريقة واضحة للمستفيدين من القرار."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Define the data problem",
+        "detail": "Identify the main question you want to answer or the problem you want to solve using data. Determine the type of data available and what outcomes are expected."
+      },
+      {
+        "title": "Clean and preprocess data",
+        "detail": "Use AI tools to clean data and handle missing values and outliers. Models like GPT-4 or Claude can assist in understanding and correcting textual data."
+      },
+      {
+        "title": "Explore and analyze data",
+        "detail": "Use machine learning algorithms to identify patterns and relationships in the data. You can use tools like Pandas in Python with AI libraries for deeper data analysis."
+      },
+      {
+        "title": "Visualize results",
+        "detail": "Create engaging visualizations using tools like Tableau, Power BI, or Python libraries like Matplotlib and Seaborn. Use AI to improve visualization design and identify the best ways to display data."
+      },
+      {
+        "title": "Interpret results and make decisions",
+        "detail": "Use AI models to help interpret results and provide recommendations based on the analysis. Present findings clearly to decision-makers."
+      }
+    ],
+    "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.ensemble import RandomForestRegressor\nfrom sklearn.metrics import mean_squared_error\n\n# Load and prepare data\ndata = pd.read_csv('your_dataset.csv')\ndata = data.dropna()  # Remove missing values\n\n# Explore data\ndata.describe()\ndata.info()\n\n# Create visualizations\nplt.figure(figsize=(10, 6))\nsns.scatterplot(x='feature1', y='feature2', hue='target', data=data)\nplt.title('Feature Relationship with Target')\nplt.show()\n\n# Train AI model\nX = data.drop('target', axis=1)\ny = data['target']\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\nmodel = RandomForestRegressor(n_estimators=100, random_state=42)\nmodel.fit(X_train, y_train)\n\n# Evaluate model\npredictions = model.predict(X_test)\nmse = mean_squared_error(y_test, predictions)\nprint(f'Mean Squared Error: {mse}')\n\n# Feature importance\nplt.figure(figsize=(10, 6))\nfeature_importance = pd.Series(model.feature_importances_, index=X.columns)\nfeature_importance.nlargest(10).plot(kind='bar')\nplt.title('Top 10 Feature Importances')\nplt.show()",
+    "resources": [
+      {
+        "name": "Kaggle Learn - Data Visualization",
+        "url": "https://www.kaggle.com/learn/data-visualization"
+      },
+      {
+        "name": "Python Data Science Handbook",
+        "url": "https://jakevdp.github.io/PythonDataScienceHandbook/"
+      },
+      {
+        "name": "Tableau Public",
+        "url": "https://public.tableau.com/"
+      }
+    ],
+    "tags": [
+      "تحليل البيانات",
+      "تصور البيانات",
+      "التعلم الآلي",
+      "Python"
+    ],
+    "quickRef": "استخدم الذكاء الاصطناعي لتنظيف البيانات، تحديد الأنماط، وتصور النتائج بشكل فعال",
+    "quickRefEn": "Use AI to clean data, identify patterns, and effectively visualize results",
+    "quiz": [
+      {
+        "q": "ما هو الخطأ الأكثر شيوعًا في تحليل البيانات باستخدام الذكاء الاصطناعي؟",
+        "options": [
+          "عدم تنظيف البيانات بشكل كافي",
+          "استخدام خوارزميات معقدة جدًا",
+          "عدم تحديد السؤال الصحيح في البداية",
+          "استخدام تصورات غير مناسبة"
+        ],
+        "answer": 2,
+        "explain": "عدم تحديد السؤال الصحيح في البداية هو الخطأ الأكثر شيوعًا، حيث يؤدي إلى تحليل غير موجه ونتائج غير مفيدة."
+      },
+      {
+        "q": "أي من الأدوات التالية يعتبر الأفضل لإنشاء تصورات تفاعلية للبيانات؟",
+        "options": [
+          "Excel",
+          "Tableau",
+          "Pandas",
+          "NumPy"
+        ],
+        "answer": 1,
+        "explain": "Tableau هو الأفضل لإنشاء تصورات تفاعلية للبيانات، حيث يوفر واجهة سهلة الاستخدام وميزات تصوية متقدمة."
+      },
+      {
+        "q": "كيف يمكن استخدام الذكاء الاصطناعي لتحسين تصور البيانات؟",
+        "options": [
+          "اختيار الألوان العشوائية",
+          "تحديد أفضل طرق العرض تلقائيًا",
+          "زيادة تعقيد التصورات",
+          "استخدام رسوم بيانية بسيطة فقط"
+        ],
+        "answer": 1,
+        "explain": "يمكن للذكاء الاصطناعي تحليل البيانات وتحديد أفضل طرق العرض تلقائيًا بناءً على نوع البيانات والنقاط الرئيسية التي يجب تسليط الضوء عليها."
+      }
+    ],
+    "addedAt": "2026-09-01"
+  }
+}

@@ -1,55 +1,41 @@
 {
-  "date": "2026-09-01",
-  "generatedAt": "2026-09-01T10:24:53.290Z",
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T09:54:42.243Z",
   "news": [
     {
-      "id": "n-2026-09-01-7",
-      "title": "كلاود أوبس 5: تحول كبير في النماذج",
-      "titleEn": "Claude Opus 5: A major leap in models",
-      "summary": "أعلنت أنثروب عن كلاود أوبس 5 الذي يمثل تحولًا كبيرًا في الأداء مع وكلاء طويلة المدى.",
-      "summaryEn": "Anthropic announced Claude Opus 5, representing a major leap in performance with long-running agents.",
+      "id": "n-2026-09-02-1",
+      "title": "مسار أسترا: قدرات حيوية وحمايات حدودية",
+      "titleEn": "Path to Astra: critical capabilities and frontier safeguards",
+      "summary": "أسترا هي أول نموذج من OpenAI يلبي عتبة القدرات الأمنية الحيوية، مع ميزات أمنية متقدمة لحماية البيانات الحساسة.",
+      "summaryEn": "Astra is the first OpenAI model to meet the critical cybersecurity capability threshold, with advanced security features to protect sensitive data.",
       "category": "models",
       "importance": 5,
       "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/claude-opus-5"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/path-to-astra"
       },
       "publishedAt": "2026-09-01"
     },
     {
-      "id": "n-2026-09-01-8",
-      "title": "مقابلات بين مونشوت ومايكروسوفت وأمازون وجوجل حول نموذج K3",
-      "titleEn": "Moonshot in talks with Microsoft, Amazon, Google over K3 model",
-      "summary": "تتحدث شركة مونشوت الصينية مع كبار مقدمي الخدمات السحابية حول مشاركة إيرادات نموذج K3.",
-      "summaryEn": "Chinese Moonshot is in talks with major cloud providers about K3 model revenue sharing.",
-      "category": "companies",
-      "importance": 5,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
-      },
-      "publishedAt": "2026-08-26"
-    },
-    {
-      "id": "n-2026-09-01-2",
-      "title": "OpenAI تدعم مشروع قانون كاليفورنيا لتعزيز سلامة الذكاء الاصطناعي للشباب",
-      "titleEn": "OpenAI supports California's bill to advance youth AI safety",
-      "summary": "أعلنت OpenAI عن دعمها لمشروع قانون SB 1119 الذي يسعى لتطبيق ضمانات ذكاء اصطناعي قوية مناسبة للعمر للمراهقين.",
-      "summaryEn": "OpenAI announced its support for SB 1119, which aims to implement strong, age-appropriate AI safeguards for teenagers.",
-      "category": "regulation",
+      "id": "n-2026-09-02-2",
+      "title": "المنظمات الصحية يمكن الآن ربط بيانات EHR وبيانات صناعية إضافية مع ChatGPT",
+      "titleEn": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "summary": "يمكن الآن لـ ChatGPT الاتصال ببيانات موثوقة في مجال الرعاية الصحية، مما يساعد الأطباء على الوصول بأمان إلى معلومات المرضى.",
+      "summaryEn": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient information.",
+      "category": "tools",
       "importance": 4,
       "source": {
         "name": "OpenAI",
-        "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
+        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
       },
-      "publishedAt": "2026-08-31"
+      "publishedAt": "2026-09-01"
     },
     {
-      "id": "n-2026-09-01-4",
+      "id": "n-2026-09-02-3",
       "title": "إنجاز في توسيع الوصول إلى الذكاء الاصطناعي: ChatGPT Ads تصل إلى مليار دولار",
       "titleEn": "A milestone in expanding access to AI: ChatGPT Ads reaches $1 billion",
-      "summary": "أعلنت OpenAI عن وصول إيرادات ChatGPT Ads إلى معدل سنوي قدره مليار دولار مع التوسع العالمي.",
-      "summaryEn": "OpenAI announced ChatGPT Ads has reached $1 billion in annualized revenue with global expansion.",
+      "summary": "وصلت إيرادات ChatGPT Ads إلى معدل سنوي قدره مليار دولار مع التوسع عالميًا، مما يدعم نموذجًا تجاريًا مستدامًا للذكاء الاصطناعي.",
+      "summaryEn": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting a sustainable business model for AI.",
       "category": "companies",
       "importance": 4,
       "source": {
@@ -59,11 +45,25 @@
       "publishedAt": "2026-08-31"
     },
     {
-      "id": "n-2026-09-01-5",
+      "id": "n-2026-09-02-4",
+      "title": "إدخال فهم الفيديو الوكيل مع جيميني",
+      "titleEn": "Introducing agentic video understanding with Gemini",
+      "summary": "كشف جوجل دميند عن قدرات جديدة لفهم الفيديو الوكيل، مما يمثل تقدمًا كبيرًا في تحليل المحتوى المرئي.",
+      "summaryEn": "Google DeepMind introduces new agentic video understanding capabilities, representing significant progress in visual content analysis.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
+      },
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "n-2026-09-02-5",
       "title": "جيميني أومني 1.1 فلاش: المزيد من التحكم في البناء",
-      "titleEn": "Gemini Omni 1.1 Flash: More control in building",
-      "summary": "أطلقت جوجل دميند نموذج جيميني أومني 1.1 فلاش الذي يوفر مزيدًا من التحكم للمطورين.",
-      "summaryEn": "Google DeepMind launched Gemini Omni 1.1 Flash, providing developers with more control.",
+      "titleEn": "Gemini Omni 1.1 Flash lets you build with more control",
+      "summary": "يوفر جيميني أومني 1.1 فلاش تحكمًا أكبر في عملية البناء، مع تحسينات في الأداء والدقة.",
+      "summaryEn": "Gemini Omni 1.1 Flash provides more control over the building process, with improvements in performance and accuracy.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -73,224 +73,194 @@
       "publishedAt": "2026-08-27"
     },
     {
-      "id": "n-2026-09-01-6",
-      "title": "تجربة أول تقييمات ذكاء اصطناعي مزدوجة العمى في العالم",
-      "titleEn": "Piloting the world's first double-blind AI evaluations",
-      "summary": "تستكشف جوجل دميند تقنية تقييمات الذكاء الاصطناعي المزدوجة العمى لتحديد التحيزات.",
-      "summaryEn": "Google DeepMind is exploring double-blind AI evaluation techniques to identify biases.",
-      "category": "research",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
-      },
-      "publishedAt": "2026-08-27"
-    },
-    {
-      "id": "n-2026-09-01-9",
-      "title": "نموذج كيمي K3 الصيني الذي يثير اهتمام وول ستريت",
-      "titleEn": "Kimi K3: The Chinese AI model gaining Wall Street attention",
-      "summary": "يكتسب نموذج كيمي K3 الصيني اهتمامًا كبيرًا في الأسواق المالية العالمية.",
-      "summaryEn": "The Chinese Kimi K3 model is gaining significant attention in global financial markets.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNDVXcGZtZnB1R3VlbWdyemp2eWxVLUVkaUlaVkEwenJXWC13YmpRLXg2OEY5T0hUTnotQ1ZYVm55aDR3My04X19EcHRhYTAyaExxb1gzUzBCZ2drV0l1U0JqcVJUc0RXQ1Uzck9jNXpGd2J4QzZqQmpNUVc2R0twWDduamd4WWcxQmRsenpWTlpocERZN3lmY3A2YS10YVEyMlpGcnZRQkpia3c0SXZiNHBQVTZFN08zeGo4aENUd1VqSjJfM1F4Qw?oc=5"
-      },
-      "publishedAt": "2026-08-31"
-    },
-    {
-      "id": "n-2026-09-01-10",
-      "title": "Z.ai ترتفع أسهمها 8% بعد إطلاق نموذج يعمل فقط على رقائق صينية",
-      "titleEn": "Z.ai shares surge 8% after releasing model running only on Chinese chips",
-      "summary": "شهدت أسهم شركة Z.ai ارتفاعًا بنسبة 8% بعد إطلاق نموذج يعمل حصريًا على الرقائق الصينية.",
-      "summaryEn": "Z.ai shares rose 8% after launching a model that runs exclusively on Chinese chips.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
-      },
-      "publishedAt": "2026-08-27"
-    },
-    {
-      "id": "n-2026-09-01-11",
-      "title": "ألكسندر 3.7 فلاش: نموذج جديد من جوجل دميند",
-      "titleEn": "Gemini 3.7 Flash: A new model from Google DeepMind",
-      "summary": "أطلقت جوجل دميند نموذج ألكسندر 3.7 فلاش مع تحسينات في الأداء والكفاءة.",
-      "summaryEn": "Google DeepMind launched Gemini 3.7 Flash with improvements in performance and efficiency.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
-      },
-      "publishedAt": "2026-08-13"
-    },
-    {
-      "id": "n-2026-09-01-12",
-      "title": "كلاود سونيت 5: أداء متقدم في البرمجة والوكلاء",
-      "titleEn": "Claude Sonnet 5: Advanced performance in coding and agents",
-      "summary": "يوفر كلاود سونيت 5 أداءً متقدمًا في البرمجة والوكلاء والعمل المهني.",
-      "summaryEn": "Claude Sonnet 5 delivers advanced performance in coding, agents, and professional work.",
+      "id": "n-2026-09-02-6",
+      "title": "إدخال كلود أوبس 5",
+      "titleEn": "Introducing Claude Opus 5",
+      "summary": "يُعد أوبس 5 تحولًا كبيرًا في مستوى أوبس، حيث يدعم الوكلات طويلة المدى مع تقديم نتائج متقدمة.",
+      "summaryEn": "Opus 5 is a step change improvement for the Opus tier, powering long-running agents while delivering advanced results.",
       "category": "models",
       "importance": 4,
       "source": {
         "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/claude-sonnet-5"
+        "url": "https://www.anthropic.com/news/claude-opus-5"
+      },
+      "publishedAt": "2026-09-02"
+    },
+    {
+      "id": "n-2026-09-02-7",
+      "title": "إخفاء حقن المطالبة في الملفات القانونية",
+      "titleEn": "Hiding Prompt Injection in Legal Filing",
+      "summary": "تمكن شخص ما من إخفاء تعليمات الذكاء الاصطناعي في ملف قانوني، مما يمثل تهديدًا أمنيًا جديدًا.",
+      "summaryEn": "Someone hid AI instructions into a legal filing, representing a new security threat.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html"
+      },
+      "publishedAt": "2026-08-31"
+    },
+    {
+      "id": "n-2026-09-02-8",
+      "title": "الاحتيالات الاجتماعية القائمة على LLM",
+      "titleEn": "LLM-Based Social Engineering Scams",
+      "summary": "أوقفت OpenAI مجموعة من الهندسة الاجتماعية من كمبوديا استخدمت ChatGPT، حيث بلغ نطاقها ما يقرب من 500 ضحية.",
+      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT, with its scope reaching nearly 500 victims.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-09-02-9",
+      "title": "كشف آبل عن 'أدلة صادمة' من MacBook لموظف سابق في دعوى OpenAI",
+      "titleEn": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
+      "summary": "كشفت آبل عن أدلة صادمة من جهاز MacBook لموظف سابق في دعوى قضائية ضد OpenAI، مما يزيد من حدة النزاع بين الشركتين.",
+      "summaryEn": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit, escalating the legal dispute between the companies.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/"
       },
       "publishedAt": "2026-09-01"
     },
     {
-      "id": "n-2026-09-01-1",
-      "title": "نظام DIASENTINEL: نظام متعدد الوكلاء للفحص القائم على الإرشادات لخطر السكري",
-      "titleEn": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
-      "summary": "نظام جديد يستخدم نماذج اللغة الكبيرة لدعم قرارات الرعاية الصحية، مع التركيز على إمكانية تدقيق النتائج.",
-      "summaryEn": "A new system using large language models for clinical decision support, focusing on auditability of results.",
-      "category": "research",
+      "id": "n-2026-09-02-10",
+      "title": "إدخال Muse Spark 1.1",
+      "titleEn": "Introducing Muse Spark 1.1",
+      "summary": "أعلنت ميتا عن إطلاق Muse Spark 1.1، وهو نموذج جديد لإنشاء المحتوى الإبداعي.",
+      "summaryEn": "Meta announced the launch of Muse Spark 1.1, a new model for creative content generation.",
+      "category": "models",
       "importance": 3,
       "source": {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2608.31128v1"
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
       },
-      "publishedAt": "2026-08-31"
+      "publishedAt": "2026-09-02"
     },
     {
-      "id": "n-2026-09-01-3",
-      "title": "بولميل تبني البنية التحتية العامة للذكاء الاصطناعي التالية في اليابان",
-      "titleEn": "Polimill builds Japan's next-generation public AI infrastructure",
-      "summary": "تستخدم بولميل نماذج GPT و Codex من OpenAI لمساعدة البلديات في البحث واستخدام البيانات الإدارية.",
-      "summaryEn": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative data.",
+      "id": "n-2026-09-02-11",
+      "title": "إدخال Muse Image و Muse Video",
+      "titleEn": "Introducing Muse Image and Muse Video",
+      "summary": "أطلقت ميتا Muse Image و Muse Video، وهما نموذجان جديدان لإنشاء الصور والفيديو باستخدام الذكاء الاصطناعي.",
+      "summaryEn": "Meta launched Muse Image and Muse Video, two new models for image and video generation using AI.",
       "category": "tools",
       "importance": 3,
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/polimill"
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
       },
-      "publishedAt": "2026-08-31"
+      "publishedAt": "2026-09-02"
     }
   ],
   "models": [
     {
-      "id": "m-2026-09-01-1",
+      "id": "m-2026-09-02-1",
+      "name": "Astra",
+      "org": "OpenAI",
+      "releaseDate": "2026-09-01",
+      "highlights": "أول نموذج من OpenAI يلبي عتبة القدرات الأمنية الحيوية، مع ميزات أمنية متقدمة لحماية البيانات الحساسة.",
+      "highlightsEn": "The first OpenAI model to meet the critical cybersecurity capability threshold, with advanced security features to protect sensitive data.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://openai.com/index/path-to-astra"
+    },
+    {
+      "id": "m-2026-09-02-2",
       "name": "Gemini Omni 1.1 Flash",
       "org": "Google DeepMind",
       "releaseDate": "2026-08-27",
-      "highlights": "يوفر مزيدًا من التحكم للمطورين في بناء التطبيقات",
-      "highlightsEn": "Provides developers with more control in building applications",
+      "highlights": "يوفر تحكمًا أكبر في عملية البناء، مع تحسينات في الأداء والدقة.",
+      "highlightsEn": "Provides more control over the building process with improvements in performance and accuracy.",
       "specs": {
         "context": "1M"
       },
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
     },
     {
-      "id": "m-2026-09-01-2",
+      "id": "m-2026-09-02-3",
       "name": "Claude Opus 5",
       "org": "Anthropic",
       "releaseDate": "2026-07-24",
-      "highlights": "تحول كبير في الأداء مع وكلاء طويلة المدى",
-      "highlightsEn": "Major leap in performance with long-running agents",
-      "specs": {},
+      "highlights": "تحول كبير في مستوى أوبس، يدعم الوكلات طويلة المدى مع تقديم نتائج متقدمة.",
+      "highlightsEn": "Step change improvement for the Opus tier, powering long-running agents while delivering advanced results.",
+      "specs": {
+        "context": "200K"
+      },
       "url": "https://www.anthropic.com/news/claude-opus-5"
     },
     {
-      "id": "m-2026-09-01-3",
-      "name": "Claude Sonnet 5",
-      "org": "Anthropic",
-      "releaseDate": "2026-06-30",
-      "highlights": "أداء متقدم في البرمجة والوكلاء والعمل المهني",
-      "highlightsEn": "Advanced performance in coding, agents, and professional work",
-      "specs": {},
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "id": "m-2026-09-01-4",
-      "name": "Kimi K3",
-      "org": "Moonshot AI",
+      "id": "m-2026-09-02-4",
+      "name": "Mistral OCR 4",
+      "org": "Mistral AI",
       "releaseDate": "2026-08-31",
-      "highlights": "نموذج صيني يكتسب اهتمامًا كبيرًا في الأسواق المالية",
-      "highlightsEn": "Chinese model gaining significant attention in financial markets",
-      "specs": {},
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNDVXcGZtZnB1R3VlbWdyemp2eWxVLUVkaUlaVkEwenJXWC13YmpRLXg2OEY5T0hUTnotQ1ZYVm55aDR3My04X19EcHRhYTAyaExxb1gzUzBCZ2drV0l1U0JqcVJUc0RXQ1Uzck9jNXpGd2J4QzZqQmpNUVc2R0twWDduamd4WWcxQmRsenpWTlpocERZN3lmY3A2YS10YVEyMlpGcnZRQkpia3c0SXZiNHBQVTZFN08zeGo4aENUd1VqSjJfM1F4Qw?oc=5"
-    },
-    {
-      "id": "m-2026-09-01-5",
-      "name": "Ox Alpha",
-      "org": "Z.ai",
-      "releaseDate": "2026-08-27",
-      "highlights": "نموذج يعمل حصريًا على الرقائق الصينية",
-      "highlightsEn": "Model that runs exclusively on Chinese chips",
-      "specs": {},
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
-    },
-    {
-      "id": "m-2026-09-01-6",
-      "name": "GLM-5.3-Flash",
-      "org": "Z.ai",
-      "releaseDate": "2026-08-26",
-      "highlights": "نموذج متعدد الوسائط بحجم 320B-18B ودعم سياق 1Mトークン",
-      "highlightsEn": "320B-18B multimodal model with 1M token context support",
+      "highlights": "نموذج OCR متقدم لتح النصوص من الصور بدقة عالية.",
+      "highlightsEn": "Advanced OCR model for extracting text from images with high accuracy.",
       "specs": {
-        "context": "1M"
+        "context": "128K"
       },
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRHlLLVdZV0MxamppWTRVc1U0X1lsTzBnQTBxdDd6b1Z3dW42bGZyMHNUM2gwT3F2ZzRkeGp2dnFveUZnUDd3cmE2MDZxSzloT29VZnktOTZlOVRZbS10UmZRZGk0VGFjT1RMVlc4blltUEpnbkZFWlJXa0hrVlA3Qi1XR0l6aUZMR1J2OEZEUUZjcklxejhNQnF5SXI1R3pfaUE5aDA1NmpSVWRZaGtiWm8wVXU1ZFU5QV8wdW92clhScHotUVlN0gHMAUFVX3lxTE43SUtxWWhSYk0wNnE0TjQweWZCTUdKVE1BQXFzRmQ5RF9hQnNBV2RNcDJBQkQ1T0s0UmZPR2FYNk03eE9UZlUtTEM0WnV4ZmlVbHYyUDNhR2h3SzgxX1NGVk1lMG03MXR2VUtleDVGMVJmSWtVUTM1eEZYNGtCUTM3bGJsUEwzZWphTTlKZExuU2hOcGVOa2JmTkU2enI5SkF2Q2EyckJUd2s4eEVNbGhmbjU4cnl4bGEyWXRLS3N5cEtHSDFYYXB2VHRJMA?oc=5"
+      "url": "https://mistral.ai/news/ocr-4/"
+    },
+    {
+      "id": "m-2026-09-02-5",
+      "name": "Mistral Medium 3.5",
+      "org": "Mistral AI",
+      "releaseDate": "2026-08-31",
+      "highlights": "نموذج متوسط الحجم مع أداء متقدم لمهام اللغة الطبيعية.",
+      "highlightsEn": "Medium-sized model with advanced performance for natural language tasks.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+    },
+    {
+      "id": "m-2026-09-02-6",
+      "name": "Mistral Small 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-08-31",
+      "highlights": "نموذج صغير الحجم فعال لمهام معالجة اللغة الطبيعية.",
+      "highlightsEn": "Small-sized efficient model for natural language processing tasks.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/mistral-small-4/"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-09-01-1",
-      "text": "ChatGPT Ads تصل إلى مليار دولار في الإيرادات السنوية",
-      "textEn": "ChatGPT Ads reaches $1 billion in annualized revenue",
+      "id": "h-2026-09-02-1",
+      "text": "إنجاز في توسيع الوصول إلى الذكاء الاصطناعي: ChatGPT Ads تصل إلى مليار دولار",
+      "textEn": "A milestone in expanding access to AI: ChatGPT Ads reaches $1 billion",
       "level": "info",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
     },
     {
-      "id": "h-2026-09-01-2",
-      "text": "مونشوت في مفاوضات مع مايكروسوفت وأمازون وجوجل حول مشاركة إيرادات نموذج K3",
-      "textEn": "Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
+      "id": "h-2026-09-02-2",
+      "text": "كشف آبل عن 'أدلة صادمة' من MacBook لموظف سابق في دعوى OpenAI",
+      "textEn": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
+      "level": "critical",
+      "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/"
     },
     {
-      "id": "h-2026-09-01-3",
-      "text": "أسهم Z.ai ترتفع 8% بعد إطلاق نموذج يعمل فقط على الرقائق الصينية",
-      "textEn": "Z.ai shares surge 8% after releasing model running only on Chinese chips",
+      "id": "h-2026-09-02-3",
+      "text": "الاستدلال في المنطقة، النماذج المفتوحة، والبنية التحتية الأوروبية الجديدة للذكاء الاصطناعي السيادي",
+      "textEn": "In-region inference, open models, and new European infrastructure for sovereign AI",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
+      "url": "https://mistral.ai/news/regional-inference-open-models-new-compute"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-09-01-1",
-      "title": "نظام DIASENTINEL: نظام متعدد الوكلاء للفحص القائم على الإرشادات لخطر السكري",
-      "titleEn": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
-      "summary": "دراسة تظهر أن نماذج اللغة الكبيرة (LLMs) رغم وعدها بدعم قرارات الرعاية الصحية، لا تزال عرضة للثغرات وتحتاج إلى تدقيق.",
-      "summaryEn": "Research showing that large language models (LLMs), despite their promise for clinical decision support, remain vulnerable and require auditing.",
-      "type": "policy",
-      "severity": "warning",
-      "url": "https://arxiv.org/abs/2608.31128v1",
-      "source": "arXiv",
-      "date": "2026-08-31"
-    },
-    {
-      "id": "sec-2026-09-01-2",
-      "title": "هل يهاجم شخص ثلاجات وزارة الدفاع؟",
-      "titleEn": "Is Someone Hacking DoD Refrigerators?",
-      "summary": "تشير التقارير إلى وجود هجمات محتملة على أنظمة إنترنت الأشياء في منشآت عسكرية أمريكية بما في ذلك قاعدة فورت إيروين.",
-      "summaryEn": "Reports suggest potential attacks on IoT systems at U.S. military facilities including Fort Irwin.",
-      "type": "breach",
-      "severity": "critical",
-      "url": "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
-      "source": "Schneier on Security",
-      "date": "2026-08-31"
-    },
-    {
-      "id": "sec-2026-09-01-3",
-      "title": "إخفاء حقن المطالبات في الملفات القانونية",
+      "id": "sec-2026-09-02-1",
+      "title": "إخفاء حقن المطالبة في الملفات القانونية",
       "titleEn": "Hiding Prompt Injection in Legal Filing",
-      "summary": "اكتشاف تقنية جديدة لإخفاء أوامر الذكاء الاصطناعي في الملفات القانونية، مما يمثل خطرًا على سلامة النظام القانوني.",
-      "summaryEn": "Discovery of a new technique for hiding AI commands in legal documents, posing a threat to legal system integrity.",
+      "summary": "تمكن شخص ما من إخفاء تعليمات الذكاء الاصطناعي في ملف قانوني، حيث تم تضمين أوامر خفية في نص قانوني يهدف إلى تنفيذ إجراءات غير مصرح بها عند معالجتها بواسطة أنظمة الذكاء الاصطناعي.",
+      "summaryEn": "Someone hid AI instructions into a legal filing, embedding hidden commands in legal text designed to execute unauthorized actions when processed by AI systems.",
       "type": "prompt-injection",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
@@ -298,52 +268,81 @@
       "date": "2026-08-31"
     },
     {
-      "id": "sec-2026-09-01-4",
-      "title": "الاحتيال الاجتماعي القائم على نماذج اللغة الكبيرة",
+      "id": "sec-2026-09-02-2",
+      "title": "الاحتيالات الاجتماعية القائمة على LLM",
       "titleEn": "LLM-Based Social Engineering Scams",
-      "summary": "أوقفت OpenAI مجموعة من الاحتيال الاجتماعي من كمبوديا التي استخدمت ChatGPT لتنفيذ عمليات احتيال متقدمة.",
-      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT for sophisticated scams.",
+      "summary": "أوقفت OpenAI مجموعة من الهندسة الاجتماعية من كمبوديا استخدمت ChatGPT لتنفيذ عمليات احتيالية، حيث تمكنت من الوصول إلى حسابات حساسة وسرقة البيانات الشخصية.",
+      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT to carry out fraudulent operations, gaining access to sensitive accounts and stealing personal data.",
       "type": "malware",
-      "severity": "warning",
+      "severity": "critical",
       "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
       "source": "Schneier on Security",
       "date": "2026-08-27"
+    },
+    {
+      "id": "sec-2026-09-02-3",
+      "title": "معلومات تدريبية لعمليات السيبرانية الروسية المسربة",
+      "titleEn": "Leaked Russian Cyber-Operations Training Materials",
+      "summary": "تم تسجيل مواد تدريبية لعمليات السيبرانية الروسية تحتوي على آلية لتوليد القوى، مما يشير إلى تهديدات أمنية محتملة.",
+      "summaryEn": "Training materials for Russian cyber-operations were leaked, containing a force-generation mechanism, indicating potential security threats.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "sec-2026-09-02-4",
+      "title": "هل يقوم شخص ما باختراق ثلاجات وزارة الدفاع؟",
+      "titleEn": "Is Someone Hacking DoD Refrigerators?",
+      "summary": "يبدو أن هناك اختراقات لثلاجات وزارة الدفاع، حيث تم تأثر مواقع عدة بما في ذلك قاعدة فورت إيروين في كاليفورنيا.",
+      "summaryEn": "It appears that DoD refrigerators are being hacked, with several confirmed affected sites including Fort Irwin in California.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-31"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-09-01",
+    "asOf": "2026-09-02",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
       {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "56.8"
+      },
+      {
         "name": "GPT-5.6 Sol",
         "org": "OpenAI",
-        "score": "56.8"
+        "score": "56.6"
       },
       {
         "name": "Claude Opus 5",
         "org": "Anthropic",
-        "score": "55.8"
+        "score": "55.9"
       },
       {
         "name": "Claude Mythos Preview",
         "org": "Anthropic",
-        "score": "55.7"
+        "score": "55.6"
       },
       {
         "name": "Claude Fable 5",
         "org": "Anthropic",
-        "score": "55.3"
+        "score": "55.4"
       },
       {
         "name": "Kimi K3",
         "org": "Moonshot AI",
-        "score": "54.6"
+        "score": "54.5"
       },
       {
         "name": "GLM-5.3",
         "org": "Zhipu AI",
-        "score": "54.2"
+        "score": "54.3"
       },
       {
         "name": "DeepSeek-V4-Pro-0813",
@@ -353,132 +352,128 @@
       {
         "name": "Qwen3.8 Max",
         "org": "Alibaba Cloud / Qwen Team",
-        "score": "52.7"
+        "score": "52.6"
       },
       {
         "name": "GPT-5.6 Terra",
         "org": "OpenAI",
-        "score": "52.2"
-      },
-      {
-        "name": "Hy4 preview",
-        "org": "Tencent",
-        "score": "51.5"
+        "score": "52.1"
       }
     ],
-    "highlights": "يستمر GPT-5.6 Sol في التألق في قائمة الترتيب بأعلى نقاط، بينما تهيمن نماذج Claude على المراكز الأربعة الأولى. يبرز نموذج Kimi K3 كأفضل نموذج مفتوح المصدر في الترتيب، بينما هناك سباق محموم بين عدة نماذج في منتصف القائمة العشرة الأولى.",
-    "highlightsEn": "GPT-5.6 Sol continues to lead with the highest score, while Claude models dominate the top four positions. Kimi K3 stands out as the top open-source model, while there's a tight race among several models in the middle of the top ten."
+    "highlights": "تسيطر نماذج Claude على الترتيب الأعلى، حيث تحتل 4 من بين أفضل 5 مراكز. يتنافس GPT-5.6 Sol بقوة كأفضل نموذج من OpenAI، بينما يحتل Kimi K3 المرتبة السادس كأفضل نموذج مفتوح المصدر.",
+    "highlightsEn": "Claude models dominate the top rankings, with 4 out of the top 5 positions. GPT-5.6 Sol competes strongly as the top OpenAI model, while Kimi K3 ranks 6th as the best open-source model."
   },
   "knowledgeEntry": {
-    "id": "k-2026-09-01-تحليل-البيانات-وتصورها-باستخدام-الذكاء-الاصطناعي",
-    "title": "تحليل البيانات وتصورها باستخدام الذكاء الاصطناعي",
-    "titleEn": "Data Analysis and Visualization Using AI",
-    "why": "يساعدك تحليل البيانات وتصورها باستخدام الذكاء الاصطناعي على استخراج رؤى قيمة من كميات كبيرة من البيانات بشكل أسرع وأكثر دقة من الطرق التقليدية، مما يسمح باتخاذ قرارات مستنيرة في مختلف المجالات.",
-    "whyEn": "Using AI for data analysis and visualization helps you extract valuable insights from large datasets faster and more accurately than traditional methods, enabling informed decision-making across various domains.",
+    "id": "k-2026-09-02-تنفيذ-مرشحات-أمان-الذكاء-الاصطناعي-في-التطبيقات",
+    "title": "تنفيذ مرشحات أمان الذكاء الاصطناعي في التطبيقات",
+    "titleEn": "Implementing AI Safety Filters in Applications",
+    "why": "تُعد مرشحات أمان الذكاء الاصطناعي عنصراً حيوياً لحماية المستخدمين من المحتوى الضار أو غير المناسب، خاصة مع تزايد استخدام النماذج اللغوية الكبيرة في التطبيقات اليومية.",
+    "whyEn": "AI safety filters are crucial for protecting users from harmful or inappropriate content, especially with the increasing use of large language models in daily applications.",
     "difficulty": "intermediate",
-    "track": "tools",
+    "track": "security",
     "steps": [
       {
-        "title": "تحديد مشكلة البيانات",
-        "detail": "حدد السؤال الرئيسي الذي تريد الإجابة عليه أو المشكلة التي تريد حلها باستخدام البيانات. حدد نوع البيانات المتاحة وما هي النتائج المتوقعة."
+        "title": "تحديد أنواع المحتوى الضار",
+        "detail": "قم بإنشاء قائمة بأنواع المحتوى الذي يجب حظره، مثل الكلام العنصري، العنف، المعلومات الخاطئة، أو أي محتوى يخالف سياسات المحتوى الخاصة بك."
       },
       {
-        "title": "تنظيف ومعالجة البيانات",
-        "detail": "استخدم أدوات الذكاء الاصطناعي لتنظيف البيانات ومعالجة القيم المفقودة والقيم المتطرفة. يمكن استخدام نماذج مثل GPT-4 أو Claude للمساعدة في فهم وتصحيح البيانات النصية."
+        "title": "اختيار نموذج تصنيف المحتوى",
+        "detail": "حدد نموذجاً متخصصاً في تصنيف المحتوى الضار. يمكنك استخدام نماذج مسبقة التدريب مثل 'unitary/toxic-bert' أو تدريب نموذج خاص بمتطلباتك."
       },
       {
-        "title": "استكشاف البيانات وتحليلها",
-        "detail": "استخدم خوارزميات التعلم الآلي لتحديد الأنماط والعلاقات في البيانات. يمكن استخدام أدوات مثل Pandas في بايثون مع مكتبات الذكاء الاصطناعي لتحليل البيانات بشكل أعمق."
+        "title": "تطبيق المرشح",
+        "detail": "قم بدمج نموذج التصنيف في تدفق معالجة الطلبات الخاص بك. تأكد من أن المرشح يعمل قبل معالجة المحتوى بواسطة النموذج الرئيسي."
       },
       {
-        "title": "تصور النتائج",
-        "detail": "أنشئ تصورات بصرية جذابة باستخدام أدوات مثل Tableau أو Power BI أو مكتبات Python مثل Matplotlib و Seaborn. استخدم الذكاء الاصطناعي لتحسين تصميم التصورات وتحديد أفضل طرق عرض البيانات."
+        "title": "إجراءات الاستجابة",
+        "detail": "حدد الإجراءات التي ستتخذ عند اكتشاف محتوى ضار، مثل رفض الطلب، تعديل الرد، إعلام المستخدم، أو تسجيل الحادث للمراجعة."
       },
       {
-        "title": "تفسير النتائج واتخاذ القرار",
-        "detail": "استخدم نماذج الذكاء الاصطناعي لمساعدتك في تفسير النتائج وتقديم توصيات بناءً على التحليل. قدم النتائج بطريقة واضحة للمستفيدين من القرار."
+        "title": "الاختبار والتقييم",
+        "detail": "اختبر النظام بمجموعة متنوعة من المدخلات، بما في ذلك الحالات الإيجابية والسلبية، وتأكد من فعاليته ودقته في اكتشاف المحتوى الضار."
       }
     ],
     "stepsEn": [
       {
-        "title": "Define the data problem",
-        "detail": "Identify the main question you want to answer or the problem you want to solve using data. Determine the type of data available and what outcomes are expected."
+        "title": "Identify harmful content types",
+        "detail": "Create a list of content types to be blocked, such as hate speech, violence, misinformation, or any content that violates your content policies."
       },
       {
-        "title": "Clean and preprocess data",
-        "detail": "Use AI tools to clean data and handle missing values and outliers. Models like GPT-4 or Claude can assist in understanding and correcting textual data."
+        "title": "Choose a content classification model",
+        "detail": "Select a specialized model for harmful content classification. You can use pre-trained models like 'unitary/toxic-bert' or train a custom model for your specific requirements."
       },
       {
-        "title": "Explore and analyze data",
-        "detail": "Use machine learning algorithms to identify patterns and relationships in the data. You can use tools like Pandas in Python with AI libraries for deeper data analysis."
+        "title": "Implement the filter",
+        "detail": "Integrate the classification model into your request processing pipeline. Ensure the filter operates before processing content with your main model."
       },
       {
-        "title": "Visualize results",
-        "detail": "Create engaging visualizations using tools like Tableau, Power BI, or Python libraries like Matplotlib and Seaborn. Use AI to improve visualization design and identify the best ways to display data."
+        "title": "Response procedures",
+        "detail": "Define actions to take when harmful content is detected, such as rejecting the request, modifying the response, notifying the user, or logging the incident for review."
       },
       {
-        "title": "Interpret results and make decisions",
-        "detail": "Use AI models to help interpret results and provide recommendations based on the analysis. Present findings clearly to decision-makers."
+        "title": "Testing and evaluation",
+        "detail": "Test the system with diverse inputs, including both positive and negative cases, and verify its effectiveness and accuracy in detecting harmful content."
       }
     ],
-    "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.ensemble import RandomForestRegressor\nfrom sklearn.metrics import mean_squared_error\n\n# Load and prepare data\ndata = pd.read_csv('your_dataset.csv')\ndata = data.dropna()  # Remove missing values\n\n# Explore data\ndata.describe()\ndata.info()\n\n# Create visualizations\nplt.figure(figsize=(10, 6))\nsns.scatterplot(x='feature1', y='feature2', hue='target', data=data)\nplt.title('Feature Relationship with Target')\nplt.show()\n\n# Train AI model\nX = data.drop('target', axis=1)\ny = data['target']\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\nmodel = RandomForestRegressor(n_estimators=100, random_state=42)\nmodel.fit(X_train, y_train)\n\n# Evaluate model\npredictions = model.predict(X_test)\nmse = mean_squared_error(y_test, predictions)\nprint(f'Mean Squared Error: {mse}')\n\n# Feature importance\nplt.figure(figsize=(10, 6))\nfeature_importance = pd.Series(model.feature_importances_, index=X.columns)\nfeature_importance.nlargest(10).plot(kind='bar')\nplt.title('Top 10 Feature Importances')\nplt.show()",
+    "code": "from transformers import pipeline\n\n# Initialize content classification model\nclassifier = pipeline(\"text-classification\", model=\"unitary/toxic-bert\")\n\ndef safety_filter(text):\n    # Classify text for harmful content\n    result = classifier(text)\n    \n    # Check if text is classified as harmful\n    if result[0]['label'] == 'TOXIC' and result[0]['score'] > 0.8:\n        return False, \"Content flagged as potentially harmful\"\n    return True, \"Content passed safety check\"\n\n# Example usage\ntext = \"This is a sample text to check\"\nis_safe, message = safety_filter(text)\nprint(f\"Safe: {is_safe}, Message: {message}\")",
     "resources": [
       {
-        "name": "Kaggle Learn - Data Visualization",
-        "url": "https://www.kaggle.com/learn/data-visualization"
+        "name": "OpenAI Content Policy Guidelines",
+        "url": "https://openai.com/policies/content-policy"
       },
       {
-        "name": "Python Data Science Handbook",
-        "url": "https://jakevdp.github.io/PythonDataScienceHandbook/"
+        "name": "Hugging Face Toxicity Detection Models",
+        "url": "https://huggingface.co/models?search=toxic"
       },
       {
-        "name": "Tableau Public",
-        "url": "https://public.tableau.com/"
+        "name": "AI Safety Research Paper",
+        "url": "https://arxiv.org/abs/2109.07958"
       }
     ],
     "tags": [
-      "تحليل البيانات",
-      "تصور البيانات",
-      "التعلم الآلي",
-      "Python"
+      "أمان الذكاء الاصطناعي",
+      "مرشحات المحتوى",
+      "الحماية",
+      "AI Safety",
+      "Content Filtering"
     ],
-    "quickRef": "استخدم الذكاء الاصطناعي لتنظيف البيانات، تحديد الأنماط، وتصور النتائج بشكل فعال",
-    "quickRefEn": "Use AI to clean data, identify patterns, and effectively visualize results",
+    "quickRef": "مرشحات أمان الذكاء الاصطناعي تكتشف وتمنع المحتوى الضار قبل معالجته، وتتضمن تحديد المحتوى الضار، اختيار نموذج تصنيف، تطبيق المرشح، تحديد إجراءات الاستجابة، واختبار النظام.",
+    "quickRefEn": "AI safety filters detect and prevent harmful content before processing, including identifying harmful content, selecting a classification model, implementing the filter, defining response procedures, and testing the system.",
     "quiz": [
       {
-        "q": "ما هو الخطأ الأكثر شيوعًا في تحليل البيانات باستخدام الذكاء الاصطناعي؟",
+        "q": "ما هو الخطأ الأكثر شيوعاً في تنفيذ مرشحات أمان الذكاء الاصطناعي؟",
         "options": [
-          "عدم تنظيف البيانات بشكل كافي",
-          "استخدام خوارزميات معقدة جدًا",
-          "عدم تحديد السؤال الصحيح في البداية",
-          "استخدام تصورات غير مناسبة"
+          "استخدام نموذج غير متخصص في تصنيف المحتوى",
+          "عدم تحديث قائمة المحتوى الضار بانتظام",
+          "إجراء الاختبارات فقط على محتوى واضح الخطورة",
+          "تجاهل آراء المستخدمين حول المحتوى الضار"
+        ],
+        "answer": 0,
+        "explain": "استخدام نموذج غير متخصص في تصنيف المحتوى يؤدي إلى نتائج غير دقيقة وقد يفقد السياق الصحيح للمحتوى."
+      },
+      {
+        "q": "كيف يمكن تحسين فعالية مرشحات أمان الذكاء الاصطناعي؟",
+        "options": [
+          "الاعتماد على نموذج تصنيف واحد فقط",
+          "استخدام نماذج متعددة ودمج النتائج",
+          "تقليل حساسية النموذج لتجنب الإيجابيات الكاذبة",
+          "منع جميع المحتوى الذي يحتوي على كلمات معينة"
+        ],
+        "answer": 1,
+        "explain": "استخدام نماذج متعددة ودمج النتائج يوفر رؤية أكثر شمولاً ويقلل من احتمالية الأخطاء في التصنيف."
+      },
+      {
+        "q": "ما هو العامل الأهم عند اختيار نموذج تصنيف المحتوى الضار؟",
+        "options": [
+          "سرعة المعالجة فقط",
+          "الدقة في التصنيف فقط",
+          "التوازن بين الدقة والسرعة والتكلفة",
+          "سهولة التكامل فقط"
         ],
         "answer": 2,
-        "explain": "عدم تحديد السؤال الصحيح في البداية هو الخطأ الأكثر شيوعًا، حيث يؤدي إلى تحليل غير موجه ونتائج غير مفيدة."
-      },
-      {
-        "q": "أي من الأدوات التالية يعتبر الأفضل لإنشاء تصورات تفاعلية للبيانات؟",
-        "options": [
-          "Excel",
-          "Tableau",
-          "Pandas",
-          "NumPy"
-        ],
-        "answer": 1,
-        "explain": "Tableau هو الأفضل لإنشاء تصورات تفاعلية للبيانات، حيث يوفر واجهة سهلة الاستخدام وميزات تصوية متقدمة."
-      },
-      {
-        "q": "كيف يمكن استخدام الذكاء الاصطناعي لتحسين تصور البيانات؟",
-        "options": [
-          "اختيار الألوان العشوائية",
-          "تحديد أفضل طرق العرض تلقائيًا",
-          "زيادة تعقيد التصورات",
-          "استخدام رسوم بيانية بسيطة فقط"
-        ],
-        "answer": 1,
-        "explain": "يمكن للذكاء الاصطناعي تحليل البيانات وتحديد أفضل طرق العرض تلقائيًا بناءً على نوع البيانات والنقاط الرئيسية التي يجب تسليط الضوء عليها."
+        "explain": "يجب أن يكون هناك توازن بين الدقة والسرعة والتكلفة لضمان حماية فعالة دون التأثير سلباً على أداء التطبيق."
       }
     ],
-    "addedAt": "2026-09-01"
+    "addedAt": "2026-09-02"
   }
 }

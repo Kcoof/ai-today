@@ -1,6 +1,119 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-02-تنفيذ-مرشحات-أمان-الذكاء-الاصطناعي-في-التطبيقات",
+      "title": "تنفيذ مرشحات أمان الذكاء الاصطناعي في التطبيقات",
+      "titleEn": "Implementing AI Safety Filters in Applications",
+      "why": "تُعد مرشحات أمان الذكاء الاصطناعي عنصراً حيوياً لحماية المستخدمين من المحتوى الضار أو غير المناسب، خاصة مع تزايد استخدام النماذج اللغوية الكبيرة في التطبيقات اليومية.",
+      "whyEn": "AI safety filters are crucial for protecting users from harmful or inappropriate content, especially with the increasing use of large language models in daily applications.",
+      "difficulty": "intermediate",
+      "track": "security",
+      "steps": [
+        {
+          "title": "تحديد أنواع المحتوى الضار",
+          "detail": "قم بإنشاء قائمة بأنواع المحتوى الذي يجب حظره، مثل الكلام العنصري، العنف، المعلومات الخاطئة، أو أي محتوى يخالف سياسات المحتوى الخاصة بك."
+        },
+        {
+          "title": "اختيار نموذج تصنيف المحتوى",
+          "detail": "حدد نموذجاً متخصصاً في تصنيف المحتوى الضار. يمكنك استخدام نماذج مسبقة التدريب مثل 'unitary/toxic-bert' أو تدريب نموذج خاص بمتطلباتك."
+        },
+        {
+          "title": "تطبيق المرشح",
+          "detail": "قم بدمج نموذج التصنيف في تدفق معالجة الطلبات الخاص بك. تأكد من أن المرشح يعمل قبل معالجة المحتوى بواسطة النموذج الرئيسي."
+        },
+        {
+          "title": "إجراءات الاستجابة",
+          "detail": "حدد الإجراءات التي ستتخذ عند اكتشاف محتوى ضار، مثل رفض الطلب، تعديل الرد، إعلام المستخدم، أو تسجيل الحادث للمراجعة."
+        },
+        {
+          "title": "الاختبار والتقييم",
+          "detail": "اختبر النظام بمجموعة متنوعة من المدخلات، بما في ذلك الحالات الإيجابية والسلبية، وتأكد من فعاليته ودقته في اكتشاف المحتوى الضار."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Identify harmful content types",
+          "detail": "Create a list of content types to be blocked, such as hate speech, violence, misinformation, or any content that violates your content policies."
+        },
+        {
+          "title": "Choose a content classification model",
+          "detail": "Select a specialized model for harmful content classification. You can use pre-trained models like 'unitary/toxic-bert' or train a custom model for your specific requirements."
+        },
+        {
+          "title": "Implement the filter",
+          "detail": "Integrate the classification model into your request processing pipeline. Ensure the filter operates before processing content with your main model."
+        },
+        {
+          "title": "Response procedures",
+          "detail": "Define actions to take when harmful content is detected, such as rejecting the request, modifying the response, notifying the user, or logging the incident for review."
+        },
+        {
+          "title": "Testing and evaluation",
+          "detail": "Test the system with diverse inputs, including both positive and negative cases, and verify its effectiveness and accuracy in detecting harmful content."
+        }
+      ],
+      "code": "from transformers import pipeline\n\n# Initialize content classification model\nclassifier = pipeline(\"text-classification\", model=\"unitary/toxic-bert\")\n\ndef safety_filter(text):\n    # Classify text for harmful content\n    result = classifier(text)\n    \n    # Check if text is classified as harmful\n    if result[0]['label'] == 'TOXIC' and result[0]['score'] > 0.8:\n        return False, \"Content flagged as potentially harmful\"\n    return True, \"Content passed safety check\"\n\n# Example usage\ntext = \"This is a sample text to check\"\nis_safe, message = safety_filter(text)\nprint(f\"Safe: {is_safe}, Message: {message}\")",
+      "resources": [
+        {
+          "name": "OpenAI Content Policy Guidelines",
+          "url": "https://openai.com/policies/content-policy"
+        },
+        {
+          "name": "Hugging Face Toxicity Detection Models",
+          "url": "https://huggingface.co/models?search=toxic"
+        },
+        {
+          "name": "AI Safety Research Paper",
+          "url": "https://arxiv.org/abs/2109.07958"
+        }
+      ],
+      "tags": [
+        "أمان الذكاء الاصطناعي",
+        "مرشحات المحتوى",
+        "الحماية",
+        "AI Safety",
+        "Content Filtering"
+      ],
+      "quickRef": "مرشحات أمان الذكاء الاصطناعي تكتشف وتمنع المحتوى الضار قبل معالجته، وتتضمن تحديد المحتوى الضار، اختيار نموذج تصنيف، تطبيق المرشح، تحديد إجراءات الاستجابة، واختبار النظام.",
+      "quickRefEn": "AI safety filters detect and prevent harmful content before processing, including identifying harmful content, selecting a classification model, implementing the filter, defining response procedures, and testing the system.",
+      "quiz": [
+        {
+          "q": "ما هو الخطأ الأكثر شيوعاً في تنفيذ مرشحات أمان الذكاء الاصطناعي؟",
+          "options": [
+            "استخدام نموذج غير متخصص في تصنيف المحتوى",
+            "عدم تحديث قائمة المحتوى الضار بانتظام",
+            "إجراء الاختبارات فقط على محتوى واضح الخطورة",
+            "تجاهل آراء المستخدمين حول المحتوى الضار"
+          ],
+          "answer": 0,
+          "explain": "استخدام نموذج غير متخصص في تصنيف المحتوى يؤدي إلى نتائج غير دقيقة وقد يفقد السياق الصحيح للمحتوى."
+        },
+        {
+          "q": "كيف يمكن تحسين فعالية مرشحات أمان الذكاء الاصطناعي؟",
+          "options": [
+            "الاعتماد على نموذج تصنيف واحد فقط",
+            "استخدام نماذج متعددة ودمج النتائج",
+            "تقليل حساسية النموذج لتجنب الإيجابيات الكاذبة",
+            "منع جميع المحتوى الذي يحتوي على كلمات معينة"
+          ],
+          "answer": 1,
+          "explain": "استخدام نماذج متعددة ودمج النتائج يوفر رؤية أكثر شمولاً ويقلل من احتمالية الأخطاء في التصنيف."
+        },
+        {
+          "q": "ما هو العامل الأهم عند اختيار نموذج تصنيف المحتوى الضار؟",
+          "options": [
+            "سرعة المعالجة فقط",
+            "الدقة في التصنيف فقط",
+            "التوازن بين الدقة والسرعة والتكلفة",
+            "سهولة التكامل فقط"
+          ],
+          "answer": 2,
+          "explain": "يجب أن يكون هناك توازن بين الدقة والسرعة والتكلفة لضمان حماية فعالة دون التأثير سلباً على أداء التطبيق."
+        }
+      ],
+      "addedAt": "2026-09-02"
+    },
+    {
       "id": "k-2026-09-01-تحليل-البيانات-وتصورها-باستخدام-الذكاء-الاصطناعي",
       "title": "تحليل البيانات وتصورها باستخدام الذكاء الاصطناعي",
       "titleEn": "Data Analysis and Visualization Using AI",
