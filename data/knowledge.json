@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-03-ضبط-النماذج-اللغوية-الصغيرة-fine-tuning",
+      "title": "ضبط النماذج اللغوية الصغيرة (Fine-tuning)",
+      "titleEn": "Fine-tuning Small Language Models",
+      "why": "يسمح لك ضبط النماذج اللغوية الصغيرة بتخصيص النماذج مفتوحة المصدر لمهام محددة، مما يحسن الأداء ويقلل التكاليف مقارنة باستخدام النماذج الكبيرة.",
+      "whyEn": "Fine-tuning small language models allows you to customize open-source models for specific tasks, improving performance while reducing costs compared to using large models.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحضير البيانات",
+          "detail": "اجمع مجموعة بيانات عالية الجودة تتعلق بمهمتك المحددة. يجب أن تكون البيانات نظيفة ومنظمة بشكل جيد."
+        },
+        {
+          "title": "اختيار النموذج الأساسي",
+          "detail": "اختر نموذجًا صغيرًا مناسبًا لمهمتك مثل TinyBERT أو DistilGPT-2 بناءً على متطلبات الذاكرة والسرعة."
+        },
+        {
+          "title": "إعداد بيئة العمل",
+          "detail": "قم بتثبيت المكتبات اللازمة مثل Hugging Face Transformers و PyTorch. تأكد من أن لديك GPU كافٍ للمعالجة."
+        },
+        {
+          "title": "تنفيذ عملية الضبط",
+          "detail": "استخدم كود بسيط لتدريب النموذج على بياناتك. ابدأ بمعدل تعلم منخفض وعدد قليل من التكرارات لتجنب الت overfitting."
+        },
+        {
+          "title": "تقييم النموذج",
+          "detail": "اختبر نموذجك على مجموعة بيانات منفصلة للتأكد من أدائه. قارن النتائج بالنموذج الأساسي."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Data Preparation",
+          "detail": "Collect a high-quality dataset relevant to your specific task. The data should be clean and well-organized."
+        },
+        {
+          "title": "Base Model Selection",
+          "detail": "Choose a suitable small model for your task such as TinyBERT or DistilGPT-2 based on memory and speed requirements."
+        },
+        {
+          "title": "Environment Setup",
+          "detail": "Install necessary libraries like Hugging Face Transformers and PyTorch. Ensure you have sufficient GPU capacity for processing."
+        },
+        {
+          "title": "Fine-tuning Implementation",
+          "detail": "Use simple code to train the model on your data. Start with a low learning rate and few epochs to avoid overfitting."
+        },
+        {
+          "title": "Model Evaluation",
+          "detail": "Test your model on a separate dataset to ensure its performance. Compare results with the base model."
+        }
+      ],
+      "code": "from transformers import Trainer, TrainingArguments\nfrom transformers import AutoModelForSequenceClassification, AutoTokenizer\n\n# Load model and tokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased')\ntokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')\n\n# Tokenize dataset\ntrain_encodings = tokenizer(train_texts, truncation=True, padding=True)\nval_encodings = tokenizer(val_texts, truncation=True, padding=True)\n\nclass CustomDataset(torch.utils.data.Dataset):\n    def __init__(self, encodings, labels):\n        self.encodings = encodings\n        self.labels = labels\n\n    def __getitem__(self, idx):\n        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}\n        item['labels'] = torch.tensor(self.labels[idx])\n        return item\n\n    def __len__(self):\n        return len(self.labels)\n\ntrain_dataset = CustomDataset(train_encodings, train_labels)\nval_dataset = CustomDataset(val_encodings, val_labels)\n\n# Training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=64,\n    warmup_steps=500,\n    weight_decay=0.01,\n    logging_dir='./logs',\n    logging_steps=10,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset\n)\n\n# Fine-tune the model\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Documentation",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "Google Colab Fine-tuning Tutorial",
+          "url": "https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/text_classification.ipynb"
+        },
+        {
+          "name": "TinyBERT Paper",
+          "url": "https://arxiv.org/abs/1909.10351"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "النماذج الصغيرة",
+        "Hugging Face",
+        "التعلم العميق"
+      ],
+      "quickRef": "ضبط النماذج الصغيرة يتضمن تحضير البيانات، اختيار النموذج، إعداد البيئة، التنفيذ، والتقييم.",
+      "quickRefEn": "Small model fine-tuning includes data preparation, model selection, environment setup, implementation, and evaluation.",
+      "quiz": [
+        {
+          "q": "ما هو أول خطوة في عملية ضبط النموذج اللغوي الصغير؟",
+          "options": [
+            "اختيار النموذج الأساسي",
+            "تحضير البيانات",
+            "تنفيذ عملية الضبط",
+            "تقييم النموذج"
+          ],
+          "answer": 1,
+          "explain": "تحضير البيانات هو الخطوة الأولى والأكثر أهمية في عملية الضبط، حيث يعتمد نجاح العملية على جودة البيانات المستخدمة."
+        },
+        {
+          "q": "ما هو أحد المخاطر الرئيسية عند ضبط النماذج اللغوية الصغيرة؟",
+          "options": [
+            "زيادة تكاليف التدريب",
+            "Overfitting (الفرط في التخصيص)",
+            "نقص الذاكرة",
+            "بطء المعالجة"
+          ],
+          "answer": 1,
+          "explain": "Overfitting هو أحد المخاطر الرئيسية حيث قد يتعلم النموذج التفاصيل الخاصة ببيانات التدريب بدلاً من الأنماج العامة، مما يؤدي إلى سوء الأداء على بيانات جديدة."
+        }
+      ],
+      "addedAt": "2026-09-03"
+    },
+    {
       "id": "k-2026-09-02-تنفيذ-مرشحات-أمان-الذكاء-الاصطناعي-في-التطبيقات",
       "title": "تنفيذ مرشحات أمان الذكاء الاصطناعي في التطبيقات",
       "titleEn": "Implementing AI Safety Filters in Applications",

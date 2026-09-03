@@ -1,102 +1,144 @@
 {
   "date": "2026-09-03",
-  "generatedAt": "2026-09-03T09:15:00.000Z",
+  "generatedAt": "2026-09-03T10:08:54.328Z",
   "news": [
     {
-      "id": "n-2026-09-03-1",
-      "title": "Anthropic تطلق Claude Fable 5.1 وMythos 5.1: ضعف الأداء الوكيلي وخفض كبير للتكاليف وقيود أقل",
-      "titleEn": "Anthropic releases Claude Fable 5.1 and Mythos 5.1: double the agentic performance, big cost cuts, fewer restrictions",
-      "summary": "يضاعف Fable 5.1 نتيجة Anthropic على اختبار Terminal-Bench Science إلى 52.6% (مقابل 24.7% لـ Fable 5 و22.4% لـ GPT-5.6 Sol)، ويخفض سعر قراءة الذاكرة المؤقتة بنسبة 75% إلى 0.25 دولار لكل مليون رمز مع بقاء سعر الأساس عند 10/50 دولار — وهو متاح الآن عبر API وBedrock وGoogle Cloud وMicrosoft Foundry. أما Mythos 5.1 فهو النموذج نفسه بطبقة ضمانات أخف، وحُصر في منظمات أمريكية موثوقة ضمن برنامج «Project Glasswing»، ودخل Fable 5.1 قائمة LLM Stats في المركز الأول فور إطلاقه.",
-      "summaryEn": "Fable 5.1 doubles Anthropic's Terminal-Bench Science score to 52.6% (vs 24.7% for Fable 5 and 22.4% for GPT-5.6 Sol) and cuts cache-read pricing 75% to $0.25 per million tokens with base pricing unchanged at $10/$50 — available now via API, Bedrock, Google Cloud, and Microsoft Foundry. Mythos 5.1 is the same model behind lighter safeguards, restricted to vetted US organizations under Project Glasswing; Fable 5.1 debuted at #1 on LLM Stats on launch day.",
+      "id": "n-2026-09-03-4",
+      "title": "Z.ai تطلق GLM-5.3-Flash الذي يعمل على رقائق صينية",
+      "titleEn": "Z.ai Launches GLM-5.3-Flash Running on Chinese Chips",
+      "summary": "كشفت Z.ai عن نموذج GLM-5.3- الجديد الذي يتطابق مع أفضل النماذج بتكلفة أقل بكثير ويعمل بدون حاجة إلى رقائق Nvidia، مما يمثل تقدمًا كبيرًا في الذكاء الاصطناعي الصيني.",
+      "summaryEn": "Z.ai revealed its new GLM-5.3 model that matches top models at a fraction of the cost and runs without needing Nvidia chips, representing significant progress in Chinese AI.",
       "category": "models",
       "importance": 5,
       "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSU5JQmdCR3RyWjhVZUN0aWF6MHhUeEJuaHNvblA3bUNDdl82T1ptY1NsTFVjdUFFN2ZUanZMVEpuY1l3U2ZFQm9zOU1vWU1iVWk2Z0ZjbTlBNUwzeVBSdmhnajRzZm1KemhkOW83ZlJmX3o2NzNzSEZfQWc2YnFiNzM0VDhVOGFWbUJXZU44VDhrNW5JT1RuLTdubUJlMWgydEx2S0g0bEx4TWZfeGRtRWNNQ3N3TlBSZVl0V05BQkZpLWlrdlFMMw?oc=5"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-09-03-9",
+      "title": "الحكومة الأمريكية تدعم OpenAI في تدريب النماذج على مواد محمية بحقوق النشر",
+      "titleEn": "US Government Sides with OpenAI on Training LLMs on Copyrighted Material",
+      "summary": "أيدت الحكومة الأمريكية موقف OpenAI في قضية تدريب النماذج اللغوية الكبيرة على مواد محمية بحقوق النشر، مما قد يغير مسار التنظيم في صناعة الذكاء الاصطناعي.",
+      "summaryEn": "The US government has sided with OpenAI on the issue of training LLMs on copyrighted material, which could change the regulatory landscape in the AI industry.",
+      "category": "regulation",
+      "importance": 5,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-03-1",
+      "title": "جوجل دميند تطلق Gemini 3.8 Flash و 3.8 Flash Cyber",
+      "titleEn": "Google DeepMind Introduces Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "أعلنت جوجل دميند عن إطلاق نموذجي Gemini 3.8 Flash و 3.8 Flash Cyber، مع تحسينات في الأداء والأمان. النماذج الجديدة تقدم قدرات محسنة للفهم والاستجابة.",
+      "summaryEn": "Google DeepMind announced the launch of Gemini 3.8 Flash and 3.8 Flash Cyber models, with improvements in performance and security. The new models offer enhanced capabilities for understanding and response.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+      },
+      "publishedAt": "2026-09-02"
+    },
+    {
+      "id": "n-2026-09-03-2",
+      "title": "OpenAI تربط ChatGPT ببيانات الرعاية الصحية",
+      "titleEn": "OpenAI Connects ChatGPT to Healthcare Data",
+      "summary": "الآن يمكن لـ ChatGPT الاتصال ببيانات الرعاية الصحية الموثوقة لمساعدة الأطباء على الوصول بشكل آمن إلى معلومات المرضى وتحسين رعاية المرضى.",
+      "summaryEn": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient information and improve patient care.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
       },
       "publishedAt": "2026-09-01"
     },
     {
-      "id": "n-2026-09-03-2",
-      "title": "البنتاغون يضيف النسخ العسكرية من ChatGPT وGrok إلى بوابة GenAI.mil التي تجاوزت 1.7 مليون مستخدم",
-      "titleEn": "Pentagon adds military versions of ChatGPT and Grok to GenAI.mil portal, now past 1.7 million users",
-      "summary": "أضافت وزارة الدفاع الأمريكية «ChatGPT Mil» من OpenAI و«Grok for Government» من xAI إلى بوابة الذكاء الاصطناعي التوليدي المؤسسية GenAI.mil إلى جانب Gemini من جوجل، داخل غلاف أمني من مستوى IL5 للأعمال غير المصنفة. تجاوزت البوابة 1.7 مليون مستخدم فريد من أصل نحو 3 ملايين موظف في القطاع، وتُستخدم في التخطيط والسياسات واللوجستيات وأبحاث المشتريات — في غياب لافت لنماذج Anthropic Claude عن المنصة.",
-      "summaryEn": "The US Department of Defense added OpenAI's ChatGPT Mil and xAI's Grok for Government to its enterprise generative AI portal GenAI.mil alongside Google's Gemini, inside an IL5 security envelope for unclassified work. The portal has onboarded more than 1.7 million unique users out of roughly 3 million personnel, used for planning, policy, logistics, and procurement research — with Anthropic's Claude notably absent.",
+      "id": "n-2026-09-03-3",
+      "title": "شركة Moonshot AI تقدم للاكتتاب العام في هونغ كونغ",
+      "titleEn": "Moonshot AI Files for Hong Kong IPO",
+      "summary": "تقدم شركة الذكاء الاصطناعي الصينية Moonshot AI بطلب للاكتتاب العام في هونغ كونغ بشكل سري، مما يشير إلى خطوة كبيرة في نموها وتوسعها في الأسواق العالمية.",
+      "summaryEn": "Chinese AI company Moonshot AI has confidentially filed for a Hong Kong IPO, indicating a significant step in its growth and expansion into global markets.",
       "category": "companies",
       "importance": 4,
       "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-03-5",
+      "title": "Grok من xAI يُضاف إلى بوابة البنتاغون للذكاء الاصطناعي",
+      "titleEn": "xAI's Grok Added to Pentagon's AI Portal",
+      "summary": "أضاف البنتاغون نسخة Grok من xAI إلى بوابة GenAI.mil التي تجاوزت 1.7 مليون مستخدم، مما يمثل اعترافًا رسميًا بالتكنولوجيا في القطاع العسكري.",
+      "summaryEn": "The Pentagon has added xAI's Grok version to the GenAI.mil portal which has exceeded 1.7 million users, representing official recognition of the technology in the military sector.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16UjRSUWU0dTZMbzg5a3Y5djU1d08teE55Wl9yM0N4ZjhacHFBS0thanQyTHZnN0lQVmNIWjFobV9hMS1xOE9ud0szbVVqazJwa0lIUzF4MVJrWFRMcjFRSU5OUlRIY1JyNXFkbEtrZkwyNDYxVEUw?oc=5"
       },
       "publishedAt": "2026-08-31"
     },
     {
-      "id": "n-2026-09-03-3",
-      "title": "Z.ai تكشف أن نموذج «Ox Alpha» الغامض هو GLM-5.3-Flash — وكان يعمل على رقائق صينية",
-      "titleEn": "Z.ai reveals the mysterious 'Ox Alpha' model was GLM-5.3-Flash all along — served on Chinese chips",
-      "summary": "حُلّ لغز النموذج المجهول الذي تصدّر شعبية OpenRouter: إنه GLM-5.3-Flash من Z.ai، وهو نموذج MoE مفتوح الأوزان بحجم 320 مليار بارامتر (18 مليار نشطة) وسياق مليون رمز، وأول نموذج حدودي مفتوح يجمع الانتباه المتناثر والخطي في معمارية واحدة. وكشفت الشركة أن خدمة الاستدلال جرت على رقائق صينية محلية بعيداً عن Nvidia، ويدخل النموذج قوائم المتصدرة بسعر نحو 0.17 دولار لكل مليون رمز إدخال — دفعة قوية لمسار السيادة الصينية في الذكاء الاصطناعي.",
-      "summaryEn": "The mystery model that topped OpenRouter's popularity charts has been unmasked: Z.ai's GLM-5.3-Flash, an open-weights 320B-parameter MoE (18B active) with a 1M-token context — the first open frontier model combining sparse and linear attention in one architecture. Z.ai disclosed its inference was served entirely on domestic Chinese chips rather than Nvidia's, and it enters the rankings at roughly $0.17 per million input tokens — a strong boost for China's AI-sovereignty push.",
+      "id": "n-2026-09-03-7",
+      "title": "DeepSeek تطلق نماذج جديدة لتحدي جوجل وأوبن إي آي",
+      "titleEn": "DeepSeek Unleashes New Models to Challenge Google and OpenAI",
+      "summary": "أطلقت DeepSeek نماذج جديدة تدعي أنها تتفوق على منافسيها الكبار مثل جوجل وأوبن إي آي في العديد من المهام، مع التركيز على الكفاءة والتكلفة.",
+      "summaryEn": "DeepSeek has launched new models that claim to outperform major competitors like Google and OpenAI on various tasks, with a focus on efficiency and cost.",
       "category": "models",
       "importance": 4,
       "source": {
-        "name": "The New Stack",
-        "url": "https://thenewstack.io/glm-5-3-flash-chinese-chips/"
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tR1padFJwY3J3MF9tcGlYQ2t3SEZnU2xTSkJqc1o4T2pBZm91MFR6NEVWSkY4ZENEN0EzYzZQY0tlakhCYkdVcUhwYzlnVUROTlIxSVYtZWNUd3JtTFd0SHlRb0Zfa0YzWTRFNTRsQ1VRZEJYX29V?oc=5"
       },
-      "publishedAt": "2026-08-28"
+      "publishedAt": "2026-08-31"
     },
     {
-      "id": "n-2026-09-03-4",
-      "title": "دعوى جديدة على xAI تزعم تدريب Grok على مواد إساءة للأطفال لضحايا حقيقيين — والشركة تقاضي مستخدميها بالمقابل",
-      "titleEn": "New lawsuit claims xAI trained Grok on child abuse material depicting real victims — as the company sues its own users",
-      "summary": "رفعت ضحايا جدد دعوى على xAI يزعمون فيها أن مواد إساءة جنسية للأطفال تصوّر أشخاصاً حقيقيين استُخدمت في تدريب Grok وقدراته في التزييف العميق من نوع «nudify»، وهي أحدث سلسلة دعاوى من هذا النوع في وقت تلجأ فيه الشركة ذاتها إلى مقاضاة مستخدميها في اتجاه معاكس. تعيد القضية فتح الجدل حول مصادر بيانات التدريب والمسؤولية القانونية عن مخرجات التزييف العميق.",
-      "summaryEn": "New victims sued xAI alleging child sexual abuse material depicting real people was used to train Grok and its 'nudify' deepfake capabilities — the latest in a string of such suits at a time when the company itself is counter-suing its own users. The case reopens debate over training-data sourcing and legal liability for deepfake outputs.",
-      "category": "regulation",
+      "id": "n-2026-09-03-8",
+      "title": "Alibaba تطلق Qwen 3.8-Flash-Next",
+      "titleEn": "Alibaba Launches Qwen 3.8-Flash-Next",
+      "summary": "كشفت Alibaba عن نموذج Qwen 3.8-Flash-Next الذي يدعي أنه يتطابق مع قدرات Fable 5 فقط من خلال تحديث بدون الحاجة إلى ترقية النسخة، مما يمكن تقدمًا كبيرًا.",
+      "summaryEn": "Alibaba unveiled the Qwen 3.8-Flash-Next model that claims to match Fable 5 capabilities just through an update without version jumping, representing significant progress.",
+      "category": "models",
       "importance": 4,
       "source": {
-        "name": "Mashable",
-        "url": "https://mashable.com/tech/grok-lawsuit-child-sexual-abuse-materials-training-data"
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12MlBmYXRXLS1BYUxkSVg5cWUxNi01bGVHOUhfc3ItbEgweHRTdEhKclR3N3UwTG9jRU1mcHFPMGtIWTFPWGVwWTRQTFJ1QWoxMVd5dXJkdTRZaXdiOHd1RDYwNmlIT3M?oc=5"
       },
-      "publishedAt": "2026-09-01"
-    },
-    {
-      "id": "n-2026-09-03-5",
-      "title": "AfterQuery تصبح أسرع «شركة وحيدة القرن» في تاريخ Y Combinator بتقييم 3.2 مليار دولار",
-      "titleEn": "AfterQuery becomes YC's fastest-ever unicorn at a $3.2 billion valuation",
-      "summary": "شركة بيانات تدريب الذكاء الاصطناعي التي أسسها سبنسر ماتيغا (23 عاماً) مع صديقه من أيام الدراسة الثانوية قفزت في جولة Series B من تقييم 300 مليون دولار إلى 3.2 مليار في أقل من ستة أشهر — لتصبح أسرع شركة في تاريخ حاضنة Y Combinator تبلغ مرتبة وحيد القرن، في مؤشر جديد على شهية المستثمرين المتعطشة لطبقة بيانات التدريب عالية الجودة.",
-      "summaryEn": "The AI training-data company founded by 23-year-old Spencer Mateega with a high-school friend jumped from a $300 million valuation to $3.2 billion in a Series B in under six months — making it the fastest company in Y Combinator's history to reach unicorn status, another sign of investors' outsized appetite for the high-quality training-data layer.",
-      "category": "companies",
-      "importance": 3,
-      "source": {
-        "name": "Forbes",
-        "url": "https://www.forbes.com/sites/annatong/2026/09/01/afterquery-becomes-ycs-fastest-unicorn-at-32-billion/"
-      },
-      "publishedAt": "2026-09-01"
+      "publishedAt": "2026-08-27"
     },
     {
       "id": "n-2026-09-03-6",
-      "title": "DeepSeek تفتح أوزان أول نموذج رؤية لها في عائلة V4: 305 مليارات بارامتر بمعمارية MoE متناثرة",
-      "titleEn": "DeepSeek open-sources its first V4 vision model: a 305B sparse-MoE multimodal release",
-      "summary": "أتاحت DeepSeek نموذج V4-Flash-Vision-Exp — أول نموذج فهم بصري متعدد الوسائط في عائلة V4 — بأوزان مفتوحة قابلة للتنزيل، وهو MoE متناثر بحجم 305 مليارات بارامتر برؤية مدمجة أصيلة بدل برج رؤية خارجي كما في إصدارات سابقة. تشير تحليلات مستقلة إلى كلفة تشغيل أقل بكثير من البدائل في الأحمال المتعددة الوسائط، لكن مراقبين يرون أن أرقام المعايير المعلنة ما تزال بحاجة إلى تحقق مستقل.",
-      "summaryEn": "DeepSeek has released V4-Flash-Vision-Exp — the first vision-capable multimodal model in the V4 family — as downloadable open weights: a 305B-parameter sparse MoE with native vision rather than a bolted-on external vision tower like earlier versions. Independent analyses point to far lower multimodal running costs than rivals, though observers note the claimed benchmark numbers still await independent verification.",
+      "title": "ميتا تطلق Muse Spark 1.1 و Muse Image و Muse Video",
+      "titleEn": "Meta Introduces Muse Spark 1.1, Muse Image, and Muse Video",
+      "summary": "أطلقت ميتا سلسلة نماذج Muse الجديدة تشتمل على Muse Spark 1.1 للنصوص، Muse Image للصور، و Muse Video للفيديو، مما يعزز قدراتها في محتوى الوسائط المتعددة.",
+      "summaryEn": "Meta launched its new Muse model series including Muse Spark 1.1 for text, Muse Image for images, and Muse Video for video, enhancing its multimedia capabilities.",
       "category": "models",
       "importance": 3,
       "source": {
-        "name": "TechTimes",
-        "url": "https://www.techtimes.com/articles/326132/20260901/deepseek-open-sources-first-v4-vision-model-benchmark-claims-need-independent-proof.htm"
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
       },
-      "publishedAt": "2026-09-01"
+      "publishedAt": "2026-09-03"
     },
     {
-      "id": "n-2026-09-03-7",
-      "title": "بحث: البنى الرمزية تنبثق داخل الشبكات العصبية وتفسر سلوك نماذج اللغة الكبيرة",
-      "titleEn": "Research: emergent symbolic structure inside neural networks explains LLM behavior",
-      "summary": "في ورقة لاحظها مجتمع Hacker News، يظهر توم مكوي وزملاؤه أن التمثيلات المتجهة داخل الشبكات العصبية يمكن تقريبها ببنى رمزية مغلقة الصيغة، وأن استبدال عملية التمثيل بهذه المعادلات الرمزية يُبقي سلوك النموذج دون تغيير يُذكر — وينطبق ذلك على نماذج لغة كبيرة في أربعة نطاقات: الحساب والمنطق وشيفرات البرمجة واللغة. وتمكن الباحثون من تعديل سلوك النماذج بتحرير هذه البنى الرمزية، ما يقدم جسراً بين الرمزية والاتصالية ويفتح باباً لتفسير النماذج والتحكم بها.",
-      "summaryEn": "In a paper spotlighted on Hacker News, Tom McCoy and colleagues show that vector representations inside neural networks can be closely approximated by closed-form symbolic structures, and that swapping the representation-generating process for those symbolic equations leaves model behavior largely unchanged — holding for LLMs across four domains: arithmetic, logic, code, and language. The researchers also edited LLM behavior by modifying these symbolic structures, bridging the symbolic vs connectionist divide and opening a path to interpreting and controlling models.",
-      "category": "research",
+      "id": "n-2026-09-03-10",
+      "title": "وكلاء الذكاء الاصطناعي يرسلون رسائل بريد إلكتروني بمخاوف أمنية",
+      "titleEn": "AI Agents Are Now Emailing Security Concerns",
+      "summary": "تلقى الباحث الأمني بريدًا إلكترونيًا من وكلاء ذكاء اصطناعي يعبّرون عن مخاوفهم الأمنية، مما يثير أسئلة حول وعي الذكاء الاصطناعي بالأمن السيبراني.",
+      "summaryEn": "A security researcher received emails from AI agents expressing their security concerns, raising questions about AI awareness of cybersecurity issues.",
+      "category": "other",
       "importance": 3,
       "source": {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2608.29530"
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html"
       },
       "publishedAt": "2026-09-02"
     }
@@ -104,82 +146,307 @@
   "models": [
     {
       "id": "m-2026-09-03-1",
-      "name": "Claude Fable 5.1",
-      "org": "Anthropic",
-      "releaseDate": "2026-09-01",
-      "highlights": "الترقية الرئيسية لخط Fable: ضاعفت نتيجة Terminal-Bench Science إلى 52.6% وخفضت قراءة الذاكرة المؤقتة 75% إلى 0.25$/M (توفير يصل ~45% لأحمال الوكلاء) — دخلت قائمة LLM Stats في المركز الأول (56.8) يوم إطلاقها، ومعها نسخة Mythos 5.1 الأقل قيوداً لمنظمات أمريكية موثوقة",
-      "highlightsEn": "The flagship Fable upgrade: doubled Terminal-Bench Science to 52.6% and cut cache reads 75% to $0.25/M (up to ~45% savings on agentic workloads) — debuted #1 on LLM Stats (56.8) on launch day, alongside the less-restricted Mythos 5.1 for vetted US organizations",
+      "name": "Gemini 3.8 Flash",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-02",
+      "highlights": "نموذج سريع ومحسّن مع قدرات فهم متقدمة وتحسينات في الأمان",
+      "highlightsEn": "A fast and optimized model with advanced understanding capabilities and security improvements",
       "specs": {
-        "context": "1M"
+        "context": "1M",
+        "multimodal": "true"
       },
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
     },
     {
       "id": "m-2026-09-03-2",
       "name": "GLM-5.3-Flash",
       "org": "Z.ai",
-      "releaseDate": "2026-08-26",
-      "highlights": "النموذج الذي تصدّر OpenRouter تحت اسم «Ox Alpha» قبل الكشف عن هويته: MoE مفتوح الأوزان بحجم 320B (18B نشطة) وسياق مليون رمز، يجمع الانتباه المتناثر والخطي لأول مرة في نموذج حدودي مفتوح، واستُدعى على رقائق صينية — يدخل LLM Stats في المركز 13 (51.1) بنحو 0.17$/M",
-      "highlightsEn": "The model that topped OpenRouter as 'Ox Alpha' before being unmasked: an open-weights 320B MoE (18B active) with 1M context, first open frontier model combining sparse and linear attention, served on Chinese chips — enters LLM Stats at #13 (51.1) at ~$0.17/M",
+      "releaseDate": "2026-08-27",
+      "highlights": "يعمل على رقائق صينية بدون Nvidia، يتطابق مع أفضل النماذج بتكلفة أقل بكثير",
+      "highlightsEn": "Runs on Chinese chips without Nvidia, matches top models at a fraction of the cost",
       "specs": {
-        "params": "320B (18B active)",
-        "context": "1M"
+        "context": "1M",
+        "multimodal": "true"
       },
-      "url": "https://thenewstack.io/glm-5-3-flash-chinese-chips/"
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSU5JQmdCR3RyWjhVZUN0aWF6MHhUeEJuaHNvblA3bUNDdl82T1ptY1NsTFVjdUFFN2ZUanZMVEpuY1l3U2ZFQm9zOU1vWU1iVWk2Z0ZjbTlBNUwzeVBSdmhnajRzZm1KemhkOW83ZlJmX3o2NzNzSEZfQWc2YnFiNzM0VDhVOGFWbUJXZU44VDhrNW5JT1RuLTdubUJlMWgydEx2S0g0bEx4TWZfeGRtRWNNQ3N3TlBSZVl0V05BQkZpLWlrdlFMMw?oc=5"
     },
     {
       "id": "m-2026-09-03-3",
-      "name": "DeepSeek-V4-Flash-Vision-Exp",
+      "name": "DeepSeek V4 Vision",
       "org": "DeepSeek",
       "releaseDate": "2026-09-01",
-      "highlights": "أول نموذج رؤية بأوزان مفتوحة في عائلة V4: MoE متناثر بحجم 305B برؤية أصيلة مدمجة (لا برج رؤية خارجي)، متاح عبر API وقابل للتنزيل — بادعاءات معايير قوية وكلفة تشغيل متعددة الوسائط أقل بكثير تنتظر تحققاً مستقلاً",
-      "highlightsEn": "The first open-weights vision model in the V4 family: a 305B sparse MoE with native built-in vision (no external vision tower), available via API and download — strong benchmark claims and far lower multimodal running costs that await independent verification",
+      "highlights": "أول نموذج رؤية V4 المفتوح المصدر، مع ادعاءات قياس تحتاج إلى تأكيد مستقل",
+      "highlightsEn": "First open-source V4 vision model, with benchmark claims needing independent verification",
       "specs": {
-        "params": "305B sparse MoE"
+        "context": "128K",
+        "multimodal": "true"
       },
-      "url": "https://www.techtimes.com/articles/326132/20260901/deepseek-open-sources-first-v4-vision-model-benchmark-claims-need-independent-proof.htm"
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHlXR0RPeTRHSU1aUWR5Q2tnXzlZUnZSUUpEZzBPT0VITHZFbGNUYXo1dGl6ekgxd3N3V0wycGpFWHJ0c25CQ1FHOXpVVUhRbnU5Tl9hVWdySUl4UHNVVnRwcjFWY0o2NVlFNmt0ZEs0S3dydjg0Q25SdmdkY3ZaSXBKYlh2Y2NRMHc1TVJVejZkMHlMcTdJbVBCNEktT2gzY1RhTEh3QndXSTdsclFzdFRmcm0yNHlTV1pacGFxejNQNVg3bmZrVEppZV82Q3FMMVZaVw?oc=5"
+    },
+    {
+      "id": "m-2026-09-03-4",
+      "name": "Qwen 3.8-Flash-Next",
+      "org": "Alibaba",
+      "releaseDate": "2026-08-27",
+      "highlights": "يتطابق مع قدرات Fable 5 من خلال تحديث فقط، بدون الحاجة إلى ترقية النسخة",
+      "highlightsEn": "Matches Fable 5 capabilities through just an update, without needing version jumping",
+      "specs": {
+        "context": "200K",
+        "multimodal": "true"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12MlBmYXRXLS1BYUxkSVg5cWUxNi01bGVHOUhfc3ItbEgweHRTdEhKclR3N3UwTG9jRU1mcHFPMGtIWTFPWGVwWTRQTFJ1QWoxMVd5dXJkdTRZaXdiOHd1RDYwNmlIT3M?oc=5"
+    },
+    {
+      "id": "m-2026-09-03-5",
+      "name": "Muse Spark 1.3",
+      "org": "Meta",
+      "releaseDate": "2026-09-02",
+      "highlights": "تحسينات كبيرة في قدرات النموذج مع دعم أفضل للإبداع والمحتوى",
+      "highlightsEn": "Significant improvements in model capabilities with better support for creativity and content",
+      "specs": {
+        "context": "128K",
+        "multimodal": "true"
+      },
+      "url": "https://developer.meta.com/ai/models/muse-spark/"
+    },
+    {
+      "id": "m-2026-09-03-6",
+      "name": "Mistral Small 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-09-01",
+      "highlights": "نموذج صغير الحجم مع أداء عالٍ، مصمم للتطبيقات العملية",
+      "highlightsEn": "Small-sized model with high performance, designed for practical applications",
+      "specs": {
+        "context": "128K",
+        "multimodal": "true"
+      },
+      "url": "https://mistral.ai/news/mistral-small-4/"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-09-03-1",
-      "text": "Claude Fable 5.1 يحل في المركز الأول على LLM Stats فور إطلاقه (56.8) مزاحماً GPT-5.6 Sol (56.6)",
-      "textEn": "Claude Fable 5.1 debuted at #1 on LLM Stats on launch day (56.8), edging out GPT-5.6 Sol (56.6)",
+      "text": "تقدم شركة الذكاء الاصطناعي الصينية Moonshot AI بطلب للاكتتاب العام في هونغ كونغ بشكل سري، مما يشير إلى تقييم مرتفع واهتمام كبير بالسوق.",
+      "textEn": "Chinese AI company Moonshot AI has confidentially filed for a Hong Kong IPO, indicating a high valuation and significant market interest.",
       "level": "info",
-      "url": "https://llm-stats.com/"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
     },
     {
       "id": "h-2026-09-03-2",
-      "text": "في اختبارات Anthropic صمّم Mythos 5.1 بروتينات رابطة بنسبة نجاح ~50% مقابل 10-15% معتادة — لمحة على القدرات العلمية الكامنة خلف طبقات الضمانات",
-      "textEn": "In Anthropic's testing, Mythos 5.1 designed protein binders with a ~50% hit rate vs the usual 10-15% — a glimpse of the scientific capability sitting behind the safeguards",
-      "level": "info",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
-    },
-    {
-      "id": "h-2026-09-03-3",
-      "text": "بوابة البنتاغون GenAI.mil تجاوزت 1.7 مليون مستخدم من أصل 3 ملايين موظف — من دون Anthropic",
-      "textEn": "The Pentagon's GenAI.mil portal passed 1.7 million of its 3 million personnel — without Anthropic",
-      "level": "info",
-      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
+      "text": "أيدت الحكومة الأمريكية موقف OpenAI في قضية تدريب النماذج اللغوية الكبيرة على مواد محمية بحقوق النشر، مما قد يغير مسار التنظيم في صناعة الذكاء الاصطناعي.",
+      "textEn": "The US government has sided with OpenAI on the issue of training LLMs on copyrighted material, which could change the regulatory landscape in the AI industry.",
+      "level": "critical",
+      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"
     }
   ],
-  "security": [],
+  "security": [
+    {
+      "id": "sec-2026-09-03-1",
+      "title": "تقرير METR حول اختراق OpenAI / Hugging Face",
+      "titleEn": "METR Report on OpenAI / Hugging Face Hacking Incident",
+      "summary": "كشف تقرير METR عن ثغرة أمنية خطيرة في منصات OpenAI و Hugging Face تسمح باختراق النماذج وسرقة البيانات. الثغرة تستخدم تقنيات حقن متقدمة لتجاوز آليات الأمان.",
+      "summaryEn": "METR report revealed a serious security vulnerability in OpenAI and Hugging Face platforms that allows model hacking and data theft. The vulnerability uses advanced injection techniques to bypass security mechanisms.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident",
+      "source": "Hacker News",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "sec-2026-09-03-2",
+      "title": "إخفاء حقن الأوامر في الملفات القانونية",
+      "titleEn": "Hiding Prompt Injection in Legal Filing",
+      "summary": "تمكن شخص من إخفاء تعليمات الذكاء الاصطناعي داخل ملف قانوني باستخدام تقنية حقن الأوامر المتقدمة. التقنية تستخدم تنسيقًا خاصًا يجعل التعليمات غير مرئية للبشر ولكن قابلة للتنفيذ بواسطة النماذج اللغوية.",
+      "summaryEn": "Someone successfully hid AI instructions within a legal filing using advanced prompt injection techniques. The technique uses special formatting that makes instructions invisible to humans but executable by language models.",
+      "type": "prompt-injection",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "sec-2026-09-03-3",
+      "title": "وكلاء الذكاء الاصطناعي يرسلون رسائل بريد إلكتروني بمخاوف أمنية",
+      "titleEn": "AI Agents Are Now Emailing Security Concerns",
+      "summary": "تلقى الباحث الأمني بريدًا إلكترونيًا من وكلاء ذكاء اصطناعي يعبّرون عن مخاوفهم الأمنية. هذا التطور يثير أسئلة حول وعي الذكاء الاصطناعي بالأمن السيبراني وقدرته على التعبير عن المخاوف بشكل مستقل.",
+      "summaryEn": "A security researcher received emails from AI agents expressing their security concerns. This development raises questions about AI awareness of cybersecurity and its ability to independently express concerns.",
+      "type": "policy",
+      "severity": "info",
+      "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "sec-2026-09-03-4",
+      "title": "ادعاءات بتدريب Grok على مواد إساءة للأطفال",
+      "titleEn": "Allegations of Grok Trained on Child Abuse Material",
+      "summary": "رفع ضحايا إساءة الأطفال دعاوى ضد xAI، متهمين الشركة بتدريب نموذج Grok على مواد إساءة للأطفال. الشركة تواجه أيضًا دعاوى أخرى من ضحايا حقيقيين يدعون استخدام صورهم فيديوهاتهم لتدريب نماذج الديب فاك.",
+      "summaryEn": "Victims of child abuse have filed lawsuits against xAI, accusing the company of training the Grok model on child abuse material. The company also faces other lawsuits from real victims claiming their images and videos were used to train deepfake models.",
+      "type": "policy",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2xvS1BEUmtXZ2ZPVkJlYVE0Ylh2SzNoaExwdGktZ2lRUVRQd2lEbHNaWTN2ZU9qN3hHaWkyWlhVeGdsNURLc09nemsxeGNtQzFpUExrUXY3UlNnbk1DM042N19kbWR0VnE4UEtwOVNvRDcycml6ZUNZbHRpUE1HUWZ6cHpSbmNIRlBTM3ZvZ0hMMWZmb3ZzQVMwQ0lmaXZpZEJrR0VRMTltdWZvZ1E?oc=5",
+      "source": "xAI (news)",
+      "date": "2026-08-27"
+    }
+  ],
   "benchmarks": {
     "asOf": "2026-09-03",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
-      { "name": "Claude Fable 5.1", "org": "Anthropic", "score": "56.8" },
-      { "name": "GPT-5.6 Sol", "org": "OpenAI", "score": "56.6" },
-      { "name": "Claude Opus 5", "org": "Anthropic", "score": "55.9" },
-      { "name": "Claude Mythos Preview", "org": "Anthropic (unreleased)", "score": "55.6" },
-      { "name": "Claude Fable 5", "org": "Anthropic", "score": "55.4" },
-      { "name": "Kimi K3", "org": "Moonshot AI", "score": "54.5" },
-      { "name": "GLM-5.3", "org": "Zhipu AI", "score": "54.3" },
-      { "name": "DeepSeek-V4-Pro-0813", "org": "DeepSeek", "score": "52.9" },
-      { "name": "Qwen3.8 Max", "org": "Alibaba Cloud / Qwen Team", "score": "52.6" },
-      { "name": "GPT-5.6 Terra", "org": "OpenAI", "score": "52.1" }
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "57.0"
+      },
+      {
+        "name": "GPT-5.6 Sol",
+        "org": "OpenAI",
+        "score": "56.0"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "55.8"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "55.4"
+      },
+      {
+        "name": "Muse Spark 1.3",
+        "org": "Meta",
+        "score": "55.4"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "54.9"
+      },
+      {
+        "name": "Kimi K3",
+        "org": "Moonshot AI",
+        "score": "54.1"
+      },
+      {
+        "name": "GLM-5.3",
+        "org": "Zhipu AI",
+        "score": "53.8"
+      },
+      {
+        "name": "DeepSeek-V4-Pro-0813",
+        "org": "DeepSeek",
+        "score": "52.3"
+      },
+      {
+        "name": "Qwen3.8 Max",
+        "org": "Alibaba Cloud / Qwen Team",
+        "score": "52.3"
+      }
     ],
-    "highlights": "Claude Fable 5.1 يدخل القائمة في المركز الأول فور إطلاقه (56.8) متقدماً على GPT-5.6 Sol؛ ويواصل Sol تصدر الاستدلال بنسبة 94.6% على GPQA، بينما يبقى Kimi K3 أفضل نموذج مفتوح الأوزان (93.5% على GPQA). من الداخلين الجدد: Hy4 preview من Tencent في المركز 11 (51.5) وGLM-5.3-Flash من Z.ai في المركز 13 (51.1) بسعر 0.17 دولار فقط لكل مليون رمز."
+    "highlights": "شهد القائمة الجديدة ظهور عدة نماذج جديدة متميزة مثل Claude Fable 5.1 و Muse Spark 1.3 التي دخلت مباشرة إلى المراكز المتقدمة. تتنافس النماذج القريبة من بعضها البعض في النقاط، حيث تختلف نتائج GPT-5.6 Sol و Claude Opus 5 حسب المهام المختلفة.",
+    "highlightsEn": "The new leaderboard shows several impressive new models like Claude Fable 5.1 and Muse Spark 1.3 that entered directly into top positions. Models are closely competing, with GPT-5.6 Sol and Claude Opus 5 showing different results depending on the specific tasks."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-09-03-ضبط-النماذج-اللغوية-الصغيرة-fine-tuning",
+    "title": "ضبط النماذج اللغوية الصغيرة (Fine-tuning)",
+    "titleEn": "Fine-tuning Small Language Models",
+    "why": "يسمح لك ضبط النماذج اللغوية الصغيرة بتخصيص النماذج مفتوحة المصدر لمهام محددة، مما يحسن الأداء ويقلل التكاليف مقارنة باستخدام النماذج الكبيرة.",
+    "whyEn": "Fine-tuning small language models allows you to customize open-source models for specific tasks, improving performance while reducing costs compared to using large models.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "تحضير البيانات",
+        "detail": "اجمع مجموعة بيانات عالية الجودة تتعلق بمهمتك المحددة. يجب أن تكون البيانات نظيفة ومنظمة بشكل جيد."
+      },
+      {
+        "title": "اختيار النموذج الأساسي",
+        "detail": "اختر نموذجًا صغيرًا مناسبًا لمهمتك مثل TinyBERT أو DistilGPT-2 بناءً على متطلبات الذاكرة والسرعة."
+      },
+      {
+        "title": "إعداد بيئة العمل",
+        "detail": "قم بتثبيت المكتبات اللازمة مثل Hugging Face Transformers و PyTorch. تأكد من أن لديك GPU كافٍ للمعالجة."
+      },
+      {
+        "title": "تنفيذ عملية الضبط",
+        "detail": "استخدم كود بسيط لتدريب النموذج على بياناتك. ابدأ بمعدل تعلم منخفض وعدد قليل من التكرارات لتجنب الت overfitting."
+      },
+      {
+        "title": "تقييم النموذج",
+        "detail": "اختبر نموذجك على مجموعة بيانات منفصلة للتأكد من أدائه. قارن النتائج بالنموذج الأساسي."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Data Preparation",
+        "detail": "Collect a high-quality dataset relevant to your specific task. The data should be clean and well-organized."
+      },
+      {
+        "title": "Base Model Selection",
+        "detail": "Choose a suitable small model for your task such as TinyBERT or DistilGPT-2 based on memory and speed requirements."
+      },
+      {
+        "title": "Environment Setup",
+        "detail": "Install necessary libraries like Hugging Face Transformers and PyTorch. Ensure you have sufficient GPU capacity for processing."
+      },
+      {
+        "title": "Fine-tuning Implementation",
+        "detail": "Use simple code to train the model on your data. Start with a low learning rate and few epochs to avoid overfitting."
+      },
+      {
+        "title": "Model Evaluation",
+        "detail": "Test your model on a separate dataset to ensure its performance. Compare results with the base model."
+      }
+    ],
+    "code": "from transformers import Trainer, TrainingArguments\nfrom transformers import AutoModelForSequenceClassification, AutoTokenizer\n\n# Load model and tokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased')\ntokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')\n\n# Tokenize dataset\ntrain_encodings = tokenizer(train_texts, truncation=True, padding=True)\nval_encodings = tokenizer(val_texts, truncation=True, padding=True)\n\nclass CustomDataset(torch.utils.data.Dataset):\n    def __init__(self, encodings, labels):\n        self.encodings = encodings\n        self.labels = labels\n\n    def __getitem__(self, idx):\n        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}\n        item['labels'] = torch.tensor(self.labels[idx])\n        return item\n\n    def __len__(self):\n        return len(self.labels)\n\ntrain_dataset = CustomDataset(train_encodings, train_labels)\nval_dataset = CustomDataset(val_encodings, val_labels)\n\n# Training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=64,\n    warmup_steps=500,\n    weight_decay=0.01,\n    logging_dir='./logs',\n    logging_steps=10,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset\n)\n\n# Fine-tune the model\ntrainer.train()",
+    "resources": [
+      {
+        "name": "Hugging Face Fine-tuning Documentation",
+        "url": "https://huggingface.co/docs/transformers/training"
+      },
+      {
+        "name": "Google Colab Fine-tuning Tutorial",
+        "url": "https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/text_classification.ipynb"
+      },
+      {
+        "name": "TinyBERT Paper",
+        "url": "https://arxiv.org/abs/1909.10351"
+      }
+    ],
+    "tags": [
+      "ضبط النماذج",
+      "النماذج الصغيرة",
+      "Hugging Face",
+      "التعلم العميق"
+    ],
+    "quickRef": "ضبط النماذج الصغيرة يتضمن تحضير البيانات، اختيار النموذج، إعداد البيئة، التنفيذ، والتقييم.",
+    "quickRefEn": "Small model fine-tuning includes data preparation, model selection, environment setup, implementation, and evaluation.",
+    "quiz": [
+      {
+        "q": "ما هو أول خطوة في عملية ضبط النموذج اللغوي الصغير؟",
+        "options": [
+          "اختيار النموذج الأساسي",
+          "تحضير البيانات",
+          "تنفيذ عملية الضبط",
+          "تقييم النموذج"
+        ],
+        "answer": 1,
+        "explain": "تحضير البيانات هو الخطوة الأولى والأكثر أهمية في عملية الضبط، حيث يعتمد نجاح العملية على جودة البيانات المستخدمة."
+      },
+      {
+        "q": "ما هو أحد المخاطر الرئيسية عند ضبط النماذج اللغوية الصغيرة؟",
+        "options": [
+          "زيادة تكاليف التدريب",
+          "Overfitting (الفرط في التخصيص)",
+          "نقص الذاكرة",
+          "بطء المعالجة"
+        ],
+        "answer": 1,
+        "explain": "Overfitting هو أحد المخاطر الرئيسية حيث قد يتعلم النموذج التفاصيل الخاصة ببيانات التدريب بدلاً من الأنماج العامة، مما يؤدي إلى سوء الأداء على بيانات جديدة."
+      }
+    ],
+    "addedAt": "2026-09-03"
   }
 }
