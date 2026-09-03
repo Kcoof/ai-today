@@ -1,0 +1,479 @@
+{
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T09:54:42.243Z",
+  "news": [
+    {
+      "id": "n-2026-09-02-1",
+      "title": "مسار أسترا: قدرات حيوية وحمايات حدودية",
+      "titleEn": "Path to Astra: critical capabilities and frontier safeguards",
+      "summary": "أسترا هي أول نموذج من OpenAI يلبي عتبة القدرات الأمنية الحيوية، مع ميزات أمنية متقدمة لحماية البيانات الحساسة.",
+      "summaryEn": "Astra is the first OpenAI model to meet the critical cybersecurity capability threshold, with advanced security features to protect sensitive data.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/path-to-astra"
+      },
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "n-2026-09-02-2",
+      "title": "المنظمات الصحية يمكن الآن ربط بيانات EHR وبيانات صناعية إضافية مع ChatGPT",
+      "titleEn": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "summary": "يمكن الآن لـ ChatGPT الاتصال ببيانات موثوقة في مجال الرعاية الصحية، مما يساعد الأطباء على الوصول بأمان إلى معلومات المرضى.",
+      "summaryEn": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient information.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
+      },
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "n-2026-09-02-3",
+      "title": "إنجاز في توسيع الوصول إلى الذكاء الاصطناعي: ChatGPT Ads تصل إلى مليار دولار",
+      "titleEn": "A milestone in expanding access to AI: ChatGPT Ads reaches $1 billion",
+      "summary": "وصلت إيرادات ChatGPT Ads إلى معدل سنوي قدره مليار دولار مع التوسع عالميًا، مما يدعم نموذجًا تجاريًا مستدامًا للذكاء الاصطناعي.",
+      "summaryEn": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting a sustainable business model for AI.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+      },
+      "publishedAt": "2026-08-31"
+    },
+    {
+      "id": "n-2026-09-02-4",
+      "title": "إدخال فهم الفيديو الوكيل مع جيميني",
+      "titleEn": "Introducing agentic video understanding with Gemini",
+      "summary": "كشف جوجل دميند عن قدرات جديدة لفهم الفيديو الوكيل، مما يمثل تقدمًا كبيرًا في تحليل المحتوى المرئي.",
+      "summaryEn": "Google DeepMind introduces new agentic video understanding capabilities, representing significant progress in visual content analysis.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
+      },
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "n-2026-09-02-5",
+      "title": "جيميني أومني 1.1 فلاش: المزيد من التحكم في البناء",
+      "titleEn": "Gemini Omni 1.1 Flash lets you build with more control",
+      "summary": "يوفر جيميني أومني 1.1 فلاش تحكمًا أكبر في عملية البناء، مع تحسينات في الأداء والدقة.",
+      "summaryEn": "Gemini Omni 1.1 Flash provides more control over the building process, with improvements in performance and accuracy.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-09-02-6",
+      "title": "إدخال كلود أوبس 5",
+      "titleEn": "Introducing Claude Opus 5",
+      "summary": "يُعد أوبس 5 تحولًا كبيرًا في مستوى أوبس، حيث يدعم الوكلات طويلة المدى مع تقديم نتائج متقدمة.",
+      "summaryEn": "Opus 5 is a step change improvement for the Opus tier, powering long-running agents while delivering advanced results.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/claude-opus-5"
+      },
+      "publishedAt": "2026-09-02"
+    },
+    {
+      "id": "n-2026-09-02-7",
+      "title": "إخفاء حقن المطالبة في الملفات القانونية",
+      "titleEn": "Hiding Prompt Injection in Legal Filing",
+      "summary": "تمكن شخص ما من إخفاء تعليمات الذكاء الاصطناعي في ملف قانوني، مما يمثل تهديدًا أمنيًا جديدًا.",
+      "summaryEn": "Someone hid AI instructions into a legal filing, representing a new security threat.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html"
+      },
+      "publishedAt": "2026-08-31"
+    },
+    {
+      "id": "n-2026-09-02-8",
+      "title": "الاحتيالات الاجتماعية القائمة على LLM",
+      "titleEn": "LLM-Based Social Engineering Scams",
+      "summary": "أوقفت OpenAI مجموعة من الهندسة الاجتماعية من كمبوديا استخدمت ChatGPT، حيث بلغ نطاقها ما يقرب من 500 ضحية.",
+      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT, with its scope reaching nearly 500 victims.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-09-02-9",
+      "title": "كشف آبل عن 'أدلة صادمة' من MacBook لموظف سابق في دعوى OpenAI",
+      "titleEn": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
+      "summary": "كشفت آبل عن أدلة صادمة من جهاز MacBook لموظف سابق في دعوى قضائية ضد OpenAI، مما يزيد من حدة النزاع بين الشركتين.",
+      "summaryEn": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit, escalating the legal dispute between the companies.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/"
+      },
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "n-2026-09-02-10",
+      "title": "إدخال Muse Spark 1.1",
+      "titleEn": "Introducing Muse Spark 1.1",
+      "summary": "أعلنت ميتا عن إطلاق Muse Spark 1.1، وهو نموذج جديد لإنشاء المحتوى الإبداعي.",
+      "summaryEn": "Meta announced the launch of Muse Spark 1.1, a new model for creative content generation.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+      },
+      "publishedAt": "2026-09-02"
+    },
+    {
+      "id": "n-2026-09-02-11",
+      "title": "إدخال Muse Image و Muse Video",
+      "titleEn": "Introducing Muse Image and Muse Video",
+      "summary": "أطلقت ميتا Muse Image و Muse Video، وهما نموذجان جديدان لإنشاء الصور والفيديو باستخدام الذكاء الاصطناعي.",
+      "summaryEn": "Meta launched Muse Image and Muse Video, two new models for image and video generation using AI.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+      },
+      "publishedAt": "2026-09-02"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-09-02-1",
+      "name": "Astra",
+      "org": "OpenAI",
+      "releaseDate": "2026-09-01",
+      "highlights": "أول نموذج من OpenAI يلبي عتبة القدرات الأمنية الحيوية، مع ميزات أمنية متقدمة لحماية البيانات الحساسة.",
+      "highlightsEn": "The first OpenAI model to meet the critical cybersecurity capability threshold, with advanced security features to protect sensitive data.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://openai.com/index/path-to-astra"
+    },
+    {
+      "id": "m-2026-09-02-2",
+      "name": "Gemini Omni 1.1 Flash",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-08-27",
+      "highlights": "يوفر تحكمًا أكبر في عملية البناء، مع تحسينات في الأداء والدقة.",
+      "highlightsEn": "Provides more control over the building process with improvements in performance and accuracy.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+    },
+    {
+      "id": "m-2026-09-02-3",
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "releaseDate": "2026-07-24",
+      "highlights": "تحول كبير في مستوى أوبس، يدعم الوكلات طويلة المدى مع تقديم نتائج متقدمة.",
+      "highlightsEn": "Step change improvement for the Opus tier, powering long-running agents while delivering advanced results.",
+      "specs": {
+        "context": "200K"
+      },
+      "url": "https://www.anthropic.com/news/claude-opus-5"
+    },
+    {
+      "id": "m-2026-09-02-4",
+      "name": "Mistral OCR 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-08-31",
+      "highlights": "نموذج OCR متقدم لتح النصوص من الصور بدقة عالية.",
+      "highlightsEn": "Advanced OCR model for extracting text from images with high accuracy.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/ocr-4/"
+    },
+    {
+      "id": "m-2026-09-02-5",
+      "name": "Mistral Medium 3.5",
+      "org": "Mistral AI",
+      "releaseDate": "2026-08-31",
+      "highlights": "نموذج متوسط الحجم مع أداء متقدم لمهام اللغة الطبيعية.",
+      "highlightsEn": "Medium-sized model with advanced performance for natural language tasks.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+    },
+    {
+      "id": "m-2026-09-02-6",
+      "name": "Mistral Small 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-08-31",
+      "highlights": "نموذج صغير الحجم فعال لمهام معالجة اللغة الطبيعية.",
+      "highlightsEn": "Small-sized efficient model for natural language processing tasks.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/mistral-small-4/"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-09-02-1",
+      "text": "إنجاز في توسيع الوصول إلى الذكاء الاصطناعي: ChatGPT Ads تصل إلى مليار دولار",
+      "textEn": "A milestone in expanding access to AI: ChatGPT Ads reaches $1 billion",
+      "level": "info",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+    },
+    {
+      "id": "h-2026-09-02-2",
+      "text": "كشف آبل عن 'أدلة صادمة' من MacBook لموظف سابق في دعوى OpenAI",
+      "textEn": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
+      "level": "critical",
+      "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/"
+    },
+    {
+      "id": "h-2026-09-02-3",
+      "text": "الاستدلال في المنطقة، النماذج المفتوحة، والبنية التحتية الأوروبية الجديدة للذكاء الاصطناعي السيادي",
+      "textEn": "In-region inference, open models, and new European infrastructure for sovereign AI",
+      "level": "info",
+      "url": "https://mistral.ai/news/regional-inference-open-models-new-compute"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-09-02-1",
+      "title": "إخفاء حقن المطالبة في الملفات القانونية",
+      "titleEn": "Hiding Prompt Injection in Legal Filing",
+      "summary": "تمكن شخص ما من إخفاء تعليمات الذكاء الاصطناعي في ملف قانوني، حيث تم تضمين أوامر خفية في نص قانوني يهدف إلى تنفيذ إجراءات غير مصرح بها عند معالجتها بواسطة أنظمة الذكاء الاصطناعي.",
+      "summaryEn": "Someone hid AI instructions into a legal filing, embedding hidden commands in legal text designed to execute unauthorized actions when processed by AI systems.",
+      "type": "prompt-injection",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "sec-2026-09-02-2",
+      "title": "الاحتيالات الاجتماعية القائمة على LLM",
+      "titleEn": "LLM-Based Social Engineering Scams",
+      "summary": "أوقفت OpenAI مجموعة من الهندسة الاجتماعية من كمبوديا استخدمت ChatGPT لتنفيذ عمليات احتيالية، حيث تمكنت من الوصول إلى حسابات حساسة وسرقة البيانات الشخصية.",
+      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT to carry out fraudulent operations, gaining access to sensitive accounts and stealing personal data.",
+      "type": "malware",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "sec-2026-09-02-3",
+      "title": "معلومات تدريبية لعمليات السيبرانية الروسية المسربة",
+      "titleEn": "Leaked Russian Cyber-Operations Training Materials",
+      "summary": "تم تسجيل مواد تدريبية لعمليات السيبرانية الروسية تحتوي على آلية لتوليد القوى، مما يشير إلى تهديدات أمنية محتملة.",
+      "summaryEn": "Training materials for Russian cyber-operations were leaked, containing a force-generation mechanism, indicating potential security threats.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "sec-2026-09-02-4",
+      "title": "هل يقوم شخص ما باختراق ثلاجات وزارة الدفاع؟",
+      "titleEn": "Is Someone Hacking DoD Refrigerators?",
+      "summary": "يبدو أن هناك اختراقات لثلاجات وزارة الدفاع، حيث تم تأثر مواقع عدة بما في ذلك قاعدة فورت إيروين في كاليفورنيا.",
+      "summaryEn": "It appears that DoD refrigerators are being hacked, with several confirmed affected sites including Fort Irwin in California.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
+      "source": "Schneier on Security",
+      "date": "2026-08-31"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-09-02",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "56.8"
+      },
+      {
+        "name": "GPT-5.6 Sol",
+        "org": "OpenAI",
+        "score": "56.6"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "55.9"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "55.6"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "55.4"
+      },
+      {
+        "name": "Kimi K3",
+        "org": "Moonshot AI",
+        "score": "54.5"
+      },
+      {
+        "name": "GLM-5.3",
+        "org": "Zhipu AI",
+        "score": "54.3"
+      },
+      {
+        "name": "DeepSeek-V4-Pro-0813",
+        "org": "DeepSeek",
+        "score": "52.9"
+      },
+      {
+        "name": "Qwen3.8 Max",
+        "org": "Alibaba Cloud / Qwen Team",
+        "score": "52.6"
+      },
+      {
+        "name": "GPT-5.6 Terra",
+        "org": "OpenAI",
+        "score": "52.1"
+      }
+    ],
+    "highlights": "تسيطر نماذج Claude على الترتيب الأعلى، حيث تحتل 4 من بين أفضل 5 مراكز. يتنافس GPT-5.6 Sol بقوة كأفضل نموذج من OpenAI، بينما يحتل Kimi K3 المرتبة السادس كأفضل نموذج مفتوح المصدر.",
+    "highlightsEn": "Claude models dominate the top rankings, with 4 out of the top 5 positions. GPT-5.6 Sol competes strongly as the top OpenAI model, while Kimi K3 ranks 6th as the best open-source model."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-09-02-تنفيذ-مرشحات-أمان-الذكاء-الاصطناعي-في-التطبيقات",
+    "title": "تنفيذ مرشحات أمان الذكاء الاصطناعي في التطبيقات",
+    "titleEn": "Implementing AI Safety Filters in Applications",
+    "why": "تُعد مرشحات أمان الذكاء الاصطناعي عنصراً حيوياً لحماية المستخدمين من المحتوى الضار أو غير المناسب، خاصة مع تزايد استخدام النماذج اللغوية الكبيرة في التطبيقات اليومية.",
+    "whyEn": "AI safety filters are crucial for protecting users from harmful or inappropriate content, especially with the increasing use of large language models in daily applications.",
+    "difficulty": "intermediate",
+    "track": "security",
+    "steps": [
+      {
+        "title": "تحديد أنواع المحتوى الضار",
+        "detail": "قم بإنشاء قائمة بأنواع المحتوى الذي يجب حظره، مثل الكلام العنصري، العنف، المعلومات الخاطئة، أو أي محتوى يخالف سياسات المحتوى الخاصة بك."
+      },
+      {
+        "title": "اختيار نموذج تصنيف المحتوى",
+        "detail": "حدد نموذجاً متخصصاً في تصنيف المحتوى الضار. يمكنك استخدام نماذج مسبقة التدريب مثل 'unitary/toxic-bert' أو تدريب نموذج خاص بمتطلباتك."
+      },
+      {
+        "title": "تطبيق المرشح",
+        "detail": "قم بدمج نموذج التصنيف في تدفق معالجة الطلبات الخاص بك. تأكد من أن المرشح يعمل قبل معالجة المحتوى بواسطة النموذج الرئيسي."
+      },
+      {
+        "title": "إجراءات الاستجابة",
+        "detail": "حدد الإجراءات التي ستتخذ عند اكتشاف محتوى ضار، مثل رفض الطلب، تعديل الرد، إعلام المستخدم، أو تسجيل الحادث للمراجعة."
+      },
+      {
+        "title": "الاختبار والتقييم",
+        "detail": "اختبر النظام بمجموعة متنوعة من المدخلات، بما في ذلك الحالات الإيجابية والسلبية، وتأكد من فعاليته ودقته في اكتشاف المحتوى الضار."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Identify harmful content types",
+        "detail": "Create a list of content types to be blocked, such as hate speech, violence, misinformation, or any content that violates your content policies."
+      },
+      {
+        "title": "Choose a content classification model",
+        "detail": "Select a specialized model for harmful content classification. You can use pre-trained models like 'unitary/toxic-bert' or train a custom model for your specific requirements."
+      },
+      {
+        "title": "Implement the filter",
+        "detail": "Integrate the classification model into your request processing pipeline. Ensure the filter operates before processing content with your main model."
+      },
+      {
+        "title": "Response procedures",
+        "detail": "Define actions to take when harmful content is detected, such as rejecting the request, modifying the response, notifying the user, or logging the incident for review."
+      },
+      {
+        "title": "Testing and evaluation",
+        "detail": "Test the system with diverse inputs, including both positive and negative cases, and verify its effectiveness and accuracy in detecting harmful content."
+      }
+    ],
+    "code": "from transformers import pipeline\n\n# Initialize content classification model\nclassifier = pipeline(\"text-classification\", model=\"unitary/toxic-bert\")\n\ndef safety_filter(text):\n    # Classify text for harmful content\n    result = classifier(text)\n    \n    # Check if text is classified as harmful\n    if result[0]['label'] == 'TOXIC' and result[0]['score'] > 0.8:\n        return False, \"Content flagged as potentially harmful\"\n    return True, \"Content passed safety check\"\n\n# Example usage\ntext = \"This is a sample text to check\"\nis_safe, message = safety_filter(text)\nprint(f\"Safe: {is_safe}, Message: {message}\")",
+    "resources": [
+      {
+        "name": "OpenAI Content Policy Guidelines",
+        "url": "https://openai.com/policies/content-policy"
+      },
+      {
+        "name": "Hugging Face Toxicity Detection Models",
+        "url": "https://huggingface.co/models?search=toxic"
+      },
+      {
+        "name": "AI Safety Research Paper",
+        "url": "https://arxiv.org/abs/2109.07958"
+      }
+    ],
+    "tags": [
+      "أمان الذكاء الاصطناعي",
+      "مرشحات المحتوى",
+      "الحماية",
+      "AI Safety",
+      "Content Filtering"
+    ],
+    "quickRef": "مرشحات أمان الذكاء الاصطناعي تكتشف وتمنع المحتوى الضار قبل معالجته، وتتضمن تحديد المحتوى الضار، اختيار نموذج تصنيف، تطبيق المرشح، تحديد إجراءات الاستجابة، واختبار النظام.",
+    "quickRefEn": "AI safety filters detect and prevent harmful content before processing, including identifying harmful content, selecting a classification model, implementing the filter, defining response procedures, and testing the system.",
+    "quiz": [
+      {
+        "q": "ما هو الخطأ الأكثر شيوعاً في تنفيذ مرشحات أمان الذكاء الاصطناعي؟",
+        "options": [
+          "استخدام نموذج غير متخصص في تصنيف المحتوى",
+          "عدم تحديث قائمة المحتوى الضار بانتظام",
+          "إجراء الاختبارات فقط على محتوى واضح الخطورة",
+          "تجاهل آراء المستخدمين حول المحتوى الضار"
+        ],
+        "answer": 0,
+        "explain": "استخدام نموذج غير متخصص في تصنيف المحتوى يؤدي إلى نتائج غير دقيقة وقد يفقد السياق الصحيح للمحتوى."
+      },
+      {
+        "q": "كيف يمكن تحسين فعالية مرشحات أمان الذكاء الاصطناعي؟",
+        "options": [
+          "الاعتماد على نموذج تصنيف واحد فقط",
+          "استخدام نماذج متعددة ودمج النتائج",
+          "تقليل حساسية النموذج لتجنب الإيجابيات الكاذبة",
+          "منع جميع المحتوى الذي يحتوي على كلمات معينة"
+        ],
+        "answer": 1,
+        "explain": "استخدام نماذج متعددة ودمج النتائج يوفر رؤية أكثر شمولاً ويقلل من احتمالية الأخطاء في التصنيف."
+      },
+      {
+        "q": "ما هو العامل الأهم عند اختيار نموذج تصنيف المحتوى الضار؟",
+        "options": [
+          "سرعة المعالجة فقط",
+          "الدقة في التصنيف فقط",
+          "التوازن بين الدقة والسرعة والتكلفة",
+          "سهولة التكامل فقط"
+        ],
+        "answer": 2,
+        "explain": "يجب أن يكون هناك توازن بين الدقة والسرعة والتكلفة لضمان حماية فعالة دون التأثير سلباً على أداء التطبيق."
+      }
+    ],
+    "addedAt": "2026-09-02"
+  }
+}

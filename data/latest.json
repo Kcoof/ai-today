@@ -1,479 +1,185 @@
 {
-  "date": "2026-09-02",
-  "generatedAt": "2026-09-02T09:54:42.243Z",
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T09:15:00.000Z",
   "news": [
     {
-      "id": "n-2026-09-02-1",
-      "title": "مسار أسترا: قدرات حيوية وحمايات حدودية",
-      "titleEn": "Path to Astra: critical capabilities and frontier safeguards",
-      "summary": "أسترا هي أول نموذج من OpenAI يلبي عتبة القدرات الأمنية الحيوية، مع ميزات أمنية متقدمة لحماية البيانات الحساسة.",
-      "summaryEn": "Astra is the first OpenAI model to meet the critical cybersecurity capability threshold, with advanced security features to protect sensitive data.",
+      "id": "n-2026-09-03-1",
+      "title": "Anthropic تطلق Claude Fable 5.1 وMythos 5.1: ضعف الأداء الوكيلي وخفض كبير للتكاليف وقيود أقل",
+      "titleEn": "Anthropic releases Claude Fable 5.1 and Mythos 5.1: double the agentic performance, big cost cuts, fewer restrictions",
+      "summary": "يضاعف Fable 5.1 نتيجة Anthropic على اختبار Terminal-Bench Science إلى 52.6% (مقابل 24.7% لـ Fable 5 و22.4% لـ GPT-5.6 Sol)، ويخفض سعر قراءة الذاكرة المؤقتة بنسبة 75% إلى 0.25 دولار لكل مليون رمز مع بقاء سعر الأساس عند 10/50 دولار — وهو متاح الآن عبر API وBedrock وGoogle Cloud وMicrosoft Foundry. أما Mythos 5.1 فهو النموذج نفسه بطبقة ضمانات أخف، وحُصر في منظمات أمريكية موثوقة ضمن برنامج «Project Glasswing»، ودخل Fable 5.1 قائمة LLM Stats في المركز الأول فور إطلاقه.",
+      "summaryEn": "Fable 5.1 doubles Anthropic's Terminal-Bench Science score to 52.6% (vs 24.7% for Fable 5 and 22.4% for GPT-5.6 Sol) and cuts cache-read pricing 75% to $0.25 per million tokens with base pricing unchanged at $10/$50 — available now via API, Bedrock, Google Cloud, and Microsoft Foundry. Mythos 5.1 is the same model behind lighter safeguards, restricted to vetted US organizations under Project Glasswing; Fable 5.1 debuted at #1 on LLM Stats on launch day.",
       "category": "models",
       "importance": 5,
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/path-to-astra"
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
       },
       "publishedAt": "2026-09-01"
     },
     {
-      "id": "n-2026-09-02-2",
-      "title": "المنظمات الصحية يمكن الآن ربط بيانات EHR وبيانات صناعية إضافية مع ChatGPT",
-      "titleEn": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "summary": "يمكن الآن لـ ChatGPT الاتصال ببيانات موثوقة في مجال الرعاية الصحية، مما يساعد الأطباء على الوصول بأمان إلى معلومات المرضى.",
-      "summaryEn": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient information.",
-      "category": "tools",
-      "importance": 4,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
-      },
-      "publishedAt": "2026-09-01"
-    },
-    {
-      "id": "n-2026-09-02-3",
-      "title": "إنجاز في توسيع الوصول إلى الذكاء الاصطناعي: ChatGPT Ads تصل إلى مليار دولار",
-      "titleEn": "A milestone in expanding access to AI: ChatGPT Ads reaches $1 billion",
-      "summary": "وصلت إيرادات ChatGPT Ads إلى معدل سنوي قدره مليار دولار مع التوسع عالميًا، مما يدعم نموذجًا تجاريًا مستدامًا للذكاء الاصطناعي.",
-      "summaryEn": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting a sustainable business model for AI.",
+      "id": "n-2026-09-03-2",
+      "title": "البنتاغون يضيف النسخ العسكرية من ChatGPT وGrok إلى بوابة GenAI.mil التي تجاوزت 1.7 مليون مستخدم",
+      "titleEn": "Pentagon adds military versions of ChatGPT and Grok to GenAI.mil portal, now past 1.7 million users",
+      "summary": "أضافت وزارة الدفاع الأمريكية «ChatGPT Mil» من OpenAI و«Grok for Government» من xAI إلى بوابة الذكاء الاصطناعي التوليدي المؤسسية GenAI.mil إلى جانب Gemini من جوجل، داخل غلاف أمني من مستوى IL5 للأعمال غير المصنفة. تجاوزت البوابة 1.7 مليون مستخدم فريد من أصل نحو 3 ملايين موظف في القطاع، وتُستخدم في التخطيط والسياسات واللوجستيات وأبحاث المشتريات — في غياب لافت لنماذج Anthropic Claude عن المنصة.",
+      "summaryEn": "The US Department of Defense added OpenAI's ChatGPT Mil and xAI's Grok for Government to its enterprise generative AI portal GenAI.mil alongside Google's Gemini, inside an IL5 security envelope for unclassified work. The portal has onboarded more than 1.7 million unique users out of roughly 3 million personnel, used for planning, policy, logistics, and procurement research — with Anthropic's Claude notably absent.",
       "category": "companies",
       "importance": 4,
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
       },
       "publishedAt": "2026-08-31"
     },
     {
-      "id": "n-2026-09-02-4",
-      "title": "إدخال فهم الفيديو الوكيل مع جيميني",
-      "titleEn": "Introducing agentic video understanding with Gemini",
-      "summary": "كشف جوجل دميند عن قدرات جديدة لفهم الفيديو الوكيل، مما يمثل تقدمًا كبيرًا في تحليل المحتوى المرئي.",
-      "summaryEn": "Google DeepMind introduces new agentic video understanding capabilities, representing significant progress in visual content analysis.",
-      "category": "tools",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
-      },
-      "publishedAt": "2026-09-01"
-    },
-    {
-      "id": "n-2026-09-02-5",
-      "title": "جيميني أومني 1.1 فلاش: المزيد من التحكم في البناء",
-      "titleEn": "Gemini Omni 1.1 Flash lets you build with more control",
-      "summary": "يوفر جيميني أومني 1.1 فلاش تحكمًا أكبر في عملية البناء، مع تحسينات في الأداء والدقة.",
-      "summaryEn": "Gemini Omni 1.1 Flash provides more control over the building process, with improvements in performance and accuracy.",
+      "id": "n-2026-09-03-3",
+      "title": "Z.ai تكشف أن نموذج «Ox Alpha» الغامض هو GLM-5.3-Flash — وكان يعمل على رقائق صينية",
+      "titleEn": "Z.ai reveals the mysterious 'Ox Alpha' model was GLM-5.3-Flash all along — served on Chinese chips",
+      "summary": "حُلّ لغز النموذج المجهول الذي تصدّر شعبية OpenRouter: إنه GLM-5.3-Flash من Z.ai، وهو نموذج MoE مفتوح الأوزان بحجم 320 مليار بارامتر (18 مليار نشطة) وسياق مليون رمز، وأول نموذج حدودي مفتوح يجمع الانتباه المتناثر والخطي في معمارية واحدة. وكشفت الشركة أن خدمة الاستدلال جرت على رقائق صينية محلية بعيداً عن Nvidia، ويدخل النموذج قوائم المتصدرة بسعر نحو 0.17 دولار لكل مليون رمز إدخال — دفعة قوية لمسار السيادة الصينية في الذكاء الاصطناعي.",
+      "summaryEn": "The mystery model that topped OpenRouter's popularity charts has been unmasked: Z.ai's GLM-5.3-Flash, an open-weights 320B-parameter MoE (18B active) with a 1M-token context — the first open frontier model combining sparse and linear attention in one architecture. Z.ai disclosed its inference was served entirely on domestic Chinese chips rather than Nvidia's, and it enters the rankings at roughly $0.17 per million input tokens — a strong boost for China's AI-sovereignty push.",
       "category": "models",
       "importance": 4,
       "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+        "name": "The New Stack",
+        "url": "https://thenewstack.io/glm-5-3-flash-chinese-chips/"
       },
-      "publishedAt": "2026-08-27"
+      "publishedAt": "2026-08-28"
     },
     {
-      "id": "n-2026-09-02-6",
-      "title": "إدخال كلود أوبس 5",
-      "titleEn": "Introducing Claude Opus 5",
-      "summary": "يُعد أوبس 5 تحولًا كبيرًا في مستوى أوبس، حيث يدعم الوكلات طويلة المدى مع تقديم نتائج متقدمة.",
-      "summaryEn": "Opus 5 is a step change improvement for the Opus tier, powering long-running agents while delivering advanced results.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/claude-opus-5"
-      },
-      "publishedAt": "2026-09-02"
-    },
-    {
-      "id": "n-2026-09-02-7",
-      "title": "إخفاء حقن المطالبة في الملفات القانونية",
-      "titleEn": "Hiding Prompt Injection in Legal Filing",
-      "summary": "تمكن شخص ما من إخفاء تعليمات الذكاء الاصطناعي في ملف قانوني، مما يمثل تهديدًا أمنيًا جديدًا.",
-      "summaryEn": "Someone hid AI instructions into a legal filing, representing a new security threat.",
-      "category": "other",
-      "importance": 4,
-      "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html"
-      },
-      "publishedAt": "2026-08-31"
-    },
-    {
-      "id": "n-2026-09-02-8",
-      "title": "الاحتيالات الاجتماعية القائمة على LLM",
-      "titleEn": "LLM-Based Social Engineering Scams",
-      "summary": "أوقفت OpenAI مجموعة من الهندسة الاجتماعية من كمبوديا استخدمت ChatGPT، حيث بلغ نطاقها ما يقرب من 500 ضحية.",
-      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT, with its scope reaching nearly 500 victims.",
-      "category": "other",
-      "importance": 4,
-      "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html"
-      },
-      "publishedAt": "2026-08-27"
-    },
-    {
-      "id": "n-2026-09-02-9",
-      "title": "كشف آبل عن 'أدلة صادمة' من MacBook لموظف سابق في دعوى OpenAI",
-      "titleEn": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
-      "summary": "كشفت آبل عن أدلة صادمة من جهاز MacBook لموظف سابق في دعوى قضائية ضد OpenAI، مما يزيد من حدة النزاع بين الشركتين.",
-      "summaryEn": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit, escalating the legal dispute between the companies.",
+      "id": "n-2026-09-03-4",
+      "title": "دعوى جديدة على xAI تزعم تدريب Grok على مواد إساءة للأطفال لضحايا حقيقيين — والشركة تقاضي مستخدميها بالمقابل",
+      "titleEn": "New lawsuit claims xAI trained Grok on child abuse material depicting real victims — as the company sues its own users",
+      "summary": "رفعت ضحايا جدد دعوى على xAI يزعمون فيها أن مواد إساءة جنسية للأطفال تصوّر أشخاصاً حقيقيين استُخدمت في تدريب Grok وقدراته في التزييف العميق من نوع «nudify»، وهي أحدث سلسلة دعاوى من هذا النوع في وقت تلجأ فيه الشركة ذاتها إلى مقاضاة مستخدميها في اتجاه معاكس. تعيد القضية فتح الجدل حول مصادر بيانات التدريب والمسؤولية القانونية عن مخرجات التزييف العميق.",
+      "summaryEn": "New victims sued xAI alleging child sexual abuse material depicting real people was used to train Grok and its 'nudify' deepfake capabilities — the latest in a string of such suits at a time when the company itself is counter-suing its own users. The case reopens debate over training-data sourcing and legal liability for deepfake outputs.",
       "category": "regulation",
       "importance": 4,
       "source": {
-        "name": "Hacker News",
-        "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/"
+        "name": "Mashable",
+        "url": "https://mashable.com/tech/grok-lawsuit-child-sexual-abuse-materials-training-data"
       },
       "publishedAt": "2026-09-01"
     },
     {
-      "id": "n-2026-09-02-10",
-      "title": "إدخال Muse Spark 1.1",
-      "titleEn": "Introducing Muse Spark 1.1",
-      "summary": "أعلنت ميتا عن إطلاق Muse Spark 1.1، وهو نموذج جديد لإنشاء المحتوى الإبداعي.",
-      "summaryEn": "Meta announced the launch of Muse Spark 1.1, a new model for creative content generation.",
+      "id": "n-2026-09-03-5",
+      "title": "AfterQuery تصبح أسرع «شركة وحيدة القرن» في تاريخ Y Combinator بتقييم 3.2 مليار دولار",
+      "titleEn": "AfterQuery becomes YC's fastest-ever unicorn at a $3.2 billion valuation",
+      "summary": "شركة بيانات تدريب الذكاء الاصطناعي التي أسسها سبنسر ماتيغا (23 عاماً) مع صديقه من أيام الدراسة الثانوية قفزت في جولة Series B من تقييم 300 مليون دولار إلى 3.2 مليار في أقل من ستة أشهر — لتصبح أسرع شركة في تاريخ حاضنة Y Combinator تبلغ مرتبة وحيد القرن، في مؤشر جديد على شهية المستثمرين المتعطشة لطبقة بيانات التدريب عالية الجودة.",
+      "summaryEn": "The AI training-data company founded by 23-year-old Spencer Mateega with a high-school friend jumped from a $300 million valuation to $3.2 billion in a Series B in under six months — making it the fastest company in Y Combinator's history to reach unicorn status, another sign of investors' outsized appetite for the high-quality training-data layer.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "Forbes",
+        "url": "https://www.forbes.com/sites/annatong/2026/09/01/afterquery-becomes-ycs-fastest-unicorn-at-32-billion/"
+      },
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "n-2026-09-03-6",
+      "title": "DeepSeek تفتح أوزان أول نموذج رؤية لها في عائلة V4: 305 مليارات بارامتر بمعمارية MoE متناثرة",
+      "titleEn": "DeepSeek open-sources its first V4 vision model: a 305B sparse-MoE multimodal release",
+      "summary": "أتاحت DeepSeek نموذج V4-Flash-Vision-Exp — أول نموذج فهم بصري متعدد الوسائط في عائلة V4 — بأوزان مفتوحة قابلة للتنزيل، وهو MoE متناثر بحجم 305 مليارات بارامتر برؤية مدمجة أصيلة بدل برج رؤية خارجي كما في إصدارات سابقة. تشير تحليلات مستقلة إلى كلفة تشغيل أقل بكثير من البدائل في الأحمال المتعددة الوسائط، لكن مراقبين يرون أن أرقام المعايير المعلنة ما تزال بحاجة إلى تحقق مستقل.",
+      "summaryEn": "DeepSeek has released V4-Flash-Vision-Exp — the first vision-capable multimodal model in the V4 family — as downloadable open weights: a 305B-parameter sparse MoE with native vision rather than a bolted-on external vision tower like earlier versions. Independent analyses point to far lower multimodal running costs than rivals, though observers note the claimed benchmark numbers still await independent verification.",
       "category": "models",
       "importance": 3,
       "source": {
-        "name": "Meta AI",
-        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        "name": "TechTimes",
+        "url": "https://www.techtimes.com/articles/326132/20260901/deepseek-open-sources-first-v4-vision-model-benchmark-claims-need-independent-proof.htm"
       },
-      "publishedAt": "2026-09-02"
+      "publishedAt": "2026-09-01"
     },
     {
-      "id": "n-2026-09-02-11",
-      "title": "إدخال Muse Image و Muse Video",
-      "titleEn": "Introducing Muse Image and Muse Video",
-      "summary": "أطلقت ميتا Muse Image و Muse Video، وهما نموذجان جديدان لإنشاء الصور والفيديو باستخدام الذكاء الاصطناعي.",
-      "summaryEn": "Meta launched Muse Image and Muse Video, two new models for image and video generation using AI.",
-      "category": "tools",
+      "id": "n-2026-09-03-7",
+      "title": "بحث: البنى الرمزية تنبثق داخل الشبكات العصبية وتفسر سلوك نماذج اللغة الكبيرة",
+      "titleEn": "Research: emergent symbolic structure inside neural networks explains LLM behavior",
+      "summary": "في ورقة لاحظها مجتمع Hacker News، يظهر توم مكوي وزملاؤه أن التمثيلات المتجهة داخل الشبكات العصبية يمكن تقريبها ببنى رمزية مغلقة الصيغة، وأن استبدال عملية التمثيل بهذه المعادلات الرمزية يُبقي سلوك النموذج دون تغيير يُذكر — وينطبق ذلك على نماذج لغة كبيرة في أربعة نطاقات: الحساب والمنطق وشيفرات البرمجة واللغة. وتمكن الباحثون من تعديل سلوك النماذج بتحرير هذه البنى الرمزية، ما يقدم جسراً بين الرمزية والاتصالية ويفتح باباً لتفسير النماذج والتحكم بها.",
+      "summaryEn": "In a paper spotlighted on Hacker News, Tom McCoy and colleagues show that vector representations inside neural networks can be closely approximated by closed-form symbolic structures, and that swapping the representation-generating process for those symbolic equations leaves model behavior largely unchanged — holding for LLMs across four domains: arithmetic, logic, code, and language. The researchers also edited LLM behavior by modifying these symbolic structures, bridging the symbolic vs connectionist divide and opening a path to interpreting and controlling models.",
+      "category": "research",
       "importance": 3,
       "source": {
-        "name": "Meta AI",
-        "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2608.29530"
       },
       "publishedAt": "2026-09-02"
     }
   ],
   "models": [
     {
-      "id": "m-2026-09-02-1",
-      "name": "Astra",
-      "org": "OpenAI",
-      "releaseDate": "2026-09-01",
-      "highlights": "أول نموذج من OpenAI يلبي عتبة القدرات الأمنية الحيوية، مع ميزات أمنية متقدمة لحماية البيانات الحساسة.",
-      "highlightsEn": "The first OpenAI model to meet the critical cybersecurity capability threshold, with advanced security features to protect sensitive data.",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://openai.com/index/path-to-astra"
-    },
-    {
-      "id": "m-2026-09-02-2",
-      "name": "Gemini Omni 1.1 Flash",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-08-27",
-      "highlights": "يوفر تحكمًا أكبر في عملية البناء، مع تحسينات في الأداء والدقة.",
-      "highlightsEn": "Provides more control over the building process with improvements in performance and accuracy.",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
-    },
-    {
-      "id": "m-2026-09-02-3",
-      "name": "Claude Opus 5",
+      "id": "m-2026-09-03-1",
+      "name": "Claude Fable 5.1",
       "org": "Anthropic",
-      "releaseDate": "2026-07-24",
-      "highlights": "تحول كبير في مستوى أوبس، يدعم الوكلات طويلة المدى مع تقديم نتائج متقدمة.",
-      "highlightsEn": "Step change improvement for the Opus tier, powering long-running agents while delivering advanced results.",
+      "releaseDate": "2026-09-01",
+      "highlights": "الترقية الرئيسية لخط Fable: ضاعفت نتيجة Terminal-Bench Science إلى 52.6% وخفضت قراءة الذاكرة المؤقتة 75% إلى 0.25$/M (توفير يصل ~45% لأحمال الوكلاء) — دخلت قائمة LLM Stats في المركز الأول (56.8) يوم إطلاقها، ومعها نسخة Mythos 5.1 الأقل قيوداً لمنظمات أمريكية موثوقة",
+      "highlightsEn": "The flagship Fable upgrade: doubled Terminal-Bench Science to 52.6% and cut cache reads 75% to $0.25/M (up to ~45% savings on agentic workloads) — debuted #1 on LLM Stats (56.8) on launch day, alongside the less-restricted Mythos 5.1 for vetted US organizations",
       "specs": {
-        "context": "200K"
+        "context": "1M"
       },
-      "url": "https://www.anthropic.com/news/claude-opus-5"
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
     },
     {
-      "id": "m-2026-09-02-4",
-      "name": "Mistral OCR 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-08-31",
-      "highlights": "نموذج OCR متقدم لتح النصوص من الصور بدقة عالية.",
-      "highlightsEn": "Advanced OCR model for extracting text from images with high accuracy.",
+      "id": "m-2026-09-03-2",
+      "name": "GLM-5.3-Flash",
+      "org": "Z.ai",
+      "releaseDate": "2026-08-26",
+      "highlights": "النموذج الذي تصدّر OpenRouter تحت اسم «Ox Alpha» قبل الكشف عن هويته: MoE مفتوح الأوزان بحجم 320B (18B نشطة) وسياق مليون رمز، يجمع الانتباه المتناثر والخطي لأول مرة في نموذج حدودي مفتوح، واستُدعى على رقائق صينية — يدخل LLM Stats في المركز 13 (51.1) بنحو 0.17$/M",
+      "highlightsEn": "The model that topped OpenRouter as 'Ox Alpha' before being unmasked: an open-weights 320B MoE (18B active) with 1M context, first open frontier model combining sparse and linear attention, served on Chinese chips — enters LLM Stats at #13 (51.1) at ~$0.17/M",
       "specs": {
-        "context": "128K"
+        "params": "320B (18B active)",
+        "context": "1M"
       },
-      "url": "https://mistral.ai/news/ocr-4/"
+      "url": "https://thenewstack.io/glm-5-3-flash-chinese-chips/"
     },
     {
-      "id": "m-2026-09-02-5",
-      "name": "Mistral Medium 3.5",
-      "org": "Mistral AI",
-      "releaseDate": "2026-08-31",
-      "highlights": "نموذج متوسط الحجم مع أداء متقدم لمهام اللغة الطبيعية.",
-      "highlightsEn": "Medium-sized model with advanced performance for natural language tasks.",
+      "id": "m-2026-09-03-3",
+      "name": "DeepSeek-V4-Flash-Vision-Exp",
+      "org": "DeepSeek",
+      "releaseDate": "2026-09-01",
+      "highlights": "أول نموذج رؤية بأوزان مفتوحة في عائلة V4: MoE متناثر بحجم 305B برؤية أصيلة مدمجة (لا برج رؤية خارجي)، متاح عبر API وقابل للتنزيل — بادعاءات معايير قوية وكلفة تشغيل متعددة الوسائط أقل بكثير تنتظر تحققاً مستقلاً",
+      "highlightsEn": "The first open-weights vision model in the V4 family: a 305B sparse MoE with native built-in vision (no external vision tower), available via API and download — strong benchmark claims and far lower multimodal running costs that await independent verification",
       "specs": {
-        "context": "128K"
+        "params": "305B sparse MoE"
       },
-      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
-    },
-    {
-      "id": "m-2026-09-02-6",
-      "name": "Mistral Small 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-08-31",
-      "highlights": "نموذج صغير الحجم فعال لمهام معالجة اللغة الطبيعية.",
-      "highlightsEn": "Small-sized efficient model for natural language processing tasks.",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://mistral.ai/news/mistral-small-4/"
+      "url": "https://www.techtimes.com/articles/326132/20260901/deepseek-open-sources-first-v4-vision-model-benchmark-claims-need-independent-proof.htm"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-09-02-1",
-      "text": "إنجاز في توسيع الوصول إلى الذكاء الاصطناعي: ChatGPT Ads تصل إلى مليار دولار",
-      "textEn": "A milestone in expanding access to AI: ChatGPT Ads reaches $1 billion",
+      "id": "h-2026-09-03-1",
+      "text": "Claude Fable 5.1 يحل في المركز الأول على LLM Stats فور إطلاقه (56.8) مزاحماً GPT-5.6 Sol (56.6)",
+      "textEn": "Claude Fable 5.1 debuted at #1 on LLM Stats on launch day (56.8), edging out GPT-5.6 Sol (56.6)",
       "level": "info",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+      "url": "https://llm-stats.com/"
     },
     {
-      "id": "h-2026-09-02-2",
-      "text": "كشف آبل عن 'أدلة صادمة' من MacBook لموظف سابق في دعوى OpenAI",
-      "textEn": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
-      "level": "critical",
-      "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/"
+      "id": "h-2026-09-03-2",
+      "text": "في اختبارات Anthropic صمّم Mythos 5.1 بروتينات رابطة بنسبة نجاح ~50% مقابل 10-15% معتادة — لمحة على القدرات العلمية الكامنة خلف طبقات الضمانات",
+      "textEn": "In Anthropic's testing, Mythos 5.1 designed protein binders with a ~50% hit rate vs the usual 10-15% — a glimpse of the scientific capability sitting behind the safeguards",
+      "level": "info",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
     },
     {
-      "id": "h-2026-09-02-3",
-      "text": "الاستدلال في المنطقة، النماذج المفتوحة، والبنية التحتية الأوروبية الجديدة للذكاء الاصطناعي السيادي",
-      "textEn": "In-region inference, open models, and new European infrastructure for sovereign AI",
+      "id": "h-2026-09-03-3",
+      "text": "بوابة البنتاغون GenAI.mil تجاوزت 1.7 مليون مستخدم من أصل 3 ملايين موظف — من دون Anthropic",
+      "textEn": "The Pentagon's GenAI.mil portal passed 1.7 million of its 3 million personnel — without Anthropic",
       "level": "info",
-      "url": "https://mistral.ai/news/regional-inference-open-models-new-compute"
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
     }
   ],
-  "security": [
-    {
-      "id": "sec-2026-09-02-1",
-      "title": "إخفاء حقن المطالبة في الملفات القانونية",
-      "titleEn": "Hiding Prompt Injection in Legal Filing",
-      "summary": "تمكن شخص ما من إخفاء تعليمات الذكاء الاصطناعي في ملف قانوني، حيث تم تضمين أوامر خفية في نص قانوني يهدف إلى تنفيذ إجراءات غير مصرح بها عند معالجتها بواسطة أنظمة الذكاء الاصطناعي.",
-      "summaryEn": "Someone hid AI instructions into a legal filing, embedding hidden commands in legal text designed to execute unauthorized actions when processed by AI systems.",
-      "type": "prompt-injection",
-      "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
-      "source": "Schneier on Security",
-      "date": "2026-08-31"
-    },
-    {
-      "id": "sec-2026-09-02-2",
-      "title": "الاحتيالات الاجتماعية القائمة على LLM",
-      "titleEn": "LLM-Based Social Engineering Scams",
-      "summary": "أوقفت OpenAI مجموعة من الهندسة الاجتماعية من كمبوديا استخدمت ChatGPT لتنفيذ عمليات احتيالية، حيث تمكنت من الوصول إلى حسابات حساسة وسرقة البيانات الشخصية.",
-      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT to carry out fraudulent operations, gaining access to sensitive accounts and stealing personal data.",
-      "type": "malware",
-      "severity": "critical",
-      "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
-      "source": "Schneier on Security",
-      "date": "2026-08-27"
-    },
-    {
-      "id": "sec-2026-09-02-3",
-      "title": "معلومات تدريبية لعمليات السيبرانية الروسية المسربة",
-      "titleEn": "Leaked Russian Cyber-Operations Training Materials",
-      "summary": "تم تسجيل مواد تدريبية لعمليات السيبرانية الروسية تحتوي على آلية لتوليد القوى، مما يشير إلى تهديدات أمنية محتملة.",
-      "summaryEn": "Training materials for Russian cyber-operations were leaked, containing a force-generation mechanism, indicating potential security threats.",
-      "type": "breach",
-      "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html",
-      "source": "Schneier on Security",
-      "date": "2026-09-01"
-    },
-    {
-      "id": "sec-2026-09-02-4",
-      "title": "هل يقوم شخص ما باختراق ثلاجات وزارة الدفاع؟",
-      "titleEn": "Is Someone Hacking DoD Refrigerators?",
-      "summary": "يبدو أن هناك اختراقات لثلاجات وزارة الدفاع، حيث تم تأثر مواقع عدة بما في ذلك قاعدة فورت إيروين في كاليفورنيا.",
-      "summaryEn": "It appears that DoD refrigerators are being hacked, with several confirmed affected sites including Fort Irwin in California.",
-      "type": "breach",
-      "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
-      "source": "Schneier on Security",
-      "date": "2026-08-31"
-    }
-  ],
+  "security": [],
   "benchmarks": {
-    "asOf": "2026-09-02",
+    "asOf": "2026-09-03",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
-      {
-        "name": "Claude Fable 5.1",
-        "org": "Anthropic",
-        "score": "56.8"
-      },
-      {
-        "name": "GPT-5.6 Sol",
-        "org": "OpenAI",
-        "score": "56.6"
-      },
-      {
-        "name": "Claude Opus 5",
-        "org": "Anthropic",
-        "score": "55.9"
-      },
-      {
-        "name": "Claude Mythos Preview",
-        "org": "Anthropic",
-        "score": "55.6"
-      },
-      {
-        "name": "Claude Fable 5",
-        "org": "Anthropic",
-        "score": "55.4"
-      },
-      {
-        "name": "Kimi K3",
-        "org": "Moonshot AI",
-        "score": "54.5"
-      },
-      {
-        "name": "GLM-5.3",
-        "org": "Zhipu AI",
-        "score": "54.3"
-      },
-      {
-        "name": "DeepSeek-V4-Pro-0813",
-        "org": "DeepSeek",
-        "score": "52.9"
-      },
-      {
-        "name": "Qwen3.8 Max",
-        "org": "Alibaba Cloud / Qwen Team",
-        "score": "52.6"
-      },
-      {
-        "name": "GPT-5.6 Terra",
-        "org": "OpenAI",
-        "score": "52.1"
-      }
+      { "name": "Claude Fable 5.1", "org": "Anthropic", "score": "56.8" },
+      { "name": "GPT-5.6 Sol", "org": "OpenAI", "score": "56.6" },
+      { "name": "Claude Opus 5", "org": "Anthropic", "score": "55.9" },
+      { "name": "Claude Mythos Preview", "org": "Anthropic (unreleased)", "score": "55.6" },
+      { "name": "Claude Fable 5", "org": "Anthropic", "score": "55.4" },
+      { "name": "Kimi K3", "org": "Moonshot AI", "score": "54.5" },
+      { "name": "GLM-5.3", "org": "Zhipu AI", "score": "54.3" },
+      { "name": "DeepSeek-V4-Pro-0813", "org": "DeepSeek", "score": "52.9" },
+      { "name": "Qwen3.8 Max", "org": "Alibaba Cloud / Qwen Team", "score": "52.6" },
+      { "name": "GPT-5.6 Terra", "org": "OpenAI", "score": "52.1" }
     ],
-    "highlights": "تسيطر نماذج Claude على الترتيب الأعلى، حيث تحتل 4 من بين أفضل 5 مراكز. يتنافس GPT-5.6 Sol بقوة كأفضل نموذج من OpenAI، بينما يحتل Kimi K3 المرتبة السادس كأفضل نموذج مفتوح المصدر.",
-    "highlightsEn": "Claude models dominate the top rankings, with 4 out of the top 5 positions. GPT-5.6 Sol competes strongly as the top OpenAI model, while Kimi K3 ranks 6th as the best open-source model."
-  },
-  "knowledgeEntry": {
-    "id": "k-2026-09-02-تنفيذ-مرشحات-أمان-الذكاء-الاصطناعي-في-التطبيقات",
-    "title": "تنفيذ مرشحات أمان الذكاء الاصطناعي في التطبيقات",
-    "titleEn": "Implementing AI Safety Filters in Applications",
-    "why": "تُعد مرشحات أمان الذكاء الاصطناعي عنصراً حيوياً لحماية المستخدمين من المحتوى الضار أو غير المناسب، خاصة مع تزايد استخدام النماذج اللغوية الكبيرة في التطبيقات اليومية.",
-    "whyEn": "AI safety filters are crucial for protecting users from harmful or inappropriate content, especially with the increasing use of large language models in daily applications.",
-    "difficulty": "intermediate",
-    "track": "security",
-    "steps": [
-      {
-        "title": "تحديد أنواع المحتوى الضار",
-        "detail": "قم بإنشاء قائمة بأنواع المحتوى الذي يجب حظره، مثل الكلام العنصري، العنف، المعلومات الخاطئة، أو أي محتوى يخالف سياسات المحتوى الخاصة بك."
-      },
-      {
-        "title": "اختيار نموذج تصنيف المحتوى",
-        "detail": "حدد نموذجاً متخصصاً في تصنيف المحتوى الضار. يمكنك استخدام نماذج مسبقة التدريب مثل 'unitary/toxic-bert' أو تدريب نموذج خاص بمتطلباتك."
-      },
-      {
-        "title": "تطبيق المرشح",
-        "detail": "قم بدمج نموذج التصنيف في تدفق معالجة الطلبات الخاص بك. تأكد من أن المرشح يعمل قبل معالجة المحتوى بواسطة النموذج الرئيسي."
-      },
-      {
-        "title": "إجراءات الاستجابة",
-        "detail": "حدد الإجراءات التي ستتخذ عند اكتشاف محتوى ضار، مثل رفض الطلب، تعديل الرد، إعلام المستخدم، أو تسجيل الحادث للمراجعة."
-      },
-      {
-        "title": "الاختبار والتقييم",
-        "detail": "اختبر النظام بمجموعة متنوعة من المدخلات، بما في ذلك الحالات الإيجابية والسلبية، وتأكد من فعاليته ودقته في اكتشاف المحتوى الضار."
-      }
-    ],
-    "stepsEn": [
-      {
-        "title": "Identify harmful content types",
-        "detail": "Create a list of content types to be blocked, such as hate speech, violence, misinformation, or any content that violates your content policies."
-      },
-      {
-        "title": "Choose a content classification model",
-        "detail": "Select a specialized model for harmful content classification. You can use pre-trained models like 'unitary/toxic-bert' or train a custom model for your specific requirements."
-      },
-      {
-        "title": "Implement the filter",
-        "detail": "Integrate the classification model into your request processing pipeline. Ensure the filter operates before processing content with your main model."
-      },
-      {
-        "title": "Response procedures",
-        "detail": "Define actions to take when harmful content is detected, such as rejecting the request, modifying the response, notifying the user, or logging the incident for review."
-      },
-      {
-        "title": "Testing and evaluation",
-        "detail": "Test the system with diverse inputs, including both positive and negative cases, and verify its effectiveness and accuracy in detecting harmful content."
-      }
-    ],
-    "code": "from transformers import pipeline\n\n# Initialize content classification model\nclassifier = pipeline(\"text-classification\", model=\"unitary/toxic-bert\")\n\ndef safety_filter(text):\n    # Classify text for harmful content\n    result = classifier(text)\n    \n    # Check if text is classified as harmful\n    if result[0]['label'] == 'TOXIC' and result[0]['score'] > 0.8:\n        return False, \"Content flagged as potentially harmful\"\n    return True, \"Content passed safety check\"\n\n# Example usage\ntext = \"This is a sample text to check\"\nis_safe, message = safety_filter(text)\nprint(f\"Safe: {is_safe}, Message: {message}\")",
-    "resources": [
-      {
-        "name": "OpenAI Content Policy Guidelines",
-        "url": "https://openai.com/policies/content-policy"
-      },
-      {
-        "name": "Hugging Face Toxicity Detection Models",
-        "url": "https://huggingface.co/models?search=toxic"
-      },
-      {
-        "name": "AI Safety Research Paper",
-        "url": "https://arxiv.org/abs/2109.07958"
-      }
-    ],
-    "tags": [
-      "أمان الذكاء الاصطناعي",
-      "مرشحات المحتوى",
-      "الحماية",
-      "AI Safety",
-      "Content Filtering"
-    ],
-    "quickRef": "مرشحات أمان الذكاء الاصطناعي تكتشف وتمنع المحتوى الضار قبل معالجته، وتتضمن تحديد المحتوى الضار، اختيار نموذج تصنيف، تطبيق المرشح، تحديد إجراءات الاستجابة، واختبار النظام.",
-    "quickRefEn": "AI safety filters detect and prevent harmful content before processing, including identifying harmful content, selecting a classification model, implementing the filter, defining response procedures, and testing the system.",
-    "quiz": [
-      {
-        "q": "ما هو الخطأ الأكثر شيوعاً في تنفيذ مرشحات أمان الذكاء الاصطناعي؟",
-        "options": [
-          "استخدام نموذج غير متخصص في تصنيف المحتوى",
-          "عدم تحديث قائمة المحتوى الضار بانتظام",
-          "إجراء الاختبارات فقط على محتوى واضح الخطورة",
-          "تجاهل آراء المستخدمين حول المحتوى الضار"
-        ],
-        "answer": 0,
-        "explain": "استخدام نموذج غير متخصص في تصنيف المحتوى يؤدي إلى نتائج غير دقيقة وقد يفقد السياق الصحيح للمحتوى."
-      },
-      {
-        "q": "كيف يمكن تحسين فعالية مرشحات أمان الذكاء الاصطناعي؟",
-        "options": [
-          "الاعتماد على نموذج تصنيف واحد فقط",
-          "استخدام نماذج متعددة ودمج النتائج",
-          "تقليل حساسية النموذج لتجنب الإيجابيات الكاذبة",
-          "منع جميع المحتوى الذي يحتوي على كلمات معينة"
-        ],
-        "answer": 1,
-        "explain": "استخدام نماذج متعددة ودمج النتائج يوفر رؤية أكثر شمولاً ويقلل من احتمالية الأخطاء في التصنيف."
-      },
-      {
-        "q": "ما هو العامل الأهم عند اختيار نموذج تصنيف المحتوى الضار؟",
-        "options": [
-          "سرعة المعالجة فقط",
-          "الدقة في التصنيف فقط",
-          "التوازن بين الدقة والسرعة والتكلفة",
-          "سهولة التكامل فقط"
-        ],
-        "answer": 2,
-        "explain": "يجب أن يكون هناك توازن بين الدقة والسرعة والتكلفة لضمان حماية فعالة دون التأثير سلباً على أداء التطبيق."
-      }
-    ],
-    "addedAt": "2026-09-02"
+    "highlights": "Claude Fable 5.1 يدخل القائمة في المركز الأول فور إطلاقه (56.8) متقدماً على GPT-5.6 Sol؛ ويواصل Sol تصدر الاستدلال بنسبة 94.6% على GPQA، بينما يبقى Kimi K3 أفضل نموذج مفتوح الأوزان (93.5% على GPQA). من الداخلين الجدد: Hy4 preview من Tencent في المركز 11 (51.5) وGLM-5.3-Flash من Z.ai في المركز 13 (51.1) بسعر 0.17 دولار فقط لكل مليون رمز."
   }
 }

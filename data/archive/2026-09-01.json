@@ -1,172 +1,116 @@
 {
   "date": "2026-09-01",
-  "generatedAt": "2026-09-01T10:24:53.290Z",
+  "generatedAt": "2026-09-01T08:12:21.739Z",
   "news": [
     {
-      "id": "n-2026-09-01-7",
-      "title": "كلاود أوبس 5: تحول كبير في النماذج",
-      "titleEn": "Claude Opus 5: A major leap in models",
-      "summary": "أعلنت أنثروب عن كلاود أوبس 5 الذي يمثل تحولًا كبيرًا في الأداء مع وكلاء طويلة المدى.",
-      "summaryEn": "Anthropic announced Claude Opus 5, representing a major leap in performance with long-running agents.",
-      "category": "models",
+      "id": "n-2026-09-01-1",
+      "title": "Nvidia توافق على الاستحواذ على Hugging Face بنحو 13 مليار دولار",
+      "titleEn": "Nvidia agrees to acquire Hugging Face for about $13 billion",
+      "summary": "أفادت The Information أن Nvidia وافقت على شراء منصة استضافة النماذج مفتوحة المصدر Hugging Face بنحو 12.9 مليار دولار — أي قرابة ثلاثة أضعاف تقييمها في 2023 — في صفقة توسّع حضور الشركة من الرقائق إلى طبقة برمجيات الذكاء الاصطناعي ومنظومتها المفتوحة، علماً بأن Nvidia كانت أصلاً من المستثمرين في المنصة.",
+      "summaryEn": "The Information reported Nvidia has agreed to buy open-source model hub Hugging Face for roughly $12.9 billion — nearly triple its 2023 valuation — a deal that extends the company from chips into the AI software stack and the open-source ecosystem it had already backed as an investor.",
+      "category": "companies",
       "importance": 5,
       "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/claude-opus-5"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-buying-hugging-face-nearly-144145059.html"
+      },
+      "publishedAt": "2026-08-27"
+    },
+    {
+      "id": "n-2026-09-01-2",
+      "title": "Anthropic توقع صفقة حوسبة سحابية بقيمة 35 مليار دولار مع Lambda المدعومة من Nvidia",
+      "titleEn": "Anthropic signs $35 billion cloud computing deal with Nvidia-backed Lambda",
+      "summary": "كشفت وول ستريت جورنال في نسخة الأول من سبتمبر أن Anthropic وقعت اتفاقاً بقيمة 35 مليار دولار مع شركة الحوسبة السحابية Lambda المدعومة من Nvidia لتأمين القدرة الحاسوبية لنماذجها، في واحدة من أكبر صفقات الحوسبة في القطاع — من دون إعلان رسمي من أي من الشركتين ومن دون الكشف عن الشروط.",
+      "summaryEn": "The Wall Street Journal's September 1 print edition revealed Anthropic signed a $35 billion deal with Nvidia-backed cloud provider Lambda to secure compute capacity for its models — one of the industry's largest computing deals — with neither company officially announcing it and no terms disclosed.",
+      "category": "companies",
+      "importance": 5,
+      "source": {
+        "name": "The Next Web",
+        "url": "https://thenextweb.com/news/anthropic-lambda-35bn-cloud-deal"
       },
       "publishedAt": "2026-09-01"
     },
     {
-      "id": "n-2026-09-01-8",
-      "title": "مقابلات بين مونشوت ومايكروسوفت وأمازون وجوجل حول نموذج K3",
-      "titleEn": "Moonshot in talks with Microsoft, Amazon, Google over K3 model",
-      "summary": "تتحدث شركة مونشوت الصينية مع كبار مقدمي الخدمات السحابية حول مشاركة إيرادات نموذج K3.",
-      "summaryEn": "Chinese Moonshot is in talks with major cloud providers about K3 model revenue sharing.",
-      "category": "companies",
-      "importance": 5,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
-      },
-      "publishedAt": "2026-08-26"
-    },
-    {
-      "id": "n-2026-09-01-2",
-      "title": "OpenAI تدعم مشروع قانون كاليفورنيا لتعزيز سلامة الذكاء الاصطناعي للشباب",
-      "titleEn": "OpenAI supports California's bill to advance youth AI safety",
-      "summary": "أعلنت OpenAI عن دعمها لمشروع قانون SB 1119 الذي يسعى لتطبيق ضمانات ذكاء اصطناعي قوية مناسبة للعمر للمراهقين.",
-      "summaryEn": "OpenAI announced its support for SB 1119, which aims to implement strong, age-appropriate AI safeguards for teenagers.",
-      "category": "regulation",
+      "id": "n-2026-09-01-3",
+      "title": "كتّاب الذكاء الاصطناعي للأطباء يخطئون في أسماء الأدوية والتشخيصات وفق تحذير رقابي بريطاني",
+      "titleEn": "Doctors' AI scribes get names of drugs and diagnoses wrong, NHS watchdog warns",
+      "summary": "حذّر جهة رقابية في هيئة الصحة البريطانية من أن أدوات الذكاء الاصطناعي التي تستمع إلى زيارات المرضى وتحوّلها إلى سجلات قد تعرّض المرضى للخطر بإخطائها في أسماء الأدوية والتشخيصات؛ إذ رصد مرضى أخطاء في سجلاتهم، منها مساعد ذكي سجّل أن طبيبة أوصت مريضاً بمواصلة Prozac دون أن يحدث ذلك فعلاً.",
+      "summaryEn": "An NHS watchdog warned that AI tools which listen to and transcribe patient consultations can put patients at risk by getting drug names and diagnoses wrong — patients have spotted errors in their records, including an AI scribe logging that a doctor told a patient to continue Prozac when it was never discussed.",
+      "category": "other",
       "importance": 4,
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/society/2026/aug/31/doctors-ai-scribes-get-names-of-drugs-and-diagnoses-wrong-nhs-watchdog-warns"
       },
       "publishedAt": "2026-08-31"
     },
     {
       "id": "n-2026-09-01-4",
-      "title": "إنجاز في توسيع الوصول إلى الذكاء الاصطناعي: ChatGPT Ads تصل إلى مليار دولار",
-      "titleEn": "A milestone in expanding access to AI: ChatGPT Ads reaches $1 billion",
-      "summary": "أعلنت OpenAI عن وصول إيرادات ChatGPT Ads إلى معدل سنوي قدره مليار دولار مع التوسع العالمي.",
-      "summaryEn": "OpenAI announced ChatGPT Ads has reached $1 billion in annualized revenue with global expansion.",
+      "title": "Anthropic تدخل عالم الذكاء الاصطناعي المادي بمعيار موحد للعلماء والتصنيع",
+      "titleEn": "Anthropic makes its first move into physical AI with a universal standard for scientists and manufacturing",
+      "summary": "أعلنت Anthropic أولى خطواتها في «الذكاء الاصطناعي المادي» عبر معيار عالمي يهدف إلى مساعدة العلماء وقطاع التصنيع على استخدام الوكلاء الأذكياء في بيئات فعلية، في توسيع جديد لنطاق عمل الشركة إلى ما وراء البرمجيات والنصوص.",
+      "summaryEn": "Anthropic announced its first move into \"physical AI\" with a universal standard designed to help scientists and manufacturers deploy intelligent agents in real-world environments — extending the company's scope beyond software and text.",
       "category": "companies",
       "importance": 4,
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+        "name": "Fortune",
+        "url": "https://fortune.com/2026/08/27/anthropic-makes-first-move-into-physical-ai-with-universal-standard-for-scientists-manufacturing/"
       },
-      "publishedAt": "2026-08-31"
+      "publishedAt": "2026-08-27"
     },
     {
       "id": "n-2026-09-01-5",
-      "title": "جيميني أومني 1.1 فلاش: المزيد من التحكم في البناء",
-      "titleEn": "Gemini Omni 1.1 Flash: More control in building",
-      "summary": "أطلقت جوجل دميند نموذج جيميني أومني 1.1 فلاش الذي يوفر مزيدًا من التحكم للمطورين.",
-      "summaryEn": "Google DeepMind launched Gemini Omni 1.1 Flash, providing developers with more control.",
-      "category": "models",
-      "importance": 4,
+      "title": "مسار ماسك الأسرع لمزيد من توربينات الغاز يحمل مشكلة تلوث",
+      "titleEn": "Musk's faster path to more gas turbines comes with pollution problem",
+      "summary": "يقول إيلون ماسك إنه وجد حلاً لأحد أكبر عوائق الذكاء الاصطناعي بتصنيع قطعة توربينات يصعب إنتاجها داخلياً لتسريع تزويد مراكز بياناته بالطاقة، لكن التحليل يسلّط الضوء على الكلفة البيئية للاعتماد المتزايد على الغاز، وسط دعاوى قضائية سابقة بشأن مولدات xAI في ممفيس.",
+      "summaryEn": "Elon Musk says he has found a way around one of AI's biggest bottlenecks by manufacturing a hard-to-produce turbine part in-house to speed up power delivery to his datacenters — but the move underscores the environmental cost of the industry's growing gas reliance, following earlier lawsuits over xAI's Memphis generators.",
+      "category": "companies",
+      "importance": 3,
       "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/"
       },
-      "publishedAt": "2026-08-27"
+      "publishedAt": "2026-08-30"
     },
     {
       "id": "n-2026-09-01-6",
-      "title": "تجربة أول تقييمات ذكاء اصطناعي مزدوجة العمى في العالم",
-      "titleEn": "Piloting the world's first double-blind AI evaluations",
-      "summary": "تستكشف جوجل دميند تقنية تقييمات الذكاء الاصطناعي المزدوجة العمى لتحديد التحيزات.",
-      "summaryEn": "Google DeepMind is exploring double-blind AI evaluation techniques to identify biases.",
-      "category": "research",
-      "importance": 4,
+      "title": "أمريكا تبني حواجز حول الطائرات المسيّرة والروبوتات لكن الصين تملك الحجم",
+      "titleEn": "The US is building barriers around drones and robots, but China has scale",
+      "summary": "تشدد واشنطن القيود على الطائرات المسيّرة والروبوتات الأجنبية برسوم جمركية جديدة وتوسيع الدور الرقابي للاتصالات الفيدرالية، لكن تحليل TechCrunch يرى أن حجم التصنيع الصيني — بما فيه نحو 70% من الطائرات المسيّرة عالمياً — قد يدفع المنافسة إلى أسواق أخرى بدلاً من إيقافها.",
+      "summaryEn": "Washington is tightening restrictions on foreign-made drones and robots with new tariffs and an expanded federal communications role, but TechCrunch argues China's manufacturing scale — including roughly 70% of the world's drones — may simply push the competition to other markets rather than stop it.",
+      "category": "regulation",
+      "importance": 3,
       "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/"
       },
-      "publishedAt": "2026-08-27"
+      "publishedAt": "2026-08-30"
     },
     {
-      "id": "n-2026-09-01-9",
-      "title": "نموذج كيمي K3 الصيني الذي يثير اهتمام وول ستريت",
-      "titleEn": "Kimi K3: The Chinese AI model gaining Wall Street attention",
-      "summary": "يكتسب نموذج كيمي K3 الصيني اهتمامًا كبيرًا في الأسواق المالية العالمية.",
-      "summaryEn": "The Chinese Kimi K3 model is gaining significant attention in global financial markets.",
-      "category": "models",
-      "importance": 4,
+      "id": "n-2026-09-01-7",
+      "title": "OpenClaw 2.0 يستهدف المؤسسات: منصة وكلاء تعمل كبيئة تشغيل ومكان عمل معاً",
+      "titleEn": "OpenClaw 2.0 targets enterprises: an agent platform as both runtime and workplace",
+      "summary": "أطلقت OpenClaw إصدارها الثاني برهان جديد مفاده أن المؤسسات تحتاج في نهاية المطاف إلى منصة وكلاء تعمل كبيئة تشغيل ومكان عمل في آن واحد، في خطوة تعكس سباق الشركات لضبط حوكمة الوكلاء وسط تحذيرات أمنية متزايدة من الأدوات المفتوحة.",
+      "summaryEn": "OpenClaw launched version 2.0 with another bet — that enterprises ultimately need an agent platform functioning as both runtime and workplace — reflecting the corporate race to govern agents amid growing security warnings around open tooling.",
+      "category": "tools",
+      "importance": 3,
       "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNDVXcGZtZnB1R3VlbWdyemp2eWxVLUVkaUlaVkEwenJXWC13YmpRLXg2OEY5T0hUTnotQ1ZYVm55aDR3My04X19EcHRhYTAyaExxb1gzUzBCZ2drV0l1U0JqcVJUc0RXQ1Uzck9jNXpGd2J4QzZqQmpNUVc2R0twWDduamd4WWcxQmRsenpWTlpocERZN3lmY3A2YS10YVEyMlpGcnZRQkpia3c0SXZiNHBQVTZFN08zeGo4aENUd1VqSjJfM1F4Qw?oc=5"
-      },
-      "publishedAt": "2026-08-31"
-    },
-    {
-      "id": "n-2026-09-01-10",
-      "title": "Z.ai ترتفع أسهمها 8% بعد إطلاق نموذج يعمل فقط على رقائق صينية",
-      "titleEn": "Z.ai shares surge 8% after releasing model running only on Chinese chips",
-      "summary": "شهدت أسهم شركة Z.ai ارتفاعًا بنسبة 8% بعد إطلاق نموذج يعمل حصريًا على الرقائق الصينية.",
-      "summaryEn": "Z.ai shares rose 8% after launching a model that runs exclusively on Chinese chips.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
-      },
-      "publishedAt": "2026-08-27"
-    },
-    {
-      "id": "n-2026-09-01-11",
-      "title": "ألكسندر 3.7 فلاش: نموذج جديد من جوجل دميند",
-      "titleEn": "Gemini 3.7 Flash: A new model from Google DeepMind",
-      "summary": "أطلقت جوجل دميند نموذج ألكسندر 3.7 فلاش مع تحسينات في الأداء والكفاءة.",
-      "summaryEn": "Google DeepMind launched Gemini 3.7 Flash with improvements in performance and efficiency.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
-      },
-      "publishedAt": "2026-08-13"
-    },
-    {
-      "id": "n-2026-09-01-12",
-      "title": "كلاود سونيت 5: أداء متقدم في البرمجة والوكلاء",
-      "titleEn": "Claude Sonnet 5: Advanced performance in coding and agents",
-      "summary": "يوفر كلاود سونيت 5 أداءً متقدمًا في البرمجة والوكلاء والعمل المهني.",
-      "summaryEn": "Claude Sonnet 5 delivers advanced performance in coding, agents, and professional work.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/claude-sonnet-5"
+        "name": "VentureBeat",
+        "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises"
       },
       "publishedAt": "2026-09-01"
     },
     {
-      "id": "n-2026-09-01-1",
-      "title": "نظام DIASENTINEL: نظام متعدد الوكلاء للفحص القائم على الإرشادات لخطر السكري",
-      "titleEn": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
-      "summary": "نظام جديد يستخدم نماذج اللغة الكبيرة لدعم قرارات الرعاية الصحية، مع التركيز على إمكانية تدقيق النتائج.",
-      "summaryEn": "A new system using large language models for clinical decision support, focusing on auditability of results.",
-      "category": "research",
-      "importance": 3,
-      "source": {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2608.31128v1"
-      },
-      "publishedAt": "2026-08-31"
-    },
-    {
-      "id": "n-2026-09-01-3",
-      "title": "بولميل تبني البنية التحتية العامة للذكاء الاصطناعي التالية في اليابان",
-      "titleEn": "Polimill builds Japan's next-generation public AI infrastructure",
-      "summary": "تستخدم بولميل نماذج GPT و Codex من OpenAI لمساعدة البلديات في البحث واستخدام البيانات الإدارية.",
-      "summaryEn": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative data.",
-      "category": "tools",
+      "id": "n-2026-09-01-8",
+      "title": "OpenAI تعلن عن DevDay 2026 في سان فرانسيسكو يوم 29 سبتمبر",
+      "titleEn": "OpenAI announces DevDay 2026 for September 29 in San Francisco",
+      "summary": "فتحت OpenAI باب التسجيل في مؤتمرها السنوي للمطورين DevDay 2026 المقرر في 29 سبتمبر بسان فرانسيسكو، ومن المتوقع أن يشهد إعلانات مهمة على غرار الدورات السابقة التي قدمت أدوات جديدة للمطورين والوكلاء الأذكياء.",
+      "summaryEn": "OpenAI opened sign-ups for its annual developer conference, DevDay 2026, set for September 29 in San Francisco — expected to bring major announcements, following previous editions that introduced new developer and agent tools.",
+      "category": "other",
       "importance": 3,
       "source": {
         "name": "OpenAI",
-        "url": "https://openai.com/index/polimill"
+        "url": "https://openai.com/index/devday-2026/"
       },
       "publishedAt": "2026-08-31"
     }
@@ -174,140 +118,65 @@
   "models": [
     {
       "id": "m-2026-09-01-1",
-      "name": "Gemini Omni 1.1 Flash",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-08-27",
-      "highlights": "يوفر مزيدًا من التحكم للمطورين في بناء التطبيقات",
-      "highlightsEn": "Provides developers with more control in building applications",
+      "name": "Qwen3.8-Flash-Next",
+      "org": "Alibaba (Qwen)",
+      "releaseDate": "2026-08-28",
+      "highlights": "أحدث إصدارات Qwen بأوزان مفتوحة: نموذج MoE متعدد الوسائط بسياق مليون رمز افتراضياً وسعر 0.16 دولار لكل مليون رمز إدخال — معاينة لمعمارية Qwen 4",
+      "highlightsEn": "Qwen's newest open-weights release: a multimodal MoE with 1M-token default context at $0.16 per 1M input tokens — a preview of the Qwen 4 architecture",
       "specs": {
         "context": "1M"
       },
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next"
     },
     {
       "id": "m-2026-09-01-2",
-      "name": "Claude Opus 5",
-      "org": "Anthropic",
-      "releaseDate": "2026-07-24",
-      "highlights": "تحول كبير في الأداء مع وكلاء طويلة المدى",
-      "highlightsEn": "Major leap in performance with long-running agents",
-      "specs": {},
-      "url": "https://www.anthropic.com/news/claude-opus-5"
-    },
-    {
-      "id": "m-2026-09-01-3",
-      "name": "Claude Sonnet 5",
-      "org": "Anthropic",
-      "releaseDate": "2026-06-30",
-      "highlights": "أداء متقدم في البرمجة والوكلاء والعمل المهني",
-      "highlightsEn": "Advanced performance in coding, agents, and professional work",
-      "specs": {},
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "id": "m-2026-09-01-4",
-      "name": "Kimi K3",
-      "org": "Moonshot AI",
-      "releaseDate": "2026-08-31",
-      "highlights": "نموذج صيني يكتسب اهتمامًا كبيرًا في الأسواق المالية",
-      "highlightsEn": "Chinese model gaining significant attention in financial markets",
-      "specs": {},
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNDVXcGZtZnB1R3VlbWdyemp2eWxVLUVkaUlaVkEwenJXWC13YmpRLXg2OEY5T0hUTnotQ1ZYVm55aDR3My04X19EcHRhYTAyaExxb1gzUzBCZ2drV0l1U0JqcVJUc0RXQ1Uzck9jNXpGd2J4QzZqQmpNUVc2R0twWDduamd4WWcxQmRsenpWTlpocERZN3lmY3A2YS10YVEyMlpGcnZRQkpia3c0SXZiNHBQVTZFN08zeGo4aENUd1VqSjJfM1F4Qw?oc=5"
-    },
-    {
-      "id": "m-2026-09-01-5",
-      "name": "Ox Alpha",
-      "org": "Z.ai",
-      "releaseDate": "2026-08-27",
-      "highlights": "نموذج يعمل حصريًا على الرقائق الصينية",
-      "highlightsEn": "Model that runs exclusively on Chinese chips",
-      "specs": {},
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
-    },
-    {
-      "id": "m-2026-09-01-6",
-      "name": "GLM-5.3-Flash",
-      "org": "Z.ai",
-      "releaseDate": "2026-08-26",
-      "highlights": "نموذج متعدد الوسائط بحجم 320B-18B ودعم سياق 1Mトークン",
-      "highlightsEn": "320B-18B multimodal model with 1M token context support",
+      "name": "Hy4 preview",
+      "org": "Tencent",
+      "releaseDate": "2026-08-28",
+      "highlights": "نموذج Tencent الرائد بمعمارية MoE: 770 مليار بارامتر (~49 مليار نشطة) برخصة Apache 2.0 — عاشر أفضل نموذج عالمياً حالياً",
+      "highlightsEn": "Tencent's flagship MoE: 770B total parameters (~49B active) under Apache 2.0 — currently the world's #10 model",
       "specs": {
-        "context": "1M"
+        "context": "Unknown",
+        "params": "770B (~49B active)"
       },
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRHlLLVdZV0MxamppWTRVc1U0X1lsTzBnQTBxdDd6b1Z3dW42bGZyMHNUM2gwT3F2ZzRkeGp2dnFveUZnUDd3cmE2MDZxSzloT29VZnktOTZlOVRZbS10UmZRZGk0VGFjT1RMVlc4blltUEpnbkZFWlJXa0hrVlA3Qi1XR0l6aUZMR1J2OEZEUUZjcklxejhNQnF5SXI1R3pfaUE5aDA1NmpSVWRZaGtiWm8wVXU1ZFU5QV8wdW92clhScHotUVlN0gHMAUFVX3lxTE43SUtxWWhSYk0wNnE0TjQweWZCTUdKVE1BQXFzRmQ5RF9hQnNBV2RNcDJBQkQ1T0s0UmZPR2FYNk03eE9UZlUtTEM0WnV4ZmlVbHYyUDNhR2h3SzgxX1NGVk1lMG03MXR2VUtleDVGMVJmSWtVUTM1eEZYNGtCUTM3bGJsUEwzZWphTTlKZExuU2hOcGVOa2JmTkU2enI5SkF2Q2EyckJUd2s4eEVNbGhmbjU4cnl4bGEyWXRLS3N5cEtHSDFYYXB2VHRJMA?oc=5"
+      "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-09-01-1",
-      "text": "ChatGPT Ads تصل إلى مليار دولار في الإيرادات السنوية",
-      "textEn": "ChatGPT Ads reaches $1 billion in annualized revenue",
+      "text": "نموذج Kimi K3 من Moonshot AI هو الأعلى ترتيباً بين النماذج مفتوحة الأوزان عالمياً (الخامس بإجمالي 54.6 نقطة)",
+      "textEn": "Moonshot AI's Kimi K3 is the world's highest-ranked open-weights model (#5 overall at 54.6)",
       "level": "info",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+      "url": "https://llm-stats.com/"
     },
     {
       "id": "h-2026-09-01-2",
-      "text": "مونشوت في مفاوضات مع مايكروسوفت وأمازون وجوجل حول مشاركة إيرادات نموذج K3",
-      "textEn": "Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing",
+      "text": "رقائق Meta الجديدة للذكاء الاصطناعي تدخل مرحلة الإنتاج خلال هذا الشهر وفق تقرير سابق لرويترز",
+      "textEn": "Meta's newest AI chips enter production this month, per an earlier Reuters report",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWlQbDBkTjZOWlNxMFJUeDkxc0taQllySUkzRzJ4aHJrSzlVQTY5LVhqU2dfd2lUSGZSVjI2dVFPQnZ5X0FuRThHT0JDRkxJTTlLUVFETjM5Y0lGbzFwUkhGWFNVOUJQX1NWZ09SZDViVWNZTmI1TFY4ODUwZXl2UGh5VnRETVhhbDQ4NHh5bmU2YXZXdGZEbnlSUmVZVEZ2dUd3ampaeW94bkhBaEhhRkNKQ1E1QlJSZUFDUTZ5eGFERHlPZHo3TnFaQTJZVUdt?oc=5"
+      "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/"
     },
     {
       "id": "h-2026-09-01-3",
-      "text": "أسهم Z.ai ترتفع 8% بعد إطلاق نموذج يعمل فقط على الرقائق الصينية",
-      "textEn": "Z.ai shares surge 8% after releasing model running only on Chinese chips",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5"
+      "text": "احتيال التزييف العميق قفز 3000% في أمريكا الشمالية خلال عام واحد، و0.1% فقط من الناس يستطيعون تمييز المحتوى المزيف بموثوقية",
+      "textEn": "Deepfake-enabled fraud jumped 3,000% in North America in a year; only 0.1% of people can reliably spot fakes",
+      "level": "warning",
+      "url": "https://app.stationx.net/articles/deepfake-statistics"
     }
   ],
   "security": [
     {
       "id": "sec-2026-09-01-1",
-      "title": "نظام DIASENTINEL: نظام متعدد الوكلاء للفحص القائم على الإرشادات لخطر السكري",
-      "titleEn": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
-      "summary": "دراسة تظهر أن نماذج اللغة الكبيرة (LLMs) رغم وعدها بدعم قرارات الرعاية الصحية، لا تزال عرضة للثغرات وتحتاج إلى تدقيق.",
-      "summaryEn": "Research showing that large language models (LLMs), despite their promise for clinical decision support, remain vulnerable and require auditing.",
+      "title": "OpenAI تفرض مفاتيح أمان مادية على حسابات برنامج Daybreak اعتباراً من الأول من سبتمبر",
+      "titleEn": "OpenAI mandates hardware security keys for Daybreak program accounts starting September 1",
+      "summary": "ضمن توسيعها لبرنامج Daybreak السيبراني، تطلب OpenAI من جميع الحسابات الفردية داخل البرنامج اعتماد مفاتيح أمان مادية (من نوع YubiKey/FIDO2) مع تفعيل خيار الأمان المتقدم للحفاظ على الوصول — خطوة تصفها الشركة بأنها ضرورية مع تضيّق «نافذة الدفاع السيبراني»، وتتقاطع مع توصيات خطاب الدفاع السيبراني الجماعي بهوية موثوقة وقابلة للمساءلة لكل مستخدم ووكيل.",
+      "summaryEn": "As part of expanding its Daybreak cybersecurity program, OpenAI now requires every individual account in the program to adopt hardware security keys (YubiKey/FIDO2) with Advanced Account Security enabled to keep access — a step the company calls necessary as the cyber-defense window narrows, aligning with the collective cyber-defense letter's call for trusted, accountable identities for every user and agent.",
       "type": "policy",
       "severity": "warning",
-      "url": "https://arxiv.org/abs/2608.31128v1",
-      "source": "arXiv",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+      "source": "OpenAI",
       "date": "2026-08-31"
-    },
-    {
-      "id": "sec-2026-09-01-2",
-      "title": "هل يهاجم شخص ثلاجات وزارة الدفاع؟",
-      "titleEn": "Is Someone Hacking DoD Refrigerators?",
-      "summary": "تشير التقارير إلى وجود هجمات محتملة على أنظمة إنترنت الأشياء في منشآت عسكرية أمريكية بما في ذلك قاعدة فورت إيروين.",
-      "summaryEn": "Reports suggest potential attacks on IoT systems at U.S. military facilities including Fort Irwin.",
-      "type": "breach",
-      "severity": "critical",
-      "url": "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
-      "source": "Schneier on Security",
-      "date": "2026-08-31"
-    },
-    {
-      "id": "sec-2026-09-01-3",
-      "title": "إخفاء حقن المطالبات في الملفات القانونية",
-      "titleEn": "Hiding Prompt Injection in Legal Filing",
-      "summary": "اكتشاف تقنية جديدة لإخفاء أوامر الذكاء الاصطناعي في الملفات القانونية، مما يمثل خطرًا على سلامة النظام القانوني.",
-      "summaryEn": "Discovery of a new technique for hiding AI commands in legal documents, posing a threat to legal system integrity.",
-      "type": "prompt-injection",
-      "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
-      "source": "Schneier on Security",
-      "date": "2026-08-31"
-    },
-    {
-      "id": "sec-2026-09-01-4",
-      "title": "الاحتيال الاجتماعي القائم على نماذج اللغة الكبيرة",
-      "titleEn": "LLM-Based Social Engineering Scams",
-      "summary": "أوقفت OpenAI مجموعة من الاحتيال الاجتماعي من كمبوديا التي استخدمت ChatGPT لتنفيذ عمليات احتيال متقدمة.",
-      "summaryEn": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT for sophisticated scams.",
-      "type": "malware",
-      "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
-      "source": "Schneier on Security",
-      "date": "2026-08-27"
     }
   ],
   "benchmarks": {
@@ -327,7 +196,7 @@
       },
       {
         "name": "Claude Mythos Preview",
-        "org": "Anthropic",
+        "org": "Anthropic (unreleased)",
         "score": "55.7"
       },
       {
@@ -366,117 +235,117 @@
         "score": "51.5"
       }
     ],
-    "highlights": "يستمر GPT-5.6 Sol في التألق في قائمة الترتيب بأعلى نقاط، بينما تهيمن نماذج Claude على المراكز الأربعة الأولى. يبرز نموذج Kimi K3 كأفضل نموذج مفتوح المصدر في الترتيب، بينما هناك سباق محموم بين عدة نماذج في منتصف القائمة العشرة الأولى.",
-    "highlightsEn": "GPT-5.6 Sol continues to lead with the highest score, while Claude models dominate the top four positions. Kimi K3 stands out as the top open-source model, while there's a tight race among several models in the middle of the top ten."
+    "highlights": "قمة اللوحة مستقرة اليوم: GPT-5.6 Sol يتقدم بـ 56.8 نقطة وAnthropic تحتكر المراكز من الثاني إلى الرابع، بينما يبقى Kimi K3 أقوى نموذج مفتوح الأوزان في المركز الخامس. لم يدخل قائمة العشرة الأوائل أي جديد منذ انضمام Hy4 preview — هدوء نسبي قبل موجة إطلاقات متوقعة في سبتمبر.",
+    "highlightsEn": "The leaderboard top is steady today: GPT-5.6 Sol leads at 56.8 with Anthropic holding places two through four, while Kimi K3 remains the strongest open-weights model at #5. Nothing new has entered the top-10 since Hy4 preview joined — a relative calm before an expected wave of September releases."
   },
   "knowledgeEntry": {
-    "id": "k-2026-09-01-تحليل-البيانات-وتصورها-باستخدام-الذكاء-الاصطناعي",
-    "title": "تحليل البيانات وتصورها باستخدام الذكاء الاصطناعي",
-    "titleEn": "Data Analysis and Visualization Using AI",
-    "why": "يساعدك تحليل البيانات وتصورها باستخدام الذكاء الاصطناعي على استخراج رؤى قيمة من كميات كبيرة من البيانات بشكل أسرع وأكثر دقة من الطرق التقليدية، مما يسمح باتخاذ قرارات مستنيرة في مختلف المجالات.",
-    "whyEn": "Using AI for data analysis and visualization helps you extract valuable insights from large datasets faster and more accurately than traditional methods, enabling informed decision-making across various domains.",
-    "difficulty": "intermediate",
-    "track": "tools",
+    "id": "k-2026-09-01-كيف-تقرأ-لوحات-نتائج-النماذج",
+    "title": "كيف تقرأ لوحات نتائج النماذج بوعي",
+    "titleEn": "How to Read AI Leaderboards Critically",
+    "why": "لوحات النتائج مثل LLM Stats وLMArena أصبحت المرجع الأول لاختيار نموذج، لكن الاعتماد الأعمى على رقم واحد يضلل: النتائج تتغير حسب الاختبار المستخدم، وقد تكون مكلفة أو ملوثة ببيانات التدريب.",
+    "whyEn": "Leaderboards like LLM Stats and LMArena are now the first stop for choosing a model, but blindly trusting a single number misleads: results vary by the benchmark used, and can be costly or contaminated by training data.",
+    "difficulty": "beginner",
+    "track": "basics",
     "steps": [
       {
-        "title": "تحديد مشكلة البيانات",
-        "detail": "حدد السؤال الرئيسي الذي تريد الإجابة عليه أو المشكلة التي تريد حلها باستخدام البيانات. حدد نوع البيانات المتاحة وما هي النتائج المتوقعة."
+        "title": "انظر إلى النتيجة المركبة لا إلى رقم واحد",
+        "detail": "النماذج تتفوق في مجالات مختلفة — برمجة أو رياضيات أو كتابة. النتيجة المركبة تعطي صورة أعمق من اختبار واحد منتقى بعناية."
       },
       {
-        "title": "تنظيف ومعالجة البيانات",
-        "detail": "استخدم أدوات الذكاء الاصطناعي لتنظيف البيانات ومعالجة القيم المفقودة والقيم المتطرفة. يمكن استخدام نماذج مثل GPT-4 أو Claude للمساعدة في فهم وتصحيح البيانات النصية."
+        "title": "اسأل عن تلوث بيانات الاختبار",
+        "detail": "قد تتسرب أسئلة الاختبارات إلى بيانات تدريب النموذج (Contamination) فتنتفخ درجاته. ابحث عن اختبارات حديثة أو محدّثة دورياً كمؤشر أكثر موثوقية."
       },
       {
-        "title": "استكشاف البيانات وتحليلها",
-        "detail": "استخدم خوارزميات التعلم الآلي لتحديد الأنماط والعلاقات في البيانات. يمكن استخدام أدوات مثل Pandas في بايثون مع مكتبات الذكاء الاصطناعي لتحليل البيانات بشكل أعمق."
+        "title": "احسب السعر مقابل الأداء",
+        "detail": "نموذج بدرجة أقل قليلاً قد يكفي لمهمتك بتكلفة أقل بكثير. قسّم النتيجة على سعر الاستخدام لكل مليون رمز للحصول على مؤشر قيمة عملي."
       },
       {
-        "title": "تصور النتائج",
-        "detail": "أنشئ تصورات بصرية جذابة باستخدام أدوات مثل Tableau أو Power BI أو مكتبات Python مثل Matplotlib و Seaborn. استخدم الذكاء الاصطناعي لتحسين تصميم التصورات وتحديد أفضل طرق عرض البيانات."
+        "title": "انتبه لحالة النموذج",
+        "detail": "الوسوم مثل «معاينة» (Preview) أو «غير مُصدر» تعني نتائج أولية قابلة للتغير، وقد تُسحب النسخة لاحقاً — لا تبنِ منتجاً حرجاً عليها."
       },
       {
-        "title": "تفسير النتائج واتخاذ القرار",
-        "detail": "استخدم نماذج الذكاء الاصطناعي لمساعدتك في تفسير النتائج وتقديم توصيات بناءً على التحليل. قدم النتائج بطريقة واضحة للمستفيدين من القرار."
+        "title": "جرّب النموذج على مهمتك الفعلية",
+        "detail": "عيّنة صغيرة من حالات استخدامك الحقيقية (20-50 حالة) أصدق دليل من أي لوحة نتائج. قارن مخرجات نموذجين أو ثلاثة على الحالات نفسها قبل القرار."
       }
     ],
     "stepsEn": [
       {
-        "title": "Define the data problem",
-        "detail": "Identify the main question you want to answer or the problem you want to solve using data. Determine the type of data available and what outcomes are expected."
+        "title": "Look at composite scores, not a single number",
+        "detail": "Models excel in different areas — coding, math, or writing. A composite score gives a fuller picture than one carefully picked benchmark."
       },
       {
-        "title": "Clean and preprocess data",
-        "detail": "Use AI tools to clean data and handle missing values and outliers. Models like GPT-4 or Claude can assist in understanding and correcting textual data."
+        "title": "Ask about benchmark contamination",
+        "detail": "Test questions can leak into a model's training data (contamination) and inflate its scores. Prefer benchmarks that are recent or refreshed regularly."
       },
       {
-        "title": "Explore and analyze data",
-        "detail": "Use machine learning algorithms to identify patterns and relationships in the data. You can use tools like Pandas in Python with AI libraries for deeper data analysis."
+        "title": "Compute price versus performance",
+        "detail": "A slightly lower-scoring model may be good enough at a fraction of the cost. Divide the score by the price per million tokens for a practical value index."
       },
       {
-        "title": "Visualize results",
-        "detail": "Create engaging visualizations using tools like Tableau, Power BI, or Python libraries like Matplotlib and Seaborn. Use AI to improve visualization design and identify the best ways to display data."
+        "title": "Mind the model's status",
+        "detail": "Labels like \"Preview\" or \"Unreleased\" mean early, changeable results, and the version may be withdrawn later — don't build critical products on them."
       },
       {
-        "title": "Interpret results and make decisions",
-        "detail": "Use AI models to help interpret results and provide recommendations based on the analysis. Present findings clearly to decision-makers."
+        "title": "Test the model on your actual task",
+        "detail": "A small sample of your real use cases (20-50 items) is stronger evidence than any leaderboard. Compare two or three models on the same cases before deciding."
       }
     ],
-    "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.ensemble import RandomForestRegressor\nfrom sklearn.metrics import mean_squared_error\n\n# Load and prepare data\ndata = pd.read_csv('your_dataset.csv')\ndata = data.dropna()  # Remove missing values\n\n# Explore data\ndata.describe()\ndata.info()\n\n# Create visualizations\nplt.figure(figsize=(10, 6))\nsns.scatterplot(x='feature1', y='feature2', hue='target', data=data)\nplt.title('Feature Relationship with Target')\nplt.show()\n\n# Train AI model\nX = data.drop('target', axis=1)\ny = data['target']\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\nmodel = RandomForestRegressor(n_estimators=100, random_state=42)\nmodel.fit(X_train, y_train)\n\n# Evaluate model\npredictions = model.predict(X_test)\nmse = mean_squared_error(y_test, predictions)\nprint(f'Mean Squared Error: {mse}')\n\n# Feature importance\nplt.figure(figsize=(10, 6))\nfeature_importance = pd.Series(model.feature_importances_, index=X.columns)\nfeature_importance.nlargest(10).plot(kind='bar')\nplt.title('Top 10 Feature Importances')\nplt.show()",
+    "code": "# Quick price-performance check\nmodels = [\n    {\"name\": \"Frontier A\", \"score\": 56.8, \"price_per_mtok\": 10.0},\n    {\"name\": \"Budget B\",  \"score\": 52.7, \"price_per_mtok\": 0.16},\n]\nfor m in models:\n    m[\"value\"] = round(m[\"score\"] / m[\"price_per_mtok\"], 1)\nfor m in sorted(models, key=lambda x: -x[\"value\"]):\n    print(f'{m[\"name\"]}: score {m[\"score\"]} -> value index {m[\"value\"]}')",
     "resources": [
       {
-        "name": "Kaggle Learn - Data Visualization",
-        "url": "https://www.kaggle.com/learn/data-visualization"
+        "name": "LLM Stats — composite leaderboard",
+        "url": "https://llm-stats.com/"
       },
       {
-        "name": "Python Data Science Handbook",
-        "url": "https://jakevdp.github.io/PythonDataScienceHandbook/"
+        "name": "LMArena — human preference battles",
+        "url": "https://lmarena.ai/"
       },
       {
-        "name": "Tableau Public",
-        "url": "https://public.tableau.com/"
+        "name": "Artificial Analysis — independent model benchmarks",
+        "url": "https://artificialanalysis.ai/"
       }
     ],
     "tags": [
-      "تحليل البيانات",
-      "تصور البيانات",
-      "التعلم الآلي",
-      "Python"
+      "لوحات النتائج",
+      "معايير القياس",
+      "اختيار النموذج",
+      "التكلفة مقابل الأداء"
     ],
-    "quickRef": "استخدم الذكاء الاصطناعي لتنظيف البيانات، تحديد الأنماط، وتصور النتائج بشكل فعال",
-    "quickRefEn": "Use AI to clean data, identify patterns, and effectively visualize results",
+    "quickRef": "لا تثق برقم واحد: تحقق من النتيجة المركبة، واحذر تلوث الاختبارات، واحسب السعر مقابل الأداء، وجرّب النموذج على حالات استخدامك الفعلية قبل اعتماده.",
+    "quickRefEn": "Don't trust a single number: check composite scores, watch for contamination, compute price-performance, and test the model on your real use cases before adopting it.",
     "quiz": [
       {
-        "q": "ما هو الخطأ الأكثر شيوعًا في تحليل البيانات باستخدام الذكاء الاصطناعي؟",
+        "q": "ما هو «تلوث بيانات الاختبار» (Contamination) في لوحات النتائج؟",
         "options": [
-          "عدم تنظيف البيانات بشكل كافي",
-          "استخدام خوارزميات معقدة جدًا",
-          "عدم تحديد السؤال الصحيح في البداية",
-          "استخدام تصورات غير مناسبة"
-        ],
-        "answer": 2,
-        "explain": "عدم تحديد السؤال الصحيح في البداية هو الخطأ الأكثر شيوعًا، حيث يؤدي إلى تحليل غير موجه ونتائج غير مفيدة."
-      },
-      {
-        "q": "أي من الأدوات التالية يعتبر الأفضل لإنشاء تصورات تفاعلية للبيانات؟",
-        "options": [
-          "Excel",
-          "Tableau",
-          "Pandas",
-          "NumPy"
+          "اختلاط نتائج نموذجين مختلفين",
+          "تسرب أسئلة الاختبار إلى بيانات تدريب النموذج فتنتفخ درجته",
+          "خطأ في حساب النتيجة المركبة",
+          "تأخر تحديث اللوحة"
         ],
         "answer": 1,
-        "explain": "Tableau هو الأفضل لإنشاء تصورات تفاعلية للبيانات، حيث يوفر واجهة سهلة الاستخدام وميزات تصوية متقدمة."
+        "explain": "التلوث يعني أن النموذج رأى أسئلة الاختبار أثناء التدريب (أو ما يشبهها)، فيحصل على درجات مرتفعة لا تعكس قدرته الفعلية على مهام جديدة."
       },
       {
-        "q": "كيف يمكن استخدام الذكاء الاصطناعي لتحسين تصور البيانات؟",
+        "q": "لماذا يُنصح بحساب «السعر مقابل الأداء» قبل اختيار نموذج؟",
         "options": [
-          "اختيار الألوان العشوائية",
-          "تحديد أفضل طرق العرض تلقائيًا",
-          "زيادة تعقيد التصورات",
-          "استخدام رسوم بيانية بسيطة فقط"
+          "لأن النموذج الأغلى دائماً أفضل",
+          "لأن الفارق الضئيل في الدرجات قد لا يستحق فرق التكلفة الكبير حسب مهمتك",
+          "لأن النماذج الرخيصة أسرع دائماً",
+          "لأن الأسعار لا تتغير"
         ],
         "answer": 1,
-        "explain": "يمكن للذكاء الاصطناعي تحليل البيانات وتحديد أفضل طرق العرض تلقائيًا بناءً على نوع البيانات والنقاط الرئيسية التي يجب تسليط الضوء عليها."
+        "explain": "نموذج بدرجة أعلى بنقطة قد يكلف أضعاف سعر بديل أرخص؛ إن كان البديل يكفي لمهمتك فالفارق في الدرجات لا يستحق فرق التكلفة."
+      },
+      {
+        "q": "ماذا يعني وسم «Preview» بجانب اسم نموذج في اللوحة؟",
+        "options": [
+          "أن النموذج مفتوح المصدر بالكامل",
+          "أن نتائجه أولية وقابلة للتغير وقد تُسحب النسخة لاحقاً",
+          "أنه الأفضل في البرمجة",
+          "أنه مجاني للاستخدام التجاري"
+        ],
+        "answer": 1,
+        "explain": "وسم «Preview» يشير إلى إصدار تجريبي: نتائجه قد تتغير في النسخة النهائية وقد يُسحب، لذا لا يُنصح بالبناء عليه في أنظمة حرجة."
       }
     ],
     "addedAt": "2026-09-01"
