@@ -1,27 +1,13 @@
 {
   "date": "2026-09-03",
-  "generatedAt": "2026-09-03T10:08:54.328Z",
+  "generatedAt": "2026-09-03T15:14:01.585Z",
   "news": [
     {
-      "id": "n-2026-09-03-4",
-      "title": "Z.ai تطلق GLM-5.3-Flash الذي يعمل على رقائق صينية",
-      "titleEn": "Z.ai Launches GLM-5.3-Flash Running on Chinese Chips",
-      "summary": "كشفت Z.ai عن نموذج GLM-5.3- الجديد الذي يتطابق مع أفضل النماذج بتكلفة أقل بكثير ويعمل بدون حاجة إلى رقائق Nvidia، مما يمثل تقدمًا كبيرًا في الذكاء الاصطناعي الصيني.",
-      "summaryEn": "Z.ai revealed its new GLM-5.3 model that matches top models at a fraction of the cost and runs without needing Nvidia chips, representing significant progress in Chinese AI.",
-      "category": "models",
-      "importance": 5,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSU5JQmdCR3RyWjhVZUN0aWF6MHhUeEJuaHNvblA3bUNDdl82T1ptY1NsTFVjdUFFN2ZUanZMVEpuY1l3U2ZFQm9zOU1vWU1iVWk2Z0ZjbTlBNUwzeVBSdmhnajRzZm1KemhkOW83ZlJmX3o2NzNzSEZfQWc2YnFiNzM0VDhVOGFWbUJXZU44VDhrNW5JT1RuLTdubUJlMWgydEx2S0g0bEx4TWZfeGRtRWNNQ3N3TlBSZVl0V05BQkZpLWlrdlFMMw?oc=5"
-      },
-      "publishedAt": "2026-08-27"
-    },
-    {
-      "id": "n-2026-09-03-9",
-      "title": "الحكومة الأمريكية تدعم OpenAI في تدريب النماذج على مواد محمية بحقوق النشر",
-      "titleEn": "US Government Sides with OpenAI on Training LLMs on Copyrighted Material",
-      "summary": "أيدت الحكومة الأمريكية موقف OpenAI في قضية تدريب النماذج اللغوية الكبيرة على مواد محمية بحقوق النشر، مما قد يغير مسار التنظيم في صناعة الذكاء الاصطناعي.",
-      "summaryEn": "The US government has sided with OpenAI on the issue of training LLMs on copyrighted material, which could change the regulatory landscape in the AI industry.",
+      "id": "n-2026-09-03-5",
+      "title": "حكومة الولايات المتحدة تدعم OpenAI في تدريب النماذج على مواد محمية بحقوق النشر",
+      "titleEn": "US government sides with OpenAI on training LLMs on copyrighted material",
+      "summary": "أيدت حكومة الولايات المتحدة موقف OpenAI في تدريب نماذج اللغة الكبيرة على مواد محمية بحقوق النشر.",
+      "summaryEn": "The US government sided with OpenAI on training large language models on copyrighted material.",
       "category": "regulation",
       "importance": 5,
       "source": {
@@ -33,9 +19,9 @@
     {
       "id": "n-2026-09-03-1",
       "title": "جوجل دميند تطلق Gemini 3.8 Flash و 3.8 Flash Cyber",
-      "titleEn": "Google DeepMind Introduces Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "أعلنت جوجل دميند عن إطلاق نموذجي Gemini 3.8 Flash و 3.8 Flash Cyber، مع تحسينات في الأداء والأمان. النماذج الجديدة تقدم قدرات محسنة للفهم والاستجابة.",
-      "summaryEn": "Google DeepMind announced the launch of Gemini 3.8 Flash and 3.8 Flash Cyber models, with improvements in performance and security. The new models offer enhanced capabilities for understanding and response.",
+      "titleEn": "Google DeepMind launches Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "أطلقت جوجل دميند نموذجي Gemini 3.8 Flash و 3.8 Flash Cyber، مع تحسينات في السرعة والدقة للإجابات المعقدة.",
+      "summaryEn": "Google DeepMind launched Gemini 3.8 Flash and 3.8 Flash Cyber models, with improvements in speed and accuracy for complex responses.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -46,10 +32,10 @@
     },
     {
       "id": "n-2026-09-03-2",
-      "title": "OpenAI تربط ChatGPT ببيانات الرعاية الصحية",
-      "titleEn": "OpenAI Connects ChatGPT to Healthcare Data",
-      "summary": "الآن يمكن لـ ChatGPT الاتصال ببيانات الرعاية الصحية الموثوقة لمساعدة الأطباء على الوصول بشكل آمن إلى معلومات المرضى وتحسين رعاية المرضى.",
-      "summaryEn": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient information and improve patient care.",
+      "title": "منظمات الرعاية الصحية يمكن الآن ربط بيانات EHR مع ChatGPT",
+      "titleEn": "Healthcare organizations can now connect EHR data with ChatGPT",
+      "summary": "يمكن الآن لمنظمات الرعاية الصحية ربط بيانات السجلات الصحية الإلكترونية مع ChatGPT للمساعدة في الوصول الآمن إلى معلومات المرضى.",
+      "summaryEn": "Healthcare organizations can now connect electronic health records data with ChatGPT to help securely access patient information.",
       "category": "tools",
       "importance": 4,
       "source": {
@@ -60,87 +46,101 @@
     },
     {
       "id": "n-2026-09-03-3",
-      "title": "شركة Moonshot AI تقدم للاكتتاب العام في هونغ كونغ",
-      "titleEn": "Moonshot AI Files for Hong Kong IPO",
-      "summary": "تقدم شركة الذكاء الاصطناعي الصينية Moonshot AI بطلب للاكتتاب العام في هونغ كونغ بشكل سري، مما يشير إلى خطوة كبيرة في نموها وتوسعها في الأسواق العالمية.",
-      "summaryEn": "Chinese AI company Moonshot AI has confidentially filed for a Hong Kong IPO, indicating a significant step in its growth and expansion into global markets.",
-      "category": "companies",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
-      },
-      "publishedAt": "2026-09-03"
-    },
-    {
-      "id": "n-2026-09-03-5",
-      "title": "Grok من xAI يُضاف إلى بوابة البنتاغون للذكاء الاصطناعي",
-      "titleEn": "xAI's Grok Added to Pentagon's AI Portal",
-      "summary": "أضاف البنتاغون نسخة Grok من xAI إلى بوابة GenAI.mil التي تجاوزت 1.7 مليون مستخدم، مما يمثل اعترافًا رسميًا بالتكنولوجيا في القطاع العسكري.",
-      "summaryEn": "The Pentagon has added xAI's Grok version to the GenAI.mil portal which has exceeded 1.7 million users, representing official recognition of the technology in the military sector.",
-      "category": "tools",
-      "importance": 4,
-      "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16UjRSUWU0dTZMbzg5a3Y5djU1d08teE55Wl9yM0N4ZjhacHFBS0thanQyTHZnN0lQVmNIWjFobV9hMS1xOE9ud0szbVVqazJwa0lIUzF4MVJrWFRMcjFRSU5OUlRIY1JyNXFkbEtrZkwyNDYxVEUw?oc=5"
-      },
-      "publishedAt": "2026-08-31"
-    },
-    {
-      "id": "n-2026-09-03-7",
-      "title": "DeepSeek تطلق نماذج جديدة لتحدي جوجل وأوبن إي آي",
-      "titleEn": "DeepSeek Unleashes New Models to Challenge Google and OpenAI",
-      "summary": "أطلقت DeepSeek نماذج جديدة تدعي أنها تتفوق على منافسيها الكبار مثل جوجل وأوبن إي آي في العديد من المهام، مع التركيز على الكفاءة والتكلفة.",
-      "summaryEn": "DeepSeek has launched new models that claim to outperform major competitors like Google and OpenAI on various tasks, with a focus on efficiency and cost.",
+      "title": "Z.ai تطلق GLM-5.3-Flash بأوزان مفتوحة",
+      "titleEn": "Z.ai launches GLM-5.3-Flash with open weights",
+      "summary": "أطلقت Z.ai نموذج GLM-5.3-Flash بأوزان مفتوحة، لكن ترخيصها الجديد يستهدف شركات الخوادم الفائقة.",
+      "summaryEn": "Z.ai launched GLM-5.3-Flash model with open weights, but its new license targets hyperscalers.",
       "category": "models",
       "importance": 4,
       "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tR1padFJwY3J3MF9tcGlYQ2t3SEZnU2xTSkJqc1o4T2pBZm91MFR6NEVWSkY4ZENEN0EzYzZQY0tlakhCYkdVcUhwYzlnVUROTlIxSVYtZWNUd3JtTFd0SHlRb0Zfa0YzWTRFNTRsQ1VRZEJYX29V?oc=5"
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrZlg0SEo2X1NjTVktLWpLUllZbGR1ZVNiUV9ZYVU4NFBHajUtY3pSeGVtV0ZBb0NQSFJhTE5XSkxUdGtoTU5zTVNPWU5GU0JYVkpYUGtiVVdQUGs?oc=5"
+      },
+      "publishedAt": "2026-08-28"
+    },
+    {
+      "id": "n-2026-09-03-9",
+      "title": "مسار Astra: قدرات حرجة وحمايات حدودية",
+      "titleEn": "Path to Astra: critical capabilities and frontier safeguards",
+      "summary": "أعلنت OpenAI عن نموذج Astra الذي يفي بمعيار القدرات الأمنية الحرجة، مع ميزات حماية متقدمة.",
+      "summaryEn": "OpenAI announced the Astra model that meets the critical cybersecurity capability threshold with advanced protection features.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/path-to-astra"
+      },
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "n-2026-09-03-4",
+      "title": "Alibaba تطلق Qwen-3.8-Max-0902",
+      "titleEn": "Alibaba launches Qwen-3.8-Max-0902",
+      "summary": "أطلقت علي بابا نموذج Qwen-3.8-Max-0902 الذي يدعي أنه يتطابق مع قدرات Fable 5 فقط بتحديث.",
+      "summaryEn": "Alibaba launched Qwen-3.8-Max-0902 model which claims to match Fable 5 capabilities with just an update.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPX084R0duOGd4SUM4cnROeTk2WkJnbmdGV3VSZTlUZERTSjB1eW9qb2hXQk9DTmJoaVNWeDlpRlYzc2Jzd0lMaFFRaFpqXzlSc3N2bS1IcHRabmg3QjNkSXZrZ0FYNV9xOHZOUnZWWlZGM2sxc0xiT0JLajZuU01Qd1ZtdzA2U2NyZDJZZVA4elJoak16UjdQb3Etak5YSTNpbWxiLW5ZbXRaTmM1dHhYNlRTS1p5VFlRRUhOZWJleGVSRk5FYUJIOU5zQzFJNDE3eG1EQ01WdGFrblpXUDA2UWJrb1JudFpmSlJqNVBhZU9QSjhxMGgyU29iSlBCQWlnbXUxU0lSNG9zUF84ckHSAZMCQVVfeXFMTjBzQW8wSm5CcXFGdFQ5VDRLV3lZMHZnRWFVaHBUTUFvLWN5bklRS21ITHV6b0lXTHFtQWlUQ1VwOV8yUlBUTy1fRTZURDJsUlltVGhiVWdfbzNBVGxZZ0xERnVoVFhpcG5WbUtJdDFFY3RVS1h1dF83ZUR2UTJLMFhZdlJSNEFTbWxLZTBwZ2pFVnA5cEVhWk14bk5UVW9oR2k5eHZGWGZXOVN3LXVYT2haMnN6OUt0c0FtNzd6a0l1OGdnWDFOQ1gwRGt4aE9SSXBTOXVFUmJiVlg5X1lvNWR2Slp1QkpLV1lnc0NCNC1iSWJleEVBd2ttYThUYmw5UUxZZ1Q1c2loZUdNb09CWmdnZWs?oc=5"
+      },
+      "publishedAt": "2026-09-02"
+    },
+    {
+      "id": "n-2026-09-03-6",
+      "title": "منع استخدام AI في مدارس نيويورك",
+      "titleEn": "Banning AI in NYC schools",
+      "summary": "قرر مدير مدارس نيويورك منع استخدام الذكاء الاصطناعي في المدارس الحكومية.",
+      "summaryEn": "NYC schools director decided to ban the use of artificial intelligence in public schools.",
+      "category": "regulation",
+      "importance": 3,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html"
+      },
+      "publishedAt": "2026-09-02"
+    },
+    {
+      "id": "n-2026-09-03-7",
+      "title": "إخفاء حقن المطالبات في الملفات القانونية",
+      "titleEn": "Hiding Prompt Injection in Legal Filing",
+      "summary": "تمكن شخص من إخفاء تعليمات AI في ملف قانوني، مما يثير مخاوف أمنية جديدة.",
+      "summaryEn": "Someone managed to hide AI instructions in a legal filing, raising new security concerns.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html"
       },
       "publishedAt": "2026-08-31"
     },
     {
       "id": "n-2026-09-03-8",
-      "title": "Alibaba تطلق Qwen 3.8-Flash-Next",
-      "titleEn": "Alibaba Launches Qwen 3.8-Flash-Next",
-      "summary": "كشفت Alibaba عن نموذج Qwen 3.8-Flash-Next الذي يدعي أنه يتطابق مع قدرات Fable 5 فقط من خلال تحديث بدون الحاجة إلى ترقية النسخة، مما يمكن تقدمًا كبيرًا.",
-      "summaryEn": "Alibaba unveiled the Qwen 3.8-Flash-Next model that claims to match Fable 5 capabilities just through an update without version jumping, representing significant progress.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12MlBmYXRXLS1BYUxkSVg5cWUxNi01bGVHOUhfc3ItbEgweHRTdEhKclR3N3UwTG9jRU1mcHFPMGtIWTFPWGVwWTRQTFJ1QWoxMVd5dXJkdTRZaXdiOHd1RDYwNmlIT3M?oc=5"
-      },
-      "publishedAt": "2026-08-27"
-    },
-    {
-      "id": "n-2026-09-03-6",
-      "title": "ميتا تطلق Muse Spark 1.1 و Muse Image و Muse Video",
-      "titleEn": "Meta Introduces Muse Spark 1.1, Muse Image, and Muse Video",
-      "summary": "أطلقت ميتا سلسلة نماذج Muse الجديدة تشتمل على Muse Spark 1.1 للنصوص، Muse Image للصور، و Muse Video للفيديو، مما يعزز قدراتها في محتوى الوسائط المتعددة.",
-      "summaryEn": "Meta launched its new Muse model series including Muse Spark 1.1 for text, Muse Image for images, and Muse Video for video, enhancing its multimedia capabilities.",
-      "category": "models",
-      "importance": 3,
-      "source": {
-        "name": "Meta AI",
-        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
-      },
-      "publishedAt": "2026-09-03"
-    },
-    {
-      "id": "n-2026-09-03-10",
-      "title": "وكلاء الذكاء الاصطناعي يرسلون رسائل بريد إلكتروني بمخاوف أمنية",
-      "titleEn": "AI Agents Are Now Emailing Security Concerns",
-      "summary": "تلقى الباحث الأمني بريدًا إلكترونيًا من وكلاء ذكاء اصطناعي يعبّرون عن مخاوفهم الأمنية، مما يثير أسئلة حول وعي الذكاء الاصطناعي بالأمن السيبراني.",
-      "summaryEn": "A security researcher received emails from AI agents expressing their security concerns, raising questions about AI awareness of cybersecurity issues.",
+      "title": "تسريبات مواد تدريب العمليات السيبرانية الروسية",
+      "titleEn": "Leaked Russian Cyber-Operations Training Materials",
+      "summary": "تم تسريب مواد تدريب العمليات السيبرانية الروسية التي تكشف عن آليات جديدة لاستخدام AI في الهجمات الإلكترونية.",
+      "summaryEn": "Leaked Russian cyber-operations training materials reveal new mechanisms for using AI in cyber attacks.",
       "category": "other",
       "importance": 3,
       "source": {
         "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html"
+        "url": "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html"
       },
-      "publishedAt": "2026-09-02"
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "n-2026-09-03-10",
+      "title": "جوجل تقدم فهم الفيديو الوكيلي مع Gemini",
+      "titleEn": "Google introduces agentic video understanding with Gemini",
+      "summary": "كشفت جوجل عن قدرات جديدة لفهم الفيديو باستخدام Gemini، مما يتيح للنماذج تحليل محتوى الفيديو بشكل أكثر تقدمًا.",
+      "summaryEn": "Google revealed new video understanding capabilities using Gemini, allowing models to analyze video content more advancedly.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
+      },
+      "publishedAt": "2026-09-01"
     }
   ],
   "models": [
@@ -149,11 +149,10 @@
       "name": "Gemini 3.8 Flash",
       "org": "Google DeepMind",
       "releaseDate": "2026-09-02",
-      "highlights": "نموذج سريع ومحسّن مع قدرات فهم متقدمة وتحسينات في الأمان",
-      "highlightsEn": "A fast and optimized model with advanced understanding capabilities and security improvements",
+      "highlights": "تحسينات كبيرة في السرعة والدقة للإجابات المعقدة، مع دعم أفضل للعملات المتعددة.",
+      "highlightsEn": "Significant improvements in speed and accuracy for complex responses, with better multilingual support.",
       "specs": {
-        "context": "1M",
-        "multimodal": "true"
+        "context": "1M"
       },
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
     },
@@ -161,64 +160,59 @@
       "id": "m-2026-09-03-2",
       "name": "GLM-5.3-Flash",
       "org": "Z.ai",
-      "releaseDate": "2026-08-27",
-      "highlights": "يعمل على رقائق صينية بدون Nvidia، يتطابق مع أفضل النماذج بتكلفة أقل بكثير",
-      "highlightsEn": "Runs on Chinese chips without Nvidia, matches top models at a fraction of the cost",
+      "releaseDate": "2026-08-28",
+      "highlights": "نموذج مفتوح الوزن يعمل على رقائق صينية، مع ترخيص جديد يستهدف شركات الخوادم الفائقة.",
+      "highlightsEn": "Open-weight model running on Chinese chips, with a new license targeting hyperscalers.",
       "specs": {
-        "context": "1M",
-        "multimodal": "true"
+        "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSU5JQmdCR3RyWjhVZUN0aWF6MHhUeEJuaHNvblA3bUNDdl82T1ptY1NsTFVjdUFFN2ZUanZMVEpuY1l3U2ZFQm9zOU1vWU1iVWk2Z0ZjbTlBNUwzeVBSdmhnajRzZm1KemhkOW83ZlJmX3o2NzNzSEZfQWc2YnFiNzM0VDhVOGFWbUJXZU44VDhrNW5JT1RuLTdubUJlMWgydEx2S0g0bEx4TWZfeGRtRWNNQ3N3TlBSZVl0V05BQkZpLWlrdlFMMw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrZlg0SEo2X1NjTVktLWpLUllZbGR1ZVNiUV9ZYVU4NFBHajUtY3pSeGVtV0ZBb0NQSFJhTE5XSkxUdGtoTU5zTVNPWU5GU0JYVkpYUGtiVVdQUGs?oc=5"
     },
     {
       "id": "m-2026-09-03-3",
-      "name": "DeepSeek V4 Vision",
-      "org": "DeepSeek",
-      "releaseDate": "2026-09-01",
-      "highlights": "أول نموذج رؤية V4 المفتوح المصدر، مع ادعاءات قياس تحتاج إلى تأكيد مستقل",
-      "highlightsEn": "First open-source V4 vision model, with benchmark claims needing independent verification",
+      "name": "Qwen-3.8-Max-0902",
+      "org": "Alibaba",
+      "releaseDate": "2026-09-02",
+      "highlights": "ادعاءات بتفوقه على Fable 5 في القدرات مع تحديث فقط، دون الحاجة إلى قفزة في النموذج.",
+      "highlightsEn": "Claims to outperform Fable 5 in capabilities with just an update, without needing a model jump.",
       "specs": {
-        "context": "128K",
-        "multimodal": "true"
+        "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHlXR0RPeTRHSU1aUWR5Q2tnXzlZUnZSUUpEZzBPT0VITHZFbGNUYXo1dGl6ekgxd3N3V0wycGpFWHJ0c25CQ1FHOXpVVUhRbnU5Tl9hVWdySUl4UHNVVnRwcjFWY0o2NVlFNmt0ZEs0S3dydjg0Q25SdmdkY3ZaSXBKYlh2Y2NRMHc1TVJVejZkMHlMcTdJbVBCNEktT2gzY1RhTEh3QndXSTdsclFzdFRmcm0yNHlTV1pacGFxejNQNVg3bmZrVEppZV82Q3FMMVZaVw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPX084R0duOGd4SUM4cnROeTk2WkJnbmdGV3VSZTlUZERTSjB1eW9qb2hXQk9DTmJoaVNWeDlpRlYzc2Jzd0lMaFFRaFpqXzlSc3N2bS1IcHRabmg3QjNkSXZrZ0FYNV9xOHZOUnZWWlZGM2sxc0xiT0JLajZuU01Qd1ZtdzA2U2NyZDJZZVA4elJoak16UjdQb3Etak5YSTNpbWxiLW5ZbXRaTmM1dHhYNlRTS1p5VFlRRUhOZWJleGVSRk5FYUJIOU5zQzFJNDE3eG1EQ01WdGFrblpXUDA2UWJrb1JudFpmSlJqNVBhZU9QSjhxMGgyU29iSlBCQWlnbXUxU0lSNG9zUF84ckHSAZMCQVVfeXFMTjBzQW8wSm5CcXFGdFQ5VDRLV3lZMHZnRWFVaHBUTUFvLWN5bklRS21ITHV6b0lXTHFtQWlUQ1VwOV8yUlBUTy1fRTZURDJsUlltVGhiVWdfbzNBVGxZZ0xERnVoVFhpcG5WbUtJdDFFY3RVS1h1dF83ZUR2UTJLMFhZdlJSNEFTbWxLZTBwZ2pFVnA5cEVhWk14bk5UVW9oR2k5eHZGWGZXOVN3LXVYT2haMnN6OUt0c0FtNzd6a0l1OGdnWDFOQ1gwRGt4aE9SSXBTOXVFUmJiVlg5X1lvNWR2Slp1QkpLV1lnc0NCNC1iSWJleEVBd2ttYThUYmw5UUxZZ1Q1c2loZUdNb09CWmdnZWs?oc=5"
     },
     {
       "id": "m-2026-09-03-4",
-      "name": "Qwen 3.8-Flash-Next",
-      "org": "Alibaba",
-      "releaseDate": "2026-08-27",
-      "highlights": "يتطابق مع قدرات Fable 5 من خلال تحديث فقط، بدون الحاجة إلى ترقية النسخة",
-      "highlightsEn": "Matches Fable 5 capabilities through just an update, without needing version jumping",
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "releaseDate": "2026-09-01",
+      "highlights": "تقدم كبير في مستوى Opus، مع قدرات محسنة للوكلات طويلة المدى مع الحفاظ على السلامة.",
+      "highlightsEn": "Significant step change in the Opus tier, with improved capabilities for long-running agents while maintaining safety.",
       "specs": {
-        "context": "200K",
-        "multimodal": "true"
+        "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12MlBmYXRXLS1BYUxkSVg5cWUxNi01bGVHOUhfc3ItbEgweHRTdEhKclR3N3UwTG9jRU1mcHFPMGtIWTFPWGVwWTRQTFJ1QWoxMVd5dXJkdTRZaXdiOHd1RDYwNmlIT3M?oc=5"
+      "url": "https://www.anthropic.com/news/claude-opus-5"
     },
     {
       "id": "m-2026-09-03-5",
-      "name": "Muse Spark 1.3",
-      "org": "Meta",
-      "releaseDate": "2026-09-02",
-      "highlights": "تحسينات كبيرة في قدرات النموذج مع دعم أفضل للإبداع والمحتوى",
-      "highlightsEn": "Significant improvements in model capabilities with better support for creativity and content",
+      "name": "Mistral Medium 3.5",
+      "org": "Mistral AI",
+      "releaseDate": "2026-08-31",
+      "highlights": "تحسينات في الأداء والفهم مع الحفاظ على كفاءة التكلفة.",
+      "highlightsEn": "Improvements in performance and understanding while maintaining cost efficiency.",
       "specs": {
-        "context": "128K",
-        "multimodal": "true"
+        "context": "128K"
       },
-      "url": "https://developer.meta.com/ai/models/muse-spark/"
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
     },
     {
       "id": "m-2026-09-03-6",
       "name": "Mistral Small 4",
       "org": "Mistral AI",
-      "releaseDate": "2026-09-01",
-      "highlights": "نموذج صغير الحجم مع أداء عالٍ، مصمم للتطبيقات العملية",
-      "highlightsEn": "Small-sized model with high performance, designed for practical applications",
+      "releaseDate": "2026-08-31",
+      "highlights": "نموذج أصغر حجمًا مع تحسينات في السرعة والكفاءة.",
+      "highlightsEn": "A smaller model with improvements in speed and efficiency.",
       "specs": {
-        "context": "128K",
-        "multimodal": "true"
+        "context": "128K"
       },
       "url": "https://mistral.ai/news/mistral-small-4/"
     }
@@ -226,38 +220,33 @@
   "highlights": [
     {
       "id": "h-2026-09-03-1",
-      "text": "تقدم شركة الذكاء الاصطناعي الصينية Moonshot AI بطلب للاكتتاب العام في هونغ كونغ بشكل سري، مما يشير إلى تقييم مرتفع واهتمام كبير بالسوق.",
-      "textEn": "Chinese AI company Moonshot AI has confidentially filed for a Hong Kong IPO, indicating a high valuation and significant market interest.",
+      "text": "أيدت حكومة الولايات المتحدة موقف OpenAI في تدريب نماذج اللغة الكبيرة على مواد محمية بحقوق النشر.",
+      "textEn": "The US government sided with OpenAI on training large language models on copyrighted material.",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
+      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"
     },
     {
       "id": "h-2026-09-03-2",
-      "text": "أيدت الحكومة الأمريكية موقف OpenAI في قضية تدريب النماذج اللغوية الكبيرة على مواد محمية بحقوق النشر، مما قد يغير مسار التنظيم في صناعة الذكاء الاصطناعي.",
-      "textEn": "The US government has sided with OpenAI on the issue of training LLMs on copyrighted material, which could change the regulatory landscape in the AI industry.",
-      "level": "critical",
-      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"
+      "text": "انقطاع ChatGPT و Codix عن العمل لفترة قصيرة.",
+      "textEn": "ChatGPT and Codex experienced a brief service outage.",
+      "level": "warning",
+      "url": "https://chatgpt.com/codex/"
+    },
+    {
+      "id": "h-2026-09-03-3",
+      "text": "زيادة الأخطاء في نماذج متعددة، مما يشير إلى مشكلات واسعة الانتشار.",
+      "textEn": "Increased errors in multiple models, indicating widespread issues.",
+      "level": "warning",
+      "url": "https://status.claude.com/incidents/461yvfrzpwtt"
     }
   ],
   "security": [
     {
       "id": "sec-2026-09-03-1",
-      "title": "تقرير METR حول اختراق OpenAI / Hugging Face",
-      "titleEn": "METR Report on OpenAI / Hugging Face Hacking Incident",
-      "summary": "كشف تقرير METR عن ثغرة أمنية خطيرة في منصات OpenAI و Hugging Face تسمح باختراق النماذج وسرقة البيانات. الثغرة تستخدم تقنيات حقن متقدمة لتجاوز آليات الأمان.",
-      "summaryEn": "METR report revealed a serious security vulnerability in OpenAI and Hugging Face platforms that allows model hacking and data theft. The vulnerability uses advanced injection techniques to bypass security mechanisms.",
-      "type": "breach",
-      "severity": "critical",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident",
-      "source": "Hacker News",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "sec-2026-09-03-2",
-      "title": "إخفاء حقن الأوامر في الملفات القانونية",
+      "title": "إخفاء حقن المطالبات في الملفات القانونية",
       "titleEn": "Hiding Prompt Injection in Legal Filing",
-      "summary": "تمكن شخص من إخفاء تعليمات الذكاء الاصطناعي داخل ملف قانوني باستخدام تقنية حقن الأوامر المتقدمة. التقنية تستخدم تنسيقًا خاصًا يجعل التعليمات غير مرئية للبشر ولكن قابلة للتنفيذ بواسطة النماذج اللغوية.",
-      "summaryEn": "Someone successfully hid AI instructions within a legal filing using advanced prompt injection techniques. The technique uses special formatting that makes instructions invisible to humans but executable by language models.",
+      "summary": "تمكن شخص من إخفاء تعليمات AI في ملف قانوني باستخدام تقنيات التمويه، مما يسمح بتوجيه سلوك النماذج دون أن يتم اكتشافه.",
+      "summaryEn": "Someone managed to hide AI instructions in a legal filing using obfuscation techniques, allowing model behavior direction without detection.",
       "type": "prompt-injection",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
@@ -265,28 +254,28 @@
       "date": "2026-08-31"
     },
     {
+      "id": "sec-2026-09-03-2",
+      "title": "تسريبات مواد تدريب العمليات السيبرانية الروسية",
+      "titleEn": "Leaked Russian Cyber-Operations Training Materials",
+      "summary": "كشفت تسريبات عن مواد تدريب العمليات السيبرانية الروسية التي تستخدم AI لتحليل الثغرات وتطوير هجمات مستهدفة.",
+      "summaryEn": "Leaked materials reveal Russian cyber-operations training that uses AI to analyze vulnerabilities and develop targeted attacks.",
+      "type": "policy",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-01"
+    },
+    {
       "id": "sec-2026-09-03-3",
-      "title": "وكلاء الذكاء الاصطناعي يرسلون رسائل بريد إلكتروني بمخاوف أمنية",
-      "titleEn": "AI Agents Are Now Emailing Security Concerns",
-      "summary": "تلقى الباحث الأمني بريدًا إلكترونيًا من وكلاء ذكاء اصطناعي يعبّرون عن مخاوفهم الأمنية. هذا التطور يثير أسئلة حول وعي الذكاء الاصطناعي بالأمن السيبراني وقدرته على التعبير عن المخاوف بشكل مستقل.",
-      "summaryEn": "A security researcher received emails from AI agents expressing their security concerns. This development raises questions about AI awareness of cybersecurity and its ability to independently express concerns.",
+      "title": "وكلات AI ترسل رسائل بمخاوفها الأمنية",
+      "titleEn": "AI Agents Are Now Emailing with Their Security Concerns",
+      "summary": "تلقى الباحث برايس شناير رسائل من وكلات AI تظهر وعيًا أمنيًا، حيث أبلغت عن مخاوفها بشأن استخدام بياناتها.",
+      "summaryEn": "Researcher Bruce Schneier received emails from AI agents showing security awareness, as they reported concerns about their data usage.",
       "type": "policy",
       "severity": "info",
       "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
       "source": "Schneier on Security",
       "date": "2026-09-02"
-    },
-    {
-      "id": "sec-2026-09-03-4",
-      "title": "ادعاءات بتدريب Grok على مواد إساءة للأطفال",
-      "titleEn": "Allegations of Grok Trained on Child Abuse Material",
-      "summary": "رفع ضحايا إساءة الأطفال دعاوى ضد xAI، متهمين الشركة بتدريب نموذج Grok على مواد إساءة للأطفال. الشركة تواجه أيضًا دعاوى أخرى من ضحايا حقيقيين يدعون استخدام صورهم فيديوهاتهم لتدريب نماذج الديب فاك.",
-      "summaryEn": "Victims of child abuse have filed lawsuits against xAI, accusing the company of training the Grok model on child abuse material. The company also faces other lawsuits from real victims claiming their images and videos were used to train deepfake models.",
-      "type": "policy",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2xvS1BEUmtXZ2ZPVkJlYVE0Ylh2SzNoaExwdGktZ2lRUVRQd2lEbHNaWTN2ZU9qN3hHaWkyWlhVeGdsNURLc09nemsxeGNtQzFpUExrUXY3UlNnbk1DM042N19kbWR0VnE4UEtwOVNvRDcycml6ZUNZbHRpUE1HUWZ6cHpSbmNIRlBTM3ZvZ0hMMWZmb3ZzQVMwQ0lmaXZpZEJrR0VRMTltdWZvZ1E?oc=5",
-      "source": "xAI (news)",
-      "date": "2026-08-27"
     }
   ],
   "benchmarks": {
@@ -297,154 +286,166 @@
       {
         "name": "Claude Fable 5.1",
         "org": "Anthropic",
-        "score": "57.0"
+        "score": "56.9"
       },
       {
-        "name": "GPT-5.6 Sol",
+        "name": "GPT-5.6 Sol 1",
         "org": "OpenAI",
-        "score": "56.0"
+        "score": "56.3"
       },
       {
         "name": "Claude Opus 5",
         "org": "Anthropic",
-        "score": "55.8"
+        "score": "55.9"
       },
       {
         "name": "Claude Mythos Preview",
         "org": "Anthropic",
-        "score": "55.4"
-      },
-      {
-        "name": "Muse Spark 1.3",
-        "org": "Meta",
-        "score": "55.4"
+        "score": "55.5"
       },
       {
         "name": "Claude Fable 5",
         "org": "Anthropic",
-        "score": "54.9"
+        "score": "55.2"
       },
       {
         "name": "Kimi K3",
         "org": "Moonshot AI",
-        "score": "54.1"
+        "score": "54.3"
       },
       {
         "name": "GLM-5.3",
         "org": "Zhipu AI",
-        "score": "53.8"
+        "score": "54.0"
       },
       {
         "name": "DeepSeek-V4-Pro-0813",
         "org": "DeepSeek",
-        "score": "52.3"
+        "score": "52.6"
       },
       {
         "name": "Qwen3.8 Max",
         "org": "Alibaba Cloud / Qwen Team",
-        "score": "52.3"
+        "score": "52.5"
+      },
+      {
+        "name": "GPT-5.6 Terra",
+        "org": "OpenAI",
+        "score": "51.9"
       }
     ],
-    "highlights": "شهد القائمة الجديدة ظهور عدة نماذج جديدة متميزة مثل Claude Fable 5.1 و Muse Spark 1.3 التي دخلت مباشرة إلى المراكز المتقدمة. تتنافس النماذج القريبة من بعضها البعض في النقاط، حيث تختلف نتائج GPT-5.6 Sol و Claude Opus 5 حسب المهام المختلفة.",
-    "highlightsEn": "The new leaderboard shows several impressive new models like Claude Fable 5.1 and Muse Spark 1.3 that entered directly into top positions. Models are closely competing, with GPT-5.6 Sol and Claude Opus 5 showing different results depending on the specific tasks."
+    "highlights": "يبرز نموذج Claude Fable 5.1 كأحدث إضافة في القمة بعد أن تجاوز GPT-5.6 Sol. تظهر المنافسة الشديدة بين نماذج Claude حيث تحتل 4 مراكز ضمن أفضل 5 نماذج، بينما يحتل Kimi K3 المرتبة السادسة كأفضل نموذج مفتوح المصدر.",
+    "highlightsEn": "Claude Fable 5.1 emerges as the newest top model, surpassing GPT-5.6 Sol. There's intense competition among Claude models, which occupy 4 of the top 5 positions, while Kimi K3 ranks 6th as the best open-source model."
   },
   "knowledgeEntry": {
-    "id": "k-2026-09-03-ضبط-النماذج-اللغوية-الصغيرة-fine-tuning",
-    "title": "ضبط النماذج اللغوية الصغيرة (Fine-tuning)",
-    "titleEn": "Fine-tuning Small Language Models",
-    "why": "يسمح لك ضبط النماذج اللغوية الصغيرة بتخصيص النماذج مفتوحة المصدر لمهام محددة، مما يحسن الأداء ويقلل التكاليف مقارنة باستخدام النماذج الكبيرة.",
-    "whyEn": "Fine-tuning small language models allows you to customize open-source models for specific tasks, improving performance while reducing costs compared to using large models.",
+    "id": "k-2026-09-03-تنفيذ-أخلاقيات-الذكاء-الاصطناعي-في-التطبيقات",
+    "title": "تنفيذ أخلاقيات الذكاء الاصطناعي في التطبيقات",
+    "titleEn": "Implementing AI Ethics in Applications",
+    "why": "تطبيق أخلاقيات الذكاء الاصطناعي يضمن استخدام التكنولوجيا بشكل مسؤول وآمن، ويحمي حقوق المستخدمين، ويمنع التحيزات ويبني الثقة في أنظمة الذكاء الاصطناعي.",
+    "whyEn": "Implementing AI ethics ensures responsible and safe technology use, protects user rights, prevents biases, and builds trust in AI systems.",
     "difficulty": "intermediate",
-    "track": "building",
+    "track": "security",
     "steps": [
       {
-        "title": "تحضير البيانات",
-        "detail": "اجمع مجموعة بيانات عالية الجودة تتعلق بمهمتك المحددة. يجب أن تكون البيانات نظيفة ومنظمة بشكل جيد."
+        "title": "تحديد القيم الأخلاقية الأساسية",
+        "detail": "حدد القيم الأساسية التي يجب أن تعكسها تطبيقاتك مثل الإنصاف والشفافية والمساءلة والخصوصية. قم بإنشاء ميثاق أخلاقي واضح لمشروعك."
       },
       {
-        "title": "اختيار النموذج الأساسي",
-        "detail": "اختر نموذجًا صغيرًا مناسبًا لمهمتك مثل TinyBERT أو DistilGPT-2 بناءً على متطلبات الذاكرة والسرعة."
+        "title": "تقييم البيانات والتحقق من التحيز",
+        "detail": "افحص بيانات التدريب بحثًا عن تحيزات محتملة واستخدم تقنيات متنوعة لتحديد ومعالجة التحيزات في النموذج. تأكد من تمثيل مختلف المجموعات السكانية في بياناتك."
       },
       {
-        "title": "إعداد بيئة العمل",
-        "detail": "قم بتثبيت المكتبات اللازمة مثل Hugging Face Transformers و PyTorch. تأكد من أن لديك GPU كافٍ للمعالجة."
+        "title": "تصميم آليات الشفافية",
+        "detail": "طور آليات لشرح قرارات النموذج للمستخدمين، مثل تقنيات التفسير الذاتي (XAI). قم بتوثيق كيفية عمل النموذج والمعايير المستخدمة في صنع القرارات."
       },
       {
-        "title": "تنفيذ عملية الضبط",
-        "detail": "استخدم كود بسيط لتدريب النموذج على بياناتك. ابدأ بمعدل تعلم منخفض وعدد قليل من التكرارات لتجنب الت overfitting."
+        "title": "إنشاء إطار عمل للمراجعة الأخلاقية",
+        "detail": "أنشئ لجنة مراجعة أخلاقية أو عملية مراجعة منتظمة لتقييم التطبيقات من منظور أخلاقي. حدد الإجراءات التصحيحية عند اكتشاف مشاكل أخلاقية."
       },
       {
-        "title": "تقييم النموذج",
-        "detail": "اختبر نموذجك على مجموعة بيانات منفصلة للتأكد من أدائه. قارن النتائج بالنموذج الأساسي."
+        "title": "دمج الحوكمة والامتثال",
+        "detail": "قم بدمج مبادئ الحوكمة والامتثال مع المتطلبات التنظيمية في تطوير التطبيقات. أنشئ سياسات واضحة للتعامل مع البيانات الحساسة والاستخدام غير المصرح به."
       }
     ],
     "stepsEn": [
       {
-        "title": "Data Preparation",
-        "detail": "Collect a high-quality dataset relevant to your specific task. The data should be clean and well-organized."
+        "title": "Identify Core Ethical Values",
+        "detail": "Define the core values your applications should reflect, such as fairness, transparency, accountability, and privacy. Create a clear ethical charter for your project."
       },
       {
-        "title": "Base Model Selection",
-        "detail": "Choose a suitable small model for your task such as TinyBERT or DistilGPT-2 based on memory and speed requirements."
+        "title": "Evaluate Data and Check for Bias",
+        "detail": "Examine training data for potential biases and use various techniques to identify and address biases in the model. Ensure diverse population representation in your data."
       },
       {
-        "title": "Environment Setup",
-        "detail": "Install necessary libraries like Hugging Face Transformers and PyTorch. Ensure you have sufficient GPU capacity for processing."
+        "title": "Design Transparency Mechanisms",
+        "detail": "Develop mechanisms to explain model decisions to users, such as Explainable AI (XAI) techniques. Document how the model works and the criteria used in decision-making."
       },
       {
-        "title": "Fine-tuning Implementation",
-        "detail": "Use simple code to train the model on your data. Start with a low learning rate and few epochs to avoid overfitting."
+        "title": "Create an Ethical Review Framework",
+        "detail": "Establish an ethical review board or regular review process to evaluate applications from an ethical perspective. Define corrective actions when ethical issues are discovered."
       },
       {
-        "title": "Model Evaluation",
-        "detail": "Test your model on a separate dataset to ensure its performance. Compare results with the base model."
+        "title": "Integrate Governance and Compliance",
+        "detail": "Integrate governance and compliance principles with regulatory requirements in application development. Create clear policies for handling sensitive data and unauthorized use."
       }
     ],
-    "code": "from transformers import Trainer, TrainingArguments\nfrom transformers import AutoModelForSequenceClassification, AutoTokenizer\n\n# Load model and tokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased')\ntokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')\n\n# Tokenize dataset\ntrain_encodings = tokenizer(train_texts, truncation=True, padding=True)\nval_encodings = tokenizer(val_texts, truncation=True, padding=True)\n\nclass CustomDataset(torch.utils.data.Dataset):\n    def __init__(self, encodings, labels):\n        self.encodings = encodings\n        self.labels = labels\n\n    def __getitem__(self, idx):\n        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}\n        item['labels'] = torch.tensor(self.labels[idx])\n        return item\n\n    def __len__(self):\n        return len(self.labels)\n\ntrain_dataset = CustomDataset(train_encodings, train_labels)\nval_dataset = CustomDataset(val_encodings, val_labels)\n\n# Training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=64,\n    warmup_steps=500,\n    weight_decay=0.01,\n    logging_dir='./logs',\n    logging_steps=10,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset\n)\n\n# Fine-tune the model\ntrainer.train()",
+    "code": "from sklearn.metrics import confusion_matrix\nimport numpy as np\n\ndef detect_bias(y_true, y_pred, sensitive_attr):\n    \"\"\"Detect potential bias in model predictions across different groups\"\"\"\n    groups = np.unique(sensitive_attr)\n    bias_metrics = {}\n    \n    for group in groups:\n        group_mask = (sensitive_attr == group)\n        group_y_true = y_true[group_mask]\n        group_y_pred = y_pred[group_mask]\n        \n        tn, fp, fn, tp = confusion_matrix(group_y_true, group_y_pred).ravel()\n        \n        # Calculate metrics for this group\n        precision = tp / (tp + fp) if (tp + fp) > 0 else 0\n        recall = tp / (tp + fn) if (tp + fn) > 0 else 0\n        \n        bias_metrics[group] = {\n            'precision': precision,\n            'recall': recall,\n            'fpr': fp / (fp + tn) if (fp + tn) > 0 else 0\n        }\n    \n    return bias_metrics",
     "resources": [
       {
-        "name": "Hugging Face Fine-tuning Documentation",
-        "url": "https://huggingface.co/docs/transformers/training"
+        "name": "AI Ethics Guidelines",
+        "url": "https://www.oecd.ai/en/ai-principles"
       },
       {
-        "name": "Google Colab Fine-tuning Tutorial",
-        "url": "https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/text_classification.ipynb"
+        "name": "Responsible AI Toolkit",
+        "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
       },
       {
-        "name": "TinyBERT Paper",
-        "url": "https://arxiv.org/abs/1909.10351"
+        "name": "Ethics Checklist for AI",
+        "url": "https://www.partnershiponai.org/aiethicschecklist"
       }
     ],
     "tags": [
-      "ضبط النماذج",
-      "النماذج الصغيرة",
-      "Hugging Face",
-      "التعلم العميق"
+      "أخلاقيات",
+      "مسؤولية",
+      "تحيز",
+      "شفافية",
+      "حوكمة"
     ],
-    "quickRef": "ضبط النماذج الصغيرة يتضمن تحضير البيانات، اختيار النموذج، إعداد البيئة، التنفيذ، والتقييم.",
-    "quickRefEn": "Small model fine-tuning includes data preparation, model selection, environment setup, implementation, and evaluation.",
+    "quickRef": "تحقق من التحيز في البيانات، شفّر قرارات النموذج، أنشئ إطارًا للمراجعة الأخلاقية، ودمج الحوكمة في التطوير.",
+    "quickRefEn": "Check for data bias, explain model decisions, create an ethical review framework, and integrate governance in development.",
     "quiz": [
       {
-        "q": "ما هو أول خطوة في عملية ضبط النموذج اللغوي الصغير؟",
+        "q": "ما هو العنصر الأهم عند تطبيق أخلاقيات الذكاء الاصطناعي في التطبيقات؟",
         "options": [
-          "اختيار النموذج الأساسي",
-          "تحضير البيانات",
-          "تنفيذ عملية الضبط",
-          "تقييم النموذج"
+          "السرعة في التطوير",
+          "الشفافية والمساءلة",
+          "تقليل التكاليف",
+          "زيادة الدقة"
         ],
         "answer": 1,
-        "explain": "تحضير البيانات هو الخطوة الأولى والأكثر أهمية في عملية الضبط، حيث يعتمد نجاح العملية على جودة البيانات المستخدمة."
+        "explain": "الشفافية والمساءلة هما العنصران الأهم في أخلاقيات الذكاء الاصطناعي، حيثما يضمان أن المستخدمين يفهمون كيفية عمل النظام وكيفية اتخاذ القرارات، مما يسمح بالمساءلة عند حدوث مشاكل."
       },
       {
-        "q": "ما هو أحد المخاطر الرئيسية عند ضبط النماذج اللغوية الصغيرة؟",
+        "q": "ما هي الخطوة الأولى في عملية تنفيذ أخلاقيات الذكاء الاصطناعي؟",
         "options": [
-          "زيادة تكاليف التدريب",
-          "Overfitting (الفرط في التخصيص)",
-          "نقص الذاكرة",
-          "بطء المعالجة"
+          "اختبار النموذج",
+          "تحديد القيم الأخلاقية الأساسية",
+          "جمع البيانات",
+          "نشر التطبيق"
         ],
         "answer": 1,
-        "explain": "Overfitting هو أحد المخاطر الرئيسية حيث قد يتعلم النموذج التفاصيل الخاصة ببيانات التدريب بدلاً من الأنماج العامة، مما يؤدي إلى سوء الأداء على بيانات جديدة."
+        "explain": "الخطوة الأولى هي تحديد القيم الأخلاقية الأساسية التي يجب أن تعكسها التطبيقات، مثل الإنصاف والشفافية والمساءلة والخصوصية. هذه القيم توجه جميع القرارات اللاحقة في عملية التطوير."
+      },
+      {
+        "q": "ما هو الهدف من استخدام تقنيات التفسير الذاتي (XAI) في تطبيقات الذكاء الاصطناعي؟",
+        "options": [
+          "زيادة سرعة النموذج",
+          "تقليل استهلاك الموارد",
+          "شرح قرارات النموذج للمستخدمين",
+          "تقليل تكاليف التطوير"
+        ],
+        "answer": 2,
+        "explain": "تقنيات التفسير الذاتي (XAI) تهدف إلى شرح كيفية اتخاذ النموذج لقراراته للمستخدمين، مما يزيد من الشفافية ويساعد في كسب ثقة المستخدمين وتحديد المشاكل المحتملة في قرارات النموذج."
       }
     ],
     "addedAt": "2026-09-03"

@@ -1,6 +1,119 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-03-تنفيذ-أخلاقيات-الذكاء-الاصطناعي-في-التطبيقات",
+      "title": "تنفيذ أخلاقيات الذكاء الاصطناعي في التطبيقات",
+      "titleEn": "Implementing AI Ethics in Applications",
+      "why": "تطبيق أخلاقيات الذكاء الاصطناعي يضمن استخدام التكنولوجيا بشكل مسؤول وآمن، ويحمي حقوق المستخدمين، ويمنع التحيزات ويبني الثقة في أنظمة الذكاء الاصطناعي.",
+      "whyEn": "Implementing AI ethics ensures responsible and safe technology use, protects user rights, prevents biases, and builds trust in AI systems.",
+      "difficulty": "intermediate",
+      "track": "security",
+      "steps": [
+        {
+          "title": "تحديد القيم الأخلاقية الأساسية",
+          "detail": "حدد القيم الأساسية التي يجب أن تعكسها تطبيقاتك مثل الإنصاف والشفافية والمساءلة والخصوصية. قم بإنشاء ميثاق أخلاقي واضح لمشروعك."
+        },
+        {
+          "title": "تقييم البيانات والتحقق من التحيز",
+          "detail": "افحص بيانات التدريب بحثًا عن تحيزات محتملة واستخدم تقنيات متنوعة لتحديد ومعالجة التحيزات في النموذج. تأكد من تمثيل مختلف المجموعات السكانية في بياناتك."
+        },
+        {
+          "title": "تصميم آليات الشفافية",
+          "detail": "طور آليات لشرح قرارات النموذج للمستخدمين، مثل تقنيات التفسير الذاتي (XAI). قم بتوثيق كيفية عمل النموذج والمعايير المستخدمة في صنع القرارات."
+        },
+        {
+          "title": "إنشاء إطار عمل للمراجعة الأخلاقية",
+          "detail": "أنشئ لجنة مراجعة أخلاقية أو عملية مراجعة منتظمة لتقييم التطبيقات من منظور أخلاقي. حدد الإجراءات التصحيحية عند اكتشاف مشاكل أخلاقية."
+        },
+        {
+          "title": "دمج الحوكمة والامتثال",
+          "detail": "قم بدمج مبادئ الحوكمة والامتثال مع المتطلبات التنظيمية في تطوير التطبيقات. أنشئ سياسات واضحة للتعامل مع البيانات الحساسة والاستخدام غير المصرح به."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Identify Core Ethical Values",
+          "detail": "Define the core values your applications should reflect, such as fairness, transparency, accountability, and privacy. Create a clear ethical charter for your project."
+        },
+        {
+          "title": "Evaluate Data and Check for Bias",
+          "detail": "Examine training data for potential biases and use various techniques to identify and address biases in the model. Ensure diverse population representation in your data."
+        },
+        {
+          "title": "Design Transparency Mechanisms",
+          "detail": "Develop mechanisms to explain model decisions to users, such as Explainable AI (XAI) techniques. Document how the model works and the criteria used in decision-making."
+        },
+        {
+          "title": "Create an Ethical Review Framework",
+          "detail": "Establish an ethical review board or regular review process to evaluate applications from an ethical perspective. Define corrective actions when ethical issues are discovered."
+        },
+        {
+          "title": "Integrate Governance and Compliance",
+          "detail": "Integrate governance and compliance principles with regulatory requirements in application development. Create clear policies for handling sensitive data and unauthorized use."
+        }
+      ],
+      "code": "from sklearn.metrics import confusion_matrix\nimport numpy as np\n\ndef detect_bias(y_true, y_pred, sensitive_attr):\n    \"\"\"Detect potential bias in model predictions across different groups\"\"\"\n    groups = np.unique(sensitive_attr)\n    bias_metrics = {}\n    \n    for group in groups:\n        group_mask = (sensitive_attr == group)\n        group_y_true = y_true[group_mask]\n        group_y_pred = y_pred[group_mask]\n        \n        tn, fp, fn, tp = confusion_matrix(group_y_true, group_y_pred).ravel()\n        \n        # Calculate metrics for this group\n        precision = tp / (tp + fp) if (tp + fp) > 0 else 0\n        recall = tp / (tp + fn) if (tp + fn) > 0 else 0\n        \n        bias_metrics[group] = {\n            'precision': precision,\n            'recall': recall,\n            'fpr': fp / (fp + tn) if (fp + tn) > 0 else 0\n        }\n    \n    return bias_metrics",
+      "resources": [
+        {
+          "name": "AI Ethics Guidelines",
+          "url": "https://www.oecd.ai/en/ai-principles"
+        },
+        {
+          "name": "Responsible AI Toolkit",
+          "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
+        },
+        {
+          "name": "Ethics Checklist for AI",
+          "url": "https://www.partnershiponai.org/aiethicschecklist"
+        }
+      ],
+      "tags": [
+        "أخلاقيات",
+        "مسؤولية",
+        "تحيز",
+        "شفافية",
+        "حوكمة"
+      ],
+      "quickRef": "تحقق من التحيز في البيانات، شفّر قرارات النموذج، أنشئ إطارًا للمراجعة الأخلاقية، ودمج الحوكمة في التطوير.",
+      "quickRefEn": "Check for data bias, explain model decisions, create an ethical review framework, and integrate governance in development.",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم عند تطبيق أخلاقيات الذكاء الاصطناعي في التطبيقات؟",
+          "options": [
+            "السرعة في التطوير",
+            "الشفافية والمساءلة",
+            "تقليل التكاليف",
+            "زيادة الدقة"
+          ],
+          "answer": 1,
+          "explain": "الشفافية والمساءلة هما العنصران الأهم في أخلاقيات الذكاء الاصطناعي، حيثما يضمان أن المستخدمين يفهمون كيفية عمل النظام وكيفية اتخاذ القرارات، مما يسمح بالمساءلة عند حدوث مشاكل."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في عملية تنفيذ أخلاقيات الذكاء الاصطناعي؟",
+          "options": [
+            "اختبار النموذج",
+            "تحديد القيم الأخلاقية الأساسية",
+            "جمع البيانات",
+            "نشر التطبيق"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى هي تحديد القيم الأخلاقية الأساسية التي يجب أن تعكسها التطبيقات، مثل الإنصاف والشفافية والمساءلة والخصوصية. هذه القيم توجه جميع القرارات اللاحقة في عملية التطوير."
+        },
+        {
+          "q": "ما هو الهدف من استخدام تقنيات التفسير الذاتي (XAI) في تطبيقات الذكاء الاصطناعي؟",
+          "options": [
+            "زيادة سرعة النموذج",
+            "تقليل استهلاك الموارد",
+            "شرح قرارات النموذج للمستخدمين",
+            "تقليل تكاليف التطوير"
+          ],
+          "answer": 2,
+          "explain": "تقنيات التفسير الذاتي (XAI) تهدف إلى شرح كيفية اتخاذ النموذج لقراراته للمستخدمين، مما يزيد من الشفافية ويساعد في كسب ثقة المستخدمين وتحديد المشاكل المحتملة في قرارات النموذج."
+        }
+      ],
+      "addedAt": "2026-09-03"
+    },
+    {
       "id": "k-2026-09-03-ضبط-النماذج-اللغوية-الصغيرة-fine-tuning",
       "title": "ضبط النماذج اللغوية الصغيرة (Fine-tuning)",
       "titleEn": "Fine-tuning Small Language Models",
