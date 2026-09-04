@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-04-بناء-وكلاء-ذكاء-اصطناعي-فعال",
+      "title": "بناء وكلاء ذكاء اصطناعي فعال",
+      "titleEn": "Building Effective AI Agents",
+      "why": "تتيح لك بناء وكلاء ذكاء اصطناعي فعال أتمتة المهام المعقدة وتحقيق نتائج دقيقة من خلال التكامل الذكي بين النماذج اللغوية والمهارات المختلفة.",
+      "whyEn": "Building effective AI agents allows you to automate complex tasks and achieve precise results through intelligent integration between language models and various capabilities.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد الهدف والمهام الأساسية",
+          "detail": "حدد بوضوح الهدف الرئيسي للوكيل والمهام التي يجب أن يؤديها، مع تقسيم المهام المعقدة إلى خطوات أصغر."
+        },
+        {
+          "title": "اخيار النموذج المناسب",
+          "detail": "اختر نموذج لغوي يتوافق مع متطلبات الوكيل من حيث الدقة والسرعة والتكلفة، مع مراعاة حجم السياق المطلوب."
+        },
+        {
+          "title": "تصميم سير العمل",
+          "detail": "أنشئ مخططًا لسير عمل الوكيل، بما في ذلك كيفية استقبال المدخلات، معالجة المعلومات، اتخاذ القرارات، وتوليد المخرجات."
+        },
+        {
+          "title": "تنفيذ المهارات والوظائف",
+          "detail": "قم بتطوير الوظائف والمهارات التي سيستخدمها الوكيل، مثل البحث عن المعلومات، تنفيذ الأوامر، أو التفاعل مع واجهات برمجة التطبيقات."
+        },
+        {
+          "title": "اختبار وتحسين الأداء",
+          "detail": "اختبر أداء الوكيل في سيناريوهات مختلفة، وقم بتحسينه بناءً على النتائج وتعديل المعلمات عند الحاجة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define Objectives and Core Tasks",
+          "detail": "Clearly identify the agent's main objective and the tasks it needs to perform, breaking down complex tasks into smaller steps."
+        },
+        {
+          "title": "Choose the Appropriate Model",
+          "detail": "Select a language model that aligns with the agent's requirements in terms of accuracy, speed, and cost, considering the required context size."
+        },
+        {
+          "title": "Design the Workflow",
+          "detail": "Create a workflow diagram for the agent, including how it will receive inputs, process information, make decisions, and generate outputs."
+        },
+        {
+          "title": "Implement Skills and Functions",
+          "detail": "Develop the functions and capabilities the agent will use, such as information retrieval, command execution, or API interactions."
+        },
+        {
+          "title": "Test and Improve Performance",
+          "detail": "Test the agent's performance in various scenarios, and improve it based on results and parameter adjustments as needed."
+        }
+      ],
+      "code": "import openai\n\nclass AIAgent:\n    def __init__(self, model_name=\"gpt-4\"):\n        self.model = model_name\n        self.client = openai.OpenAI()\n    \n    def process_task(self, task, context=\"\"):\n        response = self.client.chat.completions.create(\n            model=self.model,\n            messages=[\n                {\"role\": \"system\", \"content\": \"You are a helpful AI assistant.\"},\n                {\"role\": \"user\", \"content\": f\"{context}\\n\\n{task}\"}\n            ]\n        )\n        return response.choices[0].message.content\n    \n    def search_and_answer(self, query):\n        # This would integrate with a search API in a real implementation\n        search_result = f\"Search results for: {query}\"\n        return self.process_task(f\"Based on this information: {search_result}\", f\"Answer this question: {query}\")\n\n# Example usage\nagent = AIAgent()\nresponse = agent.process_task(\"Explain quantum computing in simple terms\")\nprint(response)",
+      "resources": [
+        {
+          "name": "OpenAI API Documentation",
+          "url": "https://platform.openai.com/docs"
+        },
+        {
+          "name": "LangChain Framework",
+          "url": "https://python.langchain.com/"
+        },
+        {
+          "name": "AI Agent Patterns",
+          "url": "https://www.promptingguide.ai/agents/patterns"
+        }
+      ],
+      "tags": [
+        "الذكاء الاصطناعي",
+        "الوكلاء",
+        "التطوير",
+        "أتمتة"
+      ],
+      "quickRef": "بناء وكلاء ذكاء اصطناعي فعال يتضمن تحديد الأهداف، اختيار النموذج، تصميم سير العمل، تنفيذ المهارات، وتحسين الأداء.",
+      "quickRefEn": "Building effective AI agents involves defining objectives, selecting models, designing workflows, implementing skills, and improving performance.",
+      "quiz": [
+        {
+          "q": "ما هو العامل الأهم عند اختيار نموذج لغوي لبناء وكلاء ذكاء اصطناعي؟",
+          "options": [
+            "السعر فقط",
+            "الدقة والسرعة والتكلفة معًا",
+            "حجم السياق فقط",
+            "الاسم التجاري للنموذج"
+          ],
+          "answer": 1,
+          "explain": "يجب مراعاة عدة عوامل عند اختيار نموذج لغوي، بما في ذلك الدقة في الأداء، السرعة في المعالجة، والتكلفة، بالإضافة إلى حجم السياق المطلوب."
+        },
+        {
+          "q": "ما هو الخطأ الشائع في تصميم سير عمل الوكلاء الذكية؟",
+          "options": [
+            "تحديد الأهداف بوضوح",
+            "تجاهل حالات الفشل المحتملة",
+            "اختبار الوكيل في سيناريوهات متنوعة",
+            "تحسين الأداء بناءً على النتائج"
+          ],
+          "answer": 1,
+          "explain": "خطأ شائع هو تجاهل حالات الفشل المحتملة، والتي يجب أن تُدرج في تصميم سير العمل لضمان استمرارية الوكيل في مواجهة المشكلات."
+        },
+        {
+          "q": "ما هو أفضل نهج لتحسين أداء الوكيل الذكي؟",
+          "options": [
+            "زيادة حجم السياق دائمًا",
+            "تجربة نماذج مختلفة وتعديل المعلمات",
+            "استخدام نفس النموذج دائمًا",
+            "تجنب اختبار الوكيل في سيناريوهات جديدة"
+          ],
+          "answer": 1,
+          "explain": "النهج الأفضل هو تجربة نماذج مختلفة وتعديل المعلمات بناءً على نتائج الاختبار، مع مراعاة متطلبات كل مهمة محددة."
+        }
+      ],
+      "addedAt": "2026-09-04"
+    },
+    {
       "id": "k-2026-09-03-تنفيذ-أخلاقيات-الذكاء-الاصطناعي-في-التطبيقات",
       "title": "تنفيذ أخلاقيات الذكاء الاصطناعي في التطبيقات",
       "titleEn": "Implementing AI Ethics in Applications",

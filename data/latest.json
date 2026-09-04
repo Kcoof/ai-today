@@ -1,83 +1,111 @@
 {
-  "date": "2026-09-03",
-  "generatedAt": "2026-09-03T15:14:01.585Z",
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T09:57:05.177Z",
   "news": [
     {
-      "id": "n-2026-09-03-5",
-      "title": "حكومة الولايات المتحدة تدعم OpenAI في تدريب النماذج على مواد محمية بحقوق النشر",
-      "titleEn": "US government sides with OpenAI on training LLMs on copyrighted material",
-      "summary": "أيدت حكومة الولايات المتحدة موقف OpenAI في تدريب نماذج اللغة الكبيرة على مواد محمية بحقوق النشر.",
-      "summaryEn": "The US government sided with OpenAI on training large language models on copyrighted material.",
-      "category": "regulation",
+      "id": "n-2026-09-04-1",
+      "title": "OpenAI تطلق GPT-6 Astra مع قدرات أمنية متقدمة",
+      "titleEn": "OpenAI launches GPT-6 Astra with advanced security capabilities",
+      "summary": "أطلقت OpenAI نموذج GPT-6 Astra، وهو أول نموذج يصل إلى عتبة القدرة الأمنية الحرجة. النموذج يوفر حمايات حدودية وقدرات حرجة للشركات والمؤسسات.",
+      "summaryEn": "OpenAI has launched GPT-6 Astra, the first model to reach the Critical cybersecurity capability threshold. The model provides frontier safeguards and critical capabilities for businesses and institutions.",
+      "category": "models",
       "importance": 5,
       "source": {
-        "name": "Hacker News",
-        "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/safety-overview-gpt-6-astra"
       },
       "publishedAt": "2026-09-03"
     },
     {
-      "id": "n-2026-09-03-1",
-      "title": "جوجل دميند تطلق Gemini 3.8 Flash و 3.8 Flash Cyber",
-      "titleEn": "Google DeepMind launches Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "أطلقت جوجل دميند نموذجي Gemini 3.8 Flash و 3.8 Flash Cyber، مع تحسينات في السرعة والدقة للإجابات المعقدة.",
-      "summaryEn": "Google DeepMind launched Gemini 3.8 Flash and 3.8 Flash Cyber models, with improvements in speed and accuracy for complex responses.",
+      "id": "n-2026-09-04-2",
+      "title": "جوجل دميند تطلق WeatherNext 3 وأحدث نماذج Gemini",
+      "titleEn": "Google DeepMind launches WeatherNext 3 and latest Gemini models",
+      "summary": "أعلنت Google DeepMind عن نموذج WeatherNext 3 المتقدم للطقس، بالإضافة إلى Gemini 3.8 Flash و 3.8 Flash Cyber للدفاع السيبراني، مما يمثل تقدمًا كبيرًا في قدرات الذكاء الاصطناعي.",
+      "summaryEn": "Google DeepMind announced the advanced WeatherNext 3 weather model, along with Gemini 3.8 Flash and 3.8 Flash Cyber for cybersecurity, representing significant advances in AI capabilities.",
       "category": "models",
       "importance": 4,
       "source": {
         "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+        "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
       },
-      "publishedAt": "2026-09-02"
+      "publishedAt": "2026-09-03"
     },
     {
-      "id": "n-2026-09-03-2",
-      "title": "منظمات الرعاية الصحية يمكن الآن ربط بيانات EHR مع ChatGPT",
-      "titleEn": "Healthcare organizations can now connect EHR data with ChatGPT",
-      "summary": "يمكن الآن لمنظمات الرعاية الصحية ربط بيانات السجلات الصحية الإلكترونية مع ChatGPT للمساعدة في الوصول الآمن إلى معلومات المرضى.",
-      "summaryEn": "Healthcare organizations can now connect electronic health records data with ChatGPT to help securely access patient information.",
+      "id": "n-2026-09-04-3",
+      "title": "شركة مونشوت تقدم للاكتتاب العام في هونغ كونغ",
+      "titleEn": "Moonshot files for Hong Kong IPO",
+      "summary": "تقدم شركة مونشوت الصينية المطور لنموذج Kimi K3 للاكتتاب العام في هونغ كونغ بهدف جمع 3 مليار دولار، مع تقييم يصل إلى 30 مليار دولار.",
+      "summaryEn": "Chinese Moonshot developer of Kimi K3 model has filed for Hong Kong IPO targeting $3 billion funding with a $30 billion valuation.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-04-7",
+      "title": "انقطاع واسع النطاق لمنصات الذكاء الاصطناعي الكبرى",
+      "titleEn": "Widespread outage affecting major AI platforms",
+      "summary": "شهدت منصات ChatGPT و Claude و Grok انقطاعًا واسع النطاق في نفس الوقت، مما أثر على ملايين المستخدمين حول العالم.",
+      "summaryEn": "ChatGPT, Claude, and Grok platforms experienced a widespread simultaneous outage affecting millions of users worldwide.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUTQzRmk3d2JRWHoyeWtHelBmM0tiMnZKX2lKcDhrYWF3TzBEa2pHVUtxcENQanZGVU9remJ1OVNMa0wxNVBOUkdtdE9fVERuSHE2M2hHbnI3V3pwNUFxTTB4ZjR2YWZ2akFfaGZTRmNrQmg3VUJuZlpFbDRVV3NjaE1XSkNVckw2T2U1ZEJKTmVGN3RL?oc=5"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-04-8",
+      "title": "OpenAI تتعهد بمليار دولار لحماية الخدمات الأساسية",
+      "titleEn": "OpenAI commits $1 billion to protect essential services",
+      "summary": "أعلنت OpenAI عن مبادرة 'Daybreak for Frontline Defenders' بمبلغ مليار دولار لتوسيع الوصول إلى تقنيات الذكاء الاصطناعي للخدمات الأساسية والدفاع السيبراني.",
+      "summaryEn": "OpenAI announced 'Daybreak for Frontline Defenders' initiative with $1 billion commitment to expand access to AI technologies for essential services and cybersecurity.",
       "category": "tools",
       "importance": 4,
       "source": {
         "name": "OpenAI",
-        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
+        "url": "https://openai.com/index/daybreak-for-frontline-defenders"
       },
-      "publishedAt": "2026-09-01"
+      "publishedAt": "2026-09-03"
     },
     {
-      "id": "n-2026-09-03-3",
-      "title": "Z.ai تطلق GLM-5.3-Flash بأوزان مفتوحة",
-      "titleEn": "Z.ai launches GLM-5.3-Flash with open weights",
-      "summary": "أطلقت Z.ai نموذج GLM-5.3-Flash بأوزان مفتوحة، لكن ترخيصها الجديد يستهدف شركات الخوادم الفائقة.",
-      "summaryEn": "Z.ai launched GLM-5.3-Flash model with open weights, but its new license targets hyperscalers.",
-      "category": "models",
+      "id": "n-2026-09-04-9",
+      "title": "اختراق أمني لمنصتي OpenAI و Hugging Face",
+      "titleEn": "Security breach on OpenAI and Hugging Face platforms",
+      "summary": "أفادت تقارير عن اختراق أمني لمنصتي OpenAI و Hugging Face، مع تفاصيل حول آليات الاختراق والاستجابة.",
+      "summaryEn": "Reports of a security breach on OpenAI and Hugging Face platforms, with details on breach mechanisms and response.",
+      "category": "other",
       "importance": 4,
       "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrZlg0SEo2X1NjTVktLWpLUllZbGR1ZVNiUV9ZYVU4NFBHajUtY3pSeGVtV0ZBb0NQSFJhTE5XSkxUdGtoTU5zTVNPWU5GU0JYVkpYUGtiVVdQUGs?oc=5"
+        "name": "Hacker News",
+        "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident"
       },
-      "publishedAt": "2026-08-28"
+      "publishedAt": "2026-09-02"
     },
     {
-      "id": "n-2026-09-03-9",
-      "title": "مسار Astra: قدرات حرجة وحمايات حدودية",
-      "titleEn": "Path to Astra: critical capabilities and frontier safeguards",
-      "summary": "أعلنت OpenAI عن نموذج Astra الذي يفي بمعيار القدرات الأمنية الحرجة، مع ميزات حماية متقدمة.",
-      "summaryEn": "OpenAI announced the Astra model that meets the critical cybersecurity capability threshold with advanced protection features.",
-      "category": "models",
-      "importance": 4,
+      "id": "n-2026-09-04-4",
+      "title": "Grok من xAI يندمج مع بوابة الذكاء الاصطناعي للبنتاغون",
+      "titleEn": "xAI's Grok integrated with Pentagon's AI portal",
+      "summary": "أعلنت xAI عن اندماج نموذج Grok مع بوابة الذكاء الاصطناعي المؤسسي للبنتاغون، مما يوفر وصولًا للوكالات الحكومية الأمريكية.",
+      "summaryEn": "xAI announced Grok model integration with the Pentagon's enterprise AI portal, providing access for US government agencies.",
+      "category": "tools",
+      "importance": 3,
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/path-to-astra"
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16UjRSUWU0dTZMbzg5a3Y5djU1d08teE55Wl9yM0N4ZjhacHFBS0thanQyTHZnN0lQVmNIWjFobV9hMS1xOE9ud0szbVVqazJwa0lIUzF4MVJrWFRMcjFRSU5OUlRIY1JyNXFkbEtrZkwyNDYxVEUw?oc=5"
       },
-      "publishedAt": "2026-09-01"
+      "publishedAt": "2026-08-31"
     },
     {
-      "id": "n-2026-09-03-4",
-      "title": "Alibaba تطلق Qwen-3.8-Max-0902",
-      "titleEn": "Alibaba launches Qwen-3.8-Max-0902",
-      "summary": "أطلقت علي بابا نموذج Qwen-3.8-Max-0902 الذي يدعي أنه يتطابق مع قدرات Fable 5 فقط بتحديث.",
-      "summaryEn": "Alibaba launched Qwen-3.8-Max-0902 model which claims to match Fable 5 capabilities with just an update.",
+      "id": "n-2026-09-04-5",
+      "title": "أليibaba تطلق Qwen-3.8-Max-0902 مع تحديثات هائلة",
+      "titleEn": "Alibaba launches Qwen-3.8-Max-0902 with massive updates",
+      "summary": "أطلقت أليبا نموذج Qwen-3.8-Max-0902 الذي يطابق قدرات Fable 5 من خلال تحديث فقط دون الحاجة إلى قفزة في النسخة، مما يمثل تقدمًا كبيرًا في الذكاء الاصطناعي الصيني.",
+      "summaryEn": "Alibaba launched Qwen-3.8-Max-0902 that matches Fable 5 capabilities through just an update without version jumping, representing a major advancement in Chinese AI.",
       "category": "models",
       "importance": 3,
       "source": {
@@ -87,25 +115,25 @@
       "publishedAt": "2026-09-02"
     },
     {
-      "id": "n-2026-09-03-6",
-      "title": "منع استخدام AI في مدارس نيويورك",
-      "titleEn": "Banning AI in NYC schools",
-      "summary": "قرر مدير مدارس نيويورك منع استخدام الذكاء الاصطناعي في المدارس الحكومية.",
-      "summaryEn": "NYC schools director decided to ban the use of artificial intelligence in public schools.",
-      "category": "regulation",
+      "id": "n-2026-09-04-6",
+      "title": "DeepSeek تفتح أول نموذج رؤية V4",
+      "titleEn": "DeepSeek opens first V4 vision model",
+      "summary": "أطلقت DeepSeek نموذج V4 Vision Model مفتوح المصدر، مع ادعاءات قياسية تحتاج إلى إثبات مستقل، مما يمثل تحولاً في نماذج الرؤيا المفتوحة المصدر.",
+      "summaryEn": "Deep launched its first open-source V4 Vision Model with benchmark claims that need independent proof, representing a shift in open-source vision models.",
+      "category": "models",
       "importance": 3,
       "source": {
-        "name": "Hacker News",
-        "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html"
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHlXR0RPeTRHSU1aUWR5Q2tnXzlZUnZSUUpEZzBPT0VITHZFbGNUYXo1dGl6ekgxd3N3V0wycGpFWHJ0c25CQ1FHOXpVVUhRbnU5Tl9hVWdySUl4UHNVVnRwcjFWY0o2NVlFNmt0ZEs0S3dydjg0Q25SdmdkY3ZaSXBKYlh2Y2NRMHc1TVJVejZkMHlMcTdJbVBCNEktT2gzY1RhTEh3QndXSTdsclFzdFRmcm0yNHlTV1pacGFxejNQNVg3bmZrVEppZV82Q3FMMVZaVw?oc=5"
       },
-      "publishedAt": "2026-09-02"
+      "publishedAt": "2026-09-01"
     },
     {
-      "id": "n-2026-09-03-7",
-      "title": "إخفاء حقن المطالبات في الملفات القانونية",
-      "titleEn": "Hiding Prompt Injection in Legal Filing",
-      "summary": "تمكن شخص من إخفاء تعليمات AI في ملف قانوني، مما يثير مخاوف أمنية جديدة.",
-      "summaryEn": "Someone managed to hide AI instructions in a legal filing, raising new security concerns.",
+      "id": "n-2026-09-04-10",
+      "title": "إخفاء أوامر حقن المطالبات في ملف قانوني",
+      "titleEn": "Hiding prompt injection in legal filing",
+      "summary": "تمكن شخص من إخفاء أوامر حقن المطالبات (prompt injection) في ملف قانوني، مما يمثل تهديدًا جديدًا لأنظمة الذكاء الاصطناعي.",
+      "summaryEn": "Someone successfully hid prompt injection instructions in a legal filing, representing a new threat to AI systems.",
       "category": "other",
       "importance": 3,
       "source": {
@@ -113,140 +141,124 @@
         "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html"
       },
       "publishedAt": "2026-08-31"
-    },
-    {
-      "id": "n-2026-09-03-8",
-      "title": "تسريبات مواد تدريب العمليات السيبرانية الروسية",
-      "titleEn": "Leaked Russian Cyber-Operations Training Materials",
-      "summary": "تم تسريب مواد تدريب العمليات السيبرانية الروسية التي تكشف عن آليات جديدة لاستخدام AI في الهجمات الإلكترونية.",
-      "summaryEn": "Leaked Russian cyber-operations training materials reveal new mechanisms for using AI in cyber attacks.",
-      "category": "other",
-      "importance": 3,
-      "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html"
-      },
-      "publishedAt": "2026-09-01"
-    },
-    {
-      "id": "n-2026-09-03-10",
-      "title": "جوجل تقدم فهم الفيديو الوكيلي مع Gemini",
-      "titleEn": "Google introduces agentic video understanding with Gemini",
-      "summary": "كشفت جوجل عن قدرات جديدة لفهم الفيديو باستخدام Gemini، مما يتيح للنماذج تحليل محتوى الفيديو بشكل أكثر تقدمًا.",
-      "summaryEn": "Google revealed new video understanding capabilities using Gemini, allowing models to analyze video content more advancedly.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
-      },
-      "publishedAt": "2026-09-01"
     }
   ],
   "models": [
     {
-      "id": "m-2026-09-03-1",
+      "id": "m-2026-09-04-1",
+      "name": "GPT-6 Astra",
+      "org": "OpenAI",
+      "releaseDate": "2026-09-03",
+      "highlights": "أول نموذج يصل إلى عتبة القدرة الأمنية الحرجة، مع حمايات حدودية وقدرات حرجة للشركات والمؤسسات.",
+      "highlightsEn": "First model to reach the Critical cybersecurity capability threshold, with frontier safeguards and critical capabilities for businesses and institutions.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra"
+    },
+    {
+      "id": "m-2026-09-04-2",
       "name": "Gemini 3.8 Flash",
       "org": "Google DeepMind",
       "releaseDate": "2026-09-02",
-      "highlights": "تحسينات كبيرة في السرعة والدقة للإجابات المعقدة، مع دعم أفضل للعملات المتعددة.",
-      "highlightsEn": "Significant improvements in speed and accuracy for complex responses, with better multilingual support.",
+      "highlights": "نموذج سريع ودقيق مع قدرات متقدمة في الفهم والتحليل، مصمم لتطبيقات الأعمال.",
+      "highlightsEn": "Fast and accurate model with advanced understanding and analysis capabilities, designed for business applications.",
       "specs": {
         "context": "1M"
       },
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
     },
     {
-      "id": "m-2026-09-03-2",
-      "name": "GLM-5.3-Flash",
-      "org": "Z.ai",
-      "releaseDate": "2026-08-28",
-      "highlights": "نموذج مفتوح الوزن يعمل على رقائق صينية، مع ترخيص جديد يستهدف شركات الخوادم الفائقة.",
-      "highlightsEn": "Open-weight model running on Chinese chips, with a new license targeting hyperscalers.",
+      "id": "m-2026-09-04-3",
+      "name": "Gemini 3.8 Flash Cyber",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-02",
+      "highlights": "نسخة متخصصة من Gemini 3.8 Flash للدفاع السيبراني، مع قدرات متقدمة في اكتشاف التهديدات.",
+      "highlightsEn": "Specialized version of Gemini 3.8 Flash for cybersecurity, with advanced threat detection capabilities.",
       "specs": {
         "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrZlg0SEo2X1NjTVktLWpLUllZbGR1ZVNiUV9ZYVU4NFBHajUtY3pSeGVtV0ZBb0NQSFJhTE5XSkxUdGtoTU5zTVNPWU5GU0JYVkpYUGtiVVdQUGs?oc=5"
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
     },
     {
-      "id": "m-2026-09-03-3",
+      "id": "m-2026-09-04-4",
+      "name": "WeatherNext 3",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-03",
+      "highlights": "أحدث نموذج عالمي للطقس بدقة غير مسبوقة في التنبؤات والتحليلات الم氣象ية.",
+      "highlightsEn": "Most advanced global weather model with unprecedented accuracy in weather predictions and analysis.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+    },
+    {
+      "id": "m-2026-09-04-5",
       "name": "Qwen-3.8-Max-0902",
       "org": "Alibaba",
       "releaseDate": "2026-09-02",
-      "highlights": "ادعاءات بتفوقه على Fable 5 في القدرات مع تحديث فقط، دون الحاجة إلى قفزة في النموذج.",
-      "highlightsEn": "Claims to outperform Fable 5 in capabilities with just an update, without needing a model jump.",
+      "highlights": "تحديث هائل يطابق قدرات Fable 5 من خلال تحديث فقط دون الحاجة إلى قفزة في النسخة.",
+      "highlightsEn": "Massive update that matches Fable 5 capabilities through just an update without version jumping.",
       "specs": {
         "context": "1M"
       },
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPX084R0duOGd4SUM4cnROeTk2WkJnbmdGV3VSZTlUZERTSjB1eW9qb2hXQk9DTmJoaVNWeDlpRlYzc2Jzd0lMaFFRaFpqXzlSc3N2bS1IcHRabmg3QjNkSXZrZ0FYNV9xOHZOUnZWWlZGM2sxc0xiT0JLajZuU01Qd1ZtdzA2U2NyZDJZZVA4elJoak16UjdQb3Etak5YSTNpbWxiLW5ZbXRaTmM1dHhYNlRTS1p5VFlRRUhOZWJleGVSRk5FYUJIOU5zQzFJNDE3eG1EQ01WdGFrblpXUDA2UWJrb1JudFpmSlJqNVBhZU9QSjhxMGgyU29iSlBCQWlnbXUxU0lSNG9zUF84ckHSAZMCQVVfeXFMTjBzQW8wSm5CcXFGdFQ5VDRLV3lZMHZnRWFVaHBUTUFvLWN5bklRS21ITHV6b0lXTHFtQWlUQ1VwOV8yUlBUTy1fRTZURDJsUlltVGhiVWdfbzNBVGxZZ0xERnVoVFhpcG5WbUtJdDFFY3RVS1h1dF83ZUR2UTJLMFhZdlJSNEFTbWxLZTBwZ2pFVnA5cEVhWk14bk5UVW9oR2k5eHZGWGZXOVN3LXVYT2haMnN6OUt0c0FtNzd6a0l1OGdnWDFOQ1gwRGt4aE9SSXBTOXVFUmJiVlg5X1lvNWR2Slp1QkpLV1lnc0NCNC1iSWJleEVBd2ttYThUYmw5UUxZZ1Q1c2loZUdNb09CWmdnZWs?oc=5"
     },
     {
-      "id": "m-2026-09-03-4",
-      "name": "Claude Opus 5",
-      "org": "Anthropic",
+      "id": "m-2026-09-04-6",
+      "name": "DeepSeek V4 Vision",
+      "org": "DeepSeek",
       "releaseDate": "2026-09-01",
-      "highlights": "تقدم كبير في مستوى Opus، مع قدرات محسنة للوكلات طويلة المدى مع الحفاظ على السلامة.",
-      "highlightsEn": "Significant step change in the Opus tier, with improved capabilities for long-running agents while maintaining safety.",
+      "highlights": "نموذج رؤيا مفتوح المصدر مع ادعاءات قياسية تحتاج إلى إثبات مستقل.",
+      "highlightsEn": "Open-source vision model with benchmark claims that need independent verification.",
       "specs": {
         "context": "1M"
       },
-      "url": "https://www.anthropic.com/news/claude-opus-5"
-    },
-    {
-      "id": "m-2026-09-03-5",
-      "name": "Mistral Medium 3.5",
-      "org": "Mistral AI",
-      "releaseDate": "2026-08-31",
-      "highlights": "تحسينات في الأداء والفهم مع الحفاظ على كفاءة التكلفة.",
-      "highlightsEn": "Improvements in performance and understanding while maintaining cost efficiency.",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
-    },
-    {
-      "id": "m-2026-09-03-6",
-      "name": "Mistral Small 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-08-31",
-      "highlights": "نموذج أصغر حجمًا مع تحسينات في السرعة والكفاءة.",
-      "highlightsEn": "A smaller model with improvements in speed and efficiency.",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://mistral.ai/news/mistral-small-4/"
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHlXR0RPeTRHSU1aUWR5Q2tnXzlZUnZSUUpEZzBPT0VITHZFbGNUYXo1dGl6ekgxd3N3V0wycGpFWHJ0c25CQ1FHOXpVVUhRbnU5Tl9hVWdySUl4UHNVVnRwcjFWY0o2NVlFNmt0ZEs0S3dydjg0Q25SdmdkY3ZaSXBKYlh2Y2NRMHc1TVJVejZkMHlMcTdJbVBCNEktT2gzY1RhTEh3QndXSTdsclFzdFRmcm0yNHlTV1pacGFxejNQNVg3bmZrVEppZV82Q3FMMVZaVw?oc=5"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-09-03-1",
-      "text": "أيدت حكومة الولايات المتحدة موقف OpenAI في تدريب نماذج اللغة الكبيرة على مواد محمية بحقوق النشر.",
-      "textEn": "The US government sided with OpenAI on training large language models on copyrighted material.",
+      "id": "h-2026-09-04-1",
+      "text": "مونشوت تحصل على تقييم 30 مليار دولار في جولة تمويل خاصة",
+      "textEn": "Moonshot secures $30 billion valuation in special funding round",
       "level": "info",
-      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZU5GNzRjZFhzLVI1OHROaEE0YjhadXNGQXZPS3JMd1RrU2VlVnRBeGF5Nks1XzV2MWMtcjZxekF0cG1Hd2dwV21JREhpNm9meFFXcjZ1X29rUm9iV1FuQ3k4STVEdDliVHFpWWNRVTljc1ZxRlprcV9Xak5LZDdpMlNFMDdEVTRXdng5NGhRMjFBeTNlRFV4dlV2UnlmVWg2TnRLM1J3?oc=5"
     },
     {
-      "id": "h-2026-09-03-2",
-      "text": "انقطاع ChatGPT و Codix عن العمل لفترة قصيرة.",
-      "textEn": "ChatGPT and Codex experienced a brief service outage.",
-      "level": "warning",
-      "url": "https://chatgpt.com/codex/"
+      "id": "h-2026-09-04-2",
+      "text": "انقطاع واسع النطاق يؤثر على منصات ChatGPT و Claude و Grok",
+      "textEn": "Widespread outage affects ChatGPT, Claude, and Grok platforms",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUTQzRmk3d2JRWHoyeWtHelBmM0tiMnZKX2lKcDhrYWF3TzBEa2pHVUtxcENQanZGVU9remJ1OVNMa0wxNVBOUkdtdE9fVERuSHE2M2hHbnI3V3pwNUFxTTB4ZjR2YWZ2akFfaGZTRmNrQmg3VUJuZlpFbDRVV3NjaE1XSkNVckw2T2U1ZEJKTmVGN3RL?oc=5"
     },
     {
-      "id": "h-2026-09-03-3",
-      "text": "زيادة الأخطاء في نماذج متعددة، مما يشير إلى مشكلات واسعة الانتشار.",
-      "textEn": "Increased errors in multiple models, indicating widespread issues.",
-      "level": "warning",
-      "url": "https://status.claude.com/incidents/461yvfrzpwtt"
+      "id": "h-2026-09-04-3",
+      "text": "OpenAI تتعهد بمليار دولار لحماية الخدمات الأساسية",
+      "textEn": "OpenAI commits $1 billion to protect essential services",
+      "level": "info",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-09-03-1",
-      "title": "إخفاء حقن المطالبات في الملفات القانونية",
-      "titleEn": "Hiding Prompt Injection in Legal Filing",
-      "summary": "تمكن شخص من إخفاء تعليمات AI في ملف قانوني باستخدام تقنيات التمويه، مما يسمح بتوجيه سلوك النماذج دون أن يتم اكتشافه.",
-      "summaryEn": "Someone managed to hide AI instructions in a legal filing using obfuscation techniques, allowing model behavior direction without detection.",
+      "id": "sec-2026-09-04-1",
+      "title": "اختراق أمني لمنصتي OpenAI و Hugging Face",
+      "titleEn": "Security breach on OpenAI and Hugging Face platforms",
+      "summary": "أفادت تقارير عن اختراق أمني لمنصتي OpenAI و Hugging Face، مع تفاصيل حول آليات الاختراق والاستجابة. الحادث يسلط الضوء على مخاطر أمنية متزايدة في أنظمة الذكاء الاصطناعي.",
+      "summaryEn": "Reports of a security breach on OpenAI and Hugging Face platforms, with details on breach mechanisms and response. The incident highlights increasing security risks in AI systems.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident",
+      "source": "Hacker News",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "sec-2026-09-04-2",
+      "title": "إخفاء أوامر حقن المطالبات في ملف قانوني",
+      "titleEn": "Hiding prompt injection in legal filing",
+      "summary": "تمكن شخص من إخفاء أوامر حقن المطالبات (prompt injection) في ملف قانوني، مما يمثل تهديدًا جديدًا لأنظمة الذكاء الاصطناعي. التقنية تستخدم نصوصًا مخفية لتوجيه النماذج لتنفيذ أوامر غير مصرح بها.",
+      "summaryEn": "Someone successfully hid prompt injection instructions in a legal filing, representing a new threat to AI systems. The technique uses hidden text to direct models to execute unauthorized commands.",
       "type": "prompt-injection",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
@@ -254,200 +266,199 @@
       "date": "2026-08-31"
     },
     {
-      "id": "sec-2026-09-03-2",
-      "title": "تسريبات مواد تدريب العمليات السيبرانية الروسية",
-      "titleEn": "Leaked Russian Cyber-Operations Training Materials",
-      "summary": "كشفت تسريبات عن مواد تدريب العمليات السيبرانية الروسية التي تستخدم AI لتحليل الثغرات وتطوير هجمات مستهدفة.",
-      "summaryEn": "Leaked materials reveal Russian cyber-operations training that uses AI to analyze vulnerabilities and develop targeted attacks.",
-      "type": "policy",
+      "id": "sec-2026-09-04-3",
+      "title": "انقطاع واسع النطاق لمنصات الذكاء الاصطناعي",
+      "titleEn": "Widespread AI platform outage",
+      "summary": "شهدت منصات ChatGPT و Claude و Grok انقطاعًا واسع النطاق في نفس الوقت، مما أثر على ملايين المستخدمين. يُنسب الانقطاع إلى مشاكل في مركز بيانات ممفيس.",
+      "summaryEn": "ChatGPT, Claude, and Grok platforms experienced a widespread simultaneous outage affecting millions of users. The outage is attributed to issues at the Memphis data center.",
+      "type": "breach",
       "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUTQzRmk3d2JRWHoyeWtHelBmM0tiMnZKX2lKcDhrYWF3TzBEa2pHVUtxcENQanZGVU9remJ1OVNMa0wxNVBOUkdtdE9fVERuSHE2M2hHbnI3V3pwNUFxTTB4ZjR2YWZ2akFfaGZTRmNrQmg3VUJuZlpFbDRVV3NjaE1XSkNVckw2T2U1ZEJKTmVGN3RL?oc=5",
+      "source": "xAI (news)",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "sec-2026-09-04-4",
+      "title": "تسريبات مواد تدريب العمليات السيبرانية الروسية",
+      "titleEn": "Leaked Russian cyber-operations training materials",
+      "summary": "تم تسريب مواد تدريب العمليات السيبرانية الروسية التي تصف آليات توليد القوات واستراتيجيات الهجوم المتقدمة.",
+      "summaryEn": "Leaked Russian cyber-operations training materials describe force-generation mechanisms and advanced attack strategies.",
+      "type": "policy",
+      "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html",
       "source": "Schneier on Security",
       "date": "2026-09-01"
-    },
-    {
-      "id": "sec-2026-09-03-3",
-      "title": "وكلات AI ترسل رسائل بمخاوفها الأمنية",
-      "titleEn": "AI Agents Are Now Emailing with Their Security Concerns",
-      "summary": "تلقى الباحث برايس شناير رسائل من وكلات AI تظهر وعيًا أمنيًا، حيث أبلغت عن مخاوفها بشأن استخدام بياناتها.",
-      "summaryEn": "Researcher Bruce Schneier received emails from AI agents showing security awareness, as they reported concerns about their data usage.",
-      "type": "policy",
-      "severity": "info",
-      "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
-      "source": "Schneier on Security",
-      "date": "2026-09-02"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-09-03",
+    "asOf": "2026-09-04",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
       {
-        "name": "Claude Fable 5.1",
-        "org": "Anthropic",
-        "score": "56.9"
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "60.7"
       },
       {
-        "name": "GPT-5.6 Sol 1",
-        "org": "OpenAI",
-        "score": "56.3"
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "56.8"
       },
       {
         "name": "Claude Opus 5",
         "org": "Anthropic",
-        "score": "55.9"
+        "score": "55.4"
+      },
+      {
+        "name": "GPT-5.6 Sol",
+        "org": "OpenAI",
+        "score": "55.3"
+      },
+      {
+        "name": "Muse Spark 1.3",
+        "org": "Meta",
+        "score": "55.3"
       },
       {
         "name": "Claude Mythos Preview",
         "org": "Anthropic",
-        "score": "55.5"
+        "score": "55.1"
       },
       {
         "name": "Claude Fable 5",
         "org": "Anthropic",
-        "score": "55.2"
+        "score": "54.8"
       },
       {
         "name": "Kimi K3",
         "org": "Moonshot AI",
-        "score": "54.3"
+        "score": "53.8"
       },
       {
         "name": "GLM-5.3",
         "org": "Zhipu AI",
-        "score": "54.0"
+        "score": "53.6"
       },
       {
         "name": "DeepSeek-V4-Pro-0813",
         "org": "DeepSeek",
-        "score": "52.6"
-      },
-      {
-        "name": "Qwen3.8 Max",
-        "org": "Alibaba Cloud / Qwen Team",
         "score": "52.5"
-      },
-      {
-        "name": "GPT-5.6 Terra",
-        "org": "OpenAI",
-        "score": "51.9"
       }
     ],
-    "highlights": "يبرز نموذج Claude Fable 5.1 كأحدث إضافة في القمة بعد أن تجاوز GPT-5.6 Sol. تظهر المنافسة الشديدة بين نماذج Claude حيث تحتل 4 مراكز ضمن أفضل 5 نماذج، بينما يحتل Kimi K3 المرتبة السادسة كأفضل نموذج مفتوح المصدر.",
-    "highlightsEn": "Claude Fable 5.1 emerges as the newest top model, surpassing GPT-5.6 Sol. There's intense competition among Claude models, which occupy 4 of the top 5 positions, while Kimi K3 ranks 6th as the best open-source model."
+    "highlights": "يصبح GPT-6 Astra من OpenAI هو الصدارة الجديدة مع نسبة 60.7، متجاوزًا جميع النماذج الأخرى. كما نرى منافسة قوية بين المرتبتين 4 و5 حيث يتشارك كل من GPT-5.6 Sol و Muse Spark 1.3 في نفس النتيجة 55.3.",
+    "highlightsEn": "GPT-6 Astra from OpenAI takes the lead with a score of 60.7, surpassing all other models. We also see a tight race between positions 4 and 5 where GPT-5.6 Sol and Muse Spark 1.3 tie at the same score of 55.3."
   },
   "knowledgeEntry": {
-    "id": "k-2026-09-03-تنفيذ-أخلاقيات-الذكاء-الاصطناعي-في-التطبيقات",
-    "title": "تنفيذ أخلاقيات الذكاء الاصطناعي في التطبيقات",
-    "titleEn": "Implementing AI Ethics in Applications",
-    "why": "تطبيق أخلاقيات الذكاء الاصطناعي يضمن استخدام التكنولوجيا بشكل مسؤول وآمن، ويحمي حقوق المستخدمين، ويمنع التحيزات ويبني الثقة في أنظمة الذكاء الاصطناعي.",
-    "whyEn": "Implementing AI ethics ensures responsible and safe technology use, protects user rights, prevents biases, and builds trust in AI systems.",
+    "id": "k-2026-09-04-بناء-وكلاء-ذكاء-اصطناعي-فعال",
+    "title": "بناء وكلاء ذكاء اصطناعي فعال",
+    "titleEn": "Building Effective AI Agents",
+    "why": "تتيح لك بناء وكلاء ذكاء اصطناعي فعال أتمتة المهام المعقدة وتحقيق نتائج دقيقة من خلال التكامل الذكي بين النماذج اللغوية والمهارات المختلفة.",
+    "whyEn": "Building effective AI agents allows you to automate complex tasks and achieve precise results through intelligent integration between language models and various capabilities.",
     "difficulty": "intermediate",
-    "track": "security",
+    "track": "building",
     "steps": [
       {
-        "title": "تحديد القيم الأخلاقية الأساسية",
-        "detail": "حدد القيم الأساسية التي يجب أن تعكسها تطبيقاتك مثل الإنصاف والشفافية والمساءلة والخصوصية. قم بإنشاء ميثاق أخلاقي واضح لمشروعك."
+        "title": "تحديد الهدف والمهام الأساسية",
+        "detail": "حدد بوضوح الهدف الرئيسي للوكيل والمهام التي يجب أن يؤديها، مع تقسيم المهام المعقدة إلى خطوات أصغر."
       },
       {
-        "title": "تقييم البيانات والتحقق من التحيز",
-        "detail": "افحص بيانات التدريب بحثًا عن تحيزات محتملة واستخدم تقنيات متنوعة لتحديد ومعالجة التحيزات في النموذج. تأكد من تمثيل مختلف المجموعات السكانية في بياناتك."
+        "title": "اخيار النموذج المناسب",
+        "detail": "اختر نموذج لغوي يتوافق مع متطلبات الوكيل من حيث الدقة والسرعة والتكلفة، مع مراعاة حجم السياق المطلوب."
       },
       {
-        "title": "تصميم آليات الشفافية",
-        "detail": "طور آليات لشرح قرارات النموذج للمستخدمين، مثل تقنيات التفسير الذاتي (XAI). قم بتوثيق كيفية عمل النموذج والمعايير المستخدمة في صنع القرارات."
+        "title": "تصميم سير العمل",
+        "detail": "أنشئ مخططًا لسير عمل الوكيل، بما في ذلك كيفية استقبال المدخلات، معالجة المعلومات، اتخاذ القرارات، وتوليد المخرجات."
       },
       {
-        "title": "إنشاء إطار عمل للمراجعة الأخلاقية",
-        "detail": "أنشئ لجنة مراجعة أخلاقية أو عملية مراجعة منتظمة لتقييم التطبيقات من منظور أخلاقي. حدد الإجراءات التصحيحية عند اكتشاف مشاكل أخلاقية."
+        "title": "تنفيذ المهارات والوظائف",
+        "detail": "قم بتطوير الوظائف والمهارات التي سيستخدمها الوكيل، مثل البحث عن المعلومات، تنفيذ الأوامر، أو التفاعل مع واجهات برمجة التطبيقات."
       },
       {
-        "title": "دمج الحوكمة والامتثال",
-        "detail": "قم بدمج مبادئ الحوكمة والامتثال مع المتطلبات التنظيمية في تطوير التطبيقات. أنشئ سياسات واضحة للتعامل مع البيانات الحساسة والاستخدام غير المصرح به."
+        "title": "اختبار وتحسين الأداء",
+        "detail": "اختبر أداء الوكيل في سيناريوهات مختلفة، وقم بتحسينه بناءً على النتائج وتعديل المعلمات عند الحاجة."
       }
     ],
     "stepsEn": [
       {
-        "title": "Identify Core Ethical Values",
-        "detail": "Define the core values your applications should reflect, such as fairness, transparency, accountability, and privacy. Create a clear ethical charter for your project."
+        "title": "Define Objectives and Core Tasks",
+        "detail": "Clearly identify the agent's main objective and the tasks it needs to perform, breaking down complex tasks into smaller steps."
       },
       {
-        "title": "Evaluate Data and Check for Bias",
-        "detail": "Examine training data for potential biases and use various techniques to identify and address biases in the model. Ensure diverse population representation in your data."
+        "title": "Choose the Appropriate Model",
+        "detail": "Select a language model that aligns with the agent's requirements in terms of accuracy, speed, and cost, considering the required context size."
       },
       {
-        "title": "Design Transparency Mechanisms",
-        "detail": "Develop mechanisms to explain model decisions to users, such as Explainable AI (XAI) techniques. Document how the model works and the criteria used in decision-making."
+        "title": "Design the Workflow",
+        "detail": "Create a workflow diagram for the agent, including how it will receive inputs, process information, make decisions, and generate outputs."
       },
       {
-        "title": "Create an Ethical Review Framework",
-        "detail": "Establish an ethical review board or regular review process to evaluate applications from an ethical perspective. Define corrective actions when ethical issues are discovered."
+        "title": "Implement Skills and Functions",
+        "detail": "Develop the functions and capabilities the agent will use, such as information retrieval, command execution, or API interactions."
       },
       {
-        "title": "Integrate Governance and Compliance",
-        "detail": "Integrate governance and compliance principles with regulatory requirements in application development. Create clear policies for handling sensitive data and unauthorized use."
+        "title": "Test and Improve Performance",
+        "detail": "Test the agent's performance in various scenarios, and improve it based on results and parameter adjustments as needed."
       }
     ],
-    "code": "from sklearn.metrics import confusion_matrix\nimport numpy as np\n\ndef detect_bias(y_true, y_pred, sensitive_attr):\n    \"\"\"Detect potential bias in model predictions across different groups\"\"\"\n    groups = np.unique(sensitive_attr)\n    bias_metrics = {}\n    \n    for group in groups:\n        group_mask = (sensitive_attr == group)\n        group_y_true = y_true[group_mask]\n        group_y_pred = y_pred[group_mask]\n        \n        tn, fp, fn, tp = confusion_matrix(group_y_true, group_y_pred).ravel()\n        \n        # Calculate metrics for this group\n        precision = tp / (tp + fp) if (tp + fp) > 0 else 0\n        recall = tp / (tp + fn) if (tp + fn) > 0 else 0\n        \n        bias_metrics[group] = {\n            'precision': precision,\n            'recall': recall,\n            'fpr': fp / (fp + tn) if (fp + tn) > 0 else 0\n        }\n    \n    return bias_metrics",
+    "code": "import openai\n\nclass AIAgent:\n    def __init__(self, model_name=\"gpt-4\"):\n        self.model = model_name\n        self.client = openai.OpenAI()\n    \n    def process_task(self, task, context=\"\"):\n        response = self.client.chat.completions.create(\n            model=self.model,\n            messages=[\n                {\"role\": \"system\", \"content\": \"You are a helpful AI assistant.\"},\n                {\"role\": \"user\", \"content\": f\"{context}\\n\\n{task}\"}\n            ]\n        )\n        return response.choices[0].message.content\n    \n    def search_and_answer(self, query):\n        # This would integrate with a search API in a real implementation\n        search_result = f\"Search results for: {query}\"\n        return self.process_task(f\"Based on this information: {search_result}\", f\"Answer this question: {query}\")\n\n# Example usage\nagent = AIAgent()\nresponse = agent.process_task(\"Explain quantum computing in simple terms\")\nprint(response)",
     "resources": [
       {
-        "name": "AI Ethics Guidelines",
-        "url": "https://www.oecd.ai/en/ai-principles"
+        "name": "OpenAI API Documentation",
+        "url": "https://platform.openai.com/docs"
       },
       {
-        "name": "Responsible AI Toolkit",
-        "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
+        "name": "LangChain Framework",
+        "url": "https://python.langchain.com/"
       },
       {
-        "name": "Ethics Checklist for AI",
-        "url": "https://www.partnershiponai.org/aiethicschecklist"
+        "name": "AI Agent Patterns",
+        "url": "https://www.promptingguide.ai/agents/patterns"
       }
     ],
     "tags": [
-      "أخلاقيات",
-      "مسؤولية",
-      "تحيز",
-      "شفافية",
-      "حوكمة"
+      "الذكاء الاصطناعي",
+      "الوكلاء",
+      "التطوير",
+      "أتمتة"
     ],
-    "quickRef": "تحقق من التحيز في البيانات، شفّر قرارات النموذج، أنشئ إطارًا للمراجعة الأخلاقية، ودمج الحوكمة في التطوير.",
-    "quickRefEn": "Check for data bias, explain model decisions, create an ethical review framework, and integrate governance in development.",
+    "quickRef": "بناء وكلاء ذكاء اصطناعي فعال يتضمن تحديد الأهداف، اختيار النموذج، تصميم سير العمل، تنفيذ المهارات، وتحسين الأداء.",
+    "quickRefEn": "Building effective AI agents involves defining objectives, selecting models, designing workflows, implementing skills, and improving performance.",
     "quiz": [
       {
-        "q": "ما هو العنصر الأهم عند تطبيق أخلاقيات الذكاء الاصطناعي في التطبيقات؟",
+        "q": "ما هو العامل الأهم عند اختيار نموذج لغوي لبناء وكلاء ذكاء اصطناعي؟",
         "options": [
-          "السرعة في التطوير",
-          "الشفافية والمساءلة",
-          "تقليل التكاليف",
-          "زيادة الدقة"
+          "السعر فقط",
+          "الدقة والسرعة والتكلفة معًا",
+          "حجم السياق فقط",
+          "الاسم التجاري للنموذج"
         ],
         "answer": 1,
-        "explain": "الشفافية والمساءلة هما العنصران الأهم في أخلاقيات الذكاء الاصطناعي، حيثما يضمان أن المستخدمين يفهمون كيفية عمل النظام وكيفية اتخاذ القرارات، مما يسمح بالمساءلة عند حدوث مشاكل."
+        "explain": "يجب مراعاة عدة عوامل عند اختيار نموذج لغوي، بما في ذلك الدقة في الأداء، السرعة في المعالجة، والتكلفة، بالإضافة إلى حجم السياق المطلوب."
       },
       {
-        "q": "ما هي الخطوة الأولى في عملية تنفيذ أخلاقيات الذكاء الاصطناعي؟",
+        "q": "ما هو الخطأ الشائع في تصميم سير عمل الوكلاء الذكية؟",
         "options": [
-          "اختبار النموذج",
-          "تحديد القيم الأخلاقية الأساسية",
-          "جمع البيانات",
-          "نشر التطبيق"
+          "تحديد الأهداف بوضوح",
+          "تجاهل حالات الفشل المحتملة",
+          "اختبار الوكيل في سيناريوهات متنوعة",
+          "تحسين الأداء بناءً على النتائج"
         ],
         "answer": 1,
-        "explain": "الخطوة الأولى هي تحديد القيم الأخلاقية الأساسية التي يجب أن تعكسها التطبيقات، مثل الإنصاف والشفافية والمساءلة والخصوصية. هذه القيم توجه جميع القرارات اللاحقة في عملية التطوير."
+        "explain": "خطأ شائع هو تجاهل حالات الفشل المحتملة، والتي يجب أن تُدرج في تصميم سير العمل لضمان استمرارية الوكيل في مواجهة المشكلات."
       },
       {
-        "q": "ما هو الهدف من استخدام تقنيات التفسير الذاتي (XAI) في تطبيقات الذكاء الاصطناعي؟",
+        "q": "ما هو أفضل نهج لتحسين أداء الوكيل الذكي؟",
         "options": [
-          "زيادة سرعة النموذج",
-          "تقليل استهلاك الموارد",
-          "شرح قرارات النموذج للمستخدمين",
-          "تقليل تكاليف التطوير"
+          "زيادة حجم السياق دائمًا",
+          "تجربة نماذج مختلفة وتعديل المعلمات",
+          "استخدام نفس النموذج دائمًا",
+          "تجنب اختبار الوكيل في سيناريوهات جديدة"
         ],
-        "answer": 2,
-        "explain": "تقنيات التفسير الذاتي (XAI) تهدف إلى شرح كيفية اتخاذ النموذج لقراراته للمستخدمين، مما يزيد من الشفافية ويساعد في كسب ثقة المستخدمين وتحديد المشاكل المحتملة في قرارات النموذج."
+        "answer": 1,
+        "explain": "النهج الأفضل هو تجربة نماذج مختلفة وتعديل المعلمات بناءً على نتائج الاختبار، مع مراعاة متطلبات كل مهمة محددة."
       }
     ],
-    "addedAt": "2026-09-03"
+    "addedAt": "2026-09-04"
   }
 }
