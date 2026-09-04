@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-04-تشغيل-النماذج-الذكاء-الاصطناعي-محليًا",
+      "title": "تشغيل النماذج الذكاء الاصطناعي محليًا",
+      "titleEn": "Running Local AI Models",
+      "why": "تمكين المستخدمين من تشغيل نماذج الذكاء الاصطناعي على أجهزتهم الخاصة دون الاعتماد على الخوادم البعيدة، مما يضمن خصوصية البيانات ويقلل التكاليف ويوفر تحكمًا كاملاً في النموذج.",
+      "whyEn": "Enabling users to run AI models on their own devices without relying on remote servers, ensuring data privacy, reducing costs, and providing full control over the model.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "اختيار النموذج المناسب",
+          "detail": "حدد نموذجًا صالحًا للتشغيل المحلي مثل LLaMA, Mistral, أو Phi-2. تأكد من أن متطلبات النموذج تتوافق مع مواصفات جهازك."
+        },
+        {
+          "title": "إعداد البيئة البرمجية",
+          "detail": "تثبيت Python ومكتبات ضرورية مثل PyTorch أو TensorFlow. قم بإنشاء بيئة افتراضية لتنظيم الاعتماديات وتجنب التعارضات."
+        },
+        {
+          "title": "تنزيل النموذج",
+          "detail": "قم بتنزيل أوزان النموذج من المصدر الرسمي. تأكد من وجود مساحة كافية على القرص الصلب، حيث يمكن أن تكون ملفات النماذج كبيرة."
+        },
+        {
+          "title": "تحميل النموذج في الذاكرة",
+          "detail": "استخدم الكود المناسب لتحميل أوزان النموذج في الذاكرة. قد تحتاج إلى تحديد البعد الدقيق للنموذج (مثل 7B أو 13B) حسب قدرات جهازك."
+        },
+        {
+          "title": "تنفيذ النموذج",
+          "detail": "اكتب كودًا لاستدعاء النموذج ومعالجة المدخلات والمخرجات. يمكنك إنشاء واجهة بسيطة أو دمج النموذج في تطبيقك."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Choose the appropriate model",
+          "detail": "Select a model suitable for local running such as LLaMA, Mistral, or Phi-2. Ensure the model requirements match your device specifications."
+        },
+        {
+          "title": "Set up the programming environment",
+          "detail": "Install Python and necessary libraries like PyTorch or TensorFlow. Create a virtual environment to organize dependencies and avoid conflicts."
+        },
+        {
+          "title": "Download the model",
+          "detail": "Download the model weights from the official source. Ensure you have sufficient disk space, as model files can be large."
+        },
+        {
+          "title": "Load the model into memory",
+          "detail": "Use appropriate code to load the model weights into memory. You may need to specify the exact model size (e.g., 7B or 13B) based on your device capabilities."
+        },
+        {
+          "title": "Implement the model",
+          "detail": "Write code to invoke the model and process inputs and outputs. You can create a simple interface or integrate the model into your application."
+        }
+      ],
+      "code": "import torch\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\nmodel_name = \"microsoft/phi-2\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float32, device_map=\"cpu\")\n\nprompt = \"What is artificial intelligence?\"\ninputs = tokenizer(prompt, return_tensors=\"pt\")\noutputs = model.generate(**inputs, max_length=200)\nprint(tokenizer.decode(outputs[0]))",
+      "resources": [
+        {
+          "name": "Hugging Face Transformers Documentation",
+          "url": "https://huggingface.co/docs/transformers/index"
+        },
+        {
+          "name": "LocalAI GitHub Repository",
+          "url": "https://github.com/go-skynet/LocalAI"
+        },
+        {
+          "name": "Ollama - Run LLMs locally",
+          "url": "https://ollama.ai/"
+        }
+      ],
+      "tags": [
+        "نماذج محلية",
+        "LLM",
+        "ذكاء اصطناعي",
+        "تشغيل محلي"
+      ],
+      "quickRef": "اختر نموذجًا متوافقًا مع جهازك، قم بإعداد البيئة البرمجية، قم بتنزيل أوزان النموذج، قم بتحميله في الذاكرة، ثم قم بتنفيذه.",
+      "quickRefEn": "Choose a model compatible with your device, set up the programming environment, download model weights, load them into memory, then implement the model.",
+      "quiz": [
+        {
+          "q": "ما هو العامل الأهم عند اختيار نموذج للعمل محليًا؟",
+          "options": [
+            "جودة النموذج فقط",
+            "حجم النموذج ومواصفات الجهاز",
+            "سعر النموذج",
+            "الشركة المصنعة للنموذج"
+          ],
+          "answer": 1,
+          "explain": "حجم النموذج ومواصفات الجهاز هما العاملان الأهم عند اختيار نموذج للعمل محليًا، حيث يجب أن يتوافق حجم النموذج مع قدرات معالج الجهاز والذاكرة المتاحة."
+        },
+        {
+          "q": "ما هي الخطوة الأولى التي يجب اتخاذها لتشغيل نموذج ذكاء اصطناعي محليًا؟",
+          "options": [
+            "تنزيل أوزان النموذج",
+            "اختيار النموذج المناسب",
+            "إعداد البيئة البرمجية",
+            "تنفيذ النموذج"
+          ],
+          "answer": 1,
+          "explain": "اختيار النموذج المناسب هو الخطوة الأولى، حيث يجب تحديد نموذج يتوافق مع قدرات جهازك ومتطلبات المشروع قبل المتابعة مع الخطوات الأخرى."
+        },
+        {
+          "q": "ما هي الفائدة الرئيسية لتشغيل النماذج الذكاء الاصطناعي محليًا؟",
+          "options": [
+            "زيادة سرعة المعالجة",
+            "ضمان خصوصية البيانات وتقليل التكاليف",
+            "سهولة الاستخدام",
+            "توافق أكبر مع التطبيقات"
+          ],
+          "answer": 1,
+          "explain": "ضمان خصوصية البيانات وتقليل التكاليف هي الفائدة الرئيسية لتشغيل النماذج الذكاء الاصطناعي محليًا، حيث لا يتم إرسال البيانات إلى الخوادم البعيدة."
+        }
+      ],
+      "addedAt": "2026-09-04"
+    },
+    {
       "id": "k-2026-09-04-بناء-وكلاء-ذكاء-اصطناعي-فعال",
       "title": "بناء وكلاء ذكاء اصطناعي فعال",
       "titleEn": "Building Effective AI Agents",
