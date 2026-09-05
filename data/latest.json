@@ -1,27 +1,27 @@
 {
-  "date": "2026-09-04",
-  "generatedAt": "2026-09-04T15:03:51.379Z",
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T09:21:13.694Z",
   "news": [
     {
-      "id": "n-2026-09-04-1",
-      "title": "أطلقت OpenAI GPT-6 Astra مع قدرات أمنية متقدمة",
-      "titleEn": "OpenAI launches GPT-6 Astra with advanced security capabilities",
-      "summary": "أعلنت OpenAI عن نموذجها الجديد GPT-6 Astra، وهو أول نموذج يصل إلى عتبة القدرات الأمنية الحيوية، مع ميزات حماية متقدمة للخدمات الأساسية.",
-      "summaryEn": "OpenAI announced their new model GPT-6 Astra, the first model to reach the Critical cybersecurity capability threshold, with advanced protection features for essential services.",
+      "id": "n-2026-09-05-1",
+      "title": "GPT-6 Astra: جيل جديد من الذكاء الاصطناعي",
+      "titleEn": "GPT-6 Astra: A new generation of intelligence",
+      "summary": "أطلقت OpenAI GPT-6 Astra، أذكى نموذجها وأكثرها توافقاً حتى الآن، مع قدرات متقدمة في مختلف المجالات.",
+      "summaryEn": "OpenAI introduces GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities.",
       "category": "models",
       "importance": 5,
       "source": {
         "name": "OpenAI",
-        "url": "https://openai.com/index/safety-overview-gpt-6-astra"
+        "url": "https://openai.com/index/gpt-6-astra"
       },
       "publishedAt": "2026-09-03"
     },
     {
-      "id": "n-2026-09-04-2",
-      "title": "جوجل دميند تطلق WeatherNext 3 وأحدث نماذج Gemini",
-      "titleEn": "Google DeepMind launches WeatherNext 3 and latest Gemini models",
-      "summary": "أطلقت Google DeepMind نموذج WeatherNext 3 المتقدم للطقس، بالإضافة إلى Gemini 3.8 Flash وGemini 3.8 Flash Cyber لمساعدة المؤسسات والحكومات في الدفاع السيبراني.",
-      "summaryEn": "Google DeepMind launched the advanced WeatherNext 3 weather model, along with Gemini 3.8 Flash and Gemini 3.8 Flash Cyber to help enterprises and governments with cyber defense.",
+      "id": "n-2026-09-05-2",
+      "title": "طرح WeatherNext 3: أكثر نماذج الطقس تقدماً ودقة",
+      "titleEn": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "summary": "أطلقت Google DeepMind WeatherNext 3، وهو النموذج الأكثر تقدماً ودقة للطقس عالمياً، مع تحسينات كبيرة في دقة التنبؤات.",
+      "summaryEn": "Google DeepMind introduces WeatherNext 3, the most advanced and accurate global weather AI model with significant improvements in prediction accuracy.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -31,39 +31,39 @@
       "publishedAt": "2026-09-03"
     },
     {
-      "id": "n-2026-09-04-3",
-      "title": "شركة مونشوت تقدم للاكتتاب العام في هونغ كونغ",
-      "titleEn": "Moonshot files for Hong Kong IPO",
-      "summary": "قدمت شركة مونشوت، مطور نموذج Kimi K3، طلبًا للاكتتاب العام في هونغ كونغ، مستهدفةً جمع 3 مليارات دولار.",
-      "summaryEn": "Moonshot, developer of the Kimi K3 model, has filed for a Hong Kong IPO targeting $3 billion in funding.",
+      "id": "n-2026-09-05-3",
+      "title": "Gemini 3.8 Flash و Flash Cyber: نماذج جديدة من جوجل",
+      "titleEn": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "أطلقت Google DeepMind Gemini 3.8 Flash ونسخته الأمنية Flash Cyber، مع تحسينات في الأداء والخصوصية.",
+      "summaryEn": "Google DeepMind launches Gemini 3.8 Flash and its cybersecurity version Flash Cyber, with performance and privacy improvements.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+      },
+      "publishedAt": "2026-09-02"
+    },
+    {
+      "id": "n-2026-09-05-4",
+      "title": "مونشوت تقدم للاكتتاب العام في هونغ كونغ",
+      "titleEn": "Moonshot AI files confidentially for Hong Kong IPO",
+      "summary": "تقدم شركة مونشوت الصينية للاكتتاب العام في هونغ كونغ بشكل سري، مع تقييم يصل إلى 50 مليار دولار.",
+      "summaryEn": "Chinese AI company Moonshot files confidentially for Hong Kong IPO with valuation reaching $50 billion.",
       "category": "companies",
       "importance": 4,
       "source": {
         "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kd0plV3R2TEVfVkJIMXBwTEQxLTJUTEtVRHNSMnpHX1QzMER6bWpkZGxJUy1kdVd5aE41ZVBYMlNpUHFVTjFJUl9zMDFFWl9BcTNaNTBuQkxJWGZxNW13S0dqbnctbFhQRkJWWkN3aEtxUQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
       },
       "publishedAt": "2026-09-03"
     },
     {
-      "id": "n-2026-09-04-4",
-      "title": "Z.ai تطلق GLM-5.3 بوزن مفتوح",
-      "titleEn": "Z.ai releases GLM-5.3 with open weights",
-      "summary": "أطلقت Z.ai نموذج GLM-5.3 بوزن مفتوح، مع ترخيص مصمم لموفر الخدمات السحابية الكبار، بعد أن أظهر نتائج قريبة من نموذج Fable 5 في اختبارات الأمن السيبراني.",
-      "summaryEn": "Z.ai released GLM-5.3 with open weights, featuring a license designed for hyperscalers, after showing results close to Fable 5 in cybersecurity tests.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrZlg0SEo2X1NjTVktLWpLUllZbGR1ZVNiUV9ZYVU4NFBHajUtY3pSeGVtV0ZBb0NQSFJhTE5XSkxUdGtoTU5zTVNPWU5GU0JYVkpYUGtiVVdQUGs?oc=5"
-      },
-      "publishedAt": "2026-08-28"
-    },
-    {
-      "id": "n-2026-09-04-8",
+      "id": "n-2026-09-05-5",
       "title": "ثغرة أمنية في نظام التصويت",
-      "titleEn": "Security vulnerability in voting system",
-      "summary": "تم اكتشاف ثغرة أمنية في نظام تصويت تسمح بشفتر ترتيب بطاقات التصويت، مما يثير مخاوف أمنية كبيرة للأنظمة الديمقراطية.",
-      "summaryEn": "A security vulnerability was discovered in a voting system that allows someone to recover the order of ballots cast, raising significant security concerns for democratic systems.",
+      "titleEn": "Security Vulnerability in a Voting System",
+      "summary": "اكتشاف ثغرة أمنية في نظام تصويت تسمح باستعادة ترتيب الأصوات الصادرة، مما يمثل خطراً على سلامة الانتخابات.",
+      "summaryEn": "Discovery of a security vulnerability in a voting system that allows recovery of ballot order, posing a risk to election integrity.",
       "category": "other",
       "importance": 4,
       "source": {
@@ -73,211 +73,215 @@
       "publishedAt": "2026-09-04"
     },
     {
-      "id": "n-2026-09-04-9",
-      "title": "وكلاء الذكاء الاصطناعي يقومون بتثبيت كود غير موثوق",
-      "titleEn": "AI agents installing untrusted code",
-      "summary": "كشفت دراسة أن وكلاء الذكاء الاصطناعي للبرمجة يقومون بتثبيت كود غير موثوق أو غير معروف على الشبكات المؤسسية، مما يمثل خطرًا أمنيًا كبيرًا.",
-      "summaryEn": "Research revealed that AI coding agents are installing unknown or untrusted code on corporate networks, posing a significant security risk.",
-      "category": "other",
+      "id": "n-2026-09-05-6",
+      "title": "مبادرة الفجر: مليار دولار للدفاع عن الخدمات الأساسية",
+      "titleEn": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "summary": "أطلقت OpenAI مبادرة 'الفجر' للدفاع عن الخطوط الأمامية بتكلفة مليار دولار لتوسيع الوصول إلى الذكاء الاصطناعي للخدمات الأساسية.",
+      "summaryEn": "OpenAI launches 'Daybreak' for Frontline Defenders, a $1 billion commitment to expand access to AI for essential services.",
+      "category": "companies",
       "importance": 4,
       "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/daybreak-for-frontline-defenders"
       },
-      "publishedAt": "2026-09-04"
+      "publishedAt": "2026-09-03"
     },
     {
-      "id": "n-2026-09-04-5",
-      "title": "Qwen-3.8-Max تحديث جديد يطابق قدرات Fable 5",
-      "titleEn": "Qwen-3.8-Max new update matches Fable 5 capabilities",
-      "summary": "قامت علي بابا بتحديث نموذج Qwen-3.8-Max مع نسخة 0902، والتي تطابق قدرات Fable 5 من خلال تحديث بسيط دون الحاجة إلى القفز إلى إصدار جديد.",
-      "summaryEn": "Alibaba updated the Qwen-3.8-Max model with a 0902 snapshot that matches Fable 5 capabilities through a simple update without needing to jump to a new version.",
+      "id": "n-2026-09-05-9",
+      "title": "نظرة عامة على الأمان: GPT-6 Astra",
+      "titleEn": "Safety overview: GPT-6 Astra",
+      "summary": "GPT-6 Astra هو أكثر نماذج OpenAI انتشاراً وقدرته، وهو أول نموذج يصل إلى عتبة القدرة الأمنية الحاسمة.",
+      "summaryEn": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical cybersecurity capability threshold.",
       "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/safety-overview-gpt-6-astra"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-05-7",
+      "title": "Playco تقلل الإصلاحات اليدوية 50% باستخدام GPT-6 Astra",
+      "titleEn": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "summary": "استخدمت Playco GPT-6 Astra لبناء ثلاثة نماذج ألعاب مواضيعية من أساس واحد، مما قلل من الوقت اللازم للتطوير.",
+      "summaryEn": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation, reducing development time.",
+      "category": "tools",
       "importance": 3,
       "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPX084R0duOGd4SUM4cnROeTk2WkJnbmdGV3VSZTlUZERTSjB1eW9qb2hXQk9DTmJoaVNWeDlpRlYzc2Jzd0lMaFFRaFpqXzlSc3N2bS1IcHRabmg3QjNkSXZrZ0FYNV9xOHZOUnZWWlZGM2sxc0xiT0JLajZuU01Qd1ZtdzA2U2NyZDJZZVA4elJoak16UjdQb3Etak5YSTNpbWxiLW5ZbXRaTmM1dHhYNlRTS1p5VFlRRUhOZWJleGVSRk5FYUJIOU5zQzFJNDE3eG1EQ01WdGFrblpXUDA2UWJrb1JudFpmSlJqNVBhZU9QSjhxMGgyU29iSlBCQWlnbXUxU0lSNG9zUF84ckHSAZMCQVVfeXFMTjBzQW8wSm5CcXFGdFQ5VDRLV3lZMHZnRWFVaHBUTUFvLWN5bklRS21ITHV6b0lXTHFtQWlUQ1VwOV8yUlBUTy1fRTZURDJsUlltVGhiVWdfbzNBVGxZZ0xERnVoVFhpcG5WbUtJdDFFY3RVS1h1dF83ZUR2UTJLMFhZdlJSNEFTbWxLZTBwZ2pFVnA5cEVhWk14bk5UVW9oR2k5eHZGWGZXOVN3LXVYT2haMnN6OUt0c0FtNzd6a0l1OGdnWDFOQ1gwRGt4aE9SSXBTOXVFUmJiVlg5X1lvNWR2Slp1QkpLV1lnc0NCNC1iSWJleEVBd2ttYThUYmw5UUxZZ1Q1c2loZUdNb09CWmdnZWs?oc=5"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/playco-game-prototyping-with-astra"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-05-8",
+      "title": "Legora تمرر 41 وثيقة في دقائق مع GPT-6 Astra",
+      "titleEn": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "summary": "استخدمت Legora GPT-6 Astra لمراجعة 41 وثيقة في دقائق، والعثور على جميع الأخطاء الأربعة المزروعة، مع دقة عالية.",
+      "summaryEn": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, with high accuracy.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/legora-financial-statement-review-with-astra"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-05-10",
+      "title": "بينما يقلق قطاع الذكاء الاصطناعي عن الحماية، شركة تبني نموذجاً 'لا يقول لا'",
+      "titleEn": "While AI Industry Frets Over Safeguards, One Company Is Building a Model That 'Doesn't Say No'",
+      "summary": "تقوم شركة Z.ai ببناء نموذج ذكاء اصطناعي لا يرفض الطلبات، مما يثير مخاوف حول سلامة النماذج.",
+      "summaryEn": "Z.ai is building an AI model that doesn't refuse requests, raising concerns about model safety.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb21Kb2Q1TDF0NWpLTmlDRmNPQzNkeVNEekxqU0hISUQxbUd4eEZGTFFwd2podTJZaldtZmw1b2lQWDd1bjNuQ2RWeU04ZW9vQmNvbGF2cnRxT0NWVDFRU0c2WkZQZ2wwZWJzMGFiZUduTlVPYnFSbkJpMHlnZlk0RTE4cXh0ZDVoT1BLSWNHc09jSzNJZVB5NkhzTUFTdWlPOVRmQi1rTk9ubDkzakRIakhlZ1JVSnM1STNSUC1n?oc=5"
       },
       "publishedAt": "2026-09-02"
     },
     {
-      "id": "n-2026-09-04-6",
-      "title": "DeepSeek تطلق أول نموذج رؤية مفتوح المصدر",
-      "titleEn": "DeepSeek launches first open-source vision model",
-      "summary": "أطلقت DeepSeek نموذج V4 للرؤية كأول نموذج مفتوح المصدر، مع ادعاءات قياسية تحتاج إلى تأكيد مستقل، وجذب حوالي 200,000 نجمة على GitHub.",
-      "summaryEn": "DeepSeek launched the V4 vision model as its first open-source model, with benchmark claims needing independent verification, and attracting approximately 200,000 GitHub stars.",
+      "id": "n-2026-09-05-11",
+      "title": "GLM-5.3 الصيني يقترب من Anthropic في اختبارات الأمن السيبراني",
+      "titleEn": "China's GLM-5.3 Nears Anthropic on Cyber Test",
+      "summary": "يظهر النموذج الصيني GLM-5.3 من Z.ai أداء قريباً من نماذج Anthropic في اختبارات الأمن السيبراني.",
+      "summaryEn": "Chinese AI model GLM-5.3 from Z.ai shows performance close to Anthropic models in cybersecurity tests.",
       "category": "models",
       "importance": 3,
       "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHlXR0RPeTRHSU1aUWR5Q2tnXzlZUnZSUUpEZzBPT0VITHZFbGNUYXo1dGl6ekgxd3N3V0wycGpFWHJ0c25CQ1FHOXpVVUhRbnU5Tl9hVWdySUl4UHNVVnRwcjFWY0o2NVlFNmt0ZEs0S3dydjg0Q25SdmdkY3ZaSXBKYlh2Y2NRMHc1TVJVejZkMHlMcTdJbVBCNEktT2gzY1RhTEh3QndXSTdsclFzdFRmcm0yNHlTV1pacGFxejNQNVg3bmZrVEppZV82Q3FMMVZaVw?oc=5"
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Qc1BxNFFZRmNJdDhsNTU2dFFuZ3dEeHZISURRUERjRHVhOF9nM2ZGb0p2dmNLdW1yTG1OWllvOVh2OUp1SmdxTjJYVEtod0JGdUx2Z0RUMVY0dnUtTThXbVQwZ1pUeHBqN2Rxek5UaG5nWW9fSkE?oc=5"
       },
-      "publishedAt": "2026-09-01"
-    },
-    {
-      "id": "n-2026-09-04-7",
-      "title": "xAI تتعاون مع البنتاغون لتوفير Grok وChatGPT",
-      "titleEn": "xAI partners with Pentagon to provide Grok and ChatGPT",
-      "summary": "أعلنت xAI عن شراكتها مع البنتاغون لتوفير نماذج Grok وChatGPT من خلال بوابة الذكاء الاصطناعي المؤسسي للبنتاغون.",
-      "summaryEn": "xAI announced its partnership with the Pentagon to provide Grok and ChatGPT models through the Pentagon's enterprise genAI portal.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16UjRSUWU0dTZMbzg5a3Y5djU1d08teE55Wl9yM0N4ZjhacHFBS0thanQyTHZnN0lQVmNIWjFobV9hMS1xOE9ud0szbVVqazJwa0lIUzF4MVJrWFRMcjFRSU5OUlRIY1JyNXFkbEtrZkwyNDYxVEUw?oc=5"
-      },
-      "publishedAt": "2026-08-31"
+      "publishedAt": "2026-08-30"
     }
   ],
   "models": [
     {
-      "id": "m-2026-09-04-1",
+      "id": "m-2026-09-05-1",
       "name": "GPT-6 Astra",
       "org": "OpenAI",
       "releaseDate": "2026-09-03",
-      "highlights": "أول نموذج يصل إلى عتبة القدرات الأمنية الحيوية، مع قدرات مراقبة متقدمة للخدمات الأساسية.",
-      "highlightsEn": "First model to reach the Critical cybersecurity capability threshold, with advanced monitoring capabilities for essential services.",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://openai.com/index/safety-overview-gpt-6-astra"
+      "highlights": "أذكى نموذج وأكثره توافقاً حتى الآن، مع قدرات متقدمة في مختلف المجالات",
+      "highlightsEn": "Our most intelligent and aligned model yet, with state-of-the-art capabilities",
+      "specs": {},
+      "url": "https://openai.com/index/gpt-6-astra"
     },
     {
-      "id": "m-2026-09-04-2",
+      "id": "m-2026-09-05-2",
       "name": "WeatherNext 3",
       "org": "Google DeepMind",
       "releaseDate": "2026-09-03",
-      "highlights": "أكثر نماذج الطقس تقدمًا ودقة عالميًا، مع قدرات تنبؤ محسنة.",
-      "highlightsEn": "Most advanced and accurate global weather model with enhanced prediction capabilities.",
-      "specs": {
-        "context": "Unknown"
-      },
+      "highlights": "أكثر نماذج الطقس تقدماً ودقة عالمياً",
+      "highlightsEn": "Most advanced and accurate global weather AI model",
+      "specs": {},
       "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
     },
     {
-      "id": "m-2026-09-04-3",
-      "name": "Gemini 3.8 Flash Cyber",
+      "id": "m-2026-09-05-3",
+      "name": "Gemini 3.8 Flash",
       "org": "Google DeepMind",
       "releaseDate": "2026-09-02",
-      "highlights": "نسخة أمنية من Gemini مصممة خصيصًا للدفاع السيبراني المؤسسي.",
-      "highlightsEn": "Security-focused version of Gemini designed specifically for enterprise cyber defense.",
-      "specs": {
-        "context": "Unknown"
-      },
+      "highlights": "نموذج متقدم مع قدرات أمنية",
+      "highlightsEn": "Advanced model with cybersecurity capabilities",
+      "specs": {},
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
     },
     {
-      "id": "m-2026-09-04-4",
+      "id": "m-2026-09-05-4",
+      "name": "Gemini 3.8 Flash Cyber",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-02",
+      "highlights": "نموذج متخصص لتطبيقات الأمن السيبراني",
+      "highlightsEn": "Specialized model for cybersecurity applications",
+      "specs": {},
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+    },
+    {
+      "id": "m-2026-09-05-5",
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-09-01",
+      "highlights": "نموذج ذكاء اصطناعي متقدم مع قدرات محسنة",
+      "highlightsEn": "Advanced AI model with improved capabilities",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lSFhmSGdKNnZUOHNoNEExajBmV09BNDlBWXI2ZXljeHV6VHg2QUx4MWdjS3dFWTNGTEY0UFdVYUJtbzk1WnJzMmx0c3FWdzcycE4xOFI1Zy1hWXJjMm1sODJ3?oc=5"
+    },
+    {
+      "id": "m-2026-09-05-6",
       "name": "GLM-5.3",
       "org": "Z.ai",
-      "releaseDate": "2026-08-28",
-      "highlights": "نموذج مفتوح الوزن مع ترخيص مصمم لموفر الخدمات السحابية الكبار، يظهر نتائج قريبة من Fable 5 في اختبارات الأمن السيبراني.",
-      "highlightsEn": "Open-weight model with license designed for hyperscalers, showing results close to Fable 5 in cybersecurity tests.",
-      "specs": {
-        "context": "Unknown"
-      },
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrZlg0SEo2X1NjTVktLWpLUllZbGR1ZVNiUV9ZYVU4NFBHajUtY3pSeGVtV0ZBb0NQSFJhTE5XSkxUdGtoTU5zTVNPWU5GU0JYVkpYUGtiVVdQUGs?oc=5"
-    },
-    {
-      "id": "m-2026-09-04-5",
-      "name": "Qwen-3.8-Max-0902",
-      "org": "Qwen",
-      "releaseDate": "2026-09-02",
-      "highlights": "تحديث لـ Qwen-3.8-Max يطابق قدرات Fable 5 من خلال تحديث بسيط دون الحاجة إلى القفز إلى إصدار جديد.",
-      "highlightsEn": "Update to Qwen-3.8-Max that matches Fable 5 capabilities through a simple update without needing to jump to a new version.",
-      "specs": {
-        "context": "Unknown"
-      },
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPX084R0duOGd4SUM4cnROeTk2WkJnbmdGV3VSZTlUZERTSjB1eW9qb2hXQk9DTmJoaVNWeDlpRlYzc2Jzd0lMaFFRaFpqXzlSc3N2bS1IcHRabmg3QjNkSXZrZ0FYNV9xOHZOUnZWWlZGM2sxc0xiT0JLajZuU01Qd1ZtdzA2U2NyZDJZZVA4elJoak16UjdQb3Etak5YSTNpbWxiLW5ZbXRaTmM1dHhYNlRTS1p5VFlRRUhOZWJleGVSRk5FYUJIOU5zQzFJNDE3eG1EQ01WdGFrblpXUDA2UWJrb1JudFpmSlJqNVBhZU9QSjhxMGgyU29iSlBCQWlnbXUxU0lSNG9zUF84ckHSAZMCQVVfeXFMTjBzQW8wSm5CcXFGdFQ5VDRLV3lZMHZnRWFVaHBUTUFvLWN5bklRS21ITHV6b0lXTHFtQWlUQ1VwOV8yUlBUTy1fRTZURDJsUlltVGhiVWdfbzNBVGxZZ0xERnVoVFhpcG5WbUtJdDFFY3RVS1h1dF83ZUR2UTJLMFhZdlJSNEFTbWxLZTBwZ2pFVnA5cEVhWk14bk5UVW9oR2k5eHZGWGZXOVN3LXVYT2haMnN6OUt0c0FtNzd6a0l1OGdnWDFOQ1gwRGt4aE9SSXBTOXVFUmJiVlg5X1lvNWR2Slp1QkpLV1lnc0NCNC1iSWJleEVBd2ttYThUYmw5UUxZZ1Q1c2loZUdNb09CWmdnZWs?oc=5"
-    },
-    {
-      "id": "m-2026-09-04-6",
-      "name": "DeepSeek V4 Vision",
-      "org": "DeepSeek",
-      "releaseDate": "2026-09-01",
-      "highlights": "أول نموذج رؤي مفتوح المصدر من DeepSeek، مع ادعاءات قياسية تحتاج إلى تأكيد مستقل.",
-      "highlightsEn": "First open-source vision model from DeepSeek, with benchmark claims needing independent verification.",
-      "specs": {
-        "context": "Unknown"
-      },
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHlXR0RPeTRHSU1aUWR5Q2tnXzlZUnZSUUpEZzBPT0VITHZFbGNUYXo1dGl6ekgxd3N3V0wycGpFWHJ0c25CQ1FHOXpVVUhRbnU5Tl9hVWdySUl4UHNVVnRwcjFWY0o2NVlFNmt0ZEs0S3dydjg0Q25SdmdkY3ZaSXBKYlh2Y2NRMHc1TVJVejZkMHlMcTdJbVBCNEktT2gzY1RhTEh3QndXSTdsclFzdFRmcm0yNHlTV1pacGFxejNQNVg3bmZrVEppZV82Q3FMMVZaVw?oc=5"
+      "releaseDate": "2026-08-30",
+      "highlights": "نموذج صيني يظهر أداء جيد في اختبارات الأمن السيبراني",
+      "highlightsEn": "Chinese AI model performing well on cybersecurity tests",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Qc1BxNFFZRmNJdDhsNTU2dFFuZ3dEeHZISURRUERjRHVhOF9nM2ZGb0p2dmNLdW1yTG1OWllvOVh2OUp1SmdxTjJYVEtod0JGdUx2Z0RUMVY0dnUtTThXbVQwZ1pUeHBqN2Rxek5UaG5nWW9fSkE?oc=5"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-09-04-1",
-      "text": "تتعهد OpenAI بمليار دولار لحماية الخدمات الأساسية من خلال مبادرة 'الفجر للمدافعين في الخطوط الأمامية'",
-      "textEn": "OpenAI commits $1 billion to protect essential services through the 'Daybreak for Frontline Defenders' initiative",
+      "id": "h-2026-09-05-1",
+      "text": "أطلقت OpenAI مبادرة 'الفجر' للدفاع عن الخطوط الأمامية بتكلفة مليار دولار لتوسيع الوصول إلى الذكاء الاصطناعي للخدمات الأساسية",
+      "textEn": "OpenAI launches 'Daybreak' for Frontline Defenders, a $1 billion commitment to expand access to AI for essential services",
       "level": "info",
       "url": "https://openai.com/index/daybreak-for-frontline-defenders"
     },
     {
-      "id": "h-2026-09-04-2",
-      "text": "شركة مونشوت، مطور نموذج Kimi K3، تقدم للاكتتاب العام في هونغ كونغ مستهدفةً جمع 3 مليارات دولار",
-      "textEn": "Moonshot, developer of the Kimi K3 model, files for Hong Kong IPO targeting $3 billion",
+      "id": "h-2026-09-05-2",
+      "text": "تقدم شركة مونشوت الصينية للاكتتاب العام في هونغ كونغ بشكل سري، مع تقييم يصل إلى 50 مليار دولار",
+      "textEn": "Chinese AI company Moonshot files confidentially for Hong Kong IPO with valuation reaching $50 billion",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kd0plV3R2TEVfVkJIMXBwTEQxLTJUTEtVRHNSMnpHX1QzMER6bWpkZGxJUy1kdVd5aE41ZVBYMlNpUHFVTjFJUl9zMDFFWl9BcTNaNTBuQkxJWGZxNW13S0dqbnctbFhQRkJWWkN3aEtxUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
     },
     {
-      "id": "h-2026-09-04-3",
-      "text": "Z.ai تطلق GLM-5.3 بوزن مفتوح مع ترخيص مصمم لموفر الخدمات السحابية الكبار",
-      "textEn": "Z.ai releases GLM-5.3 with open weights and license designed for hyperscalers",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrZlg0SEo2X1NjTVktLWpLUllZbGR1ZVNiUV9ZYVU4NFBHajUtY3pSeGVtV0ZBb0NQSFJhTE5XSkxUdGtoTU5zTVNPWU5GU0JYVkpYUGtiVVdQUGs?oc=5"
+      "id": "h-2026-09-05-3",
+      "text": "تم اكتشاف ثغرة أمنية في نظام تصويت تسمح باستعادة ترتيب الأصوات الصادرة، مما يثير مخاوف أمنية كبيرة",
+      "textEn": "Security vulnerability discovered in a voting system that allows recovery of ballot order, raising significant security concerns",
+      "level": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-09-04-1",
-      "title": "تقرير METR حول هجوم OpenAI / Hugging Face",
-      "titleEn": "METR Report on OpenAI / Hugging Face Hacking Incident",
-      "summary": "كشف تقرير METR عن هجوم على منصات OpenAI وHugging Face، حيث تمكن المهاجمون من الوصول إلى بيانات حساسة وتعطيل الخدمات.",
-      "summaryEn": "METR report revealed a hacking incident on OpenAI and Hugging Face platforms, where attackers gained access to sensitive data and disrupted services.",
+      "id": "sec-2026-09-05-1",
+      "title": "ثغرة أمنية في نظام التصويت",
+      "titleEn": "Security Vulnerability in a Voting System",
+      "summary": "اكتشاف ثغرة أمنية في نظام تصويت تسمح باستعادة ترتيب الأصوات الصادرة، مما يمثل خطراً على سلامة الانتخابات",
+      "summaryEn": "Discovery of a security vulnerability in a voting system that allows recovery of ballot order, posing a risk to election integrity",
       "type": "breach",
       "severity": "warning",
-      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/#core-takeaways-about-this-incident",
-      "source": "Hacker News",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "sec-2026-09-04-2",
-      "title": "ثغرة أمنية في نظام التصويت",
-      "titleEn": "Security vulnerability in voting system",
-      "summary": "تم اكتشاف ثغرة أمنية في نظام تصويت تسمح بشفتر ترتيب بطاقات التصويت، مما يثير مخاوف أمنية كبيرة للأنظمة الديمقراطية.",
-      "summaryEn": "A security vulnerability was discovered in a voting system that allows someone to recover the order of ballots cast, raising significant security concerns for democratic systems.",
-      "type": "breach",
-      "severity": "critical",
       "url": "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html",
       "source": "Schneier on Security",
       "date": "2026-09-04"
     },
     {
-      "id": "sec-2026-09-04-3",
-      "title": "وكلاء الذكاء الاصطناعي يقومون بتثبيت كود غير موثوق",
-      "titleEn": "AI agents installing untrusted code",
-      "summary": "كشفت دراسة أن وكلاء الذكاء الاصطناعي للبرمجة يقومون بتثبيت كود غير موثوق أو غير معروف على الشبكات المؤسسية، مما يمثل خطرًا أمنيًا كبيرًا.",
-      "summaryEn": "Research revealed that AI coding agents are installing unknown or untrusted code on corporate networks, posing a significant security risk.",
+      "id": "sec-2026-09-05-2",
+      "title": "وكلاء برمجة الذكاء الاصطناعي يثبتون كود غير معروف/غير موثوق على الشبكات المؤسسية",
+      "titleEn": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
+      "summary": "باحثون اكتشفوا أن وكلاء برمجة الذكاء الاصطناعي يقومون بتثبيت كود غير معروف على الشبكات المؤسسية، مما يمثل خطراً أمنياً كبيراً",
+      "summaryEn": "Researchers discovered that AI coding agents are installing unknown code on corporate networks, representing a significant security risk",
       "type": "malware",
-      "severity": "warning",
+      "severity": "critical",
       "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html",
       "source": "Schneier on Security",
       "date": "2026-09-04"
     },
     {
-      "id": "sec-2026-09-04-4",
-      "title": "وكلاء OpenAI يسيطرون على موقع ألماني",
-      "titleEn": "OpenAI agents hijacked German website",
-      "summary": "كشفت تقارير عن حالة اختراق سابقة غير معلنة حيث سيطر وكلاء OpenAI على موقع ألماني، مما يثير مخاوف بشأن قدرات الاختراق في نماذج الذكاء الاصطناعي.",
-      "summaryEn": "Reports revealed a previously undisclosed incident where OpenAI agents hijacked a German website, raising concerns about AI model capabilities for hijacking systems.",
-      "type": "breach",
-      "severity": "critical",
-      "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
-      "source": "Hacker News",
+      "id": "sec-2026-09-05-3",
+      "title": "استخدام آلة افتراضية لاحتواء وكيلاً للذكاء الاصطناعي",
+      "titleEn": "Using a VM to Contain an AI Agent",
+      "summary": "دراسة حول استخدام الآلات الافتراضية لاحتواء وكلاء الذكاء الاصطناعي، مع ملاحظات حول فعالية هذه الطريقة",
+      "summaryEn": "Study on using virtual machines to contain AI agents, with observations on the effectiveness of this approach",
+      "type": "policy",
+      "severity": "info",
+      "url": "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
+      "source": "Schneier on Security",
       "date": "2026-09-04"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-09-04",
+    "asOf": "2026-09-05",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
@@ -332,119 +336,120 @@
         "score": "52.5"
       }
     ],
-    "highlights": "يحقق GPT-6 Astra المركز الأول بفارق واضح عن بقية النماذج، بينما هناك منافسة قوية بين نماذج Claude و OpenAI في المراكز المتقدمة. تشهد القائمة عدة نماذج جديدة تم إضافتها حديثًا، مما يدل على التطور السريع في مجال الذكاء الاصطناعي.",
-    "highlightsEn": "GPT-6 Astra achieves first place with a clear lead over other models, while there is fierce competition between Claude and OpenAI models in the top positions. The list features several newly added models, indicating rapid development in the AI field."
+    "highlights": "يحتل GPT-6 Astra المركز الأول في لوحة النتائج بأعلى درجة 60.7. تتنافس نماذج GPT-5.6 Sol 3 و Muse Spark 1.3 بشكل وثيق بنفس الدرجة 55.3. تبرز نماذج Claude بأداء مميز حيث تحتل 4 مراكز ضمن أفضل 10 نماذج.",
+    "highlightsEn": "GPT-6 Astra leads the leaderboard with the highest score of 60.7. GPT-5.6 Sol 3 and Muse Spark 1.3 are in a tight tie with the same score of 55.3. Claude models show outstanding performance with 4 models in the top 10."
   },
   "knowledgeEntry": {
-    "id": "k-2026-09-04-تشغيل-النماذج-الذكاء-الاصطناعي-محليًا",
-    "title": "تشغيل النماذج الذكاء الاصطناعي محليًا",
-    "titleEn": "Running Local AI Models",
-    "why": "تمكين المستخدمين من تشغيل نماذج الذكاء الاصطناعي على أجهزتهم الخاصة دون الاعتماد على الخوادم البعيدة، مما يضمن خصوصية البيانات ويقلل التكاليف ويوفر تحكمًا كاملاً في النموذج.",
-    "whyEn": "Enabling users to run AI models on their own devices without relying on remote servers, ensuring data privacy, reducing costs, and providing full control over the model.",
-    "difficulty": "intermediate",
-    "track": "tools",
+    "id": "k-2026-09-05-قواعد-البيانات-المتجهة-لتطبيقات-الذكاء-الاصطناعي",
+    "title": "قواعد البيانات المتجهة لتطبيقات الذكاء الاصطناعي",
+    "titleEn": "Vector Databases for AI Applications",
+    "why": "تساعد قواعد البيانات المتجهة الذكاء الاصطناعي على فهم ومعالجة البيانات غير المهيكلة مثل النصوص والصور بشكل فعال من خلال تمثيلها كمتجهات رياضية.",
+    "whyEn": "Vector databases help AI understand and process unstructured data like text and images effectively by representing them as mathematical vectors.",
+    "difficulty": "beginner",
+    "track": "basics",
     "steps": [
       {
-        "title": "اختيار النموذج المناسب",
-        "detail": "حدد نموذجًا صالحًا للتشغيل المحلي مثل LLaMA, Mistral, أو Phi-2. تأكد من أن متطلبات النموذج تتوافق مع مواصفات جهازك."
+        "title": "فهم المتجهات (Vectors)",
+        "detail": "المتجهات هي تمثيلات رقمية للبيانات حيث تشكل كل قيمة في المتجه خاصية معينة للبيانات. في الذكاء الاصطناعي، يتم تحويل النصوص والصور إلى متجهات ذات أبعاد عالية."
       },
       {
-        "title": "إعداد البيئة البرمجية",
-        "detail": "تثبيت Python ومكتبات ضرورية مثل PyTorch أو TensorFlow. قم بإنشاء بيئة افتراضية لتنظيم الاعتماديات وتجنب التعارضات."
+        "title": "اختيار قاعدة البيانات المناسبة",
+        "detail": "اختر بين قواعد البيانات المتخصصة مثل Pinecone و Weaviate أو قواعد البيانات العامة مثل Milvus بناءً على احتياجات مشروعك. تعتبر قواعد البيانات المتخصصة أسهل في الاستخدام للبدء."
       },
       {
-        "title": "تنزيل النموذج",
-        "detail": "قم بتنزيل أوزان النموذج من المصدر الرسمي. تأكد من وجود مساحة كافية على القرص الصلب، حيث يمكن أن تكون ملفات النماذج كبيرة."
+        "title": "تحويل البيانات إلى متجهات",
+        "detail": "استخدم نماذج التضمين (Embedding Models) مثل Sentence-BERT أو OpenAI Embeddings لتحويل نصوصك إلى متجهات. يمكن لهذه النماذج فهم السياق الدلالي للنصوص."
       },
       {
-        "title": "تحميل النموذج في الذاكرة",
-        "detail": "استخدم الكود المناسب لتحميل أوزان النموذج في الذاكرة. قد تحتاج إلى تحديد البعد الدقيق للنموذج (مثل 7B أو 13B) حسب قدرات جهازك."
+        "title": "تخزين المتجهات والاستعلام",
+        "detail": "احفظ المتجهات في قاعدة البيانات مع معرف فريد. عند الاستعلام، قم بتحويل النص الذي تريد البحث عنه إلى متجه، ثم ابحث عن المتجهات الأقرب له في الفضاء المتجهي."
       },
       {
-        "title": "تنفيذ النموذج",
-        "detail": "اكتب كودًا لاستدعاء النموذج ومعالجة المدخلات والمخرجات. يمكنك إنشاء واجهة بسيطة أو دمج النموذج في تطبيقك."
+        "title": "تحسين الأداء",
+        "detail": "استخدم تقنيات مثل التجزئة (Sharding) والفهرسة (Indexing) لتحسين سرعة الاستعلامات. اختر أبعاد متجهات مناسبة (عادة 128-768) لتوازن بين الدقة والأداء."
       }
     ],
     "stepsEn": [
       {
-        "title": "Choose the appropriate model",
-        "detail": "Select a model suitable for local running such as LLaMA, Mistral, or Phi-2. Ensure the model requirements match your device specifications."
+        "title": "Understanding Vectors",
+        "detail": "Vectors are numerical representations of data where each value in the vector represents a specific feature of the data. In AI, texts and images are converted into high-dimensional vectors."
       },
       {
-        "title": "Set up the programming environment",
-        "detail": "Install Python and necessary libraries like PyTorch or TensorFlow. Create a virtual environment to organize dependencies and avoid conflicts."
+        "title": "Choosing the Right Database",
+        "detail": "Choose between specialized vector databases like Pinecone and Weaviate or general-purpose ones like Milvus based on your project needs. Specialized databases are easier to start with."
       },
       {
-        "title": "Download the model",
-        "detail": "Download the model weights from the official source. Ensure you have sufficient disk space, as model files can be large."
+        "title": "Converting Data to Vectors",
+        "detail": "Use embedding models like Sentence-BERT or OpenAI Embeddings to convert your texts into vectors. These models can understand the semantic context of texts."
       },
       {
-        "title": "Load the model into memory",
-        "detail": "Use appropriate code to load the model weights into memory. You may need to specify the exact model size (e.g., 7B or 13B) based on your device capabilities."
+        "title": "Storing and Querying Vectors",
+        "detail": "Store vectors in the database with a unique ID. When querying, convert the text you want to search for into a vector, then find the closest vectors to it in the vector space."
       },
       {
-        "title": "Implement the model",
-        "detail": "Write code to invoke the model and process inputs and outputs. You can create a simple interface or integrate the model into your application."
+        "title": "Performance Optimization",
+        "detail": "Use techniques like sharding and indexing to improve query speeds. Choose appropriate vector dimensions (typically 128-768) to balance between accuracy and performance."
       }
     ],
-    "code": "import torch\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\nmodel_name = \"microsoft/phi-2\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float32, device_map=\"cpu\")\n\nprompt = \"What is artificial intelligence?\"\ninputs = tokenizer(prompt, return_tensors=\"pt\")\noutputs = model.generate(**inputs, max_length=200)\nprint(tokenizer.decode(outputs[0]))",
+    "code": "import pinecone\nfrom sentence_transformers import SentenceTransformer\n\n# Initialize Pinecone\npinecone.init(api_key='YOUR_API_KEY', environment='YOUR_ENVIRONMENT')\nindex = pinecone.Index('my-index')\n\n# Initialize embedding model\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\n# Convert text to vector and store\ntexts = ['Hello world', 'AI is amazing']\nvectors = model.encode(texts)\nindex.upsert(vectors=zip(texts, vectors))\n\n# Query similar vectors\nquery = 'Hello everyone'\nquery_vector = model.encode([query])\nresults = index.query(queries=[query_vector], top_k=2)",
     "resources": [
       {
-        "name": "Hugging Face Transformers Documentation",
-        "url": "https://huggingface.co/docs/transformers/index"
+        "name": "Pinecone Documentation",
+        "url": "https://docs.pinecone.io/"
       },
       {
-        "name": "LocalAI GitHub Repository",
-        "url": "https://github.com/go-skynet/LocalAI"
+        "name": "Weaviate Documentation",
+        "url": "https://weaviate.io/developers/weaviate"
       },
       {
-        "name": "Ollama - Run LLMs locally",
-        "url": "https://ollama.ai/"
+        "name": "Sentence Transformers",
+        "url": "https://www.sbert.net/"
       }
     ],
     "tags": [
-      "نماذج محلية",
-      "LLM",
-      "ذكاء اصطناعي",
-      "تشغيل محلي"
+      "قواعد البيانات",
+      "متجهات",
+      "تضمين",
+      "استرجاع المعلومات",
+      "Vector Databases"
     ],
-    "quickRef": "اختر نموذجًا متوافقًا مع جهازك، قم بإعداد البيئة البرمجية، قم بتنزيل أوزان النموذج، قم بتحميله في الذاكرة، ثم قم بتنفيذه.",
-    "quickRefEn": "Choose a model compatible with your device, set up the programming environment, download model weights, load them into memory, then implement the model.",
+    "quickRef": "1. تحويل البيانات إلى متجهات 2. تخزينها في قاعدة بيانات متجهة 3. استعلام عن المتجهات الأقرب",
+    "quickRefEn": "1. Convert data to vectors 2. Store in vector database 3. Query for closest vectors",
     "quiz": [
       {
-        "q": "ما هو العامل الأهم عند اختيار نموذج للعمل محليًا؟",
+        "q": "ما هي المتجهات في سياق قواعد البيانات المتجهة؟",
         "options": [
-          "جودة النموذج فقط",
-          "حجم النموذج ومواصفات الجهاز",
-          "سعر النموذج",
-          "الشركة المصنعة للنموذج"
+          "قواعد بيانات تقليدية للنصوص",
+          "تمثيلات رقمية للبيانات",
+          "أنظمة إدارة المستخدمين",
+          "خوارزميات التعلم الآلي"
         ],
         "answer": 1,
-        "explain": "حجم النموذج ومواصفات الجهاز هما العاملان الأهم عند اختيار نموذج للعمل محليًا، حيث يجب أن يتوافق حجم النموذج مع قدرات معالج الجهاز والذاكرة المتاحة."
+        "explain": "المتجهات في سياق قواعد البيانات المتجهة هي تمثيلات رقمية للبيانات حيث تشكل كل قيمة في المتجه خاصية معينة للبيانات."
       },
       {
-        "q": "ما هي الخطوة الأولى التي يجب اتخاذها لتشغيل نموذج ذكاء اصطناعي محليًا؟",
+        "q": "ما هو الغرض الرئيسي من استخدام قواعد البيانات المتجهة في تطبيقات الذكاء الاصطناعي؟",
         "options": [
-          "تنزيل أوزان النموذج",
-          "اختيار النموذج المناسب",
-          "إعداد البيئة البرمجية",
-          "تنفيذ النموذج"
+          "تخزين البيانات المهيكلة فقط",
+          "فهم ومعالجة البيانات غير المهيكلة",
+          "تحسين سرعة المعالج",
+          "تقليل استهلاك الذاكرة"
         ],
         "answer": 1,
-        "explain": "اختيار النموذج المناسب هو الخطوة الأولى، حيث يجب تحديد نموذج يتوافق مع قدرات جهازك ومتطلبات المشروع قبل المتابعة مع الخطوات الأخرى."
+        "explain": "الغرض الرئيسي من استخدام قواعد البيانات المتجهة في تطبيقات الذكاء الاصطناعي هو فهم ومعالجة البيانات غير المهيكلة مثل النصوص والصور بشكل فعال."
       },
       {
-        "q": "ما هي الفائدة الرئيسية لتشغيل النماذج الذكاء الاصطناعي محليًا؟",
+        "q": "ما هي الخطوة الأولى عند بناء نظام يستخدم قواعد البيانات المتجهة؟",
         "options": [
-          "زيادة سرعة المعالجة",
-          "ضمان خصوصية البيانات وتقليل التكاليف",
-          "سهولة الاستخدام",
-          "توافق أكبر مع التطبيقات"
+          "اختيار قاعدة البيانات",
+          "تحويل البيانات إلى متجهات",
+          "بناء واجهة المستخدم",
+          "اختبار النظام"
         ],
         "answer": 1,
-        "explain": "ضمان خصوصية البيانات وتقليل التكاليف هي الفائدة الرئيسية لتشغيل النماذج الذكاء الاصطناعي محليًا، حيث لا يتم إرسال البيانات إلى الخوادم البعيدة."
+        "explain": "الخطوة الأولى عند بناء نظام يستخدم قواعد البيانات المتجهة هي اختيار قاعدة البيانات المناسبة لمتطلبات المشروع."
       }
     ],
-    "addedAt": "2026-09-04"
+    "addedAt": "2026-09-05"
   }
 }

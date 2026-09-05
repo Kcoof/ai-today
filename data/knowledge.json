@@ -1,6 +1,119 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-05-قواعد-البيانات-المتجهة-لتطبيقات-الذكاء-الاصطناعي",
+      "title": "قواعد البيانات المتجهة لتطبيقات الذكاء الاصطناعي",
+      "titleEn": "Vector Databases for AI Applications",
+      "why": "تساعد قواعد البيانات المتجهة الذكاء الاصطناعي على فهم ومعالجة البيانات غير المهيكلة مثل النصوص والصور بشكل فعال من خلال تمثيلها كمتجهات رياضية.",
+      "whyEn": "Vector databases help AI understand and process unstructured data like text and images effectively by representing them as mathematical vectors.",
+      "difficulty": "beginner",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "فهم المتجهات (Vectors)",
+          "detail": "المتجهات هي تمثيلات رقمية للبيانات حيث تشكل كل قيمة في المتجه خاصية معينة للبيانات. في الذكاء الاصطناعي، يتم تحويل النصوص والصور إلى متجهات ذات أبعاد عالية."
+        },
+        {
+          "title": "اختيار قاعدة البيانات المناسبة",
+          "detail": "اختر بين قواعد البيانات المتخصصة مثل Pinecone و Weaviate أو قواعد البيانات العامة مثل Milvus بناءً على احتياجات مشروعك. تعتبر قواعد البيانات المتخصصة أسهل في الاستخدام للبدء."
+        },
+        {
+          "title": "تحويل البيانات إلى متجهات",
+          "detail": "استخدم نماذج التضمين (Embedding Models) مثل Sentence-BERT أو OpenAI Embeddings لتحويل نصوصك إلى متجهات. يمكن لهذه النماذج فهم السياق الدلالي للنصوص."
+        },
+        {
+          "title": "تخزين المتجهات والاستعلام",
+          "detail": "احفظ المتجهات في قاعدة البيانات مع معرف فريد. عند الاستعلام، قم بتحويل النص الذي تريد البحث عنه إلى متجه، ثم ابحث عن المتجهات الأقرب له في الفضاء المتجهي."
+        },
+        {
+          "title": "تحسين الأداء",
+          "detail": "استخدم تقنيات مثل التجزئة (Sharding) والفهرسة (Indexing) لتحسين سرعة الاستعلامات. اختر أبعاد متجهات مناسبة (عادة 128-768) لتوازن بين الدقة والأداء."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Vectors",
+          "detail": "Vectors are numerical representations of data where each value in the vector represents a specific feature of the data. In AI, texts and images are converted into high-dimensional vectors."
+        },
+        {
+          "title": "Choosing the Right Database",
+          "detail": "Choose between specialized vector databases like Pinecone and Weaviate or general-purpose ones like Milvus based on your project needs. Specialized databases are easier to start with."
+        },
+        {
+          "title": "Converting Data to Vectors",
+          "detail": "Use embedding models like Sentence-BERT or OpenAI Embeddings to convert your texts into vectors. These models can understand the semantic context of texts."
+        },
+        {
+          "title": "Storing and Querying Vectors",
+          "detail": "Store vectors in the database with a unique ID. When querying, convert the text you want to search for into a vector, then find the closest vectors to it in the vector space."
+        },
+        {
+          "title": "Performance Optimization",
+          "detail": "Use techniques like sharding and indexing to improve query speeds. Choose appropriate vector dimensions (typically 128-768) to balance between accuracy and performance."
+        }
+      ],
+      "code": "import pinecone\nfrom sentence_transformers import SentenceTransformer\n\n# Initialize Pinecone\npinecone.init(api_key='YOUR_API_KEY', environment='YOUR_ENVIRONMENT')\nindex = pinecone.Index('my-index')\n\n# Initialize embedding model\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\n# Convert text to vector and store\ntexts = ['Hello world', 'AI is amazing']\nvectors = model.encode(texts)\nindex.upsert(vectors=zip(texts, vectors))\n\n# Query similar vectors\nquery = 'Hello everyone'\nquery_vector = model.encode([query])\nresults = index.query(queries=[query_vector], top_k=2)",
+      "resources": [
+        {
+          "name": "Pinecone Documentation",
+          "url": "https://docs.pinecone.io/"
+        },
+        {
+          "name": "Weaviate Documentation",
+          "url": "https://weaviate.io/developers/weaviate"
+        },
+        {
+          "name": "Sentence Transformers",
+          "url": "https://www.sbert.net/"
+        }
+      ],
+      "tags": [
+        "قواعد البيانات",
+        "متجهات",
+        "تضمين",
+        "استرجاع المعلومات",
+        "Vector Databases"
+      ],
+      "quickRef": "1. تحويل البيانات إلى متجهات 2. تخزينها في قاعدة بيانات متجهة 3. استعلام عن المتجهات الأقرب",
+      "quickRefEn": "1. Convert data to vectors 2. Store in vector database 3. Query for closest vectors",
+      "quiz": [
+        {
+          "q": "ما هي المتجهات في سياق قواعد البيانات المتجهة؟",
+          "options": [
+            "قواعد بيانات تقليدية للنصوص",
+            "تمثيلات رقمية للبيانات",
+            "أنظمة إدارة المستخدمين",
+            "خوارزميات التعلم الآلي"
+          ],
+          "answer": 1,
+          "explain": "المتجهات في سياق قواعد البيانات المتجهة هي تمثيلات رقمية للبيانات حيث تشكل كل قيمة في المتجه خاصية معينة للبيانات."
+        },
+        {
+          "q": "ما هو الغرض الرئيسي من استخدام قواعد البيانات المتجهة في تطبيقات الذكاء الاصطناعي؟",
+          "options": [
+            "تخزين البيانات المهيكلة فقط",
+            "فهم ومعالجة البيانات غير المهيكلة",
+            "تحسين سرعة المعالج",
+            "تقليل استهلاك الذاكرة"
+          ],
+          "answer": 1,
+          "explain": "الغرض الرئيسي من استخدام قواعد البيانات المتجهة في تطبيقات الذكاء الاصطناعي هو فهم ومعالجة البيانات غير المهيكلة مثل النصوص والصور بشكل فعال."
+        },
+        {
+          "q": "ما هي الخطوة الأولى عند بناء نظام يستخدم قواعد البيانات المتجهة؟",
+          "options": [
+            "اختيار قاعدة البيانات",
+            "تحويل البيانات إلى متجهات",
+            "بناء واجهة المستخدم",
+            "اختبار النظام"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى عند بناء نظام يستخدم قواعد البيانات المتجهة هي اختيار قاعدة البيانات المناسبة لمتطلبات المشروع."
+        }
+      ],
+      "addedAt": "2026-09-05"
+    },
+    {
       "id": "k-2026-09-04-تشغيل-النماذج-الذكاء-الاصطناعي-محليًا",
       "title": "تشغيل النماذج الذكاء الاصطناعي محليًا",
       "titleEn": "Running Local AI Models",
