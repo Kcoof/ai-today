@@ -1,6 +1,115 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-05-هندسة-أوامر-النماذج-متعددة-الوسائط",
+      "title": "هندسة أوامر النماذج متعددة الوسائط",
+      "titleEn": "Prompt Engineering for Multimodal AI Models",
+      "why": "تتيح لك نماذج الذكاء الاصطناعي متعددة الوسائط فهم ومعالجة أنواع مختلفة من البيانات مثل النصوص والصور والصوت. تعلم هندسة الأوامر الفعالة لهذه النماذج يسمح لك باستغلال إمكاناتها الكاملة للحصول على نتائج دقيقة ومتنوعة.",
+      "whyEn": "Multimodal AI models can understand and process different types of data like text, images, and audio. Learning effective prompt engineering for these models allows you to fully leverage their capabilities for accurate and diverse results.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم قدرات النموذج متعدد الوسائط",
+          "detail": "قبل البدء، حدد أنواع الوسائط التي يدعمها النموذج (نص، صور، صوت، إلخ). اقرر ما إذا كان النموذج يمكنه استقبال مدخلات متعددة الوسائط أو إنشاءها فقط."
+        },
+        {
+          "title": "تحديد الهدف بوضوح",
+          "detail": "حدد بدقة ما تريد تحقيقه باستخدام النموذج. هل تريد تحليل صورة مع نص مرتبط؟ أم إنشاء وصف نصي لفيديو؟ كل هدف يتطلب طريقة مختلفة في بناء الأمر."
+        },
+        {
+          "title": "بناء الأمر المتعدد الوسائط",
+          "detail": "استخدم بنية واضحة تجمع بين المدخلات المختلفة. استخدم علامات ترقيم أو تعريفات لتمييز بين النصوص والصور. مثال: 'هذه صورة [IMG]، صف ما تراه بالتفصيل.'"
+        },
+        {
+          "title": "تحسين الأمر للنتائج الأفضل",
+          "detail": "جرّب صياغات مختلفة للأمر، وأضف تفاصيل أو قيود إذا كانت النتائج غير دقيقة. استخدم أمثلة أو سياقات إضافية لتحسين فهم النموذج للمهمة."
+        },
+        {
+          "title": "اختبار وتكرار",
+          "detail": "اختبر الأمر مع مدخلات مختلفة وقارن النتائج. راقب كيف يتفاعل النموذج مع أنواع مختلفة من البيانات وقم بتعديل الأوامر بناءً على الملاحظات."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand the multimodal model capabilities",
+          "detail": "Before starting, identify what types of media the model supports (text, images, audio, etc.). Determine whether the model can receive multimodal inputs or only generate them."
+        },
+        {
+          "title": "Clearly define your objective",
+          "detail": "Precisely define what you want to achieve with the model. Do you want to analyze an image with related text? Or create a textual description of a video? Each objective requires a different approach to building the prompt."
+        },
+        {
+          "title": "Construct the multimodal prompt",
+          "detail": "Use a clear structure that combines different inputs. Use punctuation or delimiters to distinguish between text and images. Example: 'This is an image [IMG], describe what you see in detail.'"
+        },
+        {
+          "title": "Optimize the prompt for best results",
+          "detail": "Try different phrasings for the prompt, add details or constraints if results are inaccurate. Use examples or additional context to improve the model's understanding of the task."
+        },
+        {
+          "title": "Test and iterate",
+          "detail": "Test the prompt with different inputs and compare results. Observe how the model interacts with different types of data and adjust prompts based on observations."
+        }
+      ],
+      "code": "def create_multimodal_prompt(text_input, image_path=None):\n    prompt = f\"Analyze the following: {text_input}\"\n    if image_path:\n        prompt += f\"\\n[IMAGE: {image_path}]\"\n    prompt += \"\\nProvide a detailed analysis combining all inputs.\"\n    return prompt\n\n# Example usage:\ntext = \"Describe the mood and setting of this scene\"\nimage = \"sunset_beach.jpg\"\nprint(create_multimodal_prompt(text, image))",
+      "resources": [
+        {
+          "name": "OpenAI Multimodal Documentation",
+          "url": "https://platform.openai.com/docs/guides multimodal"
+        },
+        {
+          "name": "Google Gemini Multimodal Guide",
+          "url": "https://ai.google.dev/docs multimodal"
+        }
+      ],
+      "tags": [
+        "نماذج متعددة الوسائط",
+        "هندسة الأوامر",
+        "الذكاء الاصطناعي",
+        "Multimodal Models",
+        "Prompt Engineering"
+      ],
+      "quickRef": "استخدم بنية واضحة تجمع بين النصوص والصور في أوامر النماذج متعددة الوسائط، مع تحديد الهدف بدقة وتجربة صياغات مختلفة للحصول على أفضل النتائج.",
+      "quickRefEn": "Use a clear structure combining text and images in multimodal model prompts, with clear objectives and testing different phrasings for optimal results.",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم عند بناء أمر لنموذج متعدد الوسائط؟",
+          "options": [
+            "الطول الإجمالي للأمر",
+            "تحديد الهدف بوضوح",
+            "استخدام لغة معقدة",
+            "تضمين كلمات مفتاحية كثيرة"
+          ],
+          "answer": 1,
+          "explain": "عند بناء أمر لنموذج متعدد الوسائط، من المهم جداً تحديد الهدف بوضوح لأن هذا يساعد النموذج على فهم ما هو مطلوب منه وتوجيهه نحو النتيجة المرجوة."
+        },
+        {
+          "q": "كيف يمكنك تمييز بين النصوص والصور في أمر متعدد الوسائط؟",
+          "options": [
+            "باستخدام علامات ترقيم خاصة",
+            "باستخدام تعريفات مثل [IMG]",
+            "باستخدام ألوان مختلفة",
+            "باستخدام أحجام خط مختلفة"
+          ],
+          "answer": 1,
+          "explain": "يمكنك استخدام تعريفات مثل [IMG] لتمييز الصور عن النص في الأمر المتعدد الوسائط، مما يساعد النموذج على فهم نوع كل مدخل ومعالجته بشكل مناسب."
+        },
+        {
+          "q": "ما هو أفضل نهج عند تحسين أوامر النماذج متعددة الوسائط؟",
+          "options": [
+            "تغيير الهيكل بالكامل",
+            "إضافة تفاصيل أكثر وقيود",
+            "استخدام أوامر قصيرة فقط",
+            "تجاهل النتائج الأولية"
+          ],
+          "answer": 1,
+          "explain": "عند تحسين أوامر النماذج متعددة الوسائط، أفضل نهج هو إضافة تفاصيل أكثر وقيود لتحسين الدقة، مع مراعاة النتائج الأولية وتعديل الأوامر بناءً عليها."
+        }
+      ],
+      "addedAt": "2026-09-05"
+    },
+    {
       "id": "k-2026-09-05-قواعد-البيانات-المتجهة-لتطبيقات-الذكاء-الاصطناعي",
       "title": "قواعد البيانات المتجهة لتطبيقات الذكاء الاصطناعي",
       "titleEn": "Vector Databases for AI Applications",
