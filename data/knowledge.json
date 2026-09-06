@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-06-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
+      "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
+      "titleEn": "Writing Effective AI Prompts",
+      "why": "تعلم كتابة أوامر فعالة للذكاء الاصطناعي يزيد من دقة النتائج ويوفر الوقت والموارد، مما يجعل التفاعل مع النماذج اللغوية أكثر إنتاجية.",
+      "whyEn": "Learning to write effective AI prompts improves result accuracy and saves time and resources, making interaction with language models more productive.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم النموذج",
+          "detail": "ادرس قدرات ونقاط قوة النموذج الذي ستعمل معه لمعرفة ما يمكنه تحقيقه بشكل أفضل."
+        },
+        {
+          "title": "تحديد الهدف",
+          "detail": "حدد بوضوح ما تريد تحقيقه من خلال الأمر، مع ذarResult المطلوب بدقة."
+        },
+        {
+          "title": "تقديم السياق",
+          "detail": "اشرح الخلفية والمعلومات اللازمة للنموذج لضمان فهمه الموقف بشكل صحيح."
+        },
+        {
+          "title": "تحديد التنسيق",
+          "detail": "حدد كيف تريد تنظيم الناتج، مثل القوائم، الفقرات، أو الهياكل الأخرى."
+        },
+        {
+          "title": "التكرار والتحسين",
+          "detail": "اختبر الأمر وقم بتعديله بناءً على النتائج، مع إضافة تفاصيل أو تعديل التعليمات عند الحاجة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand the model",
+          "detail": "Research the capabilities and strengths of the model you'll be working with to understand what it can do best."
+        },
+        {
+          "title": "Define the objective",
+          "detail": "Clearly state what you want to achieve with the prompt, specifying the desired output accurately."
+        },
+        {
+          "title": "Provide context",
+          "detail": "Explain the background and necessary information to the model to ensure proper understanding of the situation."
+        },
+        {
+          "title": "Specify format",
+          "detail": "Indicate how you want the output to be structured, such as lists, paragraphs, or other formats."
+        },
+        {
+          "title": "Iterate and refine",
+          "detail": "Test the prompt and modify it based on the results, adding details or adjusting instructions as needed."
+        }
+      ],
+      "code": "python\n# Ineffective prompt\nprompt = \"Write about climate change\"\n\n# Effective prompt\nprompt = \"\"\"\nPlease write a comprehensive 500-word essay about climate change, focusing on:\n1. The main causes of climate change\n2. Its current impacts on global ecosystems\n3. Potential solutions to mitigate climate change\n\nFormat the essay with an introduction, three body paragraphs (one for each point), and a conclusion.\nUse scientific data where appropriate and cite your sources.\n\"\"\"",
+      "resources": [
+        {
+          "name": "دليل كتابة الأوامر من OpenAI",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        },
+        {
+          "name": "دليل كتابة الأوامر من Anthropic",
+          "url": "https://docs.anthropic.com/claude/docs/prompt-engineering"
+        },
+        {
+          "name": "Prompt Engineering for ChatGPT (كتاب)",
+          "url": "https://www.amazon.com/dp/B0BWRQZ6ZJ"
+        }
+      ],
+      "tags": [
+        "كتابة أوامر",
+        "ذكاء اصطناعي",
+        "نماذج لغوية",
+        "تحسين النتائج"
+      ],
+      "quickRef": "أوامر فعالة = سياق واضح + هدف محدد + تنسيق مطلوب + أمثلة",
+      "quickRefEn": "Effective prompts = clear context + specific objective + requested format + examples",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في كتابة أمر فعال للذكاء الاصطناعي؟",
+          "options": [
+            "استخدام لغة معقدة",
+            "تقديم سياق واضح",
+            "جعل الأمر قصيراً قدر الإمكان",
+            "استخدام مصطلحات تقنية فقط"
+          ],
+          "answer": 1,
+          "explain": "السياق الواضح يساعد النموذج على فهم ما هو مطلوب منه بدقة، مما يؤدي إلى نتائج أفضل."
+        },
+        {
+          "q": "أي من الخيارات التالية يمثل مثالاً لأمر غير فعال؟",
+          "options": [
+            "\"اكتب مقالاً عن فوائد الطاقة الشمسية بطريقة سهلة الفهم\"",
+            "\"اكتب عن الطاقة\"",
+            "\"اكتب مقالاً علمياً عن فوائد الطاقة الشمسية، مع ذكر ثلاث فوائد رئيسية وتأثيرها على البيئة\"",
+            "\"اكتب قائمة بالفوائد الرئيسية للطاقة الشمسية\""
+          ],
+          "answer": 1,
+          "explain": "\"اكتب عن الطاقة\" هو أمر عام جداً بدون تحديد أو سياق، مما قد يؤدي إلى نتائج غير متوقعة أو غير مفيدة."
+        },
+        {
+          "q": "كيف يمكنك تحسين أمر \"اكتب عن تأثير التكنولوجيا على التعليم\"؟",
+          "options": [
+            "\"اكتب عن التكنولوجيا والتعليم\"",
+            "\"اكتب مقالاً عن تأثير التكنولوجيا على التعليم في المدارس الثانوية، مع ذكر مثالين للتطبيقات العملية\"",
+            "\"اكتب عن التكنولوجيا\"",
+            "\"اكتب عن التعليم\""
+          ],
+          "answer": 1,
+          "explain": "التحسين يضيف تحديداً (المدارس الثانوية) وتفصيلاً (مثالين للتطبيقات العملية) مما يجعل الأمر أكثر فعالية."
+        }
+      ],
+      "addedAt": "2026-09-06"
+    },
+    {
       "id": "k-2026-09-06-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
       "title": "تقييم أداء نماذج الذكاء الاصطناعي",
       "titleEn": "Evaluating AI Model Performance",
