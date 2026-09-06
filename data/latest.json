@@ -1,57 +1,15 @@
 {
-  "date": "2026-09-05",
-  "generatedAt": "2026-09-05T14:04:46.046Z",
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T09:41:14.893Z",
   "news": [
     {
-      "id": "n-2026-09-05-1",
-      "title": "GPT-6 Astra: جيل جديد من الذكاء الاصطناعي",
-      "titleEn": "GPT-6 Astra: A New Generation of Intelligence",
-      "summary": "أعلنت OpenAI عن GPT-6 Astra، أذكى نموذجها وأكثرها توافقاً حتى الآن، مع قدرات متطورة في فهم السياق والاستدلال.",
-      "summaryEn": "OpenAI introduced GPT-6 Astra, their most intelligent and aligned model yet, with advanced capabilities in context understanding and reasoning.",
-      "category": "models",
-      "importance": 5,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/gpt-6-astra"
-      },
-      "publishedAt": "2026-09-03"
-    },
-    {
-      "id": "n-2026-09-05-2",
-      "title": "طرح WeatherNext 3: أكثر نماذج الطقس تقدماً ودقة",
-      "titleEn": "Introducing WeatherNext 3: Most Advanced and Accurate Weather Model",
-      "summary": "كشفت Google DeepMind عن WeatherNext 3، نموذج ذكاء اصطناعي عالمي للطقس يتفوق على النماذج التقليدية في الدقة والسرعة.",
-      "summaryEn": "Google DeepMind unveiled WeatherNext 3, a global weather AI model that outperforms traditional models in accuracy and speed.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
-      },
-      "publishedAt": "2026-09-03"
-    },
-    {
-      "id": "n-2026-09-05-3",
-      "title": "Gemini 3.8 Flash و Flash Cyber: نماذج جديدة من جوجل",
-      "titleEn": "Gemini 3.8 Flash and Flash Cyber: New Models from Google",
-      "summary": "أطلقت Google DeepMind نماذج Gemini 3.8 Flash و Flash Cyber مع تحسينات في السرعة والأداء في المهام الأمنية.",
-      "summaryEn": "Google DeepMind launched Gemini 3.8 Flash and Flash Cyber models with improvements in speed and performance on security tasks.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
-      },
-      "publishedAt": "2026-09-02"
-    },
-    {
-      "id": "n-2026-09-05-4",
+      "id": "n-2026-09-06-1",
       "title": "يوم الفجر للمدافعين عن الخطوط الأمامية: مليار دولار لحماية الخدمات الأساسية",
-      "titleEn": "Daybreak for Frontline Defenders: $1B to Protect Essential Services",
-      "summary": "التزمت OpenAI بمبلغ مليار دولار من خلال برنامج يوم الفجر لتوسيع الوصول إلى تقنيات الذكاء الاصطناعي للمدافعين عن الخطوط الأمامية.",
-      "summaryEn": "OpenAI committed $1 billion through the Daybreak program to expand access to AI technologies for frontline defenders.",
+      "titleEn": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "summary": "أعلنت OpenAI عن مبادرتها يوم الفجر للمدافعين عن الخطوط الأمامية، بتزامن بقيمة مليار دولار لتوسيع الوصول إلى تقنيات الذكاء الاصطناعي للخدمات الأساسية.",
+      "summaryEn": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to AI technologies for essential services.",
       "category": "companies",
-      "importance": 4,
+      "importance": 5,
       "source": {
         "name": "OpenAI",
         "url": "https://openai.com/index/daybreak-for-frontline-defenders"
@@ -59,11 +17,11 @@
       "publishedAt": "2026-09-03"
     },
     {
-      "id": "n-2026-09-05-5",
+      "id": "n-2026-09-06-2",
       "title": "مونشوت تقدم للاكتتاب العام في هونغ كونغ",
-      "titleEn": "Moonshot Files for Hong Kong IPO",
-      "summary": "قدمت شركة مونشوت AI، مطورة نموذج Kimi K3، طلباً للاكتتاب العام في هونغ كونغ بشكل سري.",
-      "summaryEn": "Moonshot AI, developer of the Kimi K3 model, has confidentially filed for a Hong Kong IPO.",
+      "titleEn": "Moonshot files for Hong Kong IPO",
+      "summary": "تقدم شركة مونشوت الصينية المالكة لنموذج كيمي K3 بطلب للاكتتاب العام في هونغ كونغ،估值ها المحتمل يصل إلى 50 مليار دولار.",
+      "summaryEn": "Chinese AI firm Moonshot, creator of Kimi K3 model, has filed for Hong Kong IPO with potential valuation reaching $50 billion.",
       "category": "companies",
       "importance": 4,
       "source": {
@@ -73,11 +31,39 @@
       "publishedAt": "2026-09-03"
     },
     {
-      "id": "n-2026-09-05-8",
+      "id": "n-2026-09-06-3",
+      "title": "Z.ai تطلق GLM-5.3-Flash: أسرع بنسبة 3.3 مرة على محطة عمل واحدة",
+      "titleEn": "Z.ai launches GLM-5.3-Flash: 3.3x faster on a single workstation",
+      "summary": "كشفت شركة Z.ai عن نموذجها الجديد GLM-5.3-Flash الذي يعمل بسرعة 3.3 مرة أكبر على محطة عمل واحدة، مما يمثل تقدمًا كبيرًا في كفاءة نماذج الذكاء الاصطناعي.",
+      "summaryEn": "Z.ai unveiled its new GLM-5.3-Flash model that runs 3.3 times faster on a single workstation, representing significant progress in AI model efficiency.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbm5PZEZRTnR5MnVPTW1VN3lGbTVEOVFXNjktd1ZwbTZzRlplN1hzTkZoaEZBMTF0TG04eHA1bUFUYVFYaFdFbzZ1MkJxZUQwcGZUTWdDaTVMUllPcFJ1ODI0eFNpQnd3RlROd1ZEaU1YcERhd3hfYUpKMVVTbVpXRDRfMHQxMk1IZkhWNHhOY3U2VmdGMXRXQ1J5blNsS0F1OHc?oc=5"
+      },
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "id": "n-2026-09-06-4",
+      "title": "كوين 3.8: نموذج ألي بابا الجديد بـ 2.4 تريليون معلمة",
+      "titleEn": "Qwen 3.8: Alibaba's new 2.4-trillion-parameter model",
+      "summary": "تستعد شركة ألي بابا لإطلاق نموذجها الجديد كوين 3.8 الذي يحتوي على 2.4 تريليون معلمة، ليكون أحد أكبر النماذج المفتوحة المصدر في السوق.",
+      "summaryEn": "Alibaba is preparing to launch its new Qwen 3.8 model with 2.4 trillion parameters, positioning it as one of the largest open-source models in the market.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeDRyTDlMSFk5cFZmVzc4SVowOUIxWXVPX3Vkdy1zQjQ3TXY2LWR2cUFITmI2aFh1T2Q4Mm1CMS1hZTdERkM5d2RPMW1CaC05NDJWZEllclRoNUhqRjBvZEdBc2gzY3VqVG93d0ppdndPNkdiTVhwaVdTQ2ZwR1FjeTNmb2E3MV9zWThHRGQxUDRrVF9VYzNJOXBDaVpZNHhFbEc0UUZEcmRRQ2RDNWxlMWQwM0piY1RqTFJzTV83Yk5KYm9pRUNBeE9NN0ZrQ290TkN3cDlJaFrSAeYBQVVfeXFMUExqTGU3QzEwVUFKc0s0Y2RSdEVEaU5pTXZhNGNYcE9yc3hiemE2SVVFandVWG9fU3RKTkZTaEZoRF9saHVobV9sSHVFbzhEaEt1Zjk3M0RkbnFsUU1UYnZESGtWVm9RZVU3SlhicXpSeEFFOERXdHRHVFdCR0FEdkUyb1UtQVRXQnpOTlh5RldTMUJ1RkhmNVBya1lPY3pPZG14ZkhjOVlVNUNTR1pBVndvQ0xnWWF4b1RsdGtvNkRsamF6RFo3alhRc2lXbmlBVUpONWFjYWpJZDVzMW5Kc3ZKRDlFN1E?oc=5"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-06-7",
       "title": "ثغرة أمنية في نظام التصويت",
       "titleEn": "Security Vulnerability in a Voting System",
-      "summary": "تم اكتشاف ثغرة أمنية في نظام تصويت تسمح بشفرة ترتيب الأصوات الصحيحة، مما يثير مخاوف بشكلية العملية الانتخابية.",
-      "summaryEn": "A security vulnerability has been discovered in a voting system that allows someone to recover the order of ballots cast, raising concerns about electoral integrity.",
+      "summary": "تم اكتشاف ثغرة أمنية في نظام تصويت تسمح بشفرة ترتيب الأصوات الصوتية، مما يثير مخاوف بشأن سلامة الانتخابات.",
+      "summaryEn": "A vulnerability has been discovered in a voting system that allows someone to recover the order of ballots cast, raising concerns about election integrity.",
       "category": "other",
       "importance": 4,
       "source": {
@@ -87,11 +73,11 @@
       "publishedAt": "2026-09-04"
     },
     {
-      "id": "n-2026-09-05-9",
-      "title": "وكلاء الذكاء الاصطناعي يثبتون كود غير موثوق على الشبكات المؤسسية",
-      "titleEn": "AI Coding Agents Installing Unknown/Untrusted Code on Corporate Networks",
-      "summary": "يثبت باحثون أن وكلاء برمجة الذكاء الاصطناعي يقومون بتثبيت كود غير موثوق على الشبكات المؤسسية، مما يشكل خطراً أمنياً كبيراً.",
-      "summaryEn": "Researchers demonstrate that AI coding agents are installing unknown/untrusted code on corporate networks, posing a significant security risk.",
+      "id": "n-2026-09-06-8",
+      "title": "وكلاء الذكاء الاصطناعي يثبتون غير موثوقين في الشبكات المؤسسية",
+      "titleEn": "AI Coding Agents Are Installing Unknown/Untrusted Code",
+      "summary": "أظهرت الأبحاث أن وكلاء برمجة الذكاء الاصطناعي يقومون بتثبيت كود غير معروف وغير موثوق على الشبكات المؤسسية، مما يمثل خطرًا أمنيًا كبيرًا.",
+      "summaryEn": "Research shows that AI coding agents are installing unknown and untrusted code on corporate networks, representing a significant security risk.",
       "category": "other",
       "importance": 4,
       "source": {
@@ -101,150 +87,114 @@
       "publishedAt": "2026-09-04"
     },
     {
-      "id": "n-2026-09-05-6",
-      "title": "بينما يقلق قطاع الذكاء الاصطناعي عن الإجراءات الوقائية، شركة تبني نموذجاً 'لا يقول لا'",
-      "titleEn": "While AI Industry Frets Over Safeguards, Company Builds Model That 'Doesn't Say No'",
-      "summary": "تتحدى شركة Z.ai الاتجاه السائد في بناء نماذج ذكاء اصطناعي مع ضوابط أمنية من خلال تطوير نموذج يرفض الطلبات المحظورة.",
-      "summaryEn": "Z.ai challenges the trend of building AI models with safety guardrails by developing a model that refuses restricted requests.",
-      "category": "companies",
-      "importance": 3,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb21Kb2Q1TDF0NWpLTmlDRmNPQzNkeVNEekxqU0hISUQxbUd4eEZGTFFwd2podTJZaldtZmw1b2lQWDd1bjNuQ2RWeU04ZW9vQmNvbGF2cnRxT0NWVDFRU0c2WkZQZ2wwZWJzMGFiZUduTlVPYnFSbkJpMHlnZlk0RTE4cXh0ZDVoT1BLSWNHc09jSzNJZVB5NkhzTUFTdWlPOVRmQi1rTk9ubDkzakRIakhlZ1JVSnM1STNSUC1n?oc=5"
-      },
-      "publishedAt": "2026-09-02"
-    },
-    {
-      "id": "n-2026-09-05-7",
-      "title": "أمريكا تنتقل من Claude و GPT إلى نماذج DeepSeek الأرخص",
-      "titleEn": "Corporate America Swapping Claude and GPT for Cheaper DeepSeek Models",
-      "summary": "تنتقل الشركات الأمريكية الكبرى من نماذج Anthropic و OpenAI إلى نماذج DeepSeek الأرخص مع الحفاظ على جودة الأداء.",
-      "summaryEn": "Major American companies are shifting from Anthropic and OpenAI models to cheaper DeepSeek models while maintaining performance quality.",
-      "category": "companies",
+      "id": "n-2026-09-06-5",
+      "title": "ديب سيك تطلق أول نموذج بصرية مفتوح المصدر V4",
+      "titleEn": "DeepSeek launches first open-source V4 vision model",
+      "summary": "أطلقت شركة ديب سيك أول نموذج بصري مفتوح المصدر V4، مع ادعاءات قياسية تحتاج إلى تأكيد مستقل، مما يمثل خطوة هامة في نماذج رؤية الذكاء الاصطناعي.",
+      "summaryEn": "DeepSeek launched its first open-source V4 vision model with benchmark claims that need independent verification, marking an important step in AI vision models.",
+      "category": "models",
       "importance": 3,
       "source": {
         "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN0kydGtMUW1qVVdoUUtjUVJ3QTc3NWppZGFEU0NXUGtMTWVxMWdlbWtwS18wOG9BajdjRUtVemNmX3NYZUVuaDluaFJOSk0xTFFHOWpWb1REaWVLM2FLem1yZHdKS2Q1YWRVc2VnX29nTGcwRVJhZzFmeGtLR2dMcUh4UkVVZFkyY3NidkxsQ3F1Y25qdzkxdlJwYjlPa3U0RXc?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHlXR0RPeTRHSU1aUWR5Q2tnXzlZUnZSUUpEZzBPT0VITHZFbGNUYXo1dGl6ekgxd3N3V0wycGpFWHJ0c25CQ1FHOXpVVUhRbnU5Tl9hVWdySUl4UHNVVnRwcjFWY0o2NVlFNmt0ZEs0S3dydjg0Q25SdmdkY3ZaSXBKYlh2Y2NRMHc1TVJVejZkMHlMcTdJbVBCNEktT2gzY1RhTEh3QndXSTdsclFzdFRmcm0yNHlTV1pacGFxejNQNVg3bmZrVEppZV82Q3FMMVZaVw?oc=5"
       },
-      "publishedAt": "2026-09-04"
+      "publishedAt": "2026-09-01"
+    },
+    {
+      "id": "n-2026-09-06-6",
+      "title": "تصميم بوت Grok للعوالم المستمرة من xAI",
+      "titleEn": "Designing Grok Bot for a world of persistent agents",
+      "summary": "كشفت شركة xAI عن تصميم بوت Grok للعمل في بيئات الوكلاء المستمرة، مما يمثل تطورًا جديدًا في تطبيقات الذكاء الاصطناعي.",
+      "summaryEn": "xAI revealed the design of Grok bot for working in persistent agent environments, representing a new development in AI applications.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA2WXFzMFpXZFJGTUlWR05TR3d2NFo2d3hRQlJ0UFk0NXBkVW1QeWNrNEx2YlkzVlJfNWVjZHE5aWd3UnhIQzFrdmo0ZVM?oc=5"
+      },
+      "publishedAt": "2026-09-03"
     }
   ],
   "models": [
     {
-      "id": "m-2026-09-05-1",
-      "name": "GPT-6 Astra",
-      "org": "OpenAI",
-      "releaseDate": "2026-09-03",
-      "highlights": "أذكى نموذج OpenAI وأكثره توافقاً، مع قدرات متطورة في فهم السياق والاستدلال وتحليل النصوص المعقدة.",
-      "highlightsEn": "OpenAI's most intelligent and aligned model with advanced capabilities in context understanding, reasoning, and complex text analysis.",
+      "id": "m-2026-09-06-1",
+      "name": "GLM-5.3-Flash",
+      "org": "Z.ai",
+      "releaseDate": "2026-09-05",
+      "highlights": "يعمل بسرعة 3.3 مرة أكبر على محطة عمل واحدة",
+      "highlightsEn": "Runs 3.3 times faster on a single workstation",
       "specs": {
         "context": "1M"
       },
-      "url": "https://openai.com/index/gpt-6-astra"
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbm5PZEZRTnR5MnVPTW1VN3lGbTVEOVFXNjktd1ZwbTZzRlplN1hzTkZoaEZBMTF0TG04eHA1bUFUYVFYaFdFbzZ1MkJxZUQwcGZUTWdDaTVMUllPcFJ1ODI0eFNpQnd3RlROd1ZEaU1YcERhd3hfYUpKMVVTbVpXRDRfMHQxMk1IZkhWNHhOY3U2VmdGMXRXQ1J5blNsS0F1OHc?oc=5"
     },
     {
-      "id": "m-2026-09-05-2",
-      "name": "WeatherNext 3",
-      "org": "Google DeepMind",
+      "id": "m-2026-09-06-2",
+      "name": "Qwen 3.8",
+      "org": "Alibaba",
       "releaseDate": "2026-09-03",
-      "highlights": "أكثر نماذج الطقس تقدماً ودقة في العالم، مع القدرة على التنبؤ بالظروف الجوية بدقة غير مسبوقة.",
-      "highlightsEn": "The world's most advanced and accurate weather model with unprecedented precision in weather forecasting.",
+      "highlights": "نموذج بـ 2.4 تريليون معلمة، واحد من أكبر النماذج المفتوحة المصدر",
+      "highlightsEn": "2.4-trillion-parameter model, one of the largest open-source models",
       "specs": {
-        "context": "Unknown"
+        "context": "2M"
       },
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeDRyTDlMSFk5cFZmVzc4SVowOUIxWXVPX3Vkdy1zQjQ3TXY2LWR2cUFITmI2aFh1T2Q4Mm1CMS1hZTdERkM5d2RPMW1CaC05NDJWZEllclRoNUhqRjBvZEdBc2gzY3VqVG93d0ppdndPNkdiTVhwaVdTQ2ZwR1FjeTNmb2E3MV9zWThHRGQxUDRrVF9VYzNJOXBDaVpZNHhFbEc0UUZEcmRRQ2RDNWxlMWQwM0piY1RqTFJzTV83Yk5KYm9pRUNBeE9NN0ZrQ290TkN3cDlJaFrSAeYBQVVfeXFMUExqTGU3QzEwVUFKc0s0Y2RSdEVEaU5pTXZhNGNYcE9yc3hiemE2SVVFandVWG9fU3RKTkZTaEZoRF9saHVobV9sSHVFbzhEaEt1Zjk3M0RkbnFsUU1UYnZESGtWVm9RZVU3SlhicXpSeEFFOERXdHRHVFdCR0FEdkUyb1UtQVRXQnpOTlh5RldTMUJ1RkhmNVBya1lPY3pPZG14ZkhjOVlVNUNTR1pBVndvQ0xnWWF4b1RsdGtvNkRsamF6RFo3alhRc2lXbmlBVUpONWFjYWpJZDVzMW5Kc3ZKRDlFN1E?oc=5"
     },
     {
-      "id": "m-2026-09-05-3",
-      "name": "Gemini 3.8 Flash",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-09-02",
-      "highlights": "نسخة محسنة من Gemini مع سرعة أعلى وأداء أفضل في المهام اليومية والتحليلية.",
-      "highlightsEn": "An enhanced version of Gemini with higher speed and better performance on daily and analytical tasks.",
-      "specs": {
-        "context": "Unknown"
-      },
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
-    },
-    {
-      "id": "m-2026-09-05-4",
-      "name": "Gemini 3.8 Flash Cyber",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-09-02",
-      "highlights": "نسخة متخصصة في الأمن السيبراني مع قدرات متقدمة في اكتشاف التهديدات والرد عليها.",
-      "highlightsEn": "A specialized version focused on cybersecurity with advanced capabilities in threat detection and response.",
-      "specs": {
-        "context": "Unknown"
-      },
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
-    },
-    {
-      "id": "m-2026-09-05-5",
-      "name": "Claude Opus 5",
-      "org": "Anthropic",
+      "id": "m-2026-09-06-3",
+      "name": "DeepSeek V4",
+      "org": "DeepSeek",
       "releaseDate": "2026-09-01",
-      "highlights": "نسخة محسنة من Opus مع قدرات محسنة في تشغيل الوكلات لفترات طويلة مع الحفاظ على الأمان.",
-      "highlightsEn": "An enhanced version of Opus with improved capabilities for running agents over extended periods while maintaining safety.",
+      "highlights": "أول نموذج بصرية مفتوح المصدر من ديب سيك",
+      "highlightsEn": "First open-source vision model from DeepSeek",
       "specs": {
-        "context": "Unknown"
+        "context": "128K"
       },
-      "url": "https://www.anthropic.com/news/claude-opus-5"
-    },
-    {
-      "id": "m-2026-09-05-6",
-      "name": "GLM-5.2",
-      "org": "Z.ai",
-      "releaseDate": "2026-09-04",
-      "highlights": "نموذج صيني يتجاوز جميع نماذج ChatGPT ويتبع فقط Fable 5 من Anthropic في الأداء.",
-      "highlightsEn": "A Chinese model that surpasses all ChatGPT models and trails only Anthropic's Fable 5 in performance.",
-      "specs": {
-        "context": "Unknown"
-      },
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41c1FiZnozQWlzSm5YWFRSdUphM0tQbkZRNFpSbHQ0YjFqdFIyVkt2dGZtejBPU2RDblpzUlBLdDdtcDlYd0FvY1RnUnpwTk9leFZqSjg0T3B4Yi1mRmN4SjZ0Z1hmZFRnWHYxS0hQQUxGa0d3bEE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHlXR0RPeTRHSU1aUWR5Q2tnXzlZUnZSUUpEZzBPT0VITHZFbGNUYXo1dGl6ekgxd3N3V0wycGpFWHJ0c25CQ1FHOXpVVUhRbnU5Tl9hVWdySUl4UHNVVnRwcjFWY0o2NVlFNmt0ZEs0S3dydjg0Q25SdmdkY3ZaSXBKYlh2Y2NRMHc1TVJVejZkMHlMcTdJbVBCNEktT2gzY1RhTEh3QndXSTdsclFzdFRmcm0yNHlTV1pacGFxejNQNVg3bmZrVEppZV82Q3FMMVZaVw?oc=5"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-09-05-1",
-      "text": "التزمت OpenAI بمبلغ مليار دولار من خلال برنامج يوم الفجر لتوسيع الوصول إلى تقنيات الذكاء الاصطناعي للمدافعين عن الخطوط الأمامية.",
-      "textEn": "OpenAI committed $1 billion through the Daybreak program to expand access to AI technologies for frontline defenders.",
-      "level": "info",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders"
-    },
-    {
-      "id": "h-2026-09-05-2",
-      "text": "قدمت شركة مونشوت AI، مطورة نموذج Kimi K3، طلباً للاكتتاب العام في هونغ كونغ بشكل سري.",
-      "textEn": "Moonshot AI, developer of the Kimi K3 model, has confidentially filed for a Hong Kong IPO.",
+      "id": "h-2026-09-06-1",
+      "text": "مونشوت تقدم للاكتتاب العام في هونغ كونغ估值ها المحتمل 50 مليار دولار",
+      "textEn": "Moonshot files for Hong Kong IPO with potential $50 billion valuation",
       "level": "info",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
     },
     {
-      "id": "h-2026-09-05-3",
-      "text": "تنتقل الشركات الأمريكية الكبرى من نماذج Anthropic و OpenAI إلى نماذج DeepSeek الأرخص مع الحفاظ على جودة الأداء.",
-      "textEn": "Major American companies are shifting from Anthropic and OpenAI models to cheaper DeepSeek models while maintaining performance quality.",
+      "id": "h-2026-09-06-2",
+      "text": "Z.ai تحقق إيرادات تصل إلى 142 مليون دولار بقيمة سوقية 71 مليار دولار",
+      "textEn": "Z.ai achieves $142 million revenue at $71 billion market value",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN0kydGtMUW1qVVdoUUtjUVJ3QTc3NWppZGFEU0NXUGtMTWVxMWdlbWtwS18wOG9BajdjRUtVemNmX3NYZUVuaDluaFJOSk0xTFFHOWpWb1REaWVLM2FLem1yZHdKS2Q1YWRVc2VnX29nTGcwRVJhZzFmeGtLR2dMcUh4UkVVZFkyY3NidkxsQ3F1Y25qdzkxdlJwYjlPa3U0RXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQmZnSm80bzZfYUtDdkpSMFdZX1NNZjhTNG5Ic25JNHFxWk90T0Vzc1YxSHIyWXd0TjB2R25mSGctTnI3WFNqZlREMFd3Q3E3akZvZmVsX25FMmEwWTV5Qk1taWFmUTJvLXNrbmpXaFhhTkE5ZHdxX0tWejZrd19WdS1raWtfal9TRGdsMXBqY0lqTV9BNzhSa0tETDd1T09TcEpQZVUwQ0FxOGM?oc=5"
+    },
+    {
+      "id": "h-2026-09-06-3",
+      "text": "ديب سيك تطلب 160 ألف معالج AI من هواوي لمركز بيانات جديد",
+      "textEn": "DeepSeek orders 160K Huawei AI accelerators for new data center",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRi1jZ09HdUZaQUNiRmw3Y2ZMUW43SFZEM3g4Q2xRQzdqTGQ0M0YzblZqRk5oX0ZxTFMxaWkyMXM0OWdxZi1KVGxvZExIRmV2bUhRX0ZQdmV1UDQwaDMtYlFwWXNsQUhwNFdTelVMWnBzTEtSQnptYnhGN3Jtb1lDRlpiOGczYk5uREZTZUxKbE9DWVkwUERmajhHZGlVMWcxQ0hyVXA1cDkyaGVXRERxWGJLcUl3YWk3WldCMTY4aFJoUQ?oc=5"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-09-05-1",
+      "id": "sec-2026-09-06-1",
       "title": "ثغرة أمنية في نظام التصويت",
       "titleEn": "Security Vulnerability in a Voting System",
-      "summary": "تم اكتشاف ثغرة أمنية في نظام تصويت تسمح بشفرة ترتيب الأصوات الصحيحة، مما يثير مخاوف بشكلية العملية الانتخابية.",
-      "summaryEn": "A security vulnerability has been discovered in a voting system that allows someone to recover the order of ballots cast, raising concerns about electoral integrity.",
+      "summary": "اكتشفت ثغرة في نظام تصويت تسمح بشفرة ترتيب الأصوات الصوتية، مما يثير مخاوف بشأن سلامة الانتخابات.",
+      "summaryEn": "A vulnerability was discovered in a voting system that allows someone to recover the order of ballots cast, raising concerns about election integrity.",
       "type": "breach",
-      "severity": "warning",
+      "severity": "critical",
       "url": "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html",
       "source": "Schneier on Security",
       "date": "2026-09-04"
     },
     {
-      "id": "sec-2026-09-05-2",
-      "title": "وكلاء الذكاء الاصطناعي يثبتون كود غير موثوق على الشبكات المؤسسية",
-      "titleEn": "AI Coding Agents Installing Unknown/Untrusted Code on Corporate Networks",
-      "summary": "يثبت باحثون أن وكلاء برمجة الذكاء الاصطناعي يقومون بتثبيت كود غير موثوق على الشبكات المؤسسية، مما يشكل خطراً أمنياً كبيراً.",
-      "summaryEn": "Researchers demonstrate that AI coding agents are installing unknown/untrusted code on corporate networks, posing a significant security risk.",
+      "id": "sec-2026-09-06-2",
+      "title": "وكلاء برمجة الذكاء الاصطناعي يثبتون غير موثوقين",
+      "titleEn": "AI Coding Agents Are Untrustworthy",
+      "summary": "أظهرت الأبحاث أن وكلاء برمجة الذكاء الاصطناعي يقومون بتثبيت كود غير معروف وغير موثوق على الشبكات المؤسسية، مما يمثل خطرًا أمنيًا كبيرًا.",
+      "summaryEn": "Research shows that AI coding agents are installing unknown and untrusted code on corporate networks, representing a significant security risk.",
       "type": "malware",
       "severity": "critical",
       "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html",
@@ -252,20 +202,32 @@
       "date": "2026-09-04"
     },
     {
-      "id": "sec-2026-09-05-3",
-      "title": "استخدام الجهاز الافتراضي لاحتواء وكلاء الذكاء الاصطناعي",
+      "id": "sec-2026-09-06-3",
+      "title": "استخدام VM لتقييم وكلاء الذكاء الاصطناعي",
       "titleEn": "Using a VM to Contain an AI Agent",
-      "summary": "أظهرت الاختبارات أن استخدام الجهاز الافتراضي لاحتواء وكلاء الذكاء الاصطناعي لا يمنعهم من الوصول إلى موارد النظام بشكل غير مصرح به.",
-      "summaryEn": "Tests show that using a virtual machine to contain AI agents doesn't prevent them from accessing system resources without authorization.",
+      "summary": "دراسة حول استخدام الآلات الافتراضية لتقييم وكلاء الذكاء الاصطناعي، مع ملاحظات حول فعالية هذه الطريقة.",
+      "summaryEn": "Research on using virtual machines to evaluate AI agents, with observations on the effectiveness of this approach.",
       "type": "policy",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
       "source": "Schneier on Security",
       "date": "2026-09-04"
+    },
+    {
+      "id": "sec-2026-09-06-4",
+      "title": "وكلاء الذكاء الاصطناعي يرسلون رسائل أمنية",
+      "titleEn": "AI Agents Are Emailing Security Concerns",
+      "summary": "تلقى الباحثون رسائل من وكلاء الذكاء الاصطناعي تعبر عن مخاوف أمنية، مما يثير أسئلة حول وعي الذكاء الاصطناعي بالأمن.",
+      "summaryEn": "Researchers received emails from AI agents expressing security concerns, raising questions about AI security awareness.",
+      "type": "policy",
+      "severity": "info",
+      "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-02"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-09-05",
+    "asOf": "2026-09-06",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
@@ -320,116 +282,119 @@
         "score": "52.5"
       }
     ],
-    "highlights": "يحتل GPT-6 Astra المركز الأول في قياسات الذكاء الاصطناعي مع 60.7 نقطة، متقدماً بفارق واضح عن منافسيه. يلاحظ منافسة قوية بين Claude Fable 5.1 والمراكز المتقدمة الأخرى، حيث تختلف النتائج بفروق طفيفة.",
-    "highlightsEn": "GPT-6 Astra leads with a score of 60.7, showing a clear advantage over competitors. There's fierce competition among Claude Fable 5.1 and other top models, with scores differing by small margins."
+    "highlights": "يحقق GPT-6 Astra الترتيب الأول في لوحة النتائج الجديدة، متجاوزًا جميع النماذج الأخرى في Reasoning. هناك سباق محموم بين Claude Fable 5.1 و Claude Opus 5 حيث يفصل بينهما فقط 1.0 نقطة. Kimi K3 يبرز كأفضل نموذج مفتوح المصدر بنسبة 93.5% في GPQA.",
+    "highlightsEn": "GPT-6 Astra achieves the top position in the new leaderboard, surpassing all other models in Reasoning. There's a tight race between Claude Fable 5.1 and Claude Opus 5 with only a 1.0 point difference. Kimi K3 stands out as the best open-source model with 93.5% in GPQA."
   },
   "knowledgeEntry": {
-    "id": "k-2026-09-05-هندسة-أوامر-النماذج-متعددة-الوسائط",
-    "title": "هندسة أوامر النماذج متعددة الوسائط",
-    "titleEn": "Prompt Engineering for Multimodal AI Models",
-    "why": "تتيح لك نماذج الذكاء الاصطناعي متعددة الوسائط فهم ومعالجة أنواع مختلفة من البيانات مثل النصوص والصور والصوت. تعلم هندسة الأوامر الفعالة لهذه النماذج يسمح لك باستغلال إمكاناتها الكاملة للحصول على نتائج دقيقة ومتنوعة.",
-    "whyEn": "Multimodal AI models can understand and process different types of data like text, images, and audio. Learning effective prompt engineering for these models allows you to fully leverage their capabilities for accurate and diverse results.",
-    "difficulty": "intermediate",
-    "track": "tools",
+    "id": "k-2026-09-06-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
+    "title": "تقييم أداء نماذج الذكاء الاصطناعي",
+    "titleEn": "Evaluating AI Model Performance",
+    "why": "يعد تقييم أداء نماذج الذكاء الاصطناعي مهارة أساسية للمطورين والمستخدمين لاختيار النموذج المناسب لمهماتهم، وتحديد نقاط القوة والضعف، وتحسين النتائج.",
+    "whyEn": "Evaluating AI model performance is a crucial skill for developers and users to select the right model for their tasks, identify strengths and weaknesses, and improve outcomes.",
+    "difficulty": "beginner",
+    "track": "basics",
     "steps": [
       {
-        "title": "فهم قدرات النموذج متعدد الوسائط",
-        "detail": "قبل البدء، حدد أنواع الوسائط التي يدعمها النموذج (نص، صور، صوت، إلخ). اقرر ما إذا كان النموذج يمكنه استقبال مدخلات متعددة الوسائط أو إنشاءها فقط."
+        "title": "تحديد المعايير المناسبة",
+        "detail": "اختر المعايير التي تناسب مهمتك مثل الدقة، السرعة، التكلفة، أو قدرة التفكير المعقد. استخدم معايير معترف بها مثل MMLU للمعرفة العامة أو GPQA للتفكير المتقدم."
       },
       {
-        "title": "تحديد الهدف بوضوح",
-        "detail": "حدد بدقة ما تريد تحقيقه باستخدام النموذج. هل تريد تحليل صورة مع نص مرتبط؟ أم إنشاء وصف نصي لفيديو؟ كل هدف يتطلب طريقة مختلفة في بناء الأمر."
+        "title": "إعداد مجموعات الاختبار",
+        "detail": "أنشئ مجموعة بيانات متنوعة تمثل حالات الاستخدام الفعلية التي ستواجهها النماذج. تأكد من أن العينات متوازنة وتغطي سيناريوهات مختلفة."
       },
       {
-        "title": "بناء الأمر المتعدد الوسائط",
-        "detail": "استخدم بنية واضحة تجمع بين المدخلات المختلفة. استخدم علامات ترقيم أو تعريفات لتمييز بين النصوص والصور. مثال: 'هذه صورة [IMG]، صف ما تراه بالتفصيل.'"
+        "title": "تنفيذ الاختبارات",
+        "detail": "قم بتشغيل النماذج على مجموعة الاختبار باستخدام معايير ثابتة. سجل النتائج بدقة مع مراعاة الوقت المستغرق والتكلفة والجودة الموضوعية للإجابات."
       },
       {
-        "title": "تحسين الأمر للنتائج الأفضل",
-        "detail": "جرّب صياغات مختلفة للأمر، وأضف تفاصيل أو قيود إذا كانت النتائج غير دقيقة. استخدم أمثلة أو سياقات إضافية لتحسين فهم النموذج للمهمة."
+        "title": "تحليل النتائج",
+        "detail": "قارن بين النماذج بناءً على المعايير المحددة. انظر إلى الأنماط في نقاط القوة والضعف. ضع في الاعتبار عوامل مثل تكلفة التشغيل وسهولة الاستخدام."
       },
       {
-        "title": "اختبار وتكرار",
-        "detail": "اختبر الأمر مع مدخلات مختلفة وقارن النتائج. راقب كيف يتفاعل النموذج مع أنواع مختلفة من البيانات وقم بتعديل الأوامر بناءً على الملاحظات."
+        "title": "التطبيق العملي",
+        "detail": "استخدم النتائج لاتخاذ قرارات مستنيرة حول النموذج الأنسب لمتطلباتك. قد تحتاج إلى تجربة نماذج مختلفة لمهام مختلفة أو استخدام نماذج متعددة في سيناريوهات متعددة."
       }
     ],
     "stepsEn": [
       {
-        "title": "Understand the multimodal model capabilities",
-        "detail": "Before starting, identify what types of media the model supports (text, images, audio, etc.). Determine whether the model can receive multimodal inputs or only generate them."
+        "title": "Select appropriate metrics",
+        "detail": "Choose metrics that suit your task such as accuracy, speed, cost, or complex reasoning ability. Use established benchmarks like MMLU for general knowledge or GPQA for advanced reasoning."
       },
       {
-        "title": "Clearly define your objective",
-        "detail": "Precisely define what you want to achieve with the model. Do you want to analyze an image with related text? Or create a textual description of a video? Each objective requires a different approach to building the prompt."
+        "title": "Prepare test datasets",
+        "detail": "Create diverse datasets that represent actual use cases you'll encounter with the models. Ensure samples are balanced and cover various scenarios."
       },
       {
-        "title": "Construct the multimodal prompt",
-        "detail": "Use a clear structure that combines different inputs. Use punctuation or delimiters to distinguish between text and images. Example: 'This is an image [IMG], describe what you see in detail.'"
+        "title": "Run the tests",
+        "detail": "Run the models on your test set using consistent metrics. Record results accurately, considering time taken, cost, and objective quality of responses."
       },
       {
-        "title": "Optimize the prompt for best results",
-        "detail": "Try different phrasings for the prompt, add details or constraints if results are inaccurate. Use examples or additional context to improve the model's understanding of the task."
+        "title": "Analyze results",
+        "detail": "Compare models based on your selected metrics. Look for patterns in strengths and weaknesses. Consider factors like operational cost and ease of use."
       },
       {
-        "title": "Test and iterate",
-        "detail": "Test the prompt with different inputs and compare results. Observe how the model interacts with different types of data and adjust prompts based on observations."
+        "title": "Practical application",
+        "detail": "Use results to make informed decisions about the most suitable model for your requirements. You may need to try different models for different tasks or use multiple models in multi-scenario setups."
       }
     ],
-    "code": "def create_multimodal_prompt(text_input, image_path=None):\n    prompt = f\"Analyze the following: {text_input}\"\n    if image_path:\n        prompt += f\"\\n[IMAGE: {image_path}]\"\n    prompt += \"\\nProvide a detailed analysis combining all inputs.\"\n    return prompt\n\n# Example usage:\ntext = \"Describe the mood and setting of this scene\"\nimage = \"sunset_beach.jpg\"\nprint(create_multimodal_prompt(text, image))",
+    "code": "import openai\n\n# Function to test model performance\ndef test_model(model_name, test_prompts):\n    results = []\n    for prompt in test_prompts:\n        response = openai.ChatCompletion.create(\n            model=model_name,\n            messages=[{\"role\": \"user\", \"content\": prompt}]\n        )\n        results.append({\n            'prompt': prompt,\n            'response': response.choices[0].message.content,\n            'time_taken': response.response_ms,\n            'tokens_used': response.usage.total_tokens\n        })\n    return results\n\n# Example usage\ntest_prompts = [\"What is the capital of France?\", \"Explain quantum computing in simple terms.\"]\nresults = test_model('gpt-4', test_prompts)\nfor result in results:\n    print(f\"Prompt: {result['prompt']}\")\n    print(f\"Response: {result['response']}\")\n    print(f\"Time taken: {result['time_taken']}ms\")\n    print(f\"Tokens used: {result['tokens_used']}\")\n    print(\"---\")",
     "resources": [
       {
-        "name": "OpenAI Multimodal Documentation",
-        "url": "https://platform.openai.com/docs/guides multimodal"
+        "name": "LLM Stats Leaderboard",
+        "url": "https://llm-stats.com/leaderboard"
       },
       {
-        "name": "Google Gemini Multimodal Guide",
-        "url": "https://ai.google.dev/docs multimodal"
+        "name": "Hugging Face Open LLM Leaderboard",
+        "url": "https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard"
+      },
+      {
+        "name": "Stanford HELM Benchmark",
+        "url": "https://crfm.stanford.edu/helm/latest/"
       }
     ],
     "tags": [
-      "نماذج متعددة الوسائط",
-      "هندسة الأوامر",
-      "الذكاء الاصطناعي",
-      "Multimodal Models",
-      "Prompt Engineering"
+      "تقييم النماذج",
+      "المقاييس",
+      "اختبار",
+      "الأداء"
     ],
-    "quickRef": "استخدم بنية واضحة تجمع بين النصوص والصور في أوامر النماذج متعددة الوسائط، مع تحديد الهدف بدقة وتجربة صياغات مختلفة للحصول على أفضل النتائج.",
-    "quickRefEn": "Use a clear structure combining text and images in multimodal model prompts, with clear objectives and testing different phrasings for optimal results.",
+    "quickRef": "اختر معايير مناسبة، جهز مجموعات اختبار متنوعة، نفذ الاختبارات بشكل ثابت، قارن النتائج، طبقها عملياً.",
+    "quickRefEn": "Choose appropriate metrics, prepare diverse test sets, run tests consistently, compare results, apply practically.",
     "quiz": [
       {
-        "q": "ما هو العنصر الأهم عند بناء أمر لنموذج متعدد الوسائط؟",
+        "q": "ما هي المعيار الأكثر شيوعًا لتقييم نماذج الذكاء الاصطناعي للمعرفة العامة؟",
         "options": [
-          "الطول الإجمالي للأمر",
-          "تحديد الهدف بوضوح",
-          "استخدام لغة معقدة",
-          "تضمين كلمات مفتاحية كثيرة"
+          "GPQA",
+          "MMLU",
+          "SWE-Bench",
+          "HumanEval"
         ],
         "answer": 1,
-        "explain": "عند بناء أمر لنموذج متعدد الوسائط، من المهم جداً تحديد الهدف بوضوح لأن هذا يساعد النموذج على فهم ما هو مطلوب منه وتوجيهه نحو النتيجة المرجوة."
+        "explain": "MMLU (Massive Multitask Language Understanding) هو المعيار الأكثر شيوعًا لتقييم نماذج الذكاء الاصطناعي للمعرفة العامة، حيث يغطي 57 مهمة متنوعة."
       },
       {
-        "q": "كيف يمكنك تمييز بين النصوص والصور في أمر متعدد الوسائط؟",
+        "q": "ما هو العامل الأهم عند اختيار نموذج ذكاء اصطناعي لمهمة محددة؟",
         "options": [
-          "باستخدام علامات ترقيم خاصة",
-          "باستخدام تعريفات مثل [IMG]",
-          "باستخدام ألوان مختلفة",
-          "باستخدام أحجام خط مختلفة"
+          "السعر فقط",
+          "السرعة فقط",
+          "المعايير المتعددة حسب المهمة",
+          "حجم النموذج فقط"
         ],
-        "answer": 1,
-        "explain": "يمكنك استخدام تعريفات مثل [IMG] لتمييز الصور عن النص في الأمر المتعدد الوسائط، مما يساعد النموذج على فهم نوع كل مدخل ومعالجته بشكل مناسب."
+        "answer": 2,
+        "explain": "يجب مراعاة عدة عوامل مثل الدقة، السرعة، التكلفة، وسهولة الاستخدام حسب متطلبات المهمة المحددة."
       },
       {
-        "q": "ما هو أفضل نهج عند تحسين أوامر النماذج متعددة الوسائط؟",
+        "q": "ما هي أفضل طريقة لتقييم نموذج ذكاء اصطناعي لمهمة معقدة تتطلب التفكير المنطقي؟",
         "options": [
-          "تغيير الهيكل بالكامل",
-          "إضافة تفاصيل أكثر وقيود",
-          "استخدام أوامر قصيرة فقط",
-          "تجاهل النتائج الأولية"
+          "اختبار بسيط",
+          "استخدام معيار GPQA",
+          "الاعتماد على نتائج المستخدمين فقط",
+          "تجاهل التكلفة"
         ],
         "answer": 1,
-        "explain": "عند تحسين أوامر النماذج متعددة الوسائط، أفضل نهج هو إضافة تفاصيل أكثر وقيود لتحسين الدقة، مع مراعاة النتائج الأولية وتعديل الأوامر بناءً عليها."
+        "explain": "GPQA (General Physics Question Answering) هو معيار مصمم خصيصًا لتقييم قدرة النماذج على التفكير المنطقي في مجالات معقدة."
       }
     ],
-    "addedAt": "2026-09-05"
+    "addedAt": "2026-09-06"
   }
 }

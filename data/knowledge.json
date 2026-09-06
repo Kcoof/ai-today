@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-06-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
+      "title": "تقييم أداء نماذج الذكاء الاصطناعي",
+      "titleEn": "Evaluating AI Model Performance",
+      "why": "يعد تقييم أداء نماذج الذكاء الاصطناعي مهارة أساسية للمطورين والمستخدمين لاختيار النموذج المناسب لمهماتهم، وتحديد نقاط القوة والضعف، وتحسين النتائج.",
+      "whyEn": "Evaluating AI model performance is a crucial skill for developers and users to select the right model for their tasks, identify strengths and weaknesses, and improve outcomes.",
+      "difficulty": "beginner",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "تحديد المعايير المناسبة",
+          "detail": "اختر المعايير التي تناسب مهمتك مثل الدقة، السرعة، التكلفة، أو قدرة التفكير المعقد. استخدم معايير معترف بها مثل MMLU للمعرفة العامة أو GPQA للتفكير المتقدم."
+        },
+        {
+          "title": "إعداد مجموعات الاختبار",
+          "detail": "أنشئ مجموعة بيانات متنوعة تمثل حالات الاستخدام الفعلية التي ستواجهها النماذج. تأكد من أن العينات متوازنة وتغطي سيناريوهات مختلفة."
+        },
+        {
+          "title": "تنفيذ الاختبارات",
+          "detail": "قم بتشغيل النماذج على مجموعة الاختبار باستخدام معايير ثابتة. سجل النتائج بدقة مع مراعاة الوقت المستغرق والتكلفة والجودة الموضوعية للإجابات."
+        },
+        {
+          "title": "تحليل النتائج",
+          "detail": "قارن بين النماذج بناءً على المعايير المحددة. انظر إلى الأنماط في نقاط القوة والضعف. ضع في الاعتبار عوامل مثل تكلفة التشغيل وسهولة الاستخدام."
+        },
+        {
+          "title": "التطبيق العملي",
+          "detail": "استخدم النتائج لاتخاذ قرارات مستنيرة حول النموذج الأنسب لمتطلباتك. قد تحتاج إلى تجربة نماذج مختلفة لمهام مختلفة أو استخدام نماذج متعددة في سيناريوهات متعددة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select appropriate metrics",
+          "detail": "Choose metrics that suit your task such as accuracy, speed, cost, or complex reasoning ability. Use established benchmarks like MMLU for general knowledge or GPQA for advanced reasoning."
+        },
+        {
+          "title": "Prepare test datasets",
+          "detail": "Create diverse datasets that represent actual use cases you'll encounter with the models. Ensure samples are balanced and cover various scenarios."
+        },
+        {
+          "title": "Run the tests",
+          "detail": "Run the models on your test set using consistent metrics. Record results accurately, considering time taken, cost, and objective quality of responses."
+        },
+        {
+          "title": "Analyze results",
+          "detail": "Compare models based on your selected metrics. Look for patterns in strengths and weaknesses. Consider factors like operational cost and ease of use."
+        },
+        {
+          "title": "Practical application",
+          "detail": "Use results to make informed decisions about the most suitable model for your requirements. You may need to try different models for different tasks or use multiple models in multi-scenario setups."
+        }
+      ],
+      "code": "import openai\n\n# Function to test model performance\ndef test_model(model_name, test_prompts):\n    results = []\n    for prompt in test_prompts:\n        response = openai.ChatCompletion.create(\n            model=model_name,\n            messages=[{\"role\": \"user\", \"content\": prompt}]\n        )\n        results.append({\n            'prompt': prompt,\n            'response': response.choices[0].message.content,\n            'time_taken': response.response_ms,\n            'tokens_used': response.usage.total_tokens\n        })\n    return results\n\n# Example usage\ntest_prompts = [\"What is the capital of France?\", \"Explain quantum computing in simple terms.\"]\nresults = test_model('gpt-4', test_prompts)\nfor result in results:\n    print(f\"Prompt: {result['prompt']}\")\n    print(f\"Response: {result['response']}\")\n    print(f\"Time taken: {result['time_taken']}ms\")\n    print(f\"Tokens used: {result['tokens_used']}\")\n    print(\"---\")",
+      "resources": [
+        {
+          "name": "LLM Stats Leaderboard",
+          "url": "https://llm-stats.com/leaderboard"
+        },
+        {
+          "name": "Hugging Face Open LLM Leaderboard",
+          "url": "https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard"
+        },
+        {
+          "name": "Stanford HELM Benchmark",
+          "url": "https://crfm.stanford.edu/helm/latest/"
+        }
+      ],
+      "tags": [
+        "تقييم النماذج",
+        "المقاييس",
+        "اختبار",
+        "الأداء"
+      ],
+      "quickRef": "اختر معايير مناسبة، جهز مجموعات اختبار متنوعة، نفذ الاختبارات بشكل ثابت، قارن النتائج، طبقها عملياً.",
+      "quickRefEn": "Choose appropriate metrics, prepare diverse test sets, run tests consistently, compare results, apply practically.",
+      "quiz": [
+        {
+          "q": "ما هي المعيار الأكثر شيوعًا لتقييم نماذج الذكاء الاصطناعي للمعرفة العامة؟",
+          "options": [
+            "GPQA",
+            "MMLU",
+            "SWE-Bench",
+            "HumanEval"
+          ],
+          "answer": 1,
+          "explain": "MMLU (Massive Multitask Language Understanding) هو المعيار الأكثر شيوعًا لتقييم نماذج الذكاء الاصطناعي للمعرفة العامة، حيث يغطي 57 مهمة متنوعة."
+        },
+        {
+          "q": "ما هو العامل الأهم عند اختيار نموذج ذكاء اصطناعي لمهمة محددة؟",
+          "options": [
+            "السعر فقط",
+            "السرعة فقط",
+            "المعايير المتعددة حسب المهمة",
+            "حجم النموذج فقط"
+          ],
+          "answer": 2,
+          "explain": "يجب مراعاة عدة عوامل مثل الدقة، السرعة، التكلفة، وسهولة الاستخدام حسب متطلبات المهمة المحددة."
+        },
+        {
+          "q": "ما هي أفضل طريقة لتقييم نموذج ذكاء اصطناعي لمهمة معقدة تتطلب التفكير المنطقي؟",
+          "options": [
+            "اختبار بسيط",
+            "استخدام معيار GPQA",
+            "الاعتماد على نتائج المستخدمين فقط",
+            "تجاهل التكلفة"
+          ],
+          "answer": 1,
+          "explain": "GPQA (General Physics Question Answering) هو معيار مصمم خصيصًا لتقييم قدرة النماذج على التفكير المنطقي في مجالات معقدة."
+        }
+      ],
+      "addedAt": "2026-09-06"
+    },
+    {
       "id": "k-2026-09-05-هندسة-أوامر-النماذج-متعددة-الوسائط",
       "title": "هندسة أوامر النماذج متعددة الوسائط",
       "titleEn": "Prompt Engineering for Multimodal AI Models",
