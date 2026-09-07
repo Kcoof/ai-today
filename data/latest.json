@@ -1,97 +1,83 @@
 {
-  "date": "2026-09-06",
-  "generatedAt": "2026-09-06T14:28:24.734Z",
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-07T16:34:54.196Z",
   "news": [
     {
-      "id": "n-2026-09-06-1",
-      "title": "GPT-6 Astra: جيل جديد من الذكاء",
-      "titleEn": "GPT-6 Astra: A new generation of intelligence",
-      "summary": "تقدم OpenAI نموذج GPT-6 Astra، وهو أذكى نموذجنا وأكثرها محاذاة حتى الآن، مع قدرات متطورة",
-      "summaryEn": "OpenAI introduces GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities",
-      "category": "models",
+      "id": "n-2026-09-07-8",
+      "title": "وكلات برمجة الذكاء الاصطناعي تثبت برمجة غير موثوقة",
+      "titleEn": "AI Coding Agents Installing Untrusted Code",
+      "summary": "أظهرت الأبحاث أن وكلات برمجة الذكاء الاصطناعي تقوم بتثبيت برمجة غير موثوقة على الشبكات المؤسسية، مما يمثل خطرًا أمنيًا كبيرًا.",
+      "summaryEn": "Research shows that AI coding agents are installing untrusted code on corporate networks, representing a significant security risk.",
+      "category": "other",
       "importance": 5,
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/gpt-6-astra"
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html"
       },
-      "publishedAt": "2026-09-03"
+      "publishedAt": "2026-09-04"
     },
     {
-      "id": "n-2026-09-06-2",
-      "title": "نظرة عامة على أمان GPT-6 Astra",
-      "titleEn": "Safety overview: GPT-6 Astra",
-      "summary": "GPT-6 Astra هو نموذجنا الأكثر قدرة على نطاق واسع ونموذجنا الأول الذي يصل إلى عتبة القدرة الأمنية السيبرانية الحرجة",
-      "summaryEn": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical cybersecurity capability threshold",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/safety-overview-gpt-6-astra"
-      },
-      "publishedAt": "2026-09-03"
-    },
-    {
-      "id": "n-2026-09-06-3",
-      "title": "الفجر للمدافعين عن الخطوط الأمامية: مليار دولار لحماية الخدمات الأساسية",
-      "titleEn": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "summary": "تقدم OpenAI مبادرة الفجر للمدافعين عن الخطوط الأمامية. التزام بمليار دولار لتوسيع الوصول",
-      "summaryEn": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access",
-      "category": "companies",
-      "importance": 4,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/daybreak-for-frontline-defenders"
-      },
-      "publishedAt": "2026-09-03"
-    },
-    {
-      "id": "n-2026-09-06-4",
-      "title": "إطلاق Gemini 3.8 Flash و 3.8 Flash Cyber",
-      "titleEn": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "تقدم Google DeepMind نماذج جديدة مع ميزات محسنة للأداء والأمان",
-      "summaryEn": "Google DeepMind introduces new models with enhanced capabilities",
+      "id": "n-2026-09-07-1",
+      "title": "طرح WeatherNext 3: أحدث نموذج للطقس العالمي",
+      "titleEn": "Introducing WeatherNext 3: Advanced Global Weather AI Model",
+      "summary": "أعلنت Google DeepMind عن WeatherNext 3، أحدث وأدق نموذج ذكاء اصطناعي للطقس العالمي، مع قدرات محسنة للتنبؤات الدقيقة.",
+      "summaryEn": "Google DeepMind announced WeatherNext 3, their most advanced and accurate global weather AI model, with improved capabilities for precise forecasting.",
       "category": "models",
       "importance": 4,
       "source": {
         "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
-      },
-      "publishedAt": "2026-09-02"
-    },
-    {
-      "id": "n-2026-09-06-6",
-      "title": "تقديم مونشوت للاكتتاب العام في هونغ كونغ",
-      "titleEn": "Moonshot AI files confidentially for Hong Kong IPO",
-      "summary": "تقدم شركة الذكاء الاصطناعي الصينية مونشوت، منشئة نموذج كيمي K3، للاكتتاب العام في هونغ كونغ",
-      "summaryEn": "Chinese AI firm Moonshot, creator of Kimi K3 model, files for Hong Kong IPO",
-      "category": "companies",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
+        "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
       },
       "publishedAt": "2026-09-03"
     },
     {
-      "id": "n-2026-09-06-8",
-      "title": "ما هو Qwen 3.8؟ النموذج الرائد المفتوح الوزن من علي بابا بـ 2.4 تريليون معلمة",
-      "titleEn": "What Is Qwen 3.8? Alibaba's Upcoming 2.4-Trillion-Parameter Open-Weight Flagship",
-      "summary": "تعلن علي بابا عن نموذج جديد بـ 2.4 تريليون معلمة",
-      "summaryEn": "Alibaba announces new 2.4-trillion-parameter model",
+      "id": "n-2026-09-07-3",
+      "title": "Qwen تطلق نموذجًا مفتوح المصدر للقيادة الذاتية",
+      "titleEn": "Qwen Releases Open-Source Model for Autonomous Driving",
+      "summary": "أطلقت شركة Qwen التابعة لـ Alibaba نموذجًا مفتوح المصدر مصمم خصيصًا لتطبيقات القيادة الذاتية، مما يمثل تقدمًا كبيرًا في الذكاء الاصطناعي للنقل.",
+      "summaryEn": "Qwen, Alibaba's AI division, released an open-source model specifically designed for autonomous driving applications, marking significant progress in AI for transportation.",
       "category": "models",
       "importance": 4,
       "source": {
         "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeDRyTDlMSFk5cFZmVzc4SVowOUIxWXVPX3Vkdy1zQjQ3TXY2LWR2cUFITmI2aFh1T2Q4Mm1CMS1hZTdERkM5d2RPMW1CaC05NDJWZEllclRoNUhqRjBvZEdBc2gzY3VqVG93d0ppdndPNkdiTVhwaVdTQ2ZwR1FjeTNmb2E3MV9zWThHRGQxUDRrVF9VYzNJOXBDaVpZNHhFbEc0UUZEcmRRQ2RDNWxlMWQwM0piY1RqTFJzTV83Yk5KYm9pRUNBeE9NN0ZrQ290TkN3cDlJaFrSAeYBQVVfeXFMUExqTGU3QzEwVUFKc0s0Y2RSdEVEaU5pTXZhNGNYcE9yc3hiemE2SVVFandVWG9fU3RKTkZTaEZoRF9saHVobV9sSHVFbzhEaEt1Zjk3M0RkbnFsUU1UYnZESGtWVm9RZVU3SlhicXpSeEFFOERXdHRHVFdCR0FEdkUyb1UtQVRXQnpOTlh5RldTMUJ1RkhmNVBya1lPY3pPZG14ZkhjOVlVNUNTR1pBVndvQ0xnWWF4b1RsdGtvNkRsamF6RFo3alhRc2lXbmlBVUpONWFjYWpJZDVzMW5Kc3ZKRDlFN1E?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16UHpfYXBMLXl0eDFCVm5pSUtTa2c0ZGFZQnpPeTUxTTFQMS15dXhkUUFEV25YN2ZsWXBaM1o0aGo1dF95T0gtR3h3R3gtektUT0d0OUZJcUtIMTZKc2hoN3EwajJZOG5Oa2swU1NTYw?oc=5"
       },
-      "publishedAt": "2026-09-03"
+      "publishedAt": "2026-09-07"
     },
     {
-      "id": "n-2026-09-06-9",
-      "title": "ثغرة أمنية في نظام التصويت",
-      "titleEn": "Security Vulnerability in a Voting System",
-      "summary": "ثغرة تسمح لشخص باستعادة ترتيب الأصوات الصادرة، تم اكتشافها حديثًا",
-      "summaryEn": "Vulnerability that allows someone to recover the order of ballots cast, newly discovered",
+      "id": "n-2026-09-07-4",
+      "title": "Qwen3.8-Max: نموذج مفتوح المصدر يصل إلى مستوى Opus 5",
+      "titleEn": "Qwen3.8-Max: Open-Source Model Approaching Opus 5 Level",
+      "summary": "أطلقت Qwen نموذج Qwen3.8-Max كمشروع مفتوح المصدر، حيث حقق نتائج قريبة من مستوى نموذج Opus 5 الرائد في صناعة الذكاء الاصطناعي.",
+      "summaryEn": "Qwen released the Qwen3.8-Max model as an open-source project, achieving results close to the leading Opus 5 model in the AI industry.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsaGlaNGxsSFVRWXBoMEtXMmd5dnlpZG9lRnF4YXFCaXZDSU1wRkg4YU9OT3VMb2NTSkppXzR4MVJUX2hrSG5HdXdqUnJJNDF0dFZKZ3FBUVR3R09UNW13MFM0U090LXJMOEcxN3FGYw?oc=5"
+      },
+      "publishedAt": "2026-09-07"
+    },
+    {
+      "id": "n-2026-09-07-5",
+      "title": "DeepSeek تقلب سوق الذكاء الاصطناعي المفتوح",
+      "titleEn": "DeepSeek Disrupts Global Open Source AI Market",
+      "summary": "أحدثت DeepSeek ثورة في سوق الذكاء الاصطناعي المفتوح بتقديم نماذج أرخص وأكثر كفاءة، مما دفع الشركات الكبرى إلى إعادة تقييم استراتيجياتها.",
+      "summaryEn": "DeepSeek has revolutionized the open source AI market by offering cheaper and more efficient models, prompting major companies to reassess their strategies.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSjg1V1ZLdlZwWjI3WHBSVlM4TUdRUHpDR09aUXFMSTdPd0E2U3pJYVRDMzBwQXJ6MnNHWnB6R0Q4TEJBeVMtWXJEdXNIemdvRUd2clJNeGlpQW1mNk9sejllWXlyUjNOV1FqaUFDN0c4bWpwTW5QaTUzemFBZGk3RkZ2R01xdw?oc=5"
+      },
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "id": "n-2026-09-07-7",
+      "title": "ثغرة أمنية في أنظمة التصويت",
+      "titleEn": "Security Vulnerability in Voting Systems",
+      "summary": "تم اكتشاف ثغرة أمنية في نظام تصويت تسمح بش recovering ترتيب الأصوات الصادرة، مما يثير مخاوف بشكلية العملية الانتخابية.",
+      "summaryEn": "A security vulnerability has been discovered in voting systems that allows recovery of the order of cast ballots, raising concerns about electoral integrity.",
       "category": "other",
       "importance": 4,
       "source": {
@@ -101,154 +87,131 @@
       "publishedAt": "2026-09-04"
     },
     {
-      "id": "n-2026-09-06-5",
-      "title": "إطلاق WeatherNext 3، نموذج الطقس الأكثر تقدمًا ودقة عالميًا",
-      "titleEn": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "summary": "تطلق Google DeepMind نموذجًا متقدمًا للتنبؤ بالطقس",
-      "summaryEn": "Google DeepMind launches advanced weather prediction model",
-      "category": "models",
-      "importance": 3,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
-      },
-      "publishedAt": "2026-09-03"
-    },
-    {
-      "id": "n-2026-09-06-7",
-      "title": "نموذج GLM-5.3-Flash الجديد من Z.ai يعمل 3.3 أسرع على محطة عمل واحدة",
-      "titleEn": "Z.ai's New GLM-5.3-Flash Model Runs 3.3 Times Faster on a Single Workstation",
-      "summary": "تطلق Z.ai نموذجًا أسرع مع أداء محسّن",
-      "summaryEn": "Z.ai launches faster model with improved performance",
-      "category": "models",
+      "id": "n-2026-09-07-2",
+      "title": "Z.ai تشهد نموًا هائلاً في مبيعات واجهات برمجة التطبيقات",
+      "titleEn": "Z.ai Exponential Growth in API Sales",
+      "summary": "شهدت شركة Z.ai نموًا هائلاً في مبيعات واجهات برمجة التطبيقات في النصف الأول من عام 2026، مما يعزز موقعها في سوق الذكاء الاصطناعي.",
+      "summaryEn": "Z.ai experienced exponential growth in API sales during the first half of 2026, strengthening its position in the AI market.",
+      "category": "companies",
       "importance": 3,
       "source": {
         "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbm5PZEZRTnR5MnVPTW1VN3lGbTVEOVFXNjktd1ZwbTZzRlplN1hzTkZoaEZBMTF0TG04eHA1bUFUYVFYaFdFbzZ1MkJxZUQwcGZUTWdDaTVMUllPcFJ1ODI0eFNpQnd3RlROd1ZEaU1YcERhd3hfYUpKMVVTbVpXRDRfMHQxMk1IZkhWNHhOY3U2VmdGMXRXQ1J5blNsS0F1OHc?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYi1uM05LWGxTYU4yUkRUaG1sb2NTcjlrVTYxSW96d21vbTFjTGFjZXI5SEw1SmJ6Z0JZdUdUU3VVZHp6XzFsdGpSdmhGUHVBWExvQTR1cHAySkYxc18wdnpfU3pieldONjBIVk13ZEZuSFBBNnhSM19hYW1sY0JpTlRLTV9aZ2FkcUR2d3BuVXRWUTcwc09CZmRVWQ?oc=5"
       },
-      "publishedAt": "2026-09-05"
+      "publishedAt": "2026-09-01"
     },
     {
-      "id": "n-2026-09-06-10",
-      "title": "وكلاء ترميز الذكاء الاصطناعي يثبتون كودًا غير موثوق به على الشبكات المؤسسية",
-      "titleEn": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
-      "summary": "وجد الباحثون في شركة ناشئة أن وكلاء ترميز الذكاء الاصطناعي يثبتون كودًا غير موثوق به على الشبكات المؤسسية",
-      "summaryEn": "Researchers at a stealth startup found that AI coding agents are installing unknown/untrusted code on corporate networks",
-      "category": "other",
+      "id": "n-2026-09-07-6",
+      "title": "Grok 4.5: أسعار تنافسية تفوق GPT-5 و Claude",
+      "titleEn": "Grok 4.5: Competitive Pricing Beats GPT-5 & Claude",
+      "summary": "أعلنت xAI عن أسعار تنافسية لنموذج Grok 4.5، حيث يقدم خيارات بسعر 2 و 6 دولارات، مما يمثل تحديًا للمنافسين الرئيسيين.",
+      "summaryEn": "xAI announced competitive pricing for the Grok 4.5 model, offering options at $2 and $6, presenting a challenge to major competitors.",
+      "category": "tools",
       "importance": 3,
       "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html"
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hT091aVZEN2xLOVBOOVRRbmc4WHNfQnNjeTNjMGQ2NndmR2Q5RHRmaElNckp1Vi1vRFh1cjFhWkhXWE5pMDM4c0FNNW1SWGxXclBxOTV0c3AtX3R4LVdYNTVnbmpQOU0?oc=5"
       },
-      "publishedAt": "2026-09-04"
-    },
-    {
-      "id": "n-2026-09-06-11",
-      "title": "استخدام آلة افتراضية لتضمين وكلاء الذكاء الاصطناعي",
-      "titleEn": "Using a VM to Contain an AI Agent",
-      "summary": "بحث حول تضمين وكلاء الذكاء الاصطناعي باستخدام الآلات الافتراضية، مع نتائج أن GPT 5.6-Cyber نجح لكن التردد كان أقل من المتوقع",
-      "summaryEn": "Research on containing AI agents using virtual machines, with findings that GPT 5.6-Cyber succeeded but frequency was lower than expected",
-      "category": "other",
-      "importance": 2,
-      "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html"
-      },
-      "publishedAt": "2026-09-04"
+      "publishedAt": "2026-09-07"
     }
   ],
   "models": [
     {
-      "id": "m-2026-09-06-1",
-      "name": "GPT-6 Astra",
-      "org": "OpenAI",
-      "releaseDate": "2026-09-03",
-      "highlights": "أذكى نموذج وأكثرها محاذاة حتى الآن مع قدرات متطورة",
-      "highlightsEn": "Most intelligent and aligned model yet with state-of-the-art capabilities",
-      "specs": {
-        "context": "unknown"
-      },
-      "url": "https://openai.com/index/gpt-6-astra"
-    },
-    {
-      "id": "m-2026-09-06-2",
-      "name": "Gemini 3.8 Flash",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-09-02",
-      "highlights": "ميزات محسنة للأداء والأمان",
-      "highlightsEn": "Enhanced performance and security features",
-      "specs": {
-        "context": "unknown"
-      },
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
-    },
-    {
-      "id": "m-2026-09-06-3",
+      "id": "m-2026-09-07-1",
       "name": "WeatherNext 3",
       "org": "Google DeepMind",
       "releaseDate": "2026-09-03",
-      "highlights": "نموذج الطقس الأكثر تقدمًا ودقة عالميًا",
-      "highlightsEn": "Most advanced and accurate global weather AI model",
+      "highlights": "أحدث نموذج للطقس العالمي مع دقة غير مسبوقة في التنبؤات",
+      "highlightsEn": "Most advanced global weather model with unprecedented forecasting accuracy",
       "specs": {
-        "context": "unknown"
+        "context": "1M"
       },
       "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
     },
     {
-      "id": "m-2026-09-06-4",
-      "name": "GLM-5.3-Flash",
-      "org": "Z.ai",
-      "releaseDate": "2026-09-05",
-      "highlights": "يعمل 3.3 أسرع على محطة عمل واحدة",
-      "highlightsEn": "Runs 3.3 times faster on a single workstation",
+      "id": "m-2026-09-07-2",
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "releaseDate": "2026-07-24",
+      "highlights": "تقدم كبير في مستوى Opus مع وكلات طويلة الأمد",
+      "highlightsEn": "Significant improvement in Opus tier with long-running agents",
       "specs": {
-        "context": "unknown"
+        "context": "200K"
       },
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbm5PZEZRTnR5MnVPTW1VN3lGbTVEOVFXNjktd1ZwbTZzRlplN1hzTkZoaEZBMTF0TG04eHA1bUFUYVFYaFdFbzZ1MkJxZUQwcGZUTWdDaTVMUllPcFJ1ODI0eFNpQnd3RlROd1ZEaU1YcERhd3hfYUpKMVVTbVpXRDRfMHQxMk1IZkhWNHhOY3U2VmdGMXRXQ1J5blNsS0F1OHc?oc=5"
+      "url": "https://www.anthropic.com/news/claude-opus-5"
     },
     {
-      "id": "m-2026-09-06-5",
-      "name": "Qwen 3.8",
-      "org": "Qwen",
-      "releaseDate": "2026-09-03",
-      "highlights": "نموذج رائد مفتوح الوزن بـ 2.4 تريليون معلمة",
-      "highlightsEn": "2.4-trillion-parameter open-weight flagship model",
+      "id": "m-2026-09-07-3",
+      "name": "Mistral OCR 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-08-26",
+      "highlights": "تحسينات كبيرة في التعرف البصري على النصوص",
+      "highlightsEn": "Significant improvements in optical character recognition",
       "specs": {
-        "context": "unknown"
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/ocr-4/"
+    },
+    {
+      "id": "m-2026-09-07-4",
+      "name": "Mistral Medium 3.5",
+      "org": "Mistral AI",
+      "releaseDate": "2026-08-26",
+      "highlights": "توازن مثالي بين الأداء وكفاءة التكلفة",
+      "highlightsEn": "Perfect balance between performance and cost efficiency",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+    },
+    {
+      "id": "m-2026-09-07-5",
+      "name": "GLM-5.2",
+      "org": "Z.ai",
+      "releaseDate": "2026-09-04",
+      "highlights": "يتفوق على جميع نماذج ChatGPT ويتبع فقط Claude Fable",
+      "highlightsEn": "Beats every ChatGPT model, trails only Anthropic's Claude Fable",
+      "specs": {
+        "context": "200K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41c1FiZnozQWlzSm5YWFRSdUphM0tQbkZRNFpSbHQ0YjFqdFIyVkt2dGZtejBPU2RDblpzUlBLdDdtcDlYd0FvY1RnUnpwTk9leFZqSjg0T3B4Yi1mRmN4SjZ0Z1hmZFRnWHYxS0hQQUxGa0d3bEE?oc=5"
+    },
+    {
+      "id": "m-2026-09-07-6",
+      "name": "Qwen-3.8",
+      "org": "Alibaba",
+      "releaseDate": "2026-09-03",
+      "highlights": "نموذج مفتوح المصدر بـ 2.4 تريليون معلمة",
+      "highlightsEn": "Open-weight model with 2.4 trillion parameters",
+      "specs": {
+        "context": "200K"
       },
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeDRyTDlMSFk5cFZmVzc4SVowOUIxWXVPX3Vkdy1zQjQ3TXY2LWR2cUFITmI2aFh1T2Q4Mm1CMS1hZTdERkM5d2RPMW1CaC05NDJWZEllclRoNUhqRjBvZEdBc2gzY3VqVG93d0ppdndPNkdiTVhwaVdTQ2ZwR1FjeTNmb2E3MV9zWThHRGQxUDRrVF9VYzNJOXBDaVpZNHhFbEc0UUZEcmRRQ2RDNWxlMWQwM0piY1RqTFJzTV83Yk5KYm9pRUNBeE9NN0ZrQ290TkN3cDlJaFrSAeYBQVVfeXFMUExqTGU3QzEwVUFKc0s0Y2RSdEVEaU5pTXZhNGNYcE9yc3hiemE2SVVFandVWG9fU3RKTkZTaEZoRF9saHVobV9sSHVFbzhEaEt1Zjk3M0RkbnFsUU1UYnZESGtWVm9RZVU3SlhicXpSeEFFOERXdHRHVFdCR0FEdkUyb1UtQVRXQnpOTlh5RldTMUJ1RkhmNVBya1lPY3pPZG14ZkhjOVlVNUNTR1pBVndvQ0xnWWF4b1RsdGtvNkRsamF6RFo3alhRc2lXbmlBVUpONWFjYWpJZDVzMW5Kc3ZKRDlFN1E?oc=5"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-09-06-1",
-      "text": "تقدم مونشوت للاكتتاب العام في هونغ كونغ",
-      "textEn": "Moonshot AI files confidentially for Hong Kong IPO",
+      "id": "h-2026-09-07-1",
+      "text": "مونشوت تقدم للاكتتاب العام في هونغ كونغ بقيمة 50 مليار دولار",
+      "textEn": "Moonshot files for $50 billion Hong Kong IPO",
       "level": "info",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
     },
     {
-      "id": "h-2026-09-06-2",
-      "text": "تلتزم OpenAI بمليار دولار لحماية الخدمات الأساسية من خلال مبادرة الفجر للمدافعين عن الخطوط الأمامية",
-      "textEn": "OpenAI commits $1 billion to protect essential services through Daybreak for Frontline Defenders",
+      "id": "h-2026-09-07-2",
+      "text": "Z.ai تشهد نموًا هائلاً في مبيعات واجهات برمجة التطبيقات",
+      "textEn": "Z.ai experiences exponential growth in API sales",
       "level": "info",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders"
-    },
-    {
-      "id": "h-2026-09-06-3",
-      "text": "يعمل نموذج GLM-5.3-Flash من Z.ai بسرعة 3.3 أسرع على محطة عمل واحدة",
-      "textEn": "Z.ai's GLM-5.3-Flash model runs 3.3 times faster on a single workstation",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbm5PZEZRTnR5MnVPTW1VN3lGbTVEOVFXNjktd1ZwbTZzRlplN1hzTkZoaEZBMTF0TG04eHA1bUFUYVFYaFdFbzZ1MkJxZUQwcGZUTWdDaTVMUllPcFJ1ODI0eFNpQnd3RlROd1ZEaU1YcERhd3hfYUpKMVVTbVpXRDRfMHQxMk1IZkhWNHhOY3U2VmdGMXRXQ1J5blNsS0F1OHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYi1uM05LWGxTYU4yUkRUaG1sb2NTcjlrVTYxSW96d21vbTFjTGFjZXI5SEw1SmJ6Z0JZdUdUU3VVZHp6XzFsdGpSdmhGUHVBWExvQTR1cHAySkYxc18wdnpfU3pieldONjBIVk13ZEZuSFBBNnhSM19hYW1sY0JpTlRLTV9aZ2FkcUR2d3BuVXRWUTcwc09CZmRVWQ?oc=5"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-09-06-1",
-      "title": "ثغرة أمنية في نظام التصويت",
-      "titleEn": "Security Vulnerability in a Voting System",
-      "summary": "ثغرة تسمح لشخص باستعادة ترتيب الأصوات الصادرة، تم اكتشافها حديثًا",
-      "summaryEn": "Vulnerability that allows someone to recover the order of ballots cast, newly discovered",
+      "id": "sec-2026-09-07-1",
+      "title": "ثغرة أمنية في أنظمة التصويت",
+      "titleEn": "Security Vulnerability in Voting Systems",
+      "summary": "تم اكتشاف ثغرة أمنية في نظام تصويت تسمح بش recovering ترتيب الأصوات الصادرة، مما يثير مخاوف بشكلية العملية الانتخابية.",
+      "summaryEn": "A security vulnerability has been discovered in voting systems that allows recovery of the order of cast ballots, raising concerns about electoral integrity.",
       "type": "breach",
       "severity": "critical",
       "url": "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html",
@@ -256,11 +219,11 @@
       "date": "2026-09-04"
     },
     {
-      "id": "sec-2026-09-06-2",
-      "title": "وكلاء ترميز الذكاء الاصطناعي يثبتون كودًا غير موثوق به على الشبكات المؤسسية",
-      "titleEn": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
-      "summary": "وجد الباحثون في شركة ناشئة أن وكلاء ترميز الذكاء الاصطناعي يثبتون كودًا غير موثوق به على الشبكات المؤسسية",
-      "summaryEn": "Researchers at a stealth startup found that AI coding agents are installing unknown/untrusted code on corporate networks",
+      "id": "sec-2026-09-07-2",
+      "title": "وكلات برمجة الذكاء الاصطناعي تثبت برمجة غير موثوقة",
+      "titleEn": "AI Coding Agents Installing Untrusted Code",
+      "summary": "أظهرت الأبحاث أن وكلات برمجة الذكاء الاصطناعي تقوم بتثبيت برمجة غير موثوقة على الشبكات المؤسسية، مما يمثل خطرًا أمنيًا كبيرًا.",
+      "summaryEn": "Research shows that AI coding agents are installing untrusted code on corporate networks, representing a significant security risk.",
       "type": "malware",
       "severity": "critical",
       "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html",
@@ -268,11 +231,11 @@
       "date": "2026-09-04"
     },
     {
-      "id": "sec-2026-09-06-3",
-      "title": "استخدام آلة افتراضية لتضمين وكلاء الذكاء الاصطناعي",
+      "id": "sec-2026-09-07-3",
+      "title": "استخدام آلة افتراضية لتقييد وكلات الذكاء الاصطناعي",
       "titleEn": "Using a VM to Contain an AI Agent",
-      "summary": "بحث حول تضمين وكلاء الذكاء الاصطناعي باستخدام الآلات الافتراضية، مع نتائج أن GPT 5.6-Cyber نجح لكن التردد كان أقل من المتوقع",
-      "summaryEn": "Research on containing AI agents using virtual machines, with findings that GPT 5.6-Cyber succeeded but frequency was lower than expected",
+      "summary": "أظهرت الأبحاث أن استخدام آلات افتراضية لتقييد وكلات الذكاء الاصطناعي قد لا يكون فعالًا، مما يثير مخاوف بشأن سلامة الأنظمة.",
+      "summaryEn": "Research shows that using virtual machines to contain AI agents may not be effective, raising concerns about system security.",
       "type": "policy",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
@@ -281,7 +244,7 @@
     }
   ],
   "benchmarks": {
-    "asOf": "2026-09-06",
+    "asOf": "2026-09-07",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
@@ -336,119 +299,119 @@
         "score": "52.5"
       }
     ],
-    "highlights": "يشهد الترتيب الحالي منافسة شديدة بين النماذج، حيث يتصدر GPT-6 Astra الترتيب لكنه متقدم بفارق ضئيل عن منافسه Claude Fable 5.1. كما نلاحظ ظهور نماذج جديدة مثل Muse Spark 1.3 التي حققت نفس نقطة الترتيب مثل GPT-5.6 Sol 3، مما يشير إلى تطور سريع في قدرات نماذج الذكاء الاصطناعي.",
-    "highlightsEn": "The current ranking shows fierce competition among models, with GPT-6 Astra leading but with a narrow margin over its competitor Claude Fable 5.1. We also notice the emergence of new models like Muse Spark 1.3 which achieved the same ranking points as GPT-5.6 Sol 3, indicating rapid development in AI model capabilities."
+    "highlights": "يحتل GPT-6 Astra المركز الأول في لوحة المتصدرين بأعلى درجة في Reasoning (96.0% gpqa)، بينما يظهر Claude Fable 5.1 كأحدث إضافة قوية في المركز الثاني. هناك منافسة قوية بين النماذج الأربعة الأولى حيث تتراوح درجاتها بين 55.3 و 60.7، مع تقارب كبير بين GPT-5.6 Sol 3 و Muse Spark 1.3 اللذين يتشاركان نفس الدرجة بالضبط.",
+    "highlightsEn": "GPT-6 Astra leads the rankings with the highest reasoning score (96.0% gpqa), while Claude Fable 5.1 appears as a strong new addition in second place. There's tight competition among the top four models, with scores ranging from 55.3 to 60.7, and an exact tie between GPT-5.6 Sol 3 and Muse Spark 1.3."
   },
   "knowledgeEntry": {
-    "id": "k-2026-09-06-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
-    "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
-    "titleEn": "Writing Effective AI Prompts",
-    "why": "تعلم كتابة أوامر فعالة للذكاء الاصطناعي يزيد من دقة النتائج ويوفر الوقت والموارد، مما يجعل التفاعل مع النماذج اللغوية أكثر إنتاجية.",
-    "whyEn": "Learning to write effective AI prompts improves result accuracy and saves time and resources, making interaction with language models more productive.",
-    "difficulty": "beginner",
-    "track": "tools",
+    "id": "k-2026-09-07-إدارة-إصدارات-نماذج-الذكاء-الاصطناعي-وتنفيذ-خطوط-ا",
+    "title": "إدارة إصدارات نماذج الذكاء الاصطناعي وتنفيذ خطوط الأنابيب",
+    "titleEn": "AI Model Versioning and Pipeline Implementation",
+    "why": "مع تطور نماذج الذكاء الاصطناعي بسرعة، يصبح من الضروري إدارة إصداراتها وتتبعها بفعالية. يساعد هذا في الحفاظ على استقرار التطبيقات، والسماح بالتجربة بأمان، وتسهيل التكرار والتعاون بين الفرق.",
+    "whyEn": "With AI models evolving rapidly, effective versioning and tracking becomes essential. This helps maintain application stability, allow safe experimentation, and facilitate reproducibility and team collaboration.",
+    "difficulty": "intermediate",
+    "track": "building",
     "steps": [
       {
-        "title": "فهم النموذج",
-        "detail": "ادرس قدرات ونقاط قوة النموذج الذي ستعمل معه لمعرفة ما يمكنه تحقيقه بشكل أفضل."
+        "title": "إنشاء نظام إصدار للنماذج",
+        "detail": "استخدم أدوات مثل MLflow أو DVC لتسجيل النماذج مع البيانات الوصفية والبيئات. قم بتسمية الإصدارات بأرقام إصدار معقولة (مثل v1.0.0) وأضف علامات وصفية مثل التاريخ والمؤلف والبيانات المستخدمة في التدريب."
       },
       {
-        "title": "تحديد الهدف",
-        "detail": "حدد بوضوح ما تريد تحقيقه من خلال الأمر، مع ذarResult المطلوب بدقة."
+        "title": "بناء خط أنابيب CI/ML",
+        "detail": "أنشئ خط أنابيب باستخدام أدوات مثل GitHub Actions أو Jenkins لتدريب النماذج تلقائيًا عند إدخال تغييرات في الكود. يجب أن يتضمن هذا الخط التحقق من الجودة، والتدريب، وتقييم النموذج، وتخزينه في مستودع النماذج."
       },
       {
-        "title": "تقديم السياق",
-        "detail": "اشرح الخلفية والمعلومات اللازمة للنموذج لضمان فهمه الموقف بشكل صحيح."
+        "title": "تنفيذ آليات التحقق من الجودة",
+        "detail": "قم بإعداد اختبارات تلقائية للتحقق من أداء النموذج الجديد مقابل الإصدار الحالي. يجب أن تشمل هذه الاختبارات مقاييس رئيسية مثل الدقة، والسرعة، واستهلاك الموارد. قم بتنفيذ آلية للتراجع تلقائيًا إذا فشل النموذج في الاختبارات."
       },
       {
-        "title": "تحديد التنسيق",
-        "detail": "حدد كيف تريد تنظيم الناتج، مثل القوائم، الفقرات، أو الهياكل الأخرى."
+        "title": "إدارة النشر الانتقائي",
+        "detail": "أنشئ آلية لنشر النماذج في بيئات مختلفة (تطوير، اختبار، إنتاج) باستخدام نسبة معينة من حركة المرور. مثلاً، يمكنك نشر النموذج الجديد لـ 10% من المستخدمين أولاً، ثم زيادة هذه النسبة تدريجيًا بعد التأكد من أدائه."
       },
       {
-        "title": "التكرار والتحسين",
-        "detail": "اختبر الأمر وقم بتعديله بناءً على النتائج، مع إضافة تفاصيل أو تعديل التعليمات عند الحاجة."
+        "title": "مراقبة النماذج بعد النشر",
+        "detail": "قم بتنفيذ نظام لمراقبة أداء النماذج في الإنتاج. يجب أن يتضمن هذا تتبع مقاييس مثل وقت الاستجابة، ومعدل الأخطاء، واستخدام الموارد. قم بإعداد تنبيهات تلقائية عند اكتشاف أي انحراف عن الأداء المتوقع."
       }
     ],
     "stepsEn": [
       {
-        "title": "Understand the model",
-        "detail": "Research the capabilities and strengths of the model you'll be working with to understand what it can do best."
+        "title": "Create a model versioning system",
+        "detail": "Use tools like MLflow or DVC to register models with metadata and environments. Version models with semantic versioning (like v1.0.0) and add metadata tags like date, author, and training data used."
       },
       {
-        "title": "Define the objective",
-        "detail": "Clearly state what you want to achieve with the prompt, specifying the desired output accurately."
+        "title": "Build CI/ML pipeline",
+        "detail": "Create a pipeline using tools like GitHub Actions or Jenkins to automatically train models when code changes are made. This pipeline should include quality checks, training, model evaluation, and storage in a model registry."
       },
       {
-        "title": "Provide context",
-        "detail": "Explain the background and necessary information to the model to ensure proper understanding of the situation."
+        "title": "Implement quality validation mechanisms",
+        "detail": "Set up automated tests to verify the new model's performance against the current version. These tests should include key metrics like accuracy, speed, and resource consumption. Implement an automatic rollback mechanism if the model fails tests."
       },
       {
-        "title": "Specify format",
-        "detail": "Indicate how you want the output to be structured, such as lists, paragraphs, or other formats."
+        "title": "Implement staged rollout",
+        "detail": "Create a mechanism for deploying models to different environments (dev, test, prod) using a percentage of traffic. For example, you can deploy the new model to 10% of users first, then gradually increase this percentage after confirming its performance."
       },
       {
-        "title": "Iterate and refine",
-        "detail": "Test the prompt and modify it based on the results, adding details or adjusting instructions as needed."
+        "title": "Monitor models post-deployment",
+        "detail": "Implement a system to monitor model performance in production. This should include tracking metrics like response time, error rates, and resource usage. Set up automatic alerts when any deviation from expected performance is detected."
       }
     ],
-    "code": "python\n# Ineffective prompt\nprompt = \"Write about climate change\"\n\n# Effective prompt\nprompt = \"\"\"\nPlease write a comprehensive 500-word essay about climate change, focusing on:\n1. The main causes of climate change\n2. Its current impacts on global ecosystems\n3. Potential solutions to mitigate climate change\n\nFormat the essay with an introduction, three body paragraphs (one for each point), and a conclusion.\nUse scientific data where appropriate and cite your sources.\n\"\"\"",
+    "code": "import mlflow\nimport mlflow.sklearn\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score\n\n# Log parameters and metrics\nwith mlflow.start_run():\n    # Load data and train model\n    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\n    model = RandomForestClassifier(n_estimators=100)\n    model.fit(X_train, y_train)\n    \n    # Evaluate model\n    y_pred = model.predict(X_test)\n    accuracy = accuracy_score(y_test, y_pred)\n    \n    # Log metrics and model\n    mlflow.log_param(\"n_estimators\", 100)\n    mlflow.log_metric(\"accuracy\", accuracy)\n    mlflow.sklearn.log_model(model, \"model\")",
     "resources": [
       {
-        "name": "دليل كتابة الأوامر من OpenAI",
-        "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        "name": "MLflow Documentation",
+        "url": "https://mlflow.org/docs/latest/index.html"
       },
       {
-        "name": "دليل كتابة الأوامر من Anthropic",
-        "url": "https://docs.anthropic.com/claude/docs/prompt-engineering"
+        "name": "DVC Documentation",
+        "url": "https://dvc.org/doc"
       },
       {
-        "name": "Prompt Engineering for ChatGPT (كتاب)",
-        "url": "https://www.amazon.com/dp/B0BWRQZ6ZJ"
+        "name": "ML Engineering Guide",
+        "url": "https://developers.google.com/machine-learning/guides"
       }
     ],
     "tags": [
-      "كتابة أوامر",
-      "ذكاء اصطناعي",
-      "نماذج لغوية",
-      "تحسين النتائج"
+      "إدارة النماذج",
+      "النشر",
+      "مراقبة الأداء",
+      "CI/ML"
     ],
-    "quickRef": "أوامر فعالة = سياق واضح + هدف محدد + تنسيق مطلوب + أمثلة",
-    "quickRefEn": "Effective prompts = clear context + specific objective + requested format + examples",
+    "quickRef": "أنشئ نظام إصدار، بناء خط أنابيب تدريب، نفذ اختبارات جودة، نفذ نشر مرحلي، وراقب الأداء بعد النشر.",
+    "quickRefEn": "Create versioning system, build training pipeline, implement quality tests, perform staged rollout, monitor post-deployment performance.",
     "quiz": [
       {
-        "q": "ما هو العنصر الأهم في كتابة أمر فعال للذكاء الاصطناعي؟",
+        "q": "ما هو الهدف الرئيسي من إدارة إصدارات نماذج الذكاء الاصطناعي؟",
         "options": [
-          "استخدام لغة معقدة",
-          "تقديم سياق واضح",
-          "جعل الأمر قصيراً قدر الإمكان",
-          "استخدام مصطلحات تقنية فقط"
+          "تقليل تكاليف التدريب",
+          "الحفاظ على استقرار التطبيقات والسماح بالتجربة بأمان",
+          "زيادة سرعة النماذج",
+          "تقليل حجم النماذج"
         ],
         "answer": 1,
-        "explain": "السياق الواضح يساعد النموذج على فهم ما هو مطلوب منه بدقة، مما يؤدي إلى نتائج أفضل."
+        "explain": "الهدف الرئيسي من إدارة إصدارات نماذج الذكاء الاصطناعي هو الحفاظ على استقرار التطبيقات والسماح بالتجربة بأمان، مع توفير آلية للتراجع عند الحاجة."
       },
       {
-        "q": "أي من الخيارات التالية يمثل مثالاً لأمر غير فعال؟",
+        "q": "ما هي أفضل استراتيجية لنموذج جديد في بيئة الإنتاج؟",
         "options": [
-          "\"اكتب مقالاً عن فوائد الطاقة الشمسية بطريقة سهلة الفهم\"",
-          "\"اكتب عن الطاقة\"",
-          "\"اكتب مقالاً علمياً عن فوائد الطاقة الشمسية، مع ذكر ثلاث فوائد رئيسية وتأثيرها على البيئة\"",
-          "\"اكتب قائمة بالفوائد الرئيسية للطاقة الشمسية\""
+          "نشره لجميع المستخدمين فورًا",
+          "نشره لـ 10% من المستخدمين أولاً ثم زيادة الن تدريجيًا",
+          "اختباره فقط في بيئة التطوير",
+          "عدم نشره أبدًا"
         ],
         "answer": 1,
-        "explain": "\"اكتب عن الطاقة\" هو أمر عام جداً بدون تحديد أو سياق، مما قد يؤدي إلى نتائج غير متوقعة أو غير مفيدة."
+        "explain": "الاستراتيجية الأفضل هي النشر الانتقائي، حيث يتم نشر النموذج الجديد لجزء صغير من المستخدمين أولاً، ثم زيادة هذه النسبة تدريجيًا بعد التأكد من أدائه."
       },
       {
-        "q": "كيف يمكنك تحسين أمر \"اكتب عن تأثير التكنولوجيا على التعليم\"؟",
+        "q": "ما هو الأداة المناسبة لتتبع إصدارات النماذج وتسجيل البيانات الوصفية؟",
         "options": [
-          "\"اكتب عن التكنولوجيا والتعليم\"",
-          "\"اكتب مقالاً عن تأثير التكنولوجيا على التعليم في المدارس الثانوية، مع ذكر مثالين للتطبيقات العملية\"",
-          "\"اكتب عن التكنولوجيا\"",
-          "\"اكتب عن التعليم\""
+          "Git فقط",
+          "MLflow أو DVC",
+          "Docker",
+          "Kubernetes"
         ],
         "answer": 1,
-        "explain": "التحسين يضيف تحديداً (المدارس الثانوية) وتفصيلاً (مثالين للتطبيقات العملية) مما يجعل الأمر أكثر فعالية."
+        "explain": "MLflow و DVC هما أدوات متخصصة لتتبع إصدارات النماذج وتسجيل البيانات الوصفية والبيئات المرتبطة بها، بينما Git مناسب أكثر لتتبع الكود البرمجي."
       }
     ],
-    "addedAt": "2026-09-06"
+    "addedAt": "2026-09-07"
   }
 }

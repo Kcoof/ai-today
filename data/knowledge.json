@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-07-إدارة-إصدارات-نماذج-الذكاء-الاصطناعي-وتنفيذ-خطوط-ا",
+      "title": "إدارة إصدارات نماذج الذكاء الاصطناعي وتنفيذ خطوط الأنابيب",
+      "titleEn": "AI Model Versioning and Pipeline Implementation",
+      "why": "مع تطور نماذج الذكاء الاصطناعي بسرعة، يصبح من الضروري إدارة إصداراتها وتتبعها بفعالية. يساعد هذا في الحفاظ على استقرار التطبيقات، والسماح بالتجربة بأمان، وتسهيل التكرار والتعاون بين الفرق.",
+      "whyEn": "With AI models evolving rapidly, effective versioning and tracking becomes essential. This helps maintain application stability, allow safe experimentation, and facilitate reproducibility and team collaboration.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "إنشاء نظام إصدار للنماذج",
+          "detail": "استخدم أدوات مثل MLflow أو DVC لتسجيل النماذج مع البيانات الوصفية والبيئات. قم بتسمية الإصدارات بأرقام إصدار معقولة (مثل v1.0.0) وأضف علامات وصفية مثل التاريخ والمؤلف والبيانات المستخدمة في التدريب."
+        },
+        {
+          "title": "بناء خط أنابيب CI/ML",
+          "detail": "أنشئ خط أنابيب باستخدام أدوات مثل GitHub Actions أو Jenkins لتدريب النماذج تلقائيًا عند إدخال تغييرات في الكود. يجب أن يتضمن هذا الخط التحقق من الجودة، والتدريب، وتقييم النموذج، وتخزينه في مستودع النماذج."
+        },
+        {
+          "title": "تنفيذ آليات التحقق من الجودة",
+          "detail": "قم بإعداد اختبارات تلقائية للتحقق من أداء النموذج الجديد مقابل الإصدار الحالي. يجب أن تشمل هذه الاختبارات مقاييس رئيسية مثل الدقة، والسرعة، واستهلاك الموارد. قم بتنفيذ آلية للتراجع تلقائيًا إذا فشل النموذج في الاختبارات."
+        },
+        {
+          "title": "إدارة النشر الانتقائي",
+          "detail": "أنشئ آلية لنشر النماذج في بيئات مختلفة (تطوير، اختبار، إنتاج) باستخدام نسبة معينة من حركة المرور. مثلاً، يمكنك نشر النموذج الجديد لـ 10% من المستخدمين أولاً، ثم زيادة هذه النسبة تدريجيًا بعد التأكد من أدائه."
+        },
+        {
+          "title": "مراقبة النماذج بعد النشر",
+          "detail": "قم بتنفيذ نظام لمراقبة أداء النماذج في الإنتاج. يجب أن يتضمن هذا تتبع مقاييس مثل وقت الاستجابة، ومعدل الأخطاء، واستخدام الموارد. قم بإعداد تنبيهات تلقائية عند اكتشاف أي انحراف عن الأداء المتوقع."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Create a model versioning system",
+          "detail": "Use tools like MLflow or DVC to register models with metadata and environments. Version models with semantic versioning (like v1.0.0) and add metadata tags like date, author, and training data used."
+        },
+        {
+          "title": "Build CI/ML pipeline",
+          "detail": "Create a pipeline using tools like GitHub Actions or Jenkins to automatically train models when code changes are made. This pipeline should include quality checks, training, model evaluation, and storage in a model registry."
+        },
+        {
+          "title": "Implement quality validation mechanisms",
+          "detail": "Set up automated tests to verify the new model's performance against the current version. These tests should include key metrics like accuracy, speed, and resource consumption. Implement an automatic rollback mechanism if the model fails tests."
+        },
+        {
+          "title": "Implement staged rollout",
+          "detail": "Create a mechanism for deploying models to different environments (dev, test, prod) using a percentage of traffic. For example, you can deploy the new model to 10% of users first, then gradually increase this percentage after confirming its performance."
+        },
+        {
+          "title": "Monitor models post-deployment",
+          "detail": "Implement a system to monitor model performance in production. This should include tracking metrics like response time, error rates, and resource usage. Set up automatic alerts when any deviation from expected performance is detected."
+        }
+      ],
+      "code": "import mlflow\nimport mlflow.sklearn\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score\n\n# Log parameters and metrics\nwith mlflow.start_run():\n    # Load data and train model\n    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\n    model = RandomForestClassifier(n_estimators=100)\n    model.fit(X_train, y_train)\n    \n    # Evaluate model\n    y_pred = model.predict(X_test)\n    accuracy = accuracy_score(y_test, y_pred)\n    \n    # Log metrics and model\n    mlflow.log_param(\"n_estimators\", 100)\n    mlflow.log_metric(\"accuracy\", accuracy)\n    mlflow.sklearn.log_model(model, \"model\")",
+      "resources": [
+        {
+          "name": "MLflow Documentation",
+          "url": "https://mlflow.org/docs/latest/index.html"
+        },
+        {
+          "name": "DVC Documentation",
+          "url": "https://dvc.org/doc"
+        },
+        {
+          "name": "ML Engineering Guide",
+          "url": "https://developers.google.com/machine-learning/guides"
+        }
+      ],
+      "tags": [
+        "إدارة النماذج",
+        "النشر",
+        "مراقبة الأداء",
+        "CI/ML"
+      ],
+      "quickRef": "أنشئ نظام إصدار، بناء خط أنابيب تدريب، نفذ اختبارات جودة، نفذ نشر مرحلي، وراقب الأداء بعد النشر.",
+      "quickRefEn": "Create versioning system, build training pipeline, implement quality tests, perform staged rollout, monitor post-deployment performance.",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من إدارة إصدارات نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "تقليل تكاليف التدريب",
+            "الحفاظ على استقرار التطبيقات والسماح بالتجربة بأمان",
+            "زيادة سرعة النماذج",
+            "تقليل حجم النماذج"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من إدارة إصدارات نماذج الذكاء الاصطناعي هو الحفاظ على استقرار التطبيقات والسماح بالتجربة بأمان، مع توفير آلية للتراجع عند الحاجة."
+        },
+        {
+          "q": "ما هي أفضل استراتيجية لنموذج جديد في بيئة الإنتاج؟",
+          "options": [
+            "نشره لجميع المستخدمين فورًا",
+            "نشره لـ 10% من المستخدمين أولاً ثم زيادة الن تدريجيًا",
+            "اختباره فقط في بيئة التطوير",
+            "عدم نشره أبدًا"
+          ],
+          "answer": 1,
+          "explain": "الاستراتيجية الأفضل هي النشر الانتقائي، حيث يتم نشر النموذج الجديد لجزء صغير من المستخدمين أولاً، ثم زيادة هذه النسبة تدريجيًا بعد التأكد من أدائه."
+        },
+        {
+          "q": "ما هو الأداة المناسبة لتتبع إصدارات النماذج وتسجيل البيانات الوصفية؟",
+          "options": [
+            "Git فقط",
+            "MLflow أو DVC",
+            "Docker",
+            "Kubernetes"
+          ],
+          "answer": 1,
+          "explain": "MLflow و DVC هما أدوات متخصصة لتتبع إصدارات النماذج وتسجيل البيانات الوصفية والبيئات المرتبطة بها، بينما Git مناسب أكثر لتتبع الكود البرمجي."
+        }
+      ],
+      "addedAt": "2026-09-07"
+    },
+    {
       "id": "k-2026-09-06-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
       "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
       "titleEn": "Writing Effective AI Prompts",

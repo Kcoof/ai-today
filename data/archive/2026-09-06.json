@@ -1,0 +1,454 @@
+{
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T14:28:24.734Z",
+  "news": [
+    {
+      "id": "n-2026-09-06-1",
+      "title": "GPT-6 Astra: جيل جديد من الذكاء",
+      "titleEn": "GPT-6 Astra: A new generation of intelligence",
+      "summary": "تقدم OpenAI نموذج GPT-6 Astra، وهو أذكى نموذجنا وأكثرها محاذاة حتى الآن، مع قدرات متطورة",
+      "summaryEn": "OpenAI introduces GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-astra"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-06-2",
+      "title": "نظرة عامة على أمان GPT-6 Astra",
+      "titleEn": "Safety overview: GPT-6 Astra",
+      "summary": "GPT-6 Astra هو نموذجنا الأكثر قدرة على نطاق واسع ونموذجنا الأول الذي يصل إلى عتبة القدرة الأمنية السيبرانية الحرجة",
+      "summaryEn": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical cybersecurity capability threshold",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/safety-overview-gpt-6-astra"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-06-3",
+      "title": "الفجر للمدافعين عن الخطوط الأمامية: مليار دولار لحماية الخدمات الأساسية",
+      "titleEn": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "summary": "تقدم OpenAI مبادرة الفجر للمدافعين عن الخطوط الأمامية. التزام بمليار دولار لتوسيع الوصول",
+      "summaryEn": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/daybreak-for-frontline-defenders"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-06-4",
+      "title": "إطلاق Gemini 3.8 Flash و 3.8 Flash Cyber",
+      "titleEn": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "تقدم Google DeepMind نماذج جديدة مع ميزات محسنة للأداء والأمان",
+      "summaryEn": "Google DeepMind introduces new models with enhanced capabilities",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+      },
+      "publishedAt": "2026-09-02"
+    },
+    {
+      "id": "n-2026-09-06-6",
+      "title": "تقديم مونشوت للاكتتاب العام في هونغ كونغ",
+      "titleEn": "Moonshot AI files confidentially for Hong Kong IPO",
+      "summary": "تقدم شركة الذكاء الاصطناعي الصينية مونشوت، منشئة نموذج كيمي K3، للاكتتاب العام في هونغ كونغ",
+      "summaryEn": "Chinese AI firm Moonshot, creator of Kimi K3 model, files for Hong Kong IPO",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-06-8",
+      "title": "ما هو Qwen 3.8؟ النموذج الرائد المفتوح الوزن من علي بابا بـ 2.4 تريليون معلمة",
+      "titleEn": "What Is Qwen 3.8? Alibaba's Upcoming 2.4-Trillion-Parameter Open-Weight Flagship",
+      "summary": "تعلن علي بابا عن نموذج جديد بـ 2.4 تريليون معلمة",
+      "summaryEn": "Alibaba announces new 2.4-trillion-parameter model",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeDRyTDlMSFk5cFZmVzc4SVowOUIxWXVPX3Vkdy1zQjQ3TXY2LWR2cUFITmI2aFh1T2Q4Mm1CMS1hZTdERkM5d2RPMW1CaC05NDJWZEllclRoNUhqRjBvZEdBc2gzY3VqVG93d0ppdndPNkdiTVhwaVdTQ2ZwR1FjeTNmb2E3MV9zWThHRGQxUDRrVF9VYzNJOXBDaVpZNHhFbEc0UUZEcmRRQ2RDNWxlMWQwM0piY1RqTFJzTV83Yk5KYm9pRUNBeE9NN0ZrQ290TkN3cDlJaFrSAeYBQVVfeXFMUExqTGU3QzEwVUFKc0s0Y2RSdEVEaU5pTXZhNGNYcE9yc3hiemE2SVVFandVWG9fU3RKTkZTaEZoRF9saHVobV9sSHVFbzhEaEt1Zjk3M0RkbnFsUU1UYnZESGtWVm9RZVU3SlhicXpSeEFFOERXdHRHVFdCR0FEdkUyb1UtQVRXQnpOTlh5RldTMUJ1RkhmNVBya1lPY3pPZG14ZkhjOVlVNUNTR1pBVndvQ0xnWWF4b1RsdGtvNkRsamF6RFo3alhRc2lXbmlBVUpONWFjYWpJZDVzMW5Kc3ZKRDlFN1E?oc=5"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-06-9",
+      "title": "ثغرة أمنية في نظام التصويت",
+      "titleEn": "Security Vulnerability in a Voting System",
+      "summary": "ثغرة تسمح لشخص باستعادة ترتيب الأصوات الصادرة، تم اكتشافها حديثًا",
+      "summaryEn": "Vulnerability that allows someone to recover the order of ballots cast, newly discovered",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html"
+      },
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "id": "n-2026-09-06-5",
+      "title": "إطلاق WeatherNext 3، نموذج الطقس الأكثر تقدمًا ودقة عالميًا",
+      "titleEn": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "summary": "تطلق Google DeepMind نموذجًا متقدمًا للتنبؤ بالطقس",
+      "summaryEn": "Google DeepMind launches advanced weather prediction model",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-06-7",
+      "title": "نموذج GLM-5.3-Flash الجديد من Z.ai يعمل 3.3 أسرع على محطة عمل واحدة",
+      "titleEn": "Z.ai's New GLM-5.3-Flash Model Runs 3.3 Times Faster on a Single Workstation",
+      "summary": "تطلق Z.ai نموذجًا أسرع مع أداء محسّن",
+      "summaryEn": "Z.ai launches faster model with improved performance",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbm5PZEZRTnR5MnVPTW1VN3lGbTVEOVFXNjktd1ZwbTZzRlplN1hzTkZoaEZBMTF0TG04eHA1bUFUYVFYaFdFbzZ1MkJxZUQwcGZUTWdDaTVMUllPcFJ1ODI0eFNpQnd3RlROd1ZEaU1YcERhd3hfYUpKMVVTbVpXRDRfMHQxMk1IZkhWNHhOY3U2VmdGMXRXQ1J5blNsS0F1OHc?oc=5"
+      },
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "id": "n-2026-09-06-10",
+      "title": "وكلاء ترميز الذكاء الاصطناعي يثبتون كودًا غير موثوق به على الشبكات المؤسسية",
+      "titleEn": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
+      "summary": "وجد الباحثون في شركة ناشئة أن وكلاء ترميز الذكاء الاصطناعي يثبتون كودًا غير موثوق به على الشبكات المؤسسية",
+      "summaryEn": "Researchers at a stealth startup found that AI coding agents are installing unknown/untrusted code on corporate networks",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html"
+      },
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "id": "n-2026-09-06-11",
+      "title": "استخدام آلة افتراضية لتضمين وكلاء الذكاء الاصطناعي",
+      "titleEn": "Using a VM to Contain an AI Agent",
+      "summary": "بحث حول تضمين وكلاء الذكاء الاصطناعي باستخدام الآلات الافتراضية، مع نتائج أن GPT 5.6-Cyber نجح لكن التردد كان أقل من المتوقع",
+      "summaryEn": "Research on containing AI agents using virtual machines, with findings that GPT 5.6-Cyber succeeded but frequency was lower than expected",
+      "category": "other",
+      "importance": 2,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html"
+      },
+      "publishedAt": "2026-09-04"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-09-06-1",
+      "name": "GPT-6 Astra",
+      "org": "OpenAI",
+      "releaseDate": "2026-09-03",
+      "highlights": "أذكى نموذج وأكثرها محاذاة حتى الآن مع قدرات متطورة",
+      "highlightsEn": "Most intelligent and aligned model yet with state-of-the-art capabilities",
+      "specs": {
+        "context": "unknown"
+      },
+      "url": "https://openai.com/index/gpt-6-astra"
+    },
+    {
+      "id": "m-2026-09-06-2",
+      "name": "Gemini 3.8 Flash",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-02",
+      "highlights": "ميزات محسنة للأداء والأمان",
+      "highlightsEn": "Enhanced performance and security features",
+      "specs": {
+        "context": "unknown"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+    },
+    {
+      "id": "m-2026-09-06-3",
+      "name": "WeatherNext 3",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-03",
+      "highlights": "نموذج الطقس الأكثر تقدمًا ودقة عالميًا",
+      "highlightsEn": "Most advanced and accurate global weather AI model",
+      "specs": {
+        "context": "unknown"
+      },
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+    },
+    {
+      "id": "m-2026-09-06-4",
+      "name": "GLM-5.3-Flash",
+      "org": "Z.ai",
+      "releaseDate": "2026-09-05",
+      "highlights": "يعمل 3.3 أسرع على محطة عمل واحدة",
+      "highlightsEn": "Runs 3.3 times faster on a single workstation",
+      "specs": {
+        "context": "unknown"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbm5PZEZRTnR5MnVPTW1VN3lGbTVEOVFXNjktd1ZwbTZzRlplN1hzTkZoaEZBMTF0TG04eHA1bUFUYVFYaFdFbzZ1MkJxZUQwcGZUTWdDaTVMUllPcFJ1ODI0eFNpQnd3RlROd1ZEaU1YcERhd3hfYUpKMVVTbVpXRDRfMHQxMk1IZkhWNHhOY3U2VmdGMXRXQ1J5blNsS0F1OHc?oc=5"
+    },
+    {
+      "id": "m-2026-09-06-5",
+      "name": "Qwen 3.8",
+      "org": "Qwen",
+      "releaseDate": "2026-09-03",
+      "highlights": "نموذج رائد مفتوح الوزن بـ 2.4 تريليون معلمة",
+      "highlightsEn": "2.4-trillion-parameter open-weight flagship model",
+      "specs": {
+        "context": "unknown"
+      },
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeDRyTDlMSFk5cFZmVzc4SVowOUIxWXVPX3Vkdy1zQjQ3TXY2LWR2cUFITmI2aFh1T2Q4Mm1CMS1hZTdERkM5d2RPMW1CaC05NDJWZEllclRoNUhqRjBvZEdBc2gzY3VqVG93d0ppdndPNkdiTVhwaVdTQ2ZwR1FjeTNmb2E3MV9zWThHRGQxUDRrVF9VYzNJOXBDaVpZNHhFbEc0UUZEcmRRQ2RDNWxlMWQwM0piY1RqTFJzTV83Yk5KYm9pRUNBeE9NN0ZrQ290TkN3cDlJaFrSAeYBQVVfeXFMUExqTGU3QzEwVUFKc0s0Y2RSdEVEaU5pTXZhNGNYcE9yc3hiemE2SVVFandVWG9fU3RKTkZTaEZoRF9saHVobV9sSHVFbzhEaEt1Zjk3M0RkbnFsUU1UYnZESGtWVm9RZVU3SlhicXpSeEFFOERXdHRHVFdCR0FEdkUyb1UtQVRXQnpOTlh5RldTMUJ1RkhmNVBya1lPY3pPZG14ZkhjOVlVNUNTR1pBVndvQ0xnWWF4b1RsdGtvNkRsamF6RFo3alhRc2lXbmlBVUpONWFjYWpJZDVzMW5Kc3ZKRDlFN1E?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-09-06-1",
+      "text": "تقدم مونشوت للاكتتاب العام في هونغ كونغ",
+      "textEn": "Moonshot AI files confidentially for Hong Kong IPO",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
+    },
+    {
+      "id": "h-2026-09-06-2",
+      "text": "تلتزم OpenAI بمليار دولار لحماية الخدمات الأساسية من خلال مبادرة الفجر للمدافعين عن الخطوط الأمامية",
+      "textEn": "OpenAI commits $1 billion to protect essential services through Daybreak for Frontline Defenders",
+      "level": "info",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders"
+    },
+    {
+      "id": "h-2026-09-06-3",
+      "text": "يعمل نموذج GLM-5.3-Flash من Z.ai بسرعة 3.3 أسرع على محطة عمل واحدة",
+      "textEn": "Z.ai's GLM-5.3-Flash model runs 3.3 times faster on a single workstation",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbm5PZEZRTnR5MnVPTW1VN3lGbTVEOVFXNjktd1ZwbTZzRlplN1hzTkZoaEZBMTF0TG04eHA1bUFUYVFYaFdFbzZ1MkJxZUQwcGZUTWdDaTVMUllPcFJ1ODI0eFNpQnd3RlROd1ZEaU1YcERhd3hfYUpKMVVTbVpXRDRfMHQxMk1IZkhWNHhOY3U2VmdGMXRXQ1J5blNsS0F1OHc?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-09-06-1",
+      "title": "ثغرة أمنية في نظام التصويت",
+      "titleEn": "Security Vulnerability in a Voting System",
+      "summary": "ثغرة تسمح لشخص باستعادة ترتيب الأصوات الصادرة، تم اكتشافها حديثًا",
+      "summaryEn": "Vulnerability that allows someone to recover the order of ballots cast, newly discovered",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "sec-2026-09-06-2",
+      "title": "وكلاء ترميز الذكاء الاصطناعي يثبتون كودًا غير موثوق به على الشبكات المؤسسية",
+      "titleEn": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
+      "summary": "وجد الباحثون في شركة ناشئة أن وكلاء ترميز الذكاء الاصطناعي يثبتون كودًا غير موثوق به على الشبكات المؤسسية",
+      "summaryEn": "Researchers at a stealth startup found that AI coding agents are installing unknown/untrusted code on corporate networks",
+      "type": "malware",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "sec-2026-09-06-3",
+      "title": "استخدام آلة افتراضية لتضمين وكلاء الذكاء الاصطناعي",
+      "titleEn": "Using a VM to Contain an AI Agent",
+      "summary": "بحث حول تضمين وكلاء الذكاء الاصطناعي باستخدام الآلات الافتراضية، مع نتائج أن GPT 5.6-Cyber نجح لكن التردد كان أقل من المتوقع",
+      "summaryEn": "Research on containing AI agents using virtual machines, with findings that GPT 5.6-Cyber succeeded but frequency was lower than expected",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-04"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-09-06",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "60.7"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "56.8"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "55.4"
+      },
+      {
+        "name": "GPT-5.6 Sol 3",
+        "org": "OpenAI",
+        "score": "55.3"
+      },
+      {
+        "name": "Muse Spark 1.3",
+        "org": "Meta",
+        "score": "55.3"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "55.1"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "54.8"
+      },
+      {
+        "name": "Kimi K3",
+        "org": "Moonshot AI",
+        "score": "53.8"
+      },
+      {
+        "name": "GLM-5.3",
+        "org": "Zhipu AI",
+        "score": "53.6"
+      },
+      {
+        "name": "DeepSeek-V4-Pro-0813",
+        "org": "DeepSeek",
+        "score": "52.5"
+      }
+    ],
+    "highlights": "يشهد الترتيب الحالي منافسة شديدة بين النماذج، حيث يتصدر GPT-6 Astra الترتيب لكنه متقدم بفارق ضئيل عن منافسه Claude Fable 5.1. كما نلاحظ ظهور نماذج جديدة مثل Muse Spark 1.3 التي حققت نفس نقطة الترتيب مثل GPT-5.6 Sol 3، مما يشير إلى تطور سريع في قدرات نماذج الذكاء الاصطناعي.",
+    "highlightsEn": "The current ranking shows fierce competition among models, with GPT-6 Astra leading but with a narrow margin over its competitor Claude Fable 5.1. We also notice the emergence of new models like Muse Spark 1.3 which achieved the same ranking points as GPT-5.6 Sol 3, indicating rapid development in AI model capabilities."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-09-06-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
+    "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
+    "titleEn": "Writing Effective AI Prompts",
+    "why": "تعلم كتابة أوامر فعالة للذكاء الاصطناعي يزيد من دقة النتائج ويوفر الوقت والموارد، مما يجعل التفاعل مع النماذج اللغوية أكثر إنتاجية.",
+    "whyEn": "Learning to write effective AI prompts improves result accuracy and saves time and resources, making interaction with language models more productive.",
+    "difficulty": "beginner",
+    "track": "tools",
+    "steps": [
+      {
+        "title": "فهم النموذج",
+        "detail": "ادرس قدرات ونقاط قوة النموذج الذي ستعمل معه لمعرفة ما يمكنه تحقيقه بشكل أفضل."
+      },
+      {
+        "title": "تحديد الهدف",
+        "detail": "حدد بوضوح ما تريد تحقيقه من خلال الأمر، مع ذarResult المطلوب بدقة."
+      },
+      {
+        "title": "تقديم السياق",
+        "detail": "اشرح الخلفية والمعلومات اللازمة للنموذج لضمان فهمه الموقف بشكل صحيح."
+      },
+      {
+        "title": "تحديد التنسيق",
+        "detail": "حدد كيف تريد تنظيم الناتج، مثل القوائم، الفقرات، أو الهياكل الأخرى."
+      },
+      {
+        "title": "التكرار والتحسين",
+        "detail": "اختبر الأمر وقم بتعديله بناءً على النتائج، مع إضافة تفاصيل أو تعديل التعليمات عند الحاجة."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Understand the model",
+        "detail": "Research the capabilities and strengths of the model you'll be working with to understand what it can do best."
+      },
+      {
+        "title": "Define the objective",
+        "detail": "Clearly state what you want to achieve with the prompt, specifying the desired output accurately."
+      },
+      {
+        "title": "Provide context",
+        "detail": "Explain the background and necessary information to the model to ensure proper understanding of the situation."
+      },
+      {
+        "title": "Specify format",
+        "detail": "Indicate how you want the output to be structured, such as lists, paragraphs, or other formats."
+      },
+      {
+        "title": "Iterate and refine",
+        "detail": "Test the prompt and modify it based on the results, adding details or adjusting instructions as needed."
+      }
+    ],
+    "code": "python\n# Ineffective prompt\nprompt = \"Write about climate change\"\n\n# Effective prompt\nprompt = \"\"\"\nPlease write a comprehensive 500-word essay about climate change, focusing on:\n1. The main causes of climate change\n2. Its current impacts on global ecosystems\n3. Potential solutions to mitigate climate change\n\nFormat the essay with an introduction, three body paragraphs (one for each point), and a conclusion.\nUse scientific data where appropriate and cite your sources.\n\"\"\"",
+    "resources": [
+      {
+        "name": "دليل كتابة الأوامر من OpenAI",
+        "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+      },
+      {
+        "name": "دليل كتابة الأوامر من Anthropic",
+        "url": "https://docs.anthropic.com/claude/docs/prompt-engineering"
+      },
+      {
+        "name": "Prompt Engineering for ChatGPT (كتاب)",
+        "url": "https://www.amazon.com/dp/B0BWRQZ6ZJ"
+      }
+    ],
+    "tags": [
+      "كتابة أوامر",
+      "ذكاء اصطناعي",
+      "نماذج لغوية",
+      "تحسين النتائج"
+    ],
+    "quickRef": "أوامر فعالة = سياق واضح + هدف محدد + تنسيق مطلوب + أمثلة",
+    "quickRefEn": "Effective prompts = clear context + specific objective + requested format + examples",
+    "quiz": [
+      {
+        "q": "ما هو العنصر الأهم في كتابة أمر فعال للذكاء الاصطناعي؟",
+        "options": [
+          "استخدام لغة معقدة",
+          "تقديم سياق واضح",
+          "جعل الأمر قصيراً قدر الإمكان",
+          "استخدام مصطلحات تقنية فقط"
+        ],
+        "answer": 1,
+        "explain": "السياق الواضح يساعد النموذج على فهم ما هو مطلوب منه بدقة، مما يؤدي إلى نتائج أفضل."
+      },
+      {
+        "q": "أي من الخيارات التالية يمثل مثالاً لأمر غير فعال؟",
+        "options": [
+          "\"اكتب مقالاً عن فوائد الطاقة الشمسية بطريقة سهلة الفهم\"",
+          "\"اكتب عن الطاقة\"",
+          "\"اكتب مقالاً علمياً عن فوائد الطاقة الشمسية، مع ذكر ثلاث فوائد رئيسية وتأثيرها على البيئة\"",
+          "\"اكتب قائمة بالفوائد الرئيسية للطاقة الشمسية\""
+        ],
+        "answer": 1,
+        "explain": "\"اكتب عن الطاقة\" هو أمر عام جداً بدون تحديد أو سياق، مما قد يؤدي إلى نتائج غير متوقعة أو غير مفيدة."
+      },
+      {
+        "q": "كيف يمكنك تحسين أمر \"اكتب عن تأثير التكنولوجيا على التعليم\"؟",
+        "options": [
+          "\"اكتب عن التكنولوجيا والتعليم\"",
+          "\"اكتب مقالاً عن تأثير التكنولوجيا على التعليم في المدارس الثانوية، مع ذكر مثالين للتطبيقات العملية\"",
+          "\"اكتب عن التكنولوجيا\"",
+          "\"اكتب عن التعليم\""
+        ],
+        "answer": 1,
+        "explain": "التحسين يضيف تحديداً (المدارس الثانوية) وتفصيلاً (مثالين للتطبيقات العملية) مما يجعل الأمر أكثر فعالية."
+      }
+    ],
+    "addedAt": "2026-09-06"
+  }
+}
