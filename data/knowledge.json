@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-08-فهم-مقاييس-تقييم-نماذج-الذكاء-الاصطناعي",
+      "title": "فهم مقاييس تقييم نماذج الذكاء الاصطناعي",
+      "titleEn": "Understanding AI Model Evaluation Metrics",
+      "why": "تقييم نماذج الذكاء الاصطناعي بشكل صحيح أمر حاسم لاختيار النموذج المناسب لمهمتك وتحديد نقاط القوة والضعف في الأداء.",
+      "whyEn": "Properly evaluating AI models is crucial for selecting the right model for your task and identifying performance strengths and weaknesses.",
+      "difficulty": "intermediate",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "تحديد معايير التقييم المناسبة",
+          "detail": "اختر المقاييس التي تتوافق مع هدفك، مثل الدقة للتصنيف، أو درجة BLEU للترجمة، أو GPQA للقدرة على الاستدلال."
+        },
+        {
+          "title": "إعداد مجموعة بيانات تقييم",
+          "detail": "أنشئ مجموعة بيانات معقولة وممثلة لسيناريوهات الاستخدام الفعلية، مع تضمين أمثلة صعبة."
+        },
+        {
+          "title": "تنفيذ الاختبارات",
+          "detail": "قم بتشغيل النموذج على مجموعة البيانات وقم بتسجيل النتائج لكل معيار، مع الانتباه إلى الاستجابة والاستهلاك الحسابي."
+        },
+        {
+          "title": "تحليل النتائج",
+          "detail": "قارن النتائج عبر المقاييس المختلفة، وتحقق من الاتساق في الأداء عبر مجموعات البيانات المختلفة."
+        },
+        {
+          "title": "مراجعة وتحسين",
+          "detail": "استخدم نتائج التقييم لتحديد المجالات التي تحتاج إلى تحسين، وكرر العملية بعد إجراء التحسينات."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select appropriate evaluation metrics",
+          "detail": "Choose metrics that align with your goal, such as accuracy for classification, BLEU score for translation, or GPQA for reasoning capabilities."
+        },
+        {
+          "title": "Prepare evaluation datasets",
+          "detail": "Create a reasonable and representative dataset for real-world use scenarios, including challenging examples."
+        },
+        {
+          "title": "Conduct testing",
+          "detail": "Run the model on the dataset and record results for each metric, paying attention to response time and computational consumption."
+        },
+        {
+          "title": "Analyze results",
+          "detail": "Compare results across different metrics and check for consistency in performance across different datasets."
+        },
+        {
+          "title": "Review and improve",
+          "detail": "Use evaluation results to identify areas needing improvement and repeat the process after making enhancements."
+        }
+      ],
+      "code": "def evaluate_model(model, test_data, metrics):\n    results = {}\n    for metric in metrics:\n        scores = []\n        for item in test_data:\n            prediction = model.predict(item['input'])\n            score = metric.calculate(prediction, item['expected_output'])\n            scores.append(score)\n        results[metric.name] = sum(scores) / len(scores)\n    return results",
+      "resources": [
+        {
+          "name": "LLM Stats Leaderboard",
+          "url": "https://llm-stats.com/leaderboard"
+        },
+        {
+          "name": "Hugging Face Evaluate Library",
+          "url": "https://huggingface.co/docs/evaluate/index"
+        },
+        {
+          "name": "Papers with Code Evaluation Metrics",
+          "url": "https://paperswithcode.com/evaluation"
+        }
+      ],
+      "tags": [
+        "تقييم النماذج",
+        "مقاييس الأداء",
+        "اختبار الذكاء الاصطناعي",
+        "تحليل النتائج"
+      ],
+      "quickRef": "حدد المقاييس المناسبة، جهز بيانات الاختبار، نفذ الاختبارات، تحليل النتائج، واستخدم النتائج للتحسين.",
+      "quickRefEn": "Select appropriate metrics, prepare test data, conduct testing, analyze results, and use findings for improvement.",
+      "quiz": [
+        {
+          "q": "ما هو أهم معيار لتقييم نماذج الذكاء الاصطناعي للغة؟",
+          "options": [
+            "الدقة",
+            "درجة BLEU",
+            "سرعة الاستجابة",
+            "استهلاك الطاقة"
+          ],
+          "answer": 1,
+          "explain": "درجة BLEU هي المعيار الأكثر شيوعًا لتقييم جودة الترجمة الآلية ونماذج اللغة."
+        },
+        {
+          "q": "ما هو الخطأ الشائع في تقييم نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "استخدام مجموعة بيانات صغيرة",
+            "تجاهز استهلاك الموارد",
+            "عدم مراعاة السياق",
+            "كل ما سبق"
+          ],
+          "answer": 3,
+          "explain": "كل الخيارات الأخطاء الشائعة في تقييم نماذج الذكاء الاصطناعي، حيث يجب مراعاة جميع الجوانب للحصول على تقييم شامل."
+        },
+        {
+          "q": "ما هو أفضل ممارسة عند تحليل نتائج التقييم؟",
+          "options": [
+            "الاعتماد على معيار واحد فقط",
+            "النظر فقط في المتوسطات",
+            "مراعاة التباين في الأداء",
+            "تجاهل النتائج المتطرفة"
+          ],
+          "answer": 2,
+          "explain": "من المهم مراعاة التباين في الأداء عبر مجموعة البيانات بأكملها، وليس فقط الاعتماد على المتوسطات."
+        }
+      ],
+      "addedAt": "2026-09-08"
+    },
+    {
       "id": "k-2026-09-07-إدارة-إصدارات-نماذج-الذكاء-الاصطناعي-وتنفيذ-خطوط-ا",
       "title": "إدارة إصدارات نماذج الذكاء الاصطناعي وتنفيذ خطوط الأنابيب",
       "titleEn": "AI Model Versioning and Pipeline Implementation",
