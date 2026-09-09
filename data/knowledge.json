@@ -1,6 +1,94 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-09-تحسين-أداء-النماذج-باستخدام-تقنيات-الـ-prompt-engi",
+      "title": "تحسين أداء النماذج باستخدام تقنيات الـ Prompt Engineering",
+      "titleEn": "Improving Model Performance Using Prompt Engineering Techniques",
+      "why": "تعد مهارات الـ Prompt Engineering حاسمة لتحقيق أقصى استفادة من نماذج الذكاء الاصطناعي، حيث تساعد في الحصول على إجابات أكثر دقة واتساق وتقليل الهلوسة.",
+      "whyEn": "Prompt engineering skills are crucial for maximizing the potential of AI models, helping to obtain more accurate and consistent responses while reducing hallucinations.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم أساسيات الـ Prompt",
+          "detail": "ابدأ بتحديد هدفك بوضوح واستخدم تعليمات مباشرة. قدم السياق الكافي للنموذج لفهم المهمة المطلوبة، وتذكر أن النماذج تتفاعل بشكل أفضل مع التعليمات الواضحة والمحددة."
+        },
+        {
+          "title": "استخدام تقنيات التوجيه المتقدم",
+          "detail": "جرب تقنيات مثل Few-shot learning حيث تقدم أمثلة على الإجابات المطلوبة، واستخدم Chain-of-Thought prompting لتشجيع النموذج على التفكير خطوة بخطوة. يمكنك أيضًا استخدام تحديد الشخصية (role prompting) لتحديد دور النموذج في الإجابة."
+        },
+        {
+          "title": "تجربة وتحسين الـ Prompts",
+          "detail": "قم بتجربة صيغ مختلفة من الـ prompts وقياس نتائجها. لاحظ أن تغيير كلمة واحدة أو ترتيب الجمل يمكن أن يؤثر بشكل كبير على النتائج. استخدم التغذية الراجعة لتحسين prompts الخاصة بك بشكل مستمر."
+        },
+        {
+          "title": "معالجة التحديات الشائعة",
+          "detail": "عند مواجهة مشاكل مثل الهلوسة أو الإجابات غير الدقيقة، جرب تقنيات مثل التحقق من الحقائق (fact-checking) أو تقسيم المهام إلى خطوات أصغر. يمكنك أيضًا استخدام الـ prompts التي تشجع على الشك المناسب (appropriate skepticism)."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Basic Prompt Fundamentals",
+          "detail": "Start by clearly defining your objective and use direct instructions. Provide sufficient context for the model to understand the required task, remembering that models respond better to clear and specific instructions."
+        },
+        {
+          "title": "Using Advanced Prompting Techniques",
+          "detail": "Experiment with techniques like Few-shot learning where you provide examples of desired responses, and use Chain-of-Thought prompting to encourage the model to think step-by-step. You can also use role prompting to define the model's role in the response."
+        },
+        {
+          "title": "Experimenting and Refining Prompts",
+          "detail": "Try different prompt formulations and measure their results. Note that changing a single word or reordering sentences can significantly affect outcomes. Use feedback to continuously improve your prompts."
+        },
+        {
+          "title": "Addressing Common Challenges",
+          "detail": "When facing issues like hallucinations or inaccurate responses, try techniques like fact-checking or breaking tasks into smaller steps. You can also use prompts that encourage appropriate skepticism."
+        }
+      ],
+      "code": "def create_effective_prompt(task, context=None, examples=None, style=None):\n    prompt = f\"\"\"Task: {task}\n    \"\"\"\n    if context:\n        prompt += f\"Context: {context}\\n\"\n    if examples:\n        prompt += \"Examples:\\n\"\n        for example in examples:\n            prompt += f\"- {example}\\n\"\n    if style:\n        prompt += f\"Style: {style}\\n\"\n    return prompt",
+      "resources": [
+        {
+          "name": "Prompt Engineering Guide",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "name": "OpenAI Prompt Engineering",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        }
+      ],
+      "tags": [
+        "Prompt Engineering",
+        "AI Optimization",
+        "Model Performance"
+      ],
+      "quickRef": "استخدم تعليمات واضحة، أمثلة محددة، وتقنيات مثل التفكير خطوة بخطوة لتحسين إجابات النماذج.",
+      "quickRefEn": "Use clear instructions, specific examples, and techniques like step-by-step thinking to improve model responses.",
+      "quiz": [
+        {
+          "q": "ما هي أفضل استراتيجية لتحسين دقة إجابات نموذج الذكاء الاصطناعي؟",
+          "options": [
+            "استخدام تعليمات قصيرة ومباشرة فقط",
+            "تقديم أمثلة محددة وتوجيه النموذج للتفكير خطوة بخطوة",
+            "زيادة طول الـ prompt بشكل عشوائي",
+            "طلب من النموذج الإجابة بسرعة أكبر"
+          ],
+          "answer": 1,
+          "explain": "تقديم أمثلة محددة وتوجيه النموذج للتفكير خطوة بخطوة (Chain-of-Thought prompting) يساعد على تحسين الدقة من خلال إعطاء النموذج إطار عمل واضح للتفكير."
+        },
+        {
+          "q": "ما هي تقنية Prompt Engineering التي تساعد في تقليل الهلوسة في النماذج اللغوية؟",
+          "options": [
+            "استخدام تعليمات عامة وغير محددة",
+            "تضمين معلومات غير دقيقة في الـ prompt",
+            "تحديد حدود واضحة للنموذج وتشجيعه على التحقق من المعلومات",
+            "تقليل طول الـ prompt إلى الحد الأدنى"
+          ],
+          "answer": 2,
+          "explain": "تحديد حدود واضحة للنموذج وتشجيعه على التحقق من المعلومات يساعد في تقليل الهلوسة من خلال توجيه النموذج للإجابة فقط بالمعلومات التي يمكن التحقق منها."
+        }
+      ],
+      "addedAt": "2026-09-09"
+    },
+    {
       "id": "k-2026-09-08-فهم-مقاييس-تقييم-نماذج-الذكاء-الاصطناعي",
       "title": "فهم مقاييس تقييم نماذج الذكاء الاصطناعي",
       "titleEn": "Understanding AI Model Evaluation Metrics",

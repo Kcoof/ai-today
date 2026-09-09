@@ -1,0 +1,464 @@
+{
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T10:00:04.773Z",
+  "news": [
+    {
+      "id": "n-2026-09-08-1",
+      "title": "إطلاق GPT-6 Astra: جيل جديد من الذكاء الاصطناعي",
+      "titleEn": "Introducing GPT-6 Astra: A new generation of intelligence",
+      "summary": "أعلنت OpenAI عن GPT-6 Astra، أذكى نموذجها الأكثر محاذاة حتى الآن، مع إمكانيات متقدمة في الفهم والاستدلال والإنجاز المهام المعقدة.",
+      "summaryEn": "OpenAI introduces GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities in understanding, reasoning, and complex task completion.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-astra"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-08-2",
+      "title": "طرح WeatherNext 3: أحدث نموذج للطقس العالمي",
+      "titleEn": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "summary": "أطلقت Google DeepMind نموذج WeatherNext 3، وهو أحدث نموذج للطقس العالمي يوفر تنبؤات دقيقة ومفصلة للظروف الجوية حول العالم.",
+      "summaryEn": "Google DeepMind has launched WeatherNext 3, its most advanced and accurate global weather AI model, providing detailed and precise weather forecasts worldwide.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+      },
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "id": "n-2026-09-08-3",
+      "title": "Gemini 3.8 Flash: نموذج جديد سريع وفعال",
+      "titleEn": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "كشفت Google DeepMind عن Gemini 3.8 Flash و 3.8 Flash Cyber، وهما نموذجان جديدان يوفران سرعة وكفاءة عالية في معالجة المهام المختلفة.",
+      "summaryEn": "Google DeepMind unveiled Gemini 3.8 Flash and 3.8 Flash Cyber, two new models offering high speed and efficiency in various tasks.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+      },
+      "publishedAt": "2026-09-02"
+    },
+    {
+      "id": "n-2026-09-08-4",
+      "title": "كلاود أوبس 5: تحول كبير في قدرات النماذج",
+      "titleEn": "Introducing Claude Opus 5",
+      "summary": "أعلنت Anthropic عن كلاود أوبس 5، وهو تحول كبير في مستوى النماذج، مع قدرات محسنة في تشغيل الوكلات لفترات طويلة مع الحفاظ على الأمان.",
+      "summaryEn": "Anthropic announced Claude Opus 5, a significant step change improvement for the Opus tier, powering long-running agents while maintaining safety.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/claude-opus-5"
+      },
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "id": "n-2026-09-08-5",
+      "title": "ميستريال ترفع 3 مليار يورو لذكاء اصطناعي سيادي",
+      "titleEn": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+      "summary": "جمعت شركة Mistral AI 3 مليار يورو لتطوير ذكاء اصطناعي سيادي ومفتوح المصدر، مما يعزز موقعها في السوق العالمي.",
+      "summaryEn": "Mistral AI has raised €3B to develop sovereign, open-weight AI, strengthening its position in the global market.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier"
+      },
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "id": "n-2026-09-08-6",
+      "title": "شركة مونشوت تقدم للاكتتاب العام في هونغ كونغ",
+      "titleEn": "Moonshot AI files confidentially for Hong Kong IPO",
+      "summary": "أعلنت شركة مونشوت AI، مطورة نموذج كيمي K3، عن تقديمها للاكتتاب العام في هونغ كونغ، مستهدفة تقييماً يصل إلى 50 مليار دولار.",
+      "summaryEn": "Moonshot AI, developer of the Kimi K3 model, has filed for a Hong Kong IPO targeting a $50 billion valuation.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
+      },
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "id": "n-2026-09-08-7",
+      "title": "كوين 3.8-ماكس: نموذج مفتوح المصدر يصل إلى مستوى أوبس 5",
+      "titleEn": "Qwen3.8-Max Open-Sources at 86.6, Nears Opus 5",
+      "summary": "أطلقت علي بابا نموذج كوين 3.8-ماكس كمصدر مفتوح، حيث حقق نتائج قريبة من مستوى أوبس 5 في الاختبارات.",
+      "summaryEn": "Alibaba has open-sourced the Qwen3.8-Max model, achieving results close to Opus 5 level in benchmarks.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsaGlaNGxsSFVRWXBoMEtXMmd5dnlpZG9lRnF4YXFCaXZDSU1wRkg4YU9OT3VMb2NTSkppXzR4MVJUX2hrSG5HdXdqUnJJNDF0dFZKZ3FBUVR3R09UNW13MFM0U090LXJMOEcxN3FGYw?oc=5"
+      },
+      "publishedAt": "2026-09-07"
+    },
+    {
+      "id": "n-2026-09-08-10",
+      "title": "وكلات برمجة الذكاء الاصطناعي تثبت برمجة غير موثوقة",
+      "titleEn": "AI Coding Agents Are Installing Unknown/Untrusted Code",
+      "summary": "كشفت دراسات أن وكلات برمجة الذكاء الاصطناعي تقوم بتثبيت كود غير معروف وغير موثوق على الشبكات المؤسسية، مما يشكل خطراً أمنياً.",
+      "summaryEn": "Studies reveal that AI coding agents are installing unknown and untrusted code on corporate networks, posing a security risk.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html"
+      },
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "id": "n-2026-09-08-8",
+      "title": "ديب سيك تطلب 160 ألف معالج هواوي لمراكز البيانات",
+      "titleEn": "DeepSeek Plans 160,000-Huawei Chip AI Center",
+      "summary": "أعلنت شركة ديب سيك عن خططها لإنشاء مركز بيانات جديد باستخدام 160 ألف معالج من هواوي لتعزيز قدراتها الحسابية.",
+      "summaryEn": "DeepSeek announced plans to build a new data center using 160,000 Huawei chips to enhance its computational capabilities.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRi1jZ09HdUZaQUNiRmw3Y2ZMUW43SFZEM3g4Q2xRQzdqTGQ0M0YzblZqRk5oX0ZxTFMxaWkyMXM0OWdxZi1KVGxvZExIRmV2bUhRX0ZQdmV1UDQwaDMtYlFwWXNsQUhwNFdTelVMWnBzTEtSQnptYnhGN3Jtb1lDRlpiOGczYk5uREZTZUxKbE9DWVkwUERmajhHZGlVMWcxQ0hyVXA1cDkyaGVXRERxWGJLcUl3YWk3WldCMTY4aFJoUQ?oc=5"
+      },
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "id": "n-2026-09-08-9",
+      "title": "عطل واسع يضرب خدمات الذكاء الاصطناعي",
+      "titleEn": "Widespread AI outage underway",
+      "summary": "شهدت خدمات الذكاء الاصطناعي من عدة شركات عطلًا واسع النطاق، مما أثر على آلاف المستخدمين حول العالم.",
+      "summaryEn": "Multiple AI services experienced widespread outages affecting thousands of users worldwide.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmMzJDQXFSRzZoazlBWjJxOVdrZS1DUlR1S0xLM0xvTzAtRzBBUFBNeTk1RzZXM1l0MGZaenVBOFY4WGtXeDUwc2ZRQXZSelBGZWlQcFFoTHFwMDBSRGp4MDlIZGhCRXBkZjZOQg?oc=5"
+      },
+      "publishedAt": "2026-09-03"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-09-08-1",
+      "name": "GPT-6 Astra",
+      "org": "OpenAI",
+      "releaseDate": "2026-09-03",
+      "highlights": "نموذج متقدم في الفهم والاستدلال، مع قدرات محسنة في حل المشكلات المعقدة والابتكار.",
+      "highlightsEn": "Advanced model with improved understanding, reasoning, and complex problem-solving capabilities.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://openai.com/index/gpt-6-astra"
+    },
+    {
+      "id": "m-2026-09-08-2",
+      "name": "WeatherNext 3",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-03",
+      "highlights": "نموذج متخصص في التنبؤ بالطقس العالمي بدقة غير مسبوقة.",
+      "highlightsEn": "Specialized model for unprecedentedly accurate global weather forecasting.",
+      "specs": {
+        "context": "2M"
+      },
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+    },
+    {
+      "id": "m-2026-09-08-3",
+      "name": "Gemini 3.8 Flash",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-02",
+      "highlights": "نموذج سريع وفعال لمعالجة المهام المختلفة بسرعة عالية.",
+      "highlightsEn": "Fast and efficient model for high-speed processing of various tasks.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+    },
+    {
+      "id": "m-2026-09-08-4",
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "releaseDate": "2026-08-24",
+      "highlights": "نموذج متقدم مع قدرات محسنة في تشغيل الوكلات لفترات طويلة مع الحفاظ على الأمان.",
+      "highlightsEn": "Advanced model with improved capabilities for running long-duration agents while maintaining safety.",
+      "specs": {
+        "context": "200K"
+      },
+      "url": "https://www.anthropic.com/news/claude-opus-5"
+    },
+    {
+      "id": "m-2026-09-08-5",
+      "name": "Qwen3.8-Max",
+      "org": "Qwen",
+      "releaseDate": "2026-09-07",
+      "highlights": "نموذج مفتوح المصدر يصل إلى مستوى أوبس 5 في الاختبارات.",
+      "highlightsEn": "Open-source model achieving Opus 5 level performance in benchmarks.",
+      "specs": {
+        "context": "2M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsaGlaNGxsSFVRWXBoMEtXMmd5dnlpZG9lRnF4YXFCaXZDSU1wRkg4YU9OT3VMb2NTSkppXzR4MVJUX2hrSG5HdXdqUnJJNDF0dFZKZ3FBUVR3R09UNW13MFM0U090LXJMOEcxN3FGYw?oc=5"
+    },
+    {
+      "id": "m-2026-09-08-6",
+      "name": "DeepSeek V4-Pro",
+      "org": "DeepSeek",
+      "releaseDate": "2026-09-05",
+      "highlights": "نموذج متقدم مع قدرات حسابية عالية مدعوم بمعالجات هواوي.",
+      "highlightsEn": "Advanced model with high computational capabilities supported by Huawei chips.",
+      "specs": {
+        "context": "1.5M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU3QtdS1qd0RPRXlYMVpXVU9La0N6bEJXd3VXZUJleEJ4S2RBZHNfQUFBTEsyejZpVWV3aUtZSmMwcl9pQk01MU1zNk9SRE9xOG1DVXFHSjRfVW96U05rcmNnRUhMMmQ1UUR3c3Q0VVNlM3hZS09KRkYyd01ZdWJGQ1BZRk1XRFpFOFh3TQ?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-09-08-1",
+      "text": "جمعت شركة Mistral AI 3 مليار يورو لتطوير ذكاء اصطناعي سيادي ومفتوح المصدر.",
+      "textEn": "Mistral AI has raised €3B to develop sovereign, open-weight AI.",
+      "level": "info",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier"
+    },
+    {
+      "id": "h-2026-09-08-2",
+      "text": "شركة مونشوت AI تقدم للاكتتاب العام في هونغ كونغ بتقييم 50 مليار دولار.",
+      "textEn": "Moonshot AI files for Hong Kong IPO with $50B valuation.",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5"
+    },
+    {
+      "id": "h-2026-09-08-3",
+      "text": "وكلات برمجة الذكاء الاصطناعي تقوم بتثبيت كود غير موثوق على الشبكات المؤسسية.",
+      "textEn": "AI coding agents are installing untrusted code on corporate networks.",
+      "level": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-09-08-1",
+      "title": "ثغرة أمنية في نظام التصويت",
+      "titleEn": "Security Vulnerability in a Voting System",
+      "summary": "تم اكتشاف ثغرة أمنية في نظام التصويت تسمح بش recovering ترتيب الأصوات الصادرة، مما يشكل خطراً على سلامة الانتخابات.",
+      "summaryEn": "A security vulnerability in a voting system allows recovery of ballot order, posing a threat to election integrity.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "sec-2026-09-08-2",
+      "title": "وكلات برمجة الذكاء الاصطناعي تثبت برمجة غير موثوقة",
+      "titleEn": "AI Coding Agents Are Installing Unknown/Untrusted Code",
+      "summary": "أظهرت دراسات أن وكلات برمجة الذكاء الاصطناعي تقوم بتثبيت كود غير معروف وغير موثوق على الشبكات المؤسسية، مما يشكل خطراً أمنياً كبيراً.",
+      "summaryEn": "Studies reveal that AI coding agents are installing unknown and untrusted code on corporate networks, posing a significant security risk.",
+      "type": "malware",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "sec-2026-09-08-3",
+      "title": "استخدام آلة افتراضية لاحتواء وكلات الذكاء الاصطناعي",
+      "titleEn": "Using a VM to Contain an AI Agent",
+      "summary": "أظهرت الأبحاث أن استخدام الآلات الافتراضية لاحتواء وكلات الذكاء الاصطناعي ليس فعالاً دائماً، حيث تمكن بعض الوكلات من تجاوز هذه الحماية.",
+      "summaryEn": "Research shows that using virtual machines to contain AI agents is not always effective, as some agents can bypass this protection.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "sec-2026-09-08-4",
+      "title": "عطل واسع يضرب خدمات الذكاء الاصطناعي",
+      "titleEn": "Widespread AI outage",
+      "summary": "شهدت خدمات الذكاء الاصطناعي من عدة شركات عطلًا واسع النطاق، مما أثر على آلاف المستخدمين حول العالم، مع تحديد مركز البيانات في ممفيس كمصدر المشكلة.",
+      "summaryEn": "Multiple AI services experienced widespread outages affecting thousands of users worldwide, with the Memphis data center identified as the source of the problem.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmMzJDQXFSRzZoazlBWjJxOVdrZS1DUlR1S0xLM0xvTzAtRzBBUFBNeTk1RzZXM1l0MGZaenVBOFY4WGtXeDUwc2ZRQXZSelBGZWlQcFFoTHFwMDBSRGp4MDlIZGhCRXBkZjZOQg?oc=5",
+      "source": "xAI (news)",
+      "date": "2026-09-03"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-09-08",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "60.7"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "56.8"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "55.4"
+      },
+      {
+        "name": "GPT-5.6 Sol",
+        "org": "OpenAI",
+        "score": "55.3"
+      },
+      {
+        "name": "Muse Spark 1.3",
+        "org": "Meta",
+        "score": "55.3"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "55.1"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "54.8"
+      },
+      {
+        "name": "Kimi K3",
+        "org": "Moonshot AI",
+        "score": "53.8"
+      },
+      {
+        "name": "GLM-5.3",
+        "org": "Zhipu AI",
+        "score": "53.6"
+      },
+      {
+        "name": "DeepSeek-V4-Pro-0813",
+        "org": "DeepSeek",
+        "score": "52.5"
+      }
+    ],
+    "highlights": "يُظهر الترتيب الحالي تنافسًا شديدًا بين النماذج الرائدة، حيث تتصدر GPT-6 Astra من OpenAI القائمة بنسبة 60.7%. يلاحظ أن Claude Fable 5.1 من Anthropic حقق قفزة كبيرة في التصنيف ليحتل المركز الثاني. كما يلاحظ أن هناك منافسة قوية بين GPT-5.6 Sol و Muse Spark 1.3 اللذين يتشاركان نفس النتيجة 55.3% في المركزين الرابع والخامس على التوالي.",
+    "highlightsEn": "The current ranking shows intense competition among leading models, with GPT-6 Astra from OpenAI leading the list with 60.7%. It's notable that Claude Fable 5.1 from Anthropic made a significant jump to secure the second position. There's also fierce competition between GPT-5.6 Sol and Muse Spark 1.3, who share the same score of 55.3% in fourth and fifth place respectively."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-09-08-فهم-مقاييس-تقييم-نماذج-الذكاء-الاصطناعي",
+    "title": "فهم مقاييس تقييم نماذج الذكاء الاصطناعي",
+    "titleEn": "Understanding AI Model Evaluation Metrics",
+    "why": "تقييم نماذج الذكاء الاصطناعي بشكل صحيح أمر حاسم لاختيار النموذج المناسب لمهمتك وتحديد نقاط القوة والضعف في الأداء.",
+    "whyEn": "Properly evaluating AI models is crucial for selecting the right model for your task and identifying performance strengths and weaknesses.",
+    "difficulty": "intermediate",
+    "track": "basics",
+    "steps": [
+      {
+        "title": "تحديد معايير التقييم المناسبة",
+        "detail": "اختر المقاييس التي تتوافق مع هدفك، مثل الدقة للتصنيف، أو درجة BLEU للترجمة، أو GPQA للقدرة على الاستدلال."
+      },
+      {
+        "title": "إعداد مجموعة بيانات تقييم",
+        "detail": "أنشئ مجموعة بيانات معقولة وممثلة لسيناريوهات الاستخدام الفعلية، مع تضمين أمثلة صعبة."
+      },
+      {
+        "title": "تنفيذ الاختبارات",
+        "detail": "قم بتشغيل النموذج على مجموعة البيانات وقم بتسجيل النتائج لكل معيار، مع الانتباه إلى الاستجابة والاستهلاك الحسابي."
+      },
+      {
+        "title": "تحليل النتائج",
+        "detail": "قارن النتائج عبر المقاييس المختلفة، وتحقق من الاتساق في الأداء عبر مجموعات البيانات المختلفة."
+      },
+      {
+        "title": "مراجعة وتحسين",
+        "detail": "استخدم نتائج التقييم لتحديد المجالات التي تحتاج إلى تحسين، وكرر العملية بعد إجراء التحسينات."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Select appropriate evaluation metrics",
+        "detail": "Choose metrics that align with your goal, such as accuracy for classification, BLEU score for translation, or GPQA for reasoning capabilities."
+      },
+      {
+        "title": "Prepare evaluation datasets",
+        "detail": "Create a reasonable and representative dataset for real-world use scenarios, including challenging examples."
+      },
+      {
+        "title": "Conduct testing",
+        "detail": "Run the model on the dataset and record results for each metric, paying attention to response time and computational consumption."
+      },
+      {
+        "title": "Analyze results",
+        "detail": "Compare results across different metrics and check for consistency in performance across different datasets."
+      },
+      {
+        "title": "Review and improve",
+        "detail": "Use evaluation results to identify areas needing improvement and repeat the process after making enhancements."
+      }
+    ],
+    "code": "def evaluate_model(model, test_data, metrics):\n    results = {}\n    for metric in metrics:\n        scores = []\n        for item in test_data:\n            prediction = model.predict(item['input'])\n            score = metric.calculate(prediction, item['expected_output'])\n            scores.append(score)\n        results[metric.name] = sum(scores) / len(scores)\n    return results",
+    "resources": [
+      {
+        "name": "LLM Stats Leaderboard",
+        "url": "https://llm-stats.com/leaderboard"
+      },
+      {
+        "name": "Hugging Face Evaluate Library",
+        "url": "https://huggingface.co/docs/evaluate/index"
+      },
+      {
+        "name": "Papers with Code Evaluation Metrics",
+        "url": "https://paperswithcode.com/evaluation"
+      }
+    ],
+    "tags": [
+      "تقييم النماذج",
+      "مقاييس الأداء",
+      "اختبار الذكاء الاصطناعي",
+      "تحليل النتائج"
+    ],
+    "quickRef": "حدد المقاييس المناسبة، جهز بيانات الاختبار، نفذ الاختبارات، تحليل النتائج، واستخدم النتائج للتحسين.",
+    "quickRefEn": "Select appropriate metrics, prepare test data, conduct testing, analyze results, and use findings for improvement.",
+    "quiz": [
+      {
+        "q": "ما هو أهم معيار لتقييم نماذج الذكاء الاصطناعي للغة؟",
+        "options": [
+          "الدقة",
+          "درجة BLEU",
+          "سرعة الاستجابة",
+          "استهلاك الطاقة"
+        ],
+        "answer": 1,
+        "explain": "درجة BLEU هي المعيار الأكثر شيوعًا لتقييم جودة الترجمة الآلية ونماذج اللغة."
+      },
+      {
+        "q": "ما هو الخطأ الشائع في تقييم نماذج الذكاء الاصطناعي؟",
+        "options": [
+          "استخدام مجموعة بيانات صغيرة",
+          "تجاهز استهلاك الموارد",
+          "عدم مراعاة السياق",
+          "كل ما سبق"
+        ],
+        "answer": 3,
+        "explain": "كل الخيارات الأخطاء الشائعة في تقييم نماذج الذكاء الاصطناعي، حيث يجب مراعاة جميع الجوانب للحصول على تقييم شامل."
+      },
+      {
+        "q": "ما هو أفضل ممارسة عند تحليل نتائج التقييم؟",
+        "options": [
+          "الاعتماد على معيار واحد فقط",
+          "النظر فقط في المتوسطات",
+          "مراعاة التباين في الأداء",
+          "تجاهل النتائج المتطرفة"
+        ],
+        "answer": 2,
+        "explain": "من المهم مراعاة التباين في الأداء عبر مجموعة البيانات بأكملها، وليس فقط الاعتماد على المتوسطات."
+      }
+    ],
+    "addedAt": "2026-09-08"
+  }
+}
