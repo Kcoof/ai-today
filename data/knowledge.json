@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-11-تنفيذ-مرشحات-أمان-الذكاء-الاصطناعي-في-التطبيقات",
+      "title": "تنفيذ مرشحات أمان الذكاء الاصطناعي في التطبيقات",
+      "titleEn": "Implementing AI Safety Filters in Applications",
+      "why": "تعتبر مرشحات الأمان ضرورية لضمان استخدام الذكاء الاصطناعي بشكل مسؤول ومنع إساءة النماذج. تساعد هذه المرشحات في حظر المحتوى الضار، والتحقق من المدخلات، وتحديد الاستخدامات غير الأخلاقية.",
+      "whyEn": "Safety filters are essential to ensure responsible AI use and prevent model misuse. These filters help block harmful content, verify inputs, and identify unethical uses.",
+      "difficulty": "intermediate",
+      "track": "security",
+      "steps": [
+        {
+          "title": "تحديد المخاطر المحتملة",
+          "detail": "قم بتحديد أنواع المحتوى الضار الذي يجب حظره مثل الكلام الكراهية، والمحتوى الجنسي الصريح، والمعلومات الخاطئة."
+        },
+        {
+          "title": "اختيار نموذج التصفية",
+          "detail": "اختر نموذج تصفية مناسب مثل Perspective API أو OpenAI Moderation API بناءً على احتياجاتك."
+        },
+        {
+          "title": "دمج المرشح",
+          "detail": "قم بدمج المرشح في تدفق معالجة الطلب الخاص بك بحيث يتم التحقق من كل مدخلات ومخرجات النموذج."
+        },
+        {
+          "title": "اختبار المرشح",
+          "detail": "اختبر المرشح بمجموعة متنوعة من المدخلات للتأكد من فعاليته ودقته."
+        },
+        {
+          "title": "مراقبة التحديثات",
+          "detail": "حافظ على تحديث المرشح بانتظام لمواكبة التهديدات الجديدة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Identify Potential Risks",
+          "detail": "Identify types of harmful content to block such as hate speech, explicit sexual content, and misinformation."
+        },
+        {
+          "title": "Choose a Filtering Model",
+          "detail": "Select an appropriate filtering model like Perspective API or OpenAI Moderation API based on your needs."
+        },
+        {
+          "title": "Integrate the Filter",
+          "detail": "Integrate the filter into your request processing flow so that all model inputs and outputs are verified."
+        },
+        {
+          "title": "Test the Filter",
+          "detail": "Test the filter with a variety of inputs to ensure its effectiveness and accuracy."
+        },
+        {
+          "title": "Monitor Updates",
+          "detail": "Regularly update the filter to keep up with new threats."
+        }
+      ],
+      "code": "import openai\n\ndef moderate_content(text):\n    response = openai.Moderation.create(input=text)\n    return response[\"results\"][0][\"flagged\"]\n\n# Example usage\ntext_to_check = \"This is a sample text to check\"\nis_flagged = moderate_content(text_to_check)\nprint(f\"Content flagged: {is_flagged}\")",
+      "resources": [
+        {
+          "name": "OpenAI Moderation API",
+          "url": "https://platform.openai.com/docs/guides/moderation"
+        },
+        {
+          "name": "Perspective API Documentation",
+          "url": "https://perspectiveapi.com/"
+        },
+        {
+          "name": "AI Safety Guidelines",
+          "url": "https://aisafety.info/"
+        }
+      ],
+      "tags": [
+        "أمان",
+        "مرشحات",
+        "تحت المراقبة",
+        "نماذج مسؤولة"
+      ],
+      "quickRef": "مرشحات الأمان تحمي التطبيقات من المحتوى الضار عبر التحقق من المدخلات والمخرجات باستخدام واجهات برمجية متخصصة.",
+      "quickRefEn": "Safety filters protect applications from harmful content by verifying inputs and outputs using specialized APIs.",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي لمرشحات أمان الذكاء الاصطناعي؟",
+          "options": [
+            "تحسين أداء النموذج",
+            "منع إساءة النماذج وحماية المستخدمين",
+            "تقليل تكاليف التشغيل",
+            "زيادة سرعة الاستجابة"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي لمرشحات أمان الذكاء الاصطناعي هو منع إساءة النماذج وحماية المستخدمين من المحتوى الضار."
+        },
+        {
+          "q": "أي من الخيارات التالية ليس من خطوات تنفيذ مرشح أمان؟",
+          "options": [
+            "تحديد المخاطر المحتملة",
+            "اختيار نموذج التصفية",
+            "تجاهل اختبار المرشح",
+            "مراقبة التحديثات"
+          ],
+          "answer": 2,
+          "explain": "اختبار المرشح هو خطوة أساسية في عملية التنفيذ، وليس من المنطوي تجاهله."
+        },
+        {
+          "q": "ما هو أحد الأمثلة على واجهات برمجية يمكن استخدامها لتصفية المحتوى؟",
+          "options": [
+            "TensorFlow",
+            "PyTorch",
+            "OpenAI Moderation API",
+            "Docker"
+          ],
+          "answer": 2,
+          "explain": "OpenAI Moderation API هي واجهة برمجية متخصصة لتصفية المحتوى الضار، بينما TensorFlow و PyTorch هي أطر تعلم الآلة، و Docker أداة للحاويات."
+        }
+      ],
+      "addedAt": "2026-09-11"
+    },
+    {
       "id": "k-2026-09-09-تحسين-أداء-النماذج-باستخدام-تقنيات-الـ-prompt-engi",
       "title": "تحسين أداء النماذج باستخدام تقنيات الـ Prompt Engineering",
       "titleEn": "Improving Model Performance Using Prompt Engineering Techniques",
