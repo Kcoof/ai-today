@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-12-ضبط-النماذج-اللغوية-الصغيرة-fine-tuning",
+      "title": "ضبط النماذج اللغوية الصغيرة (Fine-tuning)",
+      "titleEn": "Fine-tuning Small Language Models",
+      "why": "يساعد ضبط النماذج الصغيرة على تخصيصها لمهام محددة، مما يحسن الأداء ويقلل التكاليف مقارنة باستخدام النماذج الكبيرة.",
+      "whyEn": "Fine-tuning small models helps customize them for specific tasks, improving performance while reducing costs compared to using large models.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحضير البيانات",
+          "detail": "اجمع مجموعة بيانات عالية الجودة تتعلق بمهمتك المحددة، مع التأكد من تنوعها وتوازنها."
+        },
+        {
+          "title": "اختيار النموذج الأساسي",
+          "detail": "اختر نموذجاً صغيراً مناسباً لمهمتك مثل LLaMA-7B أو Mistral-7B."
+        },
+        {
+          "title": "إعداد البيئة",
+          "detail": "قم بتثبيت المكتبات اللازمة مثل PyTorch و Hugging Face Transformers."
+        },
+        {
+          "title": "تنفيذ عملية الضبط",
+          "detail": "استخدم مكتبات مثل PEFT أو LoRA لتنفيذ عملية الضبط بكفاءة."
+        },
+        {
+          "title": "تقييم النموذج",
+          "detail": "اختبر النموذج المضبوط على مجموعة بيانات منفصلة لتقييم أدائه."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Data Preparation",
+          "detail": "Collect a high-quality dataset relevant to your specific task, ensuring diversity and balance."
+        },
+        {
+          "title": "Base Model Selection",
+          "detail": "Choose a suitable small model for your task, such as LLaMA-7B or Mistral-7B."
+        },
+        {
+          "title": "Environment Setup",
+          "detail": "Install necessary libraries like PyTorch and Hugging Face Transformers."
+        },
+        {
+          "title": "Fine-tuning Implementation",
+          "detail": "Use libraries like PEFT or LoRA to implement the fine-tuning process efficiently."
+        },
+        {
+          "title": "Model Evaluation",
+          "detail": "Test the fine-tuned model on a separate dataset to evaluate its performance."
+        }
+      ],
+      "code": "from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer\nimport torch\n\n# Load model and tokenizer\nmodel_name = \"meta-llama/Llama-2-7b-hf\"\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\ntokenizer = AutoTokenizer.from_pretrained(model_name)\n\n# Prepare dataset (simplified example)\ntrain_dataset = [...]  # Your training data here\n\n# Training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=4,\n    save_steps=10_000,\n    save_total_limit=2,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n)\n\n# Start fine-tuning\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Documentation",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "PEFT Library",
+          "url": "https://huggingface.co/docs/peft/index"
+        },
+        {
+          "name": "LoRA Paper",
+          "url": "https://arxiv.org/abs/2106.09685"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "التعلم العميق",
+        "النماذج اللغوية",
+        "الذكاء الاصطناعي"
+      ],
+      "quickRef": "ضبط النماذج الصغيرة يتضمن تحضير البيانات، اختيار النموذج، إعداد البيئة، التنفيذ، والتقييم.",
+      "quickRefEn": "Fine-tuning small models includes data preparation, model selection, environment setup, implementation, and evaluation.",
+      "quiz": [
+        {
+          "q": "ما هي الخطوة الأولى في عملية ضبط النموذج اللغوي الصغير؟",
+          "options": [
+            "اختيار النموذج الأساسي",
+            "تحضير البيانات",
+            "تثبيت المكتبات اللازمة",
+            "بدء عملية الضبط"
+          ],
+          "answer": 1,
+          "explain": "تحضير البيانات هو الخطوة الأولى والأكثر أهمية، حيث يعتمد نجاح عملية الضبط على جودة البيانات وتنوعها."
+        },
+        {
+          "q": "ما هي تقنية الضبط التي تقلل من استخدام الذاكرة بشكل كبير؟",
+          "options": [
+            "Full Fine-tuning",
+            "LoRA",
+            "Data Augmentation",
+            "Transfer Learning"
+          ],
+          "answer": 1,
+          "explain": "LoRA (Low-Rank Adaptation) هي تقنية ضبط تقلل من استخدام الذاكرة بشكل كبير عن طريق تحديث عدد قليل من المعاملات فقط."
+        },
+        {
+          "q": "ما هو النموذج الصغير الشائع المستخدم في ضبط النماذج اللغوية؟",
+          "options": [
+            "GPT-4",
+            "LLaMA-7B",
+            "Claude-2",
+            "Gemini Ultra"
+          ],
+          "answer": 1,
+          "explain": "LLaMA-7B هو نموذج لغوي صغير بحجم 7 مليون معامل، وهو شائع الاستخدام في عمليات الضبط بسبب كفاءته."
+        }
+      ],
+      "addedAt": "2026-09-12"
+    },
+    {
       "id": "k-2026-09-11-تنفيذ-مرشحات-أمان-الذكاء-الاصطناعي-في-التطبيقات",
       "title": "تنفيذ مرشحات أمان الذكاء الاصطناعي في التطبيقات",
       "titleEn": "Implementing AI Safety Filters in Applications",
