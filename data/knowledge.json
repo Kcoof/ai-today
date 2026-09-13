@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-13-تحسين-أداء-النماذج-باستخدام-الكمرة",
+      "title": "تحسين أداء النماذج باستخدام الكمرة",
+      "titleEn": "Optimizing AI Model Performance with Quantization",
+      "why": "الكمرة هي تقنية تقلل دقة الأرقام في النماذج لزيادة السرعة وتقليل استهلاك الذاكرة مع الحفاظ على أداء مقبول.",
+      "whyEn": "Quantization is a technique that reduces numerical precision in models to increase speed and decrease memory consumption while maintaining acceptable performance.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم أساسيات الكمرة",
+          "detail": "الكمرة تحويل الأرقام من نقطة عائمة عالية الدقة (مثل 32 بت) إلى نقطة عائمة منخفضة الدقة (مثل 8 بت)."
+        },
+        {
+          "title": "اختيار استراتيجية الكمرة",
+          "detail": "اختر بين الكمرة الثابتة (Fixed-point) أو الكمرة الديناميكية (Dynamic) بناءً على متطلبات التطبيق."
+        },
+        {
+          "title": "تطبيق الكمرة",
+          "detail": "استخدم أدوات مثل TensorRT أو ONNX Runtime لتنفيذ الكمرة على النموذج الخاص بك."
+        },
+        {
+          "title": "تقييم الأداء",
+          "detail": "قارن أداء النموذج قبل وبعد الكمرة من حيث السرعة، دقة الاستدلال، واستهلاك الذاكرة."
+        },
+        {
+          "title": "ضبط المعلمات",
+          "detail": "قم بضبط معلمات الكمرة لتحقيق التوازن بين الأداء والدقة حسب متطلبات التطبيق."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding quantization basics",
+          "detail": "Quantization converts numbers from high-precision floating-point (like 32-bit) to low-precision floating-point (like 8-bit)."
+        },
+        {
+          "title": "Choosing a quantization strategy",
+          "detail": "Select between fixed-point or dynamic quantization based on application requirements."
+        },
+        {
+          "title": "Applying quantization",
+          "detail": "Use tools like TensorRT or ONNX Runtime to implement quantization on your model."
+        },
+        {
+          "title": "Evaluating performance",
+          "detail": "Compare model performance before and after quantization in terms of speed, inference accuracy, and memory consumption."
+        },
+        {
+          "title": "Tuning parameters",
+          "detail": "Adjust quantization parameters to balance performance and accuracy according to application requirements."
+        }
+      ],
+      "code": "import torch\nfrom torch.quantization import quantize_dynamic\n\n# Load your pre-trained model\nmodel = load_your_pretrained_model()\n\n# Apply dynamic quantization\nquantized_model = quantize_dynamic(model, {torch.nn.Linear}, dtype=torch.qint8)\n\n# Save the quantized model\ntorch.save(quantized_model.state_dict(), 'quantized_model.pth')",
+      "resources": [
+        {
+          "name": "PyTorch Quantization Documentation",
+          "url": "https://pytorch.org/docs/stable/quantization.html"
+        },
+        {
+          "name": "TensorFlow Lite Guide",
+          "url": "https://www.tensorflow.org/lite/convert/quantization"
+        },
+        {
+          "name": "NVIDIA TensorRT Documentation",
+          "url": "https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html"
+        }
+      ],
+      "tags": [
+        "كمرة",
+        "تحسين الأداء",
+        "نماذج خفيفة",
+        "تطبيقات محمولة"
+      ],
+      "quickRef": "الكمرة تحويل النماذج من 32/16 بت إلى 8 بت لزيادة السرعة وتقليل الذاكرة",
+      "quickRefEn": "Quantization converts models from 32/16-bit to 8-bit for increased speed and reduced memory",
+      "quiz": [
+        {
+          "q": "ما هي الكمرة في سياق نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "تقنية لزيادة حجم النموذج",
+            "تقنية لتحويل الأرقام من دقة عالية إلى دقة منخفضة",
+            "طريقة لتدريب النماذج بشكل أسرع",
+            "تقنية لتحسين جودة البيانات"
+          ],
+          "answer": 1,
+          "explain": "الكمرة هي تقنية لتحويل الأرقام من دقة عالية (مثل 32 بت) إلى دقة منخفضة (مثل 8 بت) لزيادة السررة وتقليل استهلاك الذاكرة."
+        },
+        {
+          "q": "ما هي الفائدة الرئيسية للكمرة في تطبيقات الذكاء الاصطناعي؟",
+          "options": [
+            "زيادة دقة النموذج",
+            "تقليل استهلاك الطاقة",
+            "زيادة سرعة الاستدلال وتقليل استهلاك الذاكرة",
+            "تحسين قدرة النموذج على التعلم"
+          ],
+          "answer": 2,
+          "explain": "الفائدة الرئيسية للكمرة هي زيادة سرعة الاستدلال وتقليل استهلاك الذاكرة، مما يجعل النماذج أكثر ملاءمة للتشغيل على الأجهزة المحمولة."
+        },
+        {
+          "q": "أي من الخيارات التالي ليس استراتيجية كمرة شائعة؟",
+          "options": [
+            "الكمرة الثابتة",
+            "الكمرة الديناميكية",
+            "الكمرة التلقائية",
+            "الكمرة التدريجية"
+          ],
+          "answer": 2,
+          "explain": "الكمرة التلقائية ليست استراتيجية كمرة شائعة. الاستراتيجيات الشائعة تشمل الكمرة الثابتة والكمرة الديناميكية والكمرة التدريجية."
+        }
+      ],
+      "addedAt": "2026-09-13"
+    },
+    {
       "id": "k-2026-09-12-ضبط-النماذج-اللغوية-الصغيرة-fine-tuning",
       "title": "ضبط النماذج اللغوية الصغيرة (Fine-tuning)",
       "titleEn": "Fine-tuning Small Language Models",
