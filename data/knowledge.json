@@ -1,6 +1,103 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-14-تنفيذ-الوكلاء-الذكاء-الاصطناعي",
+      "title": "تنفيذ الوكلاء الذكاء الاصطناعي",
+      "titleEn": "Implementing AI Agents",
+      "why": "الوكلاء الذكاء الاصطناعي يمكنهم أداء مهام معقدة بشكل مستقل، مما يسمح بتطبيقات أكثر تقدمًا وأتمتة أعمق.",
+      "whyEn": "AI agents can perform complex tasks independently, enabling more advanced applications and deeper automation.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد مشكلة الوكيل",
+          "detail": "حدد المشكلة أو المهمة التي سيقوم بها الوكيل، وتحديد المدخلات والمخرجات المتوقعة."
+        },
+        {
+          "title": "تصميم معمارية الوكيل",
+          "detail": "خطط لكيفية تفاعل الوكيل مع البيئة، بما في ذلك آلية اتخاذ القرار، وتخزين الحالة، والاتصال بالخدمات الخارجية."
+        },
+        {
+          "title": "بناء واجهة التفاعل",
+          "detail": "أنشئ واجهة للسماح للمستخدمين بالتفاعل مع الوكيل، بما في ذلك أوامر الإدخال واستقبال المخرجات."
+        },
+        {
+          "title": "تنفيذ منطق اتخاذ القرار",
+          "detail": "طور خوارزميات للسماح للوكيل باتخاذ قرارات بناءً على البيانات المتاحة وأهدافه المحددة."
+        },
+        {
+          "title": "اختبار وتحسين",
+          "detail": "اختبر أداء الوكيل في سيناريوهات مختلفة وقم بتحسينه بناءً على النتائج."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define the agent's problem",
+          "detail": "Identify the problem or task the agent will perform, and define the expected inputs and outputs."
+        },
+        {
+          "title": "Design the agent architecture",
+          "detail": "Plan how the agent will interact with the environment, including decision-making mechanisms, state storage, and external service connections."
+        },
+        {
+          "title": "Build the interaction interface",
+          "detail": "Create an interface to allow users to interact with the agent, including input commands and output reception."
+        },
+        {
+          "title": "Implement decision-making logic",
+          "detail": "Develop algorithms to allow the agent to make decisions based on available data and its defined goals."
+        },
+        {
+          "title": "Test and refine",
+          "detail": "Test the agent's performance in different scenarios and refine it based on the results."
+        }
+      ],
+      "code": "from langchain.agents import initialize_agent, Tool\nfrom langchain.llms import OpenAI\n\n# Initialize the LLM\nllm = OpenAI(temperature=0)\n\n# Define tools\ntools = [\n    Tool(\n        name=\"calculator\",\n        func=lambda x: eval(x),\n        description=\"Useful for when you need to do math calculations\"\n    )\n]\n\n# Initialize the agent\nagent = initialize_agent(tools, llm, agent=\"zero-shot-react-description\", verbose=True)\n\n# Run the agent\nagent.run(\"What is 15 multiplied by 7?\")",
+      "resources": [
+        {
+          "name": "LangChain Documentation",
+          "url": "https://python.langchain.com/docs/modules/agents/"
+        },
+        {
+          "name": "OpenAI Agents Guide",
+          "url": "https://platform.openai.com/docs/guides/agents"
+        }
+      ],
+      "tags": [
+        "أتمتة",
+        "وكيل",
+        "تفاعل",
+        "قرار"
+      ],
+      "quickRef": "الوكلاء الذكاء الاصطناعي: أنظمة مستقلة تقوم بمهام معقدة باستخدام الذكاء الاصطناعي",
+      "quickRefEn": "AI Agents: Independent systems that perform complex tasks using artificial intelligence",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأساسي في تصميم معمارية الوكيل الذكي؟",
+          "options": [
+            "واجهة المستخدم فقط",
+            "آلية اتخاذ القرار",
+            "التصميم البصري",
+            "سرعة المعالجة"
+          ],
+          "answer": 1,
+          "explain": "آلية اتخاذ القرار هي العنصر الأساسي في تصميم معمارية الوكيل الذكي، حيث تسمح للوكيل باتخاذ قرارات بناءً على البيانات المتاحة وأهدافه المحددة."
+        },
+        {
+          "q": "ما هو الهدف الرئيسي من اختبار الوكيل الذكي؟",
+          "options": [
+            "زيادة سرعته فقط",
+            "تحسين دقة القرارات في سيناريوهات مختلفة",
+            "تقليل استهلاك الطاقة",
+            "زيادة عدد الأدوات"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من اختبار الوكيل الذكي هو تحسين دقة قراراته في سيناريوهات مختلفة، مما يضمن أداءً موثوقًا في بيئات متنوعة."
+        }
+      ],
+      "addedAt": "2026-09-14"
+    },
+    {
       "id": "k-2026-09-14-أساسيات-أمن-الذكاء-الاصطناعي",
       "title": "أساسيات أمن الذكاء الاصطناعي",
       "titleEn": "AI Safety Basics",
