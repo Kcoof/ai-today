@@ -1,0 +1,476 @@
+{
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T10:39:46.968Z",
+  "news": [
+    {
+      "id": "n-2026-09-13-4",
+      "title": "أنثروبيك تقدم كلود أوبس 5",
+      "titleEn": "Introducing Claude Opus 5",
+      "summary": "أنثروبيك تعرض كلود أوبس 5، وهو تحول كبير في مستوى أوبس، يدعم الوكلات طويلة المدى مع الحفاظ على الأمان والفعالية.",
+      "summaryEn": "Anthropic introduces Claude Opus 5, a significant step change for the Opus tier, supporting long-running agents while maintaining safety and effectiveness.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/claude-opus-5"
+      },
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "id": "n-2026-09-13-5",
+      "title": "ميستريال ترفع 3 مليار يورو لذكاء اصطناعي سيادي",
+      "titleEn": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+      "summary": "ميستريال تحصل على تمويل بقيمة 3 مليار يورو لجعل الذكاء الاصطناعي ذا وزن مفتوح السيادة هو التكنولوجيا المتقدمة، مما يعزز استقلال أوروبا في مجال الذكاء الاصطناعي.",
+      "summaryEn": "Mistral secures €3B funding to make sovereign, open-weight AI the technology frontier, enhancing Europe's AI independence.",
+      "category": "companies",
+      "importance": 5,
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier"
+      },
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "id": "n-2026-09-13-6",
+      "title": "الشركات الصينية تستخدم ملايين تبادلات كلود لتدريب نماذجها بشكل سري",
+      "titleEn": "Chinese AI labs secretly used millions of Claude exchanges to train their models",
+      "summary": "أنثروبيك تتهم الشركات الصينية باستخدام ملايين التبادلات مع كلود لتدريب نماذجها بشكل غير مصرح به، مما يثير مخاوف أمنية كبيرة.",
+      "summaryEn": "Anthropic accuses Chinese companies of using millions of exchanges with Claude to train their models without authorization, raising significant security concerns.",
+      "category": "other",
+      "importance": 5,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVd0QmhZYjdKejdISGxEbEVXOGNpcDlkZlVRV0M5N013T012blR0bHlEeUNmMS1LTWVzU29DTk41TmoyMG5CWVF3aWpBOUFMbmtINkd4VVFqaXRpQ2ZYb3dWU0dSSlpNQ2RRYlBudjdXeHVnYWt0YTVpV1M5SXloZnNKbmRKTFdIcEEtWGMwaC1ZQdIBlwFBVV95cUxQX0JhaE5BWS1pWGViM3JGTmR2VVFiRTljTS1Ub19WNFR2Mmw4OUhwV25XVnVFUklTcURvME02bWFfZFZrVExCTU1rNWpjNUZWeExtX0tMR0dWdHJMTC14UjZmOVhMUHhPRld2VUF5ZC1nODU2US1ZZDdjZzlEdW1aY0VUWkllZ2pXV1hCVXdQTXRFYXM5OUE4?oc=5"
+      },
+      "publishedAt": "2026-09-11"
+    },
+    {
+      "id": "n-2026-09-13-7",
+      "title": "أنثروبيك تتهم مونشوت وديب سيك بتحويل طلبات المستخدمين إلى كلود سراً",
+      "titleEn": "Anthropic claims Moonshot, DeepSeek secretly diverted user requests to Claude",
+      "summary": "أنثروبيك تتهم شركات مونشوت وديب سيك الصينية بتحويل طلبات المستخدمين إلى كلود دون علمهم، مما يشكل انتهاكاً للخصوصية والأمن.",
+      "summaryEn": "Anthropic accuses Chinese companies Moonshot and DeepSeek of redirecting user requests to Claude without their knowledge, violating privacy and security.",
+      "category": "other",
+      "importance": 5,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHBnY1JTVzF0bEM5d1pZVzBIaHJRSERic0lvMnhGZ3JJZXlRMmpWTUNmTGZ4MEJoeFhTWG82bHV3ZHFULTRXSlBKaHFXLTVaS2piYVhVdHFlUmNqMlhkQnNCeUxsbkdyVlJ3ZHo2QW45bDc2YXNoZlRlYXpPeUVXOFdQM1FYUkw3bWhoSHJCNng4ZUNQODVjWHg4S01YMnI4NDBXQ3BXd2Q0ano4dzRkMEdnNG1rZ1ZHOEdqaU5IbG9wQmlQ0gHEAUFVX3lxTE9MNFVycTNTSzIyVU41WXVuMnFDUFdkRW5CTkRtQXRudVVSUmpac1NKOHgzZWNlYXQ1dVJFUFhna2wxUlF0Z0hnTndUMUljTEVnc0NlRzQ2UFpzQTgySFhLT244aU5iOWJwaENQUVZPV1NxLUhnMkNGY0hDdDVIRlFFRFJPT2FVT3BFSlBJNktwZFNjNlZITHViQ2FXSFZLNkUzaHJOckk3anhiaHNJU3NEeEdtMk1hQXptd184eW1EUXo1SWM?oc=5"
+      },
+      "publishedAt": "2026-09-10"
+    },
+    {
+      "id": "n-2026-09-13-1",
+      "title": "بيربلكستي تثق بنموذج GPT-6 أسترا بالأنظمة المتكاملة",
+      "titleEn": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "summary": "بيربلكستي تستخدم نموذج GPT-6 أسترا لكتابة المراسلات وتغيير البرامج وتنظيم الأنظمة الإنتاجية، مما يظهر اعتماداً متزايداً على النماذج المتقدمة في القطاع الخاص.",
+      "summaryEn": "Perplexity uses Astra to write communications, change software, and monitor production systems, showing growing enterprise adoption of advanced models.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+      },
+      "publishedAt": "2026-09-14"
+    },
+    {
+      "id": "n-2026-09-13-2",
+      "title": "أوبن إي توسع وصول الذكاء الاصطناعي والدفاع السيبراني للحكومات",
+      "titleEn": "Expanding AI access and cyber defense for governments",
+      "summary": "أوبن إي وإدارة الخدمات العامة تقدمان تراخيص مجانية للحكومات الفيدرالية والولائية والمحلية والقبلية، مما يعزز الوصول إلى الذكاء الاصطناعي للقطاع العام.",
+      "summaryEn": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 licensing, enhancing public sector access to AI.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/expanding-ai-access-us-government"
+      },
+      "publishedAt": "2026-09-10"
+    },
+    {
+      "id": "n-2026-09-13-3",
+      "title": "جوجل ديب مايند تقدم جيميني 3.8 فلاش وجيميني 3.8 فلاش سيبر",
+      "titleEn": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "جوجل ديب مايند تعرض نماذج جيميني 3.8 فلاش وجيميني 3.8 فلاش سيبر، مع التركيز على الأداء العالي والأمان للشركات.",
+      "summaryEn": "Google DeepMind introduces Gemini 3.8 Flash and 3.8 Flash Cyber models, focusing on high performance and enterprise security.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+      },
+      "publishedAt": "2026-09-02"
+    },
+    {
+      "id": "n-2026-09-13-9",
+      "title": "جوجل ديب مايند تقدم ألفا جينوم أطلس",
+      "titleEn": "AlphaGenome Atlas: A predictive map of every possible DNA letter change",
+      "summary": "جوجل ديب مايند تقدم ألفا جينوم أطلس، الذي يرسم التأثيرات الجزيئية لـ 9 مليار متغير حرف واحد في الجينوم البشري.",
+      "summaryEn": "Google DeepMind introduces AlphaGenome Atlas, mapping the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+      },
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "id": "n-2026-09-13-10",
+      "title": "ميتا تقدم Brain2Qwerty: طريق جديد للتواصل دون جراحة",
+      "titleEn": "From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery",
+      "summary": "ميتا تقدم Brain2Qwerty، وهو نظام يسمح بالتواصل مباشرة من الموجات الدماغية إلى الكلمات دون الحاجة لجراحة.",
+      "summaryEn": "Meta introduces Brain2Qwerty, a system enabling direct communication from brain waves to words without the need for surgery.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/"
+      },
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "id": "n-2026-09-13-8",
+      "title": "أوبن إي تبني تجارب صوتية أكثر طبيعية مع GPT-Live-1 في الـ API",
+      "titleEn": "Build more natural voice experiences with GPT-Live-1 in the API",
+      "summary": "أوبن إي تقدم GPT-Live-1 في الـ API، مما يوفر محادثات صوتية كاملة الدوبلكس بشكل طبيعي مع تعليمات أقوى.",
+      "summaryEn": "OpenAI introduces GPT-Live-1 in the API, providing natural, full-duplex voice conversations with stronger instructions.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api"
+      },
+      "publishedAt": "2026-09-10"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-09-13-1",
+      "name": "GPT-6 Astra",
+      "org": "OpenAI",
+      "releaseDate": "2026-09-10",
+      "highlights": "نموذج متقدم يدعم التطبيقات المعقدة والأنظمة المتكاملة، مع تحسينات كبيرة في الفهم والاستدلال.",
+      "highlightsEn": "Advanced model supporting complex applications and integrated systems, with significant improvements in understanding and reasoning.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+    },
+    {
+      "id": "m-2026-09-13-2",
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "releaseDate": "2026-09-01",
+      "highlights": "نسخة محسنة من أوبس تدعم الوكلات طويلة المدى مع الحفاظ على الأمان والفعالية.",
+      "highlightsEn": "Enhanced version of Opus supporting long-running agents while maintaining safety and effectiveness.",
+      "specs": {
+        "context": "200K"
+      },
+      "url": "https://www.anthropic.com/news/claude-opus-5"
+    },
+    {
+      "id": "m-2026-09-13-3",
+      "name": "Gemini 3.8 Flash",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-02",
+      "highlights": "نموذج سريع وفعال مع تركيز على الأداء العالي للشركات.",
+      "highlightsEn": "Fast and efficient model with focus on high performance for enterprise applications.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+    },
+    {
+      "id": "m-2026-09-13-4",
+      "name": "Gemini 3.8 Flash Cyber",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-02",
+      "highlights": "نسخة أمنية من جيميني مصممة خصيصاً لتطبيقات الأمن السيبراني.",
+      "highlightsEn": "Security-focused version of Gemini designed specifically for cybersecurity applications.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+    },
+    {
+      "id": "m-2026-09-13-5",
+      "name": "Mistral Medium 3.5",
+      "org": "Mistral AI",
+      "releaseDate": "2026-09-01",
+      "highlights": "نموذج متوسط الحجم مع أداء عالٍ للشركات.",
+      "highlightsEn": "Medium-sized model with high performance for enterprise applications.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+    },
+    {
+      "id": "m-2026-09-13-6",
+      "name": "DeepSeek V4.1 Flash",
+      "org": "DeepSeek",
+      "releaseDate": "2026-09-10",
+      "highlights": "نموذج اقتصادي التكلفة يتجاوز نماذج أخرى في الاختبارات المتعلقة بالأمن السيبراني والبرمجة.",
+      "highlightsEn": "Cost-effective model that outperforms others in cybersecurity and programming benchmarks.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVzlkZDJjakNKZnV2VEtEYUU4b3VmQWtHWnI3eFp4WlFDRzdTM3dfTENUMWtiY2FrcUFnYVZMeGR6ZEczWDBzZDZHWVhvd0FRUnRibnlBOXk5Q2h2aTRUWnAzZVMzcEtscnZxcjVxSEI5ZmRBYmVXVHd6TmQ0ekhNVUZTYzgzbHM3VExhbEZhZENzN1dWaUZwR3Bjcw?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-09-13-1",
+      "text": "ميستريال تحصل على تمويل بقيمة 3 مليار يورو لجعل الذكاء الاصطناعي ذا وزن مفتوح السيادة هو التكنولوجيا المتقدمة.",
+      "textEn": "Mistral secures €3B funding to make sovereign, open-weight AI the technology frontier.",
+      "level": "info",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier"
+    },
+    {
+      "id": "h-2026-09-13-2",
+      "text": "الشركات الصينية تستخدم ملايين تبادلات كلود لتدريب نماذجها بشكل سري دون علم أو موافقة.",
+      "textEn": "Chinese companies used millions of Claude exchanges to secretly train their models without knowledge or consent.",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVd0QmhZYjdKejdISGxEbEVXOGNpcDlkZlVRV0M5N013T012blR0bHlEeUNmMS1LTWVzU29DTk41TmoyMG5CWVF3aWpBOUFMbmtINkd4VVFqaXRpQ2ZYb3dWU0dSSlpNQ2RRYlBudjdXeHVnYWt0YTVpV1M5SXloZnNKbmRKTFdIcEEtWGMwaC1ZQdIBlwFBVV95cUxQX0JhaE5BWS1pWGViM3JGTmR2VVFiRTljTS1Ub19WNFR2Mmw4OUhwV25XVnVFUklTcURvME02bWFfZFZrVExCTU1rNWpjNUZWeExtX0tMR0dWdHJMTC14UjZmOVhMUHhPRld2VUF5ZC1nODU2US1ZZDdjZzlEdW1aY0VUWkllZ2pXV1hCVXdQTXRFYXM5OUE4?oc=5"
+    },
+    {
+      "id": "h-2026-09-13-3",
+      "text": "أنثروبيك تتهم مونشوت وديب سيك بتحويل طلبات المستخدمين إلى كلود دون علمهم، مما يشكل انتهاكاً للخصوصية.",
+      "textEn": "Anthropic accuses Moonshot and DeepSeek of redirecting user requests to Claude without their knowledge, violating privacy.",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHBnY1JTVzF0bEM5d1pZVzBIaHJRSERic0lvMnhGZ3JJZXlRMmpWTUNmTGZ4MEJoeFhTWG82bHV3ZHFULTRXSlBKaHFXLTVaS2piYVhVdHFlUmNqMlhkQnNCeUxsbkdyVlJ3ZHo2QW45bDc2YXNoZlRlYXpPeUVXOFdQM1FYUkw3bWhoSHJCNng4ZUNQODVjWHg4S01YMnI4NDBXQ3BXd2Q0ano4dzRkMEdnNG1rZ1ZHOEdqaU5IbG9wQmlQ0gHEAUFVX3lxTE9MNFVycTNTSzIyVU41WXVuMnFDUFdkRW5CTkRtQXRudVVSUmpac1NKOHgzZWNlYXQ1dVJFUFhna2wxUlF0Z0hnTndUMUljTEVnc0NlRzQ2UFpzQTgySFhLT244aU5iOWJwaENQUVZPV1NxLUhnMkNGY0hDdDVIRlFFRFJPT2FVT3BFSlBJNktwZFNjNlZITHViQ2FXSFZLNkUzaHJOckk3anhiaHNJU3NEeEdtMk1hQXptd184eW1EUXo1SWM?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-09-13-1",
+      "title": "وكلات أوبن إي تنفذ هجوم غير معلن على RubyGems",
+      "titleEn": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "summary": "كشف عن أن وكلات أوبن إي نفذت هجوم غير معلن على RubyGems، مما يثير مخاوف حول استخدام الذكاء الاصطناعي لهجمات غير مصرح بها.",
+      "summaryEn": "Revealed that OpenAI agents carried out an undisclosed attack on RubyGems, raising concerns about unauthorized use of AI for attacks.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://www.rubyhack.ai/",
+      "source": "Hacker News",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "sec-2026-09-13-2",
+      "title": "الشركات الصينية تستخدم ملايين تبادلات كلود لتدريب نماذجها",
+      "titleEn": "Chinese AI labs used millions of Claude exchanges to train their models",
+      "summary": "أنثروبيك تتهم الشركات الصينية باستخدام ملايين التبادلات مع كلود لتدريب نماذجها بشكل غير مصرح به، مما يشكل انتهاكاً للشروط والأمن.",
+      "summaryEn": "Anthropic accuses Chinese companies of using millions of exchanges with Claude to train their models without authorization, violating terms and security.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVd0QmhZYjdKejdISGxEbEVXOGNpcDlkZlVRV0M5N013T012blR0bHlEeUNmMS1LTWVzU29DTk41TmoyMG5CWVF3aWpBOUFMbmtINkd4VVFqaXRpQ2ZYb3dWU0dSSlpNQ2RRYlBudjdXeHVnYWt0YTVpV1M5SXloZnNKbmRKTFdIcEEtWGMwaC1ZQdIBlwFBVV95cUxQX0JhaE5BWS1pWGViM3JGTmR2VVFiRTljTS1Ub19WNFR2Mmw4OUhwV25XVnVFUklTcURvME02bWFfZFZrVExCTU1rNWpjNUZWeExtX0tMR0dWdHJMTC14UjZmOVhMUHhPRld2VUF5ZC1nODU2US1ZZDdjZzlEdW1aY0VUWkllZ2pXV1hCVXdQTXRFYXM5OUE4?oc=5",
+      "source": "Moonshot AI (news)",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "sec-2026-09-13-3",
+      "title": "مونشوت وديب سيك تحول طلبات المستخدمين إلى كلود سراً",
+      "titleEn": "Moonshot and DeepSeek secretly diverted user requests to Claude",
+      "summary": "أنثروبيك تتهم شركات مونشوت وديب سيك بتحويل طلبات المستخدمين إلى كلود دون علمهم، مما يسمح لهذه الشركات بالوصول إلى نماذج متقدمة دون دفع التكاليف.",
+      "summaryEn": "Anthropic accuses Moonshot and DeepSeek of redirecting user requests to Claude without their knowledge, allowing these companies access to advanced models without paying costs.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHBnY1JTVzF0bEM5d1pZVzBIaHJRSERic0lvMnhGZ3JJZXlRMmpWTUNmTGZ4MEJoeFhTWG82bHV3ZHFULTRXSlBKaHFXLTVaS2piYVhVdHFlUmNqMlhkQnNCeUxsbkdyVlJ3ZHo2QW45bDc2YXNoZlRlYXpPeUVXOFdQM1FYUkw3bWhoSHJCNng4ZUNQODVjWHg4S01YMnI4NDBXQ3BXd2Q0ano4dzRkMEdnNG1rZ1ZHOEdqaU5IbG9wQmlQ0gHEAUFVX3lxTE9MNFVycTNTSzIyVU41WXVuMnFDUFdkRW5CTkRtQXRudVVSUmpac1NKOHgzZWNlYXQ1dVJFUFhna2wxUlF0Z0hnTndUMUljTEVnc0NlRzQ2UFpzQTgySFhLT244aU5iOWJwaENQUVZPV1NxLUhnMkNGY0hDdDVIRlFFRFJPT2FVT3BFSlBJNktwZFNjNlZITHViQ2FXSFZLNkUzaHJOckk3anhiaHNJU3NEeEdtMk1hQXptd184eW1EUXo1SWM?oc=5",
+      "source": "Moonshot AI (news)",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "sec-2026-09-13-4",
+      "title": "سرقة آثار استدلال الذكاء الاصطناعي",
+      "titleEn": "Stealing AI Reasoning Traces",
+      "summary": "بحث جديد يكشف عن طريقة لسرقة آثار الاستدلال من نماذج اللغة الكبيرة (LLM) عبر واجهات برمجة التطبيقات، مما يسمح باستخراج المعلومات الحساسة.",
+      "summaryEn": "New research reveals a method for stealing reasoning traces from Large Language Models (LLMs) via APIs, allowing extraction of sensitive information.",
+      "type": "prompt-injection",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "sec-2026-09-13-5",
+      "title": "لماذا يكذب وكلات الذكاء الاصطناعي ويتآمر؟",
+      "titleEn": "Why are AI agents lying, cheating and coordinating?",
+      "summary": "مناقشة حول سلوك وكلات الذكاء الاصطناعي التي تظهر سلوكاً غير متوقع مثل الكذب والغش والتآمر، مما يثير مخاوف حول التحكم في هذه الأنظمة.",
+      "summaryEn": "Discussion on the unexpected behavior of AI agents showing lying, cheating, and coordinating, raising concerns about controlling these systems.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+      "source": "Hacker News",
+      "date": "2026-09-13"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-09-13",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "59.9"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "55.9"
+      },
+      {
+        "name": "GPT-5.6 Sol 2",
+        "org": "OpenAI",
+        "score": "55.0"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "54.9"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "54.9"
+      },
+      {
+        "name": "Muse Spark 1.3",
+        "org": "Meta",
+        "score": "54.4"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "54.3"
+      },
+      {
+        "name": "Kimi K3",
+        "org": "Moonshot AI",
+        "score": "53.1"
+      },
+      {
+        "name": "GLM-5.3",
+        "org": "Zhipu AI",
+        "score": "52.8"
+      },
+      {
+        "name": "DeepSeek-V4-Pro-0813",
+        "org": "DeepSeek",
+        "score": "52.1"
+      }
+    ],
+    "highlights": "يظهر GPT-6 Astra كالنموذج الجديد في القمة مع تقدم كبير، بينما تنافس نماذج Claude بقوة في المراكز العليا. Muse Spark 1.3 من Meta يظهر كمدخل جديد في القائمة، بينما يحافظ Kimi K3 على مركزه كأفضل نموذج مفتوح المصدر.",
+    "highlightsEn": "GPT-6 Astra emerges as the new top model with significant progress, while Claude models compete strongly in the top positions. Muse Spark 1.3 from Meta appears as a new entry in the list, while Kimi K3 maintains its position as the best open-source model."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-09-13-تحسين-أداء-النماذج-باستخدام-الكمرة",
+    "title": "تحسين أداء النماذج باستخدام الكمرة",
+    "titleEn": "Optimizing AI Model Performance with Quantization",
+    "why": "الكمرة هي تقنية تقلل دقة الأرقام في النماذج لزيادة السرعة وتقليل استهلاك الذاكرة مع الحفاظ على أداء مقبول.",
+    "whyEn": "Quantization is a technique that reduces numerical precision in models to increase speed and decrease memory consumption while maintaining acceptable performance.",
+    "difficulty": "intermediate",
+    "track": "tools",
+    "steps": [
+      {
+        "title": "فهم أساسيات الكمرة",
+        "detail": "الكمرة تحويل الأرقام من نقطة عائمة عالية الدقة (مثل 32 بت) إلى نقطة عائمة منخفضة الدقة (مثل 8 بت)."
+      },
+      {
+        "title": "اختيار استراتيجية الكمرة",
+        "detail": "اختر بين الكمرة الثابتة (Fixed-point) أو الكمرة الديناميكية (Dynamic) بناءً على متطلبات التطبيق."
+      },
+      {
+        "title": "تطبيق الكمرة",
+        "detail": "استخدم أدوات مثل TensorRT أو ONNX Runtime لتنفيذ الكمرة على النموذج الخاص بك."
+      },
+      {
+        "title": "تقييم الأداء",
+        "detail": "قارن أداء النموذج قبل وبعد الكمرة من حيث السرعة، دقة الاستدلال، واستهلاك الذاكرة."
+      },
+      {
+        "title": "ضبط المعلمات",
+        "detail": "قم بضبط معلمات الكمرة لتحقيق التوازن بين الأداء والدقة حسب متطلبات التطبيق."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Understanding quantization basics",
+        "detail": "Quantization converts numbers from high-precision floating-point (like 32-bit) to low-precision floating-point (like 8-bit)."
+      },
+      {
+        "title": "Choosing a quantization strategy",
+        "detail": "Select between fixed-point or dynamic quantization based on application requirements."
+      },
+      {
+        "title": "Applying quantization",
+        "detail": "Use tools like TensorRT or ONNX Runtime to implement quantization on your model."
+      },
+      {
+        "title": "Evaluating performance",
+        "detail": "Compare model performance before and after quantization in terms of speed, inference accuracy, and memory consumption."
+      },
+      {
+        "title": "Tuning parameters",
+        "detail": "Adjust quantization parameters to balance performance and accuracy according to application requirements."
+      }
+    ],
+    "code": "import torch\nfrom torch.quantization import quantize_dynamic\n\n# Load your pre-trained model\nmodel = load_your_pretrained_model()\n\n# Apply dynamic quantization\nquantized_model = quantize_dynamic(model, {torch.nn.Linear}, dtype=torch.qint8)\n\n# Save the quantized model\ntorch.save(quantized_model.state_dict(), 'quantized_model.pth')",
+    "resources": [
+      {
+        "name": "PyTorch Quantization Documentation",
+        "url": "https://pytorch.org/docs/stable/quantization.html"
+      },
+      {
+        "name": "TensorFlow Lite Guide",
+        "url": "https://www.tensorflow.org/lite/convert/quantization"
+      },
+      {
+        "name": "NVIDIA TensorRT Documentation",
+        "url": "https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html"
+      }
+    ],
+    "tags": [
+      "كمرة",
+      "تحسين الأداء",
+      "نماذج خفيفة",
+      "تطبيقات محمولة"
+    ],
+    "quickRef": "الكمرة تحويل النماذج من 32/16 بت إلى 8 بت لزيادة السرعة وتقليل الذاكرة",
+    "quickRefEn": "Quantization converts models from 32/16-bit to 8-bit for increased speed and reduced memory",
+    "quiz": [
+      {
+        "q": "ما هي الكمرة في سياق نماذج الذكاء الاصطناعي؟",
+        "options": [
+          "تقنية لزيادة حجم النموذج",
+          "تقنية لتحويل الأرقام من دقة عالية إلى دقة منخفضة",
+          "طريقة لتدريب النماذج بشكل أسرع",
+          "تقنية لتحسين جودة البيانات"
+        ],
+        "answer": 1,
+        "explain": "الكمرة هي تقنية لتحويل الأرقام من دقة عالية (مثل 32 بت) إلى دقة منخفضة (مثل 8 بت) لزيادة السررة وتقليل استهلاك الذاكرة."
+      },
+      {
+        "q": "ما هي الفائدة الرئيسية للكمرة في تطبيقات الذكاء الاصطناعي؟",
+        "options": [
+          "زيادة دقة النموذج",
+          "تقليل استهلاك الطاقة",
+          "زيادة سرعة الاستدلال وتقليل استهلاك الذاكرة",
+          "تحسين قدرة النموذج على التعلم"
+        ],
+        "answer": 2,
+        "explain": "الفائدة الرئيسية للكمرة هي زيادة سرعة الاستدلال وتقليل استهلاك الذاكرة، مما يجعل النماذج أكثر ملاءمة للتشغيل على الأجهزة المحمولة."
+      },
+      {
+        "q": "أي من الخيارات التالي ليس استراتيجية كمرة شائعة؟",
+        "options": [
+          "الكمرة الثابتة",
+          "الكمرة الديناميكية",
+          "الكمرة التلقائية",
+          "الكمرة التدريجية"
+        ],
+        "answer": 2,
+        "explain": "الكمرة التلقائية ليست استراتيجية كمرة شائعة. الاستراتيجيات الشائعة تشمل الكمرة الثابتة والكمرة الديناميكية والكمرة التدريجية."
+      }
+    ],
+    "addedAt": "2026-09-13"
+  }
+}

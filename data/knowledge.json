@@ -1,6 +1,99 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-14-أساسيات-أمن-الذكاء-الاصطناعي",
+      "title": "أساسيات أمن الذكاء الاصطناعي",
+      "titleEn": "AI Safety Basics",
+      "why": "يعد أمن الذكاء الاصطناعي ضروريًا لضمان استخدام التكنولوجيا بشكل مسؤول ومنع الأضرار المحتملة. مع تزايد اعتمادنا على أنظمة الذكاء الاصطناعي في جوانب حيوية من حياتنا، فمن الضروري فهم المخاطر المحتملة وكيفية التخفيف منها.",
+      "whyEn": "AI safety is crucial for ensuring responsible technology use and preventing potential harm. As we increasingly rely on AI systems in critical aspects of our lives, it's essential to understand potential risks and how to mitigate them.",
+      "difficulty": "beginner",
+      "track": "security",
+      "steps": [
+        {
+          "title": "فهم المخاطر الرئيسية",
+          "detail": "تعرف على أنواع المخاطر الرئيسية المتعلقة بالذكاء الاصطناعي مثل التحيز في النماذج، الخصوصية، الأمان، والاستخدام الخاطئ. ادرس كيف يمكن أن تؤدي هذه المخاطر إلى عواقب سلبية."
+        },
+        {
+          "title": "تقييم النماذج قبل النشر",
+          "detail": "قم بإجراء تقييم شامل للنماذج قبل نشرها في بيئة الإنتاج. تحقق من وجود تحيزات، اختبار الاختراق، وتأكد من أن النموذج يتصرف كما هو متوقع في سيناريوهات مختلفة."
+        },
+        {
+          "title": "تطبيق آليات الرقابة",
+          "detail": "أنشئ آليات رقابة فعالة لمراقبة أداء النماذج بعد النشر. قم بإعداد أنظمة للكشف عن الاستخدام غير المتوقع أو السلوكيات الضارة، وحدد الإجراءات التصحيحية اللازمة."
+        },
+        {
+          "title": "تحديث السياسات والإرشادات",
+          "detail": "قم بتحديث سياسات الأمن السيبراني والإرشادات الخاصة بالذكاء الاصطناعي بشكل منتظم. تأكد من أن جميع أصحاب المصلحة على دراسة بالممارسات الأفضل وأحدث التطورات في مجال أمن الذكاء الاصطناعي."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Key Risks",
+          "detail": "Learn about the main types of AI risks such as model bias, privacy, security, and misuse. Study how these risks can lead to negative consequences."
+        },
+        {
+          "title": "Evaluate Models Before Deployment",
+          "detail": "Conduct a comprehensive evaluation of models before deploying them to production. Check for biases, penetration testing, and ensure the model behaves as expected in various scenarios."
+        },
+        {
+          "title": "Implement Monitoring Mechanisms",
+          "detail": "Create effective monitoring systems to track model performance after deployment. Set up systems to detect unexpected use or harmful behaviors, and define necessary corrective actions."
+        },
+        {
+          "title": "Update Policies and Guidelines",
+          "detail": "Regularly update cybersecurity policies and AI-specific guidelines. Ensure all stakeholders are familiar with best practices and the latest developments in AI security."
+        }
+      ],
+      "code": "def check_ai_safety(model, test_cases):\n    safety_score = 0\n    for case in test_cases:\n        result = model.predict(case['input'])\n        if case['expected_output'] in result:\n            safety_score += 1\n    return safety_score / len(test_cases)",
+      "resources": [
+        {
+          "name": "AI Safety Institute",
+          "url": "https://www.gov.uk/government/organisations/ai-safety-institute"
+        },
+        {
+          "name": "Partnership on AI",
+          "url": "https://partnershiponai.org/"
+        },
+        {
+          "name": "AI Safety Guidelines",
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+        }
+      ],
+      "tags": [
+        "أمن",
+        "مسؤولية",
+        "تقييم",
+        "مراقبة"
+      ],
+      "quickRef": "أمن الذكاء الاصطناعي: فهم المخاطر، تقييم النماذج، تطبيق الرقابة، تحديث السياسات",
+      "quickRefEn": "AI Safety: Understand risks, evaluate models, implement monitoring, update policies",
+      "quiz": [
+        {
+          "q": "ما هو أحد أهم الجوانب في أمن الذكاء الاصطناعي؟",
+          "options": [
+            "زيادة سرعة النماذج",
+            "تقليل تكاليف التطوير",
+            "الكشف عن التحيز في النماذج",
+            "زيادة حجم البيانات المدربة"
+          ],
+          "answer": 2,
+          "explain": "الكشف عن التحيز في النماذج هو أحد أهم جوانب أمن الذكاء الاصطناعي لأن التحيز يمكن أن يؤدي إلى نتائج غير عادلة أو تمييزية في التطبيقات الحقيقية."
+        },
+        {
+          "q": "ما هو الإجراء الأكثر فعالية لضمان أمان نماذج الذكاء الاصطناعي بعد نشرها؟",
+          "options": [
+            "إيقاف النموذج تمامًا",
+            "تطبيق آليات الرقابة المستمرة",
+            "تجاهل الأداء بعد النشر",
+            "الاعتماد فقط على اختبارات ما قبل النشر"
+          ],
+          "answer": 1,
+          "explain": "تطبيق آليات الرقابة المستمرة هو الإجراء الأكثر فعالية لضمان أمان نماذج الذكاء الاصطناعي بعد نشرها، حيث يسمح بالكشف عن المشكلات بشكل مبكر والتصحيح الفوري."
+        }
+      ],
+      "addedAt": "2026-09-14"
+    },
+    {
       "id": "k-2026-09-13-تحسين-أداء-النماذج-باستخدام-الكمرة",
       "title": "تحسين أداء النماذج باستخدام الكمرة",
       "titleEn": "Optimizing AI Model Performance with Quantization",
