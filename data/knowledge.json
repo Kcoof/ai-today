@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-16-تحسين-أداء-النماذج-المحلية",
+      "title": "تحسين أداء النماذج المحلية",
+      "titleEn": "Optimizing Local Model Performance",
+      "why": "تحسين أداء النماذج المحلية مهم لضمان استجابة سريعة وتقليل استهلاك الموارد، مما يجعل النماذج أكثر عملية للاستخدام اليومي على الأجهزة الشخصية.",
+      "whyEn": "Optimizing local model performance is crucial for ensuring fast response times and reducing resource consumption, making models more practical for daily use on personal devices.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "اختيار النموذج المناسب",
+          "detail": "حدد نموذجًا مصممًا للعمل المحلي مثل Phi-3-mini أو Mistral-7B بناءً على متطلبات الأدمة وموارد الجهاز المتاحة."
+        },
+        {
+          "title": "تقليل دقة النموذج",
+          "detail": "استخدم تقنيات الكمرة (Quantization) لتحويل النموذج إلى دقة أقل مثل 4 بت أو 8 بت، مما يقلل من حجم النموذج ويحسن سرعته."
+        },
+        {
+          "title": "تحسين الذاكرة المؤقتة",
+          "detail": "استخدم تقنيات مثل الـ KV Caching لتحسين استخدام الذاكرة وتقليل زمن الاستجابة، خاصة في المهام التي تتطلب تكرار الاستعلامات."
+        },
+        {
+          "title": "التوازي المعزز",
+          "detail": "استخدم تقنيات التوازي مثل Tensor Parallelism لتوزيع الحمل على وحدات المعالجة المركزية المتعددة، مما يحسن الأداء على الأجهزة متعددة النوى."
+        },
+        {
+          "title": "التخصيص الدقيق",
+          "detail": "قم بتخصيص النموذج لمهام محددة عن طريق Fine-tuning على مجموعات بيانات صغيرة ذات صلة، مما يزيد من الكفاءة والسرعة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Choose the Right Model",
+          "detail": "Select a model designed for local work like Phi-3-mini or Mistral-7B based on your requirements and available device resources."
+        },
+        {
+          "title": "Reduce Model Precision",
+          "detail": "Use quantization techniques to convert the model to lower precision like 4-bit or 8-bit, reducing model size and improving speed."
+        },
+        {
+          "title": "Optimize Memory Caching",
+          "detail": "Use techniques like KV Caching to improve memory usage and reduce response time, especially for tasks requiring repeated queries."
+        },
+        {
+          "title": "Enhanced Parallelization",
+          "detail": "Use parallelization techniques like Tensor Parallelism to distribute the load across multiple CPU cores, improving performance on multi-core devices."
+        },
+        {
+          "title": "Targeted Fine-tuning",
+          "detail": "Fine-tune the model for specific tasks using small, relevant datasets, increasing efficiency and speed."
+        }
+      ],
+      "code": "import torch\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\n# Load model with 4-bit quantization\nmodel_name = \"microsoft/phi-3-mini\"\nmodel = AutoModelForCausalLM.from_pretrained(\n    model_name,\n    device_map=\"auto\",\n    torch_dtype=torch.float16,\n    load_in_4bit=True\n)\ntokenizer = AutoTokenizer.from_pretrained(model_name)",
+      "resources": [
+        {
+          "name": "Hugging Face Documentation",
+          "url": "https://huggingface.co/docs/transformers/main/en/index"
+        },
+        {
+          "name": "LLM Optimization Guide",
+          "url": "https://github.com/microsoft/DeepSpeed/blob/master/docs/llm/optimization.md"
+        },
+        {
+          "name": "Quantization Techniques",
+          "url": "https://pytorch.org/docs/stable/quantization.html"
+        }
+      ],
+      "tags": [
+        "تحسين النماذج",
+        "الكمرة",
+        "النماذج المحلية",
+        "Tensor Parallelism"
+      ],
+      "quickRef": "اختر نموذجًا مناسبًا، استخدم الكمرة، تحسين الذاكرة المؤقتة، التوازي المعزز، والتخصيص الدقيق لتحسين أداء النماذج المحلية.",
+      "quickRefEn": "Choose the right model, use quantization, optimize memory caching, enhanced parallelization, and targeted fine-tuning to optimize local model performance.",
+      "quiz": [
+        {
+          "q": "ما هي تقنية تحسين الأداء التي تقلل من دقة النموذج لتقليل حجمه وزمن استجابته؟",
+          "options": [
+            "التوازي المعزز",
+            "الكمرة (Quantization)",
+            "الذاكرة المؤقتة",
+            "التخصيص الدقيق"
+          ],
+          "answer": 1,
+          "explain": "الكمرة (Quantization) هي تقنية تحويل أوزان النموذج إلى دقة أقل (مثل 4 بت أو 8 بت) مما يقلل من حجم النموذج ويحسن سرعته."
+        },
+        {
+          "q": "ما هو النوع الأفضل من النماذج للعمل المحلي على الأجهزة الشخصية؟",
+          "options": [
+            "نماذج ضخمة مثل GPT-4",
+            "نماذج متوسطة الحجم مثل Phi-3-mini",
+            "نماذج متخصصة في المهام المعقدة",
+            "نماذج متعددة الوسائط فقط"
+          ],
+          "answer": 1,
+          "explain": "نماذج متوسطة الحجم مثل Phi-3-mini مصممة للعمل بكفاءة على الأجهزة الشخصية، توازن بين الأداء ومتطلبات الموارد."
+        },
+        {
+          "q": "ما هي تقنية تحسين الذاكرة التي تقلل زمن الاستجابة في المهام المتكررة؟",
+          "options": [
+            "Tensor Parallelism",
+            "Fine-tuning",
+            "KV Caching",
+            "Model Distillation"
+          ],
+          "answer": 2,
+          "explain": "الذاكرة المؤقتة (KV Caching) تحفظ مفتاح القيم (Key-Value) من المرات السابقة لتجنب المعالجة المتكررة، مما يقلل زمن الاستجابة."
+        }
+      ],
+      "addedAt": "2026-09-16"
+    },
+    {
       "id": "k-2026-09-14-تنفيذ-الوكلاء-الذكاء-الاصطناعي",
       "title": "تنفيذ الوكلاء الذكاء الاصطناعي",
       "titleEn": "Implementing AI Agents",

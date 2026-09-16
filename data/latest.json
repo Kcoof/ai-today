@@ -1,55 +1,55 @@
 {
-  "date": "2026-09-14",
-  "generatedAt": "2026-09-14T17:13:23.662Z",
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T10:08:56.681Z",
   "news": [
     {
-      "id": "n-2026-09-14-4",
-      "title": "الشركات الصينية تستخدم ملايين تبادلات كلود لتدريب نماذجها بشكل سري",
-      "titleEn": "Chinese AI labs secretly used millions of Claude exchanges to train their models, Anthropic says",
-      "summary": "اتهمت أنثروبي الشركات الصينية باستخدام ملايين التبادلات مع نموذج كلود لتدريب نماذجها بشكل غير مصرح به، مما يثير مخاوف أخلاقية وأمنية.",
-      "summaryEn": "Anthropic accused Chinese companies of using millions of exchanges with Claude model to train their models without authorization, raising ethical and security concerns.",
-      "category": "regulation",
+      "id": "n-2026-09-16-1",
+      "title": "شركة واحدة وراء هجمات القرصنة ضد OpenAI وAnthropic وMeta",
+      "titleEn": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
+      "summary": "كشف تحقيق أن شركة واحدة تقف وراء سلسلة من الهجمات الإلكترونية استهدفت منصات الذكاء الاصطناعي الرائدة، مما أثار مخاوف أمنية كبيرة في صناعة الذكاء الاصطناعي.",
+      "summaryEn": "An investigation reveals that a single firm is behind a series of cyberattacks targeting leading AI platforms, raising significant security concerns in the AI industry.",
+      "category": "other",
       "importance": 5,
       "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVd0QmhZYjdKejdISGxEbEVXOGNpcDlkZlVRV0M5N013T012blR0bHlEeUNmMS1LTWVzU29DTk41TmoyMG5CWVF3aWpBOUFMbmtINkd4VVFqaXRpQ2ZYb3dWU0dSSlpNQ2RRYlBudjdXeHVnYWt0YTVpV1M5SXloZnNKbmRKTFdIcEEtWGMwaC1ZQdIBlwFBVV95cUxQX0JhaE5BWS1pWGViM3JGTmR2VVFiRTljTS1Ub19WNFR2Mmw4OUhwV25XVnVFUklTcURvME02bWFfZFZrVExCTU1rNWpjNUZWeExtX0tMR0dWdHJMTC14UjZmOVhMUHhPRld2VUF5ZC1nODU2US1ZZDdjZzlEdW1aY0VUWkllZ2pXV1hCVXdQTXRFYXM5OUE4?oc=5"
-      },
-      "publishedAt": "2026-09-11"
-    },
-    {
-      "id": "n-2026-09-14-5",
-      "title": "أنثروبي تتهم مونشوت وديب سيك بتحويل طلبات المستخدمين إلى كلود",
-      "titleEn": "Anthropic claims Moonshot, DeepSeek secretly diverted user requests to Claude",
-      "summary": "زعمت أنثروبي أن شركة مونشوت وديب سيك قاما بتحويل طلبات المستخدمين بشكل غير مصرح به إلى نموذج كلود، مما يشكل انتهاكاً لسياسة الاستخدام.",
-      "summaryEn": "Anthropic claimed that Moonshot and DeepSeek diverted user requests to Claude model without authorization, constituting a policy violation.",
-      "category": "regulation",
-      "importance": 5,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHBnY1JTVzF0bEM5d1pZVzBIaHJRSERic0lvMnhGZ3JJZXlRMmpWTUNmTGZ4MEJoeFhTWG82bHV3ZHFULTRXSlBKaHFXLTVaS2piYVhVdHFlUmNqMlhkQnNCeUxsbkdyVlJ3ZHo2QW45bDc2YXNoZlRlYXpPeUVXOFdQM1FYUkw3bWhoSHJCNng4ZUNQODVjWHg4S01YMnI4NDBXQ3BXd2Q0ano4dzRkMEdnNG1rZ1ZHOEdqaU5IbG9wQmlQ0gHEAUFVX3lxTE9MNFVycTNTSzIyVU41WXVuMnFDUFdkRW5CTkRtQXRudVVSUmpac1NKOHgzZWNlYXQ1dVJFUFhna2wxUlF0Z0hnTndUMUljTEVnc0NlRzQ2UFpzQTgySFhLT244aU5iOWJwaENQUVZPV1NxLUhnMkNGY0hDdDVIRlFFRFJPT2FVT3BFSlBJNktwZFNjNlZITHViQ2FXSFZLNkUzaHJOckk3anhiaHNJU3NEeEdtMk1hQXptd184eW1EUXo1SWM?oc=5"
-      },
-      "publishedAt": "2026-09-10"
-    },
-    {
-      "id": "n-2026-09-14-1",
-      "title": "ميستريال ترفع 3 مليار يورو لذكاء اصطناعي سيادي",
-      "titleEn": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-      "summary": "أعلنت شركة ميستريال AI عن جمعها لاستثمار بقيمة 3 مليار يورو لدعم تطوير نماذج ذكاء اصطناعي سيادية مفتوحة المصدر، مما يعزز موقعها في سباق الذكاء الاصطناعي العالمي.",
-      "summaryEn": "Mistral AI announced it has raised €3 billion in investment to support the development of sovereign, open-source AI models, strengthening its position in the global AI race.",
-      "category": "companies",
-      "importance": 4,
-      "source": {
-        "name": "Mistral AI",
-        "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier"
+        "name": "Hacker News",
+        "url": "https://www.effort.news/irregular"
       },
       "publishedAt": "2026-09-14"
     },
     {
-      "id": "n-2026-09-14-2",
+      "id": "n-2026-09-16-2",
+      "title": "أنثروبي تتهم المختبرات الصينية بعمليات التقطير غير المشروعة",
+      "titleEn": "Anthropic accuses Chinese AI labs of illicit distillation attacks",
+      "summary": "اتهمت شركة أنثروبي المختبرات الصينية باستخدام ملايين من تبادلات المستخدمين لتدريب نماذجها بشكل غير قانوني، مما يثير مخاوف حول سرية البيانات وحماية الملكية الفكرية.",
+      "summaryEn": "Anthropic accuses Chinese AI labs of using millions of user exchanges to train their models illegally, raising concerns about data privacy and intellectual property protection.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZm5WZGJKVlJ0cmJUamtOLTB4amhtMjVQcFRHUllUcWk0MWQyS194LXVlZmU1V29aWlE0Rjhzcm04X1NlSU9JWlp3bThyU2dRVllBWGc3elRsLUNzOHB6cXdUNGhiTFc4RV9QMndOaWRTMjE3TFlYUG9wYVoyXy1KWVoxbUJHWGhUYS1FblF6bw?oc=5"
+      },
+      "publishedAt": "2026-09-11"
+    },
+    {
+      "id": "n-2026-09-16-3",
+      "title": "إطلاق Gemini 3.8 Live وGemini 3.8 Live Extended Thinking",
+      "titleEn": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "summary": "أطلقت جوجل ديب مايند النسخة الأحدث من نموذج Gemini مع قدرات تحسين في الفهم المباشر والتفكير الممتد، مما يمثل تقدمًا كبيرًا في قدرات الذكاء الاصطناعي.",
+      "summaryEn": "Google DeepMind launched the latest version of the Gemini model with improved direct understanding and extended thinking capabilities, representing significant progress in AI capabilities.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+      },
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "id": "n-2026-09-16-4",
       "title": "إطلاق ChatGPT للخدمات المالية",
       "titleEn": "Introducing ChatGPT for Financial Services",
-      "summary": "أطلقت OpenAI نسخة مخصصة من ChatGPT للخدمات المالية، تجمع بين البيانات المالية المدمجة ونموذج GPT-6 أسترا، لتعزيز كفاءة القطاع المالي.",
-      "summaryEn": "OpenAI launched a customized version of ChatGPT for Financial Services, combining built-in financial data with GPT-6 Astra model to enhance the financial sector's efficiency.",
+      "summary": "أطلقت OpenAI نسخة مخصصة من ChatGPT للخدمات المالية، تجمع بين البيانات المالية المدمجة ونموذج GPT-6 Astra، مما يوفر أداة قوية لقطاع المال والأعمال.",
+      "summaryEn": "OpenAI launched a customized version of ChatGPT for Financial Services, combining built-in financial data with the GPT-6 Astra model, providing a powerful tool for the financial sector.",
       "category": "tools",
       "importance": 4,
       "source": {
@@ -59,11 +59,25 @@
       "publishedAt": "2026-09-10"
     },
     {
-      "id": "n-2026-09-14-3",
-      "title": "Z.ai ترفع 5 مليار دولار لتمويل نماذج GLM التالية",
+      "id": "n-2026-09-16-5",
+      "title": "إطلاق Claude Opus 5",
+      "titleEn": "Introducing Claude Opus 5",
+      "summary": "أطلقت شركة Anthropic النسخة الأحدث من نموذج Claude Opus 5، الذي يمثل تحولًا كبيرًا في مستوى الترتيب مع قدرات محسنة للوكلات طويلة المدى.",
+      "summaryEn": "Anthropic launched the latest version of the Claude Opus 5 model, representing a significant step change in the tier level with enhanced capabilities for long-running agents.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/claude-opus-5"
+      },
+      "publishedAt": "2026-09-16"
+    },
+    {
+      "id": "n-2026-09-16-6",
+      "title": "تكتمل Z.ai تمويلًا قدره 5 مليارات دولار لنماذج GLM التالية",
       "titleEn": "Z.ai completes around US$5 billion financing for next-generation GLM models",
-      "summary": "أكملت شركة Z.ai جولة التمويل الضخمة بقيمة 5 مليار دولار لتطوير نماذج GLM التالية الجيل، مما يعزز قدراتها في سوق الذكاء الاصطناعي الصيني.",
-      "summaryEn": "Z.ai completed a massive $5 billion financing round to develop next-generation GLM models, enhancing its capabilities in the Chinese AI market.",
+      "summary": "أكملت شركة Z.ai تمويلًا ضخمًا بقيمة 5 مليارات دولار لتطوير نماذج GLM التالية، مما يعزز من قدرتها التنافسية في سوق الذكاء الاصطناعي العالمي.",
+      "summaryEn": "Z.ai completed a massive $5 billion financing round to develop next-generation GLM models, enhancing its competitive position in the global AI market.",
       "category": "companies",
       "importance": 4,
       "source": {
@@ -73,288 +87,228 @@
       "publishedAt": "2026-09-14"
     },
     {
-      "id": "n-2026-09-14-6",
+      "id": "n-2026-09-16-7",
+      "title": "إطلاق نماذج System One وJev",
+      "titleEn": "Introducing System One Models and Jev",
+      "summary": "تم إطلاق نماذج System One وJev الجديدة، التي تمثل تقدمًا كبيرًا في قدرات الذكاء الاصطناعي وتدعي تحقيق مستويات جديدة من الفهم والاستدلال.",
+      "summaryEn": "New System One and Jev models were launched, representing significant progress in AI capabilities and claiming to achieve new levels of understanding and reasoning.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+      },
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "id": "n-2026-09-16-9",
+      "title": "حصولنا على وصول مسؤول إلى GitHub الإنتاجي لشركة Baseten",
+      "titleEn": "We got admin access to Baseten's production GitHub",
+      "summary": "تمكن المهاجمون من الحصول على صلاحيات المسؤول على GitHub الإنتاجي لشركة Baseten، مما يمثل ثغرة أمنية خطيرة في بنية البنية التحتية للذكاء الاصطناعي.",
+      "summaryEn": "Attackers gained admin access to Baseten's production GitHub, representing a serious security vulnerability in AI infrastructure.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover"
+      },
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "id": "n-2026-09-16-8",
+      "title": "Grok الآن داخل Microsoft Word وExcel رسميًا",
+      "titleEn": "Grok is officially inside Microsoft Word and Excel",
+      "summary": "دمجت شركة مايكروسوفت نموذج Grok من xAI داخل Word وExcel، مع الحفاظ على الردود المهنية من خلال أوامر النظام، مما يمثل توسعًا كبيرًا في نماذج الذكاء الاصطناعي في بيئة العمل.",
+      "summaryEn": "Microsoft integrated xAI's Grok model into Word and Excel, maintaining professional responses through system prompts, representing significant expansion of AI models in the workplace.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTDhfREE4UHFhTEhPUS1uX2RBRzJDb2tLcWpIN05jdlhhbk11eXBOUVRTV3E1bVpkem15ZE5FMElvWHVndmtyOWw1Uy1mbmRMQ3JpcFVkdVR5MzlnRmFqUDBkTkg0RXRJeFdiemVERU5OeGZuNXl5T0czd043c1dURFFVQXl2SVVXM25tT3E2cElMX1FNSWhYY3NSN0xienpVLXhsQjhCUm8tejh5dUd3TFlBUzlWeVVodzVLcmlnWUhsemlVNHE5VUh1X2lyVGtJSi0taGxQRjY3YjJrNWNmMmhR?oc=5"
+      },
+      "publishedAt": "2026-09-14"
+    },
+    {
+      "id": "n-2026-09-16-10",
       "title": "استخدام الذكاء الاصطناعي لتطوير الأسلحة",
       "titleEn": "Using AI for Weapons Development",
-      "summary": "نشرت أنثروبي وثيقة مفصلة عن حالات سوء استخدام الذكاء الاصطناعي في تطوير الأسلحة، مما يثير مخاوف بشأن سلامة الذكاء الاصطناعي.",
-      "summaryEn": "Anthropic released a detailed document on current misuses of AI in weapons development, raising concerns about AI safety.",
+      "summary": "نشرت شركة Anthropic تقريرًا مفصلاً عن حالات سوء استخدام الذكاء الاصطناعي لتطوير الأسلحة، مما يبرز الحاجة إلى لوائح أقوى للحد من المخاطر الأمنية.",
+      "summaryEn": "Anthropic released a detailed document on current misuses of AI for weapons development, highlighting the need for stronger regulations to mitigate security risks.",
       "category": "regulation",
-      "importance": 4,
+      "importance": 3,
       "source": {
         "name": "Schneier on Security",
         "url": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html"
       },
       "publishedAt": "2026-09-14"
-    },
-    {
-      "id": "n-2026-09-14-7",
-      "title": "إطلاق جيميني 3.8 فلاش وجيميني 3.8 فلاش سيبر",
-      "titleEn": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "أعلنت جوجل دميند عن إطلاق نموذجي جيميني 3.8 فلاش وجيميني 3.8 فلاش سيبر، مع تحسينات في السرعة والأداء في التطبيقات الأمنية.",
-      "summaryEn": "Google DeepMind announced the launch of Gemini 3.8 Flash and Gemini 3.8 Flash Cyber models, with improvements in speed and performance for security applications.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
-      },
-      "publishedAt": "2026-09-02"
-    },
-    {
-      "id": "n-2026-09-14-8",
-      "title": "إطلاق كلود أوبوس 5",
-      "titleEn": "Introducing Claude Opus 5",
-      "summary": "أطلقت أنثروبي النسخة الأحدث من نموذج كلود أوبوس 5، مع تحسينات كبيرة في قدرات الوكلات طويلة المدى مع الحفاظ على معايير السلامة العالية.",
-      "summaryEn": "Anthropic launched the latest version of Claude Opus 5 model, with significant improvements in long-running agent capabilities while maintaining high safety standards.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/claude-opus-5"
-      },
-      "publishedAt": "2026-09-14"
-    },
-    {
-      "id": "n-2026-09-14-9",
-      "title": "ديب سيك تطلق نموذج V4.1-Flash",
-      "titleEn": "China's DeepSeek launches V4.1-Flash model",
-      "summary": "أطلقت شركة ديب سيك الصينية نموذج V4.1-Flash الجديد، الذي يتفوق على منافسيه في معايير الأمن السيبراني والبرمجة.",
-      "summaryEn": "Chinese company DeepSeek launched the new V4.1-Flash model, which outperforms competitors in cybersecurity and programming benchmarks.",
-      "category": "models",
-      "importance": 3,
-      "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVzlkZDJjakNKZnV2VEtEYUU4b3VmQWtHWnI3eFp4WlFDRzdTM3dfTENUMWtiY2FrcUFnYVZMeGR6ZEczWDBzZDZHWVhvd0FRUnRibnlBOXk5Q2h2aTRUWnAzZVMzcEtscnZxcjVxSEI5ZmRBYmVXVHd6TmQ0ekhNVUZTYzgzbHM3VExhbEZhZENzN1dWaUZwR3Bjcw?oc=5"
-      },
-      "publishedAt": "2026-09-10"
-    },
-    {
-      "id": "n-2026-09-14-10",
-      "title": "بيربلكستي تثق بنموذج GPT-6 أسترا بالأنظمة المتكاملة",
-      "titleEn": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "summary": "تستخدم شركة بيربلكستي نموذج GPT-6 أسترا لكتابة الاتصالات وتغيير البرامج ومتابعة الأنظمة الإنتاجية بشكل متكامل.",
-      "summaryEn": "Perplexity uses GPT-6 Astra model to write communications, change software, and monitor production systems in an integrated manner.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
-      },
-      "publishedAt": "2026-09-14"
-    },
-    {
-      "id": "n-2026-09-14-11",
-      "title": "الآن يمكن للجميع وضع البيانات في العمل",
-      "titleEn": "Now everyone can put data to work",
-      "summary": "أطلقت OpenAI وكلدات في ChatGPT Work، مما يسمح للمستخدمين بربط بيانات الشركة واستكشاف الرؤى وبناء التطبيقات الذكية.",
-      "summaryEn": "OpenAI launched the Data agent in ChatGPT Work, allowing users to connect company data, uncover insights, and build intelligent applications.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/put-data-to-work"
-      },
-      "publishedAt": "2026-09-10"
-    },
-    {
-      "id": "n-2026-09-14-12",
-      "title": "كوديشن تساعد ديفين في اختبار عمله بنموذج GPT-6 أسترا",
-      "titleEn": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "summary": "يحسن نموذج GPT-6 أسترا من قدرة ديفين على اختبار البرامج وإثبات عملها، مع الهدف من تحجيم الأخطاء البشرية في عملية الاختبار.",
-      "summaryEn": "GPT-6 Astra improves Devin's ability to test software and show that it works, with the goal of reducing human errors in the testing process.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/cognition-devin-testing-with-astra"
-      },
-      "publishedAt": "2026-09-11"
     }
   ],
   "models": [
     {
-      "id": "m-2026-09-14-1",
-      "name": "Gemini 3.8 Flash",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-09-02",
-      "highlights": "نموذج متقدم وسريع مع تحسينات في الأداء والتطبيقات الأمنية",
-      "highlightsEn": "Advanced and fast model with performance improvements and security applications",
-      "specs": {
-        "context": "1M",
-        "speed": "high"
-      },
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
-    },
-    {
-      "id": "m-2026-09-14-2",
+      "id": "m-2026-09-16-1",
       "name": "Claude Opus 5",
       "org": "Anthropic",
-      "releaseDate": "2026-07-24",
-      "highlights": "تحسينات كبيرة في قدرات الوكلات طويلة المدى مع معايير سلامة عالية",
-      "highlightsEn": "Significant improvements in long-running agent capabilities with high safety standards",
-      "specs": {
-        "context": "200K",
-        "safety": "enhanced"
-      },
+      "releaseDate": "2026-09-10",
+      "highlights": "تحول كبير في مستوى الترتيب مع قدرات محسنة للوكلات طويلة المدى",
+      "highlightsEn": "Significant step change in tier level with enhanced capabilities for long-running agents",
+      "specs": {},
       "url": "https://www.anthropic.com/news/claude-opus-5"
     },
     {
-      "id": "m-2026-09-14-3",
-      "name": "DeepSeek V4.1 Flash",
+      "id": "m-2026-09-16-2",
+      "name": "Gemini 3.8 Live",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-15",
+      "highlights": "تحسينات كبيرة في الفهم المباشر والتفكير الممتد",
+      "highlightsEn": "Significant improvements in direct understanding and extended thinking",
+      "specs": {},
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+    },
+    {
+      "id": "m-2026-09-16-3",
+      "name": "GLM-5.2",
+      "org": "Z.ai",
+      "releaseDate": "2026-09-15",
+      "highlights": "تفوق على GPT-5.5 في المقارنات (62.1 مقابل 58.6)",
+      "highlightsEn": "Outperformed GPT-5.5 in comparisons (62.1 to 58.6)",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTSlhRSlE5MllJRVdJTXFxT3JBZExZZ1puSkdwVE1FcEVESHp1cV80MHQtNU9JTGtxU3ZsVmc2UG9SM2Z1bzBOXzZoaC00YVdPdDNXX0lEdHMtWFg2TGtXV2tRQ1cxaUFpS0NPUHVuYw?oc=5"
+    },
+    {
+      "id": "m-2026-09-16-4",
+      "name": "DeepSeek V4.1-Flash",
       "org": "DeepSeek",
       "releaseDate": "2026-09-10",
-      "highlights": "تفوق على منافسيه في معايير الأمن السيبراني والبرمجة بتكلفة منخفضة",
-      "highlightsEn": "Outperforms competitors in cybersecurity and programming benchmarks at a low cost",
-      "specs": {
-        "context": "128K",
-        "efficiency": "high"
-      },
+      "highlights": "نموذج اقتصادي يتفوق على النماذج المنافسة في المقاييس البرمجية والأمنية",
+      "highlightsEn": "Cost-effective model outperforms competing models on coding and security benchmarks",
+      "specs": {},
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVzlkZDJjakNKZnV2VEtEYUU4b3VmQWtHWnI3eFp4WlFDRzdTM3dfTENUMWtiY2FrcUFnYVZMeGR6ZEczWDBzZDZHWVhvd0FRUnRibnlBOXk5Q2h2aTRUWnAzZVMzcEtscnZxcjVxSEI5ZmRBYmVXVHd6TmQ0ekhNVUZTYzgzbHM3VExhbEZhZENzN1dWaUZwR3Bjcw?oc=5"
     },
     {
-      "id": "m-2026-09-14-4",
-      "name": "Mistral Small 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-09-01",
-      "highlights": "نموذج خفيف الوزن وسريع للنماذج الصغيرة والمتوسطة",
-      "highlightsEn": "Lightweight and fast model for small to medium-sized models",
-      "specs": {
-        "context": "128K",
-        "size": "small"
-      },
-      "url": "https://mistral.ai/news/mistral-small-4/"
+      "id": "m-2026-09-16-5",
+      "name": "System One Models",
+      "org": "Unknown",
+      "releaseDate": "2026-09-15",
+      "highlights": "ادعاءات بتحقيق مستويات جديدة من الفهم والاستدلال",
+      "highlightsEn": "Claims of achieving new levels of understanding and reasoning",
+      "specs": {},
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
     },
     {
-      "id": "m-2026-09-14-5",
-      "name": "Mistral Medium 3.5",
-      "org": "Mistral AI",
-      "releaseDate": "2026-09-01",
-      "highlights": "نموذج متوسط الحجم يتوازن بين الأداء والكفاءة",
-      "highlightsEn": "Medium-sized model balancing performance and efficiency",
-      "specs": {
-        "context": "128K",
-        "size": "medium"
-      },
-      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
-    },
-    {
-      "id": "m-2026-09-14-6",
-      "name": "Mistral OCR 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-09-01",
-      "highlights": "نموذج متخصص في التعرف البصري على النصوص بدقة عالية",
-      "highlightsEn": "Specialized model for high-accuracy optical character recognition",
-      "specs": {
-        "context": "32K",
-        "specialization": "OCR"
-      },
-      "url": "https://mistral.ai/news/ocr-4/"
+      "id": "m-2026-09-16-6",
+      "name": "Grok 5",
+      "org": "xAI",
+      "releaseDate": "2026-09-14",
+      "highlights": "يهدف إلى أن يكون أول نموذج AGI من xAI",
+      "highlightsEn": "Aimed to be xAI's first AGI model",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBONUdUZWZ5WXMtOTJKLVJLU0hhLVV2a2pYemM0aUNScU40cmkyaEtHdktvdnhMM2dpbUhoMk5LNDRlLWJOX0tmY0hqemFmQ3V2VHBaM1dXS09nS2Rrdmtn?oc=5"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-09-14-1",
-      "text": "ميستريال ترفع 3 مليار يورو لدعم تطوير نماذج ذكاء اصطناعي سيادية مفتوحة المصدر",
-      "textEn": "Mistral raises €3 billion to support development of sovereign, open-source AI models",
-      "level": "info",
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier"
-    },
-    {
-      "id": "h-2026-09-14-2",
-      "text": "Z.ai تكتمل جولة التمويل الضخمة بقيمة 5 مليار دولار لتطوير نماذج GLM التالية",
-      "textEn": "Z.ai completes $5 billion financing round for next-generation GLM models",
+      "id": "h-2026-09-16-1",
+      "text": "تكتمل Z.ai تمويلًا ضخمًا بقيمة 5 مليارات دولار لتطوير نماذج GLM التالية",
+      "textEn": "Z.ai completes a massive $5 billion financing round to develop next-generation GLM models",
       "level": "info",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU0lRS2UyWFVrRmNPenR0SUVpWTVQeS1DSEh1U2EzdHdNcjQ5YmNyQ1BMSEJWel9DWFo0eWV4aXI0TnBTLVVFd1Zjc0hMOGZJSWd1b2YyWl9yblprNlM4ZmJfcTdEaUhEOEkzYzUzd2JObXBrUWNTN0VXVXE1V1N1eU9leVFFYkwzUGoxS3F4VzZKVXp1LVdUS1ljNmU2YWtfZ2YzX1JSVVM4YTg?oc=5"
     },
     {
-      "id": "h-2026-09-14-3",
-      "text": "اتهامات خطيرة ضد الشركات الصينية باستخدام بيانات كلود بشكل غير مصرح به",
-      "textEn": "Serious allegations against Chinese companies for unauthorized use of Claude data",
+      "id": "h-2026-09-16-2",
+      "text": "تستهدف شركة Moonshot AI إيرادات سنوية تبلغ 2 مليار دولار",
+      "textEn": "Moonshot AI targets $2B in annual revenue",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjd5bE8wcUZHZlhfS0lwZmxpX2xTTXBOMkJoVVItRmNjNGRsNjFJQVNXOERhYUljdFBscjBKekNlNXlmNmktZUpNNW1CbXQ5ODlxZWYyZUJScmI3cllZM2o0bUl0YW9FM3Z3TUI0Q1hDbVhMdkxHWi0yNTBFekhRYlc2NjhBeW43cktndU1fQUltQS1nclZVbQ?oc=5"
+    },
+    {
+      "id": "h-2026-09-16-3",
+      "text": "نموذج DeepSeek منخفض التكلفة ي dealt ضربة جديدة لشركات OpenAI وZ.AI",
+      "textEn": "DeepSeek's low-cost model deals a fresh blow to OpenAI and Z.AI",
       "level": "warning",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVd0QmhZYjdKejdISGxEbEVXOGNpcDlkZlVRV0M5N013T012blR0bHlEeUNmMS1LTWVzU29DTk41TmoyMG5CWVF3aWpBOUFMbmtINkd4VVFqaXRpQ2ZYb3dWU0dSSlpNQ2RRYlBudjdXeHVnYWt0YTVpV1M5SXloZnNKbmRKTFdIcEEtWGMwaC1ZQdIBlwFBVV95cUxQX0JhaE5BWS1pWGViM3JGTmR2VVFiRTljTS1Ub19WNFR2Mmw4OUhwV25XVnVFUklTcURvME02bWFfZFZrVExCTU1rNWpjNUZWeExtX0tMR0dWdHJMTC14UjZmOVhMUHhPRld2VUF5ZC1nODU2US1ZZDdjZzlEdW1aY0VUWkllZ2pXV1hCVXdQTXRFYXM5OUE4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQTJ5YkVQdU1QNEtuaGY4UEZ2RjQwUUhHR2dkWjNVUUNMMzJVMlNXbWJsZ3Jab0hHaEtMMmR3VWRvX2lfYWdncGlJMEJqcENfR1Jxb1RXaE1pQ0hBNVRTNDNKUmhGZlQyRGh2UkVLUWpEX3hpWFZFc21YZGFVYlFpemU1SklOd0VrUnhnV0FtaUdpNUlzYjZoYmxjTE5FWFFiZVlsNU5ybHBnVmtrek5mZUFraTU?oc=5"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-09-14-1",
-      "title": "الشركات الصينية تستخدم ملايين تبادلات كلود لتدريب نماذجها بشكل سري",
-      "titleEn": "Chinese AI labs secretly used millions of Claude exchanges to train their models",
-      "summary": "اتهمت أنثروبي الشركات الصينية باستخدام ملايين التبادلات مع نموذج كلود بشكل غير مصرح به لتدريب نماذجها الخاصة، مما يشكل انتهاكاً لسياسة الاستخدام ويثير مخاوف أخلاقية.",
-      "summaryEn": "Anthropic accused Chinese companies of using millions of exchanges with Claude model without authorization to train their own models, constituting a policy violation and raising ethical concerns.",
-      "type": "policy",
+      "id": "sec-2026-09-16-1",
+      "title": "شركة واحدة وراء هجمات القرصنة ضد OpenAI وAnthropic وMeta",
+      "titleEn": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
+      "summary": "كشف تحقيق أن شركة واحدة تقف وراء سلسلة من الهجمات الإلكترونية استهدفت منصات الذكاء الاصطناعي الرائدة، مما أثار مخاوف أمنية كبيرة في صناعة الذكاء الاصطناعي.",
+      "summaryEn": "An investigation reveals that a single firm is behind a series of cyberattacks targeting leading AI platforms, raising significant security concerns in the AI industry.",
+      "type": "breach",
       "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVd0QmhZYjdKejdISGxEbEVXOGNpcDlkZlVRV0M5N013T012blR0bHlEeUNmMS1LTWVzU29DTk41TmoyMG5CWVF3aWpBOUFMbmtINkd4VVFqaXRpQ2ZYb3dWU0dSSlpNQ2RRYlBudjdXeHVnYWt0YTVpV1M5SXloZnNKbmRKTFdIcEEtWGMwaC1ZQdIBlwFBVV95cUxQX0JhaE5BWS1pWGViM3JGTmR2VVFiRTljTS1Ub19WNFR2Mmw4OUhwV25XVnVFUklTcURvME02bWFfZFZrVExCTU1rNWpjNUZWeExtX0tMR0dWdHJMTC14UjZmOVhMUHhPRld2VUF5ZC1nODU2US1ZZDdjZzlEdW1aY0VUWkllZ2pXV1hCVXdQTXRFYXM5OUE4?oc=5",
-      "source": "Moonshot AI (news)",
+      "url": "https://www.effort.news/irregular",
+      "source": "Hacker News",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "sec-2026-09-16-2",
+      "title": "أنثروبي تتهم المختبرات الصينية بعمليات التقطير غير المشروعة",
+      "titleEn": "Anthropic accuses Chinese AI labs of illicit distillation attacks",
+      "summary": "اتهمت شركة أنثروبي المختبرات الصينية باستخدام ملايين من تبادلات المستخدمين لتدريب نماذجها بشكل غير قانوني، مما يثير مخاوف حول سرية البيانات وحماية الملكية الفكرية.",
+      "summaryEn": "Anthropic accuses Chinese AI labs of using millions of user exchanges to train their models illegally, raising concerns about data privacy and intellectual property protection.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZm5WZGJKVlJ0cmJUamtOLTB4amhtMjVQcFRHUllUcWk0MWQyS194LXVlZmU1V29aWlE0Rjhzcm04X1NlSU9JWlp3bThyU2dRVllBWGc3elRsLUNzOHB6cXdUNGhiTFc4RV9QMndOaWRTMjE3TFlYUG9wYVoyXy1KWVoxbUJHWGhUYS1FblF6bw?oc=5",
+      "source": "Qwen (news)",
       "date": "2026-09-11"
     },
     {
-      "id": "sec-2026-09-14-2",
-      "title": "أنثروبي تتهم مونشوت وديب سيك بتحويل طلبات المستخدمين إلى كلود",
-      "titleEn": "Anthropic claims Moonshot, DeepSeek secretly diverted user requests to Claude",
-      "summary": "زعمت أنثروبي أن شركة مونشوت وديب سيك قاما بتحويل طلبات المستخدمين بشكل غير مصرح به إلى نموذج كلود، مما يشكل انتهاكاً لسياسة الاستخدام ويثير مخاوف حول خصوصية البيانات.",
-      "summaryEn": "Anthropic claimed that Moonshot and DeepSeek diverted user requests to Claude model without authorization, constituting a policy violation and raising data privacy concerns.",
-      "type": "policy",
+      "id": "sec-2026-09-16-3",
+      "title": "حصولنا على وصول مسؤول إلى GitHub الإنتاجي لشركة Baseten",
+      "titleEn": "We got admin access to Baseten's production GitHub",
+      "summary": "تمكن المهاجمون من الحصول على صلاحيات المسؤول على GitHub الإنتاجي لشركة Baseten، مما يمثل ثغرة أمنية خطيرة في بنية البنية التحتية للذكاء الاصطناعي.",
+      "summaryEn": "Attackers gained admin access to Baseten's production GitHub, representing a serious security vulnerability in AI infrastructure.",
+      "type": "breach",
       "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHBnY1JTVzF0bEM5d1pZVzBIaHJRSERic0lvMnhGZ3JJZXlRMmpWTUNmTGZ4MEJoeFhTWG82bHV3ZHFULTRXSlBKaHFXLTVaS2piYVhVdHFlUmNqMlhkQnNCeUxsbkdyVlJ3ZHo2QW45bDc2YXNoZlRlYXpPeUVXOFdQM1FYUkw3bWhoSHJCNng4ZUNQODVjWHg4S01YMnI4NDBXQ3BXd2Q0ano4dzRkMEdnNG1rZ1ZHOEdqaU5IbG9wQmlQ0gHEAUFVX3lxTE9MNFVycTNTSzIyVU41WXVuMnFDUFdkRW5CTkRtQXRudVVSUmpac1NKOHgzZWNlYXQ1dVJFUFhna2wxUlF0Z0hnTndUMUljTEVnc0NlRzQ2UFpzQTgySFhLT244aU5iOWJwaENQUVZPV1NxLUhnMkNGY0hDdDVIRlFFRFJPT2FVT3BFSlBJNktwZFNjNlZITHViQ2FXSFZLNkUzaHJOckk3anhiaHNJU3NEeEdtMk1hQXptd184eW1EUXo1SWM?oc=5",
-      "source": "Moonshot AI (news)",
-      "date": "2026-09-10"
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "source": "Hacker News",
+      "date": "2026-09-15"
     },
     {
-      "id": "sec-2026-09-14-3",
-      "title": "استخدام الذكاء الاصطناعي لتطوير الأسلحة",
-      "titleEn": "Using AI for Weapons Development",
-      "summary": "نشرت أنثروبي وثيقة مفصلة عن حالات سوء استخدام الذكاء الاصطناعي في تطوير الأسلحة، مما يثير مخاوف بشكل عاجل حول سلامة الذكاء الاصطناعي والاستخدامات الضارة المحتملة.",
-      "summaryEn": "Anthropic released a detailed document on current misuses of AI in weapons development, raising urgent concerns about AI safety and potential harmful uses.",
-      "type": "policy",
-      "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
-      "source": "Schneier on Security",
-      "date": "2026-09-14"
-    },
-    {
-      "id": "sec-2026-09-14-4",
-      "title": "كود السلوك الجديد للذكاء الاصطناعي من مايكروسوفت",
-      "titleEn": "Microsoft's new AI 'code of conduct'",
-      "summary": "أطلقت مايكروسوفت كود سلوك جديد للذكاء الاصطناعي يوجه النماذج ألا تهاجم الأنظمة أو تخدع البشر، مما يمثل خطوة نحو إطار تنظيمي أكثر صرامة.",
-      "summaryEn": "Microsoft launched a new AI code of conduct directing models not to hack systems or trick humans, representing a step toward stricter regulatory frameworks.",
-      "type": "policy",
-      "severity": "info",
-      "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
-      "source": "TechCrunch AI",
-      "date": "2026-09-14"
-    },
-    {
-      "id": "sec-2026-09-14-5",
-      "title": "الذكاء الاصطناعي يضغط زمن استغلال الثغرات",
-      "titleEn": "AIs Compress Exploit Timeline",
-      "summary": "أظهرت الأبحاث أن مجرد شائعة حول ثغرة كافية للذكاء الاصطناعي للعثور عليها بسرعة، مما يقلص بشكل كبير زمن اكتشاف واستغلال الثغرات الأمنية.",
-      "summaryEn": "Research shows that merely a rumor of an exploit is enough for AI to find it quickly, significantly compressing the timeline for discovering and exploiting security vulnerabilities.",
+      "id": "sec-2026-09-16-4",
+      "title": "شركة الإيثارية الإسرائيلية وراء هجمات القرصنة ضد OpenAI وAnthropic وMeta",
+      "titleEn": "Israeli Effective Altruism Firm Behind OpenAI, Anthropic, and Meta Cyberattacks",
+      "summary": "تشير التقارير إلى أن شركة إسرائيلية متخصصة في الإيثارية تقف وراء سلسلة من الهجمات الإلكترونية استهدفت منصات الذكاء الاصطناعي الكبرى.",
+      "summaryEn": "Reports indicate that an Israeli firm specializing in effective altruism is behind a series of cyberattacks targeting major AI platforms.",
       "type": "breach",
       "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html",
-      "source": "Schneier on Security",
-      "date": "2026-09-10"
+      "url": "https://twitter.com/brianchau57/status/2099580981271318606",
+      "source": "Hacker News",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "sec-2026-09-16-5",
+      "title": "Hugging Face تفرض على OpenAI غرامات تصل إلى 100 مليون دولار لاختراقها",
+      "titleEn": "Hugging Face is billing OpenAI $100M for hacking it",
+      "summary": "تفرض منصة Hugging Face غرامات تصل إلى 100 مليون دولار على OpenAI للاستخدام غير المصرح به لمنصتها، مما يبرز المخاطر الأمنية في صناعة الذكاء الاصطناعي.",
+      "summaryEn": "Hugging Face is imposing fines of up to $100M on OpenAI for unauthorized use of its platform, highlighting security risks in the AI industry.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand",
+      "source": "Hacker News",
+      "date": "2026-09-15"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-09-14",
+    "asOf": "2026-09-16",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
       {
         "name": "GPT-6 Astra",
         "org": "OpenAI",
-        "score": "59.9"
+        "score": "59.6"
       },
       {
         "name": "Claude Fable 5.1",
         "org": "Anthropic",
-        "score": "55.9"
+        "score": "55.7"
       },
       {
         "name": "GPT-5.6 Sol 2",
         "org": "OpenAI",
-        "score": "55.0"
+        "score": "54.9"
       },
       {
         "name": "Claude Mythos Preview",
@@ -364,12 +318,12 @@
       {
         "name": "Claude Opus 5",
         "org": "Anthropic",
-        "score": "54.9"
+        "score": "54.6"
       },
       {
         "name": "Muse Spark 1.3",
         "org": "Meta",
-        "score": "54.4"
+        "score": "54.3"
       },
       {
         "name": "Claude Fable 5",
@@ -379,117 +333,132 @@
       {
         "name": "Kimi K3",
         "org": "Moonshot AI",
-        "score": "53.1"
+        "score": "53.0"
       },
       {
         "name": "GLM-5.3",
         "org": "Zhipu AI",
-        "score": "52.8"
+        "score": "52.7"
       },
       {
-        "name": "DeepSeek-V4-Pro-0813",
-        "org": "DeepSeek",
-        "score": "52.1"
+        "name": "Atria Dawn Preview",
+        "org": "Shanghai AI Laboratory",
+        "score": "52.3"
       }
     ],
-    "highlights": "يحقق GPT-6 Astra المركز الأول في الترتيب الجديد بأعلى نقاط (59.9)، بينما تظهر منافسة قوية بين Claude Fable 5.1 (55.9) و GPT-5.6 Sol 2 (55.0). كما يبرز Muse Spark 1.3 من Meta كمدخل جديد قوي في المركز السادس.",
-    "highlightsEn": "GPT-6 Astra achieves first place in the new ranking with the highest score (59.9), while there's strong competition between Claude Fable 5.1 (55.9) and GPT-5.6 Sol 2 (55.0). Muse Spark 1.3 from Meta also stands out as a strong new entry at position 6."
+    "highlights": "تتصدر GPT-6 Astra الترتيب الحالي بأعلى نقاط، بينما تنافس Claude Fable 5.1 و GPT-5.6 Sol 2 بقوة على المركز الثاني. ظهور نماذج جديدة مثل Muse Spark 1.3 و Atria Dawn Preview في قائمة أفضل 10 يشير إلى تطور سريع في سوق النماذج اللغوية.",
+    "highlightsEn": "GPT-6 Astra currently leads with the highest score, while Claude Fable 5.1 and GPT-5.6 Sol 2 are closely competing for the second position. The appearance of new models like Muse Spark 1.3 and Atria Dawn Preview in the top 10 indicates rapid development in the language model market."
   },
   "knowledgeEntry": {
-    "id": "k-2026-09-14-تنفيذ-الوكلاء-الذكاء-الاصطناعي",
-    "title": "تنفيذ الوكلاء الذكاء الاصطناعي",
-    "titleEn": "Implementing AI Agents",
-    "why": "الوكلاء الذكاء الاصطناعي يمكنهم أداء مهام معقدة بشكل مستقل، مما يسمح بتطبيقات أكثر تقدمًا وأتمتة أعمق.",
-    "whyEn": "AI agents can perform complex tasks independently, enabling more advanced applications and deeper automation.",
+    "id": "k-2026-09-16-تحسين-أداء-النماذج-المحلية",
+    "title": "تحسين أداء النماذج المحلية",
+    "titleEn": "Optimizing Local Model Performance",
+    "why": "تحسين أداء النماذج المحلية مهم لضمان استجابة سريعة وتقليل استهلاك الموارد، مما يجعل النماذج أكثر عملية للاستخدام اليومي على الأجهزة الشخصية.",
+    "whyEn": "Optimizing local model performance is crucial for ensuring fast response times and reducing resource consumption, making models more practical for daily use on personal devices.",
     "difficulty": "intermediate",
-    "track": "building",
+    "track": "tools",
     "steps": [
       {
-        "title": "تحديد مشكلة الوكيل",
-        "detail": "حدد المشكلة أو المهمة التي سيقوم بها الوكيل، وتحديد المدخلات والمخرجات المتوقعة."
+        "title": "اختيار النموذج المناسب",
+        "detail": "حدد نموذجًا مصممًا للعمل المحلي مثل Phi-3-mini أو Mistral-7B بناءً على متطلبات الأدمة وموارد الجهاز المتاحة."
       },
       {
-        "title": "تصميم معمارية الوكيل",
-        "detail": "خطط لكيفية تفاعل الوكيل مع البيئة، بما في ذلك آلية اتخاذ القرار، وتخزين الحالة، والاتصال بالخدمات الخارجية."
+        "title": "تقليل دقة النموذج",
+        "detail": "استخدم تقنيات الكمرة (Quantization) لتحويل النموذج إلى دقة أقل مثل 4 بت أو 8 بت، مما يقلل من حجم النموذج ويحسن سرعته."
       },
       {
-        "title": "بناء واجهة التفاعل",
-        "detail": "أنشئ واجهة للسماح للمستخدمين بالتفاعل مع الوكيل، بما في ذلك أوامر الإدخال واستقبال المخرجات."
+        "title": "تحسين الذاكرة المؤقتة",
+        "detail": "استخدم تقنيات مثل الـ KV Caching لتحسين استخدام الذاكرة وتقليل زمن الاستجابة، خاصة في المهام التي تتطلب تكرار الاستعلامات."
       },
       {
-        "title": "تنفيذ منطق اتخاذ القرار",
-        "detail": "طور خوارزميات للسماح للوكيل باتخاذ قرارات بناءً على البيانات المتاحة وأهدافه المحددة."
+        "title": "التوازي المعزز",
+        "detail": "استخدم تقنيات التوازي مثل Tensor Parallelism لتوزيع الحمل على وحدات المعالجة المركزية المتعددة، مما يحسن الأداء على الأجهزة متعددة النوى."
       },
       {
-        "title": "اختبار وتحسين",
-        "detail": "اختبر أداء الوكيل في سيناريوهات مختلفة وقم بتحسينه بناءً على النتائج."
+        "title": "التخصيص الدقيق",
+        "detail": "قم بتخصيص النموذج لمهام محددة عن طريق Fine-tuning على مجموعات بيانات صغيرة ذات صلة، مما يزيد من الكفاءة والسرعة."
       }
     ],
     "stepsEn": [
       {
-        "title": "Define the agent's problem",
-        "detail": "Identify the problem or task the agent will perform, and define the expected inputs and outputs."
+        "title": "Choose the Right Model",
+        "detail": "Select a model designed for local work like Phi-3-mini or Mistral-7B based on your requirements and available device resources."
       },
       {
-        "title": "Design the agent architecture",
-        "detail": "Plan how the agent will interact with the environment, including decision-making mechanisms, state storage, and external service connections."
+        "title": "Reduce Model Precision",
+        "detail": "Use quantization techniques to convert the model to lower precision like 4-bit or 8-bit, reducing model size and improving speed."
       },
       {
-        "title": "Build the interaction interface",
-        "detail": "Create an interface to allow users to interact with the agent, including input commands and output reception."
+        "title": "Optimize Memory Caching",
+        "detail": "Use techniques like KV Caching to improve memory usage and reduce response time, especially for tasks requiring repeated queries."
       },
       {
-        "title": "Implement decision-making logic",
-        "detail": "Develop algorithms to allow the agent to make decisions based on available data and its defined goals."
+        "title": "Enhanced Parallelization",
+        "detail": "Use parallelization techniques like Tensor Parallelism to distribute the load across multiple CPU cores, improving performance on multi-core devices."
       },
       {
-        "title": "Test and refine",
-        "detail": "Test the agent's performance in different scenarios and refine it based on the results."
+        "title": "Targeted Fine-tuning",
+        "detail": "Fine-tune the model for specific tasks using small, relevant datasets, increasing efficiency and speed."
       }
     ],
-    "code": "from langchain.agents import initialize_agent, Tool\nfrom langchain.llms import OpenAI\n\n# Initialize the LLM\nllm = OpenAI(temperature=0)\n\n# Define tools\ntools = [\n    Tool(\n        name=\"calculator\",\n        func=lambda x: eval(x),\n        description=\"Useful for when you need to do math calculations\"\n    )\n]\n\n# Initialize the agent\nagent = initialize_agent(tools, llm, agent=\"zero-shot-react-description\", verbose=True)\n\n# Run the agent\nagent.run(\"What is 15 multiplied by 7?\")",
+    "code": "import torch\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\n# Load model with 4-bit quantization\nmodel_name = \"microsoft/phi-3-mini\"\nmodel = AutoModelForCausalLM.from_pretrained(\n    model_name,\n    device_map=\"auto\",\n    torch_dtype=torch.float16,\n    load_in_4bit=True\n)\ntokenizer = AutoTokenizer.from_pretrained(model_name)",
     "resources": [
       {
-        "name": "LangChain Documentation",
-        "url": "https://python.langchain.com/docs/modules/agents/"
+        "name": "Hugging Face Documentation",
+        "url": "https://huggingface.co/docs/transformers/main/en/index"
       },
       {
-        "name": "OpenAI Agents Guide",
-        "url": "https://platform.openai.com/docs/guides/agents"
+        "name": "LLM Optimization Guide",
+        "url": "https://github.com/microsoft/DeepSpeed/blob/master/docs/llm/optimization.md"
+      },
+      {
+        "name": "Quantization Techniques",
+        "url": "https://pytorch.org/docs/stable/quantization.html"
       }
     ],
     "tags": [
-      "أتمتة",
-      "وكيل",
-      "تفاعل",
-      "قرار"
+      "تحسين النماذج",
+      "الكمرة",
+      "النماذج المحلية",
+      "Tensor Parallelism"
     ],
-    "quickRef": "الوكلاء الذكاء الاصطناعي: أنظمة مستقلة تقوم بمهام معقدة باستخدام الذكاء الاصطناعي",
-    "quickRefEn": "AI Agents: Independent systems that perform complex tasks using artificial intelligence",
+    "quickRef": "اختر نموذجًا مناسبًا، استخدم الكمرة، تحسين الذاكرة المؤقتة، التوازي المعزز، والتخصيص الدقيق لتحسين أداء النماذج المحلية.",
+    "quickRefEn": "Choose the right model, use quantization, optimize memory caching, enhanced parallelization, and targeted fine-tuning to optimize local model performance.",
     "quiz": [
       {
-        "q": "ما هو العنصر الأساسي في تصميم معمارية الوكيل الذكي؟",
+        "q": "ما هي تقنية تحسين الأداء التي تقلل من دقة النموذج لتقليل حجمه وزمن استجابته؟",
         "options": [
-          "واجهة المستخدم فقط",
-          "آلية اتخاذ القرار",
-          "التصميم البصري",
-          "سرعة المعالجة"
+          "التوازي المعزز",
+          "الكمرة (Quantization)",
+          "الذاكرة المؤقتة",
+          "التخصيص الدقيق"
         ],
         "answer": 1,
-        "explain": "آلية اتخاذ القرار هي العنصر الأساسي في تصميم معمارية الوكيل الذكي، حيث تسمح للوكيل باتخاذ قرارات بناءً على البيانات المتاحة وأهدافه المحددة."
+        "explain": "الكمرة (Quantization) هي تقنية تحويل أوزان النموذج إلى دقة أقل (مثل 4 بت أو 8 بت) مما يقلل من حجم النموذج ويحسن سرعته."
       },
       {
-        "q": "ما هو الهدف الرئيسي من اختبار الوكيل الذكي؟",
+        "q": "ما هو النوع الأفضل من النماذج للعمل المحلي على الأجهزة الشخصية؟",
         "options": [
-          "زيادة سرعته فقط",
-          "تحسين دقة القرارات في سيناريوهات مختلفة",
-          "تقليل استهلاك الطاقة",
-          "زيادة عدد الأدوات"
+          "نماذج ضخمة مثل GPT-4",
+          "نماذج متوسطة الحجم مثل Phi-3-mini",
+          "نماذج متخصصة في المهام المعقدة",
+          "نماذج متعددة الوسائط فقط"
         ],
         "answer": 1,
-        "explain": "الهدف الرئيسي من اختبار الوكيل الذكي هو تحسين دقة قراراته في سيناريوهات مختلفة، مما يضمن أداءً موثوقًا في بيئات متنوعة."
+        "explain": "نماذج متوسطة الحجم مثل Phi-3-mini مصممة للعمل بكفاءة على الأجهزة الشخصية، توازن بين الأداء ومتطلبات الموارد."
+      },
+      {
+        "q": "ما هي تقنية تحسين الذاكرة التي تقلل زمن الاستجابة في المهام المتكررة؟",
+        "options": [
+          "Tensor Parallelism",
+          "Fine-tuning",
+          "KV Caching",
+          "Model Distillation"
+        ],
+        "answer": 2,
+        "explain": "الذاكرة المؤقتة (KV Caching) تحفظ مفتاح القيم (Key-Value) من المرات السابقة لتجنب المعالجة المتكررة، مما يقلل زمن الاستجابة."
       }
     ],
-    "addedAt": "2026-09-14"
+    "addedAt": "2026-09-16"
   }
 }
