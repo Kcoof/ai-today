@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-17-قواعد-البيانات-المتجهة-لتطبيقات-الذكاء-الاصطناعي",
+      "title": "قواعد البيانات المتجهة لتطبيقات الذكاء الاصطناعي",
+      "titleEn": "Vector Databases for AI Applications",
+      "why": "تساعد قواعد البيانات المتجهة في تخزين واسترجاع المعلومات بناءً على المعنى بدلاً من النص المحدد، مما يسمح للذكاء الاصطناعي بفهم السياقات المعقدة وتوفير نتائج أكثر دقة.",
+      "whyEn": "Vector databases help store and retrieve information based on meaning rather than exact text, allowing AI to understand complex contexts and provide more accurate results.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم المفاهيم الأساسية",
+          "detail": "تعلم أن المتجهات هي تمثيلات رقمية للبيانات (نصوص، صور، إلخ) في فضاء متعدد الأبعاد. كل بعد يميز خاصية معينة من البيانات."
+        },
+        {
+          "title": "اختيار قاعدة البيانات المناسبة",
+          "detail": "استخدم قواعد بيانات مثل Pinecone، Weaviate، أو Milvus حسب حجم البيانات ومتطلبات التكلفة والأداء."
+        },
+        {
+          "title": "تحويل النصوص إلى متجهات",
+          "detail": "استخدم نماذج مثل BERT أو Sentence Transformers لتحويل النصوص إلى متجهات رقمية تمثل معانيها."
+        },
+        {
+          "title": "بناء نظام البحث والاسترجاع",
+          "detail": "أنشئ واجهة تسمح للمستخدمين بإدخال استعلامات وتحويلها إلى متجهات، ثم ابحث عن المتجهات الأكثر تشابهاً في قاعدة البيانات."
+        },
+        {
+          "title": "دمج النظام مع تطبيقات الذكاء الاصطناعي",
+          "detail": "ربط قاعدة البيانات المتجهة مع نماذج اللغة الكبيرة لتحسين فهم السياق وتوفير إجابات أكثر دقة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Basic Concepts",
+          "detail": "Learn that vectors are numerical representations of data (text, images, etc.) in a multi-dimensional space. Each dimension represents a specific feature of the data."
+        },
+        {
+          "title": "Choose the Right Database",
+          "detail": "Use databases like Pinecone, Weaviate, or Milvus depending on your data size, cost requirements, and performance needs."
+        },
+        {
+          "title": "Convert Text to Vectors",
+          "detail": "Use models like BERT or Sentence Transformers to convert text into numerical vectors that represent their meanings."
+        },
+        {
+          "title": "Build Search and Retrieval System",
+          "detail": "Create an interface that allows users to input queries and convert them to vectors, then search for the most similar vectors in the database."
+        },
+        {
+          "title": "Integrate with AI Applications",
+          "detail": "Connect the vector database with large language models to improve context understanding and provide more accurate answers."
+        }
+      ],
+      "code": "import numpy as np\nfrom sentence_transformers import SentenceTransformer\nfrom sklearn.metrics.pairwise import cosine_similarity\n\n# Initialize model\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\n# Sample texts\ntexts = [\n    'الذكاء الاصطناعي يغير العالم',\n    'التعلم الآلي هو فرع من الذكاء الاصطناعي',\n    'السيارات الكهربائية مستقبل النقل',\n    'الطاقة المتجددة مهمة للبيئة'\n]\n\n# Convert texts to vectors\nvectors = model.encode(texts)\n\n# Query\nquery = 'الذكاء الاصطناعي'\nquery_vector = model.encode([query])\n\n# Calculate similarities\nsimilarities = cosine_similarity(query_vector, vectors)[0]\n\n# Find most similar\nmost_similar = np.argmax(similarities)\nprint(f'Most similar text: {texts[most_similar]} (similarity: {similarities[most_similar]:.2f})')",
+      "resources": [
+        {
+          "name": "Pinecone Documentation",
+          "url": "https://docs.pinecone.io/"
+        },
+        {
+          "name": "Weaviate Documentation",
+          "url": "https://weaviate.io/developers/weaviate"
+        },
+        {
+          "name": "Sentence Transformers",
+          "url": "https://www.sbert.net/"
+        }
+      ],
+      "tags": [
+        "قواعد البيانات المتجهة",
+        "البحث المعنوي",
+        "نماذج اللغة",
+        "التعلم الآلي"
+      ],
+      "quickRef": "قواعد البيانات المتجهة: تخزين واسترجاع المعلومات بناءً على المعنى بدلاً من النص المحدد.",
+      "quickRefEn": "Vector databases: Store and retrieve information based on meaning rather than exact text.",
+      "quiz": [
+        {
+          "q": "ما هي الفائدة الرئيسية لاستخدام قواعد البيانات المتجهة في تطبيقات الذكاء الاصطناعي؟",
+          "options": [
+            "تسريع عملية البحث عن النصوص المحددة",
+            "تخزين واسترجاع المعلومات بناءً على المعنى",
+            "تقليل حجم البيانات المخزنة",
+            "زيادة دقة النماذج اللغوية"
+          ],
+          "answer": 1,
+          "explain": "الفائدة الرئيسية لقواعد البيانات المتجهة هي قدرتها على تخزين واسترجاع المعلومات بناءً على المعنى بدلاً من النص المحدد، مما يسمح للذكاء الاصطناعي بفهم السياقات المعقدة وتوفير نتائج أكثر دقة."
+        },
+        {
+          "q": "أي من الخيارات التالية هي نموذج شائع لتحويل النصوص إلى متجهات؟",
+          "options": [
+            "GPT-4",
+            "BERT",
+            "DALL-E",
+            "Reinforcement Learning"
+          ],
+          "answer": 1,
+          "explain": "BERT هو نموذج شائع لتحويل النصوص إلى متجهات تمثل معانيها، وهو يستخدم على نطاق واسع في تطبيقات قواعد البيانات المتجهة."
+        },
+        {
+          "q": "ما هو الفرق بين البحث التقليدي والبحث باستخدام قواعد البيانات المتجهة؟",
+          "options": [
+            "البحث المتجه أسرع",
+            "البحث التقليدي يدعم اللغات المختلفة",
+            "البحث المتجه يركز على المعنى وليس النص المحدد",
+            "البحث التقليدي يستخدم أقل موارد المعالجة"
+          ],
+          "answer": 2,
+          "explain": "الفرق الرئيسي هو أن البحث باستخدام قواعد البيانات المتجهة يركز على المعنى وليس على النص المحدد، مما يسمح بفهم السياقات المختلفة وتوفير نتائج أكثر دقة حتى لو لم يكن النص مطابقاً بالضبط."
+        }
+      ],
+      "addedAt": "2026-09-17"
+    },
+    {
       "id": "k-2026-09-16-تحسين-أداء-النماذج-المحلية",
       "title": "تحسين أداء النماذج المحلية",
       "titleEn": "Optimizing Local Model Performance",
