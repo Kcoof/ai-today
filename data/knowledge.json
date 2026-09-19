@@ -1,6 +1,110 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-19-تشغيل-النماذج-المحلية",
+      "title": "تشغيل النماذج المحلية",
+      "titleEn": "Running Local AI Models",
+      "why": "تمكين المستخدمين من تشغيل نماذج الذكاء الاصطناعي على أجهزتهم المحلية دون الحاجة إلى اتصال بالإنترنت، مما يضمن خصوصية البيانات ويعمل بدون اتصال.",
+      "whyEn": "Enabling users to run AI models on their local devices without internet connection, ensuring data privacy and working offline.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "اختيار النموذج المناسب",
+          "detail": "حدد نموذج الذكاء الاصطناعي الذي يناسب متطلباتك من حيث الحجم والدقة. النماذج الصغيرة مثل Phi-2 أو TinyLlama مثالية للأجهزة ذات الموارد المحدودة."
+        },
+        {
+          "title": "تثبيت البيئة اللازمة",
+          "detail": "تثبيت Python ومكتبات مثل transformers و torch. يمكنك استخدام pip لتثبيت هذه المكتبات: pip install transformers torch"
+        },
+        {
+          "title": "تنزيل النموذج",
+          "detail": "استخدم الكود لتنزيل النموذج المحدد. معظم النماذج المحلية متاحة على Hugging Face. مثال: model = AutoModelForCausalLM.from_pretrained('microsoft/phi-2')"
+        },
+        {
+          "title": "تشغيل النموذج محلياً",
+          "detail": "استخدم النموذج المحلي في تطبيقاتك. تأكد من أن لديك موارد كافية في جهازك. للنماذج الكبيرة، قد تحتاج إلى GPU فعال."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Choosing the Right Model",
+          "detail": "Select an AI model that meets your requirements in terms of size and accuracy. Small models like Phi-2 or TinyLlama are ideal for devices with limited resources."
+        },
+        {
+          "title": "Installing Required Environment",
+          "detail": "Install Python and libraries like transformers and torch. You can use pip to install these libraries: pip install transformers torch"
+        },
+        {
+          "title": "Downloading the Model",
+          "detail": "Use code to download the selected model. Most local models are available on Hugging Face. Example: model = AutoModelForCausalLM.from_pretrained('microsoft/phi-2')"
+        },
+        {
+          "title": "Running the Model Locally",
+          "detail": "Use the local model in your applications. Ensure you have sufficient resources in your device. For larger models, you may need an effective GPU."
+        }
+      ],
+      "code": "from transformers import AutoModelForCausalLM, AutoTokenizer\n\n# Load model and tokenizer\nmodel_name = \"microsoft/phi-2\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\n\n# Generate text\nprompt = \"What is artificial intelligence?\"\ninputs = tokenizer(prompt, return_tensors=\"pt\")\noutputs = model.generate(**inputs, max_length=100)\nprint(tokenizer.decode(outputs[0], skip_special_tokens=True))",
+      "resources": [
+        {
+          "name": "Hugging Face Transformers",
+          "url": "https://huggingface.co/docs/transformers/index"
+        },
+        {
+          "name": "Ollama",
+          "url": "https://ollama.ai/"
+        },
+        {
+          "name": "LocalAI",
+          "url": "https://github.com/go-skynet/LocalAI"
+        }
+      ],
+      "tags": [
+        "محلي",
+        "نماذج",
+        "تشغيل",
+        "ذكاء اصطناعي"
+      ],
+      "quickRef": "اختر نموذجاً مناسباً، قم بتثبيت البيئة، قم بتنزيل النموذج، وتشغيله محلياً مع مراعاة الموارد المتاحة.",
+      "quickRefEn": "Choose a suitable model, install the environment, download the model, and run it locally considering available resources.",
+      "quiz": [
+        {
+          "q": "ما هو النوع الأنسب من نماذج الذكاء الاصطناعي لتشغيله على أجهزة ذات موارد محدودة؟",
+          "options": [
+            "نماذج ضخمة مثل GPT-4",
+            "نماذج متوسطة مثل Llama 2",
+            "نماذج صغيرة مثل Phi-2",
+            "لا يمكن تشغيل أي نماذج على أجهزة محدودة"
+          ],
+          "answer": 2,
+          "explain": "النماذج الصغيرة مثل Phi-2 مصممة خصيصاً لتشغيلها على الأجهزة ذات الموارد المحدودة."
+        },
+        {
+          "q": "ما هي المكتبة الأساسية اللازمة لتشغيل النماذج المحلية في بايثون؟",
+          "options": [
+            "numpy",
+            "pandas",
+            "transformers",
+            "matplotlib"
+          ],
+          "answer": 2,
+          "explain": "مكتبة transformers هي المكتبة الأساسية من Hugging Face المستخدمة لتشغيل النماذج اللغوية المحلية."
+        },
+        {
+          "q": "أين يمكن العثور على معظم النماذج المحلية المتاحة للاستخدام؟",
+          "options": [
+            "موقع OpenAI",
+            "موقع Google AI",
+            "Hugging Face",
+            "GitHub"
+          ],
+          "answer": 2,
+          "explain": "Hugging Face هو المنصة الرئيسية التي تحتوي على آلاف النماذج المحلية المتاحة للتنزيل والاستخدام."
+        }
+      ],
+      "addedAt": "2026-09-19"
+    },
+    {
       "id": "k-2026-09-17-قواعد-البيانات-المتجهة-لتطبيقات-الذكاء-الاصطناعي",
       "title": "قواعد البيانات المتجهة لتطبيقات الذكاء الاصطناعي",
       "titleEn": "Vector Databases for AI Applications",

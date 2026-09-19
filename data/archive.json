@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "date": "2026-09-17",
+      "topHeadlines": [
+        "إطلاق Gemini 3.8 Live وGemini 3.8 Live Extended Thinking",
+        "استخدام المختبرات الصينية لملايين محادثات Claude بشكل غير قانوني",
+        "نموذج DeepSeek الجديد يطابق أداء GPT-6 بنسبة 1.4% من التكلفة"
+      ]
+    },
+    {
       "date": "2026-09-16",
       "topHeadlines": [
         "شركة واحدة وراء هجمات القرصنة ضد OpenAI وAnthropic وMeta",
