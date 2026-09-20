@@ -1,6 +1,110 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-20-استخدام-واجهات-برمجة-التطبيقات-متعددة-الوسائط",
+      "title": "استخدام واجهات برمجة التطبيقات متعددة الوسائط",
+      "titleEn": "Using Multimodal APIs",
+      "why": "تتيح لك واجهات برمجة التطبيقات متعددة الوسائط دمج أنواع مختلفة من البيانات (نص، صور، صوت) في تطبيق واحد، مما يفتح آفاقاً جديدة للتفاعل مع المستخدمين وتقديم تجارب غنية.",
+      "whyEn": "Multimodal APIs allow you to integrate different types of data (text, images, audio) in a single application, opening new possibilities for user interaction and providing rich experiences.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "اختيار واجهة برمجة التطبيقات المناسبة",
+          "detail": "ابحث عن واجهات برمجة التطبيقات التي تدعم أنواع البيانات المتعددة التي تحتاجها، مثل OpenAI's GPT-4V أو Google's Gemini Vision."
+        },
+        {
+          "title": "فهم حدود النموذج",
+          "detail": "تعرف على القيود الخاصة بنموذج الذكاء الاصطناعي الذي تستخدمه، مثل حجم الملفات المسموح به أو طول النص المدعوم."
+        },
+        {
+          "title": "إعداد الطلب",
+          "detail": "صمم طلبك بشكل صحيح ليشمل جميع البيانات اللازمة، مع التأكد من تنسيق البيانات بشكل صحيح."
+        },
+        {
+          "title": "معالجة الاستجابة",
+          "detail": "تأكد من فهم كيفية معالجة النموذج للبيانات المتعددة واستخراج المعلومات المفيدة منها."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Choosing the appropriate API",
+          "detail": "Search for APIs that support the multiple data types you need, such as OpenAI's GPT-4V or Google's Gemini Vision."
+        },
+        {
+          "title": "Understanding model limitations",
+          "detail": "Learn about the specific limitations of the AI model you're using, such as allowed file sizes or supported text length."
+        },
+        {
+          "title": "Preparing the request",
+          "detail": "Design your request properly to include all necessary data, ensuring data formatting is correct."
+        },
+        {
+          "title": "Processing the response",
+          "detail": "Make sure you understand how the model processes multiple data types and extract useful information from it."
+        }
+      ],
+      "code": "import openai\n\nclient = openai.OpenAI(api_key=\"your-api-key\")\n\nresponse = client.chat.completions.create(\n    model=\"gpt-4-vision-preview\",\n    messages=[\n        {\n            \"role\": \"user\",\n            \"content\": [\n                {\"type\": \"text\", \"text\": \"What's happening in this image?\"},\n                {\n                    \"type\": \"image_url\",\n                    \"image_url\": {\n                        \"url\": \"https://example.com/image.jpg\",\n                    },\n                },\n            ],\n        }\n    ],\n    max_tokens=300,\n)\n\nprint(response.choices[0].message.content)",
+      "resources": [
+        {
+          "name": "OpenAI API Documentation",
+          "url": "https://platform.openai.com/docs/guides/vision"
+        },
+        {
+          "name": "Google Gemini Vision API",
+          "url": "https://ai.google.dev/docs"
+        },
+        {
+          "name": "Multimodal AI Research Paper",
+          "url": "https://arxiv.org/abs/2306.03614"
+        }
+      ],
+      "tags": [
+        "واجهات برمجة التطبيقات",
+        "الذكاء الاصطناعي متعدد الوسائط",
+        "معالجة البيانات",
+        "تطوير التطبيقات"
+      ],
+      "quickRef": "استخدم واجهات برمجة التطبيقات متعددة الوسائط لدمج نصوص وصور وصوت في تطبيق واحد. تأكد من فهم حدود النموذج ومعالجة الاستجابات بشكل صحيح.",
+      "quickRefEn": "Use multimodal APIs to integrate text, images, and audio in a single application. Ensure you understand model limitations and process responses correctly.",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من استخدام واجهات برمجة التطبيقات متعددة الوسائط؟",
+          "options": [
+            "تقليل تكاليف التطوير",
+            "دمج أنواع مختلفة من البيانات في تطبيق واحد",
+            "زيادة سرعة النماذج",
+            "تقليل حجم الطلبات"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من استخدام واجهات برمجة التطبيقات متعددة الوسائط هو دمج أنواع مختلفة من البيانات (نص، صور، صوت) في تطبيق واحد، مما يوفر تجارب غنية للمستخدمين."
+        },
+        {
+          "q": "ما هو أحد التحديات الشائعة عند استخدام واجهات برمجة التطبيقات متعددة الوسائط؟",
+          "options": [
+            "زيادة تكاليف التطوير",
+            "فهم حدود النموذج ومعالجة البيانات بشكل صحيح",
+            "تقليل عدد المستخدمين",
+            "زيادة سرعة الاستجابة"
+          ],
+          "answer": 1,
+          "explain": "من بين الخيارات المذكورة، فهم حدود النموذج ومعالجة البيانات بشكل صحيح هو تحدٍ شائع عند استخدام واجهات برمجة التطبيقات متعددة الوسائط، حيث يجب على المطورين التعامل مع أنواع مختلفة من البيانات ومعرفة كيفية معالجتها."
+        },
+        {
+          "q": "ما هو مثال على واجهة برمجة تطبيقات متعددة الوسائط؟",
+          "options": [
+            "REST API",
+            "GraphQL",
+            "OpenAI's GPT-4V",
+            "SOAP"
+          ],
+          "answer": 2,
+          "explain": "OpenAI's GPT-4V هو مثال على واجهة برمجة تطبيقات متعددة الوسائط لأنه يمكنه معالجة النصوص والصور معاً، بينما REST API وGraphQL وSOAP هي أنواع من واجهات برمجة التطبيقات ولكنها ليست بالضرورة متعددة الوسائط."
+        }
+      ],
+      "addedAt": "2026-09-20"
+    },
+    {
       "id": "k-2026-09-19-تشغيل-النماذج-المحلية",
       "title": "تشغيل النماذج المحلية",
       "titleEn": "Running Local AI Models",

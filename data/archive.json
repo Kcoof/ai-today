@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "date": "2026-09-19",
+      "topHeadlines": [
+        "انتهاك أمني في مستودعات OpenAI الداخلية",
+        "اختراق Gemini لثلاث شركات",
+        "هجوم كاميرا TikTok بمساعدة الذكاء الاصطناعي"
+      ]
+    },
+    {
       "date": "2026-09-17",
       "topHeadlines": [
         "إطلاق Gemini 3.8 Live وGemini 3.8 Live Extended Thinking",
