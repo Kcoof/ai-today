@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-21-تقييم-نماذج-الذكاء-الاصطناعي-مقاييس-الأداء",
+      "title": "تقييم نماذج الذكاء الاصطناعي: مقاييس الأداء",
+      "titleEn": "Evaluating AI Models: Performance Metrics",
+      "why": "فهم مقاييس تقييم نماذج الذكاء الاصطناعي أمر بالغ الأهمية لاختيار النموذج المناسب لمشروعك وتحديد نقاط القوة والضعف في الأداء.",
+      "whyEn": "Understanding AI model evaluation metrics is crucial for selecting the right model for your project and identifying performance strengths and weaknesses.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "تحديد الأهداف",
+          "detail": "حدد أهداف المشروع ومتطلبات الأداء لاختيار المقاييس المناسبة."
+        },
+        {
+          "title": "اختيار المقاييس الأساسية",
+          "detail": "اختر مقاييس مثل الدقة (Accuracy)، الدقة (Precision)، الاستدعاء (Recall)، و F1-score."
+        },
+        {
+          "title": "تنفيذ التقييم",
+          "detail": "استخدم مجموعات بيانات اختبار منفصلة لتقييم النموذج بشكل عادل."
+        },
+        {
+          "title": "تحليل النتائج",
+          "detail": "فهم نتائج المقاييس وتحديد المجالات التي يحتاج النموذج إلى تحسينها."
+        },
+        {
+          "title": "تحسين النموذج",
+          "detail": "استخدم نتائج التقييم لتحسين النموذج عبر ضبط المعاملات أو إعادة تدريب."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define Objectives",
+          "detail": "Determine project goals and performance requirements to select appropriate metrics."
+        },
+        {
+          "title": "Select Core Metrics",
+          "detail": "Choose metrics such as Accuracy, Precision, Recall, and F1-score."
+        },
+        {
+          "title": "Implement Evaluation",
+          "detail": "Use separate test datasets to evaluate the model fairly."
+        },
+        {
+          "title": "Analyze Results",
+          "detail": "Understand metric results and identify areas needing improvement."
+        },
+        {
+          "title": "Improve Model",
+          "detail": "Use evaluation results to improve the model through parameter tuning or retraining."
+        }
+      ],
+      "code": "from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score\n\n# Sample true labels and predictions\ny_true = [0, 1, 1, 0, 1, 0, 1]\ny_pred = [0, 1, 0, 0, 1, 1, 1]\n\n# Calculate metrics\naccuracy = accuracy_score(y_true, y_pred)\nprecision = precision_score(y_true, y_pred)\nrecall = recall_score(y_true, y_pred)\nf1 = f1_score(y_true, y_pred)\n\nprint(f\"Accuracy: {accuracy:.2f}\")\nprint(f\"Precision: {precision:.2f}\")\nprint(f\"Recall: {recall:.2f}\")\nprint(f\"F1 Score: {f1:.2f}\")",
+      "resources": [
+        {
+          "name": "Scikit-learn Documentation",
+          "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
+        },
+        {
+          "name": "ML Metrics Guide",
+          "url": "https://developers.google.com/machine-learning/crash-course/classification/accuracy"
+        },
+        {
+          "name": "Papers with Code - Metrics",
+          "url": "https://paperswithcode.com/metrics"
+        }
+      ],
+      "tags": [
+        "تقييم النماذج",
+        "مقاييس الأداء",
+        "الذكاء الاصطناعي",
+        "التعلم الآلي"
+      ],
+      "quickRef": "اختر المقاييس المناسبة، استخدم بيانات اختبار منفصلة، تحليل النتائج، تحسين النموذج.",
+      "quickRefEn": "Select appropriate metrics, use separate test data, analyze results, improve model.",
+      "quiz": [
+        {
+          "q": "ما هي المقاييس الأساسية لتقييم نماذج التصنيف؟",
+          "options": [
+            "الدقة فقط",
+            "الدقة والدقة والاستدعاء",
+            "مقاييس الدقة فقط",
+            "مقاييس السرعة فقط"
+          ],
+          "answer": 1,
+          "explain": "مقاييس مثل الدقة (Accuracy)، الدقة (Precision)، والاستدعاء (Recall) هي المقاييس الأساسية لتقييم نماذج التصنيف."
+        },
+        {
+          "q": "لماذا من المهم استخدام بيانات اختبار منفصلة عند تقييم النموذج؟",
+          "options": [
+            "لزيادة سرعة التقييم",
+            "لمنع التسرب المعرفي (Data Leakage)",
+            "لتقليل تكاليف التدريب",
+            "لزيادة دقة النموذج"
+          ],
+          "answer": 1,
+          "explain": "استخدام بيانات اختبار منفصلة يمنع التسرب المعرفي ويضمن تقييمًا عادلاً لأداء النموذج على بيانات غير مسبوقة."
+        }
+      ],
+      "addedAt": "2026-09-21"
+    },
+    {
       "id": "k-2026-09-21-تحسين-النصوص-باستخدام-تقنيات-الـ-prompt-engineerin",
       "title": "تحسين النصوص باستخدام تقنيات الـ Prompt Engineering",
       "titleEn": "Improving Text Using Prompt Engineering Techniques",
