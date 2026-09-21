@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "date": "2026-09-20",
+      "topHeadlines": [
+        "سيطرة OpenAI وAnthropic على السوق",
+        "إطلاق خطة أمان الشباب الأسترالية من OpenAI",
+        "إطلاق Astra للقانون من OpenAI"
+      ]
+    },
+    {
       "date": "2026-09-19",
       "topHeadlines": [
         "انتهاك أمني في مستودعات OpenAI الداخلية",

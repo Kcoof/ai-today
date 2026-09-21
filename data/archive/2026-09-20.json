@@ -1,0 +1,431 @@
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T10:10:21.207Z",
+  "news": [
+    {
+      "id": "n-2026-09-20-8",
+      "title": "سيطرة OpenAI وAnthropic على السوق",
+      "titleEn": "OpenAI and Anthropic Market Dominance",
+      "summary": "أظهرت دراسة أن إيرادات OpenAI وAnthropic تفوق إيرادات جميع نماذج الذكاء الاصطناعي الصينية مجتمعة بعشر مرات. يسلط هذا الضوء على الفجوة الكبيرة في السوق بين الشركات الأمريكية والصينية.",
+      "summaryEn": "A study reveals that OpenAI and Anthropic's revenues exceed those of all Chinese AI models combined by ten times. This highlights the significant market gap between US and Chinese companies.",
+      "category": "companies",
+      "importance": 5,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd1ZGT2FfOGNzV0M0Mnlja29ybFZRN284QW45ekRfa2NXVmtCaF9USDVHOW5XS084OXJkb2o0b0RhQjd0TXAxZXh1UmNnVWRoSGNRWVpoWi1STUowdVJOQmUydzlBR29pRVN6aWtfQ1k1aTJlWUg4eEdXcS1GX3c5N21mMWVTYW9PVXdLWURrcURnZGtWU3N2WG5FUzR2eGxDZkZCNmNn0gGrAUFVX3lxTE5uZUZRbWozZWFOUURoaDVORnBpRzEtcDZPaWNQVE9uUDgwbEw4eVBsYWkySWVUODNhd1NUN0gzeGRVcUdGemZzbV82YVR2ZWQxNHFqdEdrdV9uYVZFX2daYjRjaGF4RlJrQXVXZEpJaW1Ja2VnRHNneVJVSUlYWEtvekFISDJpTUJjRUtCdlhndEY0d1g4NGhVZzN6S2FCNXhHVTFpWnBaMTlUSQ?oc=5"
+      },
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "id": "n-2026-09-20-1",
+      "title": "إطلاق خطة أمان الشباب الأسترالية من OpenAI",
+      "titleEn": "OpenAI Launches Australian Youth Safety Blueprint",
+      "summary": "أعلنت OpenAI عن خطة أمان الشباب الأسترالية، وهي خطة رائدة ستة أعمدة لضمان استخدام آمن للذكاء الاصطناعي. تهدف هذه المبادرة إلى حماية الشباب من المحتوى الضار عبر مجموعة من الإجراءات الوقائية.",
+      "summaryEn": "OpenAI has introduced the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI use. This initiative aims to protect young people from harmful content through a comprehensive set of preventive measures.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/australian-youth-safety-blueprint"
+      },
+      "publishedAt": "2026-09-18"
+    },
+    {
+      "id": "n-2026-09-20-2",
+      "title": "إطلاق Astra للقانون من OpenAI",
+      "titleEn": "OpenAI Launches Astra for Law",
+      "summary": "أطلقت OpenAI Astra للقانون، وهي منصة ذكاء اصطناعي متخصص في القطاع القانوني. توفر المنصة ذكاءً متقدمًا للمحامين، وتيارات عمل مخصصة للشركات، وروابط مع قواعد البيانات القانونية.",
+      "summaryEn": "OpenAI has launched Astra for Law, a specialized AI platform for the legal sector. The platform provides advanced intelligence for lawyers, custom firm workflows, and connections to legal databases.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/astra-for-law"
+      },
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "id": "n-2026-09-20-3",
+      "title": "إطلاق Kimi K3 من Moonshot على Amazon Bedrock",
+      "titleEn": "Moonshot Launches Kimi K3 on Amazon Bedrock",
+      "summary": "أعلنت Moonshot AI عن إطلاق نموذج Kimi K3 على منصة Amazon Bedrock. يتميز النموذج بقدرة على فهم السياق الطويل تصل إلى مليونトークن، مما يجعله مناسبًا لتطبيقات معالجة المستندات الطويلة.",
+      "summaryEn": "Moonshot AI has announced the launch of its Kimi K3 model on Amazon Bedrock. The model features a 1M-token context window, making it suitable for long document processing applications.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5"
+      },
+      "publishedAt": "2026-09-18"
+    },
+    {
+      "id": "n-2026-09-20-4",
+      "title": "قدرات GLM-5.3 الأمنية من Z.ai",
+      "titleEn": "Z.ai's GLM-5.3 Security Capabilities",
+      "summary": "كشفت Z.ai عن قدرات نموذج GLM-5.3 الأمنية، حيث تمكن النموذج من اكتشاف ثغرات برمجية خطيرة. أثبت النموذج قدرته على تحديد ثغرة في Cursor تسبب في قواعد بقيمة 10 مليار دولار.",
+      "summaryEn": "Z.ai has revealed the security capabilities of its GLM-5.3 model, which has demonstrated the ability to discover critical software vulnerabilities. The model successfully identified a flaw in Cursor that triggered $10B in rules.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPazk3QlVZNXNUNDFpVmg0Rjd3Uk8xQlFzNDNnM09JNFZoM0JIalB1MXZNdTdPMnZZQzRwc2U4aEZvNnk0dFRBalRUb2RSWWpoeW44WkE1WllVZHBSMHNOaC1BZ21IbmV3OU43QVRiLVN4RE96SEgxRk1ma2pnRHBfQjhYemt5NHc0bUZtRFo0eW1odjVRX29rUHd3?oc=5"
+      },
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "id": "n-2026-09-20-5",
+      "title": "مشاكل Qwen مع الحكومة الأمريكية",
+      "titleEn": "Qwen's Issues with US Government",
+      "summary": "واجهت نموذج Qwen من Alibaba انتقادات بعد استخدام الحكومة الأمريكية له على موقعها الإلكتروني. اتهمت الفيدرالية بوجود نموذج \"خبيث\" ينسخ عمل Anthropic، مما أدى إلى إزالته من موقع الحكومة.",
+      "summaryEn": "Alibaba's Qwen model faced criticism after being used on a US government website. The FBI accused it of being a \"malicious\" model that copied Anthropic's work, leading to its removal from the government site.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSTBHb0F3bjFOTVY4RDExZ1Q4SUVqOEppWEdrc0t0TUhUc0NZNG0yZl9Da2daU1RyRnZPYlMzSDRRM0UzTlgwSHpTTDBKR201eVJocll5WHhKdDZNekVTTnBiQmhLaGZaaXZXQTBPRncxNjVUQjNIWU50RWRNd19wNmR4VGdNMzJEeGpoMXRNSG9Bd1JYc0ZYemZkUXZGUXBLRVBLYnozN1FmZ1dlcTYwdHU0aEtxd2RJOC1jb1M5empFdmNSWEV5bzAwTQ?oc=5"
+      },
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "id": "n-2026-09-20-6",
+      "title": "إطلاق DeepSeek V4.1 Flash",
+      "titleEn": "DeepSeek Launches V4.1 Flash",
+      "summary": "أطلقت DeepSeek نموذج V4.1 Flash المفتوح، الذي يوفر أداءً متقدمًا في البرمجة والاستدلال. يُعد النموذج خطوة مهمة نحو نموذج مفتوح المصدر ذي كفاءة عالية.",
+      "summaryEn": "DeepSeek has launched its open V4.1 Flash model, offering advanced performance in coding and reasoning. The model represents a significant step toward a high-efficiency open-source model.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWZRZFBYOU02WldNX3Bpem1heWpEbnBXWU1qXzJjeXNkUHh1dXMxOFlfdFAzRktJelBkMnpNOWZqMzFVV0daalFuelMweDJzUkgxWkp1VE9tZ1dZLXY0ZjQ0QXVFU0xIbGV0cmE3eFFXWWlKaHNKN2hNcm1jTy0zM1JCXzNGa1ZZcGU5akZB?oc=5"
+      },
+      "publishedAt": "2026-09-14"
+    },
+    {
+      "id": "n-2026-09-20-7",
+      "title": "إطلاق Grok Voice Transcribe 2.0 من xAI",
+      "titleEn": "xAI Launches Grok Voice Transcribe 2.0",
+      "summary": "أعلنت xAI عن إطلاق نموذج Grok Voice Transcribe 2.0 للتحويل الكلامي إلى نص. يوفر النموذج دقة ضعف النسخة السابقة بسعر 0.10 دولار لكل ساعة من الاستخدام.",
+      "summaryEn": "xAI has announced the launch of Grok Voice Transcribe 2.0 for speech-to-text conversion. The model offers twice the accuracy of the previous version at a price of $0.10 per hour of usage.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lZWRVcElUVVNQOE9Pc0NOMVI2SUVSTmVwMFUwS1dGdXdKZnl3d2RlSHljZFp3blk3Tmx3TXpvSHRFQ1RFYTcxdFpCRE5SZVZVdlRB?oc=5"
+      },
+      "publishedAt": "2026-09-18"
+    },
+    {
+      "id": "n-2026-09-20-9",
+      "title": "مشاكل حذف البيانات في Google AI Studio",
+      "titleEn": "Google AI Studio Data Deletion Issues",
+      "summary": "أبلغ مستخدم عن مشاكل في نظام حذف البيانات في Google AI Studio، حيث يزيل النظام البيانات بشكل وهمي دون إعلام المستخدم. تم حظر المستخدم تلقائيًا عند الإبلاغ عن المشكلة.",
+      "summaryEn": "A user reported issues with Google AI Studio's data deletion system, where the system falsely pretends to delete data without notifying the user. The user was automatically banned when reporting the issue.",
+      "category": "regulation",
+      "importance": 3,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2"
+      },
+      "publishedAt": "2026-09-20"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-09-20-1",
+      "name": "Kimi K3",
+      "org": "Moonshot",
+      "releaseDate": "2026-09-18",
+      "highlights": "نموذج ذكاء اصطناعي بقدرة فهم سياق طويل تصل إلى مليونトークن، متوفر على منصة Amazon Bedrock.",
+      "highlightsEn": "AI model with a 1M-token context window, available on Amazon Bedrock platform.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5"
+    },
+    {
+      "id": "m-2026-09-20-2",
+      "name": "GLM-5.3",
+      "org": "Z.ai",
+      "releaseDate": "2026-09-17",
+      "highlights": "نموذج متقدم مع قدرات أمنية متميزة، تمكنه من اكتشاف ثغرات برمجية خطيرة مثل ثغرة Cursor.",
+      "highlightsEn": "Advanced model with distinguished security capabilities, enabling it to discover critical software vulnerabilities like the Cursor flaw.",
+      "specs": {
+        "security": "advanced"
+      },
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPazk3QlVZNXNUNDFpVmg0Rjd3Uk8xQlFzNDNnM09JNFZoM0JIalB1MXZNdTdPMnZZQzRwc2U4aEZvNnk0dFRBalRUb2RSWWpoeW44WkE1WllVZHBSMHNOaC1BZ21IbmV3OU43QVRiLVN4RE96SEgxRk1ma2pnRHBfQjhYemt5NHc0bUZtRFo0eW1odjVRX29rUHd3?oc=5"
+    },
+    {
+      "id": "m-2026-09-20-3",
+      "name": "Qwen3.8-Omni-Flash",
+      "org": "Qwen",
+      "releaseDate": "2026-09-18",
+      "highlights": "نموذج ذكاء اصطناعي بقدرة فهم سياق طويل تصل إلى مليونトークن، مصمم للتطبيقات متعددة الأغراض.",
+      "highlightsEn": "AI model with a 1M-token context window, designed for multi-purpose applications.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTC1FR2JYdFEyUl9KZEQycnktcjFoZ3Jmbkx3SzBiR28yd1V3XzNsMUVXR21lRUsybXo1NVg3djhkNjJjQ0JyNlRUa2tQbE9oanNpZFdid1JLR1BUMVhWcll0R043R0UxelBJaEV0MndXZ2h5LVJyLTdhbWZDTUNPYlBhZW5TOGVIREZsZFpKb04yS2pBbzc0eDZoSkE?oc=5"
+    },
+    {
+      "id": "m-2026-09-20-4",
+      "name": "DeepSeek V4.1 Flash",
+      "org": "DeepSeek",
+      "releaseDate": "2026-09-14",
+      "highlights": "نموذج مفتوح المصدر متقدم في البرمجة والاستدلال، يوفر أداءً عاليًا بتكلفة معقولة.",
+      "highlightsEn": "Open-source model advanced in coding and reasoning, offering high performance at reasonable cost.",
+      "specs": {
+        "type": "open-source"
+      },
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQWZRZFBYOU02WldNX3Bpem1heWpEbnBXWU1qXzJjeXNkUHh1dXMxOFlfdFAzRktJelBkMnpNOWZqMzFVV0daalFuelMweDJzUkgxWkp1VE9tZ1dZLXY0ZjQ0QXVFU0xIbGV0cmE3eFFXWWlKaHNKN2hNcm1jTy0zM1JCXzNGa1ZZcGU5akZB?oc=5"
+    },
+    {
+      "id": "m-2026-09-20-5",
+      "name": "Grok Voice Transcribe 2.0",
+      "org": "xAI",
+      "releaseDate": "2026-09-18",
+      "highlights": "نموذج للتحويل الكلامي إلى نص بدقة ضعف النسخة السابقة، بسعر 0.10 دولار لكل ساعة من الاستخدام.",
+      "highlightsEn": "Speech-to-text model with twice the accuracy of the previous version, priced at $0.10 per hour of usage.",
+      "specs": {
+        "accuracy": "2x",
+        "price": "$0.10/hour"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lZWRVcElUVVNQOE9Pc0NOMVI2SUVSTmVwMFUwS1dGdXdKZnl3d2RlSHljZFp3blk3Tmx3TXpvSHRFQ1RFYTcxdFpCRE5SZVZVdlRB?oc=5"
+    },
+    {
+      "id": "m-2026-09-20-6",
+      "name": "Mistral Medium 3.5",
+      "org": "Mistral",
+      "releaseDate": "2026-09-01",
+      "highlights": "نموذج متوسط الحجم مع أداء متقدم في مجموعة متنوعة من المهام اللغوية والمعرفية.",
+      "highlightsEn": "Medium-sized model with advanced performance across a variety of linguistic and cognitive tasks.",
+      "specs": {
+        "size": "medium"
+      },
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-09-20-1",
+      "text": "جذبت Moonshot AI استثمارات كبيرة من الصناديق العالمية، حيث بلغت إيراداتها 1 مليار دولار بعد إطلاق نموذج Kimi K3.",
+      "textEn": "Moonshot AI has attracted significant investments from global funds, reaching $1 billion in revenue after launching the Kimi K3 model.",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOWlmNmR0T1BVWmdrUS1pdHJ0N3htUjFnM2V0WGs5RV81TExhdXRIM3JJMzNvT1VZUG9HTzZyT3luOGJZSHRsR2xWWkpad2JnWEtTU1U1THNZb3lOYUJtLUFGTjluRGE0Rm9Xdy1oZTN0R21BTUlVSVZrNnhCcEMtUtIBhgFBVV95cUxQNWlURkQ4dDgtaGVkczdMZjRSWnc1eFY1WWxJbGpXdHFHLTRtMi1Ra25USHNiZHVoeDVwTEVwVXBxY3JRWFBGdWFPSHBlank1alpwcmRIdlJIdnVfZWR5YlhNYUxEYmdyeWR4bnhEYWVXS2lMT1B5NU1XcUNsbU1kUHRBcHBqUQ?oc=5"
+    },
+    {
+      "id": "h-2026-09-20-2",
+      "text": "رفعت Z.ai هدف إيراداتها بنسبة 25% بعد استثمار نقدي بقيمة 5 مليارات دولار.",
+      "textEn": "Z.ai has increased its revenue target by 25% following a $5 billion cash injection.",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTEgta1ZlWEMwdjFQWVYyV2x6TkgtOWY3ZFNjT1RiWGhpdjFtUHdaOE9VUkpMOGZseHVqZWFIdlhLOFJ4NGNIbEgtUmNoSVRYV19mcTR5RUZKTmo0VWNUX3I5bTRzQ3BjeFNJVWptYWo5a3dkdlo0S2RMU1ZtRE1EQ2xXZC0tQ2FrYndhX2R1OS1kNk1GdXdZbzV0Zm5WMV9Tb1BaVVJnRTd0Q0ZRbl9nQm1URGZrZ0xBNWlZNmIxY9IBvwFBVV95cUxNSkdaYTJjbVNZdUhkM0Y2YTZFUUN0LXBuY29tMzE5LXZMNTd6Z3NLb0x1MHFkWXVuQTVOVXR4bllWRi1hUnhpM3pHaXhtbmVNY2dDS2NldU16NXlsaV85Q19LVm9yQkdmMUFpSHIwUmoyd2VqdDVXZlRvOS1FYjl3UXRDYTJDVTk3cnVodS1BVXAzRlIxQXYxM2tGbE40LU1uejM4U0hfYXJVSWJUd1dEeno4VldOcEs0a1BKWVlnUQ?oc=5"
+    },
+    {
+      "id": "h-2026-09-20-3",
+      "text": "تتفوق إيرادات OpenAI وAnthropic على إيرادات جميع نماذج الذكاء الاصطناعي الصينية مجتمعة بعشر مرات.",
+      "textEn": "OpenAI and Anthropic's revenues exceed those of all Chinese AI models combined by ten times.",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd1ZGT2FfOGNzV0M0Mnlja29ybFZRN284QW45ekRfa2NXVmtCaF9USDVHOW5XS084OXJkb2o0b0RhQjd0TXAxZXh1UmNnVWRoSGNRWVpoWi1STUowdVJOQmUydzlBR29pRVN6aWtfQ1k1aTJlWUg4eEdXcS1GX3c5N21mMWVTYW9PVXdLWURrcURnZGtWU3N2WG5FUzR2eGxDZkZCNmNn0gGrAUFVX3lxTE5uZUZRbWozZWFOUURoaDVORnBpRzEtcDZPaWNQVE9uUDgwbEw4eVBsYWkySWVUODNhd1NUN0gzeGRVcUdGemZzbV82YVR2ZWQxNHFqdEdrdV9uYVZFX2daYjRjaGF4RlJrQXVXZEpJaW1Ja2VnRHNneVJVSUlYWEtvekFISDJpTUJjRUtCdlhndEY0d1g4NGhVZzN6S2FCNXhHVTFpWnBaMTlUSQ?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-09-20-1",
+      "title": "مشاكل حذف البيانات في Google AI Studio",
+      "titleEn": "Google AI Studio Data Deletion Issues",
+      "summary": "أبلغ مستخدم عن أن Google AI Studio يزيل البيانات بشكل وهمي دون إعلام المستخدم. عند الإبلاغ عن المشكلة، تم حظر المستخدم تلقائيًا في غضون 60 ثانية.",
+      "summaryEn": "A user reported that Google AI Studio falsely pretends to delete data without notifying the user. When reporting the issue, the user was automatically banned within 60 seconds.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2",
+      "source": "Hacker News",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "sec-2026-09-20-2",
+      "title": "اتهامات ضد Qwen بنسخ عمل Anthropic",
+      "titleEn": "Allegations Against Qwen for Copying Anthropic",
+      "summary": "اتهمت الفيدرالية الأمريكية نموذج Qwen من Alibaba بأنه \"خبيث\" وينسخ عمل Anthropic. تم استخدام النموذج على موقع حكومي أمريكي قبل إزالته بعد احتجاجات.",
+      "summaryEn": "The US FBI accused Alibaba's Qwen model of being \"malicious\" and copying Anthropic's work. The model was used on a US government website before being removed following backlash.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSTBHb0F3bjFOTVY4RDExZ1Q4SUVqOEppWEdrc0t0TUhUc0NZNG0yZl9Da2daU1RyRnZPYlMzSDRRM0UzTlgwSHpTTDBKR201eVJocll5WHhKdDZNekVTTnBiQmhLaGZaaXZXQTBPRncxNjVUQjNIWU50RWRNd19wNmR4VGdNMzJEeGpoMXRNSG9Bd1JYc0ZYemZkUXZGUXBLRVBLYnozN1FmZ1dlcTYwdHU0aEtxd2RJOC1jb1M5empFdmNSWEV5bzAwTQ?oc=5",
+      "source": "Qwen (news)",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "sec-2026-09-20-3",
+      "title": "ثغرات CAPTCHA الجديدة",
+      "titleEn": "New CAPTCHA Vulnerabilities",
+      "summary": "تم اكتشاف ثغرات جديدة في أنظمة CAPTCHA تسمح للذكاء الاصطناعي بتجاوزها. يستخدم المهاجمون إطار عمل CAPTCHA لخداع المستخدمين غير المشتبه بهم.",
+      "summaryEn": "New vulnerabilities in CAPTCHA systems have been discovered that allow AI to bypass them. Attackers use the CAPTCHA framework to trick unsuspecting users.",
+      "type": "prompt-injection",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-18"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-09-20",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "59.6"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "55.7"
+      },
+      {
+        "name": "GPT-5.6 Sol 1",
+        "org": "OpenAI",
+        "score": "54.9"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "54.9"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "54.6"
+      },
+      {
+        "name": "Muse Spark 1.3",
+        "org": "Meta",
+        "score": "54.3"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "54.3"
+      },
+      {
+        "name": "Kimi K3",
+        "org": "Moonshot AI",
+        "score": "53.0"
+      },
+      {
+        "name": "GLM-5.3",
+        "org": "Zhipu AI",
+        "score": "52.7"
+      },
+      {
+        "name": "Atria Dawn Preview",
+        "org": "Shanghai AI Laboratory",
+        "score": "52.3"
+      }
+    ],
+    "highlights": "يُظهر الترتيب الحالي أن GPT-6 Astra يحافظ على قمة الترتيب مع أداء استثنائي في مهارات التفكير المنطقي، بينما تنافس نماذج Claude بقوة في المراكز المتقدمة. أبرز التحركات هو ظهور Atria Dawn Preview كنموذج جديد في المراكز العشرة الأولى، مما يشير إلى تطور سريع في عالم الذكاء الاصطناعي.",
+    "highlightsEn": "The current ranking shows that GPT-6 Astra maintains the top position with exceptional performance in reasoning skills, while Claude models are strongly competing in advanced positions. The most notable movement is the appearance of Atria Dawn Preview as a new model in the top 10, indicating rapid development in the AI world."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-09-20-استخدام-واجهات-برمجة-التطبيقات-متعددة-الوسائط",
+    "title": "استخدام واجهات برمجة التطبيقات متعددة الوسائط",
+    "titleEn": "Using Multimodal APIs",
+    "why": "تتيح لك واجهات برمجة التطبيقات متعددة الوسائط دمج أنواع مختلفة من البيانات (نص، صور، صوت) في تطبيق واحد، مما يفتح آفاقاً جديدة للتفاعل مع المستخدمين وتقديم تجارب غنية.",
+    "whyEn": "Multimodal APIs allow you to integrate different types of data (text, images, audio) in a single application, opening new possibilities for user interaction and providing rich experiences.",
+    "difficulty": "intermediate",
+    "track": "tools",
+    "steps": [
+      {
+        "title": "اختيار واجهة برمجة التطبيقات المناسبة",
+        "detail": "ابحث عن واجهات برمجة التطبيقات التي تدعم أنواع البيانات المتعددة التي تحتاجها، مثل OpenAI's GPT-4V أو Google's Gemini Vision."
+      },
+      {
+        "title": "فهم حدود النموذج",
+        "detail": "تعرف على القيود الخاصة بنموذج الذكاء الاصطناعي الذي تستخدمه، مثل حجم الملفات المسموح به أو طول النص المدعوم."
+      },
+      {
+        "title": "إعداد الطلب",
+        "detail": "صمم طلبك بشكل صحيح ليشمل جميع البيانات اللازمة، مع التأكد من تنسيق البيانات بشكل صحيح."
+      },
+      {
+        "title": "معالجة الاستجابة",
+        "detail": "تأكد من فهم كيفية معالجة النموذج للبيانات المتعددة واستخراج المعلومات المفيدة منها."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Choosing the appropriate API",
+        "detail": "Search for APIs that support the multiple data types you need, such as OpenAI's GPT-4V or Google's Gemini Vision."
+      },
+      {
+        "title": "Understanding model limitations",
+        "detail": "Learn about the specific limitations of the AI model you're using, such as allowed file sizes or supported text length."
+      },
+      {
+        "title": "Preparing the request",
+        "detail": "Design your request properly to include all necessary data, ensuring data formatting is correct."
+      },
+      {
+        "title": "Processing the response",
+        "detail": "Make sure you understand how the model processes multiple data types and extract useful information from it."
+      }
+    ],
+    "code": "import openai\n\nclient = openai.OpenAI(api_key=\"your-api-key\")\n\nresponse = client.chat.completions.create(\n    model=\"gpt-4-vision-preview\",\n    messages=[\n        {\n            \"role\": \"user\",\n            \"content\": [\n                {\"type\": \"text\", \"text\": \"What's happening in this image?\"},\n                {\n                    \"type\": \"image_url\",\n                    \"image_url\": {\n                        \"url\": \"https://example.com/image.jpg\",\n                    },\n                },\n            ],\n        }\n    ],\n    max_tokens=300,\n)\n\nprint(response.choices[0].message.content)",
+    "resources": [
+      {
+        "name": "OpenAI API Documentation",
+        "url": "https://platform.openai.com/docs/guides/vision"
+      },
+      {
+        "name": "Google Gemini Vision API",
+        "url": "https://ai.google.dev/docs"
+      },
+      {
+        "name": "Multimodal AI Research Paper",
+        "url": "https://arxiv.org/abs/2306.03614"
+      }
+    ],
+    "tags": [
+      "واجهات برمجة التطبيقات",
+      "الذكاء الاصطناعي متعدد الوسائط",
+      "معالجة البيانات",
+      "تطوير التطبيقات"
+    ],
+    "quickRef": "استخدم واجهات برمجة التطبيقات متعددة الوسائط لدمج نصوص وصور وصوت في تطبيق واحد. تأكد من فهم حدود النموذج ومعالجة الاستجابات بشكل صحيح.",
+    "quickRefEn": "Use multimodal APIs to integrate text, images, and audio in a single application. Ensure you understand model limitations and process responses correctly.",
+    "quiz": [
+      {
+        "q": "ما هو الهدف الرئيسي من استخدام واجهات برمجة التطبيقات متعددة الوسائط؟",
+        "options": [
+          "تقليل تكاليف التطوير",
+          "دمج أنواع مختلفة من البيانات في تطبيق واحد",
+          "زيادة سرعة النماذج",
+          "تقليل حجم الطلبات"
+        ],
+        "answer": 1,
+        "explain": "الهدف الرئيسي من استخدام واجهات برمجة التطبيقات متعددة الوسائط هو دمج أنواع مختلفة من البيانات (نص، صور، صوت) في تطبيق واحد، مما يوفر تجارب غنية للمستخدمين."
+      },
+      {
+        "q": "ما هو أحد التحديات الشائعة عند استخدام واجهات برمجة التطبيقات متعددة الوسائط؟",
+        "options": [
+          "زيادة تكاليف التطوير",
+          "فهم حدود النموذج ومعالجة البيانات بشكل صحيح",
+          "تقليل عدد المستخدمين",
+          "زيادة سرعة الاستجابة"
+        ],
+        "answer": 1,
+        "explain": "من بين الخيارات المذكورة، فهم حدود النموذج ومعالجة البيانات بشكل صحيح هو تحدٍ شائع عند استخدام واجهات برمجة التطبيقات متعددة الوسائط، حيث يجب على المطورين التعامل مع أنواع مختلفة من البيانات ومعرفة كيفية معالجتها."
+      },
+      {
+        "q": "ما هو مثال على واجهة برمجة تطبيقات متعددة الوسائط؟",
+        "options": [
+          "REST API",
+          "GraphQL",
+          "OpenAI's GPT-4V",
+          "SOAP"
+        ],
+        "answer": 2,
+        "explain": "OpenAI's GPT-4V هو مثال على واجهة برمجة تطبيقات متعددة الوسائط لأنه يمكنه معالجة النصوص والصور معاً، بينما REST API وGraphQL وSOAP هي أنواع من واجهات برمجة التطبيقات ولكنها ليست بالضرورة متعددة الوسائط."
+      }
+    ],
+    "addedAt": "2026-09-20"
+  }
+}

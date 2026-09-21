@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-21-تحسين-النصوص-باستخدام-تقنيات-الـ-prompt-engineerin",
+      "title": "تحسين النصوص باستخدام تقنيات الـ Prompt Engineering",
+      "titleEn": "Improving Text Using Prompt Engineering Techniques",
+      "why": "تعتبر تقنيات الـ Prompt Engineering أساسية لتحقيق أفضل النتائج من نماذج الذكاء الاصطناعي اللغوية، حيث تساعد في توجيه النموذج لإنشاء محتوى أكثر دقة واتساقاً وتناسقاً مع احتياجات المستخدم.",
+      "whyEn": "Prompt engineering techniques are essential for achieving optimal results from language AI models, as they help guide the model to generate more accurate, consistent, and user-aligned content.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم نموذج الذكاء الاصطناعي",
+          "detail": "دراسة خصائص النموذج الذي ستستخدمه، وقوته وضعفه، وكيفية تفاعله مع أوامر مختلفة."
+        },
+        {
+          "title": "تحديد الهدف بوضوح",
+          "detail": "تحديد ما تريد تحقيقه من النص بشكل دقيق، سواء كان تحسين الوضوح، الإيجاز، أو التأثير العاطفي."
+        },
+        {
+          "title": "تصميم الطلب الأولي",
+          "detail": "كتابة طلب أولي يوضح المطلوب مع تقديم مثال أو إرشادات حول الأسلوب المطلوب."
+        },
+        {
+          "title": "التكرار والتعديل",
+          "detail": "تجربة الطلب وتعديله بناءً على النتائج، مع إضافة تفاصيل أو تعديلات لتحسين الناتج."
+        },
+        {
+          "title": "استخدام تقنيات متقدمة",
+          "detail": "تطبيق تقنيات مثل Few-shot learning أو Chain-of-thought لتحسين جودة النتائج."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand the AI Model",
+          "detail": "Study the characteristics of the model you'll use, its strengths and weaknesses, and how it interacts with different prompts."
+        },
+        {
+          "title": "Clearly Define Your Goal",
+          "detail": "Precisely define what you want to achieve with the text, whether it's improving clarity, conciseness, or emotional impact."
+        },
+        {
+          "title": "Design the Initial Prompt",
+          "detail": "Write an initial prompt that clearly states your requirements while providing examples or guidelines about the desired style."
+        },
+        {
+          "title": "Iterate and Refine",
+          "detail": "Test the prompt and modify it based on results, adding details or adjustments to improve the output."
+        },
+        {
+          "title": "Use Advanced Techniques",
+          "detail": "Apply techniques like Few-shot learning or Chain-of-thought to improve result quality."
+        }
+      ],
+      "code": "def generate_improved_text(original_text, style=\"formal\"):\n    prompt = f\"\"\"\n    Improve the following text to be more {style}:\n    \n    {original_text}\n    \n    Improved version:\n    \"\"\"\n    return prompt\n\n# Example usage\noriginal = \"The meeting was good and we talked about many things.\"\nimproved_prompt = generate_improved_text(original, \"professional\")",
+      "resources": [
+        {
+          "name": "OpenAI Prompt Engineering Guide",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        },
+        {
+          "name": "Prompting Guide",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "name": "Anthropic Prompt Engineering",
+          "url": "https://docs.anthropic.com/claude/docs/prompt-engineering"
+        }
+      ],
+      "tags": [
+        "Prompt Engineering",
+        "تحسين النصوص",
+        "تقنيات الذكاء الاصطناعي",
+        "LLM"
+      ],
+      "quickRef": "تحسين النصوص: حدد الهدف، صمم الطلب، وكرر التعديل للحصول على أفضل النتائج من نماذج الذكاء الاصطناعي.",
+      "quickRefEn": "Text Improvement: Define your goal, design the prompt, and iterate to get the best results from AI models.",
+      "quiz": [
+        {
+          "q": "ما هي الخطوة الأولى في عملية تحسين النصوص باستخدام الـ Prompt Engineering؟",
+          "options": [
+            "تعديل الطلب مباشرة",
+            "فهم نموذج الذكاء الاصطناعي المستخدم",
+            "اختيار نموذج مختلف",
+            "تجاهل خصائص النموذج"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى هي فهم نموذج الذكاء الاصطناعي المستخدم، وقوته وضعفه، وكيفية تفاعله مع أوامر مختلفة."
+        },
+        {
+          "q": "ما هي تقنية Prompt Engineering التي تقدم أمثلة محددة في الطلب؟",
+          "options": [
+            "Zero-shot learning",
+            "Few-shot learning",
+            "Chain-of-thought",
+            "Model-specific prompting"
+          ],
+          "answer": 1,
+          "explain": "Few-shot learning هي تقنية تقدم أمثلة محددة في الطلب لمساعدة النموذج على فهم السياق والمطلوب بشكل أفضل."
+        }
+      ],
+      "addedAt": "2026-09-21"
+    },
+    {
       "id": "k-2026-09-20-استخدام-واجهات-برمجة-التطبيقات-متعددة-الوسائط",
       "title": "استخدام واجهات برمجة التطبيقات متعددة الوسائط",
       "titleEn": "Using Multimodal APIs",
