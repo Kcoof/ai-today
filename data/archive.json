@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "date": "2026-09-21",
+      "topHeadlines": [
+        "إطلاق جيمني 3.8 لايف من جوجل ديمند",
+        "إطلاق Astra للقانون من OpenAI",
+        "إطلاق Grok 4.7 من xAI"
+      ]
+    },
+    {
       "date": "2026-09-20",
       "topHeadlines": [
         "سيطرة OpenAI وAnthropic على السوق",

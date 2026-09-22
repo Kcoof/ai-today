@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-22-تحسين-النماذج-باستخدام-تقنيات-الـ-rag",
+      "title": "تحسين النماذج باستخدام تقنيات الـ RAG",
+      "titleEn": "Improving Models Using RAG Techniques",
+      "why": "تقنية RAG (Retrieval-Augmented Generation) تربط نماذج اللغة الكبيرة بمصادر معرفة خارجية، مما يحسن دقة المعلومات المقدمة ويقلل من الهلوسة. هذه التقنية خاصة مفيدة للتطبيقات التي تتطلب معلومات محددة وحديثة.",
+      "whyEn": "RAG (Retrieval-Augmented Generation) technology connects large language models with external knowledge sources, improving information accuracy and reducing hallucinations. This technique is particularly useful for applications requiring specific and up-to-date information.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد مصادر المعرفة",
+          "detail": "حدد قواعد البيانات أو المصادر التي تحتوي على المعلومات المتخصصة التي تريد أن يراجعها النموذج."
+        },
+        {
+          "title": "إنشاء embeddings",
+          "detail": "استخدم نموذج embeddings لتحويل نصوص مصادر المعرفة إلى تمثيلات رقمية."
+        },
+        {
+          "title": "بناء قاعدة بيانات متجهة",
+          "detail": "أنشئ قاعدة بيانات متجهة لتخزين embeddings مع ارتباطها بالنص الأصلي."
+        },
+        {
+          "title": "استرجاع المعلومات عند الاستعلام",
+          "detail": "عند استقبال استعلام المستخدم، استرجع أجزاء منقحة من مصادر المعرفة ذات الصلة."
+        },
+        {
+          "title": "دمج المعلومات في الرد",
+          "detail": "أدمج المعلومات المسترجعة مع الاستعلام لإنشاء سياق غني للنموذج الذي سيولد الرد النهائي."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Identify Knowledge Sources",
+          "detail": "Determine the databases or sources containing specialized information you want the model to reference."
+        },
+        {
+          "title": "Create Embeddings",
+          "detail": "Use an embedding model to convert knowledge source texts into numerical representations."
+        },
+        {
+          "title": "Build Vector Database",
+          "detail": "Create a vector database to store embeddings along with their original text."
+        },
+        {
+          "title": "Retrieve Information on Query",
+          "detail": "When receiving a user query, retrieve relevant chunks from knowledge sources."
+        },
+        {
+          "title": "Integrate Information in Response",
+          "detail": "Combine the retrieved information with the query to create rich context for the model to generate the final response."
+        }
+      ],
+      "code": "from langchain.vectorstores import FAISS\nfrom langchain.embeddings import OpenAIEmbeddings\nfrom langchain.text_splitter import CharacterTextSplitter\nfrom langchain import OpenAI, VectorDBQA\n\n# Split documents into chunks\ntext_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)\ndocuments = text_splitter.split_text(your_document_text)\n\n# Create embeddings and vector store\nembeddings = OpenAIEmbeddings()\ndocsearch = FAISS.from_documents(documents, embeddings)\n\n# Create QA chain\nqa = VectorDBQA.from_chain_type(llm=OpenAI(), chain_type=\"stuff\", vectorstore=docsearch)\nquery = \"What is RAG?\"\nresult = qa.run(query)\nprint(result)",
+      "resources": [
+        {
+          "name": "LangChain RAG Documentation",
+          "url": "https://python.langchain.com/docs/modules/data_connection/retrievers/"
+        },
+        {
+          "name": "RAG Paper",
+          "url": "https://arxiv.org/abs/2005.11401"
+        },
+        {
+          "name": "FAISS Vector Database",
+          "url": "https://github.com/facebookresearch/faiss"
+        }
+      ],
+      "tags": [
+        "RAG",
+        "Vector Databases",
+        "Knowledge Retrieval",
+        "LLM Enhancement"
+      ],
+      "quickRef": "RAG: استرجاع المعلومات المعززة للإنشاء. يربط النموذج بمصادر خارجية لتحسين الدقة وتقليل الهلوسة.",
+      "quickRefEn": "RAG: Retrieval-Augmented Generation. Connects the model to external sources to improve accuracy and reduce hallucinations.",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من تقنية RAG؟",
+          "options": [
+            "زيادة سرعة النموذج",
+            "تحسين دقة المعلومات وتقليل الهلوسة",
+            "تقليل حجم النموذج",
+            "زيادة عدد المعلمات"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من RAG هو ربط النموذج بمصادر معرفة خارجية لتحسين دقة المعلومات المقدمة وتقليل الهلوسة."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في تنفيذ نظام RAG؟",
+          "options": [
+            "بناء قاعدة بيانات متجهة",
+            "تحديد مصادر المعرفة",
+            "إنشاء embeddings",
+            "دمج المعلومات في الرد"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى في تنفيذ نظام RAG هي تحديد مصادر المعرفة التي سيستخدمها النموذج."
+        },
+        {
+          "q": "ما هي ميزة استخدام قواعد البيانات المتجهة في RAG؟",
+          "options": [
+            "تقليل تكلفة التشغيل",
+            "السماح بالبحث الفعال في مساحات عالية الأبعاد",
+            "زيادة حجم السياق",
+            "تقليل عدد المعلمات"
+          ],
+          "answer": 1,
+          "explain": "تسمح قواعد البيانات المتجهة بالبحث الفعال في مساحات عالية الأبعاد، وهو أمر ضروري لمقارنة embeddings المسترجعة مع embeddings الاستعلام."
+        }
+      ],
+      "addedAt": "2026-09-22"
+    },
+    {
       "id": "k-2026-09-21-تقييم-نماذج-الذكاء-الاصطناعي-مقاييس-الأداء",
       "title": "تقييم نماذج الذكاء الاصطناعي: مقاييس الأداء",
       "titleEn": "Evaluating AI Models: Performance Metrics",

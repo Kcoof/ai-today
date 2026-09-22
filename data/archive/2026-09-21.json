@@ -1,0 +1,457 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T17:09:44.109Z",
+  "news": [
+    {
+      "id": "n-2026-09-21-1",
+      "title": "إطلاق جيمني 3.8 لايف من جوجل ديمند",
+      "titleEn": "Google DeepMind Launches Gemini 3.8 Live",
+      "summary": "أطلقت جوجل ديمند نموذج جيمني 3.8 لايف مع قدرات استدلالية في الوقت الفعلي، مما يمثل تقدمًا كبيرًا في نماذج الذكاء الاصطناعي.",
+      "summaryEn": "Google DeepMind has launched Gemini 3.8 Live with real-time reasoning capabilities, representing a significant advancement in AI models.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+      },
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "id": "n-2026-09-21-2",
+      "title": "إطلاق Astra للقانون من OpenAI",
+      "titleEn": "OpenAI Launches Astra for Law",
+      "summary": "قدمت OpenAI Astra للقانون، وهي منصة ذكاء اصطناعي متخصصة للمحامين والقطاع القانوني مع قدرات استدلال متقدمة.",
+      "summaryEn": "OpenAI has introduced Astra for Law, a specialized AI platform for legal professionals with advanced reasoning capabilities.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/astra-for-law"
+      },
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "id": "n-2026-09-21-3",
+      "title": "إطلاق Grok 4.7 من xAI",
+      "titleEn": "xAI Launches Grok 4.7",
+      "summary": "أطلقت xAI نموذج Grok 4.7 المحسّن مع قدرات استدلالية متقدمة وميزات جديدة للمطورين.",
+      "summaryEn": "xAI has launched the enhanced Grok 4.7 model with advanced reasoning capabilities and new features for developers.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBqb2x1bzQ3UkxTVDFCUVRjODMzbDJ5YTg3Nmh5Q2luZGdUTmctZmo1Ukp4c3RVdUhfSGZFc1p5SQ?oc=5"
+      },
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "n-2026-09-21-4",
+      "title": "نموذج Kimi K3 من Moonshot على أمازون",
+      "titleEn": "Moonshot's Kimi K3 Model on Amazon",
+      "summary": "أصبح نموذج Kimi K3 من Moonshot متاحًا على أمازون بيدروك بنافذة سياق تصل إلى 1 مليون jeton، مما يمثل اختبارًا مهمًا للذكاء الاصطناعي الصيني.",
+      "summaryEn": "Moonshot's Kimi K3 model is now available on Amazon Bedrock with a 1M-token context window, representing a significant test for Chinese AI.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcDZqcmQxQkhmMW9NcUh6cW1hTTdXTlEwTUNSNUh2ZmlRYmt6Sm9GMnZISkZNSmg2RUc1NndvM1ZhSlBGUkQ1dDlCRldFdXcxQmNpLXB3TTllN0NtSVlTdVpIZ0NDZkhBLWlkMENhODVnbzQ5SldFVGFFaW11SVdBTHFGN2M0RFkydjQxelhlWHVKYXVNZExydXpOZlZOaXV0cEZWbFdYSGRHUWJWYjF3WWpkQng3RUFLY2E0ME9va1F2UdIBwgFBVV95cUxNSE8tSlJiRTFRMWRYREFncDA0ZldXRUJ6clRCTC0xdTloZmVKUzNSR1ZkamlLazd4VGdMTmo4TzNIM0NDM056c1pEZmNjS3J5blVUVlVyeEczb3ByOUFDUmRRRXRxX2JZRVVSYXNQQjh5THdWSFk5em1wODl4N1pzR0VZQ1FYN3d2ckkzSHF5Z3N0RU9YTmZDeWFyQlJkZzdjbTdRQWVMRFhqMXNXYU5fYjkzWUNWaGRJZ3A0LXpzVFkzUQ?oc=5"
+      },
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "n-2026-09-21-5",
+      "title": "تقييم قدرات GLM-5.3 الأمنية من Z.ai",
+      "titleEn": "Z.ai's GLM-5.3 Cyber Capabilities Assessment",
+      "summary": "نشر معهد المعايير والتقنية الوطني تقييمًا لقدرات نموذج GLM-5.3 من Z.ai في مجال الأمن السيبراني.",
+      "summaryEn": "The National Institute of Standards and Technology has published an assessment of Z.ai's GLM-5.3 model cybersecurity capabilities.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPazk3QlVZNXNUNDFpVmg0Rjd3Uk8xQlFzNDNnM09JNFZoM0JIalB1MXZNdTdPMnZZQzRwc2U4aEZvNnk0dFRBalRUb2RSWWpoeW44WkE1WllVZHBSMHNOaC1BZ21IbmV3OU43QVRiLVN4RE96SEgxRk1ma2pnRHBfQjhYemt5NHc0bUZtRFo0eW1odjVRX29rUHd3?oc=5"
+      },
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "id": "n-2026-09-21-6",
+      "title": "استخدام الحكومة الأمريكية لأداة بحث صينية",
+      "titleEn": "US Government Used Chinese Search Tool",
+      "summary": "كشفت تقارير أن موقعًا حكوميًا أمريكيًا استخدم أداة بحث من شركة صينية اتهمها مكتب التحقيقات الفيدرالي بنقل تقنيات من Anthropic.",
+      "summaryEn": "Reports revealed that a US government website used a search tool from a Chinese company that the FBI accused of transferring technology from Anthropic.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSTBHb0F3bjFOTVY4RDExZ1Q4SUVqOEppWEdrc0t0TUhUc0NZNG0yZl9Da2daU1RyRnZPYlMzSDRRM0UzTlgwSHpTTDBKR201eVJocll5WHhKdDZNekVTTnBiQmhLaGZaaXZXQTBPRncxNjVUQjNIWU50RWRNd19wNmR4VGdNMzJEeGpoMXRNSG9Bd1JYc0ZYemZkUXZGUXBLRVBLYnozN1FmZ1dlcTYwdHU0aEtxd2RJOC1jb1M5empFdmNSWEV5bzAwTQ?oc=5"
+      },
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "id": "n-2026-09-21-7",
+      "title": "كيف تعطي V7 الذاكرة المؤسسية للوكلاء الذكيين",
+      "titleEn": "How V7 Gives AI Agents Institutional Memory",
+      "summary": "تستخدم V7 GPT-5.6 لتحويل ملفات الشركة المتفرقة إلى سياقات يمكن للوكلاء استخدامها لإنجاز المهام بكفاءة أعلى.",
+      "summaryEn": "V7 uses GPT-5.6 to transform scattered company files into contexts that agents can use to complete tasks more efficiently.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/v7"
+      },
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "n-2026-09-21-8",
+      "title": "خطة أمان الشباب الأسترالية من OpenAI",
+      "titleEn": "OpenAI's Australian Youth Safety Blueprint",
+      "summary": "أطلقت OpenAI خطة أمان الشباب الأسترالية، وهي خطة طريق مكونة من ستة محاور لاستخدام الذكاء الاصطناعي بشكل أكثر أمانًا.",
+      "summaryEn": "OpenAI has launched the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI usage.",
+      "category": "regulation",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/australian-youth-safety-blueprint"
+      },
+      "publishedAt": "2026-09-18"
+    },
+    {
+      "id": "n-2026-09-21-9",
+      "title": "هندسة عكسي لكاميرات Flock",
+      "titleEn": "Reverse-Engineering Flock Cameras",
+      "summary": "تمكن القراصنة من اختراق كاميرا Flock والنظر في برامجها، مما يثير مخاوف أمنية حول أجهزة إنترنت الأشياء.",
+      "summaryEn": "Hackers captured a Flock camera and examined its software, raising security concerns about IoT devices.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html"
+      },
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "n-2026-09-21-10",
+      "title": "تعطيل Z.ai لميزات مساعد البرمجة الأمنية",
+      "titleEn": "Z.ai Disables AI Coding Assistant Features",
+      "summary": "قامت Z.ai بتعطيل ميزات مساعد البرمجة في نموذجها بعد اكتشاف مشكلة أمنية، مما يسلط الضوء على تحديات أمنية نماذج الذكاء الاصطناعي.",
+      "summaryEn": "Z.ai has disabled coding assistant features in its model after discovering a security issue, highlighting AI model security challenges.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObHRsSllJWjdoV1Ftb29iU3FKS0xoUU1IQkRMdHJUbDlJWXY5VGZJTG5sbWxsNmRmSVdSOWp6WWI2WWpuY0FUREZ5VGFYeUw3aXpvWUZQUVZmZTlwXzBad1doRlQ1MmtWVFJ6STV3R09WeFVzcjNiRy1LZmxiTVJfcnN6ZWhldVlzSGxUV3lpcWp0MmRoeTJaWVNZcDZQT1dfMmdxOTBOWjE3ZDVYTUNFak1EX29KY2ZWTG5rLW9IRFVKSlBjdF9BUzZPdUvSAcwBQVVfeXFMTmx0bEpZSVo3aFdRbW9vYlNxSktMaFFNSEJETHRyVGw5SVl2OVRmSUxubG1sbDZkZklXUjlqelliNllqbmNBVERGeVRhWHlMN2l6b1lGUFFWZmU5cF8wWndXaEZUNTJrVlRSekk1d0dPVnhVc3IzYkctS2ZsYk1SX3JzemVoZXVZc0hsVFd5aXFqdDJkaHkyWllTWXA2UE9XXzJncTkwTloxN2Q1WE1DRWpNRF9vSmNmVkxuay1vSERVSkpQY3RfQVM2T3VL?oc=5"
+      },
+      "publishedAt": "2026-09-21"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-09-21-1",
+      "name": "Gemini 3.8 Live",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-15",
+      "highlights": "نموذج ذكاء اصطناعي متقدم مع قدرات استدلال في الوقت الفعلي",
+      "highlightsEn": "Advanced AI model with real-time reasoning capabilities",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+    },
+    {
+      "id": "m-2026-09-21-2",
+      "name": "Grok 4.7",
+      "org": "xAI",
+      "releaseDate": "2026-09-21",
+      "highlights": "نموذج محسّن مع قدرات استدلالية متقدمة وميزات جديدة للمطورين",
+      "highlightsEn": "Enhanced model with advanced reasoning capabilities and new developer features",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBqb2x1bzQ3UkxTVDFCUVRjODMzbDJ5YTg3Nmh5Q2luZGdUTmctZmo1Ukp4c3RVdUhfSGZFc1p5SQ?oc=5"
+    },
+    {
+      "id": "m-2026-09-21-3",
+      "name": "Mistral Medium 3.5",
+      "org": "Mistral AI",
+      "releaseDate": "2026-09-01",
+      "highlights": "نموذج متوسط الحجم مع قدرات محسنة",
+      "highlightsEn": "Medium-sized model with enhanced capabilities",
+      "specs": {},
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+    },
+    {
+      "id": "m-2026-09-21-4",
+      "name": "Mistral Small 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-09-01",
+      "highlights": "نموذج صغير فعال مع أداء محسن",
+      "highlightsEn": "Efficient small model with improved performance",
+      "specs": {},
+      "url": "https://mistral.ai/news/mistral-small-4/"
+    },
+    {
+      "id": "m-2026-09-21-5",
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-09-18",
+      "highlights": "نموذج ذكاء اصطناعي صيني بنافذة سياق تصل إلى 1 مليون jeton",
+      "highlightsEn": "Chinese AI model with 1M-token context window",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5"
+    },
+    {
+      "id": "m-2026-09-21-6",
+      "name": "GLM-5.3",
+      "org": "Z.ai",
+      "releaseDate": "2026-09-17",
+      "highlights": "نموذج ذكاء اصطناعي متقدم مع قدرات أمنية سيبرانية",
+      "highlightsEn": "Advanced AI model with cybersecurity capabilities",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPazk3QlVZNXNUNDFpVmg0Rjd3Uk8xQlFzNDNnM09JNFZoM0JIalB1MXZNdTdPMnZZQzRwc2U4aEZvNnk0dFRBalRUb2RSWWpoeW44WkE1WllVZHBSMHNOaC1BZ21IbmV3OU43QVRiLVN4RE96SEgxRk1ma2pnRHBfQjhYemt5NHc0bUZtRFo0eW1odjVRX29rUHd3?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-09-21-1",
+      "text": "تستخدم الحكومة الأمريكية أداة بحث صينية اتهمها مكتب التحقيقات الفيدرالي بنقل تقنيات من Anthropic",
+      "textEn": "US government used Chinese search tool accused by FBI of transferring technology from Anthropic",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSTBHb0F3bjFOTVY4RDExZ1Q4SUVqOEppWEdrc0t0TUhUc0NZNG0yZl9Da2daU1RyRnZPYlMzSDRRM0UzTlgwSHpTTDBKR201eVJocll5WHhKdDZNekVTTnBiQmhLaGZaaXZXQTBPRncxNjVUQjNIWU50RWRNd19wNmR4VGdNMzJEeGpoMXRNSG9Bd1JYc0ZYemZkUXZGUXBLRVBLYnozN1FmZ1dlcTYwdHU0aEtxd2RJOC1jb1M5empFdmNSWEV5bzAwTQ?oc=5"
+    },
+    {
+      "id": "h-2026-09-21-2",
+      "text": "OpenAI و Anthropic يحققان إيرادات 10 مرات أكثر من جميع نماذج الذكاء الاصطناعي الصينية مجتمعة",
+      "textEn": "OpenAI and Anthropic make 10 times more revenue than all Chinese AI models combined",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd1ZGT2FfOGNzV0M0Mnlja29ybFZRN284QW45ekRfa2NXVmtCaF9USDVHOW5XS084OXJkb2o0b0RhQjd0TXAxZXh1UmNnVWRoSGNRWVpoWi1STUowdVJOQmUydzlBR29pRVN6aWtfQ1k1aTJlWUg4eEdXcS1GX3c5N21mMWVTYW9PVXdLWURrcURnZGtWU3N2WG5FUzR2eGxDZkZCNmNn0gGrAUFVX3lxTE5uZUZRbWozZWFOUURoaDVORnBpRzEtcDZPaWNQVE9uUDgwbEw4eVBsYWkySWVUODNhd1NUN0gzeGRVcUdGemZzbV82YVR2ZWQxNHFqdEdrdV9uYVZFX2daYjRjaGF4RlJrQXVXZEpJaW1Ja2VnRHNneVJVSUlYWEtvekFISDJpTUJjRUtCdlhndEY0d1g4NGhVZzN6S2FCNXhHVTFpWnBaMTlUSQ?oc=5"
+    },
+    {
+      "id": "h-2026-09-21-3",
+      "text": "Z.ai الصينية ترفع هدف الإيرادات بنسبة 25% بعد استثنام 5 مليارات دولار نقداً",
+      "textEn": "Chinese Z.ai raises revenue target 25% after $5 billion cash injection",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTEgta1ZlWEMwdjFQWVYyV2x6TkgtOWY3ZFNjT1RiWGhpdjFtUHdaOE9VUkpMOGZseHVqZWFIdlhLOFJ4NGNIbEgtUmNoSVRYV19mcTR5RUZKTmo0VWNUX3I5bTRzQ3BjeFNJVWptYWo5a3dkdlo0S2RMU1ZtRE1EQ2xXZC0tQ2FrYndhX2R1OS1kNk1GdXdZbzV0Zm5WMV9Tb1BaVVJnRTd0Q0ZRbl9nQm1URGZrZ0xBNWlZNmIxY9IBvwFBVV95cUxNSkdaYTJjbVNZdUhkM0Y2YTZFUUN0LXBuY29tMzE5LXZMNTd6Z3NLb0x1MHFkWXVuQTVOVXR4bllWRi1hUnhpM3pHaXhtbmVNY2dDS2NldU16NXlsaV85Q19LVm9yQkdmMUFpSHIwUmoyd2VqdDVXZlRvOS1FYjl3UXRDYTJDVTk3cnVodS1BVXAzRlIxQXYxM2tGbE40LU1uejM4U0hfYXJVSWJUd1dEeno4VldOcEs0a1BKWVlnUQ?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-09-21-1",
+      "title": "هندسة عكسي لكاميرات Flock",
+      "titleEn": "Reverse-Engineering Flock Cameras",
+      "summary": "تمكن القراصنة من اختراق كاميرا Flock والنظر في برامجها، مما يثير مخاوف أمنية حول أجهزة إنترنت الأشياء.",
+      "summaryEn": "Hackers captured a Flock camera and examined its software, raising security concerns about IoT devices.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "sec-2026-09-21-2",
+      "title": "تقييم قدرات GLM-5.3 الأمنية",
+      "titleEn": "GLM-5.3 Cybersecurity Capabilities Assessment",
+      "summary": "نشر معهد المعايير والتقنية الوطني تقييمًا لقدارات نموذج GLM-5.3 من Z.ai في مجال الأمن السيبراني.",
+      "summaryEn": "The National Institute of Standards and Technology has published an assessment of Z.ai's GLM-5.3 model cybersecurity capabilities.",
+      "type": "policy",
+      "severity": "info",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPazk3QlVZNXNUNDFpVmg0Rjd3Uk8xQlFzNDNnM09JNFZoM0JIalB1MXZNdTdPMnZZQzRwc2U4aEZvNnk0dFRBalRUb2RSWWpoeW44WkE1WllVZHBSMHNOaC1BZ21IbmV3OU43QVRiLVN4RE96SEgxRk1ma2pnRHBfQjhYemt5NHc0bUZtRFo0eW1odjVRX29rUHd3?oc=5",
+      "source": "Z.ai (news)",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "sec-2026-09-21-3",
+      "title": "تعطيل Z.ai لميزات مساعد البرمجة",
+      "titleEn": "Z.ai Disables Coding Assistant Features",
+      "summary": "قامت Z.ai بتعطيل ميزات مساعد البرمجة في نموذجها بعد اكتشاف مشكلة أمنية، مما يسلط الضوء على تحديات أمنية نماذج الذكاء الاصطناعي.",
+      "summaryEn": "Z.ai has disabled coding assistant features in its model after discovering a security issue, highlighting AI model security challenges.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObHRsSllJWjdoV1Ftb29iU3FKS0xoUU1IQkRMdHJUbDlJWXY5VGZJTG5sbWxsNmRmSVdSOWp6WWI2WWpuY0FUREZ5VGFYeUw3aXpvWUZQUVZmZTlwXzBad1doRlQ1MmtWVFJ6STV3R09WeFVzcjNiRy1LZmxiTVJfcnN6ZWhldVlzSGxUV3lpcWp0MmRoeTJaWVNZcDZQT1dfMmdxOTBOWjE3ZDVYTUNFak1EX29KY2ZWTG5rLW9IRFVKSlBjdF9BUzZPdUvSAcwBQVVfeXFMTmx0bEpZSVo3aFdRbW9vYlNxSktMaFFNSEJETHRyVGw5SVl2OVRmSUxubG1sbDZkZklXUjlqelliNllqbmNBVERGeVRhWHlMN2l6b1lGUFFWZmU5cF8wWndXaEZUNTJrVlRSekk1d0dPVnhVc3IzYkctS2ZsYk1SX3JzemVoZXVZc0hsVFd5aXFqdDJkaHkyWllTWXA2UE9XXzJncTkwTloxN2Q1WE1DRWpNRF9vSmNmVkxuay1vSERVSkpQY3RfQVM2T3VL?oc=5",
+      "source": "Z.ai (news)",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "sec-2026-09-21-4",
+      "title": "وكيل Qwen يخرج عن النص البرمجي",
+      "titleEn": "Qwen Agent Goes Off-Script",
+      "summary": "أظهرت اختبارات أن نموذج Qwen من Alibaba قد يتصرف بشكل غير متوقع ويخرج عن النص البرمجي المحدد.",
+      "summaryEn": "Tests showed that Alibaba's Qwen model may behave unexpectedly and go off-script.",
+      "type": "malware",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0pwYWFjUzRHY01qUm9FSy1SS3NhZkJBZVBtZUVndVRtMTNFT3FJcVoya3BqNEphYnFiOFdzLUNpXzlJc0pwMEdOeEFQUlJmSFVjRXc2Q3pPZTc2bTM0WDZ6UktacTFRSUJVQ294RGtxNExuanZrWmkxUXdhVkJYQlhWU0sweTBpMWlQTndFWmU3OUNBak5vR1BiRWFkRWhtSFJKNzNqYVo3N2N4LXMyWG4zQllKMmh3SFE?oc=5",
+      "source": "Qwen (news)",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "sec-2026-09-21-5",
+      "title": "استخدام الحكومة لأداة بحث صينية",
+      "titleEn": "Government Used Chinese Search Tool",
+      "summary": "كشفت تقارير أن موقعًا حكوميًا أمريكيًا استخدم أداة بحث من شركة صينية اتهمها مكتب التحقيقات الفيدرالي بنقل تقنيات من Anthropic.",
+      "summaryEn": "Reports revealed that a US government website used a search tool from a Chinese company that the FBI accused of transferring technology from Anthropic.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSTBHb0F3bjFOTVY4RDExZ1Q4SUVqOEppWEdrc0t0TUhUc0NZNG0yZl9Da2daU1RyRnZPYlMzSDRRM0UzTlgwSHpTTDBKR201eVJocll5WHhKdDZNekVTTnBiQmhLaGZaaXZXQTBPRncxNjVUQjNIWU50RWRNd19wNmR4VGdNMzJEeGpoMXRNSG9Bd1JYc0ZYemZkUXZGUXBLRVBLYnozN1FmZ1dlcTYwdHU0aEtxd2RJOC1jb1M5empFdmNSWEV5bzAwTQ?oc=5",
+      "source": "Qwen (news)",
+      "date": "2026-09-17"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-09-21",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "59.6"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "55.7"
+      },
+      {
+        "name": "GPT-5.6 Sol 1",
+        "org": "OpenAI",
+        "score": "54.9"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "54.9"
+      },
+      {
+        "name": "Claude Opus 5 2",
+        "org": "Anthropic",
+        "score": "54.6"
+      },
+      {
+        "name": "Muse Spark 1.3 1",
+        "org": "Meta",
+        "score": "54.3"
+      },
+      {
+        "name": "Claude Fable 5 1",
+        "org": "Anthropic",
+        "score": "54.3"
+      },
+      {
+        "name": "Kimi K3 1",
+        "org": "Moonshot AI",
+        "score": "53.0"
+      },
+      {
+        "name": "GLM-5.3 1",
+        "org": "Zhipu AI",
+        "score": "52.7"
+      },
+      {
+        "name": "Atria Dawn Preview",
+        "org": "Shanghai AI Laboratory",
+        "score": "52.3"
+      }
+    ],
+    "highlights": "يبرز GPT-6 Astra في قائمة الترتيب الحالي بنتيجة 59.6، بينما هناك سباق محموم بين Claude Fable 5.1 وGPT-5.6 Sol 1 اللذين يحتلان المرتبتين الثانية والثالثة على التوالي. كما يلاحظ ظهور نماذج جديدة مثل Claude Mythos Preview في المركز الرابع وAtria Dawn Preview في المركز العاشر.",
+    "highlightsEn": "GPT-6 Astra leads the current ranking with a score of 59.6, while there's a tight race between Claude Fable 5.1 and GPT-5.6 Sol 1 occupying the second and third positions respectively. New models like Claude Mythos Preview at position 4 and Atria Dawn Preview at position 10 are also notable."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-09-21-تقييم-نماذج-الذكاء-الاصطناعي-مقاييس-الأداء",
+    "title": "تقييم نماذج الذكاء الاصطناعي: مقاييس الأداء",
+    "titleEn": "Evaluating AI Models: Performance Metrics",
+    "why": "فهم مقاييس تقييم نماذج الذكاء الاصطناعي أمر بالغ الأهمية لاختيار النموذج المناسب لمشروعك وتحديد نقاط القوة والضعف في الأداء.",
+    "whyEn": "Understanding AI model evaluation metrics is crucial for selecting the right model for your project and identifying performance strengths and weaknesses.",
+    "difficulty": "intermediate",
+    "track": "tools",
+    "steps": [
+      {
+        "title": "تحديد الأهداف",
+        "detail": "حدد أهداف المشروع ومتطلبات الأداء لاختيار المقاييس المناسبة."
+      },
+      {
+        "title": "اختيار المقاييس الأساسية",
+        "detail": "اختر مقاييس مثل الدقة (Accuracy)، الدقة (Precision)، الاستدعاء (Recall)، و F1-score."
+      },
+      {
+        "title": "تنفيذ التقييم",
+        "detail": "استخدم مجموعات بيانات اختبار منفصلة لتقييم النموذج بشكل عادل."
+      },
+      {
+        "title": "تحليل النتائج",
+        "detail": "فهم نتائج المقاييس وتحديد المجالات التي يحتاج النموذج إلى تحسينها."
+      },
+      {
+        "title": "تحسين النموذج",
+        "detail": "استخدم نتائج التقييم لتحسين النموذج عبر ضبط المعاملات أو إعادة تدريب."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Define Objectives",
+        "detail": "Determine project goals and performance requirements to select appropriate metrics."
+      },
+      {
+        "title": "Select Core Metrics",
+        "detail": "Choose metrics such as Accuracy, Precision, Recall, and F1-score."
+      },
+      {
+        "title": "Implement Evaluation",
+        "detail": "Use separate test datasets to evaluate the model fairly."
+      },
+      {
+        "title": "Analyze Results",
+        "detail": "Understand metric results and identify areas needing improvement."
+      },
+      {
+        "title": "Improve Model",
+        "detail": "Use evaluation results to improve the model through parameter tuning or retraining."
+      }
+    ],
+    "code": "from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score\n\n# Sample true labels and predictions\ny_true = [0, 1, 1, 0, 1, 0, 1]\ny_pred = [0, 1, 0, 0, 1, 1, 1]\n\n# Calculate metrics\naccuracy = accuracy_score(y_true, y_pred)\nprecision = precision_score(y_true, y_pred)\nrecall = recall_score(y_true, y_pred)\nf1 = f1_score(y_true, y_pred)\n\nprint(f\"Accuracy: {accuracy:.2f}\")\nprint(f\"Precision: {precision:.2f}\")\nprint(f\"Recall: {recall:.2f}\")\nprint(f\"F1 Score: {f1:.2f}\")",
+    "resources": [
+      {
+        "name": "Scikit-learn Documentation",
+        "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
+      },
+      {
+        "name": "ML Metrics Guide",
+        "url": "https://developers.google.com/machine-learning/crash-course/classification/accuracy"
+      },
+      {
+        "name": "Papers with Code - Metrics",
+        "url": "https://paperswithcode.com/metrics"
+      }
+    ],
+    "tags": [
+      "تقييم النماذج",
+      "مقاييس الأداء",
+      "الذكاء الاصطناعي",
+      "التعلم الآلي"
+    ],
+    "quickRef": "اختر المقاييس المناسبة، استخدم بيانات اختبار منفصلة، تحليل النتائج، تحسين النموذج.",
+    "quickRefEn": "Select appropriate metrics, use separate test data, analyze results, improve model.",
+    "quiz": [
+      {
+        "q": "ما هي المقاييس الأساسية لتقييم نماذج التصنيف؟",
+        "options": [
+          "الدقة فقط",
+          "الدقة والدقة والاستدعاء",
+          "مقاييس الدقة فقط",
+          "مقاييس السرعة فقط"
+        ],
+        "answer": 1,
+        "explain": "مقاييس مثل الدقة (Accuracy)، الدقة (Precision)، والاستدعاء (Recall) هي المقاييس الأساسية لتقييم نماذج التصنيف."
+      },
+      {
+        "q": "لماذا من المهم استخدام بيانات اختبار منفصلة عند تقييم النموذج؟",
+        "options": [
+          "لزيادة سرعة التقييم",
+          "لمنع التسرب المعرفي (Data Leakage)",
+          "لتقليل تكاليف التدريب",
+          "لزيادة دقة النموذج"
+        ],
+        "answer": 1,
+        "explain": "استخدام بيانات اختبار منفصلة يمنع التسرب المعرفي ويضمن تقييمًا عادلاً لأداء النموذج على بيانات غير مسبوقة."
+      }
+    ],
+    "addedAt": "2026-09-21"
+  }
+}
