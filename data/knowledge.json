@@ -1,6 +1,114 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-23-تحسين-أداء-النماذج-باستخدام-تقنيات-الـ-ensemble",
+      "title": "تحسين أداء النماذج باستخدام تقنيات الـ Ensemble",
+      "titleEn": "Improving Model Performance Using Ensemble Techniques",
+      "why": "تساعد تقنيات الـ Ensemble على زيادة دقة النماذج وتقليل الأخطاء من خلال دمج نتائج عدة نماذج، مما يوفر حلولاً أكثر استقراراً وموثوقية من النماذج الفردية.",
+      "whyEn": "Ensemble techniques help improve model accuracy and reduce errors by combining results from multiple models, providing more stable and reliable solutions than individual models.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "اختيار نماذج متنوعة",
+          "detail": "اختر نماذج مختلفة في طريقة عملها أو خوارزمياتها (مثل شجرة القرار، الانحدار، SVM) لضمان تنوع في وجهات النظر."
+        },
+        {
+          "title": "تدريب كل نموذج على البيانات",
+          "detail": "قم بتدريب كل نموذج بشكل منفصل على نفس مجموعة البيانات، مع التأكد من استخدام نفس تقسيم البيانات للتقييم العادل."
+        },
+        {
+          "title": "دمج النتائج باستخدام استراتيجية Ensemble",
+          "detail": "اختر استراتيجية دمج مناسبة مثل التصويت (Voting) للمهام التصنيفية أو المتوسط (Averaging) للمهام الانحدارية."
+        },
+        {
+          "title": "تقييم أداء النموذج المدمج",
+          "detail": "قم بتقييم أداء النموذج المدمج باستخدام مقاييس مناسبة لمهمتك وقارنه بالأداء الفردي للنماذج."
+        },
+        {
+          "title": "ضبط المعلمات لتحسين الأداء",
+          "detail": "قم بضبط معلمات النماذج الفردية واستراتيجية الـ Ensemble لتحقيق أفضل أداء ممكن."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select diverse models",
+          "detail": "Choose models that differ in their approach or algorithms (like decision trees, regression, SVM) to ensure diversity in perspectives."
+        },
+        {
+          "title": "Train each model on the data",
+          "detail": "Train each model separately on the same dataset, ensuring you use the same data split for fair evaluation."
+        },
+        {
+          "title": "Combine results using an ensemble strategy",
+          "detail": "Choose an appropriate combination strategy like Voting for classification tasks or Averaging for regression tasks."
+        },
+        {
+          "title": "Evaluate the combined model performance",
+          "detail": "Evaluate the performance of the combined model using metrics suitable for your task and compare it to individual model performance."
+        },
+        {
+          "title": "Tune parameters to improve performance",
+          "detail": "Tune parameters of individual models and the ensemble strategy to achieve the best possible performance."
+        }
+      ],
+      "code": "from sklearn.ensemble import VotingClassifier\nfrom sklearn.tree import DecisionTreeClassifier\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.svm import SVC\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score\n\n# Sample data\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Create individual models\ndt = DecisionTreeClassifier()\nlr = LogisticRegression()\nsvm = SVC(probability=True)\n\n# Create ensemble model\nensemble = VotingClassifier(\n    estimators=[('dt', dt), ('lr', lr), ('svm', svm)],\n    voting='soft'\n)\n\n# Train and evaluate\nensemble.fit(X_train, y_train)\ny_pred = ensemble.predict(X_test)\nprint(f'Ensemble Accuracy: {accuracy_score(y_test, y_pred)}')",
+      "resources": [
+        {
+          "name": "Scikit-learn Ensemble Documentation",
+          "url": "https://scikit-learn.org/stable/modules/ensemble.html"
+        },
+        {
+          "name": "Ensemble Methods in Machine Learning",
+          "url": "https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ea9d1f470c"
+        }
+      ],
+      "tags": [
+        "Ensemble Learning",
+        "تجميع النماذج",
+        "تحسين الأداء",
+        "تعلم الآلة المتقدم"
+      ],
+      "quickRef": "تحسين أداء النماذج باستخدام تقنيات الـ Ensemble: اختيار نماذج متنوعة، تدريبها، دمج النتائج، تقييم الأداء، وضبط المعلمات.",
+      "quickRefEn": "Improving Model Performance Using Ensemble Techniques: Select diverse models, train them, combine results, evaluate performance, and tune parameters.",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من استخدام تقنيات الـ Ensemble في تعلم الآلة؟",
+          "options": [
+            "تقليل عدد النماذج المستخدمة",
+            "زيادة دقة النماذج وتقليل الأخطاء",
+            "تقليل وقت التدريب",
+            "زيادة تعقيد النموذج"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من استخدام تقنيات الـ Ensemble هو زيادة دقة النماذج وتقليل الأخطاء من خلال دمج نتائج عدة نماذج."
+        },
+        {
+          "q": "ما هي الاستراتيجية الأكثر شيوعاً لدمج النتائج في مهام التصنيف؟",
+          "options": [
+            "المتوسط الحسابي",
+            "التصويت (Voting)",
+            "التصويت بالأغلبية",
+            "التصويت بالثقة"
+          ],
+          "answer": 2,
+          "explain": "التصويت بالأغلبية هو الاستراتيجية الأكثر شيوعاً لدمج النتائج في مهام التصنيف، حيث يتم اختيار الفئة التي صوتت لها الأغلبية من النماذج."
+        },
+        {
+          "q": "لماذا يعتبر تنوع النماذج في تقنيات الـ Ensemble مهم؟",
+          "options": [
+            "لزيادة سرعة التدريب",
+            "لضمان تنوع في الأخطاء وتقليل احتمالية الخطأ المشترك",
+            "لتبسيط النموذج",
+            "لزيادة عدد المعلمات"
+          ],
+          "answer": 1,
+          "explain": "التنوع في النماذج مهم لأنه يضمن تنوع في الأخطاء، مما يقلل من احتمالية أن يرتكب جميع النماذج نفس الخطأ في نفس الوقت."
+        }
+      ],
+      "addedAt": "2026-09-23"
+    },
+    {
       "id": "k-2026-09-22-تحسين-النماذج-باستخدام-تقنيات-الـ-rag",
       "title": "تحسين النماذج باستخدام تقنيات الـ RAG",
       "titleEn": "Improving Models Using RAG Techniques",

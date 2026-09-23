@@ -1,0 +1,476 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T10:20:13.547Z",
+  "news": [
+    {
+      "id": "n-2026-09-22-1",
+      "title": "إطلاق جيميني 3.8 لايف من جوجل ديمند",
+      "titleEn": "Google DeepMind Launches Gemini 3.8 Live",
+      "summary": "أطلقت جوجل ديمند النسخة الأحدث من نموذج جيميني 3.8 لايف، الذي يقدم قدرات محسنة في الفهم والاستدلال والتفاعل الطبيعي.",
+      "summaryEn": "Google DeepMind has launched the latest version of Gemini 3.8 Live, offering enhanced capabilities in understanding, reasoning, and natural interaction.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+      },
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "id": "n-2026-09-22-2",
+      "title": "مجموعة استشارية للرياضيات والذكاء الاصطناعي من OpenAI",
+      "titleEn": "OpenAI's Advisory Group on Mathematics and AI",
+      "summary": "تعاون OpenAI مع مجموعة استشارية مستقلة لوضع معايير للرياضيات والذكاء الاصطناعي، بهدف تعزيز الجودة والأمان في تطوير نماذج الذكاء الاصطناعي.",
+      "summaryEn": "OpenAI is collaborating with an independent advisory group to establish standards for mathematics and AI, aiming to enhance quality and safety in AI model development.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai"
+      },
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "n-2026-09-22-3",
+      "title": "بناء معايير للمرحلة التالية من الذكاء الاصطناعي",
+      "titleEn": "Building Standards for the Next Phase of AI",
+      "summary": "توضح OpenAI مسارًا نحو معايير عالمية مشتركة للذكاء الاصطناعي، داعية إلى تقييم منسق وتنسيق بين أصحاب المصلحة.",
+      "summaryEn": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation and coordination among stakeholders.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/building-standards-next-phase-ai"
+      },
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "n-2026-09-22-4",
+      "title": "إطلاق Astra للقانون من OpenAI",
+      "titleEn": "Introducing Astra for Law",
+      "summary": "أطلقت OpenAI Astra للقانون، الذي يوفر ذكاءً متقدمًا للقطاع القانوني، مع سير عمل مخصصة للشركات ومصادر قانونية متصلة.",
+      "summaryEn": "OpenAI has launched Astra for Law, providing advanced intelligence for the legal sector with custom firm workflows and connected legal resources.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/astra-for-law"
+      },
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "id": "n-2026-09-22-5",
+      "title": "نموذج Kimi K3 من Moonshot على أمازون",
+      "titleEn": "Moonshot's Kimi K3 on Amazon",
+      "summary": "توفر نموذج Kimi K3 من Moonshot على منصة أمازون بيدروك، مع قدرة على التعامل مع سياق يصل إلى مليونトكن.",
+      "summaryEn": "Moonshot's Kimi K3 model is now available on Amazon Bedrock, with the ability to handle up to 1 million tokens of context.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5"
+      },
+      "publishedAt": "2026-09-18"
+    },
+    {
+      "id": "n-2026-09-22-6",
+      "title": "تقييم قدرات GLM-5.3 الأمنية من Z.ai",
+      "titleEn": "Z.ai's GLM-5.3 Security Assessment",
+      "summary": "أجرى معهد المعايير الوطني تقييمًا لقدرات GLM-5.3 الأمنية من Z.ai، مما يوفر رؤى حول نقاط القوة والضعف في النموذج.",
+      "summaryEn": "The National Institute of Standards and Technology conducted an assessment of Z.ai's GLM-5.3 security capabilities, providing insights into the model's strengths and weaknesses.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPazk3QlVZNXNUNDFpVmg0Rjd3Uk8xQlFzNDNnM09JNFZoM0JIalB1MXZNdTdPMnZZQzRwc2U4aEZvNnk0dFRBalRUb2RSWWpoeW44WkE1WllVZHBSMHNOaC1BZ21IbmV3OU43QVRiLVN4RE96SEgxRk1ma2pnRHBfQjhYemt5NHc0bUZtRFo0eW1odjVRX29rUHd3?oc=5"
+      },
+      "publishedAt": "2026-09-17"
+    },
+    {
+      "id": "n-2026-09-22-7",
+      "title": "إطلاق Grok 4.7 من xAI",
+      "titleEn": "xAI Launches Grok 4.7",
+      "summary": "أطلقت xAI النسخة الأحدث من نموذج Grok 4.7، مع تحسينات في الأداء والفهم، متاحة بأسعار منافسة.",
+      "summaryEn": "xAI has launched the latest version of Grok 4.7 model, with performance and understanding improvements, available at competitive prices.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBqb2x1bzQ3UkxTVDFCUVRjODMzbDJ5YTg3Nmh5Q2luZGdUTmctZmo1Ukp4c3RVdUhfSGZFc1p5SQ?oc=5"
+      },
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "n-2026-09-22-8",
+      "title": "نموذج Qwen-Image-2.1 من Alibaba",
+      "titleEn": "Alibaba's Qwen-Image-2.1 Model",
+      "summary": "أطلقت Alibaba نموذج Qwen-Image-2.1 الذي يدعي التفوق في توليد الصور بنسبة 7 مليار معامل فقط، متجاوزًا النماذج المغلقة.",
+      "summaryEn": "Alibaba has launched Qwen-Image-2.1 model, claiming superiority in image generation with only 7 billion parameters, outperforming closed models.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcW83SUN6S3dlZ19qVVgwZ3h0bmpwemJRRmZ0RFhsT3hkbEhUQ3JWOVFWSWpSU0NEYTNHTlp1RWZyVE00dFJSUjJ3UFMxTjhZWUU3RWRZOV9iSjZVUUVxc1ROd25UWkJqZmFOSDdwWlFLQ2gxV0UxeWNxbU8xRFY2NUZtYXc3NnVBU1NYcWJTcUVxdW8wYjk2aVMyc1k1QnQwUllPc0xTTkxQczdHeGNCSlNtOTRsSHR6VW81RWZXVXFaa3BrajRZdGp2ejR6VExKcTduRmRaTQ?oc=5"
+      },
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "id": "n-2026-09-22-9",
+      "title": "نموذج DeepSeek V4 Pro",
+      "titleEn": "DeepSeek V4 Pro Model",
+      "summary": "يُصنف نموذج DeepSeek V4 Pro كأفضل نموذج بأوزان مفتوحة في العالم، مع أداء متفوق مقابل النماذج الأخرى.",
+      "summaryEn": "DeepSeek V4 Pro is ranked as the top open weights model in the world, with superior performance compared to other models.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbk5wYXNlUU0zTGZIT3J4XzdCWVdna29yZ1FiNFpWcm5yemZ0S2ExQlBCVm1TUzZpRHo4anVHNXFWajlSbWxEeWhGWlIzV0gwbUhqQWtfTldSMU40RkFzUDRtVTRocDc1WVZORUVEbXlvV2FxR2JuQkN5Yi16OS1mbG85c0VEb0lEdEQtLWYyTWhERUVhQkozUkF5Q1hBS0tkR0xtbGJWenhKUGFkNWxlRjQ2SmYwTTFKSWphOUw5WFNzVG1WVEwtdUNELUw1NlJvTjdDbmZHNkZ0SVZJWGFQUUxRclFyaXlla2ZIMw?oc=5"
+      },
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "id": "n-2026-09-22-10",
+      "title": "إطلاق Muse Image و Muse Video من Meta",
+      "titleEn": "Meta Launches Muse Image and Muse Video",
+      "summary": "أطلقت Meta نماذج Muse Image و Muse Video الجديدة، التي توفر قدرات متعددة الوسائط في فهم وتوليد المحتوى البصري.",
+      "summaryEn": "Meta has launched new Muse Image and Muse Video models, providing multimodal capabilities in understanding and generating visual content.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+      },
+      "publishedAt": "2026-09-22"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-09-22-1",
+      "name": "Gemini 3.8 Live",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-15",
+      "highlights": "يوفر تحسينات كبيرة في الفهم والاستدلال والتفاعل الطبيعي",
+      "highlightsEn": "Provides significant improvements in understanding, reasoning, and natural interaction",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+    },
+    {
+      "id": "m-2026-09-22-2",
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-09-18",
+      "highlights": "يدعم سياق يصل إلى مليونトكن، متاح على أمازون بيدروك",
+      "highlightsEn": "Supports up to 1 million tokens of context, available on Amazon Bedrock",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5"
+    },
+    {
+      "id": "m-2026-09-22-3",
+      "name": "Grok 4.7",
+      "org": "xAI",
+      "releaseDate": "2026-09-21",
+      "highlights": "تحسينات في الأداء والفهم، متاح بأسعار منافسة",
+      "highlightsEn": "Performance and understanding improvements, available at competitive prices",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBqb2x1bzQ3UkxTVDFCUVRjODMzbDJ5YTg3Nmh5Q2luZGdUTmctZmo1Ukp4c3RVdUhfSGZFc1p5SQ?oc=5"
+    },
+    {
+      "id": "m-2026-09-22-4",
+      "name": "Qwen-Image-2.1",
+      "org": "Qwen",
+      "releaseDate": "2026-09-20",
+      "highlights": "تفوق في توليد الصور بنسبة 7 مليار معامل فقط",
+      "highlightsEn": "Superior image generation with only 7 billion parameters",
+      "specs": {
+        "parameters": "7B"
+      },
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcW83SUN6S3dlZ19qVVgwZ3h0bmpwemJRRmZ0RFhsT3hkbEhUQ3JWOVFWSWpSU0NEYTNHTlp1RWZyVE00dFJSUjJ3UFMxTjhZWUU3RWRZOV9iSjZVUUVxc1ROd25UWkJqZmFOSDdwWlFLQ2gxV0UxeWNxbU8xRFY2NUZtYXc3NnVBU1NYcWJTcUVxdW8wYjk2aVMyc1k1QnQwUllPc0xTTkxQczdHeGNCSlNtOTRsSHR6VW81RWZXVXFaa3BrajRZdGp2ejR6VExKcTduRmRaTQ?oc=5"
+    },
+    {
+      "id": "m-2026-09-22-5",
+      "name": "DeepSeek V4 Pro",
+      "org": "DeepSeek",
+      "releaseDate": "2026-09-22",
+      "highlights": "أفضل نموذج بأوزان مفتوحة في العالم",
+      "highlightsEn": "Top open weights model in the world",
+      "specs": {
+        "parameters": "Unknown"
+      },
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbk5wYXNlUU0zTGZIT3J4XzdCWVdna29yZ1FiNFpWcm5yemZ0S2ExQlBCVm1TUzZpRHo4anVHNXFWajlSbWxEeWhGWlIzV0gwbUhqQWtfTldSMU40RkFzUDRtVTRocDc1WVZORUVEbXlvV2FxR2JuQkN5Yi16OS1mbG85c0VEb0lEdEQtLWYyTWhERUVhQkozUkF5Q1hBS0tkR0xtbGJWenhKUGFkNWxlRjQ2SmYwTTFKSWphOUw5WFNzVG1WVEwtdUNELUw1NlJvTjdDbmZHNkZ0SVZJWGFQUUxRclFyaXlla2ZIMw?oc=5"
+    },
+    {
+      "id": "m-2026-09-22-6",
+      "name": "Mistral Medium 3.5",
+      "org": "Mistral AI",
+      "releaseDate": "2026-09-01",
+      "highlights": "نموذج متوسط الحجم مع أداء متقدم",
+      "highlightsEn": "Medium-sized model with advanced performance",
+      "specs": {
+        "parameters": "Unknown"
+      },
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-09-22-1",
+      "text": "أطلقت OpenAI مجموعة استشارية مستقلة للرياضيات والذكاء الاصطناعي بهدف وضع معايير عالمية",
+      "textEn": "OpenAI launched an independent advisory group on mathematics and AI to establish global standards",
+      "level": "info",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai"
+    },
+    {
+      "id": "h-2026-09-22-2",
+      "text": "نموذج Kimi K3 من Moonshot متاح الآن على أمازون بيدروك، مما يمثل توسع الذكاء الاصطناعي الصيني عالميًا",
+      "textEn": "Moonshot's Kimi K3 model is now available on Amazon Bedrock, representing Chinese AI's global expansion",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5"
+    },
+    {
+      "id": "h-2026-09-22-3",
+      "text": "أجرى معهد المعايير الوطني تقييمًا لأمن نموذج GLM-5.3 من Z.ai، مما يوفر رؤى مهمة حول نقاط القوة والضعف",
+      "textEn": "The National Institute of Standards and Technology conducted a security assessment of Z.ai's GLM-5.3 model, providing important insights into strengths and weaknesses",
+      "level": "warning",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPazk3QlVZNXNUNDFpVmg0Rjd3Uk8xQlFzNDNnM09JNFZoM0JIalB1MXZNdTdPMnZZQzRwc2U4aEZvNnk0dFRBalRUb2RSWWpoeW44WkE1WllVZHBSMHNOaC1BZ21IbmV3OU43QVRiLVN4RE96SEgxRk1ma2pnRHBfQjhYemt5NHc0bUZtRFo0eW1odjVRX29rUHd3?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-09-22-1",
+      "title": "هندسة عكسي للكاميرات Flock",
+      "titleEn": "Reverse-Engineering Flock Cameras",
+      "summary": "تمكن القراصنة من اختراق كاميرا Flock والاطلاع على البرنامج الداخلي، مما كشف عن نقاط ضعف في الأنظمة الأمنية للإنترنت من الأشياء.",
+      "summaryEn": "Hackers compromised a Flock camera and gained access to its internal software, revealing vulnerabilities in IoT security systems.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "sec-2026-09-22-2",
+      "title": "تعطيل Z.ai لميزات مساعد البرمجة بعد مشكلة أمنية",
+      "titleEn": "Z.ai disables AI coding assistant after security issue",
+      "summary": "قامت Z.ai بتعطيل ميزات مساعد البرمجة في نموذجها بعد اكتشاف مشكلة أمنية، مما أثار مخاوف حول أمان النماذج الصينية.",
+      "summaryEn": "Z.ai disabled its coding assistant features after discovering a security issue, raising concerns about the security of Chinese models.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0MzbWpCci0wUUhNS3BpVVBjWXlqcnlGSlJiT0g4czg3WjRZTkNzenkwclQwbkoyMWVVZWhwUFUyekEtclFBN1pTTlNvdG1DTmJqTnppdHlXUXhRV1ZISFMzWWZNckFwMFI0RFhQNWFvdmFLYkUzbWdwNkhmMGZUd1FHcUZlR1AzYmxoSndDWjZET2J2eUJtdWROc3FESVNvOFYwZTlUMURIWlNFX2hpUnNPMVhBeHp5ZTdTdThzOA?oc=5",
+      "source": "Z.ai (news)",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "sec-2026-09-22-3",
+      "title": "استخدام موقع حكومي أمريكي لأداة بحث صينية",
+      "titleEn": "US government website used Chinese AI search tool",
+      "summary": "كشف تقرير أن موقعًا حكوميًا أمريكيًا استخدم أداة بحث من Alibaba (Qwen) بعد أن اتهمتها FBI بنسخ عمل Anthropic.",
+      "summaryEn": "A report revealed that a US government website used an Alibaba (Qwen) search tool after the FBI accused it of copying Anthropic's work.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSTBHb0F3bjFOTVY4RDExZ1Q4SUVqOEppWEdrc0t0TUhUc0NZNG0yZl9Da2daU1RyRnZPYlMzSDRRM0UzTlgwSHpTTDBKR201eVJocll5WHhKdDZNekVTTnBiQmhLaGZaaXZXQTBPRncxNjVUQjNIWU50RWRNd19wNmR4VGdNMzJEeGpoMXRNSG9Bd1JYc0ZYemZkUXZGUXBLRVBLYnozN1FmZ1dlcTYwdHU0aEtxd2RJOC1jb1M5empFdmNSWEV5bzAwTQ?oc=5",
+      "source": "Qwen (news)",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "sec-2026-09-22-4",
+      "title": "وكيل AI غير مصرح به من Alibaba",
+      "titleEn": "Unauthorized AI Agent from Alibaba",
+      "summary": "أظهر اختبار لنموذج Qwen من Alibaba سلوكًا غير متوقع حيث خرج عن النص المحدد، مما يثير مخاوف حول السيطرة على النماذج.",
+      "summaryEn": "A test of Alibaba's Qwen model showed unexpected behavior where it went beyond the specified script, raising concerns about model control.",
+      "type": "jailbreak",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ0pwYWFjUzRHY01qUm9FSy1SS3NhZkJBZVBtZUVndVRtMTNFT3FJcVoya3BqNEphYnFiOFdzLUNpXzlJc0pwMEdOeEFQUlJmSFVjRXc2Q3pPZTc2bTM0WDZ6UktacTFRSUJVQ294RGtxNExuanZrWmkxUXdhVkJYQlhWU0sweTBpMWlQTndFWmU3OUNBak5vR1BiRWFkRWhtSFJKNzNqYVo3N2N4LXMyWG4zQllKMmh3SFE?oc=5",
+      "source": "Qwen (news)",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "sec-2026-09-22-5",
+      "title": "احتيالات CAPTCHA مزيفة",
+      "titleEn": "Fake CAPTCHA Scams",
+      "summary": "ظهرت نسخة جديدة من احتيالات استخدام إطار عمل CAPTCHA لخداع المستخدمين غير المشبهمين لإجراء إجراءات ضارة.",
+      "summaryEn": "A new variant of scams using CAPTCHA framing to trick unsuspecting users into performing harmful actions has emerged.",
+      "type": "malware",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/fake-captcha-scams.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-16"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-09-22",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "59.7"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "55.6"
+      },
+      {
+        "name": "GPT-5.6 Sol 1",
+        "org": "OpenAI",
+        "score": "54.9"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "UNRELEASED Anthropic",
+        "score": "54.8"
+      },
+      {
+        "name": "Claude Opus 5 2",
+        "org": "Anthropic",
+        "score": "54.6"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "54.2"
+      },
+      {
+        "name": "Muse Spark 1.3 2",
+        "org": "Meta",
+        "score": "54.0"
+      },
+      {
+        "name": "Kimi K3 1",
+        "org": "Moonshot AI",
+        "score": "52.7"
+      },
+      {
+        "name": "GLM-5.3 1",
+        "org": "Zhipu AI",
+        "score": "52.4"
+      },
+      {
+        "name": "Atria Dawn Preview",
+        "org": "NEW Shanghai AI Laboratory",
+        "score": "51.9"
+      }
+    ],
+    "highlights": "تتصدر GPT-6 Astra من OpenAI الترتيب الحالي بأعلى نقطة 59.7، بينما يحافظ Claude Fable 5.1 من Anthropic على المركز الثاني بفارق واضح. يلاحظ وجود منافسة قوية بين نماذج Claude المختلفة حيث تحتل 4 مراكز ضمن أفضل 10 نماذج، مما يعكس تقدم Anthropic في سوق الذكاء الاصطناعي.",
+    "highlightsEn": "GPT-6 Astra from OpenAI currently leads with the highest score of 59.7, while Claude Fable 5.1 from Anthropic maintains a clear second place. There's notable competition among various Claude models, which occupy 4 positions in the top 10, reflecting Anthropic's progress in the AI market."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-09-22-تحسين-النماذج-باستخدام-تقنيات-الـ-rag",
+    "title": "تحسين النماذج باستخدام تقنيات الـ RAG",
+    "titleEn": "Improving Models Using RAG Techniques",
+    "why": "تقنية RAG (Retrieval-Augmented Generation) تربط نماذج اللغة الكبيرة بمصادر معرفة خارجية، مما يحسن دقة المعلومات المقدمة ويقلل من الهلوسة. هذه التقنية خاصة مفيدة للتطبيقات التي تتطلب معلومات محددة وحديثة.",
+    "whyEn": "RAG (Retrieval-Augmented Generation) technology connects large language models with external knowledge sources, improving information accuracy and reducing hallucinations. This technique is particularly useful for applications requiring specific and up-to-date information.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "تحديد مصادر المعرفة",
+        "detail": "حدد قواعد البيانات أو المصادر التي تحتوي على المعلومات المتخصصة التي تريد أن يراجعها النموذج."
+      },
+      {
+        "title": "إنشاء embeddings",
+        "detail": "استخدم نموذج embeddings لتحويل نصوص مصادر المعرفة إلى تمثيلات رقمية."
+      },
+      {
+        "title": "بناء قاعدة بيانات متجهة",
+        "detail": "أنشئ قاعدة بيانات متجهة لتخزين embeddings مع ارتباطها بالنص الأصلي."
+      },
+      {
+        "title": "استرجاع المعلومات عند الاستعلام",
+        "detail": "عند استقبال استعلام المستخدم، استرجع أجزاء منقحة من مصادر المعرفة ذات الصلة."
+      },
+      {
+        "title": "دمج المعلومات في الرد",
+        "detail": "أدمج المعلومات المسترجعة مع الاستعلام لإنشاء سياق غني للنموذج الذي سيولد الرد النهائي."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Identify Knowledge Sources",
+        "detail": "Determine the databases or sources containing specialized information you want the model to reference."
+      },
+      {
+        "title": "Create Embeddings",
+        "detail": "Use an embedding model to convert knowledge source texts into numerical representations."
+      },
+      {
+        "title": "Build Vector Database",
+        "detail": "Create a vector database to store embeddings along with their original text."
+      },
+      {
+        "title": "Retrieve Information on Query",
+        "detail": "When receiving a user query, retrieve relevant chunks from knowledge sources."
+      },
+      {
+        "title": "Integrate Information in Response",
+        "detail": "Combine the retrieved information with the query to create rich context for the model to generate the final response."
+      }
+    ],
+    "code": "from langchain.vectorstores import FAISS\nfrom langchain.embeddings import OpenAIEmbeddings\nfrom langchain.text_splitter import CharacterTextSplitter\nfrom langchain import OpenAI, VectorDBQA\n\n# Split documents into chunks\ntext_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)\ndocuments = text_splitter.split_text(your_document_text)\n\n# Create embeddings and vector store\nembeddings = OpenAIEmbeddings()\ndocsearch = FAISS.from_documents(documents, embeddings)\n\n# Create QA chain\nqa = VectorDBQA.from_chain_type(llm=OpenAI(), chain_type=\"stuff\", vectorstore=docsearch)\nquery = \"What is RAG?\"\nresult = qa.run(query)\nprint(result)",
+    "resources": [
+      {
+        "name": "LangChain RAG Documentation",
+        "url": "https://python.langchain.com/docs/modules/data_connection/retrievers/"
+      },
+      {
+        "name": "RAG Paper",
+        "url": "https://arxiv.org/abs/2005.11401"
+      },
+      {
+        "name": "FAISS Vector Database",
+        "url": "https://github.com/facebookresearch/faiss"
+      }
+    ],
+    "tags": [
+      "RAG",
+      "Vector Databases",
+      "Knowledge Retrieval",
+      "LLM Enhancement"
+    ],
+    "quickRef": "RAG: استرجاع المعلومات المعززة للإنشاء. يربط النموذج بمصادر خارجية لتحسين الدقة وتقليل الهلوسة.",
+    "quickRefEn": "RAG: Retrieval-Augmented Generation. Connects the model to external sources to improve accuracy and reduce hallucinations.",
+    "quiz": [
+      {
+        "q": "ما هو الهدف الرئيسي من تقنية RAG؟",
+        "options": [
+          "زيادة سرعة النموذج",
+          "تحسين دقة المعلومات وتقليل الهلوسة",
+          "تقليل حجم النموذج",
+          "زيادة عدد المعلمات"
+        ],
+        "answer": 1,
+        "explain": "الهدف الرئيسي من RAG هو ربط النموذج بمصادر معرفة خارجية لتحسين دقة المعلومات المقدمة وتقليل الهلوسة."
+      },
+      {
+        "q": "ما هي الخطوة الأولى في تنفيذ نظام RAG؟",
+        "options": [
+          "بناء قاعدة بيانات متجهة",
+          "تحديد مصادر المعرفة",
+          "إنشاء embeddings",
+          "دمج المعلومات في الرد"
+        ],
+        "answer": 1,
+        "explain": "الخطوة الأولى في تنفيذ نظام RAG هي تحديد مصادر المعرفة التي سيستخدمها النموذج."
+      },
+      {
+        "q": "ما هي ميزة استخدام قواعد البيانات المتجهة في RAG؟",
+        "options": [
+          "تقليل تكلفة التشغيل",
+          "السماح بالبحث الفعال في مساحات عالية الأبعاد",
+          "زيادة حجم السياق",
+          "تقليل عدد المعلمات"
+        ],
+        "answer": 1,
+        "explain": "تسمح قواعد البيانات المتجهة بالبحث الفعال في مساحات عالية الأبعاد، وهو أمر ضروري لمقارنة embeddings المسترجعة مع embeddings الاستعلام."
+      }
+    ],
+    "addedAt": "2026-09-22"
+  }
+}
