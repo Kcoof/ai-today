@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-24-ضبط-النماذج-الصغيرة-لمهام-محددة",
+      "title": "ضبط النماذج الصغيرة لمهام محددة",
+      "titleEn": "Fine-tuning Small Models for Specific Tasks",
+      "why": "يساعد ضبط النماذج الصغيرة على تحقيق أداء أفضل المهام المحددة دون الحاجة إلى موارد حوسبة ضخمة، مما يجعلها مثالية للتطبيقات المتخصصة والعمل في بيئات محدودة الموارد.",
+      "whyEn": "Fine-tuning small models helps achieve better performance on specific tasks without requiring massive computational resources, making them ideal for specialized applications and working in resource-constrained environments.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد المهمة وجمع البيانات",
+          "detail": "حدد المهمة المحددة التي تريد تحسين النموذج لها، وقم بجمع مجموعة بيانات تدريبية عالية الجودة تتعلق بهذه المهمة. تأكد من أن البيانات متنوعة وتغطي جميع الحالات المتوقعة."
+        },
+        {
+          "title": "اخيار النموذج الأساسي",
+          "detail": "اختر نموذجًا صغيرًا مناسبًا كنقطة انطلاق. النماذج مثل DistilBERT, TinyBERT, أو MobileBERT هي خيارات جيدة بسبب حجمها الصغير وقدرتها على التدريب السريع."
+        },
+        {
+          "title": "إعداد البيانات للتدريب",
+          "detail": "قم بمعالجة البيانات وتنسيقها بشكل مناسب للنموذج الذي اخترته. قد يتضمن ذلك توحيد تنسيق النص، تقسيم البيانات إلى مجموعات تدريب واختبار، وتطبيق تقنيات مثل التضمين (tokenization) المناسبة."
+        },
+        {
+          "title": "إجراء عملية الضبط",
+          "detail": "استخدم مكتبات مثل Hugging Face Transformers أو PyTorch لإجراء عملية الضبط. قم بتشغيل عملية التدريب على مجموعة البيانات الخاصة بك، مع مراقبة مؤشرات الأداء مثل دقة التدريب والخسارة (loss)."
+        },
+        {
+          "title": "تقييم النموذج المضبوط",
+          "detail": "اختبر النموذج المضبوط على مجموعة بيانات اختبار لم تستخدمها أثناء التدريب. قم بتقييم الأداء باستخدام مقاييس مناسبة لمهمتك، مثل الدقة، الاستدعاء، أو F1-score."
+        },
+        {
+          "title": "تحسين النموذج النهائي",
+          "detail": "بناءً على نتائج التقييم، قم بإجراء تعديلات على النموذج مثل ضبط المعلمات (hyperparameter tuning)، أو إضافة المزيد من البيانات إذا لزم الأمر. قم بتخزين النموذج النهائي للاستخدام في التطبيق الخاص بك."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define the Task and Gather Data",
+          "detail": "Identify the specific task you want to improve the model for, and collect a high-quality training dataset related to this task. Ensure the data is diverse and covers all expected scenarios."
+        },
+        {
+          "title": "Choose the Base Model",
+          "detail": "Select a suitable small model as your starting point. Models like DistilBERT, TinyBERT, or MobileBERT are good choices due to their small size and fast training capabilities."
+        },
+        {
+          "title": "Prepare Data for Training",
+          "detail": "Process and format the data appropriately for your chosen model. This may include standardizing text format, splitting data into training and test sets, and applying appropriate techniques like tokenization."
+        },
+        {
+          "title": "Perform the Fine-tuning Process",
+          "detail": "Use libraries like Hugging Face Transformers or PyTorch to perform the fine-tuning. Run the training process on your dataset, monitoring performance metrics like training accuracy and loss."
+        },
+        {
+          "title": "Evaluate the Fine-tuned Model",
+          "detail": "Test the fine-tuned model on a test dataset not used during training. Evaluate performance using metrics appropriate for your task, such as accuracy, recall, or F1-score."
+        },
+        {
+          "title": "Refine the Final Model",
+          "detail": "Based on evaluation results, make adjustments to the model such as hyperparameter tuning, or add more data if needed. Store the final model for use in your application."
+        }
+      ],
+      "code": "from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments\nimport torch\n\n# Load pre-trained model and tokenizer\nmodel_name = \"distilbert-base-uncased\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)\n\n# Prepare your dataset (example)\ntrain_texts = [\"I love this product!\", \"This is terrible.\"]\ntrain_labels = [1, 0]\ntrain_encodings = tokenizer(train_texts, truncation=True, padding=True)\n\n# Create PyTorch dataset\nclass CustomDataset(torch.utils.data.Dataset):\n    def __init__(self, encodings, labels):\n        self.encodings = encodings\n        self.labels = labels\n    \n    def __getitem__(self, idx):\n        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}\n        item[\"labels\"] = torch.tensor(self.labels[idx])\n        return item\n    \n    def __len__(self):\n        return len(self.labels)\n\ntrain_dataset = CustomDataset(train_encodings, train_labels)\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    warmup_steps=100,\n    weight_decay=0.01,\n    logging_dir=\"./logs\",\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n)\n\n# Fine-tune the model\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning documentation",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "DistilBERT paper",
+          "url": "https://arxiv.org/abs/1910.01108"
+        },
+        {
+          "name": "PyTorch fine-tuning tutorial",
+          "url": "https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "التعلم العميق",
+        "معالجة اللغات الطبيعية",
+        "النماذج الصغيرة"
+      ],
+      "quickRef": "الضبط: تحسين نماذج مسبقة التدريب لمهام محددة باستخدام بيانات متخصصة. خطوات: تحديد المهمة، اختيار النموذج، إعداد البيانات، التدريب، التقييم، التحسين.",
+      "quickRefEn": "Fine-tuning: Improving pre-trained models for specific tasks using specialized data. Steps: Define task, choose model, prepare data, train, evaluate, refine.",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة؟",
+          "options": [
+            "تقليل حجم النموذج",
+            "تحسين الأداء لمهام محددة",
+            "زيادة سرعة الاستدعاء",
+            "تقليل استهلاك الطاقة"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من ضبط النماذج الصغيرة هو تحسين أدائها لمهام محددة دون الحاجة إلى موارد حوسبة ضخمة."
+        },
+        {
+          "q": "أي من الخيارات التالية ليست خطوة ضرورية في عملية ضبط النموذج؟",
+          "options": [
+            "جمع البيانات المتخصصة",
+            "اختيار النموذج الأساسي",
+            "زيادة حجم النموذج",
+            "تقييم النموذج المضبوط"
+          ],
+          "answer": 2,
+          "explain": "زيادة حجم النموذج ليست خطوة ضرورية في عملية الضبط. الهدف هو تحسين أداء النموذج الحالي لمهام محددة، وليس جعله أكبر."
+        },
+        {
+          "q": "ما هي الميزة الرئيسية للنماذج الصغيرة بعد الضبط؟",
+          "options": [
+            "دقة أعلى من النماذج الكبيرة دائمًا",
+            "حجم صغير وسرعة استدعاء سريع",
+            "قدرة على التعامل مع مهام متعددة",
+            "لا تتطلب موارد حوسبة"
+          ],
+          "answer": 1,
+          "explain": "الميزة الرئيسية للنماذج الصغيرة بعد الضبط هي أنها تحتفظ بحجمها الصغير وسرعة استدعائها مع تحقيق أداء أفضل للمهام المحددة التي تم ضبطها لها."
+        }
+      ],
+      "addedAt": "2026-09-24"
+    },
+    {
       "id": "k-2026-09-24-تحسين-استجابات-الذكاء-الاصطناعي-من-خلال-هندسة-الـ-",
       "title": "تحسين استجابات الذكاء الاصطناعي من خلال هندسة الـ Prompt",
       "titleEn": "Improving AI Responses Through Prompt Engineering",
