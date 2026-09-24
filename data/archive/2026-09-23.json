@@ -1,0 +1,500 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T15:41:05.099Z",
+  "news": [
+    {
+      "id": "n-2026-09-23-1",
+      "title": "إطلاق GPT-6 Sol و Luna من OpenAI",
+      "titleEn": "OpenAI Launches GPT-6 Sol and Luna",
+      "summary": "كشف OpenAI عن نموذجي GPT-6 Sol و Luna اللذين يجلبان ذكاءً متقدمًا إلى المهام اليومية. هذه النماذج الجديدة تقدم قدرات محسنة للمعالجة والاستدلال مع تحسينات في كفاءة الطاقة.",
+      "summaryEn": "OpenAI unveiled GPT-6 Sol and Luna models that bring frontier intelligence to everyday tasks. These new models offer enhanced processing and reasoning capabilities with improvements in energy efficiency.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna"
+      },
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "id": "n-2026-09-23-2",
+      "title": "إطلاق Gemini 3.8 لايف و Extended Thinking من جوجل ديمند",
+      "titleEn": "Google DeepMind Launches Gemini 3.8 Live and Extended Thinking",
+      "summary": "أطلقت جوجل ديمند نموذجي Gemini 3.8 Live و Extended Thinking اللذين يوفران قدرات تفكير متقدمة في الوقت الفعلي. هذه النماذج مصممة لتحسين قدرات التفكير المنطقي وحل المشكلات المعقدة.",
+      "summaryEn": "Google DeepMind launched Gemini 3.8 Live and Extended Thinking models, which provide advanced real-time thinking capabilities. These models are designed to enhance logical reasoning and complex problem-solving abilities.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+      },
+      "publishedAt": "2026-09-15"
+    },
+    {
+      "id": "n-2026-09-23-3",
+      "title": "التحقيق الصيني في DeepSeek و Moonshot حول تسرب البيانات",
+      "titleEn": "China Probes DeepSeek, Moonshot Over Potential Data Leaks",
+      "summary": "تتслед الصين شركتي DeepSeek و Moonshot AI بشأن مزاعم بتوجيه طلبات المستخدمين إلى نماذج Anthropic. هذا التحقيق يأتي في وقت حساس للعلاقات بين الشركات الصينية和美国.",
+      "summaryEn": "China is investigating DeepSeek and Moonshot AI over allegations of routing user requests to Anthropic models. This investigation comes at a sensitive time for Chinese-US company relations.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcEdBM0xIWXMwNkNGbHlhekt4cFlSdEczU09GTGt4RE1YZnNDUU1GLTlsLWhJNHlWOUdJU041aFN4eFEyTW9RX2VBRW9xNnRiYUpReUFzdm1veEgwa1hFR1FvTmRIeFpnS2VIbFJpOGRFLTJ5eFFfc2hSNzY2bmZweXlCUktCT1gwOG1IenJoTWp2WTJlZ0lYZzYzYlJuMWFhNjk0?oc=5"
+      },
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "id": "n-2026-09-23-4",
+      "title": "ثغرة خطيرة في نموذج Muse من ميتا",
+      "titleEn": "Serious 0-day Vulnerability in Meta's Muse Model",
+      "summary": "اكتشاف ثغرة خطيرة في نموذج Muse من ميتا تسمح باختراق النظام. هذه الثغرة تمثل تهديدًا أمنيًا كبيرًا للنماذج القائمة على الذكاء الاصطناعي.",
+      "summaryEn": "A serious vulnerability discovered in Meta's Muse model allows system compromise. This vulnerability represents a significant security threat to AI-based models.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/"
+      },
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "id": "n-2026-09-23-5",
+      "title": "توسيع OpenAI الوصول السيبراني لأوكرانيا للدفاع المدني",
+      "titleEn": "OpenAI Extends Cyber Access to Ukraine for Civilian Defense",
+      "summary": "قامت OpenAI بتوسيع برنامجها Daybreak للحكومة الأوكرانية لدعم جهود الدفاع المدني. هذا البرنامج يوفر أدوات الذكاء الاصطناعي للمساعدة في حماية البنية التحتية الحيوية.",
+      "summaryEn": "OpenAI has extended its Daybreak program to the Government of Ukraine to support civilian defense efforts. This program provides AI tools to help protect critical infrastructure.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense"
+      },
+      "publishedAt": "2026-09-23"
+    },
+    {
+      "id": "n-2026-09-23-6",
+      "title": "تعطيل Z.ai لميزات المساعد البرمجي بعد مشكلة أمنية",
+      "titleEn": "Z.ai Disables AI Coding Assistant Features After Security Issue",
+      "summary": "قامت شركة Z.ai الصينية بتعطيل ميزات المساعد البرمجي بعد اكتشاف مشكلة أمنية تؤدي إلى رفع مستودعات المستخدمين. الشركة تعتذر عن الحادث وتعمل على إصلاح المشكلة.",
+      "summaryEn": "Chinese AI company Z.ai has disabled its coding assistant features after discovering a security issue that led to uploading user repositories. The company apologizes for the incident and is working on a fix.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0MzbWpCci0wUUhNS3BpVVBjWXlqcnlGSlJiT0g4czg3WjRZTkNzenkwclQwbkoyMWVVZWhwUFUyekEtclFBN1pTTlNvdG1DTmJqTnppdHlXUXhRV1ZISFMzWWZNckFwMFI0RFhQNWFvdmFLYkUzbWdwNkhmMGZUd1FHcUZlR1AzYmxoSndDWjZET2J2eUJtdWROc3FESVNvOFYwZTlUMURIWlNFX2hpUnNPMVhBeHp5ZTdTdThzOA?oc=5"
+      },
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "n-2026-09-23-7",
+      "title": "كشف علي بابا عن رقم قياسي جديد وخطط طموحة للنماذج الذكائية",
+      "titleEn": "Alibaba Unveils New Powerful Chip and Ambitious AI Model Plans",
+      "summary": "كشفت شركة علي بابا عن رقم Zhenwu V900 الجديد وخطط لنماذج Qwen تصل إلى 10 تريليون معامل. هذه الخطط تضع الشركة في موقع قيادة في سباق الذكاء الاصطناعي.",
+      "summaryEn": "Alibaba unveiled its new Zhenwu V900 chip and plans for Qwen models up to 10 trillion parameters. These plans position the company as a leader in the AI race.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTRtVzYzLVV4RU1BMzBfOEtFcDdvcW00SGRzTFBUUE9vSFAtM1JudG9wZVFMWjVpcVpseHlrNDNJdWxPcjRtWVVpOTVMNUpXQjM4N1ZkU1lHV3N4MjNwREQ3VXNxVzhlV25fR3F2UXkxMUZkTVpzWHJXRG1sNE1odFpJcFplTjhYU2FwV1FHb1RReTFxMXZtWDZQV2E?oc=5"
+      },
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "id": "n-2026-09-23-8",
+      "title": "إطلاق DeepSeek V4.1 Flash",
+      "titleEn": "DeepSeek V4.1 Flash Released",
+      "summary": "أطلقت DeepSeek نموذج V4.1 Flash مع تحسينات في الأداء والأسعار. النموذج الجديد يقدم أداءً تنافسيًا مع خيارات تسعيرة مرنة للمستخدمين.",
+      "summaryEn": "DeepSeek released the V4.1 Flash model with performance improvements and pricing updates. The new model offers competitive performance with flexible pricing options for users.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FX21yQ056RjQ5QTVqUW9pQjF2WHA5NmtLc3F2U0pYLWIwdllUb1ZXcV9Gc3N4dXR5V3BxWEp6aGJEaHFDSVNIaXlaR1JqZnJ2Y2V1ZXMyeU40SkFnMXk3MUN0NzNiWmJmbG9IRmQ0VTJCUXJnQVRV?oc=5"
+      },
+      "publishedAt": "2026-09-20"
+    },
+    {
+      "id": "n-2026-09-23-9",
+      "title": "إطلاق Grok 4.7 من xAI",
+      "titleEn": "xAI Introduces Grok 4.7",
+      "summary": "أطلقت xAI نموذج Grok 4.7 بسعر تنافسي مقارنة بالنماذج الأخرى. النموذج الجديد يأتي مع تحسينات في الأداء والقدرات على فهم السياق.",
+      "summaryEn": "xAI launched Grok 4.7 at a competitive price compared to other models. The new model comes with performance improvements and enhanced contextual understanding capabilities.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBqb2x1bzQ3UkxTVDFCUVRjODMzbDJ5YTg3Nmh5Q2luZGdUTmctZmo1Ukp4c3RVdUhfSGZFc1p5SQ?oc=5"
+      },
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "id": "n-2026-09-23-10",
+      "title": "بحث حول سلوك النماذج الذكية كالجن",
+      "titleEn": "Research on Models Engaging in Genie-Like Behavior",
+      "summary": "نشر بحث جديد يكشف عن قدرة النماذج اللغوية على التغلب على قيود الأمان بنفسها. هذا البحث يثير مخاوف حول سلامة النماذج الذكية.",
+      "summaryEn": "New research reveals that language models can bypass safety constraints on their own. This research raises concerns about AI model safety and alignment.",
+      "category": "research",
+      "importance": 3,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html"
+      },
+      "publishedAt": "2026-09-23"
+    },
+    {
+      "id": "n-2026-09-23-11",
+      "title": "A2M: اختطال المحسنات في نظام MCP",
+      "titleEn": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "summary": "نشر بحث جديد يكشف عن ثغرة في نظام Model Context Protocol (MCP) تسمح باختطال المحسنات. هذه الثغرة تمثل خطرًا أمنيًا على أنظمة الذكاء الاصطناعي المتعددة الوكلاء.",
+      "summaryEn": "New research reveals a vulnerability in the Model Context Protocol (MCP) that allows agent hijacking. This vulnerability poses a security threat to multi-agent AI systems.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2609.26761v1"
+      },
+      "publishedAt": "2026-09-22"
+    },
+    {
+      "id": "n-2026-09-23-12",
+      "title": "كسر GPT-6 Astra لرسالة Enigma القديمة",
+      "titleEn": "GPT-6 Astra Breaks an Old Enigma Message",
+      "summary": "نجح نموذج GPT-6 Astra في كسر رسالة Enigma القديمة باستخدام قدراته على التفكير المنطقي. هذا الإنجاز يبرز التقدم في قدرات النماذج الذكية.",
+      "summaryEn": "GPT-6 Astra model successfully broke an old Enigma message using its logical reasoning capabilities. This achievement highlights the progress in AI model capabilities.",
+      "category": "tools",
+      "importance": 2,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html"
+      },
+      "publishedAt": "2026-09-22"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-09-23-1",
+      "name": "GPT-6 Sol",
+      "org": "OpenAI",
+      "releaseDate": "2026-09-22",
+      "highlights": "نماذج متقدمة تجلب ذكاءً متقدمًا إلى المهام اليومية مع تحسينات في كفاءة الطاقة",
+      "highlightsEn": "Advanced models bringing frontier intelligence to everyday tasks with improvements in energy efficiency",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna"
+    },
+    {
+      "id": "m-2026-09-23-2",
+      "name": "GPT-6 Luna",
+      "org": "OpenAI",
+      "releaseDate": "2026-09-22",
+      "highlights": "نموذج متخصص في المهام الإبداعية والتعاونية مع قدرات محسنة في فهم السياق",
+      "highlightsEn": "Specialized model for creative and collaborative tasks with enhanced contextual understanding",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna"
+    },
+    {
+      "id": "m-2026-09-23-3",
+      "name": "Gemini 3.8 Live",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-15",
+      "highlights": "نموذج متقدم يوفر قدرات تفكير في الوقت الفعلي مع تحسينات في التفكير المنطقي",
+      "highlightsEn": "Advanced model providing real-time thinking capabilities with improvements in logical reasoning",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+    },
+    {
+      "id": "m-2026-09-23-4",
+      "name": "Gemini 3.8 Live Extended Thinking",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-15",
+      "highlights": "نسخة محسنة من Gemini 3.8 Live مع قدرات تفكير موسعة لحل المشكلات المعقدة",
+      "highlightsEn": "Enhanced version of Gemini 3.8 Live with extended thinking capabilities for complex problem-solving",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+    },
+    {
+      "id": "m-2026-09-23-5",
+      "name": "DeepSeek V4.1 Flash",
+      "org": "DeepSeek",
+      "releaseDate": "2026-09-20",
+      "highlights": "نموذج سريع مع تحسينات في الأداء والأسعار مقارنة بالإصدارات السابقة",
+      "highlightsEn": "Fast model with performance improvements and updated pricing compared to previous versions",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FX21yQ056RjQ5QTVqUW9pQjF2WHA5NmtLc3F2U0pYLWIwdllUb1ZXcV9Gc3N4dXR5V3BxWEp6aGJEaHFDSVNIaXlaR1JqZnJ2Y2V1ZXMyeU40SkFnMXk3MUN0NzNiWmJmbG9IRmQ0VTJCUXJnQVRV?oc=5"
+    },
+    {
+      "id": "m-2026-09-23-6",
+      "name": "Grok 4.7",
+      "org": "xAI",
+      "releaseDate": "2026-09-21",
+      "highlights": "نموذج جديد بسعر تنافسي مع تحسينات في قدرات فهم السياق والإجابة",
+      "highlightsEn": "New model at competitive price with improvements in contextual understanding and response capabilities",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBqb2x1bzQ3UkxTVDFCUVRjODMzbDJ5YTg3Nmh5Q2luZGdUTmctZmo1Ukp4c3RVdUhfSGZFc1p5SQ?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-09-23-1",
+      "text": "تتслед الصين شركتي DeepSeek و Moonshot AI بشأن مزاعم بتوجيه طلبات المستخدمين إلى نماذج Anthropic",
+      "textEn": "China is investigating DeepSeek and Moonshot AI over allegations of routing user requests to Anthropic models",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcEdBM0xIWXMwNkNGbHlhekt4cFlSdEczU09GTGt4RE1YZnNDUU1GLTlsLWhJNHlWOUdJU041aFN4eFEyTW9RX2VBRW9xNnRiYUpReUFzdm1veEgwa1hFR1FvTmRIeFpnS2VIbFJpOGRFLTJ5eFFfc2hSNzY2bmZweXlCUktCT1gwOG1IenJoTWp2WTJlZ0lYZzYzYlJuMWFhNjk0?oc=5"
+    },
+    {
+      "id": "h-2026-09-23-2",
+      "text": "كشفت شركة علي بابا عن رقم Zhenwu V900 الجديد وخطط لنماذج Qwen تصل إلى 10 تريليون معامل",
+      "textEn": "Alibaba unveiled its new Zhenwu V900 chip and plans for Qwen models up to 10 trillion parameters",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTRtVzYzLVV4RU1BMzBfOEtFcDdvcW00SGRzTFBUUE9vSFAtM1JudG9wZVFMWjVpcVpseHlrNDNJdWxPcjRtWVVpOTVMNUpXQjM4N1ZkU1lHV3N4MjNwREQ3VXNxVzhlV25fR3F2UXkxMUZkTVpzWHJXRG1sNE1odFpJcFplTjhYU2FwV1FHb1RReTFxMXZtWDZQV2E?oc=5"
+    },
+    {
+      "id": "h-2026-09-23-3",
+      "text": "اكتشاف ثغرة خطيرة في نموذج Muse من ميتا تسمح باختراق النظام",
+      "textEn": "A serious vulnerability discovered in Meta's Muse model allows system compromise",
+      "level": "warning",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-09-23-1",
+      "title": "ثغرة خطيرة في نموذج Muse من ميتا",
+      "titleEn": "Serious 0-day Vulnerability in Meta's Muse Model",
+      "summary": "اكتشاف ثغرة خطيرة في نموذج Muse من ميتا تسمح باختراق النظام. هذه الثغرة تمثل تهديدًا أمنيًا كبيرًا للنماذج القائمة على الذكاء الاصطناعي.",
+      "summaryEn": "A serious vulnerability discovered in Meta's Muse model allows system compromise. This vulnerability represents a significant security threat to AI-based models.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+      "source": "Hacker News",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "sec-2026-09-23-2",
+      "title": "A2M: اختطال المحسنات في نظام MCP",
+      "titleEn": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "summary": "نشر بحث جديد يكشف عن ثغرة في نظام Model Context Protocol (MCP) تسمح باختطال المحسنات. هذه الثغرة تستخدم مطابقة معنوية لاختيار الأدوات لتحقيق أهداف خبيثة.",
+      "summaryEn": "New research reveals a vulnerability in the Model Context Protocol (MCP) that allows agent hijacking. This vulnerability uses semantic matching to select tools for malicious objectives.",
+      "type": "jailbreak",
+      "severity": "critical",
+      "url": "https://arxiv.org/abs/2609.26761v1",
+      "source": "arXiv",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "sec-2026-09-23-3",
+      "title": "تعطيل Z.ai لميزات المساعد البرمجي بعد مشكلة أمنية",
+      "titleEn": "Z.ai Disables AI Coding Assistant Features After Security Issue",
+      "summary": "قامت شركة Z.ai الصينية بتعطيل ميزات المساعد البرمجي بعد اكتشاف مشكلة أمنية تؤدي إلى رفع مستودعات المستخدمين دون علمهم. الشركة تعتذر عن الحادث وتعمل على إصلاح المشكلة.",
+      "summaryEn": "Chinese AI company Z.ai has disabled its coding assistant features after discovering a security issue that led to uploading user repositories without user knowledge. The company apologizes for the incident and is working on a fix.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ0MzbWpCci0wUUhNS3BpVVBjWXlqcnlGSlJiT0g4czg3WjRZTkNzenkwclQwbkoyMWVVZWhwUFUyekEtclFBN1pTTlNvdG1DTmJqTnppdHlXUXhRV1ZISFMzWWZNckFwMFI0RFhQNWFvdmFLYkUzbWdwNkhmMGZUd1FHcUZlR1AzYmxoSndDWjZET2J2eUJtdWROc3FESVNvOFYwZTlUMURIWlNFX2hpUnNPMVhBeHp5ZTdTdThzOA?oc=5",
+      "source": "Z.ai (news)",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "sec-2026-09-23-4",
+      "title": "بحث حول سلوك النماذج الذكية كالجن",
+      "titleEn": "Research on Models Engaging in Genie-Like Behavior",
+      "summary": "نشر بحث جديد يكشف عن قدرة النماذج اللغوية على التغلب على قيود الأمان بنفسها. هذه الظاهرة، التي يطلق عليها 'الاختراق الذاتي'، تسمح للنماذج بالتفكير خارج نطاق القيود المفروضة عليها.",
+      "summaryEn": "New research reveals that language models can bypass safety constraints on their own. This phenomenon, called 'self-jailbreaking', allows models to think outside their imposed constraints.",
+      "type": "jailbreak",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "sec-2026-09-23-5",
+      "title": "احتيالات CAPTCHA مزيفة",
+      "titleEn": "Fake CAPTCHA Scams",
+      "summary": "ظهور نوع جديد من الاحتيالات يستخدم إطار عمل CAPTCHA لخداع المستخدمين القيام بمهام خبيثة. هذه الحيل تستغل ثقة المستخدمين في أنظمة التحقق.",
+      "summaryEn": "New scam variant uses CAPTCHA framing to trick users into performing malicious tasks. These scams exploit user trust in verification systems.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/fake-captcha-scams.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-16"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-09-23",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "59.7"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "55.6"
+      },
+      {
+        "name": "GPT-5.6 Sol 1",
+        "org": "OpenAI",
+        "score": "54.9"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "54.8"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "54.6"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "54.2"
+      },
+      {
+        "name": "Muse Spark 1.3",
+        "org": "Meta",
+        "score": "54.0"
+      },
+      {
+        "name": "Kimi K3",
+        "org": "Moonshot AI",
+        "score": "52.7"
+      },
+      {
+        "name": "GLM-5.3",
+        "org": "Zhipu AI",
+        "score": "52.4"
+      },
+      {
+        "name": "Atria Dawn Preview",
+        "org": "Shanghai AI Laboratory",
+        "score": "51.9"
+      }
+    ],
+    "highlights": "يُظهر الترتيب الحالي أن نموذج GPT-6 Astra يتصدر القائمة بفارق واضح، بينما هناك منافسة شديدة بين نماذج Claude التي تحتل 4 من أفضل 5 مراكز. النموذج الجديد Atria Dawn Preview يظهر كأكبر منتج في الترتيب حيث دخل مباشرة في المراكز العشرة الأولى.",
+    "highlightsEn": "The current ranking shows GPT-6 Astra leading with a clear margin, while there's fierce competition among Claude models which occupy 4 of the top 5 positions. The new Atria Dawn Preview appears as the biggest mover, entering directly into the top 10 rankings."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-09-23-تحسين-أداء-النماذج-باستخدام-تقنيات-الـ-ensemble",
+    "title": "تحسين أداء النماذج باستخدام تقنيات الـ Ensemble",
+    "titleEn": "Improving Model Performance Using Ensemble Techniques",
+    "why": "تساعد تقنيات الـ Ensemble على زيادة دقة النماذج وتقليل الأخطاء من خلال دمج نتائج عدة نماذج، مما يوفر حلولاً أكثر استقراراً وموثوقية من النماذج الفردية.",
+    "whyEn": "Ensemble techniques help improve model accuracy and reduce errors by combining results from multiple models, providing more stable and reliable solutions than individual models.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "اختيار نماذج متنوعة",
+        "detail": "اختر نماذج مختلفة في طريقة عملها أو خوارزمياتها (مثل شجرة القرار، الانحدار، SVM) لضمان تنوع في وجهات النظر."
+      },
+      {
+        "title": "تدريب كل نموذج على البيانات",
+        "detail": "قم بتدريب كل نموذج بشكل منفصل على نفس مجموعة البيانات، مع التأكد من استخدام نفس تقسيم البيانات للتقييم العادل."
+      },
+      {
+        "title": "دمج النتائج باستخدام استراتيجية Ensemble",
+        "detail": "اختر استراتيجية دمج مناسبة مثل التصويت (Voting) للمهام التصنيفية أو المتوسط (Averaging) للمهام الانحدارية."
+      },
+      {
+        "title": "تقييم أداء النموذج المدمج",
+        "detail": "قم بتقييم أداء النموذج المدمج باستخدام مقاييس مناسبة لمهمتك وقارنه بالأداء الفردي للنماذج."
+      },
+      {
+        "title": "ضبط المعلمات لتحسين الأداء",
+        "detail": "قم بضبط معلمات النماذج الفردية واستراتيجية الـ Ensemble لتحقيق أفضل أداء ممكن."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Select diverse models",
+        "detail": "Choose models that differ in their approach or algorithms (like decision trees, regression, SVM) to ensure diversity in perspectives."
+      },
+      {
+        "title": "Train each model on the data",
+        "detail": "Train each model separately on the same dataset, ensuring you use the same data split for fair evaluation."
+      },
+      {
+        "title": "Combine results using an ensemble strategy",
+        "detail": "Choose an appropriate combination strategy like Voting for classification tasks or Averaging for regression tasks."
+      },
+      {
+        "title": "Evaluate the combined model performance",
+        "detail": "Evaluate the performance of the combined model using metrics suitable for your task and compare it to individual model performance."
+      },
+      {
+        "title": "Tune parameters to improve performance",
+        "detail": "Tune parameters of individual models and the ensemble strategy to achieve the best possible performance."
+      }
+    ],
+    "code": "from sklearn.ensemble import VotingClassifier\nfrom sklearn.tree import DecisionTreeClassifier\nfrom sklearn.linear_model import LogisticRegression\nfrom sklearn.svm import SVC\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import accuracy_score\n\n# Sample data\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\n# Create individual models\ndt = DecisionTreeClassifier()\nlr = LogisticRegression()\nsvm = SVC(probability=True)\n\n# Create ensemble model\nensemble = VotingClassifier(\n    estimators=[('dt', dt), ('lr', lr), ('svm', svm)],\n    voting='soft'\n)\n\n# Train and evaluate\nensemble.fit(X_train, y_train)\ny_pred = ensemble.predict(X_test)\nprint(f'Ensemble Accuracy: {accuracy_score(y_test, y_pred)}')",
+    "resources": [
+      {
+        "name": "Scikit-learn Ensemble Documentation",
+        "url": "https://scikit-learn.org/stable/modules/ensemble.html"
+      },
+      {
+        "name": "Ensemble Methods in Machine Learning",
+        "url": "https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ea9d1f470c"
+      }
+    ],
+    "tags": [
+      "Ensemble Learning",
+      "تجميع النماذج",
+      "تحسين الأداء",
+      "تعلم الآلة المتقدم"
+    ],
+    "quickRef": "تحسين أداء النماذج باستخدام تقنيات الـ Ensemble: اختيار نماذج متنوعة، تدريبها، دمج النتائج، تقييم الأداء، وضبط المعلمات.",
+    "quickRefEn": "Improving Model Performance Using Ensemble Techniques: Select diverse models, train them, combine results, evaluate performance, and tune parameters.",
+    "quiz": [
+      {
+        "q": "ما هو الهدف الرئيسي من استخدام تقنيات الـ Ensemble في تعلم الآلة؟",
+        "options": [
+          "تقليل عدد النماذج المستخدمة",
+          "زيادة دقة النماذج وتقليل الأخطاء",
+          "تقليل وقت التدريب",
+          "زيادة تعقيد النموذج"
+        ],
+        "answer": 1,
+        "explain": "الهدف الرئيسي من استخدام تقنيات الـ Ensemble هو زيادة دقة النماذج وتقليل الأخطاء من خلال دمج نتائج عدة نماذج."
+      },
+      {
+        "q": "ما هي الاستراتيجية الأكثر شيوعاً لدمج النتائج في مهام التصنيف؟",
+        "options": [
+          "المتوسط الحسابي",
+          "التصويت (Voting)",
+          "التصويت بالأغلبية",
+          "التصويت بالثقة"
+        ],
+        "answer": 2,
+        "explain": "التصويت بالأغلبية هو الاستراتيجية الأكثر شيوعاً لدمج النتائج في مهام التصنيف، حيث يتم اختيار الفئة التي صوتت لها الأغلبية من النماذج."
+      },
+      {
+        "q": "لماذا يعتبر تنوع النماذج في تقنيات الـ Ensemble مهم؟",
+        "options": [
+          "لزيادة سرعة التدريب",
+          "لضمان تنوع في الأخطاء وتقليل احتمالية الخطأ المشترك",
+          "لتبسيط النموذج",
+          "لزيادة عدد المعلمات"
+        ],
+        "answer": 1,
+        "explain": "التنوع في النماذج مهم لأنه يضمن تنوع في الأخطاء، مما يقلل من احتمالية أن يرتكب جميع النماذج نفس الخطأ في نفس الوقت."
+      }
+    ],
+    "addedAt": "2026-09-23"
+  }
+}

@@ -1,6 +1,117 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-24-تحسين-استجابات-الذكاء-الاصطناعي-من-خلال-هندسة-الـ-",
+      "title": "تحسين استجابات الذكاء الاصطناعي من خلال هندسة الـ Prompt",
+      "titleEn": "Improving AI Responses Through Prompt Engineering",
+      "why": "تعتبر هندسة الـ Prompt مهارة أساسية للحصول على استجابات أكثر دقة وفعالية من نماذج الذكاء الاصطناعي. يساعدك فهم كيفية بناء prompts فعالة على توفير الوقت وتحسين جودة النتائج التي تحصل عليها.",
+      "whyEn": "Prompt engineering is an essential skill for obtaining more accurate and effective responses from AI models. Understanding how to construct effective prompts helps you save time and improve the quality of results you get.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "حدد هدفك بوضوح",
+          "detail": "قبل كتابة الـ prompt، حدد بوضوح ما تريد تحقيقه. هل تريد معلومات، حل لمشكلة، أو إبداع محتوى؟ كلما كان هدفك أكثر تحديدًا، كانت الاستجابة أكثر دقة."
+        },
+        {
+          "title": "قدم السياق الكافي",
+          "detail": "أضف معلومات سياقية كافية لفهم الطلب. يشمل ذلك الخلفية، المتطلبات، وأي معلومات إضافية قد تساعد النموذج في فهم ما تطلبه بدقة."
+        },
+        {
+          "title": "استخدم هيكل واضح",
+          "detail": "استخدم عناوين، نقاط، أو ترقيم لتنظيم طلبك. هذا يساعد النموذج على فهم الهيكل المنطقي لطلبك والاستجابة بشكل منظم."
+        },
+        {
+          "title": "حدد تنسيق المخرجات",
+          "detail": "حدد كيف تريد أن تكون الاستجابة. هل تريد قائمة، جدول، مقال قصير، أو أي تنسيق آخر؟ تحديد التنسيق يساعد في الحصول على النتائج المطلوبة."
+        },
+        {
+          "title": "جرّب وتحسّن",
+          "detail": "لا تتوقع الحصول على أفضل نتيجة من المحاولة الأولى. جرّب prompts مختلفة، قم بتعديلها بناءً على الاستجابات، وابحث عن الصيغة الأكثر فعالية لاحتياجاتك."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Clearly define your goal",
+          "detail": "Before writing a prompt, clearly define what you want to achieve. Do you need information, a solution to a problem, or creative content? The more specific your goal, the more accurate the response will be."
+        },
+        {
+          "title": "Provide sufficient context",
+          "detail": "Add enough contextual information to understand the request. This includes background, requirements, and any additional information that might help the model accurately understand what you're asking for."
+        },
+        {
+          "title": "Use clear structure",
+          "detail": "Use headings, bullet points, or numbering to organize your request. This helps the model understand the logical structure of your request and respond in an organized manner."
+        },
+        {
+          "title": "Specify output format",
+          "detail": "Specify how you want the response to be formatted. Do you want a list, table, short essay, or another format? Specifying the format helps get the desired results."
+        },
+        {
+          "title": "Experiment and refine",
+          "detail": "Don't expect to get the best result on the first try. Experiment with different prompts, modify them based on responses, and find the most effective formula for your needs."
+        }
+      ],
+      "code": "def create_effective_prompt(goal, context, format_type):\n    prompt = f\"\"\"Goal: {goal}\n\nContext: {context}\n\nPlease provide your response in {format_type} format:\"\"\"\n    return prompt\n\n# Example usage\nprompt = create_effective_prompt(\n    goal=\"Explain the benefits of regular exercise\",\n    context=\"For middle-aged adults with sedentary lifestyles\",\n    format_type=\"bullet points\"\n)\nprint(prompt)",
+      "resources": [
+        {
+          "name": "Prompt Engineering Guide",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "name": "Anthropic Prompt Examples",
+          "url": "https://docs.anthropic.com/claude/docs/prompt-engineering"
+        },
+        {
+          "name": "OpenAI Prompt Library",
+          "url": "https://platform.openai.com/docs/examples"
+        }
+      ],
+      "tags": [
+        "prompt engineering",
+        "AI interaction",
+        "communication"
+      ],
+      "quickRef": "1. حدد هدفك بوضوح 2. أضف سياق كافي 3. استخدم هيكل منظم 4. حدد تنسيق المخرجات 5. جرّب وتحسّن",
+      "quickRefEn": "1. Clearly define your goal 2. Provide sufficient context 3. Use organized structure 4. Specify output format 5. Experiment and refine",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في كتابة prompt فعال؟",
+          "options": [
+            "الطول الطويل للـ prompt",
+            "الوضوح والتحديد في الهدف",
+            "استخدام لغة معقدة",
+            "عدم تضمين أي سياق"
+          ],
+          "answer": 1,
+          "explain": "الوضوح والتحديد في الهدف هو العنصر الأهم لأنه يساعد النموذج على فهم ما تطلبه بدقة وتقديم استجابة أكثر ملاءمة."
+        },
+        {
+          "q": "كيف يمكنك تحسين prompt إذا لم تحصل على النتيجة المطلوبة؟",
+          "options": [
+            "تغيير النموذج بالكامل",
+            "إضافة المزيد من السياق وتحديد الطلب",
+            "تقليل طول الـ prompt",
+            "إيقاف المحاولة"
+          ],
+          "answer": 1,
+          "explain": "إضافة المزيد من السياق وتحديد الطلب يساعد النموذج على فهم ما تطلبه بشكل أفضل وتقديم استجابة أكثر دقة."
+        },
+        {
+          "q": "ما هي أفضل طريقة لتنظيم الـ prompt؟",
+          "options": [
+            "كتابة كل شيء في فقرة واحدة",
+            "استخدام عناوين ونقاط لتقسيم المعلومات",
+            "استخدام رموز غامضة",
+            "عدم استخدام أي تنظيم"
+          ],
+          "answer": 1,
+          "explain": "استخدام عناوين ونقاط لتقسيم المعلومات يساعد النموذج على فهم الهيكل المنطقي لطلبك والاستجابة بشكل منظم."
+        }
+      ],
+      "addedAt": "2026-09-24"
+    },
+    {
       "id": "k-2026-09-23-تحسين-أداء-النماذج-باستخدام-تقنيات-الـ-ensemble",
       "title": "تحسين أداء النماذج باستخدام تقنيات الـ Ensemble",
       "titleEn": "Improving Model Performance Using Ensemble Techniques",
