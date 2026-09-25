@@ -1,6 +1,95 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-25-تحسين-أداء-النماذج-باستخدام-تقنيات-الـ-fine-tuning",
+      "title": "تحسين أداء النماذج باستخدام تقنيات الـ Fine-Tuning",
+      "titleEn": "Improving Model Performance Using Fine-Tuning Techniques",
+      "why": "Fine-tuning allows you to adapt pre-trained models to specific tasks or domains, significantly improving performance on specialized tasks without needing to train from scratch.",
+      "whyEn": "Fine-tuning enables adaptation of pre-trained models to specific tasks or domains, dramatically improving performance on specialized tasks without requiring training from scratch.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "اخيار النموذج المناسب",
+          "detail": "اختر نموذجًا مسبق التدريب يناسب مهمتك. النماذج الكبيرة مثل GPT أو Claude غالبًا ما تكون نقطة انطلاق جيدة."
+        },
+        {
+          "title": "تحضير مجموعة البيانات",
+          "detail": "أنشئ مجموعة بيانات عالية الجودة تتضمن أمثلة تدريبية تناسب مهمتك. يجب أن تكون البيانات متنوعة وممثلة للمهام التي تريد أن يقوم بها النموذج."
+        },
+        {
+          "title": "ضبط المعلمات",
+          "detail": "استخدم مكتبات مثل Hugging Face Transformers أو PyTorch لضبط المعلمات. ابدأ بمعدل تعلم منخفض (عادة بين 1e-5 و 5e-5) وعدد قليل من التكرارات."
+        },
+        {
+          "title": "التقييم والتكرار",
+          "detail": "قيم أداء النموذج على مجموعة بيانات اختبار. قم بتعديل المعلمات أو إضافة بيانات تدريبية إضافية بناءً على النتائج."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select the appropriate model",
+          "detail": "Choose a pre-trained model that suits your task. Large models like GPT or Claude are often good starting points."
+        },
+        {
+          "title": "Prepare the dataset",
+          "detail": "Create a high-quality dataset containing training examples relevant to your task. The data should be diverse and representative of the tasks you want the model to perform."
+        },
+        {
+          "title": "Adjust parameters",
+          "detail": "Use libraries like Hugging Face Transformers or PyTorch to adjust parameters. Start with a low learning rate (typically between 1e-5 and 5e-5) and a small number of epochs."
+        },
+        {
+          "title": "Evaluate and iterate",
+          "detail": "Evaluate the model's performance on a test dataset. Adjust parameters or add additional training data based on the results."
+        }
+      ],
+      "code": "from transformers import AutoModelForSequenceClassification, Trainer, TrainingArguments\n\nmodel = AutoModelForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=2)\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=64,\n    warmup_steps=500,\n    weight_decay=0.01,\n    logging_dir='./logs',\n    logging_steps=10,\n)\n\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n    eval_dataset=eval_dataset\n)\n\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-Tuning Tutorial",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "Stanford CS224n: NLP with Deep Learning",
+          "url": "https://web.stanford.edu/class/cs224n/"
+        }
+      ],
+      "tags": [
+        "fine-tuning",
+        "model optimization",
+        "transfer learning",
+        "NLP"
+      ],
+      "quickRef": "Fine-tuning: تعديل نماذج مسبقة التدريب لمهام محددة باستخدام بيانات متخصصة لتحسين الأداء.",
+      "quickRefEn": "Fine-tuning: Adjusting pre-trained models for specific tasks using specialized data to improve performance.",
+      "quiz": [
+        {
+          "q": "ما هو معدل التعلم الموصى به لبدء عملية Fine-tuning لنموذج لغوي كبير؟",
+          "options": [
+            "1 إلى 5",
+            "0.00001 إلى 0.00005",
+            "0.1 إلى 0.5",
+            "1 إلى 10"
+          ],
+          "answer": 1,
+          "explain": "معدلات التعلم المنخفضة (عادة بين 1e-5 و 5e-5) هي الأفضل لعمليات Fine-tuning لأنها تسمح بالتعدير الدقيق للمعلمات دون إحداث تغيرات كبيرة في النموذج الأصلي."
+        },
+        {
+          "q": "ما هو أهم عنصر في عملية Fine-tuning؟",
+          "options": [
+            "اخيار النموذج الأكبر",
+            "تحضير مجموعة بيانات عالية الجودة",
+            "زيادة عدد التكرارات",
+            "استخدام GPU أسرع"
+          ],
+          "answer": 1,
+          "explain": "جودة مجموعة البيانات هي العامل الأهم في Fine-tuning. حتى مع نموذج ممتاز، فإن البيانات غير الكافية أو غير المناسبة ستؤدي إلى نتائج ضعيفة."
+        }
+      ],
+      "addedAt": "2026-09-25"
+    },
+    {
       "id": "k-2026-09-24-ضبط-النماذج-الصغيرة-لمهام-محددة",
       "title": "ضبط النماذج الصغيرة لمهام محددة",
       "titleEn": "Fine-tuning Small Models for Specific Tasks",
