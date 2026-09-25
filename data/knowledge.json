@@ -1,6 +1,119 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-25-أساسيات-أمن-الذكاء-الاصطناعي",
+      "title": "أساسيات أمن الذكاء الاصطناعي",
+      "titleEn": "AI Safety Basics",
+      "why": "مع تزايد استخدام الذكاء الاصطناعي في مختلف المجالات، أصبح فهم أساسيات أمن الذكاء الاصطناعي ضروريًا لضمان استخدام هذه التقنيات بشكل آمن ومسؤول.",
+      "whyEn": "With the increasing use of AI across various domains, understanding AI safety basics has become essential to ensure the safe and responsible use of these technologies.",
+      "difficulty": "beginner",
+      "track": "security",
+      "steps": [
+        {
+          "title": "فهم المخاطر الأساسية",
+          "detail": "التعرف على أنواع المخاطر الرئيسية المتعلقة بالذكاء الاصطناعي مثل التحيزات، الخصوصية، الأمان، والاستخدام غير المناسب."
+        },
+        {
+          "title": "تقييم النماذج",
+          "detail": "تطوير معايير لتقييم مدى أمان النماذج قبل نشرها، بما في ذلك اختبار التحيزات والتأثير المحتمل."
+        },
+        {
+          "title": "ضوابط الأمان",
+          "detail": "تطبيق آليات التحكم مثل التحقق من الهوية، والحدود الواضحة، والرقابة البشرية عند الضرورة."
+        },
+        {
+          "title": "المراقبة المستمرة",
+          "detail": "إنشاء أنظمة للمراقبة المستمرة أداء النماذج بعد النشر والكشف عن أي سلوكيات غير متوقعة."
+        },
+        {
+          "title": "تحديث المعرفة",
+          "detail": "البقاء على اطلاع دائم بأحدث التطورات في مجال أمن الذكاء الاصطناعي وتحديث الإجراءات وفقًا لذلك."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Basic Risks",
+          "detail": "Identifying the main types of risks related to AI such as biases, privacy, security, and misuse."
+        },
+        {
+          "title": "Model Evaluation",
+          "detail": "Developing criteria to evaluate model safety before deployment, including bias testing and potential impact assessment."
+        },
+        {
+          "title": "Safety Controls",
+          "detail": "Implementing control mechanisms such as authentication, clear boundaries, and human oversight when necessary."
+        },
+        {
+          "title": "Continuous Monitoring",
+          "detail": "Creating systems for continuous monitoring of model performance after deployment and detecting any unexpected behaviors."
+        },
+        {
+          "title": "Knowledge Updates",
+          "detail": "Staying informed about the latest developments in AI security and updating procedures accordingly."
+        }
+      ],
+      "code": "def detect_bias(model_predictions, protected_attributes):\n    \"\"\"\n    Basic function to detect potential bias in AI model predictions\n    across different protected attributes.\n    \"\"\"\n    bias_results = {}\n    \n    for attr in protected_attributes:\n        groups = set(attr)\n        group_performance = {}\n        \n        for group in groups:\n            group_indices = [i for i, a in enumerate(attr) if a == group]\n            group_preds = [model_predictions[i] for i in group_indices]\n            group_performance[group] = sum(group_preds) / len(group_preds)\n        \n        bias_results[attr] = group_performance\n    \n    return bias_results",
+      "resources": [
+        {
+          "name": "AI Safety Institute",
+          "url": "https://www.gov.uk/government/organisations/ai-safety-institute"
+        },
+        {
+          "name": "Partnership on AI",
+          "url": "https://partnershiponai.org/"
+        },
+        {
+          "name": "AI Safety Papers",
+          "url": "https://www.alignmentforum.org/s/ai_safety"
+        }
+      ],
+      "tags": [
+        "أمن الذكاء الاصطناعي",
+        "التحيز في الذكاء الاصطناعي",
+        "المراقبة",
+        "المسؤولية",
+        "AI Safety"
+      ],
+      "quickRef": "تحديد المخاطر المحتملة قبل ن النماذج\nاختبار التحيزات والتأثيرات\nتطبيق آليات التحكم المناسبة\nمراقبة الأداء المستمر\nتحديث الإجراءات بانتظام",
+      "quickRefEn": "Identify potential risks before model deployment\nTest for biases and impacts\nImplement appropriate control mechanisms\nContinuously monitor performance\nRegularly update procedures",
+      "quiz": [
+        {
+          "q": "ما هو الخطوة الأولى الأساسية في ضمان أمن نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "نشر النموذج على نطاق واسع",
+            "فهم المخاطر الأساسية المتعلقة بالنموذج",
+            "تقليل عدد المعلمات في النموذج",
+            "زيادة سرعة الاستدعاء"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى الأساسية هي فهم المخاطر المحتملة قبل أي خطوات أخرى، بما في ذلك النشر أو التعديلات التقنية."
+        },
+        {
+          "q": "ما هو العنصر الأهم في آليات التحكم لضمان أمان نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "زيادة حجم البيانات المستخدمة في التدريب",
+            "التحقق من الهوية والحدود الواضحة",
+            "تقليل تعقيد النموذج",
+            "زيادة عدد الطبقات في الشبكة العصبية"
+          ],
+          "answer": 1,
+          "explain": "التحقق من الهوية ووضع حدود واضحة للوصول والاستخدام هو العنصر الأهم في آليات التحكم لضمان الأمان."
+        },
+        {
+          "q": "لماذا تعتبر المراقبة المستمرة ضرورية بعد نشر نموذج الذكاء الاصطناعي؟",
+          "options": [
+            "لزيادة سرعة النموذج فقط",
+            "لكشف أي سلوكيات غير متوقعة وتحديث الإجراءات",
+            "لتقليل تكاليف التشغيل",
+            "لزيادة دقة النموذج بشكل فوري"
+          ],
+          "answer": 1,
+          "explain": "المراقبة المستمرة ضرورية لكشف أي سلوكيات غير متوقعة قد تظهر بعد النشر، مما يسمح بتحديث الإجراءات وتصحيح المسار عند الحاجة."
+        }
+      ],
+      "addedAt": "2026-09-25"
+    },
+    {
       "id": "k-2026-09-25-تحسين-أداء-النماذج-باستخدام-تقنيات-الـ-fine-tuning",
       "title": "تحسين أداء النماذج باستخدام تقنيات الـ Fine-Tuning",
       "titleEn": "Improving Model Performance Using Fine-Tuning Techniques",
