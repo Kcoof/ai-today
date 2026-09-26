@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-26-بناء-وكلاء-الذكاء-الاصطناعي",
+      "title": "بناء وكلاء الذكاء الاصطناعي",
+      "titleEn": "Building AI Agents",
+      "why": "الوكلاء الذكاء الاصطناعي يمكنهم أتمتة المهام المعقدة وتحقيق نتائج أفضل من خلال التعاون بين نماذج متعددة، مما يوفر وقتاً وجهداً للمستخدمين والمطورين.",
+      "whyEn": "AI agents can automate complex tasks and achieve better results through collaboration between multiple models, saving time and effort for users and developers.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد مهمة محددة",
+          "detail": "اختر مهمة محددة تريد أتمتتها باستخدام الوكيل الذكي. يجب أن تكون المهمة قابلة للتجزئة إلى خطوات منطقية."
+        },
+        {
+          "title": "تصميم معمارية الوكيل",
+          "detail": "حدد النماذج التي ستعمل معاً وكيفية تفاعلها. قد يحتاج الوكيل إلى نموذج للتخطيط، ونموذج للتنفيذ، ونموذج للمراجعة."
+        },
+        {
+          "title": "تطوير منطق التوجيه",
+          "detail": "أنشئ منطق التوجيه (orchestration logic) الذي يقرر أي نموذج يستخدم متى وكيفية تمرير المعلومات بين النماذج المختلفة."
+        },
+        {
+          "title": "تنفيذ حلقة التغذية الراجعة",
+          "detail": "أنشئ آلية لتقييم نتائج الوكيل وتحسينها باستخدام تغذية راجعة من المستخدمين أو معايير محددة مسبقاً."
+        },
+        {
+          "title": "اختبار وتحسين",
+          "detail": "اختبر الوكيل في سيناريوهات مختلفة وقم بتحسين أدائه بناءً على النتائج. قد يتطلب هذا ضبط المعلمات أو إعادة تصميم بعض المكونات."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define a specific task",
+          "detail": "Choose a specific task you want to automate using the AI agent. The task should be decomposable into logical steps."
+        },
+        {
+          "title": "Design agent architecture",
+          "detail": "Determine which models will work together and how they'll interact. The agent may need a planning model, an execution model, and a review model."
+        },
+        {
+          "title": "Develop orchestration logic",
+          "detail": "Create the orchestration logic that decides which model to use when and how to pass information between different models."
+        },
+        {
+          "title": "Implement feedback loop",
+          "detail": "Create a mechanism to evaluate and improve the agent's performance using feedback from users or predefined criteria."
+        },
+        {
+          "title": "Test and refine",
+          "detail": "Test the agent in various scenarios and improve its performance based on results. This may require parameter tuning or redesigning some components."
+        }
+      ],
+      "code": "import openai\n\nclass AIAgent:\n    def __init__(self):\n        self.planner_model = openai.ChatCompletion.create(model=\"gpt-4\", temperature=0.7)\n        self.executor_model = openai.ChatCompletion.create(model=\"claude-3-opus\", temperature=0.2)\n        self.reviewer_model = openai.ChatCompletion.create(model=\"gpt-4-turbo\", temperature=0.1)\n    \n    def process_task(self, task):\n        # Step 1: Plan the task\n        plan = self.planner_model.create_completion(\n            prompt=f\"Plan this task: {task}\"\n        )\n        \n        # Step 2: Execute the plan\n        result = self.executor_model.create_completion(\n            prompt=f\"Execute this plan: {plan}\"\n        )\n        \n        # Step 3: Review the result\n        review = self.reviewer_model.create_completion(\n            prompt=f\"Review this result: {result} and suggest improvements\"\n        )\n        \n        return result, review",
+      "resources": [
+        {
+          "name": "LangChain Documentation",
+          "url": "https://python.langchain.com/"
+        },
+        {
+          "name": "OpenAI Agent Guide",
+          "url": "https://platform.openai.com/docs/agents"
+        },
+        {
+          "name": "AI Agent Patterns",
+          "url": "https://www.promptingguide.ai/agents/patterns"
+        }
+      ],
+      "tags": [
+        "وكلاء AI",
+        "أتمتة",
+        "نماذج لغوية",
+        "تطوير"
+      ],
+      "quickRef": "بناء وكلاء AI يتضمن تحديد المهام، تصميم البنية، تطوير منطق التوجيه، إنشاء حلقة التغذية الراجعة، والاختبار المستمر.",
+      "quickRefEn": "Building AI agents involves task definition, architecture design, developing orchestration logic, creating feedback loops, and continuous testing.",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأساسي في بنية أي وكيل ذكي؟",
+          "options": [
+            "نموذج لغوي واحد",
+            "منطق التوجيه (Orchestration Logic)",
+            "واجهة المستخدم",
+            "قاعدة البيانات"
+          ],
+          "answer": 1,
+          "explain": "منطق التوجيه هو العنصر الأساسي الذي يقرر كيفية تفاعل المكونات المختلفة في الوكيل الذكي."
+        },
+        {
+          "q": "ما هي فائدة حلقة التغذية الراجعة في وكلاء AI؟",
+          "options": [
+            "تقليل تكاليف التشغيل",
+            "تحسين أداء الوكيل بناءً على التقييم",
+            "زيادة سرعة المعالجة",
+            "تقليل استهلاك الذاكرة"
+          ],
+          "answer": 1,
+          "explain": "تساعد حلقة التغذية الراجعة على تحسين أداء الوكيل من خلال تقييم النتائج وتطبيق التحسينات المستمرة."
+        },
+        {
+          "q": "أي نموذج من النماذج التالية هو الأنسب للمهمة التي تتطلب دقة عالية في التنفيذ؟",
+          "options": [
+            "نموذج درجة حرارة عالية",
+            "نموذج درجة حرارة منخفضة",
+            "نموذج كبير الحجم",
+            "نموذج سريع"
+          ],
+          "answer": 1,
+          "explain": "النماذج ذات درجة الحرارة المنخفضة تنتجه أكثر دقة وتحديداً، مما يجعلها مناسبة للمهام التي تتطلب دقة عالية في التنفيذ."
+        }
+      ],
+      "addedAt": "2026-09-26"
+    },
+    {
       "id": "k-2026-09-25-أساسيات-أمن-الذكاء-الاصطناعي",
       "title": "أساسيات أمن الذكاء الاصطناعي",
       "titleEn": "AI Safety Basics",
