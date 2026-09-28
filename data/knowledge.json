@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-28-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاصطناعي",
+      "title": "قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
+      "titleEn": "Vector Databases for AI Applications",
+      "why": "تعتبر قواعد البيانات المتجهية أساسية لتخزين واسترجاع المعلومات المعرفية في نماذج الذكاء الاصطناعي الحديثة، خاصة في أنظمة الاسترجاع المعزز بالجملة (RAG) وتطبيقات الذكاء الاصطناعي التي تتطلب معالجة نصوص معقدة.",
+      "whyEn": "Vector databases are essential for storing and retrieving knowledge in modern AI models, especially in Retrieval-Augmented Generation (RAG) systems and AI applications requiring complex text processing.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "فهم المفاهيم الأساسية",
+          "detail": "تعلم عن المتجهات (Vectors) وكيفية تمثيل النصوص كمتجهات رقمية. فهم المسافات بين المتجهات وكيفية استخدامها لمقارنة النصوص."
+        },
+        {
+          "title": "اختيار قاعدة البيانات المناسبة",
+          "detail": "استكشاف خيارات قواعد البيانات المتجهية مثل Pinecone, Chroma, FAISS، واختيار الأنسب لمتطلبات المشروع بناءً على الحجم، الأداء، والتكلفة."
+        },
+        {
+          "title": "بناء نظام التضمين (Embedding)",
+          "detail": "اختيار نموذج التضمين المناسب مثل Sentence-BERT, OpenAI embeddings، أو نماذج أخرى. تطوير نظام لتحويل النصوص إلى متجهات رقمية."
+        },
+        {
+          "title": "تنفيذ عملية التخزين والاسترجاع",
+          "detail": "بناء API لتخزين المستندات كمتجهات في قاعدة البيانات، وتطوير آلية لاسترجاع المستندات الأكثر相关性 بناءً على استعلامات المستخدم."
+        },
+        {
+          "title": "دمج مع نموذج اللغة",
+          "detail": "ربط قاعدة البيانات المتجهية بنموذج لغة لتطبيق أنظمة RAG، حيث يتم استخدام المستندات ذات الصلة لتحسين جودة استجابات النموذج."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Basic Concepts",
+          "detail": "Learn about vectors and how text is represented as numerical vectors. Understand distances between vectors and how they're used for text comparison."
+        },
+        {
+          "title": "Choose the Right Database",
+          "detail": "Explore vector database options like Pinecone, Chroma, FAISS, and select the best fit for your project based on size, performance, and cost requirements."
+        },
+        {
+          "title": "Build the Embedding System",
+          "detail": "Select an appropriate embedding model like Sentence-BERT, OpenAI embeddings, or others. Develop a system to convert text into numerical vectors."
+        },
+        {
+          "title": "Implement Storage and Retrieval",
+          "detail": "Build an API to store documents as vectors in the database, and develop a mechanism to retrieve the most relevant documents based on user queries."
+        },
+        {
+          "title": "Integrate with Language Model",
+          "detail": "Connect the vector database to a language model to implement RAG systems, where relevant documents are used to improve the quality of model responses."
+        }
+      ],
+      "code": "import chromadb\nfrom sentence_transformers import SentenceTransformer\n\n# Initialize ChromaDB client\nclient = chromadb.Client()\ncollection = client.create_collection(\"documents\")\n\n# Initialize embedding model\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\n# Add documents\ndocuments = [\"AI transforms industries\", \"Vector databases store embeddings\", \"RAG improves AI responses\"]\nembeddings = model.encode(documents)\n\n# Store documents and embeddings\ncollection.add(\n    documents=documents,\n    embeddings=embeddings.tolist()\n)\n\n# Query the database\nquery = \"artificial intelligence\"\nquery_embedding = model.encode([query]).tolist()\nresults = collection.query(\n    query_embeddings=query_embedding,\n    n_results=2\n)\nprint(results)",
+      "resources": [
+        {
+          "name": "ChromaDB Documentation",
+          "url": "https://docs.trychroma.com/"
+        },
+        {
+          "name": "Pinecone Vector Database",
+          "url": "https://www.pinecone.io/"
+        },
+        {
+          "name": "Sentence Transformers",
+          "url": "https://www.sbert.net/"
+        }
+      ],
+      "tags": [
+        "قواعد البيانات المتجهية",
+        "RAG",
+        "نماذج اللغة",
+        "تضمين النصوص"
+      ],
+      "quickRef": "قواعد البيانات المتجهية تخزن النصوص كمتجهات رقمية، تُستخدم للاسترجاع المعزز بالجملة (RAG) وتحسين أداء نماذج الذكاء الاصطناعي.",
+      "quickRefEn": "Vector databases store text as numerical vectors, used for Retrieval-Augmented Generation (RAG) and improving AI model performance.",
+      "quiz": [
+        {
+          "q": "ما هي الوظيفة الأساسية لقواعد البيانات المتجهية في تطبيقات الذكاء الاصطناعي؟",
+          "options": [
+            "تخزين البيانات التقليدية في جداول",
+            "تمثيل النصوص كمتجهات رقمية واسترجاعها بناء على التشابه",
+            "تنفيذ خوارزميات التعلم الآلي",
+            "تحسين سرعة معالجة وحدات المعالجة المركزية"
+          ],
+          "answer": 1,
+          "explain": "تخزين النصوص كمتجهات رقمية واسترجاع المستندات الأكثر تشابهًا مع الاستعلام هو الوظيفة الأساسية لقواعد البيانات المتجهية."
+        },
+        {
+          "q": "أي من الخيارات التالية ليس من قواعد البيانات المتجهية الشائعة؟",
+          "options": [
+            "Pinecone",
+            "Chroma",
+            "FAISS",
+            "MySQL"
+          ],
+          "answer": 3,
+          "explain": "MySQL هي قاعدة بيانات علائقية تقليدية وليست قاعدة بيانات متجهية مصممة للعمل مع المتجهات الرقمية."
+        },
+        {
+          "q": "ما هي تقنية RAG؟",
+          "options": [
+            "تقنية لتحسين أداء نماذج اللغة باستخدام البيانات المخزنة",
+            "طريقة لضمان أمان البيانات في قواعد البيانات",
+            "خوارزمية لضغط النصوص",
+            "تقنية لتوليد الصور من النصوص"
+          ],
+          "answer": 0,
+          "explain": "RAG (Retrieval-Augmented Generation) هي تقنية لتحسين أداء نماذج اللغة باستخدام البيانات المخزنة والاسترجاع المعزز."
+        }
+      ],
+      "addedAt": "2026-09-28"
+    },
+    {
       "id": "k-2026-09-28-فهم-وتقييم-مقاييس-أداء-نماذج-الذكاء-الاصطناعي",
       "title": "فهم وتقييم مقاييس أداء نماذج الذكاء الاصطناعي",
       "titleEn": "Understanding and Evaluating AI Model Performance Metrics",
