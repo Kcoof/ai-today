@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-28-فهم-وتقييم-مقاييس-أداء-نماذج-الذكاء-الاصطناعي",
+      "title": "فهم وتقييم مقاييس أداء نماذج الذكاء الاصطناعي",
+      "titleEn": "Understanding and Evaluating AI Model Performance Metrics",
+      "why": "تقييم أداء نماذج الذكاء الاصطناعي أمر حاسم لاختيار النموذج المناسب لمهمتك وتحسينه. يساعدك هذا على فهم نقاط القوة والضعف في النماذج واتخاذ قرارات مستنيرة.",
+      "whyEn": "Evaluating AI model performance is crucial for selecting the right model for your task and improving it. This helps you understand the strengths and weaknesses of models and make informed decisions.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم المقاييس الأساسية",
+          "detail": "مقاييس مثل الدقة (Accuracy)، والاستدعاء (Recall)، والدقة (Precision) هي أساسية لتقييم الأداء. تعلم كيفية تفسير هذه المقاييس سيكون أساسًا لتقييم متقدم."
+        },
+        {
+          "title": "اختيار المقاييس المناسبة",
+          "detail": "لكل مهمة، توجد مقاييس مختلفة. على سبيل المثال، في مهام التصنيف، قد تهتم أكثر بدقة الفئة الإيجابية (Positive Class Precision) بدلاً من الدقة العامة."
+        },
+        {
+          "title": "استخدام مجموعات البيانات المتعددة",
+          "detail": "اختبر النموذج على مجموعات بيانات مختلفة للتأكد من أدائه في سيناريوهات متنوعة. هذا يساعد في اكتشاف مشاكل التحيز (Bias) أو التعمم (Generalization)."
+        },
+        {
+          "title": "تقييم الأداء في المواقف الواقعية",
+          "detail": "المقاييس المعملية قد لا تعكس الأداء في العالم الحقيقي. قم باختبار النموذج في ظروف تشبه الاستخدام الفعلي."
+        },
+        {
+          "title": "مراقبة الأداء بمرور الوقت",
+          "detail": "الأداء قد يتغير بمرور الوقت بسبب تغير البيانات أو الاستخدام. قم بمراقبة المقاييس بانتظام لضمان استمرار الأداء الجيد."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Basic Metrics",
+          "detail": "Metrics like Accuracy, Recall, and Precision are fundamental for evaluating performance. Learning how to interpret these metrics will be the foundation for advanced evaluation."
+        },
+        {
+          "title": "Choosing Appropriate Metrics",
+          "detail": "For each task, different metrics exist. For example, in classification tasks, you might care more about Positive Class Precision rather than overall accuracy."
+        },
+        {
+          "title": "Using Multiple Datasets",
+          "detail": "Test the model on different datasets to ensure it performs in various scenarios. This helps identify bias or generalization issues."
+        },
+        {
+          "title": "Evaluating Performance in Real-World Scenarios",
+          "detail": "Lab metrics may not reflect real-world performance. Test the model in conditions similar to actual use."
+        },
+        {
+          "title": "Monitoring Performance Over Time",
+          "detail": "Performance can change over time due to data drift or usage changes. Regularly monitor metrics to ensure continued good performance."
+        }
+      ],
+      "code": "from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score\n\ndef evaluate_model(y_true, y_pred):\n    accuracy = accuracy_score(y_true, y_pred)\n    precision = precision_score(y_true, y_pred, average='weighted')\n    recall = recall_score(y_true, y_pred, average='weighted')\n    f1 = f1_score(y_true, y_pred, average='weighted')\n    \n    print(f\"Accuracy: {accuracy:.4f}\")\n    print(f\"Precision: {precision:.4f}\")\n    print(f\"Recall: {recall:.4f}\")\n    print(f\"F1 Score: {f1:.4f}\")\n    \n    return {\n        \"accuracy\": accuracy,\n        \"precision\": precision,\n        \"recall\": recall,\n        \"f1\": f1\n    }",
+      "resources": [
+        {
+          "name": "Scikit-learn Metrics Documentation",
+          "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
+        },
+        {
+          "name": "ML Metrics Guide by Google",
+          "url": "https://developers.google.com/machine-learning/crash-course/classification/precision-and-recall"
+        },
+        {
+          "name": "Papers on Model Evaluation",
+          "url": "https://arxiv.org/abs/1811.11163"
+        }
+      ],
+      "tags": [
+        "تقييم النماذج",
+        "مقاييس الأداء",
+        "ذكاء اصطناعي",
+        "تحليل البيانات"
+      ],
+      "quickRef": "اختر المقاييس المناسبة لمهمتك، اختبر على بيانات متنوعة، وراقب الأداء بمرور الوقت.",
+      "quickRefEn": "Choose appropriate metrics for your task, test on diverse data, and monitor performance over time.",
+      "quiz": [
+        {
+          "q": "ما هو أهم مقياس لتقييم نموذج تصنيف عندما تكون الفئة الإيجابية نادرة؟",
+          "options": [
+            "الدقة (Accuracy)",
+            "الدقة (Precision)",
+            "الاستدعاء (Recall)",
+            "مؤشر F1"
+          ],
+          "answer": 2,
+          "explain": "عندما تكون الفئة الإيجابية نادرة، يكون الاستدعاء (Recall) أكثر أهمية لأنه يقيس النسبة المئوية للإيجابيات الحقيقية التي تم التعرف عليها بشكل صحيح."
+        },
+        {
+          "q": "ما هو المفهوم الذي يصف قدرة النموذج على العمل بشكل جيد على بيانات جديدة لم يرها أثناء التدريب؟",
+          "options": [
+            "الدقة (Accuracy)",
+            "التحيز (Bias)",
+            "التعميم (Generalization)",
+            "الدقة (Precision)"
+          ],
+          "answer": 2,
+          "explain": "التعميم (Generalization) هو قدرة النموذج على تطبيق ما تعلمه على بيانات جديدة لم يرها أثناء التدريب."
+        },
+        {
+          "q": "لماذا من المهم تقييم النموذج على مجموعات بيانات متعددة؟",
+          "options": [
+            "لزيادة سرعة النموذج",
+            "لاكتشاف مشاكل التحيز أو التعمم",
+            "لزيادة عدد المعلمات",
+            "لجعل النموذج أكثر تعقيدًا"
+          ],
+          "answer": 1,
+          "explain": "اختبار النموذج على مجموعات بيانات متعددة يساعد في اكتشاف مشاكل التحيز أو التعمم التي قد لا تظهر عند اختباره على مجموعة بيانات واحدة فقط."
+        }
+      ],
+      "addedAt": "2026-09-28"
+    },
+    {
       "id": "k-2026-09-26-بناء-وكلاء-الذكاء-الاصطناعي",
       "title": "بناء وكلاء الذكاء الاصطناعي",
       "titleEn": "Building AI Agents",
