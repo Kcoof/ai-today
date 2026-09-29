@@ -1,6 +1,110 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-29-تحسين-النماذج-باستخدام-تقنيات-الـ-quantization",
+      "title": "تحسين النماذج باستخدام تقنيات الـ Quantization",
+      "titleEn": "Model Optimization Using Quantization Techniques",
+      "why": "تساعد تقنيات الكمّنة (Quantization) في تقليل حجم النماذج وتسريع أدائها مع الحفاظ على دقتها، مما يجعلها أكثر كفاءة للتشغيل على أجهزة محدودة الموارد.",
+      "whyEn": "Quantization techniques help reduce model size and accelerate performance while maintaining accuracy, making them more efficient for deployment on resource-constrained devices.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم أساسيات الكمّنة",
+          "detail": "الكمّنة هي عملية تقليل دقة الأرقام في النموذج، مثل تحويل الأعداد العشرية الدقيقة إلى أعداد صحيحة. هذا يقلل من الذاكرة المطلوبة والعمليات الحسابية."
+        },
+        {
+          "title": "اختيار استراتيجية الكمّنة",
+          "detail": "يمكن استخدام كمّن ثنائي (8-bit) أو رباعي (4-bit). الكمّن الرباعي يوفر توفير أكبر في الذاكرة ولكنه قد يؤثر أكثر على الدقة."
+        },
+        {
+          "title": "تطبيق الكمّنة على النموذج",
+          "detail": "استخدم أدوات مثل Hugging Face Transformers أو TensorRT لتطبيق الكمّنة على نموذجك. بعض النماذج تدعم الكمّن المدمج مسبقًا."
+        },
+        {
+          "title": "تقييم الأداء بعد الكمّنة",
+          "detail": "اختبر النموذج بعد الكمّة على مجموعة بيانات التحقق لضمان أن الدقة لم تتأثر بشكل كبير. قارن حجم النموذج وسرعته قبل وبعد الكمّنة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Quantization Basics",
+          "detail": "Quantization is the process of reducing numerical precision in a model, such as converting precise floating-point numbers to integers. This reduces memory requirements and computational operations."
+        },
+        {
+          "title": "Choose a Quantization Strategy",
+          "detail": "You can use 8-bit or 4-bit quantization. 4-bit quantization offers greater memory savings but may impact accuracy more significantly."
+        },
+        {
+          "title": "Apply Quantization to the Model",
+          "detail": "Use tools like Hugging Face Transformers or TensorRT to apply quantization to your model. Some models support built-in quantization options."
+        },
+        {
+          "title": "Evaluate Performance After Quantization",
+          "detail": "Test the quantized model on a validation dataset to ensure accuracy hasn't been significantly impacted. Compare the model's size and speed before and after quantization."
+        }
+      ],
+      "code": "from transformers import AutoModelForCausalLM\nfrom transformers import AutoTokenizer\nimport torch\n\n# Load model and tokenizer\nmodel_name = 'gpt2'\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\ntokenizer = AutoTokenizer.from_pretrained(model_name)\n\n# Apply 4-bit quantization\nquantized_model = torch.quantization.quantize_dynamic(\n    model, {torch.nn.Linear}, dtype=torch.qint8\n)\n\n# Save quantized model\nquantized_model.save_pretrained(f'{model_name}_quantized')",
+      "resources": [
+        {
+          "name": "Hugging Face Documentation",
+          "url": "https://huggingface.co/docs/transformers/main_classes/quantization"
+        },
+        {
+          "name": "NVIDIA TensorRT",
+          "url": "https://developer.nvidia.com/tensorrt"
+        },
+        {
+          "name": "PyTorch Quantization Tutorial",
+          "url": "https://pytorch.org/docs/stable/quantization.html"
+        }
+      ],
+      "tags": [
+        "تحسين النماذج",
+        "الكمّنة",
+        "تخفيض الحجم",
+        "تسريع الأداء"
+      ],
+      "quickRef": "الكمّنة: تقليل دقة الأرقام في النموذج لتقليل الحجم وتسريع الأداء مع الحفاظ على الدقة.",
+      "quickRefEn": "Quantization: Reducing numerical precision in models to decrease size and speed up performance while maintaining accuracy.",
+      "quiz": [
+        {
+          "q": "ما هي الكمّنة في نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "عملية زيادة دقة الأرقام في النموذج",
+            "عملية تقليل دقة الأرقام في النموذج",
+            "عملية إضافة طبقات جديدة للنموذج",
+            "عملية تدريب النموذج على بيانات جديدة"
+          ],
+          "answer": 1,
+          "explain": "الكمّنة هي عملية تقليل دقة الأرقام في النموذج، مثل تحويل الأعداد العشرية الدقيقة إلى أعداد صحيحة، مما يساعد في تقليل حجم النموذج وتسريع أدائه."
+        },
+        {
+          "q": "ما هي الفائدة الرئيسية لتطبيق تقنيات الكمّنة؟",
+          "options": [
+            "زيادة دقة النموذج",
+            "تقليل حجم النموذج وتسريع أدائه",
+            "إضافة ميزات جديدة للنموذج",
+            "تقليل عدد المعلمات في النموذج"
+          ],
+          "answer": 1,
+          "explain": "الفائدة الرئيسية للكمّنة هي تقليل حجم النموذج وتسريع أدائه مع الحفاظ على مستوى مقبول من الدقة، مما يجعل النموذج أكثر كفاءة للتشغيل على أجهزة محدودة الموارد."
+        },
+        {
+          "q": "أي نوع من الكمّن يوفر أكبر توفير في الذاكرة ولكنه قد يؤثر أكثر على الدقة؟",
+          "options": [
+            "كمّن 32-bit",
+            "كمّن 16-bit",
+            "كمّن 8-bit",
+            "كمّن 4-bit"
+          ],
+          "answer": 3,
+          "explain": "الكمّن 4-bit يوفر أكبر توفير في الذاكرة ولكنه قد يؤثر أكثر على الدقة مقارنة بالكمّنات ذات الدقة الأعلى مثل 8-bit أو 16-bit."
+        }
+      ],
+      "addedAt": "2026-09-29"
+    },
+    {
       "id": "k-2026-09-28-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاصطناعي",
       "title": "قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
       "titleEn": "Vector Databases for AI Applications",
