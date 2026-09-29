@@ -1,6 +1,110 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-29-تحسين-أداء-النماذج-المحلية",
+      "title": "تحسين أداء النماذج المحلية",
+      "titleEn": "Optimizing Local Model Performance",
+      "why": "مع نمو نماذج الذكاء الاصطناعي الكبيرة، أصبح تشغيل النماذج محليًا أكثر أهمية للخصوصية والسرعة. تعلم كيفية تحسين أداء النماذج المحلية يسمح لك بالاستفادة الكاملة من قدراتها دون الاعتماد على الاتصال بالإنترنت أو الخوادم البعيدة.",
+      "whyEn": "With the growth of large AI models, running models locally has become increasingly important for privacy and speed. Learning how to optimize local model performance allows you to fully leverage their capabilities without relying on internet connectivity or remote servers.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "اختيار النموذج المناسب",
+          "detail": "اختر نموذجًا صغيرًا ومحسّنًا للعمل المحلي مثل Phi-2 أو Mistral 7B، مع مراعاة متطلبات الموارد والاستخدام المقصود."
+        },
+        {
+          "title": "استخدام تقنيات Quantization",
+          "detail": "قلل حجم النموذج باستخدام تقنيات مثل Quantization لتحسين الأداء على أجهزة محدودة الموارد مع الحفاظ على دقة مقبولة."
+        },
+        {
+          "title": "تحسين المعلمات",
+          "detail": "اضبط معلمات مثل نافذة السياق (context window) وحجم الدفعة (batch size) لتتناسب مع قدرات جهازك واستخدامك المحدد."
+        },
+        {
+          "title": "استخدام واجهات برمجة التطبيقات المحلية",
+          "detail": "استخدم مكتبات مثل llama.cpp أو Ollama لتشغيل النماذج بكفاءة عالية على أجهزة محلية."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Choosing the Right Model",
+          "detail": "Select a small, locally-optimized model like Phi-2 or Mistral 7B, considering resource requirements and intended use."
+        },
+        {
+          "title": "Using Quantization Techniques",
+          "detail": "Reduce model size using techniques like Quantization to improve performance on resource-limited devices while maintaining acceptable accuracy."
+        },
+        {
+          "title": "Optimizing Parameters",
+          "detail": "Adjust parameters like context window and batch size to match your device capabilities and specific use case."
+        },
+        {
+          "title": "Utilizing Local APIs",
+          "detail": "Use libraries like llama.cpp or Ollama to run models efficiently on local devices."
+        }
+      ],
+      "code": "import ollama\n\n# Run a local model with optimized parameters\nresponse = ollama.chat(\n    model='phi2',\n    messages=[{'role': 'user', 'content': 'Explain quantum computing in simple terms'}],\n    options={\n        'temperature': 0.7,\n        'num_ctx': 2048,  # Optimized context window\n        'repeat_penalty': 1.1\n    }\n)\nprint(response['message']['content'])",
+      "resources": [
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/"
+        },
+        {
+          "name": "llama.cpp",
+          "url": "https://github.com/ggerganov/llama.cpp"
+        },
+        {
+          "name": "LocalAI",
+          "url": "https://github.com/go-skynet/LocalAI"
+        }
+      ],
+      "tags": [
+        "نماذج محلية",
+        "تحسين الأداء",
+        "الخصوصية",
+        "الذكاء الاصطناعي على الجهاز"
+      ],
+      "quickRef": "اختر نموذجًا صغيرًا، استخدم Quantization، اضبط المعلمات، واستخدم واجهات برمجة التطبيقات المحلية لتحسين أداء النماذج المحلية.",
+      "quickRefEn": "Choose a small model, use quantization, optimize parameters, and utilize local APIs to improve local model performance.",
+      "quiz": [
+        {
+          "q": "ما هي تقنية Quantization المستخدمة لتحسين أداء النماذج المحلية؟",
+          "options": [
+            "تقليل عدد المعلمات في النموذج",
+            "تحويل أوزان النموذج من أرقام عشرية إلى أعداد صحيحة",
+            "زيادة حجم السياق",
+            "تقليل عدد الطبقات في النموذج"
+          ],
+          "answer": 1,
+          "explain": "Quantization هي تقنية تحويل أوزان النموذج من أرقام عشرية دقيقة إلى أعداد صحيحة، مما يقلل من حجم النموذج ويحسن أداءه على الأجهزة ذات الموارد المحدودة."
+        },
+        {
+          "q": "ما هو المكتبة الأكثر شيوعًا لتشغيل النماذج المحلية بكفاءة عالية؟",
+          "options": [
+            "TensorFlow",
+            "PyTorch",
+            "llama.cpp",
+            "Hugging Face Transformers"
+          ],
+          "answer": 2,
+          "explain": "llama.cpp هي مكتبة مخصصة لتشغيل نماذج اللغة الكبيرة بكفاءة على أجهزة محلية، خاصة تلك التي تعمل وحدات المعالجة المركزية فقط."
+        },
+        {
+          "q": "ما هو العامل الأهم عند اختيار نموذج للعمل المحلي؟",
+          "options": [
+            "حجم النموذج فقط",
+            "دقة النموذج فقط",
+            "حجم النموذج ومتطلبات الموارد",
+            "السعر فقط"
+          ],
+          "answer": 2,
+          "explain": "عند اختيار نموذج للعمل المحلي، يجب مراعاة حجم النموذج ومتطلبات الموارد لضمان تشغيله بكفاءة على جهازك، مع الحفاظ على دقة مقبولة للمهمة المطلوبة."
+        }
+      ],
+      "addedAt": "2026-09-29"
+    },
+    {
       "id": "k-2026-09-29-تحسين-النماذج-باستخدام-تقنيات-الـ-quantization",
       "title": "تحسين النماذج باستخدام تقنيات الـ Quantization",
       "titleEn": "Model Optimization Using Quantization Techniques",

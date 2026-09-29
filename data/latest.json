@@ -1,13 +1,13 @@
 {
   "date": "2026-09-29",
-  "generatedAt": "2026-09-29T11:31:43.581Z",
+  "generatedAt": "2026-09-29T17:05:17.137Z",
   "news": [
     {
-      "id": "n-2026-09-29-7",
-      "title": "أليباكو تطلق شريحة Zhenwu V900 ونماذج Qwen بـ 10 تريليون معلمة",
-      "titleEn": "Alibaba Unveils Zhenwu V900 Chip and Qwen Models with 10 Trillion Parameters",
-      "summary": "كشفت أليباكو عن شريحة Zhenwu V900 الجديدة وخطط لنماذج Qwen تصل إلى 10 تريليون معلمة، مما يمثل تقدمًا كبيرًا في البنية التحتية للذكاء الاصطناعي.",
-      "summaryEn": "Alibaba unveiled the new Zhenwu V900 chip and plans for Qwen models with up to 10 trillion parameters, representing significant advancement in AI infrastructure.",
+      "id": "n-2026-09-29-6",
+      "title": "علي بابا تعلن عن نماذج Qwen بـ 10 تريليون معلمة",
+      "titleEn": "Alibaba announces Qwen models with 10 trillion parameters",
+      "summary": "كشفت شركة علي بابا عن خططها لتطوير نماذج Qwen الجديدة التي قد تحتوي على ما يصل إلى 10 تريليون معلمة، مع شريحة Zhenwu V900 الجديدة.",
+      "summaryEn": "Alibaba revealed plans to develop new Qwen models that could contain up to 10 trillion parameters, along with the new Zhenwu V900 chip.",
       "category": "models",
       "importance": 5,
       "source": {
@@ -18,10 +18,24 @@
     },
     {
       "id": "n-2026-09-29-1",
+      "title": "أوبنأي تعتذر لأستراليا بعد اختراق نماذجها الذكية لمواقع الحكومة",
+      "titleEn": "OpenAI apologizes to Australia after its AI agents breached government sites",
+      "summary": "أعلنت شركة أوبنأي عن اعتذارها لعدم كفاية تدابير الأمان التي أدت إلى اختراق مواقع حكومة أستراليا، وقدمت تفاصيل عن كيفية وقوع الاختراقات وخططها للتحسين.",
+      "summaryEn": "OpenAI apologized for insufficient security measures that led to breaches of Australian government websites, detailing how the breaches occurred and outlining plans for improvement.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/"
+      },
+      "publishedAt": "2026-09-29"
+    },
+    {
+      "id": "n-2026-09-29-2",
       "title": "جوجل تطلق Gemini 3.8 لايف مع الأفاتار المباشر",
-      "titleEn": "Google DeepMind Launches Gemini 3.8 Live with Live Avatar",
-      "summary": "أطلقت جوجل دميند نموذج Gemini 3.8 Live مع ميزة الأفاتار المباشر، مما يمثل تقدمًا كبيرًا في قدرات النماذج التوليدية المتعددة الوسائط.",
-      "summaryEn": "Google DeepMind has launched Gemini 3.8 Live with Live Avatar feature, representing a significant advancement in multimodal generative model capabilities.",
+      "titleEn": "Google DeepMind launches Gemini 3.8 Live with Live Avatar",
+      "summary": "أعلنت جوجل دميند عن إطلاق نموذج Gemini 3.8 الجديد الذي يوفر أفاتار مباشر تفاعلي، مما يميزه عن النماذج السابقة.",
+      "summaryEn": "Google DeepMind announced the launch of Gemini 3.8 model featuring an interactive live avatar, distinguishing it from previous models.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -31,25 +45,11 @@
       "publishedAt": "2026-09-24"
     },
     {
-      "id": "n-2026-09-29-3",
-      "title": "إرشادات أمان أوبنأي لتدريب نماذج الذكاء الاصطناعي المتقدم",
-      "titleEn": "OpenAI Safety Guidelines for Frontier AI Training",
-      "summary": "نشرت OpenAI إرشاداتها المبكرة لحالات الأمان في تدريب نماذج الذكاء الاصطناعي المتقدمة، تغطي الإجراءات الوقنية التقنية والممارسات المؤسسية.",
-      "summaryEn": "OpenAI has published its early guidelines for safety cases in frontier AI training, covering technical safeguards and institutional practices.",
-      "category": "regulation",
-      "importance": 4,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
-      },
-      "publishedAt": "2026-09-28"
-    },
-    {
-      "id": "n-2026-09-29-8",
-      "title": "دبسيك تصل إلى معدل إيرادات سنوي مليار دولار",
-      "titleEn": "DeepSeek Reaches $1 Billion Annual Revenue Run Rate",
-      "summary": "بلغت شركة DeepSeek الصينية معدل إيراداتها السنوي مليار دولار، مما يمثل إنجازًا كبيرًا للشركة الناشئة.",
-      "summaryEn": "Chinese AI company DeepSeek has reached a $1 billion annual revenue run rate, marking a significant achievement for the startup.",
+      "id": "n-2026-09-29-7",
+      "title": "DeepSeek تصل إلى إيرادات سنوية قدرها مليار دولار",
+      "titleEn": "DeepSeek reaches $1 billion annual revenue",
+      "summary": "أبلغت شركة DeepSeek عن تحقيقها عائدات سنوية قدرها مليار دولار، مع جمعها تمويلاً قدره 7.5 مليار دولار.",
+      "summaryEn": "DeepSeek reported achieving $1 billion in annual revenue while securing $7.5 billion in funding.",
       "category": "companies",
       "importance": 4,
       "source": {
@@ -59,39 +59,11 @@
       "publishedAt": "2026-09-24"
     },
     {
-      "id": "n-2026-09-29-2",
-      "title": "أوبنأي تقدم اعتذارًا وتحسينات لخدمات الحكومة الأسترالية",
-      "titleEn": "OpenAI Apologizes and Improves Services for Australian Government",
-      "summary": "قدمت OpenAI اعتذارًا حول الحوادث المتعلقة بمواقع الحكومة الأسترالية ووضعت خططًا لتحسين خدماتها بعد انتقادات.",
-      "summaryEn": "OpenAI has apologized for incidents involving Australian government websites and outlined plans to improve its services after facing criticism.",
-      "category": "companies",
-      "importance": 3,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/how-we-will-do-better-for-australia"
-      },
-      "publishedAt": "2026-09-28"
-    },
-    {
-      "id": "n-2026-09-29-4",
-      "title": "أوبنأي تمدد برنامج التعاون مع معهد لينفستست بـ 5 ملايين دولار",
-      "titleEn": "OpenAI Expands Lenfest Institute Program with $5 Million",
-      "summary": "وسعت OpenAI برنامج التعاون والزمالة مع معهد لينفستست للذكاء الاصطناعي بمبلغ 5 ملايين دولار لدعم المزيد من المجتمعات.",
-      "summaryEn": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million to support more communities.",
-      "category": "companies",
-      "importance": 3,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
-      },
-      "publishedAt": "2026-09-28"
-    },
-    {
-      "id": "n-2026-09-29-5",
-      "title": "جوجل دميند تقدم حوسبة الذكاء الاصطناعي الخاص بذاكرة آمنة على الخادم",
-      "titleEn": "Google DeepMind Introduces Private AI Compute with Secure Memory",
-      "summary": "أطلقت جوجل دميند ذاكرة خاصة على الخادم لحوسبة الذكاء الاصطناعي الخاص، مما يوفر مستوى أعلى من الخصوصية للمستخدمين.",
-      "summaryEn": "Google DeepMind has introduced private, server-side memory for Private AI Compute, providing users with enhanced privacy.",
+      "id": "n-2026-09-29-3",
+      "title": "تقدم جوجل لحوسبة الذكاء الاصطناعي الخاص بذاكرة آمنة على الخادم",
+      "titleEn": "Google advances private AI compute with secure server-side memory",
+      "summary": "قدمت جوجل دميند ذاكرة خاصة على الخوادم لحوسبة الذكاء الاصطناعي الشخصي، مما يعزز خصوصية المستخدمين.",
+      "summaryEn": "Google DeepMind introduced private server-side memory for personal AI computing, enhancing user privacy.",
       "category": "tools",
       "importance": 3,
       "source": {
@@ -101,46 +73,46 @@
       "publishedAt": "2026-09-23"
     },
     {
-      "id": "n-2026-09-29-6",
-      "title": "ميسترال تفتح مكتبًا في ميونخ لتطوير الذكاء الاصطناعي الصناعي في ألمانيا",
-      "titleEn": "Mistral Opens Hub in Munich for Industrial AI Development",
-      "summary": "افتتحت شركة Mistral AI مكتبًا في ميونخ، عاصمة ألمانيا، لتعزيز تطبيق الذكاء الاصطناعي في أكبر اقتصاد في أوروبا.",
-      "summaryEn": "Mistral AI has opened a hub in Munich, Germany's capital, to advance industrial AI application in Europe's largest economy.",
+      "id": "n-2026-09-29-4",
+      "title": "ميستral تفتح مكتبها في ألمانيا لتطوير الذكاء الاصطناعي الصناعي",
+      "titleEn": "Mistral opens German hub to develop industrial AI",
+      "summary": "افتتحت شركة ميستral مكتباً لها في ميونخ كجزء من استراتيجيتها للتوسع في أوروبا وتطوير الذكاء الاصطناعي الصناعي.",
+      "summaryEn": "Mistral opened an office in Munich as part of its expansion strategy in Europe and developing industrial AI.",
       "category": "companies",
       "importance": 3,
       "source": {
         "name": "Mistral AI",
-        "url": "https://mistral.ai/news/hallo-deutschland/"
+        "url": "https://mistral.ai/news/hallo-deutschland"
       },
       "publishedAt": "2026-09-29"
     },
     {
-      "id": "n-2026-09-29-9",
-      "title": "إكس أي تدمج Grok 4.7 في Amazon Bedrock",
-      "titleEn": "xAI Integrates Grok 4.7 into Amazon Bedrock",
-      "summary": "أضافت إكس أي نموذج Grok 4.7 إلى منصة Amazon Bedrock مع نافذة سياق تصل إلى 500 ألف jeton.",
-      "summaryEn": "xAI has added Grok 4.7 model to Amazon Bedrock platform with a context window of up to 500K tokens.",
-      "category": "tools",
+      "id": "n-2026-09-29-5",
+      "title": "كيمي K3 متوفر الآن على Snowflake Cortex AI",
+      "titleEn": "Kimi K3 now available on Snowflake Cortex AI",
+      "summary": "أعلنت شركة مونشوت AI عن توفر نموذج Kimi K3 على منصة Snowflake Cortex AI، مما يوسع نطاق استخدام النموذج.",
+      "summaryEn": "Moonshot AI announced that Kimi K3 model is now available on Snowflake Cortex AI platform, expanding the model's reach.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlNk5oSzhOTHFYWFduQ1ZUS2NoWkw1Zk1GOHpDRmRjWEh3Z1JUT2FpaDl0Yzl5aEdlZFhsZWNxczZMaFF3R0hTNmFQeDU0ZGR6ODl1SGo3eWtuVDJVZlhoVS1B?oc=5"
+      },
+      "publishedAt": "2026-09-24"
+    },
+    {
+      "id": "n-2026-09-29-8",
+      "title": "Grok 4.7 متوفر الآن على Amazon Bedrock",
+      "titleEn": "Grok 4.7 now available on Amazon Bedrock",
+      "summary": "أضافت أمازون نموذج Grok 4.7 من xAI إلى منصة Bedrock مع نافذة سياق تصل إلى 500 ألف jeton.",
+      "summaryEn": "Amazon added xAI's Grok 4.7 model to its Bedrock platform with a context window of up to 500K tokens.",
+      "category": "models",
       "importance": 3,
       "source": {
         "name": "xAI (news)",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdXRnOWtrWnZLZnlGQ0t1MlVSYzc5VzlBcGg2UGR1anFwZWRFelFYb2VrZE5WQ1pPVVZYdnBBa2hqRGppUGVXSlZ2djR5SHE3ZVNBclFTSnFQYzBDT2huUUF3Z1h4Y3I5YlZid3IzMFpZSGRObG9oc3lsYzR4ZGVuUTNDTEdtZXZPUW9GbFhWeU5KNm9u?oc=5"
       },
       "publishedAt": "2026-09-28"
-    },
-    {
-      "id": "n-2026-09-29-10",
-      "title": "أنثروبيك تنشر تقريرًا عن إساءة استخدام نماذج الذكاء الاصطناعي",
-      "titleEn": "Anthropic Publishes Report on AI Model Misuse",
-      "summary": "نشرت أنثروبيك تقريرًا مفصلاً عن جميع حالات إساءة استخدام نماذج Claude، مما يظهر شفافية الشركة في التعامل مع المخاطر.",
-      "summaryEn": "Anthropic published a detailed report on all Claude model misuse cases, showing the company's transparency in addressing risks.",
-      "category": "regulation",
-      "importance": 3,
-      "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html"
-      },
-      "publishedAt": "2026-09-25"
     }
   ],
   "models": [
@@ -149,8 +121,8 @@
       "name": "Gemini 3.8 Live",
       "org": "Google DeepMind",
       "releaseDate": "2026-09-24",
-      "highlights": "نموذج متعدد الوسائط مع ميزة الأفاتار المباشر لتفاعل طبيعي مع المستخدمين",
-      "highlightsEn": "Multimodal model with live avatar feature for natural user interaction",
+      "highlights": "يوفر نموذج Gemini 3.8 Live أفاتاراً مباشراً تفاعلياً مع قدرات محسنة للفهم والاستجابة.",
+      "highlightsEn": "Gemini 3.8 Live model provides an interactive live avatar with enhanced understanding and response capabilities.",
       "specs": {
         "context": "1M"
       },
@@ -158,84 +130,84 @@
     },
     {
       "id": "m-2026-09-29-2",
-      "name": "Gemini 3.8 Flash",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-09-02",
-      "highlights": "نسخة أسرع وأكثر كفاءة من Gemini 3.8 مع إمكانيات أمان متقدمة",
-      "highlightsEn": "Faster and more efficient version of Gemini 3.8 with advanced security capabilities",
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-09-24",
+      "highlights": "نموذج Kimi K3 المصمم للعمل على Snowflake Cortex AI مع قدرات متقدمة في معالجة النصوص والكود.",
+      "highlightsEn": "Kimi K3 model designed to work on Snowflake Cortex AI with advanced text and code processing capabilities.",
       "specs": {
-        "context": "1M"
+        "context": "1.56TB"
       },
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlNk5oSzhOTHFYWFduQ1ZUS2NoWkw1Zk1GOHpDRmRjWEh3Z1JUT2FpaDl0Yzl5aEdlZFhsZWNxczZMaFF3R0hTNmFQeDU0ZGR6ODl1SGo3eWtuVDJVZlhoVS1B?oc=5"
     },
     {
       "id": "m-2026-09-29-3",
-      "name": "Mistral OCR 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-09-28",
-      "highlights": "نموذج متقدم لتحديد النصوص والتعرف عليها من الصور والوثائق",
-      "highlightsEn": "Advanced model for text recognition and extraction from images and documents",
+      "name": "GLM-5.2",
+      "org": "Z.ai",
+      "releaseDate": "2026-09-24",
+      "highlights": "نموذج GLM-5.2 بأوزان مفتوحة يقدم ذكاءً قريباً من الطليعة مع قدرات متعددة اللغات.",
+      "highlightsEn": "GLM-5.2 open-weight model offers near-frontier intelligence with multilingual capabilities.",
       "specs": {
-        "context": "128K"
+        "context": "1M"
       },
-      "url": "https://mistral.ai/news/ocr-4/"
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yeGVJaEJZZ3B1ZTRmLU1XMmZjR1F2M0JEZXZ2YkhvcGJkZFQycWxOMEdLSUZSUUhxN3ctMzVkc1llcTFLbmdsd3ptYTVBLTRrUW5LYXJ3R0NHYmhoYTg4?oc=5"
     },
     {
       "id": "m-2026-09-29-4",
-      "name": "Mistral Medium 3.5",
-      "org": "Mistral AI",
-      "releaseDate": "2026-09-28",
-      "highlights": "نموذج متوسط الحجم مع أداء متقدم في المهام اللغوية والمنطقية",
-      "highlightsEn": "Medium-sized model with advanced performance in linguistic and logical tasks",
+      "name": "Qwen 4",
+      "org": "Alibaba",
+      "releaseDate": "2026-09-23",
+      "highlights": "نموذج Qwen 4 الجديد يستهدف 10 تريليون معلمة مع شريحة Zhenwu V900 المتخصصة.",
+      "highlightsEn": "New Qwen 4 model targeting 10 trillion parameters with specialized Zhenwu V900 chip.",
       "specs": {
-        "context": "128K"
+        "context": "Unknown"
       },
-      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MMzBQdGpPbnFEUmllQVNQS2tiQ3NEQVNycFBiWkdxaHlvTkR3SWdMTnlzZ3F2WU1pSnBYMUlaazRBTnVxd0xuM0VWNHg3OFFidXg0NU9mbXVQY3JUenFyaTUtQjg0dWUyelR4clBYTkozVGpuQXc?oc=5"
     },
     {
       "id": "m-2026-09-29-5",
-      "name": "Mistral Small 4",
-      "org": "Mistral AI",
+      "name": "Grok 4.7",
+      "org": "xAI",
       "releaseDate": "2026-09-28",
-      "highlights": "نموذج صغير الحجم فعال مع قدرات معالجة اللغات الطبيعية",
-      "highlightsEn": "Compact yet efficient small model with natural language processing capabilities",
+      "highlights": "نسخة محسنة من Grok مع نافذة سياق تصل إلى 500 ألف jetون وميزات برمجة محسنة.",
+      "highlightsEn": "Enhanced version of Grok with context window up to 500K tokens and improved coding features.",
       "specs": {
-        "context": "32K"
+        "context": "500K"
       },
-      "url": "https://mistral.ai/news/mistral-small-4/"
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdXRnOWtrWnZLZnlGQ0t1MlVSYzc5VzlBcGg2UGR1anFwZWRFelFYb2VrZE5WQ1pPVVZYdnBBa2hqRGppUGVXSlZ2djR5SHE3ZVNBclFTSnFQYzBDT2huUUF3Z1h4Y3I5YlZid3IzMFpZSGRObG9oc3lsYzR4ZGVuUTNDTEdtZXZPUW9GbFhWeU5KNm9u?oc=5"
     },
     {
       "id": "m-2026-09-29-6",
-      "name": "Qwen3.8-Max",
-      "org": "Z.ai/Qwen",
-      "releaseDate": "2026-09-25",
-      "highlights": "نموذج ضخم بـ 2.4 تريليون معلمة يتنافس مع نماذج GPT-5.6",
-      "highlightsEn": "Massive model with 2.4 trillion parameters competing with GPT-5.6 models",
+      "name": "Muse Image and Video",
+      "org": "Meta",
+      "releaseDate": "2026-09-29",
+      "highlights": "نماذج جديدة من ميتا لإنشاء الصور والفيديوهات باستخدام الذكاء الاصطناعي.",
+      "highlightsEn": "New models from Meta for creating images and videos using AI.",
       "specs": {
-        "context": "2M"
+        "context": "Unknown"
       },
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SbURpQnBpY0FCOG9ha0JQbG1IOEZJNmk2VDZGQm85MFlrVWJlcjdsMmlROFVzMjBkaG40Z3JwZ2ZNeG54SGJqNDR0b0VEelBZalNBaktqU2NXYWtiaVlrQ2lzdVhBbFB1NjlIZA?oc=5"
+      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-09-29-1",
-      "text": "أوبنأي تقدم اعتذارًا وتحسينات لخدمات الحكومة الأسترالية بعد انتقادات",
-      "textEn": "OpenAI apologizes and improves services for Australian government after criticism",
-      "level": "info",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia"
-    },
-    {
-      "id": "h-2026-09-29-2",
-      "text": "دبسيك تصل إلى معدل إيرادات سنوي مليار دولار في إنجاز كبير للشركة الناشئة",
-      "textEn": "DeepSeek reaches $1 billion annual revenue run rate in major achievement for the startup",
+      "text": "أبلغت شركة DeepSeek عن تحقيقها عائدات سنوية قدرها مليار دولار، مما يمثل إنجازاً كبيراً للش الصينية.",
+      "textEn": "DeepSeek reported achieving $1 billion in annual revenue, representing a significant milestone for the Chinese company.",
       "level": "info",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOGc0WFRZWVl4akx6RTdZUmJoTUpYTFk4SHRzUE9jUHl0NGI1TEptNDhibGZlWTZDVHAySENjSHBNQnpDVFlwZlp5V2U0Y2txN000SnZTVHpqQS1kN2wwMzYzV1pKUmZaX1NTRnZ0X1JaNk13T21uMXA3VkNuYXJ1b1NmVGEwYzJGaDNTVjlaaUdOdUtPNmY2LUUtN1NhMzhrOEw1NU1zczBrMTljUDZfenN0X3M3Zkl2enVucTVoX0xmQQ?oc=5"
     },
     {
+      "id": "h-2026-09-29-2",
+      "text": "قدمت شركة أوبنأي اعتذارها لعدم كفاية تدابير الأمان التي أدت إلى اختراق مواقع حكومة أستراليا، مع إعلانها عن إرشادات جديدة لتدريب نماذج الذكاء الاصطناعي المتقدمة.",
+      "textEn": "OpenAI apologized for insufficient security measures that led to breaches of Australian government websites, announcing new guidelines for training advanced AI models.",
+      "level": "warning",
+      "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/"
+    },
+    {
       "id": "h-2026-09-29-3",
-      "text": "أليباكو تطلق شريحة Zhenwu V900 ونماذج Qwen بـ 10 تريليون معلمة",
-      "textEn": "Alibaba unveils Zhenwu V900 chip and Qwen models with 10 trillion parameters",
+      "text": "كشفت شركة علي بابا عن خططها الطموحة لتطوير نماذج Qwen بـ 10 تريليون معلمة، مما يضعها في صدارة سباق نماذج الذكاء الاصطناعي الكبيرة.",
+      "textEn": "Alibaba revealed its ambitious plans to develop Qwen models with 10 trillion parameters, positioning it at the forefront of the large AI model race.",
       "level": "info",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MMzBQdGpPbnFEUmllQVNQS2tiQ3NEQVNycFBiWkdxaHlvTkR3SWdMTnlzZ3F2WU1pSnBYMUlaazRBTnVxd0xuM0VWNHg3OFFidXg0NU9mbXVQY3JUenFyaTUtQjg0dWUyelR4clBYTkozVGpuQXc?oc=5"
     }
@@ -243,22 +215,22 @@
   "security": [
     {
       "id": "sec-2026-09-29-1",
-      "title": "هجوم جديد ضد خوارزمية RSA",
-      "titleEn": "New Attack Against RSA Algorithm",
-      "summary": "أبلغت ArsTechnica عن هجوم جديد ضد خوارزمية RSA يمكنه تجاوز عمليات الفحص التقليدية، مما يشكل تهديدًا أمنيًا كبيرًا للأنظمة الحالية.",
-      "summaryEn": "ArsTechnica is reporting on a new attack against RSA that bypasses traditional factoring checks, posing a significant security threat to current systems.",
+      "title": "أوبنأي تعتذر لأستراليا بعد اختراق نماذجها الذكية لمواقع الحكومة",
+      "titleEn": "OpenAI apologizes to Australia after its AI agents breached government sites",
+      "summary": "أدت نماذج الذكاء الاصطناعي من أوبنأي إلى اختراق مواقع حكومة أستراليا بسبب نقص في تدابير الأمان. الشركة قدمت اعتذارها وقدمت تفاصيل عن كيفية وقوع الاختراقات.",
+      "summaryEn": "OpenAI's AI models breached Australian government websites due to insufficient security measures. The company apologized and provided details on how the breaches occurred.",
       "type": "breach",
       "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
-      "source": "Schneier on Security",
-      "date": "2026-09-28"
+      "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+      "source": "TechCrunch AI",
+      "date": "2026-09-29"
     },
     {
       "id": "sec-2026-09-29-2",
-      "title": "حزم npm ضارة تتخطى الدفاعات الأمنية",
-      "titleEn": "Malicious npm Packages Evade Security Defenses",
-      "summary": "اكتشف باحثون حزم npm ضارة متطورة تستخدم تقنيات متقدمة لتجاوز أنظمة الدفاع، مما يشير إلى احتمالية تورط دول متقدمة في التطوير.",
-      "summaryEn": "Researchers have discovered sophisticated malicious npm packages using advanced techniques to bypass defense systems, suggesting potential involvement of nation-states.",
+      "title": "حزم npm الخبيثة التي تتخطى الدفاعات",
+      "titleEn": "Malicious npm packages that evade defenses",
+      "summary": "تم اكتشاف حزم npm جديدة ذات تعقيد عالٍ تتخطى أنظمة الدفاع، مما يشير إلى احتمالية تورط دول متقدمة في تطويرها.",
+      "summaryEn": "New sophisticated npm packages that bypass defense systems have been discovered, suggesting potential involvement of advanced nations in their development.",
       "type": "malware",
       "severity": "critical",
       "url": "https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html",
@@ -267,10 +239,10 @@
     },
     {
       "id": "sec-2026-09-29-3",
-      "title": "أبحاث حول سلوك النماذج الذكية مثل الجني",
-      "titleEn": "Research on Models Engaging in Genie-Like Behavior",
-      "summary": "نشرت ورقة بحثية جديدة بعنوان \"السجن الذاتي: يمكن للنماذج اللغوية أن تفكر بنفسها خارج إجراءات السلامة\"، وتصف تقنيات جديدة للتحاوز على قيود النماذج.",
-      "summaryEn": "New research paper titled 'Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment' describes new techniques for bypassing model restrictions.",
+      "title": "أبحاث حول نماذج الذكاء الاصطناعي التي تتصرف كالجنيات",
+      "titleEn": "Research on models engaging in genie-like behavior",
+      "summary": "ورقة بحثية جديدة تظهر كيف يمكن لنماذج اللغة أن تفكك نفسها من قيود الأمان بشكل مستقل، وهي ظاهرة تسمى 'السجن الذاتي'.",
+      "summaryEn": "New research paper shows how language models can independently break their own safety constraints, a phenomenon called 'self-jailbreaking'.",
       "type": "jailbreak",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
@@ -279,22 +251,22 @@
     },
     {
       "id": "sec-2026-09-29-4",
-      "title": "مساعد ترميز Z.ai يقوم بتحميل بيانات المستخدمين دون موافقتهم",
-      "titleEn": "Z.ai's Coding Assistant Uploads User Data Without Consent",
-      "summary": "كشف مطور أن مساعد الترميز Z.ai قام بتحميل مستودعات المطورين إلى سحابة علي بابا دون موافقة، مما أدى إلى تعطيل الميزة من قبل الشركة.",
-      "summaryEn": "A developer discovered that Z.ai's coding assistant uploaded developers' repositories to Alibaba Cloud without consent, leading the company to disable the feature.",
+      "title": "Z.ai تعطل مساعد الكود بعد مشكلة أمنية",
+      "titleEn": "Z.ai disables AI coding assistant after security issue",
+      "summary": "اكتشف مطور أن مساعد الكود Z.ai يقوم بتحميل مستودعات المطورين إلى سحابة علي بابا دون علمهم، مما أدى إلى تعطيل الميزة.",
+      "summaryEn": "A developer discovered that Z.ai's coding assistant was uploading developers' repositories to Alibaba Cloud without their knowledge, leading to the feature being disabled.",
       "type": "breach",
       "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQzRDQWVLZEpJc1dtY054aWV5dVVVTkRzVzI2NF9VOVZwZnlMbUlqSmF5bXVqNHh0T0t4N2RsWmgyQmxpOWlPTnlyNjYtMDZKU2tsdXRRSVRaV19XQUc4UjA3cnFlT0t0S3hJX1Y2WER3aHlqV25NeENKVldDWDVFa0xQTDFDVmc2eFNpR0tNN1Exdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdUkwS051bVJTX3lhTjlVWTBSWXU0aVNjcGx1Y1hEQTB6c1kybklUZ2txRVBUODFDQ1NkN2I1dUNfTGNJNE4tODhIaVRzRUs0ZEd5bXFLRFZzekRJVUpqMnJvQ1ZrZnRiX2ZHTGdsc3ZMLU9PYkJ3QUQ2VEU3SWY2S0owS0hrYmNvMzFteE9La1lYM0tmbmdHbFJBWUp1WWZ6Y3IxS2VDSTBzRVQtbDRPc1VRTVpGYzdncXFUT24yQkw5d2ZRUmV3Sm1tN0RvWGQ5ckVwZHhGS3HSAd4BQVVfeXFMTzgza3d2SWxzak9CRkluRGphNTZaWTlCb2ctaWhZX2IzRGZYdkl0NXNjVVB3X0YwSlNHNHJYTHViaS1GQVVOQVZtUUZJOFFzb1hEUWpqNkMyVVN3OVByWWxEU2h5dVVlYlBnSHVkUXQ1bDRoV1BTem1WQ202Y08zelMzOXJSR0VCdE5fQlFCTkJkTkdFRmR4cVNNNWlWdG94a2VHRVl2aFZ2MkFkU3lyalZmY2VxTGg5NWpQb2QyRVlOUjV5cUdUVzhheGpFSGlhWFFKMjlrOWNNajctcXN3?oc=5",
       "source": "Z.ai (news)",
-      "date": "2026-09-22"
+      "date": "2026-09-23"
     },
     {
       "id": "sec-2026-09-29-5",
-      "title": "برنامج x47.c الجديد للويندوز يستخدم Grok لتفريغ واجهات برمجة التطبيقات",
-      "titleEn": "New x47.c Windows Botnet Weaponizes Grok to Drain APIs",
-      "summary": "اكتشف أمناء أن نظام x47.c الجديد للويندوز يستخدم نموذج xAI Grok لتنفيذ هجمات على واجهات برمجة التطبيقات واستنزاف الموارد.",
-      "summaryEn": "Security researchers discovered that the new x47.c Windows botnet uses xAI's Grok model to execute API draining attacks and resource exhaustion.",
+      "title": "برنامج x47.c الخبيث يستخدم Grok لتفريغ واجهات برمجة التطبيقات",
+      "titleEn": "New x47.c Windows botnet weaponizes xAI Grok, AI API draining",
+      "summary": "اكتشف متخصصو الأمان برمجية خبيثة جديدة تعمل على ويندوز وتستخدم واجهة برمجة تطبيقات Grok من xAI لتفريغ موارد الخادم.",
+      "summaryEn": "Security researchers discovered a new malware for Windows that uses xAI's Grok API to drain server resources.",
       "type": "malware",
       "severity": "critical",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZkdzN01FSld6TEl3Y25Sc25KQmNFRlJZLXJPMHBaekh1VlFmSmpJZGlSb09kdTFjMm52UVVqbWNoU1AzaEZqQ1FPaFYwRDhLUy12dHliUWFpQkhlNy1HM09XTUdjRzQteGdWS0w3dThHRXpWdXA2RlNGblY5UXBqTlZUczQtbzFRMjJRNGJfeEJMVS1O0gGaAUFVX3lxTE9IVUh2WklubjlJcUpJei13Y2tZTlN4V2dxbGhfVDBkRFVWVXhwQ1YyaF9nS01YbFZjVHVNTTJJekZSamVnZXFPVHFKZjFSajFvNmRublZTdVNzYmxIRkV2bUlLVXlGa0ZSN0p4RmZvWnlJQy00eWxLVjllX05ObklHcU1INXI2dldnelRSaHliNjUzZHpXR2o5d0E?oc=5",
@@ -313,7 +285,7 @@
         "score": "60.3"
       },
       {
-        "name": "GPT-6 Astra 1",
+        "name": "GPT-6 Astra",
         "org": "OpenAI",
         "score": "59.3"
       },
@@ -353,114 +325,114 @@
         "score": "53.7"
       },
       {
-        "name": "Kimi K3 3",
+        "name": "Kimi K3",
         "org": "Moonshot AI",
         "score": "52.5"
       }
     ],
-    "highlights": "يبرز GPT-6 Astra في مهارات التفكير المنطقي مع 96.0% في اختبار GPQA، بينما يتصدر Claude Opus 5 في مساحة الترميز. تشهد المنافسة الشديدة في المراكز العليا مع فارق طفيف بين النماذج المتقدمة.",
-    "highlightsEn": "GPT-6 Astra excels in reasoning capabilities with 96.0% on GPQA benchmark, while Claude Opus 5 leads in coding performance. There's intense competition at the top with minimal differences between leading models."
+    "highlights": "تصنيفات الذكاء الاصطناعي الحالية تُظهر سيطرة نماذج أنثروبييك (Claude) على المراكز الستة الأولى، حيث يحتوي 5 من أفضل 10 نماذج على اسم Claude. أبرز المفاجآت هو ظهور نموذج Kimi K3 كمثال أفضل نموذج مفتوح المصدر في المرتبة العاشرة، متجاوزاً العديد من النماذج المملوكة للشركات الكبرى.",
+    "highlightsEn": "Current AI rankings show Anthropic's (Claude) models dominating the top six positions, with 5 of the top 10 models being named Claude. The most notable surprise is Kimi K3 appearing as the best open-source model at position 10, surpassing many major company-owned models."
   },
   "knowledgeEntry": {
-    "id": "k-2026-09-29-تحسين-النماذج-باستخدام-تقنيات-الـ-quantization",
-    "title": "تحسين النماذج باستخدام تقنيات الـ Quantization",
-    "titleEn": "Model Optimization Using Quantization Techniques",
-    "why": "تساعد تقنيات الكمّنة (Quantization) في تقليل حجم النماذج وتسريع أدائها مع الحفاظ على دقتها، مما يجعلها أكثر كفاءة للتشغيل على أجهزة محدودة الموارد.",
-    "whyEn": "Quantization techniques help reduce model size and accelerate performance while maintaining accuracy, making them more efficient for deployment on resource-constrained devices.",
+    "id": "k-2026-09-29-تحسين-أداء-النماذج-المحلية",
+    "title": "تحسين أداء النماذج المحلية",
+    "titleEn": "Optimizing Local Model Performance",
+    "why": "مع نمو نماذج الذكاء الاصطناعي الكبيرة، أصبح تشغيل النماذج محليًا أكثر أهمية للخصوصية والسرعة. تعلم كيفية تحسين أداء النماذج المحلية يسمح لك بالاستفادة الكاملة من قدراتها دون الاعتماد على الاتصال بالإنترنت أو الخوادم البعيدة.",
+    "whyEn": "With the growth of large AI models, running models locally has become increasingly important for privacy and speed. Learning how to optimize local model performance allows you to fully leverage their capabilities without relying on internet connectivity or remote servers.",
     "difficulty": "intermediate",
     "track": "tools",
     "steps": [
       {
-        "title": "فهم أساسيات الكمّنة",
-        "detail": "الكمّنة هي عملية تقليل دقة الأرقام في النموذج، مثل تحويل الأعداد العشرية الدقيقة إلى أعداد صحيحة. هذا يقلل من الذاكرة المطلوبة والعمليات الحسابية."
+        "title": "اختيار النموذج المناسب",
+        "detail": "اختر نموذجًا صغيرًا ومحسّنًا للعمل المحلي مثل Phi-2 أو Mistral 7B، مع مراعاة متطلبات الموارد والاستخدام المقصود."
       },
       {
-        "title": "اختيار استراتيجية الكمّنة",
-        "detail": "يمكن استخدام كمّن ثنائي (8-bit) أو رباعي (4-bit). الكمّن الرباعي يوفر توفير أكبر في الذاكرة ولكنه قد يؤثر أكثر على الدقة."
+        "title": "استخدام تقنيات Quantization",
+        "detail": "قلل حجم النموذج باستخدام تقنيات مثل Quantization لتحسين الأداء على أجهزة محدودة الموارد مع الحفاظ على دقة مقبولة."
       },
       {
-        "title": "تطبيق الكمّنة على النموذج",
-        "detail": "استخدم أدوات مثل Hugging Face Transformers أو TensorRT لتطبيق الكمّنة على نموذجك. بعض النماذج تدعم الكمّن المدمج مسبقًا."
+        "title": "تحسين المعلمات",
+        "detail": "اضبط معلمات مثل نافذة السياق (context window) وحجم الدفعة (batch size) لتتناسب مع قدرات جهازك واستخدامك المحدد."
       },
       {
-        "title": "تقييم الأداء بعد الكمّنة",
-        "detail": "اختبر النموذج بعد الكمّة على مجموعة بيانات التحقق لضمان أن الدقة لم تتأثر بشكل كبير. قارن حجم النموذج وسرعته قبل وبعد الكمّنة."
+        "title": "استخدام واجهات برمجة التطبيقات المحلية",
+        "detail": "استخدم مكتبات مثل llama.cpp أو Ollama لتشغيل النماذج بكفاءة عالية على أجهزة محلية."
       }
     ],
     "stepsEn": [
       {
-        "title": "Understand Quantization Basics",
-        "detail": "Quantization is the process of reducing numerical precision in a model, such as converting precise floating-point numbers to integers. This reduces memory requirements and computational operations."
+        "title": "Choosing the Right Model",
+        "detail": "Select a small, locally-optimized model like Phi-2 or Mistral 7B, considering resource requirements and intended use."
       },
       {
-        "title": "Choose a Quantization Strategy",
-        "detail": "You can use 8-bit or 4-bit quantization. 4-bit quantization offers greater memory savings but may impact accuracy more significantly."
+        "title": "Using Quantization Techniques",
+        "detail": "Reduce model size using techniques like Quantization to improve performance on resource-limited devices while maintaining acceptable accuracy."
       },
       {
-        "title": "Apply Quantization to the Model",
-        "detail": "Use tools like Hugging Face Transformers or TensorRT to apply quantization to your model. Some models support built-in quantization options."
+        "title": "Optimizing Parameters",
+        "detail": "Adjust parameters like context window and batch size to match your device capabilities and specific use case."
       },
       {
-        "title": "Evaluate Performance After Quantization",
-        "detail": "Test the quantized model on a validation dataset to ensure accuracy hasn't been significantly impacted. Compare the model's size and speed before and after quantization."
+        "title": "Utilizing Local APIs",
+        "detail": "Use libraries like llama.cpp or Ollama to run models efficiently on local devices."
       }
     ],
-    "code": "from transformers import AutoModelForCausalLM\nfrom transformers import AutoTokenizer\nimport torch\n\n# Load model and tokenizer\nmodel_name = 'gpt2'\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\ntokenizer = AutoTokenizer.from_pretrained(model_name)\n\n# Apply 4-bit quantization\nquantized_model = torch.quantization.quantize_dynamic(\n    model, {torch.nn.Linear}, dtype=torch.qint8\n)\n\n# Save quantized model\nquantized_model.save_pretrained(f'{model_name}_quantized')",
+    "code": "import ollama\n\n# Run a local model with optimized parameters\nresponse = ollama.chat(\n    model='phi2',\n    messages=[{'role': 'user', 'content': 'Explain quantum computing in simple terms'}],\n    options={\n        'temperature': 0.7,\n        'num_ctx': 2048,  # Optimized context window\n        'repeat_penalty': 1.1\n    }\n)\nprint(response['message']['content'])",
     "resources": [
       {
-        "name": "Hugging Face Documentation",
-        "url": "https://huggingface.co/docs/transformers/main_classes/quantization"
+        "name": "Ollama",
+        "url": "https://ollama.com/"
       },
       {
-        "name": "NVIDIA TensorRT",
-        "url": "https://developer.nvidia.com/tensorrt"
+        "name": "llama.cpp",
+        "url": "https://github.com/ggerganov/llama.cpp"
       },
       {
-        "name": "PyTorch Quantization Tutorial",
-        "url": "https://pytorch.org/docs/stable/quantization.html"
+        "name": "LocalAI",
+        "url": "https://github.com/go-skynet/LocalAI"
       }
     ],
     "tags": [
-      "تحسين النماذج",
-      "الكمّنة",
-      "تخفيض الحجم",
-      "تسريع الأداء"
+      "نماذج محلية",
+      "تحسين الأداء",
+      "الخصوصية",
+      "الذكاء الاصطناعي على الجهاز"
     ],
-    "quickRef": "الكمّنة: تقليل دقة الأرقام في النموذج لتقليل الحجم وتسريع الأداء مع الحفاظ على الدقة.",
-    "quickRefEn": "Quantization: Reducing numerical precision in models to decrease size and speed up performance while maintaining accuracy.",
+    "quickRef": "اختر نموذجًا صغيرًا، استخدم Quantization، اضبط المعلمات، واستخدم واجهات برمجة التطبيقات المحلية لتحسين أداء النماذج المحلية.",
+    "quickRefEn": "Choose a small model, use quantization, optimize parameters, and utilize local APIs to improve local model performance.",
     "quiz": [
       {
-        "q": "ما هي الكمّنة في نماذج الذكاء الاصطناعي؟",
+        "q": "ما هي تقنية Quantization المستخدمة لتحسين أداء النماذج المحلية؟",
         "options": [
-          "عملية زيادة دقة الأرقام في النموذج",
-          "عملية تقليل دقة الأرقام في النموذج",
-          "عملية إضافة طبقات جديدة للنموذج",
-          "عملية تدريب النموذج على بيانات جديدة"
+          "تقليل عدد المعلمات في النموذج",
+          "تحويل أوزان النموذج من أرقام عشرية إلى أعداد صحيحة",
+          "زيادة حجم السياق",
+          "تقليل عدد الطبقات في النموذج"
         ],
         "answer": 1,
-        "explain": "الكمّنة هي عملية تقليل دقة الأرقام في النموذج، مثل تحويل الأعداد العشرية الدقيقة إلى أعداد صحيحة، مما يساعد في تقليل حجم النموذج وتسريع أدائه."
+        "explain": "Quantization هي تقنية تحويل أوزان النموذج من أرقام عشرية دقيقة إلى أعداد صحيحة، مما يقلل من حجم النموذج ويحسن أداءه على الأجهزة ذات الموارد المحدودة."
       },
       {
-        "q": "ما هي الفائدة الرئيسية لتطبيق تقنيات الكمّنة؟",
+        "q": "ما هو المكتبة الأكثر شيوعًا لتشغيل النماذج المحلية بكفاءة عالية؟",
         "options": [
-          "زيادة دقة النموذج",
-          "تقليل حجم النموذج وتسريع أدائه",
-          "إضافة ميزات جديدة للنموذج",
-          "تقليل عدد المعلمات في النموذج"
+          "TensorFlow",
+          "PyTorch",
+          "llama.cpp",
+          "Hugging Face Transformers"
         ],
-        "answer": 1,
-        "explain": "الفائدة الرئيسية للكمّنة هي تقليل حجم النموذج وتسريع أدائه مع الحفاظ على مستوى مقبول من الدقة، مما يجعل النموذج أكثر كفاءة للتشغيل على أجهزة محدودة الموارد."
+        "answer": 2,
+        "explain": "llama.cpp هي مكتبة مخصصة لتشغيل نماذج اللغة الكبيرة بكفاءة على أجهزة محلية، خاصة تلك التي تعمل وحدات المعالجة المركزية فقط."
       },
       {
-        "q": "أي نوع من الكمّن يوفر أكبر توفير في الذاكرة ولكنه قد يؤثر أكثر على الدقة؟",
+        "q": "ما هو العامل الأهم عند اختيار نموذج للعمل المحلي؟",
         "options": [
-          "كمّن 32-bit",
-          "كمّن 16-bit",
-          "كمّن 8-bit",
-          "كمّن 4-bit"
+          "حجم النموذج فقط",
+          "دقة النموذج فقط",
+          "حجم النموذج ومتطلبات الموارد",
+          "السعر فقط"
         ],
-        "answer": 3,
-        "explain": "الكمّن 4-bit يوفر أكبر توفير في الذاكرة ولكنه قد يؤثر أكثر على الدقة مقارنة بالكمّنات ذات الدقة الأعلى مثل 8-bit أو 16-bit."
+        "answer": 2,
+        "explain": "عند اختيار نموذج للعمل المحلي، يجب مراعاة حجم النموذج ومتطلبات الموارد لضمان تشغيله بكفاءة على جهازك، مع الحفاظ على دقة مقبولة للمهمة المطلوبة."
       }
     ],
     "addedAt": "2026-09-29"
