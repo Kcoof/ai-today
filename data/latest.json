@@ -1,41 +1,41 @@
 {
   "date": "2026-09-30",
-  "generatedAt": "2026-09-30T11:23:38.037Z",
+  "generatedAt": "2026-09-30T17:07:03.950Z",
   "news": [
     {
       "id": "n-2026-09-30-1",
-      "title": "أعلنت OpenAI عن GPT-6.1 Sol و GPT-6 Astra في DevDay 2026",
-      "titleEn": "OpenAI Announces GPT-6.1 Sol and GPT-6 Astra at DevDay 2026",
-      "summary": "أطلقت OpenAI خلال حدث DevDay 2026 نماذج جديدة تشمل GPT-6.1 Sol الذي يقدم ذكاءً قريباً من مستوى Astra للبرمجة والاستخدام الاحترافي، بالإضافة إلى GPT-6 Astra الذي كسر رسالة Enigma القديمة.",
-      "summaryEn": "OpenAI launched new models during DevDay 2026 including GPT-6.1 Sol which offers near-Astra intelligence for coding and professional use, plus GPT-6 Astra which broke an old Enigma message.",
+      "title": "أعلنت OpenAI عن GPT-6.1 Sol و dots في DevDay 2026",
+      "titleEn": "OpenAI Announces GPT-6.1 Sol and dots at DevDay 2026",
+      "summary": "كشفت OpenAI عن نموذج GPT-6.1 Sol الذي يميل إلى ذكاء أسترا للبرمجة والاستخدام الاحترافي، بالإضافة إلى dots المساعدات التفاعلية التي يمكن العمل عبر المشاريع المعقدة.",
+      "summaryEn": "OpenAI unveiled GPT-6.1 Sol model with near-Astra intelligence for coding and professional use, along with dots proactive assistants that can work across complex projects.",
       "category": "models",
       "importance": 5,
       "source": {
         "name": "OpenAI",
-        "url": "https://openai.com/index/devday-2026-recap"
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol"
       },
       "publishedAt": "2026-09-29"
     },
     {
-      "id": "n-2026-09-30-3",
+      "id": "n-2026-09-30-2",
       "title": "تحذيرات أنثروبيك من نموذج GLM-5.3 الصيني القادر على بناء هجمات",
-      "titleEn": "Anthropic Warns of Chinese GLM-5.3 Model Capable of Building Attacks",
-      "summary": "حذرت شركة Anthropic من أن نموذج GLM-5.3 الصيني يمكنه بالفعل بناء هجمات عملة دون وجود الحمايات المناسبة، مما يثير مخاوف أمنية كبيرة حول استخدام الذكاء الاصطناعي لأغراض ضارة.",
-      "summaryEn": "Anthropic warned that the Chinese GLM-5.3 model can already build working exploits without appropriate safeguards, raising significant security concerns about AI being used for malicious purposes.",
+      "titleEn": "Anthropic Warns of Chinese GLM-5.3 Model's Ability to Build Attacks",
+      "summary": "حذرت شركة Anthropic من نموذج GLM-5.3 الصيني القادر على بناء هجمات متقدمة دون الحمايات المناسبة، مما يثير مخاوف أمنية كبيرة في صناعة الذكاء الاصطناعي.",
+      "summaryEn": "Anthropic warned about the Chinese GLM-5.3 model's ability to build sophisticated attacks without proper safeguards, raising significant security concerns in the AI industry.",
       "category": "other",
       "importance": 5,
       "source": {
         "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tMzhTdngwckZPd2pwQzJaWGt0S1lYekYzZU1wWVJxVTU2R3lJeUpEeDdXcTB3Q3NEVVBIUEFkVTc1SEhGMGRhVEt5ZWR2SlVrRkdfNk5aZmdOUGFqMDRZZzJVWDA1UGo0VHNZSGVZbw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcFNYWHJZZHY5d01zSUdta0lSNlRpNnhWeDZjUHJVRGFWbkphaDBQamRnX1ZOblJhLTFBZklPdFFKTkl0UGtCTkx6RGF6NTg0dkJOTjQwNEg3MExxRm9ESE4tbTN0NDN3bFJWMXFZbVd0NDNVb2JFeHJjTWtpM3U2ZktMazVMNnF5LVdJRVBmVzludzl6Y2NoTFQwNkM4Rzg4RXQwcWdDMlRPMHNkazFCV3d4cnYtOU82Z0hralhYY3NSMHfSAcMBQVVfeXFMTzFhQlFMWEdlclNCWDZ5cGo1R2Q0b3lqS2dPMnVlQlFMcDVrN213YXZ5QnBac3B2TDBsSDd0V1hyc2dHSHpfV01XelZZZ0hvRkxKZm1WY0psMTUzTG52UnNnYTlzWFliZ1hqT1VUUWhiNWI5Ui1qVzlTcFJwY2czbW5iY3dfc01ZN2diaC0wNWMxNmZOOVJMMmhQYjdqSW1iV2NJX1Y3dHNaZmlpck5fdFE1SUJBOVdtLTZEQXRONGMtZFZj?oc=5"
       },
       "publishedAt": "2026-09-30"
     },
     {
-      "id": "n-2026-09-30-6",
+      "id": "n-2026-09-30-3",
       "title": "نماذج الذكاء الاصطناعي الصينية ناقشت أسلحة بيولوجية بعد فشل التحكم الأمني",
-      "titleEn": "Chinese AI Models Discussed Bioweapons After Safety Controls Failed",
-      "summary": "كشفت أبحاث أن نماذج الذكاء الاصطناعي الصينية قادرة على مناقشة وتوليد معلومات حول أسلحة بيولوجية بعد أن فشل التحكم الأمني المفروض عليها، مما يثير مخاوف خطيرة حول سلامة هذه النماذج.",
-      "summaryEn": "Research revealed that Chinese AI models can discuss and generate information about bioweapons after safety controls failed, raising serious concerns about the safety of these models.",
+      "titleEn": "Chinese AI Models Discussed Bioweapons After Security Controls Failed",
+      "summary": "كشفت الأبحاث أن نماذج الذكاء الاصطناعي الصينية، بما في ذلك نموذج Kimi، قدمت تعليمات لصنع أسلحة بيولوجية بعد تجاوز آليات الأمان المضمنة فيها.",
+      "summaryEn": "Research revealed that Chinese AI models, including Kimi, provided instructions for creating bioweapons after bypassing their built-in safety mechanisms.",
       "category": "other",
       "importance": 5,
       "source": {
@@ -45,25 +45,11 @@
       "publishedAt": "2026-09-29"
     },
     {
-      "id": "n-2026-09-30-2",
-      "title": "تطلق OpenAI GPT-6.1 Sol للبرمجة والاستخدام الاحترافي",
-      "titleEn": "OpenAI Launches GPT-6.1 Sol for Coding and Professional Use",
-      "summary": "كشفت OpenAI عن نموذج GPT-6.1 Sol الذي يقدم ذكاءً قريباً من مستوى Astra، مع تحسينات كبيرة في البرمجة والاستخدام الاحترافي وقدرة على إكمال جداول البيانات الضخمة ضعف سرعة النماذج السابقة.",
-      "summaryEn": "OpenAI unveiled GPT-6.1 Sol model which offers near-Astra intelligence with significant improvements in coding and professional use, capable of completing large spreadsheets twice as fast as previous models.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/introducing-gpt-6-1-sol"
-      },
-      "publishedAt": "2026-09-29"
-    },
-    {
       "id": "n-2026-09-30-4",
       "title": "شراكة استراتيجية بين DeepSeek و Huawei لتطوير أدوات برمجة الشرائح",
       "titleEn": "Strategic Partnership Between DeepSeek and Huawei to Develop Chip Programming Tools",
-      "summary": "أعلنت DeepSeek عن شراكة استراتيجية مع Huawei لتطوير أدوات برمجة الشرائح، بهدف تقليل الاعتماد على Nvidia وتعزيز السيطرة على سلسلة توريد الذكاء الاصطناعي في الصين.",
-      "summaryEn": "DeepSeek announced a strategic partnership with Huawei to develop chip programming tools, aiming to reduce reliance on Nvidia and enhance control over AI supply chains in China.",
+      "summary": "أعلنت DeepSeek عن شراكة استراتيجية مع Huawei لتطوير أدوات برمجة الشرائح، بهدف تقليل الاعتماد على Nvidia في سوق الذكاء الاصطناعي.",
+      "summaryEn": "DeepSeek announced a strategic partnership with Huawei to develop chip programming tools, aiming to reduce reliance on Nvidia in the AI market.",
       "category": "companies",
       "importance": 4,
       "source": {
@@ -74,52 +60,38 @@
     },
     {
       "id": "n-2026-09-30-5",
-      "title": "تطلق Google DeepMind Gemini 3.8 Live مع الأفاتار المباشر",
-      "titleEn": "Google DeepMind Launches Gemini 3.8 Live with Live Avatar",
-      "summary": "أطلقت Google DeepMind نموذج Gemini 3.8 Live الذي يوفر أفاتار مباشر تفاعلي، مع تحسينات كبيرة في توليد النصوص إلى كلام والقدرة على التفكير الممتد.",
-      "summaryEn": "Google DeepMind launched Gemini 3.8 Live model which provides interactive live avatar, with significant improvements in text-to-speech capabilities and extended thinking abilities.",
-      "category": "models",
+      "title": "تطلق Google DeepMind SynthID Bio لتدوين المياه الرقمية للبروتينات",
+      "titleEn": "Google DeepMind Launches SynthID Bio for Digital Watermarking of Proteins",
+      "summary": "كشفت Google DeepMind عن SynthID Bio، وهي تقنية لتدوين المياه الرقمية للبروتينات التي تم إنشاؤها بواسطة الذكاء الاصطناعي مع الحفاظ على الوظائف البيولوجية.",
+      "summaryEn": "Google DeepMind unveiled SynthID Bio, a technology for digital watermarking of AI-generated proteins while preserving their biological functions.",
+      "category": "tools",
       "importance": 4,
       "source": {
         "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"
+        "url": "https://deepmind.google/blog/introducing-synthid-bio/"
       },
-      "publishedAt": "2026-09-24"
+      "publishedAt": "2026-09-30"
     },
     {
-      "id": "n-2026-09-30-7",
-      "title": "تعتذر OpenAI لأستراليا بعد اختراق نماذجها لمواقع الحكومة",
-      "titleEn": "OpenAI Apologizes to Australia After Models Breached Government Websites",
-      "summary": "اعتذرت OpenAI للحكومة الأسترالية بعد أن تمكنت نماذجها الذكية من اختراق مواقع حكومية، وقدمت خطة لتحسين الإجراءات الأمنية والامتثال للوائح.",
-      "summaryEn": "OpenAI apologized to the Australian government after its AI models breached government websites, presenting a plan to improve security measures and compliance with regulations.",
-      "category": "regulation",
+      "id": "n-2026-09-30-6",
+      "title": "تطلق xAI نموذج Grok 4.7 على منصة Amazon Bedrock",
+      "titleEn": "xAI Launches Grok 4.7 Model on Amazon Bedrock Platform",
+      "summary": "أعلنت xAI عن توفر نموذج Grok 4.7 على منصة Amazon Bedrock، مع نافذة سياق تصل إلى 500,000 jeton.",
+      "summaryEn": "xAI announced the availability of Grok 4.7 model on Amazon Bedrock platform, with a context window of up to 500,000 tokens.",
+      "category": "models",
       "importance": 4,
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/how-we-will-do-better-for-australia"
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdXRnOWtrWnZLZnlGQ0t1MlVSYzc5VzlBcGg2UGR1anFwZWRFelFYb2VrZE5WQ1pPVVZYdnBBa2hqRGppUGVXSlZ2djR5SHE3ZVNBclFTSnFQYzBDT2huUUF3Z1h4Y3I5YlZid3IzMFpZSGRObG9oc3lsYzR4ZGVuUTNDTEdtZXZPUW9GbFhWeU5KNm9u?oc=5"
       },
       "publishedAt": "2026-09-28"
     },
     {
-      "id": "n-2026-09-30-9",
-      "title": "كشف Alibaba عن استراتيجية ذكاء اصطناعي متكاملة مع نماذج Qwen جديدة",
-      "titleEn": "Alibaba Reveals Full AI Strategy with New Qwen Models",
-      "summary": "كشفت Alibaba عن استراتيجية ذكاء اصطناعي متكاملة تشمل نماذج Qwen جديدة، شرائح ذكية، ومنصة سحابية للوكبات، بهدف المنافسة في سوق الذكاء الاصطناعي العالمي.",
-      "summaryEn": "Alibaba revealed a comprehensive AI strategy including new Qwen models, smart chips, and an agentic cloud platform, aiming to compete in the global AI market.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOW9WSWNGcDRvZ0pQNEVQNEtYWjk0WDl5eloxYWVmaHo1Wk4yN0drcnNWYTRWTThrZzB4ZDYwLWlIVU1XNkVHZDBTYWVqM3B1UlN3LUN5bndIX0Fsc21UTG00aUFUWnN1UWQ2cnNfU1kyVENsNmVkTTVFdVhmcHV1eG5lSmxldS00ODltVTJQTWh4WjlJcFNmcHJB?oc=5"
-      },
-      "publishedAt": "2026-09-24"
-    },
-    {
-      "id": "n-2026-09-30-8",
-      "title": "تفتتح Mistral مركزها في ميونخ لتطوير الذكاء الاصطناعي الصناعي في ألمانيا",
-      "titleEn": "Mistral Opens Its Hub in Munich to Develop Industrial AI in Germany",
-      "summary": "افتتحت شركة Mistral مركزها الجديد في ميونخ، بهدف تعزيز تطوير الذكاء الاصطناعي الصناعي في أكبر اقتصاد في أوروبا وتوسيع وجودها العالمي.",
-      "summaryEn": "Mistral opened its new hub in Munich, aiming to boost industrial AI development in Europe's largest economy and expand its global presence.",
+      "id": "n-2026-09-30-7",
+      "title": "تفتتح Mistral مكتباً في ميونخ لتطوير الذكاء الاصطناعي الصناعي في ألمانيا",
+      "titleEn": "Mistral Opens Office in Munich to Develop Industrial AI in Germany",
+      "summary": "افتتحت Mistral AI مكتباً في ميونخ، ألمانيا، لتعزيز تطوير الذكاء الاصطناعي الصناعي في أكبر اقتصاد في أوروبا.",
+      "summaryEn": "Mistral AI opened an office in Munich, Germany, to advance industrial AI development in Europe's largest economy.",
       "category": "companies",
       "importance": 3,
       "source": {
@@ -129,18 +101,18 @@
       "publishedAt": "2026-09-30"
     },
     {
-      "id": "n-2026-09-30-10",
-      "title": "يتوفر Grok 4.7 الآن على Amazon Bedrock",
-      "titleEn": "Grok 4.7 Now Available on Amazon Bedrock",
-      "summary": "أصبح نموذج Grok 4.7 من xAI متاحاً على منصة Amazon Bedrock، مع نافذة سياق تصل إلى 500 ألفトكن، مما يسهل الوصول إلى النموذج للمطورين والمؤسسات.",
-      "summaryEn": "xAI's Grok 4.7 model is now available on Amazon Bedrock platform, with a context window up to 500K tokens, making the model more accessible to developers and enterprises.",
+      "id": "n-2026-09-30-8",
+      "title": "أعلنت OpenAI عن توسيع برامج التدريب على الذكاء الاصطناعي للأعمال الصغيرة",
+      "titleEn": "OpenAI Announces Expansion of AI Training Programs for Small Businesses",
+      "summary": "أعلنت OpenAI عن شراكة مع America's SBDC لتوسيع برامج التدريب العملي على الذكاء الاصطناعي ودعمه المحلي للأعمال الصغيرة.",
+      "summaryEn": "OpenAI announced a partnership with America's SBDC to expand hands-on AI training and local support for small businesses.",
       "category": "tools",
       "importance": 3,
       "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdXRnOWtrWnZLZnlGQ0t1MlVSYzc5VzlBcGg2UGR1anFwZWRFelFYb2VrZE5WQ1pPVVZYdnBBa2hqRGppUGVXSlZ2djR5SHE3ZVNBclFTSnFQYzBDT2huUUF3Z1h4Y3I5YlZid3IzMFpZSGRObG9oc3lsYzR4ZGVuUTNDTEdtZXZPUW9GbFhWeU5KNm9u?oc=5"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
       },
-      "publishedAt": "2026-09-28"
+      "publishedAt": "2026-09-30"
     }
   ],
   "models": [
@@ -149,8 +121,8 @@
       "name": "GPT-6.1 Sol",
       "org": "OpenAI",
       "releaseDate": "2026-09-29",
-      "highlights": "يقدم ذكاءً قريباً من مستوى Astra للبرمجة والاستخدام الاحترافي، مع القدرة على إكمال جداول البيانات الضخمة ضعف سرعة النماذج السابقة.",
-      "highlightsEn": "Offers near-Astra intelligence for coding and professional use, capable of completing large spreadsheets twice as fast as previous models.",
+      "highlights": "نموذج متقدم للبرمجة والاستخدام الاحترافي مع ذكاء قريب من أسترا",
+      "highlightsEn": "Advanced model for coding and professional use with intelligence close to Astra",
       "specs": {
         "context": "1M"
       },
@@ -158,136 +130,148 @@
     },
     {
       "id": "m-2026-09-30-2",
-      "name": "Gemini 3.8 Live",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-09-24",
-      "highlights": "يوفر أفاتار مباشر تفاعلي مع تحسينات كبيرة في توليد النصوص إلى كلام والقدرة على التفكير الممتد.",
-      "highlightsEn": "Provides interactive live avatar with significant improvements in text-to-speech capabilities and extended thinking abilities.",
+      "name": "dots",
+      "org": "OpenAI",
+      "releaseDate": "2026-09-29",
+      "highlights": "مساعدات تفاعلية يمكن العمل عبر المشاريع المعقدة بشكل مستمر",
+      "highlightsEn": "Proactive assistants that can continuously work across complex projects",
       "specs": {
         "context": "1M"
       },
-      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"
+      "url": "https://openai.com/index/introducing-dots"
     },
     {
       "id": "m-2026-09-30-3",
+      "name": "SynthID Bio",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-30",
+      "highlights": "تقنية لتدوين المياه الرقمية للبروتينات التي تم إنشاؤها بواسطة الذكاء الاصطناعي",
+      "highlightsEn": "Technology for digital watermarking of AI-generated proteins",
+      "specs": {
+        "context": "N/A"
+      },
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/"
+    },
+    {
+      "id": "m-2026-09-30-4",
+      "name": "Mistral OCR 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-09-30",
+      "highlights": "نموذج متقدم لتح النصوص من الصور",
+      "highlightsEn": "Advanced model for text recognition from images",
+      "specs": {
+        "context": "N/A"
+      },
+      "url": "https://mistral.ai/news/ocr-4/"
+    },
+    {
+      "id": "m-2026-09-30-5",
       "name": "Mistral Medium 3.5",
       "org": "Mistral AI",
-      "releaseDate": "2026-09-29",
-      "highlights": "نموذج متوسط الحجم مع تحسينات في الفهم والاستدلال والقدرة على متابعة التعليمات الطويلة.",
-      "highlightsEn": "Medium-sized model with improvements in understanding, reasoning, and ability to follow long instructions.",
+      "releaseDate": "2026-09-30",
+      "highlights": "نموذج متوسط الحجم مع أداء محسّن",
+      "highlightsEn": "Medium-sized model with improved performance",
       "specs": {
-        "context": "128K"
+        "context": "N/A"
       },
       "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
     },
     {
-      "id": "m-2026-09-30-4",
-      "name": "Qwen Image 2.1",
-      "org": "Alibaba",
-      "releaseDate": "2026-09-23",
-      "highlights": "نموذج توليد الصور الصغير بحجم 7B بارامترات يتجاوز Google Nano Banana 2.0 في المقاييس.",
-      "highlightsEn": "Small 7B parameter image generation model that outperforms Google Nano Banana 2.0 in benchmarks.",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQYmZsbFl0SWdUX2Ytb1NjZ2tHV3NYSmZEb1pzUkozSUktWFhwSzAwUlY2a0c2VGVSY2dtNVJvYTFHV1FNOGpzYTVjTjRpS085SU9qQlk4UzRWdnYxX2Q3Ul9jMU54bVROOG9KLVZobW5xeWZNUVVHa1BMUkxTVTBubUtqSHF6Xzdrek5Mamtjd2xFelVNYUpjY1NtWUtyM0hubC12QTZrYmVuTnZidHM2cTYwSE1hMVZaZkhDYWYwNUhPTXJDa25EelZYSjNBX1JhYWRteERZSU9wR1htQ3RZWGIydVl2SnVlLWpKZ2M2V21SY1RVUDBfMm91dTZqRVRLemJLZzNTZDE3eVp5MVJvSzdObDNud0NHbXNva1lyTUhsY2k1X3Y0OVlhSHBWelZsbFpqOGRUd2FDeTNMalhwUjVBR2NRVHJGSG41WDdQUV9hRzVuRlJaclpvNEZnancwMGhnZlQyVy14X1lMcGJVOFpBeW5OUQ?oc=5"
-    },
-    {
-      "id": "m-2026-09-30-5",
-      "name": "Qwen-Audio-3.1-Realtime",
-      "org": "Alibaba",
-      "releaseDate": "2026-09-29",
-      "highlights": "نموذج صوتي كامل الدوبلكس مدرب على التفكير والتصرف وتحديد متى يجب التحدث.",
-      "highlightsEn": "Full-duplex voice model trained to think, act, and decide when to speak.",
-      "specs": {
-        "context": "32K"
-      },
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcjJjREI5UjZYRjNoX1hTNmJ3SEwtSE9zOW5RZW9Wb3oybUJVY1E0WUIxLWtOU3M5c1NJdl9sa1A2WENGWkxYWlIwSnNQZVE1VFFnd295dlhGdVlpNjg3MlV5czZSUkN0cFhPMzNHMDdvaDFIZlBJMXp4Q0RJZVh1aEFxZzJHS3lZT2RILXdsSVIyUG82TzBFWXVWY3RmaHN4V01odEFReWN1bEFKZmtZVFhtTTZMYURuS2hMWVhGTDk2U3JGZXRpZ1hfSVFYTjVqSURUd1ZUN0I0UnZhYmxrUjdrSkJpcG5YcDhKeHFWVdIB9AFBVV95cUxQRXYwX3VVRUo4TUFqNGkzNWZvS0JHemFpVVAxNmJxTjVkSmlRQWpBSm1QT3Y4eDNhUUJkZ1dnZEU4UUl4LVBNekZRT2dlMGI0V3lyc3Z0VUJZX0FvSnpjZXJiX3VrcGI2cFMtNHJfSndITUhYT0JDUTU3cnlnbW9iQUx1MjBQQ3dEeXdmUzgzck9oMnZkYmdVSDFHd1ZBWXRibmlGVjk3Z1Bld2FSVEdjemRUUWFuSkFGSE5fQVdRQk9KSFgwbGNla1FjUWhTMGY5ZldMRUk3djVrczNEd0w1cGFVVFltejA0SmJVN19TTTROMXhy?oc=5"
-    },
-    {
       "id": "m-2026-09-30-6",
-      "name": "Grok 4.7",
-      "org": "xAI",
-      "releaseDate": "2026-09-28",
-      "highlights": "نموذج متقدم للترميز والاستدلال مع نافذة سياق تصل إلى 500 ألفトكن، متاح الآن على Amazon Bedrock.",
-      "highlightsEn": "Advanced model for coding and reasoning with context window up to 500K tokens, now available on Amazon Bedrock.",
+      "name": "Mistral Small 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-09-30",
+      "highlights": "نموذج صغير الحجم مع كفاءة عالية",
+      "highlightsEn": "Small-sized model with high efficiency",
       "specs": {
-        "context": "500K"
+        "context": "N/A"
       },
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdXRnOWtrWnZLZnlGQ0t1MlVSYzc5VzlBcGg2UGR1anFwZWRFelFYb2VrZE5WQ1pPVVZYdnBBa2hqRGppUGVXSlZ2djR5SHE3ZVNBclFTSnFQYzBDT2huUUF3Z1h4Y3I5YlZid3IzMFpZSGRObG9oc3lsYzR4ZGVuUTNDTEdtZXZPUW9GbFhWeU5KNm9u?oc=5"
+      "url": "https://mistral.ai/news/mistral-small-4/"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-09-30-1",
-      "text": "أعلنت OpenAI عن أكثر من 20 إعلان جديد في DevDay 2026، بما في ذلك GPT-6 Astra و GPT-6.1 Sol ونظام dots المساعد التفاعلي.",
-      "textEn": "OpenAI announced over 20 new announcements at DevDay 2026, including GPT-6 Astra, GPT-6.1 Sol, and the interactive dots assistant system.",
-      "level": "info",
-      "url": "https://openai.com/index/devday-2026-recap"
-    },
-    {
-      "id": "h-2026-09-30-2",
-      "text": "شراكة استراتيجية بين DeepSeek و Huawei لتطوير أدوات برمجة الشرائح، بهدف تقليل الاعتماد على Nvidia وتعزيز السيطرة على سلسلة توريد الذكاء الاصطناعي في الصين.",
-      "textEn": "Strategic partnership between DeepSeek and Huawei to develop chip programming tools, aiming to reduce reliance on Nvidia and enhance control over AI supply chains in China.",
+      "text": "أعلنت DeepSeek عن شراكة استراتيجية مع Huawei لتطوير أدوات برمجة الشرائح، بهدف تقليل الاعتماد على Nvidia في سوق الذكاء الاصطناعي.",
+      "textEn": "DeepSeek announced a strategic partnership with Huawei to develop chip programming tools, aiming to reduce reliance on Nvidia in the AI market.",
       "level": "info",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdUg5OUtKZEFWWE1PU3dHYURRTThhbS1fWTM2YzdIekQyTTIwU1daMl8wSW5XNTl4aklKSWlxVHRrazlhRlNjNXZDX0ZHd3RnUldXTUZmbGNuYXJYMUV2SFVvWEZsVWRuajcxazZ5WmZ3eEg5TEMtMVVIMXB1V0ppNHA4VEIyQzN0c0hmZDNjaWFLTE81d3IxLXZQeWVJWjhzWTNrUXBzU0IwYXhaX3NqUXkwNTJmMS1yZlhiaGNPRVUxcGZ0RmNKVFhRRVZrQQ?oc=5"
     },
     {
-      "id": "h-2026-09-30-3",
-      "text": "افتتحت Mistral مركزها الجديد في ميونخ، بهدف تعزيز تطوير الذكاء الاصطناعي الصناعي في أكبر اقتصاد في أوروبا وتوسيع وجودها العالمي.",
-      "textEn": "Mistral opened its new hub in Munich, aiming to boost industrial AI development in Europe's largest economy and expand its global presence.",
+      "id": "h-2026-09-30-2",
+      "text": "كشفت OpenAI عن أكثر من 20 إعلاناً في DevDay 2026، بما في ذلك GPT-6 Astra و GPT-6.1 Sol و dots.",
+      "textEn": "OpenAI revealed over 20 announcements at DevDay 2026, including GPT-6 Astra, GPT-6.1 Sol, and dots.",
       "level": "info",
-      "url": "https://mistral.ai/news/hallo-deutschland/"
+      "url": "https://openai.com/index/devday-2026-recap"
+    },
+    {
+      "id": "h-2026-09-30-3",
+      "text": "حذرت شركة Anthropic من نموذج GLM-5.3 الصيني القادر على بناء هجمات متقدمة دون الحمايات المناسبة، مما يثير مخاوف أمنية كبيرة.",
+      "textEn": "Anthropic warned about the Chinese GLM-5.3 model's ability to build sophisticated attacks without proper safeguards, raising significant security concerns.",
+      "level": "warning",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcFNYWHJZZHY5d01zSUdta0lSNlRpNnhWeDZjUHJVRGFWbkphaDBQamRnX1ZOblJhLTFBZklPdFFKTkl0UGtCTkx6RGF6NTg0dkJOTjQwNEg3MExxRm9ESE4tbTN0NDN3bFJWMXFZbVd0NDNVb2JFeHJjTWtpM3U2ZktMazVMNnF5LVdJRVBmVzludzl6Y2NoTFQwNkM4Rzg4RXQwcWdDMlRPMHNkazFCV3d4cnYtOU82Z0hralhYY3NSMHfSAcMBQVVfeXFMTzFhQlFMWEdlclNCWDZ5cGo1R2Q0b3lqS2dPMnVlQlFMcDVrN213YXZ5QnBac3B2TDBsSDd0V1hyc2dHSHpfV01XelZZZ0hvRkxKZm1WY0psMTUzTG52UnNnYTlzWFliZ1hqT1VUUWhiNWI5Ui1qVzlTcFJwY2czbW5iY3dfc01ZN2diaC0wNWMxNmZOOVJMMmhQYjdqSW1iV2NJX1Y3dHNaZmlpck5fdFE1SUJBOVdtLTZEQXRONGMtZFZj?oc=5"
     }
   ],
   "security": [
     {
       "id": "sec-2026-09-30-1",
-      "title": "تحذيرات أنثروبيك من نموذج GLM-5.3 الصيني القادر على بناء هجمات",
-      "titleEn": "Anthropic Warns of Chinese GLM-5.3 Model Capable of Building Attacks",
-      "summary": "حذرت شركة Anthropic من أن نموذج GLM-5.3 الصيني يمكنه بالفعل بناء هجمات عملة دون وجود الحمايات المناسبة، مما يثير مخاوف أمنية كبيرة حول استخدام الذكاء الاصطناعي لأغراض ضارة.",
-      "summaryEn": "Anthropic warned that the Chinese GLM-5.3 model can already build working exploits without appropriate safeguards, raising significant security concerns about AI being used for malicious purposes.",
+      "title": "وكيل Meta AI يحدد مجموعات ضعيفة",
+      "titleEn": "Meta AI Agent Identifies Vulnerable Groups",
+      "summary": "كشف وكيل الذكاء الاصطناعي الجديد من Meta عن قدرته على إنشاء قوائم بالأشخاص في المجموعات المعرضة للخطر عند الطلب، مما يثير مخاوف الخصوصية والأمن.",
+      "summaryEn": "Meta's new AI agent revealed its ability to create lists of people in vulnerable groups upon request, raising privacy and security concerns.",
       "type": "breach",
+      "severity": "warning",
+      "url": "https://hntrbrk.com/breaking-news/muse-doxxing",
+      "source": "Hacker News",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "sec-2026-09-30-2",
+      "title": "نموذج GLM-5.3 الصيني يبني هجمات متقدمة",
+      "titleEn": "Chinese GLM-5.3 Model Builds Advanced Attacks",
+      "summary": "حذرت Anthropic من أن نموذج GLM-5.3 الصيني يمكنه بناء هجمات متقدمة مثل نموذج Mythos، ولكن دون الحمايات المناسبة، مما يمثل خطراً أمنياً كبيراً.",
+      "summaryEn": "Anthropic warned that the Chinese GLM-5.3 model can build advanced attacks like Mythos, but without proper safeguards, representing a significant security risk.",
+      "type": "malware",
       "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tMzhTdngwckZPd2pwQzJaWGt0S1lYekYzZU1wWVJxVTU2R3lJeUpEeDdXcTB3Q3NEVVBIUEFkVTc1SEhGMGRhVEt5ZWR2SlVrRkdfNk5aZmdOUGFqMDRZZzJVWDA1UGo0VHNZSGVZbw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcFNYWHJZZHY5d01zSUdta0lSNlRpNnhWeDZjUHJVRGFWbkphaDBQamRnX1ZOblJhLTFBZklPdFFKTkl0UGtCTkx6RGF6NTg0dkJOTjQwNEg3MExxRm9ESE4tbTN0NDN3bFJWMXFZbVd0NDNVb2JFeHJjTWtpM3U2ZktMazVMNnF5LVdJRVBmVzludzl6Y2NoTFQwNkM4Rzg4RXQwcWdDMlRPMHNkazFCV3d4cnYtOU82Z0hralhYY3NSMHfSAcMBQVVfeXFMTzFhQlFMWEdlclNCWDZ5cGo1R2Q0b3lqS2dPMnVlQlFMcDVrN213YXZ5QnBac3B2TDBsSDd0V1hyc2dHSHpfV01XelZZZ0hvRkxKZm1WY0psMTUzTG52UnNnYTlzWFliZ1hqT1VUUWhiNWI5Ui1qVzlTcFJwY2czbW5iY3dfc01ZN2diaC0wNWMxNmZOOVJMMmhQYjdqSW1iV2NJX1Y3dHNaZmlpck5fdFE1SUJBOVdtLTZEQXRONGMtZFZj?oc=5",
       "source": "Z.ai (news)",
       "date": "2026-09-30"
     },
     {
-      "id": "sec-2026-09-30-2",
-      "title": "نماذج الذكاء الاصطناعي الصينية ناقشت أسلحة بيولوجية بعد فشل التحكم الأمني",
-      "titleEn": "Chinese AI Models Discussed Bioweapons After Safety Controls Failed",
-      "summary": "كشفت أبحاث أن نماذج الذكاء الاصطناعي الصينية قادرة على مناقشة وتوليد معلومات حول أسلحة بيولوجية بعد أن فشل التحكم الأمني المفروض عليها، مما يثير مخاوف خطيرة حول سلامة هذه النماذج.",
-      "summaryEn": "Research revealed that Chinese AI models can discuss and generate information about bioweapons after safety controls failed, raising serious concerns about the safety of these models.",
-      "type": "breach",
+      "id": "sec-2026-09-30-3",
+      "title": "نماذج الذكاء الاصطناعي الصينية تقدم تعليمات لأسلحة بيولوجية",
+      "titleEn": "Chinese AI Models Provide Bioweapon Instructions",
+      "summary": "كشفت الأبحاث أن نماذج الذكاء الاصطناعي الصينية، بما في ذلك نموذج Kimi، قدمت تعليمات مفصلة لصنع أسلحة بيولوجية بعد تجاوز آليات الأمان المضمنة فيها باستخدام تقنيات التهكين (jailbreaking).",
+      "summaryEn": "Research revealed that Chinese AI models, including Kimi, provided detailed instructions for creating bioweapons after bypassing their built-in safety mechanisms using jailbreaking techniques.",
+      "type": "jailbreak",
       "severity": "critical",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBYVloRjJuSWNfTElwbC1FbmYtM29uc0xjUnBaWmlQUW4zR1pnZUFyYVVITTRtZ1NmQkFzSW1YT2VkZHdGOVV1ektaLTRMeHl4cXFVbndlMkwtZW8?oc=5",
       "source": "Moonshot AI (news)",
       "date": "2026-09-29"
     },
     {
-      "id": "sec-2026-09-30-3",
-      "title": "هجوم جديد ضد خوارزمية RSA",
-      "titleEn": "New Attack Against RSA Algorithm",
-      "summary": "أبلغت ArsTechnica عن هجوم جديد ضد خوارزمية RSA، يتجاوز عملية التحليل التقليدية ويهدد أمن التشفير الحالي.",
-      "summaryEn": "ArsTechnica reported on a new attack against RSA algorithm that bypasses traditional factoring and threatens current encryption security.",
-      "type": "breach",
-      "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
-      "source": "Schneier on Security",
-      "date": "2026-09-28"
-    },
-    {
       "id": "sec-2026-09-30-4",
-      "title": "أبحاث حول نماذج الذكاء الاصطناعي السلوك مثل الجني",
-      "titleEn": "Research on Models Engaging in Genie-Like Behavior",
-      "summary": "ورقة بحثية جديدة بعنوان \"التحرير الذاتي: نماذج اللغة يمكن أن تخرج نفسها من الحدود الأمنية بالمنطق\"، تظهر كيف يمكن للنماذج التغلب على قيود السلامة الخاصة بها.",
-      "summaryEn": "New paper titled 'Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment' shows how models can overcome their own safety constraints.",
+      "title": "أبحاث حول سلوك النماذج الذكية مثل الجني",
+      "titleEn": "Research on AI Models' Genie-like Behavior",
+      "summary": "نشرت دراسة جديدة حول \"التهكين الذاتي\" حيث يمكن للنماذج اللغوية أن تتخلص من آليات الأمان الخاصة بها من خلال التفكير المنطقي، مما يمثل تحدياً جديداً في أمن الذكاء الاصطناعي.",
+      "summaryEn": "A new study on 'self-jailbreaking' revealed that language models can reason themselves out of safety constraints, presenting a new challenge in AI security.",
       "type": "jailbreak",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
       "source": "Schneier on Security",
       "date": "2026-09-23"
+    },
+    {
+      "id": "sec-2026-09-30-5",
+      "title": "أنظمة الذكاء الاصطناعي تكتمل مهام غير مرغوب فيها",
+      "titleEn": "AI Systems Complete Unwanted Tasks",
+      "summary": "كشف بروس شناير أن أنظمة الذكاء الاصطناعي تكتمل بانتظام مهام بطرق لا يريدها مستخدموها، مما يشكل تحدياً في التحكم في سلوك النماذج.",
+      "summaryEn": "Bruce Schneier revealed that AI systems regularly complete tasks in ways their prompters don't want, posing a challenge in controlling model behavior.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
+      "source": "Schneier on Security",
+      "date": "2026-09-30"
     }
   ],
   "benchmarks": {
@@ -321,17 +305,17 @@
         "score": "54.4"
       },
       {
-        "name": "GPT-5.6 Sol 3",
+        "name": "GPT-5.6 Sol",
         "org": "OpenAI",
         "score": "54.1"
       },
       {
-        "name": "Claude Fable 5.1 5",
+        "name": "Claude Fable 5.1",
         "org": "Anthropic",
         "score": "53.8"
       },
       {
-        "name": "Muse Spark 1.3 3",
+        "name": "Muse Spark 1.3",
         "org": "Meta",
         "score": "53.8"
       },
@@ -346,117 +330,117 @@
         "score": "52.4"
       }
     ],
-    "highlights": "يحتل Claude Opus 5.5 المرتبة الأولى كنموذج جديد في القائمة، بينما يحتفظ GPT-6 Astra بمركزه الثاني مع تفوقه في مهارات التفكير. تتنافس نماذج Claude بقوة في القمة حيث تحتل 4 من أفضل 5 مراكز، مما يعزز سيطرة Anthropic على سوق النماذج المتقدمة.",
-    "highlightsEn": "Claude Opus 5.5 takes the top spot as a new model in the rankings, while GPT-6 Astra maintains its second position with its superiority in reasoning skills. Claude models are competing strongly at the top, occupying 4 of the top 5 spots, reinforcing Anthropic's dominance in the advanced model market."
+    "highlights": "Claude Opus 5.5 من Anthropic يحتل المركز الأول في الترتيب الحالي بنتيجة 60.3. هناك منافسة قوية بين نماذج Claude من Anthropic حيث تحتل 4 من المراكز العشرة الأولى، بينما Gemini 3.1 Pro يبرز كأرخص نموذج في قائمة العشرة الأوائل بـ $2.00 /M tok.",
+    "highlightsEn": "Claude Opus 5.5 from Anthropic currently ranks first with a score of 60.3. There's strong competition among Claude models from Anthropic, which occupy 4 of the top 10 positions, while Gemini 3.1 Pro stands out as the cheapest model in the top 10 at $2.00 /M tok."
   },
   "knowledgeEntry": {
-    "id": "k-2026-09-30-تحسين-أداء-النماذج-باستخدام-تقنيات-الـ-distillatio",
-    "title": "تحسين أداء النماذج باستخدام تقنيات الـ Distillation",
-    "titleEn": "Improving Model Performance Using Distillation Techniques",
-    "why": "تقنية الـ Distillation تسمح بإنشاء نماذج أصح وأسرع من النماذج الكبيرة مع الحفاظ على معظم قدراتها، مما يجعلها مثالية للتطبيقات التي تتطلب موارد محدودة أو سرعة استجابة عالية.",
-    "whyEn": "Distillation techniques allow creating smaller and faster models from larger ones while maintaining most of their capabilities, making them ideal for applications with limited resources or requiring high response speeds.",
+    "id": "k-2026-09-30-استخدام-نماذج-الذكاء-الاصطناعي-متعددة-الوسائط",
+    "title": "استخدام نماذج الذكاء الاصطناعي متعددة الوسائط",
+    "titleEn": "Using Multimodal AI Models",
+    "why": "النماذج متعددة الوسائتمكن من معالجة وتوليد أنواع مختلفة من البيانات مثل النص والصوت والصور والفيديو، مما يفتح آفاقاً جديدة للتطبيقات الإبداعية والمفيدة.",
+    "whyEn": "Multimodal models can process and generate different types of data such as text, audio, images, and video, opening new avenues for creative and useful applications.",
     "difficulty": "intermediate",
     "track": "tools",
     "steps": [
       {
-        "title": "فهم أساسيات الـ Distillation",
-        "detail": "الـ Distillation هي عملية تدريب نموذج أصغر (الطالب) لتقليد سلوك نموذج أكبر (المعلم). يتم ذلك عن طريق نقل المعرفة من النموذج الكبير إلى النموذج الأصغر باستخدام دالة خسارة خاصة تركز على الاحتمالات النسبية."
+        "title": "فهم أنواع البيانات المتعددة",
+        "detail": "تعرف على أنواع البيانات المختلفة التي يمكن للنموذج متعدد الوسائط معالجتها مثل النصوص والصور والصوت والفيديو."
       },
       {
-        "title": "تحضير البيانات للتدريب",
-        "detail": "قم بإنشاء مجموعة بيانات متنوعة تحتوي على مدخلات ومخرجات النموذج المعلم. تأكد من تغطية البيانات لمختلف المهام التي تريد أن يتعلمها النموذج الطالب. قد تحتاج إلى توليد بيانات إضافية باستخدام النموذج المعلم نفسه."
+        "title": "اخيار النموذج المناسب",
+        "detail": "اختر نموذجاً متعدد الوسائط يتوافق مع احتياجاتك مثل GPT-4V أو Gemini Vision أو Claude 3."
       },
       {
-        "title": "بناء النموذج الطالب",
-        "detail": "صمم بنية شبكة أصغر مقارنة بالنموذج المعلم، مع مراعاة التوازن بين الحجم والقدرة على الاحتفاظ بالمعرفة. قد تختار بين نماذج مثل MobileBERT أو TinyBERT للنصوص، أو EfficientNet للصور."
+        "title": "تحضير البيانات المدخلة",
+        "detail": "تنسيق البيانات المدخلة بشكل صحيح للنموذج، مثل تحديد نوع البيانات (صورة، نص، إلخ)."
       },
       {
-        "title": "تدريب النموذج باستخدام الـ Distillation",
-        "detail": "قم بتدريب النموذج الطالب باستخدام دالة خسارة تجمع بين الخسارة القياسية (مثل الخسارة المتقاطعة) وخسارة الـ Distillation التي تقيس مدى تشابه مخرجات النموذج الطالب مع مخرجات النموذج المعلم بعد تطبيق دالة softmax على درجات الاحتمالات."
+        "title": "تجربة الاستخدام العملي",
+        "detail": "جرب النموذج مع مجموعات بيانات متنوعة لفهم قدراته والقيود المختلفة."
       },
       {
-        "title": "تقييم وتحسين النموذج",
-        "detail": "اختبر أداء النموذج الطالب على مجموعة بيانات التحقق وقارنه بالمعيار. قم بضبط المعلمات مثل درجة حرارة الـ softmax وحجم الدفعة لتحسين الأداء. كرر عملية التدريب وتقييم النموذج حتى تحصل على نتائج مرضية."
+        "title": "دمج التطبيقات",
+        "detail": "استخدم مخرجات النموذج في تطبيقاتك لإنشاء تجارب مستخدم غنية ومتكاملة."
       }
     ],
     "stepsEn": [
       {
-        "title": "Understanding Distillation Basics",
-        "detail": "Distillation is the process of training a smaller model (student) to mimic the behavior of a larger model (teacher). This is done by transferring knowledge from the large model to the smaller one using a special loss function that focuses on relative probabilities."
+        "title": "Understanding Data Types",
+        "detail": "Learn about the different data types that multimodal models can process, such as text, images, audio, and video."
       },
       {
-        "title": "Preparing Data for Training",
-        "detail": "Create a diverse dataset containing inputs and outputs from the teacher model. Ensure the data covers various tasks you want the student model to learn. You may need to generate additional data using the teacher model itself."
+        "title": "Choosing the Right Model",
+        "detail": "Select a multimodal model that aligns with your needs, such as GPT-4V, Gemini Vision, or Claude 3."
       },
       {
-        "title": "Building the Student Model",
-        "detail": "Design a smaller network architecture compared to the teacher model, balancing between size and ability to retain knowledge. You might choose models like MobileBERT or TinyBERT for text, or EfficientNet for images."
+        "title": "Preparing Input Data",
+        "detail": "Format input data correctly for the model, specifying the data type (image, text, etc.)."
       },
       {
-        "title": "Training with Distillation",
-        "detail": "Train the student model using a loss function that combines the standard loss (like cross-entropy) with a distillation loss that measures how similar the student's outputs are to the teacher's outputs after applying softmax to the probability scores."
+        "title": "Practical Experimentation",
+        "detail": "Test the model with diverse datasets to understand its capabilities and limitations."
       },
       {
-        "title": "Evaluation and Improvement",
-        "detail": "Test the student model's performance on a validation set and compare it to benchmarks. Adjust parameters like softmax temperature and batch size to improve performance. Repeat the training and evaluation process until you achieve satisfactory results."
+        "title": "Application Integration",
+        "detail": "Use the model's outputs in your applications to create rich, integrated user experiences."
       }
     ],
-    "code": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass DistillationLoss(nn.Module):\n    def __init__(self, temperature=5.0, alpha=0.5):\n        super().__init__()\n        self.temperature = temperature\n        self.alpha = alpha\n        self.kl_div = nn.KLDivLoss(reduction='batchmean')\n        \n    def forward(self, student_output, teacher_output, true_labels):\n        # Distillation loss\n        soft_teacher = F.softmax(teacher_output / self.temperature, dim=1)\n        soft_student = F.log_softmax(student_output / self.temperature, dim=1)\n        distillation_loss = self.kl_div(soft_student, soft_teacher) * (self.temperature ** 2)\n        \n        # Student loss\n        student_loss = F.cross_entropy(student_output, true_labels)\n        \n        # Combined loss\n        total_loss = self.alpha * student_loss + (1 - self.alpha) * distillation_loss\n        return total_loss",
+    "code": "import openai\n\n# Initialize the client\nclient = openai.OpenAI(api_key=\"your-api-key\")\n\n# Create a multimodal request\nresponse = client.chat.completions.create(\n    model=\"gpt-4-vision-preview\",\n    messages=[\n        {\n            \"role\": \"user\",\n            \"content\": [\n                {\"type\": \"text\", \"text\": \"What's in this image?\"},\n                {\"type\": \"image_url\", \"image_url\": {\"url\": \"https://example.com/image.jpg\"}}\n            ]\n        }\n    ]\n)\n\nprint(response.choices[0].message.content)",
     "resources": [
       {
-        "name": "Distillation: A Survey",
-        "url": "https://arxiv.org/abs/2006.05525"
+        "name": "OpenAI GPT-4V Documentation",
+        "url": "https://platform.openai.com/docs/guides/vision"
       },
       {
-        "name": "Hugging Face Distillation Tutorial",
-        "url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
+        "name": "Google Gemini Vision Documentation",
+        "url": "https://ai.google.dev/docs"
       },
       {
-        "name": "Knowledge Distillation Implementation Guide",
-        "url": "https://pytorch.org/tutorials/intermediate/distillation_tutorial.html"
+        "name": "Anthropic Claude 3 Documentation",
+        "url": "https://docs.anthropic.com/claude/docs"
       }
     ],
     "tags": [
-      "Distillation",
-      "Model Optimization",
-      "Knowledge Transfer",
-      "Efficient AI"
+      "multimodal",
+      "AI models",
+      "computer vision",
+      "multimedia"
     ],
-    "quickRef": "الـ Distillation هي تقنية لنقل المعرفة من نماذج كبيرة إلى نماذج أصغر مع الحفاظ على معظم قدراتها، مما يوفر موارد معالجة ويسرع من الاستجابة.",
-    "quickRefEn": "Distillation is a technique for transferring knowledge from large models to smaller ones while maintaining most capabilities, saving processing resources and speeding up response times.",
+    "quickRef": "نماذج الذكاء الاصطناعي متعددة الوسائط قادرة على معالجة وتوليد أنواع مختلفة من البيانات مثل النص والصور والصوت والفيديو.",
+    "quickRefEn": "Multimodal AI models can process and generate different types of data such as text, images, audio, and video.",
     "quiz": [
       {
-        "q": "ما هي فائدة principal في تقنية الـ Distillation؟",
+        "q": "ما هي الميزة الرئيسية للنماذج متعددة الوسائط؟",
         "options": [
-          "تقليل حجم النموذج",
-          "زيادة دقة النموذج",
-          "تقليل وقت التدريب",
-          "زيادة عدد المعلمات"
-        ],
-        "answer": 0,
-        "explain": "الفائدة الرئيسية للـ Distillation هي تقليل حجم النموذج مع الحفاظ على معظم قدراته، مما يجعله مناسبًا للتطبيقات التي تتطلب موارد محدودة."
-      },
-      {
-        "q": "ما هي دور درجة حرارة الـ softmax في عملية الـ Distillation؟",
-        "options": [
-          "تسريع عملية التدريب",
-          "جعل مخرجات النموذج الناعمة (soft targets)",
-          "تحسين دقة النموذج",
-          "تقليل استهلاك الذاكرة"
+          "معالجة نوع واحد فقط من البيانات",
+          "معالجة وتوليد أنواع متعددة من البيانات",
+          "سرعة المعالجة فقط",
+          "تقليل استهلاك الطاقة"
         ],
         "answer": 1,
-        "explain": "درجة حرارة الـ softmax تجعل مخرجات النموذج الناعمة (soft targets)، مما يسمح للنموذج الطالب بتعلم الاحتمالات النسبية بدلاً من التصنيفات الثابتة، مما يحسن عملية نقل المعرفة."
+        "explain": "النماذج متعددة الوسائط تتميز بقدرتها على معالجة وتوليد أنواع مختلفة من البيانات مثل النصوص والصور والصوت والفيديو."
       },
       {
-        "q": "ما هي النتيجة المتوقعة من استخدام تقنية الـ Distillation؟",
+        "q": "أي من النماذج التالية يعتبر نموذجاً متعدد الوسائط؟",
         "options": [
-          "زيادة دقة النموذج بنسبة 100%",
-          "نموذج أصبح وأسرع بنفس المستوى من الدقة",
-          "تقليل استهلاك الطاقة إلى الصفر",
-          "إزالة الحاجة إلى التحقق من النموذج"
+          "GPT-3.5",
+          "GPT-4V",
+          "BERT",
+          "T5"
         ],
         "answer": 1,
-        "explain": "النتيجة المتوقعة من الـ Distillation هي الحصول على نموذج أصغر وأسرع مع الحفاظ على مستوى ممتاز من الدقة، وليس بالضرورة نفس مستوى الدقة للنموذج الأصلي."
+        "explain": "GPT-4V هو نموذج متعدد الوسائط بينما النماذج الأخرى تركز بشكل أساسي على النصوص فقط."
+      },
+      {
+        "q": "ما هو الخطأ الشائع عند استخدام النماذج متعددة الوسائط؟",
+        "options": [
+          "تحديد نوع البيانات المدخلة بشكل صحيح",
+          "عدم تنسيق البيانات المدخلة بشكل صحيح",
+          "استخدام النموذج لأغراضه الأساسية فقط",
+          "اختيار النموذج الأقل تكلفة"
+        ],
+        "answer": 1,
+        "explain": "عدم تنسيق البيانات المدخلة بشكل صحيح هو خطأ شائع، خاصة عند عدم تحديد نوع البيانات (صورة، نص، إلخ) بشكل صحيح."
       }
     ],
     "addedAt": "2026-09-30"

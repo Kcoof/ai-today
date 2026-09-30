@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-30-استخدام-نماذج-الذكاء-الاصطناعي-متعددة-الوسائط",
+      "title": "استخدام نماذج الذكاء الاصطناعي متعددة الوسائط",
+      "titleEn": "Using Multimodal AI Models",
+      "why": "النماذج متعددة الوسائتمكن من معالجة وتوليد أنواع مختلفة من البيانات مثل النص والصوت والصور والفيديو، مما يفتح آفاقاً جديدة للتطبيقات الإبداعية والمفيدة.",
+      "whyEn": "Multimodal models can process and generate different types of data such as text, audio, images, and video, opening new avenues for creative and useful applications.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم أنواع البيانات المتعددة",
+          "detail": "تعرف على أنواع البيانات المختلفة التي يمكن للنموذج متعدد الوسائط معالجتها مثل النصوص والصور والصوت والفيديو."
+        },
+        {
+          "title": "اخيار النموذج المناسب",
+          "detail": "اختر نموذجاً متعدد الوسائط يتوافق مع احتياجاتك مثل GPT-4V أو Gemini Vision أو Claude 3."
+        },
+        {
+          "title": "تحضير البيانات المدخلة",
+          "detail": "تنسيق البيانات المدخلة بشكل صحيح للنموذج، مثل تحديد نوع البيانات (صورة، نص، إلخ)."
+        },
+        {
+          "title": "تجربة الاستخدام العملي",
+          "detail": "جرب النموذج مع مجموعات بيانات متنوعة لفهم قدراته والقيود المختلفة."
+        },
+        {
+          "title": "دمج التطبيقات",
+          "detail": "استخدم مخرجات النموذج في تطبيقاتك لإنشاء تجارب مستخدم غنية ومتكاملة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Data Types",
+          "detail": "Learn about the different data types that multimodal models can process, such as text, images, audio, and video."
+        },
+        {
+          "title": "Choosing the Right Model",
+          "detail": "Select a multimodal model that aligns with your needs, such as GPT-4V, Gemini Vision, or Claude 3."
+        },
+        {
+          "title": "Preparing Input Data",
+          "detail": "Format input data correctly for the model, specifying the data type (image, text, etc.)."
+        },
+        {
+          "title": "Practical Experimentation",
+          "detail": "Test the model with diverse datasets to understand its capabilities and limitations."
+        },
+        {
+          "title": "Application Integration",
+          "detail": "Use the model's outputs in your applications to create rich, integrated user experiences."
+        }
+      ],
+      "code": "import openai\n\n# Initialize the client\nclient = openai.OpenAI(api_key=\"your-api-key\")\n\n# Create a multimodal request\nresponse = client.chat.completions.create(\n    model=\"gpt-4-vision-preview\",\n    messages=[\n        {\n            \"role\": \"user\",\n            \"content\": [\n                {\"type\": \"text\", \"text\": \"What's in this image?\"},\n                {\"type\": \"image_url\", \"image_url\": {\"url\": \"https://example.com/image.jpg\"}}\n            ]\n        }\n    ]\n)\n\nprint(response.choices[0].message.content)",
+      "resources": [
+        {
+          "name": "OpenAI GPT-4V Documentation",
+          "url": "https://platform.openai.com/docs/guides/vision"
+        },
+        {
+          "name": "Google Gemini Vision Documentation",
+          "url": "https://ai.google.dev/docs"
+        },
+        {
+          "name": "Anthropic Claude 3 Documentation",
+          "url": "https://docs.anthropic.com/claude/docs"
+        }
+      ],
+      "tags": [
+        "multimodal",
+        "AI models",
+        "computer vision",
+        "multimedia"
+      ],
+      "quickRef": "نماذج الذكاء الاصطناعي متعددة الوسائط قادرة على معالجة وتوليد أنواع مختلفة من البيانات مثل النص والصور والصوت والفيديو.",
+      "quickRefEn": "Multimodal AI models can process and generate different types of data such as text, images, audio, and video.",
+      "quiz": [
+        {
+          "q": "ما هي الميزة الرئيسية للنماذج متعددة الوسائط؟",
+          "options": [
+            "معالجة نوع واحد فقط من البيانات",
+            "معالجة وتوليد أنواع متعددة من البيانات",
+            "سرعة المعالجة فقط",
+            "تقليل استهلاك الطاقة"
+          ],
+          "answer": 1,
+          "explain": "النماذج متعددة الوسائط تتميز بقدرتها على معالجة وتوليد أنواع مختلفة من البيانات مثل النصوص والصور والصوت والفيديو."
+        },
+        {
+          "q": "أي من النماذج التالية يعتبر نموذجاً متعدد الوسائط؟",
+          "options": [
+            "GPT-3.5",
+            "GPT-4V",
+            "BERT",
+            "T5"
+          ],
+          "answer": 1,
+          "explain": "GPT-4V هو نموذج متعدد الوسائط بينما النماذج الأخرى تركز بشكل أساسي على النصوص فقط."
+        },
+        {
+          "q": "ما هو الخطأ الشائع عند استخدام النماذج متعددة الوسائط؟",
+          "options": [
+            "تحديد نوع البيانات المدخلة بشكل صحيح",
+            "عدم تنسيق البيانات المدخلة بشكل صحيح",
+            "استخدام النموذج لأغراضه الأساسية فقط",
+            "اختيار النموذج الأقل تكلفة"
+          ],
+          "answer": 1,
+          "explain": "عدم تنسيق البيانات المدخلة بشكل صحيح هو خطأ شائع، خاصة عند عدم تحديد نوع البيانات (صورة، نص، إلخ) بشكل صحيح."
+        }
+      ],
+      "addedAt": "2026-09-30"
+    },
+    {
       "id": "k-2026-09-30-تحسين-أداء-النماذج-باستخدام-تقنيات-الـ-distillatio",
       "title": "تحسين أداء النماذج باستخدام تقنيات الـ Distillation",
       "titleEn": "Improving Model Performance Using Distillation Techniques",
