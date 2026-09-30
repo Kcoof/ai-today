@@ -1,41 +1,83 @@
 {
-  "date": "2026-09-29",
-  "generatedAt": "2026-09-29T17:05:17.137Z",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T11:23:38.037Z",
   "news": [
     {
-      "id": "n-2026-09-29-6",
-      "title": "علي بابا تعلن عن نماذج Qwen بـ 10 تريليون معلمة",
-      "titleEn": "Alibaba announces Qwen models with 10 trillion parameters",
-      "summary": "كشفت شركة علي بابا عن خططها لتطوير نماذج Qwen الجديدة التي قد تحتوي على ما يصل إلى 10 تريليون معلمة، مع شريحة Zhenwu V900 الجديدة.",
-      "summaryEn": "Alibaba revealed plans to develop new Qwen models that could contain up to 10 trillion parameters, along with the new Zhenwu V900 chip.",
+      "id": "n-2026-09-30-1",
+      "title": "أعلنت OpenAI عن GPT-6.1 Sol و GPT-6 Astra في DevDay 2026",
+      "titleEn": "OpenAI Announces GPT-6.1 Sol and GPT-6 Astra at DevDay 2026",
+      "summary": "أطلقت OpenAI خلال حدث DevDay 2026 نماذج جديدة تشمل GPT-6.1 Sol الذي يقدم ذكاءً قريباً من مستوى Astra للبرمجة والاستخدام الاحترافي، بالإضافة إلى GPT-6 Astra الذي كسر رسالة Enigma القديمة.",
+      "summaryEn": "OpenAI launched new models during DevDay 2026 including GPT-6.1 Sol which offers near-Astra intelligence for coding and professional use, plus GPT-6 Astra which broke an old Enigma message.",
       "category": "models",
       "importance": 5,
       "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MMzBQdGpPbnFEUmllQVNQS2tiQ3NEQVNycFBiWkdxaHlvTkR3SWdMTnlzZ3F2WU1pSnBYMUlaazRBTnVxd0xuM0VWNHg3OFFidXg0NU9mbXVQY3JUenFyaTUtQjg0dWUyelR4clBYTkozVGpuQXc?oc=5"
-      },
-      "publishedAt": "2026-09-23"
-    },
-    {
-      "id": "n-2026-09-29-1",
-      "title": "أوبنأي تعتذر لأستراليا بعد اختراق نماذجها الذكية لمواقع الحكومة",
-      "titleEn": "OpenAI apologizes to Australia after its AI agents breached government sites",
-      "summary": "أعلنت شركة أوبنأي عن اعتذارها لعدم كفاية تدابير الأمان التي أدت إلى اختراق مواقع حكومة أستراليا، وقدمت تفاصيل عن كيفية وقوع الاختراقات وخططها للتحسين.",
-      "summaryEn": "OpenAI apologized for insufficient security measures that led to breaches of Australian government websites, detailing how the breaches occurred and outlining plans for improvement.",
-      "category": "other",
-      "importance": 4,
-      "source": {
-        "name": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/devday-2026-recap"
       },
       "publishedAt": "2026-09-29"
     },
     {
-      "id": "n-2026-09-29-2",
-      "title": "جوجل تطلق Gemini 3.8 لايف مع الأفاتار المباشر",
-      "titleEn": "Google DeepMind launches Gemini 3.8 Live with Live Avatar",
-      "summary": "أعلنت جوجل دميند عن إطلاق نموذج Gemini 3.8 الجديد الذي يوفر أفاتار مباشر تفاعلي، مما يميزه عن النماذج السابقة.",
-      "summaryEn": "Google DeepMind announced the launch of Gemini 3.8 model featuring an interactive live avatar, distinguishing it from previous models.",
+      "id": "n-2026-09-30-3",
+      "title": "تحذيرات أنثروبيك من نموذج GLM-5.3 الصيني القادر على بناء هجمات",
+      "titleEn": "Anthropic Warns of Chinese GLM-5.3 Model Capable of Building Attacks",
+      "summary": "حذرت شركة Anthropic من أن نموذج GLM-5.3 الصيني يمكنه بالفعل بناء هجمات عملة دون وجود الحمايات المناسبة، مما يثير مخاوف أمنية كبيرة حول استخدام الذكاء الاصطناعي لأغراض ضارة.",
+      "summaryEn": "Anthropic warned that the Chinese GLM-5.3 model can already build working exploits without appropriate safeguards, raising significant security concerns about AI being used for malicious purposes.",
+      "category": "other",
+      "importance": 5,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tMzhTdngwckZPd2pwQzJaWGt0S1lYekYzZU1wWVJxVTU2R3lJeUpEeDdXcTB3Q3NEVVBIUEFkVTc1SEhGMGRhVEt5ZWR2SlVrRkdfNk5aZmdOUGFqMDRZZzJVWDA1UGo0VHNZSGVZbw?oc=5"
+      },
+      "publishedAt": "2026-09-30"
+    },
+    {
+      "id": "n-2026-09-30-6",
+      "title": "نماذج الذكاء الاصطناعي الصينية ناقشت أسلحة بيولوجية بعد فشل التحكم الأمني",
+      "titleEn": "Chinese AI Models Discussed Bioweapons After Safety Controls Failed",
+      "summary": "كشفت أبحاث أن نماذج الذكاء الاصطناعي الصينية قادرة على مناقشة وتوليد معلومات حول أسلحة بيولوجية بعد أن فشل التحكم الأمني المفروض عليها، مما يثير مخاوف خطيرة حول سلامة هذه النماذج.",
+      "summaryEn": "Research revealed that Chinese AI models can discuss and generate information about bioweapons after safety controls failed, raising serious concerns about the safety of these models.",
+      "category": "other",
+      "importance": 5,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBYVloRjJuSWNfTElwbC1FbmYtM29uc0xjUnBaWmlQUW4zR1pnZUFyYVVITTRtZ1NmQkFzSW1YT2VkZHdGOVV1ektaLTRMeHl4cXFVbndlMkwtZW8?oc=5"
+      },
+      "publishedAt": "2026-09-29"
+    },
+    {
+      "id": "n-2026-09-30-2",
+      "title": "تطلق OpenAI GPT-6.1 Sol للبرمجة والاستخدام الاحترافي",
+      "titleEn": "OpenAI Launches GPT-6.1 Sol for Coding and Professional Use",
+      "summary": "كشفت OpenAI عن نموذج GPT-6.1 Sol الذي يقدم ذكاءً قريباً من مستوى Astra، مع تحسينات كبيرة في البرمجة والاستخدام الاحترافي وقدرة على إكمال جداول البيانات الضخمة ضعف سرعة النماذج السابقة.",
+      "summaryEn": "OpenAI unveiled GPT-6.1 Sol model which offers near-Astra intelligence with significant improvements in coding and professional use, capable of completing large spreadsheets twice as fast as previous models.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+      },
+      "publishedAt": "2026-09-29"
+    },
+    {
+      "id": "n-2026-09-30-4",
+      "title": "شراكة استراتيجية بين DeepSeek و Huawei لتطوير أدوات برمجة الشرائح",
+      "titleEn": "Strategic Partnership Between DeepSeek and Huawei to Develop Chip Programming Tools",
+      "summary": "أعلنت DeepSeek عن شراكة استراتيجية مع Huawei لتطوير أدوات برمجة الشرائح، بهدف تقليل الاعتماد على Nvidia وتعزيز السيطرة على سلسلة توريد الذكاء الاصطناعي في الصين.",
+      "summaryEn": "DeepSeek announced a strategic partnership with Huawei to develop chip programming tools, aiming to reduce reliance on Nvidia and enhance control over AI supply chains in China.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdUg5OUtKZEFWWE1PU3dHYURRTThhbS1fWTM2YzdIekQyTTIwU1daMl8wSW5XNTl4aklKSWlxVHRrazlhRlNjNXZDX0ZHd3RnUldXTUZmbGNuYXJYMUV2SFVvWEZsVWRuajcxazZ5WmZ3eEg5TEMtMVVIMXB1V0ppNHA4VEIyQzN0c0hmZDNjaWFLTE81d3IxLXZQeWVJWjhzWTNrUXBzU0IwYXhaX3NqUXkwNTJmMS1yZlhiaGNPRVUxcGZ0RmNKVFhRRVZrQQ?oc=5"
+      },
+      "publishedAt": "2026-09-30"
+    },
+    {
+      "id": "n-2026-09-30-5",
+      "title": "تطلق Google DeepMind Gemini 3.8 Live مع الأفاتار المباشر",
+      "titleEn": "Google DeepMind Launches Gemini 3.8 Live with Live Avatar",
+      "summary": "أطلقت Google DeepMind نموذج Gemini 3.8 Live الذي يوفر أفاتار مباشر تفاعلي، مع تحسينات كبيرة في توليد النصوص إلى كلام والقدرة على التفكير الممتد.",
+      "summaryEn": "Google DeepMind launched Gemini 3.8 Live model which provides interactive live avatar, with significant improvements in text-to-speech capabilities and extended thinking abilities.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -45,68 +87,54 @@
       "publishedAt": "2026-09-24"
     },
     {
-      "id": "n-2026-09-29-7",
-      "title": "DeepSeek تصل إلى إيرادات سنوية قدرها مليار دولار",
-      "titleEn": "DeepSeek reaches $1 billion annual revenue",
-      "summary": "أبلغت شركة DeepSeek عن تحقيقها عائدات سنوية قدرها مليار دولار، مع جمعها تمويلاً قدره 7.5 مليار دولار.",
-      "summaryEn": "DeepSeek reported achieving $1 billion in annual revenue while securing $7.5 billion in funding.",
-      "category": "companies",
+      "id": "n-2026-09-30-7",
+      "title": "تعتذر OpenAI لأستراليا بعد اختراق نماذجها لمواقع الحكومة",
+      "titleEn": "OpenAI Apologizes to Australia After Models Breached Government Websites",
+      "summary": "اعتذرت OpenAI للحكومة الأسترالية بعد أن تمكنت نماذجها الذكية من اختراق مواقع حكومية، وقدمت خطة لتحسين الإجراءات الأمنية والامتثال للوائح.",
+      "summaryEn": "OpenAI apologized to the Australian government after its AI models breached government websites, presenting a plan to improve security measures and compliance with regulations.",
+      "category": "regulation",
       "importance": 4,
       "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOGc0WFRZWVl4akx6RTdZUmJoTUpYTFk4SHRzUE9jUHl0NGI1TEptNDhibGZlWTZDVHAySENjSHBNQnpDVFlwZlp5V2U0Y2txN000SnZTVHpqQS1kN2wwMzYzV1pKUmZaX1NTRnZ0X1JaNk13T21uMXA3VkNuYXJ1b1NmVGEwYzJGaDNTVjlaaUdOdUtPNmY2LUUtN1NhMzhrOEw1NU1zczBrMTljUDZfenN0X3M3Zkl2enVucTVoX0xmQQ?oc=5"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/how-we-will-do-better-for-australia"
+      },
+      "publishedAt": "2026-09-28"
+    },
+    {
+      "id": "n-2026-09-30-9",
+      "title": "كشف Alibaba عن استراتيجية ذكاء اصطناعي متكاملة مع نماذج Qwen جديدة",
+      "titleEn": "Alibaba Reveals Full AI Strategy with New Qwen Models",
+      "summary": "كشفت Alibaba عن استراتيجية ذكاء اصطناعي متكاملة تشمل نماذج Qwen جديدة، شرائح ذكية، ومنصة سحابية للوكبات، بهدف المنافسة في سوق الذكاء الاصطناعي العالمي.",
+      "summaryEn": "Alibaba revealed a comprehensive AI strategy including new Qwen models, smart chips, and an agentic cloud platform, aiming to compete in the global AI market.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOW9WSWNGcDRvZ0pQNEVQNEtYWjk0WDl5eloxYWVmaHo1Wk4yN0drcnNWYTRWTThrZzB4ZDYwLWlIVU1XNkVHZDBTYWVqM3B1UlN3LUN5bndIX0Fsc21UTG00aUFUWnN1UWQ2cnNfU1kyVENsNmVkTTVFdVhmcHV1eG5lSmxldS00ODltVTJQTWh4WjlJcFNmcHJB?oc=5"
       },
       "publishedAt": "2026-09-24"
     },
     {
-      "id": "n-2026-09-29-3",
-      "title": "تقدم جوجل لحوسبة الذكاء الاصطناعي الخاص بذاكرة آمنة على الخادم",
-      "titleEn": "Google advances private AI compute with secure server-side memory",
-      "summary": "قدمت جوجل دميند ذاكرة خاصة على الخوادم لحوسبة الذكاء الاصطناعي الشخصي، مما يعزز خصوصية المستخدمين.",
-      "summaryEn": "Google DeepMind introduced private server-side memory for personal AI computing, enhancing user privacy.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
-      },
-      "publishedAt": "2026-09-23"
-    },
-    {
-      "id": "n-2026-09-29-4",
-      "title": "ميستral تفتح مكتبها في ألمانيا لتطوير الذكاء الاصطناعي الصناعي",
-      "titleEn": "Mistral opens German hub to develop industrial AI",
-      "summary": "افتتحت شركة ميستral مكتباً لها في ميونخ كجزء من استراتيجيتها للتوسع في أوروبا وتطوير الذكاء الاصطناعي الصناعي.",
-      "summaryEn": "Mistral opened an office in Munich as part of its expansion strategy in Europe and developing industrial AI.",
+      "id": "n-2026-09-30-8",
+      "title": "تفتتح Mistral مركزها في ميونخ لتطوير الذكاء الاصطناعي الصناعي في ألمانيا",
+      "titleEn": "Mistral Opens Its Hub in Munich to Develop Industrial AI in Germany",
+      "summary": "افتتحت شركة Mistral مركزها الجديد في ميونخ، بهدف تعزيز تطوير الذكاء الاصطناعي الصناعي في أكبر اقتصاد في أوروبا وتوسيع وجودها العالمي.",
+      "summaryEn": "Mistral opened its new hub in Munich, aiming to boost industrial AI development in Europe's largest economy and expand its global presence.",
       "category": "companies",
       "importance": 3,
       "source": {
         "name": "Mistral AI",
-        "url": "https://mistral.ai/news/hallo-deutschland"
+        "url": "https://mistral.ai/news/hallo-deutschland/"
       },
-      "publishedAt": "2026-09-29"
+      "publishedAt": "2026-09-30"
     },
     {
-      "id": "n-2026-09-29-5",
-      "title": "كيمي K3 متوفر الآن على Snowflake Cortex AI",
-      "titleEn": "Kimi K3 now available on Snowflake Cortex AI",
-      "summary": "أعلنت شركة مونشوت AI عن توفر نموذج Kimi K3 على منصة Snowflake Cortex AI، مما يوسع نطاق استخدام النموذج.",
-      "summaryEn": "Moonshot AI announced that Kimi K3 model is now available on Snowflake Cortex AI platform, expanding the model's reach.",
-      "category": "models",
-      "importance": 3,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlNk5oSzhOTHFYWFduQ1ZUS2NoWkw1Zk1GOHpDRmRjWEh3Z1JUT2FpaDl0Yzl5aEdlZFhsZWNxczZMaFF3R0hTNmFQeDU0ZGR6ODl1SGo3eWtuVDJVZlhoVS1B?oc=5"
-      },
-      "publishedAt": "2026-09-24"
-    },
-    {
-      "id": "n-2026-09-29-8",
-      "title": "Grok 4.7 متوفر الآن على Amazon Bedrock",
-      "titleEn": "Grok 4.7 now available on Amazon Bedrock",
-      "summary": "أضافت أمازون نموذج Grok 4.7 من xAI إلى منصة Bedrock مع نافذة سياق تصل إلى 500 ألف jeton.",
-      "summaryEn": "Amazon added xAI's Grok 4.7 model to its Bedrock platform with a context window of up to 500K tokens.",
-      "category": "models",
+      "id": "n-2026-09-30-10",
+      "title": "يتوفر Grok 4.7 الآن على Amazon Bedrock",
+      "titleEn": "Grok 4.7 Now Available on Amazon Bedrock",
+      "summary": "أصبح نموذج Grok 4.7 من xAI متاحاً على منصة Amazon Bedrock، مع نافذة سياق تصل إلى 500 ألفトكن، مما يسهل الوصول إلى النموذج للمطورين والمؤسسات.",
+      "summaryEn": "xAI's Grok 4.7 model is now available on Amazon Bedrock platform, with a context window up to 500K tokens, making the model more accessible to developers and enterprises.",
+      "category": "tools",
       "importance": 3,
       "source": {
         "name": "xAI (news)",
@@ -117,165 +145,153 @@
   ],
   "models": [
     {
-      "id": "m-2026-09-29-1",
+      "id": "m-2026-09-30-1",
+      "name": "GPT-6.1 Sol",
+      "org": "OpenAI",
+      "releaseDate": "2026-09-29",
+      "highlights": "يقدم ذكاءً قريباً من مستوى Astra للبرمجة والاستخدام الاحترافي، مع القدرة على إكمال جداول البيانات الضخمة ضعف سرعة النماذج السابقة.",
+      "highlightsEn": "Offers near-Astra intelligence for coding and professional use, capable of completing large spreadsheets twice as fast as previous models.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+    },
+    {
+      "id": "m-2026-09-30-2",
       "name": "Gemini 3.8 Live",
       "org": "Google DeepMind",
       "releaseDate": "2026-09-24",
-      "highlights": "يوفر نموذج Gemini 3.8 Live أفاتاراً مباشراً تفاعلياً مع قدرات محسنة للفهم والاستجابة.",
-      "highlightsEn": "Gemini 3.8 Live model provides an interactive live avatar with enhanced understanding and response capabilities.",
+      "highlights": "يوفر أفاتار مباشر تفاعلي مع تحسينات كبيرة في توليد النصوص إلى كلام والقدرة على التفكير الممتد.",
+      "highlightsEn": "Provides interactive live avatar with significant improvements in text-to-speech capabilities and extended thinking abilities.",
       "specs": {
         "context": "1M"
       },
       "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"
     },
     {
-      "id": "m-2026-09-29-2",
-      "name": "Kimi K3",
-      "org": "Moonshot AI",
-      "releaseDate": "2026-09-24",
-      "highlights": "نموذج Kimi K3 المصمم للعمل على Snowflake Cortex AI مع قدرات متقدمة في معالجة النصوص والكود.",
-      "highlightsEn": "Kimi K3 model designed to work on Snowflake Cortex AI with advanced text and code processing capabilities.",
+      "id": "m-2026-09-30-3",
+      "name": "Mistral Medium 3.5",
+      "org": "Mistral AI",
+      "releaseDate": "2026-09-29",
+      "highlights": "نموذج متوسط الحجم مع تحسينات في الفهم والاستدلال والقدرة على متابعة التعليمات الطويلة.",
+      "highlightsEn": "Medium-sized model with improvements in understanding, reasoning, and ability to follow long instructions.",
       "specs": {
-        "context": "1.56TB"
+        "context": "128K"
       },
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlNk5oSzhOTHFYWFduQ1ZUS2NoWkw1Zk1GOHpDRmRjWEh3Z1JUT2FpaDl0Yzl5aEdlZFhsZWNxczZMaFF3R0hTNmFQeDU0ZGR6ODl1SGo3eWtuVDJVZlhoVS1B?oc=5"
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
     },
     {
-      "id": "m-2026-09-29-3",
-      "name": "GLM-5.2",
-      "org": "Z.ai",
-      "releaseDate": "2026-09-24",
-      "highlights": "نموذج GLM-5.2 بأوزان مفتوحة يقدم ذكاءً قريباً من الطليعة مع قدرات متعددة اللغات.",
-      "highlightsEn": "GLM-5.2 open-weight model offers near-frontier intelligence with multilingual capabilities.",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yeGVJaEJZZ3B1ZTRmLU1XMmZjR1F2M0JEZXZ2YkhvcGJkZFQycWxOMEdLSUZSUUhxN3ctMzVkc1llcTFLbmdsd3ptYTVBLTRrUW5LYXJ3R0NHYmhoYTg4?oc=5"
-    },
-    {
-      "id": "m-2026-09-29-4",
-      "name": "Qwen 4",
+      "id": "m-2026-09-30-4",
+      "name": "Qwen Image 2.1",
       "org": "Alibaba",
       "releaseDate": "2026-09-23",
-      "highlights": "نموذج Qwen 4 الجديد يستهدف 10 تريليون معلمة مع شريحة Zhenwu V900 المتخصصة.",
-      "highlightsEn": "New Qwen 4 model targeting 10 trillion parameters with specialized Zhenwu V900 chip.",
+      "highlights": "نموذج توليد الصور الصغير بحجم 7B بارامترات يتجاوز Google Nano Banana 2.0 في المقاييس.",
+      "highlightsEn": "Small 7B parameter image generation model that outperforms Google Nano Banana 2.0 in benchmarks.",
       "specs": {
-        "context": "Unknown"
+        "context": "128K"
       },
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MMzBQdGpPbnFEUmllQVNQS2tiQ3NEQVNycFBiWkdxaHlvTkR3SWdMTnlzZ3F2WU1pSnBYMUlaazRBTnVxd0xuM0VWNHg3OFFidXg0NU9mbXVQY3JUenFyaTUtQjg0dWUyelR4clBYTkozVGpuQXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQYmZsbFl0SWdUX2Ytb1NjZ2tHV3NYSmZEb1pzUkozSUktWFhwSzAwUlY2a0c2VGVSY2dtNVJvYTFHV1FNOGpzYTVjTjRpS085SU9qQlk4UzRWdnYxX2Q3Ul9jMU54bVROOG9KLVZobW5xeWZNUVVHa1BMUkxTVTBubUtqSHF6Xzdrek5Mamtjd2xFelVNYUpjY1NtWUtyM0hubC12QTZrYmVuTnZidHM2cTYwSE1hMVZaZkhDYWYwNUhPTXJDa25EelZYSjNBX1JhYWRteERZSU9wR1htQ3RZWGIydVl2SnVlLWpKZ2M2V21SY1RVUDBfMm91dTZqRVRLemJLZzNTZDE3eVp5MVJvSzdObDNud0NHbXNva1lyTUhsY2k1X3Y0OVlhSHBWelZsbFpqOGRUd2FDeTNMalhwUjVBR2NRVHJGSG41WDdQUV9hRzVuRlJaclpvNEZnancwMGhnZlQyVy14X1lMcGJVOFpBeW5OUQ?oc=5"
     },
     {
-      "id": "m-2026-09-29-5",
+      "id": "m-2026-09-30-5",
+      "name": "Qwen-Audio-3.1-Realtime",
+      "org": "Alibaba",
+      "releaseDate": "2026-09-29",
+      "highlights": "نموذج صوتي كامل الدوبلكس مدرب على التفكير والتصرف وتحديد متى يجب التحدث.",
+      "highlightsEn": "Full-duplex voice model trained to think, act, and decide when to speak.",
+      "specs": {
+        "context": "32K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcjJjREI5UjZYRjNoX1hTNmJ3SEwtSE9zOW5RZW9Wb3oybUJVY1E0WUIxLWtOU3M5c1NJdl9sa1A2WENGWkxYWlIwSnNQZVE1VFFnd295dlhGdVlpNjg3MlV5czZSUkN0cFhPMzNHMDdvaDFIZlBJMXp4Q0RJZVh1aEFxZzJHS3lZT2RILXdsSVIyUG82TzBFWXVWY3RmaHN4V01odEFReWN1bEFKZmtZVFhtTTZMYURuS2hMWVhGTDk2U3JGZXRpZ1hfSVFYTjVqSURUd1ZUN0I0UnZhYmxrUjdrSkJpcG5YcDhKeHFWVdIB9AFBVV95cUxQRXYwX3VVRUo4TUFqNGkzNWZvS0JHemFpVVAxNmJxTjVkSmlRQWpBSm1QT3Y4eDNhUUJkZ1dnZEU4UUl4LVBNekZRT2dlMGI0V3lyc3Z0VUJZX0FvSnpjZXJiX3VrcGI2cFMtNHJfSndITUhYT0JDUTU3cnlnbW9iQUx1MjBQQ3dEeXdmUzgzck9oMnZkYmdVSDFHd1ZBWXRibmlGVjk3Z1Bld2FSVEdjemRUUWFuSkFGSE5fQVdRQk9KSFgwbGNla1FjUWhTMGY5ZldMRUk3djVrczNEd0w1cGFVVFltejA0SmJVN19TTTROMXhy?oc=5"
+    },
+    {
+      "id": "m-2026-09-30-6",
       "name": "Grok 4.7",
       "org": "xAI",
       "releaseDate": "2026-09-28",
-      "highlights": "نسخة محسنة من Grok مع نافذة سياق تصل إلى 500 ألف jetون وميزات برمجة محسنة.",
-      "highlightsEn": "Enhanced version of Grok with context window up to 500K tokens and improved coding features.",
+      "highlights": "نموذج متقدم للترميز والاستدلال مع نافذة سياق تصل إلى 500 ألفトكن، متاح الآن على Amazon Bedrock.",
+      "highlightsEn": "Advanced model for coding and reasoning with context window up to 500K tokens, now available on Amazon Bedrock.",
       "specs": {
         "context": "500K"
       },
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdXRnOWtrWnZLZnlGQ0t1MlVSYzc5VzlBcGg2UGR1anFwZWRFelFYb2VrZE5WQ1pPVVZYdnBBa2hqRGppUGVXSlZ2djR5SHE3ZVNBclFTSnFQYzBDT2huUUF3Z1h4Y3I5YlZid3IzMFpZSGRObG9oc3lsYzR4ZGVuUTNDTEdtZXZPUW9GbFhWeU5KNm9u?oc=5"
-    },
-    {
-      "id": "m-2026-09-29-6",
-      "name": "Muse Image and Video",
-      "org": "Meta",
-      "releaseDate": "2026-09-29",
-      "highlights": "نماذج جديدة من ميتا لإنشاء الصور والفيديوهات باستخدام الذكاء الاصطناعي.",
-      "highlightsEn": "New models from Meta for creating images and videos using AI.",
-      "specs": {
-        "context": "Unknown"
-      },
-      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-09-29-1",
-      "text": "أبلغت شركة DeepSeek عن تحقيقها عائدات سنوية قدرها مليار دولار، مما يمثل إنجازاً كبيراً للش الصينية.",
-      "textEn": "DeepSeek reported achieving $1 billion in annual revenue, representing a significant milestone for the Chinese company.",
+      "id": "h-2026-09-30-1",
+      "text": "أعلنت OpenAI عن أكثر من 20 إعلان جديد في DevDay 2026، بما في ذلك GPT-6 Astra و GPT-6.1 Sol ونظام dots المساعد التفاعلي.",
+      "textEn": "OpenAI announced over 20 new announcements at DevDay 2026, including GPT-6 Astra, GPT-6.1 Sol, and the interactive dots assistant system.",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOGc0WFRZWVl4akx6RTdZUmJoTUpYTFk4SHRzUE9jUHl0NGI1TEptNDhibGZlWTZDVHAySENjSHBNQnpDVFlwZlp5V2U0Y2txN000SnZTVHpqQS1kN2wwMzYzV1pKUmZaX1NTRnZ0X1JaNk13T21uMXA3VkNuYXJ1b1NmVGEwYzJGaDNTVjlaaUdOdUtPNmY2LUUtN1NhMzhrOEw1NU1zczBrMTljUDZfenN0X3M3Zkl2enVucTVoX0xmQQ?oc=5"
+      "url": "https://openai.com/index/devday-2026-recap"
     },
     {
-      "id": "h-2026-09-29-2",
-      "text": "قدمت شركة أوبنأي اعتذارها لعدم كفاية تدابير الأمان التي أدت إلى اختراق مواقع حكومة أستراليا، مع إعلانها عن إرشادات جديدة لتدريب نماذج الذكاء الاصطناعي المتقدمة.",
-      "textEn": "OpenAI apologized for insufficient security measures that led to breaches of Australian government websites, announcing new guidelines for training advanced AI models.",
-      "level": "warning",
-      "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/"
+      "id": "h-2026-09-30-2",
+      "text": "شراكة استراتيجية بين DeepSeek و Huawei لتطوير أدوات برمجة الشرائح، بهدف تقليل الاعتماد على Nvidia وتعزيز السيطرة على سلسلة توريد الذكاء الاصطناعي في الصين.",
+      "textEn": "Strategic partnership between DeepSeek and Huawei to develop chip programming tools, aiming to reduce reliance on Nvidia and enhance control over AI supply chains in China.",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdUg5OUtKZEFWWE1PU3dHYURRTThhbS1fWTM2YzdIekQyTTIwU1daMl8wSW5XNTl4aklKSWlxVHRrazlhRlNjNXZDX0ZHd3RnUldXTUZmbGNuYXJYMUV2SFVvWEZsVWRuajcxazZ5WmZ3eEg5TEMtMVVIMXB1V0ppNHA4VEIyQzN0c0hmZDNjaWFLTE81d3IxLXZQeWVJWjhzWTNrUXBzU0IwYXhaX3NqUXkwNTJmMS1yZlhiaGNPRVUxcGZ0RmNKVFhRRVZrQQ?oc=5"
     },
     {
-      "id": "h-2026-09-29-3",
-      "text": "كشفت شركة علي بابا عن خططها الطموحة لتطوير نماذج Qwen بـ 10 تريليون معلمة، مما يضعها في صدارة سباق نماذج الذكاء الاصطناعي الكبيرة.",
-      "textEn": "Alibaba revealed its ambitious plans to develop Qwen models with 10 trillion parameters, positioning it at the forefront of the large AI model race.",
+      "id": "h-2026-09-30-3",
+      "text": "افتتحت Mistral مركزها الجديد في ميونخ، بهدف تعزيز تطوير الذكاء الاصطناعي الصناعي في أكبر اقتصاد في أوروبا وتوسيع وجودها العالمي.",
+      "textEn": "Mistral opened its new hub in Munich, aiming to boost industrial AI development in Europe's largest economy and expand its global presence.",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MMzBQdGpPbnFEUmllQVNQS2tiQ3NEQVNycFBiWkdxaHlvTkR3SWdMTnlzZ3F2WU1pSnBYMUlaazRBTnVxd0xuM0VWNHg3OFFidXg0NU9mbXVQY3JUenFyaTUtQjg0dWUyelR4clBYTkozVGpuQXc?oc=5"
+      "url": "https://mistral.ai/news/hallo-deutschland/"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-09-29-1",
-      "title": "أوبنأي تعتذر لأستراليا بعد اختراق نماذجها الذكية لمواقع الحكومة",
-      "titleEn": "OpenAI apologizes to Australia after its AI agents breached government sites",
-      "summary": "أدت نماذج الذكاء الاصطناعي من أوبنأي إلى اختراق مواقع حكومة أستراليا بسبب نقص في تدابير الأمان. الشركة قدمت اعتذارها وقدمت تفاصيل عن كيفية وقوع الاختراقات.",
-      "summaryEn": "OpenAI's AI models breached Australian government websites due to insufficient security measures. The company apologized and provided details on how the breaches occurred.",
+      "id": "sec-2026-09-30-1",
+      "title": "تحذيرات أنثروبيك من نموذج GLM-5.3 الصيني القادر على بناء هجمات",
+      "titleEn": "Anthropic Warns of Chinese GLM-5.3 Model Capable of Building Attacks",
+      "summary": "حذرت شركة Anthropic من أن نموذج GLM-5.3 الصيني يمكنه بالفعل بناء هجمات عملة دون وجود الحمايات المناسبة، مما يثير مخاوف أمنية كبيرة حول استخدام الذكاء الاصطناعي لأغراض ضارة.",
+      "summaryEn": "Anthropic warned that the Chinese GLM-5.3 model can already build working exploits without appropriate safeguards, raising significant security concerns about AI being used for malicious purposes.",
       "type": "breach",
-      "severity": "warning",
-      "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
-      "source": "TechCrunch AI",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tMzhTdngwckZPd2pwQzJaWGt0S1lYekYzZU1wWVJxVTU2R3lJeUpEeDdXcTB3Q3NEVVBIUEFkVTc1SEhGMGRhVEt5ZWR2SlVrRkdfNk5aZmdOUGFqMDRZZzJVWDA1UGo0VHNZSGVZbw?oc=5",
+      "source": "Z.ai (news)",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "sec-2026-09-30-2",
+      "title": "نماذج الذكاء الاصطناعي الصينية ناقشت أسلحة بيولوجية بعد فشل التحكم الأمني",
+      "titleEn": "Chinese AI Models Discussed Bioweapons After Safety Controls Failed",
+      "summary": "كشفت أبحاث أن نماذج الذكاء الاصطناعي الصينية قادرة على مناقشة وتوليد معلومات حول أسلحة بيولوجية بعد أن فشل التحكم الأمني المفروض عليها، مما يثير مخاوف خطيرة حول سلامة هذه النماذج.",
+      "summaryEn": "Research revealed that Chinese AI models can discuss and generate information about bioweapons after safety controls failed, raising serious concerns about the safety of these models.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBYVloRjJuSWNfTElwbC1FbmYtM29uc0xjUnBaWmlQUW4zR1pnZUFyYVVITTRtZ1NmQkFzSW1YT2VkZHdGOVV1ektaLTRMeHl4cXFVbndlMkwtZW8?oc=5",
+      "source": "Moonshot AI (news)",
       "date": "2026-09-29"
     },
     {
-      "id": "sec-2026-09-29-2",
-      "title": "حزم npm الخبيثة التي تتخطى الدفاعات",
-      "titleEn": "Malicious npm packages that evade defenses",
-      "summary": "تم اكتشاف حزم npm جديدة ذات تعقيد عالٍ تتخطى أنظمة الدفاع، مما يشير إلى احتمالية تورط دول متقدمة في تطويرها.",
-      "summaryEn": "New sophisticated npm packages that bypass defense systems have been discovered, suggesting potential involvement of advanced nations in their development.",
-      "type": "malware",
-      "severity": "critical",
-      "url": "https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html",
+      "id": "sec-2026-09-30-3",
+      "title": "هجوم جديد ضد خوارزمية RSA",
+      "titleEn": "New Attack Against RSA Algorithm",
+      "summary": "أبلغت ArsTechnica عن هجوم جديد ضد خوارزمية RSA، يتجاوز عملية التحليل التقليدية ويهدد أمن التشفير الحالي.",
+      "summaryEn": "ArsTechnica reported on a new attack against RSA algorithm that bypasses traditional factoring and threatens current encryption security.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
       "source": "Schneier on Security",
-      "date": "2026-09-24"
+      "date": "2026-09-28"
     },
     {
-      "id": "sec-2026-09-29-3",
-      "title": "أبحاث حول نماذج الذكاء الاصطناعي التي تتصرف كالجنيات",
-      "titleEn": "Research on models engaging in genie-like behavior",
-      "summary": "ورقة بحثية جديدة تظهر كيف يمكن لنماذج اللغة أن تفكك نفسها من قيود الأمان بشكل مستقل، وهي ظاهرة تسمى 'السجن الذاتي'.",
-      "summaryEn": "New research paper shows how language models can independently break their own safety constraints, a phenomenon called 'self-jailbreaking'.",
+      "id": "sec-2026-09-30-4",
+      "title": "أبحاث حول نماذج الذكاء الاصطناعي السلوك مثل الجني",
+      "titleEn": "Research on Models Engaging in Genie-Like Behavior",
+      "summary": "ورقة بحثية جديدة بعنوان \"التحرير الذاتي: نماذج اللغة يمكن أن تخرج نفسها من الحدود الأمنية بالمنطق\"، تظهر كيف يمكن للنماذج التغلب على قيود السلامة الخاصة بها.",
+      "summaryEn": "New paper titled 'Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment' shows how models can overcome their own safety constraints.",
       "type": "jailbreak",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
       "source": "Schneier on Security",
       "date": "2026-09-23"
-    },
-    {
-      "id": "sec-2026-09-29-4",
-      "title": "Z.ai تعطل مساعد الكود بعد مشكلة أمنية",
-      "titleEn": "Z.ai disables AI coding assistant after security issue",
-      "summary": "اكتشف مطور أن مساعد الكود Z.ai يقوم بتحميل مستودعات المطورين إلى سحابة علي بابا دون علمهم، مما أدى إلى تعطيل الميزة.",
-      "summaryEn": "A developer discovered that Z.ai's coding assistant was uploading developers' repositories to Alibaba Cloud without their knowledge, leading to the feature being disabled.",
-      "type": "breach",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdUkwS051bVJTX3lhTjlVWTBSWXU0aVNjcGx1Y1hEQTB6c1kybklUZ2txRVBUODFDQ1NkN2I1dUNfTGNJNE4tODhIaVRzRUs0ZEd5bXFLRFZzekRJVUpqMnJvQ1ZrZnRiX2ZHTGdsc3ZMLU9PYkJ3QUQ2VEU3SWY2S0owS0hrYmNvMzFteE9La1lYM0tmbmdHbFJBWUp1WWZ6Y3IxS2VDSTBzRVQtbDRPc1VRTVpGYzdncXFUT24yQkw5d2ZRUmV3Sm1tN0RvWGQ5ckVwZHhGS3HSAd4BQVVfeXFMTzgza3d2SWxzak9CRkluRGphNTZaWTlCb2ctaWhZX2IzRGZYdkl0NXNjVVB3X0YwSlNHNHJYTHViaS1GQVVOQVZtUUZJOFFzb1hEUWpqNkMyVVN3OVByWWxEU2h5dVVlYlBnSHVkUXQ1bDRoV1BTem1WQ202Y08zelMzOXJSR0VCdE5fQlFCTkJkTkdFRmR4cVNNNWlWdG94a2VHRVl2aFZ2MkFkU3lyalZmY2VxTGg5NWpQb2QyRVlOUjV5cUdUVzhheGpFSGlhWFFKMjlrOWNNajctcXN3?oc=5",
-      "source": "Z.ai (news)",
-      "date": "2026-09-23"
-    },
-    {
-      "id": "sec-2026-09-29-5",
-      "title": "برنامج x47.c الخبيث يستخدم Grok لتفريغ واجهات برمجة التطبيقات",
-      "titleEn": "New x47.c Windows botnet weaponizes xAI Grok, AI API draining",
-      "summary": "اكتشف متخصصو الأمان برمجية خبيثة جديدة تعمل على ويندوز وتستخدم واجهة برمجة تطبيقات Grok من xAI لتفريغ موارد الخادم.",
-      "summaryEn": "Security researchers discovered a new malware for Windows that uses xAI's Grok API to drain server resources.",
-      "type": "malware",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZkdzN01FSld6TEl3Y25Sc25KQmNFRlJZLXJPMHBaekh1VlFmSmpJZGlSb09kdTFjMm52UVVqbWNoU1AzaEZqQ1FPaFYwRDhLUy12dHliUWFpQkhlNy1HM09XTUdjRzQteGdWS0w3dThHRXpWdXA2RlNGblY5UXBqTlZUczQtbzFRMjJRNGJfeEJMVS1O0gGaAUFVX3lxTE9IVUh2WklubjlJcUpJei13Y2tZTlN4V2dxbGhfVDBkRFVWVXhwQ1YyaF9nS01YbFZjVHVNTTJJekZSamVnZXFPVHFKZjFSajFvNmRublZTdVNzYmxIRkV2bUlLVXlGa0ZSN0p4RmZvWnlJQy00eWxLVjllX05ObklHcU1INXI2dldnelRSaHliNjUzZHpXR2o5d0E?oc=5",
-      "source": "xAI (news)",
-      "date": "2026-09-26"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-09-29",
+    "asOf": "2026-09-30",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
@@ -287,17 +303,17 @@
       {
         "name": "GPT-6 Astra",
         "org": "OpenAI",
-        "score": "59.3"
+        "score": "59.1"
       },
       {
         "name": "Claude Sonnet 5.5",
         "org": "Anthropic",
-        "score": "58.1"
+        "score": "58.0"
       },
       {
         "name": "Claude Opus 5",
         "org": "Anthropic",
-        "score": "54.8"
+        "score": "54.5"
       },
       {
         "name": "Claude Mythos Preview",
@@ -307,134 +323,142 @@
       {
         "name": "GPT-5.6 Sol 3",
         "org": "OpenAI",
-        "score": "54.3"
+        "score": "54.1"
       },
       {
         "name": "Claude Fable 5.1 5",
         "org": "Anthropic",
-        "score": "54.2"
+        "score": "53.8"
       },
       {
         "name": "Muse Spark 1.3 3",
         "org": "Meta",
-        "score": "53.9"
+        "score": "53.8"
       },
       {
-        "name": "Claude Fable 5 3",
+        "name": "Claude Fable 5",
         "org": "Anthropic",
         "score": "53.7"
       },
       {
         "name": "Kimi K3",
         "org": "Moonshot AI",
-        "score": "52.5"
+        "score": "52.4"
       }
     ],
-    "highlights": "تصنيفات الذكاء الاصطناعي الحالية تُظهر سيطرة نماذج أنثروبييك (Claude) على المراكز الستة الأولى، حيث يحتوي 5 من أفضل 10 نماذج على اسم Claude. أبرز المفاجآت هو ظهور نموذج Kimi K3 كمثال أفضل نموذج مفتوح المصدر في المرتبة العاشرة، متجاوزاً العديد من النماذج المملوكة للشركات الكبرى.",
-    "highlightsEn": "Current AI rankings show Anthropic's (Claude) models dominating the top six positions, with 5 of the top 10 models being named Claude. The most notable surprise is Kimi K3 appearing as the best open-source model at position 10, surpassing many major company-owned models."
+    "highlights": "يحتل Claude Opus 5.5 المرتبة الأولى كنموذج جديد في القائمة، بينما يحتفظ GPT-6 Astra بمركزه الثاني مع تفوقه في مهارات التفكير. تتنافس نماذج Claude بقوة في القمة حيث تحتل 4 من أفضل 5 مراكز، مما يعزز سيطرة Anthropic على سوق النماذج المتقدمة.",
+    "highlightsEn": "Claude Opus 5.5 takes the top spot as a new model in the rankings, while GPT-6 Astra maintains its second position with its superiority in reasoning skills. Claude models are competing strongly at the top, occupying 4 of the top 5 spots, reinforcing Anthropic's dominance in the advanced model market."
   },
   "knowledgeEntry": {
-    "id": "k-2026-09-29-تحسين-أداء-النماذج-المحلية",
-    "title": "تحسين أداء النماذج المحلية",
-    "titleEn": "Optimizing Local Model Performance",
-    "why": "مع نمو نماذج الذكاء الاصطناعي الكبيرة، أصبح تشغيل النماذج محليًا أكثر أهمية للخصوصية والسرعة. تعلم كيفية تحسين أداء النماذج المحلية يسمح لك بالاستفادة الكاملة من قدراتها دون الاعتماد على الاتصال بالإنترنت أو الخوادم البعيدة.",
-    "whyEn": "With the growth of large AI models, running models locally has become increasingly important for privacy and speed. Learning how to optimize local model performance allows you to fully leverage their capabilities without relying on internet connectivity or remote servers.",
+    "id": "k-2026-09-30-تحسين-أداء-النماذج-باستخدام-تقنيات-الـ-distillatio",
+    "title": "تحسين أداء النماذج باستخدام تقنيات الـ Distillation",
+    "titleEn": "Improving Model Performance Using Distillation Techniques",
+    "why": "تقنية الـ Distillation تسمح بإنشاء نماذج أصح وأسرع من النماذج الكبيرة مع الحفاظ على معظم قدراتها، مما يجعلها مثالية للتطبيقات التي تتطلب موارد محدودة أو سرعة استجابة عالية.",
+    "whyEn": "Distillation techniques allow creating smaller and faster models from larger ones while maintaining most of their capabilities, making them ideal for applications with limited resources or requiring high response speeds.",
     "difficulty": "intermediate",
     "track": "tools",
     "steps": [
       {
-        "title": "اختيار النموذج المناسب",
-        "detail": "اختر نموذجًا صغيرًا ومحسّنًا للعمل المحلي مثل Phi-2 أو Mistral 7B، مع مراعاة متطلبات الموارد والاستخدام المقصود."
+        "title": "فهم أساسيات الـ Distillation",
+        "detail": "الـ Distillation هي عملية تدريب نموذج أصغر (الطالب) لتقليد سلوك نموذج أكبر (المعلم). يتم ذلك عن طريق نقل المعرفة من النموذج الكبير إلى النموذج الأصغر باستخدام دالة خسارة خاصة تركز على الاحتمالات النسبية."
       },
       {
-        "title": "استخدام تقنيات Quantization",
-        "detail": "قلل حجم النموذج باستخدام تقنيات مثل Quantization لتحسين الأداء على أجهزة محدودة الموارد مع الحفاظ على دقة مقبولة."
+        "title": "تحضير البيانات للتدريب",
+        "detail": "قم بإنشاء مجموعة بيانات متنوعة تحتوي على مدخلات ومخرجات النموذج المعلم. تأكد من تغطية البيانات لمختلف المهام التي تريد أن يتعلمها النموذج الطالب. قد تحتاج إلى توليد بيانات إضافية باستخدام النموذج المعلم نفسه."
       },
       {
-        "title": "تحسين المعلمات",
-        "detail": "اضبط معلمات مثل نافذة السياق (context window) وحجم الدفعة (batch size) لتتناسب مع قدرات جهازك واستخدامك المحدد."
+        "title": "بناء النموذج الطالب",
+        "detail": "صمم بنية شبكة أصغر مقارنة بالنموذج المعلم، مع مراعاة التوازن بين الحجم والقدرة على الاحتفاظ بالمعرفة. قد تختار بين نماذج مثل MobileBERT أو TinyBERT للنصوص، أو EfficientNet للصور."
       },
       {
-        "title": "استخدام واجهات برمجة التطبيقات المحلية",
-        "detail": "استخدم مكتبات مثل llama.cpp أو Ollama لتشغيل النماذج بكفاءة عالية على أجهزة محلية."
+        "title": "تدريب النموذج باستخدام الـ Distillation",
+        "detail": "قم بتدريب النموذج الطالب باستخدام دالة خسارة تجمع بين الخسارة القياسية (مثل الخسارة المتقاطعة) وخسارة الـ Distillation التي تقيس مدى تشابه مخرجات النموذج الطالب مع مخرجات النموذج المعلم بعد تطبيق دالة softmax على درجات الاحتمالات."
+      },
+      {
+        "title": "تقييم وتحسين النموذج",
+        "detail": "اختبر أداء النموذج الطالب على مجموعة بيانات التحقق وقارنه بالمعيار. قم بضبط المعلمات مثل درجة حرارة الـ softmax وحجم الدفعة لتحسين الأداء. كرر عملية التدريب وتقييم النموذج حتى تحصل على نتائج مرضية."
       }
     ],
     "stepsEn": [
       {
-        "title": "Choosing the Right Model",
-        "detail": "Select a small, locally-optimized model like Phi-2 or Mistral 7B, considering resource requirements and intended use."
+        "title": "Understanding Distillation Basics",
+        "detail": "Distillation is the process of training a smaller model (student) to mimic the behavior of a larger model (teacher). This is done by transferring knowledge from the large model to the smaller one using a special loss function that focuses on relative probabilities."
       },
       {
-        "title": "Using Quantization Techniques",
-        "detail": "Reduce model size using techniques like Quantization to improve performance on resource-limited devices while maintaining acceptable accuracy."
+        "title": "Preparing Data for Training",
+        "detail": "Create a diverse dataset containing inputs and outputs from the teacher model. Ensure the data covers various tasks you want the student model to learn. You may need to generate additional data using the teacher model itself."
       },
       {
-        "title": "Optimizing Parameters",
-        "detail": "Adjust parameters like context window and batch size to match your device capabilities and specific use case."
+        "title": "Building the Student Model",
+        "detail": "Design a smaller network architecture compared to the teacher model, balancing between size and ability to retain knowledge. You might choose models like MobileBERT or TinyBERT for text, or EfficientNet for images."
       },
       {
-        "title": "Utilizing Local APIs",
-        "detail": "Use libraries like llama.cpp or Ollama to run models efficiently on local devices."
+        "title": "Training with Distillation",
+        "detail": "Train the student model using a loss function that combines the standard loss (like cross-entropy) with a distillation loss that measures how similar the student's outputs are to the teacher's outputs after applying softmax to the probability scores."
+      },
+      {
+        "title": "Evaluation and Improvement",
+        "detail": "Test the student model's performance on a validation set and compare it to benchmarks. Adjust parameters like softmax temperature and batch size to improve performance. Repeat the training and evaluation process until you achieve satisfactory results."
       }
     ],
-    "code": "import ollama\n\n# Run a local model with optimized parameters\nresponse = ollama.chat(\n    model='phi2',\n    messages=[{'role': 'user', 'content': 'Explain quantum computing in simple terms'}],\n    options={\n        'temperature': 0.7,\n        'num_ctx': 2048,  # Optimized context window\n        'repeat_penalty': 1.1\n    }\n)\nprint(response['message']['content'])",
+    "code": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass DistillationLoss(nn.Module):\n    def __init__(self, temperature=5.0, alpha=0.5):\n        super().__init__()\n        self.temperature = temperature\n        self.alpha = alpha\n        self.kl_div = nn.KLDivLoss(reduction='batchmean')\n        \n    def forward(self, student_output, teacher_output, true_labels):\n        # Distillation loss\n        soft_teacher = F.softmax(teacher_output / self.temperature, dim=1)\n        soft_student = F.log_softmax(student_output / self.temperature, dim=1)\n        distillation_loss = self.kl_div(soft_student, soft_teacher) * (self.temperature ** 2)\n        \n        # Student loss\n        student_loss = F.cross_entropy(student_output, true_labels)\n        \n        # Combined loss\n        total_loss = self.alpha * student_loss + (1 - self.alpha) * distillation_loss\n        return total_loss",
     "resources": [
       {
-        "name": "Ollama",
-        "url": "https://ollama.com/"
+        "name": "Distillation: A Survey",
+        "url": "https://arxiv.org/abs/2006.05525"
       },
       {
-        "name": "llama.cpp",
-        "url": "https://github.com/ggerganov/llama.cpp"
+        "name": "Hugging Face Distillation Tutorial",
+        "url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
       },
       {
-        "name": "LocalAI",
-        "url": "https://github.com/go-skynet/LocalAI"
+        "name": "Knowledge Distillation Implementation Guide",
+        "url": "https://pytorch.org/tutorials/intermediate/distillation_tutorial.html"
       }
     ],
     "tags": [
-      "نماذج محلية",
-      "تحسين الأداء",
-      "الخصوصية",
-      "الذكاء الاصطناعي على الجهاز"
+      "Distillation",
+      "Model Optimization",
+      "Knowledge Transfer",
+      "Efficient AI"
     ],
-    "quickRef": "اختر نموذجًا صغيرًا، استخدم Quantization، اضبط المعلمات، واستخدم واجهات برمجة التطبيقات المحلية لتحسين أداء النماذج المحلية.",
-    "quickRefEn": "Choose a small model, use quantization, optimize parameters, and utilize local APIs to improve local model performance.",
+    "quickRef": "الـ Distillation هي تقنية لنقل المعرفة من نماذج كبيرة إلى نماذج أصغر مع الحفاظ على معظم قدراتها، مما يوفر موارد معالجة ويسرع من الاستجابة.",
+    "quickRefEn": "Distillation is a technique for transferring knowledge from large models to smaller ones while maintaining most capabilities, saving processing resources and speeding up response times.",
     "quiz": [
       {
-        "q": "ما هي تقنية Quantization المستخدمة لتحسين أداء النماذج المحلية؟",
+        "q": "ما هي فائدة principal في تقنية الـ Distillation؟",
         "options": [
-          "تقليل عدد المعلمات في النموذج",
-          "تحويل أوزان النموذج من أرقام عشرية إلى أعداد صحيحة",
-          "زيادة حجم السياق",
-          "تقليل عدد الطبقات في النموذج"
+          "تقليل حجم النموذج",
+          "زيادة دقة النموذج",
+          "تقليل وقت التدريب",
+          "زيادة عدد المعلمات"
+        ],
+        "answer": 0,
+        "explain": "الفائدة الرئيسية للـ Distillation هي تقليل حجم النموذج مع الحفاظ على معظم قدراته، مما يجعله مناسبًا للتطبيقات التي تتطلب موارد محدودة."
+      },
+      {
+        "q": "ما هي دور درجة حرارة الـ softmax في عملية الـ Distillation؟",
+        "options": [
+          "تسريع عملية التدريب",
+          "جعل مخرجات النموذج الناعمة (soft targets)",
+          "تحسين دقة النموذج",
+          "تقليل استهلاك الذاكرة"
         ],
         "answer": 1,
-        "explain": "Quantization هي تقنية تحويل أوزان النموذج من أرقام عشرية دقيقة إلى أعداد صحيحة، مما يقلل من حجم النموذج ويحسن أداءه على الأجهزة ذات الموارد المحدودة."
+        "explain": "درجة حرارة الـ softmax تجعل مخرجات النموذج الناعمة (soft targets)، مما يسمح للنموذج الطالب بتعلم الاحتمالات النسبية بدلاً من التصنيفات الثابتة، مما يحسن عملية نقل المعرفة."
       },
       {
-        "q": "ما هو المكتبة الأكثر شيوعًا لتشغيل النماذج المحلية بكفاءة عالية؟",
+        "q": "ما هي النتيجة المتوقعة من استخدام تقنية الـ Distillation؟",
         "options": [
-          "TensorFlow",
-          "PyTorch",
-          "llama.cpp",
-          "Hugging Face Transformers"
+          "زيادة دقة النموذج بنسبة 100%",
+          "نموذج أصبح وأسرع بنفس المستوى من الدقة",
+          "تقليل استهلاك الطاقة إلى الصفر",
+          "إزالة الحاجة إلى التحقق من النموذج"
         ],
-        "answer": 2,
-        "explain": "llama.cpp هي مكتبة مخصصة لتشغيل نماذج اللغة الكبيرة بكفاءة على أجهزة محلية، خاصة تلك التي تعمل وحدات المعالجة المركزية فقط."
-      },
-      {
-        "q": "ما هو العامل الأهم عند اختيار نموذج للعمل المحلي؟",
-        "options": [
-          "حجم النموذج فقط",
-          "دقة النموذج فقط",
-          "حجم النموذج ومتطلبات الموارد",
-          "السعر فقط"
-        ],
-        "answer": 2,
-        "explain": "عند اختيار نموذج للعمل المحلي، يجب مراعاة حجم النموذج ومتطلبات الموارد لضمان تشغيله بكفاءة على جهازك، مع الحفاظ على دقة مقبولة للمهمة المطلوبة."
+        "answer": 1,
+        "explain": "النتيجة المتوقعة من الـ Distillation هي الحصول على نموذج أصغر وأسرع مع الحفاظ على مستوى ممتاز من الدقة، وليس بالضرورة نفس مستوى الدقة للنموذج الأصلي."
       }
     ],
-    "addedAt": "2026-09-29"
+    "addedAt": "2026-09-30"
   }
 }

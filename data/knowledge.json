@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-09-30-تحسين-أداء-النماذج-باستخدام-تقنيات-الـ-distillatio",
+      "title": "تحسين أداء النماذج باستخدام تقنيات الـ Distillation",
+      "titleEn": "Improving Model Performance Using Distillation Techniques",
+      "why": "تقنية الـ Distillation تسمح بإنشاء نماذج أصح وأسرع من النماذج الكبيرة مع الحفاظ على معظم قدراتها، مما يجعلها مثالية للتطبيقات التي تتطلب موارد محدودة أو سرعة استجابة عالية.",
+      "whyEn": "Distillation techniques allow creating smaller and faster models from larger ones while maintaining most of their capabilities, making them ideal for applications with limited resources or requiring high response speeds.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم أساسيات الـ Distillation",
+          "detail": "الـ Distillation هي عملية تدريب نموذج أصغر (الطالب) لتقليد سلوك نموذج أكبر (المعلم). يتم ذلك عن طريق نقل المعرفة من النموذج الكبير إلى النموذج الأصغر باستخدام دالة خسارة خاصة تركز على الاحتمالات النسبية."
+        },
+        {
+          "title": "تحضير البيانات للتدريب",
+          "detail": "قم بإنشاء مجموعة بيانات متنوعة تحتوي على مدخلات ومخرجات النموذج المعلم. تأكد من تغطية البيانات لمختلف المهام التي تريد أن يتعلمها النموذج الطالب. قد تحتاج إلى توليد بيانات إضافية باستخدام النموذج المعلم نفسه."
+        },
+        {
+          "title": "بناء النموذج الطالب",
+          "detail": "صمم بنية شبكة أصغر مقارنة بالنموذج المعلم، مع مراعاة التوازن بين الحجم والقدرة على الاحتفاظ بالمعرفة. قد تختار بين نماذج مثل MobileBERT أو TinyBERT للنصوص، أو EfficientNet للصور."
+        },
+        {
+          "title": "تدريب النموذج باستخدام الـ Distillation",
+          "detail": "قم بتدريب النموذج الطالب باستخدام دالة خسارة تجمع بين الخسارة القياسية (مثل الخسارة المتقاطعة) وخسارة الـ Distillation التي تقيس مدى تشابه مخرجات النموذج الطالب مع مخرجات النموذج المعلم بعد تطبيق دالة softmax على درجات الاحتمالات."
+        },
+        {
+          "title": "تقييم وتحسين النموذج",
+          "detail": "اختبر أداء النموذج الطالب على مجموعة بيانات التحقق وقارنه بالمعيار. قم بضبط المعلمات مثل درجة حرارة الـ softmax وحجم الدفعة لتحسين الأداء. كرر عملية التدريب وتقييم النموذج حتى تحصل على نتائج مرضية."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Distillation Basics",
+          "detail": "Distillation is the process of training a smaller model (student) to mimic the behavior of a larger model (teacher). This is done by transferring knowledge from the large model to the smaller one using a special loss function that focuses on relative probabilities."
+        },
+        {
+          "title": "Preparing Data for Training",
+          "detail": "Create a diverse dataset containing inputs and outputs from the teacher model. Ensure the data covers various tasks you want the student model to learn. You may need to generate additional data using the teacher model itself."
+        },
+        {
+          "title": "Building the Student Model",
+          "detail": "Design a smaller network architecture compared to the teacher model, balancing between size and ability to retain knowledge. You might choose models like MobileBERT or TinyBERT for text, or EfficientNet for images."
+        },
+        {
+          "title": "Training with Distillation",
+          "detail": "Train the student model using a loss function that combines the standard loss (like cross-entropy) with a distillation loss that measures how similar the student's outputs are to the teacher's outputs after applying softmax to the probability scores."
+        },
+        {
+          "title": "Evaluation and Improvement",
+          "detail": "Test the student model's performance on a validation set and compare it to benchmarks. Adjust parameters like softmax temperature and batch size to improve performance. Repeat the training and evaluation process until you achieve satisfactory results."
+        }
+      ],
+      "code": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass DistillationLoss(nn.Module):\n    def __init__(self, temperature=5.0, alpha=0.5):\n        super().__init__()\n        self.temperature = temperature\n        self.alpha = alpha\n        self.kl_div = nn.KLDivLoss(reduction='batchmean')\n        \n    def forward(self, student_output, teacher_output, true_labels):\n        # Distillation loss\n        soft_teacher = F.softmax(teacher_output / self.temperature, dim=1)\n        soft_student = F.log_softmax(student_output / self.temperature, dim=1)\n        distillation_loss = self.kl_div(soft_student, soft_teacher) * (self.temperature ** 2)\n        \n        # Student loss\n        student_loss = F.cross_entropy(student_output, true_labels)\n        \n        # Combined loss\n        total_loss = self.alpha * student_loss + (1 - self.alpha) * distillation_loss\n        return total_loss",
+      "resources": [
+        {
+          "name": "Distillation: A Survey",
+          "url": "https://arxiv.org/abs/2006.05525"
+        },
+        {
+          "name": "Hugging Face Distillation Tutorial",
+          "url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
+        },
+        {
+          "name": "Knowledge Distillation Implementation Guide",
+          "url": "https://pytorch.org/tutorials/intermediate/distillation_tutorial.html"
+        }
+      ],
+      "tags": [
+        "Distillation",
+        "Model Optimization",
+        "Knowledge Transfer",
+        "Efficient AI"
+      ],
+      "quickRef": "الـ Distillation هي تقنية لنقل المعرفة من نماذج كبيرة إلى نماذج أصغر مع الحفاظ على معظم قدراتها، مما يوفر موارد معالجة ويسرع من الاستجابة.",
+      "quickRefEn": "Distillation is a technique for transferring knowledge from large models to smaller ones while maintaining most capabilities, saving processing resources and speeding up response times.",
+      "quiz": [
+        {
+          "q": "ما هي فائدة principal في تقنية الـ Distillation؟",
+          "options": [
+            "تقليل حجم النموذج",
+            "زيادة دقة النموذج",
+            "تقليل وقت التدريب",
+            "زيادة عدد المعلمات"
+          ],
+          "answer": 0,
+          "explain": "الفائدة الرئيسية للـ Distillation هي تقليل حجم النموذج مع الحفاظ على معظم قدراته، مما يجعله مناسبًا للتطبيقات التي تتطلب موارد محدودة."
+        },
+        {
+          "q": "ما هي دور درجة حرارة الـ softmax في عملية الـ Distillation؟",
+          "options": [
+            "تسريع عملية التدريب",
+            "جعل مخرجات النموذج الناعمة (soft targets)",
+            "تحسين دقة النموذج",
+            "تقليل استهلاك الذاكرة"
+          ],
+          "answer": 1,
+          "explain": "درجة حرارة الـ softmax تجعل مخرجات النموذج الناعمة (soft targets)، مما يسمح للنموذج الطالب بتعلم الاحتمالات النسبية بدلاً من التصنيفات الثابتة، مما يحسن عملية نقل المعرفة."
+        },
+        {
+          "q": "ما هي النتيجة المتوقعة من استخدام تقنية الـ Distillation؟",
+          "options": [
+            "زيادة دقة النموذج بنسبة 100%",
+            "نموذج أصبح وأسرع بنفس المستوى من الدقة",
+            "تقليل استهلاك الطاقة إلى الصفر",
+            "إزالة الحاجة إلى التحقق من النموذج"
+          ],
+          "answer": 1,
+          "explain": "النتيجة المتوقعة من الـ Distillation هي الحصول على نموذج أصغر وأسرع مع الحفاظ على مستوى ممتاز من الدقة، وليس بالضرورة نفس مستوى الدقة للنموذج الأصلي."
+        }
+      ],
+      "addedAt": "2026-09-30"
+    },
+    {
       "id": "k-2026-09-29-تحسين-أداء-النماذج-المحلية",
       "title": "تحسين أداء النماذج المحلية",
       "titleEn": "Optimizing Local Model Performance",
