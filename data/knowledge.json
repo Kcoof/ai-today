@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-01-فهم-وتطبيق-تقنيات-التوليد-المتقدم-للنصوص",
+      "title": "فهم وتطبيق تقنيات التوليد المتقدم للنصوص",
+      "titleEn": "Understanding and Applying Advanced Text Generation Techniques",
+      "why": "تساعدك تقنيات توليد النصوص المتقدمة على تحقيق نتائج أكثر دقة وإبداعاً عند العمل مع نماذج الذكاء الاصطناعي، مما يسمح لك بالحصول على استجابات أكثر تخصيصاً وتنوعاً لمختلف المهام.",
+      "whyEn": "Advanced text generation techniques help you achieve more accurate and creative results when working with AI models, allowing you to get more customized and diverse responses for various tasks.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم أساسيات توليد النصوص",
+          "detail": "ابدأ بفهم كيفية عمل نماذج اللغة الكبيرة (LLMs) وكيفية توليد النصوص بناءً على السياق المقدم. تعلم المفاهيم الأساسية مثل التوقعات (tokens) والسياق (context) والاحتمالات (probabilities)."
+        },
+        {
+          "title": "استخدام تقنيات التوجيه المتقدمة",
+          "detail": "تعلم استخدام أوامر التوجيه (prompts) المتقدمة مثل few-shot learning و chain-of-thought prompting. هذه التقنيات تساعد النموذج على فهم المهمة بشكل أفضل وتحسين جودة الاستجابات."
+        },
+        {
+          "title": "تطبيق تقنيات التحكم في الإخراج",
+          "detail": "استخدم تقنيات مثل constrained decoding و beam search للتحكم في عملية توليد النص. هذه التقنيات تسمح لك بالتحكم في تنوع النص الناتج وتقليل التكرار."
+        },
+        {
+          "title": "تحسين النتائج عبر الضبط الدقيق",
+          "detail": "تعلم كيفية ضبط النماذج لمهام محددة باستخدام تقنيات مثل fine-tuning و parameter-efficient fine-tuning (PEFT). هذه التقنيات تساعد في تحسين أداء النموذج لمهام محددة."
+        },
+        {
+          "title": "تقييم وتحسين النتائج",
+          "detail": "استخدم مقاييس مثل BLEU و ROUGE لتقييم جودة النصوص المولدة. قم بتحليل النتائج وتحديد المجالات التي تحتاج إلى تحسين وقم بتطبيق التعديلات اللازمة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding text generation basics",
+          "detail": "Start by understanding how Large Language Models (LLMs) work and how they generate text based on provided context. Learn basic concepts like tokens, context, and probabilities."
+        },
+        {
+          "title": "Using advanced prompting techniques",
+          "detail": "Learn to use advanced prompting techniques like few-shot learning and chain-of-thought prompting. These techniques help the model better understand the task and improve response quality."
+        },
+        {
+          "title": "Applying output control techniques",
+          "detail": "Use techniques like constrained decoding and beam search to control the text generation process. These techniques allow you to control the diversity of the generated text and reduce repetition."
+        },
+        {
+          "title": "Improving results through fine-tuning",
+          "detail": "Learn how to fine-tune models for specific tasks using techniques like fine-tuning and parameter-efficient fine-tuning (PEFT). These techniques help improve model performance for specific tasks."
+        },
+        {
+          "title": "Evaluating and improving results",
+          "detail": "Use metrics like BLEU and ROUGE to evaluate the quality of generated text. Analyze results and identify areas that need improvement, then apply necessary modifications."
+        }
+      ],
+      "code": "import torch\nfrom transformers import AutoTokenizer, AutoModelForCausalLM\n\n# Load model and tokenizer\nmodel_name = 'gpt2'\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\n\n# Generate text with advanced techniques\nprompt = 'Explain the concept of artificial intelligence in simple terms:'\ninput_ids = tokenizer.encode(prompt, return_tensors='pt')\n\n# Generate with beam search\noutput = model.generate(\n    input_ids,\n    max_length=150,\n    num_beams=5,\n    no_repeat_ngram_size=2,\n    early_stopping=True\n)\n\nprint(tokenizer.decode(output[0], skip_special_tokens=True))",
+      "resources": [
+        {
+          "name": "Hugging Face Documentation",
+          "url": "https://huggingface.co/docs/transformers/index"
+        },
+        {
+          "name": "Prompt Engineering Guide",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "name": "Text Generation Best Practices",
+          "url": "https://arxiv.org/abs/2109.10862"
+        }
+      ],
+      "tags": [
+        "توليد النصوص",
+        "توجيه النماذج",
+        "الذكاء الاصطناعي",
+        "تحسين النماذج"
+      ],
+      "quickRef": "استخدم تقنيات التوجيه المتقدمة مثل few-shot learning و chain-of-thought لتحسين جودة النصوص المولدة. استخدم constrained decoding للتحكم في تنوع النص وتقليل التكرار. قم بضبط النماذج لمهام محددة لتحسين الأداء.",
+      "quickRefEn": "Use advanced prompting techniques like few-shot learning and chain-of-thought to improve text quality. Use constrained decoding to control text diversity and reduce repetition. Fine-tune models for specific tasks to improve performance.",
+      "quiz": [
+        {
+          "q": "ما هي تقنية التوجيه التي تقدم أمثلة محددة في الأمر للمساعدة في فهم المهمة؟",
+          "options": [
+            "Zero-shot learning",
+            "One-shot learning",
+            "Few-shot learning",
+            "Chain-of-thought prompting"
+          ],
+          "answer": 2,
+          "explain": "Few-shot learning هي تقنية تقدم عدة أمثلة في الأمر للمساعدة في فهم المهمة وتحسين جودة الاستجابة."
+        },
+        {
+          "q": "ما هي تقنية التحكم في إخراج النص التي تقلل من التكرار وتحسن التنوع؟",
+          "options": [
+            "Greedy decoding",
+            "Beam search",
+            "Top-k sampling",
+            "Constrained decoding"
+          ],
+          "answer": 3,
+          "explain": "Constrained decoding هي تقنية تسمح بتحديد قيود على النص المولد، مما يقلل من التكرار ويحسن التنوع."
+        },
+        {
+          "q": "ما هي تقنية الضبط التي تسمح بتحسين النموذج لمهام محددة دون الحاجة لتغيير جميع المعلمات؟",
+          "options": [
+            "Full fine-tuning",
+            "Parameter-efficient fine-tuning (PEFT)",
+            "Transfer learning",
+            "Reinforcement learning"
+          ],
+          "answer": 1,
+          "explain": "Parameter-efficient fine-tuning (PEFT) هي تقنية تسمح بتحسين النموذج لمهام محددة عن طريق تحديث عدد صغير من المعلمات، مما يوفر الموارد ويقلل من خطر الإفراط في الضبط."
+        }
+      ],
+      "addedAt": "2026-10-01"
+    },
+    {
       "id": "k-2026-10-01-تشغيل-نماذج-الذكاء-الاصطناعي-محليًا-على-جهاز-الكمب",
       "title": "تشغيل نماذج الذكاء الاصطناعي محليًا على جهاز الكمبيوتر",
       "titleEn": "Running AI Models Locally on Your Computer",
