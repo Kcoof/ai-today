@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-01-تشغيل-نماذج-الذكاء-الاصطناعي-محليًا-على-جهاز-الكمب",
+      "title": "تشغيل نماذج الذكاء الاصطناعي محليًا على جهاز الكمبيوتر",
+      "titleEn": "Running AI Models Locally on Your Computer",
+      "why": "تشغيل نماذج الذكاء الاصطناعي محليًا يمنحك تحكمًا كاملاً في بياناتك وخصوصيتك، ويقلل الاعتماد على الخدمات السحابية، ويسمح لك بالعمل بدون اتصال بالإنترنت.",
+      "whyEn": "Running AI models locally gives you full control over your data and privacy, reduces reliance on cloud services, and allows you to work offline.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "متطلبات الأجهزة",
+          "detail": "تأكد من أن جهاز الكمبيوتر لديه ذاكرة كافية (RAM) ومعالج قوي. النماذج الصغيرة تتطلب 8GB+ RAM، بينما النماذج الأكبر قد تحتاج 16GB+."
+        },
+        {
+          "title": "اختيار إطار العمل",
+          "detail": "اختر إطار عمل مناسب مثل Hugging Face Transformers, llama.cpp، أو Ollama. هذه الأدوات توفر واجهات سهلة لتشغيل النماذج محليًا."
+        },
+        {
+          "title": "تنزيل النموذج",
+          "detail": "قم بتنزيل نموذج مناسب لمواصفات جهازك. النماذج الصغيرة مثل Phi-2 أو TinyLLM مناسبة للأجهزة المتوسطة، بينما النماذج الأكبر تتطلب أجهزة أقوى."
+        },
+        {
+          "title": "إعداد البيئة",
+          "detail": "قم بتثبيت الإطار المختار وتأكد من تثبيت جميع المكتبات المطلوبة. قد تحتاج إلى تثبيت Python ومكتبات مثل PyTorch أو TensorFlow."
+        },
+        {
+          "title": "تشغيل النموذج",
+          "detail": "استخدم الكود المقدم لتشغيل النموذج. قد تحتاج إلى ضبط بعض المعلمات مثل حجم الدفعة (batch size) وطول السياق (context length) لتناسب جهازك."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Hardware Requirements",
+          "detail": "Ensure your computer has sufficient RAM (8GB+ for small models, 16GB+ for larger models) and a powerful processor."
+        },
+        {
+          "title": "Choose a Framework",
+          "detail": "Choose a suitable framework like Hugging Face Transformers, llama.cpp, or Ollama, which provide easy interfaces for running models locally."
+        },
+        {
+          "title": "Download the Model",
+          "detail": "Download a model suitable for your device's specifications. Small models like Phi-2 or TinyLLM are suitable for mid-range devices, while larger models require more powerful hardware."
+        },
+        {
+          "title": "Set Up the Environment",
+          "detail": "Install your chosen framework and ensure all required libraries are installed. You may need to install Python and libraries like PyTorch or TensorFlow."
+        },
+        {
+          "title": "Run the Model",
+          "detail": "Use the provided code to run the model. You may need to adjust parameters like batch size and context length to suit your device."
+        }
+      ],
+      "code": "from transformers import AutoModelForCausalLM, AutoTokenizer\nimport torch\n\n# Load model and tokenizer\nmodel_name = \"microsoft/phi-2\"  # A small model that can run on most devices\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\n\n# Generate text\nprompt = \"The future of AI is\"\ninputs = tokenizer(prompt, return_tensors=\"pt\")\noutputs = model.generate(**inputs, max_length=100)\nprint(tokenizer.decode(outputs[0], skip_special_tokens=True))",
+      "resources": [
+        {
+          "name": "Hugging Face Documentation",
+          "url": "https://huggingface.co/docs/transformers/index"
+        },
+        {
+          "name": "Ollama",
+          "url": "https://ollama.ai/"
+        },
+        {
+          "name": "llama.cpp",
+          "url": "https://github.com/ggerganov/llama.cpp"
+        }
+      ],
+      "tags": [
+        "محلي",
+        "نماذج",
+        "تشغيل",
+        "أدوات"
+      ],
+      "quickRef": "تأكد من متطلبات الأجهزة، اختر إطار عمل مناسب، قم بتنزيل النموذج، قم بإعداد البيئة، ثم قم بتشغيل النموذج مع ضبط المعلمات حسب جهازك.",
+      "quickRefEn": "Check hardware requirements, choose a suitable framework, download the model, set up the environment, then run the model with parameters adjusted for your device.",
+      "quiz": [
+        {
+          "q": "ما هو الحد الأدنى من ذاكرة RAM المطلوبة لتشغيل النماذج الصغيرة للذكاء الاصطناعي محليًا؟",
+          "options": [
+            "4GB",
+            "8GB",
+            "16GB",
+            "32GB"
+          ],
+          "answer": 1,
+          "explain": "النماذج الصغيرة تتطلب عادة 8GB+ من ذاكرة RAM لتعمل بكفاءة على معظم الأجهزة."
+        },
+        {
+          "q": "أي من الأدوات التالية هي إطار عمل شائع لتشغيل نماذج الذكاء الاصطناعي محليًا؟",
+          "options": [
+            "Photoshop",
+            "llama.cpp",
+            "Microsoft Word",
+            "Google Chrome"
+          ],
+          "answer": 1,
+          "explain": "llama.cpp هو إطار عمل شائع ومصمم خصيصًا لتشغيل نماذج الذكاء الاصطناعي محليًا على أجهزة الكمبيوتر."
+        }
+      ],
+      "addedAt": "2026-10-01"
+    },
+    {
       "id": "k-2026-09-30-استخدام-نماذج-الذكاء-الاصطناعي-متعددة-الوسائط",
       "title": "استخدام نماذج الذكاء الاصطناعي متعددة الوسائط",
       "titleEn": "Using Multimodal AI Models",
