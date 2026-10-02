@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "date": "2026-10-01",
+      "topHeadlines": [
+        "إطلاق GPT-6.1 Sol من OpenAI",
+        "Gemini 4 Argon: عصر جديد من الذكاء المتقدم من Google DeepMind",
+        "تحذير أنثروبيك من نموذج GLM-5.3 الصيني القادر على بناء هجمات"
+      ]
+    },
+    {
       "date": "2026-09-30",
       "topHeadlines": [
         "أعلنت OpenAI عن GPT-6.1 Sol و dots في DevDay 2026",

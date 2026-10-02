@@ -1,6 +1,103 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-02-هندسة-المطالبات-الفعالة-لتحسين-استجابات-الذكاء-الا",
+      "title": "هندسة المطالبات الفعالة لتحسين استجابات الذكاء الاصطناعي",
+      "titleEn": "Effective Prompt Engineering for Better AI Responses",
+      "why": "تؤدي هندسة المطالبات الفعالة إلى نتائج أكثر دقة وملاءمة من نماذج الذكاء الاصطناعي، مما يوفر الوقت ويحسن جودة العمل.",
+      "whyEn": "Effective prompt engineering leads to more accurate and relevant results from AI models, saving time and improving work quality.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم قدرات النموذج",
+          "detail": "تعرف على نقاط قوة ونقاط ضعف النموذج الذي تستخدمه لتحديد أفضل طلبات ممكنة."
+        },
+        {
+          "title": "كن محددًا وواضحًا",
+          "detail": "قدم تفاصيل كافية في مطالباتك للسماح للنموذج بفهم ما تريده بدقة."
+        },
+        {
+          "title": "استخدم الأمثلة والقوالب",
+          "detail": "استخدم أمثلة ونماذج لتحديد تنسيق المخرجات المطلوب وتوجيه النموذج نحو النتائج المرجوة."
+        },
+        {
+          "title": "كرر التحسينات",
+          "detail": "جرّب مطالبات مختلفة وقم بتعديلها بناءً على النتائج للحصول على أفضل استجابة ممكنة."
+        },
+        {
+          "title": "استخدم المطالبات النظامية",
+          "detail": "استخدم المطالبات النظامية لتعليم النموذج دورك وتوقعاتك لتحسين الاتساق في الاستجابات."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand the Model's Capabilities",
+          "detail": "Learn about the strengths and weaknesses of the model you're using to determine the best possible prompts."
+        },
+        {
+          "title": "Be Specific and Clear",
+          "detail": "Provide sufficient detail in your requests to allow the model to accurately understand what you want."
+        },
+        {
+          "title": "Use Examples and Templates",
+          "detail": "Use examples and templates to specify the desired output format and guide the model toward desired results."
+        },
+        {
+          "title": "Iterate and Refine",
+          "detail": "Try different prompts and adjust them based on results to get the best possible response."
+        },
+        {
+          "title": "Use System Prompts Effectively",
+          "detail": "Use system prompts to teach the model its role and your expectations to improve response consistency."
+        }
+      ],
+      "code": "def create_effective_prompt(task, context, examples=None):\n    prompt = f\"Task: {task}\\n\\nContext: {context}\\n\\n\"\n    if examples:\n        prompt += \"Examples:\\n\" + \"\\n\".join(examples) + \"\\n\\n\"\n    prompt += \"Please provide a detailed response:\"\n    return prompt",
+      "resources": [
+        {
+          "name": "OpenAI Prompt Engineering Guide",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        },
+        {
+          "name": "Prompting Guide by DAIR.AI",
+          "url": "https://www.promptingguide.ai/"
+        }
+      ],
+      "tags": [
+        "هندسة المطالبات",
+        "الذكاء الاصطناعي",
+        "تقنيات",
+        "تحسين النتائج"
+      ],
+      "quickRef": "كن محددًا، استخدم أمثلة، وكرر التحسينات للحصول على أفضل استجابات من نماذج الذكاء الاصطناعي.",
+      "quickRefEn": "Be specific, use examples, and iterate improvements to get the best responses from AI models.",
+      "quiz": [
+        {
+          "q": "ما هو العامل الأهم في هندسة المطالبات الفعالة؟",
+          "options": [
+            "استخدام كلمات معقدة",
+            "تحديد الطلب بوضوح ودقة",
+            "تقليل طول المطالبة",
+            "استخدام لغة عامية فقط"
+          ],
+          "answer": 1,
+          "explain": "تحديد الطلب بوضوح ودقة هو العامل الأهم في هندسة المطالبات الفعالة، حيث يساعد النموذج على فهم ما تريده بدقة."
+        },
+        {
+          "q": "كيف يمكن تحسين استجابات النموذج عند عدم الحصول على النتيجة المطلوبة؟",
+          "options": [
+            "تغيير نموذج الذكاء الاصطناعي بالكامل",
+            "إعادة نفس المطالبة بنفس الصيغة",
+            "تعديل المطالبة وإضافة تفاصيل أكثر تحديدًا",
+            "التوقف عن استخدام النموذج"
+          ],
+          "answer": 2,
+          "explain": "عند عدم الحصول على النتيجة المطلوبة، يجب تعديل المطالبة وإضافة تفاصيل أكثر تحديدًا لمساعدة النموذج على فهم ما تريده بشكل أفضل."
+        }
+      ],
+      "addedAt": "2026-10-02"
+    },
+    {
       "id": "k-2026-10-01-فهم-وتطبيق-تقنيات-التوليد-المتقدم-للنصوص",
       "title": "فهم وتطبيق تقنيات التوليد المتقدم للنصوص",
       "titleEn": "Understanding and Applying Advanced Text Generation Techniques",
