@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-03-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
+      "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
+      "titleEn": "Writing Effective AI Prompts",
+      "why": "كتابة أوامر فعالة تزيد من دقة ونوعية استجابات الذكاء الاصطناعي، مما يوفر الوقت ويحسن النتائج في مختلف التطبيقات.",
+      "whyEn": "Writing effective prompts increases the accuracy and quality of AI responses, saving time and improving results across various applications.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم النموذج",
+          "detail": "تعرف على قدرات ونقاط قوة ونقاط ضعف النموذج الذي تستخدمه."
+        },
+        {
+          "title": "تحديد الهدف",
+          "detail": "حدد بوضوح ما تريد تحقيقه من الاستجابة."
+        },
+        {
+          "title": "تقديم السياق",
+          "detail": "اشرح الخلفية والمعلومات اللازمة للنموذج."
+        },
+        {
+          "title": "تحديد تنسيق المخرجات",
+          "detail": "حدد كيف تريد أن تكون الاستجابة (قائمة، مقال، إلخ)."
+        },
+        {
+          "title": "استخدام أمثلة",
+          "detail": "قدم أمثلة توضيحية إذا لزم الأمر."
+        },
+        {
+          "title": "المراجعة والتحسين",
+          "detail": "اختبر الأمر وقم بتعديله بناءً على النتائج."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand the model",
+          "detail": "Learn about the capabilities, strengths, and weaknesses of the model you're using."
+        },
+        {
+          "title": "Define the goal",
+          "detail": "Clearly state what you want to achieve with the response."
+        },
+        {
+          "title": "Provide context",
+          "detail": "Explain the background and necessary information to the model."
+        },
+        {
+          "title": "Specify output format",
+          "detail": "Indicate how you want the response to be structured (list, essay, etc.)."
+        },
+        {
+          "title": "Use examples",
+          "detail": "Provide illustrative examples if needed."
+        },
+        {
+          "title": "Review and refine",
+          "detail": "Test the prompt and adjust it based on the results."
+        }
+      ],
+      "code": "python\ndef create_effective_prompt(goal, context, format_example=\"\", constraints=\"\"):\n    prompt = f\"Goal: {goal}\\n\\nContext: {context}\\n\\n\"\n    if format_example:\n        prompt += f\"Format: {format_example}\\n\\n\"\n    if constraints:\n        prompt += f\"Constraints: {constraints}\\n\\n\"\n    prompt += \"Please provide a detailed response:\"\n    return prompt\n\n# Example usage\ngoal = \"Write a product description for a new smartphone\"\ncontext = \"A mid-range smartphone with excellent camera and battery life\"\nformat_example = \"Bullet points highlighting key features\"\nconstraints = \"Keep it under 150 words\"\n\neffective_prompt = create_effective_prompt(goal, context, format_example, constraints)\nprint(effective_prompt)",
+      "resources": [
+        {
+          "name": "OpenAI Prompt Engineering Guide",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        },
+        {
+          "name": "Anthropic Prompt Guide",
+          "url": "https://www.anthropic.com/news/prompt-engineering"
+        },
+        {
+          "name": "Coursera Course",
+          "url": "https://www.coursera.org/learn/prompt-engineering"
+        }
+      ],
+      "tags": [
+        "كتابة أوامر",
+        "ذكاء اصطناعي",
+        "مهارات رقمية",
+        "تحسين النتائج"
+      ],
+      "quickRef": "أوامر فعالة = هدف واضح + سياق كاف + تنسيق محدد + أمثلة توضيحية + تحسين مستمر",
+      "quickRefEn": "Effective prompts = clear goal + sufficient context + specified format + illustrative examples + continuous refinement",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في كتابة أمر فعال للذكاء الاصطناعي؟",
+          "options": [
+            "استخدام لغة معقدة",
+            "تحديد الهدف بوضوح",
+            "جعل الأمر قصيرًا قدر الإمكان",
+            "تجميع عدة طلبات في أمر واحد"
+          ],
+          "answer": 1,
+          "explain": "تحديد الهدف بوضوح هو العنصر الأهم لأنه يوجه النموذج نحو ما تريد تحقيقه بدقة."
+        },
+        {
+          "q": "كيف يمكن تحسين استجابات الذكاء الاصطناعي عندما تكون النتائج غير دقيقة؟",
+          "options": [
+            "زيادة طول الأمر",
+            "تقديم سياق أكثر تفصيلاً",
+            "تغيير النموذج المستخدم",
+            "تقليل عدد الأمثلة"
+          ],
+          "answer": 1,
+          "explain": "تقديم سياق أكثر تفصيلاً يساعد النموذج على فهم ما تطلبه بشكل أفضل، مما يحسن دقة الاستجابة."
+        },
+        {
+          "q": "ما هو التنسيق المفضل لطلب كتابة ملخص لبحث علمي؟",
+          "options": [
+            "فقرة واحدة طويلة",
+            "نقاط رئيسية مع تفاصيل",
+            "قائمة عشوائية من المعلومات",
+            "جدول بدون ترتيب محدد"
+          ],
+          "answer": 1,
+          "explain": "نقاط رئيسية مع تفاصيل هي الطريقة الأفضل لملخص البحث العلمي لأنها توفر منظمة وسهلة القراءة."
+        }
+      ],
+      "addedAt": "2026-10-03"
+    },
+    {
       "id": "k-2026-10-02-هندسة-المطالبات-الفعالة-لتحسين-استجابات-الذكاء-الا",
       "title": "هندسة المطالبات الفعالة لتحسين استجابات الذكاء الاصطناعي",
       "titleEn": "Effective Prompt Engineering for Better AI Responses",
