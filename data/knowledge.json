@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-03-ضبط-النماذج-الصغيرة-للغات-محدودة-الموارد",
+      "title": "ضبط النماذج الصغيرة للغات محدودة الموارد",
+      "titleEn": "Fine-tuning Small Models for Low-Resource Languages",
+      "why": "ضبط النماذج الصغيرة للغات محدودة الموارد يساعد في تحقيق أداء أفضل في اللغات التي تفتقر إلى بيانات تدريبية كافية، مما يجعل الذكاء الاصطناعي أكثر شمولية وفعالية.",
+      "whyEn": "Fine-tuning small models for low-resource languages helps achieve better performance in languages lacking sufficient training data, making AI more inclusive and effective.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد النموذج الأساسي المناسب",
+          "detail": "اختر نموذجًا صغيرًا مناسبًا للغتك المستهدفة، مثل DistilBERT أو TinyBERT"
+        },
+        {
+          "title": "جمع وتجهيز البيانات",
+          "detail": "اجمع مجموعة متنوعة من النصوص باللغة المستهدفة، وقم بتقسيمها إلى مجموعات تدريب واختبار"
+        },
+        {
+          "title": "إعداد بيئة التدريب",
+          "detail": "تثبيت المكتبات اللازمة مثل transformers و datasets، وإعداد البيانات للنموذج"
+        },
+        {
+          "title": "تنفيذ عملية الضبط",
+          "detail": "قم بتدريب النموذج على بياناتك باستخدام معلمات مناسبة مثل حجم الدفعة ومعدل التعلم"
+        },
+        {
+          "title": "تقييم النموذج المحسّن",
+          "detail": "اختبر أداء النموذج على مجموعة اختبار وقيّم باستخدام مقاييس مثل الدقة والاستدعاء"
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select an appropriate base model",
+          "detail": "Choose a small model suitable for your target language, such as DistilBERT or TinyBERT"
+        },
+        {
+          "title": "Collect and prepare data",
+          "detail": "Gather a diverse set of texts in the target language and split them into training and test sets"
+        },
+        {
+          "title": "Set up training environment",
+          "detail": "Install necessary libraries like transformers and datasets, and prepare the data for the model"
+        },
+        {
+          "title": "Perform fine-tuning",
+          "detail": "Train the model on your data using appropriate parameters like batch size and learning rate"
+        },
+        {
+          "title": "Evaluate the fine-tuned model",
+          "detail": "Test the model's performance on the test set and evaluate using metrics like accuracy and recall"
+        }
+      ],
+      "code": "from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments\nimport torch\n\n# Load model and tokenizer\nmodel_name = \"distilbert-base-multilingual-cased\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)\n\n# Prepare training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=16,\n    warmup_steps=500,\n    weight_decay=0.01,\n    logging_dir=\"./logs\",\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset\n)\n\n# Start training\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Documentation",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "Low-resource Language Processing Paper",
+          "url": "https://aclanthology.org/2020.nlpcss-1.8.pdf"
+        },
+        {
+          "name": "DistilBERT Model Card",
+          "url": "https://huggingface.co/distilbert-base-multilingual-cased"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "اللغات محدودة الموارد",
+        "التعلم العميق",
+        "معالجة اللغات الطبيعية"
+      ],
+      "quickRef": "ضبط النماذج الصغيرة للغات محدودة الموارد: اختيار النموذج، تجهيز البيانات، إعداد البيئة، التدريب، والتقييم",
+      "quickRefEn": "Fine-tuning small models for low-resource languages: model selection, data preparation, environment setup, training, and evaluation",
+      "quiz": [
+        {
+          "q": "ما هو النوع الأولي من النماذج الذي يُنصح به لضبط النماذج للغات محدودة الموارد؟",
+          "options": [
+            "نماذج ضخمة مثل GPT-3",
+            "نماذج متوسطة الحجم مثل BERT-base",
+            "نماذج صغيرة مثل DistilBERT",
+            "نماذج مخصصة بالكامل من الصفر"
+          ],
+          "answer": 2,
+          "explain": "النماذج الصغيرة مثل DistilBERT هي الأنسب للغات محدودة الموارد لأنها تتطلب موارد أقل في التدريب والاستدلال مع الحفاظ على جودة جيدة."
+        },
+        {
+          "q": "أي من الخيارات التالية ليس خطوة ضرورية في عملية ضبط النماذج للغات محدودة الموارد؟",
+          "options": [
+            "جمع وتجهيز البيانات",
+            "اخيار النموذج الأساسي",
+            "تقييم النموذج بعد التدريب",
+            "زيادة حجم النموذج الأصلي"
+          ],
+          "answer": 3,
+          "explain": "زيادة حجم النموذج الأصلي ليست خطوة ضرورية في عملية الضبط، بل العكس - نحن نستخدم نماذج صغيرة أصلاً لتوفير الموارد."
+        },
+        {
+          "q": "ما هو أهم عامل يجب مراعاته عند اختيار بيانات للتدريب للغات محدودة الموارد؟",
+          "options": [
+            "حجم البيانات الكبير فقط",
+            "تنوع البيانات وجودتها",
+            "سرعة الوصول للبيانات",
+            "تكلفة تخزين البيانات"
+          ],
+          "answer": 1,
+          "explain": "تنوع البيانات وجودتها هو العامل الأهم، خاصة للغات محدودة الموارد حيث يكون حجم البيانات محدوداً بالفعل."
+        }
+      ],
+      "addedAt": "2026-10-03"
+    },
+    {
       "id": "k-2026-10-03-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
       "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
       "titleEn": "Writing Effective AI Prompts",
