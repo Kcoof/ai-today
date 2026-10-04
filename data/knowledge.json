@@ -1,6 +1,99 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-04-بناء-وكلاء-الذكاء-الاصطناعي-الفعال",
+      "title": "بناء وكلاء الذكاء الاصطناعي الفعال",
+      "titleEn": "Building Effective AI Agents",
+      "why": "وكلاء الذكاء الاصطناعي يمثلون الخطوة التالية في تطوير التطبيقات الذكية القادرة على اتخاذ قرارات مستقلة وتنفيذ مهارات معقدة، مما يفتح آفاقاً جديدة لتطبيقات الأتمتة المتقدمة وتجارب المستخدم المحسنة.",
+      "whyEn": "AI agents represent the next step in developing intelligent applications capable of autonomous decision-making and executing complex tasks, opening new possibilities for advanced automation and enhanced user experiences.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد مهمة وكلاء الذكاء الاصطناعي",
+          "detail": "حدد بوضوح المهمة التي سيقوم بها الوكيل، مع تحديد المدخلات والمخرجات المتوقعة. يجب أن تكون المهمة محددة بدرجة كافية لتحقيقها ولكنها مرنة بما يكفي للتعامل مع المواقف غير المتوقعة."
+        },
+        {
+          "title": "تصميم بنية الوكيل",
+          "detail": "خطط لبنية الوكيل التي تشمل مكونات مثل محرك الاستدلال، وحدة الذاكرة، نظام التخطيط، وواجهة الاتصال. يجب أن تكون هذه المكونات مصممة للعمل معاً بشكل متكامل."
+        },
+        {
+          "title": "تنفيذ آلية اتخاذ القرار",
+          "detail": "طور آلية لاتخاذ القرار تستند إلى السياق الحالي، والأهداف المحددة، والمعرفة المتاحة. قد تشمل هذه الآلية نماذج التوليد، أو أنظمة القواعد، أو خوارزميات التعلم الآلي."
+        },
+        {
+          "title": "دمج الذاكرة والتعلم",
+          "detail": "نفذ نظام ذاكرة يسمح للوكيل بتذكر المحادثات السابقة والنتائج السابقة. قد يشمل ذلك قواعد بيانات المتجهات أو أنظمة الاسترجاع المعرفي."
+        },
+        {
+          "title": "اختبار وتحسين الوكيل",
+          "detail": "اختبر أداء الوكيل في سيناريوهات مختلفة وقم بتحسينه بناءً على النتائج. ركز على تحسين دقة القرارات، وكفاءة التنفيذ، وقابلية التوسع."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define the AI Agent's Task",
+          "detail": "Clearly define the task the agent will perform, specifying expected inputs and outputs. The task should be specific enough to be achievable but flexible enough to handle unexpected situations."
+        },
+        {
+          "title": "Design the Agent Architecture",
+          "detail": "Plan an architecture that includes components like reasoning engine, memory unit, planning system, and communication interface. These components should be designed to work together cohesively."
+        },
+        {
+          "title": "Implement Decision-Making Mechanism",
+          "detail": "Develop a decision-making mechanism based on current context, defined goals, and available knowledge. This may include generative models, rule systems, or machine learning algorithms."
+        },
+        {
+          "title": "Integrate Memory and Learning",
+          "detail": "Implement a memory system that allows the agent to remember previous conversations and outcomes. This may include vector databases or knowledge retrieval systems."
+        },
+        {
+          "title": "Test and Refine the Agent",
+          "detail": "Test the agent's performance in various scenarios and refine it based on results. Focus on improving decision accuracy, execution efficiency, and scalability."
+        }
+      ],
+      "code": "import os\nfrom langchain.agents import initialize_agent, Tool\nfrom langchain.llms import OpenAI\nfrom langchain.memory import ConversationBufferMemory\n\n# Initialize the language model\nllm = OpenAI(temperature=0)\n\n# Define tools for the agent\ntools = [\n    Tool(\n        name=\"Calculator\",\n        func=lambda x: eval(x),\n        description=\"Useful for when you need to calculate numbers\"\n    ),\n    Tool(\n        name=\"Search\",\n        func=\"Search the web for information\",\n        description=\"Useful for when you need to find current information\"\n    )\n]\n\n# Initialize the agent with memory\nmemory = ConversationBufferMemory(memory_key=\"chat_history\")\nagent = initialize_agent(\n    tools, \n    llm, \n    agent=\"chat-conversational-react-description\", \n    verbose=True,\n    memory=memory\n)\n\n# Run the agent\nresponse = agent.run(\"What is 15 multiplied by 23 and what is the current weather in Paris?\")\nprint(response)",
+      "resources": [
+        {
+          "name": "LangChain Documentation",
+          "url": "https://python.langchain.com/docs/modules/agents/"
+        }
+      ],
+      "tags": [
+        "وكلاء الذكاء الاصطناعي",
+        "بناء النظم",
+        "الأتمتة",
+        "الاستدلال"
+      ],
+      "quickRef": "بناء وكلاء ذكاء اصطناعي فعال يتطلب تحديد المهمة، تصميم البنية، تنفيذ آلية اتخاذ القرار، دمج الذاكرة، وتحسين الأداء.",
+      "quickRefEn": "Building effective AI agents requires task definition, architecture design, decision-making implementation, memory integration, and performance improvement.",
+      "quiz": [
+        {
+          "q": "ما هو المكون الأساسي الذي يسمح لوكيل الذكاء الاصطناعي بتذكر المحادثات السابقة؟",
+          "options": [
+            "محرك الاستدلال",
+            "وحدة الذاكرة",
+            "نظام التخطيط",
+            "واجهة الاتصال"
+          ],
+          "answer": 1,
+          "explain": "وحدة الذاكرة هي المسؤولة عن تذكر المحادثات السابقة والنتائج السابقة، مما يسمح للوكيل بالتعلم من التجارب السابقة وتحسين أدائه بمرور الوقت."
+        },
+        {
+          "q": "أي من الخيارات التالية يمثل أفضل ممارسة عند تحديد مهمة وكلاء الذكاء الاصطناعي؟",
+          "options": [
+            "يجب أن تكون المهمة عامة جداً",
+            "يجب أن تكون المهمة محددة بدرجة كافية ولكن مرنة",
+            "يجب أن تكون المهمة معقدة للغاية",
+            "يجب أن تكون المهمة بسيطة جداً"
+          ],
+          "answer": 1,
+          "explain": "المهمة يجب أن تكون محددة بدرجة كافية لتحقيقها ولكنها مرنة بما يكفي للتعامل مع المواقف غير المتوقعة، مما يوازن بين الوضوح والمرونة."
+        }
+      ],
+      "addedAt": "2026-10-04"
+    },
+    {
       "id": "k-2026-10-04-أساسيات-أمن-الذكاء-الاصطناعي",
       "title": "أساسيات أمن الذكاء الاصطناعي",
       "titleEn": "AI Safety Basics",
