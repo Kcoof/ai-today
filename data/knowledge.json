@@ -1,6 +1,103 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-04-أساسيات-أمن-الذكاء-الاصطناعي",
+      "title": "أساسيات أمن الذكاء الاصطناعي",
+      "titleEn": "AI Safety Basics",
+      "why": "مع تطور تقنيات الذكاء الاصطناعي، يصبح فهم أساسيات أمنها ضروريًا لضمان استخدام هذه التقنيات بشكل آمن ومسؤول وتجنب المخاطر المحتملة.",
+      "whyEn": "As AI technologies evolve, understanding AI safety fundamentals becomes crucial to ensure these technologies are used safely and responsibly, avoiding potential risks.",
+      "difficulty": "beginner",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "فهم المخاطر المحتملة",
+          "detail": "تعرف على أنواع المخاطر الرئيسية المرتبطة بالذكاء الاصطناعي مثل التحيزات، الخصوصية، الأمان، والاستخدام الخاطئ."
+        },
+        {
+          "title": "تطبيق مبادئ الأمان",
+          "detail": "قم بتطبيق مبادئ أساسية مثل الشفافية، المساءلة، والعدالة عند تصميم وتطبيق أنظمة الذكاء الاصطناعي."
+        },
+        {
+          "title": "الاختبار والتقييم",
+          "detail": "قم بإجراء اختبارات شاملة لتقييم أداء النموذج وتحديد أي تحيزات أو مخاطر محتملة قبل نشره."
+        },
+        {
+          "title": "مراقبة الاستخدام",
+          "detail": "أنشئ آليات لمراقبة كيفية استخدام النماذج بعد نشرها وتحديد أي استخدامات ضارة أو غير متوقعة."
+        },
+        {
+          "title": "تحديثات مستمرة",
+          "detail": "احتفظ بعملية تحديث مستمرة للنماذج بناءً على الملاحظات الجديدة وتطور التهديدات الأمنية."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Potential Risks",
+          "detail": "Learn about the main types of risks associated with AI such as biases, privacy, security, and misuse."
+        },
+        {
+          "title": "Apply Security Principles",
+          "detail": "Implement fundamental principles like transparency, accountability, and fairness when designing and implementing AI systems."
+        },
+        {
+          "title": "Testing and Evaluation",
+          "detail": "Conduct comprehensive testing to evaluate model performance and identify any biases or potential risks before deployment."
+        },
+        {
+          "title": "Monitor Usage",
+          "detail": "Create mechanisms to monitor how models are used after deployment and identify any harmful or unexpected uses."
+        },
+        {
+          "title": "Continuous Updates",
+          "detail": "Maintain an ongoing update process for models based on new observations and evolving security threats."
+        }
+      ],
+      "code": "",
+      "resources": [
+        {
+          "name": "AI Safety Institute",
+          "url": "https://aisafetyinstitute.org"
+        },
+        {
+          "name": "Partnership on AI",
+          "url": "https://partnershiponai.org"
+        }
+      ],
+      "tags": [
+        "أمن",
+        "مسؤولية",
+        "تحيز",
+        "مراقبة"
+      ],
+      "quickRef": "أساسيات أمن الذكاء الاصطناعي: فهم المخاطر، تطبيق المبادئ، الاختبار، المراقبة، التحديثات",
+      "quickRefEn": "AI Safety Basics: Understand risks, apply principles, test, monitor, update",
+      "quiz": [
+        {
+          "q": "ما هو أحد المبادئ الأساسية لأمن الذكاء الاصطناعي؟",
+          "options": [
+            "السرية",
+            "الشفافية",
+            "السرعة",
+            "التكلفة"
+          ],
+          "answer": 1,
+          "explain": "الشفافية هي مبدأ أساسي في أمن الذكاء الاصطناعي حيث يجب أن تكون عملية عمل النموذج وقراراته واضحة وقابلة للفهم."
+        },
+        {
+          "q": "ما هو الخطأ الأكثر شيوعًا في تطبيق أنظمة الذكاء الاصطناعي من حيث الأمن؟",
+          "options": [
+            "الاختبار غير الكافي",
+            "الشفافية المفرطة",
+            "السرعة الزائدة",
+            "التكلفة المنخفضة"
+          ],
+          "answer": 0,
+          "explain": "الاختبار غير الكافي هو خطأ شائع حيث قد يتم نشر نماذج دون اختبار شامل للتحيزات والمخاطر المحتملة."
+        }
+      ],
+      "addedAt": "2026-10-04"
+    },
+    {
       "id": "k-2026-10-03-ضبط-النماذج-الصغيرة-للغات-محدودة-الموارد",
       "title": "ضبط النماذج الصغيرة للغات محدودة الموارد",
       "titleEn": "Fine-tuning Small Models for Low-Resource Languages",
