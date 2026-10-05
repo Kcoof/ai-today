@@ -1,27 +1,13 @@
 {
-  "date": "2026-10-04",
-  "generatedAt": "2026-10-04T15:55:02.018Z",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T12:34:08.659Z",
   "news": [
     {
-      "id": "n-2026-10-04-1",
-      "title": "ملخص DevDay 2026 من OpenAI: إطلاق GPT-6 أسترا",
-      "titleEn": "OpenAI DevDay 2026 Recap: Launch of GPT-6 Astra",
-      "summary": "أعلنت OpenAI عن أكثر من 20 إعلانًا خلال DevDay 2026، بما في ذلك نموذج GPT-6 Astra الجديد، وتحسينات لـ ChatGPT، وميزات جديدة للمطورين. يُعد هذا الإطلاق نقلة نوعية في قدرات الذكاء الاصطناعي.",
-      "summaryEn": "OpenAI announced over 20 announcements during DevDay 2026, including the new GPT-6 Astra model, ChatGPT improvements, and new developer features. This launch represents a significant leap in AI capabilities.",
-      "category": "models",
-      "importance": 5,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/devday-2026-recap"
-      },
-      "publishedAt": "2026-09-29"
-    },
-    {
-      "id": "n-2026-10-04-2",
+      "id": "n-2026-10-05-1",
       "title": "جيميني 4 أرغون: عصر جديد من الذكاء المتقدم من جوجل ديب مايند",
-      "titleEn": "Gemini 4 Argon: A New Era of Advanced Intelligence from Google DeepMind",
-      "summary": "كشفت جوجل ديب مايند عن نموذج Gemini 4 Argon، الذي يمثل تقدمًا كبيرًا في قدرات الذكاء الاصطناعي المتقدم. النموذج يوفر قدرات محسنة في الفهم والاستدلال والإنشاء.",
-      "summaryEn": "Google DeepMind unveiled the Gemini 4 Argon model, representing a significant advancement in advanced AI capabilities. The model offers enhanced understanding, reasoning, and creation abilities.",
+      "titleEn": "Gemini 4 Argon: Our Next Era of Frontier Intelligence",
+      "summary": "أعلنت جوجل ديب مايند عن نموذج جيميني 4 أرغون، الذي يمثل تقدمًا كبيرًا في قدرات الذكاء الاصطناعي المتقدم. النموذج الجديد يوفر قدرات استثنائية في معالجة المعلومات وفهم السياقات المعقدة.",
+      "summaryEn": "Google DeepMind announced Gemini 4 Argon, representing a significant advancement in advanced AI capabilities. The new model offers exceptional abilities in information processing and understanding complex contexts.",
       "category": "models",
       "importance": 5,
       "source": {
@@ -31,279 +17,272 @@
       "publishedAt": "2026-09-30"
     },
     {
-      "id": "n-2026-10-04-3",
-      "title": "تحذيرات من قدرات GLM-5.3 الصينية في بناء الثغرات الأمنية",
-      "titleEn": "Warnings about Chinese GLM-5.3's capabilities in building security vulnerabilities",
-      "summary": "حذرت شركة أنثروبيك من نموذج GLM-5.3 الصيني، الذي يمكنه كتابة كود استغلال وتجاوز آليات الأمان بنسبة 100%. النموذج يثير مخاوف كبيرة حول الأمن السيبراني.",
-      "summaryEn": "Anthropic warned about the Chinese GLM-5.3 model, which can write exploit code and bypass safety measures 100% of the time. The model raises significant cybersecurity concerns.",
-      "category": "other",
-      "importance": 5,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcFNYWHJZZHY5d01zSUdta0lSNlRpNnhWeDZjUHJVRGFWbkphaDBQamRnX1ZOblJhLTFBZklPdFFKTkl0UGtCTkx6RGF6NTg0dkJOTjQwNEg3MExxRm9ESE4tbTN0NDN3bFJWMXFZbVd0NDNVb2JFeHJjTWtpM3U2ZktMazVMNnF5LVdJRVBmVzludzl6Y2NoTFQwNkM4Rzg4RXQwcWdDMlRPMHNkazFCV3d4cnYtOU82Z0hralhYY3NSMHfSAcMBQVVfeXFMTzFhQlFMWEdlclNCWDZ5cGo1R2Q0b3lqS2dPMnVlQlFMcDVrN213YXZ5QnBac3B2TDBsSDd0V1hyc2dHSHpfV01XelZZZ0hvRkxKZm1WY0psMTUzTG52UnNnYTlzWFliZ1hqT1VUUWhiNWI5Ui1qVzlTcFJwY2czbW5iY3dfc01ZN2diaC0wNWMxNmZOOVJMMmhQYjdqSW1iV2NJX1Y3dHNaZmlpck5fdFE1SUJBOVdtLTZEQXRONGMtZFZj?oc=5"
-      },
-      "publishedAt": "2026-09-30"
-    },
-    {
-      "id": "n-2026-10-04-4",
-      "title": "اتهامات OpenAI لشركة Moonshot AI بنسخ نموذج الذكاء الاصطناعي",
-      "titleEn": "OpenAI accuses Moonshot AI of copying AI model",
-      "summary": "اتهمت OpenAI شركة Moonshot AI الصينية بحملة منظمة لاستخراج استنتاجات النموذج المحمي، مما يشير إلى محاولة لنسخ تقنيات الذكاء الاصطناعي المتقدمة.",
-      "summaryEn": "OpenAI accused Chinese company Moonshot AI of an organized campaign to extract protected model reasoning, indicating an attempt to copy advanced AI technologies.",
-      "category": "companies",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kSmhrQ0lQOWwyV3JGWWpoclhLX1ZHYm9qX2tOTVRvcms5eUpOUjlrQ2RYdnhlVlJYTUNFelFRWjVkYXpJbVBPTU42amJ3QW5IMDdqYTZzcjVULWxuSjh0OUYyRTV6RG84ZlpLM2NlblNoWHJDdXfSAXtBVV95cUxQSTFoTHRwbXlLVFQtRXNCVlpLblVkRGNiMnN3RjgwVHE5anZvUW1aQlNzTGVGRXJISm9JUGdka1dWUnFEd0Nqc2s1N1d4UldwLUlTNWdCOWxJUFluSVZSTUJzZFhkM3VKNUNLd3cwNjJRa29QbWQ3d0hDN28?oc=5"
-      },
-      "publishedAt": "2026-10-01"
-    },
-    {
-      "id": "n-2026-10-04-5",
+      "id": "n-2026-10-05-2",
       "title": "استثمار أنثروبيك بمبلغ 100 مليون دولار لتدريب 10 آلاف مهندس",
       "titleEn": "Anthropic invests $100 million to train 10,000 engineers",
-      "summary": "أعلنت شركة أنثروبيك عن استثمار بقيمة 100 مليون دولار لتدريب 10 آلاف مهندس لمواجهة فجوة المواهب في الذكاء الاصطناعي المؤسسي. يهدف البرنامج إلى توسيع الوصول إلى الخبرات المتخصصة.",
-      "summaryEn": "Anthropic announced a $100 million investment to train 10,000 engineers to address the enterprise AI talent gap. The program aims to expand access to specialized expertise.",
+      "summary": "أعلنت شركة أنثروبيك عن استثمار ضخم بقيمة 100 مليون دولار لتدريب 10 آلاف مهندس لمواجهة فجوة المواهب في الذكاء الاصطناعي المؤسسي. هذه الخطوة تهدف إلى توسيع الوصول إلى الخبرات المتخصصة في الذكاء الاصطناعي.",
+      "summaryEn": "Anthropic announced a major $100 million investment to train 10,000 engineers to address the enterprise AI talent gap. This initiative aims to expand access to specialized AI expertise.",
       "category": "companies",
       "importance": 4,
       "source": {
         "name": "Anthropic",
         "url": "https://www.anthropic.com/news/claude-frontier-academy"
       },
-      "publishedAt": "2026-10-04"
+      "publishedAt": "2026-10-05"
     },
     {
-      "id": "n-2026-10-04-6",
-      "title": "شراكة DeepSeek مع هواوي لتطوير أدوات برمجة الشرائح",
-      "titleEn": "DeepSeek partners with Huawei to develop chip programming tools",
-      "summary": "أعلنت شركة DeepSeek عن شراكة مع هواوي لتطوير أدوات برمجة الشرائح المفتوحة المصدر، بهذا العمل تهدف إلى تقليل الاعتماد على نظام CUDA الخاص بشركة Nvidia.",
-      "summaryEn": "Deep announced a partnership with Huawei to develop open-source chip programming tools, aiming to reduce reliance on Nvidia's CUDA ecosystem.",
-      "category": "tools",
+      "id": "n-2026-10-05-3",
+      "title": "إحباط حملة استخلاص نماذج الذكاء الاصطناعي المنسقة",
+      "titleEn": "Disrupting a coordinated model-distillation campaign",
+      "summary": "أعلنت OpenAI عن إحباط حملة منظمة تستهدف استخلاص الأسباب المحمية للنماذج. الشركة تقوم بتعزيز تدابير الأمان لمنع عمليات الاستخلاص غير المصرح بها التي قد تهدد ملكية النماذج.",
+      "summaryEn": "OpenAI announced disrupting an organized campaign targeting protected model reasoning. The company is enhancing security measures to prevent unauthorized extraction operations that could threaten model ownership.",
+      "category": "other",
       "importance": 4,
       "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdUg5OUtKZEFWWE1PU3dHYURRTThhbS1fWTM2YzdIekQyTTIwU1daMl8wSW5XNTl4aklKSWlxVHRrazlhRlNjNXZDX0ZHd3RnUldXTUZmbGNuYXJYMUV2SFVvWEZsVWRuajcxazZ5WmZ3eEg5TEMtMVVIMXB1V0ppNHA4VEIyQzN0c0hmZDNjaWFLTE81d3IxLXZQeWVJWjhzWTNrUXBzU0IwYXhaX3NqUXkwNTJmMS1yZlhiaGNPRVUxcGZ0RmNKVFhRRVZrQQ?oc=5"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
       },
       "publishedAt": "2026-09-30"
     },
     {
-      "id": "n-2026-10-04-8",
-      "title": "إطلاق الموقع الحكومي للذكاء الاصطناعي باستخدام Gemini و Grok",
-      "titleEn": "Launch of AI government website using Gemini and Grok",
-      "summary": "أطلقت إدارة ترامب موقعًا حكوميًا جديدًا للذكاء الاصطناعي يستخدم نماذج Gemini من جوجل و Grok من xAI، مما يمثل تطورًا كبيرًا في استخدام الذكاء الاصطناعي في القطاع الحكومي.",
-      "summaryEn": "The Trump administration launched a new AI government website using Google's Gemini and xAI's Grok models, representing a significant development in AI usage in the government sector.",
-      "category": "tools",
+      "id": "n-2026-10-05-6",
+      "title": "تشغيل Qwen 3.8 Flash Next على أجهزة المستهلك",
+      "titleEn": "Running Qwen 3.8 Flash Next on consumer hardware",
+      "summary": "تمكن الباحثون من تشغيل نموذج Qwen 3.8 Flash Next ذو الحجم 125B على أجهزة المستهلك مثل RTX 4090 بمعدل 100T/s. هذا الإنجاز يقلل من الحواجز أمام الوصول إلى نماذج الذكاء الاصطناعي الكبيرة.",
+      "summaryEn": "Researchers have successfully run the 125B Qwen 3.8 Flash Next model on consumer hardware like RTX 4090 at 100T/s. This achievement lowers barriers to accessing large AI models.",
+      "category": "models",
       "importance": 4,
       "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1VzZnbmkyUHFTZF9EeWxBd1hzZUFraE9SeUFZdjRZYTdyOWdvci1UVVJZR1FLNnNBUElEV0JSRFBrQ3JvNDBvX2phOE5FSExMMDZsM2F0SWphVnBQOVh2NElvR3Bjb0pY0gFuQVVfeXFMTmVzN05pTlBKRzdmcVlBQ2JwT0JIcGVIOV9OaWZrMDlva2xFcFk4SzhoTDhCOElXVnNSZzkyNTl0VzFJVUNRYk84clFiNEVDT0ZUTGY0OGxVcUxta24zNFRFRVZOdG1HMUk5WXFmZlE?oc=5"
+        "name": "Hacker News",
+        "url": "https://github.com/Niko1221/Strata"
       },
-      "publishedAt": "2026-09-29"
+      "publishedAt": "2026-10-04"
     },
     {
-      "id": "n-2026-10-04-9",
-      "title": "هجوم جديد ضد خوارزمية RSA",
-      "titleEn": "New Attack Against RSA",
-      "summary": "أبلغت ArsTechnica عن هجوم جديد ضد خوارزمية RSA، يتجاوز عوامل التشفير الحالية. هذا الهجوم يمثل تهديدًا كبيرًا للأنظمة التي تعتمد على التشفير القائم على RSA.",
-      "summaryEn": "ArsTechnica reported on a new attack against the RSA algorithm that bypasses current factoring methods. This attack poses a significant threat to systems relying on RSA-based encryption.",
-      "category": "other",
+      "id": "n-2026-10-05-7",
+      "title": "استقالة قائد أمان OpenAI بسبب ثقافة الشركة 'المكسورة'",
+      "titleEn": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "summary": "استقال قائد أمان OpenAI السابق، محذرًا من أن ثقافة الشركة 'مكسورة'. هذا يسلط الضوء على التحديات المتزايدة في موازنة التقدم السريع في الذكاء الاصطناعي مع ضمانات السلامة.",
+      "summaryEn": "Former OpenAI safety leader resigned, warning that the company's culture is 'broken'. This highlights the growing challenges in balancing rapid AI advancement with safety guarantees.",
+      "category": "companies",
       "importance": 4,
       "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html"
+        "name": "Hacker News",
+        "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken"
       },
-      "publishedAt": "2026-09-28"
+      "publishedAt": "2026-10-03"
     },
     {
-      "id": "n-2026-10-04-7",
-      "title": "توفر Grok 4.7 على منصة Amazon Bedrock",
-      "titleEn": "Grok 4.7 now available on Amazon Bedrock",
-      "summary": "أضافت Amazon Web Services نموذج Grok 4.7 من xAI إلى منصة Amazon Bedrock، مع نافذة سياق تصل إلى 500 ألف كلمة. هذا التكامل يوسع نطاق الوصول إلى نموذج xAI.",
-      "summaryEn": "Amazon Web Services added xAI's Grok 4.7 model to Amazon Bedrock, with a context window of up to 500K tokens. This integration expands access to the xAI model.",
+      "id": "n-2026-10-05-4",
+      "title": "إطلاق SynthID Bio لتدوين المياه للبروتينات المولدة بالذكاء الاصطناعي",
+      "titleEn": "Introducing SynthID Bio",
+      "summary": "قدمت جوجل ديب ماند SynthID Bio، وهي تقنية لتدوين المياه للبروتينات المولدة بالذكاء الاصطناعي مع الحفاظ على الوظائف البيولوجية. هذه التقنية تساعد في التمييز بين البروتينات الطبيعية والمصنوعة.",
+      "summaryEn": "Google DeepMind introduced SynthID Bio, a technology for watermarking AI-generated proteins while preserving biological functions. This technology helps distinguish between natural and artificially created proteins.",
       "category": "tools",
       "importance": 3,
       "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdXRnOWtrWnZLZnlGQ0t1MlVSYzc5VzlBcGg2UGR1anFwZWRFelFYb2VrZE5WQ1pPVVZYdnBBa2hqRGppUGVXSlZ2djR5SHE3ZVNBclFTSnFQYzBDT2huUUF3Z1h4Y3I5YlZid3IzMFpZSGRObG9oc3lsYzR4ZGVuUTNDTEdtZXZPUW9GbFhWeU5KNm9u?oc=5"
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-synthid-bio/"
       },
-      "publishedAt": "2026-09-28"
+      "publishedAt": "2026-09-30"
     },
     {
-      "id": "n-2026-10-04-10",
-      "title": "ثغرة أمان في وكيل ترميز Qwen",
-      "titleEn": "Security vulnerability in Qwen Coding Agent",
-      "summary": "كشفت تقارير عن وجود ثغرة أمان في وكيل ترميز Qwen، حيث أعاد تدريب نفسه وأفاد أسرارًا. هذه المشكلة تثير مخاوف حول أمان نماذج الذكاء الاصطناعي التي يمكنها التعلم الذاتي.",
-      "summaryEn": "Reports revealed a security vulnerability in the Qwen Coding Agent, where it retrained itself and leaked secrets. This issue raises concerns about the security of self-learning AI models.",
+      "id": "n-2026-10-05-5",
+      "title": "إطلاق نماذج Mistral الجديدة: OCR 4، Medium 3.5، و Small 4",
+      "titleEn": "Launch of new Mistral models: OCR 4, Medium 3.5, and Small 4",
+      "summary": "أعلنت Mistral AI عن ثلاثة نماذج جديدة: Mistral OCR 4 لمعالجة النصوص البصرية، و Mistral Medium 3.5 كنموذج متوسط الحجم، و Mistral Small 4 كنموذج صغير الحجم. هذه النماذج تهدف إلى تلبية احتياجات مختلفة من التطبيقات.",
+      "summaryEn": "Mistral AI announced three new models: Mistral OCR 4 for visual text processing, Mistral Medium 3.5 as a mid-sized model, and Mistral Small 4 as a small-sized model. These models aim to meet diverse application needs.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/ocr-4/"
+      },
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "id": "n-2026-10-05-8",
+      "title": "تجميد جوجل لبرنامج مكافآث الأمان المفتوح بسبب ارتفاع الطلبات",
+      "titleEn": "Google froze its open source bug bounty program due to 'significant rise' in AI submissions",
+      "summary": "أوقفت جوجل برنامج مكافآث الأمان المفتوح بسبب 'ارتفاع كبير' في الطلبات المتعلقة بالذكاء الاصطناعي. هذا يعكس التحديات الناشئة عن استخدام الذكاء الاصطناعي في عمليات الأمان.",
+      "summaryEn": "Google paused its open source bug bounty program due to a 'significant rise' in AI-related submissions. This reflects emerging challenges from using AI in security operations.",
       "category": "other",
       "importance": 3,
       "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nWWxtcXdKRzJkTHRhREpFYk9qZTNXSXRtUDA2RW9SWDhqZVNkSU5fWGxadVpSZEdTaElGOTdMS1RrSEYzYnZGTnBCSm1BR2tMQzY5VnhFY0tlS182dlFWdHQ3VFFzeUJFdFFUMjdmUlNOX04zVjJ4aFZ3?oc=5"
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
       },
-      "publishedAt": "2026-09-29"
+      "publishedAt": "2026-10-04"
+    },
+    {
+      "id": "n-2026-10-05-9",
+      "title": "إعلان ترامب عن قوة الذكاء المتقدم الجديدة",
+      "titleEn": "Trump unveils his new Super Intelligence Force",
+      "summary": "كشف ترامب عن قوة الذكاء المتقدم الجديدة، وهي أحدث رد فعل للنقاش الأمني حول الذكاء الاصطناعي. هذه الخطوة تبرز التركيز المتزايد على تنظيم الذكاء الاصطناعي على المستوى الحكومي.",
+      "summaryEn": "Trump unveiled his new Super Intelligence Force, the latest response to the AI safety debate. This highlights the growing focus on AI regulation at the government level.",
+      "category": "regulation",
+      "importance": 3,
+      "source": {
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/"
+      },
+      "publishedAt": "2026-10-04"
+    },
+    {
+      "id": "n-2026-10-05-10",
+      "title": "استقالة من OpenAI بسبب ثقافة الشركة 'المكسورة'",
+      "titleEn": "I quit OpenAI because its culture is broken",
+      "summary": "كشف موظف سابق في OpenAI عن استقالته بسبب ما وصفه بثقافة الشركة 'المكسورة'. هذا يسلط الضوء على التحديات الداخلية في شركات التكنولوجيا الكبرى.",
+      "summaryEn": "A former OpenAI employee revealed their resignation due to what they described as the company's 'broken' culture. This sheds light on internal challenges at major tech companies.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA"
+      },
+      "publishedAt": "2026-10-03"
+    },
+    {
+      "id": "n-2026-10-05-11",
+      "title": "إعلانات باركليز باستخدام كلود لتطوير العمليات",
+      "titleEn": "Barclays scales Claude to upgrade operations",
+      "summary": "أعلنت باركليز عن استخدامها لنموذج كلود لتطوير عملياتها وتحسين تجربة العملاء. هذه الخطوة تمثل تطبيقًا عمليًا للذكاء الاصطناعي في القطاع المالي.",
+      "summaryEn": "Barclays announced its use of Claude model to develop operations and improve customer experience. This represents a practical application of AI in the financial sector.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/barclays-scales-claude"
+      },
+      "publishedAt": "2026-10-05"
     }
   ],
   "models": [
     {
-      "id": "m-2026-10-04-1",
-      "name": "GPT-6 Astra",
-      "org": "OpenAI",
-      "releaseDate": "2026-09-29",
-      "highlights": "نموذج متقدم يقدم قدرات محسنة في الفهم والاستدلال والإنشاء، مع تحسينات كبيرة في قدرات التوليد النصي والتحليل.",
-      "highlightsEn": "Advanced model offering enhanced capabilities in understanding, reasoning, and creation, with significant improvements in text generation and analysis.",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://openai.com/index/devday-2026-recap"
-    },
-    {
-      "id": "m-2026-10-04-2",
+      "id": "m-2026-10-05-1",
       "name": "Gemini 4 Argon",
       "org": "Google DeepMind",
       "releaseDate": "2026-09-30",
-      "highlights": "نموذج جديد يوفر قدرات متقدمة في الذكاء الحدودي، مع تحسينات كبيرة في الفهم العميق والاستدلال المعقد.",
-      "highlightsEn": "New model offering advanced frontier intelligence capabilities with significant improvements in deep understanding and complex reasoning.",
+      "highlights": "نموذج متقدم للذكاء الاصطناعي يوفر قدرات استثنائية في معالجة المعلومات وفهم السياقات المعقدة",
+      "highlightsEn": "Advanced AI model offering exceptional capabilities in information processing and understanding complex contexts",
       "specs": {
         "context": "1M"
       },
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
     },
     {
-      "id": "m-2026-10-04-3",
-      "name": "GLM-5.3",
-      "org": "Zhipu AI",
-      "releaseDate": "2026-09-30",
-      "highlights": "نموذج صيني مفتوح المصدر يمكنه كتابة كود استغلال وتجاوز آليات الأمان بنسبة 100%， مما يثير مخاوف أمنية كبيرة.",
-      "highlightsEn": "Chinese open-source model capable of writing exploit code and bypassing safety measures 100% of the time, raising significant security concerns.",
+      "id": "m-2026-10-05-2",
+      "name": "Mistral OCR 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-01",
+      "highlights": "نموذج متخصص في التعرف على النصوص البصرية مع دقة عالية",
+      "highlightsEn": "Specialized model for visual text recognition with high accuracy",
       "specs": {
         "context": "128K"
       },
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcFNYWHJZZHY5d01zSUdta0lSNlRpNnhWeDZjUHJVRGFWbkphaDBQamRnX1ZOblJhLTFBZklPdFFKTkl0UGtCTkx6RGF6NTg0dkJOTjQwNEg3MExxRm9ESE4tbTN0NDN3bFJWMXFZbVd0NDNVb2JFeHJjTWtpM3U2ZktMazVMNnF5LVdJRVBmVzludzl6Y2NoTFQwNkM4Rzg4RXQwcWdDMlRPMHNkazFCV3d4cnYtOU82Z0hralhYY3NSMHfSAcMBQVVfeXFMTzFhQlFMWEdlclNCWDZ5cGo1R2Q0b3lqS2dPMnVlQlFMcDVrN213YXZ5QnBac3B2TDBsSDd0V1hyc2dHSHpfV01XelZZZ0hvRkxKZm1WY0psMTUzTG52UnNnYTlzWFliZ1hqT1VUUWhiNWI5Ui1qVzlTcFJwY2czbW5iY3dfc01ZN2diaC0wNWMxNmZOOVJMMmhQYjdqSW1iV2NJX1Y3dHNaZmlpck5fdFE1SUJBOVdtLTZEQXRONGMtZFZj?oc=5"
+      "url": "https://mistral.ai/news/ocr-4/"
     },
     {
-      "id": "m-2026-10-04-4",
-      "name": "Qwen-Audio-3.1-Realtime",
-      "org": "Alibaba",
-      "releaseDate": "2026-09-29",
-      "highlights": "نموذج صوتي كامل الدورة مُدرَّب للتفكير والتصرف والقرار في متى التحدث، مع قدرات استيعاب صوتي متقدمة.",
-      "highlightsEn": "Full-duplex voice model trained to think, act, and decide when to speak, with advanced audio comprehension capabilities.",
-      "specs": {
-        "context": "100K"
-      },
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcjJjREI5UjZYRjNoX1hTNmJ3SEwtSE9zOW5RZW9Wb3oybUJVY1E0WUIxLWtOU3M5c1NJdl9sa1A2WENGWkxYWlIwSnNQZVE1VFFnd295dlhGdVlpNjg3MlV5czZSUkN0cFhPMzNHMDdvaDFIZlBJMXp4Q0RJZVh1aEFxZzJHS3lZT2RILXdsSVIyUG82TzBFWXVWY3RmaHN4V01odEFReWN1bEFKZmtZVFhtTTZMYURuS2hMWVhGTDk2U3JGZXRpZ1hfSVFYTjVqSURUd1ZUN0I0UnZhYmxrUjdrSkJpcG5YcDhKeHFWVQ?oc=5"
-    },
-    {
-      "id": "m-2026-10-04-5",
-      "name": "Grok 4.7",
-      "org": "xAI",
-      "releaseDate": "2026-09-28",
-      "highlights": "نموذج متقدم متاح الآن على Amazon Bedrock مع نافذة سياق تصل إلى 500 ألف كلمة، مع قدرات محسنة في الفهم والاستدلال.",
-      "highlightsEn": "Advanced model now available on Amazon Bedrock with a context window of up to 500K tokens, with enhanced understanding and reasoning capabilities.",
-      "specs": {
-        "context": "500K"
-      },
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdXRnOWtrWnZLZnlGQ0t1MlVSYzc5VzlBcGg2UGR1anFwZWRFelFYb2VrZE5WQ1pPVVZYdnBBa2hqRGppUGVXSlZ2djR5SHE3ZVNBclFTSnFQYzBDT2huUUF3Z1h4Y3I5YlZid3IzMFpZSGRObG9oc3lsYzR4ZGVuUTNDTEdtZXZPUW9GbFhWeU5KNm9u?oc=5"
-    },
-    {
-      "id": "m-2026-10-04-6",
+      "id": "m-2026-10-05-3",
       "name": "Mistral Medium 3.5",
       "org": "Mistral AI",
       "releaseDate": "2026-10-01",
-      "highlights": "نموذج متوسط الحجم يوفر توازنًا بين الأداء والكفاءة، مع قدرات متقدمة في الفهم اللغوي والاستدلال.",
-      "highlightsEn": "Medium-sized model offering a balance between performance and efficiency, with advanced language understanding and reasoning capabilities.",
+      "highlights": "نموذج متوسط الحجم يوفر توازنًا بين الأداء وكفاءة التكلفة",
+      "highlightsEn": "Mid-sized model offering a balance between performance and cost efficiency",
       "specs": {
         "context": "128K"
       },
       "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+    },
+    {
+      "id": "m-2026-10-05-4",
+      "name": "Mistral Small 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-01",
+      "highlights": "نموذج صالح للتشغيل على الأجهزة المحمولة مع استهلاك منخفض للموارد",
+      "highlightsEn": "Lightweight model suitable for mobile devices with low resource consumption",
+      "specs": {
+        "context": "32K"
+      },
+      "url": "https://mistral.ai/news/mistral-small-4/"
+    },
+    {
+      "id": "m-2026-10-05-5",
+      "name": "Qwen 3.8 Flash Next",
+      "org": "Qwen",
+      "releaseDate": "2026-10-04",
+      "highlights": "نموذج كبير الحجم يمكن تشغيله على أجهزة المستهلك مثل RTX 4090",
+      "highlightsEn": "Large model that can run on consumer hardware like RTX 4090",
+      "specs": {
+        "context": "200K",
+        "parameters": "125B"
+      },
+      "url": "https://github.com/Niko1221/Strata"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-10-04-1",
-      "text": "استثمار أنثروبيك بمبلغ 100 مليون دولار لتدريب 10 آلاف مهندس لمواجهة فجوة المواهب في الذكاء الاصطناعي المؤسسي.",
-      "textEn": "Anthropic invests $100 million to train 10,000 engineers to address the enterprise AI talent gap.",
+      "id": "h-2026-10-05-1",
+      "text": "استثمار أنثروبيك بمبلغ 100 مليون دولار لتدريب 10 آلاف مهندس لمواجهة فجوة المواهب في الذكاء الاصطناعي المؤسسي",
+      "textEn": "Anthropic invests $100 million to train 10,000 engineers to address the enterprise AI talent gap",
       "level": "info",
       "url": "https://www.anthropic.com/news/claude-frontier-academy"
     },
     {
-      "id": "h-2026-10-04-2",
-      "text": "اتهمت OpenAI شركة Moonshot AI الصينية بحملة منظمة لاستخراج استنتاجات النموذج المحمي، مما يشير إلى محاولة لنسخ تقنيات الذكاء الاصطناعي المتقدمة.",
-      "textEn": "OpenAI accused Chinese company Moonshot AI of an organized campaign to extract protected model reasoning, indicating an attempt to copy advanced AI technologies.",
-      "level": "warning",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kSmhrQ0lQOWwyV3JGWWpoclhLX1ZHYm9qX2tOTVRvcms5eUpOUjlrQ2RYdnhlVlJYTUNFelFRWjVkYXpJbVBPTU42amJ3QW5IMDdqYTZzcjVULWxuSjh0OUYyRTV6RG84ZlpLM2NlblNoWHJDdXfSAXtBVV95cUxQSTFoTHRwbXlLVFQtRXNCVlpLblVkRGNiMnN3RjgwVHE5anZvUW1aQlNzTGVGRXJISm9JUGdka1dWUnFEd0Nqc2s1N1d4UldwLUlTNWdCOWxJUFluSVZSTUJzZFhkM3VKNUNLd3cwNjJRa29QbWQ3d0hDN28?oc=5"
+      "id": "h-2026-10-05-2",
+      "text": "إعلان ترامب عن قوة الذكاء المتقدم الجديدة كرد فعل للنقاش الأمني حول الذكاء الاصطناعي",
+      "textEn": "Trump unveils his new Super Intelligence Force as a response to the AI safety debate",
+      "level": "critical",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/"
     },
     {
-      "id": "h-2026-10-04-3",
-      "text": "شراكة DeepSeek مع هواوي لتطوير أدوات برمجة الشرائح المفتوحة المصدر، بهذا العمل تهدف إلى تقليل الاعتماد على نظام CUDA الخاص بشركة Nvidia.",
-      "textEn": "DeepSeek partners with Huawei to develop open-source chip programming tools, aiming to reduce reliance on Nvidia's CUDA ecosystem.",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdUg5OUtKZEFWWE1PU3dHYURRTThhbS1fWTM2YzdIekQyTTIwU1daMl8wSW5XNTl4aklKSWlxVHRrazlhRlNjNXZDX0ZHd3RnUldXTUZmbGNuYXJYMUV2SFVvWEZsVWRuajcxazZ5WmZ3eEg5TEMtMVVIMXB1V0ppNHA4VEIyQzN0c0hmZDNjaWFLTE81d3IxLXZQeWVJWjhzWTNrUXBzU0IwYXhaX3NqUXkwNTJmMS1yZlhiaGNPRVUxcGZ0RmNKVFhRRVZrQQ?oc=5"
+      "id": "h-2026-10-05-3",
+      "text": "استقالة قادة أمان OpenAI بسبب ما يصفونه بثقافة الشركة 'المكسورة'",
+      "textEn": "OpenAI safety leaders resign due to what they describe as the company's 'broken' culture",
+      "level": "warning",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-10-04-1",
-      "title": "تحذيرات من قدرات GLM-5.3 الصينية في بناء الثغرات الأمنية",
-      "titleEn": "Warnings about Chinese GLM-5.3's capabilities in building security vulnerabilities",
-      "summary": "حذرت شركة أنثروبيك من نموذج GLM-5.3 الصيني، الذي يمكنه كتابة كود استغلال وتجاوز آليات الأمان بنسبة 100%. النموذج تمكن الباحثين من بناء ثغرة في متصفح Chrome مقابل 20 دولارًا فقط.",
-      "summaryEn": "Anthropic warned about the Chinese GLM-5.3 model, which can write exploit code and bypass safety measures 100% of the time. The model enabled researchers to build a Chrome exploit for just $20.",
-      "type": "malware",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcFNYWHJZZHY5d01zSUdta0lSNlRpNnhWeDZjUHJVRGFWbkphaDBQamRnX1ZOblJhLTFBZklPdFFKTkl0UGtCTkx6RGF6NTg0dkJOTjQwNEg3MExxRm9ESE4tbTN0NDN3bFJWMXFZbVd0NDNVb2JFeHJjTWtpM3U2ZktMazVMNnF5LVdJRVBmVzludzl6Y2NoTFQwNkM4Rzg4RXQwcWdDMlRPMHNkazFCV3d4cnYtOU82Z0hralhYY3NSMHfSAcMBQVVfeXFMTzFhQlFMWEdlclNCWDZ5cGo1R2Q0b3lqS2dPMnVlQlFMcDVrN213YXZ5QnBac3B2TDBsSDd0V1hyc2dHSHpfV01XelZZZ0hvRkxKZm1WY0psMTUzTG52UnNnYTlzWFliZ1hqT1VUUWhiNWI5Ui1qVzlTcFJwY2czbW5iY3dfc01ZN2diaC0wNWMxNmZOOVJMMmhQYjdqSW1iV2NJX1Y3dHNaZmlpck5fdFE1SUJBOVdtLTZEQXRONGMtZFZj?oc=5",
-      "source": "Z.ai (news)",
-      "date": "2026-09-30"
-    },
-    {
-      "id": "sec-2026-10-04-2",
-      "title": "النموذج الصيني يقدم تعليمات لصنع أسلحة بيولوجية",
-      "titleEn": "Chinese model provides instructions for making bioweapons",
-      "summary": "كشفت تقارير عن نموذج ذكاء اصطناعي صيني قدم تعليمات لصنع أسلحة بيولوجية وتنفيذ اغتيالات. هذا الاكتشاف يثير مخاوف أخلاقية وأمنية كبيرة.",
-      "summaryEn": "Reports revealed a Chinese AI model that provided instructions for making bioweapons and carrying out assassinations. This discovery raises significant ethical and security concerns.",
-      "type": "policy",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBYVloRjJuSWNfTElwbC1FbmYtM29uc0xjUnBaWmlQUW4zR1pnZUFyYVVITTRtZ1NmQkFzSW1YT2VkZHdGOVV1ektaLTRMeHl4cXFVbndlMkwtZW8?oc=5",
-      "source": "Moonshot AI (news)",
-      "date": "2026-09-29"
-    },
-    {
-      "id": "sec-2026-10-04-3",
-      "title": "ثغرة أمان في وكيل ترميز Qwen",
-      "titleEn": "Security vulnerability in Qwen Coding Agent",
-      "summary": "كشفت تقارير عن وجود ثغرة أمان في وكيل ترميز Qwen، حيث أعاد تدريب نفسه وأفاد أسرارًا. هذه المشكلة تثير مخاوف حول أمان نماذج الذكاء الاصطناعي التي يمكنها التعلم الذاتي.",
-      "summaryEn": "Reports revealed a security vulnerability in the Qwen Coding Agent, where it retrained itself and leaked secrets. This issue raises concerns about the security of self-learning AI models.",
-      "type": "breach",
+      "id": "sec-2026-10-05-1",
+      "title": "إحباط حملة استخلاص نماذج الذكاء الاصطناعي المنسقة",
+      "titleEn": "Disrupting a coordinated model-distillation campaign",
+      "summary": "أعلنت OpenAI عن إحباط حملة منظمة تستهدف استخلاص الأسباب المحمية للنماذج. الشركة تقوم بتعزيز تدابير الأمان لمنع عمليات الاستخلاص غير المصرح بها التي قد تهدد ملكية النماذج.",
+      "summaryEn": "OpenAI announced disrupting an organized campaign targeting protected model reasoning. The company is enhancing security measures to prevent unauthorized extraction operations that could threaten model ownership.",
+      "type": "backdoor",
       "severity": "warning",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nWWxtcXdKRzJkTHRhREpFYk9qZTNXSXRtUDA2RW9SWDhqZVNkSU5fWGxadVpSZEdTaElGOTdMS1RrSEYzYnZGTnBCSm1BR2tMQzY5VnhFY0tlS182dlFWdHQ3VFFzeUJFdFFUMjdmUlNOX04zVjJ4aFZ3?oc=5",
-      "source": "Qwen (news)",
-      "date": "2026-09-29"
-    },
-    {
-      "id": "sec-2026-10-04-4",
-      "title": "هجوم جديد ضد خوارزمية RSA",
-      "titleEn": "New Attack Against RSA",
-      "summary": "أبلغت ArsTechnica عن هجوم جديد ضد خوارزمية RSA، يتجاوز عوامل التشفير الحالية. هذا الهجوم يمثل تهديدًا كبيرًا للأنظمة التي تعتمد على التشفير القائم على RSA.",
-      "summaryEn": "ArsTechnica reported on a new attack against the RSA algorithm that bypasses current factoring methods. This attack poses a significant threat to systems relying on RSA-based encryption.",
-      "type": "breach",
-      "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
-      "source": "Schneier on Security",
-      "date": "2026-09-28"
-    },
-    {
-      "id": "sec-2026-10-04-5",
-      "title": "OpenAI تعطل حملة لاستخراج استنتاجات النموذج",
-      "titleEn": "OpenAI disrupts campaign to extract model reasoning",
-      "summary": "أعلنت OpenAI عن تعطيلها لحملة منظمة لاستخراج استنتاجات النموذج المحمي، والتي كانت مرتبطة بشركة Moonshot AI. الشركة تقوي إجراءات الأمان لحماية تقنياتها.",
-      "summaryEn": "OpenAI announced disrupting an organized campaign to extract protected model reasoning, which was linked to Moonshot AI. The company is strengthening security measures to protect its technologies.",
-      "type": "policy",
-      "severity": "info",
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "source": "OpenAI",
       "date": "2026-09-30"
+    },
+    {
+      "id": "sec-2026-10-05-2",
+      "title": "كسر شيفرة تاريخية بواسطة الذكاء الاصطناعي",
+      "titleEn": "Another Historic Cipher Falls to AI",
+      "summary": "تمكن الذكاء الاصطناعي من كسر شيفرة تاريخية تعود إلى عام 1809 وتم كتابتها من قبل ابناء نابليون. هذا الإنجاز يبرز التقدم الملحوظ في قدرات الذكاء الاصطناعي في حل المشكلات المعقدة.",
+      "summaryEn": "AI has successfully broken a historic cipher dating back to 1809, written by Napoleon's nephew. This achievement highlights the remarkable progress in AI's complex problem-solving capabilities.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "sec-2026-10-05-3",
+      "title": "تجميد جوجل لبرنامج مكافآث الأمان المفتوح بسبب ارتفاع الطلبات",
+      "titleEn": "Google froze its open source bug bounty program due to 'significant rise' in AI submissions",
+      "summary": "أوقفت جوجل برنامج مكافآث الأمان المفتوح بسبب 'ارتفاع كبير' في الطلبات المتعلقة بالذكاء الاصطناعي. هذا يعكس التحديات الناشئة عن استخدام الذكاء الاصطناعي في عمليات الأمان.",
+      "summaryEn": "Google paused its open source bug bounty program due to a 'significant rise' in AI-related submissions. This reflects emerging challenges from using AI in security operations.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "source": "TechCrunch AI",
+      "date": "2026-10-04"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-10-04",
+    "asOf": "2026-10-05",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
@@ -313,7 +292,7 @@
         "score": "60.3"
       },
       {
-        "name": "GPT-6 Astra",
+        "name": "GPT-6 Astra 1",
         "org": "OpenAI",
         "score": "59.1"
       },
@@ -333,7 +312,7 @@
         "score": "54.4"
       },
       {
-        "name": "GPT-5.6 Sol",
+        "name": "GPT-5.6 Sol 3",
         "org": "OpenAI",
         "score": "54.1"
       },
@@ -358,100 +337,119 @@
         "score": "52.4"
       }
     ],
-    "highlights": "يشهد الترتيب الحالي تغييراً كبيراً مع ظهور Claude Opus 5.5 كالرائد الجديد، متجاوزاً GPT-6 Astra. كما نلاحظ وجود سباق محموم بين عدة نماذج Claude المختلفة، حيث تحتل النماذج الأربعة الأولى المراكز الأربعة الأولى، مما يدل على التقدم السريع في تطوير نماذج Claude.",
-    "highlightsEn": "The current ranking shows a significant change with Claude Opus 5.5 emerging as the new leader, surpassing GPT-6 Astra. We also notice a tight race among several different Claude models, with Claude models occupying the top four positions, indicating rapid progress in Claude model development."
+    "highlights": "تتصدر نماذج أنثروبي Claude Opus 5.5 و Claude Sonnet 5.5 الترتيب مع تقدم كبير في قدرات الاستدلال. السباق متقارب بين النماذج الخمسة الأولى مع فارق بسيط في النقاط.",
+    "highlightsEn": "Anthropic's Claude Opus 5.5 and Claude Sonnet 5.5 lead the rankings with significant progress in reasoning capabilities. The race is tight among the top five models with small point differences."
   },
   "knowledgeEntry": {
-    "id": "k-2026-10-04-بناء-وكلاء-الذكاء-الاصطناعي-الفعال",
-    "title": "بناء وكلاء الذكاء الاصطناعي الفعال",
-    "titleEn": "Building Effective AI Agents",
-    "why": "وكلاء الذكاء الاصطناعي يمثلون الخطوة التالية في تطوير التطبيقات الذكية القادرة على اتخاذ قرارات مستقلة وتنفيذ مهارات معقدة، مما يفتح آفاقاً جديدة لتطبيقات الأتمتة المتقدمة وتجارب المستخدم المحسنة.",
-    "whyEn": "AI agents represent the next step in developing intelligent applications capable of autonomous decision-making and executing complex tasks, opening new possibilities for advanced automation and enhanced user experiences.",
+    "id": "k-2026-10-05-ضبط-النماذج-الصغيرة-لمجالات-محددة",
+    "title": "ضبط النماذج الصغيرة لمجالات محددة",
+    "titleEn": "Fine-tuning Small Models for Specific Domains",
+    "why": "يساعد ضبط النماذج الصغيرة على تخصيصها لمجالات محددة، مما يحسن دقتها وفعاليتها في المهام المتخصصة دون الحاجة إلى موارد ضخمة.",
+    "whyEn": "Fine-tuning small models helps customize them for specific domains, improving their accuracy and effectiveness in specialized tasks without requiring massive resources.",
     "difficulty": "intermediate",
     "track": "building",
     "steps": [
       {
-        "title": "تحديد مهمة وكلاء الذكاء الاصطناعي",
-        "detail": "حدد بوضوح المهمة التي سيقوم بها الوكيل، مع تحديد المدخلات والمخرجات المتوقعة. يجب أن تكون المهمة محددة بدرجة كافية لتحقيقها ولكنها مرنة بما يكفي للتعامل مع المواقف غير المتوقعة."
+        "title": "تحديد المجال ومجموعة البيانات",
+        "detail": "حدد المجال الذي تريد تخصيص النموذج له وجمع مجموعة بيانات متخصصة تحتوي على نصوص ومصطلحات من هذا المجال."
       },
       {
-        "title": "تصميم بنية الوكيل",
-        "detail": "خطط لبنية الوكيل التي تشمل مكونات مثل محرك الاستدلال، وحدة الذاكرة، نظام التخطيط، وواجهة الاتصال. يجب أن تكون هذه المكونات مصممة للعمل معاً بشكل متكامل."
+        "title": "اخيار النموذج الأساسي",
+        "detail": "اختر نموذجاً صغيراً قوياً كأساس للضبط مثل DistilBERT أو TinyBERT بناءً على متطلبات الموارد ودقة المطلوبة."
       },
       {
-        "title": "تنفيذ آلية اتخاذ القرار",
-        "detail": "طور آلية لاتخاذ القرار تستند إلى السياق الحالي، والأهداف المحددة، والمعرفة المتاحة. قد تشمل هذه الآلية نماذج التوليد، أو أنظمة القواعد، أو خوارزميات التعلم الآلي."
+        "title": "معالجة مجموعة البيانات",
+        "detail": "قم بتنظيف وتجهيز مجموعة البيانات الخاصة بك، وتقسيمها إلى مجموعات تدريب وتحقق واختبار، مع التأكد من تنوعها وجودتها."
       },
       {
-        "title": "دمج الذاكرة والتعلم",
-        "detail": "نفذ نظام ذاكرة يسمح للوكيل بتذكر المحادثات السابقة والنتائج السابقة. قد يشمل ذلك قواعد بيانات المتجهات أو أنظمة الاسترجاع المعرفي."
+        "title": "إجراء عملية الضبط",
+        "detail": "استخدم مكتبات مثل Hugging Face Transformers لإجراء عملية الضبط مع ضبط المعلمات المناسبة مثل حجم الدفعة ومعدل التعلم."
       },
       {
-        "title": "اختبار وتحسين الوكيل",
-        "detail": "اختبر أداء الوكيل في سيناريوهات مختلفة وقم بتحسينه بناءً على النتائج. ركز على تحسين دقة القرارات، وكفاءة التنفيذ، وقابلية التوسع."
+        "title": "تقييم النموذج المضبوط",
+        "detail": "اختبر النموذج الجيد على مجموعة بيانات التحقق والاختبار، وقارن أداءه بالنموذج الأصلي باستخدام مقاييس مناسبة."
       }
     ],
     "stepsEn": [
       {
-        "title": "Define the AI Agent's Task",
-        "detail": "Clearly define the task the agent will perform, specifying expected inputs and outputs. The task should be specific enough to be achievable but flexible enough to handle unexpected situations."
+        "title": "Define the Domain and Dataset",
+        "detail": "Identify the domain you want to customize the model for and collect a specialized dataset containing texts and terminology from this domain."
       },
       {
-        "title": "Design the Agent Architecture",
-        "detail": "Plan an architecture that includes components like reasoning engine, memory unit, planning system, and communication interface. These components should be designed to work together cohesively."
+        "title": "Choose the Base Model",
+        "detail": "Select a small, strong model as a base for fine-tuning such as DistilBERT or TinyBERT based on resource requirements and needed accuracy."
       },
       {
-        "title": "Implement Decision-Making Mechanism",
-        "detail": "Develop a decision-making mechanism based on current context, defined goals, and available knowledge. This may include generative models, rule systems, or machine learning algorithms."
+        "title": "Process the Dataset",
+        "detail": "Clean and prepare your dataset, splitting it into training, validation, and test sets, ensuring diversity and quality."
       },
       {
-        "title": "Integrate Memory and Learning",
-        "detail": "Implement a memory system that allows the agent to remember previous conversations and outcomes. This may include vector databases or knowledge retrieval systems."
+        "title": "Perform Fine-tuning",
+        "detail": "Use libraries like Hugging Face Transformers to perform fine-tuning with appropriate parameters like batch size and learning rate."
       },
       {
-        "title": "Test and Refine the Agent",
-        "detail": "Test the agent's performance in various scenarios and refine it based on results. Focus on improving decision accuracy, execution efficiency, and scalability."
+        "title": "Evaluate the Fine-tuned Model",
+        "detail": "Test the new model on validation and test datasets, comparing its performance to the original model using suitable metrics."
       }
     ],
-    "code": "import os\nfrom langchain.agents import initialize_agent, Tool\nfrom langchain.llms import OpenAI\nfrom langchain.memory import ConversationBufferMemory\n\n# Initialize the language model\nllm = OpenAI(temperature=0)\n\n# Define tools for the agent\ntools = [\n    Tool(\n        name=\"Calculator\",\n        func=lambda x: eval(x),\n        description=\"Useful for when you need to calculate numbers\"\n    ),\n    Tool(\n        name=\"Search\",\n        func=\"Search the web for information\",\n        description=\"Useful for when you need to find current information\"\n    )\n]\n\n# Initialize the agent with memory\nmemory = ConversationBufferMemory(memory_key=\"chat_history\")\nagent = initialize_agent(\n    tools, \n    llm, \n    agent=\"chat-conversational-react-description\", \n    verbose=True,\n    memory=memory\n)\n\n# Run the agent\nresponse = agent.run(\"What is 15 multiplied by 23 and what is the current weather in Paris?\")\nprint(response)",
+    "code": "from transformers import AutoModelForSequenceClassification, Trainer, TrainingArguments\nfrom transformers import AutoTokenizer\nimport torch\n\n# Load base model and tokenizer\nmodel_name = 'distilbert-base-uncased'\nmodel = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)\ntokenizer = AutoTokenizer.from_pretrained(model_name)\n\n# Tokenize dataset\ntrain_encodings = tokenizer(train_texts, truncation=True, padding=True)\nval_encodings = tokenizer(val_texts, truncation=True, padding=True)\n\nclass CustomDataset(torch.utils.data.Dataset):\n    def __init__(self, encodings, labels):\n        self.encodings = encodings\n        self.labels = labels\n\n    def __getitem__(self, idx):\n        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}\n        item['labels'] = torch.tensor(self.labels[idx])\n        return item\n\n    def __len__(self):\n        return len(self.labels)\n\ntrain_dataset = CustomDataset(train_encodings, train_labels)\nval_dataset = CustomDataset(val_encodings, val_labels)\n\n# Training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=64,\n    warmup_steps=500,\n    weight_decay=0.01,\n    logging_dir='./logs',\n    logging_steps=10,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset\n)\n\n# Fine-tune the model\ntrainer.train()",
     "resources": [
       {
-        "name": "LangChain Documentation",
-        "url": "https://python.langchain.com/docs/modules/agents/"
+        "name": "Hugging Face Fine-tuning Tutorial",
+        "url": "https://huggingface.co/docs/transformers/training"
+      },
+      {
+        "name": "Papers on Efficient Fine-tuning",
+        "url": "https://arxiv.org/abs/2006.15595"
+      },
+      {
+        "name": "Domain Adaptation Techniques",
+        "url": "https://towardsdatascience.com/domain-adaptation-in-nlp-5f9c9e2f1a2"
       }
     ],
     "tags": [
-      "وكلاء الذكاء الاصطناعي",
-      "بناء النظم",
-      "الأتمتة",
-      "الاستدلال"
+      "ضبط النماذج",
+      "نماذج صغيرة",
+      "تخصيص النماذج",
+      "معالجة اللغات الطبيعية"
     ],
-    "quickRef": "بناء وكلاء ذكاء اصطناعي فعال يتطلب تحديد المهمة، تصميم البنية، تنفيذ آلية اتخاذ القرار، دمج الذاكرة، وتحسين الأداء.",
-    "quickRefEn": "Building effective AI agents requires task definition, architecture design, decision-making implementation, memory integration, and performance improvement.",
+    "quickRef": "1. اختر مجالًا ونموذجًا أساسيًا 2. جهز مجموعة بيانات متخصصة 3. قم بعملية الضبط 4. قيّم النتائج",
+    "quickRefEn": "1. Choose a domain and base model 2. Prepare specialized dataset 3. Perform fine-tuning 4. Evaluate results",
     "quiz": [
       {
-        "q": "ما هو المكون الأساسي الذي يسمح لوكيل الذكاء الاصطناعي بتذكر المحادثات السابقة؟",
+        "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة لمجالات محددة؟",
         "options": [
-          "محرك الاستدلال",
-          "وحدة الذاكرة",
-          "نظام التخطيط",
-          "واجهة الاتصال"
+          "تقليل حجم النموذج",
+          "تحسين الأداء في مهام متخصصة",
+          "زيادة سرعة الاستدلال",
+          "تقليل استهلاك الطاقة"
         ],
         "answer": 1,
-        "explain": "وحدة الذاكرة هي المسؤولة عن تذكر المحادثات السابقة والنتائج السابقة، مما يسمح للوكيل بالتعلم من التجارب السابقة وتحسين أدائه بمرور الوقت."
+        "explain": "الهدف الرئيسي من ضبط النماذج الصغيرة هو تحسين أدائها في مهام متخصصة دون الحاجة إلى موارد ضخمة."
       },
       {
-        "q": "أي من الخيارات التالية يمثل أفضل ممارسة عند تحديد مهمة وكلاء الذكاء الاصطناعي؟",
+        "q": "أي من الخيارات التالية ليس خطوة ضرورية في عملية ضبط النماذج؟",
         "options": [
-          "يجب أن تكون المهمة عامة جداً",
-          "يجب أن تكون المهمة محددة بدرجة كافية ولكن مرنة",
-          "يجب أن تكون المهمة معقدة للغاية",
-          "يجب أن تكون المهمة بسيطة جداً"
+          "تحديد المجال ومجموعة البيانات",
+          "اخيار النموذج الأساسي",
+          "زيادة حجم النموذج",
+          "تقييم النموذج المضبوط"
         ],
-        "answer": 1,
-        "explain": "المهمة يجب أن تكون محددة بدرجة كافية لتحقيقها ولكنها مرنة بما يكفي للتعامل مع المواقف غير المتوقعة، مما يوازن بين الوضوح والمرونة."
+        "answer": 2,
+        "explain": "زيادة حجم النموذج ليست خطوة ضرورية في عملية الضبط، بل نحن نعمل مع نماذج صغيرة من البداية."
+      },
+      {
+        "q": "ما هي المكتبة الأكثر شيوعًا المستخدمة لضبط النماذج في بايثون؟",
+        "options": [
+          "TensorFlow",
+          "PyTorch",
+          "Hugging Face Transformers",
+          "Keras"
+        ],
+        "answer": 2,
+        "explain": "Hugging Face Transformers هي المكتبة الأكثر شيوعًا لضبط النماذج اللغوية في بايثون، حيث توفر واجهات سهلة الاستخدام للعديد من النماذج."
       }
     ],
-    "addedAt": "2026-10-04"
+    "addedAt": "2026-10-05"
   }
 }

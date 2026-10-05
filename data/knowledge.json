@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-05-ضبط-النماذج-الصغيرة-لمجالات-محددة",
+      "title": "ضبط النماذج الصغيرة لمجالات محددة",
+      "titleEn": "Fine-tuning Small Models for Specific Domains",
+      "why": "يساعد ضبط النماذج الصغيرة على تخصيصها لمجالات محددة، مما يحسن دقتها وفعاليتها في المهام المتخصصة دون الحاجة إلى موارد ضخمة.",
+      "whyEn": "Fine-tuning small models helps customize them for specific domains, improving their accuracy and effectiveness in specialized tasks without requiring massive resources.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد المجال ومجموعة البيانات",
+          "detail": "حدد المجال الذي تريد تخصيص النموذج له وجمع مجموعة بيانات متخصصة تحتوي على نصوص ومصطلحات من هذا المجال."
+        },
+        {
+          "title": "اخيار النموذج الأساسي",
+          "detail": "اختر نموذجاً صغيراً قوياً كأساس للضبط مثل DistilBERT أو TinyBERT بناءً على متطلبات الموارد ودقة المطلوبة."
+        },
+        {
+          "title": "معالجة مجموعة البيانات",
+          "detail": "قم بتنظيف وتجهيز مجموعة البيانات الخاصة بك، وتقسيمها إلى مجموعات تدريب وتحقق واختبار، مع التأكد من تنوعها وجودتها."
+        },
+        {
+          "title": "إجراء عملية الضبط",
+          "detail": "استخدم مكتبات مثل Hugging Face Transformers لإجراء عملية الضبط مع ضبط المعلمات المناسبة مثل حجم الدفعة ومعدل التعلم."
+        },
+        {
+          "title": "تقييم النموذج المضبوط",
+          "detail": "اختبر النموذج الجيد على مجموعة بيانات التحقق والاختبار، وقارن أداءه بالنموذج الأصلي باستخدام مقاييس مناسبة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define the Domain and Dataset",
+          "detail": "Identify the domain you want to customize the model for and collect a specialized dataset containing texts and terminology from this domain."
+        },
+        {
+          "title": "Choose the Base Model",
+          "detail": "Select a small, strong model as a base for fine-tuning such as DistilBERT or TinyBERT based on resource requirements and needed accuracy."
+        },
+        {
+          "title": "Process the Dataset",
+          "detail": "Clean and prepare your dataset, splitting it into training, validation, and test sets, ensuring diversity and quality."
+        },
+        {
+          "title": "Perform Fine-tuning",
+          "detail": "Use libraries like Hugging Face Transformers to perform fine-tuning with appropriate parameters like batch size and learning rate."
+        },
+        {
+          "title": "Evaluate the Fine-tuned Model",
+          "detail": "Test the new model on validation and test datasets, comparing its performance to the original model using suitable metrics."
+        }
+      ],
+      "code": "from transformers import AutoModelForSequenceClassification, Trainer, TrainingArguments\nfrom transformers import AutoTokenizer\nimport torch\n\n# Load base model and tokenizer\nmodel_name = 'distilbert-base-uncased'\nmodel = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)\ntokenizer = AutoTokenizer.from_pretrained(model_name)\n\n# Tokenize dataset\ntrain_encodings = tokenizer(train_texts, truncation=True, padding=True)\nval_encodings = tokenizer(val_texts, truncation=True, padding=True)\n\nclass CustomDataset(torch.utils.data.Dataset):\n    def __init__(self, encodings, labels):\n        self.encodings = encodings\n        self.labels = labels\n\n    def __getitem__(self, idx):\n        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}\n        item['labels'] = torch.tensor(self.labels[idx])\n        return item\n\n    def __len__(self):\n        return len(self.labels)\n\ntrain_dataset = CustomDataset(train_encodings, train_labels)\nval_dataset = CustomDataset(val_encodings, val_labels)\n\n# Training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=64,\n    warmup_steps=500,\n    weight_decay=0.01,\n    logging_dir='./logs',\n    logging_steps=10,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n    eval_dataset=val_dataset\n)\n\n# Fine-tune the model\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Tutorial",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "Papers on Efficient Fine-tuning",
+          "url": "https://arxiv.org/abs/2006.15595"
+        },
+        {
+          "name": "Domain Adaptation Techniques",
+          "url": "https://towardsdatascience.com/domain-adaptation-in-nlp-5f9c9e2f1a2"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "نماذج صغيرة",
+        "تخصيص النماذج",
+        "معالجة اللغات الطبيعية"
+      ],
+      "quickRef": "1. اختر مجالًا ونموذجًا أساسيًا 2. جهز مجموعة بيانات متخصصة 3. قم بعملية الضبط 4. قيّم النتائج",
+      "quickRefEn": "1. Choose a domain and base model 2. Prepare specialized dataset 3. Perform fine-tuning 4. Evaluate results",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة لمجالات محددة؟",
+          "options": [
+            "تقليل حجم النموذج",
+            "تحسين الأداء في مهام متخصصة",
+            "زيادة سرعة الاستدلال",
+            "تقليل استهلاك الطاقة"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من ضبط النماذج الصغيرة هو تحسين أدائها في مهام متخصصة دون الحاجة إلى موارد ضخمة."
+        },
+        {
+          "q": "أي من الخيارات التالية ليس خطوة ضرورية في عملية ضبط النماذج؟",
+          "options": [
+            "تحديد المجال ومجموعة البيانات",
+            "اخيار النموذج الأساسي",
+            "زيادة حجم النموذج",
+            "تقييم النموذج المضبوط"
+          ],
+          "answer": 2,
+          "explain": "زيادة حجم النموذج ليست خطوة ضرورية في عملية الضبط، بل نحن نعمل مع نماذج صغيرة من البداية."
+        },
+        {
+          "q": "ما هي المكتبة الأكثر شيوعًا المستخدمة لضبط النماذج في بايثون؟",
+          "options": [
+            "TensorFlow",
+            "PyTorch",
+            "Hugging Face Transformers",
+            "Keras"
+          ],
+          "answer": 2,
+          "explain": "Hugging Face Transformers هي المكتبة الأكثر شيوعًا لضبط النماذج اللغوية في بايثون، حيث توفر واجهات سهلة الاستخدام للعديد من النماذج."
+        }
+      ],
+      "addedAt": "2026-10-05"
+    },
+    {
       "id": "k-2026-10-04-بناء-وكلاء-الذكاء-الاصطناعي-الفعال",
       "title": "بناء وكلاء الذكاء الاصطناعي الفعال",
       "titleEn": "Building Effective AI Agents",
