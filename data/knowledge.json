@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-05-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاصطناعي",
+      "title": "قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
+      "titleEn": "Vector Databases for AI Applications",
+      "why": "تساعد قواعد البيانات المتجهية في تخزين واسترجاع المعلومات بناءً على المعنى بدلاً من النصوص المتطابقة تماماً، مما يتيح للذكاء الاصطناعي فهم السياق وتحسين نتائج البحث والتوصيات.",
+      "whyEn": "Vector databases help store and retrieve information based on meaning rather than exact text matches, enabling AI to understand context and improve search results and recommendations.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم المفاهيم الأساسية",
+          "detail": "تعلم أن المتجهات هي تمثيلات رقمية للبيانات النصية، حيث يتم تحويل كل كلمة أو جملة إلى مجموعة من الأرقام التي تمثل معناها في فضاء متعدد الأبعاد."
+        },
+        {
+          "title": "اختيار قاعدة البيانات المناسبة",
+          "detail": "استكشاف خيارات مثل Pinecone، Weaviate، أو Milvus بناءً على احتياجاتك فيما يتعلق بالحجم، الأداء، والتكلفة. كل منها له مميزاته الخاصة."
+        },
+        {
+          "title": "تحويل النص إلى متجهات",
+          "detail": "استخدم نماذج مثل Sentence-BERT أو OpenAI embeddings لتحويل النصوص إلى متجهات رقمية قبل تخزينها في قاعدة البيانات المتجهية."
+        },
+        {
+          "title": "بناء نظام البحث المتقدم",
+          "detail": "أنشئ نظام بحث يستخدم قاعدة البيانات المتجهية للعثور على أقرب النتائج بناءً على المعنى بدلاً من البحث الكلمات المفتاحية التقليدية."
+        },
+        {
+          "title": "دمج مع تطبيقات الذكاء الاصطناعي",
+          "detail": "دمج قاعدة البيانات المتجهية مع نماذج اللغة الكبيرة لتحسين قدرتها على فهم السياق وتقديم إجابات أكثر دقة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Basic Concepts",
+          "detail": "Learn that vectors are numerical representations of text, where each word or sentence is converted into a set of numbers representing its meaning in a multi-dimensional space."
+        },
+        {
+          "title": "Choose the Right Database",
+          "detail": "Explore options like Pinecone, Weaviate, or Milvus based on your needs regarding size, performance, and cost. Each has its own advantages."
+        },
+        {
+          "title": "Convert Text to Vectors",
+          "detail": "Use models like Sentence-BERT or OpenAI embeddings to convert text into numerical vectors before storing them in the vector database."
+        },
+        {
+          "title": "Build Advanced Search System",
+          "detail": "Create a search system that uses the vector database to find closest results based on meaning rather than traditional keyword search."
+        },
+        {
+          "title": "Integrate with AI Applications",
+          "detail": "Integrate the vector database with large language models to improve their ability to understand context and provide more accurate answers."
+        }
+      ],
+      "code": "from sentence_transformers import SentenceTransformer\nfrom pinecone import Pinecone\n\n# Initialize model and Pinecone\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\npc = Pinecone(api_key='your-api-key')\nindex = pc.Index('vector-db')\n\n# Create embeddings\ntexts = ['This is an example sentence', 'Another sentence for comparison']\nem = model.encode(texts)\n\n# Insert into database\nindex.upsert(vectors=[\n    ('id1', em[0]),\n    ('id2', em[1])\n])",
+      "resources": [
+        {
+          "name": "Pinecone Documentation",
+          "url": "https://docs.pinecone.io/"
+        },
+        {
+          "name": "Weaviate Documentation",
+          "url": "https://weaviate.io/developers/weaviate"
+        },
+        {
+          "name": "Sentence Transformers",
+          "url": "https://www.sbert.net/"
+        }
+      ],
+      "tags": [
+        "قواعد بيانات",
+        "متجهات",
+        "بحث معنوي",
+        "تطبيقات الذكاء الاصطناعي"
+      ],
+      "quickRef": "قواعد البيانات المتجهية تخزن البيانات كمتجهات رقمية تمثل المعنى، مما يتيح البحث المعنوي بدلاً من البحث الكلمات المفتاحية.",
+      "quickRefEn": "Vector databases store data as numerical vectors representing meaning, enabling semantic search instead of keyword search.",
+      "quiz": [
+        {
+          "q": "ما هي الفائدة الرئيسية لاستخدام قواعد البيانات المتجهية في تطبيقات الذكاء الاصطناعي؟",
+          "options": [
+            "تسريع وقت البحث",
+            "البحث بناءً على المعنى بدلاً من النصوص المتطابقة",
+            "تقليل استخدام الذاكرة",
+            "تحسين دقة النماذج اللغوية"
+          ],
+          "answer": 1,
+          "explain": "تساعد قواعد البيانات المتجهية في البحث بناءً على المعنى بدلاً من النصوص المتطابقة تماماً، مما يتيح للذكاء الاصطناعي فهم السياق وتحسين نتائج البحث."
+        },
+        {
+          "q": "أي من الخيارات التالية هي مثال على قاعدة بيانات متجهية؟",
+          "options": [
+            "MySQL",
+            "MongoDB",
+            "Pinecone",
+            "PostgreSQL"
+          ],
+          "answer": 2,
+          "explain": "Pinecone هي قاعدة بيانات متجهية مصممة خصيصاً لتخزين واسترجاع المتجهات. MySQL و PostgreSQL هي قواعد بيانات علائقية، بينما MongoDB هي قاعدة بيانات مستندات."
+        },
+        {
+          "q": "ما هو الخطأ الشائع عند استخدام قواعد البيانات المتجهية؟",
+          "options": [
+            "استخدام نماذج ضعيفة لتحويل النص إلى متجهات",
+            "عدم تحديث قاعدة البيانات بانتظام",
+            "استخدام كلمات مفتاحية في البحث",
+            "كل ما سبق"
+          ],
+          "answer": 3,
+          "explain": "كل الخيارات المذكورة هي أخطاء شائعة: استخدام نماذج ضعيفة لتحويل النص إلى متجهات يؤثر على جودة البحث، وعدم تحديث قاعدة البيانات بانتظام يؤدي إلى معلومات قديمة، واستخدام كلمات مفتاحية في البحث يفقد الفائدة من استخدام قاعدة البيانات المتجهية."
+        }
+      ],
+      "addedAt": "2026-10-05"
+    },
+    {
       "id": "k-2026-10-05-ضبط-النماذج-الصغيرة-لمجالات-محددة",
       "title": "ضبط النماذج الصغيرة لمجالات محددة",
       "titleEn": "Fine-tuning Small Models for Specific Domains",
