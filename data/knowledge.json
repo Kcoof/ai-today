@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-06-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
+      "title": "تقييم أداء نماذج الذكاء الاصطناعي",
+      "titleEn": "Evaluating AI Model Performance",
+      "why": "يُعد تقييم أداء نماذج الذكاء الاصطناعي مهارة أساسية للمطورين والمستخدمين لاختيار النموذج المناسب لمهماتهم وتحسين النتائج.",
+      "whyEn": "Evaluating AI model performance is a crucial skill for developers and users to select the right model for their tasks and improve outcomes.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم معايير التقييم الأساسية",
+          "detail": "التعرف على المقاييس الشائعة مثل الدقة والسرعة والتكلفة لتحديد الأولويات حسب احتياجاتك."
+        },
+        {
+          "title": "اختيار المعايير المناسبة",
+          "detail": "تحديد المقاييس الأكثر أهمية لمهمتك المحددة، سواء كانت معالجة اللغة الطبيعية أو الرؤية الحاسوبية أو غيرها."
+        },
+        {
+          "title": "إجراء الاختبارات المقارنة",
+          "detail": "استخدام مجموعات بيانات موحدة وتطبيق نفس المعايير على عدة نماذج للحصول على نتائج قابلة للمقارنة."
+        },
+        {
+          "title": "تحليل النتائج وتفسيرها",
+          "detail": "تفسير نتائج الاختبارات بناءً على سياق استخدامك المحتمل وتحديد نقاط القوة والضعف في كل نموذج."
+        },
+        {
+          "title": "مراقبة الأداء المستمر",
+          "detail": "تقييم أداء النموذج في بيئة الإنتاج وتحديث التقييمات بانتظام لضمان استمرارية الأداء الجيد."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand basic evaluation metrics",
+          "detail": "Familiarize yourself with common metrics like accuracy, speed, and cost to prioritize based on your needs."
+        },
+        {
+          "title": "Choose appropriate benchmarks",
+          "detail": "Identify the most important metrics for your specific task, whether it's natural language processing, computer vision, or other domains."
+        },
+        {
+          "title": "Conduct comparative testing",
+          "detail": "Use standardized datasets and apply the same metrics across multiple models to get comparable results."
+        },
+        {
+          "title": "Analyze and interpret results",
+          "detail": "Interpret test results based on your potential use case and identify the strengths and weaknesses of each model."
+        },
+        {
+          "title": "Monitor ongoing performance",
+          "detail": "Evaluate model performance in production and update assessments regularly to ensure continued good performance."
+        }
+      ],
+      "code": "import time\nimport numpy as np\n\ndef evaluate_model(model, test_data, metrics=['accuracy', 'speed']):\n    results = {}\n    \n    # Accuracy evaluation\n    if 'accuracy' in metrics:\n        correct = 0\n        for item in test_data:\n            prediction = model.predict(item['input'])\n            if prediction == item['expected']:\n                correct += 1\n        results['accuracy'] = correct / len(test_data)\n    \n    # Speed evaluation\n    if 'speed' in metrics:\n        start_time = time.time()\n        for item in test_data[:100]:  # Test on subset for speed\n            model.predict(item['input'])\n        elapsed = time.time() - start_time\n        results['speed'] = 100 / elapsed  # predictions per second\n    \n    return results",
+      "resources": [
+        {
+          "name": "Hugging Face Auto Models",
+          "url": "https://huggingface.co/docs/transformers/main/en/model_doc/auto"
+        },
+        {
+          "name": "AI Leaderboard",
+          "url": "https://www.leaderboard.ai/"
+        },
+        {
+          "name": "Survey on AI Evaluation",
+          "url": "https://arxiv.org/abs/2106.09685"
+        }
+      ],
+      "tags": [
+        "تقييم النماذج",
+        "مقارنة الأداء",
+        "اختبار الذكاء الاصطناعي",
+        "اختيار النماذج"
+      ],
+      "quickRef": "1. حدد معايير التقييم المناسبة لمهمتك\n2. استخدم مجموعات بيانات موحدة للاختبارات\n3. قارن النماذج بناءً على متعددة المقاييس\n4. راقب الأداء المستمر في بيئة الإنتاج",
+      "quickRefEn": "1. Define evaluation criteria appropriate for your task\n2. Use standardized datasets for testing\n3. Compare models based on multiple metrics\n4. Monitor ongoing performance in production",
+      "quiz": [
+        {
+          "q": "ما هو أهم معيار عند تقييم نموذج ذكاء اصطناعي لمهمة حساسة للدقة؟",
+          "options": [
+            "السرعة",
+            "التكلفة",
+            "الدقة",
+            "حجم النموذج"
+          ],
+          "answer": 2,
+          "explain": "للمهام التي تتطلب دقة عالية مثل التشخيص الطبي أو الترجمة الدقيقة، يجب أن يكون الدقة هو المعيار الأساسي."
+        },
+        {
+          "q": "كيف يمكنك تحسين موثوقية تقييماتك لنماذج الذكاء الاصطناعي؟",
+          "options": [
+            "الاعتماد على مجموعة بيانات واحدة فقط",
+            "استخدام مجموعات بيانات متنوعة وموحدة",
+            "الاعتماد على نتائج نموذج واحد فقط",
+            "تجاهل سياق التطبيق"
+          ],
+          "answer": 1,
+          "explain": "استخدام مجموعات بيانات متنوعة وموحدة يضمن أن نتائج التقييم تعكس الأداء الحقيقي للنموذج في سيناريوهات مختلفة."
+        },
+        {
+          "q": "ما هو العامل الأهم عند اختيار نموذج ذكاء اصطناعي للتطبيقات في الوقت الحقيقي؟",
+          "options": [
+            "الدقة فقط",
+            "التكلفة فقط",
+            "السرعة والدقة معًا",
+            "حجم النموذج فقط"
+          ],
+          "answer": 2,
+          "explain": "للتطبيقات التي تتطلب استجابة فورية مثل الدردشة أو التحليل الفوري، يجب أن يكون التوازن بين السرعة والدقة هو الأولوية."
+        }
+      ],
+      "addedAt": "2026-10-06"
+    },
+    {
       "id": "k-2026-10-05-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاصطناعي",
       "title": "قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
       "titleEn": "Vector Databases for AI Applications",
