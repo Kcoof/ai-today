@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-07-ضبط-النماذج-الصغيرة-لمجالات-محددة",
+      "title": "ضبط النماذج الصغيرة لمجالات محددة",
+      "titleEn": "Fine-tuning Small Language Models for Specific Domains",
+      "why": "يساعد ضبط النماذج الصغيرة لمجالات محددة على تحقيق أداء فائق في مهام متخصصة مع تقليل التكاليف والاستهلاك الحسابي، مما يجعلها مثالية للتطبيقات العملية التي تتطلب فهماً عميقاً لمجال معين.",
+      "whyEn": "Fine-tuning small models for specific domains helps achieve superior performance on specialized tasks while reducing costs and computational consumption, making them ideal for practical applications that require deep understanding of a particular field.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد النموذج الأساسي والمجال المتخصص",
+          "detail": "اختر نموذجاً صغيراً مناسبًا لمجالك (مثل LLaMA 7B أو Mistral 7B) وقم بتحديد المهام والمفردات المتخصصة التي تحتاجها."
+        },
+        {
+          "title": "إعداد مجموعة البيانات المتخصصة",
+          "detail": "أنشئ مجموعة بيانات عالية الجودة تحتوي على أمثلة تدريبية لمجالك المتخصص. يجب أن تشمل هذه البيانات تنوعاً كافياً لتغطية جميع جوانب المهمة."
+        },
+        {
+          "title": "تحضير البيانات للضبط",
+          "detail": "تنسيق بياناتك لتتناسب مع متطلبات النموذج. قد يتضمن ذلك تحويل النصوص إلى تنسيق معين، إنشاء زوج من الإدخال والمخرجات، أو تحويل البيانات إلى تنسيق JSON."
+        },
+        {
+          "title": "تنفيذ عملية الضبط",
+          "detail": "استخدم مكتبات مثل Hugging Face Transformers أو PEFT (Parameter-Efficient Fine-Tuning) لتنفيذ عملية الضبط. قم بضبط النموذج على مجموعة بياناتك المتخصصة مع مراقبة الأداء."
+        },
+        {
+          "title": "تقييم النموذج المضبوط",
+          "detail": "اختبر النموذج المضبوط على مجموعة بيانات اختبار لمجالك للتأكد من أدائه. قارن بين أداء النموذج قبل وبعد الضبط لقياس التحسن."
+        },
+        {
+          "title": "نشر النموذج واستخدامه",
+          "detail": "بعد التأكد من جودة النموذج، قم بنشره باستخدام أدوات مثل Hugging Face Spaces أو FastAPI لدمجه في تطبيقاتك العملية."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select the base model and specialized domain",
+          "detail": "Choose a suitable small model for your domain (like LLaMA 7B or Mistral 7B) and identify the specialized tasks and vocabulary you need."
+        },
+        {
+          "title": "Prepare the specialized dataset",
+          "detail": "Create a high-quality dataset containing training examples for your specialized domain. This dataset should include sufficient diversity to cover all aspects of the task."
+        },
+        {
+          "title": "Prepare data for fine-tuning",
+          "detail": "Format your data to match the model's requirements. This may include converting texts to a specific format, creating input-output pairs, or transforming data to JSON format."
+        },
+        {
+          "title": "Perform the fine-tuning process",
+          "detail": "Use libraries like Hugging Face Transformers or PEFT (Parameter-Efficient Fine-Tuning) to implement the fine-tuning process. Fine-tune the model on your specialized dataset while monitoring performance."
+        },
+        {
+          "title": "Evaluate the fine-tuned model",
+          "detail": "Test the fine-tuned model on a test set from your domain to ensure its performance. Compare the model's performance before and after fine-tuning to measure improvement."
+        },
+        {
+          "title": "Deploy and use the model",
+          "detail": "After confirming the model's quality, deploy it using tools like Hugging Face Spaces or FastAPI to integrate it into your practical applications."
+        }
+      ],
+      "code": "from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer\nfrom datasets import load_dataset\n\n# Load base model and tokenizer\nmodel_name = \"meta-llama/Llama-2-7b-chat-hf\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\n\n# Load specialized dataset\ndataset = load_dataset(\"your-specialized-dataset\")\n\n# Tokenize dataset\ndef tokenize_function(examples):\n    return tokenizer(examples[\"text\"], padding=\"max_length\", truncation=True)\n\ntokenized_datasets = dataset.map(tokenize_function, batched=True)\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=4,\n    save_steps=10_000,\n    save_total_limit=2,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=tokenized_datasets[\"train\"],\n    eval_dataset=tokenized_datasets[\"validation\"],\n)\n\n# Start fine-tuning\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Documentation",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "PEFT Library",
+          "url": "https://huggingface.co/docs/peft/index"
+        },
+        {
+          "name": "LoRA Paper",
+          "url": "https://arxiv.org/abs/2106.09685"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "التعلم العميق",
+        "نماذج لغوية",
+        "معالجة اللغات الطبيعية"
+      ],
+      "quickRef": "1. اختر نموذجاً صغيراً مناسبًا 2. جهز مجموعة بيانات متخصصة 3. قم بتنسيق البيانات 4. نفذ عملية الضبط 5. قيم النموذج 6. نشر النموذج",
+      "quickRefEn": "1. Choose a suitable small model 2. Prepare specialized dataset 3. Format data 4. Perform fine-tuning 5. Evaluate model 6. Deploy model",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة لمجالات محددة؟",
+          "options": [
+            "زيادة حجم النموذج",
+            "تحقيق أداء فائق في مهام متخصصة مع تقليل التكاليف",
+            "استبدال النماذج الكبيرة تماماً",
+            "زيادة سرعة التدريب"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من ضبط النماذج الصغيرة هو تحقيق أداء فائق في مهام متخصصة مع تقليل التكاليف والاستهلاك الحسابي مقارنة بالنماذج الكبيرة."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في عملية ضبط النموذج؟",
+          "options": [
+            "تقييم النموذج",
+            "إعداد مجموعة البيانات",
+            "اختيار النموذج الأساسي",
+            "نشر النموذج"
+          ],
+          "answer": 2,
+          "explain": "الخطوة الأولى هي اختيار النموذج الأساسي المناسب لمجال التطبيق الذي نعمل عليه."
+        },
+        {
+          "q": "ما هي مكتبة Python الشائعة المستخدمة لضبط النماذج اللغوية؟",
+          "options": [
+            "TensorFlow",
+            "PyTorch",
+            "Hugging Face Transformers",
+            "OpenAI API"
+          ],
+          "answer": 2,
+          "explain": "Hugging Face Transformers هي مكتبة شائعة جداً لضبط النماذج اللغوية بما في ذلك النماذج الصغيرة لمجالات محددة."
+        }
+      ],
+      "addedAt": "2026-10-07"
+    },
+    {
       "id": "k-2026-10-06-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
       "title": "تقييم أداء نماذج الذكاء الاصطناعي",
       "titleEn": "Evaluating AI Model Performance",
