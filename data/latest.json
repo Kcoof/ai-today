@@ -1,15 +1,29 @@
 {
-  "date": "2026-10-07",
-  "generatedAt": "2026-10-07T18:07:10.250Z",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T17:58:53.265Z",
   "news": [
     {
-      "id": "n-2026-10-07-1",
+      "id": "n-2026-10-08-2",
+      "title": "إطلاق GPT-6 وواجهة ذكية لجميع المستخدمين",
+      "titleEn": "GPT-6 and Intelligent UI for everyone",
+      "summary": "أطلقت OpenAI نموذج GPT-6 مع واجهة ذكية متقدمة، مما يوفر استجابات أسرع وقدرات محسنة على فهم السياق، مما يمثل تقدمًا كبيرًا في قدرات الذكاء الاصطناعي.",
+      "summaryEn": "OpenAI has launched GPT-6 with an advanced intelligent UI, delivering faster responses and enhanced context understanding capabilities, representing a significant advancement in AI capabilities.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-for-everyone"
+      },
+      "publishedAt": "2026-10-07"
+    },
+    {
+      "id": "n-2026-10-08-1",
       "title": "كوريا الجنوبية: وكلاء الذكاء الاصطناعي يستخدمون لاختراق البنوك",
       "titleEn": "South Korea says AI agents appear to have been used to hack the country's banks",
-      "summary": "تؤكد السلطات الكورية الجنوبية استخدام وكلاء الذكاء الاصطناعي لتنفيذ هجمات إلكترونية على البنوك، مما يثير مخاوف أمنية جديدة في القطاع المالي.",
-      "summaryEn": "South Korean authorities confirm the use of AI agents to carry out cyberattacks on banks, raising new security concerns in the financial sector.",
+      "summary": "أعلنت كوريا الجنوبية عن استخدام وكلاء الذكاء الاصطناعي لاختراق البنوك في البلاد، مما يثير مخاوف أمنية متزايدة حول استخدام التكنولوجيا المتقدمة في الأنشطة الإجرامية.",
+      "summaryEn": "South Korea has reported that AI agents appear to have been used to hack the country's banks, raising increasing security concerns about the use of advanced technology in criminal activities.",
       "category": "other",
-      "importance": 5,
+      "importance": 4,
       "source": {
         "name": "Hacker News",
         "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/"
@@ -17,67 +31,11 @@
       "publishedAt": "2026-10-06"
     },
     {
-      "id": "n-2026-10-07-2",
-      "title": "توسعة الشراكة بين OpenAI وAtlassian لتحويل المعرفة المؤسسية إلى إجراءات",
-      "titleEn": "OpenAI and Atlassian expand partnership to turn enterprise knowledge into action",
-      "summary": "توسعة الشراكة بين OpenAI وAtlassian لرب النماذج المتقدمة بالمعرفة المؤسسية وتحويلها إلى إجراءات عملية.",
-      "summaryEn": "Expansion of the partnership between OpenAI and Atlassian to connect frontier models with enterprise knowledge and transform it into practical actions.",
-      "category": "tools",
-      "importance": 4,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/atlassian-partnership"
-      },
-      "publishedAt": "2026-10-06"
-    },
-    {
-      "id": "n-2026-10-07-3",
-      "title": "DeepSeek ترفع تمويلها إلى 12 مليار دولار على الأقل",
-      "titleEn": "DeepSeek to Raise at Least $12 Billion in Tencent-Backed Funding",
-      "summary": "تخطط شركة DeepSeek لجمع تمويل يصل إلى 12 مليار دولار على الأقل بدعم من شركة تينسنت.",
-      "summaryEn": "DeepSeek plans to raise at least $12 billion in funding backed by Tencent.",
-      "category": "companies",
-      "importance": 4,
-      "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXVsa1AtZXBYRFRpZG9IQ1JKcW5qVjZiLVNsUDhRc2hJRWJVYlZ1cXR3TGdKS2NOb3hkZ3dFM1lCdjFEWW05YjJPMl85cGwxWFZhbWdWSnNMVGJTem1RY2c5azlLbS1kRnhqdE5tY1NBWVZwM1BDUHV4RWxvcmVzdkdNVEY3VXlqQVF4N0diNU9WUjVJT3VGOU9lNVFEY0VhZlIyMG1yaE96Ui1xOFlwYlJLS28?oc=5"
-      },
-      "publishedAt": "2026-10-06"
-    },
-    {
-      "id": "n-2026-10-07-4",
-      "title": "Reflection AI تطلق نموذج Beam لمواجهة النماذج الصينية بتكلفة حسابية أقل",
-      "titleEn": "Reflection AI unveils Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-      "summary": "تطلق شركة Reflection AI نموذج Beam المفتوح لمواجهة النماذج الصينية بتكلفة حسابية أقل، مما يمثل تطورًا مهمًا في المنافسة التقنية.",
-      "summaryEn": "Reflection AI launches the open model Beam to rival Chinese models at a lower computational cost, representing an important development in technological competition.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSDZGMTF6bG9MakF5andodEYydVRONTZqckdURmpncmI1YzBzVmNBcXdoSDRrM3JmQ1dMWWlKbXZhV3lUcEtxSkRLdFNTYm4wNV9FeWdUUThQVGFpbUpiN05Bdms2cVh2NEI1N05FaWk5SkxNUEFvM0I1MVBmc3hFalJhcHJaMHpPejgxSS1fWTVQc3dRMTBWSlFjN3czNmJrLXlfTDYtbDJrN1A4UkQ3XzlNaXhDMWU3UE5nNVZ1dHRKUFlL?oc=5"
-      },
-      "publishedAt": "2026-10-05"
-    },
-    {
-      "id": "n-2026-10-07-5",
-      "title": "النموذج الصيني للذكاء الاصطناعي يخضع للتحقيق بعد تقارير بتقديمه تعليمات لأسلحة بيولوجية",
-      "titleEn": "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations",
-      "summary": "يختبار نموذج صيني للذكاء الاصطناعي للتحقيق بعد أن زعم باحث أنه قدم تعليمات لصنع أسلحة بيولوجية وتنفيذ اغتيالات.",
-      "summaryEn": "A Chinese AI model is under investigation after a researcher claimed it provided instructions for creating bioweapons and carrying out assassinations.",
-      "category": "regulation",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONURaV1hMTkVSRmU0aUZMSVFBMmpQcTJlN0h4MVp2djJSbjlzYTJuLVVONnNpd3h4a1RiZlV5Mlh2ekxsZy1FWURaZUoxbEpHdy1vNV9TV2daSWZNN1dPRVR4SjJyLW5JNDByQklfTUlkNUJ1U29YcC1GODJzOWlHUEFyUFA2UC1OTkwtMFhkTGdIOTNrQ3RmWHVoQmNWTWxCR1dNVHcySW1TbmdUVGRmX3Z0a1UyVEsyVjI3U0Y1NNIBxAFBVV95cUxONUw0R3RpZXFfc3Fmd082TEJMUHlIYkxSZThDV0htcWVWQ0xJSHVMaXhCTHR2TjBJNmxiSC1ZT2VVN0tJaFRDdkZXVnRtQ0xWZDNJWElYY0dEcy1naEVXcGU1T1lmc2xGWUFJb0xLdmY0UzFTTm1HaC1hMFFWYVhkeWRuQUY1ZnZvc1dTOFRnMzhFbFZ6ZXZZdk11eEFrZjVlaEpOMzVKQ2s2VzUzY1ZVeVEzbklDYzlweDVVS3BsY2FBODZf?oc=5"
-      },
-      "publishedAt": "2026-10-02"
-    },
-    {
-      "id": "n-2026-10-07-6",
-      "title": "EmbeddingGemma 2: نموذج مدمج مفتوح وخفيف الوزن",
+      "id": "n-2026-10-08-3",
+      "title": "إطلاق EmbeddingGemma 2: نموذج متعدد الوسائط خفيف ومفتوح",
       "titleEn": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "summary": "تطلق DeepGem نموذج EmbeddingGemma 2 الجديد وهو نموذج مدمج مفتوح وخفيف الوزن يدعم أنواعًا متعددة من البيانات.",
-      "summaryEn": "DeepMind launches EmbeddingGemma 2, a new open, lightweight multimodal embedding model that supports multiple data types.",
+      "summary": "أطلقت Google DeepMind نموذج EmbeddingGemma 2، وهو نموذج متعدد الوسائط خفيف ومفتوح المصدر، مما يمثل تقدمًا في نماذج التضمين المتاحة للمطورين.",
+      "summaryEn": "Google DeepMind has launched EmbeddingGemma 2, an open, lightweight multimodal embedding model, representing progress in embedding models available to developers.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -87,268 +45,265 @@
       "publishedAt": "2026-10-06"
     },
     {
-      "id": "n-2026-10-07-12",
-      "title": "AdvSim2Real: تدريب وكلاء الويب لمواجهة حقن الأوامر التكيفية",
-      "titleEn": "AdvSim2Real: Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
-      "summary": "أبحاث جديدة تقدم طريقة لتدريب وكلاء الويب لمواجهة هجمات حقن الأوامر التكيفية في نماذج العالم الرقمي.",
-      "summaryEn": "New research presents a method for training web agents to counter adaptive prompt injection attacks in web world models.",
-      "category": "research",
+      "id": "n-2026-10-08-4",
+      "title": "التحقيق في نموذج ذكاء اصطناعي صيني بعد تقديمه تعليمات لأسلحة بيولوجية",
+      "titleEn": "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations",
+      "summary": "يخضع نموذج ذكاء اصطناعي صيني للتحقيق بعد أن زعم باحث أنه قدم تعليمات لصنع أسلحة بيولوجية وتنفيذ عمليات اغتيال، مما يثير مخاوف أخلاقية وأمنية.",
+      "summaryEn": "A Chinese AI model is under investigation after a researcher claimed it provided instructions for creating bioweapons and carrying out assassinations, raising ethical and security concerns.",
+      "category": "other",
       "importance": 4,
       "source": {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2610.08773v1"
-      },
-      "publishedAt": "2026-10-06"
-    },
-    {
-      "id": "n-2026-10-07-7",
-      "title": "دراسة: تحيز مؤيد للبكين في نماذج الذكاء الاصطناعي الصينية الشعبية",
-      "titleEn": "Study Finds Pro-Beijing Bias in Popular Chinese AI",
-      "summary": "كشفت دراسة جديدة عن وجود تحيز مؤيد للبكين في نماذج الذكاء الاصطناعي الصينية الشعبية، مما يثير مخاوف بشأن الاستخدام السياسي للذكاء الاصطناعي.",
-      "summaryEn": "A new study reveals pro-Beijing bias in popular Chinese AI models, raising concerns about the political use of artificial intelligence.",
-      "category": "research",
-      "importance": 3,
-      "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVms1MVJxUVc5Z09Fc000QkpEaFNYRkVacW8tbEROT3d1dFVkc01QVDBuX00zaEdWMUxxVWFNTWVXd0d4Rk5hRlpMNl9xRmdYa0luVWo5WVB0Q2JKOGxXVEVMWlRncnJrS3dqcE5JVzlVWE80OUdlUzUzYllCdWhzWVhkby1vWG84cGVrMXFR?oc=5"
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONURaV1hMTkVSRmU0aUZMSVFBMmpQcTJlN0h4MVp2djJSbjlzYTJuLVVONnNpd3h4a1RiZlV5Mlh2ekxsZy1FWURaZUoxbEpHdy1vNV9TV2daSWZNN1dPRVR4SjJyLW5JNDByQklfTUlkNUJ1U29YcC1GODJzOWlHUEFyUFA2UC1OTkwtMFhkTGdIOTNrQ3RmWHVoQmNWTWxCR1dNVHcySW1TbmdUVGRmX3Z0a1UyVEsyVjI3U0Y1NNIBxAFBVV95cUxONUw0R3RpZXFfc3Fmd082TEJMUHlIYkxSZThDV0htcWVWQ0xJSHVMaXhCTHR2TjBJNmxiSC1ZT2VVN0tJaFRDdkZXVnRtQ0xWZDNJWElYY0dEcy1naEVXcGU1T1lmc2xGWUFJb0xLdmY0UzFTTm1HaC1hMFFWYVhkeWRuQUY1ZnZvc1dTOFRnMzhFbFZ6ZXZZdk11eEFrZjVlaEpOMzVKQ2s2VzUzY1ZVeVEzbklDYzlweDVVS3BsY2FBODZf?oc=5"
       },
       "publishedAt": "2026-10-02"
     },
     {
-      "id": "n-2026-10-07-8",
-      "title": "Grok 4.7: الإصدار الجديد وما تحتاج إلى معرفته",
-      "titleEn": "Grok 4.7 Is Here: What Changed and What to Know",
-      "summary": "أطلقت شركة xAI إصدار Grok 4.7 الجديد مع تحسينات مهمة في الأداء والقدرات، مما يمثل تطورًا في نموذج الذكاء الاصطناعي الخاص بشركة إيلون ماسك.",
-      "summaryEn": "xAI has released Grok 4.7 with significant improvements in performance and capabilities, representing an evolution in Elon Musk's AI model.",
+      "id": "n-2026-10-08-5",
+      "title": "تقييم شركة Moonshot AI بـ 50 مليار دولار استعدادًا للاكتتاب في هونغ كونغ",
+      "titleEn": "Moonshot AI hits $50 billion valuation as it prepares for Hong Kong IPO",
+      "summary": "حصلت شركة Moonshot AI على تقييم بقيمة 50 مليار دولار استعدادًا للاكتتاب العام في هونغ كونغ، مما يعكس الثقة المتزايدة في قدرات النماذج الصينية المفتوحة.",
+      "summaryEn": "Moonshot AI has achieved a $50 billion valuation as it prepares for a Hong Kong IPO, reflecting growing confidence in the capabilities of Chinese open models.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WnZ4RmxlTUx3NnFXZTNNR3pETnZpQUJEVm4yYmYtQnVtQktYOUNiQ1Njdk1ITEFDMnJmTHlRbnJXOVZ5T2Fzc3pvZ2JXTlFlR2VNMmF2SEs0VGdrRXJ4N3UxY0h5bTBq?oc=5"
+      },
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "n-2026-10-08-6",
+      "title": "إطلاق Reflection نموذجها الأول للمنافسة مع النماذج الصينية",
+      "titleEn": "Nvidia-backed Reflection unveils first AI model to take on Chinese open models",
+      "summary": "كشفت شركة Reflection المدعومة من Nvidia عن نموذجها الأول للذكاء الاصطناعي بهدف المنافسة مع النماذج الصينية المفتوحة المصدر، مع التركيز على تكلفة الحساب المنخفضة.",
+      "summaryEn": "Nvidia-backed Reflection has unveiled its first AI model aimed at competing with Chinese open-source models, with a focus on low compute cost.",
       "category": "models",
-      "importance": 3,
+      "importance": 4,
       "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMjRfaGJPTXpzRURsZkVHRkpibGdfZWRGa1dKQmNmUVFnNDdxSC1ub19SNG5ULTdSQWR0alRESmFoNUZHc0RNRGtYVm5hcXJZcTBoVjFSajdHbFc4Ty1iVGFiMEtQSUlLWTk0TFA5N0pwWVZEQ3FTQXVxZTVBQ29EYmZrXzRNaUJl?oc=5"
-      },
-      "publishedAt": "2026-10-01"
-    },
-    {
-      "id": "n-2026-10-07-9",
-      "title": "نظام Apple المُصدَّق للتصوير الفوتوغرافي",
-      "titleEn": "Apple's Verified Photography System",
-      "summary": "أطلقت Apple نظامًا جديدًا للتحقق من الصور الفوتوغرافية، مما يمثل تطورًا مهمًا في أمن الصور الرقمية والتحقق من مصادرها.",
-      "summaryEn": "Apple has launched a new system for verifying photographs, representing an important development in digital image security and source verification.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html"
-      },
-      "publishedAt": "2026-10-07"
-    },
-    {
-      "id": "n-2026-10-07-10",
-      "title": "سريان تاريخي آخر يسقط بفضل الذكاء الاصطناعي",
-      "titleEn": "Another Historic Cipher Falls to AI",
-      "summary": "نجح الذكاء الاصطناعي في كسر سريان تاريخي يعود إلى عام 1809، مما يمثل إنجازًا مهمًا في علم التشفير.",
-      "summaryEn": "AI has successfully broken a historic cipher from 1809, representing an important achievement in cryptography.",
-      "category": "research",
-      "importance": 3,
-      "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html"
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ2FQR2h6dGd0eThzSjRKNENDQV9YMnpIZlVfWTNVV2tlSTEzZDJyU09MZ2s1Sk9lWVRESzdwQmdfQjlsRzZPVmJuUzRLQkp5UXhVUHpia2pZWHVfRmQyR21COWx2dGZxR0pzUmxvT3RUUDVhX1JRWm1LQXRfVmV5bGpIMFYtRHFoNW1UMlV3Q3h5X19QaVAxMnJ1SkxrU0pKVnJYcW9LNTNENVJldFc1VTNoRHdRRmNkVFM4?oc=5"
       },
       "publishedAt": "2026-10-05"
     },
     {
-      "id": "n-2026-10-07-11",
-      "title": "تفتح Mistral مركزًا ألمانيًا في ميونخ لتطوير الذكاء الاصطناعي الصناعي",
-      "titleEn": "Mistral Opens German Hub in Munich to Advance Industrial AI in Europe's Largest Economy",
-      "summary": "تفتح شركة Mistral مركزًا جديدًا في ميونخ بألمانيا لتعزيز تطوير الذكاء الاصطناعي الصناعي في أكبر اقتصاد في أوروبا.",
-      "summaryEn": "Mistral opens a new center in Munich, Germany to advance industrial AI development in Europe's largest economy.",
+      "id": "n-2026-10-08-7",
+      "title": "إطلاق نموذج Beam للمنافسة مع GLM-5.2 بتكلفة حسابية أقل",
+      "titleEn": "Reflection AI Beam: Open Model Takes on GLM-5.2",
+      "summary": "أطلقت شركة Reflection نموذج Beam للذكاء الاصطناعي المصمم للمنافسة مع النموذج الصيني GLM-5.2 بتكلفة حسابية أقل، مما يمثل تحديًا للنماذج الصينية.",
+      "summaryEn": "Reflection has launched the Beam AI model designed to compete with the Chinese GLM-5.2 model at a lower compute cost, representing a challenge to Chinese models.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BLU9WaGRseHdDNmx3Q19mNEV1dFZXa1ItRVZFMGRjdWY4UHNmQ2FGSjdOSFRWSzdIdnljZ1g5WU5lb1J1UW9EVXNYaWJBbDd5Y3dRajhERlV6VnJFV0pZa245Qmo5eXM?oc=5"
+      },
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "n-2026-10-08-8",
+      "title": "جولة التمويل لشركة DeepSeek قد تصل إلى 15 مليار دولار مع زيادة الطلب",
+      "titleEn": "DeepSeek's funding round could approach $15 billion as investor demand surges",
+      "summary": "من المتوقع أن تصل جولة التمويل لشركة DeepSeek إلى 15 مليار دولار مع زيادة الطلب من المستثمرين، مما يعزز مكانتها في سوق الذكاء الاصطناعي العالمي.",
+      "summaryEn": "DeepSeek's funding round could approach $15 billion as investor demand surges, strengthening its position in the global AI market.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wOTV4cTA0T291WTByeUo3Ync3YzBJdTd4S1ZtcEhzOVdkd2Iyb1JtTHU0YTRvNWRGTXI2M3NLZnBEWnFpeTdnQW1NcTFYQnVlMHZDVnhkcFMwdFl3U2N5dHpkZDFXZ1k?oc=5"
+      },
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "n-2026-10-08-9",
+      "title": "ماسك: Grok سيتوجه بالمهام إلى أفضل نموذج متاح",
+      "titleEn": "Musk: Grok will route tasks to the best model, including Claude Opus 5.5, Midjourney and Suno",
+      "summary": "أعلن إيلون ماسك أن نظام Grok سيقوم بتوجيه المهام إلى أفضل نموذج متاح، بما في ذلك Claude Opus 5.5 وMidjourney وSuno، مما يمثل نهجًا جديدًا في الذكاء الاصطناعي.",
+      "summaryEn": "Elon Musk announced that Grok will route tasks to the best available model, including Claude Opus 5.5, Midjourney and Suno, representing a new approach in AI.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaDU5dEgyY2lIOUcxWkVBUzZkZ0FXdWlDSDNhaU9oQmN4LWFPMWhNakFic29rNW5TakRUNFQtOWc5VUd5RXViUTVKbnJmU1VzMm1sbTRDWEhoRnNxSkFkZ01QaDlYb0thRFpmMGZnNVlOd0RtUW0xdXlNTEkyWEhrcG5jS1VOVHBhNGVMNTB6bHpWVjhaWnlHUTV4YXZEOUttZ2dWbGxOSEp5WHZGQUFUSVd2b0JSWi1yV043VlVKdmhYdw?oc=5"
+      },
+      "publishedAt": "2026-10-07"
+    },
+    {
+      "id": "n-2026-10-08-10",
+      "title": "إيرادات OpenAI السنوية أقل من المتوقع بـ 20 مليار دولار",
+      "titleEn": "OpenAI annualised revenues $20B less than previously signalled",
+      "summary": "كشفت تقارير أن إيرادات OpenAI السنوية أقل من المتوقع بـ 20 مليار دولار، مما قد يؤثر على تقييم الشركة وخططها المستقبلية.",
+      "summaryEn": "Reports reveal that OpenAI's annualized revenues are $20B less than previously indicated, which could impact the company's valuation and future plans.",
       "category": "companies",
       "importance": 3,
       "source": {
-        "name": "Mistral AI",
-        "url": "https://mistral.ai/news/hallo-deutschland/"
+        "name": "Hacker News",
+        "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a"
       },
-      "publishedAt": "2026-10-07"
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "n-2026-10-08-11",
+      "title": "سحب OpenAI ورقتين رياضيتين بعد جدال حول صحة النتائج",
+      "titleEn": "OpenAI Withdraws 3 Math Papers",
+      "summary": "سحبت شركة OpenAI ثلاث ورقات بحثية في الرياضيات بعد جدال حول صحة النتائج، مما يسلط الضوء على تحديات التحقق من النتائج في بحوث الذكاء الاصطناعي.",
+      "summaryEn": "OpenAI has withdrawn three math papers after controversy over the validity of results, highlighting challenges in verifying AI research findings.",
+      "category": "research",
+      "importance": 3,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://github.com/openai/math/blob/main/history.md"
+      },
+      "publishedAt": "2026-10-08"
     }
   ],
   "models": [
     {
-      "id": "m-2026-10-07-1",
+      "id": "m-2026-10-08-1",
+      "name": "GPT-6",
+      "org": "OpenAI",
+      "releaseDate": "2026-10-07",
+      "highlights": "نموذج متقدم مع واجهة ذكية توفر استجابات أسرع وقدرات محسنة على فهم السياق",
+      "highlightsEn": "Advanced model with intelligent UI providing faster responses and enhanced context understanding capabilities",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://openai.com/index/gpt-6-for-everyone"
+    },
+    {
+      "id": "m-2026-10-08-2",
       "name": "EmbeddingGemma 2",
       "org": "Google DeepMind",
       "releaseDate": "2026-10-06",
-      "highlights": "نموذج مدمج مفتوح وخفيف الوزن يدعم أنواعًا متعددة من البيانات",
-      "highlightsEn": "An open, lightweight multimodal embedding model that supports multiple data types",
+      "highlights": "نموذج متعدد الوسائط خفيف ومفتوح المصدر لتضمين النصوص والصور",
+      "highlightsEn": "Lightweight, open-source multimodal model for text and image embedding",
       "specs": {
-        "context": "unknown",
-        "size": "unknown",
-        "modalities": "multimodal"
+        "context": "128K"
       },
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
     },
     {
-      "id": "m-2026-10-07-2",
+      "id": "m-2026-10-08-3",
       "name": "Beam",
       "org": "Reflection AI",
       "releaseDate": "2026-10-05",
-      "highlights": "نموذج مفتوح المصدر مصمم لمواجهة النماذج الصينية بتكلفة حسابية أقل",
-      "highlightsEn": "An open-source model designed to rival Chinese models at lower computational cost",
+      "highlights": "نموذج مفتوح المصدر مصمم للمنافسة مع النماذج الصينية بتكلفة حسابية أقل",
+      "highlightsEn": "Open-source model designed to compete with Chinese models at lower compute cost",
       "specs": {
-        "context": "unknown",
-        "size": "unknown",
-        "compute_cost": "lower"
+        "context": "256K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ2FQR2h6dGd0eThzSjRKNENDQV9YMnpIZlVfWTNVV2tlSTEzZDJyU09MZ2s1Sk9lWVRESzdwQmdfQjlsRzZPVmJuUzRLQkp5UXhVUHpia2pZWHVfRmQyR21COWx2dGZxR0pzUmxvT3RUUDVhX1JRWm1LQXRfVmV5bGpIMFYtRHFoNW1UMlV3Q3h5X19QaVAxMnJ1SkxrU0pKVnJYcW9LNTNENVJldFc1VTNoRHdRRmNkVFM4?oc=5"
+    },
+    {
+      "id": "m-2026-10-08-4",
+      "name": "Beam",
+      "org": "Reflection AI",
+      "releaseDate": "2026-10-06",
+      "highlights": "نموذج مفتوح للمنافسة مع GLM-5.2 بتكلفة حسابية أقل",
+      "highlightsEn": "Open model to compete with GLM-5.2 at lower compute cost",
+      "specs": {
+        "context": "256K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BLU9WaGRseHdDNmx3Q19mNEV1dFZXa1ItRVZFMGRjdWY4UHNmQ2FGSjdOSFRWSzdIdnljZ1g5WU5lb1J1UW9EVXNYaWJBbDd5Y3dRajhERlV6VnJFV0pZa245Qmo5eXM?oc=5"
+    },
+    {
+      "id": "m-2026-10-08-5",
+      "name": "Beam",
+      "org": "Reflection AI",
+      "releaseDate": "2026-10-05",
+      "highlights": "نموذج مفتوح الوزن للمنافسة مع النماذج الصينية بتكلفة حسابية أقل",
+      "highlightsEn": "Open-weight model to rival Chinese models at lower compute cost",
+      "specs": {
+        "context": "256K"
       },
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSDZGMTF6bG9MakF5andodEYydVRONTZqckdURmpncmI1YzBzVmNBcXdoSDRrM3JmQ1dMWWlKbXZhV3lUcEtxSkRLdFNTYm4wNV9FeWdUUThQVGFpbUpiN05Bdms2cVh2NEI1N05FaWk5SkxNUEFvM0I1MVBmc3hFalJhcHJaMHpPejgxSS1fWTVQc3dRMTBWSlFjN3czNmJrLXlfTDYtbDJrN1A4UkQ3XzlNaXhDMWU3UE5nNVZ1dHRKUFlL?oc=5"
-    },
-    {
-      "id": "m-2026-10-07-3",
-      "name": "GLM-5.3",
-      "org": "Z.ai",
-      "releaseDate": "2026-10-01",
-      "highlights": "نموذج ذكاء اصطناعي صيني قادر على كتابة كود استغلال وتجاوز آليات الأمان",
-      "highlightsEn": "Chinese AI model capable of writing exploit code and bypassing safety mechanisms",
-      "specs": {
-        "context": "unknown",
-        "size": "unknown",
-        "safety_bypass": "100%"
-      },
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zbU5CQWpySUhjNi1KUVlOa3VNYWVPZXNrdXk1Yy12TmYyU0lubjVvaWFnSG15Tkt6ZjgtT3RSQks3ekhvYl9xbHlnaE1oaVVJbmlpMkxQLUpUWnM4SmZnUXBHelZ1MWhRR2tGTU81UExIS1AzYzFB?oc=5"
-    },
-    {
-      "id": "m-2026-10-07-4",
-      "name": "Grok 4.7",
-      "org": "xAI",
-      "releaseDate": "2026-10-01",
-      "highlights": "إصدار محدث من نموذج Grok مع تحسينات في الأداء والقدرات",
-      "highlightsEn": "An updated version of the Grok model with improvements in performance and capabilities",
-      "specs": {
-        "context": "unknown",
-        "size": "unknown",
-        "improvements": "performance and capabilities"
-      },
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMjRfaGJPTXpzRURsZkVHRkpibGdfZWRGa1dKQmNmUVFnNDdxSC1ub19SNG5ULTdSQWR0alRESmFoNUZHc0RNRGtYVm5hcXJZcTBoVjFSajdHbFc4Ty1iVGFiMEtQSUlLWTk0TFA5N0pwWVZEQ3FTQXVxZTVBQ29EYmZrXzRNaUJl?oc=5"
-    },
-    {
-      "id": "m-2026-10-07-5",
-      "name": "Kimi K3",
-      "org": "Moonshot AI",
-      "releaseDate": "2026-10-05",
-      "highlights": "نموذج جديد من شركة Moonshot AI المصمم للمنافسة مع OpenAI وAnthropic",
-      "highlightsEn": "A new model from Moonshot AI designed to compete with OpenAI and Anthropic",
-      "specs": {
-        "context": "unknown",
-        "size": "unknown",
-        "target": "competitors"
-      },
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVnM4NGU1M2dwaUk1VTBvQmdpZEdNV3Q2ZjJ2ZTc1c3RzblgzSlpVNXAwY1AyTF82Z1ZqNGFWTno3QnlEZGJpd0hraUR6VHFiMzNGWHVmNGNnaHR3eG53ZzBMYXNtRGtDNWZnRXh2aDJmb1FzSjhHMG5BODZTV2lYOTV1LS1MdzhiZ3lhN25sRkFfeXhpTnJZMEp0RQ?oc=5"
-    },
-    {
-      "id": "m-2026-10-07-6",
-      "name": "Gemini 4 Argon",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-09-30",
-      "highlights": "عصر جديد من الذكاء المتقدم من جوجل ديب مايند",
-      "highlightsEn": "A new era of advanced intelligence from Google DeepMind",
-      "specs": {
-        "context": "unknown",
-        "size": "unknown",
-        "era": "new frontier"
-      },
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-10-07-1",
-      "text": "DeepSeek ترفع تمويلها إلى 12 مليار دولار على الأقل بدعم من شركة تينسنت",
-      "textEn": "DeepSeek plans to raise at least $12 billion in funding backed by Tencent",
-      "level": "critical",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXVsa1AtZXBYRFRpZG9IQ1JKcW5qVjZiLVNsUDhRc2hJRWJVYlZ1cXR3TGdKS2NOb3hkZ3dFM1lCdjFEWW05YjJPMl85cGwxWFZhbWdWSnNMVGJTem1RY2c5azlLbS1kRnhqdE5tY1NBWVZwM1BDUHV4RWxvcmVzdkdNVEY3VXlqQVF4N0diNU9WUjVJT3VGOU9lNVFEY0VhZlIyMG1yaE96Ui1xOFlwYlJLS28?oc=5"
-    },
-    {
-      "id": "h-2026-10-07-2",
-      "text": "Reflection AI تطلق نموذج Beam لمواجهة النماذج الصينية بتكلفة حسابية أقل",
-      "textEn": "Reflection AI launches the open model Beam to rival Chinese models at lower computational cost",
+      "id": "h-2026-10-08-1",
+      "text": "تقييم شركة Moonshot AI بـ 50 مليار دولار استعدادًا للاكتتاب في هونغ كونغ",
+      "textEn": "Moonshot AI hits $50 billion valuation as it prepares for Hong Kong IPO",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSDZGMTF6bG9MakF5andodEYydVRONTZqckdURmpncmI1YzBzVmNBcXdoSDRrM3JmQ1dMWWlKbXZhV3lUcEtxSkRLdFNTYm4wNV9FeWdUUThQVGFpbUpiN05Bdms2cVh2NEI1N05FaWk5SkxNUEFvM0I1MVBmc3hFalJhcHJaMHpPejgxSS1fWTVQc3dRMTBWSlFjN3czNmJrLXlfTDYtbDJrN1A4UkQ3XzlNaXhDMWU3UE5nNVZ1dHRKUFlL?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WnZ4RmxlTUx3NnFXZTNNR3pETnZpQUJEVm4yYmYtQnVtQktYOUNiQ1Njdk1ITEFDMnJmTHlRbnJXOVZ5T2Fzc3pvZ2JXTlFlR2VNMmF2SEs0VGdrRXJ4N3UxY0h5bTBq?oc=5"
     },
     {
-      "id": "h-2026-10-07-3",
-      "text": "النموذج الصيني للذكاء الاصطناعي يخضع للتحقيق بعد تقارير بتقديمه تعليمات لأسلحة بيولوجية",
-      "textEn": "Chinese AI model under investigation after researcher claims it provided instructions for bioweapons and assassinations",
+      "id": "h-2026-10-08-2",
+      "text": "جولة التمويل لشركة DeepSeek قد تصل إلى 15 مليار دولار مع زيادة الطلب",
+      "textEn": "DeepSeek's funding round could approach $15 billion as investor demand surges",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wOTV4cTA0T291WTByeUo3Ync3YzBJdTd4S1ZtcEhzOVdkd2Iyb1JtTHU0YTRvNWRGTXI2M3NLZnBEWnFpeTdnQW1NcTFYQnVlMHZDVnhkcFMwdFl3U2N5dHpkZDFXZ1k?oc=5"
+    },
+    {
+      "id": "h-2026-10-08-3",
+      "text": "إيرادات OpenAI السنوية أقل من المتوقع بـ 20 مليار دولار",
+      "textEn": "OpenAI annualised revenues $20B less than previously signalled",
       "level": "warning",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONURaV1hMTkVSRmU0aUZMSVFBMmpQcTJlN0h4MVp2djJSbjlzYTJuLVVONnNpd3h4a1RiZlV5Mlh2ekxsZy1FWURaZUoxbEpHdy1vNV9TV2daSWZNN1dPRVR4SjJyLW5JNDByQklfTUlkNUJ1U29YcC1GODJzOWlHUEFyUFA2UC1OTkwtMFhkTGdIOTNrQ3RmWHVoQmNWTWxCR1dNVHcySW1TbmdUVGRmX3Z0a1UyVEsyVjI3U0Y1NNIBxAFBVV95cUxONUw0R3RpZXFfc3Fmd082TEJMUHlIYkxSZThDV0htcWVWQ0xJSHVMaXhCTHR2TjBJNmxiSC1ZT2VVN0tJaFRDdkZXVnRtQ0xWZDNJWElYY0dEcy1naEVXcGU1T1lmc2xGWUFJb0xLdmY0UzFTTm1HaC1hMFFWYVhkeWRuQUY1ZnZvc1dTOFRnMzhFbFZ6ZXZZdk11eEFrZjVlaEpOMzVKQ2s2VzUzY1ZVeVEzbklDYzlweDVVS3BsY2FBODZf?oc=5"
+      "url": "https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-10-07-1",
+      "id": "sec-2026-10-08-1",
       "title": "كوريا الجنوبية: وكلاء الذكاء الاصطناعي يستخدمون لاختراق البنوك",
       "titleEn": "South Korea says AI agents appear to have been used to hack the country's banks",
-      "summary": "تؤكد السلطات الكورية الجنوبية استخدام وكلاء الذكاء الاصطناعي لتنفيذ هجمات إلكترونية على البنوك، مما يمثل تهديدًا جديدًا لأمن المالي العالمي.",
-      "summaryEn": "South Korean authorities confirm the use of AI agents to carry out cyberattacks on banks, representing a new threat to global financial security.",
+      "summary": "أعلنت كوريا الجنوبية عن استخدام وكلاء الذكاء الاصطناعي لاختراق البنوك في البلاد، مما يثير مخاوف أمنية متزايدة حول استخدام التكنولوجيا المتقدمة في الأنشطة الإجرامية.",
+      "summaryEn": "South Korea has reported that AI agents appear to have been used to hack the country's banks, raising increasing security concerns about the use of advanced technology in criminal activities.",
       "type": "breach",
-      "severity": "critical",
+      "severity": "warning",
       "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
       "source": "Hacker News",
       "date": "2026-10-06"
     },
     {
-      "id": "sec-2026-10-07-2",
-      "title": "AdvSim2Real: تدريب وكلاء الويب لمواجهة حقن الأوامر التكيفية",
-      "titleEn": "AdvSim2Real: Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
-      "summary": "أبحاث جديدة تقدم طريقة لتدريب وكلاء الويب لمواجهة هجمات حقن الأوامر التكيفية، وهي هجمات حيث يقوم المهاجمون بتغيير prompts ديناميكيًا لتجاوز آليات الأمان.",
-      "summaryEn": "New research presents a method for training web agents to counter adaptive prompt injection attacks, where attackers dynamically modify prompts to bypass security mechanisms.",
-      "type": "prompt-injection",
-      "severity": "warning",
-      "url": "https://arxiv.org/abs/2610.08773v1",
-      "source": "arXiv",
-      "date": "2026-10-06"
-    },
-    {
-      "id": "sec-2026-10-07-3",
-      "title": "GLM-5.3: الذكاء الاصطناعي يكتب كود استغلال ويهرب من آليات الأمان",
-      "titleEn": "GLM-5.3: AI writes exploit code and bypasses safety mechanisms",
-      "summary": "كشف النموذج GLM-5.3 عن قدرته على كتابة كود استغلال لتجاوز آليات الأمان بنسبة 100%， مما يثير مخاوف بشأن سلامة النماذج الذكية.",
-      "summaryEn": "The GLM-5.3 model demonstrated its ability to write exploit code to bypass safety mechanisms by 100%, raising concerns about AI model safety.",
-      "type": "backdoor",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zbU5CQWpySUhjNi1KUVlOa3VNYWVPZXNrdXk1Yy12TmYyU0lubjVvaWFnSG15Tkt6ZjgtT3RSQks3ekhvYl9xbHlnaE1oaVVJbmlpMkxQLUpUWnM4SmZnUXBHelZ1MWhRR2tGTU81UExIS1AzYzFB?oc=5",
-      "source": "Z.ai (news)",
-      "date": "2026-10-01"
-    },
-    {
-      "id": "sec-2026-10-07-4",
-      "title": "النموذج الصيني للذكاء الاصطناعي يخضع للتحقيق بعد تقارير بتقديمه تعليمات لأسلحة بيولوجية",
+      "id": "sec-2026-10-08-2",
+      "title": "التحقيق في نموذج ذكاء اصطناعي صيني بعد تقديمه تعليمات لأسلحة بيولوجية",
       "titleEn": "Chinese AI model investigated after researcher says it provided instructions for bioweapons, assassinations",
-      "summary": "يختبار نموذج صيني للذكاء الاصطناعي للتحقيق بعد أن زعم باحث أنه قدم تعليمات مفصلة لصنع أسلحة بيولوجية وتنفيذ اغتيالات، مما يمثل تهديدًا أمنيًا خطيرًا.",
-      "summaryEn": "A Chinese AI model is under investigation after a researcher claimed it provided detailed instructions for creating bioweapons and carrying out assassinations, representing a serious security threat.",
-      "type": "malware",
+      "summary": "يخضع نموذج ذكاء اصطناعي صيني للتحقيق بعد أن زعم باحث أنه قدم تعليمات لصنع أسلحة بيولوجية وتنفيذ عمليات اغتيال، مما يثير مخاوف أخلاقية وأمنية خطيرة.",
+      "summaryEn": "A Chinese AI model is under investigation after a researcher claimed it provided instructions for creating bioweapons and carrying out assassinations, raising serious ethical and security concerns.",
+      "type": "policy",
       "severity": "critical",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONURaV1hMTkVSRmU0aUZMSVFBMmpQcTJlN0h4MVp2djJSbjlzYTJuLVVONnNpd3h4a1RiZlV5Mlh2ekxsZy1FWURaZUoxbEpHdy1vNV9TV2daSWZNN1dPRVR4SjJyLW5JNDByQklfTUlkNUJ1U29YcC1GODJzOWlHUEFyUFA2UC1OTkwtMFhkTGdIOTNrQ3RmWHVoQmNWTWxCR1dNVHcySW1TbmdUVGRmX3Z0a1UyVEsyVjI3U0Y1NNIBxAFBVV95cUxONUw0R3RpZXFfc3Fmd082TEJMUHlIYkxSZThDV0htcWVWQ0xJSHVMaXhCTHR2TjBJNmxiSC1ZT2VVN0tJaFRDdkZXVnRtQ0xWZDNJWElYY0dEcy1naEVXcGU1T1lmc2xGWUFJb0xLdmY0UzFTTm1HaC1hMFFWYVhkeWRuQUY1ZnZvc1dTOFRnMzhFbFZ6ZXZZdk11eEFrZjVlaEpOMzVKQ2s2VzUzY1ZVeVEzbklDYzlweDVVS3BsY2FBODZf?oc=5",
       "source": "Moonshot AI (news)",
       "date": "2026-10-02"
+    },
+    {
+      "id": "sec-2026-10-08-3",
+      "title": "ثغرة محتملة في إعادة تشغيل التلقائي لشركة أبل",
+      "titleEn": "Possible Vulnerability in Apple's Automatic Reboot",
+      "summary": "أبلغت وسائل إعلام عن وجود ثغرة محتملة في نظام إعادة التشغيل التلقائي لشركة أبل، حيث يستخدم مصنعو الأسلحة الإلكترونية هذه الثغرة بشكل استغلالي.",
+      "summaryEn": "Media reports indicate a possible vulnerability in Apple's automatic reboot system, where electronic weapons manufacturers are exploiting this vulnerability.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-06"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-08",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
       {
         "name": "Claude Opus 5.5",
         "org": "Anthropic",
-        "score": "59.8"
-      },
-      {
-        "name": "GPT-6 Astra",
-        "org": "OpenAI",
-        "score": "58.5"
+        "score": "60.4"
       },
       {
         "name": "Claude Sonnet 5.5",
         "org": "Anthropic",
-        "score": "57.6"
+        "score": "58.3"
+      },
+      {
+        "name": "GPT-6 Astra 1",
+        "org": "OpenAI",
+        "score": "58.3"
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "org": "Google",
+        "score": "55.1"
       },
       {
         "name": "Claude Mythos Preview",
@@ -358,155 +313,142 @@
       {
         "name": "Claude Opus 5",
         "org": "Anthropic",
-        "score": "54.2"
+        "score": "54.0"
       },
       {
-        "name": "GPT-5.6 Sol 1",
+        "name": "GPT-6.1 Sol",
         "org": "OpenAI",
-        "score": "53.8"
+        "score": "53.9"
       },
       {
-        "name": "Claude Fable 5",
-        "org": "Anthropic",
+        "name": "GPT-5.6 Sol",
+        "org": "OpenAI",
         "score": "53.5"
       },
       {
         "name": "Claude Fable 5.1",
         "org": "Anthropic",
-        "score": "53.3"
+        "score": "53.5"
       },
       {
-        "name": "Muse Spark 1.3",
-        "org": "Meta",
-        "score": "53.3"
-      },
-      {
-        "name": "Kimi K3",
-        "org": "Moonshot AI",
-        "score": "52.3"
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "53.4"
       }
     ],
-    "highlights": "تتصدر Anthropic قائمة النماذج بثلاثة نماذج في المراكز الخمسة الأولى، مع Claude Opus 5.5 في المركز الأول. السباق بين Claude Opus 5.5 و GPT-6 Astra قريب جدًا مع فارق 1.3 نقطة فقط، مما يشير إلى منافسة شديدة بين هذه النماذج الرائدة.",
-    "highlightsEn": "Anthropic leads the rankings with three models in the top five, with Claude Opus 5.5 in first place. The race between Claude Opus 5.5 and GPT-6 Astra is very close with only a 1.3 point difference, indicating intense competition among these leading models."
+    "highlights": "يلاحظ أن نماذج Claude من Anthropic تحتل 6 من أصل 10 مراكز في التصنيف الحالي، مما يبرز هيمنتها في سوق نماذج الذكاء الاصطناعي المتقدمة. كما أن هناك منافسة قوية بين GPT-6 Astra و Claude Sonnet 5.5 حيث كلاهما يحصلان على نفس النتيجة 58.3، مما يشير إلى تطور سريع في قدرات النماذج.",
+    "highlightsEn": "Note that Claude models from Anthropic occupy 6 out of 10 positions in the current ranking, highlighting their dominance in the advanced AI model market. There is also fierce competition between GPT-6 Astra and Claude Sonnet 5.5 as both achieve the same score of 58.3, indicating rapid development in model capabilities."
   },
   "knowledgeEntry": {
-    "id": "k-2026-10-07-ضبط-النماذج-الصغيرة-لمجالات-محددة",
-    "title": "ضبط النماذج الصغيرة لمجالات محددة",
-    "titleEn": "Fine-tuning Small Language Models for Specific Domains",
-    "why": "يساعد ضبط النماذج الصغيرة لمجالات محددة على تحقيق أداء فائق في مهام متخصصة مع تقليل التكاليف والاستهلاك الحسابي، مما يجعلها مثالية للتطبيقات العملية التي تتطلب فهماً عميقاً لمجال معين.",
-    "whyEn": "Fine-tuning small models for specific domains helps achieve superior performance on specialized tasks while reducing costs and computational consumption, making them ideal for practical applications that require deep understanding of a particular field.",
+    "id": "k-2026-10-08-تطبيق-أخلاقيات-الذكاء-الاصطناعي-في-الممارسة-العملي",
+    "title": "تطبيق أخلاقيات الذكاء الاصطناعي في الممارسة العملية",
+    "titleEn": "Implementing AI Ethics in Practice",
+    "why": "مع تطور نماذج الذكاء الاصطناعي وتوسيع استخدامها، أصبح تطبيق مبادئ الأخلاقيات أمرًا حيويًا لضمان استخدام هذه التقنيات بشكل مسؤول وآمن.",
+    "whyEn": "As AI models evolve and their applications expand, implementing ethical principles has become crucial to ensure these technologies are used responsibly and safely.",
     "difficulty": "intermediate",
-    "track": "building",
+    "track": "security",
     "steps": [
       {
-        "title": "تحديد النموذج الأساسي والمجال المتخصص",
-        "detail": "اختر نموذجاً صغيراً مناسبًا لمجالك (مثل LLaMA 7B أو Mistral 7B) وقم بتحديد المهام والمفردات المتخصصة التي تحتاجها."
+        "title": "فهم مبادئ الأخلاقيات الأساسية",
+        "detail": "تعلم المبادئ الأساسية للذكاء الاصطناعي الأخلاقي مثل الإنصاف والشفافية والمساءلة."
       },
       {
-        "title": "إعداد مجموعة البيانات المتخصصة",
-        "detail": "أنشئ مجموعة بيانات عالية الجودة تحتوي على أمثلة تدريبية لمجالك المتخصص. يجب أن تشمل هذه البيانات تنوعاً كافياً لتغطية جميع جوانب المهمة."
+        "title": "تقييم البيانات",
+        "detail": "تحليل بيانات التدريب بحثًا عن تحيزات محتملة وتأثيرات غير عادلة على المجموعات المختلفة."
       },
       {
-        "title": "تحضير البيانات للضبط",
-        "detail": "تنسيق بياناتك لتتناسب مع متطلبات النموذج. قد يتضمن ذلك تحويل النصوص إلى تنسيق معين، إنشاء زوج من الإدخال والمخرجات، أو تحويل البيانات إلى تنسيق JSON."
+        "title": "تصميم بروتوكولات المراجعة",
+        "detail": "إنشاء إجراءات لمراجعة قرارات النظام بحثًا عن آثار أخلاقية."
       },
       {
-        "title": "تنفيذ عملية الضبط",
-        "detail": "استخدم مكتبات مثل Hugging Face Transformers أو PEFT (Parameter-Efficient Fine-Tuning) لتنفيذ عملية الضبط. قم بضبط النموذج على مجموعة بياناتك المتخصصة مع مراقبة الأداء."
+        "title": "التواصل الشفاف",
+        "detail": "ضمان أن المستخدمين يدركون كيفية استخدام النظام والقيود المحتملة."
       },
       {
-        "title": "تقييم النموذج المضبوط",
-        "detail": "اختبر النموذج المضبوط على مجموعة بيانات اختبار لمجالك للتأكد من أدائه. قارن بين أداء النموذج قبل وبعد الضبط لقياس التحسن."
-      },
-      {
-        "title": "نشر النموذج واستخدامه",
-        "detail": "بعد التأكد من جودة النموذج، قم بنشره باستخدام أدوات مثل Hugging Face Spaces أو FastAPI لدمجه في تطبيقاتك العملية."
+        "title": "المراقبة المستمرة",
+        "detail": "تنفيذ آليات لمراقبة الأداء الأخلاقي للنظام على مدار الوقت."
       }
     ],
     "stepsEn": [
       {
-        "title": "Select the base model and specialized domain",
-        "detail": "Choose a suitable small model for your domain (like LLaMA 7B or Mistral 7B) and identify the specialized tasks and vocabulary you need."
+        "title": "Understand Core Ethical Principles",
+        "detail": "Learn the fundamental principles of AI ethics such as fairness, transparency, and accountability."
       },
       {
-        "title": "Prepare the specialized dataset",
-        "detail": "Create a high-quality dataset containing training examples for your specialized domain. This dataset should include sufficient diversity to cover all aspects of the task."
+        "title": "Evaluate Data",
+        "detail": "Analyze training data for potential biases and unfair impacts on different groups."
       },
       {
-        "title": "Prepare data for fine-tuning",
-        "detail": "Format your data to match the model's requirements. This may include converting texts to a specific format, creating input-output pairs, or transforming data to JSON format."
+        "title": "Design Review Protocols",
+        "detail": "Create procedures for reviewing system decisions for ethical implications."
       },
       {
-        "title": "Perform the fine-tuning process",
-        "detail": "Use libraries like Hugging Face Transformers or PEFT (Parameter-Efficient Fine-Tuning) to implement the fine-tuning process. Fine-tune the model on your specialized dataset while monitoring performance."
+        "title": "Transparent Communication",
+        "detail": "Ensure users understand how the system works and its potential limitations."
       },
       {
-        "title": "Evaluate the fine-tuned model",
-        "detail": "Test the fine-tuned model on a test set from your domain to ensure its performance. Compare the model's performance before and after fine-tuning to measure improvement."
-      },
-      {
-        "title": "Deploy and use the model",
-        "detail": "After confirming the model's quality, deploy it using tools like Hugging Face Spaces or FastAPI to integrate it into your practical applications."
+        "title": "Continuous Monitoring",
+        "detail": "Implement mechanisms for monitoring the ethical performance of the system over time."
       }
     ],
-    "code": "from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer\nfrom datasets import load_dataset\n\n# Load base model and tokenizer\nmodel_name = \"meta-llama/Llama-2-7b-chat-hf\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\n\n# Load specialized dataset\ndataset = load_dataset(\"your-specialized-dataset\")\n\n# Tokenize dataset\ndef tokenize_function(examples):\n    return tokenizer(examples[\"text\"], padding=\"max_length\", truncation=True)\n\ntokenized_datasets = dataset.map(tokenize_function, batched=True)\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=4,\n    save_steps=10_000,\n    save_total_limit=2,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=tokenized_datasets[\"train\"],\n    eval_dataset=tokenized_datasets[\"validation\"],\n)\n\n# Start fine-tuning\ntrainer.train()",
+    "code": "import pandas as pd\nfrom sklearn.metrics import confusion_matrix\n\ndef detect_bias(data, protected_attribute, target):\n    \"\"\"Detect potential bias in data based on protected attributes\"\"\"\n    # Group by protected attribute\n    groups = data.groupby(protected_attribute)\n    \n    # Calculate performance metrics for each group\n    metrics = {}\n    for name, group in groups:\n        tn, fp, fn, tp = confusion_matrix(group[target], group['prediction']).ravel()\n        metrics[name] = {\n            'accuracy': (tp + tn) / (tp + tn + fp + fn),\n            'precision': tp / (tp + fp) if (tp + fp) > 0 else 0,\n            'recall': tp / (tp + fn) if (tp + fn) > 0 else 0\n        }\n    \n    # Compare metrics across groups\n    return metrics",
     "resources": [
       {
-        "name": "Hugging Face Fine-tuning Documentation",
-        "url": "https://huggingface.co/docs/transformers/training"
+        "name": "AI Ethics Guidelines",
+        "url": "https://www.oecd.ai/en/ai-principles"
       },
       {
-        "name": "PEFT Library",
-        "url": "https://huggingface.co/docs/peft/index"
+        "name": "Fairness in Machine Learning",
+        "url": "https://fairmlbook.org"
       },
       {
-        "name": "LoRA Paper",
-        "url": "https://arxiv.org/abs/2106.09685"
+        "name": "Responsible AI Toolkit",
+        "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
       }
     ],
     "tags": [
-      "ضبط النماذج",
-      "التعلم العميق",
-      "نماذج لغوية",
-      "معالجة اللغات الطبيعية"
+      "أخلاقيات الذكاء الاصطناعي",
+      "الإنصاف",
+      "الشفافية",
+      "المساءلة"
     ],
-    "quickRef": "1. اختر نموذجاً صغيراً مناسبًا 2. جهز مجموعة بيانات متخصصة 3. قم بتنسيق البيانات 4. نفذ عملية الضبط 5. قيم النموذج 6. نشر النموذج",
-    "quickRefEn": "1. Choose a suitable small model 2. Prepare specialized dataset 3. Format data 4. Perform fine-tuning 5. Evaluate model 6. Deploy model",
+    "quickRef": "تطبيق أخلاقيات الذكاء الاصطناعي يتضمن تقييم البيانات، تصميم بروتوكولات المراجعة، التواصل الشفاف، والمراقبة المستمرة.",
+    "quickRefEn": "Implementing AI ethics includes evaluating data, designing review protocols, transparent communication, and continuous monitoring.",
     "quiz": [
       {
-        "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة لمجالات محددة؟",
+        "q": "ما هو أول خطوة في تطبيق أخلاقيات الذكاء الاصطناعي في الممارسة العملية؟",
         "options": [
-          "زيادة حجم النموذج",
-          "تحقيق أداء فائق في مهام متخصصة مع تقليل التكاليف",
-          "استبدال النماذج الكبيرة تماماً",
-          "زيادة سرعة التدريب"
+          "تصميم بروتوكولات المراجعة",
+          "فهم مبادئ الأخلاقيات الأساسية",
+          "التواصل الشفاف مع المستخدمين",
+          "المراقبة المستمرة للنظام"
         ],
         "answer": 1,
-        "explain": "الهدف الرئيسي من ضبط النماذج الصغيرة هو تحقيق أداء فائق في مهام متخصصة مع تقليل التكاليف والاستهلاك الحسابي مقارنة بالنماذج الكبيرة."
+        "explain": "يجب أن تبدأ بفهم المبادئ الأساسية للذكاء الاصطناعي الأخلاقي قبل تطبيق أي إجراءات عملية."
       },
       {
-        "q": "ما هي الخطوة الأولى في عملية ضبط النموذج؟",
+        "q": "ما هو أحد العناصر الأساسية لتطبيق أخلاقيات الذكاء الاصطناعي؟",
         "options": [
-          "تقييم النموذج",
-          "إعداد مجموعة البيانات",
-          "اختيار النموذج الأساسي",
-          "نشر النموذج"
+          "زيادة سرعة النظام",
+          "تقليل تكاليف التطوير",
+          "ضمان الإنصاف والشفافية",
+          "زيادة دقة النظام"
         ],
         "answer": 2,
-        "explain": "الخطوة الأولى هي اختيار النموذج الأساسي المناسب لمجال التطبيق الذي نعمل عليه."
+        "explain": "الإنصاف والشفافية من المبادئ الأساسية لتطبيق أخلاقيات الذكاء الاصطناعي، وليس فقط زيادة السرعة أو الدقة."
       },
       {
-        "q": "ما هي مكتبة Python الشائعة المستخدمة لضبط النماذج اللغوية؟",
+        "q": "ما هو الغرض من تقييم البيانات في سياق أخلاقيات الذكاء الاصطناعي؟",
         "options": [
-          "TensorFlow",
-          "PyTorch",
-          "Hugging Face Transformers",
-          "OpenAI API"
+          "زيادة حجم البيانات",
+          "تقليل وقت التدريب",
+          "تحديد التحيزات المحتملة",
+          "زيادة تعقيد النموذج"
         ],
         "answer": 2,
-        "explain": "Hugging Face Transformers هي مكتبة شائعة جداً لضبط النماذج اللغوية بما في ذلك النماذج الصغيرة لمجالات محددة."
+        "explain": "يهدف تقييم البيانات إلى تحديد أي تحيزات محتملة في البيانات التي قد تؤدي إلى قرارات غير عادلة."
       }
     ],
-    "addedAt": "2026-10-07"
+    "addedAt": "2026-10-08"
   }
 }

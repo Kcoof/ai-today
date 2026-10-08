@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-08-تطبيق-أخلاقيات-الذكاء-الاصطناعي-في-الممارسة-العملي",
+      "title": "تطبيق أخلاقيات الذكاء الاصطناعي في الممارسة العملية",
+      "titleEn": "Implementing AI Ethics in Practice",
+      "why": "مع تطور نماذج الذكاء الاصطناعي وتوسيع استخدامها، أصبح تطبيق مبادئ الأخلاقيات أمرًا حيويًا لضمان استخدام هذه التقنيات بشكل مسؤول وآمن.",
+      "whyEn": "As AI models evolve and their applications expand, implementing ethical principles has become crucial to ensure these technologies are used responsibly and safely.",
+      "difficulty": "intermediate",
+      "track": "security",
+      "steps": [
+        {
+          "title": "فهم مبادئ الأخلاقيات الأساسية",
+          "detail": "تعلم المبادئ الأساسية للذكاء الاصطناعي الأخلاقي مثل الإنصاف والشفافية والمساءلة."
+        },
+        {
+          "title": "تقييم البيانات",
+          "detail": "تحليل بيانات التدريب بحثًا عن تحيزات محتملة وتأثيرات غير عادلة على المجموعات المختلفة."
+        },
+        {
+          "title": "تصميم بروتوكولات المراجعة",
+          "detail": "إنشاء إجراءات لمراجعة قرارات النظام بحثًا عن آثار أخلاقية."
+        },
+        {
+          "title": "التواصل الشفاف",
+          "detail": "ضمان أن المستخدمين يدركون كيفية استخدام النظام والقيود المحتملة."
+        },
+        {
+          "title": "المراقبة المستمرة",
+          "detail": "تنفيذ آليات لمراقبة الأداء الأخلاقي للنظام على مدار الوقت."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Core Ethical Principles",
+          "detail": "Learn the fundamental principles of AI ethics such as fairness, transparency, and accountability."
+        },
+        {
+          "title": "Evaluate Data",
+          "detail": "Analyze training data for potential biases and unfair impacts on different groups."
+        },
+        {
+          "title": "Design Review Protocols",
+          "detail": "Create procedures for reviewing system decisions for ethical implications."
+        },
+        {
+          "title": "Transparent Communication",
+          "detail": "Ensure users understand how the system works and its potential limitations."
+        },
+        {
+          "title": "Continuous Monitoring",
+          "detail": "Implement mechanisms for monitoring the ethical performance of the system over time."
+        }
+      ],
+      "code": "import pandas as pd\nfrom sklearn.metrics import confusion_matrix\n\ndef detect_bias(data, protected_attribute, target):\n    \"\"\"Detect potential bias in data based on protected attributes\"\"\"\n    # Group by protected attribute\n    groups = data.groupby(protected_attribute)\n    \n    # Calculate performance metrics for each group\n    metrics = {}\n    for name, group in groups:\n        tn, fp, fn, tp = confusion_matrix(group[target], group['prediction']).ravel()\n        metrics[name] = {\n            'accuracy': (tp + tn) / (tp + tn + fp + fn),\n            'precision': tp / (tp + fp) if (tp + fp) > 0 else 0,\n            'recall': tp / (tp + fn) if (tp + fn) > 0 else 0\n        }\n    \n    # Compare metrics across groups\n    return metrics",
+      "resources": [
+        {
+          "name": "AI Ethics Guidelines",
+          "url": "https://www.oecd.ai/en/ai-principles"
+        },
+        {
+          "name": "Fairness in Machine Learning",
+          "url": "https://fairmlbook.org"
+        },
+        {
+          "name": "Responsible AI Toolkit",
+          "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
+        }
+      ],
+      "tags": [
+        "أخلاقيات الذكاء الاصطناعي",
+        "الإنصاف",
+        "الشفافية",
+        "المساءلة"
+      ],
+      "quickRef": "تطبيق أخلاقيات الذكاء الاصطناعي يتضمن تقييم البيانات، تصميم بروتوكولات المراجعة، التواصل الشفاف، والمراقبة المستمرة.",
+      "quickRefEn": "Implementing AI ethics includes evaluating data, designing review protocols, transparent communication, and continuous monitoring.",
+      "quiz": [
+        {
+          "q": "ما هو أول خطوة في تطبيق أخلاقيات الذكاء الاصطناعي في الممارسة العملية؟",
+          "options": [
+            "تصميم بروتوكولات المراجعة",
+            "فهم مبادئ الأخلاقيات الأساسية",
+            "التواصل الشفاف مع المستخدمين",
+            "المراقبة المستمرة للنظام"
+          ],
+          "answer": 1,
+          "explain": "يجب أن تبدأ بفهم المبادئ الأساسية للذكاء الاصطناعي الأخلاقي قبل تطبيق أي إجراءات عملية."
+        },
+        {
+          "q": "ما هو أحد العناصر الأساسية لتطبيق أخلاقيات الذكاء الاصطناعي؟",
+          "options": [
+            "زيادة سرعة النظام",
+            "تقليل تكاليف التطوير",
+            "ضمان الإنصاف والشفافية",
+            "زيادة دقة النظام"
+          ],
+          "answer": 2,
+          "explain": "الإنصاف والشفافية من المبادئ الأساسية لتطبيق أخلاقيات الذكاء الاصطناعي، وليس فقط زيادة السرعة أو الدقة."
+        },
+        {
+          "q": "ما هو الغرض من تقييم البيانات في سياق أخلاقيات الذكاء الاصطناعي؟",
+          "options": [
+            "زيادة حجم البيانات",
+            "تقليل وقت التدريب",
+            "تحديد التحيزات المحتملة",
+            "زيادة تعقيد النموذج"
+          ],
+          "answer": 2,
+          "explain": "يهدف تقييم البيانات إلى تحديد أي تحيزات محتملة في البيانات التي قد تؤدي إلى قرارات غير عادلة."
+        }
+      ],
+      "addedAt": "2026-10-08"
+    },
+    {
       "id": "k-2026-10-07-ضبط-النماذج-الصغيرة-لمجالات-محددة",
       "title": "ضبط النماذج الصغيرة لمجالات محددة",
       "titleEn": "Fine-tuning Small Language Models for Specific Domains",
