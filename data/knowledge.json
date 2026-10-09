@@ -1,6 +1,99 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-09-تنفيذ-نظام-rag-البسيط",
+      "title": "تنفيذ نظام RAG البسيط",
+      "titleEn": "Implementing a Simple RAG System",
+      "why": "أنظمة RAG (Retrieval-Augmented Generation) تجمع بين قواعد البيانات المتجهة ونماذج اللغة الكبيرة لتوفير إجابات أكثر دقة وموثوقية، خاصة للمعلومات المتخصصة أو الحديثة التي قد لا تكون مدربة في النموذج الأساسي.",
+      "whyEn": "RAG (Retrieval-Augmented Generation) systems combine vector databases with large language models to provide more accurate and reliable answers, especially for specialized or recent information that may not be trained in the base model.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحضير البيانات",
+          "detail": "قم بتحويل مستنداتك إلى نصوص مقسمة، ثم قم بإنشاء embeddings لكل جزء باستخدام نموذج مثل text-embedding-ada-002. قم بتخزين هذه embeddings وقصاصات النص المقابلة في قاعدة بيانات متجهية مثل ChromaDB أو FAISS."
+        },
+        {
+          "title": "بناء واجهة الاسترجاع",
+          "detail": "عند استفسار المستخدم، قم بإنشاء embedding للسؤال واستخدمه للبحث عن أجزاء النص الأكثر相关性 من قاعدة البيانات المتجهية باستخدام قياس التشابه مثل التشابه الكوسيني."
+        },
+        {
+          "title": "دمج الاسترجاع مع التوليد",
+          "detail": "قم بإنشاء موجه (prompt) يجمع بين استفسار المستخدم والنتائج المسترجعة، ثم أرسله إلى نموذج اللغة الكبيرة للحصول على إجابة دقيقة ومستندة إلى المصادر."
+        },
+        {
+          "title": "تحسين النظام",
+          "detail": "قم بتحديد أفضل عدد من النتائج المسترجعة، واختبر طرق مختلفة لدمج المعلومات، وقم بتحسين النموذج بناءً على التغذية الراجعة من المستخدمين."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Prepare the Data",
+          "detail": "Convert your documents into chunked text, then create embeddings for each chunk using a model like text-embedding-ada-002. Store these embeddings and corresponding text chunks in a vector database like ChromaDB or FAISS."
+        },
+        {
+          "title": "Build the Retrieval Interface",
+          "detail": "When a user queries, create an embedding for the query and use it to search for the most relevant text chunks from the vector database using similarity metrics like cosine similarity."
+        },
+        {
+          "title": "Combine Retrieval with Generation",
+          "detail": "Create a prompt that combines the user's query with the retrieved results, then send it to the large language model to get an accurate, source-based answer."
+        },
+        {
+          "title": "Optimize the System",
+          "detail": "Determine the optimal number of retrieved results, test different ways of combining information, and improve the model based on user feedback."
+        }
+      ],
+      "code": "import chromadb\nfrom chromadb.utils import embedding_functions\n\n# Initialize ChromaDB\ncollection = chromadb.Client().create_collection(\"rag_docs\")\n\n# Add documents\ncollection.add(\n    documents=[\"Your text here\"],\n    embeddings=embedding_function([\"Your text here\"])\n)\n\n# Query results\nresults = collection.query(\n    query_embeddings=[embedding_function([\"user query\"])],\n    n_results=3\n)",
+      "resources": [
+        {
+          "name": "ChromaDB Documentation",
+          "url": "https://docs.trychroma.com/"
+        },
+        {
+          "name": "OpenAI Embedding API",
+          "url": "https://platform.openai.com/docs/guides/embeddings"
+        },
+        {
+          "name": "LangChain RAG Tutorial",
+          "url": "https://python.langchain.com/docs/modules/data_connection/retrievers/"
+        }
+      ],
+      "tags": [
+        "RAG",
+        "Vector Databases",
+        "LLM Applications",
+        "Information Retrieval"
+      ],
+      "quickRef": "أنظمة RAG تربط بين قواعد البيانات المتجهة ونماذج اللغة لتحسين دقة الإجابات باستخدام استرجاع المعلومات ذات الصلة قبل التوليد.",
+      "quickRefEn": "RAG systems connect vector databases with language models to improve answer accuracy by retrieving relevant information before generation.",
+      "quiz": [
+        {
+          "q": "ما هي الخطوة الأولى في تنفيذ نظام RAG؟",
+          "options": [
+            "بناء نموذج لغة كبير",
+            "تحويل المستندات إلى embeddings وتخزينها",
+            "إنشاء واجهة مستخدم",
+            "اختبار النظام"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى هي تحويل المستندات إلى embeddings وتخزينها في قاعدة بيانات متجهية،以便 لاحقًا يمكن استرجاع الأجزاء الأكثر صلة بالاستفسارات."
+        },
+        {
+          "q": "ما الغرض من استخدام قياس التشابه مثل التشابه الكوسيني في أنظمة RAG؟",
+          "options": [
+            "لتحسين سرعة النموذج",
+            "لتحديد أجزاء النص الأكثر صلة بالاستفسار",
+            "لضمان أمان البيانات",
+            "لضغط حجم النماذج"
+          ],
+          "answer": 1,
+          "explain": "يستخدم قياس التشابه مثل التشابه الكوسيني لتحديد أجزاء النص الأكثر صلة بالاستفسار من قاعدة البيانات المتجهية، مما يضمن أن النموذج يعمل على المعلومات الأكثر صلة."
+        }
+      ],
+      "addedAt": "2026-10-09"
+    },
+    {
       "id": "k-2026-10-08-تطبيق-أخلاقيات-الذكاء-الاصطناعي-في-الممارسة-العملي",
       "title": "تطبيق أخلاقيات الذكاء الاصطناعي في الممارسة العملية",
       "titleEn": "Implementing AI Ethics in Practice",
