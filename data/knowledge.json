@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-10-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً-بكفاءة",
+      "title": "تشغيل نماذج الذكاء الاصطناعي محلياً بكفاءة",
+      "titleEn": "Running Local AI Models Efficiently",
+      "why": "يتيح تشغيل نماذج الذكاء الاصطناعي محلياً للمستخدمين التحكم الكامل ببياناتهم مع الحصول على نتائج فورية دون الاعتماد على الاتصال بالإنترنت، مما يوفر خصوصية أعلى ويقلل التكاليف.",
+      "whyEn": "Running AI models locally gives users full control over their data while getting instant results without relying on internet connectivity, providing higher privacy and reducing costs.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "اختيار النموذج المناسب",
+          "detail": "اختر نموذجاً صالحاً للتشغيل المحلي بناءً على متطلبات الموارد (RAM، GPU) وحجم النموذج."
+        },
+        {
+          "title": "تجهيز البيئة",
+          "detail": "تأكد من تثبيت المتطلبات الأساسية مثل Python، PyTorch أو TensorFlow، وأدوات التشغيل المناسبة للنموذج."
+        },
+        {
+          "title": "تحميل النموذج",
+          "detail": "قم بتحميل النموذج المحدد من المصدر الرسمي أو مستودعات موثوقة مثل Hugging Face."
+        },
+        {
+          "title": "تحسين الأداء",
+          "detail": "استخدم تقنيات مثل الكمون (quantization) والتقطيع (tensor partitioning) لتقليل استهلاك الذاكرة وتسريع المعالجة."
+        },
+        {
+          "title": "التشغيل والاختبار",
+          "detail": "قم بتشغيل النموذج محلياً واختبره مع أمثلة مختلفة لضمان الأداء المتوقع."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Choose the right model",
+          "detail": "Select a model suitable for local operation based on resource requirements (RAM, GPU) and model size."
+        },
+        {
+          "title": "Set up the environment",
+          "detail": "Ensure you have the basic requirements installed like Python, PyTorch or TensorFlow, and appropriate model running tools."
+        },
+        {
+          "title": "Download the model",
+          "detail": "Download the specified model from the official source or trusted repositories like Hugging Face."
+        },
+        {
+          "title": "Optimize performance",
+          "detail": "Use techniques like quantization and tensor partitioning to reduce memory consumption and speed up processing."
+        },
+        {
+          "title": "Run and test",
+          "detail": "Run the model locally and test it with various examples to ensure expected performance."
+        }
+      ],
+      "code": "from transformers import AutoModelForCausalLM, AutoTokenizer\nimport torch\n\n# Load model and tokenizer\nmodel_name = \"microsoft/DialoGPT-small\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\n\n# Generate response\ndef get_response(input_text):\n    # Encode the input text\n    input_ids = tokenizer.encode(input_text + tokenizer.eos_token, return_tensors='pt')\n    \n    # Generate response\n    output = model.generate(input_ids, max_length=1000, pad_token_id=tokenizer.eos_token_id)\n    \n    # Decode and return the response\n    return tokenizer.decode(output[:, input_ids.shape[-1]:][0], skip_special_tokens=True)\n\n# Example usage\nprint(get_response(\"Hello! How are you?\"))",
+      "resources": [
+        {
+          "name": "Hugging Face Documentation",
+          "url": "https://huggingface.co/docs/transformers/index"
+        },
+        {
+          "name": "PyTorch Installation Guide",
+          "url": "https://pytorch.org/get-started/locally/"
+        },
+        {
+          "name": "TensorFlow Installation",
+          "url": "https://www.tensorflow.org/install"
+        }
+      ],
+      "tags": [
+        "محلي",
+        "نماذج",
+        "كفاءة",
+        "تشغيل"
+      ],
+      "quickRef": "اختر نموذجاً مناسباً لموارد جهازك\nجهز البيئة اللازمة قبل التشغيل\nاستخدم تقنيات التحسين للأداء الأفضل\nاختبر النموذج جيداً قبل الاستخدام",
+      "quickRefEn": "Choose a model suitable for your device resources\nPrepare the necessary environment before running\nUse optimization techniques for better performance\nTest the model thoroughly before use",
+      "quiz": [
+        {
+          "q": "ما هي الميزة الرئيسية لتشغيل نماذج الذكاء الاصطناعي محلياً؟",
+          "options": [
+            "التكلفة الأقل",
+            "السرعة الأعلى",
+            "التحكم الكامل بالبيانات وخصوصية أعلى",
+            "سهولة الاستخدام"
+          ],
+          "answer": 2,
+          "explain": "تشغيل النماذج محلياً يمنح المستخدمين التحكم الكامل ببياناتهم وخصوصية أعلى دون الحاجة للاتصال بالإنترنت."
+        },
+        {
+          "q": "أي من التقنيات التالية يساعد في تحسين أداء النماذج المحلية؟",
+          "options": [
+            "زيادة حجم النموذج",
+            "الكمون (quantization)",
+            "إضافة المزيد من الطبقات",
+            "زيادة دقة البيانات"
+          ],
+          "answer": 1,
+          "explain": "الكمون (quantization) هي تقنية تقلل من دقة النموذج ولكنها تقلل من حجمه وتساعد على تشغيله على أجهزة أقل قوة."
+        },
+        {
+          "q": "ما هو المصدر الموثوق لتحميل النماذج؟",
+          "options": [
+            "أي موقع ويب",
+            "مستودعات مثل Hugging Face",
+            "محركات البحث",
+            "منتديات غير رسمية"
+          ],
+          "answer": 1,
+          "explain": "مستودعات مثل Hugging Face توفر نماذج موثوقة وموثقة مع وثائق كاملة حول كيفية استخدامها."
+        }
+      ],
+      "addedAt": "2026-10-10"
+    },
+    {
       "id": "k-2026-10-09-تنفيذ-نظام-rag-البسيط",
       "title": "تنفيذ نظام RAG البسيط",
       "titleEn": "Implementing a Simple RAG System",

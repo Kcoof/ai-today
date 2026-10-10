@@ -1,0 +1,378 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T17:34:41.629Z",
+  "news": [
+    {
+      "id": "n-2026-10-09-1",
+      "title": "Reflection AI تطلق Beam، نموذج مفتوح المصدر لمواجهة النماذج الصينية",
+      "titleEn": "Reflection AI unveils Beam, an open-weight AI model to rival Chinese models",
+      "summary": "أطلقت شركة Reflection AI النموذج المفتوح Beam، المصمم للمنافسة مع النماذج الصينية بتكلفة حسابية أقل.",
+      "summaryEn": "Reflection AI has launched the open model Beam, designed to compete with Chinese models at lower compute cost.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSDZGMTF6bG9MakF5andodEYydVRONTZqckdURmpncmI1YzBzVmNBcXdoSDRrM3JmQ1dMWWlKbXZhV3lUcEtxSkRLdFNTYm4wNV9FeWdUUThQVGFpbUpiN05Bdms2cVh2NEI1N05FaWk5SkxNUEFvM0I1MVBmc3hFalJhcHJaMHpPejgxSS1fWTVQc3dRMTBWSlFjN3czNmJrLXlfTDYtbDJrN1A4UkQ3XzlNaXhDMWU3UE5nNVZ1dHRKUFlL?oc=5"
+      },
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "id": "n-2026-10-09-2",
+      "title": "جولة التمويل لشركة DeepSeek قد تصل إلى 15 مليار دولار مع زيادة الطلب من المستثمرين",
+      "titleEn": "DeepSeek's funding round could approach $15 billion as investor demand surges",
+      "summary": "تشير التقارير إلى أن جولة التمويل لشركة DeepSeek قد تصل إلى 15 مليار دولار مع زيادة الطلب من المستثمرين.",
+      "summaryEn": "Reports indicate that DeepSeek's funding round could reach $15 billion as investor demand increases.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wOTV4cTA0T291WTByeUo3Ync3YzBJdTd4S1ZtcEhzOVdkd2Iyb1JtTHU0YTRvNWRGTXI2M3NLZnBEWnFpeTdnQW1NcTFYQnVlMHZDVnhkcFMwdFl3U2N5dHpkZDFXZ1k?oc=5"
+      },
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "n-2026-10-09-3",
+      "title": "تدخل OpenAI لوقف عمليات تأثير مدعومة بالذكاء الاصطناعي",
+      "titleEn": "Disrupting AI-enabled 'false front' operations",
+      "summary": "أوقفت OpenAI عمليتي تأثير مدعومتين بالذكاء الاصطناعي استخدما صحفيين وهميين لنشر معلومات مضللة.",
+      "summaryEn": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists to spread misinformation.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+      },
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "n-2026-10-09-4",
+      "title": "تقليل Sophos لوقت التحقيق في التهديدات الأمنية بنسبة 96% باستخدام OpenAI Daybreak",
+      "titleEn": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "summary": "كيف تستخدم Sophos منصة OpenAI Daybreak لتقليل وقت التحقيق في التهديدات السيبرانية بنسبة 96%.",
+      "summaryEn": "Discover how Sophos uses OpenAI's Daybreak to cut cyber-threat investigation time by 96%.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/sophos"
+      },
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "id": "n-2026-10-09-5",
+      "title": "حملة إيرانية نشرت مقالات وهمية في منشورات أمريكية حقيقية باستخدام ChatGPT",
+      "titleEn": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+      "summary": "كشفت حملة إيرانية عن استخدامها لـ ChatGPT لنشر مقالات وهمية في منشورات أمريكية حقيقية.",
+      "summaryEn": "An Iranian campaign revealed using ChatGPT to plant fake articles in real U.S. publications.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/"
+      },
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "id": "n-2026-10-09-6",
+      "title": "كيف تحول Oracle أيام العمل إلى دقائق باستخدام ChatGPT وCodex",
+      "titleEn": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "summary": "كيف تستخدم Oracle معرفتها المتخصصة في التوظيف والهندسة والعمليات لتحويل المهام المعقدة إلى مهام سريعة.",
+      "summaryEn": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, efficient tasks.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/oracle"
+      },
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "n-2026-10-09-7",
+      "title": "تقليل LegalON لتكاليف Codex بنسبة 50% مع الحفاظ على سرعة التطوير",
+      "titleEn": "LegalOn halves Codex costs while maintaining development speed",
+      "summary": "نجحت LegalON في تقليل التكاليف اليومية المقدرة لـ Codex بنسبة 65% مع الحفاظ على سرعة التطوير.",
+      "summaryEn": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/legalon-halves-codex-costs"
+      },
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "n-2026-10-09-8",
+      "title": "مجموعة فنادق راديسون تجلب اكتشاف الفنادق إلى ChatGPT",
+      "titleEn": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "summary": "شركة راديسون للفنادق تعاونت مع Accenture لبناء إضافة لـ ChatGPT باستخدام تقنية OpenAI لمساعدة المستخدمين في اكتشاف الفنادق.",
+      "summaryEn": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping users discover hotels.",
+      "category": "tools",
+      "importance": 2,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/radisson"
+      },
+      "publishedAt": "2026-10-07"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-10-09-1",
+      "name": "Beam",
+      "org": "Reflection AI",
+      "releaseDate": "2026-10-05",
+      "highlights": "نموذج مفتوح المصدر مصمم للمنافسة مع النماذج الصينية بتكلفة حسابية أقل",
+      "highlightsEn": "Open-source model designed to compete with Chinese models at lower compute cost",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSDZGMTF6bG9MakF5andodEYydVRONTZqckdURmpncmI1YzBzVmNBcXdoSDRrM3JmQ1dMWWlKbXZhV3lUcEtxSkRLdFNTYm4wNV9FeWdUUThQVGFpbUpiN05Bdms2cVh2NEI1N05FaWk5SkxNUEFvM0I1MVBmc3hFalJhcHJaMHpPejgxSS1fWTVQc3dRMTBWSlFjN3czNmJrLXlfTDYtbDJrN1A4UkQ3XzlNaXhDMWU3UE5nNVZ1dHRKUFlL?oc=5"
+    },
+    {
+      "id": "m-2026-10-09-2",
+      "name": "Gemini 4 Argon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-30",
+      "highlights": "عصر جديد من الذكاء المتقدم من Google DeepMind",
+      "highlightsEn": "New era of frontier intelligence from Google DeepMind",
+      "specs": {},
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+    },
+    {
+      "id": "m-2026-10-09-3",
+      "name": "Muse Spark 1.1",
+      "org": "Meta AI",
+      "releaseDate": "2026-10-01",
+      "highlights": "نسخة محسنة من نموذج Meta للإبداع",
+      "highlightsEn": "Enhanced version of Meta's creative model",
+      "specs": {},
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+    },
+    {
+      "id": "m-2026-10-09-4",
+      "name": "Muse Image and Muse Video",
+      "org": "Meta AI",
+      "releaseDate": "2026-10-01",
+      "highlights": "نماذج جديدة لإنشاء الصور والفيديو من Meta",
+      "highlightsEn": "New models for image and video generation from Meta",
+      "specs": {},
+      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-10-09-1",
+      "text": "تشير التقارير إلى أن جولة التمويل لشركة DeepSeek قد تصل إلى 15 مليار دولار مع زيادة الطلب من المستثمرين.",
+      "textEn": "Reports indicate that DeepSeek's funding round could reach $15 billion as investor demand increases.",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wOTV4cTA0T291WTByeUo3Ync3YzBJdTd4S1ZtcEhzOVdkd2Iyb1JtTHU0YTRvNWRGTXI2M3NLZnBEWnFpeTdnQW1NcTFYQnVlMHZDVnhkcFMwdFl3U2N5dHpkZDFXZ1k?oc=5"
+    },
+    {
+      "id": "h-2026-10-09-2",
+      "text": "أوقفت OpenAI عمليتي تأثير مدعومتين بالذكاء الاصطناعي استخدما صحفيين وهميين لنشر معلومات مضللة.",
+      "textEn": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists to spread misinformation.",
+      "level": "warning",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-10-09-1",
+      "title": "حملة إيرانية نشرت مقالات وهمية في منشورات أمريكية حقيقية باستخدام ChatGPT",
+      "titleEn": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+      "summary": "كشفت حملة إيرانية عن استخدامها لـ ChatGPT لنشر مقالات وهمية في منشورات أمريكية حقيقية، مما يسلط الضوء على مخاطر استخدام الذكاء الاصطناعي في نشر المعلومات المضللة.",
+      "summaryEn": "An Iranian campaign revealed using ChatGPT to plant fake articles in real U.S. publications, highlighting the risks of using AI to spread misinformation.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+      "source": "Hacker News",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "sec-2026-10-09-2",
+      "title": "تدخل OpenAI لوقف عمليات تأثير مدعومة بالذكاء الاصطناعي",
+      "titleEn": "Disrupting AI-enabled 'false front' operations",
+      "summary": "أوقفت OpenAI عمليتي تأثير مدعومتين بالذكاء الاصطناعي استخدما صحفيين وهميين لنشر معلومات مضللة، مما يوضح الجهود المبذولة لمكافحة استخدام الذكاء الاصطناعي في العمليات الخبيثة.",
+      "summaryEn": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists to spread misinformation, illustrating efforts to combat malicious use of AI.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "source": "OpenAI",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "sec-2026-10-09-3",
+      "title": "ثغرة محتملة في إعادة التشغيل التلقائية لشركة أبل",
+      "titleEn": "Possible Vulnerability in Apple's Automatic Reboot",
+      "summary": "تقرير يشير إلى أن مصنعي أسلحة سيبرانية يستغلون ثغرة في إعادة التشغيل التلقائية لشركة أبل.",
+      "summaryEn": "Report indicating that cyber-weapons manufacturers are exploiting a vulnerability in Apple's Automatic Reboot.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "sec-2026-10-09-4",
+      "title": "بيئة وكلاء الذكاء الاصطناعي: التعاون يخلق عتبة سكانية للانطلاق",
+      "titleEn": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
+      "summary": "يمكن الآن وكلاء الذكاء الاصطناعي إجراء هجمات سيبرانية في العالم الحقيقي وتوسيع قدراتهم مع زيادة عدد الوكلاء، مما يثير مخاوف أمنية جديدة.",
+      "summaryEn": "AI agents can now conduct real-world cyberattacks and scale up capabilities with the number of agents, raising new security concerns.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://arxiv.org/abs/2610.12436v1",
+      "source": "arXiv",
+      "date": "2026-10-08"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-10-09",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "60.4"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "58.3"
+      },
+      {
+        "name": "GPT-6 Astra 1",
+        "org": "OpenAI",
+        "score": "58.3"
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "org": "Google",
+        "score": "55.1"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "54.4"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "54.0"
+      },
+      {
+        "name": "GPT-6.1 Sol",
+        "org": "OpenAI",
+        "score": "53.9"
+      },
+      {
+        "name": "GPT-5.6 Sol 3",
+        "org": "OpenAI",
+        "score": "53.5"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "53.5"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "53.4"
+      }
+    ],
+    "highlights": "يشهد الترتيب الحالي ظهور نموذج Claude Sonnet 5.5 كأحدث إضافة في المرتبة الثانية، بينما تظهر منافسة قوية بين Claude Opus 5.5 و GPT-6 Astra 1 في الصدارة. كما نلاحز توازن في النتائج بين GPT-5.6 Sol 3 و Claude Fable 5.1 في المرتبة الثامنة.",
+    "highlightsEn": "The current ranking shows Claude Sonnet 5.5 as the newest addition in second place, while there's strong competition between Claude Opus 5.5 and GPT-6 Astra 1 at the top. We also see a tie in scores between GPT-5.6 Sol 3 and Claude Fable 5.1 at eighth place."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-10-09-تنفيذ-نظام-rag-البسيط",
+    "title": "تنفيذ نظام RAG البسيط",
+    "titleEn": "Implementing a Simple RAG System",
+    "why": "أنظمة RAG (Retrieval-Augmented Generation) تجمع بين قواعد البيانات المتجهة ونماذج اللغة الكبيرة لتوفير إجابات أكثر دقة وموثوقية، خاصة للمعلومات المتخصصة أو الحديثة التي قد لا تكون مدربة في النموذج الأساسي.",
+    "whyEn": "RAG (Retrieval-Augmented Generation) systems combine vector databases with large language models to provide more accurate and reliable answers, especially for specialized or recent information that may not be trained in the base model.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "تحضير البيانات",
+        "detail": "قم بتحويل مستنداتك إلى نصوص مقسمة، ثم قم بإنشاء embeddings لكل جزء باستخدام نموذج مثل text-embedding-ada-002. قم بتخزين هذه embeddings وقصاصات النص المقابلة في قاعدة بيانات متجهية مثل ChromaDB أو FAISS."
+      },
+      {
+        "title": "بناء واجهة الاسترجاع",
+        "detail": "عند استفسار المستخدم، قم بإنشاء embedding للسؤال واستخدمه للبحث عن أجزاء النص الأكثر相关性 من قاعدة البيانات المتجهية باستخدام قياس التشابه مثل التشابه الكوسيني."
+      },
+      {
+        "title": "دمج الاسترجاع مع التوليد",
+        "detail": "قم بإنشاء موجه (prompt) يجمع بين استفسار المستخدم والنتائج المسترجعة، ثم أرسله إلى نموذج اللغة الكبيرة للحصول على إجابة دقيقة ومستندة إلى المصادر."
+      },
+      {
+        "title": "تحسين النظام",
+        "detail": "قم بتحديد أفضل عدد من النتائج المسترجعة، واختبر طرق مختلفة لدمج المعلومات، وقم بتحسين النموذج بناءً على التغذية الراجعة من المستخدمين."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Prepare the Data",
+        "detail": "Convert your documents into chunked text, then create embeddings for each chunk using a model like text-embedding-ada-002. Store these embeddings and corresponding text chunks in a vector database like ChromaDB or FAISS."
+      },
+      {
+        "title": "Build the Retrieval Interface",
+        "detail": "When a user queries, create an embedding for the query and use it to search for the most relevant text chunks from the vector database using similarity metrics like cosine similarity."
+      },
+      {
+        "title": "Combine Retrieval with Generation",
+        "detail": "Create a prompt that combines the user's query with the retrieved results, then send it to the large language model to get an accurate, source-based answer."
+      },
+      {
+        "title": "Optimize the System",
+        "detail": "Determine the optimal number of retrieved results, test different ways of combining information, and improve the model based on user feedback."
+      }
+    ],
+    "code": "import chromadb\nfrom chromadb.utils import embedding_functions\n\n# Initialize ChromaDB\ncollection = chromadb.Client().create_collection(\"rag_docs\")\n\n# Add documents\ncollection.add(\n    documents=[\"Your text here\"],\n    embeddings=embedding_function([\"Your text here\"])\n)\n\n# Query results\nresults = collection.query(\n    query_embeddings=[embedding_function([\"user query\"])],\n    n_results=3\n)",
+    "resources": [
+      {
+        "name": "ChromaDB Documentation",
+        "url": "https://docs.trychroma.com/"
+      },
+      {
+        "name": "OpenAI Embedding API",
+        "url": "https://platform.openai.com/docs/guides/embeddings"
+      },
+      {
+        "name": "LangChain RAG Tutorial",
+        "url": "https://python.langchain.com/docs/modules/data_connection/retrievers/"
+      }
+    ],
+    "tags": [
+      "RAG",
+      "Vector Databases",
+      "LLM Applications",
+      "Information Retrieval"
+    ],
+    "quickRef": "أنظمة RAG تربط بين قواعد البيانات المتجهة ونماذج اللغة لتحسين دقة الإجابات باستخدام استرجاع المعلومات ذات الصلة قبل التوليد.",
+    "quickRefEn": "RAG systems connect vector databases with language models to improve answer accuracy by retrieving relevant information before generation.",
+    "quiz": [
+      {
+        "q": "ما هي الخطوة الأولى في تنفيذ نظام RAG؟",
+        "options": [
+          "بناء نموذج لغة كبير",
+          "تحويل المستندات إلى embeddings وتخزينها",
+          "إنشاء واجهة مستخدم",
+          "اختبار النظام"
+        ],
+        "answer": 1,
+        "explain": "الخطوة الأولى هي تحويل المستندات إلى embeddings وتخزينها في قاعدة بيانات متجهية،以便 لاحقًا يمكن استرجاع الأجزاء الأكثر صلة بالاستفسارات."
+      },
+      {
+        "q": "ما الغرض من استخدام قياس التشابه مثل التشابه الكوسيني في أنظمة RAG؟",
+        "options": [
+          "لتحسين سرعة النموذج",
+          "لتحديد أجزاء النص الأكثر صلة بالاستفسار",
+          "لضمان أمان البيانات",
+          "لضغط حجم النماذج"
+        ],
+        "answer": 1,
+        "explain": "يستخدم قياس التشابه مثل التشابه الكوسيني لتحديد أجزاء النص الأكثر صلة بالاستفسار من قاعدة البيانات المتجهية، مما يضمن أن النموذج يعمل على المعلومات الأكثر صلة."
+      }
+    ],
+    "addedAt": "2026-10-09"
+  }
+}
