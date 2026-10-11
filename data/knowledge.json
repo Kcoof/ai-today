@@ -1,6 +1,110 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-11-تحسين-أداء-النماذج-باستخدام-تقنيات-التفكير-المتسلس",
+      "title": "تحسين أداء النماذج باستخدام تقنيات التفكير المتسلسل",
+      "titleEn": "Improving Model Performance with Chain-of-Thought Techniques",
+      "why": "تعتمد نماذج الذكاء الاصطناعي الحالية على فهم السياق بشكل مباشر، ولكن استخدام تقنيات التفكير المتسلسل يمكن أن يحسن دقة الاستجابات بشكل كبير، خاصة في المهام المعقدة التي تتطلب خطوات متعددة.",
+      "whyEn": "Current AI models rely on direct context understanding, but using chain-of-thought techniques can significantly improve response accuracy, especially for complex tasks requiring multiple steps.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "فهم أساسيات التفكير المتسلسل",
+          "detail": "ابدأ بتحليل المشكلة خطوة بخطوة، واذكر كل خطوة منطقية واضحة قبل الوصول إلى الاستنتاج النهائي."
+        },
+        {
+          "title": "تصميم المطالبات المناسبة",
+          "detail": "استخدم عبارات مثل 'دعنا نفكر خطوة بخطوة' أو 'لحل هذه المشكلة، سنقوم بـ...' لتوجيه النموذج نحو التفكير المتسلسل."
+        },
+        {
+          "title": "التدرج في التعقيد",
+          "detail": "ابدأ بمهام بسيطة ثم انتقل تدريجياً إلى مهام أكثر تعقيداً لمساعدة النموذج على تطوير مهاراته في التفكير المتسلسل."
+        },
+        {
+          "title": "التقييم والتحسين",
+          "detail": "قم بتقييم استجابات النموذج وتحديد أين يمكن تحسين التفكير المتسلسل، ثم عدل المطالبات بناءً على ذلك."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Chain-of-Thought Basics",
+          "detail": "Start by analyzing the problem step by step, mentioning each logical step clearly before reaching the final conclusion."
+        },
+        {
+          "title": "Designing Appropriate Prompts",
+          "detail": "Use phrases like 'Let's think step by step' or 'To solve this problem, we will...' to guide the model toward chain-of-thought reasoning."
+        },
+        {
+          "title": "Gradual Complexity Increase",
+          "detail": "Begin with simple tasks and gradually move to more complex ones to help the model develop its chain-of-thought skills."
+        },
+        {
+          "title": "Evaluation and Improvement",
+          "detail": "Evaluate the model's responses and identify where chain-of-thought reasoning can be improved, then adjust prompts accordingly."
+        }
+      ],
+      "code": "python\ndef chain_of_thought_prompt(question):\n    return f\"\"\"\n    Let's think step by step to solve this problem:\n    \n    Question: {question}\n    \n    Step 1: [First logical step]\n    Step 2: [Second logical step]\n    Step 3: [Third logical step]\n    ...\n    \n    Final Answer: [Conclusion based on the steps]\n    \"\"\"\n\n# Example usage\nquestion = \"If a train travels 60 miles in 1 hour, how far will it travel in 2.5 hours?\"\nprompt = chain_of_thought_prompt(question)\nprint(prompt)",
+      "resources": [
+        {
+          "name": "Chain-of-Thought Prompting",
+          "url": "https://arxiv.org/abs/2201.11903"
+        },
+        {
+          "name": "Advanced Prompt Engineering Guide",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "name": "Chain-of-Thought Examples",
+          "url": "https://github.com/dair-ai/Prompt-Gallery/tree/main/chain-of-thought"
+        }
+      ],
+      "tags": [
+        "تطوير النماذج",
+        "هندسة المطالبات",
+        "التفكير المتسلسل",
+        "تحسين الأداء"
+      ],
+      "quickRef": "استخدم عبارات مثل 'دعنا نفكر خطوة بخطوة' لتوجيه النموذج نحو التفكير المنطقي المتسلسل، وابدأ بمهام بسيطة ثم زد التعقيد تدريجياً.",
+      "quickRefEn": "Use phrases like 'Let's think step by step' to guide the model toward sequential logical thinking, starting with simple tasks and gradually increasing complexity.",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي لاستخدام تقنيات التفكير المتسلسل في نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "زيادة سرعة الاستجابة",
+            "تحسين دقة الاستجابات في المهام المعقدة",
+            "تقليل عدد الكلمات في الاستجابة",
+            "زيادة عدد المهام التي يمكن للنموذج处理ها"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي لاستخدام تقنيات التفكير المتسلسل هو تحسين دقة الاستجابات في المهام المعقدة التي تتطلب خطوات متعددة وترتيب منطقي."
+        },
+        {
+          "q": "أي من العبارات التالية هي الأكثر فعالية لتوجيه النموذج نحو التفكير المتسلسل؟",
+          "options": [
+            "أعطني الإجابة مباشرة",
+            "دعنا نفكر خطوة بخطوة",
+            "ما رأيك في هذا؟",
+            "هل يمكنك حل هذا؟"
+          ],
+          "answer": 1,
+          "explain": "العبارات التي تشير إلى التفكير المتسلسل مثل 'دعنا نفكر خطوة بخطوة' هي الأكثر فعالية في توجيه النموذج نحو التفكير المنطقي المتسلسل."
+        },
+        {
+          "q": "كيف يجب أن تتطور درجة تعقيد المهام عند تطبيق تقنيات التفكير المتسلسل؟",
+          "options": [
+            "زيادة مفاجئة في التعقيد",
+            "بدء بالمهام المعقدة ثم الانتقال إلى البساطة",
+            "زيادة تدريجية في التعقيد",
+            "الحفاظ على نفس مستوى التعقيد"
+          ],
+          "answer": 2,
+          "explain": "يجب أن تبدأ بالمهام البسيطة ثم تزداد درجة تعقيد المهام تدريجياً لمساعدة النموذج على تطوير مهاراته في التفكير المتسلسل بشكل فعال."
+        }
+      ],
+      "addedAt": "2026-10-11"
+    },
+    {
       "id": "k-2026-10-10-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً-بكفاءة",
       "title": "تشغيل نماذج الذكاء الاصطناعي محلياً بكفاءة",
       "titleEn": "Running Local AI Models Efficiently",

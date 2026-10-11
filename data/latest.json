@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-10",
-  "generatedAt": "2026-10-10T11:25:19.525Z",
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T16:56:11.157Z",
   "news": [
     {
-      "id": "n-2026-10-10-4",
+      "id": "n-2026-10-11-4",
       "title": "جوجل دمند تعلن عن Gemini 4 Argon: عصر جديد من الذكاء المتقدم",
-      "titleEn": "Google DeepMind announces Gemini 4 Argon: our next era of frontier intelligence",
-      "summary": "تقدم جوجل دمند Gemini 4 Arg كنموذج جديد يمثل عصرًا جديدًا من الذكاء المتقدم مع قدرات محسنة في الفهم والاستدلال.",
-      "summaryEn": "Google DeepMind introduces Gemini 4 Arg as a new model representing a new era of frontier intelligence with enhanced understanding and reasoning capabilities.",
+      "titleEn": "Gemini 4 Argon: our next era of frontier intelligence",
+      "summary": "أعلنت جوجل دمند عن Gemini 4 Argon، الذي يمثل عصراً جديداً من الذكاء المتقدم، مع قدرات محسنة في الفهم والاستدلال.",
+      "summaryEn": "Google DeepMind announced Gemini 4 Argon, representing a new era of frontier intelligence with enhanced understanding and reasoning capabilities.",
       "category": "models",
       "importance": 5,
       "source": {
@@ -17,25 +17,11 @@
       "publishedAt": "2026-09-30"
     },
     {
-      "id": "n-2026-10-10-8",
-      "title": "ريفلكشن AI تطلق Beam: نموذج مفتوح المصدر لمواجهة النماذج الصينية",
-      "titleEn": "Reflection AI launches Beam: open-source model to compete with Chinese models",
-      "summary": "أطلقت ريفلكشن AI نموذج Beam الأول مفتوح المصدر والذي يهدف إلى مواجهة النماذج الصينية بتكلفة حسابية أقل.",
-      "summaryEn": "Reflection AI has launched its first open-source model Beam, designed to compete with Chinese models at lower computational cost.",
-      "category": "models",
-      "importance": 5,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZENvRHJUb3JKWEFMQWsySkliYk9MOTF1VUxqdi1kMl81Sm8wWjNXMUpHNUMxTWRoSFl2OWo0d3VWeFNaSFJIUGJLMXNVWmRINlgwWDdwLU04c3VnSmotYlBlYkEzX2FTc1ZSejBManV1UVEwOFRHTm1NNlZTbndjRHNZS2JYUmQyXy1OM0dYZzhOZjJlWVk5N0szejFrUkNaNDRnV2tXQjFzSEozNXZJc01uMA?oc=5"
-      },
-      "publishedAt": "2026-10-05"
-    },
-    {
-      "id": "n-2026-10-10-1",
+      "id": "n-2026-10-11-1",
       "title": "سوفوس تقليل وقت التحقيق في التهديدات الأمنية بنسبة 96% باستخدام OpenAI Daybreak",
       "titleEn": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "summary": "شركة سوفوس تستخدم تقنية OpenAI Daybreak لتقليل وقت التحقيق في التهديدات الأمنية بنسبة 96%، مما يمثل تقدمًا كبيرًا في مجال الأمن السيبراني.",
-      "summaryEn": "Sophos uses OpenAI's Daybreak to cut cyber-threat investigation time by 96%, representing significant progress in cybersecurity.",
+      "summary": "شركة سوفوس تستخدم تقنية OpenAI Daybreak لتقليل وقت التحقيق في التهديدات الأمنية بنسبة 96%، مما يمثل تطوراً مهماً في مجال الأمن السيبراني.",
+      "summaryEn": "Sophos uses OpenAI's Daybreak to cut cyber-threat investigation time by 96%, representing a significant development in cybersecurity.",
       "category": "tools",
       "importance": 4,
       "source": {
@@ -45,11 +31,11 @@
       "publishedAt": "2026-10-09"
     },
     {
-      "id": "n-2026-10-10-2",
+      "id": "n-2026-10-11-2",
       "title": "أسانا تقليل تكاليف النموذج 76 مرة في اختبارات المتصفح مع GPT-6.1 Sol",
       "titleEn": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "summary": "تستخدم أسانا GPT-6 Astra في Codex لتقليل تكاليف المتصفح الخاص بها 76 مرة مع زيادة سرعته 5 أضعاف في الاختبارات.",
-      "summaryEn": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests.",
+      "summary": "استخدمت أسانا GPT-6.1 Sol لتقليل تكاليف النموذج 76 مرة مع زيادة سرعته 5 أضعاف في اختبارات المتصفح، مما يظهر تحسناً كبيراً في الكفاءة.",
+      "summaryEn": "Asana used GPT-6.1 Sol to make its browser agent 76x cheaper and 5x faster in tests, showing significant efficiency improvements.",
       "category": "tools",
       "importance": 4,
       "source": {
@@ -59,11 +45,11 @@
       "publishedAt": "2026-10-09"
     },
     {
-      "id": "n-2026-10-10-3",
-      "title": "جوجل دمند تطلق EmbeddingGemma 2: نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر",
-      "titleEn": "Google DeepMind launches EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "summary": "أطلقت جوجل دمند نموذج EmbeddingGemma 2 الجديد وهو نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر لدمج النصوص والصور.",
-      "summaryEn": "Google DeepMind has launched EmbeddingGemma 2, a new open-source, lightweight multimodal model for text and image integration.",
+      "id": "n-2026-10-11-3",
+      "title": "EmbeddingGemma 2: نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر",
+      "titleEn": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "summary": "أطلقت جوجل دمند نموذج EmbeddingGemma 2، وهو نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر، مما يمثل تقدماً في نماذج الحقن.",
+      "summaryEn": "Google DeepMind launched EmbeddingGemma 2, an open, lightweight multimodal embedding model, representing progress in embedding models.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -73,67 +59,53 @@
       "publishedAt": "2026-10-06"
     },
     {
-      "id": "n-2026-10-10-5",
-      "title": "أنثروبيك تطلق المهمة السيبرانية لتعزيز أمن الذكاء الاصطناعي",
-      "titleEn": "Anthropic launches the Anthropic Cyber Mission to enhance AI security",
-      "summary": "أطلقت أنثروبيك المهمة السيبرانية الجديدة لتعزيز أمن النماذج الذكية ومكافأة الكشف عن الثغرات الأمنية في أنظمة الذكاء الاصطناعي.",
-      "summaryEn": "Anthropic has launched the new Cyber Mission to enhance AI model security and reward vulnerability discoveries in AI systems.",
-      "category": "regulation",
-      "importance": 4,
-      "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
-      },
-      "publishedAt": "2026-10-10"
-    },
-    {
-      "id": "n-2026-10-10-6",
-      "title": "ميستريال AI تطلق Mistral Large 4: نموذج متقدم للشركات",
-      "titleEn": "Mistral AI launches Mistral Large 4: an advanced model for enterprises",
-      "summary": "أطلقت ميستريال AI نموذج Mistral Large 4 الجديد الذي يوفر أداءً متقدمًا للشركات مع قدرات تحسين في الفهم والاستدلال.",
-      "summaryEn": "Mistral AI has launched the new Mistral Large 4 model, offering advanced performance for enterprises with improved understanding and reasoning capabilities.",
+      "id": "n-2026-10-11-5",
+      "title": "ريفلكشن AI تطلق Beam: نموذج مفتوح المصدر لمواجهة النماذج الصينية",
+      "titleEn": "Reflection AI unveils first open model, Beam",
+      "summary": "أطلقت ريفلكشن AI نموذج Beam المفتوح المصدر، المصمم لمواجهة النماذج الصينية المتقدمة، مع ادعاءات بتفوقه في الكفاءة.",
+      "summaryEn": "Reflection AI launched its first open-weight model Beam, designed to compete with advanced Chinese models, with claims of superior efficiency.",
       "category": "models",
       "importance": 4,
       "source": {
-        "name": "Mistral AI",
-        "url": "https://mistral.ai/news/mistral-large-4/"
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZENvRHJUb3JKWEFMQWsySkliYk9MOTF1VUxqdi1kMl81Sm8wWjNXMUpHNUMxTWRoSFl2OWo0d3VWeFNaSFJIUGJLMXNVWmRINlgwWDdwLU04c3VnSmotYlBlYkEzX2FTc1ZSejBManV1UVEwOFRHTm1NNlZTbndjRHNZS2JYUmQyXy1OM0dYZzhOZjJlWVk5N0szejFrUkNaNDRnV2tXQjFzSEozNXZJc01uMA?oc=5"
       },
-      "publishedAt": "2026-10-10"
+      "publishedAt": "2026-10-05"
     },
     {
-      "id": "n-2026-10-10-7",
-      "title": "شركة مونشوت AI تصل إلى تقييم 50 مليار دولار قبل الاكتتاب العام",
-      "titleEn": "Moonshot AI reaches $50 billion valuation before IPO",
-      "summary": "وصلت شركة مونشوت AI الصينية إلى تقييم 50 مليار دولار وهي تستعد للاكتتاب العام في هونغ كونغ العام المقبل.",
-      "summaryEn": "Chinese Moonshot AI has reached a $50 billion valuation as it prepares for its IPO in Hong Kong next year.",
-      "category": "companies",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WnZ4RmxlTUx3NnFXZTNNR3pETnZpQUJEVm4yYmYtQnVtQktYOUNiQ1Njdk1ITEFDMnJmTHlRbnJXOVZ5T2Fzc3pvZ2JXTlFlR2VNMmF2SEs0VGdrRXJ4N3UxY0h5bTBq?oc=5"
-      },
-      "publishedAt": "2026-10-06"
-    },
-    {
-      "id": "n-2026-10-10-9",
-      "title": "كوين تطلق Qwen-Image-2.1-Turbo: نموذج توليد الصور بخطوات ثمانية",
-      "titleEn": "Qwen launches Qwen-Image-2.1-Turbo: an eight-step image generation model",
-      "summary": "أطلقت شركة كوين نموذج Qwen-Image-2.1-Turbo الجديد الذي يمكنه توليد الصور في ثمانية خطوات مع ترخيص محدد.",
-      "summaryEn": "Qwen has launched the new Qwen-Image-2.1-Turbo model capable of generating images in eight steps with a specific license.",
+      "id": "n-2026-10-11-6",
+      "title": "مايكروسوفت تطلق Microsoft-Decision-1: نموذج سريع للقرار مبني على Qwen",
+      "titleEn": "Microsoft launches Microsoft-Decision-1, a fast decision-scoring model built on Alibaba's Qwen",
+      "summary": "أطلقت مايكروسوفت نموذج Microsoft-Decision-1 السريع للقرار، المبني على نموذج Qwen من علي بابا، لتحسين عمليات اتخاذ القرار.",
+      "summaryEn": "Microsoft launched Microsoft-Decision-1, a fast decision-scoring model built on Alibaba's Qwen, to improve decision-making processes.",
       "category": "models",
       "importance": 4,
       "source": {
         "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXpvaFdacktESjZwbURtOUpFTW5WTTktSnZ4TjBudmVJcXVHenYxdEpRQ1p0RjFENkJuQmFIVHdVM3JjN1lSSkc3UEZfejI2cVNDRFNoRi1yV0l2NWNGb3VEQTVmVmpGcm1acWVOeXVtMFk0Y1JtNDFkUjNXdkZ4bFN4UHhjTk1qTGdIZkF1TmNTd3ZQWVNwWTlMX3A4SzhJTm5yTDlVRTE2TlhS0gGsAUFVX3lxTE5Vem9oV1pyS0RKNnBtRG05SkVNblZNOS1KdnhOMG52ZUlxdUd6djF0SlFDWnRGMUQ2Qm5CYUhUd1UzcmM3WVJKRzdQRl96MjZxU0NEU2hGLXJXSXY1Y0ZvdURBNWZWakZybVpxZU55dW0wWTRjUm00MWRSM1d2RnhsU3hQeGNOTWpMZ0hmQXVOY1N3dlBZU3BZOUxfcDhLOElObnJMOVVFMTZOWFI?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVWhJTGQtSnVnWVp5OTRRYVRHMWRYbko1WHBvTDN2MlFEUVc1TTdJMHBXSGpDb3ZtV3JkaGQwUDQ3ZUFBd3pkb1pxcV9zQ01QREl6MFN1UnpGQmZ0elItNmQ4NXpRUnc3d2hRNWh5a3l5bkk2eHBwQng1M0pXLWR3RkFBQUltaS1tS1VDeEU3VEFib3FudVZoZkM1aGhGTWk3VEJRa1dFWnpxbGdIMlBCWHYxblNnX1E4R0t2U25aU3BRTWlqMFE?oc=5"
       },
-      "publishedAt": "2026-10-09"
+      "publishedAt": "2026-10-10"
     },
     {
-      "id": "n-2026-10-10-10",
-      "title": "إكس أي تعلن عن جروك الذي يمكن توجيه المهام إلى أفضل النماذج",
-      "titleEn": "xAI announces Grok that can route tasks to the best models",
-      "summary": "أعلنت إكس أي عن جروك الجديد الذي يمكنه توجيه المهام إلى أفضل النماذج المتاحة بما في ذلك كلود أوبس 5.5 وميدجورني وسونو.",
-      "summaryEn": "xAI has announced the new Grok that can route tasks to the best available models including Claude Opus 5.5, Midjourney, and Suno.",
+      "id": "n-2026-10-11-7",
+      "title": "دب سيك تصل إلى تمويل بقيمة 15 مليار دولار مع زيادة الطلب",
+      "titleEn": "DeepSeek's funding round could approach $15 billion as investor demand surges",
+      "summary": "جولة التمويل لدب سيك قد تصل إلى 15 مليار دولار مع زيادة الطلب من المستثمرين، مما يعزز مكانتها في سوق الذكاء الاصطناعي.",
+      "summaryEn": "DeepSeek's funding round could approach $15 billion with increasing investor demand, strengthening its position in the AI market.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wOTV4cTA0T291WTByeUo3Ync3YzBJdTd4S1ZtcEhzOVdkd2Iyb1JtTHU0YTRvNWRGTXI2M3NLZnBEWnFpeTdnQW1NcTFYQnVlMHZDVnhkcFMwdFl3U2N5dHpkZDFXZ1k?oc=5"
+      },
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "n-2026-10-11-8",
+      "title": "ماسك: Grok سينقل المهام إلى أفضل نموذج، بما في ذلك Claude و Midjourney",
+      "titleEn": "Musk: Grok will route tasks to the best model, including Claude Opus 5.5, Midjourney and Suno",
+      "summary": "أعلن إيلون ماسك أن Grok سيقوم بتوجيه المهام إلى أفضل نموذج متاح، بما في ذلك Claude و Midjourney، في تح استراتيجي.",
+      "summaryEn": "Elon Musk announced that Grok will route tasks to the best available model, including Claude and Midjourney, in a strategic shift.",
       "category": "tools",
       "importance": 4,
       "source": {
@@ -141,112 +113,140 @@
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaDU5dEgyY2lIOUcxWkVBUzZkZ0FXdWlDSDNhaU9oQmN4LWFPMWhNakFic29rNW5TakRUNFQtOWc5VUd5RXViUTVKbnJmU1VzMm1sbTRDWEhoRnNxSkFkZ01QaDlYb0thRFpmMGZnNVlOd0RtUW0xdXlNTEkyWEhrcG5jS1VOVHBhNGVMNTB6bHpWVjhaWnlHUTV4YXZEOUttZ2dWbGxOSEp5WHZGQUFUSVd2b0JSWi1yV043VlVKdmhYdw?oc=5"
       },
       "publishedAt": "2026-10-07"
+    },
+    {
+      "id": "n-2026-10-11-9",
+      "title": "بيئة وكلاء الذكاء الاصطناعي: التعاون يخلق عتبة سكانية للانطلاق",
+      "titleEn": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
+      "summary": "بحث جديد يدرس كيف يمكن لوكلاء الذكاء الاصطناعي إجراء هجمات سيبرانية في العالم الحقيقي والتوسع مع زيادة أعدادهم.",
+      "summaryEn": "New research on how AI agents can conduct real-world cyberattacks and scale up with increasing population numbers.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.12436v1"
+      },
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "n-2026-10-11-10",
+      "title": "من الاحتواء الاستباقي إلى التأمين النشط: دروس من حوادث أمن وكلاء الذكاء الاصطناعي",
+      "titleEn": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "summary": "بحث يدرس حوادث أمنية لوكلاء الذكاء الاصطناعي من شركات كبرى واستخلاص دروس هامة لتحسين الأمن.",
+      "summaryEn": "Research on security incidents involving major AI agents and extracting important lessons for improving security.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.12463v1"
+      },
+      "publishedAt": "2026-10-08"
     }
   ],
   "models": [
     {
-      "id": "m-2026-10-10-1",
+      "id": "m-2026-10-11-1",
       "name": "EmbeddingGemma 2",
       "org": "Google DeepMind",
       "releaseDate": "2026-10-06",
-      "highlights": "نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدمدمج النصوص والصور بكفاءة عالية",
-      "highlightsEn": "Lightweight multimodal open-source model for efficient text and image integration",
+      "highlights": "نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر",
+      "highlightsEn": "Lightweight multimodal embedding model",
       "specs": {
-        "context": "1M"
+        "context": "unknown"
       },
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
     },
     {
-      "id": "m-2026-10-10-2",
+      "id": "m-2026-10-11-2",
       "name": "Gemini 4 Argon",
       "org": "Google DeepMind",
       "releaseDate": "2026-09-30",
-      "highlights": "نموذج متقدم يمثل عصرًا جديدًا من الذكاء المتقدم مع قدرات محسنة في الفهم والاستدلال",
-      "highlightsEn": "Advanced model representing a new era of frontier intelligence with enhanced understanding and reasoning capabilities",
+      "highlights": "عصر جديد من الذكاء المتقدم مع قدرات محسنة في الفهم والاستدلال",
+      "highlightsEn": "New era of frontier intelligence with enhanced understanding and reasoning",
       "specs": {
-        "context": "2M"
+        "context": "unknown"
       },
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
     },
     {
-      "id": "m-2026-10-10-3",
-      "name": "Mistral Large 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-10-06",
-      "highlights": "نموذج متقدم للشركات مع قدرات تحسين في الفهم والاستدلال",
-      "highlightsEn": "Advanced model for enterprises with improved understanding and reasoning capabilities",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://mistral.ai/news/mistral-large-4/"
-    },
-    {
-      "id": "m-2026-10-10-4",
+      "id": "m-2026-10-11-3",
       "name": "Beam",
       "org": "Reflection AI",
       "releaseDate": "2026-10-05",
-      "highlights": "نموذج مفتوح المصدر مصمم لمواجهة النماذج الصينية بتكلفة حسابية أقل",
-      "highlightsEn": "Open-source model designed to compete with Chinese models at lower computational cost",
+      "highlights": "نموذج مفتوح المصدر مصمم لمواجهة النماذج الصينية المتقدمة",
+      "highlightsEn": "Open model designed to compete with advanced Chinese models",
       "specs": {
-        "context": "256K"
+        "context": "unknown"
       },
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZENvRHJUb3JKWEFMQWsySkliYk9MOTF1VUxqdi1kMl81Sm8wWjNXMUpHNUMxTWRoSFl2OWo0d3VWeFNaSFJIUGJLMXNVWmRINlgwWDdwLU04c3VnSmotYlBlYkEzX2FTc1ZSejBManV1UVEwOFRHTm1NNlZTbndjRHNZS2JYUmQyXy1OM0dYZzhOZjJlWVk5N0szejFrUkNaNDRnV2tXQjFzSEozNXZJc01uMA?oc=5"
     },
     {
-      "id": "m-2026-10-10-5",
-      "name": "Qwen-Image-2.1-Turbo",
-      "org": "Qwen",
-      "releaseDate": "2026-10-09",
-      "highlights": "نموذج توليد الصور في ثمانية خطوات مع ترخيص محدد",
-      "highlightsEn": "Eight-step image generation model with a specific license",
+      "id": "m-2026-10-11-4",
+      "name": "Microsoft-Decision-1",
+      "org": "Microsoft",
+      "releaseDate": "2026-10-10",
+      "highlights": "نموذج سريع للقرار مبني على Qwen من علي بابا",
+      "highlightsEn": "Fast decision-scoring model built on Alibaba's Qwen",
       "specs": {
-        "context": "32K"
+        "context": "unknown"
+      },
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVWhJTGQtSnVnWVp5OTRRYVRHMWRYbko1WHBvTDN2MlFEUVc1TTdJMHBXSGpDb3ZtV3JkaGQwUDQ3ZUFBd3pkb1pxcV9zQ01QREl6MFN1UnpGQmZ0elItNmQ4NXpRUnc3d2hRNWh5a3l5bkk2eHBwQng1M0pXLWR3RkFBQUltaS1tS1VDeEU3VEFib3FudVZoZkM1aGhGTWk3VEJRa1dFWnpxbGdIMlBCWHYxblNnX1E4R0t2U25aU3BRTWlqMFE?oc=5"
+    },
+    {
+      "id": "m-2026-10-11-5",
+      "name": "Qwen-Image-2.1-Turbo",
+      "org": "Alibaba/Qwen",
+      "releaseDate": "2026-10-09",
+      "highlights": "نموذج صورة 7B خطوة واحدة",
+      "highlightsEn": "8-step 7B image model",
+      "specs": {
+        "context": "unknown"
       },
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXpvaFdacktESjZwbURtOUpFTW5WTTktSnZ4TjBudmVJcXVHenYxdEpRQ1p0RjFENkJuQmFIVHdVM3JjN1lSSkc3UEZfejI2cVNDRFNoRi1yV0l2NWNGb3VEQTVmVmpGcm1acWVOeXVtMFk0Y1JtNDFkUjNXdkZ4bFN4UHhjTk1qTGdIZkF1TmNTd3ZQWVNwWTlMX3A4SzhJTm5yTDlVRTE2TlhS0gGsAUFVX3lxTE5Vem9oV1pyS0RKNnBtRG05SkVNblZNOS1KdnhOMG52ZUlxdUd6djF0SlFDWnRGMUQ2Qm5CYUhUd1UzcmM3WVJKRzdQRl96MjZxU0NEU2hGLXJXSXY1Y0ZvdURBNWZWakZybVpxZU55dW0wWTRjUm00MWRSM1d2RnhsU3hQeGNOTWpMZ0hmQXVOY1N3dlBZU3BZOUxfcDhLOElObnJMOVVFMTZOWFI?oc=5"
     },
     {
-      "id": "m-2026-10-10-6",
-      "name": "Grok 4.7",
-      "org": "xAI",
-      "releaseDate": "2026-10-10",
-      "highlights": "نموذج متقدم قادر على توجيه المهام إلى أفضل النماذج المتاحة",
-      "highlightsEn": "Advanced model capable of routing tasks to the best available models",
+      "id": "m-2026-10-11-6",
+      "name": "GPT-6.1 Sol",
+      "org": "OpenAI",
+      "releaseDate": "2026-10-09",
+      "highlights": "محسّن لتقليل التكاليف في اختبارات المتصفح",
+      "highlightsEn": "Optimized for cost reduction in browser tests",
       "specs": {
-        "context": "128K"
+        "context": "unknown"
       },
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdUhROVIwWUhvajU3bl9DWnlHLU11Z2VzRlB0Q0Y2Y1oySkt5TERJZ3dEcExYVkhsdlJrRVYyLTFSdnl0S3lPS2VOTFVyU3dvTVVsenl2dlZNamJlTjFrRXY5UkV2R2xGLURqdEZJSFdEb2hnUHhqS01qSmZVYlpZcmJ0VQ?oc=5"
+      "url": "https://openai.com/index/asana-browser-agent"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-10-10-1",
-      "text": "شركة مونشوت الصينية تصل إلى تقييم 50 مليار دولار وهي تستعد للاكتتاب العام في هونغ كونغ العام المقبل",
-      "textEn": "Chinese Moonshot AI reaches $50 billion valuation as it prepares for IPO in Hong Kong next year",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WnZ4RmxlTUx3NnFXZTNNR3pETnZpQUJEVm4yYmYtQnVtQktYOUNiQ1Njdk1ITEFDMnJmTHlRbnJXOVZ5T2Fzc3pvZ2JXTlFlR2VNMmF2SEs0VGdrRXJ4N3UxY0h5bTBq?oc=5"
-    },
-    {
-      "id": "h-2026-10-10-2",
-      "text": "جولة التمويل لشركة ديب سيك قد تصل إلى 15 مليار دولار مع زيادة الطلب من المستثمرين",
-      "textEn": "DeepSeek's funding round could approach $15 billion as investor demand surges",
+      "id": "h-2026-10-11-1",
+      "text": "دب سيك قد تصل جولة التمويل إلى 15 مليار دولار مع زيادة الطلب من المستثمرين",
+      "textEn": "DeepSeek's funding round could approach $15 billion with increasing investor demand",
       "level": "info",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wOTV4cTA0T291WTByeUo3Ync3YzBJdTd4S1ZtcEhzOVdkd2Iyb1JtTHU0YTRvNWRGTXI2M3NLZnBEWnFpeTdnQW1NcTFYQnVlMHZDVnhkcFMwdFl3U2N5dHpkZDFXZ1k?oc=5"
     },
     {
-      "id": "h-2026-10-10-3",
-      "text": "ريفلكشن AI تطلق نموذج Beam مفتوح المصدر لمواجهة النماذج الصينية بتكلفة حسابية أقل",
-      "textEn": "Reflection AI launches open-source Beam model to compete with Chinese models at lower computational cost",
+      "id": "h-2026-10-11-2",
+      "text": "شركة مونشوت AI تصل إلى تقييم 50 مليار دولار استعداداً للاكتتاب في هونغ كونغ",
+      "textEn": "Moonshot AI hits $50 billion valuation as it prepares for Hong Kong IPO",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZENvRHJUb3JKWEFMQWsySkliYk9MOTF1VUxqdi1kMl81Sm8wWjNXMUpHNUMxTWRoSFl2OWo0d3VWeFNaSFJIUGJLMXNVWmRINlgwWDdwLU04c3VnSmotYlBlYkEzX2FTc1ZSejBManV1UVEwOFRHTm1NNlZTbndjRHNZS2JYUmQyXy1OM0dYZzhOZjJlWVk5N0szejFrUkNaNDRnV2tXQjFzSEozNXZJc01uMA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WnZ4RmxlTUx3NnFXZTNNR3pETnZpQUJEVm4yYmYtQnVtQktYOUNiQ1Njdk1ITEFDMnJmTHlRbnJXOVZ5T2Fzc3pvZ2JXTlFlR2VNMmF2SEs0VGdrRXJ4N3UxY0h5bTBq?oc=5"
+    },
+    {
+      "id": "h-2026-10-11-3",
+      "text": "أنثروبيك تستثمر 100 مليون دولار لتدريب 10 آلاف مهندس لمواجهة فجوة المواهب في الذكاء الاصطناعي المؤسسي",
+      "textEn": "Anthropic invests $100 million to train 10,000 engineers to tackle the enterprise AI talent gap",
+      "level": "info",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-10-10-1",
-      "title": "من التقييم الاستباقي إلى التأمين الاستباقي: دروس من حوادث أمن الوكلاء في OpenAI وAnthropic وجوجل",
-      "titleEn": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "summary": "أظهرت تقييمات أمنية لعام 2026 involving وكلاء OpenAI وAnthropic وجوجل أن النماذج الذكية يمكن أن تتجاوز الحواجز الأمنية الموضوعة لها، مما يتطلب نهجًا أكثر استباقية.",
-      "summaryEn": "2026 cybersecurity evaluations involving OpenAI, Anthropic, and Google agents showed that AI models can bypass security barriers, requiring a more proactive approach.",
+      "id": "sec-2026-10-11-1",
+      "title": "من الاحتواء الاستباقي إلى التأمين النشط: دروس من حوادث أمن وكلاء الذكاء الاصطناعي",
+      "titleEn": "From Reactive Containment to Proactive Assurance: Lessons from AI Agent Security Incidents",
+      "summary": "بحث يدرس حوادث أمنية لوكلاء الذكاء الاصطناعي من شركات كبرى مثل OpenAI و Anthropic وجوجل، ويستخلص دروساً هامة لتحسين استراتيجيات الأمن.",
+      "summaryEn": "Research on security incidents involving major AI agents from companies like OpenAI, Anthropic, and Google, extracting important lessons for improving security strategies.",
       "type": "breach",
       "severity": "warning",
       "url": "https://arxiv.org/abs/2610.12463v1",
@@ -254,51 +254,39 @@
       "date": "2026-10-08"
     },
     {
-      "id": "sec-2026-10-10-2",
+      "id": "sec-2026-10-11-2",
       "title": "بيئة وكلاء الذكاء الاصطناعي: التعاون يخلق عتبة سكانية للانطلاق",
       "titleEn": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
-      "summary": "يمكن الآن لوكيل الذكاء الاصطناعي تنفيذ هجمات سيبرانية في العالم الحقيقي، ويمكنه توسيع قدراته مع زيادة عدد الوكلاء المتعاونين.",
-      "summaryEn": "AI agents can now conduct real-world cyberattacks and scale up capabilities with the number of collaborating agents.",
-      "type": "breach",
+      "summary": "بحث يظهر أن وكلاء الذكاء الاصطناعي يمكنهم الآن إجراء هجمات سيبرانية في العالم الحقيقي والتوسع مع زيادة أعدادهم، مما يشكل خطراً أمنياً كبيراً.",
+      "summaryEn": "Research showing AI agents can now conduct real-world cyberattacks and scale with population increase, posing a significant security threat.",
+      "type": "malware",
       "severity": "critical",
       "url": "https://arxiv.org/abs/2610.12436v1",
       "source": "arXiv",
       "date": "2026-10-08"
     },
     {
-      "id": "sec-2026-10-10-3",
+      "id": "sec-2026-10-11-3",
       "title": "ثغرة محتملة في إعادة التشغيل التلقائي لشركة أبل",
       "titleEn": "Possible Vulnerability in Apple's Automatic Reboot",
-      "summary": "تظهر تقارير أن مصنع أسلحة سيبرانية يستغل ثغرة في نظام إعادة التشغيل التلقائي لأجهزة أبل لتنفيذ هجمات متقدمة.",
-      "summaryEn": "Reports indicate a cyber-weapons manufacturer is exploiting a vulnerability in Apple's automatic reboot system to conduct advanced attacks.",
+      "summary": "أبلغت وسائل إعلام عن ثغرة في نظام إعادة التشغيل التلقائي لشركة أبل يتم استغلالها من قبل مصنعي الأسلحة السيبرانية، مما يشكل خطراً أمنياً محتملاً.",
+      "summaryEn": "Media reports of a vulnerability in Apple's automatic reboot system being exploited by cyber-weapons manufacturers, posing a potential security threat.",
       "type": "breach",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
       "source": "Schneier on Security",
       "date": "2026-10-06"
-    },
-    {
-      "id": "sec-2026-10-10-4",
-      "title": "OpenAI توقف عمليات التأثير المدعومة بالذكاء الاصطناعي",
-      "titleEn": "OpenAI disrupts AI-enabled influence operations",
-      "summary": "أوقفت OpenAI عمليتين للتأثير المدعومة بالذكاء الاصطناعي استخدما صحفيين وهميين ونشرت مقالات وهمية في منشورات أمريكية حقيقية.",
-      "summaryEn": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and published fake articles in real American publications.",
-      "type": "policy",
-      "severity": "warning",
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "source": "OpenAI",
-      "date": "2026-10-08"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-10-10",
+    "asOf": "2026-10-11",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
       {
         "name": "Claude Opus 5.5",
         "org": "Anthropic",
-        "score": "60.4"
+        "score": "60.5"
       },
       {
         "name": "Claude Sonnet 5.5",
@@ -308,7 +296,7 @@
       {
         "name": "GPT-6 Astra",
         "org": "OpenAI",
-        "score": "58.3"
+        "score": "58.2"
       },
       {
         "name": "Gemini 4 Argon",
@@ -346,119 +334,111 @@
         "score": "53.4"
       }
     ],
-    "highlights": "تتصدر قائمة النماذج كلود أوبس 5.5 من أنثروبيك بنسبة 60.4%، متقدماً على جي بي تي-6 أسترا الذي يحتل المركز الثالث بنفس النسبة 58.3%. يلاحظ تنافس قوي بين نماذج أنثروبيك حيث تحتل 5 من أفضل 10 مراكز، مع وجود سباق محموم بين كلود فابل 5.1 وكلود فابل 5 حيث تختلف نسبتيهما بفارق طفيف جداً (53.5% مقابل 53.4%).",
-    "highlightsEn": "Claude Opus 5.5 from Anthropic leads the rankings with 60.4%, ahead of GPT-6 Astra in third place with the same score of 58.3%. There's strong competition among Anthropic models, which occupy 5 of the top 10 positions, with a tight race between Claude Fable 5.1 and Claude Fable 5 where their scores differ by a very small margin (53.5% vs 53.4%)."
+    "highlights": "يلاحظ أن نماذج Claude من Anthropic تهيمن على القائمة حيث تحتل 6 من أفضل 10 مراكز. أبرز المتغيرات هو ظهور Claude Sonnet 5.5 في المركز الثاني بعد أن كان غير متوفر سابقًا. السباق بين GPT-6 Astra و Claude Opus 5.5 يبدو متقارباً حيث تفصلهم فقط 2.3 نقطة.",
+    "highlightsEn": "Notably, Claude models from Anthropic dominate the list, occupying 6 of the top 10 positions. The most significant mover is Claude Sonnet 5.5 appearing in second place after being previously unavailable. The race between GPT-6 Astra and Claude Opus 5.5 appears close, with only a 2.3 point difference."
   },
   "knowledgeEntry": {
-    "id": "k-2026-10-10-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً-بكفاءة",
-    "title": "تشغيل نماذج الذكاء الاصطناعي محلياً بكفاءة",
-    "titleEn": "Running Local AI Models Efficiently",
-    "why": "يتيح تشغيل نماذج الذكاء الاصطناعي محلياً للمستخدمين التحكم الكامل ببياناتهم مع الحصول على نتائج فورية دون الاعتماد على الاتصال بالإنترنت، مما يوفر خصوصية أعلى ويقلل التكاليف.",
-    "whyEn": "Running AI models locally gives users full control over their data while getting instant results without relying on internet connectivity, providing higher privacy and reducing costs.",
+    "id": "k-2026-10-11-تحسين-أداء-النماذج-باستخدام-تقنيات-التفكير-المتسلس",
+    "title": "تحسين أداء النماذج باستخدام تقنيات التفكير المتسلسل",
+    "titleEn": "Improving Model Performance with Chain-of-Thought Techniques",
+    "why": "تعتمد نماذج الذكاء الاصطناعي الحالية على فهم السياق بشكل مباشر، ولكن استخدام تقنيات التفكير المتسلسل يمكن أن يحسن دقة الاستجابات بشكل كبير، خاصة في المهام المعقدة التي تتطلب خطوات متعددة.",
+    "whyEn": "Current AI models rely on direct context understanding, but using chain-of-thought techniques can significantly improve response accuracy, especially for complex tasks requiring multiple steps.",
     "difficulty": "intermediate",
-    "track": "tools",
+    "track": "building",
     "steps": [
       {
-        "title": "اختيار النموذج المناسب",
-        "detail": "اختر نموذجاً صالحاً للتشغيل المحلي بناءً على متطلبات الموارد (RAM، GPU) وحجم النموذج."
+        "title": "فهم أساسيات التفكير المتسلسل",
+        "detail": "ابدأ بتحليل المشكلة خطوة بخطوة، واذكر كل خطوة منطقية واضحة قبل الوصول إلى الاستنتاج النهائي."
       },
       {
-        "title": "تجهيز البيئة",
-        "detail": "تأكد من تثبيت المتطلبات الأساسية مثل Python، PyTorch أو TensorFlow، وأدوات التشغيل المناسبة للنموذج."
+        "title": "تصميم المطالبات المناسبة",
+        "detail": "استخدم عبارات مثل 'دعنا نفكر خطوة بخطوة' أو 'لحل هذه المشكلة، سنقوم بـ...' لتوجيه النموذج نحو التفكير المتسلسل."
       },
       {
-        "title": "تحميل النموذج",
-        "detail": "قم بتحميل النموذج المحدد من المصدر الرسمي أو مستودعات موثوقة مثل Hugging Face."
+        "title": "التدرج في التعقيد",
+        "detail": "ابدأ بمهام بسيطة ثم انتقل تدريجياً إلى مهام أكثر تعقيداً لمساعدة النموذج على تطوير مهاراته في التفكير المتسلسل."
       },
       {
-        "title": "تحسين الأداء",
-        "detail": "استخدم تقنيات مثل الكمون (quantization) والتقطيع (tensor partitioning) لتقليل استهلاك الذاكرة وتسريع المعالجة."
-      },
-      {
-        "title": "التشغيل والاختبار",
-        "detail": "قم بتشغيل النموذج محلياً واختبره مع أمثلة مختلفة لضمان الأداء المتوقع."
+        "title": "التقييم والتحسين",
+        "detail": "قم بتقييم استجابات النموذج وتحديد أين يمكن تحسين التفكير المتسلسل، ثم عدل المطالبات بناءً على ذلك."
       }
     ],
     "stepsEn": [
       {
-        "title": "Choose the right model",
-        "detail": "Select a model suitable for local operation based on resource requirements (RAM, GPU) and model size."
+        "title": "Understanding Chain-of-Thought Basics",
+        "detail": "Start by analyzing the problem step by step, mentioning each logical step clearly before reaching the final conclusion."
       },
       {
-        "title": "Set up the environment",
-        "detail": "Ensure you have the basic requirements installed like Python, PyTorch or TensorFlow, and appropriate model running tools."
+        "title": "Designing Appropriate Prompts",
+        "detail": "Use phrases like 'Let's think step by step' or 'To solve this problem, we will...' to guide the model toward chain-of-thought reasoning."
       },
       {
-        "title": "Download the model",
-        "detail": "Download the specified model from the official source or trusted repositories like Hugging Face."
+        "title": "Gradual Complexity Increase",
+        "detail": "Begin with simple tasks and gradually move to more complex ones to help the model develop its chain-of-thought skills."
       },
       {
-        "title": "Optimize performance",
-        "detail": "Use techniques like quantization and tensor partitioning to reduce memory consumption and speed up processing."
-      },
-      {
-        "title": "Run and test",
-        "detail": "Run the model locally and test it with various examples to ensure expected performance."
+        "title": "Evaluation and Improvement",
+        "detail": "Evaluate the model's responses and identify where chain-of-thought reasoning can be improved, then adjust prompts accordingly."
       }
     ],
-    "code": "from transformers import AutoModelForCausalLM, AutoTokenizer\nimport torch\n\n# Load model and tokenizer\nmodel_name = \"microsoft/DialoGPT-small\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\n\n# Generate response\ndef get_response(input_text):\n    # Encode the input text\n    input_ids = tokenizer.encode(input_text + tokenizer.eos_token, return_tensors='pt')\n    \n    # Generate response\n    output = model.generate(input_ids, max_length=1000, pad_token_id=tokenizer.eos_token_id)\n    \n    # Decode and return the response\n    return tokenizer.decode(output[:, input_ids.shape[-1]:][0], skip_special_tokens=True)\n\n# Example usage\nprint(get_response(\"Hello! How are you?\"))",
+    "code": "python\ndef chain_of_thought_prompt(question):\n    return f\"\"\"\n    Let's think step by step to solve this problem:\n    \n    Question: {question}\n    \n    Step 1: [First logical step]\n    Step 2: [Second logical step]\n    Step 3: [Third logical step]\n    ...\n    \n    Final Answer: [Conclusion based on the steps]\n    \"\"\"\n\n# Example usage\nquestion = \"If a train travels 60 miles in 1 hour, how far will it travel in 2.5 hours?\"\nprompt = chain_of_thought_prompt(question)\nprint(prompt)",
     "resources": [
       {
-        "name": "Hugging Face Documentation",
-        "url": "https://huggingface.co/docs/transformers/index"
+        "name": "Chain-of-Thought Prompting",
+        "url": "https://arxiv.org/abs/2201.11903"
       },
       {
-        "name": "PyTorch Installation Guide",
-        "url": "https://pytorch.org/get-started/locally/"
+        "name": "Advanced Prompt Engineering Guide",
+        "url": "https://www.promptingguide.ai/"
       },
       {
-        "name": "TensorFlow Installation",
-        "url": "https://www.tensorflow.org/install"
+        "name": "Chain-of-Thought Examples",
+        "url": "https://github.com/dair-ai/Prompt-Gallery/tree/main/chain-of-thought"
       }
     ],
     "tags": [
-      "محلي",
-      "نماذج",
-      "كفاءة",
-      "تشغيل"
+      "تطوير النماذج",
+      "هندسة المطالبات",
+      "التفكير المتسلسل",
+      "تحسين الأداء"
     ],
-    "quickRef": "اختر نموذجاً مناسباً لموارد جهازك\nجهز البيئة اللازمة قبل التشغيل\nاستخدم تقنيات التحسين للأداء الأفضل\nاختبر النموذج جيداً قبل الاستخدام",
-    "quickRefEn": "Choose a model suitable for your device resources\nPrepare the necessary environment before running\nUse optimization techniques for better performance\nTest the model thoroughly before use",
+    "quickRef": "استخدم عبارات مثل 'دعنا نفكر خطوة بخطوة' لتوجيه النموذج نحو التفكير المنطقي المتسلسل، وابدأ بمهام بسيطة ثم زد التعقيد تدريجياً.",
+    "quickRefEn": "Use phrases like 'Let's think step by step' to guide the model toward sequential logical thinking, starting with simple tasks and gradually increasing complexity.",
     "quiz": [
       {
-        "q": "ما هي الميزة الرئيسية لتشغيل نماذج الذكاء الاصطناعي محلياً؟",
+        "q": "ما هو الهدف الرئيسي لاستخدام تقنيات التفكير المتسلسل في نماذج الذكاء الاصطناعي؟",
         "options": [
-          "التكلفة الأقل",
-          "السرعة الأعلى",
-          "التحكم الكامل بالبيانات وخصوصية أعلى",
-          "سهولة الاستخدام"
+          "زيادة سرعة الاستجابة",
+          "تحسين دقة الاستجابات في المهام المعقدة",
+          "تقليل عدد الكلمات في الاستجابة",
+          "زيادة عدد المهام التي يمكن للنموذج处理ها"
+        ],
+        "answer": 1,
+        "explain": "الهدف الرئيسي لاستخدام تقنيات التفكير المتسلسل هو تحسين دقة الاستجابات في المهام المعقدة التي تتطلب خطوات متعددة وترتيب منطقي."
+      },
+      {
+        "q": "أي من العبارات التالية هي الأكثر فعالية لتوجيه النموذج نحو التفكير المتسلسل؟",
+        "options": [
+          "أعطني الإجابة مباشرة",
+          "دعنا نفكر خطوة بخطوة",
+          "ما رأيك في هذا؟",
+          "هل يمكنك حل هذا؟"
+        ],
+        "answer": 1,
+        "explain": "العبارات التي تشير إلى التفكير المتسلسل مثل 'دعنا نفكر خطوة بخطوة' هي الأكثر فعالية في توجيه النموذج نحو التفكير المنطقي المتسلسل."
+      },
+      {
+        "q": "كيف يجب أن تتطور درجة تعقيد المهام عند تطبيق تقنيات التفكير المتسلسل؟",
+        "options": [
+          "زيادة مفاجئة في التعقيد",
+          "بدء بالمهام المعقدة ثم الانتقال إلى البساطة",
+          "زيادة تدريجية في التعقيد",
+          "الحفاظ على نفس مستوى التعقيد"
         ],
         "answer": 2,
-        "explain": "تشغيل النماذج محلياً يمنح المستخدمين التحكم الكامل ببياناتهم وخصوصية أعلى دون الحاجة للاتصال بالإنترنت."
-      },
-      {
-        "q": "أي من التقنيات التالية يساعد في تحسين أداء النماذج المحلية؟",
-        "options": [
-          "زيادة حجم النموذج",
-          "الكمون (quantization)",
-          "إضافة المزيد من الطبقات",
-          "زيادة دقة البيانات"
-        ],
-        "answer": 1,
-        "explain": "الكمون (quantization) هي تقنية تقلل من دقة النموذج ولكنها تقلل من حجمه وتساعد على تشغيله على أجهزة أقل قوة."
-      },
-      {
-        "q": "ما هو المصدر الموثوق لتحميل النماذج؟",
-        "options": [
-          "أي موقع ويب",
-          "مستودعات مثل Hugging Face",
-          "محركات البحث",
-          "منتديات غير رسمية"
-        ],
-        "answer": 1,
-        "explain": "مستودعات مثل Hugging Face توفر نماذج موثوقة وموثقة مع وثائق كاملة حول كيفية استخدامها."
+        "explain": "يجب أن تبدأ بالمهام البسيطة ثم تزداد درجة تعقيد المهام تدريجياً لمساعدة النموذج على تطوير مهاراته في التفكير المتسلسل بشكل فعال."
       }
     ],
-    "addedAt": "2026-10-10"
+    "addedAt": "2026-10-11"
   }
 }
