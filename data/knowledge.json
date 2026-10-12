@@ -1,6 +1,95 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-12-تحسين-النصوص-باستخدام-تقنيات-التعديل-التكراري",
+      "title": "تحسين النصوص باستخدام تقنيات التعديل التكراري",
+      "titleEn": "Improving Text Quality Through Iterative Refinement",
+      "why": "تساعد تقنيات التعديل التكراري في تحقيق دقة وجودة عالية في النصوص المولدة بواسطة الذكاء الاصطناعي من خلال تحسين النتائج تدريجياً.",
+      "whyEn": "Iterative refinement techniques help achieve high accuracy and quality in AI-generated text by gradually improving results.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "تحديد نقاط الضعف الأولية",
+          "detail": "قم بتحليل النص الأولي وتحديد المجالات التي تحتاج إلى تحسين مثل الدقة، الوضوح، والتنسيق."
+        },
+        {
+          "title": "إعداد تعليمات محددة",
+          "detail": "اكتب أوامر واضحة ومحددة تركز على تحليل النص وتقديم اقتراحات محددة للتحسين."
+        },
+        {
+          "title": "تنفيذ الدورات التكرارية",
+          "detail": "اطلب من النموذج تحسين النص عدة مرات مع كل مرة التركيز على جانب مختلف من جودة النص."
+        },
+        {
+          "title": "التحقق من النتائج النهائية",
+          "detail": "قم بمراجعة النص النهائي للتأكد من تحقيق جميع المعايير المطلوبة للجودة والدقة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Identify Initial Weaknesses",
+          "detail": "Analyze the initial text and identify areas that need improvement such as accuracy, clarity, and formatting."
+        },
+        {
+          "title": "Prepare Specific Instructions",
+          "detail": "Write clear and specific prompts that focus on analyzing the text and providing specific improvement suggestions."
+        },
+        {
+          "title": "Implement Iterative Rounds",
+          "detail": "Ask the model to improve the text multiple times, with each round focusing on a different aspect of text quality."
+        },
+        {
+          "title": "Verify Final Results",
+          "detail": "Review the final text to ensure all quality and accuracy requirements have been met."
+        }
+      ],
+      "code": "def iterative_refinement(text, improvement_areas, rounds=3):\n    improved_text = text\n    for area in improvement_areas:\n        for _ in range(rounds):\n            prompt = f\"Improve this text focusing on {area}: {improved_text}\"\n            improved_text = ai_model.generate(prompt)\n    return improved_text",
+      "resources": [
+        {
+          "name": "Iterative Prompting Guide",
+          "url": "https://www.promptingguide.ai/advanced/iterative"
+        },
+        {
+          "name": "Text Refinement Techniques",
+          "url": "https://arxiv.org/abs/2304.02892"
+        }
+      ],
+      "tags": [
+        "تحسين النصوص",
+        "التعديل التكراري",
+        "تقنيات النموذج",
+        "جودة المحتوى"
+      ],
+      "quickRef": "استخدم دورات متعددة من التحسين مع التركيز على جانب مختلف في كل مرة لتحقيق جودة نص عالية",
+      "quickRefEn": "Use multiple improvement cycles focusing on different aspects each time to achieve high-quality text",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي لتقنيات التعديل التكراري؟",
+          "options": [
+            "تقليل عدد الكلمات في النص",
+            "تحقيق دقة وجودة عالية في النصوص المولدة",
+            "زيادة سرعة توليد النص",
+            "تقليل تعقيد النموذج"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي لتقنيات التعديل التكراري هو تحقيق دقة وجودة عالية في النصوص المولدة بواسطة الذكاء الاصطناعي من خلال تحسين النتائج تدريجياً."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في عملية التعديل التكراري؟",
+          "options": [
+            "تنفيذ الدورات التكرارية",
+            "التحقق من النتائج النهائية",
+            "تحديد نقاط الضعف الأولية",
+            "إعداد تعليمات محددة"
+          ],
+          "answer": 2,
+          "explain": "الخطوة الأولى هي تحديد نقاط الضعف الأولية في النص لتحديد المجالات التي تحتاج إلى تحسين."
+        }
+      ],
+      "addedAt": "2026-10-12"
+    },
+    {
       "id": "k-2026-10-11-تحسين-أداء-النماذج-باستخدام-تقنيات-التفكير-المتسلس",
       "title": "تحسين أداء النماذج باستخدام تقنيات التفكير المتسلسل",
       "titleEn": "Improving Model Performance with Chain-of-Thought Techniques",
