@@ -1,0 +1,481 @@
+{
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T20:24:08.498Z",
+  "news": [
+    {
+      "id": "n-2026-10-12-4",
+      "title": "جوجل دمند تعلن عن Gemini 4 Argon: عصر جديد من الذكاء المتقدم",
+      "titleEn": "Gemini 4 Argon: our next era of frontier intelligence",
+      "summary": "جوجل دمند تطلق Gemini 4 Argon، النموذج الأحدث في سلسلة Gemini، مع قدرات محسنة في الفهم والاستدلال والإبداع.",
+      "summaryEn": "Google DeepMind launches Gemini 4 Argon, the latest model in the Gemini series with enhanced capabilities in understanding, reasoning, and creativity.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+      },
+      "publishedAt": "2026-09-30"
+    },
+    {
+      "id": "n-2026-10-12-1",
+      "title": "سوفوس تقليل وقت التحقيق في التهديدات الأمنية بنسبة 96% باستخدام OpenAI Daybreak",
+      "titleEn": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "summary": "سوفوس تستخدم تقنية OpenAI Daybreak لتقليل وقت التحقيق في التهديدات السيبرانية بنسبة 96%، مما يمثل قفزة هائلة في كفاءة أمنية الشركات.",
+      "summaryEn": "Sophos uses OpenAI's Daybreak to cut cyber-threat investigation time by 96%, representing a significant leap in corporate security efficiency.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/sophos"
+      },
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "id": "n-2026-10-12-2",
+      "title": "أسانا تقليل تكاليف النموذج 76 مرة في اختبارات المتصفح مع GPT-6.1 Sol",
+      "titleEn": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "summary": "أسانا نجحت في تقليل تكاليف نموذج GPT-6.1 Sol بنسبة 76 مرة مع زيادة سرعة التنفيذ 5 أضعاف في اختبارات المتصفح.",
+      "summaryEn": "Asana successfully reduced GPT-6.1 Sol model costs by 76x while increasing execution speed 5-fold in browser tests.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/asana-browser-agent"
+      },
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "id": "n-2026-10-12-3",
+      "title": "EmbeddingGemma 2: نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر",
+      "titleEn": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "summary": "جوجل دمند تطلق EmbeddingGemma 2، نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر لمعالجة النصوص والصور والفيديو بكفاءة عالية.",
+      "summaryEn": "Google DeepMind launches EmbeddingGemma 2, an open, lightweight multimodal model for efficient processing of text, images, and video.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
+      },
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "n-2026-10-12-5",
+      "title": "ريفلكشن AI تطلق Beam: نموذج مفتوح المصدر لمواجهة النماذج الصينية",
+      "titleEn": "Reflection AI Launches Beam, Its First Open-Weight AI Model",
+      "summary": "ريفلكشن AI تطلق نموذج Beam الأول المفتوح المصدر لمواجهة النماذج الصينية المتقدمة، مدعومة من نفيديا.",
+      "summaryEn": "Reflection AI launches its first open-weight model Beam to compete with advanced Chinese models, supported by Nvidia.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWk5yYmVfLUpQbXFTSWFEWGJRZGdRSHVhaUVRRmp4V3lzUjgzS1NxTTIzUjhDbURWNFEyR3NMa1pHWDA1NU9YZlZTamJiX1I4VTJldWZ5aWpjSDkxazdvUi1iem9LQ1N2VlFrcWptOUFBWEU?oc=5"
+      },
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "n-2026-10-12-6",
+      "title": "مايكروسوفت تطلق Microsoft-Decision-1 مبني على Qwen",
+      "titleEn": "Microsoft launches Microsoft-Decision-1, built on Alibaba's Qwen",
+      "summary": "مايكروسوفت تطلق نموذج Microsoft-Decision-1 السريع لتقييم القرارات مبني على نموذج Qwen من علي بابا.",
+      "summaryEn": "Microsoft launches Microsoft-Decision-1, a fast decision-scoring model built on Alibaba's Qwen.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVWhJTGQtSnVnWVp5OTRRYVRHMWRYbko1WHBvTDN2MlFEUVc1TTdJMHBXSGpDb3ZtV3JkaGQwUDQ3ZUFBd3pkb1pxcV9zQ01QREl6MFN1UnpGQmZ0elItNmQ4NXpRUnc3d2hRNWh5a3l5bkk2eHBwQng1M0pXLWR3RkFBQUltaS1tS1VDeEU3VEFib3FudVZoZkM1aGhGTWk3VEJRa1dFWnpxbGdIMlBCWHYxblNnX1E4R0t2U25aU3BRTWlqMFE?oc=5"
+      },
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "id": "n-2026-10-12-7",
+      "title": "ديب سيك ترفع 12 مليار دولار بتمويل من تينسنت",
+      "titleEn": "DeepSeek to Raise at Least $12 Billion in Tencent-Backed Funding",
+      "summary": "شركة ديب سيك الصينية تهدف لجمع 12 مليار دولار على الأقل في جولة التمويل الجديدة المدعومة من تينسنت.",
+      "summaryEn": "Chinese AI company DeepSeek aims to raise at least $12 billion in its new funding round backed by Tencent.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXVsa1AtZXBYRFRpZG9IQ1JKcW5qVjZiLVNsUDhRc2hJRWJVYlZ1cXR3TGdKS2NOb3hkZ3dFM1lCdjFEWW05YjJPMl85cGwxWFZhbWdWSnNMVGJTem1RY2c5azlLbS1kRnhqdE5tY1NBWVZwM1BDUHV4RWxvcmVzdkdNVEY3VXlqQVF4N0diNU9WUjVJT3VGOU9lNVFEY0VhZlIyMG1yaE96Ui1xOFlwYlJLS28?oc=5"
+      },
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "n-2026-10-12-8",
+      "title": "مونشوت AI تصل إلى تقييم 50 مليار دولار قبل الاكتتاب في هونغ كونغ",
+      "titleEn": "Moonshot AI hits $50 billion valuation as it prepares for Hong Kong IPO",
+      "summary": "شركة مونشوت AI الصينية تصل إلى تقييم 50 مليار دولار استعداداً للاكتتاب العام في هونغ كونغ.",
+      "summaryEn": "Chinese AI company Moonshot AI reaches a $50 billion valuation ahead of its planned Hong Kong IPO.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WnZ4RmxlTUx3NnFXZTNNR3pETnZpQUJEVm4yYmYtQnVtQktYOUNiQ1Njdk1ITEFDMnJmTHlRbnJXOVZ5T2Fzc3pvZ2JXTlFlR2VNMmF2SEs0VGdrRXJ4N3UxY0h5bTBq?oc=5"
+      },
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "n-2026-10-12-10",
+      "title": "ساتيا نادella: يجب افتراض أن جميع نماذج الذكاء الاصطناعي 'مُهَنَّدة'",
+      "titleEn": "Satya Nadella says we should assume all AI models are 'compromised'",
+      "summary": "رئيس مايكروسوفت يؤكد على ضرافية التعامل مع جميع نماذج الذكاء الاصطناعي على أنها محتملة الاختراق.",
+      "summaryEn": "Microsoft CEO emphasizes treating all AI models as potentially compromised.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+      },
+      "publishedAt": "2026-10-11"
+    },
+    {
+      "id": "n-2026-10-12-9",
+      "title": "لماذا لا يتم اتهام شركات الذكاء الاصطناعي بالاختراق؟",
+      "titleEn": "Why aren't AI companies being charged for hacking?",
+      "summary": "مقال يطرح أسئلة حول المسؤولية القانونية لشركات الذكاء الاصطناعي في حالات الاختراقات الأمنية.",
+      "summaryEn": "Article raising questions about the legal accountability of AI companies in security breach cases.",
+      "category": "regulation",
+      "importance": 3,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/"
+      },
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "id": "n-2026-10-12-11",
+      "title": "مقارنة أداء: Mistral Large 4 مقابل GLM-5.3 مقابل Haiku 5.5",
+      "titleEn": "Mistral Large 4 vs GLM-5.3 vs Haiku 5.5: 14x Gap [2026]",
+      "summary": "دراسة مقارنة بين نماذج الذكاء الاصطناعي الكبرى تظهر فجوة أداء تصل إلى 14 ضعفاً بين النماذج المختلفة.",
+      "summaryEn": "Comparative study of major AI models shows a performance gap of up to 14x between different models.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaU1rYW1raUNQZUtsN3o4TGtWbzhremNZRE1fcllqVmVpZDNub0N1Wkc2MmNiNm1GbXJLY3Uta0U1RHppQzJ5bUFFTzhENF8zdmlBV1REbW5WQ1R5ay1WdmYyNXdpX01ZbVNKTWdMdHVrSThUaTlxbHZ6SWtvQjBEaURIOTNpRkU?oc=5"
+      },
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "id": "n-2026-10-12-12",
+      "title": "GLM 5.3 متاح الآن على Amazon Bedrock",
+      "titleEn": "Introducing GLM 5.3 on Amazon Bedrock",
+      "summary": "نموذج GLM 5.3 من Z.ai أصبح متاحاً على منصة Amazon Bedrock للخدمات السحابية.",
+      "summaryEn": "GLM 5.3 model from Z.ai is now available on Amazon Bedrock cloud platform.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZlREOV9PRTBLUXVmaE1HM0hqUzVxNDRLMjByUDI5Q3U5X3c4TUh6aXZOMVVpQ2JfazdybEVLTGRpbEU3M3FRRFU3YTJJWFFiLVJ1c0gxOUNDM3hpWXdMOGpkdjBYNUhsOEFrRXR4c2tmRjRRQnVuaHVUVFFPc05nX21OemdhQWNiWXZkVg?oc=5"
+      },
+      "publishedAt": "2026-10-05"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-10-12-1",
+      "name": "Gemini 4 Argon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-09-30",
+      "highlights": "الجيل الأحدث من نماذج جوجل المتقدمة مع قدرات محسنة في الفهم والاستدلال والإبداع",
+      "highlightsEn": "The latest generation of Google's advanced models with enhanced capabilities in understanding, reasoning, and creativity",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+    },
+    {
+      "id": "m-2026-10-12-2",
+      "name": "EmbeddingGemma 2",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-10-06",
+      "highlights": "نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر لمعالجة النصوص والصور والفيديو بكفاءة عالية",
+      "highlightsEn": "Lightweight multimodal open-source model for efficient processing of text, images, and video",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
+    },
+    {
+      "id": "m-2026-10-12-3",
+      "name": "Beam",
+      "org": "Reflection AI",
+      "releaseDate": "2026-10-06",
+      "highlights": "نموذج مفتوح المصدر مصمم لمواجهة النماذج الصينية المتقدمة، مدعوم من نفيديا",
+      "highlightsEn": "Open-weight model designed to compete with advanced Chinese models, supported by Nvidia",
+      "specs": {
+        "context": "256K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWk5yYmVfLUpQbXFTSWFEWGJRZGdRSHVhaUVRRmp4V3lzUjgzS1NxTTIzUjhDbURWNFEyR3NMa1pHWDA1NU9YZlZTamJiX1I4VTJldWZ5aWpjSDkxazdvUi1iem9LQ1N2VlFrcWptOUFBWEU?oc=5"
+    },
+    {
+      "id": "m-2026-10-12-4",
+      "name": "Microsoft-Decision-1",
+      "org": "Microsoft",
+      "releaseDate": "2026-10-10",
+      "highlights": "نموذج سريع لتقييم القرارات مبني على Qwen من علي بابا",
+      "highlightsEn": "Fast decision-scoring model built on Alibaba's Qwen",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVWhJTGQtSnVnWVp5OTRRYVRHMWRYbko1WHBvTDN2MlFEUVc1TTdJMHBXSGpDb3ZtV3JkaGQwUDQ3ZUFBd3pkb1pxcV9zQ01QREl6MFN1UnpGQmZ0elItNmQ4NXpRUnc3d2hRNWh5a3l5bkk2eHBwQng1M0pXLWR3RkFBQUltaS1tS1VDeEU3VEFib3FudVZoZkM1aGhGTWk3VEJRa1dFWnpxbGdIMlBCWHYxblNnX1E4R0t2U25aU3BRTWlqMFE?oc=5"
+    },
+    {
+      "id": "m-2026-10-12-5",
+      "name": "GLM 5.3",
+      "org": "Z.ai",
+      "releaseDate": "2026-10-05",
+      "highlights": "نموذج متقدم متاح على منصة Amazon Bedrock للخدمات السحابية",
+      "highlightsEn": "Advanced model available on Amazon Bedrock cloud platform",
+      "specs": {
+        "context": "256K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZlREOV9PRTBLUXVmaE1HM0hqUzVxNDRLMjByUDI5Q3U5X3c4TUh6aXZOMVVpQ2JfazdybEVLTGRpbEU3M3FRRFU3YTJJWFFiLVJ1c0gxOUNDM3hpWXdMOGpkdjBYNUhsOEFrRXR4c2tmRjRRQnVuaHVUVFFPc05nX21OemdhQWNiWXZkVg?oc=5"
+    },
+    {
+      "id": "m-2026-10-12-6",
+      "name": "Qwen-Image-2.1-Turbo",
+      "org": "Qwen",
+      "releaseDate": "2026-10-09",
+      "highlights": "نموذج توليد الصور بـ8 خطوات وحجم 7B، مع ترخيص محدد",
+      "highlightsEn": "8-step 7B image generation model with specific licensing",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXpvaFdacktESjZwbURtOUpFTW5WTTktSnZ4TjBudmVJcXVHenYxdEpRQ1p0RjFENkJuQmFIVHdVM3JjN1lSSkc3UEZfejI2cVNDRFNoRi1yV0l2NWNGb3VEQTVmVmpGcm1acWVOeXVtMFk0Y1JtNDFkUjNXdkZ4bFN4UHhjTk1qTGdIZkF1TmNTd3ZQWVNwWTlMX3A4SzhJTm5yTDlVRTE2TlhS0gGsAUFVX3lxTE5Vem9oV1pyS0RKNnBtRG05SkVNblZNOS1KdnhOMG52ZUlxdUd6djF0SlFDWnRGMUQ2Qm5CYUhUd1UzcmM3WVJKRzdQRl96MjZxU0NEU2hGLXJXSXY1Y0ZvdURBNWZWakZybVpxZU55dW0wWTRjUm00MWRSM1d2RnhsU3hQeGNOTWpMZ0hmQXVOY1N3dlBZU3BZOUxfcDhLOElObnJMOVVFMTZOWFI?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-10-12-1",
+      "text": "مونشوت AI تصل إلى تقييم 50 مليار دولار استعداداً للاكتتاب العام في هونغ كونغ",
+      "textEn": "Moonshot AI reaches $50 billion valuation ahead of Hong Kong IPO",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4WnZ4RmxlTUx3NnFXZTNNR3pETnZpQUJEVm4yYmYtQnVtQktYOUNiQ1Njdk1ITEFDMnJmTHlRbnJXOVZ5T2Fzc3pvZ2JXTlFlR2VNMmF2SEs0VGdrRXJ4N3UxY0h5bTBq?oc=5"
+    },
+    {
+      "id": "h-2026-10-12-2",
+      "text": "مايكروسوفت تبني نموذجها الجديد للقرارات على Qwen من علي بابا، حيث أن أكثر من 60% من نماذجها للقرارات مبنية على Qwen",
+      "textEn": "Microsoft builds its new decision model on Alibaba's Qwen, with over 60% of decision-making models developed based on Qwen",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVhYRjJMUEU3cTBkN0xKNGhfOHNDaGYteFBjQWVsdEdSSEVGYXU4OFYyenNfaGNVa0pmNjQxUGxVVnJRY0JCejdPT3BzQjM5QXZremVWTUp1UUJnSDZnUnF0SXU2aEhjV1FRazh4ZzlzX1htbWRIbk45NDNpQTJobVFJZjUzbEtkU01namR1MTZNT2RRdzhwSjFHaUhtWFNwSThjeU92T3AxUGhUQlE?oc=5"
+    },
+    {
+      "id": "h-2026-10-12-3",
+      "text": "ديب سيك تهدف لجمع 12 مليار دولار على الأقل في جولة التمويل الجديدة المدعومة من تينسنت",
+      "textEn": "DeepSeek aims to raise at least $12 billion in new funding round backed by Tencent",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXVsa1AtZXBYRFRpZG9IQ1JKcW5qVjZiLVNsUDhRc2hJRWJVYlZ1cXR3TGdKS2NOb3hkZ3dFM1lCdjFEWW05YjJPMl85cGwxWFZhbWdWSnNMVGJTem1RY2c5azlLbS1kRnhqdE5tY1NBWVZwM1BDUHV4RWxvcmVzdkdNVEY3VXlqQVF4N0diNU9WUjVJT3VGOU9lNVFEY0VhZlIyMG1yaE96Ui1xOFlwYlJLS28?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-10-12-1",
+      "title": "لماذا لا يتم اتهام شركات الذكاء الاصطناعي بالاختراق؟",
+      "titleEn": "Why aren't AI companies being charged for hacking?",
+      "summary": "مقال يطرح أسئلة حول المسؤولية القانونية لشركات الذكاء الاصطناعي في حالات الاختراقات الأمنية، مع نقاش حول كيفية التعامل مع مخاطر الأنظمة الذكية.",
+      "summaryEn": "Article raising questions about the legal accountability of AI companies in security breach cases, discussing how to address risks of intelligent systems.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+      "source": "Hacker News",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "sec-2026-10-12-2",
+      "title": "ساتيا نادella: يجب افتراض أن جميع نماذج الذكاء الاصطناعي 'مُهَنَّدة'",
+      "titleEn": "Satya Nadella says we should assume all AI models are 'compromised'",
+      "summary": "رئيس مايكروسوفت يؤكد على ضرافية التعامل مع جميع نماذج الذكاء الاصطناعي على أنها محتملة الاختراق، مما يشير إلى موقف حذر تجاه أمن الذكاء الاصطناعي.",
+      "summaryEn": "Microsoft CEO emphasizes treating all AI models as potentially compromised, indicating a cautious approach to AI security.",
+      "type": "policy",
+      "severity": "critical",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "source": "Hacker News",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "sec-2026-10-12-3",
+      "title": "ثغرة محتملة في إعادة التشغيل التلقائي لآبل",
+      "titleEn": "Possible Vulnerability in Apple's Automatic Reboot",
+      "summary": "أبلغت 404Media عن ثغرة محتملة في نظام إعادة التشغيل التلقائي لآبل يتم استغلالها من قبل شركة تصنيع الأسلحة السيبرانية.",
+      "summaryEn": "404Media reports a potential vulnerability in Apple's automatic reboot system being exploited by a cyber-weapons manufacturer.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "sec-2026-10-12-4",
+      "title": "الFBI تعتقد مشتبهًا في قضية اختراق الFBI",
+      "titleEn": "FBI Arrests Suspect in FBI-Hacking Case",
+      "summary": "في سبتمبر، أعلنت مجموعة من المهاجمين تسمى ShinyHunters عن سرقة كم هائل من البيانات، والآن يتم توقيف المشتبه به الرئيسي.",
+      "summaryEn": "In September, hackers from a group called ShinyHunters announced stealing a trove of data, and now the main suspect has been arrested.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "sec-2026-10-12-5",
+      "title": "قدرة نماذج الذكاء الاصطناعي على التكاثر الذاتي",
+      "titleEn": "AI models may be capable of self-replicating without access to a datacenter",
+      "summary": "بحث جديد يكشف عن إمكانية أن تكون نماذج الذكاء الاصطناعي قادرة على التكاثر الذاتي دون الحاجة للوصول إلى مركز بيانات، مما يطرح مخاطر أمنية جديدة.",
+      "summaryEn": "New research reveals AI models may be capable of self-replication without access to a datacenter, posing new security risks.",
+      "type": "malware",
+      "severity": "critical",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "source": "Hacker News",
+      "date": "2026-10-12"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-10-12",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "60.4"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "58.3"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "58.3"
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "org": "Google",
+        "score": "55.1"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "54.4"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "54.0"
+      },
+      {
+        "name": "GPT-6.1 Sol",
+        "org": "OpenAI",
+        "score": "53.9"
+      },
+      {
+        "name": "GPT-5.6 Sol",
+        "org": "OpenAI",
+        "score": "53.5"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "53.5"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "53.4"
+      }
+    ],
+    "highlights": "يحتل Claude Opus 5.5 المركز الأول بنتيجة 60.4، بينما هناك سباق محموم بين Claude Sonnet 5.5 و GPT-6 Astra اللذين سجلا نفس النتيجة 58.3. تظهر Anthropic هيمنة واضحة مع 5 نماذج في قائمة أفضل 10 نماذج.",
+    "highlightsEn": "Claude Opus 5.5 leads with a score of 60.4, while there's a tight race between Claude Sonnet 5.5 and GPT-6 Astra, both scoring 58.3. Anthropic shows clear dominance with 5 models in the top 10."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-10-12-تحسين-النصوص-باستخدام-تقنيات-التعديل-التكراري",
+    "title": "تحسين النصوص باستخدام تقنيات التعديل التكراري",
+    "titleEn": "Improving Text Quality Through Iterative Refinement",
+    "why": "تساعد تقنيات التعديل التكراري في تحقيق دقة وجودة عالية في النصوص المولدة بواسطة الذكاء الاصطناعي من خلال تحسين النتائج تدريجياً.",
+    "whyEn": "Iterative refinement techniques help achieve high accuracy and quality in AI-generated text by gradually improving results.",
+    "difficulty": "intermediate",
+    "track": "tools",
+    "steps": [
+      {
+        "title": "تحديد نقاط الضعف الأولية",
+        "detail": "قم بتحليل النص الأولي وتحديد المجالات التي تحتاج إلى تحسين مثل الدقة، الوضوح، والتنسيق."
+      },
+      {
+        "title": "إعداد تعليمات محددة",
+        "detail": "اكتب أوامر واضحة ومحددة تركز على تحليل النص وتقديم اقتراحات محددة للتحسين."
+      },
+      {
+        "title": "تنفيذ الدورات التكرارية",
+        "detail": "اطلب من النموذج تحسين النص عدة مرات مع كل مرة التركيز على جانب مختلف من جودة النص."
+      },
+      {
+        "title": "التحقق من النتائج النهائية",
+        "detail": "قم بمراجعة النص النهائي للتأكد من تحقيق جميع المعايير المطلوبة للجودة والدقة."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Identify Initial Weaknesses",
+        "detail": "Analyze the initial text and identify areas that need improvement such as accuracy, clarity, and formatting."
+      },
+      {
+        "title": "Prepare Specific Instructions",
+        "detail": "Write clear and specific prompts that focus on analyzing the text and providing specific improvement suggestions."
+      },
+      {
+        "title": "Implement Iterative Rounds",
+        "detail": "Ask the model to improve the text multiple times, with each round focusing on a different aspect of text quality."
+      },
+      {
+        "title": "Verify Final Results",
+        "detail": "Review the final text to ensure all quality and accuracy requirements have been met."
+      }
+    ],
+    "code": "def iterative_refinement(text, improvement_areas, rounds=3):\n    improved_text = text\n    for area in improvement_areas:\n        for _ in range(rounds):\n            prompt = f\"Improve this text focusing on {area}: {improved_text}\"\n            improved_text = ai_model.generate(prompt)\n    return improved_text",
+    "resources": [
+      {
+        "name": "Iterative Prompting Guide",
+        "url": "https://www.promptingguide.ai/advanced/iterative"
+      },
+      {
+        "name": "Text Refinement Techniques",
+        "url": "https://arxiv.org/abs/2304.02892"
+      }
+    ],
+    "tags": [
+      "تحسين النصوص",
+      "التعديل التكراري",
+      "تقنيات النموذج",
+      "جودة المحتوى"
+    ],
+    "quickRef": "استخدم دورات متعددة من التحسين مع التركيز على جانب مختلف في كل مرة لتحقيق جودة نص عالية",
+    "quickRefEn": "Use multiple improvement cycles focusing on different aspects each time to achieve high-quality text",
+    "quiz": [
+      {
+        "q": "ما هو الهدف الرئيسي لتقنيات التعديل التكراري؟",
+        "options": [
+          "تقليل عدد الكلمات في النص",
+          "تحقيق دقة وجودة عالية في النصوص المولدة",
+          "زيادة سرعة توليد النص",
+          "تقليل تعقيد النموذج"
+        ],
+        "answer": 1,
+        "explain": "الهدف الرئيسي لتقنيات التعديل التكراري هو تحقيق دقة وجودة عالية في النصوص المولدة بواسطة الذكاء الاصطناعي من خلال تحسين النتائج تدريجياً."
+      },
+      {
+        "q": "ما هي الخطوة الأولى في عملية التعديل التكراري؟",
+        "options": [
+          "تنفيذ الدورات التكرارية",
+          "التحقق من النتائج النهائية",
+          "تحديد نقاط الضعف الأولية",
+          "إعداد تعليمات محددة"
+        ],
+        "answer": 2,
+        "explain": "الخطوة الأولى هي تحديد نقاط الضعف الأولية في النص لتحديد المجالات التي تحتاج إلى تحسين."
+      }
+    ],
+    "addedAt": "2026-10-12"
+  }
+}

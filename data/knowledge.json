@@ -1,6 +1,114 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-13-كتابة-أوامر-فعالة-لنماذج-الذكاء-الاصطناعي",
+      "title": "كتابة أوامر فعالة لنماذج الذكاء الاصطناعي",
+      "titleEn": "Writing Effective AI Model Prompts",
+      "why": "تساعدك كتابة أوامر فعالة على الحصول على نتائج دقيقة ومفيدة من نماذج الذكاء الاصطناعي، مما يوفر الوقت ويحسن جودة العمل، خاصة عند التعامل مع المهام المعقدة أو الحساسة.",
+      "whyEn": "Effective prompt writing helps you get accurate and useful results from AI models, saving time and improving work quality, especially when dealing with complex or sensitive tasks.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "تحديد الهدف بوضوح",
+          "detail": "حدد بوضوح ما تريد تحقيقه من خلال الأمر، مع ذرائع الدخل والخروج المتوقعة."
+        },
+        {
+          "title": "تحديد السياق",
+          "detail": "قدم معلومات كافية عن السياق لمساعدة النموذج على فهم المهمة بشكل أفضل."
+        },
+        {
+          "title": "تحديد تنسيق المخرجات",
+          "detail": "حدد كيف تريد أن يقدم النموذج الإجابة، مثل قائمة، جدول، أو فقرة."
+        },
+        {
+          "title": "استخدام التعليمات التفصيلية",
+          "detail": "استخدم تعليمات واضحة ومحددة، مثل 'اجعل الإجابة مختصرة' أو 'قدم مثالًا'."
+        },
+        {
+          "title": "التكرار والتحسين",
+          "detail": "جرّب الأمر عدة مراحل، وقم بتعديله بناءً على النتائج التي تحصل عليها."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Clearly Define the Goal",
+          "detail": "Clearly state what you want to achieve with the prompt, including expected inputs and outputs."
+        },
+        {
+          "title": "Provide Context",
+          "detail": "Give sufficient information about the context to help the model better understand the task."
+        },
+        {
+          "title": "Specify Output Format",
+          "detail": "Indicate how you want the model to present the answer, such as as a list, table, or paragraph."
+        },
+        {
+          "title": "Use Detailed Instructions",
+          "detail": "Use clear and specific instructions like 'make the answer concise' or 'provide an example'."
+        },
+        {
+          "title": "Iterate and Refine",
+          "detail": "Try the prompt multiple times, modifying it based on the results you get."
+        }
+      ],
+      "code": "def create_effective_prompt(task, context, output_format, instructions):\n    prompt = f\"Task: {task}\\n\\nContext: {context}\\n\\nOutput Format: {output_format}\\n\\nInstructions: {instructions}\"\n    return prompt",
+      "resources": [
+        {
+          "name": "Prompt Engineering Guide",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "name": "OpenAI Prompt Engineering Best Practices",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        }
+      ],
+      "tags": [
+        "كتابة أوامر",
+        "نماذج الذكاء الاصطناعي",
+        "مهارات أساسية",
+        "تحسين النتائج"
+      ],
+      "quickRef": "1. حدد الهدف بوضوح 2. قدم السياق الكافي 3. حدد تنسيق المخرجات 4. استخدم تعليمات محددة 5. كرر وحدّث",
+      "quickRefEn": "1. Clearly define the goal 2. Provide sufficient context 3. Specify output format 4. Use specific instructions 5. Iterate and refine",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في كتابة أمر فعال لنموذج الذكاء الاصطناعي؟",
+          "options": [
+            "استخدام لغة معقدة ومتخصصة",
+            "تحديد الهدف بوضوح",
+            "جعل الأمر طويلًا قدر الإمكان",
+            "عدم ذرائع السياق"
+          ],
+          "answer": 1,
+          "explain": "تحديد الهدف بوضوح هو العنصر الأهم لأنه يساعد النموذج على فهم ما هو مطلوب منه بدقة."
+        },
+        {
+          "q": "ما هو أفضل طريقة لتحسين أمر يعطيك نتائج غير مرغوب فيها؟",
+          "options": [
+            "تغيير النموذج بالكامل",
+            "إضافة تعليمات أكثر تحديدًا وتكرار الأمر",
+            "جعل الأمر أقصر",
+            "استخدام لغة عامية بدلًا من الرسمية"
+          ],
+          "answer": 1,
+          "explain": "إضافة تعليمات أكثر تحديدًا وتكرار الأمر هو أفضل طريقة لأنها تسمح للنموذج بفهم ما تريده بشكل أفضل."
+        },
+        {
+          "q": "ما هو سبب أهمية تحديد تنسيق المخرجات في الأمر؟",
+          "options": [
+            "لجعل الأمر يبدو احترافيًا",
+            "لمساعدة النموذج على تقديم الإجابة بالطريقة التي تريدها",
+            "لزيادة طول النموذج",
+            "لجعل الأمر أكثر تعقيدًا"
+          ],
+          "answer": 1,
+          "explain": "تحديد تنسيق المخرجات يساعد النموذج على تقديم الإجابة بالطريقة التي تريدها، مما يجعلها أكثر فائدة لك."
+        }
+      ],
+      "addedAt": "2026-10-13"
+    },
+    {
       "id": "k-2026-10-12-تحسين-النصوص-باستخدام-تقنيات-التعديل-التكراري",
       "title": "تحسين النصوص باستخدام تقنيات التعديل التكراري",
       "titleEn": "Improving Text Quality Through Iterative Refinement",
