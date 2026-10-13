@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-13-تخصيص-النماذج-اللغوية-الصغيرة-لمجالات-محددة",
+      "title": "تخصيص النماذج اللغوية الصغيرة لمجالات محددة",
+      "titleEn": "Fine-tuning Small Language Models for Specific Domains",
+      "why": "يساعد تخصيص النماذج اللغوية الصغيرة على تحقيق أداء استثنائي في مهام ومجالات محددة بتكلفة أقل من النماذج الكبيرة.",
+      "whyEn": "Fine-tuning small language models helps achieve exceptional performance in specific tasks and domains at a lower cost than large models.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد المجال والمهمة",
+          "detail": "حدد المجال والمهام المحددة التي تريد تخصيص النموذج لها."
+        },
+        {
+          "title": "جمع البيانات المنظمة",
+          "detail": "اجمع مجموعة بيانات عالية الجودة ومتنوعة تتعلق بمجالك المحدد."
+        },
+        {
+          "title": "اختيار النموذج الأساسي",
+          "detail": "اختر نموذجًا لغويًا صغيرًا مناسبًا كأساس للتخصيص."
+        },
+        {
+          "title": "إعداد بيانات التدريب",
+          "detail": "قسّم بياناتك إلى مجموعات تدريب، تحقق، واختبار."
+        },
+        {
+          "title": "تنفيذ عملية التخصيص",
+          "detail": "استخدم مكتبات مثل Hugging Face Transformers لتدريب النموذج على بياناتك."
+        },
+        {
+          "title": "تقييم النموذج",
+          "detail": "قيّم أداء النموذج بعد التخصيص باستخدام مقاييس مناسبة لمجالك."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define Domain and Task",
+          "detail": "Identify the specific domain and tasks you want to fine-tune the model for."
+        },
+        {
+          "title": "Collect Structured Data",
+          "detail": "Gather a high-quality, diverse dataset relevant to your specific domain."
+        },
+        {
+          "title": "Choose Base Model",
+          "detail": "Select a suitable small language model as the foundation for fine-tuning."
+        },
+        {
+          "title": "Prepare Training Data",
+          "detail": "Split your data into training, validation, and test sets."
+        },
+        {
+          "title": "Implement Fine-tuning Process",
+          "detail": "Use libraries like Hugging Face Transformers to fine-tune the model on your data."
+        },
+        {
+          "title": "Evaluate Model",
+          "detail": "Assess the model's performance after fine-tuning using metrics appropriate for your domain."
+        }
+      ],
+      "code": "from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments\nfrom datasets import load_dataset\n\n# Load model and tokenizer\nmodel_name = \"bert-base-uncased\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)\n\n# Load and prepare dataset\ndataset = load_dataset(\"your_dataset\")\nencoded_dataset = dataset.map(lambda x: tokenizer(x[\"text\"], truncation=True), batched=True)\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    evaluation_strategy=\"epoch\"\n)\n\n# Create trainer and fine-tune\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=encoded_dataset[\"train\"],\n    eval_dataset=encoded_dataset[\"validation\"]\n)\n\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Tutorial",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "Stanford CS224n: NLP with Deep Learning",
+          "url": "http://web.stanford.edu/class/cs224n/"
+        },
+        {
+          "name": "Papers with Code - Fine-tuning",
+          "url": "https://paperswithcode.com/task/fine-tuning"
+        }
+      ],
+      "tags": [
+        "تخصيص النماذج",
+        "التعلم العميق",
+        "معالجة اللغات الطبيعية",
+        "نماذج لغوية صغيرة"
+      ],
+      "quickRef": "تخصيص النماذج اللغوية الصغيرة يتضمن تحديد المجال، جمع البيانات، اختيار النموذج الأساسي، إعداد البيانات، التدريب، والتقييم.",
+      "quickRefEn": "Fine-tuning small language models involves domain definition, data collection, base model selection, data preparation, training, and evaluation.",
+      "quiz": [
+        {
+          "q": "ما هو الخطوة الأولى في عملية تخصيص نموذج لغوي صغير؟",
+          "options": [
+            "جمع البيانات",
+            "اختيار النموذج الأساسي",
+            "تحديد المجال والمهمة",
+            "تنفيذ عملية التدريب"
+          ],
+          "answer": 2,
+          "explain": "الخطوة الأولى هي تحديد المجال والمهمة التي تريد تخصيص النموذج لها، لأن هذا يوجه عملية اختيار النموذج وجمع البيانات."
+        },
+        {
+          "q": "ما هو أحد الفوائد الرئيسية لتخصيص النماذج اللغوية الصغيرة؟",
+          "options": [
+            "زيادة حجم النموذج",
+            "تحسين الأداء في مهام محددة بتكلفة أقل",
+            "تقليل وقت التدريب",
+            "زيادة دقة النموذج في جميع المهام"
+          ],
+          "answer": 1,
+          "explain": "الفائدة الرئيسية لتخصيص النماذج اللغوية الصغيرة هي تحقيق أداء استثنائي في مهام ومجالات محددة بتكلفة أقل من النماذج الكبيرة."
+        },
+        {
+          "q": "ما هي الأداة الأكثر شيوعًا لتخصيص النماذج اللغوية؟",
+          "options": [
+            "TensorFlow",
+            "PyTorch",
+            "Hugging Face Transformers",
+            "Scikit-learn"
+          ],
+          "answer": 2,
+          "explain": "Hugging Face Transformers هي الأداة الأكثر شيوعًا لتخصيص النماذج اللغوية لأنها توفر واجهات برمجية سهلة الاستخدام للعديد من النماذج اللغوية المسبقة التدريب."
+        }
+      ],
+      "addedAt": "2026-10-13"
+    },
+    {
       "id": "k-2026-10-13-كتابة-أوامر-فعالة-لنماذج-الذكاء-الاصطناعي",
       "title": "كتابة أوامر فعالة لنماذج الذكاء الاصطناعي",
       "titleEn": "Writing Effective AI Model Prompts",
