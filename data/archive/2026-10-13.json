@@ -1,0 +1,500 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T18:29:05.986Z",
+  "news": [
+    {
+      "id": "n-2026-10-13-1",
+      "title": "جيميني 4 أرجون للروبوتات",
+      "titleEn": "Gemini 4 Argon for Robotics",
+      "summary": "أطلقت جوجل دميند نموذج جيميني 4 أرجون المخصص للروبوتات، والذي يمثل تقدمًا كبيرًا في قدرات الذكاء الاصطناعي للتفاعل مع العالم المادي.",
+      "summaryEn": "Google DeepMind launched Gemini 4 Argon, a model specifically designed for robotics, representing significant advancement in AI capabilities for interacting with the physical world.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
+      },
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "id": "n-2026-10-13-4",
+      "title": "نموذج Kimi K3 يتجاوز GPT-6.1 Sol بـ 61 نقطة إيلو",
+      "titleEn": "Kimi K3 Beats GPT-6.1 Sol by 61 Elo Points",
+      "summary": "حقق نموذج Kimi K3 من Moonshot AI تفوقًا ملحوظًا على نموذج GPT-6.1 Sol في المعايير القياسية، متجاوزه بـ 61 نقطة إيلو.",
+      "summaryEn": "Moonshot AI's Kimi K3 model achieved a notable superiority over GPT-6.1 Sol in standard benchmarks, surpassing it by 61 Elo points.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRLVBkeDNOcjR0dWtWQThPQTUxTWYwMm1DYXNvcF9LN3NNbkJYY0RxN0prd3lEaGJOYmJZVFhKTERwQWp0ZzBfeEY3MUdzdktodzRiS0hyZEs0enlNajdtMVUzZw?oc=5"
+      },
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "id": "n-2026-10-13-12",
+      "title": "Moonshot AI تخطط لطرح أسهمها بـ 50 مليار دولار في هونغ كونغ",
+      "titleEn": "Moonshot AI Plans $50 Billion Hong Kong IPO",
+      "summary": "تخطط شركة Moonshot AI لطرح أسهمها الأولي العام بـ 50 مليار دولار في هونغ كونغ، مما يمثل أكبر طرح أسهم في القطاع.",
+      "summaryEn": "Moonshot AI plans to go public with a $50 billion IPO in Hong Kong, representing the largest offering in the sector.",
+      "category": "companies",
+      "importance": 5,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHdiQm9JMHQ5MDd3UUVGaHZiZWtTY1hZZi1rVWcxTm1mbmdHcElTN19CQW1OR2daZ04yeEpjSllUb0hMTFY3YUpOdGQ2LTNPbWNJcExvRmszdU9Db0JINjNDZWdKeGdsQkVPZklYMGVxMUVZMmZmNGUzWFpiNnVXbXA4SjdPZzZudnlydVA4MVVDc2s1Q2Exdm8wTFlZOTdLUVFmbjlqaElzNHJFOHVRbU9QYmhYX1JaOVRTdWhoTkxvVjdvWkJZN0J1Qmo3VzhQTTlWdzd3?oc=5"
+      },
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "id": "n-2026-10-13-2",
+      "title": "EmbeddingGemma 2: نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر",
+      "titleEn": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "summary": "أطلقت جوجل دميند نموذج EmbeddingGemma 2، وهو نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر، مما يسهل دمج الذكاء الاصطناعي في التطبيقات المختلفة.",
+      "summaryEn": "Google DeepMind launched EmbeddingGemma 2, an open, lightweight multimodal embedding model, making it easier to integrate AI into various applications.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
+      },
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "id": "n-2026-10-13-3",
+      "title": "إطلاق Mistral Large 4: نموذج جديد من Mistral AI",
+      "titleEn": "Launching Mistral Large 4: A new model from Mistral AI",
+      "summary": "أعلنت Mistral AI عن إطق نموذج Mistral Large 4 الجديد، الذي يقدم أداءً متقدمًا في مهام معالجة اللغات الطبيعية والاستدلال.",
+      "summaryEn": "Mistral AI announced the release of its new Mistral Large 4 model, which offers advanced performance in natural language processing and reasoning tasks.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/mistral-large-4/"
+      },
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "id": "n-2026-10-13-5",
+      "title": "Z.ai تطلق GLM-Legal: نموذج متخصص للعمل القانوني",
+      "titleEn": "Z.ai Unveils GLM-Legal: A specialized model for legal work",
+      "summary": "كشفت شركة Z.ai عن نموذج GLM-Legal المتخصص في مهام العمل القانوني، والذي يقدم قدرات متقدمة في معالجة المستندات القانونية والاستشارات.",
+      "summaryEn": "Z.ai unveiled GLM-Legal, a specialized model for legal tasks, offering advanced capabilities in legal document processing and consultation.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSThPQ09RSU5NNXJ1TGVKblo1Z2xydmh1a2ctWUphMHcxZjRxVTczLS0wd04xUGtmcUxWMXVRSmNIQ2xYRm1VN3VzaFo5bGliNGRwaHFmY3o4ZVMxQkRJZTVqS2Rfei1zVGNkVEdRM2NWTDlZZjBObkdzdmFRVjJWRi1fS0VCdFHSAYcBQVVfeXFMT0k4T0NPUUlOTTVydUxlSm5aNWdscnZodWtnLVlKYTB3MWY0cVU3My0tMHdOMVBrZnFMVjF1UUpjSENsWEZtVTd1c2haOWxpYjRkcGhxZmN6OGVTMUJESWU1aktkX3otc1RjZFRHUTNjVkw5WWYwTm5Hc3ZhUVYyVkYtX0tFQnRR?oc=5"
+      },
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "id": "n-2026-10-13-7",
+      "title": "DeepSeek تطلق سلسلة نماذج V4 الجديدة",
+      "titleEn": "DeepSeek Launches New V4 Model Series",
+      "summary": "أعلنت DeepSeek عن إطلاق سلسلة نماذج V4 الجديدة، والتي تقدم تحسينات كبيرة في الكفاءة والأداء مقارنة بالنسخ السابقة.",
+      "summaryEn": "DeepSeek announced the launch of its new V4 model series, offering significant improvements in efficiency and performance compared to previous versions.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMmZIMUVfdkJvQ19yTHdiLXc2SFJLaENvZzNnXzlGc1VLamZxQVlxSW9jcHMzMl9vbnVfOUN2NEVpMUp3aENYRC1SN19ZMWt4ZDMyWjQ1cldhZUVscnJNOFVGT1daVWlaTlY3dUlYanZCdFYwWXVMVkZ1VzNxYXNRQ2xuRHFkZDhvZnZlSXZiaS1kblpaVXJhZkhHVlN6aUh3b0Z0TmVQOUk1OUMzb1Ryd0JxRlRiRUJsdUJDU2ZnMmRtWmPSAcMBQVVfeXFMTzBTNkE5a3lkTVpLUU90MThBZHBvaG1tYV9wMmoxLW1GY3BCNkxRMGYyc0U0WTZ2UXFVR3h5b0ZFMlh6bXB5VWRQMDQyZXdDY1RrZEwxdkVwRUZtNUJhME9QUmloM2lLTXN6aC03azU5ZkF1YUhnOXVzM2QxQWxzNTZPb3I4WEhhRWxPdnY2YXhQNzlNLU1NcEN0OWwxdkVKVmNFaFpINGZFVnVudDV4WjFvTTVvVFhrNFRyOW1rb0N2MFRB?oc=5"
+      },
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "id": "n-2026-10-13-11",
+      "title": "مايكروسوفت تعتمد على Qwen في بناء نماذجها الجديدة",
+      "titleEn": "Microsoft Relies on Qwen for Building New Models",
+      "summary": "كشفت تقارير أن مايكروسوفت تعتمد على نماذج Qwen من Alibaba في بناء نماذجها الجديدة، مع أكثر من 60% من نماذج اتخاذ القرار المبنية على Qwen.",
+      "summaryEn": "Reports revealed that Microsoft relies on Alibaba's Qwen models for building new ones, with over 60% of decision-making models based on Qwen.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVhYRjJMUEU3cTBkN0xKNGhfOHNDaGYteFBjQWVsdEdSSEVGYXU4OFYyenNfaGNVa0pmNjQxUGxVVnJRY0JCejdPT3BzQjM5QXZremVWTUp1UUJnSDZnUnF0SXU2aEhjV1FRazh4ZzlzX1htbWRIbk45NDNpQTJobVFJZjUzbEtkU01namR1MTZNT2RRdzhwSjFHaUhtWFNwSThjeU92T3AxUGhUQlE?oc=5"
+      },
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "id": "n-2026-10-13-6",
+      "title": "Alibaba Qwen تطلق Qwen-Image-2.1-Turbo",
+      "titleEn": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo",
+      "summary": "أطلقت شركة Alibaba Qwen نموذج Qwen-Image-2.1-Turbo المخصص لمعالجة الصور، والذي يوفر أداءً عاليًا في مهام فهم وتوليد الصور.",
+      "summaryEn": "Alibaba Qwen released Qwen-Image-2.1-Turbo, a model specialized in image processing, offering high performance in image understanding and generation tasks.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXpvaFdacktESjZwbURtOUpFTW5WTTktSnZ4TjBudmVJcXVHenYxdEpRQ1p0RjFENkJuQmFIVHdVM3JjN1lSSkc3UEZfejI2cVNDRFNoRi1yV0l2NWNGb3VEQTVmVmpGcm1acWVOeXVtMFk0Y1JtNDFkUjNXdkZ4bFN4UHhjTk1qTGdIZkF1TmNTd3ZQWVNwWTlMX3A4SzhJTm5yTDlVRTE2TlhS0gGsAUFVX3lxTE5Vem9oV1pyS0RKNnBtRG05SkVNblZNOS1KdnhOMG52ZUlxdUd6djF0SlFDWnRGMUQ2Qm5CYUhUd1UzcmM3WVJKRzdQRl96MjZxU0NEU2hGLXJXSXY1Y0ZvdURBNWZWakZybVpxZU55dW0wWTRjUm00MWRSM1d2RnhsU3hQeGNOTWpMZ0hmQXVOY1N3dlBZU3BZOUxfcDhLOElObnJMOVVFMTZOWFI?oc=5"
+      },
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "id": "n-2026-10-13-8",
+      "title": "تطورات جديدة في نموذج Grok من xAI",
+      "titleEn": "New Developments in xAI's Grok Model",
+      "summary": "كشفت xAI عن تطورات جديدة في نموذج Grok، بما في القدرة على محاكاة أي شيء وتوجيه المهام إلى أفضل النماذج المتاحة.",
+      "summaryEn": "xAI revealed new developments in the Grok model, including the ability to simulate anything and route tasks to the best available models.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1xSHZsR1pnaUw0LXBEbHZkY0owdTZ3N1hsTlQ1MGJ5cm9nYkRCOXgyTkhFUHVmaVphZ1FNU0xfWkFMN29jMnpN?oc=5"
+      },
+      "publishedAt": "2026-10-12"
+    },
+    {
+      "id": "n-2026-10-13-9",
+      "title": "OpenAI تتعاون مع شركات رائدة لتطبيق تقنيات الذكاء الاصطناعي",
+      "titleEn": "OpenAI Partners with Leading Companies to Implement AI Technologies",
+      "summary": "أعلنت OpenAI عن تعاونها مع شركات مثل Sophos وAsana وOracle لتطبيق تقنيات الذكاء الاصطناعي في قطاعات متنوعة.",
+      "summaryEn": "OpenAI announced partnerships with companies like Sophos, Asana, and Oracle to implement AI technologies across various sectors.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/sophos"
+      },
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "id": "n-2026-10-13-10",
+      "title": "Anthropic تطلق المهمة السيبرانية والبرنامج التحققي",
+      "titleEn": "Anthropic Launches Cyber Mission and Verification Program",
+      "summary": "أطلقت Anthropic المهمة السيبرانية والبرنامج التحققي لتعزيز أمن الأنظمة الذكية والتحقق من سلامة النماذج.",
+      "summaryEn": "Anthropic launched the Cyber Mission and Verification Program to enhance smart system security and verify model safety.",
+      "category": "regulation",
+      "importance": 3,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+      },
+      "publishedAt": "2026-10-13"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-10-13-1",
+      "name": "Gemini 4 Argon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-10-13",
+      "highlights": "نموذج متخصص في الروبوتات، يقدم قدرات متقدمة في التفاعل مع العالم المادي",
+      "highlightsEn": "Robotics-specialized model with advanced capabilities for interacting with the physical world",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
+    },
+    {
+      "id": "m-2026-10-13-2",
+      "name": "EmbeddingGemma 2",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-10-06",
+      "highlights": "نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر، مثالي للتطبيقات المختلفة",
+      "highlightsEn": "Lightweight, open-source multimodal model, ideal for various applications",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
+    },
+    {
+      "id": "m-2026-10-13-3",
+      "name": "Mistral Large 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-06",
+      "highlights": "نموذج متقدم في معالجة اللغات الطبيعية والاستدلال",
+      "highlightsEn": "Advanced model in natural language processing and reasoning",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/mistral-large-4/"
+    },
+    {
+      "id": "m-2026-10-13-4",
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-10-13",
+      "highlights": "يتفوق على GPT-6.1 Sol بـ 61 نقطة إيلو في المعايير القياسية",
+      "highlightsEn": "Surpasses GPT-6.1 Sol by 61 Elo points in standard benchmarks",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRLVBkeDNOcjR0dWtWQThPQTUxTWYwMm1DYXNvcF9LN3NNbkJYY0RxN0prd3lEaGJOYmJZVFhKTERwQWp0ZzBfeEY3MUdzdktodzRiS0hyZEs0enlNajdtMVUzZw?oc=5"
+    },
+    {
+      "id": "m-2026-10-13-5",
+      "name": "GLM-Legal",
+      "org": "Z.ai",
+      "releaseDate": "2026-10-12",
+      "highlights": "نموذج متخصص في مهام العمل القانوني والاستشارات",
+      "highlightsEn": "Specialized model for legal tasks and consultations",
+      "specs": {
+        "context": "256K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSThPQ09RSU5NNXJ1TGVKblo1Z2xydmh1a2ctWUphMHcxZjRxVTczLS0wd04xUGtmcUxWMXVRSmNIQ2xYRm1VN3VzaFo5bGliNGRwaHFmY3o4ZVMxQkRJZTVqS2Rfei1zVGNkVEdRM2NWTDlZZjBObkdzdmFRVjJWRi1fS0VCdFHSAYcBQVVfeXFMT0k4T0NPUUlOTTVydUxlSm5aNWdscnZodWtnLVlKYTB3MWY0cVU3My0tMHdOMVBrZnFMVjF1UUpjSENsWEZtVTd1c2haOWxpYjRkcGhxZmN6OGVTMUJESWU1aktkX3otc1RjZFRHUTNjVkw5WWYwTm5Hc3ZhUVYyVkYtX0tFQnRR?oc=5"
+    },
+    {
+      "id": "m-2026-10-13-6",
+      "name": "DeepSeek V4",
+      "org": "DeepSeek",
+      "releaseDate": "2026-10-12",
+      "highlights": "سلسلة نماذج محسنة للكفاءة والأداء",
+      "highlightsEn": "Improved model series for efficiency and performance",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMmZIMUVfdkJvQ19yTHdiLXc2SFJLaENvZzNnXzlGc1VLamZxQVlxSW9jcHMzMl9vbnVfOUN2NEVpMUp3aENYRC1SN19ZMWt4ZDMyWjQ1cldhZUVscnJNOFVGT1daVWlaTlY3dUlYanZCdFYwWXVMVkZ1VzNxYXNRQ2xuRHFkZDhvZnZlSXZiaS1kblpaVXJhZkhHVlN6aUh3b0Z0TmVQOUk1OUMzb1Ryd0JxRlRiRUJsdUJDU2ZnMmRtWmPSAcMBQVVfeXFMTzBTNkE5a3lkTVpLUU90MThBZHBvaG1tYV9wMmoxLW1GY3BCNkxRMGYyc0U0WTZ2UXFVR3h5b0ZFMlh6bXB5VWRQMDQyZXdDY1RrZEwxdkVwRUZtNUJhME9QUmloM2lLTXN6aC03azU5ZkF1YUhnOXVzM2QxQWxzNTZPb3I4WEhhRWxPdnY2YXhQNzlNLU1NcEN0OWwxdkVKVmNFaFpINGZFVnVudDV4WjFvTTVvVFhrNFRyOW1rb0N2MFRB?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-10-13-1",
+      "text": "تستثمر Anthropic 100 مليون دولار لتدريب 10,000 مهندس وتحقيق الفجوة في المواهب في الذكاء الاصطناعي المؤسسي",
+      "textEn": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "level": "info",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy"
+    },
+    {
+      "id": "h-2026-10-13-2",
+      "text": "تخطط Moonshot AI لطرح أسهمها الأولي العام بـ 50 مليار دولار في هونغ كونغ",
+      "textEn": "Moonshot AI plans to go public with a $50 billion IPO in Hong Kong",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHdiQm9JMHQ5MDd3UUVGaHZiZWtTY1hZZi1rVWcxTm1mbmdHcElTN19CQW1OR2daZ04yeEpjSllUb0hMTFY3YUpOdGQ2LTNPbWNJcExvRmszdU9Db0JINjNDZWdKeGdsQkVPZklYMGVxMUVZMmZmNGUzWFpiNnVXbXA4SjdPZzZudnlydVA4MVVDc2s1Q2Exdm8wTFlZOTdLUVFmbjlqaElzNHJFOHVRbU9QYmhYX1JaOVRTdWhoTkxvVjdvWkJZN0J1Qmo3VzhQTTlWdzd3?oc=5"
+    },
+    {
+      "id": "h-2026-10-13-3",
+      "text": "DeepSeek و Xiaomi تقودان دفع الذكاء الاصطناعي في الصين مع 16 نموذجًا جديدًا، وتحديان شركات التكنولوجيا الأمريكية الكبرى",
+      "textEn": "DeepSeek and Xiaomi Lead China's AI Push With 16 New Models, Challenging U.S. Tech Giants",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUG5Kem5nVVNxU0NiOG81N21yRE0tblVTNDBmMlZYakdLS2QxQTh0M1dlOHdEd2xPQkpZdkdTWWpUYkFwSV9UQkdWd3FneDNON01VYzdvQzYzTFdTQXdnbEtyYXhkZTN3RWFyc3VWVWZJV25PaUtYNFZfUHdBTHUyQ1U2NkROQ0lnSUgwMXJEOFEyVHBENmRNUkE2UXVCOTd4RzA0UFEyNXF3VG9DNUdFdmFOX0tZdng5WnYyaQ?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-10-13-1",
+      "title": "الـ FBI تعتقل مشتبهًا في حالة اختراق الـ FBI",
+      "titleEn": "FBI Arrests Suspect in FBI-Hacking Case",
+      "summary": "اعتقلت الـ FBI مشتبهًا بهجمات قرصنة من مجموعة تسمى ShinyHunters التي سرقت كميات هائلة من البيانات.",
+      "summaryEn": "FBI arrested a suspect in connection with hacking attacks by a group called ShinyHunters that stole massive amounts of data.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "sec-2026-10-13-2",
+      "title": "ثغرة محتملة في إعادة التشغيل التلقائي لشركة أبل",
+      "titleEn": "Possible Vulnerability in Apple's Automatic Reboot",
+      "summary": "أبلغت 404Media عن ثغرة محتملة في نظام إعادة التشغيل التلقائي لشركة أبل يتم استغلالها من قبل مصنعي الأسلحة السيبرانية.",
+      "summaryEn": "404Media reported a potential vulnerability in Apple's automatic reboot system being exploited by cyber-weapons manufacturers.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "sec-2026-10-13-3",
+      "title": "مكافحة العمليات المدعومة بالذكاء الاصطناعي التي تستخدم واجهات مزيفة",
+      "titleEn": "Disrupting AI-enabled 'false front' operations",
+      "summary": "أوقفت OpenAI عمليتين مدعومتين بالذكاء الاصطناعي استخدما صحفيين واجهات مزيفة لانتشار معلومات مضللة.",
+      "summaryEn": "OpenAI disrupted two AI-enabled operations that used false-front journalists to spread misinformation.",
+      "type": "policy",
+      "severity": "info",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "source": "OpenAI",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "sec-2026-10-13-4",
+      "title": "فيضان حركة المرور بالروبوتات الذكية بعد النشر على Hacker News",
+      "titleEn": "AI Bot Traffic Flood After Posting to Hacker News",
+      "summary": "أبلغ مستخدم عن فيضان حركة المرور بالروبوتات الذكية على موقعه بعد نشر مقال على Hacker News، مما يشكل مشكلة أمنية محتملة.",
+      "summaryEn": "A user reported AI bot traffic flooding their website after posting to Hacker News, potentially creating a security issue.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "source": "Hacker News",
+      "date": "2026-10-13"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-10-13",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "60.7"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "58.7"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "58.5"
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "org": "Google",
+        "score": "55.4"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "54.5"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "54.1"
+      },
+      {
+        "name": "GPT-6.1 Sol",
+        "org": "OpenAI",
+        "score": "54.0"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "53.6"
+      },
+      {
+        "name": "GPT-5.6 Sol",
+        "org": "OpenAI",
+        "score": "53.5"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "53.3"
+      }
+    ],
+    "highlights": "تتصدر Anthropic القائمة بأربع نماذج في العشرة الأوائل، بينما يتصدر GPT-6 Astra في مهارات التفكير المنطقي. Gemini 3.1 Pro هو الأرخص في قائمة العشرة الأوائل بسعر 2.00 دولار/مليون رمز، بينما يمتلك Grok-4 أكبر نافذة سياقية بـ 2.0 مليون رمز.",
+    "highlightsEn": "Anthropic leads with four models in the top ten, while GPT-6 Astra leads on reasoning skills. Gemini 3.1 Pro is the cheapest in the top ten at $2.00/M token, while Grok-4 has the largest context window at 2.0M tokens."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-10-13-تخصيص-النماذج-اللغوية-الصغيرة-لمجالات-محددة",
+    "title": "تخصيص النماذج اللغوية الصغيرة لمجالات محددة",
+    "titleEn": "Fine-tuning Small Language Models for Specific Domains",
+    "why": "يساعد تخصيص النماذج اللغوية الصغيرة على تحقيق أداء استثنائي في مهام ومجالات محددة بتكلفة أقل من النماذج الكبيرة.",
+    "whyEn": "Fine-tuning small language models helps achieve exceptional performance in specific tasks and domains at a lower cost than large models.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "تحديد المجال والمهمة",
+        "detail": "حدد المجال والمهام المحددة التي تريد تخصيص النموذج لها."
+      },
+      {
+        "title": "جمع البيانات المنظمة",
+        "detail": "اجمع مجموعة بيانات عالية الجودة ومتنوعة تتعلق بمجالك المحدد."
+      },
+      {
+        "title": "اختيار النموذج الأساسي",
+        "detail": "اختر نموذجًا لغويًا صغيرًا مناسبًا كأساس للتخصيص."
+      },
+      {
+        "title": "إعداد بيانات التدريب",
+        "detail": "قسّم بياناتك إلى مجموعات تدريب، تحقق، واختبار."
+      },
+      {
+        "title": "تنفيذ عملية التخصيص",
+        "detail": "استخدم مكتبات مثل Hugging Face Transformers لتدريب النموذج على بياناتك."
+      },
+      {
+        "title": "تقييم النموذج",
+        "detail": "قيّم أداء النموذج بعد التخصيص باستخدام مقاييس مناسبة لمجالك."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Define Domain and Task",
+        "detail": "Identify the specific domain and tasks you want to fine-tune the model for."
+      },
+      {
+        "title": "Collect Structured Data",
+        "detail": "Gather a high-quality, diverse dataset relevant to your specific domain."
+      },
+      {
+        "title": "Choose Base Model",
+        "detail": "Select a suitable small language model as the foundation for fine-tuning."
+      },
+      {
+        "title": "Prepare Training Data",
+        "detail": "Split your data into training, validation, and test sets."
+      },
+      {
+        "title": "Implement Fine-tuning Process",
+        "detail": "Use libraries like Hugging Face Transformers to fine-tune the model on your data."
+      },
+      {
+        "title": "Evaluate Model",
+        "detail": "Assess the model's performance after fine-tuning using metrics appropriate for your domain."
+      }
+    ],
+    "code": "from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments\nfrom datasets import load_dataset\n\n# Load model and tokenizer\nmodel_name = \"bert-base-uncased\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)\n\n# Load and prepare dataset\ndataset = load_dataset(\"your_dataset\")\nencoded_dataset = dataset.map(lambda x: tokenizer(x[\"text\"], truncation=True), batched=True)\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    evaluation_strategy=\"epoch\"\n)\n\n# Create trainer and fine-tune\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=encoded_dataset[\"train\"],\n    eval_dataset=encoded_dataset[\"validation\"]\n)\n\ntrainer.train()",
+    "resources": [
+      {
+        "name": "Hugging Face Fine-tuning Tutorial",
+        "url": "https://huggingface.co/docs/transformers/training"
+      },
+      {
+        "name": "Stanford CS224n: NLP with Deep Learning",
+        "url": "http://web.stanford.edu/class/cs224n/"
+      },
+      {
+        "name": "Papers with Code - Fine-tuning",
+        "url": "https://paperswithcode.com/task/fine-tuning"
+      }
+    ],
+    "tags": [
+      "تخصيص النماذج",
+      "التعلم العميق",
+      "معالجة اللغات الطبيعية",
+      "نماذج لغوية صغيرة"
+    ],
+    "quickRef": "تخصيص النماذج اللغوية الصغيرة يتضمن تحديد المجال، جمع البيانات، اختيار النموذج الأساسي، إعداد البيانات، التدريب، والتقييم.",
+    "quickRefEn": "Fine-tuning small language models involves domain definition, data collection, base model selection, data preparation, training, and evaluation.",
+    "quiz": [
+      {
+        "q": "ما هو الخطوة الأولى في عملية تخصيص نموذج لغوي صغير؟",
+        "options": [
+          "جمع البيانات",
+          "اختيار النموذج الأساسي",
+          "تحديد المجال والمهمة",
+          "تنفيذ عملية التدريب"
+        ],
+        "answer": 2,
+        "explain": "الخطوة الأولى هي تحديد المجال والمهمة التي تريد تخصيص النموذج لها، لأن هذا يوجه عملية اختيار النموذج وجمع البيانات."
+      },
+      {
+        "q": "ما هو أحد الفوائد الرئيسية لتخصيص النماذج اللغوية الصغيرة؟",
+        "options": [
+          "زيادة حجم النموذج",
+          "تحسين الأداء في مهام محددة بتكلفة أقل",
+          "تقليل وقت التدريب",
+          "زيادة دقة النموذج في جميع المهام"
+        ],
+        "answer": 1,
+        "explain": "الفائدة الرئيسية لتخصيص النماذج اللغوية الصغيرة هي تحقيق أداء استثنائي في مهام ومجالات محددة بتكلفة أقل من النماذج الكبيرة."
+      },
+      {
+        "q": "ما هي الأداة الأكثر شيوعًا لتخصيص النماذج اللغوية؟",
+        "options": [
+          "TensorFlow",
+          "PyTorch",
+          "Hugging Face Transformers",
+          "Scikit-learn"
+        ],
+        "answer": 2,
+        "explain": "Hugging Face Transformers هي الأداة الأكثر شيوعًا لتخصيص النماذج اللغوية لأنها توفر واجهات برمجية سهلة الاستخدام للعديد من النماذج اللغوية المسبقة التدريب."
+      }
+    ],
+    "addedAt": "2026-10-13"
+  }
+}

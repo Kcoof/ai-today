@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-14-تطبيق-مبادئ-أخلاقيات-الذكاء-الاصطناعي-في-المشاريع",
+      "title": "تطبيق مبادئ أخلاقيات الذكاء الاصطناعي في المشاريع",
+      "titleEn": "Implementing AI Ethics Principles in Projects",
+      "why": "مع تطور تقنيات الذكاء الاصطناعي، أصبحت أخلاقيات الذكاء الاصطناعي ضرورة لا غنى عنها. يساعد تطبيق مبادئ أخلاقية في بناء أنظمة عادلة وشفافة ومسؤولة، مما يقلل من المخاطر الأخلاقية ويبث الثقة في التقنيات الذكية.",
+      "whyEn": "As AI technologies evolve, AI ethics has become essential. Implementing ethical principles helps build fair, transparent, and responsible systems, reducing ethical risks and building trust in intelligent technologies.",
+      "difficulty": "intermediate",
+      "track": "security",
+      "steps": [
+        {
+          "title": "تحديد القيم الأساسية",
+          "detail": "حدد القيم الأخلاقية الأساسية التي يجب أن تعكسها نظامك الذكي (مثل العدالة، الشفافية، المساءلة)."
+        },
+        {
+          "title": "تقييم المخاطر",
+          "detail": "قم بتحليل وتقييم المخاطر الأخلاقية المحتملة في نظامك الذكي، مع التركيز على التحيزات والتمييز."
+        },
+        {
+          "title": "تصميم أخلاقي",
+          "detail": "قم بتصميم النظام مع الأخذ في الاعتبار الجوانب الأخلاقية في كل مرحلة من مراحل التطوير."
+        },
+        {
+          "title": "اختبار وتدقيق",
+          "detail": "قم بإجراء اختبارات منتظمة للتأكد من أن النظام يعمل وفقًا للمبادئ الأخلاقية المحددة."
+        },
+        {
+          "title": "المراقبة والتحسين",
+          "detail": "قم بمراقبة أداء النظام بشكل مستمر وتحسينه لضمان الامتثال للمبادئ الأخلاقية."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Identify Core Values",
+          "detail": "Determine the core ethical values your AI system should reflect (such as fairness, transparency, accountability)."
+        },
+        {
+          "title": "Assess Risks",
+          "detail": "Analyze and evaluate potential ethical risks in your AI system, focusing on biases and discrimination."
+        },
+        {
+          "title": "Ethical Design",
+          "detail": "Design the system considering ethical aspects at every development stage."
+        },
+        {
+          "title": "Testing and Auditing",
+          "detail": "Conduct regular testing to ensure the system operates according to the defined ethical principles."
+        },
+        {
+          "title": "Monitoring and Improvement",
+          "detail": "Continuously monitor the system's performance and improve it to ensure compliance with ethical principles."
+        }
+      ],
+      "code": "import numpy as np\nfrom sklearn.metrics import confusion_matrix\n\ndef detect_bias(y_true, y_pred, sensitive_attribute):\n    \"\"\"\n    Detect potential bias in AI model predictions based on a sensitive attribute.\n    \n    Args:\n        y_true: True labels\n        y_pred: Predicted labels\n        sensitive_attribute: Binary sensitive attribute (0 or 1)\n    \n    Returns:\n        Dictionary with bias metrics\n    \"\"\"\n    # Calculate confusion matrices for each group\n    cm_group0 = confusion_matrix(y_true[sensitive_attribute == 0], y_pred[sensitive_attribute == 0])\n    cm_group1 = confusion_matrix(y_true[sensitive_attribute == 1], y_pred[sensitive_attribute == 1])\n    \n    # Calculate accuracy for each group\n    acc_group0 = (cm_group0[0, 0] + cm_group0[1, 1]) / np.sum(cm_group0)\n    acc_group1 = (cm_group1[0, 0] + cm_group1[1, 1]) / np.sum(cm_group1)\n    \n    # Calculate disparity\n    disparity = abs(acc_group0 - acc_group1)\n    \n    return {\n        'accuracy_group0': acc_group0,\n        'accuracy_group1': acc_group1,\n        'disparity': disparity,\n        'is_biased': disparity > 0.1  # Threshold for bias detection\n    }",
+      "resources": [
+        {
+          "name": "AI Ethics Guidelines",
+          "url": "https://www.oecd.ai/en/ai-principles"
+        },
+        {
+          "name": "Fairness in Machine Learning",
+          "url": "https://fairmlbook.org/"
+        },
+        {
+          "name": "Responsible AI Toolkit",
+          "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
+        }
+      ],
+      "tags": [
+        "أخلاقيات الذكاء الاصطناعي",
+        "العدالة",
+        "الشفافية",
+        "التحيز"
+      ],
+      "quickRef": "حدد القيم الأساسية لنظامك\nقم بتقييم المخاطر الأخلاقية\nصمم النظام مع الأخذ في الاعتبار الجوانب الأخلاقية\nاختبر تدقيقًا منتظمًا\nراقب وأصلح باستمرار",
+      "quickRefEn": "Identify core values for your system\nAssess ethical risks\nDesign with ethical considerations\nTest and audit regularly\nMonitor and improve continuously",
+      "quiz": [
+        {
+          "q": "ما هو أول خطوة في تطبيق أخلاقيات الذكاء الاصطناعي في مشروع؟",
+          "options": [
+            "اختبار النظام",
+            "تحديد القيم الأساسية",
+            "تصميم النظام",
+            "تقييم المخاطر"
+          ],
+          "answer": 1,
+          "explain": "تحديد القيم الأسوية هو الخطوة الأولى في تطبيق أخلاقيات الذكاء الاصطناعي، حيث يحدد الإطار الأخلاقي الذي سيتم بناء عليه المشروع بأكمله."
+        },
+        {
+          "q": "ما هو العتبة المناسبة للكشف عن التحيز في النماذج؟",
+          "options": [
+            "اختلاف دقة 5%",
+            "اختلاف دقة 10%",
+            "اختلاف دقة 15%",
+            "اختلاف دقة 20%"
+          ],
+          "answer": 1,
+          "explain": "عتبة 10% اختلاف في الدقة بين المجموعات المختلفة تعتبر معيارًا شائعًا للكشف عن التحيز في نماذج الذكاء الاصطناعي، حيث يشير هذا الاختلاف إلى وجود مشكلة محتملة في العدالة."
+        }
+      ],
+      "addedAt": "2026-10-14"
+    },
+    {
       "id": "k-2026-10-13-تخصيص-النماذج-اللغوية-الصغيرة-لمجالات-محددة",
       "title": "تخصيص النماذج اللغوية الصغيرة لمجالات محددة",
       "titleEn": "Fine-tuning Small Language Models for Specific Domains",
