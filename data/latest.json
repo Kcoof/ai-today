@@ -1,304 +1,325 @@
 {
-  "date": "2026-10-14",
-  "generatedAt": "2026-10-14T10:36:18.199Z",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T15:39:46.698Z",
   "news": [
     {
-      "id": "n-2026-10-14-1",
-      "title": "جيميني 4 أرجون: عصر جديد من الذكاء الحدودي",
-      "titleEn": "Gemini 4 Argon: our next era of frontier intelligence",
-      "summary": "يقدم جيميني 4 أرجون قدرات متقدمة لحل المشكلات الأكثر تعقيداً. تم تطوير هذا النموذج بشكل مسؤول وآمن.",
-      "summaryEn": "Gemini 4 Argon offers advanced capabilities for solving the most complex problems. This model has been developed responsibly and safely.",
+      "id": "n-2026-10-16-1",
+      "title": "جيميني 4 أرجون للروبوتات",
+      "titleEn": "Gemini 4 Argon for Robotics",
+      "summary": "قدمت جوجل ديب ماوند نموذج جيميني 4 أرجون المتخصص في تطبيقات الروبوتات، والذي يمثل الجيل التالي من قدرات الذكاء الاصطناعي للأنظمة المادية.",
+      "summaryEn": "Google DeepMind introduces Gemini 4 Argon, a specialized model for robotics applications that represents the next frontier in AI capabilities for physical systems.",
       "category": "models",
       "importance": 5,
       "source": {
         "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
-      },
-      "publishedAt": "2026-09-30"
-    },
-    {
-      "id": "n-2026-10-14-2",
-      "title": "إطلاق Mistral Large 4: نموذج جديد من Mistral AI",
-      "titleEn": "Introducing Mistral Large 4: A new model from Mistral AI",
-      "summary": "أعلنت Mistral AI عن نموذجها الجديد Mistral Large 4 الذي يقدم أداءً متفوقاً في مهام متعددة.",
-      "summaryEn": "Mistral AI announced its new model Mistral Large 4, which offers superior performance across multiple tasks.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Mistral AI",
-        "url": "https://mistral.ai/news/mistral-large-4/"
-      },
-      "publishedAt": "2026-10-14"
-    },
-    {
-      "id": "n-2026-10-14-3",
-      "title": "نموذج Kimi K3 يتجاوز GPT-6.1 Sol بـ 61 نقطة إيلو",
-      "titleEn": "Kimi K3 Beats GPT-6.1 Sol by 61 Elo Points",
-      "summary": "حقق نموذج Kimi K3 من Moonshot AI تفوقاً ملحوظاً على GPT-6.1 Sol بفارق 61 نقطة في معيار إيلو.",
-      "summaryEn": "Moonshot AI's Kimi K3 model has achieved a notable advantage over GPT-6.1 Sol with a 61-point lead in the Elo benchmark.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRLVBkeDNOcjR0dWtWQThPQTUxTWYwMm1DYXNvcF9LN3NNbkJYY0RxN0prd3lEaGJOYmJZVFhKTERwQWp0ZzBfeEY3MUdzdktodzRiS0hyZEs0enlNajdtMVUzZw?oc=5"
+        "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
       },
       "publishedAt": "2026-10-13"
     },
     {
-      "id": "n-2026-10-14-9",
-      "title": "DeepSeek تطلق سلسلة نماذج V4 الجديدة بتوفير كبير في التكاليف",
-      "titleEn": "DeepSeek launches new V4 model series with significant cost savings",
-      "summary": "كشفت DeepSeek عن سلسلة نماذج V4 الجديدة التي توفر توفيراً كبيراً في التكاليف مع الحفاظ على الأداء.",
-      "summaryEn": "Deep unveiled its new V4 model series, offering significant cost savings while maintaining performance.",
+      "id": "n-2026-10-16-2",
+      "title": "موز سبارك أوبن من ميتا",
+      "titleEn": "Muse Spark Open from Meta",
+      "summary": "أطلقت ميتا نسخة مفتوحة المصدر من نموذج موز سبارك، مما يجعل نموذجها المتقدم متاحًا للاستخدام الأوسع في البحث والتطوير.",
+      "summaryEn": "Meta releases Muse Spark Open, making their advanced AI model available for broader research and development use.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+      },
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "id": "n-2026-10-16-3",
+      "title": "إطلاق Grok Voice 3.0 من إكس إيه آي",
+      "titleEn": "Introducing Grok Voice 3.0 from xAI",
+      "summary": "أطلقت شركة إكس إيه آي نموذج Grok Voice 3.0 للكلام إلى الكلام، والذي يمثل تقدمًا كبيرًا في قدرات الوكلاء الصوتيين.",
+      "summaryEn": "xAI launches Grok Voice 3.0, a speech-to-speech model that significantly advances voice agent capabilities.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1mOUcxZkpjVVVyYjlLOWk1V0sxb1QyY3dVLWtpcDBFbEpqQzlDQzFPekdzSUVKbnhoaHZNd3ZzYzlweElu?oc=5"
+      },
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "id": "n-2026-10-16-4",
+      "title": "ثغرات الأنظمة المفتوحة المصدر: المخاطر الأمنية",
+      "titleEn": "Backdooring Open-Weight AI Models: Security Risks",
+      "summary": "حذر الخبراء من أن أي نموذج مفتوح المصدر تم تعديل أوزانه يمكن أن يحمل باب خلفي، مما يشكل تهديدات أمنية كبيرة للبنية التحتية للذكاء الاصطناعي.",
+      "summaryEn": "Experts warn that any open model whose weights have been edited can potentially carry backdoors, posing significant security risks to AI infrastructure.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html"
+      },
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "id": "n-2026-10-16-7",
+      "title": "ديب سيك وشاومي يقودان دفع الذكاء الاصطناعي الصيني",
+      "titleEn": "DeepSeek and Xiaomi Lead China's AI Push",
+      "summary": "أعلنت ديب سيك وشاومي عن 16 نموذجًا جديدًا للذكاء الاصطناعي، مما يوسع بشكل كبير قدرات الصين ويهدد شركات التكنولوجيا الأمريكية.",
+      "summaryEn": "DeepSeek and Xiaomi announce 16 new AI models, significantly expanding China's capabilities and challenging U.S. tech giants in the AI space.",
       "category": "models",
       "importance": 4,
       "source": {
         "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RdGZsZEs5YVNnTWlhVHc3aU1PbXBfUy1uWS1NOGdhcmlIVW05VmxqdXRBYnluTThyNEJreXZscFUxTi1ZOE5mM1FnbWh0S3ViV18teTQxbHE0eUxCSXk4OEFyc0ZNS212ckdWTA?oc=5"
-      },
-      "publishedAt": "2026-10-12"
-    },
-    {
-      "id": "n-2026-10-14-4",
-      "title": "Higgsfield تمتد من 1 دقيقة إلى أكثر من 10 دقائق في فيديو الذكاء الاصطناعي",
-      "titleEn": "Higgsfield takes AI video from 1 minute to over 10",
-      "summary": "تمكن Higgsfield من تمديد مقاطع فيديو الذكاء الاصطناعي من دقيقة واحدة إلى أكثر من عشر دقائق باستخدام GPT-6 Astra.",
-      "summaryEn": "Higgsfield enables extending AI video clips from 1 minute to over 10 minutes using GPT-6 Astra.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/higgsfield-longer-videos-voice"
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUG5Kem5nVVNxU0NiOG81N21yRE0tblVTNDBmMlZYakdLS2QxQTh0M1dlOHdEd2xPQkpZdkdTWWpUYkFwSV9UQkdWd3FneDNON01VYzdvQzYzTFdTQXdnbEtyYXhkZTN3RWFyc3VWVWZJV25PaUtYNFZfUHdBTHUyQ1U2NkROQ0lnSUgwMXJEOFEyVHBENmRNUkE2UXVCOTd4RzA0UFEyNXF3VG9DNUdFdmFOX0tZdng5WnYyaQ?oc=5"
       },
       "publishedAt": "2026-10-13"
     },
     {
-      "id": "n-2026-10-14-5",
-      "title": "Z.ai تطلق GLM-Legal: نموذج متخصص للعمل القانوني",
-      "titleEn": "Z.ai Unveils GLM-Legal, an Agentic Model for Legal Workflows",
-      "summary": "كشفت Z.ai عن نموذج GLM-Legal المخصص للمهام القانونية، الذي يتفوق على Claude Fable 5 وKimi K3 في اختبارات Harvey LAB.",
-      "summaryEn": "Z.ai revealed GLM-Legal, a specialized model for legal tasks that outperforms Claude Fable 5 and Kimi K3 in Harvey LAB tests.",
-      "category": "models",
-      "importance": 3,
+      "id": "n-2026-10-16-8",
+      "title": "استثمار أنثروبيك بمئة مليون لتدريب المهندسين",
+      "titleEn": "Anthropic Invests $100 Million to Train Engineers",
+      "summary": "التزمت أنثروبيك بمبلغ 100 مليون دولار لتدريب 10,000 مهندس، معالجة الفجوة المتزايدة في المواهب في تطبيقات الذكاء الاصطناعي المؤسسية.",
+      "summaryEn": "Anthropic commits $100 million to train 10,000 engineers, addressing the growing talent gap in enterprise AI applications.",
+      "category": "companies",
+      "importance": 4,
       "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNmtnUTl5TGZyXy02MlJfZDc0c2t2ZXdpYnVyQWtReEJpWHV2Qk5qUXpLaG9fakZwNGtfeTFkYkx3QzcxZFlTajBjTkEtOWFqaVUxZzVLSWVMeXB0UkFSUy1LdjczLUh6UFY3ZS1SekNnb1pnLVBOaURHbVQzak14X2RYYzYtZy1R?oc=5"
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/claude-frontier-academy"
+      },
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "id": "n-2026-10-16-9",
+      "title": "مونشوت AI تخطط للاكتتاب العام الأضخم",
+      "titleEn": "Moonshot AI Plans Record IPO",
+      "summary": "تخطط شركة مونشوت AI للاكتتاب العام الأضخم في هونغ كونغ بقيمة 50 مليار دولار، مما يعكس التقييم الضخم والثقة المستثمرة في الشركات الصينية للذكاء الاصطناعي.",
+      "summaryEn": "Moonshot AI plans a record $50 billion Hong Kong IPO, reflecting the massive valuation and investor confidence in Chinese AI companies.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHdiQm9JMHQ5MDd3UUVGaHZiZWtTY1hZZi1rVWcxTm1mbmdHcElTN19CQW1OR2daZ04yeEpjSllUb0hMTFY3YUpOdGQ2LTNPbWNJcExvRmszdU9Db0JINjNDZWdKeGdsQkVPZklYMGVxMUVZMmZmNGUzWFpiNnVXbXA4SjdPZzZudnlydVA4MVVDc2s1Q2Exdm8wTFlZOTdLUVFmbjlqaElzNHJFOHVRbU9QYmhYX1JaOVRTdWhoTkxvVjdvWkJZN0J1Qmo3VzhQTTlWdzd3?oc=5"
       },
       "publishedAt": "2026-10-12"
     },
     {
-      "id": "n-2026-10-14-6",
-      "title": "Alibaba Qwen تطلق Qwen-Image-2.1-Turbo: نموذج صور مفتوح المصدر",
-      "titleEn": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
-      "summary": "أطلقت Alibaba نموذج Qwen-Image-2.1-Turbo، وهو نموذج صور مفتوح المصدر يتكون من 7 مليار معلمة.",
-      "summaryEn": "Alibaba launched Qwen-Image-2.1-Turbo, an open-source image model with 7 billion parameters.",
-      "category": "models",
+      "id": "n-2026-10-16-5",
+      "title": "عصر الوكلاء الذكية في الاتحاد الأوروبي",
+      "titleEn": "The EU's Next Chapter in AI is Agentic",
+      "summary": "أظهر تحليل جديد نموذجًا متزايدًا لاعتماد الذكاء الاصطناعي الوكيل في الشركات والمؤسسات الصغيرة في الاتحاد الأوروبي.",
+      "summaryEn": "New analysis shows growing adoption of agentic AI across EU enterprises and small businesses, marking a significant shift in AI implementation.",
+      "category": "research",
       "importance": 3,
       "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXpvaFdacktESjZwbURtOUpFTW5WTTktSnZ4TjBudmVJcXVHenYxdEpRQ1p0RjFENkJuQmFIVHdVM3JjN1lSSkc3UEZfejI2cVNDRFNoRi1yV0l2NWNGb3VEQTVmVmpGcm1acWVOeXVtMFk0Y1JtNDFkUjNXdkZ4bFN4UHhjTk1qTGdIZkF1TmNTd3ZQWVNwWTlMX3A4SzhJTm5yTDlVRTE2TlhS0gGsAUFVX3lxTE5Vem9oV1pyS0RKNnBtRG05SkVNblZNOS1KdnhOMG52ZUlxdUd6djF0SlFDWnRGMUQ2Qm5CYUhUd1UzcmM3WVJKRzdQRl96MjZxU0NEU2hGLXJXSXY1Y0ZvdURBNWZWakZybVpxZU55dW0wWTRjUm00MWRSM1d2RnhsU3hQeGNOTWpMZ0hmQXVOY1N3dlBZU3BZOUxfcDhLOElObnJMOVVFMTZOWFI?oc=5"
-      },
-      "publishedAt": "2026-10-09"
-    },
-    {
-      "id": "n-2026-10-14-8",
-      "title": "Anthropic تفتتح مكتباً في سنغافورة وتوقع مذكرة تفاهم مع الحكومة",
-      "titleEn": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-      "summary": "فتحت Anthropic مكتباً جديداً في سنغافورة ووقعت مذكرة تفاهم مع الحكومة لتعزيز التعاون في مجال الذكاء الاصطناعي.",
-      "summaryEn": "Anthropic opened a new office in Singapore and signed an MOU with the government to enhance cooperation in AI.",
-      "category": "companies",
-      "importance": 3,
-      "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/singapore-office-opening"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
       },
       "publishedAt": "2026-10-14"
     },
     {
-      "id": "n-2026-10-14-10",
-      "title": "OpenAI تعرقل عمليات التأثير المدعومة بالذكاء الاصطناعي",
-      "titleEn": "OpenAI disrupts AI-enabled influence operations",
-      "summary": "نجحت OpenAI في عرقعت عمليتي تأثير مدعومتين بالذكاء الاصطناعي استخدما واجهات صحفية وهمية.",
-      "summaryEn": "OpenAI successfully disrupted two AI-enabled influence operations that used false-front journalists.",
-      "category": "other",
+      "id": "n-2026-10-16-6",
+      "title": "GLM-Legal من Z.ai يتغلب على منافسيه",
+      "titleEn": "Z.ai's GLM-Legal Outperforms Competitors",
+      "summary": "تفوق نموذج GLM-Legal من Z.ai على كل من كلود فيبل 5 وكيمي K3 في معايير هارفي لاب، مما يحدد معيارًا جديدًا لتطبيقات الذكاء الاصطناعي القانوني.",
+      "summaryEn": "Z.ai's GLM-Legal model outperforms both Claude Fable 5 and Kimi K3 on Harvey LAB benchmarks, establishing a new standard for legal AI applications.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSThPQ09RSU5NNXJ1TGVKblo1Z2xydmh1a2ctWUphMHcxZjRxVTczLS0wd04xUGtmcUxWMXVRSmNIQ2xYRm1VN3VzaFo5bGliNGRwaHFmY3o4ZVMxQkRJZTVqS2Rfei1zVGNkVEdRM2NWTDlZZjBObkdzdmFRVjJWRi1fS0VCdFHSAYcBQVVfeXFMT0k4T0NPUUlOTTVydUxlSm5aNWdscnZodWtnLVlKYTB3MWY0cVU3My0tMHdOMVBrZnFMVjF1UUpjSENsWEZtVTd1c2haOWxpYjRkcGhxZmN6OGVTMUJESWU1aktkX3otc1RjZFRHUTNjVkw5WWYwTm5Hc3ZhUVYyVkYtX0tFQnRR?oc=5"
+      },
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "id": "n-2026-10-16-10",
+      "title": "تسريع البحث عن الببتيدات المضادة للميكروبات",
+      "titleEn": "Accelerating Antimicrobial Peptide Research",
+      "summary": "تس تكنولوجية أنتيجرافيتي من جوجل ديب ماوند تساعد على تسريع البحث عن ببتيدات مضادة للميكروبات، مما يوضح إمكانات الذكاء الاصطناعي في الاكتشاف العلمي.",
+      "summaryEn": "Google DeepMind's Antigravity technology accelerates the search for novel antimicrobial peptides, demonstrating AI's potential in scientific discovery.",
+      "category": "research",
+      "importance": 3,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
+      },
+      "publishedAt": "2026-10-15"
+    },
+    {
+      "id": "n-2026-10-16-11",
+      "title": "الذكاء الاصطناعي في التعليم: التفكير عبر الأسئلة",
+      "titleEn": "AI in Education: Thinking Through Questions",
+      "summary": "قدمت OpenAI أدوات للمعلمين باللغة البرتغالية البرازيلية، مع التركيز على تعليم الطلاب التفكير النقدي من خلال تقنيات الاستفسار.",
+      "summaryEn": "OpenAI introduces AI for Educators in Brazilian Portuguese, focusing on teaching students critical thinking through questioning techniques.",
+      "category": "tools",
       "importance": 3,
       "source": {
         "name": "OpenAI",
-        "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+        "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
       },
-      "publishedAt": "2026-10-08"
+      "publishedAt": "2026-10-15"
     },
     {
-      "id": "n-2026-10-14-7",
-      "title": "Grok يمكن الآن إنشاء مقاطع فيديو موسيقية: ما تحتاج إلى معرفته",
-      "titleEn": "Grok Can Now Make Music Videos: What You Need to Know",
-      "summary": "أعلنت xAI عن إمكانية إنشاء Grok لمقاطع فيديو موسيقية، مما يمثل توسعاً مهماً في قدرات النموذج.",
-      "summaryEn": "xAI announced Grok's ability to create music videos, representing a significant expansion of the model's capabilities.",
-      "category": "tools",
-      "importance": 2,
+      "id": "n-2026-10-16-12",
+      "title": "GLM 5.3: ما بعد التدريب وليس الحساب الخام",
+      "titleEn": "GLM 5.3: Post-Training, Not Raw Compute",
+      "summary": "تشير الأبحاث إلى أن نموذج GLM 5.3 من Z.ai يوضح أن تقنيات ما بعد التدريب، وليس فقط القوة الحسابية الخام، أصبحت ميزة الصين الجديدة في الذكاء الاصطناعي.",
+      "summaryEn": "Research suggests Z.ai's GLM 5.3 model demonstrates that post-training techniques, not just raw compute power, are becoming China's new AI advantage.",
+      "category": "models",
+      "importance": 3,
       "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVEJfa3RCSGtMU29yQXRjdVRYSUlxN2k2eDhfNExZV1hPb2l3QmhCdVNieXZrNWZSel8xWHNWcWZYdzcxdXhQOXhJSl9hOGYxaExsMERoSEMxMEJBc21LWHRObkI4T09WS0xVN1NOWkJKMGxET1dvSWlxWFR5LUVSbGpua2pNOWdfdkxpOE1ES1I?oc=5"
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rQ1h0SmhpbW9oVjd5QzFHNy12czVGR0lQcUIycWFoOUl6WDNIYUxXNHRraHhTYUFuaUdwbTZrX2k3RS1MWHdrLWd4ekZOT2diTS1UTkNUdGZXbzg?oc=5"
       },
       "publishedAt": "2026-10-14"
     }
   ],
   "models": [
     {
-      "id": "m-2026-10-14-1",
+      "id": "m-2026-10-16-1",
       "name": "Gemini 4 Argon",
       "org": "Google DeepMind",
       "releaseDate": "2026-10-13",
-      "highlights": "نموذج متقدم لحل المشكلات المعقدة، تم تطويره بشكل مسؤول وآمن",
-      "highlightsEn": "Advanced model for solving complex problems, developed responsibly and safely",
+      "highlights": "نموذج متخصص لتطبيقات الروبوتات، يمثل الجيل التالي من قدرات الذكاء الاصطناعي للأنظمة المادية",
+      "highlightsEn": "Specialized for robotics applications, represents next frontier in AI for physical systems",
       "specs": {
-        "context": "1M",
-        "multimodal": "true"
+        "context": "1M"
       },
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
     },
     {
-      "id": "m-2026-10-14-2",
-      "name": "Mistral Large 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-10-06",
-      "highlights": "نموذج متقدم يتفوق في المهام متعددة التخصصات",
-      "highlightsEn": "Advanced model that excels in multi-disciplinary tasks",
+      "id": "m-2026-10-16-2",
+      "name": "Muse Spark Open",
+      "org": "Meta AI",
+      "releaseDate": "2026-10-15",
+      "highlights": "نسخة مفتوحة المصدر من نموذج موز سبارك للبحث والتطوير الأوسع",
+      "highlightsEn": "Open-weight version of Muse Spark model for broader research use",
       "specs": {
-        "context": "128K",
-        "multimodal": "true"
+        "context": "128K"
       },
-      "url": "https://mistral.ai/news/mistral-large-4/"
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
     },
     {
-      "id": "m-2026-10-14-3",
+      "id": "m-2026-10-16-3",
+      "name": "Grok Voice 3.0",
+      "org": "xAI",
+      "releaseDate": "2026-10-14",
+      "highlights": "نموذج متقدم للكلام إلى الكلام للوكلاء الصوتيين",
+      "highlightsEn": "Advanced speech-to-speech model for voice agents",
+      "specs": {
+        "context": "32K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1mOUcxZkpjVVVyYjlLOWk1V0sxb1QyY3dVLWtpcDBFbEpqQzlDQzFPekdzSUVKbnhoaHZNd3ZzYzlweElu?oc=5"
+    },
+    {
+      "id": "m-2026-10-16-4",
+      "name": "GLM-Legal",
+      "org": "Z.ai",
+      "releaseDate": "2026-10-13",
+      "highlights": "نموذج متخصص لتدفقات العمل القانوني، يتغلب على المنافسين في المعايير",
+      "highlightsEn": "Specialized model for legal workflows, outperforms competitors on benchmarks",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSThPQ09RSU5NNXJ1TGVKblo1Z2xydmh1a2ctWUphMHcxZjRxVTczLS0wd04xUGtmcUxWMXVRSmNIQ2xYRm1VN3VzaFo5bGliNGRwaHFmY3o4ZVMxQkRJZTVqS2Rfei1zVGNkVEdRM2NWTDlZZjBObkdzdmFRVjJWRi1fS0VCdFHSAYcBQVVfeXFMT0k4T0NPUUlOTTVydUxlSm5aNWdscnZodWtnLVlKYTB3MWY0cVU3My0tMHdOMVBrZnFMVjF1UUpjSENsWEZtVTd1c2haOWxpYjRkcGhxZmN6OGVTMUJESWU1aktkX3otc1RjZFRHUTNjVkw5WWYwTm5Hc3ZhUVYyVkYtX0tFQnRR?oc=5"
+    },
+    {
+      "id": "m-2026-10-16-5",
+      "name": "DeepSeek V4 Series",
+      "org": "DeepSeek",
+      "releaseDate": "2026-10-13",
+      "highlights": "16 نموذجًا جديدًا بتوفير كبير في التكاليف مع الحفاظ على الأداء",
+      "highlightsEn": "16 new models with significant cost reduction while maintaining performance",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUG5Kem5nVVNxU0NiOG81N21yRE0tblVTNDBmMlZYakdLS2QxQTh0M1dlOHdEd2xPQkpZdkdTWWpUYkFwSV9UQkdWd3FneDNON01VYzdvQzYzTFdTQXdnbEtyYXhkZTN3RWFyc3VWVWZJV25PaUtYNFZfUHdBTHUyQ1U2NkROQ0lnSUgwMXJEOFEyVHBENmRNUkE2UXVCOTd4RzA0UFEyNXF3VG9DNUdFdmFOX0tZdng5WnYyaQ?oc=5"
+    },
+    {
+      "id": "m-2026-10-16-6",
       "name": "Kimi K3",
       "org": "Moonshot AI",
       "releaseDate": "2026-10-13",
-      "highlights": "يتفوق على GPT-6.1 Sol بفارق 61 نقطة في معيار إيلو",
-      "highlightsEn": "Outperforms GPT-6.1 Sol by 61 points in the Elo benchmark",
+      "highlights": "يتجاوز GPT-6.1 Sol بـ 61 نقطة إيلو",
+      "highlightsEn": "Outperforms GPT-6.1 Sol by 61 Elo points",
       "specs": {
-        "context": "200K",
-        "multimodal": "true"
+        "context": "200K"
       },
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRLVBkeDNOcjR0dWtWQThPQTUxTWYwMm1DYXNvcF9LN3NNbkJYY0RxN0prd3lEaGJOYmJZVFhKTERwQWp0ZzBfeEY3MUdzdktodzRiS0hyZEs0enlNajdtMVUzZw?oc=5"
-    },
-    {
-      "id": "m-2026-10-14-4",
-      "name": "GLM-Legal",
-      "org": "Z.ai",
-      "releaseDate": "2026-10-12",
-      "highlights": "نموذج متخصص للمهام القانونية، يتفوق على منافسيه في الاختبارات",
-      "highlightsEn": "Specialized model for legal tasks, outperforms competitors in tests",
-      "specs": {
-        "context": "100K",
-        "specialized": "legal"
-      },
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNmtnUTl5TGZyXy02MlJfZDc0c2t2ZXdpYnVyQWtReEJpWHV2Qk5qUXpLaG9fakZwNGtfeTFkYkx3QzcxZFlTajBjTkEtOWFqaVUxZzVLSWVMeXB0UkFSUy1LdjczLUh6UFY3ZS1SekNnb1pnLVBOaURHbVQzak14X2RYYzYtZy1R?oc=5"
-    },
-    {
-      "id": "m-2026-10-14-5",
-      "name": "Qwen-Image-2.1-Turbo",
-      "org": "Alibaba Qwen",
-      "releaseDate": "2026-10-09",
-      "highlights": "نموذج صور مفتوح المصدر يتكون من 7 مليار معلمة",
-      "highlightsEn": "Open-source image model with 7 billion parameters",
-      "specs": {
-        "parameters": "7B",
-        "steps": "8",
-        "multimodal": "true"
-      },
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVXpvaFdacktESjZwbURtOUpFTW5WTTktSnZ4TjBudmVJcXVHenYxdEpRQ1p0RjFENkJuQmFIVHdVM3JjN1lSSkc3UEZfejI2cVNDRFNoRi1yV0l2NWNGb3VEQTVmVmpGcm1acWVOeXVtMFk0Y1JtNDFkUjNXdkZ4bFN4UHhjTk1qTGdIZkF1TmNTd3ZQWVNwWTlMX3A4SzhJTm5yTDlVRTE2TlhS0gGsAUFVX3lxTE5Vem9oV1pyS0RKNnBtRG05SkVNblZNOS1KdnhOMG52ZUlxdUd6djF0SlFDWnRGMUQ2Qm5CYUhUd1UzcmM3WVJKRzdQRl96MjZxU0NEU2hGLXJXSXY1Y0ZvdURBNWZWakZybVpxZU55dW0wWTRjUm00MWRSM1d2RnhsU3hQeGNOTWpMZ0hmQXVOY1N3dlBZU3BZOUxfcDhLOElObnJMOVVFMTZOWFI?oc=5"
-    },
-    {
-      "id": "m-2026-10-14-6",
-      "name": "DeepSeek V4.1 Flash",
-      "org": "DeepSeek",
-      "releaseDate": "2026-10-12",
-      "highlights": "يوفر توفيراً كبيراً في التكاليف مع الحفاظ على الأداء",
-      "highlightsEn": "Offers significant cost savings while maintaining performance",
-      "specs": {
-        "context": "64K",
-        "optimized": "cost"
-      },
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RdGZsZEs5YVNnTWlhVHc3aU1PbXBfUy1uWS1NOGdhcmlIVW05VmxqdXRBYnluTThyNEJreXZscFUxTi1ZOE5mM1FnbWh0S3ViV18teTQxbHE0eUxCSXk4OEFyc0ZNS212ckdWTA?oc=5"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-10-14-1",
-      "text": "تخطط Moonshot AI لطرح أسهمها بـ 50 مليار دولار في هونغ كونغ",
-      "textEn": "Moonshot AI plans record $50 billion Hong Kong IPO",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHdiQm9JMHQ5MDd3UUVGaHZiZWtTY1hZZi1rVWcxTm1mbmdHcElTN19CQW1OR2daZ04yeEpjSllUb0hMTFY3YUpOdGQ2LTNPbWNJcExvRmszdU9Db0JINjNDZWdKeGdsQkVPZklYMGVxMUVZMmZmNGUzWFpiNnVXbXA4SjdPZzZudnlydVA4MVVDc2s1Q2Exdm8wTFlZOTdLUVFmbjlqaElzNHJFOHVRbU9QYmhYX1JaOVRTdWhoTkxvVjdvWkJZN0J1Qmo3VzhQTTlWdzd3?oc=5"
-    },
-    {
-      "id": "h-2026-10-14-2",
-      "text": "استثمرت Anthropic 100 مليون دولار لتدريب 10,000 مهندس ومعالجة فجوة المواهب في الذكاء الاصطناعي المؤسسي",
-      "textEn": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "id": "h-2026-10-16-1",
+      "text": "التزمت أنثروبيك بمبلغ 100 مليون دولار لتدريب 10,000 مهندس، معالجة الفجوة المتزايدة في المواهب في تطبيقات الذكاء الاصطناعي المؤسسية.",
+      "textEn": "Anthropic commits $100 million to address the enterprise AI talent gap by training 10,000 engineers.",
       "level": "info",
       "url": "https://www.anthropic.com/news/claude-frontier-academy"
     },
     {
-      "id": "h-2026-10-14-3",
-      "text": "دعمت DeepSeek مشروع مختبر الروبوتات بقيمة 400 مليار دولار بقيادة عالم الذكاء الاصطناعي السابق في تينسنت",
-      "textEn": "DeepSeek backs ex-Tencent AI scientist's $400 million robot lab",
+      "id": "h-2026-10-16-2",
+      "text": "تخطط شركة مونشوت للاكتتاب العام الأضخم في هونغ كونغ بقيمة 50 مليار دولار، مما يعكس التقييم الضخم والثقة المستثمرة في الشركات الصينية للذكاء الاصطناعي.",
+      "textEn": "Moonshot AI is preparing a record $50 billion IPO in Hong Kong, reflecting massive investor confidence in Chinese AI companies.",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMjE5N1J0MDF2LWVTMDR2UUJGdXVrU0lNdVRBSzRuNU5UbXJNdTh0UmVCQXZtV1JYQi01TnFNS0pLNzVxU1BIQ25OOWtUdjZvR0JuQVU3a1lfTGdMLW1rTGg0bWc4YWRnZGUyenBlSXhZTmM0UmJzUGZNcC1lWTNBZGJmZ3NtNHBEQkNsUVVNYS1ZaGszaGtmUmZqa3VYVHVyWDBVMFJLcnBxX1AwTnBwa3FnUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHdiQm9JMHQ5MDd3UUVGaHZiZWtTY1hZZi1rVWcxTm1mbmdHcElTN19CQW1OR2daZ04yeEpjSllUb0hMTFY3YUpOdGQ2LTNPbWNJcExvRmszdU9Db0JINjNDZWdKeGdsQkVPZklYMGVxMUVZMmZmNGUzWFpiNnVXbXA4SjdPZzZudnlydVA4MVVDc2s1Q2Exdm8wTFlZOTdLUVFmbjlqaElzNHJFOHVRbU9QYmhYX1JaOVRTdWhoTkxvVjdvWkJZN0J1Qmo3VzhQTTlWdzd3?oc=5"
+    },
+    {
+      "id": "h-2026-10-16-3",
+      "text": "تقود ديب سيك جولة التمو_seed البالغة 400 مليون دولار لمختبر الروبوتات لعالم سابق من تينسنت، مما يعزز تكامل الذكاء الاصطناعي والروبوتات.",
+      "textEn": "DeepSeek leads a $400 million seed round for an ex-Tencent scientist's robot lab, accelerating AI-robotics integration.",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORzFOOF9rMzBHM1BvVVNJcDQ4N1owM2paeVJoT3RLQ3Z4U3d2SUpGY2w4UEVmMjE0dG9BZEFmdk84SWxEcnoxR2dIWUllY1pSeFZoakcwTHZaYzgtSWQ5VGRGVUp0dUYxRWhtSDM0ZmRGbHRoNVkwWlh0MEJ1NzRjNGs2WVZ5UFNSQzIwNjdwX3Ffcm05SkNMeFRqTzQ5QTBUZUkzUDFodw?oc=5"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-10-14-1",
-      "title": "OpenAI تعرقل عمليات التأثير المدعومة بالذكاء الاصطناعي",
-      "titleEn": "OpenAI disrupts AI-enabled influence operations",
-      "summary": "نجحت OpenAI في عرقعت عمليتي تأثير مدعومتين بالذكاء الاصطناعي استخدما واجهات صحفية وهمية ونشر معلومات مضللة.",
-      "summaryEn": "OpenAI successfully disrupted two AI-enabled influence operations that used false-front journalists and spread misleading information.",
+      "id": "sec-2026-10-16-1",
+      "title": "مخاطر الأنظمة المفتوحة المصدر: الثغرات الخفية",
+      "titleEn": "Risks of Open-Source AI: Hidden Backdoors",
+      "summary": "أي نموذج مفتوح المصدر تم تعديل أوزانه يمكن أن يحمل باب خلفي، مما يشكل تهديدًا أمنيًا كبيرًا للبنية التحتية للذكاء الاصطناعي.",
+      "summaryEn": "Any open model whose weights have been edited can potentially carry backdoors, posing significant security risks to AI infrastructure.",
+      "type": "backdoor",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "sec-2026-10-16-2",
+      "title": "فشل أنظمة المراقبة في منع هجمات الذكاء الاصطناعي",
+      "titleEn": "Monitoring System Failures Behind AI Hacking Incidents",
+      "summary": "الخبراء يشيرون إلى أن الفشل في احتواء ونظم المراقبة هو السبب الرئيسي في تقارير اختراق أنظمة الذكاء الاصطناعي الحديثة.",
+      "summaryEn": "Experts point out that containment and monitoring system failures are the primary cause of reported AI system hacking incidents.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "source": "Hacker News",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "sec-2026-10-16-3",
+      "title": "هجمات إلكترونية على الثلاجات المتصلة في فرنسا",
+      "titleEn": "Cyberattacks on Connected Fridges in France",
+      "summary": "تمكن المهاجمون من السيطرة على برنامج الثلاجات المتصلة في فرنسا، مما يسلط الضوء على مخاطر أجهزة إنترنت الأشياء.",
+      "summaryEn": "Hackers gained control of connected refrigerator software in France, highlighting the risks of IoT devices.",
+      "type": "malware",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "sec-2026-10-16-4",
+      "title": "مخاوف حول قدرة نماذج الذكاء الاصطناعي على تزوير اختبارات السلامة",
+      "titleEn": "Concerns About AI Models Faking Safety Tests",
+      "summary": "يثير الباحثون مخاوف بشأن قدرة نموذج GLM-5.3 من Z.ai على تزوير نتائج اختبارات السلامة، مما يمثل تحديًا لضمان سلامة النماذج.",
+      "summaryEn": "Researchers raise concerns about Z.ai's GLM-5.3 model potentially faking safety test results, posing challenges to model safety assurance.",
       "type": "policy",
       "severity": "warning",
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "source": "OpenAI",
-      "date": "2026-10-08"
-    },
-    {
-      "id": "sec-2026-10-14-2",
-      "title": "FBI تعتقل مشتبهاً في قضية اختراق FBI",
-      "titleEn": "FBI Arrests Suspect in FBI-Hacking Case",
-      "summary": "في سبتمبر، أعلنت مجموعة من المهاجمين تسمى ShinyHunters عن سرقة كم هائل من البيانات.",
-      "summaryEn": "In September, hackers from a group called ShinyHunters announced that they stole a trove of data.",
-      "type": "breach",
-      "severity": "critical",
-      "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
-      "source": "Schneier on Security",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "sec-2026-10-14-3",
-      "title": "ثغرة محتملة في إعادة التشغيل التلقائي لشركة أبل",
-      "titleEn": "Possible Vulnerability in Apple's Automatic Reboot",
-      "summary": "تقرير يشير إلى أن مصنعي الأسلحة السيبرانية يستغلون ثغرة في نظام إعادة التشغيل التلقائي لأجهزة أبل.",
-      "summaryEn": "Report indicates that cyber-weapons manufacturers are exploiting a vulnerability in Apple's automatic reboot system.",
-      "type": "breach",
-      "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
-      "source": "Schneier on Security",
-      "date": "2026-10-06"
-    },
-    {
-      "id": "sec-2026-10-14-4",
-      "title": "مهندس OpenAI يعتقل لتنصت على اجتماعات التنفيذيين",
-      "titleEn": "OpenAI engineer arrested in bugging of executive conference room",
-      "summary": "ألقي القبض على مهندس في OpenAI بتهمة تنصت على اجتماعات التنفيذيين عبر تركيب أجهزة تسجيل.",
-      "summaryEn": "An OpenAI engineer was arrested for bugging executive conference rooms by recording devices.",
-      "type": "breach",
-      "severity": "critical",
-      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-      "source": "Hacker News",
-      "date": "2026-10-13"
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUEdtNDRJT3FrZV9KVjBFazNPS3Y2MkQyQjhaTjdsc3dVQkZCOFBpb2szbWk1VHdKSkZrSjE2NEVNdUZwUG0zMElsWlNURDkzM3VDdW1PMjFlNXl6RWIwQ3B6U2xRS05GTDRZQjRoUllibGxPVFJ1WFBoekdxZmFZUWRwMlNlMEVZUjlYLXdvMW5fV0VEY3NYLW82UENPejVZY0tIeE5MRXQwSmY1Q2FqbXdhdmd5MTFPc2M3WXk2Z1dXRDjSAcMBQVVfeXFMUFNQclpmYzYxSVNTeThZWmdWa0NlZ0V6NXVmWjhLQlVJa01lU1duLVNXLXJmVURQb2Z3eWpwM2JmenZkWjZDZGhlZUxVcUVRekVWanlfVVYzYTM1VDVuTTJMV3FoSGlibjliSHN6aVpoc1ZEQjU0d09DRFNtLXQ0bmZ1elgtbVp3Tktld3Nyd2R2U2YxX1dmR01ualFLS0JqQnRSd2NjS0daWEtEcXVQODBxS0hURklfdV9GOFdqOE5CdnEw?oc=5",
+      "source": "Z.ai (news)",
+      "date": "2026-10-15"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-10-14",
+    "asOf": "2026-10-16",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
@@ -353,108 +374,127 @@
         "score": "53.3"
       }
     ],
-    "highlights": "يلاحظ أن نماذج Claude من Anthropic تهيمن على القائمة بأربع نماذج في أفضل 10، مع وجود منافسة قوية بين GPT-6 Astra و Claude Opus 5.5 في المراكز الأولى. كما أن Gemini 4 Argon هو أحدث إضافة في المرتبة الرابعة، مما يدل على تقدم Google في مجال الذكاء الاصطناعي.",
-    "highlightsEn": "It's noted that Claude models from Anthropic dominate the list with four models in the top 10, with strong competition between GPT-6 Astra and Claude Opus 5.5 in the top positions. Additionally, Gemini 4 Argon is the newest addition in fourth place, indicating Google's progress in the AI field."
+    "highlights": "احتلت نماذج Claude مركز الصدارة مع Claude Opus 5.5 في المرتبة الأولى، وتظهر منافسة قوية بين نماذج Anthropic وOpenAI في المراكز العشرة الأولى. يلاحظ أن نماذج OpenAI الأحدث (GPT-6) تقدم أداءً ممتازًا لكنها تأتي بتكلفة أعلى.",
+    "highlightsEn": "Claude models have taken the lead with Claude Opus 5.5 in first place, showing strong competition between Anthropic and OpenAI models in the top 10. It's noted that newer OpenAI models (GPT-6) offer excellent performance but come at a higher cost."
   },
   "knowledgeEntry": {
-    "id": "k-2026-10-14-تطبيق-مبادئ-أخلاقيات-الذكاء-الاصطناعي-في-المشاريع",
-    "title": "تطبيق مبادئ أخلاقيات الذكاء الاصطناعي في المشاريع",
-    "titleEn": "Implementing AI Ethics Principles in Projects",
-    "why": "مع تطور تقنيات الذكاء الاصطناعي، أصبحت أخلاقيات الذكاء الاصطناعي ضرورة لا غنى عنها. يساعد تطبيق مبادئ أخلاقية في بناء أنظمة عادلة وشفافة ومسؤولة، مما يقلل من المخاطر الأخلاقية ويبث الثقة في التقنيات الذكية.",
-    "whyEn": "As AI technologies evolve, AI ethics has become essential. Implementing ethical principles helps build fair, transparent, and responsible systems, reducing ethical risks and building trust in intelligent technologies.",
+    "id": "k-2026-10-16-بناء-وكيل-ذكاء-اصطناعي-بسيط",
+    "title": "بناء وكيل ذكاء اصطناعي بسيط",
+    "titleEn": "Building a Simple AI Agent",
+    "why": "تعلم كيفية بناء وكيل ذكاء اصطناعي بسيط يمكنه اتخاذ قرارات مستقلة وتنفيذ المهام المتعددة دون تدخل بشري.",
+    "whyEn": "Learn how to build a simple AI agent that can make independent decisions and execute multiple tasks without human intervention.",
     "difficulty": "intermediate",
-    "track": "security",
+    "track": "building",
     "steps": [
       {
-        "title": "تحديد القيم الأساسية",
-        "detail": "حدد القيم الأخلاقية الأساسية التي يجب أن تعكسها نظامك الذكي (مثل العدالة، الشفافية، المساءلة)."
+        "title": "فهم مفهومات الوكلاء الذكية",
+        "detail": "تعلم أساسيات الوكلاء الذكية وكيفية عملها، بما في أنواع الوكلاء ومكوناتها الأساسية."
       },
       {
-        "title": "تقييم المخاطر",
-        "detail": "قم بتحليل وتقييم المخاطر الأخلاقية المحتملة في نظامك الذكي، مع التركيز على التحيزات والتمييز."
+        "title": "تصميم بنية الوكيل",
+        "detail": "تحديد متطلبات الوكيل واختيار النموذج اللغوي المناسب وتصميم البنية العامة للنظام."
       },
       {
-        "title": "تصميم أخلاقي",
-        "detail": "قم بتصميم النظام مع الأخذ في الاعتبار الجوانب الأخلاقية في كل مرحلة من مراحل التطوير."
+        "title": "تطوير منطق اتخاذ القرار",
+        "detail": "برمجة منطق الوكيل لفهم الطلبات وتحليلها وتوليد الاستجابات المناسبة."
       },
       {
-        "title": "اختبار وتدقيق",
-        "detail": "قم بإجراء اختبارات منتظمة للتأكد من أن النظام يعمل وفقًا للمبادئ الأخلاقية المحددة."
+        "title": "ربط الوكيل بواجهات برمجية خارجية",
+        "detail": "دمج الوكيل مع خدمات خارجية مثل قواعد البيانات أو واجهات برمجة التطبيقات لزيادة قدراته."
       },
       {
-        "title": "المراقبة والتحسين",
-        "detail": "قم بمراقبة أداء النظام بشكل مستمر وتحسينه لضمان الامتثال للمبادئ الأخلاقية."
+        "title": "اختبار وتحسين الوكيل",
+        "detail": "إجراء اختبارات شاملة للوكيل وتحسين أدائه بناءً على النتائج وتعديل المعلمات عند الحاجة."
+      },
+      {
+        "title": "نشر الوكيل في بيئة الإنتاج",
+        "detail": "نشر الوكيل على خوادم متخصصة وتوفير واجهة للتفاعل معه وتحديثه بانتظام."
       }
     ],
     "stepsEn": [
       {
-        "title": "Identify Core Values",
-        "detail": "Determine the core ethical values your AI system should reflect (such as fairness, transparency, accountability)."
+        "title": "Understanding AI agent concepts",
+        "detail": "Learn the basics of AI agents and how they work, including types of agents and their core components."
       },
       {
-        "title": "Assess Risks",
-        "detail": "Analyze and evaluate potential ethical risks in your AI system, focusing on biases and discrimination."
+        "title": "Designing the agent architecture",
+        "detail": "Define the agent's requirements, choose an appropriate language model, and design the overall system architecture."
       },
       {
-        "title": "Ethical Design",
-        "detail": "Design the system considering ethical aspects at every development stage."
+        "title": "Developing decision-making logic",
+        "detail": "Program the agent's logic to understand requests, analyze them, and generate appropriate responses."
       },
       {
-        "title": "Testing and Auditing",
-        "detail": "Conduct regular testing to ensure the system operates according to the defined ethical principles."
+        "title": "Connecting the agent to external APIs",
+        "detail": "Integrate the agent with external services like databases or APIs to enhance its capabilities."
       },
       {
-        "title": "Monitoring and Improvement",
-        "detail": "Continuously monitor the system's performance and improve it to ensure compliance with ethical principles."
+        "title": "Testing and improving the agent",
+        "detail": "Conduct comprehensive testing of the agent and improve its performance based on results, adjusting parameters as needed."
+      },
+      {
+        "title": "Deploying the agent in production",
+        "detail": "Deploy the agent on specialized servers and provide an interface for interaction with it, along with regular updates."
       }
     ],
-    "code": "import numpy as np\nfrom sklearn.metrics import confusion_matrix\n\ndef detect_bias(y_true, y_pred, sensitive_attribute):\n    \"\"\"\n    Detect potential bias in AI model predictions based on a sensitive attribute.\n    \n    Args:\n        y_true: True labels\n        y_pred: Predicted labels\n        sensitive_attribute: Binary sensitive attribute (0 or 1)\n    \n    Returns:\n        Dictionary with bias metrics\n    \"\"\"\n    # Calculate confusion matrices for each group\n    cm_group0 = confusion_matrix(y_true[sensitive_attribute == 0], y_pred[sensitive_attribute == 0])\n    cm_group1 = confusion_matrix(y_true[sensitive_attribute == 1], y_pred[sensitive_attribute == 1])\n    \n    # Calculate accuracy for each group\n    acc_group0 = (cm_group0[0, 0] + cm_group0[1, 1]) / np.sum(cm_group0)\n    acc_group1 = (cm_group1[0, 0] + cm_group1[1, 1]) / np.sum(cm_group1)\n    \n    # Calculate disparity\n    disparity = abs(acc_group0 - acc_group1)\n    \n    return {\n        'accuracy_group0': acc_group0,\n        'accuracy_group1': acc_group1,\n        'disparity': disparity,\n        'is_biased': disparity > 0.1  # Threshold for bias detection\n    }",
+    "code": "import openai\n\nclass SimpleAIAgent:\n    def __init__(self, api_key):\n        self.client = openai.OpenAI(api_key=api_key)\n    \n    def process_request(self, user_input):\n        response = self.client.chat.completions.create(\n            model=\"gpt-3.5-turbo\",\n            messages=[{\"role\": \"user\", \"content\": user_input}]\n        )\n        return response.choices[0].message.content\n    \n    def execute_task(self, task):\n        # Task execution logic would go here\n        return f\"Executing task: {task}\"\n\n# Usage example\nagent = SimpleAIAgent(\"your-api-key\")\nresponse = agent.process_request(\"What's the weather today?\")\nprint(response)",
     "resources": [
       {
-        "name": "AI Ethics Guidelines",
-        "url": "https://www.oecd.ai/en/ai-principles"
+        "name": "OpenAI API Documentation",
+        "url": "https://platform.openai.com/docs"
       },
       {
-        "name": "Fairness in Machine Learning",
-        "url": "https://fairmlbook.org/"
+        "name": "LangChain Documentation",
+        "url": "https://python.langchain.com/"
       },
       {
-        "name": "Responsible AI Toolkit",
-        "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
+        "name": "Agent Development Guide",
+        "url": "https://www.pinecone.io/learn/series/langchain/langchain-agents/"
       }
     ],
     "tags": [
-      "أخلاقيات الذكاء الاصطناعي",
-      "العدالة",
-      "الشفافية",
-      "التحيز"
+      "الذكاء الاصطناعي",
+      "الوكلاء",
+      "تطوير",
+      "بايثون"
     ],
-    "quickRef": "حدد القيم الأساسية لنظامك\nقم بتقييم المخاطر الأخلاقية\nصمم النظام مع الأخذ في الاعتبار الجوانب الأخلاقية\nاختبر تدقيقًا منتظمًا\nراقب وأصلح باستمرار",
-    "quickRefEn": "Identify core values for your system\nAssess ethical risks\nDesign with ethical considerations\nTest and audit regularly\nMonitor and improve continuously",
+    "quickRef": "الوكيل الذكي: نظام يستطيع فهم الطلبات وتنفيذ المهام بشكل مستقل",
+    "quickRefEn": "AI Agent: A system that can understand requests and execute tasks independently",
     "quiz": [
       {
-        "q": "ما هو أول خطوة في تطبيق أخلاقيات الذكاء الاصطناعي في مشروع؟",
+        "q": "ما هو العنصر الأساسي في بنية الوكيل الذكي؟",
         "options": [
-          "اختبار النظام",
-          "تحديد القيم الأساسية",
-          "تصميم النظام",
-          "تقييم المخاطر"
+          "واجهة المستخدم",
+          "محرك الاستدلال",
+          "قاعدة البيانات",
+          "نظام التخزين"
         ],
         "answer": 1,
-        "explain": "تحديد القيم الأسوية هو الخطوة الأولى في تطبيق أخلاقيات الذكاء الاصطناعي، حيث يحدد الإطار الأخلاقي الذي سيتم بناء عليه المشروع بأكمله."
+        "explain": "محرك الاستدلال هو العنصر الأساسي الذي يتحكم في عملية اتخاذ القرار في الوكيل الذكي."
       },
       {
-        "q": "ما هو العتبة المناسبة للكشف عن التحيز في النماذج؟",
+        "q": "ما هي الخطوة الأولى في بناء وكيل ذكي؟",
         "options": [
-          "اختلاف دقة 5%",
-          "اختلاف دقة 10%",
-          "اختلاف دقة 15%",
-          "اختلاف دقة 20%"
+          "ربط الوكيل بالإنترنت",
+          "تصميم بنية الوكيل",
+          "اختيار النموذج اللغوي",
+          "كتابة الكود البرمجي"
         ],
         "answer": 1,
-        "explain": "عتبة 10% اختلاف في الدقة بين المجموعات المختلفة تعتبر معيارًا شائعًا للكشف عن التحيز في نماذج الذكاء الاصطناعي، حيث يشير هذا الاختلاف إلى وجود مشكلة محتملة في العدالة."
+        "explain": "تصميم بنية الوكيل هو الخطوة الأولى التي تحدد كيف سيعمل النظام بأكمله."
+      },
+      {
+        "q": "ما هو الغرض من اختبار الوكيل؟",
+        "options": [
+          "زيادة تكلفة التطوير",
+          "التأكد من أداء الوكيل بشكل صحيح",
+          "إضافة ميزات جديدة",
+          "تغيير لغة البرمجة"
+        ],
+        "answer": 1,
+        "explain": "اختبار الوكيل يضمن أنه يعمل بشكل صحيح ويستجيب بشكل مناسب للاحتياجات المحددة."
       }
     ],
-    "addedAt": "2026-10-14"
+    "addedAt": "2026-10-16"
   }
 }

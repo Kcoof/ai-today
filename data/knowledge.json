@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-16-بناء-وكيل-ذكاء-اصطناعي-بسيط",
+      "title": "بناء وكيل ذكاء اصطناعي بسيط",
+      "titleEn": "Building a Simple AI Agent",
+      "why": "تعلم كيفية بناء وكيل ذكاء اصطناعي بسيط يمكنه اتخاذ قرارات مستقلة وتنفيذ المهام المتعددة دون تدخل بشري.",
+      "whyEn": "Learn how to build a simple AI agent that can make independent decisions and execute multiple tasks without human intervention.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "فهم مفهومات الوكلاء الذكية",
+          "detail": "تعلم أساسيات الوكلاء الذكية وكيفية عملها، بما في أنواع الوكلاء ومكوناتها الأساسية."
+        },
+        {
+          "title": "تصميم بنية الوكيل",
+          "detail": "تحديد متطلبات الوكيل واختيار النموذج اللغوي المناسب وتصميم البنية العامة للنظام."
+        },
+        {
+          "title": "تطوير منطق اتخاذ القرار",
+          "detail": "برمجة منطق الوكيل لفهم الطلبات وتحليلها وتوليد الاستجابات المناسبة."
+        },
+        {
+          "title": "ربط الوكيل بواجهات برمجية خارجية",
+          "detail": "دمج الوكيل مع خدمات خارجية مثل قواعد البيانات أو واجهات برمجة التطبيقات لزيادة قدراته."
+        },
+        {
+          "title": "اختبار وتحسين الوكيل",
+          "detail": "إجراء اختبارات شاملة للوكيل وتحسين أدائه بناءً على النتائج وتعديل المعلمات عند الحاجة."
+        },
+        {
+          "title": "نشر الوكيل في بيئة الإنتاج",
+          "detail": "نشر الوكيل على خوادم متخصصة وتوفير واجهة للتفاعل معه وتحديثه بانتظام."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding AI agent concepts",
+          "detail": "Learn the basics of AI agents and how they work, including types of agents and their core components."
+        },
+        {
+          "title": "Designing the agent architecture",
+          "detail": "Define the agent's requirements, choose an appropriate language model, and design the overall system architecture."
+        },
+        {
+          "title": "Developing decision-making logic",
+          "detail": "Program the agent's logic to understand requests, analyze them, and generate appropriate responses."
+        },
+        {
+          "title": "Connecting the agent to external APIs",
+          "detail": "Integrate the agent with external services like databases or APIs to enhance its capabilities."
+        },
+        {
+          "title": "Testing and improving the agent",
+          "detail": "Conduct comprehensive testing of the agent and improve its performance based on results, adjusting parameters as needed."
+        },
+        {
+          "title": "Deploying the agent in production",
+          "detail": "Deploy the agent on specialized servers and provide an interface for interaction with it, along with regular updates."
+        }
+      ],
+      "code": "import openai\n\nclass SimpleAIAgent:\n    def __init__(self, api_key):\n        self.client = openai.OpenAI(api_key=api_key)\n    \n    def process_request(self, user_input):\n        response = self.client.chat.completions.create(\n            model=\"gpt-3.5-turbo\",\n            messages=[{\"role\": \"user\", \"content\": user_input}]\n        )\n        return response.choices[0].message.content\n    \n    def execute_task(self, task):\n        # Task execution logic would go here\n        return f\"Executing task: {task}\"\n\n# Usage example\nagent = SimpleAIAgent(\"your-api-key\")\nresponse = agent.process_request(\"What's the weather today?\")\nprint(response)",
+      "resources": [
+        {
+          "name": "OpenAI API Documentation",
+          "url": "https://platform.openai.com/docs"
+        },
+        {
+          "name": "LangChain Documentation",
+          "url": "https://python.langchain.com/"
+        },
+        {
+          "name": "Agent Development Guide",
+          "url": "https://www.pinecone.io/learn/series/langchain/langchain-agents/"
+        }
+      ],
+      "tags": [
+        "الذكاء الاصطناعي",
+        "الوكلاء",
+        "تطوير",
+        "بايثون"
+      ],
+      "quickRef": "الوكيل الذكي: نظام يستطيع فهم الطلبات وتنفيذ المهام بشكل مستقل",
+      "quickRefEn": "AI Agent: A system that can understand requests and execute tasks independently",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأساسي في بنية الوكيل الذكي؟",
+          "options": [
+            "واجهة المستخدم",
+            "محرك الاستدلال",
+            "قاعدة البيانات",
+            "نظام التخزين"
+          ],
+          "answer": 1,
+          "explain": "محرك الاستدلال هو العنصر الأساسي الذي يتحكم في عملية اتخاذ القرار في الوكيل الذكي."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في بناء وكيل ذكي؟",
+          "options": [
+            "ربط الوكيل بالإنترنت",
+            "تصميم بنية الوكيل",
+            "اختيار النموذج اللغوي",
+            "كتابة الكود البرمجي"
+          ],
+          "answer": 1,
+          "explain": "تصميم بنية الوكيل هو الخطوة الأولى التي تحدد كيف سيعمل النظام بأكمله."
+        },
+        {
+          "q": "ما هو الغرض من اختبار الوكيل؟",
+          "options": [
+            "زيادة تكلفة التطوير",
+            "التأكد من أداء الوكيل بشكل صحيح",
+            "إضافة ميزات جديدة",
+            "تغيير لغة البرمجة"
+          ],
+          "answer": 1,
+          "explain": "اختبار الوكيل يضمن أنه يعمل بشكل صحيح ويستجيب بشكل مناسب للاحتياجات المحددة."
+        }
+      ],
+      "addedAt": "2026-10-16"
+    },
+    {
       "id": "k-2026-10-14-تطبيق-مبادئ-أخلاقيات-الذكاء-الاصطناعي-في-المشاريع",
       "title": "تطبيق مبادئ أخلاقيات الذكاء الاصطناعي في المشاريع",
       "titleEn": "Implementing AI Ethics Principles in Projects",
