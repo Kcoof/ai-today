@@ -1,6 +1,119 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-19-أساسيات-أمن-الذكاء-الاصطناعي",
+      "title": "أساسيات أمن الذكاء الاصطناعي",
+      "titleEn": "AI Safety Basics",
+      "why": "مع تطور قدرات الذكاء الاصطناعي، يصبح فهم أساسيات أمنه ضروريًا لاستخدامه بشكل مسؤول ومنع المخاطر المحتملة.",
+      "whyEn": "As AI capabilities evolve, understanding AI safety basics becomes essential for responsible use and preventing potential risks.",
+      "difficulty": "beginner",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "فهم المخاطر الرئيسية",
+          "detail": "التعرف على أنواع المخاطر الرئيسية مثل التحيز، والاستخدام الخاطئ، والآثار غير المقصودة."
+        },
+        {
+          "title": "تطبيق مبادئ أخلاقية",
+          "detail": "تطبيق مبادئ مثل الشفافية والعدالة والمساءلة في تطوير نماذج الذكاء الاصطناعي."
+        },
+        {
+          "title": "التحقق من البيانات",
+          "detail": "التأكد من جودة البيانات وتنوعها وتجنب التحيز في مجموعات البيانات المستخدمة لتدريب النماذج."
+        },
+        {
+          "title": "الاختبار والتقييم",
+          "detail": "إجراء اختبارات شاملة لتقييم أداء النماذج وتحديد نقاط الضعف المحتملة."
+        },
+        {
+          "title": "التحديث المستمر",
+          "detail": "تحديث النماذج بانتظام بناءً على التقييمات الجديدة والتحديات الأمنية الناشئة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Key Risks",
+          "detail": "Identifying main risk types like bias, misuse, and unintended consequences."
+        },
+        {
+          "title": "Applying Ethical Principles",
+          "detail": "Applying principles like transparency, fairness, and accountability in AI development."
+        },
+        {
+          "title": "Data Validation",
+          "detail": "Ensuring data quality, diversity, and avoiding bias in training datasets."
+        },
+        {
+          "title": "Testing and Evaluation",
+          "detail": "Comprehensive testing to evaluate model performance and identify potential weaknesses."
+        },
+        {
+          "title": "Continuous Updates",
+          "detail": "Regularly updating models based on new evaluations and emerging security challenges."
+        }
+      ],
+      "code": "def check_bias(text, protected_attributes):\n    \"\"\"\n    Simple function to check for potential bias in AI output\n    \"\"\"\n    for attribute in protected_attributes:\n        if attribute.lower() in text.lower():\n            return f\"Potential bias detected: {attribute}\"\n    return \"No obvious bias detected\"\n\n# Example usage\nprotected_attributes = [\"race\", \"gender\", \"religion\"]\noutput = \"The model performed better on male candidates\"\nprint(check_bias(output, protected_attributes))",
+      "resources": [
+        {
+          "name": "OpenAI's AI Safety Guidelines",
+          "url": "https://openai.com/ai-safety"
+        },
+        {
+          "name": "Partnership on AI's AI Safety Resources",
+          "url": "https://partnershiponai.org/ai-safety-resources/"
+        },
+        {
+          "name": "AI Now Institute's Research",
+          "url": "https://ainowinstitute.org/"
+        }
+      ],
+      "tags": [
+        "أمن الذكاء الاصطناعي",
+        "التحقق من التحيز",
+        "الأخلاقيات",
+        "AI Safety",
+        "Bias Checking"
+      ],
+      "quickRef": "تأكد من تنوع البيانات، اختبر النماذج بانتظام، طبق مبادئ أخلاقية، وحدّث النماذج باستمرار.",
+      "quickRefEn": "Ensure diverse data, test models regularly, apply ethical principles, and update models continuously.",
+      "quiz": [
+        {
+          "q": "ما هو أحد المخاطر الرئيسية في الذكاء الاصطناعي يجب تجنبه؟",
+          "options": [
+            "التحيز في البيانات",
+            "استخدام لغة برمجة سريعة",
+            "اختيار ألوان واجهة المستخدم",
+            "تقليل حجم النماذج"
+          ],
+          "answer": 0,
+          "explain": "التحيز في البيانات هو أحد المخاطر الرئيسية في الذكاء الاصطناعي الذي يمكن أن يؤدي إلى نتائج غير عادلة ومتحيزة."
+        },
+        {
+          "q": "ما هي المبادئ الأساسية لأمن الذكاء الاصطناعي؟",
+          "options": [
+            "الشفافية، العدالة، والمساءلة",
+            "السرعة، الكفاءة، والتكلفة المنخفضة",
+            "التصميم الجذاب، سهولة الاستخدام، والميزات المتعددة",
+            "الحجم الكبير، الدقة العالية، والسرعة الفائقة"
+          ],
+          "answer": 0,
+          "explain": "مبادئ الشفافية والعدالة والمساءلة هي أساسية لأمن الذكاء الاصطناعي لضمان استخدام مسؤول وآمن."
+        },
+        {
+          "q": "كيف يمكن تحسين أمن نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "تحديث النماذج بانتظام بناءً على التقييمات الجديدة",
+            "استخدام نفس البيانات دون تغيير",
+            "تجنب اختبار النماذج قبل نشرها",
+            "تقليل عدد المستخدمين للنماذج"
+          ],
+          "answer": 0,
+          "explain": "تحديث النماذج بانتظام يساعد على معالجة الثغرات الأمنية وتحسين أداء النماذج بناءً على التقييمات الجديدة."
+        }
+      ],
+      "addedAt": "2026-10-19"
+    },
+    {
       "id": "k-2026-10-16-بناء-وكيل-ذكاء-اصطناعي-بسيط",
       "title": "بناء وكيل ذكاء اصطناعي بسيط",
       "titleEn": "Building a Simple AI Agent",
