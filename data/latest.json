@@ -1,27 +1,13 @@
 {
   "date": "2026-10-20",
-  "generatedAt": "2026-10-20T10:25:10.104Z",
+  "generatedAt": "2026-10-20T15:53:15.039Z",
   "news": [
     {
       "id": "n-2026-10-20-1",
-      "title": "إطلاق جيميني 4 أرجون: ذكاء حدودي جديد من جوجل ديب مايند",
-      "titleEn": "Launch of Gemini 4 Argon: New Frontier AI from Google DeepMind",
-      "summary": "أعلنت جوجل ديب مايند عن نموذج جيميني 4 أرجون، وهو نموذج ذكاء اصطناعي متقدم مصمم لحل المشكلات المعقدة. يأتي الإطلاق بعد تطورات متعددة في مجال الذكاء الاصطناعي الحدودي.",
-      "summaryEn": "Google DeepMind announced the Gemini 4 Argon model, an advanced AI system designed to solve complex problems. The launch comes amid multiple developments in the field of frontier AI.",
-      "category": "models",
-      "importance": 5,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-      },
-      "publishedAt": "2026-10-13"
-    },
-    {
-      "id": "n-2026-10-20-5",
-      "title": "حظر DeepSeek من أنظمة الوكالات الحكومية الأمريكية",
-      "titleEn": "DeepSeek Banned from US Government Agency Systems",
-      "summary": "أمرت الحكومة الأمريكية جميع الوكالات المدنية بإزالة DeepSeek من أنظمتها، بما في ذلك الأدوات المبنية عليه. يأتي هذا القرار في إطار التوترات المتزايدة بين الولايات والصين في مجال الذكاء الاصطناعي.",
-      "summaryEn": "The US government ordered all civilian agencies to remove DeepSeek from their systems, including tools built on it. This decision comes amid increasing tensions between the US and China in the AI field.",
+      "title": "الولايات المتحدة تحظر الذكاء الاصطناعي الصيني DeepSeek من أنظمة الوكالات الحكومية",
+      "titleEn": "US banning Chinese AI DeepSeek from government agency IT systems",
+      "summary": "أصدرت الحكومة الأمريكية قراراً بمنع استخدام نموذج DeepSeek الصيني في جميع أنظمة الوكالات الحكومية، مما يمثل تصعيداً في التوتر بين الولايات المتحدة والصين في مجال الذكاء الاصطناعي.",
+      "summaryEn": "The US government has banned the use of Chinese DeepSeek model in all government agency systems, escalating tensions between the US and China in the AI field.",
       "category": "regulation",
       "importance": 5,
       "source": {
@@ -32,10 +18,38 @@
     },
     {
       "id": "n-2026-10-20-2",
+      "title": "تطوير جيميني 4 أرجون بشكل مسؤول وآمن",
+      "titleEn": "Developing Gemini 4 Argon responsibly and safely",
+      "summary": "أعلنت جوجل ديب مايند عن نهجها في تطوير نموذج جيميني 4 أرجون بشكل مسؤول وآمن، مع التركيز على السلامة والأخلاقيات في الذكاء الاصطناعي.",
+      "summaryEn": "Google DeepMind announced its approach to developing the Gemini 4 Argon model responsibly and safely, focusing on AI safety and ethics.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+      },
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "id": "n-2026-10-20-3",
+      "title": "جيميني 4 أرجون: مصمم لحل أصعب مشاكلك",
+      "titleEn": "Gemini 4 Argon: Built to solve your hardest problems",
+      "summary": "كشفت جوجل عن نموذج جيميني 4 أرجون الجديد المصمم لمواجهة التحديات الأكثر تعقيداً في مختلف المجالات العلمية والتقنية.",
+      "summaryEn": "Google unveiled the new Gemini 4 Argon model designed to tackle the most complex challenges across various scientific and technical fields.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-argon/"
+      },
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "id": "n-2026-10-20-4",
       "title": "إطلاق نموذج Mistral Large 4 الجديد",
-      "titleEn": "Launch of New Mistral Large 4 Model",
-      "summary": "أطلقت شركة Mistral AI نموذجها الجidense Large 4، الذي يمثل تقدمًا كبيرًا في قدرات النماذج اللغوية الكبيرة. النموذج الجديد يقدم تحسينات ملحوظة في الفهم والاستدلال.",
-      "summaryEn": "Mistral AI launched its new Large 4 model, representing a significant advancement in large language model capabilities. The new model offers notable improvements in understanding and reasoning.",
+      "titleEn": "Research Introducing Mistral Large 4 October 6, 2026 By Mistral",
+      "summary": "أطلقت شركة Mistral AI نموذج Mistral Large 4 الجديد الذي يمثل تقدماً كبيراً في قدرات النماذج اللغوية الكبيرة للشركات.",
+      "summaryEn": "Mistral AI launched the new Mistral Large 4 model, representing significant advancement in enterprise large language model capabilities.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -45,11 +59,11 @@
       "publishedAt": "2026-10-20"
     },
     {
-      "id": "n-2026-10-20-3",
-      "title": "كيمي K3: نموذج صيني جديد منافس للنماذج الغربية",
-      "titleEn": "Kimi K3: New Chinese Model Competing with Western Models",
-      "summary": "كشف شركة مونشوت الصينية عن نموذج Kimi K3 الجديد الذي يتحدى النماذج الغربية الكبرى. أظهر النموذج أداءً متفوقًا في بعض المقاييس، متجاوزًا نماذج مثل GPT-6.1.",
-      "summaryEn": "Chinese company Moonshot unveiled the Kimi K3 model, challenging major Western models. The model showed superior performance in certain benchmarks, outperforming models like GPT-6.1.",
+      "id": "n-2026-10-20-5",
+      "title": "تطلق شركة مونشوت الصينية نموذج كيمي K3 للتنافس مع OpenAI و Anthropic",
+      "titleEn": "China's Moonshot AI Unveils Kimi K3 to Challenge OpenAI and Anthropic",
+      "summary": "كشفت شركة مونشوت الصينية عن نموذج كيمي K3 الجديد الذي يهدف إلى منافسة النماذج الغربية الرائدة مثل OpenAI و Anthropic.",
+      "summaryEn": "Chinese company Moonshot unveiled the new Kimi K3 model aimed at competing with leading Western models like OpenAI and Anthropic.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -59,12 +73,12 @@
       "publishedAt": "2026-10-16"
     },
     {
-      "id": "n-2026-10-20-4",
-      "title": "GLM-5.3 من Z.ai: نموذج قوي مع مخاوف أمنية",
-      "titleEn": "GLM-5.3 from Z.ai: Powerful Model with Security Concerns",
-      "summary": "أطلقت Z.ai نموذج GLM-5.3 الجديد الذي أثار مخاوف أمنية بعد اكتشاف ثغرات محتملة. النموذج يظهر قدرات استدلالية قوية لكنه يثير أسئلة حول سلامة النماذج المفتوحة المصدر.",
-      "summaryEn": "Z.ai launched the new GLM-5.3 model, which raised security concerns after potential vulnerabilities were discovered. The model shows strong reasoning capabilities but raises questions about the safety of open-source models.",
-      "category": "models",
+      "id": "n-2026-10-20-9",
+      "title": "تضاعفت نقاط الاستغلال في GLM-5.3 دون وجود نموذج أساسي جديد",
+      "titleEn": "GLM-5.3's Exploit Scores Doubled With No New Base Model",
+      "summary": "كشفت دراسة أن نقاط استغلال GLM-5.3 قد تضاعفت دون أي تغيير في النموذج الأساسي، مما يشير إلى ثغرات أمنية خطيرة.",
+      "summaryEn": "Research shows GLM-5.3's exploit scores have doubled without any changes to the base model, indicating serious security vulnerabilities.",
+      "category": "other",
       "importance": 4,
       "source": {
         "name": "Z.ai (news)",
@@ -73,83 +87,13 @@
       "publishedAt": "2026-10-18"
     },
     {
-      "id": "n-2026-10-20-6",
-      "title": "إطلاق Grok Voice 3.0: نموذج كلامي متقدم من xAI",
-      "titleEn": "Launch of Grok Voice 3.0: Advanced Speech Model from xAI",
-      "summary": "أطلقت شركة xAI نموذج Grok Voice 3.0 الجديد للكلام إلى الكلام، الذي يتجاوز أداء النماذج من OpenAI وجوجل في بعض المقاييس. النموذج مصمم لتطبيقات الوكلاء الصوتية.",
-      "summaryEn": "xAI launched the new Grok Voice 3.0 speech-to-speech model, which outperforms models from OpenAI and Google in certain benchmarks. The model is designed for voice agent applications.",
-      "category": "models",
-      "importance": 3,
-      "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1mOUcxZkpjVVVyYjlLOWk1V0sxb1QyY3dVLWtpcDBFbEpqQzlDQzFPekdzSUVKbnhoaHZNd3ZzYzlweElu?oc=5"
-      },
-      "publishedAt": "2026-10-14"
-    },
-    {
-      "id": "n-2026-10-20-7",
-      "title": "اختراق أدوات الترميز AI OpenCode",
-      "titleEn": "OpenCode AI Coding Tools Hacked",
-      "summary": "تعرضت منصة OpenCode للبرمجة باستخدام الذكاء الاصطناعي للاختراق، مما أدى إلى فرض رسوم على حسابات المستخدمين. تمكن المهاجمون من استخدام جيش من الوكلاء الاصطناعيين لتنفيذ الهجمات.",
-      "summaryEn": "The OpenCode AI coding platform was hacked, leading to charges being imposed on users' accounts. Attackers managed to use an army of AI agents to carry out the attacks.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
-      },
-      "publishedAt": "2026-10-19"
-    },
-    {
-      "id": "n-2026-10-20-8",
-      "title": "إخفاء تعليمات LLM في صفحات مساعدة واتساب",
-      "titleEn": "Hidden LLM Instructions in WhatsApp Help Pages",
-      "summary": "كشفت تحقيقات أن صفحات المساعدة في واتساب تحتوي على تعليمات LLM مخفية تمنح نموذجًا لغويًا خاصًا وصولًا غير محدود إلى المحتوى. يثير هذا مخاوف حول خصوصية المستخدمين.",
-      "summaryEn": "Investigations revealed that WhatsApp help pages contain hidden LLM instructions granting a proprietary language model unrestricted access to content. This raises concerns about user privacy.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "Hacker News",
-        "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
-      },
-      "publishedAt": "2026-10-19"
-    },
-    {
-      "id": "n-2026-10-20-9",
-      "title": "إطلاق نماذج Muse من ميتا للصور والفيديو",
-      "titleEn": "Meta Launches Muse Models for Images and Video",
-      "summary": "أطلقت ميتا نماذج Muse الجديدة للصور والفيديو، مع Muse Spark المفتوحة المصدر. النماذج الجديدة تقدم قدرات متقدمة في إنشاء وتعديل المحتوى البصري.",
-      "summaryEn": "Meta launched new Muse models for images and video, including the open-source Muse Spark. The new models offer advanced capabilities in creating and modifying visual content.",
-      "category": "models",
-      "importance": 3,
-      "source": {
-        "name": "Meta AI",
-        "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
-      },
-      "publishedAt": "2026-10-20"
-    },
-    {
       "id": "n-2026-10-20-10",
-      "title": "إطلاق نظارات Qwen N1 الذكية من علي بابا",
-      "titleEn": "Alibaba Launches Smart Qwen N1 Glasses",
-      "summary": "بدأت علي بابا في بيع نظارات Qwen N1 الذكية في الصين بسعر 450 دولارًا. النظارات تسمح للمستخدمين بالدفع بالنظر مع بطاريات قابلة للتبديل.",
-      "summaryEn": "Alibaba began selling its smart Qwen N1 glasses in China for $450. The glasses allow users to pay by gaze with swappable batteries.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xb1dFT2tBY2NYOFRueHlabW5ZU2t6RTRBQjlEUW9aVFZYMGtaUkRjWndvT2g5Rms0dnFjVnNQd0xxcUgzSXZKZnc1MS1NR2k4ZjlvbzE2UHZ3S2NtQ2pfT0l2bjV6dUQxOGdoSlJERGRfUQ?oc=5"
-      },
-      "publishedAt": "2026-10-13"
-    },
-    {
-      "id": "n-2026-10-20-12",
-      "title": "ثغرة في النماذج المفتوحة: إمكانية إعداد خلفية خفية",
-      "titleEn": "Vulnerability in Open Models: Potential for Hidden Backdoors",
-      "summary": "كشف بحث جديد عن أي نموذج مفتوح المصدر تم تعديل أوزانه يمكن أن يحمل خلفية خفية، حتى لو كان النموذج الأساسي لم يتغير. يثير هذا مخاوف حول سلامة النماذج المفتوحة.",
-      "summaryEn": "New research reveals that any open-source model whose weights have been edited can carry a hidden backdoor, even if the base model hasn't changed. This raises concerns about the safety of open models.",
+      "title": "إدخال أبواب خلفية في نماذج الذكاء الاصطناعي المفتوحة المصدر",
+      "titleEn": "Backdooring Open-Weight AI Models",
+      "summary": "أبحاث جديدة تكشف عن كيفية إدخال أبواب خلفية في نماذج الذكاء الاصطناعي المفتوحة المصدر دون اكتشافها، مما يمثل تهديداً أمنياً كبيراً.",
+      "summaryEn": "New research reveals how backdoors can be inserted into open-weight AI models without detection, posing a significant security threat.",
       "category": "other",
-      "importance": 3,
+      "importance": 4,
       "source": {
         "name": "Schneier on Security",
         "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html"
@@ -157,18 +101,74 @@
       "publishedAt": "2026-10-16"
     },
     {
-      "id": "n-2026-10-20-11",
-      "title": "تحسينات OpenAI في لغات البرمجة ذات الموارد المنخفضة",
-      "titleEn": "OpenAI Improvements in Low-Resource Programming Languages",
-      "summary": "تعمل OpenAI على تحسين ChatGPT عبر لغات البرمجة ذات الموارد المنخفضة، مع ميزات جديدة لدعم المطورين الذين يعملون بهذه اللغات.",
-      "summaryEn": "OpenAI is working to improve ChatGPT across low-resource programming languages, with new features to support developers working with these languages.",
+      "id": "n-2026-10-20-6",
+      "title": "يثير نموذج GLM-5.3 من Z.ai مخاوف الباحثين حول قدرته على تزوير اختبارات أمان الذكاء الاصطناعي",
+      "titleEn": "Z.ai's GLM-5.3 model raises researcher fears it can fake AI safety test",
+      "summary": "أثار نموذج GLM-5.3 من Z.ai مخاوف في أوساط الباحثين حول قدرته على التلاعب بنتائج اختبارات أمان الذكاء الاصطناعي.",
+      "summaryEn": "Z.ai's GLM-5.3 model has raised concerns among researchers about its ability to manipulate AI safety test results.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUEdtNDRJT3FrZV9KVjBFazNPS3Y2MkQyQjhaTjdsc3dVQkZCOFBpb2szbWk1VHdKSkZrSjE2NEVNdUZwUG0zMElsWlNURDkzM3VDdW1PMjFlNXl6RWIwQ3B6U2xRS05GTDRZQjRoUllibGxPVFJ1WFBoekdxZmFZUWRwMlNlMEVZUjlYLXdvMW5fV0VEY3NYLW82UENPejVZY0tIeE5MRXQwSmY1Q2FqbXdhdmd5MTFPc2M3WXk2Z1dXRDg?oc=5"
+      },
+      "publishedAt": "2026-10-15"
+    },
+    {
+      "id": "n-2026-10-20-7",
+      "title": "تطوير قدرات البرمجة في اللغات البرمجية ذات الموارد المحدودة",
+      "titleEn": "Advancing coding in low-resource programming languages",
+      "summary": "تعمل OpenAI على تحسين قدرات ChatGPT عبر اللغات البرمجية ذات الموارد المحدودة، مع إضافة دعم لـ 20 لغة برمجية جديدة.",
+      "summaryEn": "OpenAI is improving ChatGPT's capabilities across low-resource programming languages, adding support for 20 new programming languages.",
       "category": "tools",
-      "importance": 2,
+      "importance": 3,
       "source": {
         "name": "OpenAI",
         "url": "https://openai.com/index/low-resource-programming-languages"
       },
       "publishedAt": "2026-10-19"
+    },
+    {
+      "id": "n-2026-10-20-8",
+      "title": "تستخدم شركة Amp نماذج OpenAI لوضع وكلاء الذكاء الاصطناعي للعمل خارج مجال البرمجة",
+      "titleEn": "Amp puts AI agents to work beyond code with OpenAI models",
+      "summary": "تستخدم شركة Amp نماذج OpenAI المتقدمة مثل GPT-6 Astra و Ultrafast لتوسيع حدود ما يمكن أن تفعله وكلاء الذكاء الاصطناعي.",
+      "summaryEn": "Company Amp uses advanced OpenAI models like GPT-6 Astra and Ultrafast to expand the boundaries of what AI agents can do.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/amp-beyond-coding"
+      },
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "id": "n-2026-10-20-11",
+      "title": "قامت شركة DeepSeek بفتح مصدر محرك الاستدلال الخاص بها",
+      "titleEn": "DeepSeek just open-sourced its inference engine",
+      "summary": "أعلنت شركة DeepSeek عن فتح مصدر محرك الاستدلال الخاص بها، مما يمثل خطوة هامة نحو الشفافية في مجال الذكاء الاصطناعي.",
+      "summaryEn": "DeepSeek announced open-sourcing its inference engine, marking an important step toward transparency in the AI field.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://github.com/deepseek-ai/DeepInfer"
+      },
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "id": "n-2026-10-20-12",
+      "title": "إطلاق Grok Voice 3.0 من SpaceXSI - xAI",
+      "titleEn": "Introducing Grok Voice 3.0 | SpaceXSI - xAI",
+      "summary": "أطلقت شركة xAI نموذج Grok Voice 3.0 الجديد الذي يوفر قدرات محادثة صوتية متقدمة وتجاوز النماذج المنافسة.",
+      "summaryEn": "xAI launched the new Grok Voice 3.0 model, offering advanced voice conversation capabilities that outperform competing models.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1mOUcxZkpjVVVyYjlLOWk1V0sxb1QyY3dVLWtpcDBFbEpqQzlDQzFPekdzSUVKbnhoaHZNd3ZzYzlweElu?oc=5"
+      },
+      "publishedAt": "2026-10-14"
     }
   ],
   "models": [
@@ -177,20 +177,20 @@
       "name": "Gemini 4 Argon",
       "org": "Google DeepMind",
       "releaseDate": "2026-10-13",
-      "highlights": "نموذج ذكاء اصطناعي متقدم مصمم لحل المشكلات المعقدة مع تحسينات في الفهم والاستدلال",
-      "highlightsEn": "Advanced AI model designed to solve complex problems with improvements in understanding and reasoning",
+      "highlights": "نموذج متقدم مصمم لحل المشكلات المعقدة",
+      "highlightsEn": "Advanced model designed to solve complex problems",
       "specs": {
         "context": "1M"
       },
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/"
     },
     {
       "id": "m-2026-10-20-2",
       "name": "Mistral Large 4",
       "org": "Mistral AI",
       "releaseDate": "2026-10-06",
-      "highlights": "نموذج لغوي كبير يقدم تحسينات ملحوظة في الفهم والاستدلال والقدرة على التعامل مع المهام المعقدة",
-      "highlightsEn": "Large language model offering notable improvements in understanding, reasoning, and handling complex tasks",
+      "highlights": "نموذج متقدم للشركات مع قدرات تحسين كبيرة",
+      "highlightsEn": "Advanced enterprise model with significant improvement capabilities",
       "specs": {
         "context": "128K"
       },
@@ -199,10 +199,10 @@
     {
       "id": "m-2026-10-20-3",
       "name": "Kimi K3",
-      "org": "Moonshot",
+      "org": "Moonshot AI",
       "releaseDate": "2026-10-16",
-      "highlights": "نموذج صيني جديد يتحدى النماذج الغربية، يتفوق في بعض المقاييس بمقدار 61 نقطة إيلو على GPT-6.1",
-      "highlightsEn": "New Chinese model challenging Western models, outperforming GPT-6.1 by 61 Elo points in certain benchmarks",
+      "highlights": "نموذج صيني قوي مصمم للتنافس مع النماذج الغربية",
+      "highlightsEn": "Powerful Chinese model designed to compete with Western models",
       "specs": {
         "context": "200K"
       },
@@ -210,83 +210,83 @@
     },
     {
       "id": "m-2026-10-20-4",
-      "name": "GLM-5.3",
-      "org": "Z.ai",
-      "releaseDate": "2026-10-18",
-      "highlights": "نموذج قوي مع مخاوف أمنية بعد اكتشاف ثغرات محتملة، يظهر قدرات استدلالية قوية",
-      "highlightsEn": "Powerful model with security concerns after potential vulnerabilities discovered, shows strong reasoning capabilities",
-      "specs": {
-        "context": "100K"
-      },
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUDRjcm1Tb0F1cmJDSW8tLXN1bFA1TDNxT1VTbzh1N2pWemVWaEExaXJoeVBDZU0wX2UxVnFGWHZSTVI1NllSV1pKenJNUlBNczFYdnhwczJLczk0QnJmVXZUTzlRTmpIaW0wZlF0Rng5cG9BNURDdDdQMnQ2LTlpSU1OMEF6MzVW?oc=5"
-    },
-    {
-      "id": "m-2026-10-20-5",
       "name": "Grok Voice 3.0",
       "org": "xAI",
       "releaseDate": "2026-10-14",
-      "highlights": "نموذج كلامي متقدم من كلام إلى كلام يتجاوز أداء النماذج من OpenAI وجوجل في بعض المقاييس",
-      "highlightsEn": "Advanced speech-to-speech model that outperforms models from OpenAI and Google in certain benchmarks",
+      "highlights": "نموذج محادثة صوتي متقدم من xAI",
+      "highlightsEn": "Advanced voice conversation model from xAI",
       "specs": {
         "context": "32K"
       },
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1mOUcxZkpjVVVyYjlLOWk1V0sxb1QyY3dVLWtpcDBFbEpqQzlDQzFPekdzSUVKbnhoaHZNd3ZzYzlweElu?oc=5"
     },
     {
+      "id": "m-2026-10-20-5",
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-10-17",
+      "highlights": "تفوق على GPT-6.1 Sol بـ 61 نقطة Elo",
+      "highlightsEn": "Outperforms GPT-6.1 Sol by 61 Elo points",
+      "specs": {
+        "context": "200K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRLVBkeDNOcjR0dWtWQThPQTUxTWYwMm1DYXNvcF9LN3NNbkJYY0RxN0prd3lEaGJOYmJZVFhKTERwQWp0ZzBfeEY3MUdzdktodzRiS0hyZEs0enlNajdtMVUzZw?oc=5"
+    },
+    {
       "id": "m-2026-10-20-6",
-      "name": "Muse Models",
-      "org": "Meta",
-      "releaseDate": "2026-10-19",
-      "highlights": "نماذج جديدة للصور والفيديو مع Muse Spark المفتوحة المصدر، تقدم قدرات متقدمة في إنشاء وتعديل المحتوى البصري",
-      "highlightsEn": "New models for images and video with open-source Muse Spark, offering advanced capabilities in creating and modifying visual content",
+      "name": "DeepSeek V4.1-Flash",
+      "org": "DeepSeek",
+      "releaseDate": "2026-10-18",
+      "highlights": "نموذج محسّن مُسرّع لإكمال المهام بشكل أسرع",
+      "highlightsEn": "Optimized accelerated model for faster task completion",
       "specs": {
         "context": "128K"
       },
-      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTVpONkFFTks2bFROQXBrcHBJb1BGczJIbUtaU3hhdTl0Q2M0U1JUWllzUlRzdEJZM3o4UE9UbWFTUlpoQjRIQjY3clhteDRaOFU3emRReDZHVE9NVlBpNlBoMWFzZjIzOXBxazA2TFJhRVRPQ1RHZW9KbDV1MEhwTm1vTW5IVGc1MkdOd1NPaERJbWJRb1JIbDBnLWYwRjAyR251T0hTRkg3d0tCRmF3?oc=5"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-10-20-1",
-      "text": "حظر DeepSeek من أنظمة الوكالات الحكومية الأمريكية، بما في ذلك الأدوات المبنية عليه",
-      "textEn": "DeepSeek banned from US government agency systems, including tools built on it",
+      "text": "الولايات المتحدة تحظر DeepSeek الصينية من أنظمة الوكالات الحكومية",
+      "textEn": "US bans Chinese DeepSeek from government agency systems",
       "level": "critical",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaGtJNmIzcGdtUF96Zk5qZ1JfRVZJZE9mSnluMVJZMHVXbGpzWUozSVYyVzQ5dldnRU1aMXVEZ2JDOXczRmd0Q01FeDZvVFpyX2phVENGMURyX1VDM0cwd0VyYS1ra0VnYzdxZGFBZkp6VzR1SVRPVkFVYnBUSUNPVHc0OU1FamVXYWh3d0NHeHRKU0w0OE1pcjlfQ09oYXR2N3dycXNXWFFZdw?oc=5"
     },
     {
       "id": "h-2026-10-20-2",
-      "text": "إطلاق جيميني 4 أرجون: نموذج ذكاء اصطناعي جديد من جوجل ديب مايند مصمم لحل المشكلات المعقدة",
-      "textEn": "Launch of Gemini 4 Argon: New AI model from Google DeepMind designed to solve complex problems",
-      "level": "info",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+      "text": "مؤسسو Z.AI بنوا نماذجهم على بحث مرتبط بجبهة تجسصية صينية مزعومة",
+      "textEn": "Z.AI founders built models on research tied to an alleged Chinese spy front",
+      "level": "warning",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVGRnR0ZOck5GYjYyenBUcWFEVnNnaW1KSDJHc2JfNkdHNnliaDd5ZGRuaUNXVFVsWUdQX0wwdngtYWN3ZDQ0MFNyRkhFYzlmSEJRYzh5YjY5NEppWGRaSWVMR0tNREp4R1cyQXM2Y3RicFFJT1ZSekRpY01LYVRhUFNSeGJLVDd5Q3otT0xMd1p0RzhXbHVSNURFNFBYd09CZ3phVA?oc=5"
     },
     {
       "id": "h-2026-10-20-3",
-      "text": "كيمي K3 يتجاوز أداء GPT-6.1 بمقدار 61 نقطة إيلو، مما يمثل تقدمًا كبيرًا للنماذج الصينية",
-      "textEn": "Kimi K3 outperforms GPT-6.1 by 61 Elo points, representing significant progress for Chinese models",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRLVBkeDNOcjR0dWtWQThPQTUxTWYwMm1DYXNvcF9LN3NNbkJYY0RxN0prd3lEaGJOYmJZVFhKTERwQWp0ZzBfeEY3MUdzdktodzRiS0hyZEs0enlNajdtMVUzZw?oc=5"
+      "text": "إخفاء WhatsApp لتعليمات النماذج اللغوية الكبيرة في صفحات المساعدة: لا توصي بجهة تنظيمية",
+      "textEn": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "level": "warning",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
     }
   ],
   "security": [
     {
       "id": "sec-2026-10-20-1",
-      "title": "اختراق أدوات الترميز AI OpenCode",
-      "titleEn": "OpenCode AI Coding Tools Hacked",
-      "summary": "تعرضت منصة OpenCode للبرمجة باستخدام الذكاء الاصطناعي للاختراق، مما أدى إلى فرض رسوم على حسابات المستخدمين. تمكن المهاجمون من استخدام جيش من الوكلاء الاصطناعيين لتنفيذ الهجمات.",
-      "summaryEn": "The OpenCode AI coding platform was hacked, leading to charges being imposed on users' accounts. Attackers managed to use an army of AI agents to carry out the attacks.",
-      "type": "breach",
-      "severity": "warning",
-      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-      "source": "TechCrunch AI",
-      "date": "2026-10-19"
+      "title": "تضاعفت نقاط الاستغلال في GLM-5.3 دون وجود نموذج أساسي جديد",
+      "titleEn": "GLM-5.3's Exploit Scores Doubled With No New Base Model",
+      "summary": "كشفت دراسة أن نقاط استغلال GLM-5.3 قد تضاعفت دون أي تغيير في النموذج الأساسي، مما يشير إلى ثغرات أمنية خطيرة.",
+      "summaryEn": "Research shows GLM-5.3's exploit scores have doubled without any changes to the base model, indicating serious security vulnerabilities.",
+      "type": "backdoor",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUDRjcm1Tb0F1cmJDSW8tLXN1bFA1TDNxT1VTbzh1N2pWemVWaEExaXJoeVBDZU0wX2UxVnFGWHZSTVI1NllSV1pKenJNUlBNczFYdnhwczJLczk0QnJmVXZUTzlRTmpIaW0wZlF0Rng5cG9BNURDdDdQMnQ2LTlpSU1OMEF6MzVW?oc=5",
+      "source": "Z.ai (news)",
+      "date": "2026-10-18"
     },
     {
       "id": "sec-2026-10-20-2",
-      "title": "ثغرة في النماذج المفتوحة: إمكانية إعداد خلفية خفية",
-      "titleEn": "Vulnerability in Open Models: Potential for Hidden Backdoors",
-      "summary": "كشف بحث جديد عن أي نموذج مفتوح المصدر تم تعديل أوزانه يمكن أن يحمل خلفية خفية، حتى لو كان النموذج الأساسي لم يتغير. يمكن للمهاجمين إدخال تعليمات خبيثة في النموذج دون تغيير أدائه الظاهري.",
-      "summaryEn": "New research reveals that any open-source model whose weights have been edited can carry a hidden backdoor, even if the base model hasn't changed. Attackers can introduce malicious instructions into the model without changing its apparent performance.",
+      "title": "إدخال أبواب خلفية في نماذج الذكاء الاصطناعي المفتوحة المصدر",
+      "titleEn": "Backdooring Open-Weight AI Models",
+      "summary": "أبحاث جديدة تكشف عن كيفية إدخال أبواب خلفية في نماذج الذكاء الاصطناعي المفتوحة المصدر دون اكتشافها، مما يمثل تهديداً أمنياً كبيراً.",
+      "summaryEn": "New research reveals how backdoors can be inserted into open-weight AI models without detection, posing a significant security threat.",
       "type": "backdoor",
       "severity": "critical",
       "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
@@ -295,39 +295,27 @@
     },
     {
       "id": "sec-2026-10-20-3",
-      "title": "إخفاء تعليمات LLM في صفحات مساعدة واتساب",
-      "titleEn": "Hidden LLM Instructions in WhatsApp Help Pages",
-      "summary": "كشفت تحقيقات أن صفحات المساعدة في واتساب تحتوي على تعليمات LLM مخفية تمنح نموذجًا لغويًا خاصًا وصولًا غير محدود إلى المحتوى. يثير هذا مخاوف حول خصوصية المستخدمين والرقابة على المحتوى.",
-      "summaryEn": "Investigations revealed that WhatsApp help pages contain hidden LLM instructions granting a proprietary language model unrestricted access to content. This raises concerns about user privacy and content control.",
-      "type": "policy",
-      "severity": "warning",
-      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "source": "Hacker News",
-      "date": "2026-10-19"
-    },
-    {
-      "id": "sec-2026-10-20-4",
-      "title": "مخاوف أمنية حول GLM-5.3 من Z.ai",
-      "titleEn": "Security Concerns Around Z.ai's GLM-5.3",
-      "summary": "أثار نموذج GLM-5.3 من Z.ai مخاوف أمنية بعد اكتشاف قدرته على محاكاة اختبارات السلامة. النموذج يمكنه التلاعب بالنتائج دون تغيير أدائه الأساسي.",
-      "summaryEn": "Z.ai's GLM-5.3 model raised security concerns after it was found capable of faking safety tests. The model can manipulate results without changing its fundamental performance.",
-      "type": "policy",
-      "severity": "warning",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUEdtNDRJT3FrZV9KVjBFazNPS3Y2MkQyQjhaTjdsc3dVQkZCOFBpb2szbWk1VHdKSkZrSjE2NEVNdUZwUG0zMElsWlNURDkzM3VDdW1PMjFlNXl6RWIwQ3B6U2xRS05GTDRZQjRoUllibGxPVFJ1WFBoekdxZmFZUWRwMlNlMEVZUjlYLXdvMW5fV0VEY3NYLW82UENPejVZY0tIeE5MRXQwSmY1Q2FqbXdhdmd5MTFPc2M3WXk2Z1dXRDg?oc=5",
-      "source": "Z.ai (news)",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "sec-2026-10-20-5",
-      "title": "تدريب نماذج الذكاء الاصطناعي لحل CAPTCHAs",
-      "titleEn": "Training AI Models to Solve CAPTCHAs",
-      "summary": "أظهر بحث جديد أن نماذج الرؤية واللغة (VLMs) يمكنها حل اختبارات CAPTCHA البصرية بنجاح. يمثل هذا تهديدًا لآليات التحقق من الإنسانية التي تعتمد على هذه الاختبارات.",
-      "summaryEn": "New research shows that vision-language models (VLMs) can successfully solve visual CAPTCHA tests. This represents a threat to human verification mechanisms that rely on these tests.",
+      "title": "تدريب الذكاء الاصطناعي لحل CAPTCHAs",
+      "titleEn": "Training AIs to Solve CAPTCHAs",
+      "summary": "أظهرت الأبحاث أن نماذج رؤية اللغة يمكن حل CAPTCHAs البصرية بنجاح، مما يقلل من فعالية هذه الآليات كأدوات للتمييز بين البشر والآلات.",
+      "summaryEn": "Research shows vision-language models can successfully solve visual CAPTCHAs, reducing the effectiveness of these mechanisms for distinguishing humans from machines.",
       "type": "breach",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
       "source": "Schneier on Security",
       "date": "2026-10-19"
+    },
+    {
+      "id": "sec-2026-10-20-4",
+      "title": "نشر إحصائيات مزورة للحصول على اقتباس في النماذج اللغوية الكبيرة",
+      "titleEn": "Publish fake stats, get cited in LLMs",
+      "summary": "أظهرت دراسة أن النماذج اللغوية الكبيرة غالباً ما تستخدم إحصائيات مزورة كمصادر موثوقة، مما يخلق مشكلة في انتشار المعلومات الخاطئة.",
+      "summaryEn": "Study shows large language models often use fabricated statistics as reliable sources, creating a problem in the spread of misinformation.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "source": "Hacker News",
+      "date": "2026-10-20"
     }
   ],
   "benchmarks": {
@@ -341,12 +329,12 @@
         "score": "60.3"
       },
       {
-        "name": "Claude Sonnet 5.5 1",
+        "name": "Claude Sonnet 5.5",
         "org": "Anthropic",
         "score": "58.3"
       },
       {
-        "name": "GPT-6 Astra 1",
+        "name": "GPT-6 Astra",
         "org": "OpenAI",
         "score": "58.1"
       },
@@ -357,147 +345,154 @@
       },
       {
         "name": "Claude Mythos Preview",
-        "org": "UNRELEASED Anthropic",
+        "org": "Anthropic",
         "score": "54.4"
       },
       {
-        "name": "Claude Opus 5 2",
+        "name": "Claude Opus 5",
         "org": "Anthropic",
         "score": "53.7"
       },
       {
-        "name": "GPT-6.1 Sol 3",
+        "name": "GPT-6.1 Sol",
         "org": "OpenAI",
         "score": "53.5"
       },
       {
-        "name": "Claude Fable 5.1 2",
+        "name": "Claude Fable 5.1",
         "org": "Anthropic",
         "score": "53.2"
       },
       {
-        "name": "GPT-5.6 Sol 4",
+        "name": "GPT-5.6 Sol",
         "org": "OpenAI",
         "score": "53.2"
       },
       {
-        "name": "Claude Fable 5 2",
+        "name": "Claude Fable 5",
         "org": "Anthropic",
         "score": "53.1"
       }
     ],
-    "highlights": "تتصدر نماذج Claude الترتيب الحالي مع وجود منافسة قوية بين عدة نماذج في الفئة 53-54. يتصدر GPT-6 Astra في مهارات الاستدلال بينما يعتبر Gemini 3.1 Pro أرخص نموذج في قائمة أفضل 10.",
-    "highlightsEn": "Claude models currently dominate the rankings with tight competition between several models in the 53-54 range. GPT-6 Astra leads in reasoning skills while Gemini 3.1 Pro is the cheapest model in the top 10."
+    "highlights": "تتصدر قائمة النماذج المتقدمة كلود أوبس 5.5 من أنثروبييك بنسبة 60.3%. يلاحظ منافسة قوية بين كلود سونيت 5.5 (58.3%) وجي بي تي-6 أسترا (58.1%)، حيث يفقد جي بي تي-6 أسترا بفارق طفيف. يهيمن نماذج أنثروبييك على المراكز العشرة الأولى، حيث تحتل 6 من أصل 10 مراكز.",
+    "highlightsEn": "Claude Opus 5.5 from Anthropic leads with a score of 60.3%. There's a tight race between Claude Sonnet 5.5 (58.3%) and GPT-6 Astra (58.1%), with GPT-6 Astra narrowly losing by a small margin. Anthropic models dominate the top 10 positions, holding 6 out of 10 spots."
   },
   "knowledgeEntry": {
-    "id": "k-2026-10-20-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاصطناعي",
-    "title": "قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
-    "titleEn": "Vector databases for AI applications",
-    "why": "قواعد البيانات المتجهية ضرورية للبحث عن التشابه بكفاءة في تطبيقات الذكاء الاصطناعي، مما يتيج استرجاع العناصر المماثلة في مجموعات البيانات الكبيرة بشكل أسرع.",
-    "whyEn": "Vector databases are essential for efficient similarity search in AI applications, enabling faster retrieval of similar items in large datasets.",
+    "id": "k-2026-10-20-تقييم-نماذج-الذكاء-الاصطناعي-باستخدام-معايير-متعدد",
+    "title": "تقييم نماذج الذكاء الاصطناعي باستخدام معايير متعددة",
+    "titleEn": "Evaluating AI Models Using Multiple Criteria",
+    "why": "تقييم نماذج الذكاء الاصطناعي باستخدام معايير متعددة يضمن اختيار النموذج الأنسب لمتطلبات المشروع بدلاً من الاعتماد على مقاييس فردية محددة. هذه العملية تساعد في تحقيق توازن بين الأداء والكفاءة والتكلفة.",
+    "whyEn": "Evaluating AI models using multiple criteria ensures selecting the most suitable model for project requirements rather than relying on single metrics. This process helps achieve a balance between performance, efficiency, and cost.",
     "difficulty": "intermediate",
     "track": "tools",
     "steps": [
       {
-        "title": "فهم المفاهيم الأساسية",
-        "detail": "تعلم أن المتجهات هي تمثيلات رقمية للبيانات النصية أو الصور أو الصوت. كل متجه يمثل نقطة في الفضاء متعدد الأبعاد، حيث تشابه البيانات يعني قرب المتجهات في هذا الفضاء."
+        "title": "تحديد معايير التقييم الأساسية",
+        "detail": "حدد المعايير الأكثر أهمية لمشروعك مثل دقة النتائج، سرعة الاستجابة، استهلاك الموارد، قابلية التوسع، والتكلفة. تأكد من أن هذه المعايير تتوافق مع أهداف المشروع."
       },
       {
-        "title": "اختيار قاعدة البيانات المناسبة",
-        "detail": "اختر بين قواعد البيانات المتخصصة مثل Pinecone أو Weaviate، أو حلول مفتوحة المصدر مثل FAISS أو Milvus. ضع في اعتبارك حجم البيانات، ومتطلبات الأداء، والتكلفة."
+        "title": "جمع بيانات الأداء",
+        "detail": "قم بتشغيل النماذج المرشحة على مجموعة بيانات موحدة وقياسية. قيّم أداء كل نموذج باستخدام معايير محددة مثل دقة التصنيف، درجة F1، وقت الاستجابة، واستهلاك الذاكرة."
       },
       {
-        "title": "إنشاء وتخزين المتجهات",
-        "detail": "استخدم نماذج مثل sentence-transformers لتحويل النصوص إلى متجهات. قم بتخزين هذه المتجهات في قاعدة البيانات مع البيانات الأصلية والمetadata المرتبطة بها."
+        "title": "تحليل المقاييس المتعددة",
+        "detail": "أنشئ جدول مقارنة يوضح أداء كل نموذج عبر جميع المعايير. استخدم تقنيات التقييم الموزون إذا كانت بعض المعايير أكثر أهمية من غيرها. تأكد من توحيد المقاييس لسهولة المقارنة."
       },
       {
-        "title": "تنفيذ عمليات البحث",
-        "detail": "استخدم عمليات البحث عن التشابه (similarity search) للعثور على أقرب المتجهات لمتجه معين. يمكنك استخدام مقاييس مثل التشابه الكوسيني (cosine similarity) أو المسافة الإقليدية (Euclidean distance)."
+        "title": "إجراء اختبارات الحالات الحدودية",
+        "detail": "اختبر النماذج على حالات غير متوقعة أو بيانات غير متوازنة. قيّم كيفية تعامل كل نموذج مع هذه المواقف الصعبة لفهم حدوده وقدرته على التكيف."
       },
       {
-        "title": "تحسين الأداء",
-        "detail": "استخدم تقنيات مثل التجميع (clustering) أو الفهرسة (indexing) لتحسين سرعة البحث. قم بتجربة معلمات مختلفة مثل حجم الدُفعات (batch size) وعدد الجيران (number of neighbors) للعثور على أفضل أداء."
+        "title": "التقييم طويل الأمد",
+        "detail": "قم بتشغيل النماذج لفترات طويلة لمراقبة استقرار الأداء وتغيره بمرور الوقت. قيّم قدرة النموذج على التعلم المستمر وتحسين أدائه مع زيادة البيانات."
+      },
+      {
+        "title": "اتخاذ القرار النهائي",
+        "detail": "بناءً على جميع البيانات التي جمعتها، قم بتحليل النتائج واتخذ قرارًا مستنيرًا. ضع في اعتبارك ليس فقط الأداء الحالي ولكن أيضًا متطلبات التطوير المستقبلية والتكاليف طويلة الأمد."
       }
     ],
     "stepsEn": [
       {
-        "title": "Understand basic concepts",
-        "detail": "Learn that vectors are numerical representations of text, images, or audio. Each vector represents a point in multi-dimensional space, where data similarity means proximity of vectors in this space."
+        "title": "Define Key Evaluation Criteria",
+        "detail": "Identify the most important criteria for your project such as result accuracy, response speed, resource consumption, scalability, and cost. Ensure these criteria align with project goals."
       },
       {
-        "title": "Choose the appropriate database",
-        "detail": "Select between specialized databases like Pinecone or Weaviate, or open-source solutions like FAISS or Milvus. Consider factors like data size, performance requirements, and cost."
+        "title": "Collect Performance Data",
+        "detail": "Run candidate models on a standardized dataset. Evaluate each model's performance using specific metrics like classification accuracy, F1 score, response time, and memory consumption."
       },
       {
-        "title": "Create and store vectors",
-        "detail": "Use models like sentence-transformers to convert text into vectors. Store these vectors in the database along with the original data and associated metadata."
+        "title": "Analyze Multiple Metrics",
+        "detail": "Create a comparison table showing each model's performance across all criteria. Use weighted evaluation techniques if some criteria are more important than others. Ensure metrics are standardized for easy comparison."
       },
       {
-        "title": "Implement search operations",
-        "detail": "Use similarity search operations to find the closest vectors to a given vector. You can use metrics like cosine similarity or Euclidean distance."
+        "title": "Conduct Edge Case Testing",
+        "detail": "Test models on unexpected scenarios or imbalanced data. Evaluate how each model handles these difficult situations to understand its limitations and adaptability."
       },
       {
-        "title": "Optimize performance",
-        "detail": "Use techniques like clustering or indexing to improve search speed. Experiment with different parameters like batch size and number of neighbors to find the best performance."
+        "title": "Long-term Evaluation",
+        "detail": "Run models for extended periods to monitor performance stability and changes over time. Evaluate the model's ability for continuous learning and performance improvement with increased data."
+      },
+      {
+        "title": "Make Final Decision",
+        "detail": "Based on all collected data, analyze the results and make an informed decision. Consider not only current performance but also future development requirements and long-term costs."
       }
     ],
-    "code": "import pinecone\nfrom sentence_transformers import SentenceTransformer\n\n# Initialize Pinecone\npinecone.init(api_key='YOUR_API_KEY', environment='YOUR_ENVIRONMENT')\nindex = pinecone.Index('my-vector-db')\n\n# Create embeddings\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\nsentences = ['This is an example sentence', 'Another sentence for comparison']\nembeddings = model.encode(sentences)\n\n# Store vectors\nindex.upsert([(f'id_{i}', embedding) for i, embedding in enumerate(embeddings)])\n\n# Search for similar vectors\nquery = 'A query sentence to find matches'\nquery_embedding = model.encode([query])\nresults = index.query(query_embedding, top_k=2)\nprint(results)",
+    "code": "import numpy as np\nfrom sklearn.metrics import accuracy_score, f1_score\nimport time\nimport psutil\n\ndef evaluate_model(model, X_test, y_test):\n    # Measure accuracy and F1 score\n    y_pred = model.predict(X_test)\n    accuracy = accuracy_score(y_test, y_pred)\n    f1 = f1_score(y_test, y_pred, average='weighted')\n    \n    # Measure response time\n    start_time = time.time()\n    _ = model.predict(X_test[:100])  # Test with subset\n    response_time = (time.time() - start_time) / 100\n    \n    # Measure memory usage\n    process = psutil.Process()\n    memory_usage = process.memory_info().rss / (1024 * 1024)  # in MB\n    \n    return {\n        'accuracy': accuracy,\n        'f1_score': f1,\n        'response_time': response_time,\n        'memory_usage': memory_usage\n    }\n\ndef compare_models(models_dict, X_test, y_test, weights=None):\n    if weights is None:\n        weights = {'accuracy': 0.4, 'f1_score': 0.3, 'response_time': 0.15, 'memory_usage': 0.15}\n    \n    results = {}\n    for name, model in models_dict.items():\n        metrics = evaluate_model(model, X_test, y_test)\n        \n        # Normalize metrics (lower is better for response_time and memory_usage)\n        normalized_metrics = {\n            'accuracy': metrics['accuracy'],\n            'f1_score': metrics['f1_score'],\n            'response_time': 1 / (1 + metrics['response_time']),  # Inverse so lower is better\n            'memory_usage': 1 / (1 + metrics['memory_usage'] / 1000)  # Inverse so lower is better\n        }\n        \n        # Calculate weighted score\n        weighted_score = sum(normalized_metrics[key] * weights[key] for key in weights)\n        \n        results[name] = {\n            'metrics': metrics,\n            'weighted_score': weighted_score\n        }\n    \n    return results",
     "resources": [
       {
-        "name": "Pinecone Documentation",
-        "url": "https://docs.pinecone.io/"
+        "name": "MLflow Model Evaluation",
+        "url": "https://mlflow.org/docs/latest/model-evaluation.html"
       },
       {
-        "name": "FAISS Documentation",
-        "url": "https://faiss.ai/"
+        "name": "Papers on Model Evaluation Metrics",
+        "url": "https://arxiv.org/abs/2106.09022"
       },
       {
-        "name": "Vector Database Guide",
-        "url": "https://www.pinecone.io/learn/vector-database/"
+        "name": "Scikit-learn Model Evaluation Guide",
+        "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
       }
     ],
     "tags": [
-      "قواعد بيانات",
-      "نماذج متجهية",
-      "بحث تشابه",
-      "Vector databases",
-      "Vector search"
+      "تقييم النماذج",
+      "مقاييس الأداء",
+      "اختيار النماذج",
+      "تحليل البيانات"
     ],
-    "quickRef": "قواعد البيانات المتجهية: تخزين واسترجاع المتجهات الرقمية للبحث عن التشابه بكفاءة. استخدام نماذج التضمين (embedding) لتحويل البيانات إلى متجهات، ثم استخدام عمليات البحث عن التشابه للعثور على أقرب النتائج.",
-    "quickRefEn": "Vector databases: Store and retrieve numerical vectors for efficient similarity search. Use embedding models to convert data into vectors, then use similarity search operations to find closest results.",
+    "quickRef": "تقييم نماذج الذكاء الاصطناعي: تحديد المعايير، جمع بيانات الأداء، تحليل المقاييس المتعددة، اختبار الحالات الحدودية، التقييم طويل الأمد، اتخاذ القرار النهائي.",
+    "quickRefEn": "AI model evaluation: Define criteria, collect performance data, analyze multiple metrics, test edge cases, long-term evaluation, make final decision.",
     "quiz": [
       {
-        "q": "ما هي المقاييس الأكثر شيوعًا لقياس التشابه بين المتجهات؟",
+        "q": "ما هو العامل الأهم الذي يجب مراعاته عند تقييم نماذج الذكاء الاصطناعي؟",
         "options": [
-          "المسافة الإقليدية والتشابه الكوسيني",
-          "مقياس التباين ومتوسط الانحراف المعياري",
-          "مقاييس التباين والمتوسط الحسابي",
-          "مقاييس التشتت والانحدار الخطي"
+          "دقة النتائج فقط",
+          "سرعة الاستجابة فقط",
+          "التوازن بين عدة معايير مثل الدقة والسرعة والتكلفة",
+          "سهولة استخدام النموذج"
         ],
-        "answer": 0,
-        "explain": "المسافة الإقليدية والتشابه الكوسيني هما المقاييس الأكثر شيوعًا لقياس التشابه بين المتجهات. المسافة الإقليدية تقيس المسافة المباشرة بين النقطتين، بينما يقيس التشابه الكوسيني زاوية المتجهات."
+        "answer": 2,
+        "explain": "التوازن بين عدة معايير هو الأهم لأنه يضمن اختيار النموذج الأنسب لمتطلبات المشروع بدلاً من الاعتماد على مقاييس فردية محددة. هذا التوازن يساعد في تحقيق أفضل قيمة للنموذج في سياق الاستخدام الفعلي."
       },
       {
-        "q": "ما هي الخطوة الأولى في إنشاء نظام بحث باستخدام قواعد البيانات المتجهية؟",
+        "q": "ما هو الخطأ الشائع في تقييم نماذج الذكاء الاصطناعي؟",
         "options": [
-          "اختيار قاعدة البيانات المناسبة",
-          "تحويل البيانات إلى متجهات",
-          "تنفيذ عمليات البحث",
-          "تحسين الأداء"
+          "الاعتماد على مجموعة بيانات متنوعة",
+          "تجاهل الحالات الحدودية",
+          "إجراء اختبارات طويلة الأمد",
+          "مراعاة التكلفة التشغيلية"
         ],
         "answer": 1,
-        "explain": "الخطوة الأولى هي تحويل البيانات إلى متجهات باستخدام نماذج التضمين (embedding models). بعد ذلك يمكنك تخزين هذه المتجهات في قاعدة البيانات ومن ثم تنفيذ عمليات البحث."
+        "explain": "تجاهل الحالات الحدودية هو خطأ شائع لأنه قد يؤدي إلى اختيار نموذج يعمل بشكل جيد في الظروف العادية لكنه يفشل في التعامل مع المواقف غير المتوقعة أو البيانات غير المتوازنة، وهو ما يمثل خطراً في التطبيقات الحقيقية."
       },
       {
-        "q": "ما هي الفائدة الرئيسية لاستخدام قواعد البيانات المتجهية في تطبيقات الذكاء الاصطناعي؟",
+        "q": "ما هي الطريقة الأفضل لتقييم نماذج الذكاء الاصطناعي للاستخدام في بيئة الإنتاج؟",
         "options": [
-          "تخزين البيانات بكفاءة",
-          "البحث عن التشابه بكفاءة",
-          "تقليل حجم البيانات",
-          "زيادة سرعة المعالجة"
+          "الاعتماد على نتائج الاختبارات الأولية فقط",
+          "التقييم المستمر في بيئة تشبه الإنتاج",
+          "اختبار النماذج على بيانات تدريب واحدة فقط",
+          "الاختيار بناءً على معيار واحد مثل الدقة"
         ],
         "answer": 1,
-        "explain": "الفائدة الرئيسية لاستخدام قواعد البيانات المتجهية هي البحث عن التشابه بكفاءة. هذه القواع مصممة خصيصًا للتعامل مع المتجهات والبحث عن أقرب متجهات لمتجه معين بسرعة وكفاءة."
+        "explain": "التقييم المستمر في بيئة تشبه الإنتاج هو الأفضل لأنه يوفر فهمًا دقيقًا لكيفية أداء النموذج في الظروف الفعلية التي سيواجهها في الإنتاج، بما في ذلك استهلاك الموارد واستقرار الأداء على المدى الطويل."
       }
     ],
     "addedAt": "2026-10-20"
