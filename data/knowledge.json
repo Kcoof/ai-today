@@ -1,6 +1,119 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-20-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاصطناعي",
+      "title": "قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
+      "titleEn": "Vector databases for AI applications",
+      "why": "قواعد البيانات المتجهية ضرورية للبحث عن التشابه بكفاءة في تطبيقات الذكاء الاصطناعي، مما يتيج استرجاع العناصر المماثلة في مجموعات البيانات الكبيرة بشكل أسرع.",
+      "whyEn": "Vector databases are essential for efficient similarity search in AI applications, enabling faster retrieval of similar items in large datasets.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم المفاهيم الأساسية",
+          "detail": "تعلم أن المتجهات هي تمثيلات رقمية للبيانات النصية أو الصور أو الصوت. كل متجه يمثل نقطة في الفضاء متعدد الأبعاد، حيث تشابه البيانات يعني قرب المتجهات في هذا الفضاء."
+        },
+        {
+          "title": "اختيار قاعدة البيانات المناسبة",
+          "detail": "اختر بين قواعد البيانات المتخصصة مثل Pinecone أو Weaviate، أو حلول مفتوحة المصدر مثل FAISS أو Milvus. ضع في اعتبارك حجم البيانات، ومتطلبات الأداء، والتكلفة."
+        },
+        {
+          "title": "إنشاء وتخزين المتجهات",
+          "detail": "استخدم نماذج مثل sentence-transformers لتحويل النصوص إلى متجهات. قم بتخزين هذه المتجهات في قاعدة البيانات مع البيانات الأصلية والمetadata المرتبطة بها."
+        },
+        {
+          "title": "تنفيذ عمليات البحث",
+          "detail": "استخدم عمليات البحث عن التشابه (similarity search) للعثور على أقرب المتجهات لمتجه معين. يمكنك استخدام مقاييس مثل التشابه الكوسيني (cosine similarity) أو المسافة الإقليدية (Euclidean distance)."
+        },
+        {
+          "title": "تحسين الأداء",
+          "detail": "استخدم تقنيات مثل التجميع (clustering) أو الفهرسة (indexing) لتحسين سرعة البحث. قم بتجربة معلمات مختلفة مثل حجم الدُفعات (batch size) وعدد الجيران (number of neighbors) للعثور على أفضل أداء."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand basic concepts",
+          "detail": "Learn that vectors are numerical representations of text, images, or audio. Each vector represents a point in multi-dimensional space, where data similarity means proximity of vectors in this space."
+        },
+        {
+          "title": "Choose the appropriate database",
+          "detail": "Select between specialized databases like Pinecone or Weaviate, or open-source solutions like FAISS or Milvus. Consider factors like data size, performance requirements, and cost."
+        },
+        {
+          "title": "Create and store vectors",
+          "detail": "Use models like sentence-transformers to convert text into vectors. Store these vectors in the database along with the original data and associated metadata."
+        },
+        {
+          "title": "Implement search operations",
+          "detail": "Use similarity search operations to find the closest vectors to a given vector. You can use metrics like cosine similarity or Euclidean distance."
+        },
+        {
+          "title": "Optimize performance",
+          "detail": "Use techniques like clustering or indexing to improve search speed. Experiment with different parameters like batch size and number of neighbors to find the best performance."
+        }
+      ],
+      "code": "import pinecone\nfrom sentence_transformers import SentenceTransformer\n\n# Initialize Pinecone\npinecone.init(api_key='YOUR_API_KEY', environment='YOUR_ENVIRONMENT')\nindex = pinecone.Index('my-vector-db')\n\n# Create embeddings\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\nsentences = ['This is an example sentence', 'Another sentence for comparison']\nembeddings = model.encode(sentences)\n\n# Store vectors\nindex.upsert([(f'id_{i}', embedding) for i, embedding in enumerate(embeddings)])\n\n# Search for similar vectors\nquery = 'A query sentence to find matches'\nquery_embedding = model.encode([query])\nresults = index.query(query_embedding, top_k=2)\nprint(results)",
+      "resources": [
+        {
+          "name": "Pinecone Documentation",
+          "url": "https://docs.pinecone.io/"
+        },
+        {
+          "name": "FAISS Documentation",
+          "url": "https://faiss.ai/"
+        },
+        {
+          "name": "Vector Database Guide",
+          "url": "https://www.pinecone.io/learn/vector-database/"
+        }
+      ],
+      "tags": [
+        "قواعد بيانات",
+        "نماذج متجهية",
+        "بحث تشابه",
+        "Vector databases",
+        "Vector search"
+      ],
+      "quickRef": "قواعد البيانات المتجهية: تخزين واسترجاع المتجهات الرقمية للبحث عن التشابه بكفاءة. استخدام نماذج التضمين (embedding) لتحويل البيانات إلى متجهات، ثم استخدام عمليات البحث عن التشابه للعثور على أقرب النتائج.",
+      "quickRefEn": "Vector databases: Store and retrieve numerical vectors for efficient similarity search. Use embedding models to convert data into vectors, then use similarity search operations to find closest results.",
+      "quiz": [
+        {
+          "q": "ما هي المقاييس الأكثر شيوعًا لقياس التشابه بين المتجهات؟",
+          "options": [
+            "المسافة الإقليدية والتشابه الكوسيني",
+            "مقياس التباين ومتوسط الانحراف المعياري",
+            "مقاييس التباين والمتوسط الحسابي",
+            "مقاييس التشتت والانحدار الخطي"
+          ],
+          "answer": 0,
+          "explain": "المسافة الإقليدية والتشابه الكوسيني هما المقاييس الأكثر شيوعًا لقياس التشابه بين المتجهات. المسافة الإقليدية تقيس المسافة المباشرة بين النقطتين، بينما يقيس التشابه الكوسيني زاوية المتجهات."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في إنشاء نظام بحث باستخدام قواعد البيانات المتجهية؟",
+          "options": [
+            "اختيار قاعدة البيانات المناسبة",
+            "تحويل البيانات إلى متجهات",
+            "تنفيذ عمليات البحث",
+            "تحسين الأداء"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى هي تحويل البيانات إلى متجهات باستخدام نماذج التضمين (embedding models). بعد ذلك يمكنك تخزين هذه المتجهات في قاعدة البيانات ومن ثم تنفيذ عمليات البحث."
+        },
+        {
+          "q": "ما هي الفائدة الرئيسية لاستخدام قواعد البيانات المتجهية في تطبيقات الذكاء الاصطناعي؟",
+          "options": [
+            "تخزين البيانات بكفاءة",
+            "البحث عن التشابه بكفاءة",
+            "تقليل حجم البيانات",
+            "زيادة سرعة المعالجة"
+          ],
+          "answer": 1,
+          "explain": "الفائدة الرئيسية لاستخدام قواعد البيانات المتجهية هي البحث عن التشابه بكفاءة. هذه القواع مصممة خصيصًا للتعامل مع المتجهات والبحث عن أقرب متجهات لمتجه معين بسرعة وكفاءة."
+        }
+      ],
+      "addedAt": "2026-10-20"
+    },
+    {
       "id": "k-2026-10-19-أساسيات-أمن-الذكاء-الاصطناعي",
       "title": "أساسيات أمن الذكاء الاصطناعي",
       "titleEn": "AI Safety Basics",
