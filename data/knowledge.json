@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-22-تحسين-النماذج-باستخدام-تقنيات-التفكير-المتسلسل",
+      "title": "تحسين النماذج باستخدام تقنيات التفكير المتسلسل",
+      "titleEn": "Improving Models with Chain-of-Thought Techniques",
+      "why": "تقنيات التفكير المتسلسل تساعد النماذج على حل المشكلات المعقدة خطوة بخطوة، مما يزيد من دقة الإجابات ويقلل الأخطاء المنطقية. هذه التقنية خاصة مفيدة في المهام الرياضية والاستدلالية التي تتطلب خطوات متعددة.",
+      "whyEn": "Chain-of-thought techniques help models solve complex problems step-by-step, increasing answer accuracy and reducing logical errors. This technique is particularly useful in mathematical and reasoning tasks that require multiple steps.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "فهم التفكير المتسلسل",
+          "detail": "تعرف على كيفية عمل تقنية التفكير المتسلسل حيث يقوم النموذج بتوضيح خطوات تفكيره بدلاً من تقديم إجابة مباشرة. هذه الطريقة تسمح بالتحقق من صحة كل خطوة."
+        },
+        {
+          "title": "تطبيق الأسئلة الموجهة",
+          "detail": "استخدم أوامر مثل 'تفكر خطوة بخطوة' أو 'اشرح تفكيرك' لتشجيع النموذج على عرض خطواته. هذه الأسئلة الموجهة تساعد في تنشيط آلية التفكير المتسلسل."
+        },
+        {
+          "title": "تدريب النموذج على أمثلة",
+          "detail": "قدم للنموذج أمثلة تدريبية تحتوي على حلول تفصيلية خطوة بخطوة. هذا يساعد النموذج على تعلم نمط التفكير المتسلسل وتطبيقه في مواقف جديدة."
+        },
+        {
+          "title": "التحقق من صحة الخطوات",
+          "detail": "قم بمراجعة الخطوات التي يقدمها النموذج للتأكد من صحتها المنطقية. في بعض الحالات، قد تحتاج إلى تعديل الأمر أو تقديم ملاحظات لتوجيه النموذج نحو الحل الصحيح."
+        },
+        {
+          "title": "دمج مع تقنيات متقدمة",
+          "detail": "جرب دمج التفكير المتسلسل مع تقنيات أخرى مثل التفكير التكراري (iterative thinking) أو التفكير في المواقف المضادة (counterfactual thinking) لتحسين جودة الحلول."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Chain-of-Thought",
+          "detail": "Learn how chain-of-thought technique works where the model clarifies its thinking steps instead of providing a direct answer. This approach allows verification of each step's correctness."
+        },
+        {
+          "title": "Apply Prompting Techniques",
+          "detail": "Use prompts like 'think step by step' or 'explain your reasoning' to encourage the model to display its steps. These directed prompts help activate the chain-of-thought mechanism."
+        },
+        {
+          "title": "Train with Examples",
+          "detail": "Provide the model with training examples containing detailed step-by-step solutions. This helps the model learn the chain-of-thought pattern and apply it in new situations."
+        },
+        {
+          "title": "Verify Steps",
+          "detail": "Review the steps provided by the model to ensure their logical correctness. In some cases, you may need to modify the prompt or provide feedback to guide the model toward the correct solution."
+        },
+        {
+          "title": "Combine with Advanced Techniques",
+          "detail": "Try combining chain-of-thought with other techniques like iterative thinking or counterfactual thinking to improve solution quality."
+        }
+      ],
+      "code": "def chain_of_thought_prompt(question):\n    return f\"Solve the following problem step by step. Show your reasoning clearly:\\n\\nQuestion: {question}\\n\\nStep-by-step solution:\"\n\n# Example usage\nquestion = \"If a train travels 60 km in 1 hour, how far will it travel in 2.5 hours?\"\nprompt = chain_of_thought_prompt(question)\nprint(prompt)",
+      "resources": [
+        {
+          "name": "Chain of Thought Prompting",
+          "url": "https://arxiv.org/abs/2201.11903"
+        },
+        {
+          "name": "Tree of Thoughts",
+          "url": "https://arxiv.org/abs/2305.10601"
+        },
+        {
+          "name": "Advanced Prompting Guide",
+          "url": "https://www.promptingguide.ai/advanced/chain-of-thought"
+        }
+      ],
+      "tags": [
+        "التفكير المتسلسل",
+        "تحسين النماذج",
+        "الأسئلة الموجهة",
+        "Chain of Thought"
+      ],
+      "quickRef": "تقنية التفكير المتسلسل تشجع النماذج على عرض خطوات حل المشكلات بدلاً من الإجابة المباشرة، مما يحسن الدقة والمنطق.",
+      "quickRefEn": "Chain-of-thought technique encourages models to display problem-solving steps rather than direct answers, improving accuracy and logical reasoning.",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي لتقنية التفكير المتسلسل؟",
+          "options": [
+            "تقليل عدد الكلمات في الإجابة",
+            "زيادة سرعة توليد النموذج",
+            "تحسين دقة الإجابات عبر عرض الخطوات",
+            "تقليل استخدام الذاكرة"
+          ],
+          "answer": 2,
+          "explain": "الهدف الرئيسي لتقنية التفكير المتسلسل هو تحسين دقة الإجابات من خلال تشجيع النموذج على عرض خطوات تفكيره بدلاً من تقديم إجابة مباشرة."
+        },
+        {
+          "q": "أي من الأوامر التالية الأكثر فعالية لتفعيل التفكير المتسلسل؟",
+          "options": [
+            "أعطني الإجابة مباشرة",
+            "تفكر خطوة بخطوة",
+            "اختصار الإجابة",
+            "لا تفكر كثيراً"
+          ],
+          "answer": 1,
+          "explain": "الأمر 'تفكر خطوة بخطوة' هو الأكثر فعالية لتفعيل التفكير المتسلسل لأنه يوجه النموذج لعرض خطوات تفكيره بدقة."
+        },
+        {
+          "q": "ما هي الخطوة الأولى عند تطبيق تقنية التفكير المتسلسل؟",
+          "options": [
+            "تدريب النموذج على أمثلة",
+            "تطبيق الأسئلة الموجهة",
+            "فهم كيفية عمل التقنية",
+            "التحقق من صحة الخطوات"
+          ],
+          "answer": 2,
+          "explain": "الخطوة الأولى هي فهم كيفية عمل تقنية التفكير المتسلسل قبل تطبيقها، ثم تتبعها بالخطوات الأخرى مثل تطبيق الأسئلة الموجهة وتدريب النموذج."
+        }
+      ],
+      "addedAt": "2026-10-22"
+    },
+    {
       "id": "k-2026-10-20-تقييم-نماذج-الذكاء-الاصطناعي-باستخدام-معايير-متعدد",
       "title": "تقييم نماذج الذكاء الاصطناعي باستخدام معايير متعددة",
       "titleEn": "Evaluating AI Models Using Multiple Criteria",
