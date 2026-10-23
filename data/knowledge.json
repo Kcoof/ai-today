@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-23-بناء-روبوتات-الدردشة-المدعومة-بالذكاء-الاصطناعي-با",
+      "title": "بناء روبوتات الدردشة المدعومة بالذكاء الاصطناعي باستخدام نماذج اللغة الكبيرة",
+      "titleEn": "Building AI-Powered Chatbots with LLMs",
+      "why": "أصبحت روبوتات الدردشة المدعومة بالذكاء الاصطناعي جزءاً أساسياً من تجربة المستخدم الحديثة. إن بناء روبوت ذكي يتطلب فهم كيفية دمج نماذج اللغة الكبيرة مع واجهات المستخدم والنظم الخلفية لخلق تجربة تفاعلية سلسة ومفيدة.",
+      "whyEn": "AI-powered chatbots have become essential to modern user experiences. Building an intelligent bot requires understanding how to integrate large language models with user interfaces and backend systems to create a smooth, helpful interactive experience.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد المتطلبات",
+          "detail": "حدد الغرض من روبوت الدردشة والنطاق الوظيفي الذي يجب أن يغطيه."
+        },
+        {
+          "title": "اختيار النموذج المناسب",
+          "detail": "اختر نموذج لغة كبير يناسب احتياجاتك من حيث الدقة، السرعة، والتكلفة."
+        },
+        {
+          "title": "تصميم واجهة المستخدم",
+          "detail": "أنشئ واجهة رسومية أو نصية تسمح للمستخدمين بالتفاعل مع الروبوت."
+        },
+        {
+          "title": "بناء النظام الخلفي",
+          "detail": "طور نظاماً لمعالجة الطلبات وإرسالها إلى النموذج واستقبال الردود."
+        },
+        {
+          "title": "التكامل مع النموذج",
+          "detail": "قم بتكامل واجهة برمجة التطبيقات (API) للنموذج مع نظامك الخلفي."
+        },
+        {
+          "title": "اختبار وتحسين",
+          "detail": "اختبر الروبوت بشكل مكثف وقم بتحسين أدائه بناءً على ملاحظات المستخدمين."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define Requirements",
+          "detail": "Determine the purpose of your chatbot and the functional scope it should cover."
+        },
+        {
+          "title": "Choose the Right Model",
+          "detail": "Select a large language model that fits your needs in terms of accuracy, speed, and cost."
+        },
+        {
+          "title": "Design User Interface",
+          "detail": "Create a graphical or text-based interface that allows users to interact with the bot."
+        },
+        {
+          "title": "Build Backend System",
+          "detail": "Develop a system to process requests and send them to the model while receiving responses."
+        },
+        {
+          "title": "Integrate with Model",
+          "detail": "Connect the model's API with your backend system."
+        },
+        {
+          "title": "Test and Refine",
+          "detail": "Test the bot extensively and improve its performance based on user feedback."
+        }
+      ],
+      "code": "import openai\n\n# Set your API key\nopenai.api_key = \"YOUR_API_KEY\"\n\ndef chatbot_response(user_input):\n    try:\n        response = openai.ChatCompletion.create(\n            model=\"gpt-3.5-turbo\",\n            messages=[\n                {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"},\n                {\"role\": \"user\", \"content\": user_input}\n            ]\n        )\n        return response.choices[0].message['content']\n    except Exception as e:\n        return f\"Error: {str(e)}\"\n\n# Example usage\nif __name__ == \"__main__\":\n    user_input = input(\"You: \")\n    response = chatbot_response(user_input)\n    print(f\"Bot: {response}\")",
+      "resources": [
+        {
+          "name": "OpenAI API Documentation",
+          "url": "https://platform.openai.com/docs/api-reference"
+        },
+        {
+          "name": "LangChain Framework",
+          "url": "https://python.langchain.com/"
+        },
+        {
+          "name": "Rasa Open Source",
+          "url": "https://rasa.com/"
+        }
+      ],
+      "tags": [
+        "تطوير",
+        "روبوتات الدردشة",
+        "نماذج اللغة",
+        "واجهات برمجة التطبيقات"
+      ],
+      "quickRef": "حدد متطلبات الروبوت واختر النموذج المناسب\nصمم واجهة المستخدم ونظام المعالجة الخلفي\nقم بالتكامل مع واجهة برمجة التطبيقات للنموذج\nاختبر الروبوت وقم بتحسينه بناءً على ملاحظات المستخدمين",
+      "quickRefEn": "Define bot requirements and choose the appropriate model\nDesign user interface and backend processing system\nIntegrate with the model's API\nTest the bot and refine it based on user feedback",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم الذي يجب مراعاته عند اختيار نموذج لغة كبير لبناء روبوت الدردشة؟",
+          "options": [
+            "السعر فقط",
+            "الدقة والسرعة والتكلفة",
+            "حجم النموذج فقط",
+            "الشركة المصنعة فقط"
+          ],
+          "answer": 1,
+          "explain": "يجب مراعاة توازن بين الدقة والسرعة والتكلفة عند اختيار نموذج لغة مناسب لروبوت الدردشة، وليس عنصر واحد فقط."
+        },
+        {
+          "q": "ما هو الغرض من واجهة برمجة التطبيقات (API) في بناء روبوتات الدردشة؟",
+          "options": [
+            "لتصميم واجهة المستخدم",
+            "للتفاعل مع نموذج اللغة الكبير",
+            "لتخزين البيانات",
+            "لتحسين أداء الخادم"
+          ],
+          "answer": 1,
+          "explain": "تُستخدم واجهة برمجة التطبيقات (API) للتفاعل مع نموذج اللغة الكبير وإرسال الطلبات واستقبال الردود."
+        },
+        {
+          "q": "ما الخطوة التالية بعد تصميم واجهة المستخدم في عملية بناء روبوت الدردشة؟",
+          "options": [
+            "اختبار النظام",
+            "بناء النظام الخلفي",
+            "اختيار النموذج",
+            "نشر الروبوت"
+          ],
+          "answer": 1,
+          "explain": "بعد تصميم واجهة المستخدم، يجب بناء النظام الخلفي الذي يتعامل مع معالجة الطلبات وإرسالها إلى النموذج واستقبال الردود."
+        }
+      ],
+      "addedAt": "2026-10-23"
+    },
+    {
       "id": "k-2026-10-22-تحسين-النماذج-باستخدام-تقنيات-التفكير-المتسلسل",
       "title": "تحسين النماذج باستخدام تقنيات التفكير المتسلسل",
       "titleEn": "Improving Models with Chain-of-Thought Techniques",

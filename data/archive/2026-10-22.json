@@ -1,0 +1,476 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T10:32:52.730Z",
+  "news": [
+    {
+      "id": "n-2026-10-22-4",
+      "title": "إطلاق Gemini 4 أرجون: نموذج Google الجديد للذكاء الاصطناعي",
+      "titleEn": "Launch of Gemini 4 Argon: Google's new AI model",
+      "summary": "أطلقت Google DeepMind نموذج Gemini 4 أرجون المصمم لحل المشكلات المعقدة، مع التركيز على التطوير المسؤول والآمن للذكاء الاصطناعي المتقدم.",
+      "summaryEn": "Google DeepMind launched Gemini 4 Argon, designed to solve complex problems, with a focus on responsible and safe development of advanced AI.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-argon/"
+      },
+      "publishedAt": "2026-10-13"
+    },
+    {
+      "id": "n-2026-10-22-8",
+      "title": "الولايات المتحدة تحظر DeepSeek من أنظمة الوكالات الحكومية",
+      "titleEn": "US bans DeepSeek from government agency systems",
+      "summary": "أمرت الولايات المتحدة الوكالات الحكومية بإزالة DeepSeek من أنظمتها، مبررة ذلك بمخاطر الأمن القومي، مما يعكس التوتر الجيوسياسي حول الذكاء الاصطناعي.",
+      "summaryEn": "The US ordered government agencies to remove DeepSeek from their systems, citing national security risks, reflecting geopolitical tensions around AI.",
+      "category": "regulation",
+      "importance": 5,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1tX0RacFh2aXVWaERGQ1AxTThjRDd3RDZoUXU5ZGxrOU1BYWFnMHhqRmwzLVZWb3NkbWhTYTctcUlqaDVLdXpRdmJXSGRvLUtmV2RORHdLU2RFeFFRWVdybTR4V1BUb3l2eUN0MHBfdlJqQmlYVUkxUlByVEgya1piaXJqaUphN0ZrNFY0dFFlSDRya0JoVC0wcC1uSnN1OUZIbUxVRnVodHBFdGc?oc=5"
+      },
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "id": "n-2026-10-22-1",
+      "title": "أطلقت OpenAI مبادرة \"Patch the Planet\" لتعاون أمني عالمي",
+      "titleEn": "OpenAI launches Patch the Planet global security initiative",
+      "summary": "تتعاون OpenAI مع الباحثين في الأمن وصيانة البرمجيات لتنسيق الاستجابة العالمية عند اكتشاف الثغرات الأمنية، مما يمثل نهجًا جماعيًا لمواجهة التهديدات الأمنية في عالم الذكاء الاصطناعي.",
+      "summaryEn": "OpenAI is collaborating with security researchers and maintainers to coordinate global response when vulnerabilities are discovered, representing a collective approach to addressing security threats in the AI world.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+      },
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "id": "n-2026-10-22-2",
+      "title": "شراكة استراتيجية بين OpenAI و Google Cloud",
+      "titleEn": "Strategic partnership between OpenAI and Google Cloud",
+      "summary": "أعلنت OpenAI عن وصول نماذجها المتقدمة إلى منصة Google Cloud، مما يتيح للمطورين الوصول إلى نماذج OpenAI وعمليات Codex ضمن بيئة Google Cloud.",
+      "summaryEn": "OpenAI announced that its models are coming to Google Cloud, allowing developers access to OpenAI's frontier models and Codex workflows within the Google Cloud environment.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-models-google-cloud"
+      },
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "id": "n-2026-10-22-5",
+      "title": "أنشأت Anthropic وحدة الأمن السيبراني",
+      "titleEn": "Anthropic establishes Cybersecurity Unit",
+      "summary": "أعلنت Anthropic عن إنشاء وحدة الأمن السيبراني (Anthropic Cyber Mission) لتعزيز أمان أنظمة الذكاء الاصطناعي والاستجابة للتهديدات الأمنية المتطورة.",
+      "summaryEn": "Anthropic announced the creation of the Anthropic Cyber Mission unit to enhance AI system security and respond to evolving threats.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+      },
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "n-2026-10-22-7",
+      "title": "الصين تطلب ترخيص تصدير للنماذج الكبيرة من الذكاء الاصطناعي",
+      "titleEn": "China requires export license for large AI models",
+      "summary": "ستتطلب الصين ترخيص تصدير لجميع النماذج الكبيرة الجديدة من الذكاء الاصطناعي، مما قد يؤثر على نموذج Kimi K3.1 غير المُصَرَّح به من Moonshot.",
+      "summaryEn": "China will require an export license for all new large AI models, potentially affecting Moonshot's unreleased Kimi K3.1 model.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNNnpXUG5nbGIwVU45RnV2VF93aDZ3M01vN2lVaTB2VW9pQlY3bU5PNHF3N0tfcXIxUDg2ZUZtcVo0QlhsUm9zM1N5ZzVkbHRUVTVGY2dSaEdQdkUyRjZnd2d3SUpzUlkxeEhLV0k3MjJQazNDa2RRWkIzWVRRZ1R4dkNQaEU3TVllMnkwclIzdGZxNm1DMFFrZldDcWRrRXBtMzVmNmxDMGV0RHdRQ3JjUUhuSGVSVVVnR2NsUUt6UGhnQzZSMVV4c1lJTjgtMlh3bGZtQWhEWi1CRVp4a1VPb0tiWGxvMnloUnFmaTNoalp2ZERJOXlDYWtKMl9qeXZwRXZkbTNNMzlweFptRFVrNWJOZHZCSm43WWJ5dldBZDBUcWRXWEHSAasCQVVfeXFMUGxzSXB3NzV6TGJJb0JHYnNEOGpQSkdxZjU0WkQ5QVozX1k5LXN3emhJX19ZNG1XSVZWTWVJZzcwU1BHX3h5QmpLaXAzdkw2eFkyTnFLVjYtbEI5RkNJaTNaOGJBNXdwcXhUdnlOTmVnaEdTbmhxMGhQZGxTMlhtWjdodkJtMGpSNk9SSGNUaEpZWFlFQ2NFUFdyLTN4aWVmUGVZOExiZ3Z0dV84cUh0VTlfMTk4cE8zaHY3ZGpZYXVtQ0JfcmRDR1lLUjE4SEdFR1pYWnhVZ3pSenBybkdNb0VaT3lDcUJaSi00d3BSMmVNcGtXajZkTm5BX0FaTzZHWnJsQzV2VzZydF9TOTl1cGhobXp1WF9rNExteml0RXEtdnJUamFvMWljY1k?oc=5"
+      },
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "id": "n-2026-10-22-9",
+      "title": "أطلقت Mistral نموذج Shieldstral الأمني",
+      "titleEn": "Mistral launches Shieldstral security model",
+      "summary": "قدمت Mistral نموذج Shieldstral المصمم خصيصًا لتعزيز أمان أنظمة الذكاء الاصطناعي والحماية من التهديدات السيبرانية المتطورة.",
+      "summaryEn": "Mistral introduced Shieldstral, a model specifically designed to enhance AI system security and protect against evolving cyber threats.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/shieldstral/"
+      },
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "n-2026-10-22-10",
+      "title": "التحقيق في ادعاءات حول نماذج Z.ai",
+      "titleEn": "Investigation into claims about Z.ai models",
+      "summary": "تشير التقارير إلى أن مؤسسي Z.ai قد بنوا نماذجهم على أبحاث مرتبطة بجبهة تجسيس صينية مزعومة، مما يثير أسئلة حول أمان ونزاهة الذكاء الاصطناعي.",
+      "summaryEn": "Reports suggest Z.ai founders built their models on research tied to an alleged Chinese spy front, raising questions about AI security and integrity.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVGRnR0ZOck5GYjYyenBUcWFEVnNnaW1KSDJHc2JfNkdHNnliaDd5ZGRuaUNXVFVsWUdQX0wwdngtYWN3ZDQ0MFNyRkhFYzlmSEJRYzh5YjY5NEppWGRaSWVMR0tNREp4R1cyQXM2Y3RicFFJT1ZSekRpY01LYVRhUFNSeGJLVDd5Q3otT0xMd1p0RzhXbHVSNURFNFBYd09CZ3phVA?oc=5"
+      },
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "id": "n-2026-10-22-3",
+      "title": "توسعة إعلانات ChatGPT إلى 26 دولة جديدة",
+      "titleEn": "ChatGPT Ads expands to 26 new countries",
+      "summary": "وسعت منصة ChatGPT إعلاناتها لتشمل 26 دولة جديدة، مع أكثر من 100,000 مسوّق استخدموا المنصة بالفعل، مما يعزز نموذج الأعمال التجارية للذكاء الاصطناعي.",
+      "summaryEn": "ChatGPT Ads has expanded to 26 new countries, with over 100,000 advertisers having used the platform, strengthening the business model for AI.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
+      },
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "id": "n-2026-10-22-6",
+      "title": "توسيع Moonshot AI عملياتها في سنغافورة",
+      "titleEn": "Moonshot AI expands operations in Singapore",
+      "summary": "توسعت شركة Moonshot الصينية العمليات في سنغافورة، مما يعزز وجودها العالمي ويظهر الانتشار المتزايد للشركات الصينية في قطاع الذكاء الاصطناعي العالمي.",
+      "summaryEn": "Chinese company Moonshot expanded operations in Singapore, enhancing its global presence and showing the growing spread of Chinese companies in the global AI sector.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdGlrT3VHMGtGQ2c1RjRPbDFMR3NRTE9GNlU3LTZoQmxiVld6aTJDa1dyQnhzOFo3RTlKc1d3WE44akpOS1hMSHRyckFaR2FEV3h2d1RLU3BXcGpNWUw1YW13NWFUWmZNM0VNdzdMR0dLS0FTT0t2cGgxb1haWFE4bFJsY1dnNG9qRVFhc1lWMmptUGcwd19jZjVZazhlOGl5QlE?oc=5"
+      },
+      "publishedAt": "2026-10-21"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-10-22-1",
+      "name": "Gemini 4 Argon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-10-13",
+      "highlights": "نموذج متقدم مصمم لحل المشكلات المعقدة، مع التركيز على التطوير المسؤول والآمن",
+      "highlightsEn": "Advanced model designed to solve complex problems, with focus on responsible and safe development",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/"
+    },
+    {
+      "id": "m-2026-10-22-2",
+      "name": "Muse Spark Open",
+      "org": "Meta",
+      "releaseDate": "2026-10-16",
+      "highlights": "نموذج مفتوح الوزن المصمم للمنافسة مع النماذج الصينية",
+      "highlightsEn": "Open-weight model designed to compete with Chinese models",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+    },
+    {
+      "id": "m-2026-10-22-3",
+      "name": "Kimi K3",
+      "org": "Moonshot",
+      "releaseDate": "2026-10-17",
+      "highlights": "تفوق على GPT-6.1 Sol بفارق 61 نقطة Elo، مع تحسينات في الأداء والكفاءة",
+      "highlightsEn": "Beats GPT-6.1 Sol by 61 Elo points with performance and efficiency improvements",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRLVBkeDNOcjR0dWtWQThPQTUxTWYwMm1DYXNvcF9LN3NNbkJYY0RxN0prd3lEaGJOYmJZVFhKTERwQWp0ZzBfeEY3MUdzdktodzRiS0hyZEs0enlNajdtMVUzZw?oc=5"
+    },
+    {
+      "id": "m-2026-10-22-4",
+      "name": "Shieldstral",
+      "org": "Mistral",
+      "releaseDate": "2026-08-04",
+      "highlights": "نموذج أمني مصمم لحماية الأنظمة من التهديدات السيبرانية المتطورة",
+      "highlightsEn": "Security model designed to protect systems from evolving cyber threats",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/shieldstral/"
+    },
+    {
+      "id": "m-2026-10-22-5",
+      "name": "DeepSeek V4.1 Flash",
+      "org": "DeepSeek",
+      "releaseDate": "2026-10-17",
+      "highlights": "أسرع وأخف من النماذج السابقة، مع تقليل كبير في التكلفة لكل مهمة",
+      "highlightsEn": "Faster and leaner than previous models, with significantly reduced per-task costs",
+      "specs": {
+        "context": "200K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMjBtNG5jOGtJNDMtWHYtVXo1RU44LWJlNTZrNkhxajRYd0JOMkdXLXV3ZlZwQTVidkoyWjJKbUNvS0U2UXdRdjZmNE9KWHhlTUR0Y2xmWWhTRm9MbFpuQm5NUEtyejJqWXZhYmRjWmdVTFZ0RFlVR2JwMTNqOUgtb3NxeHU2dUJVcHpTaUN5WFFCQkIzWXZhZGJVVXpUV0RfQUNxNjNLSngteWVuaVVEckhkWmNVbjF1QVQ4b2FoTHYxVmh0eko4T0ZKSG91c3ZWTlE?oc=5"
+    },
+    {
+      "id": "m-2026-10-22-6",
+      "name": "Grok 4.7",
+      "org": "xAI",
+      "releaseDate": "2026-10-21",
+      "highlights": "تحديث رئيسي مع تحسينات في الأمان والأداء، متوفر الآن في منصة Viktor",
+      "highlightsEn": "Major update with security and performance improvements, now available in Viktor platform",
+      "specs": {
+        "context": "256K"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX0JfbG9SS093R256RzVUcHZ6dmVvZDAtMklfOEtJRGVkWlVYRm9zVWpnNEI5eFlyZUZuSzV1VThfRy1UTTdTT0RadUNiaEN3dDJic2lwdG5QUmlWdlBZQ1dpU0NzM3Z3OGk3X29kbEo2dURMSWNSMlpBNkI3VzhqYWR2V1Z5MTB0X2c?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-10-22-1",
+      "text": "أمرت الولايات المتحدة الوكالات الحكومية بإزالة DeepSeek من أنظمتها، مبررة ذلك بمخاطر الأمن القومي",
+      "textEn": "The US ordered government agencies to remove DeepSeek from their systems, citing national security risks",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1tX0RacFh2aXVWaERGQ1AxTThjRDd3RDZoUXU5ZGxrOU1BYWFnMHhqRmwzLVZWb3NkbWhTYTctcUlqaDVLdXpRdmJXSGRvLUtmV2RORHdLU2RFeFFRWVdybTR4V1BUb3l2eUN0MHBfdlJqQmlYVUkxUlByVEgya1piaXJqaUphN0ZrNFY0dFFlSDRya0JoVC0wcC1uSnN1OUZIbUxVRnVodHBFdGc?oc=5"
+    },
+    {
+      "id": "h-2026-10-22-2",
+      "text": "ستتطلب الصين ترخيص تصدير لجميع النماذج الكبيرة الجديدة من الذكاء الاصطناعي، مما قد يغير المشهد التنافسي",
+      "textEn": "China will require an export license for all new large AI models, potentially changing the competitive landscape",
+      "level": "warning",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNNnpXUG5nbGIwVU45RnV2VF93aDZ3M01vN2lVaTB2VW9pQlY3bU5PNHF3N0tfcXIxUDg2ZUZtcVo0QlhsUm9zM1N5ZzVkbHRUVTVGY2dSaEdQdkUyRjZnd2d3SUpzUlkxeEhLV0k3MjJQazNDa2RRWkIzWVRRZ1R4dkNQaEU3TVllMnkwclIzdGZxNm1DMFFrZldDcWRrRXBtMzVmNmxDMGV0RHdRQ3JjUUhuSGVSVVVnR2NsUUt6UGhnQzZSMVV4c1lJTjgtMlh3bGZtQWhEWi1CRVp4a1VPb0tiWGxvMnloUnFmaTNoalp2ZERJOXlDYWtKMl9qeXZwRXZkbTNNMzlweFptRFVrNWJOZHZCSm43WWJ5dldBZDBUcWRXWEHSAasCQVVfeXFMUGxzSXB3NzV6TGJJb0JHYnNEOGpQSkdxZjU0WkQ5QVozX1k5LXN3emhJX19ZNG1XSVZWTWVJZzcwU1BHX3h5QmpLaXAzdkw2eFkyTnFLVjYtbEI5RkNJaTNaOGJBNXdwcXhUdnlOTmVnaEdTbmhxMGhQZGxTMlhtWjdodkJtMGpSNk9SSGNUaEpZWFlFQ2NFUFdyLTN4aWVmUGVZOExiZ3Z0dV84cUh0VTlfMTk4cE8zaHY3ZGpZYXVtQ0JfcmRDR1lLUjE4SEdFR1pYWnhVZ3pSenBybkdNb0VaT3lDcUJaSi00d3BSMmVNcGtXajZkTm5BX0FaTzZHWnJsQzV2VzZydF9TOTl1cGhobXp1WF9rNExteml0RXEtdnJUamFvMWljY1k?oc=5"
+    },
+    {
+      "id": "h-2026-10-22-3",
+      "text": "أطلقت OpenAI مبادرة \"Patch the Planet\" لتعاون أمني عالمي في اكتشاف الثغرات الأمنية",
+      "textEn": "OpenAI launched Patch the Planet initiative for global security cooperation in vulnerability discovery",
+      "level": "info",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-10-22-1",
+      "title": "مبادرة \"Patch the Planet\" لتعاون أمني عالمي",
+      "titleEn": "Patch the Planet global security cooperation initiative",
+      "summary": "تتعاون OpenAI مع الباحثين في الأمن وصيانة البرمجيات لتنسيق الاستجابة العالمية عند اكتشاف الثغرات الأمنية، مما يمثل نهجًا جماعيًا لمواجهة التهديدات الأمنية في عالم الذكاء الاصطناعي.",
+      "summaryEn": "OpenAI is collaborating with security researchers and maintainers to coordinate global response when vulnerabilities are discovered, representing a collective approach to addressing security threats in the AI world.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "source": "OpenAI",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "sec-2026-10-22-2",
+      "title": "إمكانية إدخال أبواب خلفية في نماذج الذكاء الاصطناعي المفتوحة",
+      "titleEn": "Potential for backdoors in open AI models",
+      "summary": "أي نموذج مفتوح الوزن الذي تم تعديله يمكن أن يحمل بابًا خلفياً، مما يسمح للمهاجمين بالتحكم في النموذج دون علم المستخدمين، مما يمثل تهديدًا أمنيًا كبيرًا للنماذج المفتوحة.",
+      "summaryEn": "Any open model whose weights have been edited can carry a backdoor, allowing attackers to control the model without users' knowledge, representing a significant security threat to open models.",
+      "type": "backdoor",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "sec-2026-10-22-3",
+      "title": "قدرة الذكاء الاصطناعي على حل CAPTCHAs",
+      "titleEn": "AI ability to solve CAPTCHAs",
+      "summary": "أظهرت الأبحاث أن نماذج الرؤية واللغة (VLMs) يمكنها حل CAPTCHAs البصرية بنجاح率高، مما يضعف فعالية هذه الآليات كأدوات للتمييز بين البشر والآلات.",
+      "summaryEn": "Research shows vision-language models (VLMs) can solve visual CAPTCHAs with high success rates, weakening the effectiveness of these mechanisms for distinguishing humans from machines.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "sec-2026-10-22-4",
+      "title": "التحقيق في ادعاءات حول نماذج Z.ai",
+      "titleEn": "Investigation into claims about Z.ai models",
+      "summary": "تشير التقارير إلى أن مؤسسي Z.ai قد بنوا نماذجهم على أبحاث مرتبطة بجبهة تجسيس صينية مزعومة، مما يثير أسئلة حول أمان ونزاهة الذكاء الاصطناعي ويعزز المخاوف الأمنية.",
+      "summaryEn": "Reports suggest Z.ai founders built their models on research tied to an alleged Chinese spy front, raising questions about AI security and integrity, and enhancing security concerns.",
+      "type": "policy",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVGRnR0ZOck5GYjYyenBUcWFEVnNnaW1KSDJHc2JfNkdHNnliaDd5ZGRuaUNXVFVsWUdQX0wwdngtYWN3ZDQ0MFNyRkhFYzlmSEJRYzh5YjY5NEppWGRaSWVMR0tNREp4R1cyQXM2Y3RicFFJT1ZSekRpY01LYVRhUFNSeGJLVDd5Q3otT0xMd1p0RzhXbHVSNURFNFBYd09CZ3phVA?oc=5",
+      "source": "Z.ai (news)",
+      "date": "2026-10-20"
+    },
+    {
+      "id": "sec-2026-10-22-5",
+      "title": "اتهامات بعدم أمان نماذج Grok",
+      "titleEn": "Allegations of Grok model insecurity",
+      "summary": "اتهم موظف سابق شركة xAI بإصدار نماذج Grok غير آمنة، مشيرًا إلى أن النماذج يمكن إنشاء صور ذات طابع جنسي في أقل من 30 ثانية، مما يثير مخاوف كبيرة حول سلامة المحتوى.",
+      "summaryEn": "A former xAI employee alleged the company released unsafe Grok models, noting they can generate sexually explicit images in under 30 seconds, raising significant concerns about content safety.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oSUdRazM2MGxBc05CWE1uZ2hTX2JOcjhhOUlPakpRSGl2YUhscFcwQWVsdEU4bjh2TV9QdTJxbmJfX0tQbWhKWm1TRzdLS2hRRDZ2cTR3?oc=5",
+      "source": "xAI (news)",
+      "date": "2026-10-16"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-10-22",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "60.4"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "58.3"
+      },
+      {
+        "name": "GPT-6 Astra 1",
+        "org": "OpenAI",
+        "score": "58.3"
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "org": "Google",
+        "score": "55.1"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "54.4"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "54.0"
+      },
+      {
+        "name": "GPT-6.1 Sol",
+        "org": "OpenAI",
+        "score": "53.9"
+      },
+      {
+        "name": "GPT-5.6 Sol",
+        "org": "OpenAI",
+        "score": "53.5"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "53.5"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "53.4"
+      }
+    ],
+    "highlights": "تتصدر نماذج Claude من Anthropic الترتيب مع Claude Opus 5.5 في المركز الأول. هناك منافسة قوية بين GPT-6 Astra و Claude Sonnet 5.3 وكلاهما يحصلان على نفس النتيجة 58.3.",
+    "highlightsEn": "Claude models from Anthropic lead the rankings with Claude Opus 5.5 in first place. There is strong competition between GPT-6 Astra and Claude Sonnet 5.3, both achieving the same score of 58.3."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-10-22-تحسين-النماذج-باستخدام-تقنيات-التفكير-المتسلسل",
+    "title": "تحسين النماذج باستخدام تقنيات التفكير المتسلسل",
+    "titleEn": "Improving Models with Chain-of-Thought Techniques",
+    "why": "تقنيات التفكير المتسلسل تساعد النماذج على حل المشكلات المعقدة خطوة بخطوة، مما يزيد من دقة الإجابات ويقلل الأخطاء المنطقية. هذه التقنية خاصة مفيدة في المهام الرياضية والاستدلالية التي تتطلب خطوات متعددة.",
+    "whyEn": "Chain-of-thought techniques help models solve complex problems step-by-step, increasing answer accuracy and reducing logical errors. This technique is particularly useful in mathematical and reasoning tasks that require multiple steps.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "فهم التفكير المتسلسل",
+        "detail": "تعرف على كيفية عمل تقنية التفكير المتسلسل حيث يقوم النموذج بتوضيح خطوات تفكيره بدلاً من تقديم إجابة مباشرة. هذه الطريقة تسمح بالتحقق من صحة كل خطوة."
+      },
+      {
+        "title": "تطبيق الأسئلة الموجهة",
+        "detail": "استخدم أوامر مثل 'تفكر خطوة بخطوة' أو 'اشرح تفكيرك' لتشجيع النموذج على عرض خطواته. هذه الأسئلة الموجهة تساعد في تنشيط آلية التفكير المتسلسل."
+      },
+      {
+        "title": "تدريب النموذج على أمثلة",
+        "detail": "قدم للنموذج أمثلة تدريبية تحتوي على حلول تفصيلية خطوة بخطوة. هذا يساعد النموذج على تعلم نمط التفكير المتسلسل وتطبيقه في مواقف جديدة."
+      },
+      {
+        "title": "التحقق من صحة الخطوات",
+        "detail": "قم بمراجعة الخطوات التي يقدمها النموذج للتأكد من صحتها المنطقية. في بعض الحالات، قد تحتاج إلى تعديل الأمر أو تقديم ملاحظات لتوجيه النموذج نحو الحل الصحيح."
+      },
+      {
+        "title": "دمج مع تقنيات متقدمة",
+        "detail": "جرب دمج التفكير المتسلسل مع تقنيات أخرى مثل التفكير التكراري (iterative thinking) أو التفكير في المواقف المضادة (counterfactual thinking) لتحسين جودة الحلول."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Understand Chain-of-Thought",
+        "detail": "Learn how chain-of-thought technique works where the model clarifies its thinking steps instead of providing a direct answer. This approach allows verification of each step's correctness."
+      },
+      {
+        "title": "Apply Prompting Techniques",
+        "detail": "Use prompts like 'think step by step' or 'explain your reasoning' to encourage the model to display its steps. These directed prompts help activate the chain-of-thought mechanism."
+      },
+      {
+        "title": "Train with Examples",
+        "detail": "Provide the model with training examples containing detailed step-by-step solutions. This helps the model learn the chain-of-thought pattern and apply it in new situations."
+      },
+      {
+        "title": "Verify Steps",
+        "detail": "Review the steps provided by the model to ensure their logical correctness. In some cases, you may need to modify the prompt or provide feedback to guide the model toward the correct solution."
+      },
+      {
+        "title": "Combine with Advanced Techniques",
+        "detail": "Try combining chain-of-thought with other techniques like iterative thinking or counterfactual thinking to improve solution quality."
+      }
+    ],
+    "code": "def chain_of_thought_prompt(question):\n    return f\"Solve the following problem step by step. Show your reasoning clearly:\\n\\nQuestion: {question}\\n\\nStep-by-step solution:\"\n\n# Example usage\nquestion = \"If a train travels 60 km in 1 hour, how far will it travel in 2.5 hours?\"\nprompt = chain_of_thought_prompt(question)\nprint(prompt)",
+    "resources": [
+      {
+        "name": "Chain of Thought Prompting",
+        "url": "https://arxiv.org/abs/2201.11903"
+      },
+      {
+        "name": "Tree of Thoughts",
+        "url": "https://arxiv.org/abs/2305.10601"
+      },
+      {
+        "name": "Advanced Prompting Guide",
+        "url": "https://www.promptingguide.ai/advanced/chain-of-thought"
+      }
+    ],
+    "tags": [
+      "التفكير المتسلسل",
+      "تحسين النماذج",
+      "الأسئلة الموجهة",
+      "Chain of Thought"
+    ],
+    "quickRef": "تقنية التفكير المتسلسل تشجع النماذج على عرض خطوات حل المشكلات بدلاً من الإجابة المباشرة، مما يحسن الدقة والمنطق.",
+    "quickRefEn": "Chain-of-thought technique encourages models to display problem-solving steps rather than direct answers, improving accuracy and logical reasoning.",
+    "quiz": [
+      {
+        "q": "ما هو الهدف الرئيسي لتقنية التفكير المتسلسل؟",
+        "options": [
+          "تقليل عدد الكلمات في الإجابة",
+          "زيادة سرعة توليد النموذج",
+          "تحسين دقة الإجابات عبر عرض الخطوات",
+          "تقليل استخدام الذاكرة"
+        ],
+        "answer": 2,
+        "explain": "الهدف الرئيسي لتقنية التفكير المتسلسل هو تحسين دقة الإجابات من خلال تشجيع النموذج على عرض خطوات تفكيره بدلاً من تقديم إجابة مباشرة."
+      },
+      {
+        "q": "أي من الأوامر التالية الأكثر فعالية لتفعيل التفكير المتسلسل؟",
+        "options": [
+          "أعطني الإجابة مباشرة",
+          "تفكر خطوة بخطوة",
+          "اختصار الإجابة",
+          "لا تفكر كثيراً"
+        ],
+        "answer": 1,
+        "explain": "الأمر 'تفكر خطوة بخطوة' هو الأكثر فعالية لتفعيل التفكير المتسلسل لأنه يوجه النموذج لعرض خطوات تفكيره بدقة."
+      },
+      {
+        "q": "ما هي الخطوة الأولى عند تطبيق تقنية التفكير المتسلسل؟",
+        "options": [
+          "تدريب النموذج على أمثلة",
+          "تطبيق الأسئلة الموجهة",
+          "فهم كيفية عمل التقنية",
+          "التحقق من صحة الخطوات"
+        ],
+        "answer": 2,
+        "explain": "الخطوة الأولى هي فهم كيفية عمل تقنية التفكير المتسلسل قبل تطبيقها، ثم تتبعها بالخطوات الأخرى مثل تطبيق الأسئلة الموجهة وتدريب النموذج."
+      }
+    ],
+    "addedAt": "2026-10-22"
+  }
+}
