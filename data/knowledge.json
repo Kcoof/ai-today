@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-23-استخدام-نماذج-الذكاء-الاصطناعي-متعددة-الوسائط",
+      "title": "استخدام نماذج الذكاء الاصطناعي متعددة الوسائط",
+      "titleEn": "Using Multimodal AI Models",
+      "why": "النماذج متعددة الوسائتمكن من معالجة وفهم أنواع مختلفة من البيانات مثل النصوص والصور والصوت في آن واحد، مما يفتح آفاقاً أوسع للتطبيقات الإبداعية والمتقدمة.",
+      "whyEn": "Multimodal models can process and understand different types of data like text, images, and audio simultaneously, opening broader horizons for creative and advanced applications.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم مفهوم النماذج متعددة الوسائط",
+          "detail": "النماذج متعددة الوسائط هي نماذج قادرة على التعامل مع أنواع مختلفة من المدخلات والمخرجات، مثل تحليل الصورة مع النص أو توليف الصوت من النص."
+        },
+        {
+          "title": "اختيار النموذج المناسب",
+          "detail": "اختر نموذجاً يدعم الوسائط المتعددة مثل GPT-4V أو Gemini Ultra بناءً على احتياجات مشروعك واحرص على فهم قدراته والقيود المفروضة عليه."
+        },
+        {
+          "title": "معالجة المدخلات المتعددة",
+          "detail": "تعلم كيفية تقديم البيانات المتعددة للنموذج بشكل صحيح، مثل تحديد الصورة مع النص المرتبط بها لتحقيق أفضل النتائج."
+        },
+        {
+          "title": "تفسير المخرجات المتعددة",
+          "detail": "تدرب على فهم وتفسير المخرجات التي قد تكون مزيجاً من النصوص والصور أو الصوت، وتحليل دقتها وملاءمتها."
+        },
+        {
+          "title": "تحسين الأداء",
+          "detail": "جرّب تقنيات مثل تقسيم المهام المعقدة إلى خطوات أبسط، أو استخدام النموذج في تسلسل لتحسين جودة النتائج."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Multimodal Models",
+          "detail": "Multimodal models are AI systems capable of handling different types of inputs and outputs, such as analyzing images with text or generating audio from text."
+        },
+        {
+          "title": "Choosing the Right Model",
+          "detail": "Select a model that supports multiple modalities like GPT-4V or Gemini Ultra based on your project requirements, and make sure to understand its capabilities and limitations."
+        },
+        {
+          "title": "Processing Multiple Inputs",
+          "detail": "Learn how to properly present multiple data types to the model, such as specifying an image along with related text to achieve the best results."
+        },
+        {
+          "title": "Interpreting Multiple Outputs",
+          "detail": "Practice understanding and interpreting outputs that may be a combination of text, images, or audio, analyzing their accuracy and appropriateness."
+        },
+        {
+          "title": "Improving Performance",
+          "detail": "Experiment with techniques like breaking down complex tasks into simpler steps, or using the model in a sequence to improve result quality."
+        }
+      ],
+      "code": "import openai\n\n# Initialize the OpenAI client\nclient = openai.OpenAI()\n\n# Function to process multimodal input\ndef analyze_multimodal(image_path, text_query):\n    with open(image_path, \"rb\") as image_file:\n        response = client.chat.completions.create(\n            model=\"gpt-4-vision-preview\",\n            messages=[\n                {\n                    \"role\": \"user\",\n                    \"content\": [\n                        {\"type\": \"text\", \"text\": text_query},\n                        {\"type\": \"image_url\", \"image_url\": {\"url\": f\"data:image/jpeg;base64,{base64.b64encode(image_file.read()).decode()}\"}}\n                    ]\n                }\n            ],\n            max_tokens=500\n        )\n    return response.choices[0].message.content\n\n# Example usage\nresult = analyze_multimodal(\"example.jpg\", \"Describe this image in detail\")\nprint(result)",
+      "resources": [
+        {
+          "name": "OpenAI GPT-4V Documentation",
+          "url": "https://platform.openai.com/docs/guides/vision"
+        },
+        {
+          "name": "Google Gemini Multimodal Guide",
+          "url": "https://ai.google.dev/docs/gemini_multimodal"
+        },
+        {
+          "name": "Multimodal AI Research Paper",
+          "url": "https://arxiv.org/abs/2306.11644"
+        }
+      ],
+      "tags": [
+        "نماذج متعددة الوسائط",
+        "تطبيقات متعددة الوسائط",
+        "معالجة البيانات",
+        "الذكاء الاصطناعي المتقدم"
+      ],
+      "quickRef": "استخدم النماذج متعددة الوسائط لمعالجة أنواع مختلفة من البيانات معاً، اختر النموذج المناسب لمشروعك، وقم بتحسين الأداء بتقسيم المهام المعقدة.",
+      "quickRefEn": "Use multimodal models to process different data types together, choose the right model for your project, and improve performance by breaking down complex tasks.",
+      "quiz": [
+        {
+          "q": "ما هي الميزة الرئيسية للنماذج متعددة الوسائط؟",
+          "options": [
+            "القدرة على التعامل مع نوع واحد فقط من البيانات",
+            "التعامل مع أنواع مختلفة من البيانات في آن واحد",
+            "السرعة الفائقة في المعالجة",
+            "استهلاك موارد أقل"
+          ],
+          "answer": 1,
+          "explain": "النماذج متعددة الوسائط تتميز بقدرتها على التعامل مع أنواع مختلفة من البيانات مثل النصوص والصور والصوت في آن واحد، مما يسمح بتطبيقات أكثر تنوعاً وإبداعاً."
+        },
+        {
+          "q": "كيف يمكن تحسين أداء النماذج متعددة الوسائط؟",
+          "options": [
+            "بزيادة حجم المدخلات فقط",
+            "بتقسيم المهام المعقدة إلى خطوات أبسط",
+            "باستخدام نموذج واحد لكل نوع بيانات",
+            "بتقليل عدد التكرارات"
+          ],
+          "answer": 1,
+          "explain": "يمكن تحسين أداء النماذج متعددة الوسائط بتقسيم المهام المعقدة إلى خطوات أبسط، أو استخدام النموذج في تسلسل لتحسين جودة النتائج."
+        },
+        {
+          "q": "أي من الخيارات التالية يمثل نموذجاً متعدد الوسائط؟",
+          "options": [
+            "نموذج يعالج النصوص فقط",
+            "نموذج يعالج الصور فقط",
+            "نموذج يعالج النصوص والصور معاً",
+            "نموذج يعالج البيانات الرقمية فقط"
+          ],
+          "answer": 2,
+          "explain": "النموذج متعدد الوسائتمثل GPT-4V أو Gemini Ultra هو نموذج يمكنه معالجة النصوص والصور معاً، مما يميزه عن النماذج أحادية الوسائط."
+        }
+      ],
+      "addedAt": "2026-10-23"
+    },
+    {
       "id": "k-2026-10-23-بناء-روبوتات-الدردشة-المدعومة-بالذكاء-الاصطناعي-با",
       "title": "بناء روبوتات الدردشة المدعومة بالذكاء الاصطناعي باستخدام نماذج اللغة الكبيرة",
       "titleEn": "Building AI-Powered Chatbots with LLMs",
