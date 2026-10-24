@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-24-ضبط-النماذج-الصغيرة-لمجالات-محددة",
+      "title": "ضبط النماذج الصغيرة لمجالات محددة",
+      "titleEn": "Fine-tuning Small Models for Specific Domains",
+      "why": "يساعد ضبط النماذج الصغيرة على تحقيق أداء أفضل في مهام محددة دون الحاجة إلى موارد كبيرة",
+      "whyEn": "Fine-tuning small models helps achieve better performance on specific tasks without requiring large resources",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد المهمة والمجال",
+          "detail": "حدد المهمة التي تريد تحقيق النموذج لها والمجال المتخصص الذي سيعمل فيه."
+        },
+        {
+          "title": "جمع البيانات المناسبة",
+          "detail": "اجمع مجموعة بيانات متخصصة ومصقلة تتعلق بمجال عملك."
+        },
+        {
+          "title": "تحضير النموذج الأساسي",
+          "detail": "اختر نموذجًا صغيرًا مناسبًا كبداية واعد لهذه المهمة."
+        },
+        {
+          "title": "إعداد البيئة",
+          "detail": "قم بإعداد بيئة البرمجة اللازمة لعملية الضبط."
+        },
+        {
+          "title": "تنفيذ عملية الضبط",
+          "detail": "قم بتدريب النموذج على بياناتك المتخصصة."
+        },
+        {
+          "title": "تقييم النموذج",
+          "detail": "اختبر أداء النموذج بعد الضبط وقم بتعديلات إذا لزم الأمر."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define Task and Domain",
+          "detail": "Identify the specific task you want the model to perform and the specialized domain it will work in."
+        },
+        {
+          "title": "Gather Appropriate Data",
+          "detail": "Collect a curated dataset specific to your domain of interest."
+        },
+        {
+          "title": "Prepare Base Model",
+          "detail": "Select a suitable small model as a starting point for fine-tuning."
+        },
+        {
+          "title": "Set Up Environment",
+          "detail": "Prepare the necessary programming environment for the fine-tuning process."
+        },
+        {
+          "title": "Perform Fine-tuning",
+          "detail": "Train the model on your specialized dataset."
+        },
+        {
+          "title": "Evaluate Model",
+          "detail": "Test the model's performance after fine-tuning and make adjustments if needed."
+        }
+      ],
+      "code": "from transformers import Trainer, TrainingArguments\nfrom transformers import AutoModelForSequenceClassification, AutoTokenizer\n\n# Load base model and tokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained('bert-base-uncased')\ntokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')\n\n# Prepare your dataset\ndataset = [...]  # Your specialized dataset\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    save_steps=10_000,\n    save_total_limit=2,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=dataset,\n    tokenizer=tokenizer,\n)\n\n# Start fine-tuning\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Documentation",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "Stanford CS224n Course",
+          "url": "https://web.stanford.edu/class/cs224n/"
+        },
+        {
+          "name": "Efficient Fine-tuning Paper",
+          "url": "https://arxiv.org/abs/2006.11634"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "التعلم العميق",
+        "نماذج صغيرة",
+        "تخصيص النماذج"
+      ],
+      "quickRef": "ضبط النماذج الصغيرة: اختيار نموذج أساسي، جمع بيانات متخصصة، تدريب وتقييم",
+      "quickRefEn": "Fine-tuning Small Models: Select base model, gather specialized data, train and evaluate",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة؟",
+          "options": [
+            "تقليل حجم النموذج",
+            "تحسين الأداء في مهام محددة",
+            "زيادة سرعة الاستدلال",
+            "تقليل استهلاك الطاقة"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من ضبط النماذج الصلية هو تحسين الأداء في مهام محددة دون الحاجة إلى موارد كبيرة."
+        },
+        {
+          "q": "ما هو الخطوة الأولى في عملية ضبط النموذج؟",
+          "options": [
+            "جمع البيانات",
+            "اختيار النموذج الأساسي",
+            "تحديد المهمة والمجال",
+            "إعداد البيئة البرمجية"
+          ],
+          "answer": 2,
+          "explain": "يجب أن تبدأ بتحديد المهمة والمجال الذي سيعمل فيه النموذج قبل اتخاذ أي خطوات أخرى."
+        },
+        {
+          "q": "ما هي الميزة الرئيسية لضبط النماذج الصغيرة مقارنة بتدريب نماذج جديدة من الصفر؟",
+          "options": [
+            "أداء أفضل دائمًا",
+            "توفير كبير في الموارد والحساب",
+            "دعم للمهام المعقدة فقط",
+            "متطلبات بيانات أقل"
+          ],
+          "answer": 1,
+          "explain": "تتميز عملية ضبط النماذج الصغيرة بتوفير كبير في الموارد والحساب مقارنة بتدريب نماذج جديدة من الصفر."
+        }
+      ],
+      "addedAt": "2026-10-24"
+    },
+    {
       "id": "k-2026-10-23-استخدام-نماذج-الذكاء-الاصطناعي-متعددة-الوسائط",
       "title": "استخدام نماذج الذكاء الاصطناعي متعددة الوسائط",
       "titleEn": "Using Multimodal AI Models",

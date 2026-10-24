@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "date": "2026-10-23",
+      "topHeadlines": [
+        "شراكة استراتيجية بين OpenAI و Google Cloud",
+        "تحظر الولايات DeepSeek من أنظمة الوكالات الحكومية",
+        "يستخدم Uber ChatGPT Work لجميع موظفيه"
+      ]
+    },
+    {
       "date": "2026-10-22",
       "topHeadlines": [
         "إطلاق Gemini 4 أرجون: نموذج Google الجديد للذكاء الاصطناعي",
