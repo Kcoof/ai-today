@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-24T14:40:15.496Z",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T10:17:08.775Z",
   "news": [
     {
-      "id": "n-2026-10-24-2",
+      "id": "n-2026-10-25-1",
       "title": "الولايات المتحدة تحظر DeepSeek من أنظمة الوكالات الحكومية",
-      "titleEn": "US bans DeepSeek from government agency systems",
-      "summary": "أصدرت الولايات المتحدة قراراً بمنع نموذج الذكاء الاصطناعي الصيني DeepSeek من أنظمة الوكالات الحكومية بسبب مخاوف أمنية، مما يمثل تصعيداً في التوتر التكنولوجي بين البلدين.",
-      "summaryEn": "The US has banned Chinese AI model DeepSeek from government agency systems due to security concerns, escalating technological tensions between the two countries.",
+      "titleEn": "US Bans DeepSeek from Government Agency Systems",
+      "summary": "أصدرت الولايات المتحدة قراراً بمنع نموذج الذكاء الاصطناعي DeepSeek من أنظمة الوكالات الحكومية، مما يمثل تصعيداً في التوتر التكنولوجي بين الولايات المتحدة والصين.",
+      "summaryEn": "The United States has banned DeepSeek AI model from government agency systems, marking an escalation in technology tensions between the US and China.",
       "category": "regulation",
       "importance": 5,
       "source": {
@@ -17,40 +17,26 @@
       "publishedAt": "2026-10-20"
     },
     {
-      "id": "n-2026-10-24-1",
+      "id": "n-2026-10-25-2",
       "title": "مونشوت تطلق نموذج Kimi K3.1 Pro بـ 3 تريليون معلمة",
-      "titleEn": "Moonshot AI launches new flagship Kim K3.1 Pro model with 3T parameters",
-      "summary": "أطلقت شركة مونشوت نموذجها الجديد Kimi K3.1 Pro بـ 3 تريليون معلمة، وهو الأحدث في سلسلة K3.1، مع ميزات أمان محسنة للحد من مخاطر الاختراقات الإلكترونية.",
-      "summaryEn": "Moonshot AI has launched its new Kimi K3.1 Pro model with 3 trillion parameters, the latest in the K3.1 series, with enhanced security features to mitigate cyberattack risks.",
+      "titleEn": "Moonshot Launches Kimi K3.1 Pro with 3 Trillion Parameters",
+      "summary": "أطلقت شركة مونشوت النموذج الجديد Kimi K3.1 Pro الذي يحتوي على 3 تريليون معلمة، ويُقال إنه يقترب من مستوى كلود أوبوس 5.5 في الأداء.",
+      "summaryEn": "Moonshot has launched the new Kimi K3.1 Pro model with 3 trillion parameters, reportedly approaching the performance level of Claude Opus 5.5.",
       "category": "models",
-      "importance": 4,
+      "importance": 5,
       "source": {
         "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNE0yTnZ3bmZweG5GVGx6eGV2bTBOR0x6ZEp5TThmR3prQWlhRzdPaWc2Z1FJWEJmc2J6Y1M0SVBsS2VtMHhWS29sNXI0U1R3XzV3YV8tWTh3OEIzNkpJaW1FVkFEcHEwdWtWVzYzVzg4S2lpdFdpWDM2Rm9KS1ZTN2FTclFkcENXeEJZV25hRnM1QUFnNWdvY1VCYkFpeTFSeUJBekwzemNKVjhm?oc=5"
-      },
-      "publishedAt": "2026-10-24"
-    },
-    {
-      "id": "n-2026-10-24-3",
-      "title": "كيمي K3.1 Pro يقترب من مستوى كلود أوبوس 5.5",
-      "titleEn": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
-      "summary": "يظهر نموذج كيمي K3.1 Pro الصيني قدرات متزايدة في المقارنات مع نموذج كلود أوبوس 5.5 من أنثروبيك، مما يشير إلى تقدم سريع في نماذج الذكاء الاصطناعي الصينية.",
-      "summaryEn": "The Chinese Kimi K3.1 Pro model is showing increasing capabilities in comparisons with Anthropic's Claude Opus 5.5, indicating rapid progress in Chinese AI models.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ3hIVEJReWhldnNyNVRzeGhuZjdJNHh6X1dkSG9CbkliWXducy14dlhrdk0yM09mLTJNcmtRak5JRTlCSW5oVm1vVnY0ZDJod0ZZZmxCd2JScllXdHVvLXlLR1BsOFNuLXBsWGhWWjNoMm1tY0FoN3BaM2F4LUpLZjFVNTI4VmNySFBneWNCWFMxSFRDNUhiWW1WVzhITUIy?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5"
       },
       "publishedAt": "2026-10-23"
     },
     {
-      "id": "n-2026-10-24-4",
+      "id": "n-2026-10-25-3",
       "title": "شراكة بين OpenAI وبولندا لتعزيز أمن الذكاء الاصطناعي",
-      "titleEn": "OpenAI and Poland's NASK partner to advance AI safety and security",
-      "summary": "تتعاون OpenAI مع معهد بولندا للبحوث والتنمية الرقمية (NASK) لتطوير معايير أمنية للذكاء الاصطناعي وتعزيز البحث الأمني في المنطقة.",
-      "summaryEn": "OpenAI is partnering with Poland's NASK to develop AI security standards and advance security research in the region.",
-      "category": "tools",
+      "titleEn": "OpenAI and Poland Partner to Enhance AI Safety",
+      "summary": "أعلنت OpenAI عن شراكة مع معهد بولندا NASK لتطوير أمان الذكاء الاصطناعي وأمنه، مع التركيز على البحث التقني في هذا المجال.",
+      "summaryEn": "OpenAI announced a partnership with Poland's NASK to develop AI safety and security, with a focus on technical research in this area.",
+      "category": "companies",
       "importance": 4,
       "source": {
         "name": "OpenAI",
@@ -59,12 +45,12 @@
       "publishedAt": "2026-10-23"
     },
     {
-      "id": "n-2026-10-24-6",
+      "id": "n-2026-10-25-4",
       "title": "مونشوت تقلص قدرات الاختراق في نموذج Kimi",
-      "titleEn": "Moonshot curbs hacking ability in new Kimi model",
-      "summary": "أعلنت شركة مونشوت عن إصدار نموذج كيمي K3.1 الجديد مع ميزات أمان محسنة للحد من مخاطر الاختراقات الإلكترونية المتزايدة في النماذج اللغوية الكبيرة.",
-      "summaryEn": "Moonshot announced the new Kimi K3.1 model with enhanced security features to mitigate growing cyberattack risks in large language models.",
-      "category": "models",
+      "titleEn": "Moonshot Curbs Hacking Ability in Kimi Model",
+      "summary": "رداً على المخاوف المتزايدة من الهجمات الإلكترونية المدعومة بالذكاء الاصطناعي، قامت مونشوت بتقليل قدرات الاختراق في النموذج الجديد Kimi.",
+      "summaryEn": "In response to growing concerns about AI-powered cyberattacks, Moonshot has reduced hacking capabilities in the new Kimi model.",
+      "category": "tools",
       "importance": 4,
       "source": {
         "name": "Moonshot AI (news)",
@@ -73,26 +59,54 @@
       "publishedAt": "2026-10-24"
     },
     {
-      "id": "n-2026-10-24-10",
-      "title": "الولايات المتحدة تطالب الوكالات الفيدرالية بإزالة DeepSeek",
-      "titleEn": "US orders federal agencies to remove China's DeepSeek AI from their systems",
-      "summary": "طورت الولايات المتحدة تعليمات لوكالاتها الفيدرالية بإزالة نموذج الذكاء الاصطناعي الصيني DeepSeek من أنظمتها، مما يمثل توسعاً في الحظر الأمني.",
-      "summaryEn": "The US has developed instructions for federal agencies to remove Chinese AI model DeepSeek from their systems, representing an expansion of the security ban.",
-      "category": "regulation",
+      "id": "n-2026-10-25-5",
+      "title": "Z.ai تستعين باختصاصي أمني صيني بارز",
+      "titleEn": "Z.ai Hires Prominent Chinese Security Specialist",
+      "summary": "انضمت يوكي تشين، المعروف باسم 'هاكر النجمة' في الصين، إلى شركة Z.ai، مما يعزز قدرات الشركة في مجال أمن الذكاء الاصطناعي.",
+      "summaryEn": "Yuki Chen, known as China's 'superstar hacker', has joined Z.ai, enhancing the company's AI security capabilities.",
+      "category": "companies",
       "importance": 4,
       "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1tX0RacFh2aXVWaERGQ1AxTThjRDd3RDZoUXU5ZGxrOU1BYWFnMHhqRmwzLVZWb3NkbWhTYTctcUlqaDVLdXpRdmJXSGRvLUtmV2RORHdLU2RFeFFRWVdybTR4V1BUb3l2eUN0MHBfdlJqQmlYVUkxUlByVEgya1piaXJqaUphN0ZrNFY0dFFlSDRya0JoVC0wcC1uSnN1OUZIbUxVRnVodHBFdGc?oc=5"
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOGlPck5XaEJZeHc4QWhsNjM3OFluMXhLeU5xNFFnNHdzTExLclJiNnhFdGx2eTdrZVZfaFdQWGsxZUVVMW5hYW52RW1oVDRDdDR6MGJQUUNBTEVIcW9BU0dKS2c3OEFZTXFQaW5oQkUwOVVhR0tqLXRYbGtEMUkwRzlvYldBQVJIU2ZOcnVlbG9BUHdGalk3WHpVSXdSZmhZUnQ0UnhYM3NMOWxSTnctM3JEaEtEN1JpUzBrTjZ30gG-AUFVX3lxTE0wVVNCN0p3ZFZnRS0zWEpUWDZMUmVGRS1RV2taRmVibzRfOFpxaXo1bWM0RkFOMmVaOEJvc21ZdzFRZmc4LTNOZHJNT0llZ2tjYXh2eE9JdEVhQ01nVVMyeDVRVXpwYWVZS2NaV2NoVWJDRDNKVGVuNUZqSXI0RmVSM0lVSGNRXzlNUWQ5dUZ5QjREVGVCQ2VPcXRFTVQ0eWVQRU9jWjdPRzcwb1BlM1k2WDZBbEhYQ2JXWmhhYXc?oc=5"
       },
       "publishedAt": "2026-10-20"
     },
     {
-      "id": "n-2026-10-24-5",
-      "title": "أوبير تدمج ChatGPT Work لموظفيها",
-      "titleEn": "Uber brings ChatGPT Work to all employees",
-      "summary": "أطلقت شركة أوبير ChatGPT Work لجميع موظفيها البالغ عددهم أكثر من 30 ألف موظف للمساعدة في البحث وتحليل البيانات، مما يمثل توسعاً كبيراً في استخدام الذكاء الاصطناعي في الشركات.",
-      "summaryEn": "Uber has rolled out ChatGPT Work to all 30,000+ employees to help with research and data analysis, representing significant expansion of AI usage in enterprises.",
+      "id": "n-2026-10-25-6",
+      "title": "هجمات إلكترونية تستخدم Claude و Grok ضد البنوك",
+      "titleEn": "Cyberattacks Using Claude and Grok Target Banks",
+      "summary": "كشفت تقارير عن استخدام قراصنة نماذج Claude و Grok لأتمتة هجمات إلكترونية ضد أكثر من 400 بنك ومؤسسة مالية.",
+      "summaryEn": "Reports reveal that hackers are using Claude and Grok models to automate cyberattacks against over 400 banks and financial institutions.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KVmpwSVRYNXhDMTRzU2dmdlBLNkdsdlVpeWpDZXBMVVFrUXdNQXlUQ3d1RV9oTkFRVmJvbkM0M3k4b1JFOGhVcTZBaWdWMzc4Znc1OVNZZWRkVTZ2cThfbmJNdVNraEY5Vk000gH8AUFVX3lxTE51alFzY3ZGcGlPUUhaLUdZV2JiOEJMeEE5R2RDYmU2cFZHeUQ1c1BwVWhaY1oyUHRTMzJjTnp3U2VsOHVFQ1ZNcUMzazkycjFlNmQtSTZmaFFQZ19EaDJIbTB4akEzajQyOV9EVF83OHJBemhfQTBxOE4tUmtvbUtMaEJWUmtfaHJ0SjZ2WnNtQ0E3VWx3MUZXYlg5NnZSTE51OHNfNHgzc19vakhvNW9aZEd6YnRMczh6YUN6eE1tV0NvOTNZYjE5Tl9LQjhZZnVCak1oNVl4aFRNYzJ2cEVoOU94ZnRWSXdVdWtUb2xxLTFJS3FFdmhWUmVNTQ?oc=5"
+      },
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "n-2026-10-25-7",
+      "title": "Google DeepMind تعاون مع سنغافورة لكشف الاحتيال",
+      "titleEn": "Google DeepMind Collaborates with Singapore for Scam Detection",
+      "summary": "تعاونت Google DeepMind مع حكومة سنغافورة لبناء نموذج ذكاء اصطناعي متخصص لكشف عمليات الاحتيال باستخدام نماذج Gemma خفيفة الوزن.",
+      "summaryEn": "Google DeepMind partnered with the Singapore government to build a specialized AI model for scam detection using lightweight Gemma models.",
       "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+      },
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "id": "n-2026-10-25-8",
+      "title": "أوبير تقدم ChatGPT Work لموظفيها",
+      "titleEn": "Uber Rolls Out ChatGPT Work to Employees",
+      "summary": "بدأت شركة أوبير في توفير ChatGPT Work لأكثر من 30,000 موظفها للمساعدة في الأبحاث والتحليلات وتحسين الإنتاجية.",
+      "summaryEn": "Uber has begun rolling out ChatGPT Work to more than 30,000 employees to help with research, analysis, and productivity improvements.",
+      "category": "companies",
       "importance": 3,
       "source": {
         "name": "OpenAI",
@@ -101,39 +115,53 @@
       "publishedAt": "2026-10-22"
     },
     {
-      "id": "n-2026-10-24-7",
-      "title": "تعاون بين جوجل دمند والحكومة السنغافورية لكشف الاحتيال",
-      "titleEn": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "summary": "يعاون جوجل دمند مع الحكومة السنغافورية في تطوير نموذج خفيف على الأجهزة لكشف عمليات الاحتيال باستخدام نماذج جيما المتخصصة.",
-      "summaryEn": "Google DeepMind is working with the Singapore government to develop a lightweight on-device model for scam detection using specialized Gemma models.",
+      "id": "n-2026-10-25-9",
+      "title": "AT&T تعيد التفكير في العمل القانوني بـ OpenAI",
+      "titleEn": "AT&T Rethinking Legal Work with OpenAI",
+      "summary": "تعمل AT&T مع OpenAI لجعل المعرفة القانونية أسهل في الوصول، من خلال نظام LegalE الذي يعتمد على الذكاء الاصطناعي.",
+      "summaryEn": "AT&T is working with OpenAI to make legal knowledge easier to access through their AI-powered LegalE system.",
       "category": "tools",
       "importance": 3,
       "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
-      },
-      "publishedAt": "2026-10-14"
-    },
-    {
-      "id": "n-2026-10-24-8",
-      "title": "المطورون يفضلون GLM-5.2 على نماذج الذكاء الاصطناعي المتطورة",
-      "titleEn": "Why Some Coders Now Reach for GLM 5.2 Before Frontier AI Models",
-      "summary": "أظهرت دراسة أن بعض المطورين يفضلون استخدام نموذج GLM-5.2 من Z.ai على نماذج الذكاء الاصطناعي المتطورة في مهام البرمجة بسبب كفاءته وتكلفته المنخفضة.",
-      "summaryEn": "A study shows that some developers prefer using Z.ai's GLM-5.2 model over frontier AI models for programming tasks due to its efficiency and lower cost.",
-      "category": "models",
-      "importance": 3,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MOFY4LVM4bzNpdFJjU2ZXNTlvaGJUWG1kOWg0VEw1UUdmYlpsR2x5OUVpdTdNaEs5LTNPdXVjUUhtdTFNRDluRGdOMzlXNVN1d3BzUnJHaUNGRTlOUUk4TVBfVlpSaTRpdkcxVll3?oc=5"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/att-legal"
       },
       "publishedAt": "2026-10-21"
     },
     {
-      "id": "n-2026-10-24-9",
-      "title": "DeepSeek تطلق نموذج V4.1-Flash المحسّن",
-      "titleEn": "DeepSeek releases updated V4.1-Flash model",
-      "summary": "أصدرت شركة DeepSeek تحديثاً لنموذج V4.1-Flash الذي يزيل المهام بشكل أسرع مع استخدام ربع HBM وثمن ذاكرة مقارنة بالنماذج الأخرى.",
-      "summaryEn": "DeepSeek has released an updated V4.1-Flash model that completes tasks faster using only one-quarter of HBM and one-eighth of memory compared to other models.",
+      "id": "n-2026-10-25-10",
+      "title": "مشاكل أمنية في نموذج GLM-5.3",
+      "titleEn": "Security Issues in GLM-5.3 Model",
+      "summary": "أظهرت دراسات أن نقاط الضعف في نموذج GLM-5.3 قد تضاعفت دون تغييرات في النموذج الأساسي، مما يثير مخاوف أمنية.",
+      "summaryEn": "Studies show that exploit scores in the GLM-5.3 model have doubled without changes to the base model, raising security concerns.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUDRjcm1Tb0F1cmJDSW8tLXN1bFA1TDNxT1VTbzh1N2pWemVWaEExaXJoeVBDZU0wX2UxVnFGWHZSTVI1NllSV1pKenJNUlBNczFYdnhwczJLczk0QnJmVXZUTzlRTmpIaW0wZlF0Rng5cG9BNURDdDdQMnQ2LTlpSU1OMEF6MzVW?oc=5"
+      },
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "id": "n-2026-10-25-11",
+      "title": "OpenAI تحمي بيئة تدريب النماذج المتقدمة",
+      "titleEn": "OpenAI Secures Frontier Model Training Environment",
+      "summary": "شرحت OpenAI كيفية تعزيز الاحتواء لتدريب وتقييم النماذج المتقدمة، مع التركيز على الأمان والسلامة.",
+      "summaryEn": "OpenAI explains how it strengthened containment for frontier model training and evaluation, focusing on safety and security.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+      },
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "n-2026-10-25-12",
+      "title": "DeepSeek تطلق V4.1-Flash الأسرع",
+      "titleEn": "DeepSeek Releases Faster V4.1-Flash Model",
+      "summary": "أطلقت DeepSeek النموذج المحدث V4.1-Flash الذي تقول إنه يكمل المهام بشكل أسرع، مع الحفاظ على تكاليف تشغيل منخفضة.",
+      "summaryEn": "DeepSeek has released the updated V4.1-Flash model which it claims completes tasks faster while maintaining low operating costs.",
       "category": "models",
       "importance": 3,
       "source": {
@@ -145,153 +173,165 @@
   ],
   "models": [
     {
-      "id": "m-2026-10-24-1",
+      "id": "m-2026-10-25-1",
       "name": "Kimi K3.1 Pro",
       "org": "Moonshot",
       "releaseDate": "2026-10-23",
-      "highlights": "نموذج جديد بـ 3 تريليون معلمة مع ميزات أمان محسنة للحد من مخاطر الاختراقات الإلكترونية",
-      "highlightsEn": "New model with 3 trillion parameters and enhanced security features to mitigate cyberattack risks",
+      "highlights": "نموذج يحتوي على 3 تريليون معلمة، يقترب من مستوى كلود أوبوس 5.5 في الأداء، مع تحسينات في الأمان.",
+      "highlightsEn": "Model with 3 trillion parameters, approaching Claude Opus 5.5 performance levels, with security improvements.",
       "specs": {
         "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNE0yTnZ3bmZweG5GVGx6eGV2bTBOR0x6ZEp5TThmR3prQWlhRzdPaWc2Z1FJWEJmc2J6Y1M0SVBsS2VtMHhWS29sNXI0U1R3XzV3YV8tWTh3OEIzNkpJaW1FVkFEcHEwdWtWVzYzVzg4S2lpdFdpWDM2Rm9KS1ZTN2FTclFkcENXeEJZV25hRnM1QUFnNWdvY1VCYkFpeTFSeUJBekwzemNKVjhm?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5"
     },
     {
-      "id": "m-2026-10-24-2",
-      "name": "DeepSeek V4.1-Flash",
+      "id": "m-2026-10-25-2",
+      "name": "V4.1-Flash",
       "org": "DeepSeek",
       "releaseDate": "2026-10-18",
-      "highlights": "نموذج محسّن يكمل المهام بشكل أسرع باستخدام ربع HBM وثمن ذاكرة مقارنة بالنماذج الأخرى",
-      "highlightsEn": "Optimized model that completes tasks faster using only one-quarter of HBM and one-eighth of memory compared to other models",
+      "highlights": "نموذج محدث يكمل المهام بشكل أسرع، يستخدم ربع HBM وثمن الموارد مقارنة بالنماذج الأخرى.",
+      "highlightsEn": "Updated model that completes tasks faster, using only one-quarter of HBM and one-eighth of resources compared to other models.",
       "specs": {
-        "context": "128K"
+        "context": "Unknown"
       },
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTVpONkFFTks2bFROQXBrcHBJb1BGczJIbUtaU3hhdTl0Q2M0U1JUWllzUlRzdEJZM3o4UE9UbWFTUlpoQjRIQjY3clhteDRaOFU3emRReDZHVE9NVlBpNlBoMWFzZjIzOXBxazA2TFJhRVRPQ1RHZW9KbDV1MEhwTm1vTW5IVGc1MkdOd1NPaERJbWJRb1JIbDBnLWYwRjAyR251T0hTRkg3d0tCRmF3?oc=5"
     },
     {
-      "id": "m-2026-10-24-3",
+      "id": "m-2026-10-25-3",
       "name": "Grok 4.7",
       "org": "xAI",
       "releaseDate": "2026-10-21",
-      "highlights": "أحدث إصدار من نموذج جروك مع تحسينات في الأداء والوصول من خلال منصة فيكتور",
-      "highlightsEn": "Latest version of the Grok model with performance improvements and access through the Viktor platform",
+      "highlights": "أحدث إصدار من نموذج Grok، مع تحسينات في الأداء والقدرات، متوفر الآن في Viktor.",
+      "highlightsEn": "Latest version of Grok model with performance and capability improvements, now available in Viktor.",
       "specs": {
-        "context": "128K"
+        "context": "Unknown"
       },
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX0JfbG9SS093R256RzVUcHZ6dmVvZDAtMklfOEtJRGVkWlVYRm9zVWpnNEI5eFlyZUZuSzV1VThfRy1UTTdTT0RadUNiaEN3dDJic2lwdG5QUmlWdlBZQ1dpU0NzM3Z3OGk3X29kbEo2dURMSWNSMlpBNkI3VzhqYWR2V1Z5MTB0X2c?oc=5"
     },
     {
-      "id": "m-2026-10-24-4",
-      "name": "Gemini 4 Argon",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-10-13",
-      "highlights": "نموذج جديد مصمم لحل أصعب المشكلات مع التركيز على تطبيقات الروبوتات",
-      "highlightsEn": "New model designed to solve the hardest problems with a focus on robotics applications",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-    },
-    {
-      "id": "m-2026-10-24-5",
+      "id": "m-2026-10-25-4",
       "name": "EmbeddingGemma 2",
       "org": "Google DeepMind",
       "releaseDate": "2026-10-06",
-      "highlights": "نموذج مفتوح المصدر خفيف الوزن متعدد الوسائط للدمج",
-      "highlightsEn": "Open-source, lightweight multimodal embedding model",
+      "highlights": "نموذج تضمين متعدد الوسائط مفتوح المصدر وخفيف الوزن، مصمم للاستخدام في التطبيقات المتنوعة.",
+      "highlightsEn": "Open-source, lightweight multimodal embedding model designed for diverse applications.",
       "specs": {
-        "context": "8K"
+        "context": "Unknown"
       },
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
     },
     {
-      "id": "m-2026-10-24-6",
+      "id": "m-2026-10-25-5",
       "name": "Muse Spark 1.1",
-      "org": "Meta",
-      "releaseDate": "2026-10-01",
-      "highlights": "تحديث لنموذج Muse مع تحسينات في توليد المحتوى الإبداعي",
-      "highlightsEn": "Update to the Muse model with improvements in creative content generation",
+      "org": "Meta AI",
+      "releaseDate": "2026-10-25",
+      "highlights": "نموذج جديد من Meta AI مع تحسينات في قدرات الفهم والإبداع.",
+      "highlightsEn": "New model from Meta AI with improved understanding and creativity capabilities.",
       "specs": {
-        "context": "32K"
+        "context": "Unknown"
       },
       "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+    },
+    {
+      "id": "m-2026-10-25-6",
+      "name": "Qwen3.8-27B",
+      "org": "Qwen",
+      "releaseDate": "2026-10-24",
+      "highlights": "خمس نماذج متطابقة تتطابق مع مستوى Fable 5 باستخدام GVS5H Harness.",
+      "highlightsEn": "Five identical models matching Fable 5 level using GVS5H Harness.",
+      "specs": {
+        "context": "Unknown"
+      },
+      "url": "https://github.com/slee-persis/GVS5H"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-10-24-1",
-      "text": "الولايات المتحدة تحظر نموذج DeepSeek الصيني من أنظمة الوكالات الحكومية",
-      "textEn": "US bans Chinese DeepSeek model from government agency systems",
+      "id": "h-2026-10-25-1",
+      "text": "الولايات المتحدة تحظر DeepSeek من أنظمة الوكالات الحكومية في خطوة تصعيدية في التوتر التكنولوجي مع الصين.",
+      "textEn": "US bans DeepSeek from government agency systems in an escalation of technology tensions with China.",
       "level": "critical",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BMm5ISmplcUtod2txVlV0ajlNUHFPanpRa09GWnBMdjdOaUFCSTZOUXk2SnVNclplakZrckJWZDZTYU96Z3pKTVZieUZiVXkwM3Fza0FibjVLaGhBR2dNMUVwNW1yTllMZlI5R1N6ek1MZXI5OXfSAXtBVV95cUxOMTd2ZFNDSGNCclhSb3lSYl9MdnVtZ3BiYlp6VFQyZUpNR25oNFlsYnRnMThxWmJTZ2tWd3BGWV9PWGFSdHMzMFotTmNpbUFuQzZLaVdkOTJtSmxHeEpLdFcyU013c1dUMktXNWt4blRDZFYzeEk2VkF6WVU?oc=5"
     },
     {
-      "id": "h-2026-10-24-2",
-      "text": "مونشوت تطلق نموذج Kimi K3.1 Pro مع ميزات أمان محسنة",
-      "textEn": "Moonshot launches Kimi K3.1 Pro model with enhanced security features",
+      "id": "h-2026-10-25-2",
+      "text": "مونشوت تطلق نموذج Kimi K3.1 Pro بـ 3 تريليون معلمة، والذي يُقال إنه يقترب من أداء نماذج الذكاء الاصطناعي الرائدة.",
+      "textEn": "Moonshot launches Kimi K3.1 Pro with 3 trillion parameters, reportedly approaching the performance of leading AI models.",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5"
     },
     {
-      "id": "h-2026-10-24-3",
-      "text": "شراكة استراتيجية بين OpenAI وبولندا لتعزيز أمن الذكاء الاصطناعي",
-      "textEn": "Strategic partnership between OpenAI and Poland to enhance AI security",
+      "id": "h-2026-10-25-3",
+      "text": "OpenAI تتعاون مع بولندا لتعزيز أمن الذكاء الاصطناعي، مما يمثل خطوة مهمة نحو التعاون الدولي في هذا المجال.",
+      "textEn": "OpenAI collaborates with Poland to enhance AI safety, representing an important step toward international cooperation in this field.",
       "level": "info",
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-10-24-1",
-      "title": "هاكر يعكس تلفزيون سامسونج ويكتشف حساب OpenAI المسموع",
-      "titleEn": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
-      "summary": "اكتشف باحث أمني أن تلفزيونات سامسونج تحتوي على نظام استماع يعمل بحساب OpenAI تم تعليقه. تمكن الباحث من عكس نظام التلفزيون واكتشاف وجود نموذج ذكاء اصطناعي يعمل على الجهاز.",
-      "summaryEn": "A security researcher discovered that Samsung TVs contain a listening system using a suspended OpenAI account. The researcher was able to reverse the TV system and find an AI model running on the device.",
-      "type": "breach",
+      "id": "sec-2026-10-25-1",
+      "title": "هجمات إلكترونية تستخدم Claude و Grok ضد البنوك",
+      "titleEn": "Cyberattacks Using Claude and Grok Target Banks",
+      "summary": "استخدم قراصنة نماذج Claude و Grok لأتمتة هجمات إلكترونية ضد أكثر من 400 بنك ومؤسسة مالية، مما يسلط الضوء على مخاطر استخدام الذكاء الاصطناعي في الأنشطة الإجرامية.",
+      "summaryEn": "Hackers used Claude and Grok models to automate cyberattacks against over 400 banks and financial institutions, highlighting risks of using AI in criminal activities.",
+      "type": "malware",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KVmpwSVRYNXhDMTRzU2dmdlBLNkdsdlVpeWpDZXBMVVFrUXdNQXlUQ3d1RV9oTkFRVmJvbkM0M3k4b1JFOGhVcTZBaWdWMzc4Znc1OVNZZWRkVTZ2cThfbmJNdVNraEY5Vk000gH8AUFVX3lxTE51alFzY3ZGcGlPUUhaLUdZV2JiOEJMeEE5R2RDYmU2cFZHeUQ1c1BwVWhaY1oyUHRTMzJjTnp3U2VsOHVFQ1ZNcUMzazkycjFlNmQtSTZmaFFQZ19EaDJIbTB4akEzajQyOV9EVF83OHJBemhfQTBxOE4tUmtvbUtMaEJWUmtfaHJ0SjZ2WnNtQ0E3VWx3MUZXYlg5NnZSTE51OHNfNHgzc19vakhvNW9aZEd6YnRMczh6YUN6eE1tV0NvOTNZYjE5Tl9LQjhZZnVCak1oNVl4aFRNYzJ2cEVoOU94ZnRWSXdVdWtUb2xxLTFJS3FFdmhWUmVNTQ?oc=5",
+      "source": "xAI (news)",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "sec-2026-10-25-2",
+      "title": "مونشوت تقلص قدرات الاختراق في نموذج Kimi",
+      "titleEn": "Moonshot Curbs Hacking Ability in Kimi Model",
+      "summary": "رداً على المخاوف المتزايدة، قامت مونشوت بتقليل قدرات الاختراق في النموذج الجديد Kimi، مما يمثل خطوة نحو نماذج أكثر أماناً.",
+      "summaryEn": "In response to growing concerns, Moonshot has reduced hacking capabilities in the new Kimi model, representing a step toward more secure models.",
+      "type": "policy",
       "severity": "warning",
-      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
-      "source": "Hacker News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5",
+      "source": "Moonshot AI (news)",
       "date": "2026-10-24"
     },
     {
-      "id": "sec-2026-10-24-2",
-      "title": "إطار عمل LLM-Attacker لتقييم الخصوصية",
-      "titleEn": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation",
-      "summary": "تم إطلاق إطار عمل LLM-Attacker لتقييم خصوصية الأنظمة الموزعة والمقسمة للنماذج اللغوية الكبيرة. يوفر هذا الإطار أداة موحدة لاختبار نقاط الضعف في أنظمة الذكاء الاصطناعي.",
-      "summaryEn": "The LLM-Attacker framework has been released for evaluating privacy in split and distributed LLM systems. This framework provides a unified tool for testing vulnerabilities in AI systems.",
-      "type": "policy",
-      "severity": "info",
-      "url": "https://huggingface.co/papers/2610.22722",
-      "source": "HF Papers",
-      "date": "2026-10-14"
+      "id": "sec-2026-10-25-3",
+      "title": "مشاكل أمنية في نموذج GLM-5.3",
+      "titleEn": "Security Issues in GLM-5.3 Model",
+      "summary": "أظهرت دراسات أن نقاط الضعف في نموذج GLM-5.3 قد تضاعفت دون تغييرات في النموذج الأساسي، مما يثير مخاوف حول أمان النماذج المفتوحة المصدر.",
+      "summaryEn": "Studies show that exploit scores in the GLM-5.3 model have doubled without changes to the base model, raising concerns about open-source model security.",
+      "type": "backdoor",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUDRjcm1Tb0F1cmJDSW8tLXN1bFA1TDNxT1VTbzh1N2pWemVWaEExaXJoeVBDZU0wX2UxVnFGWHZSTVI1NllSV1pKenJNUlBNczFYdnhwczJLczk0QnJmVXZUTzlRTmpIaW0wZlF0Rng5cG9BNURDdDdQMnQ2LTlpSU1OMEF6MzVW?oc=5",
+      "source": "Z.ai (news)",
+      "date": "2026-10-18"
     },
     {
-      "id": "sec-2026-10-24-3",
-      "title": "مخاطر الأبواب الخلفية في نماذج الذكاء الاصطناعي المفتوحة",
-      "titleEn": "Backdooring Open-Weight AI Models",
-      "summary": "أظهر بحث أن أي نموذج مفتوح المصدر تم تعديل أوزانه يمكن أن يحتوي على باب خلفي، مما يمثل خطراً أمنياً كبيراً على النماذج المفتوحة المصدر.",
-      "summaryEn": "Research shows that any open model whose weights have been edited can carry a backdoor, posing a significant security risk to open-source models.",
+      "id": "sec-2026-10-25-4",
+      "title": "شهادات TLS معقدة في الهند",
+      "titleEn": "Compromised TLS Certificates in India",
+      "summary": "اكتشفت شهادات TLS مع ثواني خاصة ضعيفة لدى سلطة الشهادات الهندية eMudhra Limited، مما يمثل تهديداً لأمن البنية التحتية الرقمية.",
+      "summaryEn": "Laughably weak private keys found in eight TLS certificates from Indian CA eMudhra Limited, posing a threat to digital infrastructure security.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "sec-2026-10-25-5",
+      "title": "احتمالية وجود خلفيات في نماذج الذكاء الاصطناعي المفتوحة",
+      "titleEn": "Potential Backdoors in Open AI Models",
+      "summary": "أي نموذج مفتوح المصدر تم تعديل أوزانه يمكن أن يحمل خلفية، حتى لو تم التحقق من الأوزان الأصلية، مما يمثل خطراً أمنياً كبيراً.",
+      "summaryEn": "Any open model whose weights have been edited can carry a backdoor, even if original weights were verified, representing a significant security risk.",
       "type": "backdoor",
       "severity": "critical",
       "url": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
       "source": "Schneier on Security",
       "date": "2026-10-16"
-    },
-    {
-      "id": "sec-2026-10-24-4",
-      "title": "تطور ثغرة HTTP2Shell",
-      "titleEn": "Node2Shell evolves to HTTP2Shell",
-      "summary": "تطور الثغرة الأمنية Node2Shell إلى HTTP2Shell، مما يؤثر على العديد من مكتبات HTTP والتطبيقات. الثغرة تسمح بتنفيذ تعليمات برمجية عن بعد عبر بروتوكول HTTP/2.",
-      "summaryEn": "The Node2Shell security vulnerability has evolved into HTTP2Shell, affecting many HTTP libraries and applications. The vulnerability allows remote code execution via the HTTP/2 protocol.",
-      "type": "breach",
-      "severity": "warning",
-      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
-      "source": "Hacker News",
-      "date": "2026-10-24"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-10-24",
+    "asOf": "2026-10-25",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
@@ -317,7 +357,7 @@
       },
       {
         "name": "Claude Mythos Preview",
-        "org": "Anthropic",
+        "org": "UNRELEASED Anthropic",
         "score": "54.5"
       },
       {
@@ -326,12 +366,12 @@
         "score": "53.8"
       },
       {
-        "name": "GPT-6.1 Sol 1",
+        "name": "GPT-6.1 Sol",
         "org": "OpenAI",
         "score": "53.6"
       },
       {
-        "name": "GPT-5.6 Sol 1",
+        "name": "GPT-5.6 Sol",
         "org": "OpenAI",
         "score": "53.3"
       },
@@ -342,131 +382,123 @@
       },
       {
         "name": "Muse Wonder Full",
-        "org": "Meta",
+        "org": "NEW Meta",
         "score": "53.2"
       }
     ],
-    "highlights": "تتصدر Anthropic القائمة بأربع نماذج في أفضل 10، بينما يتصدر GPT-6 Astra في التفكير المنطقي. Gemini 3.1 Pro هو الأرخص في قائمة أفضل 10 بسعر 2.00 دولار/مليون رمز، بينما يمتلك Grok-4 أكبر نافذة سياق عند 2.0 مليون رمز، ويحتفظ Gemini 3.7 Flash بأعلى سرعة إخراج عند 410 رمز/ثانية.",
-    "highlightsEn": "Anthropic leads with four models in the top 10, while GPT-6 Astra leads in reasoning. Gemini 3.1 Pro is the cheapest in the top 10 at $2.00/M token, while Grok-4 has the largest context window at 2.0M tokens, and Gemini 3.7 Flash maintains the highest output speed at 410 tok/s."
+    "highlights": "تظهر المنافسة الشديدة في المراكز العليا حيث يحتل نموذج Muse Wonder Full الجديد من ميتا المركز العاشم متساوياً مع Claude Fable 5.1 من أنثروبيك. بينما يواصل أنثروبيه السيطرة على المراكز الثلاثة الأولى مع نموذجي Claude Opus 5.5 و Claude Sonnet 5.5.",
+    "highlightsEn": "There's intense competition at the top positions with Meta's new Muse Wonder Full model tying for 10th place with Claude Fable 5.1 from Anthropic. Meanwhile, Anthropic continues to dominate the top three positions with Claude Opus 5.5 and Claude Sonnet 5.5."
   },
   "knowledgeEntry": {
-    "id": "k-2026-10-24-ضبط-النماذج-الصغيرة-لمجالات-محددة",
-    "title": "ضبط النماذج الصغيرة لمجالات محددة",
-    "titleEn": "Fine-tuning Small Models for Specific Domains",
-    "why": "يساعد ضبط النماذج الصغيرة على تحقيق أداء أفضل في مهام محددة دون الحاجة إلى موارد كبيرة",
-    "whyEn": "Fine-tuning small models helps achieve better performance on specific tasks without requiring large resources",
+    "id": "k-2026-10-25-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً",
+    "title": "تشغيل نماذج الذكاء الاصطناعي محلياً",
+    "titleEn": "Running Local AI Models",
+    "why": "تتيح لك تشغيل نماذج الذكاء الاصطناعي على جهازك الخاص التحكم الكامل في بياناتك، والعمل بدون اتصال بالإنترنت، وتجنب تكاليف الاشتراك في الخدمات السحابية.",
+    "whyEn": "Running AI models locally gives you full control over your data, enables offline work, and avoids subscription costs for cloud services.",
     "difficulty": "intermediate",
-    "track": "building",
+    "track": "tools",
     "steps": [
       {
-        "title": "تحديد المهمة والمجال",
-        "detail": "حدد المهمة التي تريد تحقيق النموذج لها والمجال المتخصص الذي سيعمل فيه."
+        "title": "اخيار النموذج المناسب",
+        "detail": "اختر نموذجاً صغير الحجم يناسب قدرات جهازك مثل Llama 3 8B أو Mistral 7B. تأكد من توافق النموذج مع نظام التشغيل الخاص بك."
       },
       {
-        "title": "جمع البيانات المناسبة",
-        "detail": "اجمع مجموعة بيانات متخصصة ومصقلة تتعلق بمجال عملك."
+        "title": "تثبيت المتطلبات الأساسية",
+        "detail": "قم بتثبيت Python و pip ثم قم بتثبيت مكتبات مثل transformers و torch أو llama-cpp-python حسب نوع النموذج الذي اخترته."
       },
       {
-        "title": "تحضير النموذج الأساسي",
-        "detail": "اختر نموذجًا صغيرًا مناسبًا كبداية واعد لهذه المهمة."
+        "title": "تنزيل النموذج",
+        "detail": "قم بتنزيل ملفات النموذج من مصدر موثوق مثل Hugging Face. تأكد من وجود مساحة كافية على القرص الصلب."
       },
       {
-        "title": "إعداد البيئة",
-        "detail": "قم بإعداد بيئة البرمجة اللازمة لعملية الضبط."
+        "title": "تشغيل النموذج",
+        "detail": "استخدم الكود المقدم لتشغيل النموذج محلياً. يمكنك تعديل المعلمات مثل درجة الحرارة (temperature) وطول النص الناتج حسب احتياجاتك."
       },
       {
-        "title": "تنفيذ عملية الضبط",
-        "detail": "قم بتدريب النموذج على بياناتك المتخصصة."
-      },
-      {
-        "title": "تقييم النموذج",
-        "detail": "اختبر أداء النموذج بعد الضبط وقم بتعديلات إذا لزم الأمر."
+        "title": "تحسين الأداء",
+        "detail": "استخدم تقنيات مثل الكمون (quantization) لتقليل حجم النموذج وتسريع التشغيل، أو استخدم GPU إذا كان متوفراً لتحسين الأداء."
       }
     ],
     "stepsEn": [
       {
-        "title": "Define Task and Domain",
-        "detail": "Identify the specific task you want the model to perform and the specialized domain it will work in."
+        "title": "Choose the Right Model",
+        "detail": "Select a small-sized model that matches your device's capabilities like Llama 3 8B or Mistral 7B. Ensure the model is compatible with your operating system."
       },
       {
-        "title": "Gather Appropriate Data",
-        "detail": "Collect a curated dataset specific to your domain of interest."
+        "title": "Install Prerequisites",
+        "detail": "Install Python and pip, then install libraries like transformers and torch or llama-cpp-python depending on your chosen model type."
       },
       {
-        "title": "Prepare Base Model",
-        "detail": "Select a suitable small model as a starting point for fine-tuning."
+        "title": "Download the Model",
+        "detail": "Download model files from a trusted source like Hugging Face. Make sure you have sufficient disk space available."
       },
       {
-        "title": "Set Up Environment",
-        "detail": "Prepare the necessary programming environment for the fine-tuning process."
+        "title": "Run the Model",
+        "detail": "Use the provided code to run the model locally. You can adjust parameters like temperature and output length according to your needs."
       },
       {
-        "title": "Perform Fine-tuning",
-        "detail": "Train the model on your specialized dataset."
-      },
-      {
-        "title": "Evaluate Model",
-        "detail": "Test the model's performance after fine-tuning and make adjustments if needed."
+        "title": "Optimize Performance",
+        "detail": "Use techniques like quantization to reduce model size and speed up execution, or use GPU if available to improve performance."
       }
     ],
-    "code": "from transformers import Trainer, TrainingArguments\nfrom transformers import AutoModelForSequenceClassification, AutoTokenizer\n\n# Load base model and tokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained('bert-base-uncased')\ntokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')\n\n# Prepare your dataset\ndataset = [...]  # Your specialized dataset\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    save_steps=10_000,\n    save_total_limit=2,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=dataset,\n    tokenizer=tokenizer,\n)\n\n# Start fine-tuning\ntrainer.train()",
+    "code": "from transformers import AutoModelForCausalLM, AutoTokenizer\nimport torch\n\nmodel_name = \"meta-llama/Llama-3-8B-Instruct\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16, device_map=\"auto\")\n\nprompt = \"Explain quantum computing in simple terms\"\ninputs = tokenizer(prompt, return_tensors=\"pt\").to(\"cuda\")\n\noutputs = model.generate(**inputs, max_new_tokens=150)\nprint(tokenizer.decode(outputs[0], skip_special_tokens=True))",
     "resources": [
       {
-        "name": "Hugging Face Documentation",
-        "url": "https://huggingface.co/docs/transformers/training"
+        "name": "Hugging Face Models",
+        "url": "https://huggingface.co/models"
       },
       {
-        "name": "Stanford CS224n Course",
-        "url": "https://web.stanford.edu/class/cs224n/"
+        "name": "Ollama Documentation",
+        "url": "https://github.com/ollama/ollama"
       },
       {
-        "name": "Efficient Fine-tuning Paper",
-        "url": "https://arxiv.org/abs/2006.11634"
+        "name": "LocalAI GitHub",
+        "url": "https://github.com/go-skynet/LocalAI"
       }
     ],
     "tags": [
-      "ضبط النماذج",
-      "التعلم العميق",
-      "نماذج صغيرة",
-      "تخصيص النماذج"
+      "محلي",
+      "نماذج مفتوحة المصدر",
+      "أدوات",
+      "أداء"
     ],
-    "quickRef": "ضبط النماذج الصغيرة: اختيار نموذج أساسي، جمع بيانات متخصصة، تدريب وتقييم",
-    "quickRefEn": "Fine-tuning Small Models: Select base model, gather specialized data, train and evaluate",
+    "quickRef": "اختر نموذجاً صغيراً، قم بتثبيت المتطلبات، تنزيل النموذج، تشغيله وتحسين الأداء",
+    "quickRefEn": "Choose a small model, install prerequisites, download the model, run it, and optimize performance",
     "quiz": [
       {
-        "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة؟",
+        "q": "ما هو النوع الأفضل من النماذج لتشغيلها محلياً على جهاز عادي؟",
         "options": [
-          "تقليل حجم النموذج",
-          "تحسين الأداء في مهام محددة",
-          "زيادة سرعة الاستدلال",
-          "تقليل استهلاك الطاقة"
-        ],
-        "answer": 1,
-        "explain": "الهدف الرئيسي من ضبط النماذج الصلية هو تحسين الأداء في مهام محددة دون الحاجة إلى موارد كبيرة."
-      },
-      {
-        "q": "ما هو الخطوة الأولى في عملية ضبط النموذج؟",
-        "options": [
-          "جمع البيانات",
-          "اختيار النموذج الأساسي",
-          "تحديد المهمة والمجال",
-          "إعداد البيئة البرمجية"
+          "نماذج ضخمة مثل GPT-4",
+          "نماذج متوسطة الحجم مثل Claude 2",
+          "نماذج صغيرة الحجم مثل Llama 3 8B",
+          "نماذج متخصصة في مهام محددة"
         ],
         "answer": 2,
-        "explain": "يجب أن تبدأ بتحديد المهمة والمجال الذي سيعمل فيه النموذج قبل اتخاذ أي خطوات أخرى."
+        "explain": "نماذج صغيرة الحجم مثل Llama 3 8B هي الأفضل لتشغيلها محلياً على جهاز عادي لأنها تتطلب ذاكرة أقل وقدرة حسابية أقل."
       },
       {
-        "q": "ما هي الميزة الرئيسية لضبط النماذج الصغيرة مقارنة بتدريب نماذج جديدة من الصفر؟",
+        "q": "ما هي تقنية التحسين التي يمكن استخدامها لتقليل حجم النموذج وتسريع التشغيل؟",
         "options": [
-          "أداء أفضل دائمًا",
-          "توفير كبير في الموارد والحساب",
-          "دعم للمهام المعقدة فقط",
-          "متطلبات بيانات أقل"
+          "التوسيع (Scaling)",
+          "الكمون (Quantization)",
+          "التدريب (Fine-tuning)",
+          "التضمين (Embedding)"
         ],
         "answer": 1,
-        "explain": "تتميز عملية ضبط النماذج الصغيرة بتوفير كبير في الموارد والحساب مقارنة بتدريب نماذج جديدة من الصفر."
+        "explain": "الكمون (Quantization) هي تقنية تقلل من دقة الأرقام المستخدمة في النموذج، مما يقلل من حجمه ويحسن من سرعة التشغيل."
+      },
+      {
+        "q": "أي من الخيارات التالية ليس متطلباً أساسياً لتشغيل نماذج الذكاء الاصطناعي محلياً؟",
+        "options": [
+          "Python",
+          "pip",
+          "GPU قوي",
+          "مكتبة transformers"
+        ],
+        "answer": 2,
+        "explain": "GPU قوي ليس متطلباً أساسياً لتشغيل نماذج الذكاء الاصطناعي محلياً، حيث يمكن تشغيلها على وحدات المعالجة المركزية (CPU) رغم أن ذلك قد يكون أبطأ."
       }
     ],
-    "addedAt": "2026-10-24"
+    "addedAt": "2026-10-25"
   }
 }
