@@ -1,6 +1,114 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-25-كتابة-أوامر-فعالة-لنماذج-الذكاء-الاصطناعي",
+      "title": "كتابة أوامر فعالة لنماذج الذكاء الاصطناعي",
+      "titleEn": "Writing Effective AI Model Prompts",
+      "why": "الأوامر الفعالة تضمن نتائج دقيقة ومفيدة من نماذج الذكاء الاصطناعي، وتحسن كفاءة التفاعل معها، وتوفر الوقت والموارد.",
+      "whyEn": "Effective prompts ensure accurate and useful results from AI models, improve interaction efficiency, and save time and resources.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "حدد هدفك بوضوح",
+          "detail": "قبل كتابة الأمر، حدد بوضوح ما تريد تحقيقه من النموذج. كن محدداً في طلبك وتفاصيله."
+        },
+        {
+          "title": "استخدم السياق المناسب",
+          "detail": "قدم معلومات كافية عن السياق والخلفية التي تحتاجها النموذج لفهم طلبك بشكل صحيح."
+        },
+        {
+          "title": "حدد تنسيق المخرجات",
+          "detail": "اطلب من النموذج تنظيم المخرجات بطريقة معينة، مثل قائمة، جدول، أو فقرة منظمة."
+        },
+        {
+          "title": "استخدم أمثلة توضيحية",
+          "detail": "قدم أمثلة توضيحية إذا كان ذلك مناسبًا للمساعدة في توضيح نوع الإجابة التي تتوقعها."
+        },
+        {
+          "title": "اطلب التوضيح عند الحاجة",
+          "detail": "إذا كانت الإجابة غير واضحة أو غير كاملة، اطلب توضيحًا إضافيًا أو تعديلاً في الأمر."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Clearly define your goal",
+          "detail": "Before writing the prompt, clearly define what you want to achieve with the model. Be specific in your request and its details."
+        },
+        {
+          "title": "Use appropriate context",
+          "detail": "Provide sufficient information about the context and background needed for the model to understand your request correctly."
+        },
+        {
+          "title": "Specify output format",
+          "detail": "Request the model to organize the output in a specific way, such as a list, table, or organized paragraph."
+        },
+        {
+          "title": "Use illustrative examples",
+          "detail": "Provide illustrative examples if appropriate to help clarify the type of response you expect."
+        },
+        {
+          "title": "Request clarification when needed",
+          "detail": "If the response is unclear or incomplete, request additional clarification or modify the prompt."
+        }
+      ],
+      "code": "def create_effective_prompt(goal, context=None, format=None, examples=None):\n    prompt = f\"\"\"Goal: {goal}\n    \"\"\"\n    \n    if context:\n        prompt += f\"Context: {context}\n    \"\"\"\n    \n    if format:\n        prompt += f\"Format: {format}\n    \"\"\"\n    \n    if examples:\n        prompt += f\"Examples: {examples}\n    \"\"\"\n    \n    return prompt",
+      "resources": [
+        {
+          "name": "Prompt Engineering Guide",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "name": "OpenAI Prompt Engineering Best Practices",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        }
+      ],
+      "tags": [
+        "الذكاء الاصطناعي",
+        "كتابة الأوامر",
+        "التفاعل مع النماذج",
+        "تحسين النتائج"
+      ],
+      "quickRef": "حدد الهدف، استخدم السياق، حدد التنسيق، استخدم الأمثلة، اطلب التوضيح عند الحاجة",
+      "quickRefEn": "Define goal, use context, specify format, use examples, request clarification when needed",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في كتابة أمر فعال لنموذج الذكاء الاصطناعي؟",
+          "options": [
+            "استخدام لغة معقدة ومتخصصة",
+            "تحديد الهدف بوضوح",
+            "جعل الأمر طويلاً ومفصلاً",
+            "تجديد ذكر النموذج عدة مرات"
+          ],
+          "answer": 1,
+          "explain": "تحديد الهدف بوضوح هو العنصر الأهم لأنه يوجه النموذج نحو ما تريد تحقيقه بدقة."
+        },
+        {
+          "q": "ما هو أفضل طلب لتنسيق المخرجات من نموذج الذكاء الاصطناعي؟",
+          "options": [
+            "دع النموذج يقرر التنسيق بنفسه",
+            "اطلب قائمة مرقمة",
+            "اطلب جدول مع عناوين واضحة",
+            "اطلب فقرة واحدة طويلة"
+          ],
+          "answer": 2,
+          "explain": "طلب جدول مع عناوين واضحة يوفر تنظيمًا أفضل للمعلومات ويسهل القراءة والفهم."
+        },
+        {
+          "q": "متى يجب استخدام الأمثلة في الأوامر؟",
+          "options": [
+            "دائمًا في كل الأوامر",
+            "عندما يكون الطلب معقدًا",
+            "عندما لا يعرف النموذج ما تطلبه",
+            "فقط عند العمل مع نماذج جديدة"
+          ],
+          "answer": 1,
+          "explain": "الأمثلة مفيدة بشكل خاص عندما يكون الطلب معقدًا أو عندما تحتاج إلى توضيح نوع الإجابة المتوقعة."
+        }
+      ],
+      "addedAt": "2026-10-25"
+    },
+    {
       "id": "k-2026-10-25-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً",
       "title": "تشغيل نماذج الذكاء الاصطناعي محلياً",
       "titleEn": "Running Local AI Models",
