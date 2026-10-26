@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-26-ضبط-النماذج-الصغيرة-لمجالات-محددة",
+      "title": "ضبط النماذج الصغيرة لمجالات محددة",
+      "titleEn": "Fine-tuning Small Models for Specific Domains",
+      "why": "ضبط النماذج الصغيرة لمجالات محددة يسمح بتخصيص النموذج لتحقيق أداء أفضل في مهام محددة مع الحفاظ على كفاءة تشغيلية عالية.",
+      "whyEn": "Fine-tuning small models for specific domains allows you to customize the model for better performance on specific tasks while maintaining high operational efficiency.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد النموذج الأساسي ومجال التخصص",
+          "detail": "اختر نموذجاً صغيراً مناسباً لمجال عملك، مثل DistilBERT أو TinyBERT للنصوص، أو MobileNet للصور، وحدد المهام التي تريد تحسينها."
+        },
+        {
+          "title": "إعداد مجموعة البيانات المتخصصة",
+          "detail": "أنشئ مجموعة بيانات عالية الجودة تحتوي على أمثلة تمثل المهام التي تريد تحسينها، وتأكد من تنسيق البيانات بشكل صحيح."
+        },
+        {
+          "title": "إعداد بيئة التدريب",
+          "detail": "اختر إطار عمل مناسب مثل Hugging Face Transformers أو PyTorch، وقم بتثبيت المكتبات اللازمة، واعدل إعدادات التدريب مثل حجم الدفعة ومعدل التعلم."
+        },
+        {
+          "title": "تنفيذ عملية الضبط",
+          "detail": "قم بتدريب النموذج على مجموعة البيانات المتخصصة، مع مراقبة مؤشرات الأداء مثل دقة التنبؤ وخسارة التدريب، وقم بضبط المعلمات حسب الحاجة."
+        },
+        {
+          "title": "تقييم النموذج المضبوط",
+          "detail": "اختبر النموذج على مجموعة بيانات اختبار لقياس التحسن في الأداء، وقارن بالنموذج الأساسي لتحديد الفوائد الحقيقية لعملية الضبط."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select Base Model and Domain",
+          "detail": "Choose a suitable small model for your domain, such as DistilBERT or TinyBERT for text, or MobileNet for images, and identify the tasks you want to improve."
+        },
+        {
+          "title": "Prepare Domain-Specific Dataset",
+          "detail": "Create a high-quality dataset containing examples that represent the tasks you want to improve, and ensure the data is properly formatted."
+        },
+        {
+          "title": "Set Up Training Environment",
+          "detail": "Choose an appropriate framework like Hugging Face Transformers or PyTorch, install necessary libraries, and adjust training settings like batch size and learning rate."
+        },
+        {
+          "title": "Perform Fine-tuning Process",
+          "detail": "Train the model on the specialized dataset, monitoring performance metrics like prediction accuracy and training loss, and adjust parameters as needed."
+        },
+        {
+          "title": "Evaluate Fine-tuned Model",
+          "detail": "Test the model on a test set to measure improvement in performance, and compare with the base model to determine the actual benefits of fine-tuning."
+        }
+      ],
+      "code": "from transformers import DistilBertTokenizer, DistilBertForSequenceClassification, Trainer, TrainingArguments\n\n# Load model and tokenizer\nmodel = DistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased')\ntokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')\n\n# Prepare dataset\ntexts = ['Your domain-specific texts']\nlabels = [0, 1, 2, ...]  # Your labels\nencodings = tokenizer(texts, truncation=True, padding=True)\n\nclass Dataset(torch.utils.data.Dataset):\n    def __init__(self, encodings, labels):\n        self.encodings = encodings\n        self.labels = labels\n    \n    def __getitem__(self, idx):\n        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}\n        item['labels'] = torch.tensor(self.labels[idx])\n        return item\n    \n    def __len__(self):\n        return len(self.labels)\n\ndataset = Dataset(encodings, labels)\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=64,\n    warmup_steps=500,\n    weight_decay=0.01,\n    logging_dir='./logs',\n    logging_steps=10,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=dataset,\n)\n\n# Fine-tune the model\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Tutorial",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "DistilBERT Documentation",
+          "url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
+        },
+        {
+          "name": "Fine-tuning Best Practices",
+          "url": "https://huggingface.co/docs/transformers/training_best_practices"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "التعلم العميق",
+        "معالجة اللغة الطبيعية",
+        "التعلم غير الخاضع للإشراف"
+      ],
+      "quickRef": "اختر النموذج، جهز البيانات، اعدد البيئة، قم بالضبط، قيّم النتائج",
+      "quickRefEn": "Select model, prepare data, set up environment, perform fine-tuning, evaluate results",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة لمجالات محددة؟",
+          "options": [
+            "زيادة حجم النموذج",
+            "تحسين الأداء في مهام محددة مع الحفاظ على الكفاءة",
+            "استهلاك موارد أكثر",
+            "استخدام نماذج أكبر فقط"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي هو تحسين الأداء في مهام محددة مع الحفاظ على الكفاءة التشغيلية للنموذج الصغير، مما يسمح بتخصيص النموذج لمجال معين دون الحاجة إلى نماذج ضخمة."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في عملية ضبط النموذج؟",
+          "options": [
+            "إعداد مجموعة البيانات",
+            "اختيار النموذج الأساسي ومجال التخصص",
+            "تنفيذ عملية الضبط",
+            "تقييم النموذج المضبوط"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى هي اختيار النموذج الأساسي ومجال التخصص، لأن هذا يحدد اتجاه عملية الضبط بأكملها ويؤثر على جميع الخطوات اللاحقة."
+        },
+        {
+          "q": "ما هو الفائدة الرئيسية لاستخدام نماذج صغيرة بعدد أقل من المعلمات؟",
+          "options": [
+            "دقة أعلى فقط",
+            "سرعة تشغيل أسرع واستهلاك موارد أقل",
+            "قدرة أكبر على فهم السياق",
+            "تكلفة تدريب أعلى"
+          ],
+          "answer": 1,
+          "explain": "الفائدة الرئيسية هي سرعة تشغيل أسرع واستهلاك موارد أقل، مما يجعلها مناسبة للتطبيقات التي تتطلب استجابة سريعة أو تشغيل على أجهزة محدودة الموارد."
+        }
+      ],
+      "addedAt": "2026-10-26"
+    },
+    {
       "id": "k-2026-10-25-كتابة-أوامر-فعالة-لنماذج-الذكاء-الاصطناعي",
       "title": "كتابة أوامر فعالة لنماذج الذكاء الاصطناعي",
       "titleEn": "Writing Effective AI Model Prompts",
