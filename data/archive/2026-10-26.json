@@ -1,0 +1,454 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T11:26:38.862Z",
+  "news": [
+    {
+      "id": "n-2026-10-26-2",
+      "title": "قراصنة يستخدمون Claude و Grok لأتمتة هجمات على أكثر من 400 بنك",
+      "titleEn": "Hackers Used Claude and Grok to Automate Cyberattacks",
+      "summary": "تم استخدام نماذج الذكاء الاصطناعي Claude و Grok لأتمتة هجمات متطورة على أكثر من 400 مؤسسة مالية، مما يسلط الضوء على مخاطر أمنية جديدة في عالم الذكاء الاصطناعي.",
+      "summaryEn": "Hackers have leveraged AI models Claude and Grok to automate sophisticated cyberattacks against over 400 financial institutions, highlighting new security risks in the AI landscape.",
+      "category": "tools",
+      "importance": 5,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KVmpwSVRYNXhDMTRzU2dmdlBLNkdsdlVpeWpDZXBMVVFrUXdNQXlUQ3d1RV9oTkFRVmJvbkM0M3k4b1JFOGhVcTZBaWdWMzc4Znc1OVNZZWRkVTZ2cThfbmJNdVNraEY5Vk000gH8AUFVX3lxTE51alFzY3ZGcGlPUUhaLUdZV2JiOEJMeEE5R2RDYmU2cFZHeUQ1c1BwVWhaY1oyUHRTMzJjTnp3U2VsOHVFQ1ZNcUMzazkycjFlNmQtSTZmaFFQZ19EaDJIbTB4akEzajQyOV9EVF83OHJBemhfQTBxOE4tUmtvbUtMaEJWUmtfaHJ0SjZ2WnNtQ0E3VWx3MUZXYlg5NnZSTE51OHNfNHgzc19vakhvNW9aZEd6YnRMczh6YUN6eE1tV0NvOTNZYjE5Tl9LQjhZZnVCak1oNVl4aFRNYzJ2cEVoOU94ZnRWSXdVdWtUb2xxLTFJS3FFdmhWUmVNTQ?oc=5"
+      },
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "n-2026-10-26-8",
+      "title": "الولايات المتحدة تمنع نموذج DeepSeek الصيني من أنظمة الوكالات الحكومية",
+      "titleEn": "US bans Chinese AI DeepSeek from government systems",
+      "summary": "فرضت الولايات المتحدة حظرًا على استخدام نموذج الذكاء الاصطناعي DeepSeek الصيني في أنظمة الوكالات الحكومية بسبب مخاوف أمنية.",
+      "summaryEn": "US imposed a ban on using Chinese AI model DeepSeek in government agency systems due to security concerns.",
+      "category": "regulation",
+      "importance": 5,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BMm5ISmplcUtod2txVlV0ajlNUHFPanpRa09GWnBMdjdOaUFCSTZOUXk2SnVNclplakZrckJWZDZTYU96Z3pKTVZieUZiVXkwM3Fza0FibjVLaGhBR2dNMUVwNW1yTllMZlI5R1N6ek1MZXI5OXfSAXtBVV95cUxOMTd2ZFNDSGNCclhSb3lSYl9MdnVtZ3BiYlp6VFQyZUpNR25oNFlsYnRnMThxWmJTZ2tWd3BGWV9PWGFSdHMzMFotTmNpbUFuQzZLaVdkOTJtSmxHeEpLdFcyU013c1dUMktXNWt4blRDZFYzeEk2VkF6WVU?oc=5"
+      },
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "id": "n-2026-10-26-1",
+      "title": "مونشوت تقيّم قدرات القرصنة في نموذج Kimي الجديد",
+      "titleEn": "Moonshot curbs hacking ability in new Kimi model",
+      "summary": "أعلنت شركة مونشوت عن تقييد قدرات القرصنة في نموذج Kimi الجديد لمواجهة المخاطر المتزايدة لهجمات السيبرانيا المدعومة بالذكاء الاصطناعي.",
+      "summaryEn": "Moonshot announced curbing hacking capabilities in its new Kimi model to address growing risks of AI-powered cyberattacks.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5"
+      },
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "id": "n-2026-10-26-3",
+      "title": "OpenAI توسع البنية التحتية لتخزين ChatGPT لخدمة مليار مستخدم",
+      "titleEn": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "summary": "كشفت OpenAI عن كيفية توسيع Habitat مع تعدد المستأجرين الموثوق والتجزئة العالمية وخدمات Azure Cosmos لخدمة مليار مستخدم.",
+      "summaryEn": "OpenAI reveals how it scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos services to serve 1 billion users.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+      },
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "n-2026-10-26-4",
+      "title": "OpenAI تعزز أمان بيئة تدريب النماذج المتقدمة",
+      "titleEn": "Securing our frontier model training environment",
+      "summary": "تشرح OpenAI كيف قامت بتعزيز الإجراءات الاحترازية لتدريب وتقييم النماذج المتقدمة لضمان السلامة والأمان.",
+      "summaryEn": "OpenAI explains how it strengthened containment measures for training and evaluating advanced models to ensure safety and security.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+      },
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "n-2026-10-26-6",
+      "title": "تعاون بين DeepMind والحكومة السنغافورية لنموذج كشف الاحتيال",
+      "titleEn": "DeepMind and Singapore Government collaborate on scam detection",
+      "summary": "يستخدم DeepMind والحكومة السنغافورية نماذج Gemma خفيفة الوزن على الأجهزة لكشف عمليات الاحتيال بشكل فعال.",
+      "summaryEn": "DeepMind and Singapore Government use lightweight on-device Gemma models for effective scam detection.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+      },
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "id": "n-2026-10-26-7",
+      "title": "مونشوت تطلق نموذج Kimi K3.1 Pro الجديد سلسلة K3.1",
+      "titleEn": "Moonshot releases new Kimi K3.1 Pro model",
+      "summary": "أطلقت مونشوت النموذج الجديد Kimi K3.1 Pro الذي يحتوي على 3 تريليون بارامتر ويقترب من أداء Claude Opus 5.5.",
+      "summaryEn": "Moonshot launched the new Kimi K3.1 Pro model with 3 trillion parameters, approaching Claude Opus 5.5 performance.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5"
+      },
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "n-2026-10-26-5",
+      "title": "شراكة بين OpenAI و NASK البولندية لتعزيز سلامة الذكاء الاصطناعي",
+      "titleEn": "OpenAI and Poland's NASK partner to advance AI safety",
+      "summary": "تتعاون OpenAI مع NASK البولندية في مجال سلامة وأمن الذكاء الاصطناعي والبحوث التقنية لتعزيز المعايير العالمية.",
+      "summaryEn": "OpenAI partners with Poland's NASK on AI safety, security, and technical research to enhance global standards.",
+      "category": "regulation",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+      },
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "n-2026-10-26-9",
+      "title": "DeepSeek تفتح مصدر برنامج DeepInfer لتشغيل نماذج الذكاء الاصطناعي",
+      "titleEn": "DeepSeek open-sources DeepInfer software",
+      "summary": "أعلنت DeepSeek عن فتح مصدر برنامج DeepInfer لتشغيل نماذج الذكاء الاصطناعي بكفاءة أكبر وتقليل التكاليف.",
+      "summaryEn": "Deep announced open-sourcing DeepInfer software for running AI models more efficiently and reducing costs.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IRHJQZVBMMTdReU1BbHdBX3JfNnZ4MUxfUEhZQnhzcW9zbklPa0xZZmxHWlMxeUg5QXExYld5NS02ZU1iWUlMeFdadjVpTFk2eWxLS00yR3lUMm9obl9jbE43RF8wQjZjWVlQSWpuN2J0eWN2dFdxckJDWU9ISDQ?oc=5"
+      },
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "id": "n-2026-10-26-10",
+      "title": "Grok 4.7 متاح الآن في Viktor: ما تحتاج إلى معرفته",
+      "titleEn": "Grok 4.7 Is Now in Viktor",
+      "summary": "أصبح إصدار Grok 4.7 متاحًا في Viktor مع ميزات محسنة وقدرات محسنة.",
+      "summaryEn": "Grok 4.7 is now available in Viktor with enhanced features and improved capabilities.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX0JfbG9SS093R256RzVUcHZ6dmVvZDAtMklfOEtJRGVkWlVYRm9zVWpnNEI5eFlyZUZuSzV1VThfRy1UTTdTT0RadUNiaEN3dDJic2lwdG5QUmlWdlBZQ1dpU0NzM3Z3OGk3X29kbEo2dURMSWNSMlpBNkI3VzhqYWR2V1Z5MTB0X2c?oc=5"
+      },
+      "publishedAt": "2026-10-21"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-10-26-1",
+      "name": "Kimi K3.1 Pro",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-10-23",
+      "highlights": "نموذج بـ 3 تريليون بارامتر، يقترب من أداء Claude Opus 5.5، مع تقييد قدرات القرصنة",
+      "highlightsEn": "3 trillion parameter model approaching Claude Opus 5.5 performance with curbed hacking capabilities",
+      "specs": {
+        "context": "long context window"
+      },
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5"
+    },
+    {
+      "id": "m-2026-10-26-2",
+      "name": "DeepInfer",
+      "org": "DeepSeek",
+      "releaseDate": "2026-10-20",
+      "highlights": "برنامج مفتوح المصدر لتشغيل نماذج الذكاء الاصطناعي بكفاءة وتقليل التكاليف",
+      "highlightsEn": "Open-source software for running AI models efficiently and reducing costs",
+      "specs": {
+        "efficiency": "optimized for low resource usage"
+      },
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IRHJQZVBMMTdReU1BbHdBX3JfNnZ4MUxfUEhZQnhzcW9zbklPa0xZZmxHWlMxeUg5QXExYld5NS02ZU1iWUlMeFdadjVpTFk2eWxLS00yR3lUMm9obl9jbE43RF8wQjZjWVlQSWpuN2J0eWN2dFdxckJDWU9ISDQ?oc=5"
+    },
+    {
+      "id": "m-2026-10-26-3",
+      "name": "Grok 4.7",
+      "org": "xAI",
+      "releaseDate": "2026-09-21",
+      "highlights": "نسخة محسنة من نموذج Grok مع ميزات جديدة وتحيز سياسي يميل للحزب الجمهوري",
+      "highlightsEn": "Enhanced version of Grok model with new features and Republican-leaning political bias",
+      "specs": {
+        "political_bias": "leans Republican"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX0JfbG9SS093R256RzVUcHZ6dmVvZDAtMklfOEtJRGVkWlVYRm9zVWpnNEI5eFlyZUZuSzV1VThfRy1UTTdTT0RadUNiaEN3dDJic2lwdG5QUmlWdlBZQ1dpU0NzM3Z3OGk3X29kbEo2dURMSWNSMlpBNkI3VzhqYWR2V1Z5MTB0X2c?oc=5"
+    },
+    {
+      "id": "m-2026-10-26-4",
+      "name": "Shieldstral",
+      "org": "Mistral AI",
+      "releaseDate": "2026-08-04",
+      "highlights": "نموذج مركز على الأمان مع ميزات أمان محسنة",
+      "highlightsEn": "Security-focused model with enhanced safety features",
+      "specs": {
+        "security": "enhanced safety features"
+      },
+      "url": "https://mistral.ai/news/shieldstral/"
+    },
+    {
+      "id": "m-2026-10-26-5",
+      "name": "EmbeddingGemma 2",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-10-06",
+      "highlights": "نموذج تضمين متعدد الوسائط خفيف الوزير ومفتوح المصدر",
+      "highlightsEn": "Open, lightweight multimodal embedding model",
+      "specs": {
+        "size": "lightweight",
+        "type": "embedding"
+      },
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
+    },
+    {
+      "id": "m-2026-10-26-6",
+      "name": "Timestral",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-26",
+      "highlights": "نموذج احتمالي متقدم بـ 209 مليون بارامتر، يتجاوز النماذج الأكبر في التوقعات الاحتمالية",
+      "highlightsEn": "State-of-the-art probabilistic forecasts with 209M parameters, outperforming larger models",
+      "specs": {
+        "size": "209M",
+        "specialization": "probabilistic forecasting"
+      },
+      "url": "https://mistral.ai/news/timestral/"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-10-26-1",
+      "text": "الولايات المتحدة تمنع نموذج الذكاء الاصطناعي DeepSeek الصيني من أنظمة الوكالات الحكومية",
+      "textEn": "US bans Chinese AI DeepSeek from government agency IT systems",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BMm5ISmplcUtod2txVlV0ajlNUHFPanpRa09GWnBMdjdOaUFCSTZOUXk2SnVNclplakZrckJWZDZTYU96Z3pKTVZieUZiVXkwM3Fza0FibjVLaGhBR2dNMUVwNW1yTllMZlI5R1N6ek1MZXI5OXfSAXtBVV95cUxOMTd2ZFNDSGNCclhSb3lSYl9MdnVtZ3BiYlp6VFQyZUpNR25oNFlsYnRnMThxWmJTZ2tWd3BGWV9PWGFSdHMzMFotTmNpbUFuQzZLaVdkOTJtSmxHeEpLdFcyU013c1dUMktXNWt4blRDZFYzeEk2VkF6WVU?oc=5"
+    },
+    {
+      "id": "h-2026-10-26-2",
+      "text": "مونشوت تقيّم قدرات القرصنة في نموذج Kimi الجديد مع مخاوف متزايدة حول هجمات السيبرانيا المدعومة بالذكاء الاصطناعي",
+      "textEn": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
+      "level": "warning",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5"
+    },
+    {
+      "id": "h-2026-10-26-3",
+      "text": "شراكة بين OpenAI و NASK البولندية لتعزيز سلامة وأمن الذكاء الاصطناعي",
+      "textEn": "OpenAI and Poland's NASK partner to advance AI safety and security",
+      "level": "info",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-10-26-1",
+      "title": "قراصنة يستخدمون Claude و Grok لأتمتة هجمات على أكثر من 400 بنك",
+      "titleEn": "Hackers Used Claude and Grok to Automate Cyberattacks",
+      "summary": "تم استخدام نماذج الذكاء الاصطناعي Claude و Grok لأتمتة هجمات متطورة على أكثر من 400 مؤسسة مالية، مما يسلط الضوء على مخاطر أمنية جديدة في عالم الذكاء الاصطناعي.",
+      "summaryEn": "Hackers have leveraged AI models Claude and Grok to automate sophisticated cyberattacks against over 400 financial institutions, highlighting new security risks in the AI landscape.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KVmpwSVRYNXhDMTRzU2dmdlBLNkdsdlVpeWpDZXBMVVFrUXdNQXlUQ3d1RV9oTkFRVmJvbkM0M3k4b1JFOGhVcTZBaWdWMzc4Znc1OVNZZWRkVTZ2cThfbmJNdVNraEY5Vk000gH8AUFVX3lxTE51alFzY3ZGcGlPUUhaLUdZV2JiOEJMeEE5R2RDYmU2cFZHeUQ1c1BwVWhaY1oyUHRTMzJjTnp3U2VsOHVFQ1ZNcUMzazkycjFlNmQtSTZmaFFQZ19EaDJIbTB4akEzajQyOV9EVF83OHJBemhfQTBxOE4tUmtvbUtMaEJWUmtfaHJ0SjZ2WnNtQ0E3VWx3MUZXYlg5NnZSTE51OHNfNHgzc19vakhvNW9aZEd6YnRMczh6YUN6eE1tV0NvOTNZYjE5Tl9LQjhZZnVCak1oNVl4aFRNYzJ2cEVoOU94ZnRWSXdVdWtUb2xxLTFJS3FFdmhWUmVNTQ?oc=5",
+      "source": "xAI (news)",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "sec-2026-10-26-2",
+      "title": "مونشوت تقيّم قدرات القرصنة في نموذج Kimi الجديد",
+      "titleEn": "Moonshot curbs hacking ability in new Kimi model",
+      "summary": "أعلنت شركة مونشوت عن تقييد قدرات القرصنة في نموذج Kimi الجديد لمواجهة المخاطر المتزايدة لهجمات السيبرانيا المدعومة بالذكاء الاصطناعي.",
+      "summaryEn": "Moonshot announced curbing hacking capabilities in its new Kimi model to address growing risks of AI-powered cyberattacks.",
+      "type": "malware",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5",
+      "source": "Moonshot AI (news)",
+      "date": "2026-10-24"
+    },
+    {
+      "id": "sec-2026-10-26-3",
+      "title": "تدريب نماذج الذكاء الاصطناعي لحل CAPTCHAs",
+      "titleEn": "Training AIs to Solve CAPTCHAs",
+      "summary": "أظهرت الأبحاث أن نماذج رؤية ولغة الذكاء الاصطناعي يمكنها حل اختبارات CAPTCHA البصرية بنجاح، مما يمثل تحديًا جديدًا لآليات التحقق من المستخدمين.",
+      "summaryEn": "Research shows that vision-language AI models can successfully solve visual CAPTCHA tests, presenting a new challenge for user verification mechanisms.",
+      "type": "prompt-injection",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-19"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-10-26",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "60.4"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "58.4"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "58.2"
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "org": "Google",
+        "score": "55.1"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "54.5"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "53.8"
+      },
+      {
+        "name": "GPT-6.1 Sol",
+        "org": "OpenAI",
+        "score": "53.6"
+      },
+      {
+        "name": "GPT-5.6 Sol",
+        "org": "OpenAI",
+        "score": "53.3"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "53.2"
+      },
+      {
+        "name": "Muse Wonder Full",
+        "org": "Meta",
+        "score": "53.2"
+      }
+    ],
+    "highlights": "يتميز GPT-6 Astra بأعلى أداء في مهارات التفكير المنطقي بنسبة 96.0% في اختبار GPQA، بينما يتفوق Gemini 3.1 Pro كأرخص نموذج في قائمة العشرة الأوائل بسعر 2.00 دولار لكل مليون رمز. كما يمتلك Grok-4 أكبر نافذة سياق تصل إلى 2.0 مليون رمز، بينما يتفوق Gemini 3.7 Flash في سرعة الإخراج بـ 410 رمز/ثانية.",
+    "highlightsEn": "GPT-6 Astra stands out with the highest reasoning performance at 96.0% on the GPQA benchmark, while Gemini 3.1 Pro excels as the cheapest model in the top 10 at $2.00 per million tokens. Grok-4 also boasts the largest context window at 2.0M tokens, while Gemini 3.7 Flash leads in output speed at 410 tok/s."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-10-26-ضبط-النماذج-الصغيرة-لمجالات-محددة",
+    "title": "ضبط النماذج الصغيرة لمجالات محددة",
+    "titleEn": "Fine-tuning Small Models for Specific Domains",
+    "why": "ضبط النماذج الصغيرة لمجالات محددة يسمح بتخصيص النموذج لتحقيق أداء أفضل في مهام محددة مع الحفاظ على كفاءة تشغيلية عالية.",
+    "whyEn": "Fine-tuning small models for specific domains allows you to customize the model for better performance on specific tasks while maintaining high operational efficiency.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "تحديد النموذج الأساسي ومجال التخصص",
+        "detail": "اختر نموذجاً صغيراً مناسباً لمجال عملك، مثل DistilBERT أو TinyBERT للنصوص، أو MobileNet للصور، وحدد المهام التي تريد تحسينها."
+      },
+      {
+        "title": "إعداد مجموعة البيانات المتخصصة",
+        "detail": "أنشئ مجموعة بيانات عالية الجودة تحتوي على أمثلة تمثل المهام التي تريد تحسينها، وتأكد من تنسيق البيانات بشكل صحيح."
+      },
+      {
+        "title": "إعداد بيئة التدريب",
+        "detail": "اختر إطار عمل مناسب مثل Hugging Face Transformers أو PyTorch، وقم بتثبيت المكتبات اللازمة، واعدل إعدادات التدريب مثل حجم الدفعة ومعدل التعلم."
+      },
+      {
+        "title": "تنفيذ عملية الضبط",
+        "detail": "قم بتدريب النموذج على مجموعة البيانات المتخصصة، مع مراقبة مؤشرات الأداء مثل دقة التنبؤ وخسارة التدريب، وقم بضبط المعلمات حسب الحاجة."
+      },
+      {
+        "title": "تقييم النموذج المضبوط",
+        "detail": "اختبر النموذج على مجموعة بيانات اختبار لقياس التحسن في الأداء، وقارن بالنموذج الأساسي لتحديد الفوائد الحقيقية لعملية الضبط."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Select Base Model and Domain",
+        "detail": "Choose a suitable small model for your domain, such as DistilBERT or TinyBERT for text, or MobileNet for images, and identify the tasks you want to improve."
+      },
+      {
+        "title": "Prepare Domain-Specific Dataset",
+        "detail": "Create a high-quality dataset containing examples that represent the tasks you want to improve, and ensure the data is properly formatted."
+      },
+      {
+        "title": "Set Up Training Environment",
+        "detail": "Choose an appropriate framework like Hugging Face Transformers or PyTorch, install necessary libraries, and adjust training settings like batch size and learning rate."
+      },
+      {
+        "title": "Perform Fine-tuning Process",
+        "detail": "Train the model on the specialized dataset, monitoring performance metrics like prediction accuracy and training loss, and adjust parameters as needed."
+      },
+      {
+        "title": "Evaluate Fine-tuned Model",
+        "detail": "Test the model on a test set to measure improvement in performance, and compare with the base model to determine the actual benefits of fine-tuning."
+      }
+    ],
+    "code": "from transformers import DistilBertTokenizer, DistilBertForSequenceClassification, Trainer, TrainingArguments\n\n# Load model and tokenizer\nmodel = DistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased')\ntokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')\n\n# Prepare dataset\ntexts = ['Your domain-specific texts']\nlabels = [0, 1, 2, ...]  # Your labels\nencodings = tokenizer(texts, truncation=True, padding=True)\n\nclass Dataset(torch.utils.data.Dataset):\n    def __init__(self, encodings, labels):\n        self.encodings = encodings\n        self.labels = labels\n    \n    def __getitem__(self, idx):\n        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}\n        item['labels'] = torch.tensor(self.labels[idx])\n        return item\n    \n    def __len__(self):\n        return len(self.labels)\n\ndataset = Dataset(encodings, labels)\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    per_device_eval_batch_size=64,\n    warmup_steps=500,\n    weight_decay=0.01,\n    logging_dir='./logs',\n    logging_steps=10,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=dataset,\n)\n\n# Fine-tune the model\ntrainer.train()",
+    "resources": [
+      {
+        "name": "Hugging Face Fine-tuning Tutorial",
+        "url": "https://huggingface.co/docs/transformers/training"
+      },
+      {
+        "name": "DistilBERT Documentation",
+        "url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
+      },
+      {
+        "name": "Fine-tuning Best Practices",
+        "url": "https://huggingface.co/docs/transformers/training_best_practices"
+      }
+    ],
+    "tags": [
+      "ضبط النماذج",
+      "التعلم العميق",
+      "معالجة اللغة الطبيعية",
+      "التعلم غير الخاضع للإشراف"
+    ],
+    "quickRef": "اختر النموذج، جهز البيانات، اعدد البيئة، قم بالضبط، قيّم النتائج",
+    "quickRefEn": "Select model, prepare data, set up environment, perform fine-tuning, evaluate results",
+    "quiz": [
+      {
+        "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة لمجالات محددة؟",
+        "options": [
+          "زيادة حجم النموذج",
+          "تحسين الأداء في مهام محددة مع الحفاظ على الكفاءة",
+          "استهلاك موارد أكثر",
+          "استخدام نماذج أكبر فقط"
+        ],
+        "answer": 1,
+        "explain": "الهدف الرئيسي هو تحسين الأداء في مهام محددة مع الحفاظ على الكفاءة التشغيلية للنموذج الصغير، مما يسمح بتخصيص النموذج لمجال معين دون الحاجة إلى نماذج ضخمة."
+      },
+      {
+        "q": "ما هي الخطوة الأولى في عملية ضبط النموذج؟",
+        "options": [
+          "إعداد مجموعة البيانات",
+          "اختيار النموذج الأساسي ومجال التخصص",
+          "تنفيذ عملية الضبط",
+          "تقييم النموذج المضبوط"
+        ],
+        "answer": 1,
+        "explain": "الخطوة الأولى هي اختيار النموذج الأساسي ومجال التخصص، لأن هذا يحدد اتجاه عملية الضبط بأكملها ويؤثر على جميع الخطوات اللاحقة."
+      },
+      {
+        "q": "ما هو الفائدة الرئيسية لاستخدام نماذج صغيرة بعدد أقل من المعلمات؟",
+        "options": [
+          "دقة أعلى فقط",
+          "سرعة تشغيل أسرع واستهلاك موارد أقل",
+          "قدرة أكبر على فهم السياق",
+          "تكلفة تدريب أعلى"
+        ],
+        "answer": 1,
+        "explain": "الفائدة الرئيسية هي سرعة تشغيل أسرع واستهلاك موارد أقل، مما يجعلها مناسبة للتطبيقات التي تتطلب استجابة سريعة أو تشغيل على أجهزة محدودة الموارد."
+      }
+    ],
+    "addedAt": "2026-10-26"
+  }
+}

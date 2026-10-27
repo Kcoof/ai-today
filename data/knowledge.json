@@ -1,6 +1,103 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-27-هندسة-الأوامر-لتحسين-استجابات-الذكاء-الاصطناعي",
+      "title": "هندسة الأوامر لتحسين استجابات الذكاء الاصطناعي",
+      "titleEn": "Prompt Engineering for Better AI Responses",
+      "why": "هندسة الأوامر تتيح لك الحصول على إجابات أكثر دقة وملاءمة من نماذج الذكاء الاصطناعي، مما يقلل من الحاجة إلى التعديلات المتكررة ويوفر الوقت.",
+      "whyEn": "Prompt engineering allows you to get more accurate and relevant responses from AI models, reducing the need for repeated revisions and saving time.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم نموذج الذكاء الاصطناعي المستهدف",
+          "detail": "دراسة خصائص النموذج وقوته وضعفه. كل نموذج له حساسية مختلفة لطريقة صياغة الأوامر."
+        },
+        {
+          "title": "تحديد الهدف بوضوح",
+          "detail": "اذكر بوضوح ما تريد تحقيقه من خلال الأمر. استخدم أفعالاً محددة مثل 'اكتب'، 'اقترح'، 'قارن'، 'اشرح'."
+        },
+        {
+          "title": "توفير السياق الكافي",
+          "detail": "قدم معلومات كافية عن الموضوع والمتطلبات. استخدم أمثلة توضيحية إذا لزم الأمر."
+        },
+        {
+          "title": "تحديد تنسيق المخرجات",
+          "detail": "اذكر كيف تريد تنظيم الإجابة، مثل 'باستخدام نقاط'، 'كملخص'، 'كجدول'، أو 'خطوة بخطوة'."
+        },
+        {
+          "title": "التكرار والتحسين",
+          "detail": "جرب أوامر مختلفة وقم بتعديلها بناءً على النتائج. أضف تفاصيل أو قيود إذا كانت الإجابة غير دقيقة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand the target AI model",
+          "detail": "Study the model's characteristics, strengths, and weaknesses. Each model has different sensitivities to prompt formulation."
+        },
+        {
+          "title": "Clearly define the objective",
+          "detail": "Clearly state what you want to achieve with the prompt. Use specific verbs like 'write', 'suggest', 'compare', 'explain'."
+        },
+        {
+          "title": "Provide sufficient context",
+          "detail": "Give enough information about the topic and requirements. Use illustrative examples if necessary."
+        },
+        {
+          "title": "Specify output format",
+          "detail": "Indicate how you want the response organized, such as 'using bullet points', 'as a summary', 'in a table', or 'step by step'."
+        },
+        {
+          "title": "Iterate and refine",
+          "detail": "Try different prompts and adjust them based on results. Add details or constraints if the response is inaccurate."
+        }
+      ],
+      "code": "def create_effective_prompt(task, context, format=\"text\"):\n    prompt = f\"Task: {task}\\n\\nContext: {context}\\n\\nFormat: {format}\"\n    return prompt\n\n# Example usage\nresult = create_effective_prompt(\n    task=\"Explain quantum computing in simple terms\",\n    context=\"For a high school student with basic physics knowledge\",\n    format=\"bullet points\"\n)\nprint(result)",
+      "resources": [
+        {
+          "name": "Prompt Engineering Guide",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "name": "OpenAI Prompt Engineering Best Practices",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        }
+      ],
+      "tags": [
+        "هندسة الأوامر",
+        "تحسين النتائج",
+        "كفاءة الذكاء الاصطناعي",
+        "تقنيات التوجيه"
+      ],
+      "quickRef": "استخدم أوامر واضحة مع سياف كافي وتحديد تنسيق المخرجات لتحسين جودة استجابات الذكاء الاصطناعي.",
+      "quickRefEn": "Use clear prompts with sufficient context and specify output format to improve AI response quality.",
+      "quiz": [
+        {
+          "q": "ما هو العامل الأهم في هندسة الأوامر لتحسين استجابات الذكاء الاصطناعي؟",
+          "options": [
+            "استخدام كلمات معقدة",
+            "تحديد الهدف بوضوح",
+            "جعل الأمر قصيراً جداً",
+            "استخدام لغة عامية فقط"
+          ],
+          "answer": 1,
+          "explain": "تحديد الهدف بوضوح هو العامل الأهم لأنه يوجه الذكاء الاصطناعي نحو ما تريد تحقيقه بدقة."
+        },
+        {
+          "q": "كيف يمكنك تحسين استجابة نموذج الذكاء الاصطناعي إذا كانت غير دقيقة؟",
+          "options": [
+            "تغيير نموذج الذكاء الاصطناعي فقط",
+            "إضافة المزيد من السياق والتفاصيل",
+            "استخدام أوامر أقصر",
+            "إيقاف استخدام النموذج"
+          ],
+          "answer": 1,
+          "explain": "إضافة المزيد من السياق والتفاصيل يساعد النموذج على فهم متطلباتك بشكل أفضل وتقديم إجابة أكثر دقة."
+        }
+      ],
+      "addedAt": "2026-10-27"
+    },
+    {
       "id": "k-2026-10-26-ضبط-النماذج-الصغيرة-لمجالات-محددة",
       "title": "ضبط النماذج الصغيرة لمجالات محددة",
       "titleEn": "Fine-tuning Small Models for Specific Domains",
