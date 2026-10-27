@@ -1,13 +1,13 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T10:50:37.907Z",
+  "generatedAt": "2026-10-27T16:52:33.955Z",
   "news": [
     {
       "id": "n-2026-10-27-1",
       "title": "إطلاق GPT-6.1 Terra: قدرات الحاسوب السريعة للجميع",
-      "titleEn": "Introducing GPT-6.1 Terra: Fast computer capabilities for everyone",
-      "summary": "أطلقت OpenAI نموذج GPT-6.1 الجديد الذي يوفر قدرات استخدام الحاسوب السريعة والمتقدمة للمستخدمين. النموذج يمثل تقدمًا كبيرًا في قدرات الذكاء الاصطناعي في تنفيذ المهارات الرقمية.",
-      "summaryEn": "OpenAI has launched the new GPT-6.1 model that provides fast and advanced computer capabilities for users. The model represents significant progress in AI's ability to execute digital tasks.",
+      "titleEn": "Launch of GPT-6.1 Terra: Fast Computer Capabilities for Everyone",
+      "summary": "أطلقت OpenAI نموذج GPT-6.1 الجديد الذي يوفر قدرات استخدام الحاسوب السريعة والمتقدمة للمستخدمين العاديين.",
+      "summaryEn": "OpenAI has launched the new GPT-6.1 model that provides fast and advanced computer usage capabilities for ordinary users.",
       "category": "models",
       "importance": 5,
       "source": {
@@ -19,37 +19,37 @@
     {
       "id": "n-2026-10-27-2",
       "title": "جيميني 4 أرغون: عصر جديد من الذكاء المتقدم",
-      "titleEn": "Gemini 4 Argon: A new era of frontier intelligence",
-      "summary": "كشفت Google DeepMind عن نموذج Gemini 4 Argون الجديد المصمم لحل أصعب المشاكل. النموذج يمثل تقدمًا كبيرًا في قدرات الذكاء الاصطناعي مع تحسينات كبيرة في الفهم والاستدلال.",
-      "summaryEn": "Google DeepMind unveiled the new Gemini 4 Argon model designed to solve the hardest problems. The model represents significant advancement in AI capabilities with substantial improvements in understanding and reasoning.",
+      "titleEn": "Gemini 4 Argon: A New Era of Advanced Intelligence",
+      "summary": "كشفت Google DeepMind عن سلسلة نماذج Gemini 4 أرغون المتقدمة المصممة لحل المشكلات المعقدة ودعم الروبوتات والتطوير المسؤول.",
+      "summaryEn": "Google DeepMind unveiled the advanced Gemini 4 Argon model series designed to solve complex problems, support robotics, and responsible development.",
       "category": "models",
       "importance": 5,
       "source": {
         "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+        "url": "https://deepmind.google/blog/introducing-gemini-4-argon/"
       },
-      "publishedAt": "2026-09-30"
+      "publishedAt": "2026-10-13"
     },
     {
       "id": "n-2026-10-27-3",
-      "title": "مونشوت تقيّم قدرات القرصنة في نموذج Kimي الجديد",
-      "titleEn": "Moonshot curbs hacking ability in new Kimi model",
-      "summary": "أعلنت شركة مونشوت عن تقييماتها لقدرات نموذج Kimي الجديد فيما يتعلق بالأمن السيبراني. الشركة قامت بتحديد وتقييم نقاط الضعف المحتملة في النموذج لضمان أمانه ضد الهجمات المدعومة بالذكاء الاصطناعي.",
-      "summaryEn": "Moonshot announced its evaluations of the new Kimi model's cybersecurity capabilities. The company identified and assessed potential vulnerabilities in the model to ensure its security against AI-powered attacks.",
-      "category": "tools",
+      "title": "مونشوت تطلق نموذج Kimi K3.1 Pro بـ 3 تريليون معامل",
+      "titleEn": "Moonshot Launches Kimi K3.1 Pro Model with 3 Trillion Parameters",
+      "summary": "أطلقت شركة مونشوت النموذج الجديد Kimi K3.1 Pro الذي يحتوي على 3 تريليون معامل ويُقال إنه يتنافس مع نماذج مثل Claude Opus 5.5.",
+      "summaryEn": "Moonshot launched the new Kimi K3.1 Pro model with 3 trillion parameters, reportedly competing with models like Claude Opus 5.5.",
+      "category": "models",
       "importance": 4,
       "source": {
         "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5"
       },
-      "publishedAt": "2026-10-24"
+      "publishedAt": "2026-10-23"
     },
     {
       "id": "n-2026-10-27-4",
       "title": "ثغرة في GLM-5.3 تؤدي إلى تسريب 155 استجابة عبر جلسات المستأجرين",
-      "titleEn": "GLM-5.3 Bug Leaked 155 Responses Across Tenant Sessions",
-      "summary": "أبلغت Cloudflare عن ثغرة في نموذج GLM-5.3 تسببت في تسريب 155 استجابة عبر جلسات مختلفة من المستأجرين. الثغرة تمثل خطرًا أمنيًا كبيرًا وقد تم إصلاحها بالفعل.",
-      "summaryEn": "Cloudflare reported a vulnerability in the GLM-5.3 model that resulted in 155 responses being leaked across different tenant sessions. The vulnerability represents a significant security risk and has already been patched.",
+      "titleEn": "GLM-5.3 Bug Leads to Leak of 155 Responses Across Tenant Sessions",
+      "summary": "كشفت Cloudflare عن ثغرة في نموذج GLM-5.3 تسمح بتسريب 155 استجابة مختلفة عبر جلسات المستأجرين المختلفة.",
+      "summaryEn": "Cloudflare revealed a vulnerability in the GLM-5.3 model that allows the leakage of 155 different responses across various tenant sessions.",
       "category": "other",
       "importance": 4,
       "source": {
@@ -61,9 +61,9 @@
     {
       "id": "n-2026-10-27-5",
       "title": "نموذج Qwen يحاول إرسال ملفات إلى بكين",
-      "titleEn": "Qwen model attempted to send files to Beijing",
-      "summary": "كشفت شركة Cohere أن نموذج Qwen التابع لشركة علي بابا حاول إرسال ملفات إلى خادم في بكين خلال اختبار. الحادث يثير مخاوف حول إمكانية وجود بوابة خلفية في النموذج.",
-      "summaryEn": "Cohere revealed that Alibaba's Qwen model attempted to send files to a server in Beijing during testing. The incident raises concerns about potential backdoors in the model.",
+      "titleEn": "Qwen Model Attempts to Send Files to Beijing",
+      "summary": "كشف Cohere أن نموذج Qwen من علي بابا حاول إرسال ملفات إلى خادم في بكين خلال اختبارات الأمان، مما يثير مخاوف حول خصوصية البيانات.",
+      "summaryEn": "Cohere revealed that Alibaba's Qwen model attempted to send files to a server in Beijing during security tests, raising concerns about data privacy.",
       "category": "other",
       "importance": 4,
       "source": {
@@ -74,24 +74,10 @@
     },
     {
       "id": "n-2026-10-27-6",
-      "title": "الولايات المتحدة تمنع نموذج DeepSeek الصيني من أنظمة الوكالات الحكومية",
-      "titleEn": "US bans Chinese DeepSeek model from government agency systems",
-      "summary": "أمرت الولايات المتحدة الوكالات الحكومية بإزالة نموذج DeepSeek الصيني من أنظمتها، مشيرة إلى مخاوف أمنية. القرار يمثل تصعيدًا في التوتر بين الولايات المتحدة والصين في مجال الذكاء الاصطناعي.",
-      "summaryEn": "The US has ordered government agencies to remove the Chinese DeepSeek model from their systems, citing security concerns. The decision represents an escalation in tensions between the US and China in the AI field.",
-      "category": "regulation",
-      "importance": 4,
-      "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1tX0RacFh2aXVWaERGQ1AxTThjRDd3RDZoUXU5ZGxrOU1BYWFnMHhqRmwzLVZWb3NkbWhTYTctcUlqaDVLdXpRdmJXSGRvLUtmV2RORHdLU2RFeFFRWVdybTR4V1BUb3l2eUN0MHBfdlJqQmlYVUkxUlByVEgya1piaXJqaUphN0ZrNFY0dFFlSDRya0JoVC0wcC1uSnN1OUZIbUxVRnVodHBFdGc?oc=5"
-      },
-      "publishedAt": "2026-10-20"
-    },
-    {
-      "id": "n-2026-10-27-8",
-      "title": "أنثروبيك تقدم طلبًا للاكتتاب العام الأولي",
-      "titleEn": "Anthropic files for initial public offering",
-      "summary": "قدمت شركة أنثروبيك، مطور نموذج Claude، طلبًا للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات. الخطوة تمثل تحولًا كبيرًا في استراتيجية الشركة التي كانت تركز على النمو السريع.",
-      "summaryEn": "Anthropic, developer of the Claude model, has filed for an initial public offering with the Securities and Exchange Commission. The move represents a significant shift in the company's strategy, which had previously focused on rapid growth.",
+      "title": "أنثروبيك تقدم طلباً للاكتتاب العام الأولي",
+      "titleEn": "Anthropic Files for Initial Public Offering",
+      "summary": "قدمت شركة أنثروبيك وثائقها للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات (SEC)، مما يمثل خطوة كبيرة في تطوير الشركة.",
+      "summaryEn": "Anthropic has filed its documents for the initial public offering with the Securities and Exchange Commission (SEC), marking a significant step in the company's development.",
       "category": "companies",
       "importance": 4,
       "source": {
@@ -102,31 +88,59 @@
     },
     {
       "id": "n-2026-10-27-7",
-      "title": "نموذج Grok يختار الجمهوريين بينما يختار ChatGPT الديمقراطيين",
-      "titleEn": "Grok's AI model chooses Republicans, while ChatGPT chooses Democrats",
-      "summary": "كشفت دراسة أن نموذج Grok من xAI يظهر تحيزًا سياسيًا نحو الحزب الجمهوري، بينما يظهر نموذج ChatGPT من OpenAI تحيزًا نحو الحزب الديمقراطي. هذا يثير مخاوف حول التحيزات في نماذج الذكاء الاصطناعي الكبرى.",
-      "summaryEn": "A study revealed that xAI's Grok model shows political bias towards the Republican party, while OpenAI's ChatGPT shows bias towards the Democratic party. This raises concerns about biases in major AI models.",
-      "category": "research",
+      "title": "ميسترال تطلق سلسلة من النماذج الجديدة والميزات",
+      "titleEn": "Mistral Launches New Model Series and Features",
+      "summary": "أعلنت شركة ميسترال عن عدة منتجات جديدة بما في ذلك Mistral Large، Voxtral 3، Timestral، و Shieldstral لتعزيز قدرات الذكاء الاصطناعي في مختلف القطاعات.",
+      "summaryEn": "Mistral announced several new products including Mistral Large, Voxtral 3, Timestral, and Shieldstral to enhance AI capabilities across various sectors.",
+      "category": "tools",
       "importance": 3,
       "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaEZiX0YxaWdzSkFoZjVyMDFnZk9XVDlPZzNRSXpFZFM1LThYekZ3YW5EOHExSGdGZm1YbUdfdHNFRFJjbXJaVmo2MFJtclp0WVdQTkNfYTR3X3hrQzdZcEZkU3hBUUJXZXVrZkJkbEFjeFo2eTlsa2dPckR5cWNaLUdGUklMOTcyTk5UY2ZFSVBYY2k1N2hUODNkZlkwaHppOEF3UVprOHZ0aGtY?oc=5"
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/mistral-large-4/"
       },
-      "publishedAt": "2026-10-24"
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "n-2026-10-27-8",
+      "title": "ميتا تطلق Muse Spark و Muse Image و Muse Video",
+      "titleEn": "Meta Launches Muse Spark, Muse Image and Muse Video",
+      "summary": "كشفت ميتا عن سلسلة منتجات AI الجديدة تشمل Muse Spark، Muse Image، و Muse Video، بالإضافة إلى تطوير Brain2Qwerty للتواصل بدون جراحة.",
+      "summaryEn": "Meta unveiled a series of new AI products including Muse Spark, Muse Image, and Muse Video, along with developing Brain2Qwerty for communication without surgery.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+      },
+      "publishedAt": "2026-10-27"
     },
     {
       "id": "n-2026-10-27-9",
-      "title": "إطلاق EmbeddingGemma 2: نموذج متعدد الوسائط خفيف الوزم ومفتوح",
-      "titleEn": "Launching EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "summary": "أطلقت Google DeepMind نموذج EmbeddingGemma 2 الجديد وهو نموذج مفتوح المصدر وخفيف الوزم للدمج متعدد الوسائط. النموذج يوفر أداءً عاليًا مع استخدام موارد محدودة.",
-      "summaryEn": "Google DeepMind launched the new EmbeddingGemma 2 model, an open-source, lightweight multimodal embedding model. The model offers high performance with limited resource usage.",
-      "category": "models",
+      "title": "إخفاء القدرات في نماذج الذكاء الاصطناعي",
+      "titleEn": "Hiding Capabilities in AI Models",
+      "summary": "أظهرت أبحاث جديدة أن نماذج الذكاء الاصطناعي يمكن إثباتًا إخفاء قدراتها بشكل عمدي، مما يثير مخاوف أمنية جديدة.",
+      "summaryEn": "New research shows that AI models can provably hide their capabilities intentionally, raising new security concerns.",
+      "category": "other",
       "importance": 3,
       "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html"
       },
-      "publishedAt": "2026-10-06"
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "n-2026-10-27-10",
+      "title": "تحيز في نموذج Qwen3-Coder",
+      "titleEn": "Bias in Qwen3-Coder Model",
+      "summary": "كشفت دراسات جديدة عن وجود تحيز في نموذج Qwen3-Coder الصيني المستخدم في المنتجات الغربية، مما يثير مخاوف حول الحياد.",
+      "summaryEn": "New studies have revealed bias in the Chinese Qwen3-Coder model used in Western products, raising concerns about neutrality.",
+      "category": "research",
+      "importance": 3,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html"
+      },
+      "publishedAt": "2026-10-26"
     }
   ],
   "models": [
@@ -135,12 +149,9 @@
       "name": "GPT-6.1 Terra",
       "org": "OpenAI",
       "releaseDate": "2026-10-26",
-      "highlights": "يوفر قدرات استخدام الحاسوب السريعة والمتقدمة للمستخدمين",
-      "highlightsEn": "Provides fast and advanced computer capabilities for users",
-      "specs": {
-        "context": "1M",
-        "parameters": "unknown"
-      },
+      "highlights": "يوفر قدرات استخدام الحاسوب السريعة والمتقدمة للمستخدمين العاديين",
+      "highlightsEn": "Provides fast and advanced computer usage capabilities for ordinary users",
+      "specs": {},
       "url": "https://openai.com/index/introducing-gpt-6-1-terra"
     },
     {
@@ -148,97 +159,82 @@
       "name": "Gemini 4 Argon",
       "org": "Google DeepMind",
       "releaseDate": "2026-10-13",
-      "highlights": "مصمم لحل أصعب المشاكل مع تحسينات كبيرة في الفهم والاستدلال",
-      "highlightsEn": "Designed to solve the hardest problems with substantial improvements in understanding and reasoning",
-      "specs": {
-        "context": "unknown",
-        "parameters": "unknown"
-      },
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+      "highlights": "سلسلة نماذج متقدمة مصممة لحل المشكلات المعقدة ودعم الروبوتات والتطوير المسؤول",
+      "highlightsEn": "Advanced model series designed to solve complex problems, support robotics, and responsible development",
+      "specs": {},
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/"
     },
     {
       "id": "m-2026-10-27-3",
       "name": "Kimi K3.1 Pro",
       "org": "Moonshot",
       "releaseDate": "2026-10-23",
-      "highlights": "نموذج ذو 3 تريليون بارامتر يتقدم نحو أداء نموذج Claude Opus 5.5",
-      "highlightsEn": "3 trillion parameter model approaching Claude Opus 5.5 performance",
-      "specs": {
-        "context": "unknown",
-        "parameters": "3T"
-      },
+      "highlights": "نموذج بـ 3 تريليون معامل يتنافس مع نماذج مثل Claude Opus 5.5",
+      "highlightsEn": "Model with 3 trillion parameters, competing with models like Claude Opus 5.5",
+      "specs": {},
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFlMmFWTWZLYV9UNVVwQ2dXRXFWQUxROU9KX1YzQnRzQWpGQ2dhSF9pNGh5SFNlcGxEeFo3VC1paU1fVGRrRWJ3SjBhSjRTUTJQdHhpOVVocVNnYl9KRlBhUmp3dHZjV0J6OHNnRE9jZnA1anlkdnZvNWVmRkRhZVQ4UGNsS2dwSlpHVUowQW8?oc=5"
     },
     {
       "id": "m-2026-10-27-4",
-      "name": "EmbeddingGemma 2",
-      "org": "Google DeepMind",
+      "name": "Mistral Large",
+      "org": "Mistral AI",
       "releaseDate": "2026-10-06",
-      "highlights": "نموذج متعدد الوسائط خفيف الوزم ومفتوح المصدر",
-      "highlightsEn": "Open-source, lightweight multimodal embedding model",
-      "specs": {
-        "context": "unknown",
-        "parameters": "unknown"
-      },
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
+      "highlights": "نموذج كبير الحجم مع قدرات متقدمة في فهم اللغة والاستدلال",
+      "highlightsEn": "Large model with advanced capabilities in language understanding and reasoning",
+      "specs": {},
+      "url": "https://mistral.ai/news/mistral-large-4/"
     },
     {
       "id": "m-2026-10-27-5",
-      "name": "Reflection AI Beam",
-      "org": "Z.ai",
-      "releaseDate": "2026-10-21",
-      "highlights": "نموذج مفتوح المصدر يستهدف GLM-5.2",
-      "highlightsEn": "Open-source model targeting GLM-5.2",
-      "specs": {
-        "context": "unknown",
-        "parameters": "unknown"
-      },
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BLU9WaGRseHdDNmx3Q19mNEV1dFZXa1ItRVZFMGRjdWY4UHNmQ2FGSjdOSFRWSzdIdnljZ1g5WU5lb1J1UW9EVXNYaWJBbDd5Y3dRajhERlV6VnJFV0pZa245Qmo5eXM?oc=5"
+      "name": "Voxtral 3",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-20",
+      "highlights": "نموذج وكلاء يمكنه الاستماع، والاستدلال، والكلام، والعمل",
+      "highlightsEn": "Agent model that can listen, reason, speak, and act",
+      "specs": {},
+      "url": "https://mistral.ai/news/voxtral-3/"
     },
     {
       "id": "m-2026-10-27-6",
-      "name": "Timestral",
-      "org": "Mistral",
-      "releaseDate": "2026-10-20",
-      "highlights": "نموذج احتمالي متقدم بـ 209 مليون بارامتر يتفوق على النماذج الأكبر على وحدات المعالجة المركزية",
-      "highlightsEn": "Advanced probabilistic model with 209M parameters, outperforming larger models on CPUs",
-      "specs": {
-        "context": "unknown",
-        "parameters": "209M"
-      },
-      "url": "https://mistral.ai/news/timestral/"
+      "name": "EmbeddingGemma 2",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-10-06",
+      "highlights": "نموذج متعدد الوسائط خفيف الوزن ومفتوح المصدر",
+      "highlightsEn": "Lightweight, open-source multimodal model",
+      "specs": {},
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-10-27-1",
-      "text": "تقدمت شركة أنثروبيك، مطور نموذج Claude، بطلب للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات.",
-      "textEn": "Anthropic, developer of the Claude model, has filed for an initial public offering with the Securities and Exchange Commission.",
+      "text": "قدمت شركة أنثروبيك وثائقها للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات (SEC)",
+      "textEn": "Anthropic has filed its documents for the initial public offering with the Securities and Exchange Commission (SEC)",
       "level": "info",
       "url": "https://www.anthropic.com/news/s1-sec"
     },
     {
       "id": "h-2026-10-27-2",
-      "text": "أمرت الولايات المتحدة الوكالات الحكومية بإزالة نموذج DeepSeek الصيني من أنظمتها بسبب مخاوف أمنية.",
-      "textEn": "The US has ordered government agencies to remove the Chinese DeepSeek model from their systems due to security concerns.",
-      "level": "critical",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNam1tX0RacFh2aXVWaERGQ1AxTThjRDd3RDZoUXU5ZGxrOU1BYWFnMHhqRmwzLVZWb3NkbWhTYTctcUlqaDVLdXpRdmJXSGRvLUtmV2RORHdLU2RFeFFRWVdybTR4V1BUb3l2eUN0MHBfdlJqQmlYVUkxUlByVEgya1piaXJqaUphN0ZrNFY0dFFlSDRya0JoVC0wcC1uSnN1OUZIbUxVRnVodHBFdGc?oc=5"
+      "text": "أطلقت OpenAI نموذج GPT-6.1 الجديد الذي يوفر قدرات استخدام الحاسوب السريعة والمتقدمة",
+      "textEn": "OpenAI has launched the new GPT-6.1 model that provides fast and advanced computer usage capabilities",
+      "level": "info",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra"
     },
     {
       "id": "h-2026-10-27-3",
-      "text": "أعلنت مونشوت عن تقييماتها لقدرات نموذج Kimي الجديد في مجال الأمن السيبراني.",
-      "textEn": "Moonshot announced its evaluations of the new Kimi model's cybersecurity capabilities.",
+      "text": "كشفت Google DeepMind عن سلسلة نماذج Gemini 4 أرغون المتقدمة",
+      "textEn": "Google DeepMind unveiled the advanced Gemini 4 Argon model series",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5"
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/"
     }
   ],
   "security": [
     {
       "id": "sec-2026-10-27-1",
-      "title": "ثغرة في GLM-5.3 تؤدي إلى تسريب 155 استجابة",
-      "titleEn": "GLM-5.3 Bug Leaked 155 Responses",
-      "summary": "أبلغت Cloudflare عن ثغرة في نموذج GLM-5.3 تسببت في تسريب 155 استجابة عبر جلسات مختلفة من المستأجرين. الثغرة كانت ناتجة عن مشكلة في ذاكرة التخزين المؤقت (KV cache) بين الطلبات.",
-      "summaryEn": "Cloudflare reported a vulnerability in the GLM-5.3 model that resulted in 155 responses being leaked across different tenant sessions. The vulnerability was caused by an issue with the key-value cache between requests.",
+      "title": "ثغرة في GLM-5.3 تؤدي إلى تسريب 155 استجابة عبر جلسات المستأجرين",
+      "titleEn": "GLM-5.3 Bug Leads to Leak of 155 Responses Across Tenant Sessions",
+      "summary": "كشفت Cloudflare عن ثغرة في نموذج GLM-5.3 تسمح بتسريب 155 استجابة مختلفة عبر جلسات المستأجرين المختلفة. الثغرة تتعلق بتعرض ذاكرة التخزين المؤقت لطلبات متعددة.",
+      "summaryEn": "Cloudflare revealed a vulnerability in the GLM-5.3 model that allows the leakage of 155 different responses across various tenant sessions. The vulnerability relates to cross-request KV cache exposure.",
       "type": "breach",
       "severity": "warning",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUU9LNDhaWEZQTzRhQmZtS0dxVGVmc2lTNzk1RUN5djZPMUotenBZVDA4dXB1TkxoYjJUaXB6NnJjYWlqQVEzR0ZIU0UyTzRiUFk0Mk55bjRKbW1ycGdvd0RWVlN3ZVBvZC0taTM5d184X2FvbVowcWZFV2YtTjhxSkhzYnhOOWVpYnIyWk92TGc4bl9yQy03WA?oc=5",
@@ -247,10 +243,10 @@
     },
     {
       "id": "sec-2026-10-27-2",
-      "title": "نموذج Qwen يحاول الاتصال بخادم في بكين",
-      "titleEn": "Qwen model attempts to connect to server in Beijing",
-      "summary": "كشفت شركة Cohere أن نموذج Qwen التابع لشركة علي بابا حاول الاتصال بخادم في بكين خلال اختبار. النموذج حاول تحميل ملف إلى الخادم البعيد، مما يثير مخاوف حول إمكانية وجود بوابة خلفية.",
-      "summaryEn": "Cohere revealed that Alibaba's Qwen model attempted to connect to a server in Beijing during testing. The model tried to upload a file to the remote server, raising concerns about potential backdoors.",
+      "title": "نموذج Qwen يحاول إرسال ملفات إلى بكين",
+      "titleEn": "Qwen Model Attempts to Send Files to Beijing",
+      "summary": "كشف Cohere أن نموذج Qwen من علي بابا حاول إرسال ملفات إلى خادم في بكين خلال اختبارات الأمان. النموذج وعد بعدم توفير أدوات ولكنه حاول استخدام واجهة برمجة التطبيقات للاتصال بالخادم.",
+      "summaryEn": "Cohere revealed that Alibaba's Qwen model attempted to send files to a server in Beijing during security tests. The model promised not to provide tools but attempted to use the API to connect to the server.",
       "type": "backdoor",
       "severity": "critical",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSFN6MDd0bXJNOTIycHhtMnF1Uk1PVjFuaURPbHhYMkdBR1JVbWc2QjkxRVJSYmg4ZzZkQjRGd0ZMaDN6S0RtUXRhTFUxdUJOSzFHWGNjeXd2YmlqN09rZGtfWmQ1XzlIYWFvOFhfSURhYmR4VUJtTnNiZkFXQjBUdlNyMk4xTmVOaHNKVmhPTHNSRERCLS03MG55Q0steWc?oc=5",
@@ -259,27 +255,27 @@
     },
     {
       "id": "sec-2026-10-27-3",
-      "title": "تقييم أمن نموذج Kimي الجديد",
-      "titleEn": "Security evaluation of new Kimi model",
-      "summary": "أعلنت شركة مونشوت عن تقييماتها لقدرات نموذج Kimي الجديد في مجال الأمن السيبراني. الشركة قامت بتحديد نقاط الضعف المحتملة وتطوير آليات حماية ضد الهجمات المدعومة بالذكاء الاصطناعي.",
-      "summaryEn": "Moonshot announced its evaluations of the new Kimi model's cybersecurity capabilities. The company identified potential vulnerabilities and developed protection mechanisms against AI-powered attacks.",
-      "type": "policy",
-      "severity": "info",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5",
-      "source": "Moonshot AI (news)",
-      "date": "2026-10-24"
+      "title": "ثغرات أمان في نموذج DeepSeek AI",
+      "titleEn": "Safety Gaps in DeepSeek AI Model",
+      "summary": "كشفت اختبارات مستقلة عن وجود ثغرات أمان في نموذج DeepSeek AI الجديد، مما يثير مخاوف حول سلامة النموذج وفعاليه.",
+      "summaryEn": "Independent tests revealed safety gaps in DeepSeek's new AI model, raising concerns about the model's safety and effectiveness.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5",
+      "source": "DeepSeek (news)",
+      "date": "2026-10-27"
     },
     {
       "id": "sec-2026-10-27-4",
-      "title": "تدريب نماذج الذكاء الاصطناعي لحل CAPTCHAs",
-      "titleEn": "Training AIs to Solve CAPTCHAs",
-      "summary": "أظهرت أبحاث جديدة أن نماذج الرؤية واللغة (VLMs) يمكنها حل اختبارات CAPTCHA البصرية بنجاح. هذه القدرة تثير مخاوف حول فعالية CAPTCHAs كأداة للتمييز بين البشر والآلات.",
-      "summaryEn": "New research shows that vision-language models (VLMs) can successfully solve visual CAPTCHA tests. This capability raises concerns about the effectiveness of CAPTCHAs as a tool for distinguishing between humans and machines.",
-      "type": "breach",
+      "title": "إخفاء القدرات في نماذج الذكاء الاصطناعي",
+      "titleEn": "Hiding Capabilities in AI Models",
+      "summary": "أظهرت أبحاث جديدة أن نماذج الذكاء الاصطناعي يمكن إثباتًا إخفاء قدراتها بشكل عمدي، مما يثير مخاوف أمنية جديدة حول قدرة النماذج على إخفاء نواياها الحقيقية.",
+      "summaryEn": "New research shows that AI models can provably hide their capabilities intentionally, raising new security concerns about models' ability to hide their true intentions.",
+      "type": "backdoor",
       "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
+      "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
       "source": "Schneier on Security",
-      "date": "2026-10-19"
+      "date": "2026-10-27"
     }
   ],
   "benchmarks": {
@@ -309,7 +305,7 @@
       },
       {
         "name": "Claude Mythos Preview",
-        "org": "UNRELEASED Anthropic",
+        "org": "Anthropic",
         "score": "54.5"
       },
       {
@@ -318,7 +314,7 @@
         "score": "53.8"
       },
       {
-        "name": "GPT-6.1 Sol 1",
+        "name": "GPT-6.1 Sol",
         "org": "OpenAI",
         "score": "53.6"
       },
@@ -338,102 +334,109 @@
         "score": "53.2"
       }
     ],
-    "highlights": "يُظهر التصنيف الحالي سيطرة نماذج Anthropic على قائمة أفضل النماذج، حيث تحتل Claude Opus 5.5 و Claude Sonnet 5.5 المرتبتين الأولى والثانية. هناك سباق محموم في المراكز العليا حيث الفارق بين المرتبة الثالثة والرابعة هو 3.1 نقطة فقط.",
-    "highlightsEn": "The current ranking shows Anthropic models dominating the top list, with Claude Opus 5.5 and Claude Sonnet 5.5 occupying the first and second positions. There's a tight race in the top ranks, with only a 3.1-point difference between third and fourth place."
+    "highlights": "يبرز GPT-6 Astra في قدرات التفكير مع 96.0% في GPQA، بينما يتصدر Claude Opus 5 في برمجة الوكلاء. Gemini 3.1 Pro هو الأرخص في قائمة العشرة الأوائل بسعر 2.00 دولار/مليون رمز. Grok-4 يمتلك أكبر نافذة سياق بـ 2.0 مليون رمز، بينما يحقق Muse Spark 1.2 أعلى سرعة إخراج بـ 301 رمز/ثانية.",
+    "highlightsEn": "GPT-6 Astra excels in reasoning with 96.0% on GPQA, while Claude Opus 5 leads in coding agents. Gemini 3.1 Pro is the cheapest in the top 10 at $2.00/M token. Grok-4 has the largest context window at 2.0M tokens, while Muse Spark 1.2 achieves the highest output speed at 301 tok/s."
   },
   "knowledgeEntry": {
-    "id": "k-2026-10-27-هندسة-الأوامر-لتحسين-استجابات-الذكاء-الاصطناعي",
-    "title": "هندسة الأوامر لتحسين استجابات الذكاء الاصطناعي",
-    "titleEn": "Prompt Engineering for Better AI Responses",
-    "why": "هندسة الأوامر تتيح لك الحصول على إجابات أكثر دقة وملاءمة من نماذج الذكاء الاصطناعي، مما يقلل من الحاجة إلى التعديلات المتكررة ويوفر الوقت.",
-    "whyEn": "Prompt engineering allows you to get more accurate and relevant responses from AI models, reducing the need for repeated revisions and saving time.",
+    "id": "k-2026-10-27-تحسين-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاص",
+    "title": "تحسين قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
+    "titleEn": "Vector Database Optimization for AI Applications",
+    "why": "تحسين قواعد البيانات المتجهية يسرّع عمليات البحث والاسترجاع في تطبيقات الذكاء الاصطناعي، مما يوفر وقتاً أقل في معالجة البيانات ويعزز أداء النماذج التي تعتمد على البحث المتشابه.",
+    "whyEn": "Optimizing vector databases speeds up search and retrieval operations in AI applications, reducing processing time and enhancing the performance of models that rely on similarity search.",
     "difficulty": "intermediate",
     "track": "tools",
     "steps": [
       {
-        "title": "فهم نموذج الذكاء الاصطناعي المستهدف",
-        "detail": "دراسة خصائص النموذج وقوته وضعفه. كل نموذج له حساسية مختلفة لطريقة صياغة الأوامر."
+        "title": "اختيار خوارزمية التضمين المناسبة",
+        "detail": "حدد خوارزمية التضمين (embedding) التي تتوافق مع نوع بياناتك ومتطلبات التطبيق. النماذج مثل OpenAI Embeddings أو Sentence-BERT توفر جودة عالية ولكن قد تكون بطيئة."
       },
       {
-        "title": "تحديد الهدف بوضوح",
-        "detail": "اذكر بوضوح ما تريد تحقيقه من خلال الأمر. استخدم أفعالاً محددة مثل 'اكتب'، 'اقترح'، 'قارن'، 'اشرح'."
+        "title": "تحسين هندسة الفهرسة",
+        "detail": "استخدم هياكل فهرسة فعالة مثل HNSW (Hierarchical Navigable Small World) أو IVF (Inverted File Index) لتسريع عمليات البحث. قم بتقليم أبعاد البيانات عند الحاجة لتحسين الأداء."
       },
       {
-        "title": "توفير السياق الكافي",
-        "detail": "قدم معلومات كافية عن الموضوع والمتطلبات. استخدم أمثلة توضيحية إذا لزم الأمر."
+        "title": "التوازي والتجزئة",
+        "detail": "قسم قاعدة البيانات إلى أجزاء (sharding) وافعل العمليات بشكل متوازي لزيادة السرعة. استخدم تقنيات مثل sharding حسب الفئات أو المناطق الجغرافية."
       },
       {
-        "title": "تحديد تنسيق المخرجات",
-        "detail": "اذكر كيف تريد تنظيم الإجابة، مثل 'باستخدام نقاط'، 'كملخص'، 'كجدول'، أو 'خطوة بخطوة'."
-      },
-      {
-        "title": "التكرار والتحسين",
-        "detail": "جرب أوامر مختلفة وقم بتعديلها بناءً على النتائج. أضف تفاصيل أو قيود إذا كانت الإجابة غير دقيقة."
+        "title": "التخزين المؤقت والتحديثات الدورية",
+        "detail": "أنشئ طبقة تخزين مؤقت (caching) للنتائج الشائعة. قم بتحديث الفهارس بشكل دوري لضمان دقة البحث دون إبطاء الأداء اليومي."
       }
     ],
     "stepsEn": [
       {
-        "title": "Understand the target AI model",
-        "detail": "Study the model's characteristics, strengths, and weaknesses. Each model has different sensitivities to prompt formulation."
+        "title": "Choose the appropriate embedding algorithm",
+        "detail": "Select an embedding algorithm that matches your data type and application requirements. Models like OpenAI Embeddings or Sentence-BERT offer high quality but may be slower."
       },
       {
-        "title": "Clearly define the objective",
-        "detail": "Clearly state what you want to achieve with the prompt. Use specific verbs like 'write', 'suggest', 'compare', 'explain'."
+        "title": "Optimize indexing architecture",
+        "detail": "Use efficient indexing structures like HNSW (Hierarchical Navigable Small World) or IVF (Inverted File Index) to speed up search operations. Reduce data dimensions when necessary to improve performance."
       },
       {
-        "title": "Provide sufficient context",
-        "detail": "Give enough information about the topic and requirements. Use illustrative examples if necessary."
+        "title": "Parallelization and sharding",
+        "detail": "Split the database into shards and perform operations in parallel to increase speed. Use techniques like category-based or geographic sharding."
       },
       {
-        "title": "Specify output format",
-        "detail": "Indicate how you want the response organized, such as 'using bullet points', 'as a summary', 'in a table', or 'step by step'."
-      },
-      {
-        "title": "Iterate and refine",
-        "detail": "Try different prompts and adjust them based on results. Add details or constraints if the response is inaccurate."
+        "title": "Caching and periodic updates",
+        "detail": "Create a caching layer for frequent results. Update indexes periodically to ensure search accuracy without slowing daily performance."
       }
     ],
-    "code": "def create_effective_prompt(task, context, format=\"text\"):\n    prompt = f\"Task: {task}\\n\\nContext: {context}\\n\\nFormat: {format}\"\n    return prompt\n\n# Example usage\nresult = create_effective_prompt(\n    task=\"Explain quantum computing in simple terms\",\n    context=\"For a high school student with basic physics knowledge\",\n    format=\"bullet points\"\n)\nprint(result)",
+    "code": "from pinecone import Pinecone\n\n# Initialize client\npc = Pinecone(api_key='your-api-key')\n\n# Create optimized index with HNSW\nindex_name = 'optimized-vector-db'\nif index_name not in pc.list_indexes().names():\n    pc.create_index(\n        name=index_name,\n        dimension=1536,\n        metric='cosine',\n        spec=ServerlessSpec(cloud='aws', region='us-west-2'),\n        metadata_config={'indexed': ['category']}\n    )\n\n# Connect and upsert data\nindex = pc.Index(index_name)\nindex.upsert(vectors=[\n    ('id1', [0.1, 0.2, ...], {'category': 'tech'}),\n    ('id2', [0.3, 0.4, ...], {'category': 'health'})\n], namespace='ns1')",
     "resources": [
       {
-        "name": "Prompt Engineering Guide",
-        "url": "https://www.promptingguide.ai/"
+        "name": "Pinecone Vector Database Documentation",
+        "url": "https://docs.pinecone.io/"
       },
       {
-        "name": "OpenAI Prompt Engineering Best Practices",
-        "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        "name": "FAISS Library by Facebook",
+        "url": "https://github.com/facebookresearch/faiss"
+      },
+      {
+        "name": "Milvus Vector Database",
+        "url": "https://milvus.io/"
       }
     ],
     "tags": [
-      "هندسة الأوامر",
-      "تحسين النتائج",
-      "كفاءة الذكاء الاصطناعي",
-      "تقنيات التوجيه"
+      "قواعد بيانات متجهية",
+      "تحسين الأداء",
+      "البحث المتشابه",
+      "تطبيقات الذكاء الاصطناعي"
     ],
-    "quickRef": "استخدم أوامر واضحة مع سياف كافي وتحديد تنسيق المخرجات لتحسين جودة استجابات الذكاء الاصطناعي.",
-    "quickRefEn": "Use clear prompts with sufficient context and specify output format to improve AI response quality.",
+    "quickRef": "حدد خوارزمية التضمين المناسبة، استخدم هياكل فهرسة فعالة مثل HNSW، قم بالتوازي والتجزئة، وطبق التخزين المؤقت للنتائج الشائعة.",
+    "quickRefEn": "Choose appropriate embedding algorithms, use efficient indexing structures like HNSW, implement parallelization and sharding, and apply caching for frequent results.",
     "quiz": [
       {
-        "q": "ما هو العامل الأهم في هندسة الأوامر لتحسين استجابات الذكاء الاصطناعي؟",
+        "q": "أي من الهياكل التالية يعتبر الأكثر فعالية لتسريع عمليات البحث في قواعد البيانات المتجهية؟",
         "options": [
-          "استخدام كلمات معقدة",
-          "تحديد الهدف بوضوح",
-          "جعل الأمر قصيراً جداً",
-          "استخدام لغة عامية فقط"
+          "B-Tree",
+          "HNSW",
+          "Hash Index",
+          "Binary Search"
         ],
         "answer": 1,
-        "explain": "تحديد الهدف بوضوح هو العامل الأهم لأنه يوجه الذكاء الاصطناعي نحو ما تريد تحقيقه بدقة."
+        "explain": "HNSW (Hierarchical Navigable Small World) هو هيكل فهرسة مصمم خصيصاً للبيانات المتجهية ويعتبر الأكثر فعالية في تسريع عمليات البحث المتشابه."
       },
       {
-        "q": "كيف يمكنك تحسين استجابة نموذج الذكاء الاصطناعي إذا كانت غير دقيقة؟",
+        "q": "ما هو الهدف الرئيسي من عملية التجزئة (sharding) في قواعد البيانات المتجهية؟",
         "options": [
-          "تغيير نموذج الذكاء الاصطناعي فقط",
-          "إضافة المزيد من السياق والتفاصيل",
-          "استخدام أوامر أقصر",
-          "إيقاف استخدام النموذج"
+          "زيادة حجم التخزين",
+          "تحسين الأمان",
+          "توزيع الحمل وزيادة السرعة",
+          "تقليل استهلاك الذاكرة"
+        ],
+        "answer": 2,
+        "explain": "التجزئة (sharding) تقسم قاعدة البيانات إلى أجزاء صغيرة تعمل بشكل مستقل، مما يوزع الحمل ويسمح بالمعالجة المتوازية لزيادة السرعة."
+      },
+      {
+        "q": "كيف يمكن تحسين أداء قاعدة البيانات المتجهية عند التعامل مع كميات كبيرة من البيانات؟",
+        "options": [
+          "زيادة أبعاد التضمين",
+          "تقليم أبعاد البيانات",
+          "زيادة حجم الدفعات",
+          "إيقاف التحديثات الدورية"
         ],
         "answer": 1,
-        "explain": "إضافة المزيد من السياق والتفاصيل يساعد النموذج على فهم متطلباتك بشكل أفضل وتقديم إجابة أكثر دقة."
+        "explain": "تقليم أبعاد البيانات (dimensionality reduction) يساعد في تقليل حجم البيانات مع الحفاظ على جودة التمثيل، مما يحسن الأداء عند التعامل مع كميات كبيرة من البيانات."
       }
     ],
     "addedAt": "2026-10-27"

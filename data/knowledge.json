@@ -1,6 +1,110 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-27-تحسين-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاص",
+      "title": "تحسين قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
+      "titleEn": "Vector Database Optimization for AI Applications",
+      "why": "تحسين قواعد البيانات المتجهية يسرّع عمليات البحث والاسترجاع في تطبيقات الذكاء الاصطناعي، مما يوفر وقتاً أقل في معالجة البيانات ويعزز أداء النماذج التي تعتمد على البحث المتشابه.",
+      "whyEn": "Optimizing vector databases speeds up search and retrieval operations in AI applications, reducing processing time and enhancing the performance of models that rely on similarity search.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "اختيار خوارزمية التضمين المناسبة",
+          "detail": "حدد خوارزمية التضمين (embedding) التي تتوافق مع نوع بياناتك ومتطلبات التطبيق. النماذج مثل OpenAI Embeddings أو Sentence-BERT توفر جودة عالية ولكن قد تكون بطيئة."
+        },
+        {
+          "title": "تحسين هندسة الفهرسة",
+          "detail": "استخدم هياكل فهرسة فعالة مثل HNSW (Hierarchical Navigable Small World) أو IVF (Inverted File Index) لتسريع عمليات البحث. قم بتقليم أبعاد البيانات عند الحاجة لتحسين الأداء."
+        },
+        {
+          "title": "التوازي والتجزئة",
+          "detail": "قسم قاعدة البيانات إلى أجزاء (sharding) وافعل العمليات بشكل متوازي لزيادة السرعة. استخدم تقنيات مثل sharding حسب الفئات أو المناطق الجغرافية."
+        },
+        {
+          "title": "التخزين المؤقت والتحديثات الدورية",
+          "detail": "أنشئ طبقة تخزين مؤقت (caching) للنتائج الشائعة. قم بتحديث الفهارس بشكل دوري لضمان دقة البحث دون إبطاء الأداء اليومي."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Choose the appropriate embedding algorithm",
+          "detail": "Select an embedding algorithm that matches your data type and application requirements. Models like OpenAI Embeddings or Sentence-BERT offer high quality but may be slower."
+        },
+        {
+          "title": "Optimize indexing architecture",
+          "detail": "Use efficient indexing structures like HNSW (Hierarchical Navigable Small World) or IVF (Inverted File Index) to speed up search operations. Reduce data dimensions when necessary to improve performance."
+        },
+        {
+          "title": "Parallelization and sharding",
+          "detail": "Split the database into shards and perform operations in parallel to increase speed. Use techniques like category-based or geographic sharding."
+        },
+        {
+          "title": "Caching and periodic updates",
+          "detail": "Create a caching layer for frequent results. Update indexes periodically to ensure search accuracy without slowing daily performance."
+        }
+      ],
+      "code": "from pinecone import Pinecone\n\n# Initialize client\npc = Pinecone(api_key='your-api-key')\n\n# Create optimized index with HNSW\nindex_name = 'optimized-vector-db'\nif index_name not in pc.list_indexes().names():\n    pc.create_index(\n        name=index_name,\n        dimension=1536,\n        metric='cosine',\n        spec=ServerlessSpec(cloud='aws', region='us-west-2'),\n        metadata_config={'indexed': ['category']}\n    )\n\n# Connect and upsert data\nindex = pc.Index(index_name)\nindex.upsert(vectors=[\n    ('id1', [0.1, 0.2, ...], {'category': 'tech'}),\n    ('id2', [0.3, 0.4, ...], {'category': 'health'})\n], namespace='ns1')",
+      "resources": [
+        {
+          "name": "Pinecone Vector Database Documentation",
+          "url": "https://docs.pinecone.io/"
+        },
+        {
+          "name": "FAISS Library by Facebook",
+          "url": "https://github.com/facebookresearch/faiss"
+        },
+        {
+          "name": "Milvus Vector Database",
+          "url": "https://milvus.io/"
+        }
+      ],
+      "tags": [
+        "قواعد بيانات متجهية",
+        "تحسين الأداء",
+        "البحث المتشابه",
+        "تطبيقات الذكاء الاصطناعي"
+      ],
+      "quickRef": "حدد خوارزمية التضمين المناسبة، استخدم هياكل فهرسة فعالة مثل HNSW، قم بالتوازي والتجزئة، وطبق التخزين المؤقت للنتائج الشائعة.",
+      "quickRefEn": "Choose appropriate embedding algorithms, use efficient indexing structures like HNSW, implement parallelization and sharding, and apply caching for frequent results.",
+      "quiz": [
+        {
+          "q": "أي من الهياكل التالية يعتبر الأكثر فعالية لتسريع عمليات البحث في قواعد البيانات المتجهية؟",
+          "options": [
+            "B-Tree",
+            "HNSW",
+            "Hash Index",
+            "Binary Search"
+          ],
+          "answer": 1,
+          "explain": "HNSW (Hierarchical Navigable Small World) هو هيكل فهرسة مصمم خصيصاً للبيانات المتجهية ويعتبر الأكثر فعالية في تسريع عمليات البحث المتشابه."
+        },
+        {
+          "q": "ما هو الهدف الرئيسي من عملية التجزئة (sharding) في قواعد البيانات المتجهية؟",
+          "options": [
+            "زيادة حجم التخزين",
+            "تحسين الأمان",
+            "توزيع الحمل وزيادة السرعة",
+            "تقليل استهلاك الذاكرة"
+          ],
+          "answer": 2,
+          "explain": "التجزئة (sharding) تقسم قاعدة البيانات إلى أجزاء صغيرة تعمل بشكل مستقل، مما يوزع الحمل ويسمح بالمعالجة المتوازية لزيادة السرعة."
+        },
+        {
+          "q": "كيف يمكن تحسين أداء قاعدة البيانات المتجهية عند التعامل مع كميات كبيرة من البيانات؟",
+          "options": [
+            "زيادة أبعاد التضمين",
+            "تقليم أبعاد البيانات",
+            "زيادة حجم الدفعات",
+            "إيقاف التحديثات الدورية"
+          ],
+          "answer": 1,
+          "explain": "تقليم أبعاد البيانات (dimensionality reduction) يساعد في تقليل حجم البيانات مع الحفاظ على جودة التمثيل، مما يحسن الأداء عند التعامل مع كميات كبيرة من البيانات."
+        }
+      ],
+      "addedAt": "2026-10-27"
+    },
+    {
       "id": "k-2026-10-27-هندسة-الأوامر-لتحسين-استجابات-الذكاء-الاصطناعي",
       "title": "هندسة الأوامر لتحسين استجابات الذكاء الاصطناعي",
       "titleEn": "Prompt Engineering for Better AI Responses",
