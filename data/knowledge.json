@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-29-ضبط-النماذج-للأنواع-المحددة",
+      "title": "ضبط النماذج للأنواع المحددة",
+      "titleEn": "Fine-tuning Models for Specific Domains",
+      "why": "ضبط النماذج للأنواع المحددة يسمح بتخصيص نماذج الذكاء الاصطناعي لمجالات محددة، مما يحسن الدقة والفعالية في المهارات المتخصصة ويقلل من التكاليف التشغيلية.",
+      "whyEn": "Fine-tuning models for specific domains allows customizing AI models for particular fields, improving accuracy and effectiveness in specialized tasks while reducing operational costs.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد المجال والمتطلبات",
+          "detail": "حدد المجال الذي تريد تخصيص النموذج له، وقائمة بالمهارات والمفردات المحددة التي يجب أن يتعلمها النموذج. قم بتحليل مجموعة البيانات المتاحة وتحديد نقاط القوة والضعف."
+        },
+        {
+          "title": "إعداد مجموعة البيانات",
+          "detail": "أنشئ مجموعة بيانات تدريبية جيدة التنظيم تحتوي على أمثلة تمثيلية للمجال. يجب أن تشمل مجموعة البيانات متنوعًا من السيناريوهات وتغطي جميع المهارات الرئيسية التي تريد تعليمها للنموذج."
+        },
+        {
+          "title": "اخيار النموذج الأساسي",
+          "detail": "اختر نموذجًا أساسيًا قويًا مناسبًا لمجال عملك. النماذج الكبيرة مثل GPT-4 أو Claude غالبًا تكون نقطة انطلاق جيدة، ولكن يمكنك أيضًا استخدام نماذج أصغر إذا كانت متخصصة بالفعل في مجال مشابه."
+        },
+        {
+          "title": "تنفيذ عملية الضبط",
+          "detail": "استخدم أدوات مثل Hugging Face Transformers أو PyTorch لتنفيذ عملية الضبط. قم بتشغيل عملية التدريب على مجموعة البيانات الخاصة بك، مع مراقبة المؤشرات مثل فقدان التدريب والدقة لضمان جودة النموذج."
+        },
+        {
+          "title": "تقييم وتحسين النموذج",
+          "detail": "اختبر النموذج الضبط على مجموعة بيانات منفصلة لقياس أدائه. قم بتحليل نتائج التقييم وتحديد المجالات التي تحتاج إلى تحسين. كرر عملية الضبط إذا لزم الأمر لتحقيق النتائج المطلوبة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define the domain and requirements",
+          "detail": "Identify the domain you want to customize the model for, and list the specific skills and vocabulary the model should learn. Analyze available datasets and identify strengths and weaknesses."
+        },
+        {
+          "title": "Prepare the dataset",
+          "detail": "Create a well-organized training dataset containing representative examples of your domain. The dataset should include diverse scenarios and cover all key skills you want to teach the model."
+        },
+        {
+          "title": "Choose the base model",
+          "detail": "Select a strong base model suitable for your domain. Large models like GPT-4 or Claude are often good starting points, but you can also use smaller models if they're already specialized in a similar field."
+        },
+        {
+          "title": "Implement the fine-tuning process",
+          "detail": "Use tools like Hugging Face Transformers or PyTorch to implement the fine-tuning process. Run the training on your dataset while monitoring metrics like training loss and accuracy to ensure model quality."
+        },
+        {
+          "title": "Evaluate and improve the model",
+          "detail": "Test the fine-tuned model on a separate dataset to measure its performance. Analyze evaluation results and identify areas needing improvement. Repeat the fine-tuning process if necessary to achieve desired results."
+        }
+      ],
+      "code": "from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer\n\n# Load base model and tokenizer\nmodel_name = \"gpt2\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\n\n# Prepare dataset (example)\ntrain_dataset = [...]  # Your training data here\n\n# Tokenize dataset\ndef tokenize_function(examples):\n    return tokenizer(examples[\"text\"], padding=\"max_length\", truncation=True)\n\ntokenized_datasets = train_dataset.map(tokenize_function, batched=True)\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=4,\n    save_steps=10_000,\n    save_total_limit=2,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=tokenized_datasets,\n)\n\n# Start training\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Documentation",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "OpenAI Fine-tuning Guide",
+          "url": "https://platform.openai.com/docs/guides/fine-tuning"
+        },
+        {
+          "name": "Papers on Fine-tuning Techniques",
+          "url": "https://arxiv.org/abs/2106.09685"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "التخصيص",
+        "التدريب",
+        "تحسين الأداء"
+      ],
+      "quickRef": "ضبط النماذج للأنواع المحددة: تحديد المجال، إعداد مجموعة البيانات، اختيار النموذج الأساسي، تنفيذ الضبط، والتقييم والتحسين.",
+      "quickRefEn": "Fine-tuning models for specific domains: Define domain, prepare dataset, choose base model, implement fine-tuning, evaluate and improve.",
+      "quiz": [
+        {
+          "q": "ما هو الخطأ الأكثر شيوعًا عند ضبط نماذج الذكاء الاصطناعي لمجال محدد؟",
+          "options": [
+            "عدم وجود بيانات تدريبية كافية",
+            "اخيار نموذج أساسي غير مناسب",
+            "عدم مراقبة مؤشرات التدريب",
+            "كل ما سبق"
+          ],
+          "answer": 3,
+          "explain": "كل الخيارات المذكورة هي أخطاء شائعة عند ضبط النماذج. عدم وجود بيانات كافية يؤدي إلى ضعف الأداء، واخيار نموذج غير مناسب يحدد من نقطة البداية، وعدم مراقبة المؤشرات يجعل من الصعب تحديد المشاكل وتصحيحها."
+        },
+        {
+          "q": "ما هو أهم عامل يجب مراعاته عند إعداد مجموعة البيانات للضبط؟",
+          "options": [
+            "حجم مجموعة البيانات",
+            "تنوع الأمثلة في مجموعة البيانات",
+            "جودة البيانات",
+            "سرعة الوصول للبيانات"
+          ],
+          "answer": 1,
+          "explain": "تنوع الأمثلة في مجموعة البيانات هو العامل الأهم، لأنه يضمن أن النموذج يتعلم بشكل متوازن ويتمكن من التعميم بشكل جيد. على الرغم من أن حجم البيانات وجودتها مهمة أيضًا، إلا أن التنوع هو ما يضمن أن النموذج لن يتعلم بشكل متحيز."
+        },
+        {
+          "q": "كيف يمكن تحديد ما إذا كان النموذج قد تم ضبطه بشكل صحيح؟",
+          "options": [
+            "بفقدان التدريب المنخفض فقط",
+            "بمقارنة الأداء على مجموعة بيانات تدريبية",
+            "باختبار النموذج على مجموعة بيانات منفصلة",
+            "بزيادة عدد التكرارات"
+          ],
+          "answer": 2,
+          "explain": "الطريقة الأكثر دقة لتحديد ما إذا كان النموذج قد تم ضبطه بشكل صحيح هي اختباره على مجموعة بيانات منفصلة لم يرها من قبل. هذا يختبر قدرة النموذج على التعميم وليس مجرد حفظ البيانات. فقدان التدريب المنخفض قد يشير إلى التعلق، ومقارنة الأداء على مجموعة التدريب لا تختبر التعميم."
+        }
+      ],
+      "addedAt": "2026-10-29"
+    },
+    {
       "id": "k-2026-10-27-تحسين-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاص",
       "title": "تحسين قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
       "titleEn": "Vector Database Optimization for AI Applications",
