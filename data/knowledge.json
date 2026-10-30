@@ -1,6 +1,119 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-30-أساسيات-أمان-الذكاء-الاصطناعي",
+      "title": "أساسيات أمان الذكاء الاصطناعي",
+      "titleEn": "AI Safety Basics",
+      "why": "مع تطور نماذج الذكاء الاصطناعي وتوسع استخدامها، يصبح فهم أساسيات أمان الذكاء الاصطناعي ضروريًا لضمان استخدام هذه التقنيات بشكل آمن ومسؤول. يساعد هذا المعرفة في تحديد المخاطر المحتملة وتطوير استراتيجيات للتخفيف منها.",
+      "whyEn": "As AI models evolve and their usage expands, understanding AI safety basics becomes essential for ensuring these technologies are used safely and responsibly. This knowledge helps identify potential risks and develop strategies to mitigate them.",
+      "difficulty": "beginner",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "فهم المخاطر الرئيسية",
+          "detail": "تعرف على أنواع المخاطر الرئيسية المتعلقة بالذكاء الاصطناعي مثل التحيزات، والاستخدام الخاطئ، والخصوصية، والأمان السيبراني. ادرس كيف يمكن أن تؤثر هذه المخاطر على المستخدمين والمجتمع."
+        },
+        {
+          "title": "تحديد التحيزات في النماذج",
+          "detail": "تعلم كيفية اكتشاف التحيزات في نماذج الذكاء الاصطناعي من خلال تحليل النتائج التي تنتجها النماذج. انتبه للتحيزات العرقية أو الجنسية أو الثقافية في الاستجابات."
+        },
+        {
+          "title": "تطوير إرشادات استخدام آمنة",
+          "detail": "أنشئ إرشادات واضحة لاستخدام نماذج الذكاء الاصطناعي بشكل آمن. ضمن أن هذه الإرشادات تشمل تحديد نطاق الاستخدام، والتحقق من المخرجات، والإبلاغ عن المشكلات."
+        },
+        {
+          "title": "مراقبة النماذج باستمرار",
+          "detail": "قم بمراقبة أداء النماذج باستمرار للكشف عن أي مشكلات جديدة أو سلوك غير متوقع. استخدم أدوات المراقبة والتحليل لفهم كيفية استخدام النماذج في العالم الحقيقي."
+        },
+        {
+          "title": "تحديث المعرفة بانتظام",
+          "detail": "حافظ على تحديث معرفتك بأحدث التطورات في مجال أمان الذكاء الاصطناعي. اتبع الأبحاث والمناقشات حول هذا الموضوع لفهم التحديات الجديدة والحلول المبتكرة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Key Risks",
+          "detail": "Learn about the main types of AI-related risks such as biases, misuse, privacy, and cybersecurity. Study how these risks can impact users and society."
+        },
+        {
+          "title": "Identify Biases in Models",
+          "detail": "Learn how to detect biases in AI models by analyzing the results they produce. Be aware of racial, gender, or cultural biases in responses."
+        },
+        {
+          "title": "Develop Safe Usage Guidelines",
+          "detail": "Create clear guidelines for using AI models safely. Ensure these guidelines include defining the scope of use, verifying outputs, and reporting issues."
+        },
+        {
+          "title": "Continuously Monitor Models",
+          "detail": "Continuously monitor model performance to detect any new issues or unexpected behavior. Use monitoring and analysis tools to understand how models are used in the real world."
+        },
+        {
+          "title": "Regularly Update Knowledge",
+          "detail": "Keep your knowledge updated with the latest developments in AI safety. Follow research and discussions on this topic to understand new challenges and innovative solutions."
+        }
+      ],
+      "code": "",
+      "resources": [
+        {
+          "name": "AI Safety Institute",
+          "url": "https://www.aisafetyinstitute.org/"
+        },
+        {
+          "name": "Partnership on AI",
+          "url": "https://partnershiponai.org/"
+        },
+        {
+          "name": "AI Ethics Guidelines",
+          "url": "https://www.unesco.org/en/ethics-of-ai"
+        }
+      ],
+      "tags": [
+        "أمان",
+        "مسؤولية",
+        "تحيز",
+        "خصوصية",
+        "إرشادات"
+      ],
+      "quickRef": "أساسيات أمان الذكاء الاصطناعي: فهم المخاطر، تحديد التحيزات، تطوير إرشادات، مراقبة النماذج، تحديث المعرفة.",
+      "quickRefEn": "AI Safety Basics: Understand risks, identify biases, develop guidelines, monitor models, update knowledge.",
+      "quiz": [
+        {
+          "q": "ما هي الخطوة الأولى في ضمان أمان نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "مراقبة النماذج باستمرار",
+            "فهم المخاطر الرئيسية",
+            "تطوير إرشادات استخدام",
+            "تحديث المعرفة بانتظام"
+          ],
+          "answer": 1,
+          "explain": "فهم المخاطر الرئيسية هو الخطوة الأولى لأنه يمنحك الأساس لتحديد المشكلات المحتملة وتطوير استراتيجيات للتخفيف منها."
+        },
+        {
+          "q": "كيف يمكن اكتشاف التحيزات في نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "فحص الكود المصدري للنموذج",
+            "تحليل النتائج التي ينتجها النموذج",
+            "زيادة حجم بيانات التدريب",
+            "تقليل تعقيد النموذج"
+          ],
+          "answer": 1,
+          "explain": "تحليل النتائج التي ينتجها النموذج هو الطريقة الأكثر فعالية لاكتشاف التحيزات، حيث يمكنك ملاحظة الأنماط غير المتوازنة في الاستجابات."
+        },
+        {
+          "q": "ما هو أحد أهم الجوانب الأمنية للذكاء الاصطناعي؟",
+          "options": [
+            "سرعة المعالجة",
+            "كفاءة الطاقة",
+            "الخصوصية",
+            "سهولة الاستخدام"
+          ],
+          "answer": 2,
+          "explain": "الخصوصية هي أحد أهم الجوانب الأمنية للذكاء الاصطناعي لأنها تتعل بحماية بيانات المستخدمين ومنع الوصول غير المصرح به إلى المعلومات الحساسة."
+        }
+      ],
+      "addedAt": "2026-10-30"
+    },
+    {
       "id": "k-2026-10-29-ضبط-النماذج-للأنواع-المحددة",
       "title": "ضبط النماذج للأنواع المحددة",
       "titleEn": "Fine-tuning Models for Specific Domains",
