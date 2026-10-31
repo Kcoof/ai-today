@@ -1,6 +1,103 @@
 {
   "entries": [
     {
+      "id": "k-2026-10-31-تنفيذ-وكلاء-الذكاء-الاصطناعي",
+      "title": "تنفيذ وكلاء الذكاء الاصطناعي",
+      "titleEn": "Implementing AI Agents",
+      "why": "وكلاء الذكاء الاصطناعي يمكنهم أداء مهارات معقدة بشكل مستقل، مما يوسع قدرات النماذج الأساسية ويحلل مشاكل متعددة الخطوات بكفاءة.",
+      "whyEn": "AI agents can perform complex tasks independently, extending the capabilities of base models and efficiently solving multi-step problems.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "فهم مفهوم الوكيل",
+          "detail": "تحديد دور الوكيل والوظائف التي سيقوم بها، وتحديد النطاق الدقيق للمهام التي سيؤديها."
+        },
+        {
+          "title": "تصميم معمارية الوكيل",
+          "detail": "تحديد مكونات الوكيل (ذاكرة، أدوات، آلية اتخاذ القرار) وكيفية تفاعلها مع بعضها البعض."
+        },
+        {
+          "title": "تطوير منطق الوكيل",
+          "detail": "كتابة الكود للتحكم في سلوك الوكيل، بما في ذلك آلية التخطيط للخطوات اللازمة لإنجاز المهمة."
+        },
+        {
+          "title": "تكامل الأدوات",
+          "detail": "ربط الوكيل بالأدوات الخارجية اللازمة لتنفيذ المهام، مثل واجهات برمجة التطبيقات أو قواعد البيانات."
+        },
+        {
+          "title": "الاختبار والتقييم",
+          "detail": "التأكد من أن الوكيل يؤدي المهام المطلوبة بدقة، وتحسين الأداء وتصحيح الأخطاء."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding the agent concept",
+          "detail": "Define the agent's role and intended functions, and determine the exact scope of tasks it will perform."
+        },
+        {
+          "title": "Designing agent architecture",
+          "detail": "Identify the agent's components (memory, tools, decision-making mechanism) and how they interact with each other."
+        },
+        {
+          "title": "Developing agent logic",
+          "detail": "Write code to control agent behavior, including a planning mechanism for the steps needed to complete tasks."
+        },
+        {
+          "title": "Integrating tools",
+          "detail": "Connect the agent with necessary external tools for task execution, such as APIs or databases."
+        },
+        {
+          "title": "Testing and evaluation",
+          "detail": "Ensure the agent performs required tasks accurately, improve performance, and fix bugs."
+        }
+      ],
+      "code": "import openai\n\nclass AIAgent:\n    def __init__(self, model_name, tools):\n        self.model_name = model_name\n        self.tools = tools\n        self.memory = []\n    \n    def plan_task(self, task):\n        # Use the model to plan the task\n        response = openai.ChatCompletion.create(\n            model=self.model_name,\n            messages=[\n                {\"role\": \"system\", \"content\": \"You are an AI agent. Plan this task step by step.\"},\n                {\"role\": \"user\", \"content\": task}\n            ]\n        )\n        return response.choices[0].message['content']\n    \n    def execute_task(self, task):\n        plan = self.plan_task(task)\n        for step in plan:\n            # Execute each step using available tools\n            result = self.use_tool(step)\n            self.memory.append(result)\n        return self.memory\n    \n    def use_tool(self, step):\n        # Implementation for using tools\n        pass",
+      "resources": [
+        {
+          "name": "OpenAI Function Calling Documentation",
+          "url": "https://platform.openai.com/docs/guides/function-calling"
+        },
+        {
+          "name": "LangChain Agent Framework",
+          "url": "https://python.langchain.com/docs/modules/agents/"
+        }
+      ],
+      "tags": [
+        "وكلاء الذكاء الاصطناعي",
+        "نماذج اللغة",
+        "تطبيقات الذكاء الاصطناعي",
+        "بناء أنظمة"
+      ],
+      "quickRef": "وكلاء الذكاء الاصطناعي: أنظمة مستقلة تستخدم النماذج اللغوية لتنفيذ مهام متعددة الخطوات باستخدام الأدوات الخارجية.",
+      "quickRefEn": "AI Agents: Independent systems using language models to execute multi-step tasks with external tools.",
+      "quiz": [
+        {
+          "q": "ما هو المكون الأساسي الذي يسمح للوكيل بالتفاعل مع العالم الخارجي؟",
+          "options": [
+            "الذاكرة",
+            "الأدوات",
+            "آلية اتخاذ القرار",
+            "النموذج اللغوي"
+          ],
+          "answer": 1,
+          "explain": "الأدوات هي المكون الذي يسمح للوكيل بالتفاعل مع العالم الخارجي من خلال تنفيذ عمليات محددة مثل استدعاء واجهات برمجة التطبيقات أو الوصول إلى قواعد البيانات."
+        },
+        {
+          "q": "أي من الخيارات التالية يصف أفضل ممارسة عند تصميم معمارية الوكيل؟",
+          "options": [
+            "استخدام عدد أقل من الأدوات لتبسيط النظام",
+            "التأكد من أن الوكيل يمكنه الوصول إلى جميع البيانات الممكنة",
+            "تصميم نظام قابل للتوسع مع الحفاظ على وظائف محددة بوضوح",
+            "تجميع جميع الوظائف في وحدة واحدة لتحسين الأداء"
+          ],
+          "answer": 2,
+          "explain": "تصميم نظام قابل للتوسع مع الحفاظ على وظائف محددة بوضوح يضمن أن الوكيل يمكنه النمو مع الاحتفاظ بالقدرة على أداء مهامه بشكل فعال ومنظم."
+        }
+      ],
+      "addedAt": "2026-10-31"
+    },
+    {
       "id": "k-2026-10-30-أساسيات-أمان-الذكاء-الاصطناعي",
       "title": "أساسيات أمان الذكاء الاصطناعي",
       "titleEn": "AI Safety Basics",
