@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-01-ضبط-النماذج-الصغيرة-لمهام-محددة",
+      "title": "ضبط النماذج الصغيرة لمهام محددة",
+      "titleEn": "Fine-tuning Small Models for Specific Tasks",
+      "why": "يساعد ضبط النماذج الصغيرة على تحقيق أداء أفضل للمهام المحددة دون الحاجة إلى نماذج ضخمة ومكلفة.",
+      "whyEn": "Fine-tuning small models helps achieve better performance on specific tasks without needing large, expensive models.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد البيانات المناسبة",
+          "detail": "اجمع مجموعة بيانات متخصصة تتعلق بالمهمة التي تريد تحقيقها. يجب أن تكون هذه البيانات نظيفة ومنظمة جيدًا."
+        },
+        {
+          "title": "اخيار النموذج الأساسي",
+          "detail": "اختر نموذجًا صغيرًا مناسبًا للبدء، مثل DistilBERT أو TinyBERT، بناءً على متطلبات المهمة وموارد الحوسبة المتاحة."
+        },
+        {
+          "title": "إعداد بيانات التدريب",
+          "detail": "قم بمعالجة البيانات وتحويلها إلى تنسيق متوافق مع النموذج، مع تقسيمها إلى مجموعات تدريب واختبار."
+        },
+        {
+          "title": "تنفيذ عملية الضبط",
+          "detail": "استخدم مكتبات مثل Hugging Face Transformers لتنفيذ عملية الضبط مع مراقبة مؤشرات الأداء وتجنب المبالغة في التخصيص."
+        },
+        {
+          "title": "تقييم النموذج النهائي",
+          "detail": "اختبر النموذج على بيانات غير معروفة سابقًا للتأكد من أنه حقق تحسنًا حقيقيًا وليس مجرد تذكر للبيانات."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select Appropriate Data",
+          "detail": "Gather a specialized dataset relevant to the task you want to achieve. This data should be clean and well-organized."
+        },
+        {
+          "title": "Choose Base Model",
+          "detail": "Select a suitable small model to start with, such as DistilBERT or TinyBERT, based on task requirements and available computational resources."
+        },
+        {
+          "title": "Prepare Training Data",
+          "detail": "Process the data and convert it to a format compatible with the model, splitting it into training and test sets."
+        },
+        {
+          "title": "Implement Fine-tuning Process",
+          "detail": "Use libraries like Hugging Face Transformers to implement the fine-tuning process while monitoring performance metrics and avoiding overfitting."
+        },
+        {
+          "title": "Evaluate Final Model",
+          "detail": "Test the model on previously unseen data to ensure it has achieved genuine improvement rather than just memorizing the training data."
+        }
+      ],
+      "code": "from transformers import DistilBertTokenizer, DistilBertForSequenceClassification, Trainer, TrainingArguments\n\n# Load pre-trained model and tokenizer\nmodel = DistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased')\ntokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')\n\n# Tokenize your dataset\ntrain_encodings = tokenizer(train_texts, truncation=True, padding=True)\ntest_encodings = tokenizer(test_texts, truncation=True, padding=True)\n\n# Create PyTorch datasets\nclass IMDbDataset(torch.utils.data.Dataset):\n    def __init__(self, encodings, labels):\n        self.encodings = encodings\n        self.labels = labels\n    \n    def __getitem__(self, idx):\n        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}\n        item['labels'] = torch.tensor(self.labels[idx])\n        return item\n    \n    def __len__(self):\n        return len(self.labels)\n\ntrain_dataset = IMDbDataset(train_encodings, train_labels)\ntest_dataset = IMDbDataset(test_encodings, test_labels)\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',          # output directory\n    num_train_epochs=3,              # total number of training epochs\n    per_device_train_batch_size=16,  # batch size per device during training\n    per_device_eval_batch_size=64,   # batch size for evaluation\n    warmup_steps=500,                # number of warmup steps for learning rate scheduler\n    weight_decay=0.01,               # strength of weight decay\n    logging_dir='./logs',            # directory for storing logs\n    logging_steps=10,\n)\n\n# Create Trainer instance\ntrainer = Trainer(\n    model=model,                         # the instantiated 🤗 Transformers model to be trained\n    args=training_args,                  # training arguments, defined above\n    train_dataset=train_dataset,         # training dataset\n    eval_dataset=test_dataset            # evaluation dataset\n)\n\n# Train the model\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Tutorial",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "DistilBERT Documentation",
+          "url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
+        },
+        {
+          "name": "Fine-tuning Best Practices",
+          "url": "https://huggingface.co/docs/transformers/training"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "التعلم العميق",
+        "معالجة اللغات الطبيعية",
+        "النماذج الصغيرة"
+      ],
+      "quickRef": "1. اجمع بيانات متخصصة 2. اختر نموذجًا صغيرًا مناسبًا 3. معالجة البيانات 4. قم بعملية الضبط 5. قيّم النموذج",
+      "quickRefEn": "1. Gather specialized data 2. Choose suitable small model 3. Process data 4. Perform fine-tuning 5. Evaluate model",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة؟",
+          "options": [
+            "تقليل تكاليف التشغيل",
+            "تحسين الأداء لمهام محددة",
+            "زيادة حجم النموذج",
+            "تقليل دقة النموذج"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من ضبط النماذج الصغيرة هو تحسين أدائها لمهام محددة دون الحاجة إلى نماذج ضخمة ومكلفة."
+        },
+        {
+          "q": "ما هو الخطأ الشائع عند ضبط النماذج؟",
+          "options": [
+            "استخدام بيانات متنوعة",
+            "تجنب المبالغة في التخصيص",
+            "زيادة حجم النموذج",
+            "استخدام بيانات غير مرتبطة بالمهمة"
+          ],
+          "answer": 1,
+          "explain": "المبالغة في التخصيص (overfitting) هي مشكلة شائعة حيث يتعلم النموذج بيانات التدريب بشكل مفرط ولا يعمل بشكل جيد على بيانات جديدة."
+        },
+        {
+          "q": "ما هو أحد النماذج الصغيرة الشائعة المستخدمة في ضبط النماذج؟",
+          "options": [
+            "GPT-4",
+            "Claude Opus",
+            "DistilBERT",
+            "Gemini Ultra"
+          ],
+          "answer": 2,
+          "explain": "DistilBERT هو نموذج صغير شائع يستخدم في ضبط النماذج لمهام معالجة اللغات الطبيعية، وهو نسخة مُحسّنة من BERT."
+        }
+      ],
+      "addedAt": "2026-11-01"
+    },
+    {
       "id": "k-2026-10-31-تنفيذ-وكلاء-الذكاء-الاصطناعي",
       "title": "تنفيذ وكلاء الذكاء الاصطناعي",
       "titleEn": "Implementing AI Agents",
