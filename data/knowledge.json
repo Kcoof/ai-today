@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-02-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
+      "title": "تقييم أداء نماذج الذكاء الاصطناعي",
+      "titleEn": "Evaluating AI Model Performance",
+      "why": "تقييم أداء نماذج الذكاء الاصطناعي أمر حاسم لاختيار النموذج المناسب لمهامك وتحسين جودة النتائج التي تحصل عليها.",
+      "whyEn": "Evaluating AI model performance is crucial for selecting the right model for your tasks and improving the quality of results you obtain.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "تحديد المعايير المناسبة",
+          "detail": "اختر المعايير التي تناسب مهمتك، مثل الدقة، السرعة، التكلفة، أو تقييمات المتخصصين."
+        },
+        {
+          "title": "استخدام مجموعات البيانات القياسية",
+          "detail": "استخدم مجموعات بيانات معتمدة مثل MMLU, GPQA, أو SWE-Bench لمقارنة الأداء بشكل عادل."
+        },
+        {
+          "title": "تنفيذ الاختبارات",
+          "detail": "نفذ اختبارات متعددة في ظروف مختلفة للحصول على صورة كاملة عن أداء النموذج."
+        },
+        {
+          "title": "تحليل النتائج",
+          "detail": "قارن النتائج مع النماذج الأخرى وحدد نقاط القوة والضعف في كل نموذج."
+        },
+        {
+          "title": "مراقبة الأداء المستمر",
+          "detail": "راقب أداء النموذج باستمرار حيث قد يتغير مع التحديثات أو التغييرات في البيئة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Identify appropriate metrics",
+          "detail": "Choose metrics that suit your task, such as accuracy, speed, cost, or expert evaluations."
+        },
+        {
+          "title": "Use standard datasets",
+          "detail": "Use established datasets like MMLU, GPQA, or SWE-Bench for fair performance comparison."
+        },
+        {
+          "title": "Implement testing",
+          "detail": "Run multiple tests in different conditions to get a complete picture of model performance."
+        },
+        {
+          "title": "Analyze results",
+          "detail": "Compare results with other models and identify strengths and weaknesses of each."
+        },
+        {
+          "title": "Monitor continuous performance",
+          "detail": "Monitor model performance continuously as it may change with updates or environmental changes."
+        }
+      ],
+      "code": "import numpy as np\nfrom sklearn.metrics import accuracy_score, precision_score, recall_score\n\ndef evaluate_model(model, X_test, y_test):\n    # Make predictions\n    y_pred = model.predict(X_test)\n    \n    # Calculate metrics\n    accuracy = accuracy_score(y_test, y_pred)\n    precision = precision_score(y_test, y_pred, average='weighted')\n    recall = recall_score(y_test, y_pred, average='weighted')\n    \n    # Return results\n    return {\n        'accuracy': accuracy,\n        'precision': precision,\n        'recall': recall\n    }",
+      "resources": [
+        {
+          "name": "LLM Stats Leaderboard",
+          "url": "https://llm-stats.com"
+        },
+        {
+          "name": "Hugging Face Evaluate Library",
+          "url": "https://huggingface.co/docs/evaluate/index"
+        },
+        {
+          "name": "MLflow Model Evaluation",
+          "url": "https://mlflow.org/docs/latest/model-evaluation.html"
+        }
+      ],
+      "tags": [
+        "تقييم النماذج",
+        "قياس الأداء",
+        "ذكاء اصطناعي",
+        "تحليل البيانات"
+      ],
+      "quickRef": "حدد المعايير، استخدم مجموعات بيانات قياسية، نفذ الاختبارات، قارن النتائج، وراقب الأداء المستمر.",
+      "quickRefEn": "Identify metrics, use standard datasets, implement tests, compare results, and monitor continuous performance.",
+      "quiz": [
+        {
+          "q": "ما هو أهم معيار عند تقييم نموذج ذكاء اصطناعي لمهمة تصنيف النصوص؟",
+          "options": [
+            "السرعة فقط",
+            "الدقة فقط",
+            "الدقة والسرعة والتكلفة",
+            "حجم النموذج فقط"
+          ],
+          "answer": 2,
+          "explain": "تقييم نماذج تصنيف النصوص يجب أن يأخذ في الاعتبار الدقة والسرعة والتكلفة لاختيار النموذج الأمثل."
+        },
+        {
+          "q": "ما هي مجموعة البيانات القياسية الأكثر شيوعًا لتقييم نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "MMLU فقط",
+            "GPQA فقط",
+            "SWE-Bench فقط",
+            "كل ما سبق"
+          ],
+          "answer": 3,
+          "explain": "MMLU, GPQA, و SWE-Bench هي جميعها مجموعات بيانات قياسية معتمدة لتقييم نماذج الذكاء الاصطناعي في مجالات مختلفة."
+        }
+      ],
+      "addedAt": "2026-11-02"
+    },
+    {
       "id": "k-2026-11-01-ضبط-النماذج-الصغيرة-لمهام-محددة",
       "title": "ضبط النماذج الصغيرة لمهام محددة",
       "titleEn": "Fine-tuning Small Models for Specific Tasks",
