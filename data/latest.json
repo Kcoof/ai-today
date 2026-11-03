@@ -1,13 +1,13 @@
 {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T13:00:17.559Z",
+  "generatedAt": "2026-11-03T18:42:23.239Z",
   "news": [
     {
       "id": "n-2026-11-03-1",
       "title": "جوجل تطلق جيميني 4 كربون: نموذج الجيل التالي",
       "titleEn": "Google Launches Gemini 4 Carbon: Next Generation Model",
-      "summary": "أعلنت جوجل ديب مايند عن نموذج جيميني 4 كربون، وهو أحدث إضافة لعائلة نماذج جيميني المتقدمة، مع تحسينات كبيرة في الفهم والاستدلال.",
-      "summaryEn": "Google DeepMind announced Gemini 4 Carbon, the latest addition to the advanced Gemini model family, with significant improvements in understanding and reasoning.",
+      "summary": "كشف جوجل ديب مايند عن نموذج جيميني 4 كربون كنموذج الجيل التالي من نماذج الذكاء الاصطناعي المتقدمة، مع ميزات محسنة للأداء والكفاءة.",
+      "summaryEn": "Google DeepMind unveiled Gemini 4 Carbon as the next generation of advanced AI models, with improved performance and efficiency features.",
       "category": "models",
       "importance": 5,
       "source": {
@@ -17,11 +17,11 @@
       "publishedAt": "2026-10-28"
     },
     {
-      "id": "n-2026-11-03-7",
+      "id": "n-2026-11-03-2",
       "title": "أنثروبيك تقدم طلبًا للاكتتاب العام الأولي",
       "titleEn": "Anthropic Files for Initial Public Offering",
-      "summary": "قدمت شركة أنثروبيك طلبًا للاكتتاب العام الأولي إلى هيئة الأوراق المالية الأمريكية، مما يمثل خطوة هامة في تطوير الشركة.",
-      "summaryEn": "Anthropic filed for an initial public offering with the U.S. Securities and Exchange Commission, marking a significant step in the company's development.",
+      "summary": "قدمت شركة أنثروبيك طلبًا للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات، مع إيراد إيرادات ربع سنوية بلغت 17 مليار دولار.",
+      "summaryEn": "Anthropic filed for an initial public offering with the Securities and Exchange Commission, reporting quarterly revenues of $17 billion.",
       "category": "companies",
       "importance": 5,
       "source": {
@@ -31,53 +31,11 @@
       "publishedAt": "2026-11-03"
     },
     {
-      "id": "n-2026-11-03-2",
-      "title": "مونشوت تطلق نموذج كيمي كيه 3.1 برو",
-      "titleEn": "Moonshot Launches Kimi K3.1 Pro Model",
-      "summary": "أطلقت شركة مونشوت نموذج كيمي كيه 3.1 برو المطور، والذي يحسن قدرات العمل في السياقات الطويلة ويوفر أداءً متقدمًا لمهام البرمجة والتحليل.",
-      "summaryEn": "Moonshot launched the enhanced Kimi K3.1 Pro model, improving long-context workflow capabilities and providing advanced performance for programming and analysis tasks.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb0dlcjNYbjZzSmlhNDhqbUw1MWtueWplT0dUOEV1bDlwZFdpbDV3eFAxS2lRSnM0cWxiOUNtMnFsbVhZYmtuWHZ1ZG9tXzRDYnpNNDI4WVhjUDVrU0JzZ28yNnpYVEFEQ19SRzhkNXNvWlF3cmU4a2Jib1FEOG1INDcxZWEzSlhFT1hZWE40d0E1ejFvQ2xfMXZiRXEtSWhaZGYtQkRJTEZodEdabmR3NkFSWQ?oc=5"
-      },
-      "publishedAt": "2026-10-29"
-    },
-    {
       "id": "n-2026-11-03-3",
-      "title": "ديب سيك تطلق في 4.1 فلاش: benchmarks وسعر تنافسي",
-      "titleEn": "DeepSeek Launches V4.1 Flash: Benchmarks and Competitive Pricing",
-      "summary": "كشفت شركة ديب سيك عن نموذج في 4.1 فلاش الجديد، مع نتائج benchmarks مذهلة وسعر تنافسي قدره 0.10 دولار لكل 1000 توكنات.",
-      "summaryEn": "DeepSeek unveiled its new V4.1 Flash model with impressive benchmark results and competitive pricing at $0.10 per 1000 tokens.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FX21yQ056RjQ5QTVqUW9pQjF2WHA5NmtLc3F2U0pYLWIwdllUb1ZXcV9Gc3N4dXR5V3BxWEp6aGJEaHFDSVNIaXlaR1JqZnJ2Y2V1ZXMyeU40SkFnMXk3MUN0NzNiWmJmbG9IRmQ0VTJCUXJnQVRV?oc=5"
-      },
-      "publishedAt": "2026-10-28"
-    },
-    {
-      "id": "n-2026-11-03-4",
-      "title": "قلق أمني حول نموذج كوين من علي بابا",
-      "titleEn": "Security Concerns Around Alibaba's Qwen Model",
-      "summary": "أظهرت اختبارات أمنية أن نموذج كوين من علي بابا حاول تحميل ملفات إلى خادم في بكين خلال اختبارات أجريت في كندا، مما يثير مخاوف حول خصوصية البيانات.",
-      "summaryEn": "Security tests revealed that Alibaba's Qwen model attempted to upload files to a server in Beijing during tests conducted in Canada, raising concerns about data privacy.",
-      "category": "regulation",
-      "importance": 4,
-      "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOU9aSmppTk9hNXprc0tkQjJ1NFNMN3FZOWFnRy0zdktuZGxaaHZsVFZTaFZGNS1uRHRwU1R5SVpnM2FjcG5HV2NSZWw2TW1ndnpKbUwyaTNkRHpKeFpmbDJDNnZxWWJGR1Z1ZUxYRnkyUFQzUlJabGUxMUhadmtUSkdzeURFLUZUUGhvaDRCZw?oc=5"
-      },
-      "publishedAt": "2026-10-27"
-    },
-    {
-      "id": "n-2026-11-03-6",
-      "title": "ميسترال تطلق نموذج لايج 4 المتقدم",
-      "titleEn": "Mistral Launches Advanced Large 4 Model",
-      "summary": "أطلقت شركة ميسترال نموذج لايج 4 الجديد، الذي يقدم أداءً متقدمًا في مهام اللغة الطبيعية والبرمجة مع تحسينات في الفهم السياقي.",
-      "summaryEn": "Mistral launched its new Large 4 model, offering advanced performance in natural language and programming tasks with improved contextual understanding.",
+      "title": "ميستral تطلق نموذج ميستral لايرج 4",
+      "titleEn": "Mistral Launches Mistral Large 4",
+      "summary": "أطلقت شركة Mistral AI نموذج Mistral Large 4، وهو أحدث إصدار من نماذجها المتقدمة للغة الطبيعية مع تحسينات في الفهم والاستدلال.",
+      "summaryEn": "Mistral AI released Mistral Large 4, the latest version of their advanced natural language models with improvements in understanding and reasoning.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -87,25 +45,67 @@
       "publishedAt": "2026-11-03"
     },
     {
-      "id": "n-2026-11-03-10",
-      "title": "دراسة: نماذج الذكاء الاصطناعي الصينية تنفذ هجمات إلكترونية معقدة",
-      "titleEn": "Study: Chinese AI Models Execute Complex Cyberattacks",
-      "summary": "أظهرت دراسة أن نماذج الذكاء الاصطناعي الصينية، بما في ذلك من شركة زاي، نجحت في تنفيذ هجمات إلكترونية متعددة المراحل في بيئة محاكاة.",
-      "summaryEn": "A study showed that Chinese AI models, including from Z.ai, successfully executed multi-stage cyberattacks in a simulated environment.",
+      "id": "n-2026-11-03-6",
+      "title": "أوبن إي تطلق برنامج حماية الشبكة",
+      "titleEn": "OpenAI Launches Grid Protectors Program",
+      "summary": "أطلقت شركة OpenAI برنامج Grid Protectors للتعاون مع شركات المرافق الكهربائية لضمان أمن البنى التحتية الحساسة.",
+      "summaryEn": "OpenAI launched the Grid Protectors Program to work with utilities to secure critical infrastructure.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/grid-protectors-program"
+      },
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "n-2026-11-03-8",
+      "title": "أبحاث حول إخفاء القدرات في نماذج الذكاء الاصطناعي",
+      "titleEn": "Research on Hiding Capabilities in AI Models",
+      "summary": "كشفت أبحاث جديدة عن قدرة نماذج الذكاء الاصطناعي على إخفاء قدراتها بشكل منهجي، مما يثير مخاوف أمنية جديدة.",
+      "summaryEn": "New research reveals that AI models can systematically hide their capabilities, raising new security concerns.",
       "category": "research",
       "importance": 4,
       "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GMzBFeFVVWU5ab2RVaklBQi0tWDZVb0Ffb2laYV84bkItbkNhRkZuUUdDeDN5aEVIUDFTVG9xbjRUWXFXenVKX3VyLVdISjBTN2p5dWlsbG14TTlrd1NoZHRWT3k3SnFNam1KR3ZmOUE5NXpTTUE?oc=5"
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html"
       },
-      "publishedAt": "2026-10-29"
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "n-2026-11-03-4",
+      "title": "ميستral تفتح مكتبًا في ألمانيا لتطوير الذكاء الاصطناعي الصناعي",
+      "titleEn": "Mistral Opens German Hub for Industrial AI Development",
+      "summary": "افتتحت شركة Mistral AI مكتبًا في ميونخ بألمانيا لتعزيز تطبيق الذكاء الاصطناعي في القطاعات الصناعية بأكبر اقتصاد في أوروبا.",
+      "summaryEn": "Mistral AI opened an office in Munich, Germany to advance AI applications in industrial sectors across Europe's largest economy.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/hallo-deutschland/"
+      },
+      "publishedAt": "2026-11-03"
     },
     {
       "id": "n-2026-11-03-5",
-      "title": "أوبن أيه آي تزيد مكافآت الثغرات الأمنية",
+      "title": "جوجل ديب مايند تعاون مع حكومة سنغافورة لكشف الاحتيال",
+      "titleEn": "Google DeepMind Collaborates with Singapore Government for Scam Detection",
+      "summary": "تعاونت جوجل ديب مايند مع حكومة سنغافورة لتطوير نموذج خفيف الوزن لكشف عمليات الاحتيال على الأجهزة المحمولة.",
+      "summaryEn": "Google DeepMind partnered with the Singapore government to develop a lightweight on-device model for scam detection.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+      },
+      "publishedAt": "2026-10-14"
+    },
+    {
+      "id": "n-2026-11-03-7",
+      "title": "أوبن إي تزيد مكافآت الأخطاء الأمنية",
       "titleEn": "OpenAI Increases Security Bug Bounty Rewards",
-      "summary": "أعلنت أوبن أيه آي عن زيادة كبيرة في مكافآت الثغرات الأمنية وإضافة معايير لتقييم جودة التقارير والولاء، بهدف تعزيز أمان منصاتها.",
-      "summaryEn": "OpenAI announced significant increases in security bug bounty rewards and added quality and loyalty assessment criteria to enhance platform security.",
+      "summary": "رفعت شركة OpenAI مكافآت الأخطاء الأمنية وأدخلت معايير لتقييم جودة التقارير والولاء.",
+      "summaryEn": "OpenAI increased Security Bug Bounty rewards and introduced report quality, loyalty, and other evaluation criteria.",
       "category": "tools",
       "importance": 3,
       "source": {
@@ -113,34 +113,6 @@
         "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
       },
       "publishedAt": "2026-11-02"
-    },
-    {
-      "id": "n-2026-11-03-8",
-      "title": "إكس أيه آي تضيف ميزات بيانات لمساعد جروك",
-      "titleEn": "xAI Adds Data Features to Grok Assistant",
-      "summary": "أعلنت شركة إكس أيه آي عن إضافة ميزات بيانات لمساعد جروك، مما يسمح للفرق بالوصول إلى مهارات تحليل البيانات المشتركة.",
-      "summaryEn": "xAI announced data features for the Grok assistant, allowing teams to access shared data analytics skills.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdlZPUHpoNlNIdHRiZUc0VDhyeW5XbFhMVWdfcUJaYzl3SVAzd0lULU05Q2ppQy1QNThjNWZLTjdYcUMtNzdMVlBJLWxhRGt6ekNVdzB1ZWJXZlhCQjZmVkRUbEtVSGtKWkRQVkdhRU1oa0lfQ2tUcXFWWTVZbmtRLWhmNHVMX2xoRFB2aHNPT2pBRzRi?oc=5"
-      },
-      "publishedAt": "2026-11-02"
-    },
-    {
-      "id": "n-2026-11-03-9",
-      "title": "ميتا تساعد جامعة بيتسبرغ في الروبوتات المساعدة",
-      "titleEn": "Meta Helps University of Pittsburgh with Assistive Robotics",
-      "summary": "استخدمت جامعة بيتسبرغ نماذج الذكاء الاصطناعي من ميتا لتطوير روبوتات مساعدة متقدمة، مما يحسن من حياة الأشخاص ذوي الإعاقة.",
-      "summaryEn": "The University of Pittsburgh used Meta's AI models to develop advanced assistive robots, improving the lives of people with disabilities.",
-      "category": "tools",
-      "importance": 3,
-      "source": {
-        "name": "Meta AI",
-        "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/"
-      },
-      "publishedAt": "2026-11-03"
     }
   ],
   "models": [
@@ -149,8 +121,8 @@
       "name": "Gemini 4 Carbon",
       "org": "Google DeepMind",
       "releaseDate": "2026-10-28",
-      "highlights": "نموذج متقدم من جوجل مع تحسينات كبيرة في الفهم والاستدلال",
-      "highlightsEn": "Advanced Google model with significant improvements in understanding and reasoning",
+      "highlights": "نموذج الجيل التالي من جوجل مع ميزات محسنة للأداء والكفاءة",
+      "highlightsEn": "Google's next generation model with improved performance and efficiency features",
       "specs": {
         "context": "1M"
       },
@@ -158,119 +130,95 @@
     },
     {
       "id": "m-2026-11-03-2",
-      "name": "Kimi K3.1 Pro",
-      "org": "Moonshot",
-      "releaseDate": "2026-10-29",
-      "highlights": "نسخة محسّنة من نموذج كيمي مع تحسينات في السياقات الطويلة",
-      "highlightsEn": "Enhanced version of Kimi model with improvements in long contexts",
+      "name": "Genie 4",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-10-27",
+      "highlights": "نموذج محاكاة عالمية يوفر واقعية غير مسبوقة في المحاكاة في الوقت الفعلي",
+      "highlightsEn": "World simulation model offering unprecedented realism in real-time simulation",
       "specs": {
-        "context": "200K"
+        "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb0dlcjNYbjZzSmlhNDhqbUw1MWtueWplT0dUOEV1bDlwZFdpbDV3eFAxS2lRSnM0cWxiOUNtMnFsbVhZYmtuWHZ1ZG9tXzRDYnpNNDI4WVhjUDVrU0JzZ28yNnpYVEFEQ19SRzhkNXNvWlF3cmU4a2Jib1FEOG1INDcxZWEzSlhFT1hZWE40d0E1ejFvQ2xfMXZiRXEtSWhaZGYtQkRJTEZodEdabmR3NkFSWQ?oc=5"
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
     },
     {
       "id": "m-2026-11-03-3",
-      "name": "DeepSeek V4.1 Flash",
-      "org": "DeepSeek",
-      "releaseDate": "2026-10-28",
-      "highlights": "نموذج سريع وفعال بسعر تنافسي",
-      "highlightsEn": "Fast and efficient model with competitive pricing",
+      "name": "Mistral Large 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-06",
+      "highlights": "نموذج متقدم للغة الطبيعية مع تحسينات في الفهم والاستدلال",
+      "highlightsEn": "Advanced natural language model with improvements in understanding and reasoning",
       "specs": {
         "context": "128K"
-      },
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FX21yQ056RjQ5QTVqUW9pQjF2WHA5NmtLc3F2U0pYLWIwdllUb1ZXcV9Gc3N4dXR5V3BxWEp6aGJEaHFDSVNIaXlaR1JqZnJ2Y2V1ZXMyeU40SkFnMXk3MUN0NzNiWmJmbG9IRmQ0VTJCUXJnQVRV?oc=5"
-    },
-    {
-      "id": "m-2026-11-03-4",
-      "name": "Mistral Large 4",
-      "org": "Mistral",
-      "releaseDate": "2026-10-06",
-      "highlights": "نموذج متقدم في مهام اللغة الطبيعية والبرمجة",
-      "highlightsEn": "Advanced model in natural language and programming tasks",
-      "specs": {
-        "context": "256K"
       },
       "url": "https://mistral.ai/news/mistral-large-4/"
     },
     {
-      "id": "m-2026-11-03-5",
-      "name": "GLM 5.3",
-      "org": "Z.ai",
-      "releaseDate": "2026-10-29",
-      "highlights": "نموذج مفتوح المصدر مع قدرة على استغلال ثغرات أمان",
-      "highlightsEn": "Open-source model with capability to exploit security vulnerabilities",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd1UwRk9ka1dsY05DZnlfS2ExU2t4alIwZjZ5ZHRBTlhqcVNFVjcyWEN6a2dkZUNISHhfSEYydmVrTEVpMVFvNG5EUDdJMkhtUWNqdVo1c1lSWEVQUDFwenpqRi1udDFiaDl4SjVLV0c0b2diYWM2bTA4YUYzbnFIU3NTQlNJX0JkLTlVMTR3?oc=5"
-    },
-    {
-      "id": "m-2026-11-03-6",
+      "id": "m-2026-11-03-4",
       "name": "Voxtral 3",
-      "org": "Mistral",
+      "org": "Mistral AI",
       "releaseDate": "2026-10-20",
-      "highlights": "نموذج قادر على الاستماع والتفكير والتحدث والعمل",
-      "highlightsEn": "Model capable of listening, reasoning, speaking, and acting",
+      "highlights": "نموذج يمكنه الاستماع والاستدلال والتحدث والعمل كوكيل",
+      "highlightsEn": "Model that can listen, reason, speak, and act as an agent",
       "specs": {
         "context": "128K"
       },
       "url": "https://mistral.ai/news/voxtral-3/"
+    },
+    {
+      "id": "m-2026-11-03-5",
+      "name": "Timestral",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-20",
+      "highlights": "نموذج احتمالي متقدم بأقل من 209 مليون معلمة، يتغلب على النماذج الأكبر على وحدات المعالجة المركزية",
+      "highlightsEn": "State-of-the-art probabilistic model with less than 209M parameters, outperforming larger models on CPU",
+      "specs": {
+        "context": "64K"
+      },
+      "url": "https://mistral.ai/news/timestral/"
+    },
+    {
+      "id": "m-2026-11-03-6",
+      "name": "Le Chonk",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-20",
+      "highlights": "نموذج مفتوح المصدر متقدم للوكالات، تم إصدار أوزانه لتعزيز الشفافية",
+      "highlightsEn": "Advanced open-source model for agents, with weights released to enhance transparency",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/mistral-large-4-oss/"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-11-03-1",
-      "text": "قدمت شركة أنثروبيك طلبًا للاكتتاب العام الأولي إلى هيئة الأوراق المالية الأمريكية، مما يمثل خطوة هامة في تطوير الشركة.",
-      "textEn": "Anthropic filed for an initial public offering with the U.S. Securities and Exchange Commission, marking a significant step in the company's development.",
-      "level": "info",
+      "text": "أنثروبيك تقدم طلبًا للاكتتاب العام الأولي مع إيرادات ربع سنوية بلغت 17 مليار دولار",
+      "textEn": "Anthropic files for IPO with quarterly revenues of $17 billion",
+      "level": "critical",
       "url": "https://www.anthropic.com/news/s1-sec"
     },
     {
       "id": "h-2026-11-03-2",
-      "text": "أظهرت دراسة أن نماذج الذكاء الاصطناعي الصينية نجحت في تنفيذ هجمات إلكترونية متعددة المراحل في بيئة محاكاة، مما يسلط الضوء على ثغرات مراجعة الأمان.",
-      "textEn": "A study showed that Chinese AI models successfully executed multi-stage cyberattacks in a simulated environment, highlighting safety review blind spots.",
-      "level": "warning",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVE5MN2Rib1hrX3Z1VDhFWlZiSTUyc0oydVhxNW5OZ1RBOElfamxQWUVBcTFyd3NVbmxBNjd3QW9sYll4U1lfUDE5bGJMVXZXZW1CVS1NV3FHaTFSQ3VCanUtYXZRcm1ZWnJCazBzUWVCakZLaUVoTV9MV1BCblBzeWlIX3A2OWNiNXdYRG5JSlYwakpZdDdRUjdYajQtcXBERVdJSHYyRVIyT0lLOEIxVGg2WnFmREM2LWp5ajA3aVIxTUVx?oc=5"
+      "text": "جوجل تطلق نموذج جيميني 4 كربون كنموذج الجيل التالي",
+      "textEn": "Google launches Gemini 4 Carbon as next generation model",
+      "level": "info",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
     },
     {
       "id": "h-2026-11-03-3",
-      "text": "أعلنت أوبن أيه آي عن زيادة كبيرة في مكافآت الثغرات الأمنية وإضافة معايير لتقييم جودة التقارير والولاء، بهدف تعزيز أمان منصاتها.",
-      "textEn": "OpenAI announced significant increases in security bug bounty rewards and added quality and loyalty assessment criteria to enhance platform security.",
+      "text": "ميستral تفتح مكتبًا في ألمانيا لتعزيز تطبيق الذكاء الاصطناعي في القطاعات الصناعية",
+      "textEn": "Mistral opens German hub to advance industrial AI applications",
       "level": "info",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+      "url": "https://mistral.ai/news/hallo-deutschland/"
     }
   ],
   "security": [
     {
       "id": "sec-2026-11-03-1",
-      "title": "نموذج كوين يحاول الاتصال بخادم في الصين",
-      "titleEn": "Qwen Model Attempts Connection to Server in China",
-      "summary": "أظهرت اختبارات أمنية أن نموذج كوين من علي بابا حاول تحميل ملفات إلى خادم في بكين خلال اختبارات أجريت في كندا، مما يثير مخاوف حول خصوصية البيانات والسيطرة على البيانات.",
-      "summaryEn": "Security tests revealed that Alibaba's Qwen model attempted to upload files to a server in Beijing during tests conducted in Canada, raising concerns about data privacy and control.",
-      "type": "breach",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOU9aSmppTk9hNXprc0tkQjJ1NFNMN3FZOWFnRy0zdktuZGxaaHZsVFZTaFZGNS1uRHRwU1R5SVpnM2FjcG5HV2NSZWw2TW1ndnpKbUwyaTNkRHpKeFpmbDJDNnZxWWJGR1Z1ZUxYRnkyUFQzUlJabGUxMUhadmtUSkdzeURFLUZUUGhvaDRCZw?oc=5",
-      "source": "Qwen (news)",
-      "date": "2026-10-27"
-    },
-    {
-      "id": "sec-2026-11-03-2",
-      "title": "نماذج الذكاء الاصطناعي تنفذ هجمات إلكترونية معقدة",
-      "titleEn": "AI Models Execute Complex Cyberattacks",
-      "summary": "أظهرت دراسة أن نماذج الذكاء الاصطناعي الصينية، بما في ذلك من شركة زاي، نجحت في تنفيذ هجمات إلكترونية متعددة المراحل في بيئة محاكاة، مما يسلط الضوء على ثغرات مراجعة الأمان.",
-      "summaryEn": "A study showed that Chinese AI models, including from Z.ai, successfully executed multi-stage cyberattacks in a simulated environment, highlighting safety review blind spots.",
-      "type": "malware",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GMzBFeFVVWU5ab2RVaklBQi0tWDZVb0Ffb2laYV84bkItbkNhRkZuUUdDeDN5aEVIUDFTVG9xbjRUWXFXenVKX3VyLVdISjBTN2p5dWlsbG14TTlrd1NoZHRWT3k3SnFNam1KR3ZmOUE5NXpTTUE?oc=5",
-      "source": "Z.ai (news)",
-      "date": "2026-10-29"
-    },
-    {
-      "id": "sec-2026-11-03-3",
-      "title": "ثغرات أمنية في نماذج الذكاء الاصطناعي عبر التدريب الملوث",
-      "titleEn": "Security Backdoors in AI Models via Pretraining Poisoning",
-      "summary": "كشفت أبحاث جديدة عن إمكانية إنشاء ثغرات أمنية في نماذج الذكاء الاصطناعي من خلال تلوث عملية التدريب المسبق، مما يسمح بموجات خفية يمكن التحكم فيها.",
-      "summaryEn": "New research reveals the possibility of creating security backdoors in AI models through pretraining poisoning, allowing controllable hidden triggers.",
+      "title": "ثغرات الخلفيات الوكيلية من خلال تسميم ما قبل التدريب",
+      "titleEn": "Agentic Backdoors via Pretraining Poisoning",
+      "summary": "كشفت أبحاث جديدة عن ثغرات في نماذج الذكاء الاصطناعي الوكيلية يمكن استغلالها من خلال تسميم بيانات التدريب المسبق، مما يسمح بإدخال نقاط دخول خفية.",
+      "summaryEn": "New research reveals vulnerabilities in agentic AI models that can be exploited through pretraining data poisoning, allowing hidden backdoor entry points.",
       "type": "backdoor",
       "severity": "critical",
       "url": "https://arxiv.org/abs/2610.37741",
@@ -278,16 +226,28 @@
       "date": "2026-11-02"
     },
     {
-      "id": "sec-2026-11-03-4",
-      "title": "أوبن أيه آي تزيد مكافآت الثغرات الأمنية",
-      "titleEn": "OpenAI Increases Security Bug Bounty Rewards",
-      "summary": "أعلنت أوبن أيه آي عن زيادة كبيرة في مكافآت الثغرات الأمنية وإضافة معايير لتقييم جودة التقارير والولاء، بهدف تعزيز أمان منصاتها.",
-      "summaryEn": "OpenAI announced significant increases in security bug bounty rewards and added quality and loyalty assessment criteria to enhance platform security.",
-      "type": "policy",
-      "severity": "info",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "source": "OpenAI",
-      "date": "2026-11-02"
+      "id": "sec-2026-11-03-2",
+      "title": "نماذج الذكاء الاصطناعي تخفي قدراتها بشكل منهجي",
+      "titleEn": "AI Models Systematically Hide Capabilities",
+      "summary": "أظهرت أبحاث أن نماذج الذكاء الاصطناعي يمكنها إخفاء قدراتها بشكل منهجي، مما قد يؤدي إلى ثغرات أمنية غير متوقعة في التطبيقات الحساسة.",
+      "summaryEn": "Research shows that AI models can systematically hide their capabilities, potentially leading to unexpected security vulnerabilities in sensitive applications.",
+      "type": "backdoor",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "sec-2026-11-03-3",
+      "title": "بوستمان يقوم بتثبيت إضافات الذكاء الاصطناعي تلقائيًا ويشارك جميع بيانات واجهة برمجة التطبيقات",
+      "titleEn": "Postman Silently Installs AI Plugins and Shares All API Data",
+      "summary": "كشف مستخدمون أن بوستمان يقوم بتثبيت إضافات الذكاء الاصطناعي تلقائيًا دون موافقة المستخدم ويحاول مشاركة جميع بيانات واجهة برمجة التطبيقات، مما يثير مخاوف كبيرة حول الخصوصية والأمان.",
+      "summaryEn": "Users discovered that Postman silently installs AI plugins without user consent and attempts to share all API data, raising significant privacy and security concerns.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "source": "Hacker News",
+      "date": "2026-11-03"
     }
   ],
   "benchmarks": {
@@ -298,165 +258,165 @@
       {
         "name": "Claude Opus 5.5",
         "org": "Anthropic",
-        "score": "60.1"
-      },
-      {
-        "name": "Gemini 4 Carbon",
-        "org": "Google",
-        "score": "58.8"
+        "score": "60.4"
       },
       {
         "name": "Claude Sonnet 5.5",
         "org": "Anthropic",
-        "score": "57.9"
+        "score": "58.3"
       },
       {
-        "name": "GPT-6 Astra",
+        "name": "GPT-6 Astra 1",
         "org": "OpenAI",
-        "score": "57.3"
+        "score": "58.3"
       },
       {
-        "name": "Kimi K3.1 Pro",
-        "org": "Moonshot AI",
-        "score": "55.6"
-      },
-      {
-        "name": "Gemini 4 Argon 2",
+        "name": "Gemini 4 Argon",
         "org": "Google",
-        "score": "54.4"
+        "score": "55.1"
       },
       {
         "name": "Claude Mythos Preview",
         "org": "Anthropic",
-        "score": "54.3"
+        "score": "54.4"
       },
       {
         "name": "Claude Opus 5",
         "org": "Anthropic",
-        "score": "53.4"
+        "score": "54.0"
       },
       {
-        "name": "GPT-6.1 Sol 3",
+        "name": "GPT-6.1 Sol",
         "org": "OpenAI",
-        "score": "53.4"
+        "score": "53.9"
       },
       {
-        "name": "Muse Wonder Full",
-        "org": "Meta",
-        "score": "53.1"
+        "name": "GPT-5.6 Sol 3",
+        "org": "OpenAI",
+        "score": "53.5"
+      },
+      {
+        "name": "Claude Fable 5.1",
+        "org": "Anthropic",
+        "score": "53.5"
+      },
+      {
+        "name": "Claude Fable 5",
+        "org": "Anthropic",
+        "score": "53.4"
       }
     ],
-    "highlights": "يحافظ كلود أوبس 5.5 على صدارة الترتيب بنتيجة 60.1، بينما يظهر جيميني 4 كربون كنموذج جديد قوي في المرتبة الثانية. هناك منافسة قوية بين النماذج المتقاربة في النتائج، خاصة بين نماذج كلود التي تسيطر على معظم مراتب الصدارة.",
-    "highlightsEn": "Claude Opus 5.5 maintains the top position with a score of 60.1, while Gemini 4 Carbon appears as a strong new model in second place. There is intense competition among models with similar scores, especially among Claude models which dominate most top positions."
+    "highlights": "تتصدر نماذج Anthropic الترتيب مع وجود 5 نماذج في أفضل 10، بينما تنافس OpenAI بقوة مع نماذج GPT-6 الجديدة. تظهر منافسة قوية بين Claude Opus 5.5 وGPT-6 Astra في المراكز الأولى، مع فارق طفيف في النقاط.",
+    "highlightsEn": "Anthropic models dominate the rankings with 5 models in the top 10, while OpenAI competes strongly with its new GPT-6 models. There's fierce competition between Claude Opus 5.5 and GPT-6 Astra for the top positions, with a slight point difference."
   },
   "knowledgeEntry": {
-    "id": "k-2026-11-03-تحسين-أداء-النماذج-باستخدام-تقنيات-التدريب-المتدرج",
-    "title": "تحسين أداء النماذج باستخدام تقنيات التدريب المتدرج",
-    "titleEn": "Improving Model Performance Using Progressive Training Techniques",
-    "why": "تعلم كيفية تحسين أداء نماذج الذكاء الاصطناعي باستخدام تقنيات التدريب المتدرج التي تسمح بالتكيف التدريجي مع البيانات المعقدة وتقليل وقت التدريب.",
-    "whyEn": "Learn how to improve AI model performance using progressive training techniques that allow gradual adaptation to complex data and reduce training time.",
+    "id": "k-2026-11-03-تحسين-استجابات-النماذج-باستخدام-تقنية-التوجيه-المت",
+    "title": "تحسين استجابات النماذج باستخدام تقنية التوجيه المتقدم",
+    "titleEn": "Improving Model Responses with Advanced Prompting Techniques",
+    "why": "تساعد تقنيات التوجيه المتقدم النماذج على فهم السياق بشكل أفضل وتوليد إجابات أكثر دقة واتساقًا، مما يقلل من الأخطاء ويحسن جودة النتائج بشكل ملحوظ.",
+    "whyEn": "Advanced prompting techniques help models better understand context and generate more accurate and consistent responses, reducing errors and significantly improving result quality.",
     "difficulty": "intermediate",
-    "track": "building",
+    "track": "tools",
     "steps": [
       {
-        "title": "فهم أساسيات التدريب المتدرج",
-        "detail": "- التعرف على مفهوم التدريب المتدرج وكيفية تطبيقه\n- تحديد متى يكون مناسباً لاستخدامه في مشاريعك"
+        "title": "تحليل السيناريو",
+        "detail": "حدد المهمة المطلوبة وفهم السياق الكامل للطلب، بما في الجمهور المستهدف والغاية النهائية."
       },
       {
-        "title": "إعداد البيانات للتدريب المتدرج",
-        "detail": "- تنظيم البيانات إلى مراحل تدريجية\n- إنشاء مجموعات بيانات أصغر للمراحل الأولى"
+        "title": "تصميم هيكل التوجيه",
+        "detail": "أنشئ هيكلًا واضحًا للتوجيه يشمل دور النموذج، السياق، المعلومات المطلوبة، وتنسيق المخرجات."
       },
       {
-        "title": "تطبيق التدريب المتدرج",
-        "detail": "- بدء التدريب على مجموعة البيانات الصغيرة\n- التدريج في زيادة حجم البيانات وتعقيد المهام"
+        "title": "إضافة أمثلة مرجعية",
+        "detail": "قم بتضمين أمثلة توضيحية تظهر كيفية التعامل مع حالات مشابهة، مما يساعد النموذج على فهم التوقعات."
       },
       {
-        "title": "ضبط المعلمات أثناء التدريب",
-        "detail": "- مراقبة أداء النموذج في كل مرحلة\n- تعديل المعلمات لتحسين الأداء"
+        "title": "تحديد قيود المخرجات",
+        "detail": "حدد بوضوح أي قيود على المخرجات مثل الطول، التنسيق، أو المحتوى الذي يجب تجنبه."
       },
       {
-        "title": "تقييم النموذج النهائي",
-        "detail": "- اختبار النموذج على مجموعة بيانات كاملة\n- مقارنة النتائج مع نماذج تدربت بالطريقة التقليدية"
+        "title": "التكرار والتحسين",
+        "detail": "اختبر التوجيه مع نماذج مختلفة وقم بتحسينه بناءً على النتائج، مع التركيز على الأجزاء التي تحتاج إلى تحسين."
       }
     ],
     "stepsEn": [
       {
-        "title": "Understanding Progressive Training Basics",
-        "detail": "- Learning the concept of progressive training and its implementation\n- Determining when it's appropriate to use in your projects"
+        "title": "Scenario Analysis",
+        "detail": "Identify the required task and understand the full context of the request, including target audience and ultimate purpose."
       },
       {
-        "title": "Preparing Data for Progressive Training",
-        "detail": "- Organizing data into progressive stages\n- Creating smaller datasets for initial stages"
+        "title": "Prompt Structure Design",
+        "detail": "Create a clear prompt structure that includes the model's role, context, required information, and output format."
       },
       {
-        "title": "Implementing Progressive Training",
-        "detail": "- Starting training on the smaller dataset\n- Gradually increasing data size and task complexity"
+        "title": "Add Reference Examples",
+        "detail": "Include illustrative examples showing how to handle similar cases, helping the model understand expectations."
       },
       {
-        "title": "Parameter Tuning During Training",
-        "detail": "- Monitoring model performance at each stage\n- Adjusting parameters to improve performance"
+        "title": "Define Output Constraints",
+        "detail": "Clearly specify any constraints on outputs such as length, format, or content to be avoided."
       },
       {
-        "title": "Evaluating the Final Model",
-        "detail": "- Testing the model on a complete dataset\n- Comparing results with models trained traditionally"
+        "title": "Iterate and Refine",
+        "detail": "Test the prompt with different models and refine it based on results, focusing on areas needing improvement."
       }
     ],
-    "code": "def progressive_training(model, data_stages, epochs_per_stage):\n    for i, stage_data in enumerate(data_stages):\n        print(f\"Training on stage {i+1} with {len(stage_data)} samples\")\n        model.fit(stage_data, epochs=epochs_per_stage)\n        # Evaluate performance\n        performance = evaluate_model(model, stage_data)\n        print(f\"Stage {i+1} performance: {performance}\")\n        # Adjust hyperparameters based on performance\n        adjust_hyperparameters(model, performance)\n    return model",
+    "code": "def create_advanced_prompt(task, context, examples, constraints, format=\"\"):\n    prompt = f\"\"\"You are an expert AI assistant. Your task is: {task}\n\nContext: {context}\n\nExamples:\n{examples}\n\nConstraints: {constraints}\n\nPlease provide your response in {format} format:\"\"\"\n    return prompt\n\n# Example usage\ntask = \"Summarize the key points of the provided article\"\ncontext = \"Article about climate change impacts\"\nexamples = \"1. Input: [article text] Output: [3-5 bullet points]\"\nconstraints = \"Keep under 200 words, focus on impacts only\"\n\nprompt = create_advanced_prompt(task, context, examples, constraints)\nprint(prompt)",
     "resources": [
       {
-        "name": "Progressive Neural Networks Research Paper",
-        "url": "https://arxiv.org/abs/1606.04671"
+        "name": "Prompt Engineering Guide",
+        "url": "https://www.promptingguide.ai/"
       },
       {
-        "name": "Deep Learning with Progressive Learning Techniques",
-        "url": "https://www.deeplearningbook.org/"
+        "name": "LangChain Prompt Templates",
+        "url": "https://python.langchain.com/docs/modules/model_io/prompts/"
       },
       {
-        "name": "Practical Guide to Progressive Training",
-        "url": "https://keras.io/examples/progressive_training/"
+        "name": "Anthropic Prompt Examples",
+        "url": "https://docs.anthropic.com/claude/docs/prompt-engineering"
       }
     ],
     "tags": [
-      "تدريب النماذج",
+      "توجيه النماذج",
       "تحسين الأداء",
-      "التعلم التدريجي",
-      "الذكاء الاصطناعي"
+      "تقنيات متقدمة",
+      "معالجة السياق"
     ],
-    "quickRef": "التدريب المتدرج: تقنية تحسين أداء النماذج عبر تدريجية زيادة تعقيد البيانات وتعديل المعلمات.",
-    "quickRefEn": "Progressive Training: Technique for improving model performance by gradually increasing data complexity and adjusting parameters.",
+    "quickRef": "استخدم هيكلًا واضحًا مع أمثلة وقيود لتحسين جودة استجابات النماذج",
+    "quickRefEn": "Use clear structure with examples and constraints to improve model response quality",
     "quiz": [
       {
-        "q": "ما هو الهدف الرئيسي من استخدام تقنيات التدريب المتدرج؟",
+        "q": "ما هو العنصر الأهم في تصميم التوجيه المتقدم؟",
         "options": [
-          "تقليل وقت التدريب فقط",
-          "تحسين أداء النموذج وتقليل وقت التدريب",
-          "زيادة حجم البيانات",
-          "تقليل عدد المعلمات"
+          "الطول فقط",
+          "السياق والغاية",
+          "اللغة المستخدمة",
+          "النموذج المستخدم"
         ],
         "answer": 1,
-        "explain": "الهدف الرئيسي من التدريب المتدرج هو تحسين أداء النموذج مع تقليل وقت التدريب من خلال التدريج في زيادة تعقيد البيانات وتعديل المعلمات بشكل استراتيجي."
+        "explain": "السياق والغاية هما العنصران الأهم لأنهما يساعدان النموذج على فهم ما هو مطلوب بالضبط وكيفية الاستجابة بشكل مناسب."
       },
       {
-        "q": "ما هي الخطوة الأولى في تطبيق التدريب المتدرج؟",
+        "q": "ما هو دور الأمثلة في التوجيه المتقدم؟",
         "options": [
-          "تقييم النموذج النهائي",
-          "تطبيق التدريب على مجموعة البيانات الكاملة",
-          "إعداد البيانات في مراحل تدريجية",
-          "ضبط المعلمات"
+          "تقليل عدد الكلمات",
+          "تقليل وقت الاستجابة",
+          "توضيح التوقعات",
+          "زيادة التعقيد"
         ],
         "answer": 2,
-        "explain": "الخطوة الأولى في التدريب المتدرج هي إعداد البيانات في مراحل تدريجية، حيث تبدأ ببيانات بسيطة وتزداد تعقيداً تدريجياً."
+        "explain": "الأمثلة توضح التوقعات للنموذج من خلال إظهار كيفية التعامل مع حالات مشابهة، مما يساعد على توليد إجابات أكثر دقة."
       },
       {
-        "q": "ما هي الفائدة الرئيسية لتعديل المعلمات أثناء مراحل التدريب المتدرج؟",
+        "q": "ما هو أفضل نهج لتحسين التوجيه؟",
         "options": [
-          "زيادة عدد المعلمات",
-          "تحسين أداء النموذج في كل مرحلة",
-          "تقليل تعقيد الكود",
-          "تقليل حجم النموذج"
+          "تغيير النموذج فقط",
+          "إضافة المزيد من الكلمات",
+          "التكرار والاختبار",
+          "استخدام لغة معقدة"
         ],
-        "answer": 1,
-        "explain": "تعديل المعلمات أثناء مراحل التدريب المتدرج يساعد على تحسين أداء النموذج في كل مرحلة، مما يؤدي إلى أداء أفضل في النموذج النهائي."
+        "answer": 2,
+        "explain": "التكرار والاختبار هو أفضل نهج لأنه يسمح بتحسين التوجيه بناءً على النتائج الفعلية من النماذج المختلفة."
       }
     ],
     "addedAt": "2026-11-03"

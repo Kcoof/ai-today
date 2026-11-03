@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-03-تحسين-استجابات-النماذج-باستخدام-تقنية-التوجيه-المت",
+      "title": "تحسين استجابات النماذج باستخدام تقنية التوجيه المتقدم",
+      "titleEn": "Improving Model Responses with Advanced Prompting Techniques",
+      "why": "تساعد تقنيات التوجيه المتقدم النماذج على فهم السياق بشكل أفضل وتوليد إجابات أكثر دقة واتساقًا، مما يقلل من الأخطاء ويحسن جودة النتائج بشكل ملحوظ.",
+      "whyEn": "Advanced prompting techniques help models better understand context and generate more accurate and consistent responses, reducing errors and significantly improving result quality.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "تحليل السيناريو",
+          "detail": "حدد المهمة المطلوبة وفهم السياق الكامل للطلب، بما في الجمهور المستهدف والغاية النهائية."
+        },
+        {
+          "title": "تصميم هيكل التوجيه",
+          "detail": "أنشئ هيكلًا واضحًا للتوجيه يشمل دور النموذج، السياق، المعلومات المطلوبة، وتنسيق المخرجات."
+        },
+        {
+          "title": "إضافة أمثلة مرجعية",
+          "detail": "قم بتضمين أمثلة توضيحية تظهر كيفية التعامل مع حالات مشابهة، مما يساعد النموذج على فهم التوقعات."
+        },
+        {
+          "title": "تحديد قيود المخرجات",
+          "detail": "حدد بوضوح أي قيود على المخرجات مثل الطول، التنسيق، أو المحتوى الذي يجب تجنبه."
+        },
+        {
+          "title": "التكرار والتحسين",
+          "detail": "اختبر التوجيه مع نماذج مختلفة وقم بتحسينه بناءً على النتائج، مع التركيز على الأجزاء التي تحتاج إلى تحسين."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Scenario Analysis",
+          "detail": "Identify the required task and understand the full context of the request, including target audience and ultimate purpose."
+        },
+        {
+          "title": "Prompt Structure Design",
+          "detail": "Create a clear prompt structure that includes the model's role, context, required information, and output format."
+        },
+        {
+          "title": "Add Reference Examples",
+          "detail": "Include illustrative examples showing how to handle similar cases, helping the model understand expectations."
+        },
+        {
+          "title": "Define Output Constraints",
+          "detail": "Clearly specify any constraints on outputs such as length, format, or content to be avoided."
+        },
+        {
+          "title": "Iterate and Refine",
+          "detail": "Test the prompt with different models and refine it based on results, focusing on areas needing improvement."
+        }
+      ],
+      "code": "def create_advanced_prompt(task, context, examples, constraints, format=\"\"):\n    prompt = f\"\"\"You are an expert AI assistant. Your task is: {task}\n\nContext: {context}\n\nExamples:\n{examples}\n\nConstraints: {constraints}\n\nPlease provide your response in {format} format:\"\"\"\n    return prompt\n\n# Example usage\ntask = \"Summarize the key points of the provided article\"\ncontext = \"Article about climate change impacts\"\nexamples = \"1. Input: [article text] Output: [3-5 bullet points]\"\nconstraints = \"Keep under 200 words, focus on impacts only\"\n\nprompt = create_advanced_prompt(task, context, examples, constraints)\nprint(prompt)",
+      "resources": [
+        {
+          "name": "Prompt Engineering Guide",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "name": "LangChain Prompt Templates",
+          "url": "https://python.langchain.com/docs/modules/model_io/prompts/"
+        },
+        {
+          "name": "Anthropic Prompt Examples",
+          "url": "https://docs.anthropic.com/claude/docs/prompt-engineering"
+        }
+      ],
+      "tags": [
+        "توجيه النماذج",
+        "تحسين الأداء",
+        "تقنيات متقدمة",
+        "معالجة السياق"
+      ],
+      "quickRef": "استخدم هيكلًا واضحًا مع أمثلة وقيود لتحسين جودة استجابات النماذج",
+      "quickRefEn": "Use clear structure with examples and constraints to improve model response quality",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في تصميم التوجيه المتقدم؟",
+          "options": [
+            "الطول فقط",
+            "السياق والغاية",
+            "اللغة المستخدمة",
+            "النموذج المستخدم"
+          ],
+          "answer": 1,
+          "explain": "السياق والغاية هما العنصران الأهم لأنهما يساعدان النموذج على فهم ما هو مطلوب بالضبط وكيفية الاستجابة بشكل مناسب."
+        },
+        {
+          "q": "ما هو دور الأمثلة في التوجيه المتقدم؟",
+          "options": [
+            "تقليل عدد الكلمات",
+            "تقليل وقت الاستجابة",
+            "توضيح التوقعات",
+            "زيادة التعقيد"
+          ],
+          "answer": 2,
+          "explain": "الأمثلة توضح التوقعات للنموذج من خلال إظهار كيفية التعامل مع حالات مشابهة، مما يساعد على توليد إجابات أكثر دقة."
+        },
+        {
+          "q": "ما هو أفضل نهج لتحسين التوجيه؟",
+          "options": [
+            "تغيير النموذج فقط",
+            "إضافة المزيد من الكلمات",
+            "التكرار والاختبار",
+            "استخدام لغة معقدة"
+          ],
+          "answer": 2,
+          "explain": "التكرار والاختبار هو أفضل نهج لأنه يسمح بتحسين التوجيه بناءً على النتائج الفعلية من النماذج المختلفة."
+        }
+      ],
+      "addedAt": "2026-11-03"
+    },
+    {
       "id": "k-2026-11-03-تحسين-أداء-النماذج-باستخدام-تقنيات-التدريب-المتدرج",
       "title": "تحسين أداء النماذج باستخدام تقنيات التدريب المتدرج",
       "titleEn": "Improving Model Performance Using Progressive Training Techniques",
