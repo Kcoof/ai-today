@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-03-تحسين-أداء-النماذج-باستخدام-تقنيات-التدريب-المتدرج",
+      "title": "تحسين أداء النماذج باستخدام تقنيات التدريب المتدرج",
+      "titleEn": "Improving Model Performance Using Progressive Training Techniques",
+      "why": "تعلم كيفية تحسين أداء نماذج الذكاء الاصطناعي باستخدام تقنيات التدريب المتدرج التي تسمح بالتكيف التدريجي مع البيانات المعقدة وتقليل وقت التدريب.",
+      "whyEn": "Learn how to improve AI model performance using progressive training techniques that allow gradual adaptation to complex data and reduce training time.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "فهم أساسيات التدريب المتدرج",
+          "detail": "- التعرف على مفهوم التدريب المتدرج وكيفية تطبيقه\n- تحديد متى يكون مناسباً لاستخدامه في مشاريعك"
+        },
+        {
+          "title": "إعداد البيانات للتدريب المتدرج",
+          "detail": "- تنظيم البيانات إلى مراحل تدريجية\n- إنشاء مجموعات بيانات أصغر للمراحل الأولى"
+        },
+        {
+          "title": "تطبيق التدريب المتدرج",
+          "detail": "- بدء التدريب على مجموعة البيانات الصغيرة\n- التدريج في زيادة حجم البيانات وتعقيد المهام"
+        },
+        {
+          "title": "ضبط المعلمات أثناء التدريب",
+          "detail": "- مراقبة أداء النموذج في كل مرحلة\n- تعديل المعلمات لتحسين الأداء"
+        },
+        {
+          "title": "تقييم النموذج النهائي",
+          "detail": "- اختبار النموذج على مجموعة بيانات كاملة\n- مقارنة النتائج مع نماذج تدربت بالطريقة التقليدية"
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Progressive Training Basics",
+          "detail": "- Learning the concept of progressive training and its implementation\n- Determining when it's appropriate to use in your projects"
+        },
+        {
+          "title": "Preparing Data for Progressive Training",
+          "detail": "- Organizing data into progressive stages\n- Creating smaller datasets for initial stages"
+        },
+        {
+          "title": "Implementing Progressive Training",
+          "detail": "- Starting training on the smaller dataset\n- Gradually increasing data size and task complexity"
+        },
+        {
+          "title": "Parameter Tuning During Training",
+          "detail": "- Monitoring model performance at each stage\n- Adjusting parameters to improve performance"
+        },
+        {
+          "title": "Evaluating the Final Model",
+          "detail": "- Testing the model on a complete dataset\n- Comparing results with models trained traditionally"
+        }
+      ],
+      "code": "def progressive_training(model, data_stages, epochs_per_stage):\n    for i, stage_data in enumerate(data_stages):\n        print(f\"Training on stage {i+1} with {len(stage_data)} samples\")\n        model.fit(stage_data, epochs=epochs_per_stage)\n        # Evaluate performance\n        performance = evaluate_model(model, stage_data)\n        print(f\"Stage {i+1} performance: {performance}\")\n        # Adjust hyperparameters based on performance\n        adjust_hyperparameters(model, performance)\n    return model",
+      "resources": [
+        {
+          "name": "Progressive Neural Networks Research Paper",
+          "url": "https://arxiv.org/abs/1606.04671"
+        },
+        {
+          "name": "Deep Learning with Progressive Learning Techniques",
+          "url": "https://www.deeplearningbook.org/"
+        },
+        {
+          "name": "Practical Guide to Progressive Training",
+          "url": "https://keras.io/examples/progressive_training/"
+        }
+      ],
+      "tags": [
+        "تدريب النماذج",
+        "تحسين الأداء",
+        "التعلم التدريجي",
+        "الذكاء الاصطناعي"
+      ],
+      "quickRef": "التدريب المتدرج: تقنية تحسين أداء النماذج عبر تدريجية زيادة تعقيد البيانات وتعديل المعلمات.",
+      "quickRefEn": "Progressive Training: Technique for improving model performance by gradually increasing data complexity and adjusting parameters.",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من استخدام تقنيات التدريب المتدرج؟",
+          "options": [
+            "تقليل وقت التدريب فقط",
+            "تحسين أداء النموذج وتقليل وقت التدريب",
+            "زيادة حجم البيانات",
+            "تقليل عدد المعلمات"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من التدريب المتدرج هو تحسين أداء النموذج مع تقليل وقت التدريب من خلال التدريج في زيادة تعقيد البيانات وتعديل المعلمات بشكل استراتيجي."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في تطبيق التدريب المتدرج؟",
+          "options": [
+            "تقييم النموذج النهائي",
+            "تطبيق التدريب على مجموعة البيانات الكاملة",
+            "إعداد البيانات في مراحل تدريجية",
+            "ضبط المعلمات"
+          ],
+          "answer": 2,
+          "explain": "الخطوة الأولى في التدريب المتدرج هي إعداد البيانات في مراحل تدريجية، حيث تبدأ ببيانات بسيطة وتزداد تعقيداً تدريجياً."
+        },
+        {
+          "q": "ما هي الفائدة الرئيسية لتعديل المعلمات أثناء مراحل التدريب المتدرج؟",
+          "options": [
+            "زيادة عدد المعلمات",
+            "تحسين أداء النموذج في كل مرحلة",
+            "تقليل تعقيد الكود",
+            "تقليل حجم النموذج"
+          ],
+          "answer": 1,
+          "explain": "تعديل المعلمات أثناء مراحل التدريب المتدرج يساعد على تحسين أداء النموذج في كل مرحلة، مما يؤدي إلى أداء أفضل في النموذج النهائي."
+        }
+      ],
+      "addedAt": "2026-11-03"
+    },
+    {
       "id": "k-2026-11-02-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
       "title": "تقييم أداء نماذج الذكاء الاصطناعي",
       "titleEn": "Evaluating AI Model Performance",
