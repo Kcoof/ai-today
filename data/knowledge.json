@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-04-تحسين-استجابات-النماذج-باستخدام-تقنيات-التلخيص-الذ",
+      "title": "تحسين استجابات النماذج باستخدام تقنيات التلخيص الذكي",
+      "titleEn": "Improving Model Responses Using Intelligent Summarization Techniques",
+      "why": "تساعدك تقنيات التلخيص الذكي على الحصول على إجابات أكثر دقة وتركيز من نماذج الذكاء الاصطناعي، خاصة عند التعامل مع نصوص طويلة أو معقدة. هذه التقنية تقلل من التكرار وتحسين جودة المخرجات.",
+      "whyEn": "Intelligent summarization techniques help you get more accurate and focused responses from AI models, especially when dealing with long or complex texts. This approach reduces redundancy and improves output quality.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم احتياجات المستخدم",
+          "detail": "حدد ما يبحث عنه المستخدم بدقة وقم بتحليل السياق لتحديد النقاط الرئيسية التي يجب التركيز عليها في الملخص."
+        },
+        {
+          "title": "تحديد المعايير الملخصة",
+          "detail": "اختر معايير واضحة لتحديد أهم المعلومات في النص، مثل الأرقام، التواريخ، النتائج الرئيسية، والاستنتاجات."
+        },
+        {
+          "title": "تطبيق استراتيجيات التلخيص",
+          "detail": "استخدم استراتيجيات مثل التلخيص الاستخراجي (سحب الجمل المهمة) أو التلخيص التوليدي (إعادة صياغة المعلومات بلغة بسيطة)."
+        },
+        {
+          "title": "مراجعة وتحسين الملخص",
+          "detail": "تحقق من دقة الملخص واكتماله وقم بتعديله لضمان أنه يغطي جميع النقاط الرئيسية بلغة واضحة وموجزة."
+        },
+        {
+          "title": "التكرار والتحسين المستمر",
+          "detail": "جمع ملاحظات المستخدمين وتحسين استراتيجيات التلخيص بناءً على التفاعلات الفعلية لتحسين النتائج بمرور الوقت."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand User Requirements",
+          "detail": "Clearly identify what the user is looking for and analyze the context to determine key points that should be focused on in the summary."
+        },
+        {
+          "title": "Define Summarization Criteria",
+          "detail": "Select clear criteria for identifying important information in the text, such as numbers, dates, key results, and conclusions."
+        },
+        {
+          "title": "Apply Summarization Strategies",
+          "detail": "Use strategies like extractive summarization (pulling important sentences) or abstractive summarization (rephrasing information in simpler language)."
+        },
+        {
+          "title": "Review and Improve Summary",
+          "detail": "Check the summary for accuracy and completeness, then modify it to ensure it covers all key points in clear, concise language."
+        },
+        {
+          "title": "Iterate and Continuously Improve",
+          "detail": "Collect user feedback and improve summarization strategies based on actual interactions to enhance results over time."
+        }
+      ],
+      "code": "def intelligent_summarize(text, user_query, max_length=200):\n    # Extract key sentences based on user query\n    sentences = text.split('. ')\n    relevant_sentences = []\n    \n    for sentence in sentences:\n        if any(keyword in sentence.lower() for keyword in user_query.lower().split()):\n            relevant_sentences.append(sentence)\n    \n    # Create summary\n    summary = '. '.join(relevant_sentences[:3])\n    \n    # Ensure summary doesn't exceed max_length\n    if len(summary) > max_length:\n        summary = summary[:max_length] + '...'\n    \n    return summary",
+      "resources": [
+        {
+          "name": "Hugging Face Summarization Documentation",
+          "url": "https://huggingface.co/docs/transformers/main/tasks/summarization"
+        },
+        {
+          "name": "Text Summarization Techniques Guide",
+          "url": "https://towardsdatascience.com/text-summarization-approaches-and-technifications-7d4a2b9a0a57"
+        },
+        {
+          "name": "BERT for Summarization Tutorial",
+          "url": "https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270"
+        }
+      ],
+      "tags": [
+        "تلخيص نصوص",
+        "تحسين الاستجابات",
+        "معالجة اللغات الطبيعية",
+        "نماذج لغوية"
+      ],
+      "quickRef": "1. حدد احتياجات المستخدم 2. اختر معايير التلخيص 3. طبق استراتيجيات مناسبة 4. راجع النتائج 5. تحسن باستمرار",
+      "quickRefEn": "1. Identify user needs 2. Choose summarization criteria 3. Apply appropriate strategies 4. Review results 5. Continuously improve",
+      "quiz": [
+        {
+          "q": "ما هي الخطوة الأولى في تطبيق تقنيات التلخيص الذكي؟",
+          "options": [
+            "اختيار استراتيجية التلخيص",
+            "فهم احتياجات المستخدم",
+            "مراجعة النتائج",
+            "تطبيق التعديلات"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى والأهم هي فهم احتياجات المستخدم وسياق الاستعلام لتحديد النقاط الرئيسية التي يجب التركيز عليها في الملخص."
+        },
+        {
+          "q": "ما الفرق بين التلخيص الاستخراجي والتوليدي؟",
+          "options": [
+            "لا يوجد فرق",
+            "الاستخراجي يعيد صياغة المعلومات، والتوليدي يسحب الجمل المهمة",
+            "الاستخراجي يسحب الجمل المهمة، والتوليدي يعيد صياغة المعلومات",
+            "كلاهما يعيد صياغة المعلومات"
+          ],
+          "answer": 2,
+          "explain": "التلخيص الاستخراجي Extractive summarization يسحب الجمل المهمة من النص الأصلي دون تغييرها، بينما التلخيص التوليدي Abstractive summarization يعيد صياغة المعلومات بلغة جديدة."
+        },
+        {
+          "q": "لماذا يعتبر التكرار والتحسين المستمر مهمًا في تقنيات التلخيص؟",
+          "options": [
+            "لزيادة سرعة المعالجة",
+            "لتحسين جودة النتائج بناءً على التفاعلات الفعلية",
+            "لتقليل تكاليف التشغيل",
+            "لزيادة حجم المدخلات"
+          ],
+          "answer": 1,
+          "explain": "التكرار والتحسين المستمر يسمان بجمع ملاحظات المستخدمين وتحسين استراتيجيات التلخيص بناءً على التفاعلات الفعلية، مما يؤدي إلى تحسين جودة النتائج بمرور الوقت."
+        }
+      ],
+      "addedAt": "2026-11-04"
+    },
+    {
       "id": "k-2026-11-03-تحسين-استجابات-النماذج-باستخدام-تقنية-التوجيه-المت",
       "title": "تحسين استجابات النماذج باستخدام تقنية التوجيه المتقدم",
       "titleEn": "Improving Model Responses with Advanced Prompting Techniques",
