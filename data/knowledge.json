@@ -1,6 +1,110 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-04-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً",
+      "title": "تشغيل نماذج الذكاء الاصطناعي محلياً",
+      "titleEn": "Running Local AI Models",
+      "why": "تشغيل النماذج محلياً يوفر خصوصية أفضل، لا يتطلب اتصالاً بالإنترنت، ويمكن استخدامه في الأماكن التي لا تتوفر فيها خدمات سحابية.",
+      "whyEn": "Running models locally provides better privacy, doesn't require internet connection, and can be used in places where cloud services aren't available.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "اختيار النموذج المناسب",
+          "detail": "اختر نموذجاً صغير الحجم ومناسب لموارد جهازك. نماذج مثل Llama 3 8B أو Mistral 7B مناسبة للأجهزة العادية."
+        },
+        {
+          "title": "تثبيت الأدوات اللازمة",
+          "detail": "قم بتثبيت مكتبات مثل Ollama أو LM Studio التي تسهل تشغيل النماذج المحلية."
+        },
+        {
+          "title": "تنزيل النموذج",
+          "detail": "استخدم الأداة لتنزيل النموذج المختار. تأكد من وجود مساحة كافية على القرص الصلب."
+        },
+        {
+          "title": "تشغيل النموذج",
+          "detail": "ابدأ تشغيل النموذج عبر واجهة سطر الأوامر أو الواجهة الرسومية للأداة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Choose the Right Model",
+          "detail": "Select a model with appropriate size for your device's resources. Models like Llama 3 8B or Mistral 7B are suitable for regular computers."
+        },
+        {
+          "title": "Install Necessary Tools",
+          "detail": "Install libraries like Ollama or LM Studio that make it easier to run local models."
+        },
+        {
+          "title": "Download the Model",
+          "detail": "Use the tool to download the selected model. Ensure you have enough disk space."
+        },
+        {
+          "title": "Run the Model",
+          "detail": "Start running the model through the command line interface or the tool's graphical interface."
+        }
+      ],
+      "code": "python\n# مثال على تشغيل نموذج محلي باستخدام Ollama\nimport ollama\n\nresponse = ollama.chat(model='llama3', messages=[\n  {'role': 'user', 'content': 'ما هي فوائد الذكاء الاصطناعي؟'},\n])\nprint(response['message']['content'])",
+      "resources": [
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/"
+        },
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai/"
+        },
+        {
+          "name": "LocalAI",
+          "url": "https://localai.io/"
+        }
+      ],
+      "tags": [
+        "نماذج محلية",
+        "أدوات",
+        "خصوصية",
+        "تشغيل بدون إنترنت"
+      ],
+      "quickRef": "لتشغيل النماذج محلياً، اختر نموذجاً صغيراً، ثبّت أداة مثل Ollama، ثم قم بتنزيل وتشغيل النموذج.",
+      "quickRefEn": "To run models locally, choose a small model, install a tool like Ollama, then download and run the model.",
+      "quiz": [
+        {
+          "q": "ما هي الميزة الرئيسية لتشغيل نماذج الذكاء الاصطناعي محلياً؟",
+          "options": [
+            "أداء أعلى",
+            "خصوصية أفضل",
+            "سهولة الاستخدام",
+            "تكلفة أقل"
+          ],
+          "answer": 1,
+          "explain": "التشغيل المحلي يوفر خصوصية أفضل لأن البيانات لا تترك جهازك."
+        },
+        {
+          "q": "أي من هذه النماذج مناسبة لتشغيل محلي على جهاز عادي؟",
+          "options": [
+            "GPT-4",
+            "Claude Opus",
+            "Llama 3 8B",
+            "Gemini Ultra"
+          ],
+          "answer": 2,
+          "explain": "Llama 3 8B هو نموذج صالح الحجم ومناسب للأجهزة العادية، بينما النماذج الأكبر تتطلب موارد أكثر."
+        },
+        {
+          "q": "أي من هذه الأدوات يستخدم لتشغيل النماذج المحلية؟",
+          "options": [
+            "TensorFlow",
+            "PyTorch",
+            "Ollama",
+            "Hugging Face"
+          ],
+          "answer": 2,
+          "explain": "Ollama هي أداة مصممة خصيصاً لتشغيل النماذج المحلية، بينما الأدوات الأخرى تستخدم لأغراض أخرى."
+        }
+      ],
+      "addedAt": "2026-11-04"
+    },
+    {
       "id": "k-2026-11-04-تحسين-استجابات-النماذج-باستخدام-تقنيات-التلخيص-الذ",
       "title": "تحسين استجابات النماذج باستخدام تقنيات التلخيص الذكي",
       "titleEn": "Improving Model Responses Using Intelligent Summarization Techniques",

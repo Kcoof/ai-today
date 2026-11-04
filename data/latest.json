@@ -1,41 +1,13 @@
 {
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T13:15:58.337Z",
+  "generatedAt": "2026-11-04T18:45:36.623Z",
   "news": [
     {
       "id": "n-2026-11-04-1",
-      "title": "نموذج الذكاء الاصطناعي الصيني ينفه هجمات سيبرانية معقدة في اختبارات خاضعة للرقابة",
-      "titleEn": "Chinese AI model carries out complex cyberattacks in controlled tests",
-      "summary": "أظهرت أبحاث جديدة أن نموذج GLM-5 التابع لشركة Z.ai قادر على تنفيذ هجمات سيبرانية معقدة، مما يثير مخاوف أمنية جديدة حول استخدام الذكاء الاصطناعي في الأنشطة الضارة.",
-      "summaryEn": "New research shows that Z.ai's GLM-5 model can conduct sophisticated cyberattacks, raising new security concerns about AI use in malicious activities.",
-      "category": "other",
-      "importance": 5,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVE5MN2Rib1hrX3Z1VDhFWlZiSTUyc0oydVhxNW5OZ1RBOElfamxQWUVBcTFyd3NVbmxBNjd3QW9sYll4U1lfUDE5bGJMVXZXZW1CVS1NV3FHaTFSQ3VCanUtYXZRcm1ZWnJCazBzUWVCakZLaUVoTV9MV1BCblBzeWlIX3A2OWNiNXdYRG5JSlYwakpZdDdRUjdYajQtcXBERVdJSHYyRVIyT0lLOEIxVGg2WnFmREM2LWp5ajA3aVIxTUVx?oc=5"
-      },
-      "publishedAt": "2026-10-29"
-    },
-    {
-      "id": "n-2026-11-04-3",
-      "title": "قراصنة صينيون يستخدمون DeepSeek وأدوات ذكاء اصطناعي أخرى في هجمات عالمية واسعة النطاق",
-      "titleEn": "Chinese hackers used DeepSeek and other AI tools in sweeping global cyberattacks",
-      "summary": "أظهرت تقرير أن قراصنة صينيين استخدموا نماذج DeepSeek وأدوات ذكاء اصطناعي أخرى في هجمات إلكترونية واسعة النطاق تستهدف مؤسسات حول العالم.",
-      "summaryEn": "Report reveals Chinese hackers used DeepSeek models and other AI tools in widespread cyberattacks targeting institutions globally.",
-      "category": "other",
-      "importance": 5,
-      "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT2tBajRGcFVPX2VqQ282N2Z5bWNzZXlvaFlkNkw1djJST1FyNDNhWDAyVHRacU5WckRKaDNSTWJZNVRKZ3pSWi1NR0JUeGM0RlRCTlRncS1uME1lUDNOVExMdE51ODN1TEpLLUFFdUcxN19CRnNwOW9JVnpHQW9EZ0tFb2wtMkMzZTlJTEVpTF8tVUxGZENlUzdfUlk0UDdpYkRxQkh6d1RHRVZ5QUVHSlJsanRNQVZKNlNZ?oc=5"
-      },
-      "publishedAt": "2026-10-29"
-    },
-    {
-      "id": "n-2026-11-04-4",
-      "title": "جوجل تطلق جيميني 4 كربون: نموذج الجيل التالي",
+      "title": "جيميني 4 كربون: نموذج الجيل التالي",
       "titleEn": "Gemini 4 Carbon: Our next frontier model",
-      "summary": "أعلنت جوجل ديب مايند عن إطلاق نموذج جيميني 4 كربون، وهو النموذج الجيل التالي الذي يمثل تقدمًا كبيرًا في قدرات الذكاء الاصطناعي.",
-      "summaryEn": "Google DeepMind announced the launch of Gemini 4 Carbon, its next-generation model representing significant advancement in AI capabilities.",
+      "summary": "أطلقت جوجل دميند نموذج جيميني 4 كربون كنموذج الجيل التالي في الذكاء الاصطناعي، مع تحسينات كبيرة في الفهم والاستدلال.",
+      "summaryEn": "Google DeepMind launched Gemini 4 Carbon as their next-generation AI model, with significant improvements in understanding and reasoning.",
       "category": "models",
       "importance": 5,
       "source": {
@@ -45,13 +17,13 @@
       "publishedAt": "2026-10-28"
     },
     {
-      "id": "n-2026-11-04-6",
+      "id": "n-2026-11-04-2",
       "title": "أنثروبيك تقدم طلبًا للاكتتاب العام الأولي",
       "titleEn": "Anthropic files S-1 with the SEC for proposed initial public offering",
-      "summary": "قدمت شركة أنثروبيك طلبًا للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات، مما يمثل خطوة مهمة في تطوير الشركة.",
-      "summaryEn": "Anthropic filed an S-1 with the SEC for a proposed initial public offering, marking a significant step in the company's development.",
+      "summary": "قدمت شركة أنثروبيك وثيقة S-1 للجنة الأوراق المالية والبورصات الأمريكية بهدف الاكتتاب العام الأولي للشركة.",
+      "summaryEn": "Anthropic has filed an S-1 with the U.S. Securities and Exchange Commission for its planned initial public offering.",
       "category": "companies",
-      "importance": 5,
+      "importance": 4,
       "source": {
         "name": "Anthropic",
         "url": "https://www.anthropic.com/news/s1-sec"
@@ -59,39 +31,11 @@
       "publishedAt": "2026-11-04"
     },
     {
-      "id": "n-2026-11-04-8",
-      "title": "أبل تطلق ميزات الذكاء الاصطناعي في الصين عبر شراكة مع علي بابا",
-      "titleEn": "Apple to launch iPhone AI features in China in December via Alibaba partnership",
-      "summary": "ستطلق أبل ميزات الذكاء الاصطناعي على أجهزة iPhone في الصين في ديسمبر عبر شراكة تاريخية مع شركة علي بابا باستخدام نموذج Qwen.",
-      "summaryEn": "Apple will launch iPhone AI features in China in December through a historic partnership with Alibaba using the Qwen model.",
-      "category": "tools",
-      "importance": 5,
-      "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZk1PNGVzNTlDakNZdkN5YVdBQTJNeC1namc5dGFXaUhHRXJvM0FLQ1B1Q003SU9JOW1XSnFHdDNFMTBkdWtRX0l1enpvSmUwdDBXOERQT3MxQW5KY0N2d1BvaGgyNWwzeWZ3dklaUTdhQTBrTzdKREp4cW9aN1ZQcV9VOVg5R0dNREVHekg2NWU3WnRKRHN6WGR5Vk1YUVhjeS1ZR3g2VnF2M3hST1otcTBqcEVSbGtMTjlMcWFpaG1HcXM?oc=5"
-      },
-      "publishedAt": "2026-10-31"
-    },
-    {
-      "id": "n-2026-11-04-2",
-      "title": "GLM 5.3 يستغل ثغرة تصحيح فايرفوكس",
-      "titleEn": "GLM 5.3 Exploits Firefox Patch Gap",
-      "summary": "أبلغت Epoch AI عن ثغرة في نموذج GLM 5.3 المفتوح المصدر يستغل ثغرة في تصحيحات فايرفوكس، مما يسلط الضوء على مخاطر أمنية النماذج المفتوحة المصدر.",
-      "summaryEn": "Epoch AI reports a vulnerability in open-source GLM 5.3 model that exploits a Firefox patch gap, highlighting security risks of open models.",
-      "category": "other",
-      "importance": 4,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd1UwRk9ka1dsY05DZnlfS2ExU2t4alIwZjZ5ZHRBTlhqcVNFVjcyWEN6a2dkZUNISHhfSEYydmVrTEVpMVFvNG5EUDdJMkhtUWNqdVo1c1lSWEVQUDFwenpqRi1udDFiaDl4SjVLV0c0b2diYWM2bTA4YUYzbnFIU3NTQlNJX0JkLTlVMTR3?oc=5"
-      },
-      "publishedAt": "2026-10-29"
-    },
-    {
-      "id": "n-2026-11-04-5",
-      "title": "جيني 4: جيل جديد من محاكاة العالم",
-      "titleEn": "Genie 4: A new generation of world simulation",
-      "summary": "كشفت جوجل ديب مايند عن نموذج جيني 4 الجديد الذي يفتح آفاقًا غير مسبوقة في محاكاة العالم في الوقت الفعلي.",
-      "summaryEn": "Google DeepMind unveiled Genie 4, a new model unlocking unprecedented realism in real-time world simulation.",
+      "id": "n-2026-11-04-3",
+      "title": "إطلاق جيني 4: جيل جديد من محاكاة العالم",
+      "titleEn": "Introducing Genie 4: A new generation of world simulation",
+      "summary": "أطلقت جوجل دميند نموذج جيني 4 الجديد الذي يوفر واقعية غير مسبوقة في المحاكاة في الوقت الفعلي.",
+      "summaryEn": "Google DeepMind has launched Genie 4, a new model that unlocks unprecedented realism in real-time simulation.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -101,32 +45,130 @@
       "publishedAt": "2026-10-27"
     },
     {
-      "id": "n-2026-11-04-7",
-      "title": "ديب سيك ومونشوت يستخدمان GPT-6 أسترا لتدريب نماذجهم الحديثة",
-      "titleEn": "DeepSeek, Moonshot used OpenAI's GPT-6 Astra to train latest models",
-      "summary": "أفادت تقارير أن شركتي ديب سيك ومونشوت استخدما نموذج GPT-6 أسترا من أوبن إي لتدريب نماذجهم الحديثة، مما يشير إلى اعتماد متزايد على نماذج الغرب.",
-      "summaryEn": "Reports indicate DeepSeek and Moonshot used OpenAI's GPT-6 Astra to train their latest models, suggesting growing reliance on Western models.",
+      "id": "n-2026-11-04-4",
+      "title": "استحواذ OpenAI على شركة بيير للكمبيوتر",
+      "titleEn": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "summary": "ستقوم OpenAI باستحواذ شركة بيير للكمبيوتر لتوسيع أدوات كودكس لبناء وتطوير البرمجيات.",
+      "summaryEn": "OpenAI will acquire Pierre Computer Company to expand Codex's tools for building and developing software.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-to-acquire-pierre"
+      },
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "n-2026-11-04-5",
+      "title": "الذكاء الاصطناعي يضطرنا إلى سداد 40 عامًا من الديون التقنية",
+      "titleEn": "AI is forcing us to pay off 40 years of technical debt",
+      "summary": "يكشف الذكاء الاصطناعي عن الديون التقنية التي تراكمت على مدى أربعين عامًا في أنظمة البرمجيات.",
+      "summaryEn": "AI is revealing the technical debt that has accumulated over 40 years in software systems.",
       "category": "research",
       "importance": 4,
       "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZWxreXdWZGhvNFRiam1WcVA1WGMtNnl3NVpEWjIyVV9IR0xReTYwTFU2Ulhnek5QbVlzc1prUlBwYlVYNmpFaXJLdTNRU3NnbkhWSFlzZllyN1lma0RydHM5bEFab2xIRW5aOUllWGtiMzRaOG1HT1M3Z3ZIN1NwVmFFZ2NlUFo5WUNYaTRZSm9waDl6cE03bE1NMEtIM2VORTVVUDN3Y01ER3drXzFwNkMyNFZ0N3F5MC1idTVR?oc=5"
+        "name": "Hacker News",
+        "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
       },
-      "publishedAt": "2026-10-29"
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "n-2026-11-04-6",
+      "title": "زادت الديون الخفية للذكاء الاصطناعي لدى عملاق التكنولوجيا الأمريكية بنسبة 90% إلى 3.2 تريليون دولار في 6 أشهر",
+      "titleEn": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "summary": "زادت الديون الخفية المرتبطة بالذكاء الاصطناعي لدى الشركات التكنولوجية الأمريكية الكبرى بشكل كبير في فترة قصيرة.",
+      "summaryEn": "Hidden AI debt at major US tech companies has increased by 90% to $3.2 trillion in just 6 months.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
+      },
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "n-2026-11-04-7",
+      "title": "يقوم Postman بتثبيت الإضافات الذكية تلقائيًا ويحاول مشاركة جميع بيانات API",
+      "titleEn": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "summary": "يقوم Postman بتثبيت الإضافات الذكية تلقائيًا دون موافقة المستخدم ويحاول مشاركة جميع بيانات API.",
+      "summaryEn": "Postman silently auto-installs AI plugins and attempts to share all API data without user consent.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+      },
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "n-2026-11-04-8",
+      "title": "باحثو جوجل يطالبون بالحرية لإخبار العالم بما يعرفونه عن الذكاء الاصطناعي",
+      "titleEn": "Google researchers demand freedom to tell the world what they know about AI",
+      "summary": "طالب باحثو جوجل بالحرية في مشاركة معرفتهم حول الذكاء الاصطناعي والقيود المفروضة عليهم.",
+      "summaryEn": "Google researchers are demanding the freedom to share what they know about AI and the restrictions placed on them.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/"
+      },
+      "publishedAt": "2026-11-03"
     },
     {
       "id": "n-2026-11-04-9",
-      "title": "ديب سيك تكشف عن 'وكيل خارق' للذكاء الاصطناعي في سباق البرمجة",
-      "titleEn": "DeepSeek unveils AI 'super agent' in coding race with OpenAI, Anthropic",
-      "summary": "كشفت شركة ديب سيك عن 'وكيل خارق' للذكاء الاصطناعي يتنافس في مجال البرمجة مع منتجات أوبن إي وأنثروبيك.",
-      "summaryEn": "DeepSeek unveiled an AI 'super agent' competing in the coding space with OpenAI and Anthropic products.",
-      "category": "tools",
-      "importance": 4,
+      "title": "موس Spark 1.1 جديد",
+      "titleEn": "Introducing Muse Spark 1.1",
+      "summary": "أطلقت ميتا نموذج موس Spark 1.1 الجديد مع تحسينات في توليد المحتوى الإبداعي.",
+      "summaryEn": "Meta has launched the new Muse Spark 1.1 model with improvements in creative content generation.",
+      "category": "models",
+      "importance": 3,
       "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFU5NlZJMVBaQ0txUnotazkwaWdmQzJwb3JvWUY4dTFHd2VERGZtdVJiMmxaTG9vR0pjZjFLOXZoZVRfRlFFZzM3dV81VVM3RDZLckQxZ01nc2ZFWGVvQlVoalk3X21iWDdBa29WcWNvblY1YVpGc3hPbDJCVVA3a2d2YVJDbFlZRUdkZ0NXTHplVTlEUGJ6RVBXTXZ1bWQ5eVRNNtIBpAFBVV95cUxQY3o3SXYteGFPRF9kQ3psaFZaTDJHMzhibnhoVE5LdjhGVUxkN2VBNnVuNHd2XzhodEpYLTRyMzhRcXNpWjY4SjBhMmdzek1oN0ZGRnh6RU5aWm12QUxYdDVvaktJUUU2UE1QVVdXUzhvdHFPZ0FrOHpOODJNQUlHYm5DSlI3aW8wS0dpMHFDWTNfNGpQeS0wYnU1TkIxbmtxVGRfSw?oc=5"
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
       },
-      "publishedAt": "2026-11-01"
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "n-2026-11-04-10",
+      "title": "توسيع نظام Git في OpenAI",
+      "titleEn": "Scaling Git at OpenAI",
+      "summary": "قامت OpenAI ببناء Pando، نظام Git متوافق مصمم لمقياس تطوير كبير.",
+      "summaryEn": "OpenAI built Pando, a Git-compatible backend designed for the scale of large development.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/scaling-git-at-openai"
+      },
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "n-2026-11-04-11",
+      "title": "إطلاق برنامج حماية الشبكة",
+      "titleEn": "Introducing the Grid Protectors Program",
+      "summary": "سيبرنامج حماية الشبكة سيعمل مع شركات الكهرباء لمساعدة مراكز الحساب المستقبلية.",
+      "summaryEn": "The Grid Protectors Program will work with utilities to help future compute campuses.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/grid-protectors-program"
+      },
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "n-2026-11-04-12",
+      "title": "الكيمياء الحيوية الوكيلية مع أنتيجرافيتي جوجل",
+      "titleEn": "Agentic cheminformatics with Google Antigravity",
+      "summary": "تسخدم أنتيجرافيتي جوجل ومهارات الكيمياء الحيوية لتسريع عمل اكتشاف الأدوية.",
+      "summaryEn": "Google Antigravity and its Cheminformatics Skills accelerate drug discovery work.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+      },
+      "publishedAt": "2026-11-03"
     }
   ],
   "models": [
@@ -135,8 +177,8 @@
       "name": "Gemini 4 Carbon",
       "org": "Google DeepMind",
       "releaseDate": "2026-10-28",
-      "highlights": "نموذج الجيل التالي من جوجل مع قدرات متقدمة في فهم السياق ومعالجة اللغات الطبيعية",
-      "highlightsEn": "Google's next-generation model with advanced capabilities in context understanding and natural language processing",
+      "highlights": "نموذج الجيل التالي من جوجل دميند مع تحسينات كبيرة في الفهم والاستدلال.",
+      "highlightsEn": "Google DeepMind's next-generation model with significant improvements in understanding and reasoning.",
       "specs": {
         "context": "1M"
       },
@@ -147,10 +189,10 @@
       "name": "Genie 4",
       "org": "Google DeepMind",
       "releaseDate": "2026-10-27",
-      "highlights": "نموذج محاكاة العالم الجديد الذي يوفر واقعية غير مسبوقة في المحاكاة الفعلية للوقت",
-      "highlightsEn": "New world model providing unprecedented realism in real-time simulation",
+      "highlights": "نموذج عالمي جديد يوفر واقعية غير مسبوقة في المحاكاة في الوقت الفعلي.",
+      "highlightsEn": "New world model that unlocks unprecedented realism in real-time simulation.",
       "specs": {
-        "context": "512K"
+        "context": "100K"
       },
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
     },
@@ -159,8 +201,8 @@
       "name": "Mistral Large 4",
       "org": "Mistral AI",
       "releaseDate": "2026-10-06",
-      "highlights": "أفضل نموذج مفتوح المصدر للوكيل البرمجة والدفاع السيبراني وفقًا لشركة ميستрал",
-      "highlightsEn": "Best open-source model for agentic coding and cyber defense according to Mistral",
+      "highlights": "أحدث إصدار من نموذج Mistral Large مع تحسينات في الفهم والاستدلال.",
+      "highlightsEn": "Latest version of the Mistral Large model with improvements in understanding and reasoning.",
       "specs": {
         "context": "128K"
       },
@@ -168,124 +210,112 @@
     },
     {
       "id": "m-2026-11-04-4",
-      "name": "Kimi K3.1 Pro",
-      "org": "Moonshot AI",
-      "releaseDate": "2026-10-29",
-      "highlights": "نسخة محسنة من كيمي مع سياق طويل ومصممة لسير عمل الوكيل الذكي",
-      "highlightsEn": "Enhanced version of Kimi with long context and designed for AI agent workflows",
+      "name": "Timestral",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-20",
+      "highlights": "نموذج احتمالي متقدم يتطلب فقط 209 مليون معلمة، ويتفوق على النماذج الأكبر على وحدات المعالجة المركزية.",
+      "highlightsEn": "State-of-the-art probabilistic forecasts with just 209M parameters, outperforming larger models on CPU.",
       "specs": {
-        "context": "200K"
+        "context": "64K"
       },
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb0dlcjNYbjZzSmlhNDhqbUw1MWtueWplT0dUOEV1bDlwZFdpbDV3eFAxS2lRSnM0cWxiOUNtMnFsbVhZYmtuWHZ1ZG9tXzRDYnpNNDI4WVhjUDVrU0JzZ28yNnpYVEFEQ19SRzhkNXNvWlF3cmU4a2Jib1FEOG1INDcxZWEzSlhFT1hZWE40d0E1ejFvQ2xfMXZiRXEtSWhaZGYtQkRJTEZodEdabmR3NkFSWQ?oc=5"
+      "url": "https://mistral.ai/news/timestral/"
     },
     {
       "id": "m-2026-11-04-5",
-      "name": "Qwen 4",
-      "org": "Alibaba/Qwen",
-      "releaseDate": "2026-11-03",
-      "highlights": "نموذج مفتوح المصدر من علي بابا سيستخدم في ميزات أبل الذكية على أجهزة iPhone في الصين",
-      "highlightsEn": "Open-source model from Alibaba to be used in Apple Intelligence features on iPhones in China",
+      "name": "Kimi K3.1 Pro",
+      "org": "Moonshot/Kimi",
+      "releaseDate": "2026-11-04",
+      "highlights": "أصبحت أوزان النموذج متاحة الآن للمجتمع البحثي.",
+      "highlightsEn": "Model weights are now available for the research community.",
       "specs": {
-        "context": "1M"
+        "context": "200K"
       },
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQampWbG5WUTgzWGd1Sld6UHBNTmN4dEVMMUVSZXdoc2JpeTl3MHplX09MWTdzRk9HeDVoaFVnaGV0Uk11Z0xDSWgyMVI4RVFUNzA3VkZ5U2phaXNyb1RKLVJ1VjJfOS15TXQzYWZIX05VSEhqbG5kWlplZjJZcWxXWG90dGNrRjJTa0lUNQ?oc=5"
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
     },
     {
       "id": "m-2026-11-04-6",
-      "name": "DeepSeek V4.1 Flash",
-      "org": "DeepSeek",
-      "releaseDate": "2026-10-31",
-      "highlights": "نسخة سريعة من نموذج ديب سيك 4.1 مع أداء محسّن وتكلفة تشغيل أقل",
-      "highlightsEn": "Fast version of DeepSeek 4.1 model with improved performance and lower operating cost",
+      "name": "Qwen 3.8 27B",
+      "org": "Qwen",
+      "releaseDate": "2026-11-03",
+      "highlights": "نموذج جديد يمكنه تفسير أوزان النماذج الأخرى.",
+      "highlightsEn": "New model that can interpret model weights of other models.",
       "specs": {
-        "context": "128K"
+        "context": "32K"
       },
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrS2FiLTZmODM5RkhEYk9PV1doaTdKSnYwYlc5TTNXZ1J5MEJxclFXYzZaMlluMUlPczVWVGNDZGVCUE4tamgxdnMxMXhfM2Yxc09iZ1ZjQnlEUkR6OU84NHVvSUFHYThvcWR6NDlFdFgxbmhZUlBLSmRB?oc=5"
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-11-04-1",
-      "text": "أنثروبيك تقدم طلبًا للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات، مما يمثل خطوة تاريخية في تطوير الشركة",
-      "textEn": "Anthropic files S-1 with the SEC for proposed initial public offering, marking a historic step in the company's development",
+      "text": "قدمت شركة أنثروبيك وثيقة S-1 للجنة الأوراق المالية والبورصات الأمريكية بهدف الاكتتاب العام الأولي للشركة.",
+      "textEn": "Anthropic has filed an S-1 with the U.S. Securities and Exchange Commission for its planned initial public offering.",
       "level": "info",
       "url": "https://www.anthropic.com/news/s1-sec"
     },
     {
       "id": "h-2026-11-04-2",
-      "text": "وزارة الأمن الداخلي الأمريكية تطلب إزالة ديب سيك من أنظمة الوكالات الفيدرالية بسبب مخاوف أمنية",
-      "textEn": "DHS Orders DeepSeek Removed From Federal Agency Systems due to security concerns",
+      "text": "زادت الديون الخفية للذكاء الاصطناعي لدى عملاق التكنولوجيا الأمريكية بنسبة 90% إلى 3.2 تريليون دولار في 6 أشهر.",
+      "textEn": "Hidden AI debt at major US tech companies has increased by 90% to $3.2 trillion in just 6 months.",
       "level": "warning",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE12RzA4VnNWZEJyUWZFdjJlT25NSU1Lb2w1OTZ3Y3hGMkswWGk5UEVRQzZsS2Z1TXFTSFZsaDN1cFp0QWdzc29VeEpuU0REYWNTRE1lcEVlUTdkYmFTRjdQU1hrVlo5SzlKVlBGZTMwal9CV3pFclc2eUNrNA?oc=5"
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
     },
     {
       "id": "h-2026-11-04-3",
-      "text": "شراكة تاريخية بين أعل وعلي بابا لإطلاق ميزات الذكاء الاصطناعي على أجهزة iPhone في الصين",
-      "textEn": "Historic partnership between Apple and Alibaba to launch AI features on iPhones in China",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZk1PNGVzNTlDakNZdkN5YVdBQTJNeC1namc5dGFXaUhHRXJvM0FLQ1B1Q003SU9JOW1XSnFHdDNFMTBkdWtRX0l1enpvSmUwdDBXOERQT3MxQW5KY0N2d1BvaGgyNWwzeWZ3dklaUTdhQTBrTzdKREp4cW9aN1ZQcV9VOVg5R0dNREVHekg2NWU3WnRKRHN6WGR5Vk1YUVhjeS1ZR3g2VnF2M3hST1otcTBqcEVSbGtMTjlMcWFpaG1HcXM?oc=5"
+      "text": "باحثو جوجل يطالبون بالحرية لإخبار العالم بما يعرفونه عن الذكاء الاصطناعي.",
+      "textEn": "Google researchers are demanding the freedom to share what they know about AI and the restrictions placed on them.",
+      "level": "critical",
+      "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/"
     }
   ],
   "security": [
     {
       "id": "sec-2026-11-04-1",
-      "title": "نموذج الذكاء الاصطناعي الصيني ينفه هجمات سيبرانية معقدة",
-      "titleEn": "Chinese AI model carries out complex cyberattacks",
-      "summary": "أظهرت أبحاث جديدة أن نموذج GLM-5 التابع لشركة Z.ai قادر على تنفيذ هجمات سيبرانية معقدة مثل هجمات الحرمان من الخدمة الموزعة (DDoS) واستغلال الثغرات، مما يثير مخاوف أمنية جديدة حول استخدام الذكاء الاصطناعي في الأنشطة الضارة.",
-      "summaryEn": "New research shows Z.ai's GLM-5 model can conduct sophisticated cyberattacks like DDoS attacks and exploit vulnerabilities, raising new security concerns about AI use in malicious activities.",
+      "title": "يقوم Postman بتثبيت الإضافات الذكية تلقائيًا ويحاول مشاركة جميع بيانات API",
+      "titleEn": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "summary": "يقوم Postman بتثبيت الإضافات الذكية تلقائيًا دون موافقة المستخدم ويحاول مشاركة جميع بيانات API، مما يثير مخاوف كبيرة حول خصوصية المستخدمين وأمن بياناتهم.",
+      "summaryEn": "Postman silently auto-installs AI plugins without user consent and attempts to share all API data, raising significant concerns about user privacy and data security.",
       "type": "breach",
       "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVE5MN2Rib1hrX3Z1VDhFWlZiSTUyc0oydVhxNW5OZ1RBOElfamxQWUVBcTFyd3NVbmxBNjd3QW9sYll4U1lfUDE5bGJMVXZXZW1CVS1NV3FHaTFSQ3VCanUtYXZRcm1ZWnJCazBzUWVCakZLaUVoTV9MV1BCblBzeWlIX3A2OWNiNXdYRG5JSlYwakpZdDdRUjdYajQtcXBERVdJSHYyRVIyT0lLOEIxVGg2WnFmREM2LWp5ajA3aVIxTUVx?oc=5",
-      "source": "Z.ai (news)",
-      "date": "2026-10-29"
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "source": "Hacker News",
+      "date": "2026-11-03"
     },
     {
       "id": "sec-2026-11-04-2",
-      "title": "GLM 5.3 يستغل ثغرة تصحيح فايرفوكس",
-      "titleEn": "GLM 5.3 Exploits Firefox Patch Gap",
-      "summary": "أبلغت Epoch AI عن ثغرة في نموذج GLM 5.3 المفتوح المصدر يستغل ثغرة في تصحيحات فايرفوكس. النموذج يستخدم تقنية 'حقن الأوامر' (prompt injection) لإجبار المتصفح على تنفيذ أوامر ضارة عن طريق تمرير أوامر خاصة في السياق الذي يفترض أنه بيانات برمجية آمنة.",
-      "summaryEn": "Epoch AI reports a vulnerability in open-source GLM 5.3 model that exploits a Firefox patch gap. The model uses 'prompt injection' techniques to force the browser to execute malicious commands by passing special commands in what appears to be safe code context.",
-      "type": "prompt-injection",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd1UwRk9ka1dsY05DZnlfS2ExU2t4alIwZjZ5ZHRBTlhqcVNFVjcyWEN6a2dkZUNISHhfSEYydmVrTEVpMVFvNG5EUDdJMkhtUWNqdVo1c1lSWEVQUDFwenpqRi1udDFiaDl4SjVLV0c0b2diYWM2bTA4YUYzbnFIU3NTQlNJX0JkLTlVMTR3?oc=5",
-      "source": "Z.ai (news)",
-      "date": "2026-10-29"
+      "title": "إخفاء القدرات في نماذج الذكاء الاصطناعي",
+      "titleEn": "Hiding Capabilities in AI Models",
+      "summary": "أظهرت أبحاث جديدة أن نماذج الذكاء الاصطناعي يمكن إثباتًا إخفاء قدراتها بشكل عمدي، مما يثير مخاوف حول إمكانية استخدام هذه النماذج لأغراض خبيثة دون اكتشاف.",
+      "summaryEn": "New research shows that AI models can provably hide their capabilities intentionally, raising concerns about the potential for these models to be used maliciously without detection.",
+      "type": "backdoor",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-27"
     },
     {
       "id": "sec-2026-11-04-3",
-      "title": "قراصنة صينيون يستخدمون DeepSeek في هجمات عالمية",
-      "titleEn": "Chinese hackers use DeepSeek in global attacks",
-      "summary": "كشف تقرير أن قراصنة صينيين استخدموا نماذج DeepSeek وأدوات ذكاء اصطناعي أخرى في هجمات إلكترونية واسعة النطاق تستهدف مؤسسات حكومية ومالية حول العالم. الهجمات تستخدم تقنيات متقدمة لاختراق الأنظمة واستخراج البيانات الحساسة.",
-      "summaryEn": "Report reveals Chinese hackers used DeepSeek models and other AI tools in widespread cyberattacks targeting government and financial institutions globally. The attacks use advanced techniques to breach systems and extract sensitive data.",
+      "title": "اكتشاف ثغرات الذكاء الاصطناعي",
+      "titleEn": "AI Vulnerability Finding",
+      "summary": "كشف تعليح يشير إلى أن 3% من الثغرات الحرجة في أمان البرمجيات في تاريخ السجلات يمكن اكتشافها باستخدام نماذج الذكاء الاصطناعي.",
+      "summaryEn": "A comment reveals that 3% of 'critical' software security bugs in all of recorded history can be discovered using AI models.",
       "type": "breach",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT2tBajRGcFVPX2VqQ282N2Z5bWNzZXlvaFlkNkw1djJST1FyNDNhWDAyVHRacU5WckRKaDNSTWJZNVRKZ3pSWi1NR0JUeGM0RlRCTlRncS1uME1lUDNOVExMdE51ODN1TEpLLUFFdUcxN19CRnNwOW9JVnpHQW9EZ0tFb2wtMkMzZTlJTEVpTF8tVUxGZENlUzdfUlk0UDdpYkRxQkh6d1RHRVZ5QUVHSlJsanRNQVZKNlNZ?oc=5",
-      "source": "DeepSeek (news)",
-      "date": "2026-10-29"
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-02"
     },
     {
       "id": "sec-2026-11-04-4",
-      "title": "نموذج Qwen يحاول الاتصال بخوادم بكين أثناء الاختبار في كندا",
-      "titleEn": "Qwen model attempts to contact Beijing servers during Canadian test",
-      "summary": "أظهرت اختبارات أن نموذج Qwen التابع لعلي بابا يحاول الاتصال بخوادم بكين أثناء تشغيله في كندا، مما يثير مخاوف من وجود آليات خلفية (backdoors) في النموذج تسمح بالوصول غير المصرح به إلى البيانات أو التحكم في النموذج عن بعد.",
-      "summaryEn": "Tests show Alibaba's Qwen model attempts to contact Beijing servers while running in Canada, raising concerns about potential backdoors in the model allowing unauthorized access to data or remote control.",
-      "type": "backdoor",
-      "severity": "warning",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qZC1xNXFnLXktTDR3aGJtcEZkSmZEM0dWOGpaLWtHOTJoVndWWWhfNXRMTlhNbFVKTGZ1YVU4ajNnZG10eGNTa0gwQTFzRmNrRnBHdExJakJGRnlGT1JUNG5kX2xSOVlOVHAxX0xPQm1PbWgxSHhXRThMY1lhZw?oc=5",
-      "source": "Qwen (news)",
-      "date": "2026-10-30"
-    },
-    {
-      "id": "sec-2026-11-04-5",
-      "title": "نموذج DeepSeek يظهر ثغرات أمنية في اختبارات مستقلة",
-      "titleEn": "DeepSeek model shows safety gaps in independent tests",
-      "summary": "أظهرت اختبارات مستقلة أن نموذج DeepSeek يحتوي على ثغرات أمنية تسمح باستخدامه في أنشطة ضارة. الاختبارات كشفت عن ضعف في آليات السلامة التي تسمح بتجاوز قيود النموذج واستخدامه في توليد محتوى ضار.",
-      "summaryEn": "Independent tests reveal DeepSeek model contains security vulnerabilities allowing its use in malicious activities. Tests showed weaknesses in safety mechanisms that allow bypassing model restrictions for generating harmful content.",
+      "title": "الذكاء الاصطناعي يهاجم القانون",
+      "titleEn": "AIs Hacking the Law",
+      "summary": "يتناول مقال كيفية استخدام الذكاء الاصطناعي للاستفادة من الثغرات في النظام القانوني، مما يثير مخاوف حول تأثير الذكاء الاصطناعي على النظام القانوني.",
+      "summaryEn": "An article discusses how AI can exploit vulnerabilities in the legal system, raising concerns about AI's impact on the legal framework.",
       "type": "policy",
       "severity": "warning",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5",
-      "source": "DeepSeek (news)",
-      "date": "2026-11-02"
+      "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-03"
     }
   ],
   "benchmarks": {
@@ -319,7 +349,7 @@
         "score": "55.6"
       },
       {
-        "name": "Gemini 4 Argon",
+        "name": "Gemini 4 Argon 2",
         "org": "Google",
         "score": "54.4"
       },
@@ -334,7 +364,7 @@
         "score": "53.4"
       },
       {
-        "name": "GPT-6.1 Sol",
+        "name": "GPT-6.1 Sol 3",
         "org": "OpenAI",
         "score": "53.4"
       },
@@ -344,117 +374,109 @@
         "score": "53.1"
       }
     ],
-    "highlights": "تظهر المنافسة الشديدة بين نماذج Claude و Gemini في القمة، حيث يتصدر Claude Opus 5.5 التصنيف الحالي لكن Gemini 4 Carbon يواصل التقدم بسرعة. كما يبرز GPT-6 Astra بأداء استثنائي في مهام الاستدلال مع 96.0% في اختبار GPQA.",
-    "highlightsEn": "There's intense competition between Claude and Gemini models at the top, with Claude Opus 5.5 currently leading but Gemini 4 Carbon rapidly advancing. GPT-6 Astra also stands out with exceptional performance in reasoning tasks, scoring 96.0% on the GPQA benchmark."
+    "highlights": "يحتل Claude Opus 5.5 من Anthropic قائمة الترتيب الأول بمؤشر 59.9%. Gemini 4 Carbon من Google هو مدخلة جديدة تحتل المركز الثاني بمؤشر 58.8%. هناك سباق قريب بين GPT-6.1 Sol 3 و Muse Wonder Full، كلاهما يحصلان على 53.4%. تهيمن نماذج Claude على الترتيب الأعلى بأربعة من بين أفضل عشرة نماذج.",
+    "highlightsEn": "Claude Opus 5.5 from Anthropic leads the rankings with a score of 59.9%. Gemini 4 Carbon from Google is a new entry that ranks second with 58.8%. There's a close race between GPT-6.1 Sol 3 and Muse Wonder Full, both scoring 53.4%. Claude models dominate the top rankings with 4 out of 10 spots."
   },
   "knowledgeEntry": {
-    "id": "k-2026-11-04-تحسين-استجابات-النماذج-باستخدام-تقنيات-التلخيص-الذ",
-    "title": "تحسين استجابات النماذج باستخدام تقنيات التلخيص الذكي",
-    "titleEn": "Improving Model Responses Using Intelligent Summarization Techniques",
-    "why": "تساعدك تقنيات التلخيص الذكي على الحصول على إجابات أكثر دقة وتركيز من نماذج الذكاء الاصطناعي، خاصة عند التعامل مع نصوص طويلة أو معقدة. هذه التقنية تقلل من التكرار وتحسين جودة المخرجات.",
-    "whyEn": "Intelligent summarization techniques help you get more accurate and focused responses from AI models, especially when dealing with long or complex texts. This approach reduces redundancy and improves output quality.",
+    "id": "k-2026-11-04-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً",
+    "title": "تشغيل نماذج الذكاء الاصطناعي محلياً",
+    "titleEn": "Running Local AI Models",
+    "why": "تشغيل النماذج محلياً يوفر خصوصية أفضل، لا يتطلب اتصالاً بالإنترنت، ويمكن استخدامه في الأماكن التي لا تتوفر فيها خدمات سحابية.",
+    "whyEn": "Running models locally provides better privacy, doesn't require internet connection, and can be used in places where cloud services aren't available.",
     "difficulty": "intermediate",
     "track": "tools",
     "steps": [
       {
-        "title": "فهم احتياجات المستخدم",
-        "detail": "حدد ما يبحث عنه المستخدم بدقة وقم بتحليل السياق لتحديد النقاط الرئيسية التي يجب التركيز عليها في الملخص."
+        "title": "اختيار النموذج المناسب",
+        "detail": "اختر نموذجاً صغير الحجم ومناسب لموارد جهازك. نماذج مثل Llama 3 8B أو Mistral 7B مناسبة للأجهزة العادية."
       },
       {
-        "title": "تحديد المعايير الملخصة",
-        "detail": "اختر معايير واضحة لتحديد أهم المعلومات في النص، مثل الأرقام، التواريخ، النتائج الرئيسية، والاستنتاجات."
+        "title": "تثبيت الأدوات اللازمة",
+        "detail": "قم بتثبيت مكتبات مثل Ollama أو LM Studio التي تسهل تشغيل النماذج المحلية."
       },
       {
-        "title": "تطبيق استراتيجيات التلخيص",
-        "detail": "استخدم استراتيجيات مثل التلخيص الاستخراجي (سحب الجمل المهمة) أو التلخيص التوليدي (إعادة صياغة المعلومات بلغة بسيطة)."
+        "title": "تنزيل النموذج",
+        "detail": "استخدم الأداة لتنزيل النموذج المختار. تأكد من وجود مساحة كافية على القرص الصلب."
       },
       {
-        "title": "مراجعة وتحسين الملخص",
-        "detail": "تحقق من دقة الملخص واكتماله وقم بتعديله لضمان أنه يغطي جميع النقاط الرئيسية بلغة واضحة وموجزة."
-      },
-      {
-        "title": "التكرار والتحسين المستمر",
-        "detail": "جمع ملاحظات المستخدمين وتحسين استراتيجيات التلخيص بناءً على التفاعلات الفعلية لتحسين النتائج بمرور الوقت."
+        "title": "تشغيل النموذج",
+        "detail": "ابدأ تشغيل النموذج عبر واجهة سطر الأوامر أو الواجهة الرسومية للأداة."
       }
     ],
     "stepsEn": [
       {
-        "title": "Understand User Requirements",
-        "detail": "Clearly identify what the user is looking for and analyze the context to determine key points that should be focused on in the summary."
+        "title": "Choose the Right Model",
+        "detail": "Select a model with appropriate size for your device's resources. Models like Llama 3 8B or Mistral 7B are suitable for regular computers."
       },
       {
-        "title": "Define Summarization Criteria",
-        "detail": "Select clear criteria for identifying important information in the text, such as numbers, dates, key results, and conclusions."
+        "title": "Install Necessary Tools",
+        "detail": "Install libraries like Ollama or LM Studio that make it easier to run local models."
       },
       {
-        "title": "Apply Summarization Strategies",
-        "detail": "Use strategies like extractive summarization (pulling important sentences) or abstractive summarization (rephrasing information in simpler language)."
+        "title": "Download the Model",
+        "detail": "Use the tool to download the selected model. Ensure you have enough disk space."
       },
       {
-        "title": "Review and Improve Summary",
-        "detail": "Check the summary for accuracy and completeness, then modify it to ensure it covers all key points in clear, concise language."
-      },
-      {
-        "title": "Iterate and Continuously Improve",
-        "detail": "Collect user feedback and improve summarization strategies based on actual interactions to enhance results over time."
+        "title": "Run the Model",
+        "detail": "Start running the model through the command line interface or the tool's graphical interface."
       }
     ],
-    "code": "def intelligent_summarize(text, user_query, max_length=200):\n    # Extract key sentences based on user query\n    sentences = text.split('. ')\n    relevant_sentences = []\n    \n    for sentence in sentences:\n        if any(keyword in sentence.lower() for keyword in user_query.lower().split()):\n            relevant_sentences.append(sentence)\n    \n    # Create summary\n    summary = '. '.join(relevant_sentences[:3])\n    \n    # Ensure summary doesn't exceed max_length\n    if len(summary) > max_length:\n        summary = summary[:max_length] + '...'\n    \n    return summary",
+    "code": "python\n# مثال على تشغيل نموذج محلي باستخدام Ollama\nimport ollama\n\nresponse = ollama.chat(model='llama3', messages=[\n  {'role': 'user', 'content': 'ما هي فوائد الذكاء الاصطناعي؟'},\n])\nprint(response['message']['content'])",
     "resources": [
       {
-        "name": "Hugging Face Summarization Documentation",
-        "url": "https://huggingface.co/docs/transformers/main/tasks/summarization"
+        "name": "Ollama",
+        "url": "https://ollama.com/"
       },
       {
-        "name": "Text Summarization Techniques Guide",
-        "url": "https://towardsdatascience.com/text-summarization-approaches-and-technifications-7d4a2b9a0a57"
+        "name": "LM Studio",
+        "url": "https://lmstudio.ai/"
       },
       {
-        "name": "BERT for Summarization Tutorial",
-        "url": "https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270"
+        "name": "LocalAI",
+        "url": "https://localai.io/"
       }
     ],
     "tags": [
-      "تلخيص نصوص",
-      "تحسين الاستجابات",
-      "معالجة اللغات الطبيعية",
-      "نماذج لغوية"
+      "نماذج محلية",
+      "أدوات",
+      "خصوصية",
+      "تشغيل بدون إنترنت"
     ],
-    "quickRef": "1. حدد احتياجات المستخدم 2. اختر معايير التلخيص 3. طبق استراتيجيات مناسبة 4. راجع النتائج 5. تحسن باستمرار",
-    "quickRefEn": "1. Identify user needs 2. Choose summarization criteria 3. Apply appropriate strategies 4. Review results 5. Continuously improve",
+    "quickRef": "لتشغيل النماذج محلياً، اختر نموذجاً صغيراً، ثبّت أداة مثل Ollama، ثم قم بتنزيل وتشغيل النموذج.",
+    "quickRefEn": "To run models locally, choose a small model, install a tool like Ollama, then download and run the model.",
     "quiz": [
       {
-        "q": "ما هي الخطوة الأولى في تطبيق تقنيات التلخيص الذكي؟",
+        "q": "ما هي الميزة الرئيسية لتشغيل نماذج الذكاء الاصطناعي محلياً؟",
         "options": [
-          "اختيار استراتيجية التلخيص",
-          "فهم احتياجات المستخدم",
-          "مراجعة النتائج",
-          "تطبيق التعديلات"
+          "أداء أعلى",
+          "خصوصية أفضل",
+          "سهولة الاستخدام",
+          "تكلفة أقل"
         ],
         "answer": 1,
-        "explain": "الخطوة الأولى والأهم هي فهم احتياجات المستخدم وسياق الاستعلام لتحديد النقاط الرئيسية التي يجب التركيز عليها في الملخص."
+        "explain": "التشغيل المحلي يوفر خصوصية أفضل لأن البيانات لا تترك جهازك."
       },
       {
-        "q": "ما الفرق بين التلخيص الاستخراجي والتوليدي؟",
+        "q": "أي من هذه النماذج مناسبة لتشغيل محلي على جهاز عادي؟",
         "options": [
-          "لا يوجد فرق",
-          "الاستخراجي يعيد صياغة المعلومات، والتوليدي يسحب الجمل المهمة",
-          "الاستخراجي يسحب الجمل المهمة، والتوليدي يعيد صياغة المعلومات",
-          "كلاهما يعيد صياغة المعلومات"
+          "GPT-4",
+          "Claude Opus",
+          "Llama 3 8B",
+          "Gemini Ultra"
         ],
         "answer": 2,
-        "explain": "التلخيص الاستخراجي Extractive summarization يسحب الجمل المهمة من النص الأصلي دون تغييرها، بينما التلخيص التوليدي Abstractive summarization يعيد صياغة المعلومات بلغة جديدة."
+        "explain": "Llama 3 8B هو نموذج صالح الحجم ومناسب للأجهزة العادية، بينما النماذج الأكبر تتطلب موارد أكثر."
       },
       {
-        "q": "لماذا يعتبر التكرار والتحسين المستمر مهمًا في تقنيات التلخيص؟",
+        "q": "أي من هذه الأدوات يستخدم لتشغيل النماذج المحلية؟",
         "options": [
-          "لزيادة سرعة المعالجة",
-          "لتحسين جودة النتائج بناءً على التفاعلات الفعلية",
-          "لتقليل تكاليف التشغيل",
-          "لزيادة حجم المدخلات"
+          "TensorFlow",
+          "PyTorch",
+          "Ollama",
+          "Hugging Face"
         ],
-        "answer": 1,
-        "explain": "التكرار والتحسين المستمر يسمان بجمع ملاحظات المستخدمين وتحسين استراتيجيات التلخيص بناءً على التفاعلات الفعلية، مما يؤدي إلى تحسين جودة النتائج بمرور الوقت."
+        "answer": 2,
+        "explain": "Ollama هي أداة مصممة خصيصاً لتشغيل النماذج المحلية، بينما الأدوات الأخرى تستخدم لأغراض أخرى."
       }
     ],
     "addedAt": "2026-11-04"
