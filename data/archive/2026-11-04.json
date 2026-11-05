@@ -1,0 +1,484 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T18:45:36.623Z",
+  "news": [
+    {
+      "id": "n-2026-11-04-1",
+      "title": "جيميني 4 كربون: نموذج الجيل التالي",
+      "titleEn": "Gemini 4 Carbon: Our next frontier model",
+      "summary": "أطلقت جوجل دميند نموذج جيميني 4 كربون كنموذج الجيل التالي في الذكاء الاصطناعي، مع تحسينات كبيرة في الفهم والاستدلال.",
+      "summaryEn": "Google DeepMind launched Gemini 4 Carbon as their next-generation AI model, with significant improvements in understanding and reasoning.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+      },
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "id": "n-2026-11-04-2",
+      "title": "أنثروبيك تقدم طلبًا للاكتتاب العام الأولي",
+      "titleEn": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "summary": "قدمت شركة أنثروبيك وثيقة S-1 للجنة الأوراق المالية والبورصات الأمريكية بهدف الاكتتاب العام الأولي للشركة.",
+      "summaryEn": "Anthropic has filed an S-1 with the U.S. Securities and Exchange Commission for its planned initial public offering.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/s1-sec"
+      },
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "n-2026-11-04-3",
+      "title": "إطلاق جيني 4: جيل جديد من محاكاة العالم",
+      "titleEn": "Introducing Genie 4: A new generation of world simulation",
+      "summary": "أطلقت جوجل دميند نموذج جيني 4 الجديد الذي يوفر واقعية غير مسبوقة في المحاكاة في الوقت الفعلي.",
+      "summaryEn": "Google DeepMind has launched Genie 4, a new model that unlocks unprecedented realism in real-time simulation.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      },
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "n-2026-11-04-4",
+      "title": "استحواذ OpenAI على شركة بيير للكمبيوتر",
+      "titleEn": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "summary": "ستقوم OpenAI باستحواذ شركة بيير للكمبيوتر لتوسيع أدوات كودكس لبناء وتطوير البرمجيات.",
+      "summaryEn": "OpenAI will acquire Pierre Computer Company to expand Codex's tools for building and developing software.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-to-acquire-pierre"
+      },
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "n-2026-11-04-5",
+      "title": "الذكاء الاصطناعي يضطرنا إلى سداد 40 عامًا من الديون التقنية",
+      "titleEn": "AI is forcing us to pay off 40 years of technical debt",
+      "summary": "يكشف الذكاء الاصطناعي عن الديون التقنية التي تراكمت على مدى أربعين عامًا في أنظمة البرمجيات.",
+      "summaryEn": "AI is revealing the technical debt that has accumulated over 40 years in software systems.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+      },
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "n-2026-11-04-6",
+      "title": "زادت الديون الخفية للذكاء الاصطناعي لدى عملاق التكنولوجيا الأمريكية بنسبة 90% إلى 3.2 تريليون دولار في 6 أشهر",
+      "titleEn": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "summary": "زادت الديون الخفية المرتبطة بالذكاء الاصطناعي لدى الشركات التكنولوجية الأمريكية الكبرى بشكل كبير في فترة قصيرة.",
+      "summaryEn": "Hidden AI debt at major US tech companies has increased by 90% to $3.2 trillion in just 6 months.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
+      },
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "n-2026-11-04-7",
+      "title": "يقوم Postman بتثبيت الإضافات الذكية تلقائيًا ويحاول مشاركة جميع بيانات API",
+      "titleEn": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "summary": "يقوم Postman بتثبيت الإضافات الذكية تلقائيًا دون موافقة المستخدم ويحاول مشاركة جميع بيانات API.",
+      "summaryEn": "Postman silently auto-installs AI plugins and attempts to share all API data without user consent.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+      },
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "n-2026-11-04-8",
+      "title": "باحثو جوجل يطالبون بالحرية لإخبار العالم بما يعرفونه عن الذكاء الاصطناعي",
+      "titleEn": "Google researchers demand freedom to tell the world what they know about AI",
+      "summary": "طالب باحثو جوجل بالحرية في مشاركة معرفتهم حول الذكاء الاصطناعي والقيود المفروضة عليهم.",
+      "summaryEn": "Google researchers are demanding the freedom to share what they know about AI and the restrictions placed on them.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/"
+      },
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "n-2026-11-04-9",
+      "title": "موس Spark 1.1 جديد",
+      "titleEn": "Introducing Muse Spark 1.1",
+      "summary": "أطلقت ميتا نموذج موس Spark 1.1 الجديد مع تحسينات في توليد المحتوى الإبداعي.",
+      "summaryEn": "Meta has launched the new Muse Spark 1.1 model with improvements in creative content generation.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+      },
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "n-2026-11-04-10",
+      "title": "توسيع نظام Git في OpenAI",
+      "titleEn": "Scaling Git at OpenAI",
+      "summary": "قامت OpenAI ببناء Pando، نظام Git متوافق مصمم لمقياس تطوير كبير.",
+      "summaryEn": "OpenAI built Pando, a Git-compatible backend designed for the scale of large development.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/scaling-git-at-openai"
+      },
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "n-2026-11-04-11",
+      "title": "إطلاق برنامج حماية الشبكة",
+      "titleEn": "Introducing the Grid Protectors Program",
+      "summary": "سيبرنامج حماية الشبكة سيعمل مع شركات الكهرباء لمساعدة مراكز الحساب المستقبلية.",
+      "summaryEn": "The Grid Protectors Program will work with utilities to help future compute campuses.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/grid-protectors-program"
+      },
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "n-2026-11-04-12",
+      "title": "الكيمياء الحيوية الوكيلية مع أنتيجرافيتي جوجل",
+      "titleEn": "Agentic cheminformatics with Google Antigravity",
+      "summary": "تسخدم أنتيجرافيتي جوجل ومهارات الكيمياء الحيوية لتسريع عمل اكتشاف الأدوية.",
+      "summaryEn": "Google Antigravity and its Cheminformatics Skills accelerate drug discovery work.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+      },
+      "publishedAt": "2026-11-03"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-11-04-1",
+      "name": "Gemini 4 Carbon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-10-28",
+      "highlights": "نموذج الجيل التالي من جوجل دميند مع تحسينات كبيرة في الفهم والاستدلال.",
+      "highlightsEn": "Google DeepMind's next-generation model with significant improvements in understanding and reasoning.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+      "id": "m-2026-11-04-2",
+      "name": "Genie 4",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-10-27",
+      "highlights": "نموذج عالمي جديد يوفر واقعية غير مسبوقة في المحاكاة في الوقت الفعلي.",
+      "highlightsEn": "New world model that unlocks unprecedented realism in real-time simulation.",
+      "specs": {
+        "context": "100K"
+      },
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    },
+    {
+      "id": "m-2026-11-04-3",
+      "name": "Mistral Large 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-06",
+      "highlights": "أحدث إصدار من نموذج Mistral Large مع تحسينات في الفهم والاستدلال.",
+      "highlightsEn": "Latest version of the Mistral Large model with improvements in understanding and reasoning.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/mistral-large-4/"
+    },
+    {
+      "id": "m-2026-11-04-4",
+      "name": "Timestral",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-20",
+      "highlights": "نموذج احتمالي متقدم يتطلب فقط 209 مليون معلمة، ويتفوق على النماذج الأكبر على وحدات المعالجة المركزية.",
+      "highlightsEn": "State-of-the-art probabilistic forecasts with just 209M parameters, outperforming larger models on CPU.",
+      "specs": {
+        "context": "64K"
+      },
+      "url": "https://mistral.ai/news/timestral/"
+    },
+    {
+      "id": "m-2026-11-04-5",
+      "name": "Kimi K3.1 Pro",
+      "org": "Moonshot/Kimi",
+      "releaseDate": "2026-11-04",
+      "highlights": "أصبحت أوزان النموذج متاحة الآن للمجتمع البحثي.",
+      "highlightsEn": "Model weights are now available for the research community.",
+      "specs": {
+        "context": "200K"
+      },
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+    },
+    {
+      "id": "m-2026-11-04-6",
+      "name": "Qwen 3.8 27B",
+      "org": "Qwen",
+      "releaseDate": "2026-11-03",
+      "highlights": "نموذج جديد يمكنه تفسير أوزان النماذج الأخرى.",
+      "highlightsEn": "New model that can interpret model weights of other models.",
+      "specs": {
+        "context": "32K"
+      },
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-11-04-1",
+      "text": "قدمت شركة أنثروبيك وثيقة S-1 للجنة الأوراق المالية والبورصات الأمريكية بهدف الاكتتاب العام الأولي للشركة.",
+      "textEn": "Anthropic has filed an S-1 with the U.S. Securities and Exchange Commission for its planned initial public offering.",
+      "level": "info",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
+    {
+      "id": "h-2026-11-04-2",
+      "text": "زادت الديون الخفية للذكاء الاصطناعي لدى عملاق التكنولوجيا الأمريكية بنسبة 90% إلى 3.2 تريليون دولار في 6 أشهر.",
+      "textEn": "Hidden AI debt at major US tech companies has increased by 90% to $3.2 trillion in just 6 months.",
+      "level": "warning",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
+    },
+    {
+      "id": "h-2026-11-04-3",
+      "text": "باحثو جوجل يطالبون بالحرية لإخبار العالم بما يعرفونه عن الذكاء الاصطناعي.",
+      "textEn": "Google researchers are demanding the freedom to share what they know about AI and the restrictions placed on them.",
+      "level": "critical",
+      "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-11-04-1",
+      "title": "يقوم Postman بتثبيت الإضافات الذكية تلقائيًا ويحاول مشاركة جميع بيانات API",
+      "titleEn": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "summary": "يقوم Postman بتثبيت الإضافات الذكية تلقائيًا دون موافقة المستخدم ويحاول مشاركة جميع بيانات API، مما يثير مخاوف كبيرة حول خصوصية المستخدمين وأمن بياناتهم.",
+      "summaryEn": "Postman silently auto-installs AI plugins without user consent and attempts to share all API data, raising significant concerns about user privacy and data security.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "source": "Hacker News",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "sec-2026-11-04-2",
+      "title": "إخفاء القدرات في نماذج الذكاء الاصطناعي",
+      "titleEn": "Hiding Capabilities in AI Models",
+      "summary": "أظهرت أبحاث جديدة أن نماذج الذكاء الاصطناعي يمكن إثباتًا إخفاء قدراتها بشكل عمدي، مما يثير مخاوف حول إمكانية استخدام هذه النماذج لأغراض خبيثة دون اكتشاف.",
+      "summaryEn": "New research shows that AI models can provably hide their capabilities intentionally, raising concerns about the potential for these models to be used maliciously without detection.",
+      "type": "backdoor",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+      "source": "Schneier on Security",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "sec-2026-11-04-3",
+      "title": "اكتشاف ثغرات الذكاء الاصطناعي",
+      "titleEn": "AI Vulnerability Finding",
+      "summary": "كشف تعليح يشير إلى أن 3% من الثغرات الحرجة في أمان البرمجيات في تاريخ السجلات يمكن اكتشافها باستخدام نماذج الذكاء الاصطناعي.",
+      "summaryEn": "A comment reveals that 3% of 'critical' software security bugs in all of recorded history can be discovered using AI models.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-02"
+    },
+    {
+      "id": "sec-2026-11-04-4",
+      "title": "الذكاء الاصطناعي يهاجم القانون",
+      "titleEn": "AIs Hacking the Law",
+      "summary": "يتناول مقال كيفية استخدام الذكاء الاصطناعي للاستفادة من الثغرات في النظام القانوني، مما يثير مخاوف حول تأثير الذكاء الاصطناعي على النظام القانوني.",
+      "summaryEn": "An article discusses how AI can exploit vulnerabilities in the legal system, raising concerns about AI's impact on the legal framework.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-03"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-11-04",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "59.9"
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "org": "Google",
+        "score": "58.8"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "57.9"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "57.3"
+      },
+      {
+        "name": "Kimi K3.1 Pro",
+        "org": "Moonshot AI",
+        "score": "55.6"
+      },
+      {
+        "name": "Gemini 4 Argon 2",
+        "org": "Google",
+        "score": "54.4"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "54.3"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "53.4"
+      },
+      {
+        "name": "GPT-6.1 Sol 3",
+        "org": "OpenAI",
+        "score": "53.4"
+      },
+      {
+        "name": "Muse Wonder Full",
+        "org": "Meta",
+        "score": "53.1"
+      }
+    ],
+    "highlights": "يحتل Claude Opus 5.5 من Anthropic قائمة الترتيب الأول بمؤشر 59.9%. Gemini 4 Carbon من Google هو مدخلة جديدة تحتل المركز الثاني بمؤشر 58.8%. هناك سباق قريب بين GPT-6.1 Sol 3 و Muse Wonder Full، كلاهما يحصلان على 53.4%. تهيمن نماذج Claude على الترتيب الأعلى بأربعة من بين أفضل عشرة نماذج.",
+    "highlightsEn": "Claude Opus 5.5 from Anthropic leads the rankings with a score of 59.9%. Gemini 4 Carbon from Google is a new entry that ranks second with 58.8%. There's a close race between GPT-6.1 Sol 3 and Muse Wonder Full, both scoring 53.4%. Claude models dominate the top rankings with 4 out of 10 spots."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-11-04-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً",
+    "title": "تشغيل نماذج الذكاء الاصطناعي محلياً",
+    "titleEn": "Running Local AI Models",
+    "why": "تشغيل النماذج محلياً يوفر خصوصية أفضل، لا يتطلب اتصالاً بالإنترنت، ويمكن استخدامه في الأماكن التي لا تتوفر فيها خدمات سحابية.",
+    "whyEn": "Running models locally provides better privacy, doesn't require internet connection, and can be used in places where cloud services aren't available.",
+    "difficulty": "intermediate",
+    "track": "tools",
+    "steps": [
+      {
+        "title": "اختيار النموذج المناسب",
+        "detail": "اختر نموذجاً صغير الحجم ومناسب لموارد جهازك. نماذج مثل Llama 3 8B أو Mistral 7B مناسبة للأجهزة العادية."
+      },
+      {
+        "title": "تثبيت الأدوات اللازمة",
+        "detail": "قم بتثبيت مكتبات مثل Ollama أو LM Studio التي تسهل تشغيل النماذج المحلية."
+      },
+      {
+        "title": "تنزيل النموذج",
+        "detail": "استخدم الأداة لتنزيل النموذج المختار. تأكد من وجود مساحة كافية على القرص الصلب."
+      },
+      {
+        "title": "تشغيل النموذج",
+        "detail": "ابدأ تشغيل النموذج عبر واجهة سطر الأوامر أو الواجهة الرسومية للأداة."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Choose the Right Model",
+        "detail": "Select a model with appropriate size for your device's resources. Models like Llama 3 8B or Mistral 7B are suitable for regular computers."
+      },
+      {
+        "title": "Install Necessary Tools",
+        "detail": "Install libraries like Ollama or LM Studio that make it easier to run local models."
+      },
+      {
+        "title": "Download the Model",
+        "detail": "Use the tool to download the selected model. Ensure you have enough disk space."
+      },
+      {
+        "title": "Run the Model",
+        "detail": "Start running the model through the command line interface or the tool's graphical interface."
+      }
+    ],
+    "code": "python\n# مثال على تشغيل نموذج محلي باستخدام Ollama\nimport ollama\n\nresponse = ollama.chat(model='llama3', messages=[\n  {'role': 'user', 'content': 'ما هي فوائد الذكاء الاصطناعي؟'},\n])\nprint(response['message']['content'])",
+    "resources": [
+      {
+        "name": "Ollama",
+        "url": "https://ollama.com/"
+      },
+      {
+        "name": "LM Studio",
+        "url": "https://lmstudio.ai/"
+      },
+      {
+        "name": "LocalAI",
+        "url": "https://localai.io/"
+      }
+    ],
+    "tags": [
+      "نماذج محلية",
+      "أدوات",
+      "خصوصية",
+      "تشغيل بدون إنترنت"
+    ],
+    "quickRef": "لتشغيل النماذج محلياً، اختر نموذجاً صغيراً، ثبّت أداة مثل Ollama، ثم قم بتنزيل وتشغيل النموذج.",
+    "quickRefEn": "To run models locally, choose a small model, install a tool like Ollama, then download and run the model.",
+    "quiz": [
+      {
+        "q": "ما هي الميزة الرئيسية لتشغيل نماذج الذكاء الاصطناعي محلياً؟",
+        "options": [
+          "أداء أعلى",
+          "خصوصية أفضل",
+          "سهولة الاستخدام",
+          "تكلفة أقل"
+        ],
+        "answer": 1,
+        "explain": "التشغيل المحلي يوفر خصوصية أفضل لأن البيانات لا تترك جهازك."
+      },
+      {
+        "q": "أي من هذه النماذج مناسبة لتشغيل محلي على جهاز عادي؟",
+        "options": [
+          "GPT-4",
+          "Claude Opus",
+          "Llama 3 8B",
+          "Gemini Ultra"
+        ],
+        "answer": 2,
+        "explain": "Llama 3 8B هو نموذج صالح الحجم ومناسب للأجهزة العادية، بينما النماذج الأكبر تتطلب موارد أكثر."
+      },
+      {
+        "q": "أي من هذه الأدوات يستخدم لتشغيل النماذج المحلية؟",
+        "options": [
+          "TensorFlow",
+          "PyTorch",
+          "Ollama",
+          "Hugging Face"
+        ],
+        "answer": 2,
+        "explain": "Ollama هي أداة مصممة خصيصاً لتشغيل النماذج المحلية، بينما الأدوات الأخرى تستخدم لأغراض أخرى."
+      }
+    ],
+    "addedAt": "2026-11-04"
+  }
+}

@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-05-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
+      "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
+      "titleEn": "Writing Effective AI Prompts",
+      "why": "تُعد كتابة الأوامر الفعالة مهارة أساسية لتحقيق أقصى استفادة من نماذج الذكاء الاصطناعي. الأوامر الجيدة تنتج استجابات دقيقة ومفيدة، بينما الأوامر الضعيفة قد تؤدي إلى نتائج غير مرغوب فيها أو مضللة.",
+      "whyEn": "Writing effective prompts is a fundamental skill for maximizing the value of AI models. Good prompts produce accurate and helpful responses, while weak prompts can lead to unwanted or misleading results.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "حدد هدفك بوضوح",
+          "detail": "قبل كتابة الأمر، حدد بوضوح ما تريد تحقيقه من خلال الذكاء الاصطناعي. فكر في النتيجة النهائية المطلوبة."
+        },
+        {
+          "title": "قدم السياق الكافي",
+          "detail": "أدرج معلومات كافية حول موضوع الأمر، بما في ذلك أي معرفة خلفية قد يحتاجها النموذج لفهم طلبك بشكل صحيح."
+        },
+        {
+          "title": "استخدم هيكل واضح",
+          "detail": "استخدم نقاطاً، ترقيمًا، أو عناوين فرعية لتنظيم طلبك. هذا يساعد النموذج على فهم الهيكل المنطقي لطلبك."
+        },
+        {
+          "title": "كن محدداً في التعليمات",
+          "detail": "استخدم أفعالاً قوية ومباشرة مثل 'اكتب'، 'صف'، 'قارن'، 'اقترح' بدلاً من عبارات غامضة مثل 'تحدث عن'."
+        },
+        {
+          "title": "حدد تنسيق المخرجات",
+          "detail": "حدد كيف تريد أن يظهر الرد، سواء كان في شكل جدول، قائمة، فقرة، أو أي تنسيق آخر مناسب."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Clearly define your goal",
+          "detail": "Before writing the prompt, clearly define what you want to achieve with the AI. Think about the desired end result."
+        },
+        {
+          "title": "Provide sufficient context",
+          "detail": "Include enough information about the prompt topic, including any background knowledge the model might need to understand your request correctly."
+        },
+        {
+          "title": "Use clear structure",
+          "detail": "Use bullet points, numbering, or subheadings to organize your request. This helps the model understand the logical structure of your prompt."
+        },
+        {
+          "title": "Be specific in instructions",
+          "detail": "Use strong, direct verbs like 'write', 'describe', 'compare', 'suggest' instead of vague phrases like 'talk about'."
+        },
+        {
+          "title": "Specify output format",
+          "detail": "Indicate how you want the response to appear, whether as a table, list, paragraph, or other suitable format."
+        }
+      ],
+      "code": "",
+      "resources": [
+        {
+          "name": "OpenAI Prompt Engineering Guide",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        },
+        {
+          "name": "Anthropic Prompt Library",
+          "url": "https://www.anthropic.com/news/prompt-library"
+        },
+        {
+          "name": "Prompt Engineering Best Practices",
+          "url": "https://www.promptingguide.ai/"
+        }
+      ],
+      "tags": [
+        "الذكاء الاصطناعي",
+        "كتابة الأوامر",
+        "مهارات رقمية",
+        "تحسين الاستجابات"
+      ],
+      "quickRef": "أمر جيد = هدف واضح + سياق كاف + هيكل منظم + تعليمات محددة + تنسي مخرجات محدد",
+      "quickRefEn": "Good prompt = clear goal + sufficient context + organized structure + specific instructions + defined output format",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في كتابة أمر فعال للذكاء الاصطناعي؟",
+          "options": [
+            "استخدام لغة معقدة",
+            "تحديد الهدف بوضوح",
+            "إطالة الأمر قدر الإمكان",
+            "عدم تقديم أي سياق"
+          ],
+          "answer": 1,
+          "explain": "تحديد الهدف بوضوح هو العنصر الأهم لأنه يوجه النموذج نحو النتيجة المطلوبة بدقة."
+        },
+        {
+          "q": "كيف يمكن تحسين هيكل الأمر للذكاء الاصطناعي؟",
+          "options": [
+            "استخدام جمل طويلة معقدة",
+            "تنظيم المعلومات باستخدام نقاط أو ترقيم",
+            "تضمين معلومات غير ضرورية",
+            "استخدام لغة غامضة"
+          ],
+          "answer": 1,
+          "explain": "تنظيم المعلومات باستخدام نقاط أو ترقيم يساعد النموذج على فهم الهيكل المنطقي للطلب بشكل أفضل."
+        },
+        {
+          "q": "ما هو التنسيق الأفضل للطلب عند طلب مقارنة بين مفهومين؟",
+          "options": [
+            "طلب عام بدون تفاصيل",
+            "طلب مقارنة في جدول مع عناوين واضحة",
+            "طلب مقارنة في فقرة واحدة طويلة",
+            "طلب بدون تحديد تنسي المخرجات"
+          ],
+          "answer": 1,
+          "explain": "جدول مع عناوين واضحة يوفر هيكلاً منظمًا للمقارنة ويجعل النتائج أسهل في الفهم."
+        }
+      ],
+      "addedAt": "2026-11-05"
+    },
+    {
       "id": "k-2026-11-04-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً",
       "title": "تشغيل نماذج الذكاء الاصطناعي محلياً",
       "titleEn": "Running Local AI Models",
