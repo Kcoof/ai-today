@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-06-ضبط-النماذج-الصغيرة-لمهام-محددة",
+      "title": "ضبط النماذج الصغيرة لمهام محددة",
+      "titleEn": "Fine-tuning Small Models for Specific Tasks",
+      "why": "ضبط النماذج الصغيرة يسمح بتخصيص نماذج قائمة مسبقاً لمهام محددة، مما يحسن الدقة والأداء في مجالات متخصصة دون الحاجة إلى بناء نموذج من الصفر.",
+      "whyEn": "Fine-tuning small models allows you to adapt pre-trained models for specific tasks, improving accuracy and performance in specialized domains without needing to build a model from scratch.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد المهمة وجمع البيانات",
+          "detail": "حدد المهمة الدقيقة التي تريد تحقيقها وجمع مجموعة بيانات ذات صلة عالية الجودة. يجب أن تكون البيانات ممثلة للمهام التي سيواجهها النموذج بعد الضبط."
+        },
+        {
+          "title": "اختيار النموذج الأساسي",
+          "detail": "اختر نموذجاً قوياً ومتوفراً مسبقاً يتوافق مع مهمتك. النماذج الصغيرة مثل DistilBERT أو TinyBERT مثالية لهذا الغرض بسبب حجمها الصغير وكفاءتها."
+        },
+        {
+          "title": "تحضير البيانات للضبط",
+          "detail": "تنسيق البيانات وفق متطلبات النموذج الأساسي. قد يتضمن ذلك توحيد تنسيق النصوص، تصنيف البيانات، أو إنشاء زوج من السؤال والإجابة حسب نوع المهمة."
+        },
+        {
+          "title": "تنفيذ عملية الضبط",
+          "detail": "استخدم مكتبات مثل Hugging Face Transformers لتنفيذ عملية الضبط. اضبط النموذج على مجموعة بياناتك مع مراقبة مؤشرات الأداء مثل الدقة والفقدان (loss)."
+        },
+        {
+          "title": "تقييم النموذج المضبوط",
+          "detail": "اختبر النموذج على مجموعة بيانات منفصلة لم تستخدم في عملية الضبط. قارن أداءه بالنموذج الأساسي لتحديد التحسينات التي تم تحقيقها."
+        },
+        {
+          "title": "نشر النموذج وتحسينه",
+          "detail": "نشر النموذج المضبوط في بيئة الإنتاج واستمر في جمع البيانات لتحسينه بشكل مستمر. يمكنك أيضاً تجربة تقنيات مثل الضبط الدقيق (peft) لتقليل استهلاك الموارد."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define the task and collect data",
+          "detail": "Identify the specific task you want to accomplish and collect a high-quality, relevant dataset. The data should be representative of the tasks the model will encounter after fine-tuning."
+        },
+        {
+          "title": "Choose the base model",
+          "detail": "Select a strong, pre-existing model that aligns with your task. Small models like DistilBERT or TinyBERT are ideal for this purpose due to their small size and efficiency."
+        },
+        {
+          "title": "Prepare data for fine-tuning",
+          "detail": "Format the data according to the base model's requirements. This may include standardizing text formats, classifying data, or creating question-answer pairs depending on the task type."
+        },
+        {
+          "title": "Implement the fine-tuning process",
+          "detail": "Use libraries like Hugging Face Transformers to implement the fine-tuning process. Fine-tune the model on your dataset while monitoring performance metrics like accuracy and loss."
+        },
+        {
+          "title": "Evaluate the fine-tuned model",
+          "detail": "Test the model on a separate dataset not used during fine-tuning. Compare its performance with the base model to determine the improvements achieved."
+        },
+        {
+          "title": "Deploy and improve the model",
+          "detail": "Deploy the fine-tuned model in production and continue collecting data to improve it incrementally. You can also experiment with techniques like Parameter-Efficient Fine-Tuning (PEFT) to reduce resource consumption."
+        }
+      ],
+      "code": "from transformers import AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer\n\n# Load base model and tokenizer\nmodel_name = 'distilbert-base-uncased'\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2)\n\n# Tokenize your dataset\ntokenized_datasets = your_dataset.map(lambda x: tokenizer(x['text'], truncation=True), batched=True)\n\n# Set up training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    evaluation_strategy='epoch',\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=tokenized_datasets['train'],\n    eval_dataset=tokenized_datasets['validation']\n)\n\n# Fine-tune the model\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Tutorial",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "DistilBERT Documentation",
+          "url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
+        },
+        {
+          "name": "Parameter-Efficient Fine-Tuning",
+          "url": "https://huggingface.co/docs/peft/index"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "التعلم العميق",
+        "معالجة اللغات الطبيعية",
+        "النماذج الصغيرة"
+      ],
+      "quickRef": "1. حدد المهمة وجمع البيانات 2. اختر نموذجاً أساسياً 3. جهز البيانات للضبط 4. نفذ عملية الضبط 5. قيم النموذج 6. نشر التحسينات",
+      "quickRefEn": "1. Define task and collect data 2. Choose base model 3. Prepare data 4. Implement fine-tuning 5. Evaluate model 6. Deploy improvements",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة؟",
+          "options": [
+            "تقليل حجم النموذج",
+            "تخصيص النموذج لمهام محددة",
+            "زيادة سرعة المعالجة",
+            "تقليل استهلاك الطاقة"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من ضبط النماذج الصغيرة هو تخصيص نماذج قائمة مسبقاً لمهام محددة، مما يحسن الدقة والأداء في مجالات متخصصة."
+        },
+        {
+          "q": "أي من الخيارات التالية يعتبر نموذجاً صغيراً مناسباً لعملية الضبط؟",
+          "options": [
+            "GPT-4",
+            "BERT-base",
+            "Claude Opus",
+            "Gemini Ultra"
+          ],
+          "answer": 1,
+          "explain": "BERT-base هو نموذج مناسب لعملية الضبط لأنه أصغر حجماً وأكثر كفاءة مقارنة بالنماذج الكبيرة الأخرى المذكورة."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في عملية ضبط نموذج لغوي؟",
+          "options": [
+            "اختيار النموذج الأساسي",
+            "تنفيذ عملية الضبط",
+            "تقييم النموذج",
+            "تحديد المهمة وجمع البيانات"
+          ],
+          "answer": 3,
+          "explain": "الخطوة الأولى في عملية ضبط نموذج لغوي هي تحديد المهمة بدقة وجمع مجموعة بيانات ذات صلة عالية الجودة."
+        }
+      ],
+      "addedAt": "2026-11-06"
+    },
+    {
       "id": "k-2026-11-05-كتابة-أوامر-فعالة-للذكاء-الاصطناعي",
       "title": "كتابة أوامر فعالة للذكاء الاصطناعي",
       "titleEn": "Writing Effective AI Prompts",
