@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-07-تطبيقات-الذكاء-الاصطناعي-متعددة-الوسائط",
+      "title": "تطبيقات الذكاء الاصطناعي متعددة الوسائط",
+      "titleEn": "Implementing Multimodal AI Applications",
+      "why": "تطبيقات الذكاء الاصطناعي متعددة الوسائط تسمح للنماذج بمعالجة وفهم أنواع مختلفة من البيانات (نص، صور، صوت) معًا، مما يوفر فهماً أعمق وأكثر شمولية للمحتوى ويسمح بتطبيقات أكثر تعقيداً وفائدة.",
+      "whyEn": "Multimodal AI applications enable models to process and understand different types of data (text, images, audio) together, providing deeper and more comprehensive understanding of content and allowing for more complex and useful applications.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "فهم مفهوم تعدد الوسائط",
+          "detail": "تعدد الوسائط في الذكاء الاصطناعي يشير إلى القدرة على دمج ومعالجة أنواع مختلفة من البيانات. النماذج متعددة الوسائط يمكنها ربط المعلومات من نصوص وصور وأصوات لتقديم استجابات أكثر دقة."
+        },
+        {
+          "title": "اختيار النموذج المناسب",
+          "detail": "حدد نموذجاً يدعم المدخلات المتعددة مثل GPT-4V أو Claude 3.5 Sonnet أو Gemini Pro. تأكد من أن النموذج يدعم أنواع البيانات التي تحتاجها لمشروعك."
+        },
+        {
+          "title": "تحضير البيانات",
+          "detail": "قم بتنظيف وتجهيز البيانات من مختلف الوسائط. للصور، تأكد من الحجم المناسب. للنصوص، قم بالتوحيد. للصوت، قم بتحويله إلى نص إذا لزم الأمر."
+        },
+        {
+          "title": "بناء واجهة التطبيق",
+          "detail": "صمم واجهة مستخدم تسمح للمستخدمين بإدخال أنواع مختلفة من البيانات. يمكن أن تكون هذه الواجهة تطبيقاً ويب أو تطبيقاً سطح مكتب أو واجهة سطر أوامر."
+        },
+        {
+          "title": "دمج النموذج",
+          "detail": "قم بدمج النموذج المختار مع واجهة التطبيق. تأكد من معالجة المدخلات المختلفة بشكل صحيح وإرسالها إلى النموذج بطريقة مدعومة."
+        },
+        {
+          "title": "اختبار وتحسين",
+          "detail": "اختبر التطبيق مع مجموعات متنوعة من المدخلات. قيّم جودة الاستجابات وقم بتحسين التطبيق بناءً على النتائج. قم بقياس الأداء وتحسينه حسب الحاجة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding multimodal concepts",
+          "detail": "Multimodality in AI refers to the ability to integrate and process different types of data. Multimodal models can connect information from text, images, and audio to provide more accurate responses."
+        },
+        {
+          "title": "Choosing the right model",
+          "detail": "Select a model that supports multiple inputs like GPT-4V, Claude 3.5 Sonnet, or Gemini Pro. Ensure the model supports the data types you need for your project."
+        },
+        {
+          "title": "Preparing the data",
+          "detail": "Clean and prepare data from different modalities. For images, ensure appropriate sizing. For text, standardize formats. For audio, convert to text if necessary."
+        },
+        {
+          "title": "Building the application interface",
+          "detail": "Design a user interface that allows users to input different types of data. This could be a web app, desktop application, command-line interface, or API."
+        },
+        {
+          "title": "Integrating the model",
+          "detail": "Integrate the selected model with your application interface. Ensure proper processing of different input types and sending them to the model in a supported format."
+        },
+        {
+          "title": "Testing and optimization",
+          "detail": "Test the application with diverse input sets. Evaluate response quality and improve the application based on results. Measure performance and optimize as needed."
+        }
+      ],
+      "code": "import openai\n\n# Initialize the multimodal model\nclient = openai.OpenAI()\n\n# Function to process multimodal input\ndef process_multimodal_input(text_input, image_path=None):\n    messages = []\n    \n    # Add text input\n    messages.append({\"role\": \"user\", \"content\": text_input})\n    \n    # Add image if provided\n    if image_path:\n        with open(image_path, \"rb\") as image_file:\n            messages.append({\n                \"role\": \"user\", \n                \"content\": [\n                    {\"type\": \"text\", \"text\": text_input},\n                    {\"type\": \"image_url\", \"image_url\": {\"url\": f\"data:image/jpeg;base64,{base64.b64encode(image_file.read()).decode()}\"}}\n                ]\n            })\n    \n    # Get response from the model\n    response = client.chat.completions.create(\n        model=\"gpt-4-vision-preview\",\n        messages=messages,\n        max_tokens=500\n    )\n    \n    return response.choices[0].message.content",
+      "resources": [
+        {
+          "name": "OpenAI Multimodal Documentation",
+          "url": "https://platform.openai.com/docs/guides/vision"
+        },
+        {
+          "name": "Google Gemini API Documentation",
+          "url": "https://ai.google.dev/docs"
+        },
+        {
+          "name": "Anthropic Claude Documentation",
+          "url": "https://docs.anthropic.com/claude/docs"
+        }
+      ],
+      "tags": [
+        "تعدد الوسائط",
+        "تطبيقات الذكاء الاصطناعي",
+        "معالجة البيانات",
+        "دمج النماذج"
+      ],
+      "quickRef": "تطبيقات الذكاء الاصطناعي متعددة الوسائط تسمح للنماذج بمعالجة أنواع مختلفة من البيانات (نص، صور، صوت) معًا، مما يوفر فهماً أعمق وأكثر شمولية للمحتوى.",
+      "quickRefEn": "Multimodal AI applications enable models to process different types of data (text, images, audio) together, providing deeper and more comprehensive understanding of content.",
+      "quiz": [
+        {
+          "q": "ما هو تعريف تعدد الوسائط في الذكاء الاصطناعي؟",
+          "options": [
+            "قدرة النموذج على توليد نصوص فقط",
+            "قدرة النموذج على معالجة أنواع مختلفة من البيانات معًا",
+            "قدرة النموذج على العمل على جهاز واحد فقط",
+            "قدرة النموذج على التعلم من بيانات واحدة فقط"
+          ],
+          "answer": 1,
+          "explain": "تعدد الوسائط في الذكاء الاصطناعي يشير إلى قدرة النموذج على معالجة وفهم أنواع مختلفة من البيانات (نص، صور، صوت) معًا."
+        },
+        {
+          "q": "أي من الخيارات التالية ليس نموذجاً يدعم المدخلات المتعددة؟",
+          "options": [
+            "GPT-4V",
+            "Claude 3.5 Sonnet",
+            "Gemini Pro",
+            "GPT-3.5 Turbo"
+          ],
+          "answer": 3,
+          "explain": "GPT-3.5 Turbo هو نموذج نصي فقط ولا يدعم المدخلات المتعددة مثل الصور أو الصوت، بينما GPT-4V و Claude 3.5 Sonnet و Gemini Pro تدعم المدخلات المتعددة."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في تطبيق تطبيق ذكاء اصطناعي متعدد الوسائط؟",
+          "options": [
+            "اختيار النموذج المناسب",
+            "بناء واجهة التطبيق",
+            "فهم مفهوم تعدد الوسائط",
+            "اختبار التطبيق"
+          ],
+          "answer": 2,
+          "explain": "الخطوة الأولى يجب أن تكون فهم المفهوم الأساسي لتعدد الوسائط في الذكاء الاصطناعي قبل البدء في اختيار النموذج أو بناء الواجهة."
+        }
+      ],
+      "addedAt": "2026-11-07"
+    },
+    {
       "id": "k-2026-11-06-ضبط-النماذج-الصغيرة-لمهام-محددة",
       "title": "ضبط النماذج الصغيرة لمهام محددة",
       "titleEn": "Fine-tuning Small Models for Specific Tasks",
