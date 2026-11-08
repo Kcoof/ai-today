@@ -1,0 +1,424 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T16:56:07.369Z",
+  "news": [
+    {
+      "id": "n-2026-11-07-1",
+      "title": "كيمي K3.1 برو يصبح مفتوح المصدر: نموذج عملاق بـ 2.8 تريليون معلمة",
+      "titleEn": "Kimi K3.1 Pro Goes Open-Source: 2.8T Parameter Model",
+      "summary": "أطلقت شركة مونشوت AI (Moonshot) أوزان نموذج Kimi K3.1 Pro بالكامل للمجتمع المفتوح، مما يمثل إنجازًا كبيرًا في عالم نماذج الذكاء الاصطناعي مفتوحة المصدر. النموذج الضخم بـ 2.8 تريليون معلمة يتجاوز أداء OpenAI في معايير البحث المالي.",
+      "summaryEn": "Moonshot AI has released the full weights of its Kimi K3.1 Pro model to the open community, marking a significant achievement in open-source AI. The massive 2.8T parameter model outperforms OpenAI on financial research benchmarks.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFNjQ1dJbHRhTDg0d1ZBYzVlUHI4M1lMeXp4Unk5QThnUVJwd1VuTTlsZmhJVGJQbW1WMkVKWkRSNHRFMV94eFpfcnJkMW0xZ01OYUFDWU1Td3lobzBYX0tJWXRmLWVZQ3Q3WFROTlBReDRVM3FmMHJKckgwaWJLUmtNTW1GRXZwMEQwdkJsSQ?oc=5"
+      },
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "n-2026-11-07-2",
+      "title": "شراكة تاريخية: Qwen من علي بابا يدمج في Apple Intelligence",
+      "titleEn": "Historic Partnership: Alibaba's Qwen Integrates with Apple Intelligence",
+      "summary": "أعلنت شركة علي بابا عن شراكة استراتيجية مع أبل لدمج نموذج Qwen الذكي في ميزات Apple Intelligence في الصين. هذه الشراكة تتيب استخدام Qwen لتقديم ميزات الذكاء الاصطناعي على أجهزة iPhone في الصين، مما يمثل توسعًا كبيرًا لوجود أبل في السوق الصينية.",
+      "summaryEn": "Alibaba announced a strategic partnership with Apple to integrate its Qwen AI model into Apple Intelligence features in China. This partnership allows Qwen to power AI features on iPhones in China, representing a significant expansion of Apple's presence in the Chinese market.",
+      "category": "companies",
+      "importance": 5,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDdm9yZ0ZYTTRwYXdMOWdXaXd5Zlp3eXlLVDlIbWdKb3VuaXBZbExuRkhGRnQ2RnViOTFBYzRpUGVmU2xKZXhBRy1wTGZpX25SdkY0d0hOVHpKa1VlZ09rVkJBWUo0SnR6ZU9jUTJUb1JIRVRJdUxJMEFUUUY?oc=5"
+      },
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "id": "n-2026-11-07-3",
+      "title": "Anthropic تقدم طلبًا للاكتتاب العام الأولي",
+      "titleEn": "Anthropic Files for Initial Public Offering",
+      "summary": "تقدم شركة Anthropic بملف S-1 للاكتتاب العام الأولي، مما يمثل خطوة مهمة في تطويرها من شركة ناشئة إلى شركة عامة. الشركة تلتزم بتخصيص جزء من أسهمها لصندوق Anthropic Public Benefit Fund، مما يعكس التزامها بالذكاء الاصطناعي المسؤول.",
+      "summaryEn": "Anthropic has filed an S-1 for its initial public offering, marking a significant step from startup to public company. The company is committing a portion of its shares to the Anthropic Public Benefit Fund, reflecting its commitment to responsible AI.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/s1-sec"
+      },
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "n-2026-11-07-4",
+      "title": "ميسترال تطلق أبحاثًا جديدة: Voxtral 3 و Timestral",
+      "titleEn": "Mistral Launches New Research: Voxtr3 and Timestral",
+      "summary": "أعلنت شركة Mistral AI عن أبحاث جديدة تشمل نموذج Voxtral 3 الذي يمكنه الاستماع والتفكير والكلام والعمل، بالإضافة إلى نموذج Timestral الذي يقدم تنبؤات احتمالية متقدمة. هذه النماذج تمثل تقدمًا كبيرًا في قدرات الوكالات الذكية.",
+      "summaryEn": "Mistral AI announced new research including the Voxtral 3 model that can listen, reason, speak, and act, as well as the Timestral model for state-of-the-art probabilistic forecasts. These models represent significant advances in AI agent capabilities.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/voxtral-3/"
+      },
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "n-2026-11-07-5",
+      "title": "Revolut تقلص تكاليف البرمجة بـ 10x باستخدام GLM-5.1",
+      "titleEn": "Revolut Cuts AI Coding Costs 10x With GLM-5.1",
+      "summary": "نجحت شركة Revolut في تقليل تكاليف البرمجة بنسبة 90% من خلال تبني نموذج GLM-5.1 من Z.ai كبديل لنماذج مثل Claude. هذا التحول يظهر التكلفة المنخفضة والكفاءة العالية للنماذج الصينية في تطبيقات المؤسسات.",
+      "summaryEn": "Revolut has successfully reduced coding costs by 90% by adopting Z.ai's GLM-5.1 model as an alternative to models like Claude. This shift demonstrates the low cost and high efficiency of Chinese models in enterprise applications.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QZ0NZSkZHeDhtWm1VU3QzMGhJNDVqVTQ4aGxYWW96UmRaVUNSdzlmTURidy1BTDNpVVNEYjFxOWRKejhfb1NMdndXZHE0Vm9ucUlkZ3FSNm5ldDZNNElhakVLbGFaeUVndmpuYzVaZ3lSV3JEOHhRT0Jn?oc=5"
+      },
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "n-2026-11-07-6",
+      "title": "ديب سك تطلق وكالة ذكاء اصطناعي 'سوبر' في سباق البرمجة",
+      "titleEn": "DeepSeek Launches 'Super' AI Agent in Coding Race",
+      "summary": "أطلقت شركة DeepSeek AI وكالة ذكاء اصطناعي متقدمة للبرمجة للتنافس مع نماذج مثل Claude Code من Anthropic. الوكالة الجديدة، التي تسمى Creator Mode، تهدف إلى أتمتة مهام البرمجة المعقدة وتعزيز الإنتاجية للمطورين.",
+      "summaryEn": "DeepSeek AI has launched an advanced AI coding agent to compete with models like Anthropic's Claude Code. The new agent, called Creator Mode, aims to automate complex programming tasks and enhance developer productivity.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFU5NlZJMVBaQ0txUnotazkwaWdmQzJwb3JvWUY4dTFHd2VERGZtdVJiMmxaTG9vR0pjZjFLOXZoZVRfRlFFZzM3dV81VVM3RDZLckQxZ01nc2ZFWGVvQlVoalk3X21iWDdBa29WcWNvblY1YVpGc3hPbDJCVVA3a2d2YVJDbFlZRUdkZ0NXTHplVTlEUGJ6RVBXTXZ1bWQ5eVRNNtIBpAFBVV95cUxQY3o3SXYteGFPRF9kQ3psaFZaTDJHMzhibnhoVE5LdjhGVUxkN2VBNnVuNHd2XzhodEpYLTRyMzhRcXNpWjY4SjBhMmdzek1oN0ZGRnh6RU5aWm12QUxYdDVvaktJUUU2UE1QVVdXUzhvdHFPZ0FrOHpOODJNQUlHYm5DSlI3aW8wS0dpMHFDWTNfNGpQeS0wYnU1TkIxbmtxVGRfSw?oc=5"
+      },
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "id": "n-2026-11-07-7",
+      "title": "إيلون马斯ك يكشف عن تطورات جروك 5 المحتملة",
+      "titleEn": "Elon Musk Reveals Potential Grok 5 Developments",
+      "summary": "أعلن إيلون马斯ك عن تطورات محتملة لنموذج جروك 5 من xAI، مشيرًا إلى أنه قد يكون إنجازًا في طريق الذكاء الاصطناعي العام (AGI). جروك الحالي أصبح متاحًا في سيارات Tesla، مع وجود بعض القيود، ويتم تطويره باستمرار.",
+      "summaryEn": "Elon Musk announced potential developments for xAI's Grok 5 model, suggesting it could be an AGI breakthrough. The current Grok is now available in Tesla cars with some limitations and is continuously being developed.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfaHlTQnRiRm82eWFiNzJwbDRMREVDWWZ1bWxxZUpQNmxwVGN6dlpET3RWeVF3QzlsYXhWUHRzbWdYNzlRR0JpM183Um9WLU1SS2JZOXR4WXVTZmFvRjFZ?oc=5"
+      },
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "n-2026-11-07-8",
+      "title": "جوجل ديب مايند تقدم BioBasicsBench لقياس قدرات الوكالات البيولوجية",
+      "titleEn": "Google DeepMind Introduces BioBasicsBench for Measuring AI Agent Capabilities",
+      "summary": "أطلقت جوجل ديب مايند BioBasicsBench، معيارًا مكونًا من 100 مهمة لقياس مدى قدرة الوكالات الذكية على تفسير البيانات البيولوجية والعمل في المختبرات. هذا المعيار يمثل خطوة مهمة نحو تطوير نماذج ذكاء اصطناعي متخصصة في العلوم البيولوجية.",
+      "summaryEn": "Google DeepMind has introduced BioBasicsBench, a 100-task benchmark for measuring how well AI agents interpret biological data and operate in laboratory settings. This benchmark represents an important step toward developing AI models specialized in biological sciences.",
+      "category": "research",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+      },
+      "publishedAt": "2026-11-06"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-11-07-1",
+      "name": "Kimi K3.1 Pro",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-11-05",
+      "highlights": "نموذج عملاق بـ 2.8 تريليون معلمة أصبح مفتوح المصدر بالكامل، يتجاوز أداء OpenAI في معايير البحث المالي.",
+      "highlightsEn": "Massive 2.8T parameter model now fully open-source, outperforming OpenAI on financial research benchmarks.",
+      "specs": {
+        "parameters": "2.8T",
+        "access": "open-weight"
+      },
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFNjQ1dJbHRhTDg0d1ZBYzVlUHI4M1lMeXp4Unk5QThnUVJwd1VuTTlsZmhJVGJQbW1WMkVKWkRSNHRFMV94eFpfcnJkMW0xZ01OYUFDWU1Td3lobzBYX0tJWXRmLWVZQ3Q3WFROTlBReDRVM3FmMHJKckgwaWJLUmtNTW1GRXZwMEQwdkJsSQ?oc=5"
+    },
+    {
+      "id": "m-2026-11-07-2",
+      "name": "GLM-5.1",
+      "org": "Z.ai",
+      "releaseDate": "2026-11-04",
+      "highlights": "نموذج فعال منخفض التكلفة يستخدمه Revolut لتقليل تكاليف البرمجة بنسبة 90% مقارنة بنماذج أخرى.",
+      "highlightsEn": "Cost-effective model used by Revolut to reduce coding costs by 90% compared to other models.",
+      "specs": {
+        "use-case": "coding",
+        "cost-reduction": "90%"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QZ0NZSkZHeDhtWm1VU3QzMGhJNDVqVTQ4aGxYWW96UmRaVUNSdzlmTURidy1BTDNpVVNEYjFxOWRKejhfb1NMdndXZHE0Vm9ucUlkZ3FSNm5ldDZNNElhakVLbGFaeUVndmpuYzVaZ3lSV3JEOHhRT0Jn?oc=5"
+    },
+    {
+      "id": "m-2026-11-07-3",
+      "name": "DeepSeek V5",
+      "org": "DeepSeek",
+      "releaseDate": "2026-11-05",
+      "highlights": "الجيل التالي من نماذج DeepSeek، مع خطط لتدريبه على رقائق Huawei Ascend، مع تركيز على قدرات الوكالات الذكية.",
+      "highlightsEn": "Next generation of DeepSeek models, planned to be trained on Huawei Ascend chips, with focus on AI agent capabilities.",
+      "specs": {
+        "training": "Huawei Ascend",
+        "focus": "AI agents"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MZDQ0aF91RzQ2OV8zOWlpcWt5QzItZXgxeGpRTk8wWGZNZmRJX29DUE5nT0VaNEI5cXFkM2ZfSHcyNElHNEhB?oc=5"
+    },
+    {
+      "id": "m-2026-11-07-4",
+      "name": "Grok 5",
+      "org": "xAI",
+      "releaseDate": "2026-11-03",
+      "highlights": "النسخة المحسنة من جروك التي قد تمثل تقدمًا نحو الذكاء الاصطناعي العام، مع ميزات جديدة وتحسينات الأداء.",
+      "highlightsEn": "Enhanced version of Grok that may represent progress toward AGI, with new features and performance improvements.",
+      "specs": {
+        "focus": "AGI development",
+        "platform": "Tesla, xAI"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfaHlTQnRiRm82eWFiNzJwbDRMREVDWWZ1bWxxZUpQNmxwVGN6dlpET3RWeVF3QzlsYXhWUHRzbWdYNzlRR0JpM183Um9WLU1SS2JZOXR4WXVTZmFvRjFZ?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-11-07-1",
+      "text": "Anthropic تقدم طلبًا للاكتتاب العام الأولي، مما يمثل خطوة تاريخية في تطويرها من شركة ناشئة إلى شركة عامة.",
+      "textEn": "Anthropic files for IPO, marking a historic step in its evolution from startup to public company.",
+      "level": "info",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
+    {
+      "id": "h-2026-11-07-2",
+      "text": "شراكة استراتيجية بين علي بابا وأبل لدمج Qwen في Apple Intelligence في الصين، مما يعزز وجود أبل في السوق الصينية.",
+      "textEn": "Strategic partnership between Alibaba and Apple to integrate Qwen into Apple Intelligence in China, enhancing Apple's presence in the Chinese market.",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDdm9yZ0ZYTTRwYXdMOWdXaXd5Zlp3eXlLVDlIbWdKb3VuaXBZbExuRkhGRnQ2RnViOTFBYzRpUGVmU2xKZXhBRy1wTGZpX25SdkY0d0hOVHpKa1VlZ09rVkJBWUo0SnR6ZU9jUTJUb1JIRVRJdUxJMEFUUUY?oc=5"
+    },
+    {
+      "id": "h-2026-11-07-3",
+      "text": "كيمي K3.1 برو يصبح أول نموذج عملاق بـ 2.8 تريليون معلمة متاح كنموذج مفتوح المصدر بالكامل.",
+      "textEn": "Kimi K3.1 Pro becomes the first massive 2.8T parameter model available as fully open-source.",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFNjQ1dJbHRhTDg0d1ZBYzVlUHI4M1lMeXp4Unk5QThnUVJwd1VuTTlsZmhJVGJQbW1WMkVKWkRSNHRFMV94eFpfcnJkMW0xZ01OYUFDWU1Td3lobzBYX0tJWXRmLWVZQ3Q3WFROTlBReDRVM3FmMHJKckgwaWJLUmtNTW1GRXZwMEQwdkJsSQ?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-11-07-1",
+      "title": "مئات أدوات اختراق Artex AI معرضة علنًا على الإنترنت",
+      "titleEn": "Hundreds of Artex AI Hacking Tools Exposed Online",
+      "summary": "اكتشف باحثو الأمن مئات الخوادم التي تستضيف أدوات اختراق Artex AI معرضة للجميع على الإنترنت. هذه الأدوات المصممة للاختراق الاختباري يمكن أن تستخدم لأغراض خبيثة إذا وقعت في أيدي المهاجمين.",
+      "summaryEn": "Security researchers found hundreds of servers hosting Artex AI penetration testing tools exposed to the public. These tools, designed for ethical testing, could be used maliciously if they fall into the wrong hands.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "source": "TechCrunch AI",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "sec-2026-11-07-2",
+      "title": "OpenAI تتعاون مع Hacktron لاكتشاف الثغرات في أنظمتها",
+      "titleEn": "OpenAI Partners with Hacktron to Find System Vulnerabilities",
+      "summary": "أعلنت OpenAI عن شراكة مع شركة Hacktron لاكتشاف الثغرات الأمنية في أنظمتها والتحقق من الاتصالات مع خدمات الطرف الثالث. هذه الخطوة تمثل التزامًا قويًا بتحليل الأمن الذكي والاستباقي.",
+      "summaryEn": "OpenAI announced a partnership with Hacktron to find security vulnerabilities in its systems and verify connections with third-party services. This step represents a strong commitment to proactive and intelligent security analysis.",
+      "type": "policy",
+      "severity": "info",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "sec-2026-11-07-3",
+      "title": "نموذج Markov المخفي للتنبؤ بتصرفات المهاجمين",
+      "titleEn": "Hidden Markov Model for Predicting Adversary Actions",
+      "summary": "طور باحثون نموذج Markov المخفي للتنبؤ بتصرفات المهاجمين من خلال توزيع احتمالي على إجراءاتهم. هذا النموذج يمثل أداة قوية للدفاع الاستباقي ضد هجمات السيبرانيا المتقدمة.",
+      "summaryEn": "Researchers developed a Hidden Markov Model for predicting adversary actions through a probability distribution over their behaviors. This model represents a powerful tool for proactive defense against advanced cyber attacks.",
+      "type": "breach",
+      "severity": "info",
+      "url": "https://arxiv.org/abs/2611.08445v1",
+      "source": "arXiv",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "sec-2026-11-07-4",
+      "title": "الذكاء الاصطناعي يهاق القانون: ثغرات جديدة في الأنظمة القانونية",
+      "titleEn": "AI Hacking the Law: New Vulnerabilities in Legal Systems",
+      "summary": "كشف تحليل جديد عن كيفية استخدام الذكاء الاصطناعي لاكتشاف ثغرات في الأنظمة القانونية والاستفادة من التعقيدات القانونية. هذا التطور يثير مخاوف جديدة حول أمن الأنظمة القانونية والعدالة.",
+      "summaryEn": "A new analysis reveals how AI is being used to find vulnerabilities in legal systems and exploit legal complexities. This development raises new concerns about legal system security and justice.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-03"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-11-07",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "59.9"
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "org": "Google",
+        "score": "58.8"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "57.9"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "57.3"
+      },
+      {
+        "name": "Kimi K3.1 Pro",
+        "org": "Moonshot AI",
+        "score": "55.6"
+      },
+      {
+        "name": "Gemini 4 Argon 2",
+        "org": "Google",
+        "score": "54.4"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "54.3"
+      },
+      {
+        "name": "Claude Opus 5",
+        "org": "Anthropic",
+        "score": "53.4"
+      },
+      {
+        "name": "GPT-6.1 Sol 3",
+        "org": "OpenAI",
+        "score": "53.4"
+      },
+      {
+        "name": "Muse Wonder Full 1",
+        "org": "Meta",
+        "score": "53.1"
+      }
+    ],
+    "highlights": "يتميز GPT-6 Astra بأعلى أداء في مهارات التفكير المنطقي بنسبة 96.0% في اختبار GPQA، بينما يحافظ Claude Opus 5 على مركزه كأقوى نموذج في برمجة الوكلاء. تتنافس Gemini 4 Carbon و Claude Sonnet 5.5 بقوة في المراكز الثانية والثالثة، مع وجود منافسة شديدة بين النماذج المختلفة في القمة.",
+    "highlightsEn": "GPT-6 Astra stands out with the highest reasoning performance at 96.0% in GPQA benchmark, while Claude Opus 5 maintains its position as the strongest model for coding agents. Gemini 4 Carbon and Claude Sonnet 5.5 are competing fiercely for second and third place, with intense competition among various models at the top."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-11-07-تطبيقات-الذكاء-الاصطناعي-متعددة-الوسائط",
+    "title": "تطبيقات الذكاء الاصطناعي متعددة الوسائط",
+    "titleEn": "Implementing Multimodal AI Applications",
+    "why": "تطبيقات الذكاء الاصطناعي متعددة الوسائط تسمح للنماذج بمعالجة وفهم أنواع مختلفة من البيانات (نص، صور، صوت) معًا، مما يوفر فهماً أعمق وأكثر شمولية للمحتوى ويسمح بتطبيقات أكثر تعقيداً وفائدة.",
+    "whyEn": "Multimodal AI applications enable models to process and understand different types of data (text, images, audio) together, providing deeper and more comprehensive understanding of content and allowing for more complex and useful applications.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "فهم مفهوم تعدد الوسائط",
+        "detail": "تعدد الوسائط في الذكاء الاصطناعي يشير إلى القدرة على دمج ومعالجة أنواع مختلفة من البيانات. النماذج متعددة الوسائط يمكنها ربط المعلومات من نصوص وصور وأصوات لتقديم استجابات أكثر دقة."
+      },
+      {
+        "title": "اختيار النموذج المناسب",
+        "detail": "حدد نموذجاً يدعم المدخلات المتعددة مثل GPT-4V أو Claude 3.5 Sonnet أو Gemini Pro. تأكد من أن النموذج يدعم أنواع البيانات التي تحتاجها لمشروعك."
+      },
+      {
+        "title": "تحضير البيانات",
+        "detail": "قم بتنظيف وتجهيز البيانات من مختلف الوسائط. للصور، تأكد من الحجم المناسب. للنصوص، قم بالتوحيد. للصوت، قم بتحويله إلى نص إذا لزم الأمر."
+      },
+      {
+        "title": "بناء واجهة التطبيق",
+        "detail": "صمم واجهة مستخدم تسمح للمستخدمين بإدخال أنواع مختلفة من البيانات. يمكن أن تكون هذه الواجهة تطبيقاً ويب أو تطبيقاً سطح مكتب أو واجهة سطر أوامر."
+      },
+      {
+        "title": "دمج النموذج",
+        "detail": "قم بدمج النموذج المختار مع واجهة التطبيق. تأكد من معالجة المدخلات المختلفة بشكل صحيح وإرسالها إلى النموذج بطريقة مدعومة."
+      },
+      {
+        "title": "اختبار وتحسين",
+        "detail": "اختبر التطبيق مع مجموعات متنوعة من المدخلات. قيّم جودة الاستجابات وقم بتحسين التطبيق بناءً على النتائج. قم بقياس الأداء وتحسينه حسب الحاجة."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Understanding multimodal concepts",
+        "detail": "Multimodality in AI refers to the ability to integrate and process different types of data. Multimodal models can connect information from text, images, and audio to provide more accurate responses."
+      },
+      {
+        "title": "Choosing the right model",
+        "detail": "Select a model that supports multiple inputs like GPT-4V, Claude 3.5 Sonnet, or Gemini Pro. Ensure the model supports the data types you need for your project."
+      },
+      {
+        "title": "Preparing the data",
+        "detail": "Clean and prepare data from different modalities. For images, ensure appropriate sizing. For text, standardize formats. For audio, convert to text if necessary."
+      },
+      {
+        "title": "Building the application interface",
+        "detail": "Design a user interface that allows users to input different types of data. This could be a web app, desktop application, command-line interface, or API."
+      },
+      {
+        "title": "Integrating the model",
+        "detail": "Integrate the selected model with your application interface. Ensure proper processing of different input types and sending them to the model in a supported format."
+      },
+      {
+        "title": "Testing and optimization",
+        "detail": "Test the application with diverse input sets. Evaluate response quality and improve the application based on results. Measure performance and optimize as needed."
+      }
+    ],
+    "code": "import openai\n\n# Initialize the multimodal model\nclient = openai.OpenAI()\n\n# Function to process multimodal input\ndef process_multimodal_input(text_input, image_path=None):\n    messages = []\n    \n    # Add text input\n    messages.append({\"role\": \"user\", \"content\": text_input})\n    \n    # Add image if provided\n    if image_path:\n        with open(image_path, \"rb\") as image_file:\n            messages.append({\n                \"role\": \"user\", \n                \"content\": [\n                    {\"type\": \"text\", \"text\": text_input},\n                    {\"type\": \"image_url\", \"image_url\": {\"url\": f\"data:image/jpeg;base64,{base64.b64encode(image_file.read()).decode()}\"}}\n                ]\n            })\n    \n    # Get response from the model\n    response = client.chat.completions.create(\n        model=\"gpt-4-vision-preview\",\n        messages=messages,\n        max_tokens=500\n    )\n    \n    return response.choices[0].message.content",
+    "resources": [
+      {
+        "name": "OpenAI Multimodal Documentation",
+        "url": "https://platform.openai.com/docs/guides/vision"
+      },
+      {
+        "name": "Google Gemini API Documentation",
+        "url": "https://ai.google.dev/docs"
+      },
+      {
+        "name": "Anthropic Claude Documentation",
+        "url": "https://docs.anthropic.com/claude/docs"
+      }
+    ],
+    "tags": [
+      "تعدد الوسائط",
+      "تطبيقات الذكاء الاصطناعي",
+      "معالجة البيانات",
+      "دمج النماذج"
+    ],
+    "quickRef": "تطبيقات الذكاء الاصطناعي متعددة الوسائط تسمح للنماذج بمعالجة أنواع مختلفة من البيانات (نص، صور، صوت) معًا، مما يوفر فهماً أعمق وأكثر شمولية للمحتوى.",
+    "quickRefEn": "Multimodal AI applications enable models to process different types of data (text, images, audio) together, providing deeper and more comprehensive understanding of content.",
+    "quiz": [
+      {
+        "q": "ما هو تعريف تعدد الوسائط في الذكاء الاصطناعي؟",
+        "options": [
+          "قدرة النموذج على توليد نصوص فقط",
+          "قدرة النموذج على معالجة أنواع مختلفة من البيانات معًا",
+          "قدرة النموذج على العمل على جهاز واحد فقط",
+          "قدرة النموذج على التعلم من بيانات واحدة فقط"
+        ],
+        "answer": 1,
+        "explain": "تعدد الوسائط في الذكاء الاصطناعي يشير إلى قدرة النموذج على معالجة وفهم أنواع مختلفة من البيانات (نص، صور، صوت) معًا."
+      },
+      {
+        "q": "أي من الخيارات التالية ليس نموذجاً يدعم المدخلات المتعددة؟",
+        "options": [
+          "GPT-4V",
+          "Claude 3.5 Sonnet",
+          "Gemini Pro",
+          "GPT-3.5 Turbo"
+        ],
+        "answer": 3,
+        "explain": "GPT-3.5 Turbo هو نموذج نصي فقط ولا يدعم المدخلات المتعددة مثل الصور أو الصوت، بينما GPT-4V و Claude 3.5 Sonnet و Gemini Pro تدعم المدخلات المتعددة."
+      },
+      {
+        "q": "ما هي الخطوة الأولى في تطبيق تطبيق ذكاء اصطناعي متعدد الوسائط؟",
+        "options": [
+          "اختيار النموذج المناسب",
+          "بناء واجهة التطبيق",
+          "فهم مفهوم تعدد الوسائط",
+          "اختبار التطبيق"
+        ],
+        "answer": 2,
+        "explain": "الخطوة الأولى يجب أن تكون فهم المفهوم الأساسي لتعدد الوسائط في الذكاء الاصطناعي قبل البدء في اختيار النموذج أو بناء الواجهة."
+      }
+    ],
+    "addedAt": "2026-11-07"
+  }
+}

@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-08-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاصطناعي",
+      "title": "قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
+      "titleEn": "Vector databases for AI applications",
+      "why": "قواعد البيانات المتجهية ضرورية لتخزين وفهرسة البيانات غير المهيكلة مثل النصوص والصور والصوت بطريقة فعالة للبحث والاسترجاع السريع.",
+      "whyEn": "Vector databases are essential for efficiently storing and indexing unstructured data like text, images, and audio in a way that enables fast search and retrieval.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم المتجهات",
+          "detail": "تعلم كيفية تحويل البيانات غير المهيكلة إلى متجهات رقمية تمثل معناها الدلالي."
+        },
+        {
+          "title": "اختيار قاعدة البيانات",
+          "detail": "استكشاف خيارات قواعد البيانات المتجهية مثل Pinecone, Weaviate، أو Milvus بناءً على متطلبات المشروع."
+        },
+        {
+          "title": "بناء التضمين",
+          "detail": "استخدام نماذج مثل BERT أو Sentence-BERT لتحويل النصوص إلى متجهات رقمية."
+        },
+        {
+          "title": "التخزين والفهرسة",
+          "detail": "تخزين المتجهات في قاعدة البيانات مع إنشاء فهارس فعالة لعمليات البحث السريع."
+        },
+        {
+          "title": "الاسترجاع والتطبيق",
+          "detail": "تنفيذ عمليات البحث المتشابه واستخدام النتائج في تطبيقات الذكاء الاصطناعي."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding vectors",
+          "detail": "Learn how to convert unstructured data into numerical vectors that represent their semantic meaning."
+        },
+        {
+          "title": "Choosing a database",
+          "detail": "Explore vector database options like Pinecone, Weaviate, or Milvus based on project requirements."
+        },
+        {
+          "title": "Building embeddings",
+          "detail": "Use models like BERT or Sentence-BERT to convert text into numerical vectors."
+        },
+        {
+          "title": "Storage and indexing",
+          "detail": "Store vectors in the database and create efficient indexes for fast search operations."
+        },
+        {
+          "title": "Retrieval and application",
+          "detail": "Implement similarity search operations and use the results in AI applications."
+        }
+      ],
+      "code": "import pinecone\nfrom sentence_transformers import SentenceTransformer\n\n# Initialize Pinecone\npinecone.init(api_key=\"YOUR_API_KEY\", environment=\"YOUR_ENVIRONMENT\")\n\n# Create index\nindex_name = \"vector-db-demo\"\nif index_name not in pinecone.list_indexes():\n    pinecone.create_index(index_name, dimension=384)\n\n# Connect to index\nindex = pinecone.Index(index_name)\n\n# Load model for embeddings\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\n# Create embeddings\nsentences = [\"This is an example sentence\", \"Here is another sentence\"]\nembeddings = model.encode(sentences)\n\n# Insert vectors\nindex.upsert(vectors=[(f\"doc{i}\", vec) for i, vec in enumerate(embeddings)])\n\n# Query similar vectors\nquery = \"A query sentence\"\nquery_embedding = model.encode([query])\nresults = index.query(queries=[query_embedding], top_k=2)\nprint(results)",
+      "resources": [
+        {
+          "name": "Pinecone Documentation",
+          "url": "https://docs.pinecone.io/"
+        },
+        {
+          "name": "Weaviate Documentation",
+          "url": "https://www.weaviate.io/developers/weaviate"
+        },
+        {
+          "name": "Vector Database Benchmark",
+          "url": "https://github.com/zilliztech/VectorDBBench"
+        }
+      ],
+      "tags": [
+        "قواعد البيانات",
+        "نماذج اللغة",
+        "البحث",
+        "تخزين البيانات"
+      ],
+      "quickRef": "قواعد البيانات المتجهية تحول البيانات غير المهيكلة إلى أرقام، تسمح بالبحث الدلالي بدلاً من البحث الكلمات المفتاحية التقليدي.",
+      "quickRefEn": "Vector databases convert unstructured data into numbers, allowing semantic search instead of traditional keyword search.",
+      "quiz": [
+        {
+          "q": "ما هي الوظيفة الأساسية لقواعد البيانات المتجهية؟",
+          "options": [
+            "تخزين البيانات المهيكلة",
+            "فهرسة النصوص باستخدام الكلمات المفتاحية",
+            "تحويل البيانات غير المهيكلة إلى متجهات رقمية للبحث الدلالي",
+            "تعزيز سرعة قواعد البيانات العلائقية"
+          ],
+          "answer": 2,
+          "explain": "قواعد البيانات المتجهية مصممة أساسياً لتحويل البيانات غير المهيكلة مثل النصوص إلى متجهات رقمية تمثل معناها الدلالي، مما يسمح بعمليات بحث أكثر دقة."
+        },
+        {
+          "q": "أي من الخيارات التالي ليس قاعدة بيانات متجهية؟",
+          "options": [
+            "Pinecone",
+            "Weaviate",
+            "MongoDB",
+            "Milvus"
+          ],
+          "answer": 2,
+          "explain": "MongoDB هي قاعدة بيانات مستندات وليست قاعدة بيانات متجهية مخصصة للبحث الدلالي."
+        },
+        {
+          "q": "ما هو الحجم النموذجي للمتجهات التي أنشأتها نماذج مثل BERT؟",
+          "options": [
+            "128",
+            "256",
+            "384",
+            "512"
+          ],
+          "answer": 2,
+          "explain": "نماذج مثل BERT تنتج عادة متجهات بحجم 384 بعد (dimensions) للنماذج الصغيرة، على الرغم من أن بعض النماذج قد يكون لها أحجام مختلفة."
+        }
+      ],
+      "addedAt": "2026-11-08"
+    },
+    {
       "id": "k-2026-11-07-تطبيقات-الذكاء-الاصطناعي-متعددة-الوسائط",
       "title": "تطبيقات الذكاء الاصطناعي متعددة الوسائط",
       "titleEn": "Implementing Multimodal AI Applications",
