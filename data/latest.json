@@ -1,41 +1,27 @@
 {
   "date": "2026-11-08",
-  "generatedAt": "2026-11-08T12:15:31.556Z",
+  "generatedAt": "2026-11-08T17:16:14.846Z",
   "news": [
     {
       "id": "n-2026-11-08-1",
-      "title": "أنثروبي تقدم طلبًا للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات",
-      "titleEn": "Anthropic files S-1 with the SEC for proposed initial public offering",
-      "summary": "تقدم شركة أنثروبي طلبًا للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات، مما يمثل خطوة كبيرة في تطوير الشركة وتوسيعها في السوق.",
-      "summaryEn": "Anthropic has filed an S-1 with the SEC for a proposed initial public offering, marking a significant step in the company's development and market expansion.",
-      "category": "companies",
-      "importance": 5,
-      "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/s1-sec"
-      },
-      "publishedAt": "2026-11-08"
-    },
-    {
-      "id": "n-2026-11-08-2",
-      "title": "جيميني 4 كربون: نموذجنا التالي في الطليعة",
-      "titleEn": "Gemini 4 Carbon: Our next frontier model",
-      "summary": "أطلقت جوجل ديب مايند نموذج جيميني 4 كربون كأحدث إضافة لعائلة نماذج جيميني، مع تحسينات كبيرة في الكفاءة والأداء.",
-      "summaryEn": "Google DeepMind has launched Gemini 4 Carbon as the latest addition to the Gemini model family, with significant improvements in efficiency and performance.",
+      "title": "أطلقت OpenAI نموذج GPT-6 المخصص للأمن السيبراني",
+      "titleEn": "OpenAI Launches GPT-6 Cybersecurity Model",
+      "summary": "كشفت OpenAI عن نموذج GPT-6 المخصص للأمن السيبراني المصمم لاكتشاف الثغرات القابلة للاستغلال في الأنظمة. النموذج يمثل تقدمًا كبيرًا في مجال الوكلاء الأمنيين المتوافقين ويهدف إلى تعزيز قدرات الدفاع السيبراني.",
+      "summaryEn": "OpenAI has unveiled GPT-6 Cyber, a cybersecurity model designed to find exploitable vulnerabilities in systems. This model represents significant advancement in aligned cybersecurity agents and aims to enhance defensive cybersecurity capabilities.",
       "category": "models",
       "importance": 5,
       "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber"
       },
-      "publishedAt": "2026-10-28"
+      "publishedAt": "2026-11-05"
     },
     {
       "id": "n-2026-11-08-3",
-      "title": "مونشوت AI تطلق أوزان نموذج كيمي K3.1 برو",
-      "titleEn": "Moonshot AI releases Kimi K3.1 Pro model weights",
-      "summary": "أطلقت شركة مونشوت AI أوزان نموذج كيمي K3.1 برو مفتوحة المصدر، والذي يحتوي على 2.8 تريليون معلمة، مما يمثل تحولًا كبيرًا في نماذج الذكاء الاصطناعي الكبيرة.",
-      "summaryEn": "Moonshot AI has released the open-source weights for the Kimi K3.1 Pro model, which contains 2.8 trillion parameters, representing a major shift in large AI models.",
+      "title": "أطلقت مونشوت أوزان نموذج كيمي K3.1 برو",
+      "titleEn": "Moonshot Releases Kimi K3.1 Pro Model Weights",
+      "summary": "أطلقت شركة مونشوت أوزان نموذج كيمي K3.1 برو المكون من 2.8 تريليون معامل، مما يجعله واحدًا من أكبر النماذج مفتوحة المصدر المتاحة. هذا الإطلاق يمثل تقدمًا كبيرًا في نماذج الذكاء الاصطناعي الصينية.",
+      "summaryEn": "Moonshot released the weights for the 2.8 trillion parameter Kimi K3.1 Pro model, making it one of the largest open-source models available. This launch represents significant progress in Chinese AI models.",
       "category": "models",
       "importance": 5,
       "source": {
@@ -45,13 +31,69 @@
       "publishedAt": "2026-11-05"
     },
     {
-      "id": "n-2026-11-08-4",
-      "title": "يبدأ اختبار الذكاء الاصطناعي في أبل في الصين في 4 نوفمبر، مدعومًا بوين من علي بابا",
-      "titleEn": "Apple Intelligence in China Starts Testing November 4, Powered by Alibaba's Qwen",
-      "summary": "بدأت أبل اختبار الذكاء الاصطناعي في الصين باستخدام نموذج Qwen من علي بابا، مما يمشر شراكة استراتيجية بين الشركتين العملاقتين.",
-      "summaryEn": "Apple has started testing AI in China using Alibaba's Qwen model, marking a strategic partnership between the two tech giants.",
-      "category": "tools",
+      "id": "n-2026-11-08-5",
+      "title": "تتعاون أبل مع علي بابا لتوفير الذكاء الاصطناعي في آيفون في الصين",
+      "titleEn": "Apple Partners With Alibaba to Bring AI to iPhones in China",
+      "summary": "ارتفعت أسهم علي بابا بنسبة 5% بعد أن اختارت أبل نموذج Qwen لتشغيل الذكاء الاصطناعي في آيفون في الصين. بدأ الاختبار في 4 نوفمبر، مما يمثل توسعًا كبيرًا في نشر الذكاء الاصطناعي.",
+      "summaryEn": "Alibaba's shares rose 5% after Apple selected Qwen model to power AI in iPhones in China. Testing began on November 4, representing significant expansion in AI deployment.",
+      "category": "companies",
       "importance": 5,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdXBkQWUtcG9YVXM2UXp5TUh2WVBtVEhGM3ZzZzJheEY5ZzU5ODZ2cElTSUVzQUYxWGVVcFN6WU5UT2FpdTNpVjdMZnFreDhjajV0WVlvU09QU20ydFlraHJyQmtRVlNtVkMyWEl5c3l0S3NFa0xqZk9fSzF0Rml2d2NnN29ORE52dC0xRVlJY01ic09sZWFmdUZmQlo3WHJXdWJ3bkkwOFBvbjhuYjh5SkVfVFdLRVY3Z1JJLXZRa3JaTG9MWDhQXzV4cVRvdGlxWXJOcWRaWnoxUzQ?oc=5"
+      },
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "n-2026-11-08-9",
+      "title": "ترتفع تقييم OpenAI إلى 1.25 تريليون دولار بعد جمع 11 مليار دولار",
+      "titleEn": "OpenAI Valuation Rises to $1.25T After Raising $11B",
+      "summary": "جمعت OpenAI 11 مليار دولار في جولة التمويل الأخيرة، مما رفع تقييمها إلى 1.25 تريليون دولار. هذا التمويل الضخم يمثل ثقة كبيرة في مستقبل الشركة وتطوراتها في مجال الذكاء الاصطناعي.",
+      "summaryEn": "OpenAI raised $11 billion in its latest funding round, valuing the company at $1.25 trillion. This massive funding represents strong confidence in the company's future and AI developments.",
+      "category": "companies",
+      "importance": 5,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/"
+      },
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "id": "n-2026-11-08-2",
+      "title": "أطلقت جوجل ديب ماين نموذج جيميني أومني 1.2 فلاش",
+      "titleEn": "Google DeepMind Launches Gemini Omni 1.2 Flash",
+      "summary": "كشفت جوجل ديب ماين عن نموذج جيميني أومني 1.2 فلاش، وهو نموذج سريع ومكلفة أقل مع قدرة على معالجة مقاطع أطول. النموذج يوفر تحسينات كبيرة في الأداء والكفاءة مقارنة بالإصدارات السابقة.",
+      "summaryEn": "Google DeepMind announced Gemini Omni 1.2 Flash, a fast and cost-effective model with longer clip processing capabilities. The model offers significant improvements in performance and efficiency compared to previous versions.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+      },
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "n-2026-11-08-4",
+      "title": "شركة ريفولوت تخفض تكاليف البرمجة بنسبة 90% باستخدام نموذج GLM-5.3 الصيني",
+      "titleEn": "Revolut Cuts AI Coding Costs 90% With Chinese GLM-5.3 Model",
+      "summary": "أعلنت شركة ريفولوت المالية عن تقليلها لتكاليف البرمجة بنسبة 90% من خلال استضافة نموذج GLM-5.3 الصيني على خوادم NVIDIA B200. هذا يبرز التأثير العملي للنماذج مفتوحة المصدر في خفض التكاليف.",
+      "summaryEn": "Financial company Revolut announced reducing coding costs by 90% through self-hosting China's GLM-5.3 model on NVIDIA B200 servers. This highlights the practical impact of open-source models in cost reduction.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tVlhwdmxDTll6dmlkWV9zX0pTSVNhTTZHLUJQS1BVM1JIV3VUUDVnVV9GZ1k5NjY0UDU2ZjIxMkw3MjRvUmtfajZLWjZ5ZXRRcDVBX0VOZjY1NXQxb3E4SUxrWFd6ZmZSMnVSZnpyUkhfZw?oc=5"
+      },
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "n-2026-11-08-6",
+      "title": "يبدأ اختبار الذكاء الاصطناعي في أبل في الصين مدعومًا بوين من علي بابا",
+      "titleEn": "Apple Intelligence Testing Begins in China Powered by Alibaba's Qwen",
+      "summary": "بدأ اختبار الذكاء الاصطناعي في أبل في الصين في 4 نوفمبر، مدعومًا بوين من علي بابا. هذا التطوير يمثل شراكة استراتيجية مهمة بين عملاق التكنولوجيا الأمريكي والصيني.",
+      "summaryEn": "Apple Intelligence testing began in China on November 4, powered by Alibaba's Qwen. This development represents an important strategic partnership between the American and Chinese tech giants.",
+      "category": "companies",
+      "importance": 4,
       "source": {
         "name": "Qwen (news)",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU2ROQlRSS3hpeURJRzJwY0FUNWlHNzlqUnVaRGlHS05yNWprNUEyV0NMVmYyVzZORUNUbnU1U0ZfMlY4c0t0NmFpbVUydWhxRXkzNGhpN2hVaEhHRGRxekhfUmdpSnpsY2VXQ2JvUlhUYVNxNTlZSy1JbkZmbHcwbzhOTUU4WUIzbzZGUGE0S2RBQQ?oc=5"
@@ -59,247 +101,207 @@
       "publishedAt": "2026-11-02"
     },
     {
-      "id": "n-2026-11-08-5",
-      "title": "GPT-6 سيبري: سعاة الأمن السيبراني المتوافقون يتقدمون في الطليعة",
-      "titleEn": "GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "summary": "أطلقت OpenAI نموذج GPT-6 سيبري المتخصص في اكتثف الثغرات الأمنية والهجمات السيبرانية، مع التركيز على الأمان والمواءمة.",
-      "summaryEn": "OpenAI has launched GPT-6 Cyber, a specialized model for identifying security vulnerabilities and cyber attacks, with a focus on safety and alignment.",
-      "category": "tools",
-      "importance": 4,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/introducing-gpt-6-cyber"
-      },
-      "publishedAt": "2026-11-05"
-    },
-    {
-      "id": "n-2026-11-08-6",
-      "title": "تعاون جوجل ديب مايند وحكومة سنغافورة لبناء نموذج ذكاء اصطناعي مصغّر للكشف عن الاحتيال",
-      "titleEn": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "summary": "تعاونت جوجل ديب مايند مع حكومة سنغافورة لبناء نموذج ذكاء اصطناعي مصغّر للكشف عن الاحتيال، مع التركيز على الأجهزة المحمولة.",
-      "summaryEn": "Google DeepMind has partnered with the Singapore government to build a fine-tuned AI model for scam detection, focusing on on-device capabilities.",
-      "category": "tools",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
-      },
-      "publishedAt": "2026-10-14"
-    },
-    {
       "id": "n-2026-11-08-7",
-      "title": "بحث لي تشونك: مصمم للمبرمجين موثوق به من قبل المدافعين",
-      "titleEn": "Research Le Chonk: Built for Coders, Trusted by Defenders",
-      "summary": "أطلقت شركة Mistral AI نموذج لي تشونك المفتوح المصدر، والذي تم تصميمه للمبرمجين ويتمتع بثقة من قبل المدافعين عن الأمن.",
-      "summaryEn": "Mistral AI has released the open-source Le Chonk model, which is designed for coders and trusted by security defenders.",
-      "category": "models",
+      "title": "تعزز ديب سيك قدرات الوكلاء الذكية بوضع المبتكر",
+      "titleEn": "DeepSeek Enhances AI Agent Capabilities With Creator Mode",
+      "summary": "أعلنت شركة ديب سيك عن تعزيزها لعرض الوكلاء الذكية بوضع المبتكر الجديد الذي يسمح بإنشاء الإضافات من خلال الأوامر. هذا التطور يمثل تقدمًا كبيرًا في قدرات الوكلاء الذكية.",
+      "summaryEn": "DeepSeek announced enhancing its AI agent offering with a new Creator Mode that allows creating plugins from prompts. This development represents significant advancement in AI agent capabilities.",
+      "category": "tools",
       "importance": 4,
       "source": {
-        "name": "Mistral AI",
-        "url": "https://mistral.ai/news/mistral-large-4-oss/"
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWDJicHpmUFp0QkVIcWJGSk14ekpmQkxFU0Fxd2l6MndNc2tSU1lROHo0dHQwUk1YcjJmUUU4R2g5NXM1WTlnaXpUZ1FTQXAtbXFLT1ZnVmJwRklLRUFacmNKTUVIb0Z6eWd2RUVMVVc3ZTVYcXhtTmlhdjE0WkVHT1VvOXlrTmdXaVpoRGVodm1raG5iamlXbnhncDJlRmpRRTU1ZGZ5TFNFQQ?oc=5"
       },
-      "publishedAt": "2026-11-08"
+      "publishedAt": "2026-11-02"
     },
     {
       "id": "n-2026-11-08-8",
-      "title": "فوز جروك 4.20 من xAI في منافسة التداول المباشر، متجاوزًا مدخلات OpenAI وجوجل",
-      "titleEn": "xAI's Grok 4.20 wins live trading showdown, edging out OpenAI and Google entries",
-      "summary": "حقق نموذج جروك 4.20 من xAI تفوقًا في منافسة التداول المباشر، متجاوزًا نماذج OpenAI وجوجل في تقييمات الأداء.",
-      "summaryEn": "xAI's Grok 4.20 model has outperformed in a live trading competition, surpassing OpenAI and Google models in performance evaluations.",
+      "title": "فاز جروك 4.20 من إكس إيه آي في منافسة التداول الحية",
+      "titleEn": "xAI's Grok 4.20 Wins Live Trading Showdown",
+      "summary": "فاز نموذج جروك 4.20 من إكس إيه آي في منافسة التداول الحية، متجاوزًا منتجات OpenAI وجوجل. هذا الإنجاز يبرز التفوق التنافسي لنماذج إكس إيه آي في مجال التمويل.",
+      "summaryEn": "xAI's Grok 4.20 won a live trading showdown, outperforming OpenAI and Google entries. This achievement highlights the competitive advantage of xAI's models in the finance domain.",
       "category": "models",
       "importance": 4,
       "source": {
         "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3hYUm9LaktUd2xnR3hTZE5hNmZTZ3FjcE1OVUdQQVA4Vm8weW0xUWc5MzVoRXgwanFTZ2hpOG15cnl0eG44aE9wVGtMZHVkYjVVcndtN013WFJXSFJ6T2NsUG4xdHZxQVZLZWY2eUlWQjltb2pjWDZjRVZrb0IxWnhzTTFJN1MxNkhLNi03S3NTZw?oc=5"
-      },
-      "publishedAt": "2026-11-07"
-    },
-    {
-      "id": "n-2026-11-08-9",
-      "title": "خطط ديب سيك لتدريب نموذجها الجيل القادم على رقائق هواوي أسيندي",
-      "titleEn": "DeepSeek Plans to Train Its Next-Generation Model on Huawei Ascend Chips",
-      "summary": "تخطط شركة ديب سيك لتدريب نموذجها الجيل القادم على رقائق هواوي أسيندي، مما يمثل تحولًا استراتيجيًا في سلسلة التوريد.",
-      "summaryEn": "DeepSeek plans to train its next-generation model on Huawei Ascend chips, representing a strategic shift in its supply chain.",
-      "category": "companies",
-      "importance": 4,
-      "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52NkNkNjNrLXlxV3lCc1ZyRzg3UDF3LXhqM3pQSFowSUJESzdFbXJHWHFfU3Q4dTBVd2ZLRlRkWTdWdW94TlJaMGxEMGtEVGkweDlJc2Z0NzRNTGxNQno0YzBaOGt2eUlQRmNQd0dnTDk?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNYjlZeE13X0RldGUzVmxiSjVBVnRqd2VHaF9MQ0RPWlFxUlRuVDFUZjJhUFN6Rm1WZHJ6cHFNVU5xa0wwVWhSMDc0NHQtZExYVGtoSHc1N21yMzJtbGx2aTRVRE5IdTN0Z19hUDFSZHgxTkhEUlJwMW9zYnVWUU1hSnZnYnBhZVMxdU1tNERYVWtVSENCRWxBUU9yR0NTU0RyTHN2X0VmdF9tZGZCU2tUV1hxb001TC1oTC00LWxYVXBHUzNSWFBBZDhwX2xsX21RejhqLVFZNFpBOFVhYktz?oc=5"
       },
       "publishedAt": "2026-11-03"
     },
     {
       "id": "n-2026-11-08-10",
-      "title": "يقلل ريفولوت تكاليف البرمجة بالذكاء الاصطناعي 10x باستخدام GLM-5.1",
-      "titleEn": "Revolut Cuts AI Coding Costs 10x With GLM-5.1",
-      "summary": "نجحت شركة ريفولوت في تقليل تكاليف البرمجة بالذكاء الاصطناعي بنسبة 10x باستخدام نموذج GLM-5.1 من شركة Z.ai.",
-      "summaryEn": "Revolut has successfully reduced AI coding costs by 10x using the GLM-5.1 model from Z.ai.",
-      "category": "tools",
+      "title": "تم العثور على مئات أدوات القرصنة Artex AI معرضة للويب",
+      "titleEn": "Hundreds of Artex AI Hacking Tools Found Exposed",
+      "summary": "وجد الباحثون الأمنيون مئات الخوادم التي تستضيف أدوات اختراق Artex AI معرضة للويب. هذا الكشف يبرز مخاطر أمنية متزايدة في أدوات الاختراق القائمة على الذكاء الاصطناعي.",
+      "summaryEn": "Security researchers found hundreds of servers hosting Artex AI penetration testing tools exposed to the web. This discovery highlights growing security risks in AI-based penetration tools.",
+      "category": "other",
       "importance": 4,
       "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QZ0NZSkZHeDhtWm1VU3QzMGhJNDVqVTQ4aGxYWW96UmRaVUNSdzlmTURidy1BTDNpVVNEYjFxOWRKejhfb1NMdndXZHE0Vm9ucUlkZ3FSNm5ldDZNNElhakVLbGFaeUVndmpuYzVaZ3lSV3JEOHhRT0Jn?oc=5"
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
       },
-      "publishedAt": "2026-11-04"
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "id": "n-2026-11-08-11",
+      "title": "النماذج الصينية المجانية تصبح جيدة في القرصنة",
+      "titleEn": "Free Chinese AI Models Getting Good at Hacking",
+      "summary": "أظهرت النماذج الصينية المجانية قدرات متزايدة في مجال القرصنة، مما يثير مخاوف أمنية متزايدة. هذه التطورات تبرز التحديات الأمنية الناشئة عن تقدم الذكاء الاصطناعي.",
+      "summaryEn": "Free Chinese AI models are showing increasing capabilities in hacking, raising growing security concerns. These developments highlight the emerging security challenges from AI advancement.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMG5JWUNJdnMzazNQLVpVaTN5TS0xTEdHMU5wT3VFT0hnN2paNE9GV3ppSHhTVFQ3cTJ5WjhrOEJiX1lQMUNaa0ROMGlfYW9qeXNTejFSRjRWMXdxQnlhb2k5Zk9LS3RVd0NUZTFFSHRUWmQ4a0UtMXNlZHhVZVhKZUl3aWxoa2pLbmdHZTRR?oc=5"
+      },
+      "publishedAt": "2026-11-06"
     }
   ],
   "models": [
     {
       "id": "m-2026-11-08-1",
-      "name": "Gemini 4 Carbon",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-10-28",
-      "highlights": "نموذج متقدم في عائلة جيميني مع تحسينات كبيرة في الكفاءة والأداء",
-      "highlightsEn": "Advanced model in the Gemini family with significant improvements in efficiency and performance",
+      "name": "GPT-6 Cyber",
+      "org": "OpenAI",
+      "releaseDate": "2026-11-05",
+      "highlights": "نموذج متخصص في الأمن السيبراني مصمم لاكتشاف الثغرات القابلة للاستغلال في الأنظمة. يمثل تقدمًا كبيرًا في مجال الوكلاء الأمنيين المتوافقين.",
+      "highlightsEn": "A specialized cybersecurity model designed to find exploitable vulnerabilities in systems. Represents significant advancement in aligned cybersecurity agents.",
       "specs": {
         "context": "1M"
       },
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+      "url": "https://openai.com/index/introducing-gpt-6-cyber"
     },
     {
       "id": "m-2026-11-08-2",
-      "name": "Kimi K3.1 Pro",
-      "org": "Moonshot AI",
+      "name": "Gemini Omni 1.2 Flash",
+      "org": "Google DeepMind",
       "releaseDate": "2026-11-05",
-      "highlights": "نموذج عملاق بـ 2.8 تريليون معلمة متاح كأوزان مفتوحة المصدر",
-      "highlightsEn": "Massive model with 2.8 trillion parameters available as open weights",
+      "highlights": "نموذج سريع ومكلفة أقل مع قدرة على معالجة مقاطع أطول. يوفر تحسينات كبيرة في الأداء والكفاءة مقارنة بالإصدارات السابقة.",
+      "highlightsEn": "A fast and cost-effective model with longer clip processing capabilities. Offers significant improvements in performance and efficiency compared to previous versions.",
       "specs": {
-        "context": "2M"
+        "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3ZqcjR1SkNXOHhVeXNqeWQ4dW5WZ2hOeENPcFlFaUZzbXAzQXVfYlZjU3Flc1k2aFRGRF94NWtGN2ozY2VVU1VmT2lSc0Q5MDZRM2Y5U0F6Q1RLM3JJSTZiUHhxajdDU0FXRVlCWFRPbWZoQ01JTzRGRGdKZzVsZUstNzBBNkUt?oc=5"
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
     },
     {
       "id": "m-2026-11-08-3",
-      "name": "Le Chonk",
+      "name": "Voxtral 3",
       "org": "Mistral AI",
-      "releaseDate": "2026-11-06",
-      "highlights": "نموذج مفتوح المصدر مصمم للمبرمجين وموثوق به من قبل المدافعين عن الأمن",
-      "highlightsEn": "Open-source model designed for coders and trusted by security defenders",
+      "releaseDate": "2026-10-20",
+      "highlights": "نموذج وكيل يمكنه الاستماع، والتفكير، والكلام، والعمل. يمثل تقدمًا كبيرًا في قدرات الوكلاء متعددة الوظائف.",
+      "highlightsEn": "An agent model that can listen, reason, speak, and act. Represents significant advancement in multi-functional agent capabilities.",
       "specs": {
         "context": "128K"
       },
-      "url": "https://mistral.ai/news/mistral-large-4-oss/"
+      "url": "https://mistral.ai/news/voxtral-3/"
     },
     {
       "id": "m-2026-11-08-4",
+      "name": "Timestral",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-20",
+      "highlights": "نموذج احتمالي متقدم يتطلب فقط 209 مليون معامل، ويتفوق على النماذج الأكبر على وحدات المعالجة المركزية. يوفر تنبؤات احتمالية متطورة.",
+      "highlightsEn": "A state-of-the-art probabilistic model requiring only 209M parameters, outperforming larger models on CPU. Provides advanced probabilistic forecasts.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/timestral/"
+    },
+    {
+      "id": "m-2026-11-08-5",
       "name": "Mistral Large 4",
       "org": "Mistral AI",
       "releaseDate": "2026-10-06",
-      "highlights": "أحدث إضافة لعائلة نماذج Mistral Large مع تحسينات في الفهم والاستدلال",
-      "highlightsEn": "Latest addition to the Mistral Large model family with improvements in understanding and reasoning",
+      "highlights": "أحدث إصدار من نموذج Mistral Large الكبير، مع تحسينات كبيرة في الفهم والاستدلال والقدرة على متابعة التعليمات.",
+      "highlightsEn": "Latest version of the large Mistral Large model, with significant improvements in understanding, reasoning, and instruction-following capabilities.",
       "specs": {
-        "context": "256K"
+        "context": "128K"
       },
       "url": "https://mistral.ai/news/mistral-large-4/"
     },
     {
-      "id": "m-2026-11-08-5",
-      "name": "Muse Spark 1.1",
-      "org": "Meta AI",
-      "releaseDate": "2026-11-07",
-      "highlights": "تحديث لنموذج Muse مع تحسينات في السرعة والجودة",
-      "highlightsEn": "Update to the Muse model with improvements in speed and quality",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
-    },
-    {
       "id": "m-2026-11-08-6",
-      "name": "Timestral",
-      "org": "Mistral AI",
-      "releaseDate": "2026-10-31",
-      "highlights": "نموذج احتمالي متقدم بأقل من 209 مليون معلمة يتجاوز النماذج الأكبر حجمًا",
-      "highlightsEn": "Advanced probabilistic model with fewer than 209 million parameters, outperforming larger models",
+      "name": "Kimi K3.1 Pro",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-11-05",
+      "highlights": "نموذج مفتوح المصدر يضم 2.8 تريليون معامل، مما يجعله واحدًا من أكبر النماذج المتاحة. يتفوق على OpenAI في معايير البحث المالي.",
+      "highlightsEn": "An open-source model with 2.8 trillion parameters, making it one of the largest available models. Outperforms OpenAI on financial research benchmarks.",
       "specs": {
-        "context": "64K"
+        "context": "1M"
       },
-      "url": "https://mistral.ai/news/timestral/"
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3ZqcjR1SkNXOHhVeXNqeWQ4dW5WZ2hOeENPcFlFaUZzbXAzQXVfYlZjU3Flc1k2aFRGRF94NWtGN2ozY2VVU1VmT2lSc0Q5MDZRM2Y5U0F6Q1RLM3JJSTZiUHhxajdDU0FXRVlCWFRPbWZoQ01JTzRGRGdKZzVsZUstNzBBNkUt?oc=5"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-11-08-1",
-      "text": "أنثروبي تقدم طلبًا للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات",
-      "textEn": "Anthropic files S-1 with the SEC for proposed initial public offering",
-      "level": "critical",
-      "url": "https://www.anthropic.com/news/s1-sec"
+      "text": "جمعت OpenAI 11 مليار دولار في جولة التمويل الأخيرة، مما رفع تقييمها إلى 1.25 تريليون دولار",
+      "textEn": "OpenAI raised $11 billion in its latest funding round, valuing the company at $1.25 trillion",
+      "level": "info",
+      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/"
     },
     {
       "id": "h-2026-11-08-2",
-      "text": "يبدأ اختبار الذكاء الاصطناعي في أبل في الصين في 4 نوفمبر، مدعومًا بوين من علي بابا",
-      "textEn": "Apple Intelligence in China Starts Testing November 4, Powered by Alibaba's Qwen",
-      "level": "critical",
+      "text": "تتعاون أبل مع علي بابا لتوفير الذكاء الاصطناعي في آيفون في الصين، بدءًا من 4 نوفمبر",
+      "textEn": "Apple partners with Alibaba to bring AI to iPhones in China, starting November 4",
+      "level": "info",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU2ROQlRSS3hpeURJRzJwY0FUNWlHNzlqUnVaRGlHS05yNWprNUEyV0NMVmYyVzZORUNUbnU1U0ZfMlY4c0t0NmFpbVUydWhxRXkzNGhpN2hVaEhHRGRxekhfUmdpSnpsY2VXQ2JvUlhUYVNxNTlZSy1JbkZmbHcwbzhOTUU4WUIzbzZGUGE0S2RBQQ?oc=5"
     },
     {
       "id": "h-2026-11-08-3",
-      "text": "GPT-6 سيبري: سعاة الأمن السيبراني المتوافقون يتقدمون في الطليعة",
-      "textEn": "GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "text": "أطلقت مونشوت أوزان نموذج كيمي K3.1 برو المكون من 2.8 تريليون معامل، مما يجعله أكبر نموذج مفتوح المصدر متاح",
+      "textEn": "Moonshot released the weights for the 2.8 trillion parameter Kimi K3.1 Pro model, making it the largest open-source model available",
       "level": "info",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber"
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3ZqcjR1SkNXOHhVeXNqeWQ4dW5WZ2hOeENPcFlFaUZzbXAzQXVfYlZjU3Flc1k2aFRGRF94NWtGN2ozY2VVU1VmT2lSc0Q5MDZRM2Y5U0F6Q1RLM3JJSTZiUHhxajdDU0FXRVlCWFRPbWZoQ01JTzRGRGdKZzVsZUstNzBBNkUt?oc=5"
     }
   ],
   "security": [
     {
       "id": "sec-2026-11-08-1",
-      "title": "العشرات من أدوات القرصنة AI Artex وجدت معرضة للعامة على شبكة الإنترنت",
-      "titleEn": "Hundreds of Artex AI hacking tools found publicly exposed",
-      "summary": "كشفت الأبحاث الأمنية عن مئات الخوادم التي تستضيف أدوات اختراق Artex AI معرضة للعامة على شبكة الإنترنت، مما يمثل خطرًا أمنيًا كبيرًا.",
-      "summaryEn": "Security researchers found hundreds of servers hosting Artex AI penetration testing tools exposed to the public, representing a significant security risk.",
+      "title": "مئات أدوات القرصنة Artex AI معرضة للويب",
+      "titleEn": "Hundreds of Artex AI Hacking Tools Exposed",
+      "summary": "وجد الباحثون الأمنيون مئات الخوادم التي تستضيف أدوات اختراق Artex AI معرضة للويب، مما يسمح لأي شخص بالوصول إلى أدوات القرصنة المتقدمة. هذا الكشف يبرز مخاطر أمنية متزايدة في أدوات الاختراق القائمة على الذكاء الاصطناعي.",
+      "summaryEn": "Security researchers found hundreds of servers hosting Artex AI penetration testing tools exposed to the web, allowing anyone to access advanced hacking tools. This discovery highlights growing security risks in AI-based penetration tools.",
       "type": "breach",
-      "severity": "critical",
+      "severity": "warning",
       "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
       "source": "TechCrunch AI",
       "date": "2026-11-06"
     },
     {
       "id": "sec-2026-11-08-2",
-      "title": "GPT-6 سيبري: سعاة الأمن السيبراني المتوافقون يتقدمون في الطليعة",
-      "titleEn": "GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "summary": "أطلقت OpenAI نموذج GPT-6 سيبري المتخصص في اكتشاف الثغرات الأمنية القابلة للاستغلال، مع التركيز على الأمان والمواءمة.",
-      "summaryEn": "OpenAI has launched GPT-6 Cyber, a specialized model for finding exploitable vulnerabilities, with a focus on safety and alignment.",
-      "type": "policy",
-      "severity": "info",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "source": "OpenAI",
-      "date": "2026-11-05"
-    },
-    {
-      "id": "sec-2026-11-08-3",
-      "title": "نماذج الذكاء الاصطناعي الصينية المجانية تصبح جيدة في القرصنة بشكل مخيف",
-      "titleEn": "Free Chinese AI Models Are Getting Scary Good at Hacking",
-      "summary": "تشير التقارير إلى أن نماذج الذكاء الاصطناعي الصينية المجانية تتحسن بشكل كبير في قدراتها على القرصنة والاختراق، مما يثير مخاوف أمنية.",
-      "summaryEn": "Reports indicate that free Chinese AI models are significantly improving their hacking capabilities, raising security concerns.",
+      "title": "النماذج الصينية المجانية تصبح جيدة في القرصنة",
+      "titleEn": "Free Chinese AI Models Getting Good at Hacking",
+      "summary": "أظهرت النماذج الصينية المجانية مثل كيمي وديب سيك قدرات متزايدة في مجال القرصنة، بما في ذلك استغلال الثغرات وتجاوز آليات الأمان. هذه التطورات تبرز التحديات الأمنية الناشئة عن تقدم الذكاء الاصطناعي.",
+      "summaryEn": "Free Chinese models like Kimi and DeepShow are showing increasing hacking capabilities, including exploiting vulnerabilities and bypassing security mechanisms. These developments highlight emerging security challenges from AI advancement.",
       "type": "malware",
-      "severity": "warning",
+      "severity": "critical",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMG5JWUNJdnMzazNQLVpVaTN5TS0xTEdHMU5wT3VFT0hnN2paNE9GV3ppSHhTVFQ3cTJ5WjhrOEJiX1lQMUNaa0ROMGlfYW9qeXNTejFSRjRWMXdxQnlhb2k5Zk9LS3RVd0NUZTFFSHRUWmQ4a0UtMXNlZHhVZVhKZUl3aWxoa2pLbmdHZTRR?oc=5",
       "source": "DeepSeek (news)",
       "date": "2026-11-06"
     },
     {
-      "id": "sec-2026-11-08-4",
-      "title": "نموذج الذكاء الاصطناعي DeepSeek يظهر ثغرات أمنية في الاختبارات المستقلة",
-      "titleEn": "DeepSeek AI model shows safety gaps in independent tests",
-      "summary": "كشفت الاختبارات المستقلة عن ثغرات أمنية في نموذج DeepSeek، مما يثير مخاوف بشأن سلامة النموذج وقدرته على التحقق من الهجمات.",
-      "summaryEn": "Independent tests have revealed security gaps in the DeepSeek model, raising concerns about its safety and ability to verify attacks.",
-      "type": "breach",
+      "id": "sec-2026-11-08-3",
+      "title": "نموذج Le Chonk: مخصص للمبرمجين وموثوق من قبل المدافعين",
+      "titleEn": "Le Chonk Model: Built for Coders, Trusted by Defenders",
+      "summary": "أطلقت Mistral AI أوزان نموذج Le Chonk، الذي يمثل تقدمًا في نماذج مفتوحة المصدر في مجال الوكلاء الأمنيين. النموذج مصمم لاكتشاف الثغرات وتحسين الأمان.",
+      "summaryEn": "Mistral AI released the weights of Le Chonk model, advancing open models in the security agents domain. The model is designed for vulnerability detection and security enhancement.",
+      "type": "jailbreak",
       "severity": "warning",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5",
-      "source": "DeepSeek (news)",
-      "date": "2026-11-02"
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "source": "Mistral AI",
+      "date": "2026-11-08"
     },
     {
-      "id": "sec-2026-11-08-5",
-      "title": "إخفاء القدرات في نماذج الذكاء الاصطناعي",
-      "titleEn": "Hiding Capabilities in AI Models",
-      "summary": "أظهرت أبحاث جديدة أن نماذج الذكاء الاصطناعي يمكن إثباتًا إخفاء قدراتها بشكل عمد، مما يمثل تحديًا أمنيًا جديدًا.",
-      "summaryEn": "New research shows that AI models can provably hide their capabilities, representing a new security challenge.",
-      "type": "backdoor",
-      "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
-      "source": "Schneier on Security",
-      "date": "2026-10-27"
+      "id": "sec-2026-11-08-4",
+      "title": "نموذج Markov المخفي للتنبؤ بأفعاء الخصوم",
+      "titleEn": "Hidden Markov Model for Adversary Action Prediction",
+      "summary": "طور الباحثون نموذج Markov المخفي للتنبؤ بأفعاء المهاجمين، مما يوفر توزيعًا احتماليًا على إجراءات المهاجم. هذا النموذج يمكن المدافعين من التنبؤ والاستجابة للهجمات بشكل أفضل.",
+      "summaryEn": "Researchers developed a Hidden Markov Model for predicting adversary actions, providing a probability distribution over attacker behaviors. This model helps defenders predict and respond to attacks better.",
+      "type": "prompt-injection",
+      "severity": "info",
+      "url": "https://arxiv.org/abs/2611.08445v1",
+      "source": "arXiv",
+      "date": "2026-11-05"
     }
   ],
   "benchmarks": {
@@ -333,7 +335,7 @@
         "score": "55.6"
       },
       {
-        "name": "Gemini 4 Argon",
+        "name": "Gemini 4 Argon 2",
         "org": "Google",
         "score": "54.4"
       },
@@ -348,127 +350,135 @@
         "score": "53.4"
       },
       {
-        "name": "GPT-6.1 Sol",
+        "name": "GPT-6.1 Sol 3",
         "org": "OpenAI",
         "score": "53.4"
       },
       {
-        "name": "Muse Wonder Full",
+        "name": "Muse Wonder Full 1",
         "org": "Meta",
         "score": "53.1"
       }
     ],
-    "highlights": "تسيطر نماذج Claude على 4 من أصل 10 مراكز في الترتيب، مما يظهر هيمنتها في الساحة. Gemini 4 Carbon من Google يظهر تقدماً قوياً في المركز الثاني، بينما هناك سباق محموم بين GPT-6 Astra و Kimi K3.1 Pro للمركزين الرابع والخامس.",
-    "highlightsEn": "Claude models are dominating with 4 out of 10 top positions, showing their dominance in the field. Gemini 4 Carbon from Google shows strong improvement at position 2, while there's a tight race between GPT-6 Astra and Kimi K3.1 Pro for 4th and 5th positions."
+    "highlights": "يحتل Claude Opus 5.5 المركز الأول حالياً بنتيجة 59.9، بينما هناك منافسة قوية بين Gemini 4 Carbon و Claude Sonnet 5.5 في المراكز الثانية والثالثة. تبرز نماذج Claude بشكل واضح في الترتيب حيث تحتل 4 من أفضل 6 مراكز.",
+    "highlightsEn": "Claude Opus 5.5 currently leads with a score of 59.9, while there's tight competition between Gemini 4 Carbon and Claude Sonnet 5.5 for second and third place. Claude models prominently dominate the rankings, occupying 4 of the top 6 positions."
   },
   "knowledgeEntry": {
-    "id": "k-2026-11-08-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاصطناعي",
-    "title": "قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
-    "titleEn": "Vector databases for AI applications",
-    "why": "قواعد البيانات المتجهية ضرورية لتخزين وفهرسة البيانات غير المهيكلة مثل النصوص والصور والصوت بطريقة فعالة للبحث والاسترجاع السريع.",
-    "whyEn": "Vector databases are essential for efficiently storing and indexing unstructured data like text, images, and audio in a way that enables fast search and retrieval.",
+    "id": "k-2026-11-08-ضبط-النماذج-المسبقة-للتخصصات-المحددة",
+    "title": "ضبط النماذج المسبقة للتخصصات المحددة",
+    "titleEn": "Fine-tuning Pre-trained Models for Specialized Tasks",
+    "why": "يسمح لك ضبط النماذج المسبقة بتخصيص نماذج الذكاء الاصطناعي العملاقة لمهام محددة ومجالات متخصصة، مما يحسن الدقة والفعالية بشكل كبير في تطبيقات محددة.",
+    "whyEn": "Fine-tuning pre-trained models allows you to adapt large AI models for specific tasks and domains, significantly improving accuracy and effectiveness in specialized applications.",
     "difficulty": "intermediate",
-    "track": "tools",
+    "track": "building",
     "steps": [
       {
-        "title": "فهم المتجهات",
-        "detail": "تعلم كيفية تحويل البيانات غير المهيكلة إلى متجهات رقمية تمثل معناها الدلالي."
+        "title": "اختيار النموذج المناسب",
+        "detail": "اختر نموذجاً مسبقاً يتوافق مع مهمتك ومجالك."
       },
       {
-        "title": "اختيار قاعدة البيانات",
-        "detail": "استكشاف خيارات قواعد البيانات المتجهية مثل Pinecone, Weaviate، أو Milvus بناءً على متطلبات المشروع."
+        "title": "تحضير مجموعة البيانات",
+        "detail": "أنشئ مجموعة بيانات عالية الجودة ومصنفة بشكل صحيح لمهمتك."
       },
       {
-        "title": "بناء التضمين",
-        "detail": "استخدام نماذج مثل BERT أو Sentence-BERT لتحويل النصوص إلى متجهات رقمية."
+        "title": "ضبط المعلمات",
+        "detail": "حدد المعلمات المناسبة لعملية الضبط مثل معدل التعلم وحجم الدفعة."
       },
       {
-        "title": "التخزين والفهرسة",
-        "detail": "تخزين المتجهات في قاعدة البيانات مع إنشاء فهارس فعالة لعمليات البحث السريع."
+        "title": "تدريب النموذج",
+        "detail": "قم بتدريب النموذج على مجموعة بياناتك مع مراقبة الأداء."
       },
       {
-        "title": "الاسترجاع والتطبيق",
-        "detail": "تنفيذ عمليات البحث المتشابه واستخدام النتائج في تطبيقات الذكاء الاصطناعي."
+        "title": "تقييم النموذج",
+        "detail": "اختبر النموذج الضبط على مجموعة بيانات منفصلة لتقييم أدائه."
+      },
+      {
+        "title": "نشر النموذج",
+        "detail": "قم بنشر النموذج الضبط في بيئتك التشغيلية."
       }
     ],
     "stepsEn": [
       {
-        "title": "Understanding vectors",
-        "detail": "Learn how to convert unstructured data into numerical vectors that represent their semantic meaning."
+        "title": "Select the appropriate model",
+        "detail": "Choose a pre-trained model that aligns with your task and domain."
       },
       {
-        "title": "Choosing a database",
-        "detail": "Explore vector database options like Pinecone, Weaviate, or Milvus based on project requirements."
+        "title": "Prepare the dataset",
+        "detail": "Create a high-quality, properly labeled dataset for your specific task."
       },
       {
-        "title": "Building embeddings",
-        "detail": "Use models like BERT or Sentence-BERT to convert text into numerical vectors."
+        "title": "Configure parameters",
+        "detail": "Set appropriate parameters for the fine-tuning process like learning rate and batch size."
       },
       {
-        "title": "Storage and indexing",
-        "detail": "Store vectors in the database and create efficient indexes for fast search operations."
+        "title": "Train the model",
+        "detail": "Train the model on your dataset while monitoring performance."
       },
       {
-        "title": "Retrieval and application",
-        "detail": "Implement similarity search operations and use the results in AI applications."
+        "title": "Evaluate the model",
+        "detail": "Test the fine-tuned model on a separate dataset to assess performance."
+      },
+      {
+        "title": "Deploy the model",
+        "detail": "Deploy the fine-tuned model in your production environment."
       }
     ],
-    "code": "import pinecone\nfrom sentence_transformers import SentenceTransformer\n\n# Initialize Pinecone\npinecone.init(api_key=\"YOUR_API_KEY\", environment=\"YOUR_ENVIRONMENT\")\n\n# Create index\nindex_name = \"vector-db-demo\"\nif index_name not in pinecone.list_indexes():\n    pinecone.create_index(index_name, dimension=384)\n\n# Connect to index\nindex = pinecone.Index(index_name)\n\n# Load model for embeddings\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\n# Create embeddings\nsentences = [\"This is an example sentence\", \"Here is another sentence\"]\nembeddings = model.encode(sentences)\n\n# Insert vectors\nindex.upsert(vectors=[(f\"doc{i}\", vec) for i, vec in enumerate(embeddings)])\n\n# Query similar vectors\nquery = \"A query sentence\"\nquery_embedding = model.encode([query])\nresults = index.query(queries=[query_embedding], top_k=2)\nprint(results)",
+    "code": "python\nfrom transformers import AutoModelForSequenceClassification, Trainer, TrainingArguments\nfrom datasets import load_dataset\n\n# Load pre-trained model and dataset\nmodel = AutoModelForSequenceClassification.from_pretrained(\"bert-base-uncased\")\ndataset = load_dataset(\"your_dataset_name\")\n\n# Define training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    evaluation_strategy=\"epoch\"\n)\n\n# Create trainer and fine-tune\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=dataset[\"train\"],\n    eval_dataset=dataset[\"validation\"]\n)\n\ntrainer.train()",
     "resources": [
       {
-        "name": "Pinecone Documentation",
-        "url": "https://docs.pinecone.io/"
+        "name": "Hugging Face Fine-tuning Documentation",
+        "url": "https://huggingface.co/docs/transformers/training"
       },
       {
-        "name": "Weaviate Documentation",
-        "url": "https://www.weaviate.io/developers/weaviate"
+        "name": "Stanford CS224n: NLP with Deep Learning",
+        "url": "https://web.stanford.edu/class/cs224n/"
       },
       {
-        "name": "Vector Database Benchmark",
-        "url": "https://github.com/zilliztech/VectorDBBench"
+        "name": "DeepLearning.AI Fine-tuning Models Course",
+        "url": "https://www.deeplearning.ai/short-courses/"
       }
     ],
     "tags": [
-      "قواعد البيانات",
-      "نماذج اللغة",
-      "البحث",
-      "تخزين البيانات"
+      "ضبط النماذج",
+      "نماذج مسبقة",
+      "تخصيص الذكاء الاصطناعي",
+      "تعلم الآلة"
     ],
-    "quickRef": "قواعد البيانات المتجهية تحول البيانات غير المهيكلة إلى أرقام، تسمح بالبحث الدلالي بدلاً من البحث الكلمات المفتاحية التقليدي.",
-    "quickRefEn": "Vector databases convert unstructured data into numbers, allowing semantic search instead of traditional keyword search.",
+    "quickRef": "ضبط النماذج المسبقة: اختيار نموذج جاهز، تحضير بيانات عالية الجودة، ضبط المعلمات، التدريب، التقييم، النشر.",
+    "quickRefEn": "Fine-tuning pre-trained models: Select a base model, prepare high-quality data, configure parameters, train, evaluate, deploy.",
     "quiz": [
       {
-        "q": "ما هي الوظيفة الأساسية لقواعد البيانات المتجهية؟",
+        "q": "ما هو أول خطوة في عملية ضبط النموذج المسبق؟",
         "options": [
-          "تخزين البيانات المهيكلة",
-          "فهرسة النصوص باستخدام الكلمات المفتاحية",
-          "تحويل البيانات غير المهيكلة إلى متجهات رقمية للبحث الدلالي",
-          "تعزيز سرعة قواعد البيانات العلائقية"
+          "نشر النموذج",
+          "اختيار النموذج المناسب",
+          "تقييم النموذج",
+          "تحضير مجموعة البيانات"
         ],
-        "answer": 2,
-        "explain": "قواعد البيانات المتجهية مصممة أساسياً لتحويل البيانات غير المهيكلة مثل النصوص إلى متجهات رقمية تمثل معناها الدلالي، مما يسمح بعمليات بحث أكثر دقة."
+        "answer": 1,
+        "explain": "اختيار النموذج المناسب هو أول خطوة في عملية ضبط النموذج المسبق."
       },
       {
-        "q": "أي من الخيارات التالي ليس قاعدة بيانات متجهية؟",
+        "q": "ما هو العامل الأهم في نجاح عملية ضبط النموذج؟",
         "options": [
-          "Pinecone",
-          "Weaviate",
-          "MongoDB",
-          "Milvus"
+          "سرعة المعالج",
+          "جودة مجموعة البيانات",
+          "حجم الذاكرة",
+          "عدد النماذج المستخدمة"
         ],
-        "answer": 2,
-        "explain": "MongoDB هي قاعدة بيانات مستندات وليست قاعدة بيانات متجهية مخصصة للبحث الدلالي."
+        "answer": 1,
+        "explain": "جودة مجموعة البيانات هي العامل الأهم في نجاح عملية ضبط النموذج."
       },
       {
-        "q": "ما هو الحجم النموذجي للمتجهات التي أنشأتها نماذج مثل BERT؟",
+        "q": "ما هو الغرض من تقييم النموذج بعد عملية الضبط؟",
         "options": [
-          "128",
-          "256",
-          "384",
-          "512"
+          "زيادة سرعة المعالجة",
+          "تقليل استهلاك الطاقة",
+          "التأكد من أن النموذج يعمل بشكل صحيح على بيانات جديدة",
+          "تقليل حجم النموذج"
         ],
         "answer": 2,
-        "explain": "نماذج مثل BERT تنتج عادة متجهات بحجم 384 بعد (dimensions) للنماذج الصغيرة، على الرغم من أن بعض النماذج قد يكون لها أحجام مختلفة."
+        "explain": "التقيوم يهدف للتحقق من أداء النموذج على بيانات جديدة بعد عملية الضبط."
       }
     ],
     "addedAt": "2026-11-08"

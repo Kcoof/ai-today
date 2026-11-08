@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-08-ضبط-النماذج-المسبقة-للتخصصات-المحددة",
+      "title": "ضبط النماذج المسبقة للتخصصات المحددة",
+      "titleEn": "Fine-tuning Pre-trained Models for Specialized Tasks",
+      "why": "يسمح لك ضبط النماذج المسبقة بتخصيص نماذج الذكاء الاصطناعي العملاقة لمهام محددة ومجالات متخصصة، مما يحسن الدقة والفعالية بشكل كبير في تطبيقات محددة.",
+      "whyEn": "Fine-tuning pre-trained models allows you to adapt large AI models for specific tasks and domains, significantly improving accuracy and effectiveness in specialized applications.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "اختيار النموذج المناسب",
+          "detail": "اختر نموذجاً مسبقاً يتوافق مع مهمتك ومجالك."
+        },
+        {
+          "title": "تحضير مجموعة البيانات",
+          "detail": "أنشئ مجموعة بيانات عالية الجودة ومصنفة بشكل صحيح لمهمتك."
+        },
+        {
+          "title": "ضبط المعلمات",
+          "detail": "حدد المعلمات المناسبة لعملية الضبط مثل معدل التعلم وحجم الدفعة."
+        },
+        {
+          "title": "تدريب النموذج",
+          "detail": "قم بتدريب النموذج على مجموعة بياناتك مع مراقبة الأداء."
+        },
+        {
+          "title": "تقييم النموذج",
+          "detail": "اختبر النموذج الضبط على مجموعة بيانات منفصلة لتقييم أدائه."
+        },
+        {
+          "title": "نشر النموذج",
+          "detail": "قم بنشر النموذج الضبط في بيئتك التشغيلية."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select the appropriate model",
+          "detail": "Choose a pre-trained model that aligns with your task and domain."
+        },
+        {
+          "title": "Prepare the dataset",
+          "detail": "Create a high-quality, properly labeled dataset for your specific task."
+        },
+        {
+          "title": "Configure parameters",
+          "detail": "Set appropriate parameters for the fine-tuning process like learning rate and batch size."
+        },
+        {
+          "title": "Train the model",
+          "detail": "Train the model on your dataset while monitoring performance."
+        },
+        {
+          "title": "Evaluate the model",
+          "detail": "Test the fine-tuned model on a separate dataset to assess performance."
+        },
+        {
+          "title": "Deploy the model",
+          "detail": "Deploy the fine-tuned model in your production environment."
+        }
+      ],
+      "code": "python\nfrom transformers import AutoModelForSequenceClassification, Trainer, TrainingArguments\nfrom datasets import load_dataset\n\n# Load pre-trained model and dataset\nmodel = AutoModelForSequenceClassification.from_pretrained(\"bert-base-uncased\")\ndataset = load_dataset(\"your_dataset_name\")\n\n# Define training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    evaluation_strategy=\"epoch\"\n)\n\n# Create trainer and fine-tune\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=dataset[\"train\"],\n    eval_dataset=dataset[\"validation\"]\n)\n\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Documentation",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "Stanford CS224n: NLP with Deep Learning",
+          "url": "https://web.stanford.edu/class/cs224n/"
+        },
+        {
+          "name": "DeepLearning.AI Fine-tuning Models Course",
+          "url": "https://www.deeplearning.ai/short-courses/"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "نماذج مسبقة",
+        "تخصيص الذكاء الاصطناعي",
+        "تعلم الآلة"
+      ],
+      "quickRef": "ضبط النماذج المسبقة: اختيار نموذج جاهز، تحضير بيانات عالية الجودة، ضبط المعلمات، التدريب، التقييم، النشر.",
+      "quickRefEn": "Fine-tuning pre-trained models: Select a base model, prepare high-quality data, configure parameters, train, evaluate, deploy.",
+      "quiz": [
+        {
+          "q": "ما هو أول خطوة في عملية ضبط النموذج المسبق؟",
+          "options": [
+            "نشر النموذج",
+            "اختيار النموذج المناسب",
+            "تقييم النموذج",
+            "تحضير مجموعة البيانات"
+          ],
+          "answer": 1,
+          "explain": "اختيار النموذج المناسب هو أول خطوة في عملية ضبط النموذج المسبق."
+        },
+        {
+          "q": "ما هو العامل الأهم في نجاح عملية ضبط النموذج؟",
+          "options": [
+            "سرعة المعالج",
+            "جودة مجموعة البيانات",
+            "حجم الذاكرة",
+            "عدد النماذج المستخدمة"
+          ],
+          "answer": 1,
+          "explain": "جودة مجموعة البيانات هي العامل الأهم في نجاح عملية ضبط النموذج."
+        },
+        {
+          "q": "ما هو الغرض من تقييم النموذج بعد عملية الضبط؟",
+          "options": [
+            "زيادة سرعة المعالجة",
+            "تقليل استهلاك الطاقة",
+            "التأكد من أن النموذج يعمل بشكل صحيح على بيانات جديدة",
+            "تقليل حجم النموذج"
+          ],
+          "answer": 2,
+          "explain": "التقيوم يهدف للتحقق من أداء النموذج على بيانات جديدة بعد عملية الضبط."
+        }
+      ],
+      "addedAt": "2026-11-08"
+    },
+    {
       "id": "k-2026-11-08-قواعد-البيانات-المتجهية-لتطبيقات-الذكاء-الاصطناعي",
       "title": "قواعد البيانات المتجهية لتطبيقات الذكاء الاصطناعي",
       "titleEn": "Vector databases for AI applications",
