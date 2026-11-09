@@ -1,6 +1,99 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-09-أساسيات-أمن-الذكاء-الاصطناعي",
+      "title": "أساسيات أمن الذكاء الاصطناعي",
+      "titleEn": "AI Safety Basics",
+      "why": "فهم أساسيات أمن الذكاء الاصطناعي ضروري لضمان استخدام هذه التقنيات بشكل آمن ومسؤول.",
+      "whyEn": "Understanding AI safety basics is essential for ensuring the responsible and secure use of these technologies.",
+      "difficulty": "beginner",
+      "track": "security",
+      "steps": [
+        {
+          "title": "مقدمة لأمن الذكاء الاصطناعي",
+          "detail": "تعريف مفاهيم أساسية مثل المخاطر المحتملة، والاستخدام الآمن، والحدود الأخلاقية لنماذج الذكاء الاصطناعي."
+        },
+        {
+          "title": "المخاطر الرئيسية لنماذج الذكاء الاصطناعي",
+          "detail": "تحديد المخاطر مثل التحيز في البيانات، والاستخدام الخاطئ، والآثار غير المقصودة، والاستغلال الضار."
+        },
+        {
+          "title": "استراتيجيات الحماية الأساسية",
+          "detail": "تطبيق تدابير مثل التحقق من المدخلات، قيود النطاق، اختبار الحالات الحدودية، والمراقبة المستمرة."
+        },
+        {
+          "title": "أفضل الممارسات لتطبيق أمن الذكاء الاصطناعي",
+          "detail": "إنشاء سياسات واضحة، تدريب المستخدمين، مراقبة الأداء، وتحديث النماذج بانتظام."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Introduction to AI Safety",
+          "detail": "Define basic concepts like potential risks, safe use, and ethical boundaries of AI models."
+        },
+        {
+          "title": "Key Risks of AI Models",
+          "detail": "Identify risks such as data bias, misuse, unintended consequences, and harmful exploitation."
+        },
+        {
+          "title": "Basic Protection Strategies",
+          "detail": "Implement measures like input validation, scope constraints, edge case testing, and continuous monitoring."
+        },
+        {
+          "title": "Best Practices for AI Security Implementation",
+          "detail": "Create clear policies, train users, monitor performance, and update models regularly."
+        }
+      ],
+      "code": "def validate_input(user_input):\n    # Basic input validation example\n    if len(user_input) > 1000:\n        raise ValueError(\"Input exceeds maximum length\")\n    if any(keyword in user_input.lower() for keyword in [\"hack\", \"exploit\", \"attack\"]):\n        raise ValueError(\"Potentially harmful content detected\")\n    return True",
+      "resources": [
+        {
+          "name": "OpenAI's AI Safety Guidelines",
+          "url": "https://openai.com/safety"
+        },
+        {
+          "name": "Anthropic's Constitutional AI Paper",
+          "url": "https://arxiv.org/abs/2212.08073"
+        },
+        {
+          "name": "Partnership on AI's Safety Resources",
+          "url": "https://partnershiponai.org/resources/"
+        }
+      ],
+      "tags": [
+        "أمن الذكاء الاصطناعي",
+        "سلامة النماذج",
+        "المسؤولية",
+        "الحماية"
+      ],
+      "quickRef": "تحقق من المدخلات، قيّد النطاق، اختبر النماذج بانتظام، وحدّد السياسات الواضحة.",
+      "quickRefEn": "Validate inputs, constrain scope, test models regularly, and establish clear policies.",
+      "quiz": [
+        {
+          "q": "ما هو أهم عنصر في أمن الذكاء الاصطناعي؟",
+          "options": [
+            "السرعة",
+            "الدقة",
+            "التحقق من المدخلات",
+            "التكلفة"
+          ],
+          "answer": 2,
+          "explain": "التحقق من المدخلات هو أساس أمن الذكاء الاصطناعي لمنع الاستخدام الخاطئ أو الضار."
+        },
+        {
+          "q": "أي من الاستراتيجيات التالية تساعد في تقييم سلامة نموذج الذكاء الاصطناعي؟",
+          "options": [
+            "اختبار النموذج فقط بيانات التدريب",
+            "استخدام مجموعة متنوعة من حالات الاختبار",
+            "تجنب اختبار الحالات المتطرفة",
+            "الاعتماد على نتائج التدريب فقط"
+          ],
+          "answer": 1,
+          "explain": "استخدام مجموعة متنوعة من حالات الاختبار يساعد في تقييم أداء النموذج في سيناريوهات مختلفة وتحديد نقاط الضعف المحتملة."
+        }
+      ],
+      "addedAt": "2026-11-09"
+    },
+    {
       "id": "k-2026-11-08-ضبط-النماذج-المسبقة-للتخصصات-المحددة",
       "title": "ضبط النماذج المسبقة للتخصصات المحددة",
       "titleEn": "Fine-tuning Pre-trained Models for Specialized Tasks",

@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-08",
-  "generatedAt": "2026-11-08T17:16:14.846Z",
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T21:32:22.188Z",
   "news": [
     {
-      "id": "n-2026-11-08-1",
-      "title": "أطلقت OpenAI نموذج GPT-6 المخصص للأمن السيبراني",
-      "titleEn": "OpenAI Launches GPT-6 Cybersecurity Model",
-      "summary": "كشفت OpenAI عن نموذج GPT-6 المخصص للأمن السيبراني المصمم لاكتشاف الثغرات القابلة للاستغلال في الأنظمة. النموذج يمثل تقدمًا كبيرًا في مجال الوكلاء الأمنيين المتوافقين ويهدف إلى تعزيز قدرات الدفاع السيبراني.",
-      "summaryEn": "OpenAI has unveiled GPT-6 Cyber, a cybersecurity model designed to find exploitable vulnerabilities in systems. This model represents significant advancement in aligned cybersecurity agents and aims to enhance defensive cybersecurity capabilities.",
+      "id": "n-2026-11-09-2",
+      "title": "طرح GPT-6 سايبر للتعامل مع تهديدات الأمن السيبراني",
+      "titleEn": "Launch of GPT-6 Cyber for cybersecurity threats",
+      "summary": "أطلقت OpenAI نموذج GPT-6 سايبر المخصص للأمن السيبراني، المصمم لاكتشاف الثغرات القابلة للاستغلال في البرمجيات والأنظمة، مما يمثل تقدمًا في مجال الوكلاء الأمنيين المصممين لتتوافق مع معايير الأمان.",
+      "summaryEn": "OpenAI launched GPT-6 Cyber, a cybersecurity model designed to find exploitable vulnerabilities in software and systems, representing progress in the field of aligned cybersecurity agents.",
       "category": "models",
       "importance": 5,
       "source": {
@@ -17,53 +17,53 @@
       "publishedAt": "2026-11-05"
     },
     {
-      "id": "n-2026-11-08-3",
-      "title": "أطلقت مونشوت أوزان نموذج كيمي K3.1 برو",
-      "titleEn": "Moonshot Releases Kimi K3.1 Pro Model Weights",
-      "summary": "أطلقت شركة مونشوت أوزان نموذج كيمي K3.1 برو المكون من 2.8 تريليون معامل، مما يجعله واحدًا من أكبر النماذج مفتوحة المصدر المتاحة. هذا الإطلاق يمثل تقدمًا كبيرًا في نماذج الذكاء الاصطناعي الصينية.",
-      "summaryEn": "Moonshot released the weights for the 2.8 trillion parameter Kimi K3.1 Pro model, making it one of the largest open-source models available. This launch represents significant progress in Chinese AI models.",
+      "id": "n-2026-11-09-5",
+      "title": "إطلاق أوزان نموذج كيمي K3.1 برو مفتوحة المصدر",
+      "titleEn": "Release of open-source weights for Kimi K3.1 Pro model",
+      "summary": "أطلقت مونشوت أوزان نموذج كيمي K3.1 برو المكون من 2.8 تريليون معامل، مما يجعو أحد أكبر النماذج مفتوحة المصدر المتاحة حاليًا، ويؤكد على التقدم الصيني في نماذج الذكاء الاصطناعي الكبيرة.",
+      "summaryEn": "Moonshot released the weights for the 2.8 trillion parameter Kimi K3.1 Pro model, making it one of the largest open-source models currently available, confirming Chinese progress in large AI models.",
       "category": "models",
       "importance": 5,
       "source": {
         "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3ZqcjR1SkNXOHhVeXNqeWQ4dW5WZ2hOeENPcFlFaUZzbXAzQXVfYlZjU3Flc1k2aFRGRF94NWtGN2ozY2VVU1VmT2lSc0Q5MDZRM2Y5U0F6Q1RLM3JJSTZiUHhxajdDU0FXRVlCWFRPbWZoQ01JTzRGRGdKZzVsZUstNzBBNkUt?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFNjQ1dJbHRhTDg0d1ZBYzVlUHI4M1lMeXp4Unk5QThnUVJwd1VuTTlsZmhJVGJQbW1WMkVKWkRSNHRFMV94eFpfcnJkMW0xZ01OYUFDWU1Td3lobzBYX0tJWXRmLWVZQ3Q3WFROTlBReDRVM3FmMHJKckgwaWJLUmtNTW1GRXZwMEQwdkJsSQ?oc=5"
       },
       "publishedAt": "2026-11-05"
     },
     {
-      "id": "n-2026-11-08-5",
-      "title": "تتعاون أبل مع علي بابا لتوفير الذكاء الاصطناعي في آيفون في الصين",
-      "titleEn": "Apple Partners With Alibaba to Bring AI to iPhones in China",
-      "summary": "ارتفعت أسهم علي بابا بنسبة 5% بعد أن اختارت أبل نموذج Qwen لتشغيل الذكاء الاصطناعي في آيفون في الصين. بدأ الاختبار في 4 نوفمبر، مما يمثل توسعًا كبيرًا في نشر الذكاء الاصطناعي.",
-      "summaryEn": "Alibaba's shares rose 5% after Apple selected Qwen model to power AI in iPhones in China. Testing began on November 4, representing significant expansion in AI deployment.",
-      "category": "companies",
-      "importance": 5,
+      "id": "n-2026-11-09-1",
+      "title": "OpenAI تتعاون مع هاكترون لاكتشاف الثغرات الأمنية",
+      "titleEn": "OpenAI partners with Hacktron to find vulnerabilities",
+      "summary": "أعلنت OpenAI عن شراكتها مع هاكترون لاكتشاف الثغرات الأمنية في أنظمتها وتجارب الاتصال مع الأطراف الثالثة، مما يمثل خطوة مهمة نحو تعزيز أمن أنظمة الذكاء الاصطناعي.",
+      "summaryEn": "OpenAI announced its partnership with Hacktron to find vulnerabilities in its systems and test connections with third parties, representing an important step toward enhancing AI system security.",
+      "category": "tools",
+      "importance": 4,
       "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdXBkQWUtcG9YVXM2UXp5TUh2WVBtVEhGM3ZzZzJheEY5ZzU5ODZ2cElTSUVzQUYxWGVVcFN6WU5UT2FpdTNpVjdMZnFreDhjajV0WVlvU09QU20ydFlraHJyQmtRVlNtVkMyWEl5c3l0S3NFa0xqZk9fSzF0Rml2d2NnN29ORE52dC0xRVlJY01ic09sZWFmdUZmQlo3WHJXdWJ3bkkwOFBvbjhuYjh5SkVfVFdLRVY3Z1JJLXZRa3JaTG9MWDhQXzV4cVRvdGlxWXJOcWRaWnoxUzQ?oc=5"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/partnering-with-hacktron"
       },
-      "publishedAt": "2026-11-02"
+      "publishedAt": "2026-11-06"
     },
     {
-      "id": "n-2026-11-08-9",
-      "title": "ترتفع تقييم OpenAI إلى 1.25 تريليون دولار بعد جمع 11 مليار دولار",
-      "titleEn": "OpenAI Valuation Rises to $1.25T After Raising $11B",
-      "summary": "جمعت OpenAI 11 مليار دولار في جولة التمويل الأخيرة، مما رفع تقييمها إلى 1.25 تريليون دولار. هذا التمويل الضخم يمثل ثقة كبيرة في مستقبل الشركة وتطوراتها في مجال الذكاء الاصطناعي.",
-      "summaryEn": "OpenAI raised $11 billion in its latest funding round, valuing the company at $1.25 trillion. This massive funding represents strong confidence in the company's future and AI developments.",
-      "category": "companies",
-      "importance": 5,
+      "id": "n-2026-11-09-3",
+      "title": "توفر ChatGPT Enterprise في سوق AWS",
+      "titleEn": "ChatGPT Enterprise now available in AWS Marketplace",
+      "summary": "أصبح ChatGPT Enterprise متاحًا الآن من خلال سوق AWS، مما يساعد المؤسسات على تبسيط الوصول إلى تقنيات OpenAI وتكاملها مع البنية التحتية الحالية، مما يمثل توسعًا مهمًا في توفر خدمات OpenAI السحابية.",
+      "summaryEn": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify access to OpenAI technologies and integrate them with existing infrastructure, representing an important expansion in OpenAI's cloud service availability.",
+      "category": "tools",
+      "importance": 4,
       "source": {
-        "name": "Hacker News",
-        "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
       },
-      "publishedAt": "2026-11-08"
+      "publishedAt": "2026-11-09"
     },
     {
-      "id": "n-2026-11-08-2",
-      "title": "أطلقت جوجل ديب ماين نموذج جيميني أومني 1.2 فلاش",
-      "titleEn": "Google DeepMind Launches Gemini Omni 1.2 Flash",
-      "summary": "كشفت جوجل ديب ماين عن نموذج جيميني أومني 1.2 فلاش، وهو نموذج سريع ومكلفة أقل مع قدرة على معالجة مقاطع أطول. النموذج يوفر تحسينات كبيرة في الأداء والكفاءة مقارنة بالإصدارات السابقة.",
-      "summaryEn": "Google DeepMind announced Gemini Omni 1.2 Flash, a fast and cost-effective model with longer clip processing capabilities. The model offers significant improvements in performance and efficiency compared to previous versions.",
+      "id": "n-2026-11-09-4",
+      "title": "جيميني أومني 1.2 فلاش: سريع وفعال من حيث التكلفة مع مقاطع أطول",
+      "titleEn": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "summary": "أطلقت جوجل ديب ماين نموذج جيميني أومني 1.2 فلاش، الذي يتميز بالسرعة والكفاءة من حيث التكلفة وقدرة معالجة المقاطع الطويلة، مما يمثل تحسينًا كبيرًا في قدرات النموذج السابقة.",
+      "summaryEn": "Google DeepMind launched Gemini Omni 1.2 Flash, featuring speed, cost efficiency, and longer clip processing capabilities, representing a significant improvement over previous model versions.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -73,414 +73,385 @@
       "publishedAt": "2026-11-05"
     },
     {
-      "id": "n-2026-11-08-4",
-      "title": "شركة ريفولوت تخفض تكاليف البرمجة بنسبة 90% باستخدام نموذج GLM-5.3 الصيني",
-      "titleEn": "Revolut Cuts AI Coding Costs 90% With Chinese GLM-5.3 Model",
-      "summary": "أعلنت شركة ريفولوت المالية عن تقليلها لتكاليف البرمجة بنسبة 90% من خلال استضافة نموذج GLM-5.3 الصيني على خوادم NVIDIA B200. هذا يبرز التأثير العملي للنماذج مفتوحة المصدر في خفض التكاليف.",
-      "summaryEn": "Financial company Revolut announced reducing coding costs by 90% through self-hosting China's GLM-5.3 model on NVIDIA B200 servers. This highlights the practical impact of open-source models in cost reduction.",
-      "category": "tools",
-      "importance": 4,
-      "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tVlhwdmxDTll6dmlkWV9zX0pTSVNhTTZHLUJQS1BVM1JIV3VUUDVnVV9GZ1k5NjY0UDU2ZjIxMkw3MjRvUmtfajZLWjZ5ZXRRcDVBX0VOZjY1NXQxb3E4SUxrWFd6ZmZSMnVSZnpyUkhfZw?oc=5"
-      },
-      "publishedAt": "2026-11-04"
-    },
-    {
-      "id": "n-2026-11-08-6",
-      "title": "يبدأ اختبار الذكاء الاصطناعي في أبل في الصين مدعومًا بوين من علي بابا",
-      "titleEn": "Apple Intelligence Testing Begins in China Powered by Alibaba's Qwen",
-      "summary": "بدأ اختبار الذكاء الاصطناعي في أبل في الصين في 4 نوفمبر، مدعومًا بوين من علي بابا. هذا التطوير يمثل شراكة استراتيجية مهمة بين عملاق التكنولوجيا الأمريكي والصيني.",
-      "summaryEn": "Apple Intelligence testing began in China on November 4, powered by Alibaba's Qwen. This development represents an important strategic partnership between the American and Chinese tech giants.",
+      "id": "n-2026-11-09-6",
+      "title": "تعاون أبل مع علي بابا لتوفير الذكاء الاصطناعي في آيفون في الصين",
+      "titleEn": "Apple partners with Alibaba to provide AI in iPhones in China",
+      "summary": "بدأت أبل في اختبار أدوات الذكاء الاصطناعي المدعومة بواسطة Qwen من علي بابا في الصين، مع دمج Qwen AI في نظام iOS 27.3 بيتا، مما يمثل توسعًا مهمًا لوجود أبل في سوق الذكاء الاصطناعي الصيني.",
+      "summaryEn": "Apple began testing AI tools powered by Alibaba's Qwen in China, integrating Qwen AI into iOS 27.3 beta, representing an important expansion of Apple's presence in the Chinese AI market.",
       "category": "companies",
       "importance": 4,
       "source": {
         "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU2ROQlRSS3hpeURJRzJwY0FUNWlHNzlqUnVaRGlHS05yNWprNUEyV0NMVmYyVzZORUNUbnU1U0ZfMlY4c0t0NmFpbVUydWhxRXkzNGhpN2hVaEhHRGRxekhfUmdpSnpsY2VXQ2JvUlhUYVNxNTlZSy1JbkZmbHcwbzhOTUU4WUIzbzZGUGE0S2RBQQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR3lraDN3cHQ5OTRPSHlHWWJEN2lFZ01lbWxXLXBJeDZlblpxcjN6YWVtaGw3TE44Zy03TkVHNkJjOW5pdmJIdS1wQ1pxTGx3bDZIOVZKVWJ2NFdtQnM3OGRjejVWT3lSUVR2TnpnN1c4RzhTQ0h4ak1mS3M2VFVhQ0lMc3ZFN1BiVmhVZFZmMk1KQVRLcWc?oc=5"
       },
-      "publishedAt": "2026-11-02"
+      "publishedAt": "2026-11-04"
     },
     {
-      "id": "n-2026-11-08-7",
-      "title": "تعزز ديب سيك قدرات الوكلاء الذكية بوضع المبتكر",
-      "titleEn": "DeepSeek Enhances AI Agent Capabilities With Creator Mode",
-      "summary": "أعلنت شركة ديب سيك عن تعزيزها لعرض الوكلاء الذكية بوضع المبتكر الجديد الذي يسمح بإنشاء الإضافات من خلال الأوامر. هذا التطور يمثل تقدمًا كبيرًا في قدرات الوكلاء الذكية.",
-      "summaryEn": "DeepSeek announced enhancing its AI agent offering with a new Creator Mode that allows creating plugins from prompts. This development represents significant advancement in AI agent capabilities.",
-      "category": "tools",
+      "id": "n-2026-11-09-7",
+      "title": "منصة DeepSeek AI تتجاوز 1.54 مليون مستخدم يومي",
+      "titleEn": "DeepSeek AI platform exceeds 1.54 million daily users",
+      "summary": "أعلنت DeepSeek أن منصة الوكيل الاصطناعي الخاصة وصلت إلى 1.54 مليون مستخدم يومي، مما يدل على تبني واسع لتقنيات الذكاء الاصطناعي الصينية في مختلف القطاعات والمناطق.",
+      "summaryEn": "DeepSeek announced its AI agent platform has reached 1.54 million daily users, indicating widespread adoption of Chinese AI technologies across various sectors and regions.",
+      "category": "companies",
       "importance": 4,
       "source": {
         "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWDJicHpmUFp0QkVIcWJGSk14ekpmQkxFU0Fxd2l6MndNc2tSU1lROHo0dHQwUk1YcjJmUUU4R2g5NXM1WTlnaXpUZ1FTQXAtbXFLT1ZnVmJwRklLRUFacmNKTUVIb0Z6eWd2RUVMVVc3ZTVYcXhtTmlhdjE0WkVHT1VvOXlrTmdXaVpoRGVodm1raG5iamlXbnhncDJlRmpRRTU1ZGZ5TFNFQQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUXBLN3Nwd181RFJQQzBkdGo0TUFhbGZpQ1Zxb0dPWXBORHdzeG5US1ZIOGtGUTFfc2ZSVktjMktVMmtSOUZ0SkVkZ2s4cEJWWWgyQVpSRDVGTUlqWnJ6bjdybkhHaTM5czBaZXpvelNlNTZ4WUd4Y0trdk1RQlpxZXd1MFRMb0dSckw3SXpPU2RFWG9JTFlhOVcyVzVJNjFHaUpsUFNZTC10blFqVWc?oc=5"
       },
-      "publishedAt": "2026-11-02"
+      "publishedAt": "2026-11-08"
     },
     {
-      "id": "n-2026-11-08-8",
-      "title": "فاز جروك 4.20 من إكس إيه آي في منافسة التداول الحية",
-      "titleEn": "xAI's Grok 4.20 Wins Live Trading Showdown",
-      "summary": "فاز نموذج جروك 4.20 من إكس إيه آي في منافسة التداول الحية، متجاوزًا منتجات OpenAI وجوجل. هذا الإنجاز يبرز التفوق التنافسي لنماذج إكس إيه آي في مجال التمويل.",
-      "summaryEn": "xAI's Grok 4.20 won a live trading showdown, outperforming OpenAI and Google entries. This achievement highlights the competitive advantage of xAI's models in the finance domain.",
+      "id": "n-2026-11-09-8",
+      "title": "فوز Grok 4.20 من xAI في منافسة التداول المباشر",
+      "titleEn": "xAI's Grok 4.20 wins live trading showdown",
+      "summary": "حقق نموذج Grok 4.20 من xAI تفوقًا في منافسة التداول المباشر، متجاوزًا منافسيه من OpenAI وجوجل، مما يظهر التقدم الكبير في قدرات نماذج الذكاء الاصطناعي في تحليل الأسواق المالية.",
+      "summaryEn": "xAI's Grok 4.20 model outperformed competitors from OpenAI and Google in a live trading showdown, showing significant progress in AI model capabilities for financial market analysis.",
       "category": "models",
       "importance": 4,
       "source": {
         "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNYjlZeE13X0RldGUzVmxiSjVBVnRqd2VHaF9MQ0RPWlFxUlRuVDFUZjJhUFN6Rm1WZHJ6cHFNVU5xa0wwVWhSMDc0NHQtZExYVGtoSHc1N21yMzJtbGx2aTRVRE5IdTN0Z19hUDFSZHgxTkhEUlJwMW9zYnVWUU1hSnZnYnBhZVMxdU1tNERYVWtVSENCRWxBUU9yR0NTU0RyTHN2X0VmdF9tZGZCU2tUV1hxb001TC1oTC00LWxYVXBHUzNSWFBBZDhwX2xsX21RejhqLVFZNFpBOFVhYktz?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3hYUm9LaktUd2xnR3hTZE5hNmZTZ3FjcE1OVUdQQVA4Vm8weW0xUWc5MzVoRXgwanFTZ2hpOG15cnl0eG44aE9wVGtMZHVkYjVVcndtN013WFJXSFJ6T2NsUG4xdHZxQVZLZWY2eUlWQjltb2pjWDZjRVZrb0IxWnhzTTFJN1MxNkhLNi03S3NTZw?oc=5"
       },
-      "publishedAt": "2026-11-03"
+      "publishedAt": "2026-11-07"
     },
     {
-      "id": "n-2026-11-08-10",
-      "title": "تم العثور على مئات أدوات القرصنة Artex AI معرضة للويب",
-      "titleEn": "Hundreds of Artex AI Hacking Tools Found Exposed",
-      "summary": "وجد الباحثون الأمنيون مئات الخوادم التي تستضيف أدوات اختراق Artex AI معرضة للويب. هذا الكشف يبرز مخاطر أمنية متزايدة في أدوات الاختراق القائمة على الذكاء الاصطناعي.",
-      "summaryEn": "Security researchers found hundreds of servers hosting Artex AI penetration testing tools exposed to the web. This discovery highlights growing security risks in AI-based penetration tools.",
-      "category": "other",
-      "importance": 4,
+      "id": "n-2026-11-09-9",
+      "title": "حصول Claude Fable 5.2 على 65 نقطة في التحليل الاصطناعي",
+      "titleEn": "Claude Fable 5.2 scores 65 on Artificial Analysis",
+      "summary": "حصل نموذج Claude Fable 5.2 من أنثروبيك على 65 نقطة في اختبار التحليل الاصطناعي، وهو أعلى درجة مسجلة حتى الآن، مما يدل على التقدم المستمر في قدرات نماذج الذكاء الاصطناعي في فهم السياقات المعقدة.",
+      "summaryEn": "Anthropic's Claude Fable 5.2 model scored 65 on the Artificial Analysis test, the highest score recorded to date, indicating continued progress in AI model capabilities for understanding complex contexts.",
+      "category": "models",
+      "importance": 3,
       "source": {
-        "name": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+        "name": "Hacker News",
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
       },
-      "publishedAt": "2026-11-06"
+      "publishedAt": "2026-11-09"
     },
     {
-      "id": "n-2026-11-08-11",
-      "title": "النماذج الصينية المجانية تصبح جيدة في القرصنة",
-      "titleEn": "Free Chinese AI Models Getting Good at Hacking",
-      "summary": "أظهرت النماذج الصينية المجانية قدرات متزايدة في مجال القرصنة، مما يثير مخاوف أمنية متزايدة. هذه التطورات تبرز التحديات الأمنية الناشئة عن تقدم الذكاء الاصطناعي.",
-      "summaryEn": "Free Chinese AI models are showing increasing capabilities in hacking, raising growing security concerns. These developments highlight the emerging security challenges from AI advancement.",
-      "category": "other",
-      "importance": 4,
+      "id": "n-2026-11-09-10",
+      "title": "توجيه جوجل جيميني لملفات Drive الشخصية لمُلَّفين بشريين",
+      "titleEn": "Google Gemini routes personal Drive files to human annotators",
+      "summary": "كشفت تقارير أن جوجل جيميني يقوم بتوجيه ملفات Drive الشخصية والرسائل البريدية إلى مُلَّفين بشريين للاشراف، مما يثير مخاوف حول خصوصية المستخدمين وأمن بياناتهم.",
+      "summaryEn": "Reports revealed that Google Gemini routes personal Drive files and emails to human annotators for supervision, raising concerns about user privacy and data security.",
+      "category": "regulation",
+      "importance": 3,
       "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMG5JWUNJdnMzazNQLVpVaTN5TS0xTEdHMU5wT3VFT0hnN2paNE9GV3ppSHhTVFQ3cTJ5WjhrOEJiX1lQMUNaa0ROMGlfYW9qeXNTejFSRjRWMXdxQnlhb2k5Zk9LS3RVd0NUZTFFSHRUWmQ4a0UtMXNlZHhVZVhKZUl3aWxoa2pLbmdHZTRR?oc=5"
+        "name": "Hacker News",
+        "url": "https://github.com/thisisme6598/gemini_files/"
       },
-      "publishedAt": "2026-11-06"
+      "publishedAt": "2026-11-09"
     }
   ],
   "models": [
     {
-      "id": "m-2026-11-08-1",
+      "id": "m-2026-11-09-1",
       "name": "GPT-6 Cyber",
       "org": "OpenAI",
       "releaseDate": "2026-11-05",
-      "highlights": "نموذج متخصص في الأمن السيبراني مصمم لاكتشاف الثغرات القابلة للاستغلال في الأنظمة. يمثل تقدمًا كبيرًا في مجال الوكلاء الأمنيين المتوافقين.",
-      "highlightsEn": "A specialized cybersecurity model designed to find exploitable vulnerabilities in systems. Represents significant advancement in aligned cybersecurity agents.",
+      "highlights": "نموذج متخصص في الأمن السيبراني مصمم لاكتشاف الثغرات القابلة للاستغلال في البرمجيات والأنظمة",
+      "highlightsEn": "Specialized cybersecurity model designed to find exploitable vulnerabilities in software and systems",
       "specs": {
         "context": "1M"
       },
       "url": "https://openai.com/index/introducing-gpt-6-cyber"
     },
     {
-      "id": "m-2026-11-08-2",
+      "id": "m-2026-11-09-2",
       "name": "Gemini Omni 1.2 Flash",
       "org": "Google DeepMind",
       "releaseDate": "2026-11-05",
-      "highlights": "نموذج سريع ومكلفة أقل مع قدرة على معالجة مقاطع أطول. يوفر تحسينات كبيرة في الأداء والكفاءة مقارنة بالإصدارات السابقة.",
-      "highlightsEn": "A fast and cost-effective model with longer clip processing capabilities. Offers significant improvements in performance and efficiency compared to previous versions.",
+      "highlights": "نموذج سريع وفعال من حيث التكلفة مع قدرة معالجة المقاطع الطويلة",
+      "highlightsEn": "Fast and cost-effective model with longer clip processing capabilities",
       "specs": {
         "context": "1M"
       },
       "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
     },
     {
-      "id": "m-2026-11-08-3",
-      "name": "Voxtral 3",
-      "org": "Mistral AI",
-      "releaseDate": "2026-10-20",
-      "highlights": "نموذج وكيل يمكنه الاستماع، والتفكير، والكلام، والعمل. يمثل تقدمًا كبيرًا في قدرات الوكلاء متعددة الوظائف.",
-      "highlightsEn": "An agent model that can listen, reason, speak, and act. Represents significant advancement in multi-functional agent capabilities.",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://mistral.ai/news/voxtral-3/"
-    },
-    {
-      "id": "m-2026-11-08-4",
-      "name": "Timestral",
-      "org": "Mistral AI",
-      "releaseDate": "2026-10-20",
-      "highlights": "نموذج احتمالي متقدم يتطلب فقط 209 مليون معامل، ويتفوق على النماذج الأكبر على وحدات المعالجة المركزية. يوفر تنبؤات احتمالية متطورة.",
-      "highlightsEn": "A state-of-the-art probabilistic model requiring only 209M parameters, outperforming larger models on CPU. Provides advanced probabilistic forecasts.",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://mistral.ai/news/timestral/"
-    },
-    {
-      "id": "m-2026-11-08-5",
-      "name": "Mistral Large 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-10-06",
-      "highlights": "أحدث إصدار من نموذج Mistral Large الكبير، مع تحسينات كبيرة في الفهم والاستدلال والقدرة على متابعة التعليمات.",
-      "highlightsEn": "Latest version of the large Mistral Large model, with significant improvements in understanding, reasoning, and instruction-following capabilities.",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://mistral.ai/news/mistral-large-4/"
-    },
-    {
-      "id": "m-2026-11-08-6",
+      "id": "m-2026-11-09-3",
       "name": "Kimi K3.1 Pro",
-      "org": "Moonshot AI",
+      "org": "Moonshot",
       "releaseDate": "2026-11-05",
-      "highlights": "نموذج مفتوح المصدر يضم 2.8 تريليون معامل، مما يجعله واحدًا من أكبر النماذج المتاحة. يتفوق على OpenAI في معايير البحث المالي.",
-      "highlightsEn": "An open-source model with 2.8 trillion parameters, making it one of the largest available models. Outperforms OpenAI on financial research benchmarks.",
+      "highlights": "نموذج مفتوح المصدر يضم 2.8 تريليون معامل، متفوق على OpenAI في معايير البحث المالي",
+      "highlightsEn": "Open-source model with 2.8 trillion parameters, outperforming OpenAI on financial research benchmarks",
       "specs": {
-        "context": "1M"
+        "context": "2M"
       },
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3ZqcjR1SkNXOHhVeXNqeWQ4dW5WZ2hOeENPcFlFaUZzbXAzQXVfYlZjU3Flc1k2aFRGRF94NWtGN2ozY2VVU1VmT2lSc0Q5MDZRM2Y5U0F6Q1RLM3JJSTZiUHhxajdDU0FXRVlCWFRPbWZoQ01JTzRGRGdKZzVsZUstNzBBNkUt?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFNjQ1dJbHRhTDg0d1ZBYzVlUHI4M1lMeXp4Unk5QThnUVJwd1VuTTlsZmhJVGJQbW1WMkVKWkRSNHRFMV94eFpfcnJkMW0xZ01OYUFDWU1Td3lobzBYX0tJWXRmLWVZQ3Q3WFROTlBReDRVM3FmMHJKckgwaWJLUmtNTW1GRXZwMEQwdkJsSQ?oc=5"
+    },
+    {
+      "id": "m-2026-11-09-4",
+      "name": "GLM-5.5",
+      "org": "Z.ai",
+      "releaseDate": "2026-11-08",
+      "highlights": "نموذج صيني متقدم لم يتم إطلاقه رسميًا، مع قدرات محسنة في فهم السياقات المعقدة",
+      "highlightsEn": "Advanced Chinese model that wasn't officially launched, with enhanced capabilities for understanding complex contexts",
+      "specs": {
+        "context": "2M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE93VUo2SU45Wnc0RXc0OGVSSzRZWGFXaXlHdjg3ZktkSFFBMks0RFpIX1pITW8xa0ZDY3UzZUdObXlDZw?oc=5"
+    },
+    {
+      "id": "m-2026-11-09-5",
+      "name": "Qwen 4",
+      "org": "Alibaba/Qwen",
+      "releaseDate": "2026-11-06",
+      "highlights": "نموذج جديد من علي بابا يجري اختباراته على أجهزة iPhone في الصين",
+      "highlightsEn": "New model from Alibaba being tested on iPhones in China",
+      "specs": {
+        "context": "2M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBfTjduVmhuVzQ2N1p5Z0RvMHJOWVBMbkk4ZnBRQ3lLdnlmZnpXajZ0UV9RakZtdllEN1BsaC1OTXo?oc=5"
+    },
+    {
+      "id": "m-2026-11-09-6",
+      "name": "DeepSeek V5",
+      "org": "DeepSeek",
+      "releaseDate": "2026-11-05",
+      "highlights": "الجيل القادم من النماذج سيتم تدريبه من الصفر على رقائق Ascend 950DT من هواوي",
+      "highlightsEn": "Next-generation model to be trained from scratch on Huawei's Ascend 950DT chips",
+      "specs": {
+        "context": "2M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MZDQ0aF91RzQ2OV8zOWlpcWt5QzItZXgxeGpRTk8wWGZNZmRJX29DUE5nT0VaNEI5cXFkM2ZfSHcyNElHNEhB?oc=5"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-11-08-1",
-      "text": "جمعت OpenAI 11 مليار دولار في جولة التمويل الأخيرة، مما رفع تقييمها إلى 1.25 تريليون دولار",
-      "textEn": "OpenAI raised $11 billion in its latest funding round, valuing the company at $1.25 trillion",
+      "id": "h-2026-11-09-1",
+      "text": "تقدمت أنثروبيك بملف S-1 للجنة الأوراق المالية والبورصات (SEC) للاكتتاب العام الأولي المحتمل",
+      "textEn": "Anthropic filed S-1 with the SEC for a potential initial public offering",
       "level": "info",
-      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/"
+      "url": "https://www.anthropic.com/news/s1-sec"
     },
     {
-      "id": "h-2026-11-08-2",
-      "text": "تتعاون أبل مع علي بابا لتوفير الذكاء الاصطناعي في آيفون في الصين، بدءًا من 4 نوفمبر",
-      "textEn": "Apple partners with Alibaba to bring AI to iPhones in China, starting November 4",
+      "id": "h-2026-11-09-2",
+      "text": "افتتحت مISTRAL مكتبًا لها في ميونخ بألمانيا لتعزيز الذكاء الاصطناعي الصناعي في أكبر اقتصاد في أوروبا",
+      "textEn": "Mistral opened a hub in Munich, Germany to advance industrial AI in Europe's largest economy",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU2ROQlRSS3hpeURJRzJwY0FUNWlHNzlqUnVaRGlHS05yNWprNUEyV0NMVmYyVzZORUNUbnU1U0ZfMlY4c0t0NmFpbVUydWhxRXkzNGhpN2hVaEhHRGRxekhfUmdpSnpsY2VXQ2JvUlhUYVNxNTlZSy1JbkZmbHcwbzhOTUU4WUIzbzZGUGE0S2RBQQ?oc=5"
+      "url": "https://mistral.ai/news/hallo-deutschland/"
     },
     {
-      "id": "h-2026-11-08-3",
-      "text": "أطلقت مونشوت أوزان نموذج كيمي K3.1 برو المكون من 2.8 تريليون معامل، مما يجعله أكبر نموذج مفتوح المصدر متاح",
-      "textEn": "Moonshot released the weights for the 2.8 trillion parameter Kimi K3.1 Pro model, making it the largest open-source model available",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3ZqcjR1SkNXOHhVeXNqeWQ4dW5WZ2hOeENPcFlFaUZzbXAzQXVfYlZjU3Flc1k2aFRGRF94NWtGN2ozY2VVU1VmT2lSc0Q5MDZRM2Y5U0F6Q1RLM3JJSTZiUHhxajdDU0FXRVlCWFRPbWZoQ01JTzRGRGdKZzVsZUstNzBBNkUt?oc=5"
+      "id": "h-2026-11-09-3",
+      "text": "تخطط DeepSeek لتدريب نموذجها القادم V5 من الصفر على رقائق Ascend من هواوي، مما يمرد خطوة نحو السيطرة الكاملة على سلسلة التوريد الذكاء الاصطناعي",
+      "textEn": "DeepSeek plans to train its next V5 model from scratch on Huawei's Ascend chips, representing a step toward full-stack AI dominance",
+      "level": "warning",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxObF96OFBiUDBpNUFsWHNJZXltVm9SaGxhN2h0dXRpWUVoR181bzNFNGVBaVkzS1pqZFVUcWVBanlpNHFBQ3FtbmFxQk5rM3FqVzZtOUd3bU5TV0pBUlRFVE9xdmRkYkRsMy10V2lYeXVpT2FHcDI5YU15SnltbzdCaTJ6QkJNYlM5eVdZU0w5ZnFjb05DY2I4amh0NzNOTnZXWWR4aWRaSE9IbGxHMG9OY0l5QnVzMDVBdjM5UmFlLWthXy1MelE4UlRwbWlHZTkxSldiWlZmSExOSFNEcDZVTzQwN1RiNDR3aFgwSU02T2JCSXQxNGpSNF9zQ1hyUEhm0gGGAkFVX3lxTE1KaWZ0MExPN29hMUNCZzVNZ2l2LTdkVFpBQVVMUGEyYnk5bm9JQzlCWHlYSGxqVU9YbnIxOElsVGtYZ3hHMXdGalJvUlowc2dwSUxvWnR0MnZvclFGbEY5aDdGOUwxZGNJSXNhMXFYYWFkZ3FKNVZLdDlQUmxsR01CRWYtVk9xcmNQd1dTdDdxV2I3RlZSdEQ0aDk5QWpJRjc3MkY0TXVPZTkyN3kxa1B3T180LS1DZDdJVEpzSlhlTFZGZGRFQ294NG1sVXJyLU9IRXFHRi1JZEFxVGdJODhLbjdZYm10QnF6ZEJXWmZicEZfdWpDWjdtU1NyZWp3WFJHS3RaZnc?oc=5"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-11-08-1",
-      "title": "مئات أدوات القرصنة Artex AI معرضة للويب",
-      "titleEn": "Hundreds of Artex AI Hacking Tools Exposed",
-      "summary": "وجد الباحثون الأمنيون مئات الخوادم التي تستضيف أدوات اختراق Artex AI معرضة للويب، مما يسمح لأي شخص بالوصول إلى أدوات القرصنة المتقدمة. هذا الكشف يبرز مخاطر أمنية متزايدة في أدوات الاختراق القائمة على الذكاء الاصطناعي.",
-      "summaryEn": "Security researchers found hundreds of servers hosting Artex AI penetration testing tools exposed to the web, allowing anyone to access advanced hacking tools. This discovery highlights growing security risks in AI-based penetration tools.",
+      "id": "sec-2026-11-09-1",
+      "title": "شراكة OpenAI مع هاكترون لاكتشاف الثغرات الأمنية",
+      "titleEn": "OpenAI partnership with Hacktron for vulnerability discovery",
+      "summary": "أعلنت OpenAI عن شراكتها مع هاكترون لاكتشاف الثغرات الأمنية في أنظمتها وتجارب الاتصال مع الأطراف الثالثة، مما يمثل خطوة استباقية لتعزيز أمن منصات الذكاء الاصطناعي.",
+      "summaryEn": "OpenAI announced its partnership with Hacktron to find vulnerabilities in its systems and test connections with third parties, representing a proactive step to enhance AI platform security.",
       "type": "breach",
       "severity": "warning",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "source": "TechCrunch AI",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI",
       "date": "2026-11-06"
     },
     {
-      "id": "sec-2026-11-08-2",
-      "title": "النماذج الصينية المجانية تصبح جيدة في القرصنة",
-      "titleEn": "Free Chinese AI Models Getting Good at Hacking",
-      "summary": "أظهرت النماذج الصينية المجانية مثل كيمي وديب سيك قدرات متزايدة في مجال القرصنة، بما في ذلك استغلال الثغرات وتجاوز آليات الأمان. هذه التطورات تبرز التحديات الأمنية الناشئة عن تقدم الذكاء الاصطناعي.",
-      "summaryEn": "Free Chinese models like Kimi and DeepShow are showing increasing hacking capabilities, including exploiting vulnerabilities and bypassing security mechanisms. These developments highlight emerging security challenges from AI advancement.",
+      "id": "sec-2026-11-09-2",
+      "title": "نماذج الذكاء الاصطناعي الصينية تصبح جيدة في الاختراق",
+      "titleEn": "Chinese AI models becoming proficient at hacking",
+      "summary": "أظهرت النماذج الصينية المجانية مثل كيمي وديب سيك قدرات متزايدة في مجال الاختراق الأمني، مما يثير مخاوف حول استخدام هذه التقنيات لأغراض خبيثة.",
+      "summaryEn": "Chinese free models like Kimi and DeepSeek show increasing capabilities in hacking, raising concerns about potential malicious use of these technologies.",
       "type": "malware",
-      "severity": "critical",
+      "severity": "warning",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMG5JWUNJdnMzazNQLVpVaTN5TS0xTEdHMU5wT3VFT0hnN2paNE9GV3ppSHhTVFQ3cTJ5WjhrOEJiX1lQMUNaa0ROMGlfYW9qeXNTejFSRjRWMXdxQnlhb2k5Zk9LS3RVd0NUZTFFSHRUWmQ4a0UtMXNlZHhVZVhKZUl3aWxoa2pLbmdHZTRR?oc=5",
       "source": "DeepSeek (news)",
       "date": "2026-11-06"
     },
     {
-      "id": "sec-2026-11-08-3",
-      "title": "نموذج Le Chonk: مخصص للمبرمجين وموثوق من قبل المدافعين",
-      "titleEn": "Le Chonk Model: Built for Coders, Trusted by Defenders",
-      "summary": "أطلقت Mistral AI أوزان نموذج Le Chonk، الذي يمثل تقدمًا في نماذج مفتوحة المصدر في مجال الوكلاء الأمنيين. النموذج مصمم لاكتشاف الثغرات وتحسين الأمان.",
-      "summaryEn": "Mistral AI released the weights of Le Chonk model, advancing open models in the security agents domain. The model is designed for vulnerability detection and security enhancement.",
-      "type": "jailbreak",
-      "severity": "warning",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "source": "Mistral AI",
-      "date": "2026-11-08"
+      "id": "sec-2026-11-09-3",
+      "title": "الذكاء الاصطناعي يكتشف الثغرات البرمجية",
+      "titleEn": "AI discovering software vulnerabilities",
+      "summary": "أظهرت الدراسات أن الذكاء الاصطناعي قادر على اكتشاف حوالي 3% من الثغرات الحرجة في البرمجيات، مما يمثل تطورًا مهمًا في أمن البرمجيات.",
+      "summaryEn": "Studies show AI can discover about 3% of critical software vulnerabilities, representing an important development in software security.",
+      "type": "breach",
+      "severity": "info",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-02"
     },
     {
-      "id": "sec-2026-11-08-4",
-      "title": "نموذج Markov المخفي للتنبؤ بأفعاء الخصوم",
-      "titleEn": "Hidden Markov Model for Adversary Action Prediction",
-      "summary": "طور الباحثون نموذج Markov المخفي للتنبؤ بأفعاء المهاجمين، مما يوفر توزيعًا احتماليًا على إجراءات المهاجم. هذا النموذج يمكن المدافعين من التنبؤ والاستجابة للهجمات بشكل أفضل.",
-      "summaryEn": "Researchers developed a Hidden Markov Model for predicting adversary actions, providing a probability distribution over attacker behaviors. This model helps defenders predict and respond to attacks better.",
-      "type": "prompt-injection",
+      "id": "sec-2026-11-09-4",
+      "title": "مؤتمر [un]prompted لأمن الذكاء الاصطناعي",
+      "titleEn": "[un]prompted AI security conference",
+      "summary": "عقد مؤتمر [un]prompted لأمن الذكاء الاصطناعي في سان فرانسيسكو، والذي ركز على أحدث التهديدات الأمنية واستراتيجيات الدفاع في عالم الذكاء الاصطناعي.",
+      "summaryEn": "The [un]prompted AI security conference was held in San Francisco, focusing on the latest security threats and defense strategies in the AI world.",
+      "type": "policy",
       "severity": "info",
-      "url": "https://arxiv.org/abs/2611.08445v1",
-      "source": "arXiv",
-      "date": "2026-11-05"
+      "url": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "sec-2026-11-09-5",
+      "title": "توجيه جوجل جيميني لملفات Drive الشخصية لمُلَّفين بشريين",
+      "titleEn": "Google Gemini routes personal Drive files to human annotators",
+      "summary": "كشفت تقارير أن جوجل جيميني يقوم بتوجيه ملفات Drive الشخصية والرسائل البريدية إلى مُلَّفين بشريين للاشراف، مما يثير مخاوف حول خصوصية المستخدمين وأمن بياناتهم.",
+      "summaryEn": "Reports revealed that Google Gemini routes personal Drive files and emails to human annotators for supervision, raising concerns about user privacy and data security.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "source": "Hacker News",
+      "date": "2026-11-09"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-11-08",
+    "asOf": "2026-11-09",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
       {
+        "name": "Claude Fable 5.2",
+        "org": "Anthropic",
+        "score": "61.3"
+      },
+      {
+        "name": "Claude Mythos 5.2",
+        "org": "Anthropic",
+        "score": "59.6"
+      },
+      {
         "name": "Claude Opus 5.5",
         "org": "Anthropic",
-        "score": "59.9"
+        "score": "58.9"
       },
       {
         "name": "Gemini 4 Carbon",
         "org": "Google",
-        "score": "58.8"
+        "score": "57.5"
       },
       {
         "name": "Claude Sonnet 5.5",
         "org": "Anthropic",
-        "score": "57.9"
+        "score": "57.2"
       },
       {
         "name": "GPT-6 Astra",
         "org": "OpenAI",
-        "score": "57.3"
+        "score": "56.8"
       },
       {
         "name": "Kimi K3.1 Pro",
         "org": "Moonshot AI",
-        "score": "55.6"
-      },
-      {
-        "name": "Gemini 4 Argon 2",
-        "org": "Google",
-        "score": "54.4"
+        "score": "55.1"
       },
       {
         "name": "Claude Mythos Preview",
         "org": "Anthropic",
-        "score": "54.3"
+        "score": "53.9"
       },
       {
-        "name": "Claude Opus 5",
-        "org": "Anthropic",
-        "score": "53.4"
+        "name": "Gemini 4 Argon",
+        "org": "Google",
+        "score": "53.8"
       },
       {
-        "name": "GPT-6.1 Sol 3",
+        "name": "GPT-6.1 Sol",
         "org": "OpenAI",
-        "score": "53.4"
-      },
-      {
-        "name": "Muse Wonder Full 1",
-        "org": "Meta",
         "score": "53.1"
       }
     ],
-    "highlights": "يحتل Claude Opus 5.5 المركز الأول حالياً بنتيجة 59.9، بينما هناك منافسة قوية بين Gemini 4 Carbon و Claude Sonnet 5.5 في المراكز الثانية والثالثة. تبرز نماذج Claude بشكل واضح في الترتيب حيث تحتل 4 من أفضل 6 مراكز.",
-    "highlightsEn": "Claude Opus 5.5 currently leads with a score of 59.9, while there's tight competition between Gemini 4 Carbon and Claude Sonnet 5.5 for second and third place. Claude models prominently dominate the rankings, occupying 4 of the top 6 positions."
+    "highlights": "تسيطر شركة Anthropic على قائمة الترتيب الأعلى بنماذج متعددة، بينما تظهر منافسة قوية بين النماذج الجديدة والمؤسسة، مع ظهور نماذج جديدة مُعلنة بـ 'NEW' في المراكز المتقدمة.",
+    "highlightsEn": "Anthropic dominates the top rankings with multiple models, while there's strong competition between new and established models, with newly announced models marked 'NEW' in top positions."
   },
   "knowledgeEntry": {
-    "id": "k-2026-11-08-ضبط-النماذج-المسبقة-للتخصصات-المحددة",
-    "title": "ضبط النماذج المسبقة للتخصصات المحددة",
-    "titleEn": "Fine-tuning Pre-trained Models for Specialized Tasks",
-    "why": "يسمح لك ضبط النماذج المسبقة بتخصيص نماذج الذكاء الاصطناعي العملاقة لمهام محددة ومجالات متخصصة، مما يحسن الدقة والفعالية بشكل كبير في تطبيقات محددة.",
-    "whyEn": "Fine-tuning pre-trained models allows you to adapt large AI models for specific tasks and domains, significantly improving accuracy and effectiveness in specialized applications.",
-    "difficulty": "intermediate",
-    "track": "building",
+    "id": "k-2026-11-09-أساسيات-أمن-الذكاء-الاصطناعي",
+    "title": "أساسيات أمن الذكاء الاصطناعي",
+    "titleEn": "AI Safety Basics",
+    "why": "فهم أساسيات أمن الذكاء الاصطناعي ضروري لضمان استخدام هذه التقنيات بشكل آمن ومسؤول.",
+    "whyEn": "Understanding AI safety basics is essential for ensuring the responsible and secure use of these technologies.",
+    "difficulty": "beginner",
+    "track": "security",
     "steps": [
       {
-        "title": "اختيار النموذج المناسب",
-        "detail": "اختر نموذجاً مسبقاً يتوافق مع مهمتك ومجالك."
+        "title": "مقدمة لأمن الذكاء الاصطناعي",
+        "detail": "تعريف مفاهيم أساسية مثل المخاطر المحتملة، والاستخدام الآمن، والحدود الأخلاقية لنماذج الذكاء الاصطناعي."
       },
       {
-        "title": "تحضير مجموعة البيانات",
-        "detail": "أنشئ مجموعة بيانات عالية الجودة ومصنفة بشكل صحيح لمهمتك."
+        "title": "المخاطر الرئيسية لنماذج الذكاء الاصطناعي",
+        "detail": "تحديد المخاطر مثل التحيز في البيانات، والاستخدام الخاطئ، والآثار غير المقصودة، والاستغلال الضار."
       },
       {
-        "title": "ضبط المعلمات",
-        "detail": "حدد المعلمات المناسبة لعملية الضبط مثل معدل التعلم وحجم الدفعة."
+        "title": "استراتيجيات الحماية الأساسية",
+        "detail": "تطبيق تدابير مثل التحقق من المدخلات، قيود النطاق، اختبار الحالات الحدودية، والمراقبة المستمرة."
       },
       {
-        "title": "تدريب النموذج",
-        "detail": "قم بتدريب النموذج على مجموعة بياناتك مع مراقبة الأداء."
-      },
-      {
-        "title": "تقييم النموذج",
-        "detail": "اختبر النموذج الضبط على مجموعة بيانات منفصلة لتقييم أدائه."
-      },
-      {
-        "title": "نشر النموذج",
-        "detail": "قم بنشر النموذج الضبط في بيئتك التشغيلية."
+        "title": "أفضل الممارسات لتطبيق أمن الذكاء الاصطناعي",
+        "detail": "إنشاء سياسات واضحة، تدريب المستخدمين، مراقبة الأداء، وتحديث النماذج بانتظام."
       }
     ],
     "stepsEn": [
       {
-        "title": "Select the appropriate model",
-        "detail": "Choose a pre-trained model that aligns with your task and domain."
+        "title": "Introduction to AI Safety",
+        "detail": "Define basic concepts like potential risks, safe use, and ethical boundaries of AI models."
       },
       {
-        "title": "Prepare the dataset",
-        "detail": "Create a high-quality, properly labeled dataset for your specific task."
+        "title": "Key Risks of AI Models",
+        "detail": "Identify risks such as data bias, misuse, unintended consequences, and harmful exploitation."
       },
       {
-        "title": "Configure parameters",
-        "detail": "Set appropriate parameters for the fine-tuning process like learning rate and batch size."
+        "title": "Basic Protection Strategies",
+        "detail": "Implement measures like input validation, scope constraints, edge case testing, and continuous monitoring."
       },
       {
-        "title": "Train the model",
-        "detail": "Train the model on your dataset while monitoring performance."
-      },
-      {
-        "title": "Evaluate the model",
-        "detail": "Test the fine-tuned model on a separate dataset to assess performance."
-      },
-      {
-        "title": "Deploy the model",
-        "detail": "Deploy the fine-tuned model in your production environment."
+        "title": "Best Practices for AI Security Implementation",
+        "detail": "Create clear policies, train users, monitor performance, and update models regularly."
       }
     ],
-    "code": "python\nfrom transformers import AutoModelForSequenceClassification, Trainer, TrainingArguments\nfrom datasets import load_dataset\n\n# Load pre-trained model and dataset\nmodel = AutoModelForSequenceClassification.from_pretrained(\"bert-base-uncased\")\ndataset = load_dataset(\"your_dataset_name\")\n\n# Define training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    evaluation_strategy=\"epoch\"\n)\n\n# Create trainer and fine-tune\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=dataset[\"train\"],\n    eval_dataset=dataset[\"validation\"]\n)\n\ntrainer.train()",
+    "code": "def validate_input(user_input):\n    # Basic input validation example\n    if len(user_input) > 1000:\n        raise ValueError(\"Input exceeds maximum length\")\n    if any(keyword in user_input.lower() for keyword in [\"hack\", \"exploit\", \"attack\"]):\n        raise ValueError(\"Potentially harmful content detected\")\n    return True",
     "resources": [
       {
-        "name": "Hugging Face Fine-tuning Documentation",
-        "url": "https://huggingface.co/docs/transformers/training"
+        "name": "OpenAI's AI Safety Guidelines",
+        "url": "https://openai.com/safety"
       },
       {
-        "name": "Stanford CS224n: NLP with Deep Learning",
-        "url": "https://web.stanford.edu/class/cs224n/"
+        "name": "Anthropic's Constitutional AI Paper",
+        "url": "https://arxiv.org/abs/2212.08073"
       },
       {
-        "name": "DeepLearning.AI Fine-tuning Models Course",
-        "url": "https://www.deeplearning.ai/short-courses/"
+        "name": "Partnership on AI's Safety Resources",
+        "url": "https://partnershiponai.org/resources/"
       }
     ],
     "tags": [
-      "ضبط النماذج",
-      "نماذج مسبقة",
-      "تخصيص الذكاء الاصطناعي",
-      "تعلم الآلة"
+      "أمن الذكاء الاصطناعي",
+      "سلامة النماذج",
+      "المسؤولية",
+      "الحماية"
     ],
-    "quickRef": "ضبط النماذج المسبقة: اختيار نموذج جاهز، تحضير بيانات عالية الجودة، ضبط المعلمات، التدريب، التقييم، النشر.",
-    "quickRefEn": "Fine-tuning pre-trained models: Select a base model, prepare high-quality data, configure parameters, train, evaluate, deploy.",
+    "quickRef": "تحقق من المدخلات، قيّد النطاق، اختبر النماذج بانتظام، وحدّد السياسات الواضحة.",
+    "quickRefEn": "Validate inputs, constrain scope, test models regularly, and establish clear policies.",
     "quiz": [
       {
-        "q": "ما هو أول خطوة في عملية ضبط النموذج المسبق؟",
+        "q": "ما هو أهم عنصر في أمن الذكاء الاصطناعي؟",
         "options": [
-          "نشر النموذج",
-          "اختيار النموذج المناسب",
-          "تقييم النموذج",
-          "تحضير مجموعة البيانات"
-        ],
-        "answer": 1,
-        "explain": "اختيار النموذج المناسب هو أول خطوة في عملية ضبط النموذج المسبق."
-      },
-      {
-        "q": "ما هو العامل الأهم في نجاح عملية ضبط النموذج؟",
-        "options": [
-          "سرعة المعالج",
-          "جودة مجموعة البيانات",
-          "حجم الذاكرة",
-          "عدد النماذج المستخدمة"
-        ],
-        "answer": 1,
-        "explain": "جودة مجموعة البيانات هي العامل الأهم في نجاح عملية ضبط النموذج."
-      },
-      {
-        "q": "ما هو الغرض من تقييم النموذج بعد عملية الضبط؟",
-        "options": [
-          "زيادة سرعة المعالجة",
-          "تقليل استهلاك الطاقة",
-          "التأكد من أن النموذج يعمل بشكل صحيح على بيانات جديدة",
-          "تقليل حجم النموذج"
+          "السرعة",
+          "الدقة",
+          "التحقق من المدخلات",
+          "التكلفة"
         ],
         "answer": 2,
-        "explain": "التقيوم يهدف للتحقق من أداء النموذج على بيانات جديدة بعد عملية الضبط."
+        "explain": "التحقق من المدخلات هو أساس أمن الذكاء الاصطناعي لمنع الاستخدام الخاطئ أو الضار."
+      },
+      {
+        "q": "أي من الاستراتيجيات التالية تساعد في تقييم سلامة نموذج الذكاء الاصطناعي؟",
+        "options": [
+          "اختبار النموذج فقط بيانات التدريب",
+          "استخدام مجموعة متنوعة من حالات الاختبار",
+          "تجنب اختبار الحالات المتطرفة",
+          "الاعتماد على نتائج التدريب فقط"
+        ],
+        "answer": 1,
+        "explain": "استخدام مجموعة متنوعة من حالات الاختبار يساعد في تقييم أداء النموذج في سيناريوهات مختلفة وتحديد نقاط الضعف المحتملة."
       }
     ],
-    "addedAt": "2026-11-08"
+    "addedAt": "2026-11-09"
   }
 }
