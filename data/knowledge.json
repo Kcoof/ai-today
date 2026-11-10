@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-10-هندسة-أوامر-الذكاء-الاصطناعي-لتحسين-الاستجابات",
+      "title": "هندسة أوامر الذكاء الاصطناعي لتحسين الاستجابات",
+      "titleEn": "Prompt Engineering for Better AI Responses",
+      "why": "هندسة الأوامر (Prompt Engineering) هي مهارة أساسية لتحقيق أقصى استفادة من نماذج الذكاء الاصطناعي. تعلم هذه المهارة يسمح لك بالحصول على استجابات أكثر دقة وفعالية من النماذج، مما يوفر الوقت ويحسن جودة العمل.",
+      "whyEn": "Prompt engineering is an essential skill for maximizing the value of AI models. Learning this skill enables you to obtain more accurate and effective responses from models, saving time and improving work quality.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "تحديد الهدف بوضوح",
+          "detail": "حدد بوضوح ما تريد تحقيقه من خلال الأمر. استخدم لغة دقيقة وتفصيلية لوصف المهمة المطلوبة."
+        },
+        {
+          "title": "تحديد دور النموذج",
+          "detail": "حدد دور النموذج بوضوح، مثل 'كن خبيرًا في التسويق' أو 'تصرف كمحلل بيانات'، لمساعدة النموذج على فهم السياق."
+        },
+        {
+          "title": "توفير السياق الكافي",
+          "detail": "قدم معلومات كافية عن السياق، بما في ذلك أي معلومات سابقة أو إرشادات محددة يجب على النموذج اتباعها."
+        },
+        {
+          "title": "تحديد تنسيق المخرجات",
+          "detail": "حدد كيف تريد أن تكون مخرجات النموذج، مثل 'قدم الإجابة في شكل قائمة مرقمة' أو 'استخدم جدولًا لعرض النتائج'."
+        },
+        {
+          "title": "التكرار والتحسين",
+          "detail": "جرب أوامر مختلفة وقم بتحسينها بناءً على الاستجابات التي تحصل عليها. استخدم التعليقات التوضيحية لتحسين الأوامر اللاحقة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Clearly Define the Objective",
+          "detail": "Precisely define what you want to achieve with the prompt. Use specific and detailed language to describe the required task."
+        },
+        {
+          "title": "Specify the Model's Role",
+          "detail": "Clearly define the model's role, such as 'act as a marketing expert' or 'behave as a data analyst', to help the model understand the context."
+        },
+        {
+          "title": "Provide Sufficient Context",
+          "detail": "Give enough information about the context, including any prior information or specific guidelines the model should follow."
+        },
+        {
+          "title": "Specify Output Format",
+          "detail": "Indicate how you want the model's output to be structured, such as 'provide the answer as a numbered list' or 'use a table to display results'."
+        },
+        {
+          "title": "Iterate and Refine",
+          "detail": "Try different prompts and refine them based on the responses you receive. Use follow-up instructions to improve subsequent prompts."
+        }
+      ],
+      "code": "def create_effective_prompt(task, role, context, output_format):\n    prompt = f\"\"\"Role: {role}\n\nTask: {task}\n\nContext: {context}\n\nOutput Format: {output_format}\"\"\"\n    return prompt\n\n# Example usage:\nprompt = create_effective_prompt(\n    task=\"Analyze customer feedback for product improvement\",\n    role=\"Customer Experience Analyst\",\n    context=\"We received 500 customer reviews about our new smartphone model\",\n    output_format=\"Provide a summary of key findings, top 3 issues, and recommendations in bullet points\"\n)\nprint(prompt)",
+      "resources": [
+        {
+          "name": "Prompt Engineering Guide",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "name": "OpenAI Prompt Engineering Documentation",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        },
+        {
+          "name": "Anthropic Prompt Engineering Guide",
+          "url": "https://docs.anthropic.com/claude/docs/prompt-engineering"
+        }
+      ],
+      "tags": [
+        "هندسة أوامر",
+        "تحسين الاستجابات",
+        "الذكاء الاصطناعي",
+        "مهارات عملية"
+      ],
+      "quickRef": "1. حدد الهدف بوضوح 2. حدد دور النموذج 3. قدم السياق الكافي 4. حدد تنسيق المخرجات 5. كرر واجعل الأوامر أفضل",
+      "quickRefEn": "1. Clearly define objective 2. Specify model role 3. Provide sufficient context 4. Specify output format 5. Iterate and refine",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في هندسة أوامر الذكاء الاصطناعي؟",
+          "options": [
+            "استخدام لغة معقدة",
+            "تحديد الهدف بوضوح",
+            "جعل الأمر قصيرًا قدر الإمكان",
+            "تجديد النموذج قبل كل استفسار"
+          ],
+          "answer": 1,
+          "explain": "تحديد الهدف بوضوح هو العنصر الأهم في هندسة أوامر الذكاء الاصطناعي، لأنه يضمن أن النموذج يفهم ما هو مطلوب منه بدقة."
+        },
+        {
+          "q": "كيف يمكن تحسين استجابة النموذج إذا كانت غير دقيقة؟",
+          "options": [
+            "زيادة طول الأمر",
+            "إعادة صياغة الأمر بوضوح أكبر وتوفير المزيد من السياق",
+            "تغيير النموذج فقط",
+            "تقليل عدد الأسئلة"
+          ],
+          "answer": 1,
+          "explain": "إعادة صياغة الأمر بوضوح أكبر وتوفير المزيد من السياق يساعد النموذج على فهم المطلوب بشكل أفضل وتقديم استجابات أكثر دقة."
+        },
+        {
+          "q": "ما هي أفضل طريقة لتحديد تنسيق المخرجات من النموذج؟",
+          "options": [
+            "دع النموذج يقرر التنسيق",
+            "استخدم أوامر مثل 'قدم الإجابة في شكل جدول' أو 'استخدم قائمة مرقمة'",
+            "استخدم تنسيق JSON فقط",
+            "تجنب تحديد التنسيط"
+          ],
+          "answer": 1,
+          "explain": "استخدام أوامر محددة مثل 'قدم الإجابة في شكل جدول' أو 'استخدم قائمة مرقمة' يساعد على الحصول على مخرجات منسقة ومنظمة."
+        }
+      ],
+      "addedAt": "2026-11-10"
+    },
+    {
       "id": "k-2026-11-09-أساسيات-أمن-الذكاء-الاصطناعي",
       "title": "أساسيات أمن الذكاء الاصطناعي",
       "titleEn": "AI Safety Basics",
