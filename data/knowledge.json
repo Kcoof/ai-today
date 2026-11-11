@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-11-بناء-واجهة-مستخدم-للذكاء-الاصطناعي",
+      "title": "بناء واجهة مستخدم للذكاء الاصطناعي",
+      "titleEn": "Building AI User Interfaces",
+      "why": "واجهات المستخدم للذكاء الاصطناعي هي الجسر بين النماذج المعقدة والمستخدمين العاديين، مما يجعل التكنولوجيا المتقدمة متاحة للجميع.",
+      "whyEn": "AI user interfaces bridge the gap between complex models and everyday users, making advanced technology accessible to everyone.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد احتياجات المستخدم",
+          "detail": "حدد المشاكل التي يحاول حلها المستخدمون والوظائف التي تحتاج إلى واجهة ذكية. قم بإجراء استبيانات أو مقابلات لفهم توقعات المستخدمين."
+        },
+        {
+          "title": "تصميم تجربة المستخدم",
+          "detail": "أنشئ مخططات سير المستخدم وتصاميم أولية. تأكد من أن الواجهة سهلة الاستخدام وتتماشى مع أفضل ممارسات UX/UI."
+        },
+        {
+          "title": "اختيار التقنيات المناسبة",
+          "detail": "حدد الأدوات والمنصات التي ستعمل معها. قد تشمل مكتبات JavaScript مثل React أو Vue.js، أو أطر عمل متخصصة في الذكاء الاصطناعي مثل Hugging Face Transformers."
+        },
+        {
+          "title": "دمج نموذج الذكاء الاصطناعي",
+          "detail": "قم بتكامل نموذج الذكاء الاصطناعي مع الواجهة باستخدام واجهات برمجة التطبيقات. تأكد من معالجة الاستدعاءات بشكل غير متزامن وتوفير تغذية راجعة للمستخدم."
+        },
+        {
+          "title": "اختبار التحسين",
+          "detail": "اختبر الواجهة مع مجموعات متنوعة من المستخدمين. قم بجمع الملاحظات وقم بتحسين الواجهة بناءً عليها. تأكد من أن النموذج يقدم نتائج دقيقة ومفيدة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Identify user needs",
+          "detail": "Determine the problems users are trying to solve and the functions that need an intelligent interface. Conduct surveys or interviews to understand user expectations."
+        },
+        {
+          "title": "Design user experience",
+          "detail": "Create user flows and wireframes. Ensure the interface is user-friendly and follows best UX/UI practices."
+        },
+        {
+          "title": "Choose appropriate technologies",
+          "detail": "Select the tools and platforms you'll work with. This may include JavaScript libraries like React or Vue.js, or specialized AI frameworks like Hugging Face Transformers."
+        },
+        {
+          "title": "Integrate the AI model",
+          "detail": "Connect the AI model with the interface using APIs. Ensure asynchronous handling of calls and provide feedback to the user."
+        },
+        {
+          "title": "Test and optimize",
+          "detail": "Test the interface with diverse user groups. Collect feedback and improve the interface based on it. Ensure the model provides accurate and useful results."
+        }
+      ],
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>AI Chat Interface</title>\n  <script src=\"https://cdn.jsdelivr.net/npm/vue@3.2.36/dist/vue.global.js\"></script>\n</head>\n<body>\n  <div id=\"app\">\n    <div class=\"chat-container\">\n      <div class=\"messages\">\n        <div v-for=\"(message, index) in messages\" :key=\"index\" :class=\"['message', message.sender]\">\n          {{ message.text }}\n        </div>\n      </div>\n      <div class=\"input-area\">\n        <input v-model=\"userInput\" @keyup.enter=\"sendMessage\" placeholder=\"Type your message...\" />\n        <button @click=\"sendMessage\">Send</button>\n      </div>\n    </div>\n  </div>\n\n  <script>\n    const { createApp } = Vue;\n    \n    createApp({\n      data() {\n        return {\n          messages: [\n            { sender: 'ai', text: 'Hello! How can I help you today?' }\n          ],\n          userInput: ''\n        }\n      },\n      methods: {\n        sendMessage() {\n          if (this.userInput.trim() === '') return;\n          \n          // Add user message\n          this.messages.push({ sender: 'user', text: this.userInput });\n          \n          // Simulate AI response\n          setTimeout(() => {\n            const responses = [\n              'I understand your question.',\n              'That\\'s an interesting point.',\n              'Let me help you with that.',\n              'Based on my analysis...'\n            ];\n            const randomResponse = responses[Math.floor(Math.random() * responses.length)];\n            this.messages.push({ sender: 'ai', text: randomResponse });\n          }, 1000);\n          \n          // Clear input\n          this.userInput = '';\n        }\n      }\n    }).mount('#app');\n  </script>\n</body>\n</html>",
+      "resources": [
+        {
+          "name": "Hugging Face Documentation",
+          "url": "https://huggingface.co/docs"
+        },
+        {
+          "name": "React Documentation",
+          "url": "https://reactjs.org/docs"
+        },
+        {
+          "name": "AI Interface Design Patterns",
+          "url": "https://www.interaction-design.org/literature/topics/ai-user-interface"
+        }
+      ],
+      "tags": [
+        "واجهات المستخدم",
+        "التفاعل البشري-الذكي",
+        "تطوير الواجهات",
+        "UI/UX"
+      ],
+      "quickRef": "بناء واجهات سهلة الاستخدام للذكاء الاصطناعي",
+      "quickRefEn": "Building user-friendly AI interfaces",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأكثر أهمية في تصميم واجهة مستخدم للذكاء الاصطناعي؟",
+          "options": [
+            "الجماليات البصرية",
+            "سهولة الاستخدام",
+            "سرعة التحميل",
+            "عدد الميزات"
+          ],
+          "answer": 1,
+          "explain": "سهولة الاستخدام هي الأهم لأنها تضمن أن المستخدمين يمكنهم التفاعل مع النموذج الذكي بفعالية دون صعوبة، مما يزيد من تبني التكنولوجيا."
+        },
+        {
+          "q": "ما هو أفضل نهج لدمج نموذج الذكاء الاصطناعي في واجهة مستخدم؟",
+          "options": [
+            "تحميل النموذج بالكامل على الجهاز",
+            "استخدام واجهات برمجة التطبيقات (APIs)",
+            "بناء نموذج مخصص من الصفر",
+            "الاعتماد على نماذج مفتوحة المصدر فقط"
+          ],
+          "answer": 1,
+          "explain": "استخدام واجهات برمجة التطبيقات (APIs) هو الأفضل لأنه يسمح بالوصول إلى نماذج متقدمة دون الحاجة لتخزينها محليًا، مما يوفر الموارد ويسهل التحديث."
+        }
+      ],
+      "addedAt": "2026-11-11"
+    },
+    {
       "id": "k-2026-11-10-هندسة-أوامر-الذكاء-الاصطناعي-لتحسين-الاستجابات",
       "title": "هندسة أوامر الذكاء الاصطناعي لتحسين الاستجابات",
       "titleEn": "Prompt Engineering for Better AI Responses",

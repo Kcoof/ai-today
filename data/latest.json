@@ -1,155 +1,99 @@
 {
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T13:46:51.749Z",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T12:55:25.280Z",
   "news": [
     {
-      "id": "n-2026-11-10-1",
-      "title": "اختراق أمني في Fireworks AI يؤثر على Notion وعملائها",
-      "titleEn": "Fireworks AI security breach impacts Notion and their customers",
-      "summary": "حدث اختراق أمني في منصة Fireworks AI يؤثر على Notion وعملائها، مما يسلط الضوء على مخاطر الأمن السيبراني في أنظمة الذكاء الاصطناعي.",
-      "summaryEn": "A security breach in Fireworks AI platform impacts Notion and its customers, highlighting cybersecurity risks in AI systems.",
-      "category": "other",
-      "importance": 4,
-      "source": {
-        "name": "Hacker News",
-        "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
-      },
-      "publishedAt": "2026-11-10"
-    },
-    {
-      "id": "n-2026-11-10-2",
-      "title": "هجمات سيبرانية تهدد جعل الذكاء الاصطناعي مفتوح المصدر أقل انفتاحاً",
-      "titleEn": "Cyberattacks threaten to make open-source AI a little less open",
-      "summary": "تنبيه من مسؤولة في Hugging Face حول تزايد الهجمات السيبرانية على منصات الذكاء الاصطناعي المفتوحة المصدر.",
-      "summaryEn": "Warning from Hugging Face executive about growing cyberattacks on open AI platforms.",
-      "category": "other",
-      "importance": 4,
-      "source": {
-        "name": "TechCrunch AI",
-        "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/"
-      },
-      "publishedAt": "2026-11-10"
-    },
-    {
-      "id": "n-2026-11-10-3",
-      "title": "شراكة مع Hacktron لاكتشاف الثغرات في أنظمة OpenAI",
-      "titleEn": "Partnering with Hacktron to find vulnerabilities in OpenAI's systems",
-      "summary": "تعلن OpenAI عن شراكتها مع Hacktron لاكتشاف الثغرات الأمنية واختبار الاتصالات مع الطرف الثالث.",
-      "summaryEn": "OpenAI announces partnership with Hacktron to find vulnerabilities and test connections with third parties.",
-      "category": "tools",
-      "importance": 4,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/partnering-with-hacktron"
-      },
-      "publishedAt": "2026-11-06"
-    },
-    {
-      "id": "n-2026-11-10-4",
-      "title": "نماذج الذكاء الاصطناعي الصينية المجانية تصبح خطيرة في الاختراق",
-      "titleEn": "Free Chinese AI Models Are Getting Scary Good at Hacking",
-      "summary": "تقرير من WIRED يسلط الضوء على قدرة النماذج الصينية المجانية على الاختراق بشكل متزايد.",
-      "summaryEn": "WIRED report highlights the increasing hacking capabilities of free Chinese AI models.",
-      "category": "other",
-      "importance": 4,
-      "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMG5JWUNJdnMzazNQLVpVaTN5TS0xTEdHMU5wT3VFT0hnN2paNE9GV3ppSHhTVFQ3cTJ5WjhrOEJiX1lQMUNaa0ROMGlfYW9qeXNTejFSRjRWMXdxQnlhb2k5Zk9LS3RVd0NUZTFFSHRUWmQ4a0UtMXNlZHhVZVhKZUl3aWxoa2pLbmdHZTRR?oc=5"
-      },
-      "publishedAt": "2026-11-06"
-    },
-    {
-      "id": "n-2026-11-10-5",
-      "title": "ChatGPT Enterprise متاح الآن في سوق AWS",
-      "titleEn": "ChatGPT Enterprise now available in AWS Marketplace",
-      "summary": "تتوفر نسخة ChatGPT Enterprise الآن من خلال سوق AWS، مما يساعد المؤسسات على تبسيط الوصول.",
-      "summaryEn": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify access.",
-      "category": "tools",
-      "importance": 4,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
-      },
-      "publishedAt": "2026-11-09"
-    },
-    {
-      "id": "n-2026-11-10-6",
-      "title": "جيميني أومني 1.2 فلاش: سريع وفعال من حيث التكلفة مع مقاطع أطول",
-      "titleEn": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "summary": "تطلق Google DeepMind نموذج Gemini Omni 1.2 Flash الذي يتميز بالسرعة وكفاءة التكلفة ودعم المقاطع الطويلة.",
-      "summaryEn": "Google DeepMind launches Gemini Omni 1.2 Flash model featuring speed, cost efficiency, and support for longer clips.",
+      "id": "n-2026-11-11-1",
+      "title": "إطلاق Gemini 4 Carbon من Google DeepMind",
+      "titleEn": "Google DeepMind launches Gemini 4 Carbon",
+      "summary": "أطلقت Google DeepMind نموذج Gemini 4 Carbon، أحدث نماذجها المتقدمة المصممة لتطبيقات المؤسسات مع قدرات محسنة.",
+      "summaryEn": "Google DeepMind has launched Gemini 4 Carbon, its latest advanced model designed for enterprise applications with enhanced capabilities.",
       "category": "models",
       "importance": 4,
       "source": {
         "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+        "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
       },
-      "publishedAt": "2026-11-05"
+      "publishedAt": "2026-11-10"
     },
     {
-      "id": "n-2026-11-10-7",
-      "title": "جيميني 4 كاربون: نموذجنا التالي في الطليعة",
-      "titleEn": "Gemini 4 Carbon: Our next frontier model",
-      "summary": "تطلق Google DeepMind نموذج Gemini 4 Carbon كنموذج متقدم في خط تطوير نماذج Gemini.",
-      "summaryEn": "Google DeepMind launches Gemini 4 Carbon as an advanced model in the Gemini development line.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-      },
-      "publishedAt": "2026-10-28"
-    },
-    {
-      "id": "n-2026-11-10-8",
-      "title": "إطلاق نموذج كيمي K3.1 برو مفتوحة المصدر",
-      "titleEn": "Moonshot AI releases Kimi K3.1 Pro model weights",
-      "summary": "تنشر Moonshot AI أوزان نموذج Kimi K3.1 Pro مفتوحة المصدر، مما يتيح للمطورين الوصول الكامل.",
-      "summaryEn": "Moonshot AI releases open-source weights for Kimi K3.1 Pro model, enabling full developer access.",
+      "id": "n-2026-11-11-2",
+      "title": "نموذج Kimi K3.1 Pro بـ 2.8 تريليون معلمة متاح الآن",
+      "titleEn": "2.8 Trillion Parameter Kimi K3.1 Pro Model Now Available",
+      "summary": "أطلقت Moonshot AI نموذج Kimi K3.1 Pro بأكبر عدد من المعالم المفتوحة، متفوقًا في معايير البحث المالي.",
+      "summaryEn": "Moonshot AI has released the Kimi K3.1 Pro model with the largest number of open parameters, outperforming in financial research benchmarks.",
       "category": "models",
       "importance": 4,
       "source": {
         "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3ZqcjR1SkNXOHhVeXNqeWQ4dW5WZ2hOeENPcFlFaUZzbXAzQXVfYlZjU3Flc1k2aFRGRF94NWtGN2ozY2VVU1VmT2lSc0Q5MDZRM2Y5U0F6Q1RLM3JJSTZiUHhxajdDU0FXRVlCWFRPbWZoQ01JTzRGRGdKZzVsZUstNzBBNkUt?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYWs1Vy1EU1F2U0Y5UWloMjl6bHNDZGc0NUk5aGE0SHdqMFhSVHZ2dHUwVkJMYTZ6TmFVbWpzOUFzdkdKTFRlaF9rai1LYVd3bXlyOW1KemxXM3BlRGhSSGx2VG9Nc1VKMkREcVBJMVhhT0RuRWJVbzNRdWR1ejhQcWFpbmZNaTQ3bzBSRXZQaW0ySGpYQVRlUXMxNXJyck03bFE?oc=5"
       },
       "publishedAt": "2026-11-05"
     },
     {
-      "id": "n-2026-11-10-9",
-      "title": "كيمي K3.1 برو: نموذج مفتوح المصدر بـ 2.8 تريليون معلمة",
-      "titleEn": "Kimi K3.1 Pro Goes Open-Weight: 2.8T Parameters",
-      "summary": "يصبح نموذج Kimi K3.1 Pro متاحاً كنموذج مفتوح المصدر بـ 2.8 تريليون معلمة، مما يمثل تقدماً كبيراً.",
-      "summaryEn": "Kimi K3.1 Pro model becomes available as open-source with 2.8 trillion parameters, representing significant advancement.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFNjQ1dJbHRhTDg0d1ZBYzVlUHI4M1lMeXp4Unk5QThnUVJwd1VuTTlsZmhJVGJQbW1WMkVKWkRSNHRFMV94eFpfcnJkMW0xZ01OYUFDWU1Td3lobzBYX0tJWXRmLWVZQ3Q3WFROTlBReDRVM3FmMHJKckgwaWJLUmtNTW1GRXZwMEQwdkJsSQ?oc=5"
-      },
-      "publishedAt": "2026-11-05"
-    },
-    {
-      "id": "n-2026-11-10-10",
-      "title": "Z.ai تربط نماذج GLM منصة سحاب China Mobile",
-      "titleEn": "Z.ai links GLM models to China Mobile's cloud platform",
-      "summary": "تتعاون Z.ai مع China Mobile لربط نماذج GLM مع منصتها السحابية، مما يوسع نطاق التطبيق.",
-      "summaryEn": "Z.ai partners with China Mobile to link GLM models with their cloud platform, expanding application scope.",
+      "id": "n-2026-11-11-3",
+      "title": "شراكة بين OpenAI و Cogent لأمن السيبران المؤسسي",
+      "titleEn": "OpenAI and Cogent Partnership for Enterprise Cybersecurity",
+      "summary": "تعاونت OpenAI مع Cogent لبناء مصانع دفاعية سيبراني للمؤسسات باستخدام نماذج OpenAI مع السياق المؤسسي.",
+      "summaryEn": "OpenAI has partnered with Cogent to build cyber defense factories for enterprises using OpenAI models with enterprise context.",
       "category": "tools",
       "importance": 4,
       "source": {
-        "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcWZWR0pyZWVBeXRONmhZSXJQU21uTjlyQWwyS1B6bmM0bk9rX2tJTExNOExtN3RGcmtTRUlaT3hMSW9ZckMxdkUxMXQxTWdzV3lyVjZtdTlsbGhUdTF6RTdNaFMyYm1WVnR0eHY2eHBqRTJ5cmdENlZiZVJRZHhraHZKTVp3dE5L?oc=5"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/cogent-security"
       },
-      "publishedAt": "2026-11-09"
+      "publishedAt": "2026-11-10"
     },
     {
-      "id": "n-2026-11-10-12",
-      "title": "منصة DeepSeek للذكاء الاصطناعي تصل إلى 1.54 مليون مستخدم يومياً",
-      "titleEn": "DeepSeek's AI Agent Platform Hits 1.54 Million Daily Users",
-      "summary": "تصل منصة DeepSeek للذكاء الاصطناعي إلى 1.54 مليون مستخدم يومياً، مما يدل على اعتماد واسع.",
-      "summaryEn": "DeepSeek's AI agent platform reaches 1.54 million daily users, indicating wide adoption.",
+      "id": "n-2026-11-11-5",
+      "title": "Moonshot AI ت转向 أوروبا للحصول على رقائق Nvidia",
+      "titleEn": "Moonshot AI Turns to Europe for Nvidia Chips",
+      "summary": "اتجهت شركة الذكاء الاصطناعي الصينية Moonshot إلى أوروبا للحصول على وصول إلى رقائق Nvidia Blackwell وسط القيود الأمريكية على الصين.",
+      "summaryEn": "Chinese AI company Moonshot has turned to Europe for access to Nvidia Blackwell chips amid U.S. restrictions on China.",
       "category": "companies",
       "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUc0JXdFFrNXJHSkxKclVRQkdfMXZNbmk5akFqZDA2dWFQbXV2MUd1d2V1TFhfVW9uT2F5WXJJVHZoNUZUUEtLVFF2aWotaHBVTk9kcFpvZkFucXppMlp3YzZvaWdXVmZ3ZUZJdzFsV3kzaXBMWnpiSjJ4aUhxcVE?oc=5"
+      },
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "n-2026-11-11-6",
+      "title": "Apple تدمج Qwen AI في الصين",
+      "titleEn": "Apple Integrates Qwen AI in China",
+      "summary": "قامت Apple بتضمين نموذج Qwen AI من Alibaba في نظامها في الصين كبديل لـ Apple Intelligence.",
+      "summaryEn": "Apple has integrated Alibaba's Qwen AI model in its system in China as an alternative to Apple Intelligence.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0Q4MTRpbWJLRFEtNURGZHhCUU1kYjQtU29PTzlNc0RncjlEeXh5ZnJ1VEphYVI1Uks5YmZfQXZ6VnM0N1h3cDBmeTJCdzlSNzY1ZC1EeWFBcXptc2lQQzhpMTM2NTVocFZybGlJSi1NMFNuYlBFTklyaDZoMzlQUEtkTFd0ZTVPY2xHeUYzSFJ3OTY0Ymc?oc=5"
+      },
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "id": "n-2026-11-11-4",
+      "title": "Singapore Airlines تستخدم تقنية OpenAI لتحسين الخدمات",
+      "titleEn": "Singapore Airlines Enhances Services with OpenAI Technology",
+      "summary": "تستخدم شركة Singapore Airlines نماذج OpenAI و API لتحسين دعم العملاء وتجربة المسافرين.",
+      "summaryEn": "Singapore Airlines uses OpenAI models and API to enhance customer support and travel experience.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/singapore-airlines-travel-work"
+      },
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "n-2026-11-11-7",
+      "title": "منصة DeepSeek AI تتجاوز 1.54 مليون مستخدم يومي",
+      "titleEn": "DeepSeek AI Platform Exceeds 1.54 Million Daily Users",
+      "summary": "وصلت منصة DeepSeek AI للوكلاء إلى 1.54 مليون مستخدم يومي، مما يدل على اعتماد واسع للذكاء الاصطناعي الوكيل.",
+      "summaryEn": "DeepSeek AI's agent platform has reached 1.54 million daily users, indicating widespread adoption of AI agents.",
+      "category": "companies",
+      "importance": 3,
       "source": {
         "name": "DeepSeek (news)",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUXBLN3Nwd181RFJQQzBkdGo0TUFhbGZpQ1Zxb0dPWXBORHdzeG5US1ZIOGtGUTFfc2ZSVktjMktVMmtSOUZ0SkVkZ2s4cEJWWWgyQVpSRDVGTUlqWnJ6bjdybkhHaTM5czBaZXpvelNlNTZ4WUd4Y0trdk1RQlpxZXd1MFRMb0dSckw3SXpPU2RFWG9JTFlhOVcyVzVJNjFHaUpsUFNZTC10blFqVWc?oc=5"
@@ -157,179 +101,193 @@
       "publishedAt": "2026-11-08"
     },
     {
-      "id": "n-2026-11-10-11",
-      "title": "ملخص أسبوعي: استثمار علي بابا في الذكاء الاصطناعي وتكامل Qwen مع أبل",
-      "titleEn": "Weekly Recap: Alibaba AI investment and Apple Qwen integration plans",
-      "summary": "ملخص لأهم الأحداث الأسبوعية بما في ذلك استثمارات علي بابا في الذكاء الاصطناعي وتخطيط لتكامل Qwen مع أبل.",
-      "summaryEn": "Summary of key weekly events including Alibaba's AI investments and Apple's Qwen integration plans.",
-      "category": "companies",
+      "id": "n-2026-11-11-8",
+      "title": "Grok 4.20 يفوز في منافسة التداول المباشر",
+      "titleEn": "Grok 4.20 Wins Live Trading Showdown",
+      "summary": "تفوق نموذج Grok 4.20 من xAI في منافسة التداول المباشر، متجاوزًا نماذج OpenAI و Google.",
+      "summaryEn": "xAI's Grok 4.20 model outperformed OpenAI and Google models in a live trading competition.",
+      "category": "models",
       "importance": 3,
       "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQUNPOXR2d1JCWjg5NndOTk1qNTVzallMZ2VnNnpNUzFjY3hFX19Ta1JTc3NXY3hFLVViUExSeU1nUlZfMTdkTEd5NDBiVjRLd3RuZkQ0XzFsel9taDI3RWxNTWlDVVZWVzI3a2I4V09RZFdZYTVINXdTdFdORDNRXzRlcDVtakVEbW01aVlxd0RBMHVTSmhXNzh3ZFNSSU42Nzl6RHJQSGN4dWRwblVJSXQ1RUVQTjV0dmRqbzVRd3pjQkM5SXJPUg?oc=5"
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3hYUm9LaktUd2xnR3hTZE5hNmZTZ3FjcE1OVUdQQVA4Vm8weW0xUWc5MzVoRXgwanFTZ2hpOG15cnl0eG44aE9wVGtMZHVkYjVVcndtN013WFJXSFJ6T2NsUG4xdHZxQVZLZWY2eUlWQjltb2pjWDZjRVZrb0IxWnhzTTFJN1MxNkhLNi03S3NTZw?oc=5"
       },
-      "publishedAt": "2026-11-09"
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "n-2026-11-11-9",
+      "title": "اعتقال ثلاثة أشخاص لاحتيال باستخدام الذكاء الاصطناعي",
+      "titleEn": "Three People Arrested for AI-Enhanced Impersonation Fraud",
+      "summary": "تم اعتقال ثلاثة أشخاص للاحتيال باستخدام تقنيات الذكاء الاصطناعي لتحقيق أرباح كبيرة.",
+      "summaryEn": "Three people were arrested for using AI techniques to commit impersonation fraud and achieve significant profits.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html"
+      },
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "id": "n-2026-11-11-10",
+      "title": "مشاريع المصادر المفتوحة تمنع المساهمات المولدة بالذكاء الاصطناعي",
+      "titleEn": "Open Source Projects Banning AI-Generated Contributions",
+      "summary": "يشترط عدد متزايد من مشاريع المصادر المفتوحة عدم استخدام المساهمات المولدة بالذكاء الاصطناعي.",
+      "summaryEn": "An increasing number of open-source projects are requiring that AI-generated contributions not be used.",
+      "category": "regulation",
+      "importance": 2,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://osssaysno.com"
+      },
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "id": "n-2026-11-11-11",
+      "title": "الذكاء الاصطناعي يصبح بوابة للمعلومات",
+      "titleEn": "AI Becoming an Information Gateway",
+      "summary": "يؤدي الذكاء الاصطناعي دورًا متزايدًا كبوابة للمعلومات، لكن الجمهور لا يزال مترددًا في استخدامه في الأخبار.",
+      "summaryEn": "AI is increasingly serving as an information gateway, but audiences remain reluctant to use it for news.",
+      "category": "other",
+      "importance": 2,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/"
+      },
+      "publishedAt": "2026-11-11"
     }
   ],
   "models": [
     {
-      "id": "m-2026-11-10-1",
-      "name": "Gemini Omni 1.2 Flash",
+      "id": "m-2026-11-11-1",
+      "name": "Gemini 4 Carbon",
       "org": "Google DeepMind",
-      "releaseDate": "2026-11-05",
-      "highlights": "نموذج سريع وفعال من حيث التكلفة يدعم المقاطع الطويلة",
-      "highlightsEn": "Fast and cost-effective model supporting longer clips",
+      "releaseDate": "2026-11-10",
+      "highlights": "أحدث نموذج من Google مع قدرات محسنة لتطبيقات المؤسسات",
+      "highlightsEn": "Latest model from Google with enhanced capabilities for enterprise applications",
       "specs": {
         "context": "1M"
       },
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
     },
     {
-      "id": "m-2026-11-10-2",
-      "name": "Gemini 4 Carbon",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-10-28",
-      "highlights": "نموذج متقدم في خط تطوير نماذج Gemini",
-      "highlightsEn": "Advanced model in the Gemini development line",
-      "specs": {
-        "context": "2M"
-      },
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-    },
-    {
-      "id": "m-2026-11-10-3",
+      "id": "m-2026-11-11-2",
       "name": "Kimi K3.1 Pro",
       "org": "Moonshot AI",
       "releaseDate": "2026-11-05",
-      "highlights": "نموذج مفتوح المصدر بـ 2.8 تريليون معلمة",
-      "highlightsEn": "Open-source model with 2.8 trillion parameters",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3ZqcjR1SkNXOHhVeXNqeWQ4dW5WZ2hOeENPcFlFaUZzbXAzQXVfYlZjU3Flc1k2aFRGRF94NWtGN2ozY2VVU1VmT2lSc0Q5MDZRM2Y5U0F6Q1RLM3JJSTZiUHhxajdDU0FXRVlCWFRPbWZoQ01JTzRGRGdKZzVsZUstNzBBNkUt?oc=5"
-    },
-    {
-      "id": "m-2026-11-10-4",
-      "name": "GLM",
-      "org": "Z.ai",
-      "releaseDate": "2026-11-09",
-      "highlights": "نماذج متكاملة مع منصة سحاب China Mobile",
-      "highlightsEn": "Models integrated with China Mobile's cloud platform",
+      "highlights": "نموذج بـ 2.8 تريليون معلمة مع أوزان مفتوحة، متفوق في البحث المالي",
+      "highlightsEn": "2.8 trillion parameter model with open weights, excelling in financial research",
       "specs": {
         "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcWZWR0pyZWVBeXRONmhZSXJQU21uTjlyQWwyS1B6bmM0bk9rX2tJTExNOExtN3RGcmtTRUlaT3hMSW9ZckMxdkUxMXQxTWdzV3lyVjZtdTlsbGhUdTF6RTdNaFMyYm1WVnR0eHY2eHBqRTJ5cmdENlZiZVJRZHhraHZKTVp3dE5L?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYWs1Vy1EU1F2U0Y5UWloMjl6bHNDZGc0NUk5aGE0SHdqMFhSVHZ2dHUwVkJMYTZ6TmFVbWpzOUFzdkdKTFRlaF9rai1LYVd3bXlyOW1KemxXM3BlRGhSSGx2VG9Nc1VKMkREcVBJMVhhT0RuRWJVbzNRdWR1ejhQcWFpbmZNaTQ3bzBSRXZQaW0ySGpYQVRlUXMxNXJyck03bFE?oc=5"
     },
     {
-      "id": "m-2026-11-10-5",
-      "name": "Qwen 4",
+      "id": "m-2026-11-11-3",
+      "name": "Qwen4-Max",
       "org": "Qwen",
-      "releaseDate": "2026-11-06",
-      "highlights": "نموذج قيد التطوير مع خطط لتكامل مع أبل",
-      "highlightsEn": "Model in development with Apple integration plans",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBfTjduVmhuVzQ2N1p5Z0RvMHJOWVBMbkk4ZnBRQ3lLdnlmZnpXajZ0UV9RakZtdllEN1BsaC1OTXo?oc=5"
+      "releaseDate": "2026-11-11",
+      "highlights": "نموذج متقدم من Alibaba مع قدرات محسنة و أسعار مخفضة",
+      "highlightsEn": "Advanced model from Alibaba with enhanced capabilities and reduced pricing",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5wMVhiSnV5VFhQdzhfSHVwZWZabzl1bXRhRVBkLVB6NXVLdzFxVFZyeFg1NDhLYVJuaU16MFR3RmVVUUNhR3Jsa0hn?oc=5"
     },
     {
-      "id": "m-2026-11-10-6",
-      "name": "DeepSeek V5",
-      "org": "DeepSeek",
-      "releaseDate": "2026-11-05",
-      "highlights": "الإصدار القادم من نموذج DeepSeek",
-      "highlightsEn": "Next version of DeepSeek model",
-      "specs": {
-        "context": "256K"
-      },
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MZDQ0aF91RzQ2OV8zOWlpcWt5QzItZXgxeGpRTk8wWGZNZmRJX29DUE5nT0VaNEI5cXFkM2ZfSHcyNElHNEhB?oc=5"
+      "id": "m-2026-11-11-4",
+      "name": "Grok 4.20",
+      "org": "xAI",
+      "releaseDate": "2026-11-07",
+      "highlights": "أظهر أداءً متفوقًا في منافسات التداول المباشر",
+      "highlightsEn": "Demonstrated superior performance in live trading competitions",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3hYUm9LaktUd2xnR3hTZE5hNmZTZ3FjcE1OVUdQQVA4Vm8weW0xUWc5MzVoRXgwanFTZ2hpOG15cnl0eG44aE9wVGtMZHVkYjVVcndtN013WFJXSFJ6T2NsUG4xdHZxQVZLZWY2eUlWQjltb2pjWDZjRVZrb0IxWnhzTTFJN1MxNkhLNi03S3NTZw?oc=5"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-11-10-1",
-      "text": "منصة DeepSeek للذكاء الاصطناعي تصل إلى 1.54 مليون مستخدم يومياً",
-      "textEn": "DeepSeek's AI agent platform reaches 1.54 million daily users",
+      "id": "h-2026-11-11-1",
+      "text": "تقدمت Anthropic بملف S-1 للجنة الأوراق المالية والبورصات للاكتتاب العام المقترح",
+      "textEn": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "level": "info",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
+    {
+      "id": "h-2026-11-11-2",
+      "text": "وصلت منصة DeepSeek AI للوكلاء إلى 1.54 مليون مستخدم يومي",
+      "textEn": "DeepSeek AI's agent platform reaches 1.54 million daily users",
       "level": "info",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUXBLN3Nwd181RFJQQzBkdGo0TUFhbGZpQ1Zxb0dPWXBORHdzeG5US1ZIOGtGUTFfc2ZSVktjMktVMmtSOUZ0SkVkZ2s4cEJWWWgyQVpSRDVGTUlqWnJ6bjdybkhHaTM5czBaZXpvelNlNTZ4WUd4Y0trdk1RQlpxZXd1MFRMb0dSckw3SXpPU2RFWG9JTFlhOVcyVzVJNjFHaUpsUFNZTC10blFqVWc?oc=5"
     },
     {
-      "id": "h-2026-11-10-2",
-      "text": "إطلاق نموذج كيمي K3.1 برو مفتوحة المصدر",
-      "textEn": "Moonshot AI releases Kimi K3.1 Pro model weights",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ3ZqcjR1SkNXOHhVeXNqeWQ4dW5WZ2hOeENPcFlFaUZzbXAzQXVfYlZjU3Flc1k2aFRGRF94NWtGN2ozY2VVU1VmT2lSc0Q5MDZRM2Y5U0F6Q1RLM3JJSTZiUHhxajdDU0FXRVlCWFRPbWZoQ01JTzRGRGdKZzVsZUstNzBBNkUt?oc=5"
-    },
-    {
-      "id": "h-2026-11-10-3",
-      "text": "أبل تكامل Qwen الذكاء الاصطناعي في الصين",
-      "textEn": "Apple integrates Alibaba's Qwen AI in China",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0Q4MTRpbWJLRFEtNURGZHhCUU1kYjQtU29PTzlNc0RncjlEeXh5ZnJ1VEphYVI1Uks5YmZfQXZ6VnM0N1h3cDBmeTJCdzlSNzY1ZC1EeWFBcXptc2lQQzhpMTM2NTVocFZybGlJSi1NMFNuYlBFTklyaDZoMzlQUEtkTFd0ZTVPY2xHeUYzSFJ3OTY0Ymc?oc=5"
+      "id": "h-2026-11-11-3",
+      "text": "مشاريع المصادر المفتوحة تمنع المساهمات المولدة بالذكاء الاصطناعي",
+      "textEn": "Open source projects banning AI-generated contributions",
+      "level": "warning",
+      "url": "https://osssaysno.com"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-11-10-1",
+      "id": "sec-2026-11-11-1",
       "title": "اختراق أمني في Fireworks AI يؤثر على Notion وعملائها",
       "titleEn": "Fireworks AI security breach impacts Notion and their customers",
-      "summary": "حدث اختراق أمني في منصة Fireworks AI يؤثر على Notion وعملائها، مما يسلط الضوء على مخاطر الأمن السيبراني في أنظمة الذكاء الاصطناعي.",
-      "summaryEn": "A security breach in Fireworks AI platform impacts Notion and its customers, highlighting cybersecurity risks in AI systems.",
+      "summary": "كشف اختراق أمني في Fireworks AI يؤثر على Notion وعملائها، مما يسلط الضوء على مخاطر أمنية أنظمة الذكاء الاصطناعي.",
+      "summaryEn": "A security breach in Fireworks AI affects Notion and their customers, highlighting security risks in AI systems.",
       "type": "breach",
-      "severity": "warning",
+      "severity": "critical",
       "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
       "source": "Hacker News",
       "date": "2026-11-10"
     },
     {
-      "id": "sec-2026-11-10-2",
-      "title": "هجمات سيبرانية تهدد جعل الذكاء الاصطناعي مفتوح المصدر أقل انفتاحاً",
-      "titleEn": "Cyberattacks threaten to make open-source AI a little less open",
-      "summary": "تنبيه من مسؤولة في Hugging Face حول تزايد الهجمات السيبرانية على منصات الذكاء الاصطناعي المفتوحة المصدر.",
-      "summaryEn": "Warning from Hugging Face executive about growing cyberattacks on open AI platforms.",
+      "id": "sec-2026-11-11-2",
+      "title": "تتبع الثغرات الأمنية التي اكتشفها Anthropic",
+      "titleEn": "Tracking Anthropic-discovered vulnerabilities",
+      "summary": "تستخدم Anthropic نماذج الذكاء الاصطناعي لاكتشاف الثغرات الأمنية في البرمجيات، حيث تمكنت من اكتشاف 3% من الثغرات الحرجة.",
+      "summaryEn": "Anthropic uses AI models to discover software vulnerabilities, having identified 3% of critical security bugs.",
       "type": "breach",
       "severity": "warning",
-      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
-      "source": "TechCrunch AI",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "source": "Hacker News",
       "date": "2026-11-10"
     },
     {
-      "id": "sec-2026-11-10-3",
-      "title": "نماذج الذكاء الاصطناعي الصينية المجانية تصبح خطيرة في الاختراق",
-      "titleEn": "Free Chinese AI Models Are Getting Scary Good at Hacking",
-      "summary": "تقرير من WIRED يسلط الضوء على قدرة النماذج الصينية المجانية على الاختراق بشكل متزايد.",
-      "summaryEn": "WIRED report highlights the increasing hacking capabilities of free Chinese AI models.",
+      "id": "sec-2026-11-11-3",
+      "title": "اعتقال ثلاثة أشخاص لاحتيال باستخدام الذكاء الاصطناعي",
+      "titleEn": "Three People Arrested for AI-Enhanced Impersonation Fraud",
+      "summary": "تم اعتقال ثلاثة أشخاص للاحتيال باستخدام تقنيات الذكاء الاصطناعي لتحقيق أرباح كبيرة، مما يمثل تهديدًا جديدًا للسلامة الرقمية.",
+      "summaryEn": "Three people were arrested for using AI techniques to commit impersonation fraud and achieve significant profits, representing a new threat to digital safety.",
       "type": "malware",
       "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMG5JWUNJdnMzazNQLVpVaTN5TS0xTEdHMU5wT3VFT0hnN2paNE9GV3ppSHhTVFQ3cTJ5WjhrOEJiX1lQMUNaa0ROMGlfYW9qeXNTejFSRjRWMXdxQnlhb2k5Zk9LS3RVd0NUZTFFSHRUWmQ4a0UtMXNlZHhVZVhKZUl3aWxoa2pLbmdHZTRR?oc=5",
-      "source": "DeepSeek (news)",
-      "date": "2026-11-06"
+      "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-11"
     },
     {
-      "id": "sec-2026-11-10-4",
-      "title": "شراكة مع Hacktron لاكتشاف الثغرات في أنظمة OpenAI",
-      "titleEn": "Partnering with Hacktron to find vulnerabilities in OpenAI's systems",
-      "summary": "تعلن OpenAI عن شراكتها مع Hacktron لاكتشاف الثغرات الأمنية واختبار الاتصالات مع الطرف الثالث.",
-      "summaryEn": "OpenAI announces partnership with Hacktron to find vulnerabilities and test connections with third parties.",
+      "id": "sec-2026-11-11-4",
+      "title": "أمن الذكاء الاصطناعي في المؤتمر الدولي",
+      "titleEn": "AI Security at International Conference",
+      "summary": "ناقش مؤتمر [un]prompted لأمن الذكاء الاصطناعي في سان فرانسيسكو التهديدات الأمنية الناشئة والاستراتيجيات للحد منها.",
+      "summaryEn": "The [un]prompted AI security conference in San Francisco discussed emerging security threats and strategies to mitigate them.",
       "type": "policy",
-      "severity": "info",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "source": "OpenAI",
-      "date": "2026-11-06"
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-09"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-11-10",
+    "asOf": "2026-11-11",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
       {
-        "name": "Claude Fable 5.2",
+        "name": "Claude Fable 5.2 – NEW",
         "org": "Anthropic",
         "score": "61.3"
       },
       {
-        "name": "Claude Mythos 5.2",
+        "name": "Claude Mythos 5.2 – NEW",
         "org": "Anthropic",
         "score": "59.6"
       },
@@ -339,7 +297,7 @@
         "score": "58.9"
       },
       {
-        "name": "Gemini 4 Carbon",
+        "name": "Gemini 4 Carbon – NEW",
         "org": "Google",
         "score": "57.5"
       },
@@ -359,7 +317,7 @@
         "score": "55.1"
       },
       {
-        "name": "Claude Mythos Preview",
+        "name": "Claude Mythos Preview – UNRELEASED",
         "org": "Anthropic",
         "score": "53.9"
       },
@@ -374,119 +332,108 @@
         "score": "53.1"
       }
     ],
-    "highlights": "تتصدر نماذج Claude من Anthropic الترتيب مع Claude Fable 5.2 في المركز الأول. يلاحظ تنافس قوي بين النماذج، حيث الفارق بين المراكز الأولى ضئيل جدًا، مما يشير إلى تطور سريع في قدرات نماذج الذكاء الاصطناعي.",
-    "highlightsEn": "Claude models from Anthropic lead the rankings with Claude Fable 5.2 in first place. There's intense competition among models, with minimal differences between top positions, indicating rapid advancement in AI capabilities."
+    "highlights": "نماذج كلود تهيمن على الترتيب الأول بـ 5 نماذج من بين أفضل 10. أبرز المتحركين هو كلود فيبل 5.2 الذي تم إطلاقه حديثًا ويحتل المركز الأول. هناك سباق محموم بين كلود ميثوس 5.2 والمركز الثاني وكلود أوبس 5.5 بالمركز الثالث.",
+    "highlightsEn": "Claude models are dominating the top rankings with 5 out of the top 10 spots. The biggest mover appears to be Claude Fable 5.2 which is marked as 'NEW' and is currently in the #1 position. There's a close race between Claude Mythos 5.2 (#2) and Claude Opus 5.5 (#3)."
   },
   "knowledgeEntry": {
-    "id": "k-2026-11-10-هندسة-أوامر-الذكاء-الاصطناعي-لتحسين-الاستجابات",
-    "title": "هندسة أوامر الذكاء الاصطناعي لتحسين الاستجابات",
-    "titleEn": "Prompt Engineering for Better AI Responses",
-    "why": "هندسة الأوامر (Prompt Engineering) هي مهارة أساسية لتحقيق أقصى استفادة من نماذج الذكاء الاصطناعي. تعلم هذه المهارة يسمح لك بالحصول على استجابات أكثر دقة وفعالية من النماذج، مما يوفر الوقت ويحسن جودة العمل.",
-    "whyEn": "Prompt engineering is an essential skill for maximizing the value of AI models. Learning this skill enables you to obtain more accurate and effective responses from models, saving time and improving work quality.",
+    "id": "k-2026-11-11-بناء-واجهة-مستخدم-للذكاء-الاصطناعي",
+    "title": "بناء واجهة مستخدم للذكاء الاصطناعي",
+    "titleEn": "Building AI User Interfaces",
+    "why": "واجهات المستخدم للذكاء الاصطناعي هي الجسر بين النماذج المعقدة والمستخدمين العاديين، مما يجعل التكنولوجيا المتقدمة متاحة للجميع.",
+    "whyEn": "AI user interfaces bridge the gap between complex models and everyday users, making advanced technology accessible to everyone.",
     "difficulty": "intermediate",
-    "track": "tools",
+    "track": "building",
     "steps": [
       {
-        "title": "تحديد الهدف بوضوح",
-        "detail": "حدد بوضوح ما تريد تحقيقه من خلال الأمر. استخدم لغة دقيقة وتفصيلية لوصف المهمة المطلوبة."
+        "title": "تحديد احتياجات المستخدم",
+        "detail": "حدد المشاكل التي يحاول حلها المستخدمون والوظائف التي تحتاج إلى واجهة ذكية. قم بإجراء استبيانات أو مقابلات لفهم توقعات المستخدمين."
       },
       {
-        "title": "تحديد دور النموذج",
-        "detail": "حدد دور النموذج بوضوح، مثل 'كن خبيرًا في التسويق' أو 'تصرف كمحلل بيانات'، لمساعدة النموذج على فهم السياق."
+        "title": "تصميم تجربة المستخدم",
+        "detail": "أنشئ مخططات سير المستخدم وتصاميم أولية. تأكد من أن الواجهة سهلة الاستخدام وتتماشى مع أفضل ممارسات UX/UI."
       },
       {
-        "title": "توفير السياق الكافي",
-        "detail": "قدم معلومات كافية عن السياق، بما في ذلك أي معلومات سابقة أو إرشادات محددة يجب على النموذج اتباعها."
+        "title": "اختيار التقنيات المناسبة",
+        "detail": "حدد الأدوات والمنصات التي ستعمل معها. قد تشمل مكتبات JavaScript مثل React أو Vue.js، أو أطر عمل متخصصة في الذكاء الاصطناعي مثل Hugging Face Transformers."
       },
       {
-        "title": "تحديد تنسيق المخرجات",
-        "detail": "حدد كيف تريد أن تكون مخرجات النموذج، مثل 'قدم الإجابة في شكل قائمة مرقمة' أو 'استخدم جدولًا لعرض النتائج'."
+        "title": "دمج نموذج الذكاء الاصطناعي",
+        "detail": "قم بتكامل نموذج الذكاء الاصطناعي مع الواجهة باستخدام واجهات برمجة التطبيقات. تأكد من معالجة الاستدعاءات بشكل غير متزامن وتوفير تغذية راجعة للمستخدم."
       },
       {
-        "title": "التكرار والتحسين",
-        "detail": "جرب أوامر مختلفة وقم بتحسينها بناءً على الاستجابات التي تحصل عليها. استخدم التعليقات التوضيحية لتحسين الأوامر اللاحقة."
+        "title": "اختبار التحسين",
+        "detail": "اختبر الواجهة مع مجموعات متنوعة من المستخدمين. قم بجمع الملاحظات وقم بتحسين الواجهة بناءً عليها. تأكد من أن النموذج يقدم نتائج دقيقة ومفيدة."
       }
     ],
     "stepsEn": [
       {
-        "title": "Clearly Define the Objective",
-        "detail": "Precisely define what you want to achieve with the prompt. Use specific and detailed language to describe the required task."
+        "title": "Identify user needs",
+        "detail": "Determine the problems users are trying to solve and the functions that need an intelligent interface. Conduct surveys or interviews to understand user expectations."
       },
       {
-        "title": "Specify the Model's Role",
-        "detail": "Clearly define the model's role, such as 'act as a marketing expert' or 'behave as a data analyst', to help the model understand the context."
+        "title": "Design user experience",
+        "detail": "Create user flows and wireframes. Ensure the interface is user-friendly and follows best UX/UI practices."
       },
       {
-        "title": "Provide Sufficient Context",
-        "detail": "Give enough information about the context, including any prior information or specific guidelines the model should follow."
+        "title": "Choose appropriate technologies",
+        "detail": "Select the tools and platforms you'll work with. This may include JavaScript libraries like React or Vue.js, or specialized AI frameworks like Hugging Face Transformers."
       },
       {
-        "title": "Specify Output Format",
-        "detail": "Indicate how you want the model's output to be structured, such as 'provide the answer as a numbered list' or 'use a table to display results'."
+        "title": "Integrate the AI model",
+        "detail": "Connect the AI model with the interface using APIs. Ensure asynchronous handling of calls and provide feedback to the user."
       },
       {
-        "title": "Iterate and Refine",
-        "detail": "Try different prompts and refine them based on the responses you receive. Use follow-up instructions to improve subsequent prompts."
+        "title": "Test and optimize",
+        "detail": "Test the interface with diverse user groups. Collect feedback and improve the interface based on it. Ensure the model provides accurate and useful results."
       }
     ],
-    "code": "def create_effective_prompt(task, role, context, output_format):\n    prompt = f\"\"\"Role: {role}\n\nTask: {task}\n\nContext: {context}\n\nOutput Format: {output_format}\"\"\"\n    return prompt\n\n# Example usage:\nprompt = create_effective_prompt(\n    task=\"Analyze customer feedback for product improvement\",\n    role=\"Customer Experience Analyst\",\n    context=\"We received 500 customer reviews about our new smartphone model\",\n    output_format=\"Provide a summary of key findings, top 3 issues, and recommendations in bullet points\"\n)\nprint(prompt)",
+    "code": "<!DOCTYPE html>\n<html>\n<head>\n  <title>AI Chat Interface</title>\n  <script src=\"https://cdn.jsdelivr.net/npm/vue@3.2.36/dist/vue.global.js\"></script>\n</head>\n<body>\n  <div id=\"app\">\n    <div class=\"chat-container\">\n      <div class=\"messages\">\n        <div v-for=\"(message, index) in messages\" :key=\"index\" :class=\"['message', message.sender]\">\n          {{ message.text }}\n        </div>\n      </div>\n      <div class=\"input-area\">\n        <input v-model=\"userInput\" @keyup.enter=\"sendMessage\" placeholder=\"Type your message...\" />\n        <button @click=\"sendMessage\">Send</button>\n      </div>\n    </div>\n  </div>\n\n  <script>\n    const { createApp } = Vue;\n    \n    createApp({\n      data() {\n        return {\n          messages: [\n            { sender: 'ai', text: 'Hello! How can I help you today?' }\n          ],\n          userInput: ''\n        }\n      },\n      methods: {\n        sendMessage() {\n          if (this.userInput.trim() === '') return;\n          \n          // Add user message\n          this.messages.push({ sender: 'user', text: this.userInput });\n          \n          // Simulate AI response\n          setTimeout(() => {\n            const responses = [\n              'I understand your question.',\n              'That\\'s an interesting point.',\n              'Let me help you with that.',\n              'Based on my analysis...'\n            ];\n            const randomResponse = responses[Math.floor(Math.random() * responses.length)];\n            this.messages.push({ sender: 'ai', text: randomResponse });\n          }, 1000);\n          \n          // Clear input\n          this.userInput = '';\n        }\n      }\n    }).mount('#app');\n  </script>\n</body>\n</html>",
     "resources": [
       {
-        "name": "Prompt Engineering Guide",
-        "url": "https://www.promptingguide.ai/"
+        "name": "Hugging Face Documentation",
+        "url": "https://huggingface.co/docs"
       },
       {
-        "name": "OpenAI Prompt Engineering Documentation",
-        "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        "name": "React Documentation",
+        "url": "https://reactjs.org/docs"
       },
       {
-        "name": "Anthropic Prompt Engineering Guide",
-        "url": "https://docs.anthropic.com/claude/docs/prompt-engineering"
+        "name": "AI Interface Design Patterns",
+        "url": "https://www.interaction-design.org/literature/topics/ai-user-interface"
       }
     ],
     "tags": [
-      "هندسة أوامر",
-      "تحسين الاستجابات",
-      "الذكاء الاصطناعي",
-      "مهارات عملية"
+      "واجهات المستخدم",
+      "التفاعل البشري-الذكي",
+      "تطوير الواجهات",
+      "UI/UX"
     ],
-    "quickRef": "1. حدد الهدف بوضوح 2. حدد دور النموذج 3. قدم السياق الكافي 4. حدد تنسيق المخرجات 5. كرر واجعل الأوامر أفضل",
-    "quickRefEn": "1. Clearly define objective 2. Specify model role 3. Provide sufficient context 4. Specify output format 5. Iterate and refine",
+    "quickRef": "بناء واجهات سهلة الاستخدام للذكاء الاصطناعي",
+    "quickRefEn": "Building user-friendly AI interfaces",
     "quiz": [
       {
-        "q": "ما هو العنصر الأهم في هندسة أوامر الذكاء الاصطناعي؟",
+        "q": "ما هو العنصر الأكثر أهمية في تصميم واجهة مستخدم للذكاء الاصطناعي؟",
         "options": [
-          "استخدام لغة معقدة",
-          "تحديد الهدف بوضوح",
-          "جعل الأمر قصيرًا قدر الإمكان",
-          "تجديد النموذج قبل كل استفسار"
+          "الجماليات البصرية",
+          "سهولة الاستخدام",
+          "سرعة التحميل",
+          "عدد الميزات"
         ],
         "answer": 1,
-        "explain": "تحديد الهدف بوضوح هو العنصر الأهم في هندسة أوامر الذكاء الاصطناعي، لأنه يضمن أن النموذج يفهم ما هو مطلوب منه بدقة."
+        "explain": "سهولة الاستخدام هي الأهم لأنها تضمن أن المستخدمين يمكنهم التفاعل مع النموذج الذكي بفعالية دون صعوبة، مما يزيد من تبني التكنولوجيا."
       },
       {
-        "q": "كيف يمكن تحسين استجابة النموذج إذا كانت غير دقيقة؟",
+        "q": "ما هو أفضل نهج لدمج نموذج الذكاء الاصطناعي في واجهة مستخدم؟",
         "options": [
-          "زيادة طول الأمر",
-          "إعادة صياغة الأمر بوضوح أكبر وتوفير المزيد من السياق",
-          "تغيير النموذج فقط",
-          "تقليل عدد الأسئلة"
+          "تحميل النموذج بالكامل على الجهاز",
+          "استخدام واجهات برمجة التطبيقات (APIs)",
+          "بناء نموذج مخصص من الصفر",
+          "الاعتماد على نماذج مفتوحة المصدر فقط"
         ],
         "answer": 1,
-        "explain": "إعادة صياغة الأمر بوضوح أكبر وتوفير المزيد من السياق يساعد النموذج على فهم المطلوب بشكل أفضل وتقديم استجابات أكثر دقة."
-      },
-      {
-        "q": "ما هي أفضل طريقة لتحديد تنسيق المخرجات من النموذج؟",
-        "options": [
-          "دع النموذج يقرر التنسيق",
-          "استخدم أوامر مثل 'قدم الإجابة في شكل جدول' أو 'استخدم قائمة مرقمة'",
-          "استخدم تنسيق JSON فقط",
-          "تجنب تحديد التنسيط"
-        ],
-        "answer": 1,
-        "explain": "استخدام أوامر محددة مثل 'قدم الإجابة في شكل جدول' أو 'استخدم قائمة مرقمة' يساعد على الحصول على مخرجات منسقة ومنظمة."
+        "explain": "استخدام واجهات برمجة التطبيقات (APIs) هو الأفضل لأنه يسمح بالوصول إلى نماذج متقدمة دون الحاجة لتخزينها محليًا، مما يوفر الموارد ويسهل التحديث."
       }
     ],
-    "addedAt": "2026-11-10"
+    "addedAt": "2026-11-11"
   }
 }

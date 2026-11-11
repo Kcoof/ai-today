@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T13:46:59.468Z",
+  "updatedAt": "2026-11-11T12:55:58.374Z",
   "servers": [
     {
       "id": "jinzcdev/Markmap",
@@ -13,7 +13,7 @@
         "knowledge-and-memory"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/0b35c428-874e-4272-9d18-ff2abe20ac44.png",
-      "views": 1412339,
+      "views": 1417077,
       "url": "https://modelscope.cn/mcp/servers/jinzcdev/Markmap"
     },
     {
@@ -30,7 +30,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_402ed2b0-a575-4187-813f-ae82d89af6a1.png",
-      "views": 919175,
+      "views": 923866,
       "url": "https://modelscope.cn/mcp/servers/jinzcdev/leetcode-mcp-server"
     },
     {
@@ -45,7 +45,7 @@
         "browser-automation"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_761f7bfe-fc5c-4753-b955-dcdd3288941b.png",
-      "views": 647500,
+      "views": 648214,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/fetch"
     },
     {
@@ -60,7 +60,7 @@
         "location-services"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_982efeea-b6fe-4c38-91da-501de5a7f098.png",
-      "views": 453899,
+      "views": 454977,
       "url": "https://modelscope.cn/mcp/servers/@amap/amap-maps"
     },
     {
@@ -76,7 +76,7 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/73d15a75-fe8c-4c67-813a-c9ba74bc9cfc.png",
-      "views": 441569,
+      "views": 442051,
       "url": "https://modelscope.cn/mcp/servers/@Joooook/12306-mcp"
     },
     {
@@ -91,7 +91,7 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-prod/studio-cover_c1a4feec-7dd2-4188-bd72-aebde64758f3.png",
-      "views": 241109,
+      "views": 241380,
       "url": "https://modelscope.cn/mcp/servers/slcatwujian/bing-cn-mcp-server"
     },
     {
@@ -106,7 +106,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/ec4a0829-8d46-4709-88e9-67927e639b18.JPG",
-      "views": 154623,
+      "views": 154808,
       "url": "https://modelscope.cn/mcp/servers/antvis/mcp-server-chart"
     },
     {
@@ -121,7 +121,7 @@
         "finance"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/a2a75cf8-470e-4d12-a0fe-8e02d6995ce2.png",
-      "views": 94851,
+      "views": 94938,
       "url": "https://modelscope.cn/mcp/servers/Alipay/mcp-server-alipay"
     },
     {
@@ -136,7 +136,7 @@
         "art-and-culture"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_07affeaa-4d37-4e6d-bad8-47b5f57f0ce4.png",
-      "views": 92953,
+      "views": 93014,
       "url": "https://modelscope.cn/mcp/servers/@worryzyy/howtocook-mcp"
     },
     {
@@ -153,7 +153,7 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_71c6eb33-fe4a-4142-918f-34c3fe6e6d3a.png",
-      "views": 78987,
+      "views": 79051,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/github"
     },
     {
@@ -168,7 +168,7 @@
         "file-systems"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_6fa38c35-7f1b-479c-80fa-4a6903e59568.jpg",
-      "views": 75426,
+      "views": 75473,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/filesystem"
     },
     {
@@ -183,7 +183,7 @@
         "browser-automation"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/12024e82-58cd-431f-9038-77f3b25c2a61.png",
-      "views": 70688,
+      "views": 70789,
       "url": "https://modelscope.cn/mcp/servers/@ChromeDevTools/chrome-devtools-mcp"
     },
     {
@@ -199,7 +199,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/microsoft.png",
-      "views": 70023,
+      "views": 70058,
       "url": "https://modelscope.cn/mcp/servers/@microsoft/playwright-mcp"
     },
     {
@@ -215,7 +215,7 @@
         "browser-automation"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/tavily-ai.png",
-      "views": 69508,
+      "views": 69591,
       "url": "https://modelscope.cn/mcp/servers/@tavily-ai/tavily-mcp"
     },
     {
@@ -230,7 +230,7 @@
         "research-and-data"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/modelcontextprotocol.png",
-      "views": 69413,
+      "views": 69459,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/sequentialthinking"
     },
     {
@@ -246,7 +246,7 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/upstash.png",
-      "views": 65035,
+      "views": 65056,
       "url": "https://modelscope.cn/mcp/servers/@upstash/context7-mcp"
     },
     {
@@ -262,7 +262,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/af9e8d5f-0e30-4092-a9f8-c869bc868391.png",
-      "views": 62126,
+      "views": 62269,
       "url": "https://modelscope.cn/mcp/servers/ZhipuAI/Zhipu-Web-Search"
     },
     {
@@ -277,7 +277,7 @@
         "entertainment-and-media"
       ],
       "logo": "",
-      "views": 60546,
+      "views": 60683,
       "url": "https://modelscope.cn/mcp/servers/zephyr/douyin-mcp-server"
     },
     {
@@ -292,8 +292,23 @@
         "location-services"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_e6ac53fa-6eec-4ba3-8fb1-c66b12b28a9a.png",
-      "views": 59642,
+      "views": 59768,
       "url": "https://modelscope.cn/mcp/servers/@baidu-maps/mcp"
+    },
+    {
+      "id": "metasota/metaso-search",
+      "nameEn": "metaso-search",
+      "nameZh": "秘塔AI搜索",
+      "nameAr": "metaso-search",
+      "descEn": "MCP Service of Mitell AI Search\n\n## 1. 概述\n秘塔AI搜索的MCP（Multi-Cloud Platform）服务是一种多云平台解决方案，旨在帮助企业更高效地管理和利用来自不同云服务商的资源。通过MCP，用户可以轻松地在多个云环境之间迁移应用和服务，同时享受统一的管理和监控体验。\n\n## 2. 功能特点\n- **跨云管理**：支持对阿里云、腾讯云等主流云服务商的资源进行集中管理。\n- **自动化运维**：提供自动化的部署、更新和维护工具，简化日常运维工作。\n- **成本优化**：通过智能分析帮助用户识别并减少不必要的开支。\n- **安全性高**：采用先进的安全技术保护数据免受攻击。\n\n## 3. 快速开始\n### 3.1 创建账户\n访问[秘塔官网](https://www.mitell.com)注册账号，并按照指引完成身份验证流程。\n\n### 3.2 配置云服务\n登录后，在控制台中选择“添加云服务”，根据提示输入您的云服务提供商信息及相应的API密钥。\n\nplaintext\n例如：\n- 云服务提供商: 阿里云\n- API Key: your_api_key_here\n- Secret Key: your_secret_key_here\n\n\n### 3.3 使用MCP\n配置完成后，您就可以开始使用MCP的各项功能了。更多详细操作指南请参阅[官方文档](https://docs.mitell.com/mcp/)。\n\n## 4. 常见问题解答\n- **Q: MCP是否支持所有类型的云服务？**\n  A: 目前MCP主要支持市场上主流的IaaS和PaaS服务。对于特定需求，请联系客服获取更多信息。\n- **Q: 如何保证我的数据安全？**\n  A: 我们采用了包括但不限于加密传输、定期备份以及严格的访问控制在内的多种措施来确保您的信息安全。\n\n## 5. 联系我们\n如果您有任何疑问或需要进一步的帮助，请随时联系我们：\n- 客服邮箱: support@mitell.com\n- 官方网站: [https://www.mitell.com](https://www.mitell.com)\n\n---\n\n希望这份文档能够帮助您更好地了解和使用秘塔AI搜索的MCP服务！",
+      "descZh": "秘塔AI搜索的MCP服务",
+      "descAr": "خدمة MCP لبحث Mitell AI\n\n## 1. نظرة عامة\nخدمة MCP (Multi-Cloud Platform) لبحث Mitell AI هي حلول منصة متعددة السحابة، مصممة لمساعدة الشركات على إدارة واستخدام موارد مقدمي الخدمات السحابية المختلفة بكفاءة أكبر. من خلال MCP، يمكن للمستخدمين بسهولة نقل التطبيقات والخدمات بين بيئات السحابة المتعددة، مع الاستمتاع بتجربة إدارة ومراقبة موحدة.\n\n## 2. الميزات\n- **إدارة متعددة السحابة**: يدعم إدارة موارد مقدمي الخدمات السحابية الرئيسية مثل Alibaba Cloud و Tencent Cloud بشكل مركزي.\n- **التشغيل والصيانة الآلي**: ي",
+      "categories": [
+        "developer-tools"
+      ],
+      "logo": "",
+      "views": 59725,
+      "url": "https://modelscope.cn/mcp/servers/metasota/metaso-search"
     },
     {
       "id": "MChina/mcd_mcp_server",
@@ -309,23 +324,8 @@
         "location-services"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/f8d1d758-b73c-4e80-bca5-7c4bad5619d3.png",
-      "views": 59506,
+      "views": 59658,
       "url": "https://modelscope.cn/mcp/servers/MChina/mcd_mcp_server"
-    },
-    {
-      "id": "metasota/metaso-search",
-      "nameEn": "metaso-search",
-      "nameZh": "秘塔AI搜索",
-      "nameAr": "metaso-search",
-      "descEn": "MCP Service of Mitell AI Search\n\n## 1. 概述\n秘塔AI搜索的MCP（Multi-Cloud Platform）服务是一种多云平台解决方案，旨在帮助企业更高效地管理和利用来自不同云服务商的资源。通过MCP，用户可以轻松地在多个云环境之间迁移应用和服务，同时享受统一的管理和监控体验。\n\n## 2. 功能特点\n- **跨云管理**：支持对阿里云、腾讯云等主流云服务商的资源进行集中管理。\n- **自动化运维**：提供自动化的部署、更新和维护工具，简化日常运维工作。\n- **成本优化**：通过智能分析帮助用户识别并减少不必要的开支。\n- **安全性高**：采用先进的安全技术保护数据免受攻击。\n\n## 3. 快速开始\n### 3.1 创建账户\n访问[秘塔官网](https://www.mitell.com)注册账号，并按照指引完成身份验证流程。\n\n### 3.2 配置云服务\n登录后，在控制台中选择“添加云服务”，根据提示输入您的云服务提供商信息及相应的API密钥。\n\nplaintext\n例如：\n- 云服务提供商: 阿里云\n- API Key: your_api_key_here\n- Secret Key: your_secret_key_here\n\n\n### 3.3 使用MCP\n配置完成后，您就可以开始使用MCP的各项功能了。更多详细操作指南请参阅[官方文档](https://docs.mitell.com/mcp/)。\n\n## 4. 常见问题解答\n- **Q: MCP是否支持所有类型的云服务？**\n  A: 目前MCP主要支持市场上主流的IaaS和PaaS服务。对于特定需求，请联系客服获取更多信息。\n- **Q: 如何保证我的数据安全？**\n  A: 我们采用了包括但不限于加密传输、定期备份以及严格的访问控制在内的多种措施来确保您的信息安全。\n\n## 5. 联系我们\n如果您有任何疑问或需要进一步的帮助，请随时联系我们：\n- 客服邮箱: support@mitell.com\n- 官方网站: [https://www.mitell.com](https://www.mitell.com)\n\n---\n\n希望这份文档能够帮助您更好地了解和使用秘塔AI搜索的MCP服务！",
-      "descZh": "秘塔AI搜索的MCP服务",
-      "descAr": "خدمة MCP لبحث Mitell AI\n\n## 1. نظرة عامة\nخدمة MCP (Multi-Cloud Platform) لبحث Mitell AI هي حلول منصة متعددة السحابة، مصممة لمساعدة الشركات على إدارة واستخدام موارد مقدمي الخدمات السحابية المختلفة بكفاءة أكبر. من خلال MCP، يمكن للمستخدمين بسهولة نقل التطبيقات والخدمات بين بيئات السحابة المتعددة، مع الاستمتاع بتجربة إدارة ومراقبة موحدة.\n\n## 2. الميزات\n- **إدارة متعددة السحابة**: يدعم إدارة موارد مقدمي الخدمات السحابية الرئيسية مثل Alibaba Cloud و Tencent Cloud بشكل مركزي.\n- **التشغيل والصيانة الآلي**: ي",
-      "categories": [
-        "developer-tools"
-      ],
-      "logo": "",
-      "views": 59487,
-      "url": "https://modelscope.cn/mcp/servers/metasota/metaso-search"
     },
     {
       "id": "@modelcontextprotocol/time",
@@ -339,7 +339,7 @@
         "calendar-management"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_ac639221-aa2e-4235-8087-abd65ab6ab73.jpg",
-      "views": 58851,
+      "views": 58915,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/time"
     },
     {
@@ -355,7 +355,7 @@
         "art-and-culture"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/a08d182b-91b6-46c2-b28c-e18ffc3cc106.png",
-      "views": 57907,
+      "views": 57968,
       "url": "https://modelscope.cn/mcp/servers/@cantian-ai/Bazi-MCP"
     },
     {
@@ -370,7 +370,7 @@
         "browser-automation"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_a5ee45a5-d67c-488e-b5df-bd4be85643a5.png",
-      "views": 53520,
+      "views": 53585,
       "url": "https://modelscope.cn/mcp/servers/@mendableai/firecrawl-mcp-server"
     },
     {
@@ -385,7 +385,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_533dd447-0a44-4f35-b723-0e331da31cde.png",
-      "views": 50602,
+      "views": 50635,
       "url": "https://modelscope.cn/mcp/servers/@GLips/Figma-Context-MCP"
     },
     {
@@ -400,7 +400,7 @@
         "communication"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/a8605868-b41f-4826-b44c-272b4568b028.jpeg",
-      "views": 50040,
+      "views": 50134,
       "url": "https://modelscope.cn/mcp/servers/@open-dingtalk/dingtalk-mcp"
     },
     {
@@ -416,7 +416,7 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/507ae2d8-8f5f-427f-9ace-e0e7d29f3a8f.jpg",
-      "views": 48962,
+      "views": 48998,
       "url": "https://modelscope.cn/mcp/servers/ddpenpal/pozansky-stock-server"
     },
     {
@@ -431,7 +431,7 @@
         "AIGC"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_4b0061a7-e072-48cc-ba12-df0cc1201ae0.jpeg",
-      "views": 45661,
+      "views": 45711,
       "url": "https://modelscope.cn/mcp/servers/@MiniMax-AI/MiniMax-MCP"
     },
     {
@@ -446,7 +446,7 @@
         "knowledge-and-memory"
       ],
       "logo": "https://resouces.modelscope.cn/mcp-server-cover/232d400c-fb7e-4574-ab5b-662682493194",
-      "views": 44500,
+      "views": 44788,
       "url": "https://modelscope.cn/mcp/servers/yspdsh/mind-mcp-v1.2"
     },
     {
@@ -461,7 +461,7 @@
         "file-systems"
       ],
       "logo": "",
-      "views": 44008,
+      "views": 44026,
       "url": "https://modelscope.cn/mcp/servers/@negokaz/excel-mcp-server"
     },
     {
@@ -478,7 +478,7 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-prod/studio-cover_f25abcc8-4e80-4d9c-8944-a5de1db7eb8e.png",
-      "views": 41805,
+      "views": 41888,
       "url": "https://modelscope.cn/mcp/servers/@variflight-ai/variflight-mcp"
     },
     {
@@ -493,7 +493,7 @@
         "knowledge-and-memory"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/7e5668b2-a694-4d07-9e57-c4ef6b5a7029.png",
-      "views": 41292,
+      "views": 41383,
       "url": "https://modelscope.cn/mcp/servers/MemTensor/MemoryOperatingSystem"
     },
     {
@@ -510,7 +510,7 @@
         "research-and-data"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/a0450a13-31e0-48c1-9f61-51309894f02a.png",
-      "views": 41044,
+      "views": 41071,
       "url": "https://modelscope.cn/mcp/servers/@regenrek/mcp-deepwiki"
     },
     {
@@ -525,7 +525,7 @@
         "knowledge-and-memory"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/70b2d49b-7425-452d-ba3f-79a84a30ebf5.png",
-      "views": 39559,
+      "views": 39602,
       "url": "https://modelscope.cn/mcp/servers/@package/mcp-server-weread"
     },
     {
@@ -538,7 +538,7 @@
       "descAr": "أداة استعلام طقس بسيطة تتيح لك التحقق من الطقس العالمي بجملة واحدة، ومتكاملة بشكل مثالي مع محرر Cursor.",
       "categories": [],
       "logo": "",
-      "views": 39130,
+      "views": 39218,
       "url": "https://modelscope.cn/mcp/servers/@MrCare/mcp_tool"
     },
     {
@@ -554,7 +554,7 @@
         "browser-automation"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/9525bc2f-8694-4a75-ac09-58921ffcfddf.png",
-      "views": 37947,
+      "views": 37958,
       "url": "https://modelscope.cn/mcp/servers/Dennisyk348/TuriX-Computer-Use-Agent"
     },
     {
@@ -570,7 +570,7 @@
         "browser-automation"
       ],
       "logo": "",
-      "views": 36975,
+      "views": 37015,
       "url": "https://modelscope.cn/mcp/servers/@baranwang/mcp-trends-hub"
     },
     {
@@ -585,7 +585,7 @@
         "databases"
       ],
       "logo": "",
-      "views": 35370,
+      "views": 35393,
       "url": "https://modelscope.cn/mcp/servers/@designcomputer/mysql_mcp_server"
     },
     {
@@ -600,7 +600,7 @@
         "art-and-culture"
       ],
       "logo": "https://img.alicdn.com/imgextra/i4/O1CN01wBl8wv1cqD5Dpfn4O_!!6000000003651-2-tps-1929-2007.png",
-      "views": 35286,
+      "views": 35314,
       "url": "https://modelscope.cn/mcp/servers/@XGenerationLab/xhs_mcp_server"
     },
     {
@@ -615,7 +615,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_97ce290c-1269-428f-87d0-f90f46f039a9.png",
-      "views": 35186,
+      "views": 35265,
       "url": "https://modelscope.cn/mcp/servers/AgentBay/wuying-agentbay-mcp-server"
     },
     {
@@ -631,7 +631,7 @@
         "note-taking"
       ],
       "logo": "",
-      "views": 33519,
+      "views": 33552,
       "url": "https://modelscope.cn/mcp/servers/@GongRzhe/Office-Word-MCP-Server"
     },
     {
@@ -648,7 +648,7 @@
         "file-systems"
       ],
       "logo": "",
-      "views": 33451,
+      "views": 33487,
       "url": "https://modelscope.cn/mcp/servers/KUN03036/LLM_output_with_docxpdf_MCP_Agent_Challenge"
     },
     {
@@ -664,7 +664,7 @@
         "search"
       ],
       "logo": "",
-      "views": 33226,
+      "views": 33294,
       "url": "https://modelscope.cn/mcp/servers/@blazickjp/arxiv-mcp-server"
     },
     {
@@ -679,7 +679,7 @@
         "developer-tools"
       ],
       "logo": "",
-      "views": 32626,
+      "views": 32770,
       "url": "https://modelscope.cn/mcp/servers/itshen/xsct-bench"
     },
     {
@@ -696,7 +696,7 @@
         "knowledge-and-memory"
       ],
       "logo": "",
-      "views": 30401,
+      "views": 30469,
       "url": "https://modelscope.cn/mcp/servers/AdrianWangs/MinerU"
     },
     {
@@ -711,7 +711,7 @@
         "other"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/125fb451-e89d-4ea9-aee9-c731c12a3f51.png",
-      "views": 29567,
+      "views": 29595,
       "url": "https://modelscope.cn/mcp/servers/Launini/ChatPPT-MCP"
     },
     {
@@ -728,7 +728,7 @@
         "communication"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/c5e95335-aaf0-4396-afbb-17db050ae542.png",
-      "views": 28911,
+      "views": 28949,
       "url": "https://modelscope.cn/mcp/servers/WEIAIb/mind-map-mcp"
     },
     {
@@ -743,7 +743,7 @@
         "aigc"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/0750ab4a-efde-4ee6-835a-ee1faa036594.png",
-      "views": 28634,
+      "views": 28687,
       "url": "https://modelscope.cn/mcp/servers/modelscope/ModelScope-Image-Generation-MCP"
     },
     {
@@ -758,7 +758,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_10e23f96-0608-412b-9bda-40b1b740cc1a.png",
-      "views": 27843,
+      "views": 27866,
       "url": "https://modelscope.cn/mcp/servers/@mastergo-design/mastergo-magic-mcp"
     },
     {
@@ -775,7 +775,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/dd09b25d-0a9e-4d82-b34b-39c9ec5b6fa3.jpeg",
-      "views": 27641,
+      "views": 27842,
       "url": "https://modelscope.cn/mcp/servers/TianYanCha/tyc-mcp"
     },
     {
@@ -790,7 +790,7 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/87cc7d4b-3431-4156-8552-1ec18d75271c.png",
-      "views": 27417,
+      "views": 27441,
       "url": "https://modelscope.cn/mcp/servers/Aasee1/open-webSearch"
     },
     {
@@ -807,8 +807,23 @@
         "other"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_075663ba-3797-4876-9667-b7bd3a7bcc84.jpg",
-      "views": 26603,
+      "views": 26669,
       "url": "https://modelscope.cn/mcp/servers/@ahujasid/blender-mcp"
+    },
+    {
+      "id": "@mem0ai/OpenMemory",
+      "nameEn": "OpenMemory",
+      "nameZh": "OpenMemory",
+      "nameAr": "OpenMemory",
+      "descEn": "OpenMemory is your personal memory layer for LLMs - private, portable, and open-source. Your memories live locally, giving you complete control over your data. Build AI applications with personalized memories while keeping your data secure.",
+      "descZh": "OpenMemory 是您的个人记忆层，适用于大型语言模型（LLM）——私有、便携且开源。您的记忆数据存储在本地，让您完全掌控自己的数据。在构建具有个性化记忆的AI应用程序的同时，确保您的数据安全。",
+      "descAr": "OpenMemory هو طبقة الذاكرة الشخصية الخاصة بك لنماذج LLM - خاص وقابل للنقل ومفتوح المصدر. تعيش ذاكرتك محليًا، مما يمنحك السيطرة الكاملة على بياناتك. قم ببناء تطبيقات الذكاء الاصطناعي مع ذاكرة مخصصة مع الحفاظ على أمان بياناتك.",
+      "categories": [
+        "Knowledge&Memory"
+      ],
+      "logo": "https://resources.modelscope.cn/mcp-server-cover/6a92b62f-fb85-4410-abb1-25b15dafa354.png",
+      "views": 26500,
+      "url": "https://modelscope.cn/mcp/servers/@mem0ai/OpenMemory"
     },
     {
       "id": "@zcaceres/markdownify-mcp",
@@ -824,23 +839,8 @@
         "developer-tools"
       ],
       "logo": "",
-      "views": 26480,
+      "views": 26496,
       "url": "https://modelscope.cn/mcp/servers/@zcaceres/markdownify-mcp"
-    },
-    {
-      "id": "@mem0ai/OpenMemory",
-      "nameEn": "OpenMemory",
-      "nameZh": "OpenMemory",
-      "nameAr": "OpenMemory",
-      "descEn": "OpenMemory is your personal memory layer for LLMs - private, portable, and open-source. Your memories live locally, giving you complete control over your data. Build AI applications with personalized memories while keeping your data secure.",
-      "descZh": "OpenMemory 是您的个人记忆层，适用于大型语言模型（LLM）——私有、便携且开源。您的记忆数据存储在本地，让您完全掌控自己的数据。在构建具有个性化记忆的AI应用程序的同时，确保您的数据安全。",
-      "descAr": "OpenMemory هو طبقة الذاكرة الشخصية الخاصة بك لنماذج LLM - خاص وقابل للنقل ومفتوح المصدر. تعيش ذاكرتك محليًا، مما يمنحك السيطرة الكاملة على بياناتك. قم ببناء تطبيقات الذكاء الاصطناعي مع ذاكرة مخصصة مع الحفاظ على أمان بياناتك.",
-      "categories": [
-        "Knowledge&Memory"
-      ],
-      "logo": "https://resources.modelscope.cn/mcp-server-cover/6a92b62f-fb85-4410-abb1-25b15dafa354.png",
-      "views": 26453,
-      "url": "https://modelscope.cn/mcp/servers/@mem0ai/OpenMemory"
     },
     {
       "id": "Alobak/automation-xhs",
@@ -855,7 +855,7 @@
         "entertainment-and-media"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/076cbec9-9156-4108-936d-99da7362f10a.png",
-      "views": 26433,
+      "views": 26480,
       "url": "https://modelscope.cn/mcp/servers/Alobak/automation-xhs"
     },
     {
@@ -870,8 +870,23 @@
         "browser-automation"
       ],
       "logo": "",
-      "views": 26254,
+      "views": 26257,
       "url": "https://modelscope.cn/mcp/servers/Halfmm/sequentialthinking"
+    },
+    {
+      "id": "A15570082312/12306",
+      "nameEn": "12306",
+      "nameZh": "12306购票搜索服务器",
+      "nameAr": "12306",
+      "descEn": "A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.",
+      "descZh": "基于Model Context Protocol (MCP)的12306车票查询服务器。该服务器提供了一个简单的API接口，允许用户搜索12306车票。",
+      "descAr": "خادم بحث عن تذاكر 12306 القائم على بروتوكول سياق النموذج (MCP). يوفر الخادم واجهة API بسيطة تسمح للمستخدمين بالبحث عن تذاكر 12306.",
+      "categories": [
+        "search"
+      ],
+      "logo": "",
+      "views": 25737,
+      "url": "https://modelscope.cn/mcp/servers/A15570082312/12306"
     },
     {
       "id": "@wopal-cn/mcp-hotnews-server",
@@ -886,23 +901,23 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/wopal-cn.png",
-      "views": 25711,
+      "views": 25734,
       "url": "https://modelscope.cn/mcp/servers/@wopal-cn/mcp-hotnews-server"
     },
     {
-      "id": "A15570082312/12306",
-      "nameEn": "12306",
-      "nameZh": "12306购票搜索服务器",
-      "nameAr": "12306",
-      "descEn": "A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.",
-      "descZh": "基于Model Context Protocol (MCP)的12306车票查询服务器。该服务器提供了一个简单的API接口，允许用户搜索12306车票。",
-      "descAr": "خادم بحث عن تذاكر 12306 القائم على بروتوكول سياق النموذج (MCP). يوفر الخادم واجهة API بسيطة تسمح للمستخدمين بالبحث عن تذاكر 12306.",
+      "id": "@tokenizin-agency/mcp-npx-fetch",
+      "nameEn": "mcp-npx-fetch",
+      "nameZh": "内容抓取转换器",
+      "nameAr": "mcp-npx-fetch - جلب",
+      "descEn": "A powerful MCP server for fetching and transforming web content into various formats (HTML, JSON, Markdown, Plain Text) with ease.",
+      "descZh": "一个强大的MCP服务器，可以轻松地将网页内容抓取并转换为各种格式（HTML、JSON、Markdown、纯文本）。",
+      "descAr": "خادم MCP قوي لجلب وتحويل محتوى الويب إلى تنسيقات مختلفة (HTML, JSON, Markdown, Plain Text) بسهولة.",
       "categories": [
-        "search"
+        "browser-automation"
       ],
-      "logo": "",
-      "views": 25636,
-      "url": "https://modelscope.cn/mcp/servers/A15570082312/12306"
+      "logo": "https://resources.modelscope.cn/mcp-covers/avatar/tokenizin-agency.png",
+      "views": 25360,
+      "url": "https://modelscope.cn/mcp/servers/@tokenizin-agency/mcp-npx-fetch"
     },
     {
       "id": "@zhiwei5576/excel-mcp-server",
@@ -917,7 +932,7 @@
         "developer-tools"
       ],
       "logo": "",
-      "views": 25335,
+      "views": 25343,
       "url": "https://modelscope.cn/mcp/servers/@zhiwei5576/excel-mcp-server"
     },
     {
@@ -932,7 +947,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn//mcp-covers/avatar/TencentEdgeOne.jpeg",
-      "views": 24738,
+      "views": 24792,
       "url": "https://modelscope.cn/mcp/servers/@TencentEdgeOne/edgeone-pages-mcp"
     },
     {
@@ -947,7 +962,7 @@
         "finance"
       ],
       "logo": "",
-      "views": 23367,
+      "views": 23435,
       "url": "https://modelscope.cn/mcp/servers/postback/china-stock-mcp"
     },
     {
@@ -964,7 +979,7 @@
         "location-services"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/0c192ba1-cbec-4d97-828d-54c501dc594f.png",
-      "views": 23199,
+      "views": 23257,
       "url": "https://modelscope.cn/mcp/servers/yorklu/AI_Go_Hotel_MCP"
     },
     {
@@ -979,7 +994,7 @@
         "Search"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/3981b5de-be7a-4134-9ced-488018601ebc.png",
-      "views": 22749,
+      "views": 22815,
       "url": "https://modelscope.cn/mcp/servers/@PsychArch/Jina-AI-MCP-Tools"
     },
     {
@@ -994,7 +1009,7 @@
         "file-systems"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/837d7fcd-b531-43f4-969f-43dc1af4583a.png",
-      "views": 22561,
+      "views": 22593,
       "url": "https://modelscope.cn/mcp/servers/rockcj/Docx_MCP"
     },
     {
@@ -1009,7 +1024,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_2e30f8dc-57ac-47c3-a1d4-ae99e41bbaed.png",
-      "views": 21688,
+      "views": 21701,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/redis"
     },
     {
@@ -1024,7 +1039,7 @@
         "AIGC"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/0242c547-e0a6-4fd7-a636-59aea5ce6cb1.png",
-      "views": 21526,
+      "views": 21552,
       "url": "https://modelscope.cn/mcp/servers/@deckflow/gezhe-mcp-server"
     },
     {
@@ -1040,7 +1055,7 @@
         "art-and-culture"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/16b32714-6fb0-4eef-b574-aa57a47878fb.png",
-      "views": 21050,
+      "views": 21066,
       "url": "https://modelscope.cn/mcp/servers/@allvoicelab/AllVoiceLab"
     },
     {
@@ -1055,7 +1070,7 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/exa-labs.png",
-      "views": 20347,
+      "views": 20362,
       "url": "https://modelscope.cn/mcp/servers/@exa-labs/exa-mcp-server"
     },
     {
@@ -1071,7 +1086,7 @@
         "search"
       ],
       "logo": "",
-      "views": 20162,
+      "views": 20170,
       "url": "https://modelscope.cn/mcp/servers/@giptilabs/mcp-stock-analysis"
     },
     {
@@ -1086,7 +1101,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/48d5a74f-4ce0-47ed-98d9-2311ca56e4a4.jpeg",
-      "views": 19724,
+      "views": 19764,
       "url": "https://modelscope.cn/mcp/servers/@supabase-community/supabase-mcp"
     },
     {
@@ -1101,7 +1116,7 @@
         "knowledge-and-memory"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/modelcontextprotocol.png",
-      "views": 19212,
+      "views": 19226,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/knowledge-graph-memory-server"
     },
     {
@@ -1116,7 +1131,7 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_0d3bee45-492b-499d-9f44-b5b32a0e5ce8.png",
-      "views": 18839,
+      "views": 18853,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/brave-search"
     },
     {
@@ -1131,7 +1146,7 @@
         "finance"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/c9e49ac6-649e-4626-8aa7-3d95a8e68c43.png",
-      "views": 18626,
+      "views": 18692,
       "url": "https://modelscope.cn/mcp/servers/Alipay/alipay-subscription"
     },
     {
@@ -1147,7 +1162,7 @@
         "databases"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/elastic.png",
-      "views": 17695,
+      "views": 17736,
       "url": "https://modelscope.cn/mcp/servers/@elastic/mcp-server-elasticsearch"
     },
     {
@@ -1163,7 +1178,7 @@
         "research-and-data"
       ],
       "logo": "",
-      "views": 17662,
+      "views": 17677,
       "url": "https://modelscope.cn/mcp/servers/@NeekChaw/okppt"
     },
     {
@@ -1180,7 +1195,7 @@
         "search"
       ],
       "logo": "",
-      "views": 17633,
+      "views": 17643,
       "url": "https://modelscope.cn/mcp/servers/@wukan1986/query_table"
     },
     {
@@ -1197,7 +1212,7 @@
         "research-and-data"
       ],
       "logo": "",
-      "views": 17094,
+      "views": 17098,
       "url": "https://modelscope.cn/mcp/servers/mcpdev/gaokao-expert-mcp"
     },
     {
@@ -1212,7 +1227,7 @@
         "browser-automation"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_aefa5ea6-7938-479f-bffb-0ad5609607f4.png",
-      "views": 16613,
+      "views": 16625,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/puppeteer"
     },
     {
@@ -1227,7 +1242,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_b7b44d22-e3c5-42af-b350-a4af1debc333.png",
-      "views": 16157,
+      "views": 16172,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/everything"
     },
     {
@@ -1244,7 +1259,7 @@
         "research-and-data"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/714a51dd-c5a3-4f1c-8292-53e77edae222.png",
-      "views": 16067,
+      "views": 16086,
       "url": "https://modelscope.cn/mcp/servers/tianyuio/worldbank-mcp"
     },
     {
@@ -1260,7 +1275,7 @@
         "search"
       ],
       "logo": "",
-      "views": 15595,
+      "views": 15610,
       "url": "https://modelscope.cn/mcp/servers/@mamertofabian/mcp-everything-search"
     },
     {
@@ -1277,7 +1292,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/57a64291-0ee1-42c6-8367-c26b58c7c3fb",
-      "views": 15487,
+      "views": 15522,
       "url": "https://modelscope.cn/mcp/servers/Arsene/jimenggen-mcp"
     },
     {
@@ -1292,7 +1307,7 @@
         "browser-automation"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/browserbase.png",
-      "views": 15365,
+      "views": 15374,
       "url": "https://modelscope.cn/mcp/servers/@browserbase/mcp-server-browserbase"
     },
     {
@@ -1309,7 +1324,7 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/56c6bbdd-6615-4389-b1db-4aacaeca78b4.jpg",
-      "views": 15161,
+      "views": 15185,
       "url": "https://modelscope.cn/mcp/servers/haymai/fxbaogao"
     },
     {
@@ -1324,7 +1339,7 @@
         "finance"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/6a3eac2d-f5db-4bbb-919c-f33a84d3b204.png",
-      "views": 15029,
+      "views": 15048,
       "url": "https://modelscope.cn/mcp/servers/@UnionPay/unionpay-mcp-server"
     },
     {
@@ -1339,7 +1354,7 @@
         "version-control"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_78961bb5-6d67-4c9d-91bf-4735f0f5ae37.png",
-      "views": 14783,
+      "views": 14803,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/git"
     },
     {
@@ -1357,7 +1372,7 @@
         "AIGC"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/22aca491-c43b-4fc4-a7b7-7e54afff4d99.png",
-      "views": 14414,
+      "views": 14445,
       "url": "https://modelscope.cn/mcp/servers/@DataV-Atlas/atlas-tools-mcp-server"
     },
     {
@@ -1373,7 +1388,7 @@
         "image-and-video-processing"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/21st-dev.png",
-      "views": 14167,
+      "views": 14179,
       "url": "https://modelscope.cn/mcp/servers/@21st-dev/magic-mcp"
     },
     {
@@ -1390,7 +1405,7 @@
         "search"
       ],
       "logo": "",
-      "views": 14024,
+      "views": 14027,
       "url": "https://modelscope.cn/mcp/servers/@Ozamatash/deep-research-mcp"
     },
     {
@@ -1407,7 +1422,7 @@
         "research-and-data"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/54e9dd07-21c0-43fd-8a99-a2a8d0344181.png",
-      "views": 13695,
+      "views": 13785,
       "url": "https://modelscope.cn/mcp/servers/modelscope/modelscope-mcp-server"
     },
     {
@@ -1434,7 +1449,7 @@
         "calendar-management"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/2215808c-f281-47c2-9db9-cb3ba0496c03.png",
-      "views": 13547,
+      "views": 13574,
       "url": "https://modelscope.cn/mcp/servers/kuaidi100/kuaidi100-mcp"
     },
     {
@@ -1449,7 +1464,7 @@
         "version-control"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_ef6e0ecc-062f-49fe-8ec0-dae015dcbec1.png",
-      "views": 13463,
+      "views": 13477,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/gitlab"
     },
     {
@@ -1466,7 +1481,7 @@
         "entertainment-and-media"
       ],
       "logo": "",
-      "views": 13305,
+      "views": 13309,
       "url": "https://modelscope.cn/mcp/servers/@manimohans/verge-news-mcp"
     },
     {
@@ -1482,7 +1497,7 @@
         "travel-and-transportation"
       ],
       "logo": "",
-      "views": 12420,
+      "views": 12436,
       "url": "https://modelscope.cn/mcp/servers/@shanggqm/hefeng-mcp-weather"
     },
     {
@@ -1499,7 +1514,7 @@
         "entertainment-and-media"
       ],
       "logo": "",
-      "views": 12005,
+      "views": 12031,
       "url": "https://modelscope.cn/mcp/servers/@chenningling/Redbook-Search-Comment-MCP2.0"
     },
     {
@@ -1514,7 +1529,7 @@
         "entertainment-and-media"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/5d6fd17d-e8ac-4855-be8b-85b0bc65bcc6.png",
-      "views": 11949,
+      "views": 12018,
       "url": "https://modelscope.cn/mcp/servers/heyboy/jianying-mcp"
     },
     {
@@ -1531,7 +1546,7 @@
         "other"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_493192d0-fbad-49ca-bd67-11a78cb5270b.png",
-      "views": 11839,
+      "views": 11847,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/sqlite"
     },
     {
@@ -1547,7 +1562,7 @@
         "finance"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/685e8f5f-6509-44e7-a600-d6d3724fb669.jpg",
-      "views": 11812,
+      "views": 11824,
       "url": "https://modelscope.cn/mcp/servers/virgo777/Stock-Quant-Calculator-MCP"
     },
     {
@@ -1562,7 +1577,7 @@
         "knowledge-and-memory"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_2ee48488-82a8-445c-80be-b5fb5223c6ed.png",
-      "views": 10817,
+      "views": 10825,
       "url": "https://modelscope.cn/mcp/servers/@chatmcp/mcp-server-flomo"
     },
     {
@@ -1578,7 +1593,7 @@
         "art-and-culture"
       ],
       "logo": "",
-      "views": 10508,
+      "views": 10517,
       "url": "https://modelscope.cn/mcp/servers/mcpdev/search_movie"
     },
     {
@@ -1593,7 +1608,7 @@
         "entertainment-and-media"
       ],
       "logo": "",
-      "views": 10442,
+      "views": 10474,
       "url": "https://modelscope.cn/mcp/servers/FKWD123/RedBook_auxiliary_fuction"
     },
     {
@@ -1609,7 +1624,7 @@
         "other"
       ],
       "logo": "",
-      "views": 10021,
+      "views": 10023,
       "url": "https://modelscope.cn/mcp/servers/@CodeByWaqas/weather-mcp-server"
     },
     {
@@ -1630,7 +1645,7 @@
         "file-systems"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/012cf0df-0f98-4ec7-9324-185023880d0f.jpg",
-      "views": 9968,
+      "views": 9981,
       "url": "https://modelscope.cn/mcp/servers/virgo777/Stock-Quant-Agent"
     },
     {
@@ -1646,7 +1661,7 @@
         "developer-tools"
       ],
       "logo": "",
-      "views": 9700,
+      "views": 9713,
       "url": "https://modelscope.cn/mcp/servers/@Yevanchen/difyapp_as_mcp_server"
     },
     {
@@ -1661,7 +1676,7 @@
         "communication"
       ],
       "logo": "",
-      "views": 9634,
+      "views": 9649,
       "url": "https://modelscope.cn/mcp/servers/@loonghao/wecom-bot-mcp-server"
     },
     {
@@ -1676,7 +1691,7 @@
         "location-services"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_b5db6529-3335-452a-a494-346dc28fee56.png",
-      "views": 9347,
+      "views": 9356,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/google-maps"
     },
     {
@@ -1691,7 +1706,7 @@
         "communication"
       ],
       "logo": "",
-      "views": 9267,
+      "views": 9288,
       "url": "https://modelscope.cn/mcp/servers/codeyijun/excel-mcp-server"
     },
     {
@@ -1706,7 +1721,7 @@
         "communication"
       ],
       "logo": "",
-      "views": 9247,
+      "views": 9257,
       "url": "https://modelscope.cn/mcp/servers/@sdd330/feishu-mcp-server"
     },
     {
@@ -1721,7 +1736,7 @@
         "search"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_90ca73da-c981-4ecc-9631-2c094a42bfef.png",
-      "views": 9091,
+      "views": 9099,
       "url": "https://modelscope.cn/mcp/servers/@ppl-ai/modelcontextprotocol"
     },
     {
@@ -1736,7 +1751,7 @@
         "location-services"
       ],
       "logo": "",
-      "views": 8942,
+      "views": 8945,
       "url": "https://modelscope.cn/mcp/servers/@ipfred/aiwen-mcp-server-geoip"
     },
     {
@@ -1751,7 +1766,7 @@
         "location-services"
       ],
       "logo": "https://resouces.modelscope.cn/mcp-server-cover/186b2e12-5ab6-4a31-9afe-3a5df4a9d6f8",
-      "views": 8652,
+      "views": 8672,
       "url": "https://modelscope.cn/mcp/servers/linkun56/GaodeMapMCPServer"
     },
     {
@@ -1766,7 +1781,7 @@
         "other"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/chatmcp.png",
-      "views": 8052,
+      "views": 8058,
       "url": "https://modelscope.cn/mcp/servers/@chatmcp/mcp-server-chatsum"
     },
     {
@@ -1782,7 +1797,7 @@
         "other"
       ],
       "logo": "",
-      "views": 7642,
+      "views": 7648,
       "url": "https://modelscope.cn/mcp/servers/@vivekVells/mcp-pandoc"
     },
     {
@@ -1797,7 +1812,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/eb29e78d-ca27-4768-a0bc-dd3084a3e029.png",
-      "views": 7563,
+      "views": 7602,
       "url": "https://modelscope.cn/mcp/servers/@mobvoi/mobvoi-mcp"
     },
     {
@@ -1814,7 +1829,7 @@
         "other"
       ],
       "logo": "",
-      "views": 7422,
+      "views": 7426,
       "url": "https://modelscope.cn/mcp/servers/@haris-musa/excel-mcp-server"
     },
     {
@@ -1830,7 +1845,7 @@
         "art-and-culture"
       ],
       "logo": "",
-      "views": 6849,
+      "views": 6856,
       "url": "https://modelscope.cn/mcp/servers/@FelixFoster/enhance-prompt-server"
     },
     {
@@ -1846,7 +1861,7 @@
         "developer-tools"
       ],
       "logo": "",
-      "views": 6687,
+      "views": 6694,
       "url": "https://modelscope.cn/mcp/servers/@suekou/mcp-notion-server"
     },
     {
@@ -1861,7 +1876,7 @@
         "art-and-culture"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/8c21b5c7-8d3a-427c-a0a3-39b59868a17a.png",
-      "views": 6472,
+      "views": 6482,
       "url": "https://modelscope.cn/mcp/servers/deeppathai/mcp-chinese-fortune"
     },
     {
@@ -1878,7 +1893,7 @@
         "location-services"
       ],
       "logo": "https://i01.lw.aliimg.com/media/lALPM3Zr6yRbPzPNAljNAlg_600_600.png",
-      "views": 6017,
+      "views": 6053,
       "url": "https://modelscope.cn/mcp/servers/dingtalk/Weather-query"
     },
     {
@@ -1895,7 +1910,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/9529142f-0420-4e53-9bff-2a5bed5a337e.png",
-      "views": 5925,
+      "views": 5975,
       "url": "https://modelscope.cn/mcp/servers/laiyelijingao/Agentic_Document_Processing_MCP"
     },
     {
@@ -1911,7 +1926,7 @@
         "developer-tools"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/thirdstrandstudio.png",
-      "views": 5470,
+      "views": 5473,
       "url": "https://modelscope.cn/mcp/servers/@thirdstrandstudio/mcp-figma"
     },
     {
@@ -1927,7 +1942,7 @@
         "art-and-culture"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-prod/studio-cover_7be5ca79-43a0-49e3-a4da-9d0abb6de4df.jpg",
-      "views": 5377,
+      "views": 5400,
       "url": "https://modelscope.cn/mcp/servers/@Kuaizi/Kuaizi-MCP"
     },
     {
@@ -1942,7 +1957,7 @@
         "communication"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_481f03bd-3b9f-4da7-b7a1-eb89a5c76d5e.png",
-      "views": 4823,
+      "views": 4853,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/slack"
     },
     {
@@ -1959,7 +1974,7 @@
         "research-and-data"
       ],
       "logo": "",
-      "views": 4725,
+      "views": 4739,
       "url": "https://modelscope.cn/mcp/servers/mcpdev/bilibili_api"
     },
     {
@@ -1975,7 +1990,7 @@
         "location-services"
       ],
       "logo": "",
-      "views": 4677,
+      "views": 4688,
       "url": "https://modelscope.cn/mcp/servers/@yting27/weather-my-mcp"
     },
     {
@@ -1991,7 +2006,7 @@
         "calendar-management"
       ],
       "logo": "",
-      "views": 4378,
+      "views": 4385,
       "url": "https://modelscope.cn/mcp/servers/@abhiz123/todoist-mcp-server"
     },
     {
@@ -2007,7 +2022,7 @@
         "cloud-platforms"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/cloudflare.png",
-      "views": 3953,
+      "views": 3956,
       "url": "https://modelscope.cn/mcp/servers/@cloudflare/workers-mcp"
     },
     {
@@ -2024,7 +2039,7 @@
         "calendar-management"
       ],
       "logo": "",
-      "views": 3745,
+      "views": 3750,
       "url": "https://modelscope.cn/mcp/servers/mcpdev/airbnb_search"
     },
     {
@@ -2039,7 +2054,7 @@
         "databases"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/neondatabase-labs.png",
-      "views": 3682,
+      "views": 3686,
       "url": "https://modelscope.cn/mcp/servers/@neondatabase-labs/mcp-server-neon"
     },
     {
@@ -2055,7 +2070,7 @@
         "calendar-management"
       ],
       "logo": "",
-      "views": 3515,
+      "views": 3522,
       "url": "https://modelscope.cn/mcp/servers/@wllcnm/dingding_mcp_v2"
     },
     {
@@ -2072,7 +2087,7 @@
         "calendar-management"
       ],
       "logo": "",
-      "views": 3479,
+      "views": 3485,
       "url": "https://modelscope.cn/mcp/servers/mcpdev/AI-persona"
     },
     {
@@ -2088,7 +2103,7 @@
         "os-automation"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_4f162c8b-eb82-4634-9d86-61981b735e3c.jpg",
-      "views": 3368,
+      "views": 3375,
       "url": "https://modelscope.cn/mcp/servers/@ahujasid/ableton-mcp"
     },
     {
@@ -2103,7 +2118,7 @@
         "developer-tools"
       ],
       "logo": "",
-      "views": 3244,
+      "views": 3255,
       "url": "https://modelscope.cn/mcp/servers/@microsoft/MarkItDown"
     },
     {
@@ -2120,7 +2135,7 @@
         "knowledge-and-memory"
       ],
       "logo": "",
-      "views": 3003,
+      "views": 3008,
       "url": "https://modelscope.cn/mcp/servers/harykali/7daysfoodHelperV3.0"
     },
     {
@@ -2136,7 +2151,7 @@
         "calendar-management"
       ],
       "logo": "",
-      "views": 2752,
+      "views": 2758,
       "url": "https://modelscope.cn/mcp/servers/mcpdev/time_zone"
     },
     {
@@ -2151,7 +2166,7 @@
         "research-and-data"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_bbbedf4b-06fa-4b63-a558-c00938e8ee65.png",
-      "views": 2695,
+      "views": 2701,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/gdrive"
     },
     {
@@ -2168,7 +2183,7 @@
         "knowledge-and-memory"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/7e143629-f250-4fea-ab97-08d50c934a12.png",
-      "views": 2571,
+      "views": 2630,
       "url": "https://modelscope.cn/mcp/servers/ths/thsfazhi-law"
     },
     {
@@ -2183,7 +2198,7 @@
         "file-systems"
       ],
       "logo": "",
-      "views": 2366,
+      "views": 2375,
       "url": "https://modelscope.cn/mcp/servers/@wonderwhy-er/desktop-commander"
     },
     {
@@ -2200,7 +2215,7 @@
         "other"
       ],
       "logo": "",
-      "views": 2334,
+      "views": 2341,
       "url": "https://modelscope.cn/mcp/servers/@Ejb503/systemprompt-mcp-google"
     },
     {
@@ -2217,7 +2232,7 @@
         "calendar-management"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/40293932-91b8-46de-a9e8-949e62244619",
-      "views": 2305,
+      "views": 2313,
       "url": "https://modelscope.cn/mcp/servers/aalone/mcp-notify"
     },
     {
@@ -2232,7 +2247,7 @@
         "monitoring"
       ],
       "logo": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_c1f05f51-704c-45c2-8091-444c8149c912.png",
-      "views": 2135,
+      "views": 2138,
       "url": "https://modelscope.cn/mcp/servers/@modelcontextprotocol/sentry"
     },
     {
@@ -2249,7 +2264,7 @@
         "knowledge-and-memory"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/2729d0df-4d22-41ea-9b38-9dd4cd0ec8b0.png",
-      "views": 1964,
+      "views": 2020,
       "url": "https://modelscope.cn/mcp/servers/ths/ths-kuaicha-search"
     },
     {
@@ -2264,7 +2279,7 @@
         "databases"
       ],
       "logo": "https://resources.modelscope.cn/mcp-covers/avatar/mongodb-developer.png",
-      "views": 1472,
+      "views": 1476,
       "url": "https://modelscope.cn/mcp/servers/@mongodb-developer/mongodb-mcp-server"
     },
     {
@@ -2279,7 +2294,7 @@
         "customer-and-marketing"
       ],
       "logo": "https://resources.modelscope.cn/mcp-server-cover/3a4e963c-bde3-454d-b866-4d49e86f2216.png",
-      "views": 1138,
+      "views": 1141,
       "url": "https://modelscope.cn/mcp/servers/deeppathai/mcp-marketing-site"
     },
     {
@@ -2295,7 +2310,7 @@
         "customer-and-marketing"
       ],
       "logo": "https://i01.lw.aliimg.com/media/lALPD1oVOqutM8vNAljNAlg_600_600.png",
-      "views": 848,
+      "views": 850,
       "url": "https://modelscope.cn/mcp/servers/dingtalk/Parcel-tracking"
     },
     {
@@ -2311,7 +2326,7 @@
         "other"
       ],
       "logo": "",
-      "views": 809,
+      "views": 812,
       "url": "https://modelscope.cn/mcp/servers/@evalstate/mcp-miro"
     },
     {
@@ -2327,7 +2342,7 @@
         "customer-and-marketing"
       ],
       "logo": "https://img.alicdn.com/imgextra/i4/O1CN01hal37H1lMHoLIrwcp_!!6000000004804-2-tps-480-480.png",
-      "views": 653,
+      "views": 659,
       "url": "https://modelscope.cn/mcp/servers/dingtalk/DingTalk-OA-Approval"
     },
     {
@@ -2343,7 +2358,7 @@
         "customer-and-marketing"
       ],
       "logo": "https://img.alicdn.com/imgextra/i2/O1CN01YGwD3b20y2hMZuhT0_!!6000000006917-2-tps-480-480.png",
-      "views": 514,
+      "views": 517,
       "url": "https://modelscope.cn/mcp/servers/dingtalk/Attendance-clock-in"
     },
     {
@@ -2356,24 +2371,8 @@
       "descAr": "خادم Azure MCP",
       "categories": [],
       "logo": "https://resouces.modelscope.cn/mcp-covers/avatar/Azure.png",
-      "views": 449,
+      "views": 450,
       "url": "https://modelscope.cn/mcp/servers/@Azure/azure-mcp"
-    },
-    {
-      "id": "dingtalk/Corporate-job-postings",
-      "nameEn": "Corporate-job-postings",
-      "nameZh": "企业招聘信息",
-      "nameAr": "Corporate-job-postings",
-      "descEn": "One-click to query the details of enterprise recruitment, and keep track of job positions and candidate dynamics as if observing a chess game in your hand.",
-      "descZh": "一键查询企业招聘详情，掌握职位与候选人动态如掌中观棋。",
-      "descAr": "استعلام بنقرة واحدة عن تفاصيل التوظيف في الشركات، والبقاء على اطلاع دائم على وظائف المرشحين والديناميكيات، وكأنك تشاهد لعبة شطرنج بين يديك.",
-      "categories": [
-        "communication",
-        "customer-and-marketing"
-      ],
-      "logo": "https://i01.lw.aliimg.com/media/lALPM2xCw1MKJh_NAljNAlg_600_600.png",
-      "views": 367,
-      "url": "https://modelscope.cn/mcp/servers/dingtalk/Corporate-job-postings"
     }
   ]
 }
