@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-12-بناء-واجهة-مستخدم-للذكاء-الاصطناعي",
+      "title": "بناء واجهة مستخدم للذكاء الاصطناعي",
+      "titleEn": "Building AI User Interfaces",
+      "why": "بناء واجهات مستخدم فعالة للذكاء الاصطناعي يتحكم في تجربة المستخدم ويحدد مدى نجاء التطبيق، خاصة عند التعامل مع إجابات النماذج المعقدة.",
+      "whyEn": "Building effective AI user interfaces controls user experience and determines the success of applications, especially when dealing with complex model responses.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد متطلبات الواجهة",
+          "detail": "حدد الوظائف الأساسية التي يجب أن تقدمها الواجهة، بما في ذلك إدخال المستخدم، عرض النتائج، والتفاعلات المتوقعة."
+        },
+        {
+          "title": "تصميم التخطيط البصري",
+          "detail": "أنشئ مخططاً بسيطاً للواجهة يوضح التسلسل الهرمي للمكونات، مع التركيز على الوضوح وسهولة الاستخدام."
+        },
+        {
+          "title": "تنفيذ المكونات الأساسية",
+          "detail": "أنشئ مكونات للإدخال، منطق المعالجة، وعرض النتائج، مع مراعاة التفاعل الفوري مع نموذج الذكاء الاصطناعي."
+        },
+        {
+          "title": "إدارة الحالات والبيانات",
+          "detail": "نفذ نظاماً لإدارة الحالات لتتبع طلبات المستخدم والنتائج، مع التعامل مع الحالات المتعددة والمزامنة."
+        },
+        {
+          "title": "تحسين الأداء والتجربة",
+          "detail": "طبق تقنيات مثل التحميل التدريجي والتحديثات الجزئية لتحسين أداء الواجهة وتجربة المستخدم."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define Interface Requirements",
+          "detail": "Identify the core functions the interface should provide, including user input, result display, and expected interactions."
+        },
+        {
+          "title": "Design Visual Layout",
+          "detail": "Create a simple wireframe showing the component hierarchy, focusing on clarity and ease of use."
+        },
+        {
+          "title": "Implement Core Components",
+          "detail": "Build components for input, processing logic, and result display, considering real-time interaction with the AI model."
+        },
+        {
+          "title": "Manage State and Data",
+          "detail": "Implement a state management system to track user requests and results, handling multiple states and synchronization."
+        },
+        {
+          "title": "Optimize Performance and Experience",
+          "detail": "Apply techniques like progressive loading and partial updates to improve interface performance and user experience."
+        }
+      ],
+      "code": "import React, { useState } from 'react';\n\nconst AIInterface = () => {\n  const [input, setInput] = useState('');\n  const [response, setResponse] = useState('');\n  const [isLoading, setIsLoading] = useState(false);\n\n  const handleSubmit = async () => {\n    setIsLoading(true);\n    try {\n      // Simulate AI model call\n      const result = await callAIModel(input);\n      setResponse(result);\n    } catch (error) {\n      setResponse('حدث خطأ في معالجة الطلب');\n    } finally {\n      setIsLoading(false);\n    }\n  };\n\n  return (\n    <div className=\"ai-interface\">\n      <textarea \n        value={input} \n        onChange={(e) => setInput(e.target.value)}\n        placeholder=\"اكتب سؤالك هنا...\"\n      />\n      <button onClick={handleSubmit} disabled={isLoading}>\n        {isLoading ? 'جاري المعالجة...' : 'إرسال'}\n      </button>\n      {response && <div className=\"response\">{response}</div>}\n    </div>\n  );\n};",
+      "resources": [
+        {
+          "name": "React Documentation",
+          "url": "https://reactjs.org/docs/getting-started.html"
+        },
+        {
+          "name": "Material-UI Components",
+          "url": "https://mui.com/material-ui/getting-started/overview/"
+        },
+        {
+          "name": "AI UI Design Patterns",
+          "url": "https://www.interaction-design.org/literature/topics/ai-user-interface"
+        }
+      ],
+      "tags": [
+        "واجهات المستخدم",
+        "تفاعل الإنسان والآلة",
+        "تطبيقات الويب",
+        "React"
+      ],
+      "quickRef": "1. حدد المتطلبات 2. صمم التخطيط 3. نفذ المكونات 4. ادعّم الحالات 5. حسّن الأداء",
+      "quickRefEn": "1. Define requirements 2. Design layout 3. Implement components 4. Manage states 5. Optimize performance",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في واجهة مستخدم الذكاء الاصطناعي؟",
+          "options": [
+            "الجماليات البصرية",
+            "سهولة الاستخدام",
+            "سرعة التحميل",
+            "جم الخيارات"
+          ],
+          "answer": 1,
+          "explain": "سهولة الاستخدام هي الأهم لأنها تضمن أن المستخدمين يمكنهم التفاعل بفعالية مع النموذج دون صعوبة."
+        },
+        {
+          "q": "ما هو التحدي الأكبر عند بناء واجهات للذكاء الاصطناعي؟",
+          "options": [
+            "اختيار الألوان",
+            "عرض النتائج المعقدة",
+            "اختيار الخطوط",
+            "تصميم الأيقونات"
+          ],
+          "answer": 1,
+          "explain": "عرض النتائج المعقدة يمثل تحدياً كبيراً لأنه يتطلب تبسيط المعلومات المعقدة من النموذج بطريقة مفهومة للمستخدم."
+        },
+        {
+          "q": "ما هي الاستراتيجية الأفضل لتحسين أداء واجهة الذكاء الاصطناعي؟",
+          "options": [
+            "إضافة المزيد من الرسوم المتحركة",
+            "التحميل التدريجي للنتائج",
+            "زيادة حجم البيانات",
+            "تقليل عدد المكونات"
+          ],
+          "answer": 1,
+          "explain": "التحميل التدريجي للنتائج يسمح للمستخدم بالرؤية الفورية للجزء الأول من النتائج مع استمرار تحميل الباقي، مما يحسن تجربة المستخدم بشكل كبير."
+        }
+      ],
+      "addedAt": "2026-11-12"
+    },
+    {
       "id": "k-2026-11-12-فهم-مقاييس-تقييم-نماذج-الذكاء-الاصطناعي",
       "title": "فهم مقاييس تقييم نماذج الذكاء الاصطناعي",
       "titleEn": "Understanding AI Model Evaluation Metrics",

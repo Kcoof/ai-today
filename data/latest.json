@@ -1,29 +1,15 @@
 {
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T14:04:48.083Z",
+  "generatedAt": "2026-11-12T19:08:23.748Z",
   "news": [
     {
-      "id": "n-2026-11-12-5",
-      "title": "DeepSeek تقدم أسعارًا تنافسية للغاية: 0.15 دولار لكل مليون توكن",
-      "titleEn": "DeepSeek Offers Highly Competitive Pricing: $0.15 per Million Tokens",
-      "summary": "تقدم DeepSeek أسعار API تنافسية للغاية، حيث تبدأ من 0.15 دولار لكل مليون توكن في أوقات الذروة، والاستخدام مجاني في أوقات الذروة.",
-      "summaryEn": "DeepSeek offers highly competitive API pricing, starting from $0.15 per million tokens during peak times, with free usage during off-peak times.",
-      "category": "tools",
-      "importance": 5,
-      "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxc1VVdDdvczk1c3FiYllxSzlzbzgtOUU2RmVjNWZJczRuSU9mbEt1TlY3bnZERF9PTHBoaWpwNDZyeUdKVmtpbnYwcFNBZw?oc=5"
-      },
-      "publishedAt": "2026-11-12"
-    },
-    {
       "id": "n-2026-11-12-1",
-      "title": "AlphaProof Code: ثورة في التحقق من البرمجيات المعقدة",
-      "titleEn": "AlphaProof Code: Revolution in Verifying Complex Software",
-      "summary": "كتبت وكلات AlphaProof Code ثلاثة ملايين سطر من البراهين في Lean للتحقق من صحة إشارات التشفير. هذه التقنية تمثل تقدمًا كبيرًا في التحقق من البرمجيات المعقدة.",
-      "summaryEn": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal's encryption. This technology represents significant progress in verifying complex software.",
+      "title": "ألفابروف كود: ثورة في التحقق من البرمجيات المعقدة",
+      "titleEn": "AlphaProof Code: Breakthrough in Verifying Complex Software",
+      "summary": "كشف جوجل ديب مايند عن ألفابروف كود، نظام ذكاء اصطناعي قادر على كتابة ثلاثة ملايين سطر من البراهين للتحقق من برمجيات معقدة مثل تطبيق Signal. يمثل هذا تقدمًا كبيرًا في أتمتة التحقق من البرامج.",
+      "summaryEn": "Google DeepMind unveiled AlphaProof Code, an AI system capable of writing three million lines of proofs to verify complex software like Signal. This represents significant progress in automating software verification.",
       "category": "research",
-      "importance": 4,
+      "importance": 5,
       "source": {
         "name": "Google DeepMind",
         "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
@@ -32,10 +18,38 @@
     },
     {
       "id": "n-2026-11-12-2",
-      "title": "AlphaGenome 2: فك شفرة كيفية قراءة الخلايا للحمض النووي",
+      "title": "جيميني 4 هيدروجين: أحدث نموذج من جوجل",
+      "titleEn": "Gemini 4 Hydrogen: Latest Model from Google",
+      "summary": "أطلقت جوجل ديب مايند نموذج جيميني 4 هيدروجين، أحدث إضافة لعائلة نماذج جيميني المتقدمة. يوفر هذا النموذج تحسينات كبيرة في قدرات الفهم والاستدلال.",
+      "summaryEn": "Google DeepMind launched Gemini 4 Hydrogen, the latest addition to the advanced Gemini model family. This model offers significant improvements in understanding and reasoning capabilities.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+      },
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "n-2026-11-12-3",
+      "title": "جيميني 4 كربون: متاح الآن للاستخدام",
+      "titleEn": "Gemini 4 Carbon: Now Available",
+      "summary": "أصبح نموذج جيميني 4 كربون من جوجل ديب مايند متاحًا بعد إطلاقه رسميًا. يركز هذا النموذج على الكفاءة والأداء في المهام المعقدة.",
+      "summaryEn": "Google DeepMind's Gemini 4 Carbon model is now officially available. This model focuses on efficiency and performance for complex tasks.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+      },
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "n-2026-11-12-4",
+      "title": "ألفاجينوم 2: فك شفرة كيفية قراءة الخلايا للحمض النووي",
       "titleEn": "AlphaGenome 2: Deciphering How Cells Read DNA",
-      "summary": "النموذج يتنبأ بكيفية تأثير تسلسلات الحمض النووي وتغيراتها على أنواع الخلايا البشرية المحددة والأمراض. هذا يمثل تقدمًا كبيرًا في فهم الأمراض.",
-      "summaryEn": "The model predicts how DNA sequences and their variations impact specific human cell types and diseases. This represents significant progress in understanding diseases.",
+      "summary": "طور جوجل ديب مايند ألفاجينوم 2، نموذج ذكاء اصطناعي predicts كيف تؤثر تسلسلات الحمض النووي وتنوعاتها على أنواع الخلايا البشرية المختلفة والأمراض. هذا التقدم يمكن أن يساهم في فهم أفضل للأمراض.",
+      "summaryEn": "Google DeepMind developed AlphaGenome 2, an AI model that predicts how DNA sequences and variations affect different human cell types and diseases. This advance could contribute to better disease understanding.",
       "category": "research",
       "importance": 4,
       "source": {
@@ -45,11 +59,11 @@
       "publishedAt": "2026-11-11"
     },
     {
-      "id": "n-2026-11-12-3",
-      "title": "Kimi K3.1 Pro متاح الآن على Amazon Bedrock",
-      "titleEn": "Kimi K3.1 Pro Now Available on Amazon Bedrock",
-      "summary": "نموذج Moonshot AI ذو 2.8 تريليون معلمة أصبح متاحًا على منصة AWS. هذا يوسع نطاق الوصول للنماذج الصينية الكبيرة في السوق العالمي.",
-      "summaryEn": "Moonshot AI's 2.8 trillion parameter model is now available on AWS platform. This expands access to large Chinese models in the global market.",
+      "id": "n-2026-11-12-5",
+      "title": "كيمي كي 3.1 برو على أمازون بيدروك",
+      "titleEn": "Kimi K3.1 Pro on Amazon Bedrock",
+      "summary": "أصبح نموذج كيمي كي 3.1 برو من مونشوت متاحًا على منصة أمازون بيدروك السحابية. يوفر هذا النموذج أداءً متقدمًا في معالجة اللغات الطويلة والتعامل مع السياقات المعقدة.",
+      "summaryEn": "Moonshot's Kimi K3.1 Pro model is now available on Amazon Bedrock cloud platform. This model offers advanced performance in processing long languages and handling complex contexts.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -59,25 +73,25 @@
       "publishedAt": "2026-11-11"
     },
     {
-      "id": "n-2026-11-12-4",
-      "title": "نموذج Moonshot يتجاوز OpenAI في البحث المالي",
-      "titleEn": "Moonshot's Model Outperforms OpenAI in Financial Research",
-      "summary": "نموذج Moonshot المفتوح المصدر يتجاوز OpenAI في معايير البحث المالي، مما يظهر تقدمًا كبيرًا في النماذج الصينية.",
-      "summaryEn": "Moonshot's open-source model outperforms OpenAI in financial research benchmarks, showing significant progress in Chinese models.",
+      "id": "n-2026-11-12-6",
+      "title": "كوين 4 ماكس: النموذج الرائد من علي بابا",
+      "titleEn": "Qwen 4 Max: Flagship Model from Alibaba",
+      "summary": "أطلقت علي بابا نموذج كوين 4 ماكس كأحدث إضافة لعائلة نماذج كوين المتقدمة. يوفر هذا النموذج أداءً استثنائيًا في مجموعة واسعة من المهام اللغوية والمعرفية.",
+      "summaryEn": "Alibaba launched Qwen 4 Max as the latest addition to the advanced Qwen model family. This model offers exceptional performance across a wide range of language and cognitive tasks.",
       "category": "models",
       "importance": 4,
       "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX3d0TXRuQW90MU5STmRpelFyLXZ3TDkwZDVQR0w4X0tPbG91NW05cDA1S25ZTGRzZVRjNnBIc3RPUmxqT3doenlVNFRtUGVfaFF2X29FVm42bjBqWFY5b0pqNW9LcUh5V2RKRXR1VFZRMHp0NlRmVDZBU3dvSC1qZGk5cnhzQXd4dlZYMi1NNkJGQUZnb0lLQjRmZGRJR0twSkNFU19ManN6NlRPeG82TGNDcHFfajlxb0VHSGhTQQ?oc=5"
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41bU1pNkJ6QW9OZXIxaWNYcVRfNFo4bWc4dDBoY0NkekxZQTdTRXhqSXZOdkdKeHdSaHQxT1NMVEdOVXZVRGxRUEdoTjBncW01Si1idk4wNFk?oc=5"
       },
-      "publishedAt": "2026-11-05"
+      "publishedAt": "2026-11-12"
     },
     {
-      "id": "n-2026-11-12-6",
-      "title": "Anthropic تقدم طلبًا للاكتتاب العام الأولي",
+      "id": "n-2026-11-12-8",
+      "title": "أنثروبي تقدم ملفًا للاكتتاب العام الأولي",
       "titleEn": "Anthropic Files for Initial Public Offering",
-      "summary": "قدمت Anthropic وثائق S-1 للجنة الأوراق المالية والبورصات للاكتتاب العام الأولي، مما يمثل خطوة كبيرة في تطوير الشركة.",
-      "summaryEn": "Anthropic filed S-1 documents with the SEC for an initial public offering, marking a significant step in the company's development.",
+      "summary": "قدّمت شركة أنثروبي ملفًا لجنة الأوراق المالية والبورصات (SEC) للاكتتاب العام الأولي. يمثل هذا تطورًا كبيرًا في مسيرة الشركة ونموذج الأعمال القائم على الفائدة العامة.",
+      "summaryEn": "Anthropic filed with the SEC for an initial public offering. This represents a significant development in the company's trajectory and its public benefit-focused business model.",
       "category": "companies",
       "importance": 4,
       "source": {
@@ -87,127 +101,141 @@
       "publishedAt": "2026-11-12"
     },
     {
-      "id": "n-2026-11-12-7",
-      "title": "Mistral تطلق نماذج جديدة Le Chonk و Voxtral 3 و Timestral",
-      "titleEn": "Mistral Launches New Models Le Chonk, Voxtral 3, and Timestral",
-      "summary": "أطلقت Mistral ثلاثة نماذج جديدة: Le Chonk للبرمجة، Voxtr3 للعمليات المعقدة، و Timestral للتنبؤات الاحتمالية. هذه النماذج تمثل توسعًا في قدرات Mistral.",
-      "summaryEn": "Mistral launched three new models: Le Chonk for coding, Voxtral 3 for complex operations, and Timestral for probabilistic forecasting. These models represent an expansion of Mistral's capabilities.",
-      "category": "models",
+      "id": "n-2026-11-12-10",
+      "title": "النماذج الصينية تتقن القرصنة الرقمية",
+      "titleEn": "Chinese Models Excel at Digital Hacking",
+      "summary": "كشفت دراسة أن النماذج الصينية الذكاء الاصطناعي المجانية أصبحت 'مخيفة' في قدرتها على الاختراق الرقمي. يمثل هذا تحذيرًا حول استخدام الذكاء الاصطناعي لأغراض خبيثة.",
+      "summaryEn": "A study revealed that free Chinese AI models have become 'scary good' at digital hacking. This represents a warning about using AI for malicious purposes.",
+      "category": "other",
       "importance": 4,
       "source": {
-        "name": "Mistral AI",
-        "url": "https://mistral.ai/news/mistral-large-4-oss/"
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMG5JWUNJdnMzazNQLVpVaTN5TS0xTEdHMU5wT3VFT0hnN2paNE9GV3ppSHhTVFQ3cTJ5WjhrOEJiX1lQMUNaa0ROMGlfYW9qeXNTejFSRjRWMXdxQnlhb2k5Zk9LS3RVd0NUZTFFSHRUWmQ4a0UtMXNlZHhVZVhKZUl3aWxoa2pLbmdHZTRR?oc=5"
       },
-      "publishedAt": "2026-11-12"
+      "publishedAt": "2026-11-06"
     },
     {
-      "id": "n-2026-11-12-8",
-      "title": "Meta تطلق Muse Spark 1.1 و Muse Image و Muse Video",
-      "titleEn": "Meta Launches Muse Spark 1.1, Muse Image, and Muse Video",
-      "summary": "أطلقت Meta ثلاثة نماذج جديدة: Muse Spark 1.1 للمساعدة، Muse Image لإنشاء الصور، و Muse Video لإنشاء الفيديوهات. هذه النماذج تظهر تقدمًا في قدرات Meta.",
-      "summaryEn": "Meta launched three new models: Muse Spark 1.1 for assistance, Muse Image for image generation, and Muse Video for video creation. These models show progress in Meta's capabilities.",
+      "id": "n-2026-11-12-7",
+      "title": "جروك 4.20 يفوز في منافسة التداول المباشر",
+      "titleEn": "Grok 4.20 Wins Live Trading Showdown",
+      "summary": "تفوق نموذج جروك 4.20 من xAI في منافسة التداول المباشر، متجاوزًا نماذج OpenAI و Google. يثبت هذا النموذج قدرته على تحليل الأسواق المالية وتقديم رؤى قيمة.",
+      "summaryEn": "xAI's Grok 4.20 model outperformed in a live trading showdown, beating OpenAI and Google models. This model demonstrates its ability to analyze financial markets and provide valuable insights.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3hYUm9LaktUd2xnR3hTZE5hNmZTZ3FjcE1OVUdQQVA4Vm8weW0xUWc5MzVoRXgwanFTZ2hpOG15cnl0eG44aE9wVGtMZHVkYjVVcndtN013WFJXSFJ6T2NsUG4xdHZxQVZLZWY2eUlWQjltb2pjWDZjRVZrb0IxWnhzTTFJN1MxNkhLNi03S3NTZw?oc=5"
+      },
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "n-2026-11-12-9",
+      "title": "الأعمال في شات جي بي تي: ميزة جديدة للشركات",
+      "titleEn": "Businesses in ChatGPT: New Feature for Companies",
+      "summary": "أطلقت OpenAI ميزة 'الأعمال في شات جي بي تي' التي تسمح للشركات بإدارة معلوماتها والحصول على رؤى حول كيفية ظهورها وتحويل العملاء المحتملين إلى عملاء فعليين.",
+      "summaryEn": "OpenAI launched 'Businesses in ChatGPT' feature allowing companies to manage their information, get insights on how they appear, and convert potential customers into actual customers.",
       "category": "tools",
       "importance": 3,
       "source": {
-        "name": "Meta AI",
-        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-businesses-chatgpt"
       },
-      "publishedAt": "2026-11-12"
+      "publishedAt": "2026-11-10"
     }
   ],
   "models": [
     {
       "id": "m-2026-11-12-1",
+      "name": "Gemini 4 Hydrogen",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-12",
+      "highlights": "أحدث إضافة لعائلة نماذج جيميني، يوفر تحسينات كبيرة في قدرات الفهم والاستدلال",
+      "highlightsEn": "Latest addition to the Gemini model family, offering significant improvements in understanding and reasoning capabilities",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+      "id": "m-2026-11-12-2",
+      "name": "Gemini 4 Carbon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-10",
+      "highlights": "يوفر كفاءة عالية في الأداء للمهام المعقدة، متاح الآن للاستخدام",
+      "highlightsEn": "Offers high efficiency for performance on complex tasks, now available for use",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+    },
+    {
+      "id": "m-2026-11-12-3",
       "name": "Kimi K3.1 Pro",
       "org": "Moonshot AI",
       "releaseDate": "2026-11-11",
-      "highlights": "نموذج ذو 2.8 تريليون معلمة، متاح الآن على Amazon Bedrock، ويظهر أداءً متفوقًا في معايير البحث المالي.",
-      "highlightsEn": "Model with 2.8 trillion parameters, now available on Amazon Bedrock, showing superior performance in financial research benchmarks.",
+      "highlights": "متاح الآن على أمازون بيدروك، متخصص في معالجة اللغات الطويلة والسياقات المعقدة",
+      "highlightsEn": "Now available on Amazon Bedrock, specialized in processing long languages and complex contexts",
       "specs": {
-        "context": "1M"
+        "context": "200K"
       },
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU2hGMmxMbEowUFJId01GM2tWekRqZURpT1ZjcjhiZUdzRFV1SEJ5OXRCRms2THkyVC1MbkQxZDBXNHlUY0lNeVdaX1lLZ08zQTg0ZHl5b0xiOGFDM19WakZ2QmFCU0djQlRCQ3I1THZTd3IxX0Q5bW5TdXV0enNkSjJkZmR4S09xRDlhTHo0bmItaXEz?oc=5"
     },
     {
-      "id": "m-2026-11-12-2",
-      "name": "GLM-5.3",
-      "org": "Z.ai",
-      "releaseDate": "2026-11-08",
-      "highlights": "يستخدمه Revolut لخفض تكاليف البرمجة بنسبة 10x، ويوقد سياقًا طويلاً للغاية.",
-      "highlightsEn": "Used by Revolut to cut AI coding costs by 10x, with very long context capabilities.",
-      "specs": {
-        "context": "Long"
-      },
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QZ0NZSkZHeDhtWm1VU3QzMGhJNDVqVTQ4aGxYWW96UmRaVUNSdzlmTURidy1BTDNpVVNEYjFxOWRKejhfb1NMdndXZHE0Vm9ucUlkZ3FSNm5ldDZNNElhakVLbGFaeUVndmpuYzVaZ3lSV3JEOHhRT0Jn?oc=5"
-    },
-    {
-      "id": "m-2026-11-12-3",
+      "id": "m-2026-11-12-4",
       "name": "Qwen 4 Max",
-      "org": "Alibaba",
+      "org": "Alibaba/Qwen",
       "releaseDate": "2026-11-12",
-      "highlights": "النموذج الرائد من Alibaba، مع قدرات متقدمة في فهم اللغة الطبيعية والبرمجة.",
-      "highlightsEn": "Flagship model from Alibaba with advanced capabilities in natural language understanding and programming.",
+      "highlights": "النموذج الرائد من علي بابا، يوفر أداءً استثنائيًا في المهام اللغوية والمعرفية",
+      "highlightsEn": "Flagship model from Alibaba, offering exceptional performance on language and cognitive tasks",
       "specs": {
-        "context": "Unknown"
+        "context": "128K"
       },
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41bU1pNkJ6QW9OZXIxaWNYcVRfNFo4bWc4dDBoY0NkekxZQTdTRXhqSXZOdkdKeHdSaHQxT1NMVEdOVXZVRGxRUEdoTjBncW01Si1idk4wNFk?oc=5"
     },
     {
-      "id": "m-2026-11-12-4",
-      "name": "Mistral Large 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-10-06",
-      "highlights": "أحدث نموذج كبير من Mistral مع قدرات متقدمة في فهم اللغة والاستدلال.",
-      "highlightsEn": "Latest large model from Mistral with advanced language understanding and reasoning capabilities.",
-      "specs": {
-        "context": "Unknown"
-      },
-      "url": "https://mistral.ai/news/mistral-large-4/"
-    },
-    {
       "id": "m-2026-11-12-5",
-      "name": "Voxtral 3",
-      "org": "Mistral AI",
-      "releaseDate": "2026-10-20",
-      "highlights": "نموذج وكلاء يمكنه الاستماع والاستدلال والكلام والعمل، مع قدرات متقدمة في المهام المعقدة.",
-      "highlightsEn": "Agent model that can listen, reason, speak, and act, with advanced capabilities for complex tasks.",
+      "name": "GLM-5.3",
+      "org": "Z.ai",
+      "releaseDate": "2026-11-08",
+      "highlights": "يقلل تكاليف البرمجة بنسبة 10x، تم استخدامه بنجاح في شركة Revolut",
+      "highlightsEn": "Reduces coding costs by 10x, successfully used at Revolut",
       "specs": {
-        "context": "Unknown"
+        "context": "128K"
       },
-      "url": "https://mistral.ai/news/voxtral-3/"
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QZ0NZSkZHeDhtWm1VU3QzMGhJNDVqVTQ4aGxYWW96UmRaVUNSdzlmTURidy1BTDNpVVNEYjFxOWRKejhfb1NMdndXZHE0Vm9ucUlkZ3FSNm5ldDZNNElhakVLbGFaeUVndmpuYzVaZ3lSV3JEOHhRT0Jn?oc=5"
     },
     {
       "id": "m-2026-11-12-6",
-      "name": "Timestral",
-      "org": "Mistral AI",
-      "releaseDate": "2026-10-20",
-      "highlights": "نموذج احتمالي متقدم بأقل من 209 مليون معلمة، يتغلب على النماذج الأكبر على وحدات المعالجة المركزية.",
-      "highlightsEn": "Advanced probabilistic model with less than 209 million parameters, outperforming larger models on CPUs.",
+      "name": "Grok 4.20",
+      "org": "xAI",
+      "releaseDate": "2026-11-07",
+      "highlights": "تفوق في منافسة التداول المباشر، متجاوزًا نماذج OpenAI و Google",
+      "highlightsEn": "Outperformed in live trading showdown, beating OpenAI and Google models",
       "specs": {
-        "context": "Unknown"
+        "context": "64K"
       },
-      "url": "https://mistral.ai/news/timestral/"
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3hYUm9LaktUd2xnR3hTZE5hNmZTZ3FjcE1OVUdQQVA4Vm8weW0xUWc5MzVoRXgwanFTZ2hpOG15cnl0eG44aE9wVGtMZHVkYjVVcndtN013WFJXSFJ6T2NsUG4xdHZxQVZLZWY2eUlWQjltb2pjWDZjRVZrb0IxWnhzTTFJN1MxNkhLNi03S3NTZw?oc=5"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-11-12-1",
-      "text": "Anthropic تقدم وثائق S-1 للجنة الأوراق المالية والبورصات للاكتتاب العام الأولي، مما يمثل خطوة كبيرة في تطوير الشركة.",
-      "textEn": "Anthropic filed S-1 documents with the SEC for an initial public offering, marking a significant step in the company's development.",
+      "text": "أنثروبي تقدم ملفًا للاكتتاب العام الأولي، مما يمثل تطورًا كبيرًا في مسيرة الشركة ونموذج الأعمال القائم على الفائدة العامة",
+      "textEn": "Anthropic files for IPO, representing a major development in the company's trajectory and public benefit-focused business model",
       "level": "info",
       "url": "https://www.anthropic.com/news/s1-sec"
     },
     {
       "id": "h-2026-11-12-2",
-      "text": "DeepSeek تقدم أسعار API تنافسية للغاية، حيث تبدأ من 0.15 دولار لكل مليون توكن في أوقات الذروة، والاستخدام مجاني في أوقات الذروة.",
-      "textEn": "DeepSeek offers highly competitive API pricing, starting from $0.15 per million tokens during peak times, with free usage during off-peak times.",
-      "level": "critical",
+      "text": "أسعار ديب سيك التنافسية للغاية: 0.15 دولار لكل مليون توكن، مما يقلل من ذعر الإنفاق على الذكاء الاصطناعي",
+      "textEn": "DeepSeek's highly competitive pricing: $0.15 per 1M tokens, reducing AI spending panic",
+      "level": "info",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxc1VVdDdvczk1c3FiYllxSzlzbzgtOUU2RmVjNWZJczRuSU9mbEt1TlY3bnZERF9PTHBoaWpwNDZyeUdKVmtpbnYwcFNBZw?oc=5"
     },
     {
       "id": "h-2026-11-12-3",
-      "text": "نموذج Moonshot المفتوح المصدر يتجاوز OpenAI في معايير البحث المالي، مما يظهر تقدمًا كبيرًا في النماذج الصينية.",
-      "textEn": "Moonshot's open-source model outperforms OpenAI in financial research benchmarks, showing significant progress in Chinese models.",
+      "text": "نموذج مونشوت يتجاوز OpenAI في البحث المالي، مما يظهر تقدم النماذج الصينية في المجالات المتخصصة",
+      "textEn": "Moonshot's model outperforms OpenAI in financial research, showing progress of Chinese models in specialized domains",
       "level": "info",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX3d0TXRuQW90MU5STmRpelFyLXZ3TDkwZDVQR0w4X0tPbG91NW05cDA1S25ZTGRzZVRjNnBIc3RPUmxqT3doenlVNFRtUGVfaFF2X29FVm42bjBqWFY5b0pqNW9LcUh5V2RKRXR1VFZRMHp0NlRmVDZBU3dvSC1qZGk5cnhzQXd4dlZYMi1NNkJGQUZnb0lLQjRmZGRJR0twSkNFU19ManN6NlRPeG82TGNDcHFfajlxb0VHSGhTQQ?oc=5"
     }
@@ -215,10 +243,10 @@
   "security": [
     {
       "id": "sec-2026-11-12-1",
-      "title": "تتبع الثغرات المكتشفة بواسطة Anthropic",
-      "titleEn": "Tracking Anthropic-Discovered Vulnerabilities",
-      "summary": "تم اكتشاف ثغرات جديدة بواسطة Anthropic، ويتم تتبعها بشكل نشط. هذه الثغرات تشمل نقاط ضعف في أنظمة الذكاء الاصطناعي التي يمكن أن تؤثر على الأمان.",
-      "summaryEn": "New vulnerabilities discovered by Anthropic are being actively tracked. These vulnerabilities include weaknesses in AI systems that could impact security.",
+      "title": "ثغرات اكتشفتها أنثروبي",
+      "titleEn": "Vulnerabilities Discovered by Anthropic",
+      "summary": "تتبع الأخبار الثغرات التي اكتشفها فريق أنثروبي البحثي، مما يسلط الضوء على أهمية أبحاث الأمن في الذكاء الاصطناعي.",
+      "summaryEn": "Tracking vulnerabilities discovered by Anthropic's research team, highlighting the importance of AI security research.",
       "type": "breach",
       "severity": "warning",
       "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
@@ -227,10 +255,10 @@
     },
     {
       "id": "sec-2026-11-12-2",
-      "title": "النماذج الصينية المجانية تصبح جيدة في الاختراق",
-      "titleEn": "Free Chinese AI Models Are Getting Good at Hacking",
-      "summary": "النماذج الصينية المجانية، بمن في ذلك Kimi و GLM، تظهر قدرات متزايدة في الاختراق والاختراق الأمني. هذا يمثل تهديدًا متزايدًا للأمن السيبراني.",
-      "summaryEn": "Free Chinese models, including Kimi and GLM, are showing increasing capabilities in hacking and security breaches. This represents an increasing threat to cybersecurity.",
+      "title": "النماذج الصينية تتقن القرصنة الرقمية",
+      "titleEn": "Chinese Models Excel at Digital Hacking",
+      "summary": "كشفت دراسة أن النماذج الصينية الذكاء الاصطناعي المجانية أصبحت 'مخيفة' في قدرتها على الاختراق الرقمي، مما يمثل تهديدًا أمنيًا جديدًا.",
+      "summaryEn": "A study revealed that free Chinese AI models have become 'scary good' at digital hacking, representing a new security threat.",
       "type": "malware",
       "severity": "critical",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMG5JWUNJdnMzazNQLVpVaTN5TS0xTEdHMU5wT3VFT0hnN2paNE9GV3ppSHhTVFQ3cTJ5WjhrOEJiX1lQMUNaa0ROMGlfYW9qeXNTejFSRjRWMXdxQnlhb2k5Zk9LS3RVd0NUZTFFSHRUWmQ4a0UtMXNlZHhVZVhKZUl3aWxoa2pLbmdHZTRR?oc=5",
@@ -239,10 +267,10 @@
     },
     {
       "id": "sec-2026-11-12-3",
-      "title": "اعتقال ثلاثة أشخاص للاحتيال باستخدام الذكاء الاصطناعي",
-      "titleEn": "Three People Arrested for AI-Enhanced Impersonation Fraud",
-      "summary": "تم اعتقال ثلاثة أشخاص للاحتيال باستخدام تقنيات الذكاء الاصطناعي للاستحواذ على هويات الآخرين. هذه الجريمة مربحة بشكل مدهش، حيث بلغت خسائرها ملايين الدولارات.",
-      "summaryEn": "Three people were arrested for fraud using AI techniques to impersonate others. This crime is surprisingly lucrative, with losses reaching millions of dollars.",
+      "title": "احتيال باستخدام الذكاء الاصطناعي",
+      "titleEn": "AI-Enhanced Impersonation Fraud",
+      "summary": "تم اعتقال ثلاثة أشخاص للاحتيال باستخدام الذكاء الاصطناعي للاستعارة. يمكن لهذه الجرائم أن تكون مربحة بشكل مدهش.",
+      "summaryEn": "Three people arrested for AI-enhanced impersonation fraud. These crimes can be surprisingly lucrative.",
       "type": "breach",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
@@ -251,10 +279,10 @@
     },
     {
       "id": "sec-2026-11-12-4",
-      "title": "مؤتمر الأمن السيبراني للذكاء الاصطناعي",
-      "titleEn": "AI Security Conference Insights",
-      "summary": "عقد مؤتمر [un]prompted AI security في سان فرانسيسكو، وناقش الثغرات الجديدة في أنظمة الذكاء الاصطناعي واستراتيجيات التخفيف منها.",
-      "summaryEn": "The [un]prompted AI security conference was held in San Francisco, discussing new vulnerabilities in AI systems and mitigation strategies.",
+      "title": "مؤتمر أمن الذكاء الاصطناعي",
+      "titleEn": "AI Security Conference",
+      "summary": "شارك في مؤتمر [un]prompted لأمن الذكاء الاصطناعي في سان فرانسيسكو، حيث ناقش آخر التطورات في أمن الذكاء الاصطناعي.",
+      "summaryEn": "Attended the [un]prompted AI security conference in San Francisco, discussing the latest developments in AI security.",
       "type": "policy",
       "severity": "info",
       "url": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
@@ -262,104 +290,173 @@
       "date": "2026-11-09"
     }
   ],
-  "benchmarks": null,
+  "benchmarks": {
+    "asOf": "2026-11-12",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Fable 5.2",
+        "org": "Anthropic",
+        "score": "61.1"
+      },
+      {
+        "name": "Claude Mythos 5.2",
+        "org": "Anthropic",
+        "score": "59.6"
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "58.7"
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "org": "Google",
+        "score": "57.2"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "57.0"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "56.6"
+      },
+      {
+        "name": "Kimi K3.1 Pro",
+        "org": "Moonshot AI",
+        "score": "54.9"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "53.8"
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "org": "Google",
+        "score": "53.6"
+      },
+      {
+        "name": "GPT-6.1 Sol",
+        "org": "OpenAI",
+        "score": "52.9"
+      }
+    ],
+    "highlights": "تسيطر نماذج Claude على المراكز الأربعة الأولى في التصنيف الحالي، مع ظهور نماذج جديدة مثل Claude Fable 5.2 وClaude Mythos 5.2 التي تتصدر القائمة. كما يبرز GPT-6 Astra كأقوى نموذج في مهارات الاستدلال، بينما يبرز Kimi K3.1 Pro كأفضل نموذج مفتوح المصدر.",
+    "highlightsEn": "Claude models dominate the top four positions in the current ranking, with new models like Claude Fable 5.2 and Claude Mythos 5.2 leading the list. GPT-6 Astra stands out as the strongest model in reasoning skills, while Kimi K3.1 Pro emerges as the best open-source model."
+  },
   "knowledgeEntry": {
-    "id": "k-2026-11-12-فهم-مقاييس-تقييم-نماذج-الذكاء-الاصطناعي",
-    "title": "فهم مقاييس تقييم نماذج الذكاء الاصطناعي",
-    "titleEn": "Understanding AI Model Evaluation Metrics",
-    "why": "مقاييس التقييم ضرورية لتحديد أداء نماذج الذكاء الاصطناعي وتحسينها. فهمها يسمح للمطورين باختيار النموذج المناسب لمهمتهم وتحديد نقاط الضعف.",
-    "whyEn": "Evaluation metrics are essential for determining AI model performance and improvement. Understanding them allows developers to choose the right model for their task and identify weaknesses.",
+    "id": "k-2026-11-12-بناء-واجهة-مستخدم-للذكاء-الاصطناعي",
+    "title": "بناء واجهة مستخدم للذكاء الاصطناعي",
+    "titleEn": "Building AI User Interfaces",
+    "why": "بناء واجهات مستخدم فعالة للذكاء الاصطناعي يتحكم في تجربة المستخدم ويحدد مدى نجاء التطبيق، خاصة عند التعامل مع إجابات النماذج المعقدة.",
+    "whyEn": "Building effective AI user interfaces controls user experience and determines the success of applications, especially when dealing with complex model responses.",
     "difficulty": "intermediate",
-    "track": "basics",
+    "track": "building",
     "steps": [
       {
-        "title": "مقاييس الدقة الأساسية",
-        "detail": "مقاييس مثل الدقة (Accuracy)، الدقة (Precision)، والإكمال (Recall) هي الأساس لتقييم معظم نماذج التصنيف."
+        "title": "تحديد متطلبات الواجهة",
+        "detail": "حدد الوظائف الأساسية التي يجب أن تقدمها الواجهة، بما في ذلك إدخال المستخدم، عرض النتائج، والتفاعلات المتوقعة."
       },
       {
-        "title": "مقاييس متقدمة للتصنيف",
-        "detail": "مقاييس مثل F1-score، AUC-ROC، ومصفوفة الارتباك توفر رؤية أعمق عن أداء النموذج."
+        "title": "تصميم التخطيط البصري",
+        "detail": "أنشئ مخططاً بسيطاً للواجهة يوضح التسلسل الهرمي للمكونات، مع التركيز على الوضوح وسهولة الاستخدام."
       },
       {
-        "title": "مقاييس للمهام المستمرة",
-        "detail": "للمهام مثل الانحدار، مقاييس مثل MSE، RMSE، و MAE ضرورية لتقييم الدقة."
+        "title": "تنفيذ المكونات الأساسية",
+        "detail": "أنشئ مكونات للإدخال، منطق المعالجة، وعرض النتائج، مع مراعاة التفاعل الفوري مع نموذج الذكاء الاصطناعي."
       },
       {
-        "title": "مقاييس متعددة الأبعاد",
-        "detail": "لمهام متعددة الوسائط أو متعددة المهام، مقاييس مثل BLEU للنصوص أو mAP للرؤية الحاسوبية مفيدة."
+        "title": "إدارة الحالات والبيانات",
+        "detail": "نفذ نظاماً لإدارة الحالات لتتبع طلبات المستخدم والنتائج، مع التعامل مع الحالات المتعددة والمزامنة."
       },
       {
-        "title": "اختيار المقاييس المناسبة",
-        "detail": "اختيار المقاييس يعتمد على تطبيقك ومتطلباتك، وليس هناك مقاييس واحدة تناسب الجميع."
+        "title": "تحسين الأداء والتجربة",
+        "detail": "طبق تقنيات مثل التحميل التدريجي والتحديثات الجزئية لتحسين أداء الواجهة وتجربة المستخدم."
       }
     ],
     "stepsEn": [
       {
-        "title": "Basic Accuracy Metrics",
-        "detail": "Metrics like Accuracy, Precision, and Recall are fundamental for evaluating most classification models."
+        "title": "Define Interface Requirements",
+        "detail": "Identify the core functions the interface should provide, including user input, result display, and expected interactions."
       },
       {
-        "title": "Advanced Classification Metrics",
-        "detail": "Metrics like F1-score, AUC-ROC, and confusion matrix provide deeper insights into model performance."
+        "title": "Design Visual Layout",
+        "detail": "Create a simple wireframe showing the component hierarchy, focusing on clarity and ease of use."
       },
       {
-        "title": "Metrics for Continuous Tasks",
-        "detail": "For tasks like regression, metrics like MSE, RMSE, and MAE are essential for evaluating accuracy."
+        "title": "Implement Core Components",
+        "detail": "Build components for input, processing logic, and result display, considering real-time interaction with the AI model."
       },
       {
-        "title": "Multi-dimensional Metrics",
-        "detail": "For multi-modal or multi-task applications, metrics like BLEU for text or mAP for computer vision are useful."
+        "title": "Manage State and Data",
+        "detail": "Implement a state management system to track user requests and results, handling multiple states and synchronization."
       },
       {
-        "title": "Choosing Appropriate Metrics",
-        "detail": "Choosing metrics depends on your application and requirements; there's no one-size-fits-all."
+        "title": "Optimize Performance and Experience",
+        "detail": "Apply techniques like progressive loading and partial updates to improve interface performance and user experience."
       }
     ],
-    "code": "from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score\n\ny_true = [0, 1, 1, 0, 1]\ny_pred = [0, 1, 0, 0, 1]\n\nprint(f'Accuracy: {accuracy_score(y_true, y_pred)}')\nprint(f'Precision: {precision_score(y_true, y_pred)}')\nprint(f'Recall: {recall_score(y_true, y_pred)}')\nprint(f'F1-score: {f1_score(y_true, y_pred)}')",
+    "code": "import React, { useState } from 'react';\n\nconst AIInterface = () => {\n  const [input, setInput] = useState('');\n  const [response, setResponse] = useState('');\n  const [isLoading, setIsLoading] = useState(false);\n\n  const handleSubmit = async () => {\n    setIsLoading(true);\n    try {\n      // Simulate AI model call\n      const result = await callAIModel(input);\n      setResponse(result);\n    } catch (error) {\n      setResponse('حدث خطأ في معالجة الطلب');\n    } finally {\n      setIsLoading(false);\n    }\n  };\n\n  return (\n    <div className=\"ai-interface\">\n      <textarea \n        value={input} \n        onChange={(e) => setInput(e.target.value)}\n        placeholder=\"اكتب سؤالك هنا...\"\n      />\n      <button onClick={handleSubmit} disabled={isLoading}>\n        {isLoading ? 'جاري المعالجة...' : 'إرسال'}\n      </button>\n      {response && <div className=\"response\">{response}</div>}\n    </div>\n  );\n};",
     "resources": [
       {
-        "name": "Scikit-learn Metrics Documentation",
-        "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
+        "name": "React Documentation",
+        "url": "https://reactjs.org/docs/getting-started.html"
       },
       {
-        "name": "ML Metrics Guide",
-        "url": "https://neptune.ai/blog/model-evaluation-metrics"
+        "name": "Material-UI Components",
+        "url": "https://mui.com/material-ui/getting-started/overview/"
       },
       {
-        "name": "Understanding Confusion Matrix",
-        "url": "https://www.v7labs.com/blog/confusion-m-guide"
+        "name": "AI UI Design Patterns",
+        "url": "https://www.interaction-design.org/literature/topics/ai-user-interface"
       }
     ],
     "tags": [
-      "تقييم النماذج",
-      "مقاييس الأداء",
-      "التعلم الآلي",
-      "الذكاء الاصطناعي"
+      "واجهات المستخدم",
+      "تفاعل الإنسان والآلة",
+      "تطبيقات الويب",
+      "React"
     ],
-    "quickRef": "اختيار مقاييس التقييع المناسبة حسب مهمة النموذج وتحليل نقاط القوة والضعف.",
-    "quickRefEn": "Choose appropriate evaluation metrics based on your model's task and analyze strengths and weaknesses.",
+    "quickRef": "1. حدد المتطلبات 2. صمم التخطيط 3. نفذ المكونات 4. ادعّم الحالات 5. حسّن الأداء",
+    "quickRefEn": "1. Define requirements 2. Design layout 3. Implement components 4. Manage states 5. Optimize performance",
     "quiz": [
       {
-        "q": "ما هو أفضل مقياس لتقييم نموذج تصنيف عندما تكون الفئات غير متوازنة؟",
+        "q": "ما هو العنصر الأهم في واجهة مستخدم الذكاء الاصطناعي؟",
         "options": [
-          "الدقة (Accuracy)",
-          "مصفوفة الارتباك",
-          "F1-score",
-          "AUC-ROC"
+          "الجماليات البصرية",
+          "سهولة الاستخدام",
+          "سرعة التحميل",
+          "جم الخيارات"
         ],
-        "answer": 2,
-        "explain": "F1-score هو متوسط توازن بين الدقة والإكمال، وهو أفضل للفئات غير المتوازنة."
+        "answer": 1,
+        "explain": "سهولة الاستخدام هي الأهم لأنها تضمن أن المستخدمين يمكنهم التفاعل بفعالية مع النموذج دون صعوبة."
       },
       {
-        "q": "ما هو المقياس الأكثر ملاءمة لمهام الانحدار؟",
+        "q": "ما هو التحدي الأكبر عند بناء واجهات للذكاء الاصطناعي؟",
         "options": [
-          "الدقة",
-          "مصفوفة الارتباك",
-          "MSE",
-          "F1-score"
+          "اختيار الألوان",
+          "عرض النتائج المعقدة",
+          "اختيار الخطوط",
+          "تصميم الأيقونات"
         ],
-        "answer": 2,
-        "explain": "MSE (متوسط مربع الخطأ) هو مقياس شائع ومفيد لتقييم أداء نماذج الانحدار."
+        "answer": 1,
+        "explain": "عرض النتائج المعقدة يمثل تحدياً كبيراً لأنه يتطلب تبسيط المعلومات المعقدة من النموذج بطريقة مفهومة للمستخدم."
+      },
+      {
+        "q": "ما هي الاستراتيجية الأفضل لتحسين أداء واجهة الذكاء الاصطناعي؟",
+        "options": [
+          "إضافة المزيد من الرسوم المتحركة",
+          "التحميل التدريجي للنتائج",
+          "زيادة حجم البيانات",
+          "تقليل عدد المكونات"
+        ],
+        "answer": 1,
+        "explain": "التحميل التدريجي للنتائج يسمح للمستخدم بالرؤية الفورية للجزء الأول من النتائج مع استمرار تحميل الباقي، مما يحسن تجربة المستخدم بشكل كبير."
       }
     ],
     "addedAt": "2026-11-12"
