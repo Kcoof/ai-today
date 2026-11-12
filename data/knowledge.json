@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-12-فهم-مقاييس-تقييم-نماذج-الذكاء-الاصطناعي",
+      "title": "فهم مقاييس تقييم نماذج الذكاء الاصطناعي",
+      "titleEn": "Understanding AI Model Evaluation Metrics",
+      "why": "مقاييس التقييم ضرورية لتحديد أداء نماذج الذكاء الاصطناعي وتحسينها. فهمها يسمح للمطورين باختيار النموذج المناسب لمهمتهم وتحديد نقاط الضعف.",
+      "whyEn": "Evaluation metrics are essential for determining AI model performance and improvement. Understanding them allows developers to choose the right model for their task and identify weaknesses.",
+      "difficulty": "intermediate",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "مقاييس الدقة الأساسية",
+          "detail": "مقاييس مثل الدقة (Accuracy)، الدقة (Precision)، والإكمال (Recall) هي الأساس لتقييم معظم نماذج التصنيف."
+        },
+        {
+          "title": "مقاييس متقدمة للتصنيف",
+          "detail": "مقاييس مثل F1-score، AUC-ROC، ومصفوفة الارتباك توفر رؤية أعمق عن أداء النموذج."
+        },
+        {
+          "title": "مقاييس للمهام المستمرة",
+          "detail": "للمهام مثل الانحدار، مقاييس مثل MSE، RMSE، و MAE ضرورية لتقييم الدقة."
+        },
+        {
+          "title": "مقاييس متعددة الأبعاد",
+          "detail": "لمهام متعددة الوسائط أو متعددة المهام، مقاييس مثل BLEU للنصوص أو mAP للرؤية الحاسوبية مفيدة."
+        },
+        {
+          "title": "اختيار المقاييس المناسبة",
+          "detail": "اختيار المقاييس يعتمد على تطبيقك ومتطلباتك، وليس هناك مقاييس واحدة تناسب الجميع."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Basic Accuracy Metrics",
+          "detail": "Metrics like Accuracy, Precision, and Recall are fundamental for evaluating most classification models."
+        },
+        {
+          "title": "Advanced Classification Metrics",
+          "detail": "Metrics like F1-score, AUC-ROC, and confusion matrix provide deeper insights into model performance."
+        },
+        {
+          "title": "Metrics for Continuous Tasks",
+          "detail": "For tasks like regression, metrics like MSE, RMSE, and MAE are essential for evaluating accuracy."
+        },
+        {
+          "title": "Multi-dimensional Metrics",
+          "detail": "For multi-modal or multi-task applications, metrics like BLEU for text or mAP for computer vision are useful."
+        },
+        {
+          "title": "Choosing Appropriate Metrics",
+          "detail": "Choosing metrics depends on your application and requirements; there's no one-size-fits-all."
+        }
+      ],
+      "code": "from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score\n\ny_true = [0, 1, 1, 0, 1]\ny_pred = [0, 1, 0, 0, 1]\n\nprint(f'Accuracy: {accuracy_score(y_true, y_pred)}')\nprint(f'Precision: {precision_score(y_true, y_pred)}')\nprint(f'Recall: {recall_score(y_true, y_pred)}')\nprint(f'F1-score: {f1_score(y_true, y_pred)}')",
+      "resources": [
+        {
+          "name": "Scikit-learn Metrics Documentation",
+          "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
+        },
+        {
+          "name": "ML Metrics Guide",
+          "url": "https://neptune.ai/blog/model-evaluation-metrics"
+        },
+        {
+          "name": "Understanding Confusion Matrix",
+          "url": "https://www.v7labs.com/blog/confusion-m-guide"
+        }
+      ],
+      "tags": [
+        "تقييم النماذج",
+        "مقاييس الأداء",
+        "التعلم الآلي",
+        "الذكاء الاصطناعي"
+      ],
+      "quickRef": "اختيار مقاييس التقييع المناسبة حسب مهمة النموذج وتحليل نقاط القوة والضعف.",
+      "quickRefEn": "Choose appropriate evaluation metrics based on your model's task and analyze strengths and weaknesses.",
+      "quiz": [
+        {
+          "q": "ما هو أفضل مقياس لتقييم نموذج تصنيف عندما تكون الفئات غير متوازنة؟",
+          "options": [
+            "الدقة (Accuracy)",
+            "مصفوفة الارتباك",
+            "F1-score",
+            "AUC-ROC"
+          ],
+          "answer": 2,
+          "explain": "F1-score هو متوسط توازن بين الدقة والإكمال، وهو أفضل للفئات غير المتوازنة."
+        },
+        {
+          "q": "ما هو المقياس الأكثر ملاءمة لمهام الانحدار؟",
+          "options": [
+            "الدقة",
+            "مصفوفة الارتباك",
+            "MSE",
+            "F1-score"
+          ],
+          "answer": 2,
+          "explain": "MSE (متوسط مربع الخطأ) هو مقياس شائع ومفيد لتقييم أداء نماذج الانحدار."
+        }
+      ],
+      "addedAt": "2026-11-12"
+    },
+    {
       "id": "k-2026-11-11-بناء-واجهة-مستخدم-للذكاء-الاصطناعي",
       "title": "بناء واجهة مستخدم للذكاء الاصطناعي",
       "titleEn": "Building AI User Interfaces",

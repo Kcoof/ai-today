@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "date": "2026-11-11",
+      "topHeadlines": [
+        "إطلاق Gemini 4 Carbon من Google DeepMind",
+        "نموذج Kimi K3.1 Pro بـ 2.8 تريليون معلمة متاح الآن",
+        "شراكة بين OpenAI و Cogent لأمن السيبران المؤسسي"
+      ]
+    },
+    {
       "date": "2026-11-10",
       "topHeadlines": [
         "اختراق أمني في Fireworks AI يؤثر على Notion وعملائها",
