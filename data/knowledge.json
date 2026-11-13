@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-13-فهم-وتقييم-أداء-نماذج-الذكاء-الاصطناعي",
+      "title": "فهم وتقييم أداء نماذج الذكاء الاصطناعي",
+      "titleEn": "Understanding and Evaluating AI Model Performance",
+      "why": "يعد تقييم أداء نماذج الذكاء الاصطناعي مهارة أساسية للمطورين والمستخدمين لاختيار النموذج المناسب لمهماتهم وتحسين جودة النتائج.",
+      "whyEn": "Evaluating AI model performance is a crucial skill for developers and users to select the right model for their tasks and improve result quality.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "تحديد المعايير المناسبة",
+          "detail": "اختر مقاييس تقييم تتوافق مع هدف استخدامك للنموذج، مثل الدقة في المهام اللغوية أو الجودة في إنشاء الصور."
+        },
+        {
+          "title": "إعداد بيانات الاختبار",
+          "detail": "أنشئ مجموعة بيانات متنوعة تمثل سيناريوهات الاستخدام الفعلية التي سيواجهها النموذج."
+        },
+        {
+          "title": "تنفيذ الاختبارات",
+          "detail": "قم بتشغيل النموذج على بيانات الاختبار وقيس الأداء باستخدام المقاييس المحددة مسبقًا."
+        },
+        {
+          "title": "تحليل النتائج",
+          "detail": "قارن نتائج النماذج المختلفة وحدد نقاط القوة والضعف لكل نموذج في سياق استخدامك المحدد."
+        },
+        {
+          "title": "تحسين الأداء",
+          "detail": "استخدم رؤى التقييم لضبط النموذج أو اختيار نموذج بديل أفضل لاحتياجاتك."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select appropriate metrics",
+          "detail": "Choose evaluation metrics that align with your intended use of the model, such as accuracy for language tasks or quality for image generation."
+        },
+        {
+          "title": "Prepare test data",
+          "detail": "Create a diverse dataset that represents real-world scenarios the model will encounter."
+        },
+        {
+          "title": "Run evaluations",
+          "detail": "Execute the model on your test data and measure performance using your predetermined metrics."
+        },
+        {
+          "title": "Analyze results",
+          "detail": "Compare results across different models and identify strengths and weaknesses for your specific use case."
+        },
+        {
+          "title": "Optimize performance",
+          "detail": "Use evaluation insights to fine-tune the model or select an alternative model better suited to your needs."
+        }
+      ],
+      "code": "def evaluate_model(model, test_data, metrics):\n    results = {}\n    for metric in metrics:\n        score = metric.calculate(model, test_data)\n        results[metric.name] = score\n    return results",
+      "resources": [
+        {
+          "name": "LLM Leaderboard",
+          "url": "https://llm-stats.com/leaderboard"
+        },
+        {
+          "name": "Hugging Face Evaluate Library",
+          "url": "https://huggingface.co/docs/evaluate/index"
+        },
+        {
+          "name": "Papers with Code - Leaderboards",
+          "url": "https://paperswithcode.com/leaderboard"
+        }
+      ],
+      "tags": [
+        "تقييم النماذج",
+        "قياس الأداء",
+        "اختبار الذكاء الاصطناعي",
+        "LLM"
+      ],
+      "quickRef": "اختر مقاييس مناسبة، جهز بيانات متنوعة، قيس الأداء، قارن النتائج، اختر الأفضل.",
+      "quickRefEn": "Select appropriate metrics, prepare diverse data, measure performance, compare results, choose the best.",
+      "quiz": [
+        {
+          "q": "ما هي الخطوة الأولى في تقييم نموذج ذكاء اصطناعي؟",
+          "options": [
+            "تحليل النتائج",
+            "تحديد المعايير المناسبة",
+            "تنفيذ الاختبارات",
+            "تحسين الأداء"
+          ],
+          "answer": 1,
+          "explain": "يجب أن تبدأ بتحديد المعايير المناسبة لتقييم النموذج قبل أي خطوات أخرى."
+        },
+        {
+          "q": "ما هو أهم معيار عند اختيار نموذج لإنشاء نصوص قانونية؟",
+          "options": [
+            "السرعة",
+            "الدقة في المعلومات القانونية",
+            "تكلفة الاستخدام",
+            "سهولة الاستخدام"
+          ],
+          "answer": 1,
+          "explain": "للمهام القانونية، الدقة في المعلومات هي الأهم لأن الأخطاء قد تكون لها عواقب خطيرة."
+        },
+        {
+          "q": "ما هو الهدف الرئيسي من تقييم نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "اختبار سرعة النموذج فقط",
+            "اختيار النموذج الأرخص دائمًا",
+            "اختيار النموذج الأفضل لمهمة محددة",
+            "اختبار قدرة النموذج على التحدث"
+          ],
+          "answer": 2,
+          "explain": "الهدف الرئيسي هو اختيار النموذج الذي يقدم أفضل أداء للمهمة المحددة التي تحتاجها."
+        }
+      ],
+      "addedAt": "2026-11-13"
+    },
+    {
       "id": "k-2026-11-12-بناء-واجهة-مستخدم-للذكاء-الاصطناعي",
       "title": "بناء واجهة مستخدم للذكاء الاصطناعي",
       "titleEn": "Building AI User Interfaces",
