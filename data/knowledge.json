@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-13-العملاء-الذكيين-في-الذكاء-الاصطناعي",
+      "title": "العملاء الذكيين في الذكاء الاصطناعي",
+      "titleEn": "AI Agents",
+      "why": "تمكّنك العملاء الذكية (Agents) من أتمتة المهام المعقدة من خلال التفاعل مع أدوات الذكاء الاصطناعي المختلفة، مما يسمح بحلول أكثر ذكاءً وتكيفاً لمشاكل متنوعة.",
+      "whyEn": "AI Agents enable automation of complex tasks by interacting with different AI tools, allowing for more intelligent and adaptive solutions to diverse problems.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "فهم مفهوم العملاء الذكية",
+          "detail": "تعرف على كيفية عمل العملاء الذكية وكيفية اتخاذ القرارات بناءً على البيانات المتاحة."
+        },
+        {
+          "title": "تحديد مهمة محددة",
+          "detail": "حدد المشكلة التي تريد حلها والخطوات المطلوبة لإنجازها."
+        },
+        {
+          "title": "اختيار الأدوات المناسبة",
+          "detail": "اختر نماذج الذكاء الاصطناعي والأدوات التي ستستخدمها لإنجاز المهمة."
+        },
+        {
+          "title": "تصميم سلسلة الأوامر",
+          "detail": "أنشئ سلسلة من الأوامر التي يتبعها العميل لإنجاز المهمة خطوة بخطوة."
+        },
+        {
+          "title": "تنفيذ العميل",
+          "detail": "قم بتنفيذ العميل باستخدام مكتبات مثل LangChain أو AutoGen."
+        },
+        {
+          "title": "تقييم وتحسين",
+          "detail": "قم بتقييم أداء العميل وقم بتحسينه بناءً على النتائج."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand AI Agents concept",
+          "detail": "Learn how AI Agents work and make decisions based on available data."
+        },
+        {
+          "title": "Define a specific task",
+          "detail": "Identify the problem you want to solve and the steps required to accomplish it."
+        },
+        {
+          "title": "Choose appropriate tools",
+          "detail": "Select the AI models and tools you'll use to accomplish the task."
+        },
+        {
+          "title": "Design the command chain",
+          "detail": "Create a sequence of commands that the agent will follow to complete the task step by step."
+        },
+        {
+          "title": "Implement the agent",
+          "detail": "Implement the agent using libraries like LangChain or AutoGen."
+        },
+        {
+          "title": "Evaluate and improve",
+          "detail": "Evaluate the agent's performance and improve it based on the results."
+        }
+      ],
+      "code": "from langchain.agents import Tool, AgentExecutor, initialize_agent\nfrom langchain.llms import OpenAI\n\n# Initialize LLM\nllm = OpenAI(temperature=0)\n\n# Define tools\ntools = [\n    Tool(\n        name=\"Calculator\",\n        func=lambda x: eval(x),\n        description=\"Useful for when you need to answer questions about math\"\n    )\n]\n\n# Initialize agent\nagent = initialize_agent(tools, llm, agent=\"zero-shot-react-description\", verbose=True)\n\n# Run agent\nagent.run(\"What is 15 multiplied by 8?\")",
+      "resources": [
+        {
+          "name": "LangChain Documentation",
+          "url": "https://python.langchain.com/docs/modules/agents/"
+        },
+        {
+          "name": "AutoGen GitHub Repository",
+          "url": "https://github.com/microsoft/autogen"
+        },
+        {
+          "name": "OpenAI Function Calling Documentation",
+          "url": "https://platform.openai.com/docs/guides/function-calling"
+        }
+      ],
+      "tags": [
+        "العملاء الذكية",
+        "أتمتة",
+        "الذكاء الاصطناعي التفاعلي",
+        "حل المشاكل"
+      ],
+      "quickRef": "حدد المهمة التي تريد أتمتتها\nاختر الأدوات المناسبة للعمل\nصمم سلسلة أوامر منطقية\nنفذ العميل وقم بتقييم أدائه",
+      "quickRefEn": "Define the task you want to automate\nChoose appropriate tools for the job\nDesign a logical command chain\nImplement the agent and evaluate its performance",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأساسي الذي يحدد كيفية عمل العميل الذكي؟",
+          "options": [
+            "حجم النموذج المستخدم",
+            "سلسلة الأوامر المحددة مسبقاً",
+            "البيانات المتاحة للعميل",
+            "سرعة المعالج"
+          ],
+          "answer": 2,
+          "explain": "البيانات المتاحة للعميل هي العنصر الأساسي الذي يحدد كيفية عمله، حيث يستخدمها لاتخاذ القرارات المناسبة."
+        },
+        {
+          "q": "أي من المكتبات التالية شائعة لبناء العملاء الذكية؟",
+          "options": [
+            "Microsoft Excel",
+            "LangChain",
+            "Photoshop",
+            "PowerPoint"
+          ],
+          "answer": 1,
+          "explain": "LangChain هي مكتبة شائعة لبناء العملاء الذكية في الذكاء الاصطناعي، بينما الخيارات الأخرى ليست مكتبات للذكاء الاصطناعي."
+        },
+        {
+          "q": "ما هي الفائدة الرئيسية لاستخدام العملاء الذكية في تطبيقات الذكاء الاصطناعي؟",
+          "options": [
+            "تقليل تكلفة التطوير",
+            "أتمتة المهام المعقدة",
+            "زيادة سرعة المعالجة",
+            "تقليل استهلاك الطاقة"
+          ],
+          "answer": 1,
+          "explain": "أتمتة المهام المعقدة هي الفائدة الرئيسية لاستخدام العملاء الذكية، حيث يمكنها أداء مهام متعددة الخطوات بشكل مستقل."
+        }
+      ],
+      "addedAt": "2026-11-13"
+    },
+    {
       "id": "k-2026-11-13-فهم-وتقييم-أداء-نماذج-الذكاء-الاصطناعي",
       "title": "فهم وتقييم أداء نماذج الذكاء الاصطناعي",
       "titleEn": "Understanding and Evaluating AI Model Performance",
