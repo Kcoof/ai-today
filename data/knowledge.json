@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-14-تحسين-الأداء-باستخدام-نماذج-llm-مُخصصة",
+      "title": "تحسين الأداء باستخدام نماذج LLM مُخصصة",
+      "titleEn": "Improving Performance with Custom LLM Models",
+      "why": "يساعد تحسين نماذج LLM الموجودة على تحقيق نتائج أفضل لمهام محددة دون الحاجة إلى تدريب نماذج جديدة من الصفر، مما يوفر الوقت والموارد الحاسوبية الهائلة.",
+      "whyEn": "Improving existing LLM models helps achieve better results for specific tasks without needing to train new models from scratch, saving significant time and computational resources.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحليل النموذج الحالي",
+          "detail": "قم بتحليل أداء النموذج الحالي على مهامك المحددة. حدد نقاط القوة والضعف، واحتسب مقاييس الأداء مثل الدقة والسرعة لتحديد المجالات التي تحتاج إلى تحسين."
+        },
+        {
+          "title": "تحضير بيانات التدريب المتخصصة",
+          "detail": "جهز مجموعة بيانات عالية الجودة ومتخصصة لمهامك. تأكد من أن البيانات متنوعة وتغطي جميع السيناريوهات التي يتوقع أن يواجهها النموذج في التطبيق العملي."
+        },
+        {
+          "title": "اخيار استراتيجية التحسين",
+          "detail": "اختر بين عدة استراتيجيات مثل الضبط الدقيق (fine-tuning)، التعلم بالتعزيز (RLHF)، أو التخصيص باستخدام الاستدلال (in-context learning). اختر الاستراتيجية الأنسب لمواردك ومتطلباتك."
+        },
+        {
+          "title": "تنفيذ عملية التحسين",
+          "detail": "نفذ عملية التحسين باستخدام الأدوات المناسبة مثل Hugging Face Transformers أو مكتبات خاصة. قم بمراقبة عملية التدريب وتعديل المعلمات حسب الحاجة لتحقيق أفضل النتائج."
+        },
+        {
+          "title": "تقييم النموذج المحسّن",
+          "detail": "قم بتقييم أداء النموذج المحسّن باستخدام مجموعة بيانات اختبار منفصلة. قيّم التحسينات في الدقة والسرعة واستهلاك الموارد، وقارن بالأداء الأصلي."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Analyze the Current Model",
+          "detail": "Analyze the performance of the current model on your specific tasks. Identify strengths and weaknesses, and calculate performance metrics like accuracy and speed to determine areas needing improvement."
+        },
+        {
+          "title": "Prepare Specialized Training Data",
+          "detail": "Prepare high-quality, specialized datasets for your tasks. Ensure the data is diverse and covers all scenarios the model is expected to encounter in practical application."
+        },
+        {
+          "title": "Choose an Improvement Strategy",
+          "detail": "Select among several strategies like fine-tuning, Reinforcement Learning from Human Feedback (RLHF), or customization using in-context learning. Choose the strategy best suited to your resources and requirements."
+        },
+        {
+          "title": "Implement the Improvement Process",
+          "detail": "Implement the improvement process using appropriate tools like Hugging Face Transformers or specialized libraries. Monitor the training process and adjust parameters as needed to achieve optimal results."
+        },
+        {
+          "title": "Evaluate the Improved Model",
+          "detail": "Evaluate the performance of the improved model using a separate test dataset. Assess improvements in accuracy, speed, and resource consumption, and compare with the original performance."
+        }
+      ],
+      "code": "from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer\n\n# Load model and tokenizer\nmodel_name = \"microsoft/DialoGPT-medium\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name)\n\n# Prepare training data (example)\ntrain_texts = [\"Hello, how are you?\", \"I'm doing great, thanks!\", \"What's your favorite topic?\", \"AI and machine learning!\"]\ntrain_encodings = tokenizer(train_texts, truncation=True, padding=True, max_length=128)\n\nclass CustomDataset(torch.utils.data.Dataset):\n    def __init__(self, encodings):\n        self.encodings = encodings\n    \n    def __getitem__(self, idx):\n        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}\n        item[\"labels\"] = item[\"input_ids\"].clone()\n        return item\n    \n    def __len__(self):\n        return len(self.encodings[\"input_ids\"])\n\ntrain_dataset = CustomDataset(train_encodings)\n\n# Training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=4,\n    save_steps=10_000,\n    save_total_limit=2,\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n)\n\n# Start training\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Documentation",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "OpenAI API Fine-tuning Guide",
+          "url": "https://platform.openai.com/docs/guides/fine-tuning"
+        },
+        {
+          "name": "Stanford CS224n: Fine-tuning LLMs",
+          "url": "https://web.stanford.edu/class/cs224n/"
+        }
+      ],
+      "tags": [
+        "تحسين النماذج",
+        "ضبط الدقيق",
+        "تعلم الآلة",
+        "LLM"
+      ],
+      "quickRef": "1. تحليل النموذج الحالي 2. تحضير بيانات متخصصة 3. اختيار استراتيجية التحسين 4. تنفيذ عملية التحسين 5. تقييم النموذج المحسّن",
+      "quickRefEn": "1. Analyze current model 2. Prepare specialized data 3. Choose improvement strategy 4. Implement improvement process 5. Evaluate improved model",
+      "quiz": [
+        {
+          "q": "ما هي الفائدة الرئيسية لتحسين نماذج LLM الموجودة بدلاً من تدريب نماذج جديدة؟",
+          "options": [
+            "زيادة دقة النموذج",
+            "توفير الوقت والموارد",
+            "زيادة حجم النموذج",
+            "تحسين سرعة الاستدلال"
+          ],
+          "answer": 1,
+          "explain": "الفائدة الرئيسية هي توفير الوقت والموارد الحاسوبية الهائلة، حيث أن تحسين نماذج موجودة يتطلب موارد أقل بكثير من تدريب نماذج جديدة من الصفر."
+        },
+        {
+          "q": "ما هي الاستراتيجية الأكثر فعالية لتحسين نماذج LLM لمهام محددة؟",
+          "options": [
+            "زيادة حجم النموذج",
+            "الضبط الدقيق (fine-tuning)",
+            "استخدام بيانات عامة",
+            "زيادة عدد المعلمات"
+          ],
+          "answer": 1,
+          "explain": "الضبط الدقيق (fine-tuning) هو الاستراتيجية الأكثر فعالية لتحسين نماذج LLM لمهام محددة، حيث يسمح بتخصيص النموذج باستخدام بيانات متخصصة دون الحاجة إلى تغيير هيكل النموذج الأساسي."
+        },
+        {
+          "q": "ما هي الخطوة الأكثر أهمية في عملية تحسين نماذج LLM؟",
+          "options": [
+            "اخيار النموذج الأساسي",
+            "تحضير بيانات تدريبية عالية الجودة",
+            "تحديد المعلمات التقنية",
+            "اخيار الأجهزة المناسبة"
+          ],
+          "answer": 1,
+          "explain": "تحضير بيانات تدريبية عالية الجودة هي الخطوة الأكثر أهمية، لأن جودة البيانات وتنوعها يؤثر بشكل مباشر على نجاح عملية التحسين وقدرة النموذج على التعميم لمهام جديدة."
+        }
+      ],
+      "addedAt": "2026-11-14"
+    },
+    {
       "id": "k-2026-11-13-العملاء-الذكيين-في-الذكاء-الاصطناعي",
       "title": "العملاء الذكيين في الذكاء الاصطناعي",
       "titleEn": "AI Agents",

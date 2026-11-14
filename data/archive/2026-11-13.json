@@ -1,0 +1,444 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T18:52:47.007Z",
+  "news": [
+    {
+      "id": "n-2026-11-13-1",
+      "title": "إطلاق جيميني 4 هايدروجين",
+      "titleEn": "Introducing Gemini 4 Hydrogen",
+      "summary": "أطلقت جوجل دميند نموذج جيميني 4 هايدروجين، أحدث إصدار من سلسلة نماذج جيميني المتقدمة، مع تحسينات كبيرة في الفهم والاستدلال.",
+      "summaryEn": "Google DeepMind has launched Gemini 4 Hydrogen, the latest release in the advanced Gemini model series, with significant improvements in understanding and reasoning.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+      },
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "n-2026-11-13-2",
+      "title": "جيميني 4 كربون متاح الآن للاستخدام",
+      "titleEn": "Gemini 4 Carbon is now available",
+      "summary": "جيميني 4 كربون أصبح الآن متاحاً للاستخدام، مع ميزات محسنة للكفاءة والسرعة في معالجة المهام المعقدة.",
+      "summaryEn": "Gemini 4 Carbon is now available with enhanced features for efficiency and speed in handling complex tasks.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+      },
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "n-2026-11-13-5",
+      "title": "أنتروبيك تقدم طلبًا للاكتتاب العام الأولي",
+      "titleEn": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "summary": "قدمت أنتروبيك طلبًا للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات، مما يمثل خطوة كبيرة نحو التحول إلى شركة عامة.",
+      "summaryEn": "Anthropic has filed an S-1 with the SEC for a proposed initial public offering, marking a significant step toward becoming a publicly traded company.",
+      "category": "companies",
+      "importance": 5,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/s1-sec"
+      },
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "n-2026-11-13-3",
+      "title": "ألفابروف كود: ثورة في التحقق من البرمجيات المعقدة",
+      "titleEn": "Introducing AlphaProof Code: a breakthrough in verifying complex software",
+      "summary": "أطلقت جوجل دميند ألفابروف كود، أداة ثورية للتحقق من البرمجيات المعقدة، حيث كتب الوكلاء ثلاثة ملايين سطر من البراهين في لين للتحقق من كود سينال.",
+      "summaryEn": "Google DeepMind has launched AlphaProof Code, a revolutionary tool for verifying complex software, where agents wrote three million lines of proofs in Lean to verify Signal's code.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "n-2026-11-13-4",
+      "title": "جيميني روبوتيكز 2.5: تعزيز المرونة والقدرة على العمل في العالم الحقيقي",
+      "titleEn": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "summary": "نموذج جيميني روبوتيكز 2.5 الأكثر تقدمًا يحسن المرونة والموثوقية والسرعة في الروبوتات، مع قدرات محسنة للتعامل مع العالم المادي.",
+      "summaryEn": "Gemini Robotics 2.5, the most capable model, enhances robot dexterity, reliability, and speed with improved abilities to interact with the physical world.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+      },
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "id": "n-2026-11-13-6",
+      "title": "إطلاق ميستال لارج 4",
+      "titleEn": "Research Introducing Mistral Large 4",
+      "summary": "أطلقت ميستال AI نموذج ميستال لارج 4، أحدث إصدار في سلسلة النماذج الكبيرة مع تحسينات في الفهم والاستدلال.",
+      "summaryEn": "Mistral AI has launched Mistral Large 4, the latest release in their large model series with improvements in understanding and reasoning.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/mistral-large-4/"
+      },
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "n-2026-11-13-7",
+      "title": "إطلاق ميوس إيميج وميوس فيديو",
+      "titleEn": "Introducing Muse Image and Muse Video",
+      "summary": "أطلقت ميتا نماذج ميوس إيميج وميوس فيديو الجديدة، مع قدرات متقدمة في إنشاء وتعديل الصور ومقاطع الفيديو.",
+      "summaryEn": "Meta has launched new Muse Image and Muse Video models with advanced capabilities for creating and editing images and video clips.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Meta AI",
+        "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+      },
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "n-2026-11-13-8",
+      "title": "خطوط المتحدة تحظر وكلاء الذكاء الاصطناعي من حجوزات الطيران",
+      "titleEn": "United Airlines bans AI agents from booking flights",
+      "summary": "أعلنت خطوط المتحدة عن حظر وكلاء الذكاء الاصطناعي من حجوزات الطيران نيابة عن المسافرين، بسبب مخاوف أمنية وخصوصية.",
+      "summaryEn": "United Airlines has banned AI agents from booking flights on behalf of travelers due to security and privacy concerns.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+      },
+      "publishedAt": "2026-11-11"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-11-13-1",
+      "name": "Gemini 4 Hydrogen",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-12",
+      "highlights": "نموذج متقدم مع قدرات محسنة في الفهم والاستدلال ومعالجة المهام المعقدة.",
+      "highlightsEn": "Advanced model with enhanced capabilities in understanding, reasoning, and handling complex tasks.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+      "id": "m-2026-11-13-2",
+      "name": "Gemini 4 Carbon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-10",
+      "highlights": "نموذج محسن للكفاءة والسرعة في معالجة المهام المتعددة والمعقدة.",
+      "highlightsEn": "Optimized model for efficiency and speed in handling diverse and complex tasks.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+    },
+    {
+      "id": "m-2026-11-13-3",
+      "name": "Gemini Robotics 2.5",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-09",
+      "highlights": "نموذج رؤية-لغة-عمل يحسن المرونة والموثوقية والسرعة في الروبوتات.",
+      "highlightsEn": "Vision-language-action model that enhances robot dexterity, reliability, and speed.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+    },
+    {
+      "id": "m-2026-11-13-4",
+      "name": "Voxtral 3",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-20",
+      "highlights": "نموذج وكلاء يمكنه الاستماع والاستدلال والتحدث والعمل.",
+      "highlightsEn": "Agent model that can listen, reason, speak, and act.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/voxtral-3/"
+    },
+    {
+      "id": "m-2026-11-13-5",
+      "name": "Timestral",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-15",
+      "highlights": "نموذج احتمالات متقدم مع 209 مليون معلمة، يتغلب على النماذج الأكبر على وحدات المعالجة المركزية.",
+      "highlightsEn": "State-of-the-art probabilistic model with 209M parameters, outperforming larger models on CPU.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/timestral/"
+    },
+    {
+      "id": "m-2026-11-13-6",
+      "name": "Mistral Large 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-06",
+      "highlights": "نموذج كبير متقدم مع تحسينات في الفهم والاستدلال.",
+      "highlightsEn": "Advanced large model with improvements in understanding and reasoning.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/mistral-large-4/"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-11-13-1",
+      "text": "قدمت أنتروبيك طلبًا للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات، مما يمثل خطوة كبيرة نحو التحول إلى شركة عامة.",
+      "textEn": "Anthropic has filed an S-1 with the SEC for a proposed initial public offering, marking a significant step toward becoming a publicly traded company.",
+      "level": "info",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
+    {
+      "id": "h-2026-11-13-2",
+      "text": "أعلنت خطوط المتحدة عن حظر وكلاء الذكاء الاصطناعي من حجوزات الطيران نيابة عن المسافرين، بسبب مخاوف أمنية وخصوصية.",
+      "textEn": "United Airlines has banned AI agents from booking flights on behalf of travelers due to security and privacy concerns.",
+      "level": "warning",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+    },
+    {
+      "id": "h-2026-11-13-3",
+      "text": "التزمت OpenAI بمبلغ 2 مليون دولار للبحث عن الذكاء الاصطناعي وسلامة الأطفال، لدعم المشاركة في مبادرة سلامة الأطفال العالمية.",
+      "textEn": "OpenAI commits $2 million to research on AI and children's safety, supporting participation in the Global Childhood Safety Initiative.",
+      "level": "info",
+      "url": "https://openai.com/index/children-first-declaration"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-11-13-1",
+      "title": "الذكاء الاصطناعي لا يحتاج إلى أن يصبح خطراً لكسر العالم",
+      "titleEn": "AI Doesn't Have to Go Rogue to Break the World",
+      "summary": "مقال يتناول كيف يمكن للذكاء الاصطناعي أن يسبب أضراراً كبيرة دون أن يصبح \"خارقاً\"، مع أمثلة على المخاطر الأمنية المتعلقة بالذكاء الاصطناعي.",
+      "summaryEn": "An essay discussing how AI can cause significant damage without becoming 'rogue', with examples of AI-related security risks.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "sec-2026-11-13-2",
+      "title": "الذكاء الاصطناعي يتجاوز القانون",
+      "titleEn": "AIs Hacking the Law",
+      "summary": "مقال يتناول كيف يجد الذكاء الاصطناعي ثغرات في القوانين وأنظمة الحوكمة، مع أمثلة على كيفية استخدام الذكاء الاصطناعي للاستفادة من الثغرات القانونية.",
+      "summaryEn": "An essay discussing how AI finds vulnerabilities in laws and governance systems, with examples of how AI can exploit legal loopholes.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "sec-2026-11-13-3",
+      "title": "اعتقال ثلاثة أشخاص لاحتيال باستخدام الذكاء الاصطناعي",
+      "titleEn": "Three People Arrested for AI-Enhanced Impersonation Fraud",
+      "summary": "اعتقال ثلاثة أشخاص بتهمة الاحتيال باستخدام الذكاء الاصطناعي لتحقيق أرباح طائلة، حيث تمكنوا من خدع الضحايا باستخدام تقنيات المحاكاة المتقدمة.",
+      "summaryEn": "Three people arrested for AI-enhanced impersonation fraud, managing to deceive victims using advanced impersonation techniques.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "sec-2026-11-13-4",
+      "title": "أمن الذكاء الاصطناعي",
+      "titleEn": "AI Security",
+      "summary": "تحديث حول أمن الذكاء الاصطناعي من مؤتمر [un]prompted AI security في سان فرانسيسكو، مع مناقشة للمخاطر الأمنية المتزايدة المرتبطة بالذكاء الاصطناعي.",
+      "summaryEn": "Update on AI security from the [un]prompted AI security conference in San Francisco, discussing increasing AI-related security risks.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-09"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-11-13",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Fable 5.2",
+        "org": "Anthropic",
+        "score": "61.1"
+      },
+      {
+        "name": "Claude Mythos 5.2",
+        "org": "Anthropic",
+        "score": "59.6"
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "58.7"
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "org": "Google",
+        "score": "57.2"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "57.0"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "56.6"
+      },
+      {
+        "name": "Kimi K3.1 Pro",
+        "org": "Moonshot AI",
+        "score": "54.9"
+      },
+      {
+        "name": "Claude Mythos Preview",
+        "org": "Anthropic",
+        "score": "53.8"
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "org": "Google",
+        "score": "53.6"
+      },
+      {
+        "name": "GPT-6.1 Sol",
+        "org": "OpenAI",
+        "score": "52.9"
+      }
+    ],
+    "highlights": "تسيطر نماذج Claude على 4 من أفضل 5 مراكز في الترتيب الحالي، مع تفوق GPT-6 Astra في مهارات الاستدلال بنسبة 96.0% gpqa. Gemini 3.1 Pro هو الأرخص بين أفضل 10 نماذج بسعر $2.00 /M token، بينما Kimi K3.1 Pro هو أفضل نموذج مفتوح المصدر بنسبة 94.2% gpqa.",
+    "highlightsEn": "Claude models dominate 4 of the top 5 positions in the current ranking, with GPT-6 Astra excelling in reasoning at 96.0% gpqa. Gemini 3.1 Pro is the cheapest among the top 10 models at $2.00 /M token, while Kimi K3.1 Pro is the best open-source model at 94.2% gpqa."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-11-13-العملاء-الذكيين-في-الذكاء-الاصطناعي",
+    "title": "العملاء الذكيين في الذكاء الاصطناعي",
+    "titleEn": "AI Agents",
+    "why": "تمكّنك العملاء الذكية (Agents) من أتمتة المهام المعقدة من خلال التفاعل مع أدوات الذكاء الاصطناعي المختلفة، مما يسمح بحلول أكثر ذكاءً وتكيفاً لمشاكل متنوعة.",
+    "whyEn": "AI Agents enable automation of complex tasks by interacting with different AI tools, allowing for more intelligent and adaptive solutions to diverse problems.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "فهم مفهوم العملاء الذكية",
+        "detail": "تعرف على كيفية عمل العملاء الذكية وكيفية اتخاذ القرارات بناءً على البيانات المتاحة."
+      },
+      {
+        "title": "تحديد مهمة محددة",
+        "detail": "حدد المشكلة التي تريد حلها والخطوات المطلوبة لإنجازها."
+      },
+      {
+        "title": "اختيار الأدوات المناسبة",
+        "detail": "اختر نماذج الذكاء الاصطناعي والأدوات التي ستستخدمها لإنجاز المهمة."
+      },
+      {
+        "title": "تصميم سلسلة الأوامر",
+        "detail": "أنشئ سلسلة من الأوامر التي يتبعها العميل لإنجاز المهمة خطوة بخطوة."
+      },
+      {
+        "title": "تنفيذ العميل",
+        "detail": "قم بتنفيذ العميل باستخدام مكتبات مثل LangChain أو AutoGen."
+      },
+      {
+        "title": "تقييم وتحسين",
+        "detail": "قم بتقييم أداء العميل وقم بتحسينه بناءً على النتائج."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Understand AI Agents concept",
+        "detail": "Learn how AI Agents work and make decisions based on available data."
+      },
+      {
+        "title": "Define a specific task",
+        "detail": "Identify the problem you want to solve and the steps required to accomplish it."
+      },
+      {
+        "title": "Choose appropriate tools",
+        "detail": "Select the AI models and tools you'll use to accomplish the task."
+      },
+      {
+        "title": "Design the command chain",
+        "detail": "Create a sequence of commands that the agent will follow to complete the task step by step."
+      },
+      {
+        "title": "Implement the agent",
+        "detail": "Implement the agent using libraries like LangChain or AutoGen."
+      },
+      {
+        "title": "Evaluate and improve",
+        "detail": "Evaluate the agent's performance and improve it based on the results."
+      }
+    ],
+    "code": "from langchain.agents import Tool, AgentExecutor, initialize_agent\nfrom langchain.llms import OpenAI\n\n# Initialize LLM\nllm = OpenAI(temperature=0)\n\n# Define tools\ntools = [\n    Tool(\n        name=\"Calculator\",\n        func=lambda x: eval(x),\n        description=\"Useful for when you need to answer questions about math\"\n    )\n]\n\n# Initialize agent\nagent = initialize_agent(tools, llm, agent=\"zero-shot-react-description\", verbose=True)\n\n# Run agent\nagent.run(\"What is 15 multiplied by 8?\")",
+    "resources": [
+      {
+        "name": "LangChain Documentation",
+        "url": "https://python.langchain.com/docs/modules/agents/"
+      },
+      {
+        "name": "AutoGen GitHub Repository",
+        "url": "https://github.com/microsoft/autogen"
+      },
+      {
+        "name": "OpenAI Function Calling Documentation",
+        "url": "https://platform.openai.com/docs/guides/function-calling"
+      }
+    ],
+    "tags": [
+      "العملاء الذكية",
+      "أتمتة",
+      "الذكاء الاصطناعي التفاعلي",
+      "حل المشاكل"
+    ],
+    "quickRef": "حدد المهمة التي تريد أتمتتها\nاختر الأدوات المناسبة للعمل\nصمم سلسلة أوامر منطقية\nنفذ العميل وقم بتقييم أدائه",
+    "quickRefEn": "Define the task you want to automate\nChoose appropriate tools for the job\nDesign a logical command chain\nImplement the agent and evaluate its performance",
+    "quiz": [
+      {
+        "q": "ما هو العنصر الأساسي الذي يحدد كيفية عمل العميل الذكي؟",
+        "options": [
+          "حجم النموذج المستخدم",
+          "سلسلة الأوامر المحددة مسبقاً",
+          "البيانات المتاحة للعميل",
+          "سرعة المعالج"
+        ],
+        "answer": 2,
+        "explain": "البيانات المتاحة للعميل هي العنصر الأساسي الذي يحدد كيفية عمله، حيث يستخدمها لاتخاذ القرارات المناسبة."
+      },
+      {
+        "q": "أي من المكتبات التالية شائعة لبناء العملاء الذكية؟",
+        "options": [
+          "Microsoft Excel",
+          "LangChain",
+          "Photoshop",
+          "PowerPoint"
+        ],
+        "answer": 1,
+        "explain": "LangChain هي مكتبة شائعة لبناء العملاء الذكية في الذكاء الاصطناعي، بينما الخيارات الأخرى ليست مكتبات للذكاء الاصطناعي."
+      },
+      {
+        "q": "ما هي الفائدة الرئيسية لاستخدام العملاء الذكية في تطبيقات الذكاء الاصطناعي؟",
+        "options": [
+          "تقليل تكلفة التطوير",
+          "أتمتة المهام المعقدة",
+          "زيادة سرعة المعالجة",
+          "تقليل استهلاك الطاقة"
+        ],
+        "answer": 1,
+        "explain": "أتمتة المهام المعقدة هي الفائدة الرئيسية لاستخدام العملاء الذكية، حيث يمكنها أداء مهام متعددة الخطوات بشكل مستقل."
+      }
+    ],
+    "addedAt": "2026-11-13"
+  }
+}
