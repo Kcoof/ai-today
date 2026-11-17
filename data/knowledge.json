@@ -1,6 +1,103 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-17-كتابة-أوامر-فعالة-لنماذج-الذكاء-الاصطناعي",
+      "title": "كتابة أوامر فعالة لنماذج الذكاء الاصطناعي",
+      "titleEn": "Writing Effective AI Model Prompts",
+      "why": "تساعدك كتابة أوامر فعالة على الحصول على نتائج دقيقة ومفيدة من نماذج الذكاء الاصطناعي، وتوفر الوقت وتحسين جودة المخرجات.",
+      "whyEn": "Effective prompt writing helps you get accurate and useful results from AI models, saves time, and improves output quality.",
+      "difficulty": "beginner",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "حدد هدفك بوضوح",
+          "detail": "قبل كتابة الأمر، حدد بوضوح ما تريد تحقيقه. يجب أن يكون هدفك محددًا وقابلاً للقياس."
+        },
+        {
+          "title": "استلزم السياق المناسب",
+          "detail": "قدم معلومات كافية عن السياق الذي يعمل فيه النموذج. هذا يساعد النموذج على فهم متطلباتك بشكل أفضل."
+        },
+        {
+          "title": "استخدم صيغة واضحة ومباشرة",
+          "detail": "اكتب أوامرك بلغة واضحة وبسيطة. تجنب التعقيد غير الضروري واستخدم هيكلًا منطقيًا."
+        },
+        {
+          "title": "حدد تنسيق المخرجات",
+          "detail": "حدد كيف تريد أن تكون النتائج. هل تريد قائمة، جدول، فقرة، أو أي تنسيق آخر؟"
+        },
+        {
+          "title": "اجعل الأمر تفاعليًا",
+          "detail": "اطلب من النموذج التفكير خطوة بخطوة أو تقديم خيارات متعددة. هذا يساعد على الحصول على إجابات أكثر دقة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Clearly define your goal",
+          "detail": "Before writing the prompt, clearly define what you want to achieve. Your goal should be specific and measurable."
+        },
+        {
+          "title": "Provide appropriate context",
+          "detail": "Give sufficient information about the context in which the model will operate. This helps the model better understand your requirements."
+        },
+        {
+          "title": "Use clear and direct language",
+          "detail": "Write your prompts in clear and simple language. Avoid unnecessary complexity and use a logical structure."
+        },
+        {
+          "title": "Specify output format",
+          "detail": "Indicate how you want the results to be presented. Do you want a list, table, paragraph, or other format?"
+        },
+        {
+          "title": "Make the prompt interactive",
+          "detail": "Ask the model to think step-by-step or provide multiple options. This helps get more accurate answers."
+        }
+      ],
+      "code": "def create_effective_prompt(goal, context, format=\"text\", steps=False):\n    prompt = f\"Goal: {goal}\\nContext: {context}\\n\"\n    if format:\n        prompt += f\"Format: {format}\\n\"\n    if steps:\n        prompt += \"Please think step-by-step and provide your reasoning.\"\n    return prompt",
+      "resources": [
+        {
+          "name": "OpenAI Prompt Engineering Guide",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        },
+        {
+          "name": "Anthropic Prompt Library",
+          "url": "https://www.anthropic.com/news/prompt-library"
+        }
+      ],
+      "tags": [
+        "كتابة أوامر",
+        "نماذج الذكاء الاصطناعي",
+        "مهارات أساسية",
+        "تحسين المخرجات"
+      ],
+      "quickRef": "حدد هدفك، قدم السياق، استخدم لغة واضحة، حدد التنسيق، اجعل الأمر تفاعلي",
+      "quickRefEn": "Define your goal, provide context, use clear language, specify format, make it interactive",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في كتابة أمر فعال لنموذج الذكاء الاصطناعي؟",
+          "options": [
+            "استخدام لغة معقدة",
+            "تحديد الهدف بوضوح",
+            "جعل الأمر طويلًا",
+            "عدم تقديم أي سياق"
+          ],
+          "answer": 1,
+          "explain": "تحديد الهدف بوضوح هو العنصر الأهم لأنه يوجه نموذج الذكاء الاصطناعي نحو ما تريد تحقيقه بدقة."
+        },
+        {
+          "q": "كيف يمكنك تحسين دقة إجابات نموذج الذكاء الاصطناعي؟",
+          "options": [
+            "طلب التفكير خطوة بخطوة",
+            "تقليل السياق",
+            "استخدام لغة غامضة",
+            "عدم تحديد تنسيق المخرجات"
+          ],
+          "answer": 0,
+          "explain": "طلب التفكير خطوة بخطوة يساعد النموذج على تقديم إجابات أكثر دقة ومنطقية."
+        }
+      ],
+      "addedAt": "2026-11-17"
+    },
+    {
       "id": "k-2026-11-14-تحسين-الأداء-باستخدام-نماذج-llm-مُخصصة",
       "title": "تحسين الأداء باستخدام نماذج LLM مُخصصة",
       "titleEn": "Improving Performance with Custom LLM Models",
