@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-18-ضبط-النماذج-الصغيرة-لمهام-محددة",
+      "title": "ضبط النماذج الصغيرة لمهام محددة",
+      "titleEn": "Fine-tuning Small Models for Specific Tasks",
+      "why": "يسمح لك ضبط النماذج الصغيرة بالتكيف مع مهام محددة باستخدام موارد أقل، مما يجعلها مثالية للتطبيقات المتخصصة والمستقلة.",
+      "whyEn": "Fine-tuning small models allows you to adapt to specific tasks using fewer resources, making them ideal for specialized and on-premise applications.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "اختيار النموذج الأساسي",
+          "detail": "اختر نموذجًا صالحًا ومتوافقًا مع مهمتك."
+        },
+        {
+          "title": "إعداد البيانات",
+          "detail": "قم بتنظيف وتنسيق بيانات التدريب لتناسب مهمتك."
+        },
+        {
+          "title": "ضبط النموذج",
+          "detail": "استخدم مكتبات مثل Hugging Face Transformers لضبط النموذج."
+        },
+        {
+          "title": "تقييم الأداء",
+          "detail": "اختبر النموذج المضبوط على مجموعة بيانات منفصلة."
+        },
+        {
+          "title": "تحسين النموذج",
+          "detail": "قم بتعديل المعلمات بناءً على نتائج التقييم."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Choose base model",
+          "detail": "Select a suitable and compatible model for your task."
+        },
+        {
+          "title": "Prepare data",
+          "detail": "Clean and format training data to fit your task."
+        },
+        {
+          "title": "Fine-tune model",
+          "detail": "Use libraries like Hugging Face Transformers to fine-tune the model."
+        },
+        {
+          "title": "Evaluate performance",
+          "detail": "Test the fine-tuned model on a separate dataset."
+        },
+        {
+          "title": "Optimize model",
+          "detail": "Adjust parameters based on evaluation results."
+        }
+      ],
+      "code": "from transformers import AutoModelForSequenceClassification, Trainer, TrainingArguments\nfrom datasets import load_dataset\n\n# Load model and dataset\nmodel = AutoModelForSequenceClassification.from_pretrained(\"bert-base-uncased\")\ndataset = load_dataset(\"my_dataset\")\n\n# Define training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    evaluation_strategy=\"epoch\"\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=dataset[\"train\"],\n    eval_dataset=dataset[\"validation\"]\n)\n\n# Fine-tune the model\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning documentation",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "Stanford's CS224n course on fine-tuning",
+          "url": "https://web.stanford.edu/class/cs224n/"
+        },
+        {
+          "name": "Parameter-Efficient Transfer Learning for NLP",
+          "url": "https://arxiv.org/abs/1905.05583"
+        }
+      ],
+      "tags": [
+        "fine-tuning",
+        "model-adaptation",
+        "NLP",
+        "resource-efficient"
+      ],
+      "quickRef": "ضبط النماذج الصغيرة يتضمن اختيار نموذج أساسي، إعداد بيانات مناسبة، تدريب على مهمة محددة، وتقييم الأداء.",
+      "quickRefEn": "Fine-tuning small models involves selecting a base model, preparing suitable data, training on a specific task, and evaluating performance.",
+      "quiz": [
+        {
+          "q": "ما هو الهدف الرئيسي من ضبط النماذج الصغيرة؟",
+          "options": [
+            "تقليل حجم النموذج",
+            "تحسين أداء النموذج لمهام محددة",
+            "زيادة سرعة الاستدلال",
+            "تقليل استهلاك الطاقة"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من ضبط النماذج هو تحسين أدائها لمهام محددة باستخدام بيانات تدريب متخصصة."
+        },
+        {
+          "q": "أي من الخيارات التالية ليست خطوة في عملية ضبط النموذج؟",
+          "options": [
+            "اختيار النموذج الأساسي",
+            "إعداد البيانات",
+            "ضبط النموذج",
+            "زيادة حجم النموذج"
+          ],
+          "answer": 3,
+          "explain": "عملية ضبط النموذج لا تتضمن زيادة حجم النموذج، بل تركز على تعديل المعلمات الحالية لتحسين الأداء لمهام محددة."
+        }
+      ],
+      "addedAt": "2026-11-18"
+    },
+    {
       "id": "k-2026-11-17-كتابة-أوامر-فعالة-لنماذج-الذكاء-الاصطناعي",
       "title": "كتابة أوامر فعالة لنماذج الذكاء الاصطناعي",
       "titleEn": "Writing Effective AI Model Prompts",

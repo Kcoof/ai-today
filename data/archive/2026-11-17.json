@@ -1,0 +1,463 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T19:57:57.424Z",
+  "news": [
+    {
+      "id": "n-2026-11-17-1",
+      "title": "إطلاق GPT-6.2 أسترا وسول",
+      "titleEn": "Introducing GPT-6.2 Astra and Sol",
+      "summary": "أطلقت OpenAI نموذجي GPT-6.2 أسترا وسول، اللذين يوفران مخرجات احترافية متقدمة وقدرات محسنة على البرمجة واستخدام الكمبيوتر.",
+      "summaryEn": "OpenAI has launched GPT-6.2 Astra and Sol, which provide enhanced professional outputs, improved coding capabilities, and advanced computer use.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      },
+      "publishedAt": "2026-11-17"
+    },
+    {
+      "id": "n-2026-11-17-2",
+      "title": "إطلاق جيميني 4 هايدروجين",
+      "titleEn": "Introducing Gemini 4 Hydrogen",
+      "summary": "كشفت جوجل ديمند عن نموذج جيميني 4 هايدروجين، وهو أحدث إضافة لعائلة نماذج جيميني المتقدمة.",
+      "summaryEn": "Google DeepMind has introduced Gemini 4 Hydrogen, the latest addition to the advanced Gemini model family.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+      },
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "n-2026-11-17-6",
+      "title": "أنثروبيك تقدم طلبًا للاكتتاب العام الأولي",
+      "titleEn": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "summary": "قدمت شركة أنثروبيك طلبًا للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات، مما يمثل خطوة كبيرة في نمو الشركة.",
+      "summaryEn": "Anthropic has filed an S-1 with the SEC for a proposed initial public offering, marking a significant step in the company's growth.",
+      "category": "companies",
+      "importance": 5,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/s1-sec"
+      },
+      "publishedAt": "2026-11-17"
+    },
+    {
+      "id": "n-2026-11-17-3",
+      "title": "جيميني 4 كربون متاح الآن للاستخدام",
+      "titleEn": "Gemini 4 Carbon is now available",
+      "summary": "أصبح نموذج جيميني 4 كربون متاحاً للاستخدام بعد إطلاقه رسمياً من قبل جوجل ديمند.",
+      "summaryEn": "Gemini 4 Carbon is now available for use following its official release by Google DeepMind.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+      },
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "n-2026-11-17-4",
+      "title": "ألفابروف كود: ثورة في التحقق من البرمجيات المعقدة",
+      "titleEn": "Introducing AlphaProof Code: a breakthrough in verifying complex software",
+      "summary": "قدمت جوجل ديمند ألفابروف كود، وهو نظام متقدم للتحقق من البرمجيات المعقدة الذي كتب ثلاثة ملايين سطر من الأدلة في لغة لين للتحقق من بروتوكال سينال.",
+      "summaryEn": "Google DeepMind introduced AlphaProof Code, an advanced system for verifying complex software that wrote three million lines of proofs in Lean to verify Signal's protocol.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "n-2026-11-17-5",
+      "title": "جيميني روبوتيكز 2.5: تعزيز المرونة والقدرة على العمل في العالم الحقيقي",
+      "titleEn": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "summary": "يعزز نموذج جيميني روبوتيكز 2.5 من مرونة وثقة وكفاءة الروبوتات في العالم الحقيقي من خلال قدرات متقدمة في الرؤية واللغة والحركة.",
+      "summaryEn": "Gemini Robotics 2.5 enhances robot dexterity, reliability, and efficiency in the real world through advanced vision-language-action capabilities.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+      },
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "id": "n-2026-11-17-7",
+      "title": "مونشوت آي تتحول من البرمجة إلى العلوم",
+      "titleEn": "Moonshot AI pivots Kimi models from coding to science",
+      "summary": "تتحول شركة مونشوت آي نماذج كيمي من التركيز على البرمجة إلى التركيز على العلوم مع تباطؤ المكاسب في المقاييس.",
+      "summaryEn": "Moonshot AI is shifting its Kimi models from a coding focus to a science focus as benchmark gains flatten.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR0U1Q09VT0FiYVVVZklnTjB6a3MzQm4wTXExdTRqSG1LdXpfWWU3MUdrNjg3M3RnSzliZmJiN21ScldFT0QyOHQxRFlkcGJTSXNWTVRtWU1zaEoyVnRsWTlSMHBLdzV3dWNJT0FCdjNfN18xandubGlWc2IzN19jbWdhQXp5d083T3FCYUVXc2xWa25IVTJadW5RN2ZRcUt2UDNCYV8wY0Q?oc=5"
+      },
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "n-2026-11-17-8",
+      "title": "أليibaba تطلق نموذج Qwen 4 ماكس مع إجراءات أمنية صارمة",
+      "titleEn": "Alibaba launches Qwen 4 Max model with strict cybersecurity guardrails",
+      "summary": "أطلقت شركة أليibaba نموذج Qwen 4 ماكس مع إجراءات حماية أمنية صارمة للتعامل مع المخاطر السيبريتية.",
+      "summaryEn": "Alibaba has launched the Qwen 4 Max model with strict cybersecurity guardrails to address cyber risks.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHl0ZVByMTFnMVVaU2h5UFBhMzFaVmFKQi1pcGhPb3lLeTdjdGh4TkpnU0FPUVAyMU9rYjV2UkhFdjhOUHRDVUFMRm9seUVzWDRzeno1YllqLVpmY3R6WmI5bnJSS1lkeFAzSm1lM1pkWnAtclpOQmxRWFVwMmZaVjE2cy1KYzRJcEw5RUVIbVExdlhveFJYLU1HRTFSVERTV2VzdHFtS1J2SE1PMjBFbVNYMFNRSmZmT3FtV2kxYUd0QmdBSkJMb3pGUWJTUGFzcC1wYtIB1AFBVV95cUxPWS1MdnU4cWMyN3ktNnVyR2Vtcnhqa1hUVHUxeUxTRDhIUVRjRkJsNmlIM1RDWUFGSkgxeHIxR0h2NUU4WUJ5d3h2eFhKVXU2ekdLRkhSbmpVdHVRaDJrOXhOTkpyOW4ya2dpdDVQb0JVd3Y3UXFfU19fLXNHelFNUnhncDMwTS1yQWFkc1F3SFZoM0ZMZGFIRGhwNS1CRzd4UXRXOUtnS21UMHRZLUNUNlp0cmZtMWVvRUhSaE53UFFrbmQ3SHRQaTRxUVRFVmE4VmZZdw?oc=5"
+      },
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "n-2026-11-17-9",
+      "title": "معاملات الذكاء الاصطناعي الصينية تدرب النماذج على رقائق بلاكويلر رغم القيود",
+      "titleEn": "Chinese AI labs training models on Nvidia's Blackwell despite export controls",
+      "summary": "تدرب معاملات الذكاء الاصطناعي الصينية نماذجها على رقائق بلاكويلر من إنفيديا رغم قيود التصدير، مما يثير مخاوف أمنية.",
+      "summaryEn": "Chinese AI labs are training models on Nvidia's Blackwell chips despite export controls, raising security concerns.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOc2d0VmU0UHVrQlVvWElsNFVGTlhKcDc2YVR0SGxqM2dBUXlvSGpLZTNrbUhDTVhiLU0yU1lUamJ2MFpNc3V0SUxlY2xkc3dKemkxel9zbEVXaTVoVHhMdUliUERkZUNKQ2pvSnNKeUh3WDBXdkw1dVBQM09pMjBlSXdoc3JUOVpxZTZYZkphSVFzeDV5MkN5SGpLN0E3bmZVcnJtRThzNDJYSGNzSi1qUEdXUDZWYzRrbHY1RkVqeTA5WWxadzdTcE9USjMxVkZLU3p2cGZMODJpU1V5SDlBTDFyWUNnWXZpbGF1aEotVlFsMkU?oc=5"
+      },
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "n-2026-11-17-10",
+      "title": "محدودية وكيل ديبسيك في البرمجة",
+      "titleEn": "DeepSeek's coding agent limitations",
+      "summary": "يعاني وكيل ديبسيك للبرمجة من محدودية في تنظيم الكود مما يؤثر على أدائه في المقاييس.",
+      "summaryEn": "DeepSeek's coding agent is facing limitations in code organization that are affecting its performance in benchmarks.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IbEZDRU1FUWgtVkZQNlJqcnZkS3M3UmtSQ1lUbVdYOGVObC1fN3p1QUgyVVV0bnM4WU15eXV2bkxVYVcxWk1PNEpQUWh4eTJIVms3UkdJYVBqeFNILU9QWmVUbTZfTldXN3c?oc=5"
+      },
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "n-2026-11-17-11",
+      "title": "اعتقال ثلاثة أشخاص للاحتيال باستخدام الذكاء الاصطناعي",
+      "titleEn": "Three People Arrested for AI-Enhanced Impersonation Fraud",
+      "summary": "تم اعتقال ثلاثة أشخاص بتهمة الاحتيال باستخدام تقنيات الذكاء الاصطناعي للاستحواذ على الهويات.",
+      "summaryEn": "Three people were arrested for using AI-enhanced techniques for identity impersonation fraud.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html"
+      },
+      "publishedAt": "2026-11-11"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-11-17-1",
+      "name": "GPT-6.2 Astra",
+      "org": "OpenAI",
+      "releaseDate": "2026-11-17",
+      "highlights": "يوفر مخرجات احترافية متقدمة وقدرات محسنة على البرمجة واستخدام الكمبيوتر",
+      "highlightsEn": "Provides enhanced professional outputs, improved coding capabilities, and advanced computer use",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    {
+      "id": "m-2026-11-17-2",
+      "name": "Gemini 4 Hydrogen",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-12",
+      "highlights": "أحدث إضافة لعائلة نماذج جيميني المتقدمة",
+      "highlightsEn": "Latest addition to the advanced Gemini model family",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+      "id": "m-2026-11-17-3",
+      "name": "Gemini 4 Carbon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-10",
+      "highlights": "متاح الآن للاستخدام بعد إطلاقه رسمياً",
+      "highlightsEn": "Now available for use following its official release",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+    },
+    {
+      "id": "m-2026-11-17-4",
+      "name": "AlphaProof Code",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-10",
+      "highlights": "نظام متقدم للتحقق من البرمجيات المعقدة",
+      "highlightsEn": "Advanced system for verifying complex software",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+    },
+    {
+      "id": "m-2026-11-17-5",
+      "name": "Qwen 4 Max",
+      "org": "Alibaba/Qwen",
+      "releaseDate": "2026-11-16",
+      "highlights": "مع إجراءات حماية أمنية صارمة للتعامل مع المخاطر السيبريتية",
+      "highlightsEn": "With strict cybersecurity guardrails to address cyber risks",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHl0ZVByMTFnMVVaU2h5UFBhMzFaVmFKQi1pcGhPb3lLeTdjdGh4TkpnU0FPUVAyMU9rYjV2UkhFdjhOUHRDVUFMRm9seUVzWDRzeno1YllqLVpmY3R6WmI5bnJSS1lkeFAzSm1lM1pkWnAtclpOQmxRWFVwMmZaVjE2cy1KYzRJcEw5RUVIbVExdlhveFJYLU1HRTFSVERTV2VzdHFtS1J2SE1PMjBFbVNYMFNRSmZmT3FtV2kxYUd0QmdBSkJMb3pGUWJTUGFzcC1wYtIB1AFBVV95cUxPWS1MdnU4cWMyN3ktNnVyR2Vtcnhqa1hUVHUxeUxTRDhIUVRjRkJsNmlIM1RDWUFGSkgxeHIxR0h2NUU4WUJ5d3h2eFhKVXU2ekdLRkhSbmpVdHVRaDJrOXhOTkpyOW4ya2dpdDVQb0JVd3Y3UXFfU19fLXNHelFNUnhncDMwTS1yQWFkc1F3SFZoM0ZMZGFIRGhwNS1CRzd4UXRXOUtnS21UMHRZLUNUNlp0cmZtMWVvRUhSaE53UFFrbmQ3SHRQaTRxUVRFVmE4VmZZdw?oc=5"
+    },
+    {
+      "id": "m-2026-11-17-6",
+      "name": "Kimi models",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-11-16",
+      "highlights": "تتحول من التركيز على البرمجة إلى التركيز على العلوم",
+      "highlightsEn": "Shifting from a coding focus to a science focus",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR0U1Q09VT0FiYVVVZklnTjB6a3MzQm4wTXExdTRqSG1LdXpfWWU3MUdrNjg3M3RnSzliZmJiN21ScldFT0QyOHQxRFlkcGJTSXNWTVRtWU1zaEoyVnRsWTlSMHBLdzV3dWNJT0FCdjNfN18xandubGlWc2IzN19jbWdhQXp5d083T3FCYUVXc2xWa25IVTJadW5RN2ZRcUt2UDNCYV8wY0Q?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-11-17-1",
+      "text": "تقدمت شركة أنثروبيك بطلب للاكتتاب العام الأولي إلى لجنة الأوراق المالية والبورصات، مما يمثل خطوة كبيرة في نمو الشركة.",
+      "textEn": "Anthropic has filed an S-1 with the SEC for a proposed initial public offering, marking a significant step in the company's growth.",
+      "level": "info",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
+    {
+      "id": "h-2026-11-17-2",
+      "text": "تدرب معاملات الذكاء الاصطناعي الصينية نماذجها على رقائق بلاكويلر من إنفيديا رغم قيود التصدير، مما يثير مخاوف أمنية.",
+      "textEn": "Chinese AI labs are training models on Nvidia's Blackwell chips despite export controls, raising security concerns.",
+      "level": "warning",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOc2d0VmU0UHVrQlVvWElsNFVGTlhKcDc2YVR0SGxqM2dBUXlvSGpLZTNrbUhDTVhiLU0yU1lUamJ2MFpNc3V0SUxlY2xkc3dKemkxel9zbEVXaTVoVHhMdUliUERkZUNKQ2pvSnNKeUh3WDBXdkw1dVBQM09pMjBlSXdoc3JUOVpxZTZYZkphSVFzeDV5MkN5SGpLN0E3bmZVcnJtRThzNDJYSGNzSi1qUEdXUDZWYzRrbHY1RkVqeTA5WWxadzdTcE9USjMxVkZLU3p2cGZMODJpU1V5SDlBTDFyWUNnWXZpbGF1aEotVlFsMkU?oc=5"
+    },
+    {
+      "id": "h-2026-11-17-3",
+      "text": "أطلقت OpenAI نموذجي GPT-6.2 أسترا وسول، اللذين يوفران مخرجات احترافية متقدمة وقدرات محسنة على البرمجة.",
+      "textEn": "OpenAI has launched GPT-6.2 Astra and Sol, which provide enhanced professional outputs and improved coding capabilities.",
+      "level": "info",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-11-17-1",
+      "title": "أداة Artex AI لاختراق الشبكات",
+      "titleEn": "Artex AI open-source hacking tool used to breach networks",
+      "summary": "أعلنت FBI استخدام أداة Artex AI مفتوحة المصدر لاختراق الشبكات، مما يسلط الضوء على مخاطر الأدوات الذكية.",
+      "summaryEn": "The FBI reports that the Artex AI open-source hacking tool has been used to breach networks, highlighting the risks of intelligent tools.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "source": "Hacker News",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "sec-2026-11-17-2",
+      "title": "الوكيل سيختار الثغرات القابلة للاختراق",
+      "titleEn": "Your Agent Will Pick the Hackable One",
+      "summary": "بحث جديد يوضح كيف يمكن للذكاء الاصطناعي تحديد الثغرات القابلة للاختراق في الأنظمة، مما يزيد من مخاطر الاختراق الذكي.",
+      "summaryEn": "New research shows how AI can identify hackable vulnerabilities in systems, increasing the risk of intelligent breaches.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/",
+      "source": "Hacker News",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "sec-2026-11-17-3",
+      "title": "اعتقال ثلاثة أشخاص للاحتيال باستخدام الذكاء الاصطناعي",
+      "titleEn": "Three People Arrested for AI-Enhanced Impersonation Fraud",
+      "summary": "تم اعتقال ثلاثة أشخاص بتهمة الاحتيال باستخدام تقنيات الذكاء الاصطناعي للاستحواذ على الهويات، مما يسلط الضوء على مخاطر الاحتيال المتقدم.",
+      "summaryEn": "Three people were arrested for using AI-enhanced techniques for identity impersonation fraud, highlighting the risks of advanced fraud.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "sec-2026-11-17-4",
+      "title": "معاملات الذكاء الاصطناعي الصينية تدرب النماذج على رقائق بلاكويلر رغم القيود",
+      "titleEn": "Chinese AI labs training models on Nvidia's Blackwell despite export controls",
+      "summary": "تدرب معاملات الذكاء الاصطناعي الصينية نماذجها على رقائق بلاكويلر من إنفيديا رغم قيود التصدير، مما يثير مخاوف أمنية وامتثال.",
+      "summaryEn": "Chinese AI labs are training models on Nvidia's Blackwell chips despite export controls, raising security and compliance concerns.",
+      "type": "policy",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOc2d0VmU0UHVrQlVvWElsNFVGTlhKcDc2YVR0SGxqM2dBUXlvSGpLZTNrbUhDTVhiLU0yU1lUamJ2MFpNc3V0SUxlY2xkc3dKemkxel9zbEVXaTVoVHhMdUliUERkZUNKQ2pvSnNKeUh3WDBXdkw1dVBQM09pMjBlSXdoc3JUOVpxZTZYZkphSVFzeDV5MkN5SGpLN0E3bmZVcnJtRThzNDJYSGNzSi1qUEdXUDZWYzRrbHY1RkVqeTA5WWxadzdTcE9USjMxVkZLU3p2cGZMODJpU1V5SDlBTDFyWUNnWXZpbGF1aEotVlFsMkU?oc=5",
+      "source": "DeepSeek (news)",
+      "date": "2026-11-13"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-11-17",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Fable 5.2 – NEW",
+        "org": "Anthropic",
+        "score": "60.8"
+      },
+      {
+        "name": "Claude Mythos 5.2 – NEW",
+        "org": "Anthropic",
+        "score": "59.3"
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "58.5"
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "org": "Google",
+        "score": "57.4"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "56.7"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "56.3"
+      },
+      {
+        "name": "Kimi K3.1 Pro",
+        "org": "Moonshot AI",
+        "score": "54.4"
+      },
+      {
+        "name": "Claude Mythos Preview – UNRELEASED",
+        "org": "Anthropic",
+        "score": "53.6"
+      },
+      {
+        "name": "Gemini 4 Argon",
+        "org": "Google",
+        "score": "53.3"
+      },
+      {
+        "name": "Muse Wonder Full",
+        "org": "Meta",
+        "score": "52.6"
+      }
+    ],
+    "highlights": "يشهد التصنيف الحالي تنافسًا قويًا بين نماذج Anthropic و Google، حيث تحتل Claude Fable 5.2 المركز الأول بفارق ضئيل عن Claude Mythos 5.2. كما يلاحظ ظهور نماذج جديدة مثل Gemini 4 Carbon التي تظهر أداءً قويًا في المراكز المتقدمة.",
+    "highlightsEn": "The current ranking shows strong competition between Anthropic and Google models, with Claude Fable 5.2 leading by a narrow margin over Claude Mythos 5.2. We also see new models like Gemini 4 Carbon performing strongly in the top positions."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-11-17-كتابة-أوامر-فعالة-لنماذج-الذكاء-الاصطناعي",
+    "title": "كتابة أوامر فعالة لنماذج الذكاء الاصطناعي",
+    "titleEn": "Writing Effective AI Model Prompts",
+    "why": "تساعدك كتابة أوامر فعالة على الحصول على نتائج دقيقة ومفيدة من نماذج الذكاء الاصطناعي، وتوفر الوقت وتحسين جودة المخرجات.",
+    "whyEn": "Effective prompt writing helps you get accurate and useful results from AI models, saves time, and improves output quality.",
+    "difficulty": "beginner",
+    "track": "basics",
+    "steps": [
+      {
+        "title": "حدد هدفك بوضوح",
+        "detail": "قبل كتابة الأمر، حدد بوضوح ما تريد تحقيقه. يجب أن يكون هدفك محددًا وقابلاً للقياس."
+      },
+      {
+        "title": "استلزم السياق المناسب",
+        "detail": "قدم معلومات كافية عن السياق الذي يعمل فيه النموذج. هذا يساعد النموذج على فهم متطلباتك بشكل أفضل."
+      },
+      {
+        "title": "استخدم صيغة واضحة ومباشرة",
+        "detail": "اكتب أوامرك بلغة واضحة وبسيطة. تجنب التعقيد غير الضروري واستخدم هيكلًا منطقيًا."
+      },
+      {
+        "title": "حدد تنسيق المخرجات",
+        "detail": "حدد كيف تريد أن تكون النتائج. هل تريد قائمة، جدول، فقرة، أو أي تنسيق آخر؟"
+      },
+      {
+        "title": "اجعل الأمر تفاعليًا",
+        "detail": "اطلب من النموذج التفكير خطوة بخطوة أو تقديم خيارات متعددة. هذا يساعد على الحصول على إجابات أكثر دقة."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Clearly define your goal",
+        "detail": "Before writing the prompt, clearly define what you want to achieve. Your goal should be specific and measurable."
+      },
+      {
+        "title": "Provide appropriate context",
+        "detail": "Give sufficient information about the context in which the model will operate. This helps the model better understand your requirements."
+      },
+      {
+        "title": "Use clear and direct language",
+        "detail": "Write your prompts in clear and simple language. Avoid unnecessary complexity and use a logical structure."
+      },
+      {
+        "title": "Specify output format",
+        "detail": "Indicate how you want the results to be presented. Do you want a list, table, paragraph, or other format?"
+      },
+      {
+        "title": "Make the prompt interactive",
+        "detail": "Ask the model to think step-by-step or provide multiple options. This helps get more accurate answers."
+      }
+    ],
+    "code": "def create_effective_prompt(goal, context, format=\"text\", steps=False):\n    prompt = f\"Goal: {goal}\\nContext: {context}\\n\"\n    if format:\n        prompt += f\"Format: {format}\\n\"\n    if steps:\n        prompt += \"Please think step-by-step and provide your reasoning.\"\n    return prompt",
+    "resources": [
+      {
+        "name": "OpenAI Prompt Engineering Guide",
+        "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+      },
+      {
+        "name": "Anthropic Prompt Library",
+        "url": "https://www.anthropic.com/news/prompt-library"
+      }
+    ],
+    "tags": [
+      "كتابة أوامر",
+      "نماذج الذكاء الاصطناعي",
+      "مهارات أساسية",
+      "تحسين المخرجات"
+    ],
+    "quickRef": "حدد هدفك، قدم السياق، استخدم لغة واضحة، حدد التنسيق، اجعل الأمر تفاعلي",
+    "quickRefEn": "Define your goal, provide context, use clear language, specify format, make it interactive",
+    "quiz": [
+      {
+        "q": "ما هو العنصر الأهم في كتابة أمر فعال لنموذج الذكاء الاصطناعي؟",
+        "options": [
+          "استخدام لغة معقدة",
+          "تحديد الهدف بوضوح",
+          "جعل الأمر طويلًا",
+          "عدم تقديم أي سياق"
+        ],
+        "answer": 1,
+        "explain": "تحديد الهدف بوضوح هو العنصر الأهم لأنه يوجه نموذج الذكاء الاصطناعي نحو ما تريد تحقيقه بدقة."
+      },
+      {
+        "q": "كيف يمكنك تحسين دقة إجابات نموذج الذكاء الاصطناعي؟",
+        "options": [
+          "طلب التفكير خطوة بخطوة",
+          "تقليل السياق",
+          "استخدام لغة غامضة",
+          "عدم تحديد تنسيق المخرجات"
+        ],
+        "answer": 0,
+        "explain": "طلب التفكير خطوة بخطوة يساعد النموذج على تقديم إجابات أكثر دقة ومنطقية."
+      }
+    ],
+    "addedAt": "2026-11-17"
+  }
+}
