@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-20-بناء-أنظمة-توصية-باستخدام-نماذج-التضمين",
+      "title": "بناء أنظمة توصية باستخدام نماذج التضمين",
+      "titleEn": "Building Recommendation Systems Using Embedding Models",
+      "why": "أنظمة التوصية ضرورية في التطبيقات الحديثة لتحسين تجربة المستخدم وزيادة التفاعل، وتعتبر نماذج التضمين أداة قوية لفهم العلاقات بين المحتوى والمستخدمين.",
+      "whyEn": "Recommendation systems are essential in modern applications to improve user experience and increase engagement, and embedding models are powerful tools for understanding relationships between content and users.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "فهم نماذج التضمين",
+          "detail": "تعلم كيفية تحويل النصوص أو البيانات إلى متجهات رقمية تمثل المعنى الدلالي للمحتوى، حيث تشبه المتجهات القريبة معنويًا في الفضاء."
+        },
+        {
+          "title": "إعداد البيانات",
+          "detail": "تنظيف ومعالجة البيانات وتحويلها إلى تنسيق مناسب، مع إنشاء تمثيلات متجهية لكل عنصر باستخدام نماذج مثل Sentence-BERT أو OpenAI embeddings."
+        },
+        {
+          "title": "بناء نظام التوصية",
+          "detail": "استخدام خوارزميات مثل KNN أو cosine similarity للعثور على العناصر الأكثر تشابهًا بناءً على المتجهات الرقمية، وتصنيف النتائج حسب الأهمية."
+        },
+        {
+          "title": "دمج التفاعل مع المستخدم",
+          "detail": "تطبيق آليات لتعديل التوصيات بناءً على سلوك المستخدم، مع مراعية التفاعلات السابقة والتفضيلات الشخصية."
+        },
+        {
+          "title": "تقييم وتحسين النظام",
+          "detail": "استخدام مقاييس مثل Precision@K وRecall@K لتقييم أداء النظام، وتحسينه باستخدام تقنيات مثل التعلم المعزز أو التغذية الراجعة من المستخدمين."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Embedding Models",
+          "detail": "Learn how to convert text or data into numerical vectors that represent the semantic meaning of content, where semantically similar items have similar vector representations."
+        },
+        {
+          "title": "Data Preparation",
+          "detail": "Clean and process data into suitable format, creating vector representations for each item using models like Sentence-BERT or OpenAI embeddings."
+        },
+        {
+          "title": "Building the Recommendation System",
+          "detail": "Use algorithms like KNN or cosine similarity to find the most similar items based on their vector representations, and rank results by relevance."
+        },
+        {
+          "title": "Incorporating User Interaction",
+          "detail": "Implement mechanisms to adjust recommendations based on user behavior, considering previous interactions and personal preferences."
+        },
+        {
+          "title": "Evaluation and System Improvement",
+          "detail": "Use metrics like Precision@K and Recall@K to evaluate system performance, and improve it using techniques like reinforcement learning or user feedback."
+        }
+      ],
+      "code": "import numpy as np\nfrom sentence_transformers import SentenceTransformer\nfrom sklearn.metrics.pairwise import cosine_similarity\n\n# Initialize embedding model\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\n# Sample items\ntexts = ['Apple iPhone', 'Samsung Galaxy', 'Apple MacBook', 'Dell Laptop', 'Samsung TV']\n\n# Create embeddings\nembeddings = model.encode(texts)\n\ndef get_similar_items(query, top_k=3):\n    query_embedding = model.encode([query])\n    similarities = cosine_similarity(query_embedding, embeddings)[0]\n    top_indices = np.argsort(-similarities)[:top_k]\n    return [(texts[i], similarities[i]) for i in top_indices]\n\n# Example usage\nprint(get_similar_items('Apple product'))",
+      "resources": [
+        {
+          "name": "Sentence Transformers Documentation",
+          "url": "https://www.sbert.net"
+        },
+        {
+          "name": "Building Recommendation Systems with Embeddings",
+          "url": "https://towardsdatascience.com/building-recommendation-systems-using-embeddings-and-vector-similarity-d8f1a2f9c3b"
+        },
+        {
+          "name": "Understanding Embeddings in NLP",
+          "url": "https://medium.com/towards-data-science/understanding-embeddings-in-nlp-7a0b3fc2827b"
+        }
+      ],
+      "tags": [
+        "نظام توصية",
+        "نماذج التضمين",
+        "معالجة اللغات الطبيعية",
+        "استخراج المعنى"
+      ],
+      "quickRef": "أنظمة التوصية باستخدام نماذج التضمين لتحليل العلاقات بين المحتوى والمستخدمين وتقديم اقتراحات دقيقة.",
+      "quickRefEn": "Recommendation systems using embedding models to analyze relationships between content and users and provide accurate suggestions.",
+      "quiz": [
+        {
+          "q": "ما هي أفضل خوارزمية للعثور على العناصر الأكثر تشابهًا بناءً على متجهات التضمين؟",
+          "options": [
+            "خوارزمية KNN",
+            "خوارزمية الـ Decision Trees",
+            "خوارزمية الـ Random Forest",
+            "خوارزمية الـ SVM"
+          ],
+          "answer": 0,
+          "explain": "خوارزمية KNN (K-Nearest Neighbors) هي الأنسب للعثور على العناصر الأقرب في الفضاء المتجهي، حيث تبحث عن أقرب جيران بناءً على المسافة أو التشابه الزاوي."
+        },
+        {
+          "q": "ما هو المقاييس الأكثر شيوعًا لتقييم أداء أنظمة التوصية؟",
+          "options": [
+            "Accuracy و F1-Score",
+            "Precision@K و Recall@K",
+            "ROC-AUC و Confusion Matrix",
+            "MSE و MAE"
+          ],
+          "answer": 1,
+          "explain": "Precision@K و Recall@K هي المقاييس الأكثر شيوعًا لتقييم أنظمة التوصية، حيث تقيس مدى دقة التوصيات في أفضل K نتائج ومدى تغطيتها للعناصر المثيرة للاهتمام."
+        },
+        {
+          "q": "ما هو دور نماذج التضمين في أنظمة التوصية؟",
+          "options": [
+            "تخزين البيانات",
+            "تحويل النصوص إلى أرقام تمثل المعنى",
+            "تصفية البيانات",
+            "عرض النتائج"
+          ],
+          "answer": 1,
+          "explain": "نماذج التضمين تحول النصوص أو البيانات إلى متجهات رقمية تمثل المعنى الدلالي، مما يسهل تحليل العلاقات بين المحتوى والمستخدمين."
+        }
+      ],
+      "addedAt": "2026-11-20"
+    },
+    {
       "id": "k-2026-11-18-ضبط-النماذج-الصغيرة-لمهام-محددة",
       "title": "ضبط النماذج الصغيرة لمهام محددة",
       "titleEn": "Fine-tuning Small Models for Specific Tasks",
