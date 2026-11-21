@@ -1,0 +1,422 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T19:16:57.598Z",
+  "news": [
+    {
+      "id": "n-2026-11-20-1",
+      "title": "إطلاق سلسلة جيميني 4 من جوجل ديمند",
+      "titleEn": "Google DeepMind Launches Gemini 4 Series",
+      "summary": "أعلنت جوجل ديمند عن إطلاق عدة نماذج جديدة في سلسلة جيميني 4، بما في ذلك نيون وهيدروجين وكاربون، مما يمثل تقدمًا كبيرًا في قدرات الذكاء الاصطناعي.",
+      "summaryEn": "Google DeepMind announced the launch of several new models in the Gemini 4 series, including Neon, Hydrogen, and Carbon, representing significant advancements in AI capabilities.",
+      "category": "models",
+      "importance": 5,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+      },
+      "publishedAt": "2026-11-18"
+    },
+    {
+      "id": "n-2026-11-20-2",
+      "title": "أنثروبيك تكتمل عملية الاكتتاب العام الأولي",
+      "titleEn": "Anthropic Completes IPO Process",
+      "summary": "أكملت شركة أنثروبيك عملية الاكتتاب العام الأولي، بما في ذلك ممارسة كامل خيار الاكتتاب الإضافي من قبل المكتتبين، مما يمثل حدثًا كبيرًا في صناعة الذكاء الاصطناعي.",
+      "summaryEn": "Anthropic completed its initial public offering process, including full exercise of underwriters' option to purchase additional shares, marking a major event in the AI industry.",
+      "category": "companies",
+      "importance": 4,
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/ipo-close"
+      },
+      "publishedAt": "2026-11-20"
+    },
+    {
+      "id": "n-2026-11-20-3",
+      "title": "مونشوت تتحول من البرمجة إلى العلوم",
+      "titleEn": "Moonshot Shifts from Coding to Science",
+      "summary": "تغيرت استراتيجية شركة مونشوت AI لتوجيه نماذج كيمي من التركيز على البرمجة إلى التركيز على الاكتشافات العلمية، مع وصول إيراداتها المتكررة إلى 300 مليون دولار.",
+      "summaryEn": "Moonshot AI has shifted its Kimi models focus from coding to scientific discoveries, with its recurring revenue reaching $300M.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPekpucXFHMllYak5sZ0xCX2gzaUttVldTLVhuMjdmTTBQMHBsYnlxUVNfYU05Y3ZrQzM4YWxnaG9ZRllhLUxNUXFObEtPTWdLZTQwR1J5NG9VYW5Hak1aT1VoV2Y3M2x3WnV5Nmp2d1VRUlp0blRYRUFJcGw1ZTlQdUl4S3BkeWFVUkY5N1EtbkJCb0JWeDU4MHhaYmotZjd0YThrTdIBpAFBVV95cUxPSDh1S2RyczlzTnc4RnNEVnNRMl9SWW1jQXVPZVNXVmEzVW1kWnFZT29oRFQ1R0hWTGFKenBWeTZOUkZvWERUUjNlWlVHY21iMnJDX2dueTFxT2dLRVozcGlkaG5BNFlGZ09FOFpubGIyRjJ5Tll1NDR3dkV6VUdfN1B6Y1JRMjUxaTRXb3Nodk8xcVFWUWJhNnFIZnExMTlDckg5UQ?oc=5"
+      },
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "n-2026-11-20-4",
+      "title": "علي بابا تطلق نموذج كوين 4 ماكس",
+      "titleEn": "Alibaba Launches Qwen 4 Max Model",
+      "summary": "أطلقت شركة علي بابا نموذج كوين 4 ماكس مع إجراءات أمنية صارمة، مما يمثل تحديًا مباشرًا لمنافسها أنثروبيك في سوق الذكاء الاصطناعي.",
+      "summaryEn": "Alibaba launched the Qwen4-Max model with strict cybersecurity guardrails, directly challenging competitor Anthropic in the AI market.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHl0ZVByMTFnMVVaU2h5UFBhMzFaVmFKQi1pcGhPb3lLeTdjdGh4TkpnU0FPUVAyMU9rYjV2UkhFdjhOUHRDVUFMRm9seUVzWDRzeno1YllqLVpmY3R6WmI5bnJSS1lkeFAzSm1lM1pkWnAtclpOQmxRWFVwMmZaVjE2cy1KYzRJcEw5RUVIbVExdlhveFJYLU1HRTFSVERTV2VzdHFtS1J2SE1PMjBFbVNYMFNRSmZmT3FtV2kxYUd0QmdBSkJMb3pGUWJTUGFzcC1wYtIB1AFBVV95cUxPWS1MdnU4cWMyN3ktNnVyR2Vtcnhqa1hUVHUxeUxTRDhIUVRjRkJsNmlIM1RDWUFGSkgxeHIxR0h2NUU4WUJ5d3h2eFhKVXU2ekdLRkhSbmpVdHVRaDJrOXhOTkpyOW4ya2dpdDVQb0JVd3Y3UXFfU19fLXNHelFNUnhncDMwTS1yQWFkc1F3SFZoM0ZMZGFIRGhwNS1CRzd4UXRXOUtnS21UMHRZLUNUNlp0cmZtMWVvRUhSaE53UFFrbmQ3SHRQaTRxUVRFVmE4VmZZdw?oc=5"
+      },
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "n-2026-11-20-5",
+      "title": "الشركات الصينية تدرب نماذج على رقائق Nvidia المحظورة",
+      "titleEn": "Chinese Companies Train Models on Banned Nvidia Chips",
+      "summary": "زعم باحثون أن شركات الذكاء الاصطناعي الصينية تدرب نماذجها على رقائق Nvidia Blackwell المحظورة رغم القيود، مما يثير مخاوف أمنية وت Compliance.",
+      "summaryEn": "Researchers allege Chinese AI companies are training models on banned Nvidia Blackwell chips despite restrictions, raising security and compliance concerns.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxQR0JoRXdycDVWakNINktZeHpUS1pLN2xxS0p1dVhFODJ1bkpPMEExZG9yb0dGSlRTMkhzbkNVYTlkWXl4OWk4Ujc4dEtJU0stNG5fT2JpdjJHNTRfZUxjSmk3cXEwa0F0YmNsRGtFMml0NWdzSjB4NnBaNS1vMFp4MWhsdDFBUlM4OEd6dlh1MGZBOUloRFlsam11dUh3WHJVSWVUWElwajhZWk9kS1hQbU54U2dlQy1EWHhsa1oyN0pDNElRd0hBdmY5bG1KeFlzSkhKNXg1dkxYNmFBVTJld3M5UkZDbHRsLTU0Y0J5TjFNQlp3Tl9DVnU1d1VTTGV6VGVzaTA2YXlPUGNHNXZIMXlsQ0xLVGtycVBzQzB4RHNHRDkzY08wMDJUcmtKb29TU1NuaktQYkw4WEJJNndJQVdPbU1WVC1WT3RudVJXM3VDM3Mwd3N5THZEcnBvOVBvZXE5UV9IbzhSbGM1Z2djcGI0Ym9hS0xjUHZQZ09lQQ?oc=5"
+      },
+      "publishedAt": "2026-11-14"
+    },
+    {
+      "id": "n-2026-11-20-6",
+      "title": "الذكاء الاصطناعي لا يحتاج للتمرد ليكسر العالم",
+      "titleEn": "AI Doesn't Have to Go Rogue to Break the World",
+      "summary": "يقدم بروس شناير منظورًا أمنيًا هامًا حول كيف يمكن للذكاء الاصطناعي أن يسبب أضرارًا حتى دون أن يصبح \"متمردًا\"، في محاضرته في مؤتمر DEF CON 34.",
+      "summaryEn": "Bruce Schneier presents an important security perspective on how AI can cause harm even without becoming 'rogue' in his DEF CON 34 keynote.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html"
+      },
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "n-2026-11-20-7",
+      "title": "أسواق الأسهم العالمية تنهار بعد فشل اكتتاب أنثروبيك",
+      "titleEn": "Global Markets Slump After Anthropic IPO Failure",
+      "summary": "انهارت أسواق الأسهم العالمية بعد أن فشل اكتتاب أنثروبيك العام في وقف بيع الذكاء الاصطناعي، مما يشير إلى رد فعل سوقي قوي.",
+      "summaryEn": "Global stock markets slumped after Anthropic's IPO failed to stem the AI sell-off, indicating a strong market reaction.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+      },
+      "publishedAt": "2026-11-20"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-11-20-1",
+      "name": "Gemini 4 Neon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-18",
+      "highlights": "نسخة متقدمة من نموذج جيميني 4 مصممة لتعزيز قدرات الذكاء الاصطناعي في المهام المعقدة.",
+      "highlightsEn": "An advanced version of the Gemini 4 model designed to enhance AI capabilities for complex tasks.",
+      "specs": {},
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+    },
+    {
+      "id": "m-2026-11-20-2",
+      "name": "Genie 4",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-18",
+      "highlights": "نموذج متاح الآن مع تحسينات في قدرات التوليد والفهم.",
+      "highlightsEn": "Now available model with improvements in generation and understanding capabilities.",
+      "specs": {},
+      "url": "https://deepmind.google/blog/genie-4-is-now-available/"
+    },
+    {
+      "id": "m-2026-11-20-3",
+      "name": "Gemini 4 Hydrogen",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-12",
+      "highlights": "نسخة خفيفة الوزن من سلسلة جيميني 4 مصممة للكفاءة.",
+      "highlightsEn": "A lightweight version of the Gemini 4 series designed for efficiency.",
+      "specs": {},
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+      "id": "m-2026-11-20-4",
+      "name": "Gemini 4 Carbon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-10",
+      "highlights": "نسخة متاحة الآن من نموذج جيميني 4 مع تركيز على الاستدامة.",
+      "highlightsEn": "Now available version of the Gemini 4 model with focus on sustainability.",
+      "specs": {},
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+    },
+    {
+      "id": "m-2026-11-20-5",
+      "name": "Qwen 4 Max",
+      "org": "Alibaba/Qwen",
+      "releaseDate": "2026-11-16",
+      "highlights": "نموذج جديد من علي بابا مع إجراءات أمنية صارمة، يقود سباق الوكلاء الذكاء الاصطناعي في الصين.",
+      "highlightsEn": "New model from Alibaba with strict security measures, leading the AI agent race in China.",
+      "specs": {},
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHl0ZVByMTFnMVVaU2h5UFBhMzFaVmFKQi1pcGhPb3lLeTdjdGh4TkpnU0FPUVAyMU9rYjV2UkhFdjhOUHRDVUFMRm9seUVzWDRzeno1YllqLVpmY3R6WmI5bnJSS1lkeFAzSm1lM1pkWnAtclpOQmxRWFVwMmZaVjE2cy1KYzRJcEw5RUVIbVExdlhveFJYLU1HRTFSVERTV2VzdHFtS1J2SE1PMjBFbVNYMFNRSmZmT3FtV2kxYUd0QmdBSkJMb3pGUWJTUGFzcC1wYtIB1AFBVV95cUxPWS1MdnU4cWMyN3ktNnVyR2Vtcnhqa1hUVHUxeUxTRDhIUVRjRkJsNmlIM1RDWUFGSkgxeHIxR0h2NUU4WUJ5d3h2eFhKVXU2ekdLRkhSbmpVdHVRaDJrOXhOTkpyOW4ya2dpdDVQb0JVd3Y3UXFfU19fLXNHelFNUnhncDMwTS1yQWFkc1F3SFZoM0ZMZGFIRGhwNS1CRzd4UXRXOUtnS21UMHRZLUNUNlp0cmZtMWVvRUhSaE53UFFrbmQ3SHRQaTRxUVRFVmE4VmZZdw?oc=5"
+    },
+    {
+      "id": "m-2026-11-20-6",
+      "name": "AlphaProof Code",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-10",
+      "highlights": "نموذج متقدم للتحقق البرمجي، كتب 3 ملايين سطر من البراهين للتحقق من بروتوكال سينال.",
+      "highlightsEn": "Advanced model for code verification, wrote 3 million lines of proofs to verify Signal's protocol.",
+      "specs": {},
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-11-20-1",
+      "text": "أنثروبيك تكتمل عملية الاكتتاب العام الأولي بقيمة تاريخية",
+      "textEn": "Anthropic completes historic IPO process",
+      "level": "info",
+      "url": "https://www.anthropic.com/news/ipo-close"
+    },
+    {
+      "id": "h-2026-11-20-2",
+      "text": "مونشوت AI تحقق إيرادات متكررة تصل إلى 300 مليون دولار مع نموذج كيمي K3",
+      "textEn": "Moonshot AI achieves $300M recurring revenue with Kimi K3 model",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RT2tDYU1XQk9RUHpwZUhxbUttN3Y4UnVaeC1IUkJkbkJSVVdFZXNiMnl4TVhtY3dDaE5wQ0psTWF0S2tqUU9iQnFpcVlzWGRaSmRwYWlIc3pVYk9uaUhoc3VZWGFrczdVV0hKUkh2a2JqSVpIRE45Qnlzak4?oc=5"
+    },
+    {
+      "id": "h-2026-11-20-3",
+      "text": "ديب سيك تقدم أسعارًا تنافسية تقل عن منافسيها مثل كلود",
+      "textEn": "DeepSeek offers competitive pricing undercutting competitors like Claude",
+      "level": "info",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZUpIRi1oRmV0Q2lLRUZGdU9ab2ZyUGhZVTVDVDh2VnVSOG5nZVFBQ3gxd3VUeUs5QUw0emMtRVJpWHVtV2MxNzUwc0dVSF8tRWluWTFqcjhiY2J5RzNCMHdwV3A3R0JtVlNsVmtvRUtUX29SZ29CQTU1dV9ZYWVmT1AtdnpYOFZSSHc?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-11-20-1",
+      "title": "تقرير بريدج ووتر يربط GLM 5.3 بزيادة الهجمات الإلكترونية",
+      "titleEn": "Bridgewater Report Links GLM 5.3 to Cyberattack Surge",
+      "summary": "كشف تقرير بريدج ووتر أن إطلاق نموذج GLM 5.3 تزامن مع زيادة هجمات الاستغلال الإلكتروني، مع فجوة استغلال مدتها 11 يومًا.",
+      "summaryEn": "Bridgewater report revealed that GLM 5.3 model release coincided with an increase in cyber exploitation attacks, with an 11-day exploit gap.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS3ZxOWtjVHM5QjhEVkhnYzB1a1BBZlFmdFVtLTljQUE2Z3lhS2dRaGFIQk5XLWJlUXg3cE9qWjdINlR4ZjNvb2ppMm9vd0NoUG9saVlsQmlHZnJJcFF2dDktQWc5a0R4b3dFaThfQ21rZ24wWmc5WS1JMUdTbkpFdFVkbG5mMGhtSHVIbWxleExIb2dRSU1VcU9SaFE?oc=5",
+      "source": "Z.ai (news)",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "sec-2026-11-20-2",
+      "title": "أوبن إيه آي تربط مونشوت بـ 16000 عملية استخراج",
+      "titleEn": "OpenAI Links Moonshot to 16,000 Extraction Hits",
+      "summary": "أظهرت بيانات أن مونشوت AI مرتبطة بـ 16000 عملية استخراج، مما يثير مخاوف أمنية حول استخدام النماذج الصينية.",
+      "summaryEn": "Data shows Moonshot AI is linked to 16,000 extraction hits, raising security concerns about the use of Chinese models.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0MExKM3lzUk1qVHpmY0JsdmpWYzN0UFhScUFjSlRDWVB0dXZVV0xNSUo0UExoVEJaNlhEUlF4NVcxbFpYVGtnbE5tbGNrNVJKWWVYUXhxU19rZkN4MHlKZFZqZWlERHdiT2g3Q0dRdGxrTXBOVWc?oc=5",
+      "source": "Moonshot AI (news)",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "sec-2026-11-20-3",
+      "title": "الباحثون يزعمون تدريب نماذج صينية على رقائق Nvidia المحظورة",
+      "titleEn": "Researchers Alleg Chinese Models Trained on Banned Nvidia Chips",
+      "summary": "زعم باحثون استخدام نماذج ديب سيك وكيمي وغيرها من النماذج الصينية مدربة على رقائق Nvidia Blackwell المحظورة، باستخدام بصمات رقائق AI المخفية.",
+      "summaryEn": "Researchers allege DeepSeek, Kimi, and other Chinese models were trained using banned Nvidia Blackwell GPUs, using hidden AI chip fingerprints.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxQR0JoRXdycDVWakNINktZeHpUS1pLN2xxS0p1dVhFODJ1bkpPMEExZG9yb0dGSlRTMkhzbkNVYTlkWXl4OWk4Ujc4dEtJU0stNG5fT2JpdjJHNTRfZUxjSmk3cXEwa0F0YmNsRGtFMml0NWdzSjB4NnBaNS1vMFp4MWhsdDFBUlM4OEd6dlh1MGZBOUloRFlsam11dUh3WHJVSWVUWElwajhZWk9kS1hQbU54U2dlQy1EWHhsa1oyN0pDNElRd0hBdmY5bG1KeFlzSkhKNXg1dkxYNmFBVTJld3M5UkZDbHRsLTU0Y0J5TjFNQlp3Tl9DVnU1d1VTTGV6VGVzaTA2YXlPUGNHNXZIMXlsQ0xLVGtycVBzQzB4RHNHRDkzY08wMDJUcmtKb29TU1NuaktQYkw4WEJJNndJQVdPbU1WVC1WT3RudVJXM3VDM3Mwd3N5THZEcnBvOVBvZXE5UV9IbzhSbGM1Z2djcGI0Ym9hS0xjUHZQZ09lQQ?oc=5",
+      "source": "DeepSeek (news)",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "sec-2026-11-20-4",
+      "title": "حوادث كوين تظهر الحاجة لتوجير أقوى في النماذج المستضافة ذاتيًا",
+      "titleEn": "Qwen Incidents Show Need for Stronger Steering in Self-Hosted Models",
+      "summary": "أظهرت حوادث كوين الحاجة إلى إجراءات توجير أقوى في النماذج الذكاء الاصطناعي المستضافة ذاتيًا لمنع الاستخدام الخبيث.",
+      "summaryEn": "Qwen incidents demonstrate the need for stronger steering measures in self-hosted AI models to prevent malicious use.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0EtTUxWem9OeU1YaTk5YXhsbWZXTW15LTRIdnBUeEVQalJURkotQlhabFppbnFwZkNSaDkyY2pIYmRnYURHdUJ2RnExS2IxRk9XNHVYdF9UQmJmSFR3UkZnVlhDVGN0OHU3UEdubDIyX05TXzBvbDFtNkU3QjlQa2dydGktR21CV0NlX2tsMGI5a1A4d0lDRg?oc=5",
+      "source": "Qwen (news)",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "sec-2026-11-20-5",
+      "title": "التحقق الرسمي من بروتوكال سينال باستخدام الذكاء الاصطناعي",
+      "titleEn": "Formal Verification of Signal Protocol Using AI",
+      "summary": "استخدم باحثو جوجل ديمند الذكاء الاصطناعي للتحقق الرياضي من بروتوكال سينال، مما يعزز أمان الاتصالات المشفرة.",
+      "summaryEn": "Google DeepMind researchers used agentic AI to mathematically verify the Signal protocol, enhancing encrypted communication security.",
+      "type": "policy",
+      "severity": "info",
+      "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-17"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-11-20",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Fable 5.2",
+        "org": "Anthropic",
+        "score": "60.5"
+      },
+      {
+        "name": "Claude Mythos 5.2",
+        "org": "Anthropic",
+        "score": "58.7"
+      },
+      {
+        "name": "Gemini 4 Neon",
+        "org": "Google",
+        "score": "58.5"
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "58.0"
+      },
+      {
+        "name": "GPT-6.2 Astra",
+        "org": "OpenAI",
+        "score": "57.8"
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "org": "Google",
+        "score": "56.4"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "56.3"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "55.4"
+      },
+      {
+        "name": "Kimi K3.1 Pro",
+        "org": "Moonshot AI",
+        "score": "53.9"
+      },
+      {
+        "name": "GPT-6.2 Sol",
+        "org": "OpenAI",
+        "score": "53.5"
+      }
+    ],
+    "highlights": "يُظهر الترتيب الحالي منافسة شديدة بين نماذج Claude و GPT، حيث تتصدر Claude Fable الترتيب بفارق طفير. لاحظ ظهور عدة نماذج جديدة مُحدَّثة حديثًا (مُحدَّثة بعلامة NEW)، مما يشير إلى تطور سريع في هذا المجال. كما يبرز أداء نموذج Kimi K3.1 Pro القوي كأفضل نموذج مفتوح المصدر في القائمة.",
+    "highlightsEn": "The current ranking shows intense competition between Claude and GPT models, with Claude Fable leading by a narrow margin. Several newly updated models (marked with NEW) have appeared, indicating rapid development in this field. Kimi K3.1 Pro also stands out with strong performance as the best open-source model in the list."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-11-20-بناء-أنظمة-توصية-باستخدام-نماذج-التضمين",
+    "title": "بناء أنظمة توصية باستخدام نماذج التضمين",
+    "titleEn": "Building Recommendation Systems Using Embedding Models",
+    "why": "أنظمة التوصية ضرورية في التطبيقات الحديثة لتحسين تجربة المستخدم وزيادة التفاعل، وتعتبر نماذج التضمين أداة قوية لفهم العلاقات بين المحتوى والمستخدمين.",
+    "whyEn": "Recommendation systems are essential in modern applications to improve user experience and increase engagement, and embedding models are powerful tools for understanding relationships between content and users.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "فهم نماذج التضمين",
+        "detail": "تعلم كيفية تحويل النصوص أو البيانات إلى متجهات رقمية تمثل المعنى الدلالي للمحتوى، حيث تشبه المتجهات القريبة معنويًا في الفضاء."
+      },
+      {
+        "title": "إعداد البيانات",
+        "detail": "تنظيف ومعالجة البيانات وتحويلها إلى تنسيق مناسب، مع إنشاء تمثيلات متجهية لكل عنصر باستخدام نماذج مثل Sentence-BERT أو OpenAI embeddings."
+      },
+      {
+        "title": "بناء نظام التوصية",
+        "detail": "استخدام خوارزميات مثل KNN أو cosine similarity للعثور على العناصر الأكثر تشابهًا بناءً على المتجهات الرقمية، وتصنيف النتائج حسب الأهمية."
+      },
+      {
+        "title": "دمج التفاعل مع المستخدم",
+        "detail": "تطبيق آليات لتعديل التوصيات بناءً على سلوك المستخدم، مع مراعية التفاعلات السابقة والتفضيلات الشخصية."
+      },
+      {
+        "title": "تقييم وتحسين النظام",
+        "detail": "استخدام مقاييس مثل Precision@K وRecall@K لتقييم أداء النظام، وتحسينه باستخدام تقنيات مثل التعلم المعزز أو التغذية الراجعة من المستخدمين."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Understanding Embedding Models",
+        "detail": "Learn how to convert text or data into numerical vectors that represent the semantic meaning of content, where semantically similar items have similar vector representations."
+      },
+      {
+        "title": "Data Preparation",
+        "detail": "Clean and process data into suitable format, creating vector representations for each item using models like Sentence-BERT or OpenAI embeddings."
+      },
+      {
+        "title": "Building the Recommendation System",
+        "detail": "Use algorithms like KNN or cosine similarity to find the most similar items based on their vector representations, and rank results by relevance."
+      },
+      {
+        "title": "Incorporating User Interaction",
+        "detail": "Implement mechanisms to adjust recommendations based on user behavior, considering previous interactions and personal preferences."
+      },
+      {
+        "title": "Evaluation and System Improvement",
+        "detail": "Use metrics like Precision@K and Recall@K to evaluate system performance, and improve it using techniques like reinforcement learning or user feedback."
+      }
+    ],
+    "code": "import numpy as np\nfrom sentence_transformers import SentenceTransformer\nfrom sklearn.metrics.pairwise import cosine_similarity\n\n# Initialize embedding model\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\n# Sample items\ntexts = ['Apple iPhone', 'Samsung Galaxy', 'Apple MacBook', 'Dell Laptop', 'Samsung TV']\n\n# Create embeddings\nembeddings = model.encode(texts)\n\ndef get_similar_items(query, top_k=3):\n    query_embedding = model.encode([query])\n    similarities = cosine_similarity(query_embedding, embeddings)[0]\n    top_indices = np.argsort(-similarities)[:top_k]\n    return [(texts[i], similarities[i]) for i in top_indices]\n\n# Example usage\nprint(get_similar_items('Apple product'))",
+    "resources": [
+      {
+        "name": "Sentence Transformers Documentation",
+        "url": "https://www.sbert.net"
+      },
+      {
+        "name": "Building Recommendation Systems with Embeddings",
+        "url": "https://towardsdatascience.com/building-recommendation-systems-using-embeddings-and-vector-similarity-d8f1a2f9c3b"
+      },
+      {
+        "name": "Understanding Embeddings in NLP",
+        "url": "https://medium.com/towards-data-science/understanding-embeddings-in-nlp-7a0b3fc2827b"
+      }
+    ],
+    "tags": [
+      "نظام توصية",
+      "نماذج التضمين",
+      "معالجة اللغات الطبيعية",
+      "استخراج المعنى"
+    ],
+    "quickRef": "أنظمة التوصية باستخدام نماذج التضمين لتحليل العلاقات بين المحتوى والمستخدمين وتقديم اقتراحات دقيقة.",
+    "quickRefEn": "Recommendation systems using embedding models to analyze relationships between content and users and provide accurate suggestions.",
+    "quiz": [
+      {
+        "q": "ما هي أفضل خوارزمية للعثور على العناصر الأكثر تشابهًا بناءً على متجهات التضمين؟",
+        "options": [
+          "خوارزمية KNN",
+          "خوارزمية الـ Decision Trees",
+          "خوارزمية الـ Random Forest",
+          "خوارزمية الـ SVM"
+        ],
+        "answer": 0,
+        "explain": "خوارزمية KNN (K-Nearest Neighbors) هي الأنسب للعثور على العناصر الأقرب في الفضاء المتجهي، حيث تبحث عن أقرب جيران بناءً على المسافة أو التشابه الزاوي."
+      },
+      {
+        "q": "ما هو المقاييس الأكثر شيوعًا لتقييم أداء أنظمة التوصية؟",
+        "options": [
+          "Accuracy و F1-Score",
+          "Precision@K و Recall@K",
+          "ROC-AUC و Confusion Matrix",
+          "MSE و MAE"
+        ],
+        "answer": 1,
+        "explain": "Precision@K و Recall@K هي المقاييس الأكثر شيوعًا لتقييم أنظمة التوصية، حيث تقيس مدى دقة التوصيات في أفضل K نتائج ومدى تغطيتها للعناصر المثيرة للاهتمام."
+      },
+      {
+        "q": "ما هو دور نماذج التضمين في أنظمة التوصية؟",
+        "options": [
+          "تخزين البيانات",
+          "تحويل النصوص إلى أرقام تمثل المعنى",
+          "تصفية البيانات",
+          "عرض النتائج"
+        ],
+        "answer": 1,
+        "explain": "نماذج التضمين تحول النصوص أو البيانات إلى متجهات رقمية تمثل المعنى الدلالي، مما يسهل تحليل العلاقات بين المحتوى والمستخدمين."
+      }
+    ],
+    "addedAt": "2026-11-20"
+  }
+}

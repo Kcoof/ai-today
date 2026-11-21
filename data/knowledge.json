@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-21-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً",
+      "title": "تشغيل نماذج الذكاء الاصطناعي محلياً",
+      "titleEn": "Running Local AI Models",
+      "why": "تشغيل نماذج الذكاء الاصطناعي على جهازك يمنحك خصوصية كاملة، لا يعتمد على اتصال بالإنترنت، ويوفر التكاليف على المدى الطويل.",
+      "whyEn": "Running AI models locally gives you complete privacy, doesn't require internet connectivity, and saves money in the long term.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "اخيار النموذج المناسب",
+          "detail": "ابدأ بنموذج صغير مثل Llama 3 8B أو Mistral 7B. هذه النماذج تتطلب موارد معتدلة وتعمل على معظم أجهزة الكمبيوتر الحديثة."
+        },
+        {
+          "title": "تثبيت الأدوات اللازمة",
+          "detail": "قم بتثبيت Python 3.8+ ثم استخدم pip لتثبيت مكتبات مثل transformers, torch, و llama-cpp-python. تأكد من توفر CUDA إذا كنت تستخدم بطاقة رسومات NVIDIA."
+        },
+        {
+          "title": "تنزيل النموذج",
+          "detail": "قم بتنزيل ملفات النموذج من مصدر موثوق مثل Hugging Face. تأكد من تنزيل الملفات الصحيحة (النموذج نفسه والـ tokenizer)."
+        },
+        {
+          "title": "تشغيل النموذج",
+          "detail": "استخدم الكود المقدم لتشغيل النموذج. يمكنك تعديل المعلمات مثل درجة الحرارة (temperature) وطول النص المولد (max_length) للحصول على نتائج مختلفة."
+        },
+        {
+          "title": "تحسين الأداء",
+          "detail": "لتحسين الأداء، قم بتقليل الدقة (precision) من float32 إلى float16 أو int8. يمكنك أيضاً تقليل حجم الدفعة (batch size) إذا واجهت مشاكل في الذاكرة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Choose the Right Model",
+          "detail": "Start with a small model like Llama 3 8B or Mistral 7B. These models require moderate resources and run on most modern computers."
+        },
+        {
+          "title": "Install Necessary Tools",
+          "detail": "Install Python 3.8+ then use pip to install libraries like transformers, torch, and llama-cpp-python. Make sure CUDA is available if you're using an NVIDIA GPU."
+        },
+        {
+          "title": "Download the Model",
+          "detail": "Download model files from a trusted source like Hugging Face. Make sure to download the correct files (the model itself and the tokenizer)."
+        },
+        {
+          "title": "Run the Model",
+          "detail": "Use the provided code to run the model. You can adjust parameters like temperature and max_length to get different results."
+        },
+        {
+          "title": "Optimize Performance",
+          "detail": "To improve performance, reduce precision from float32 to float16 or int8. You can also reduce batch size if you encounter memory issues."
+        }
+      ],
+      "code": "from transformers import AutoTokenizer, AutoModelForCausalLM\nimport torch\n\nmodel_name = \"meta-llama/Llama-3-8B-Instruct\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map=\"auto\")\n\nprompt = \"Explain quantum computing in simple terms\"\ninputs = tokenizer(prompt, return_tensors=\"pt\").to(\"cuda\")\n\noutputs = model.generate(**inputs, max_length=200, temperature=0.7)\nprint(tokenizer.decode(outputs[0], skip_special_tokens=True))",
+      "resources": [
+        {
+          "name": "Hugging Face Transformers Documentation",
+          "url": "https://huggingface.co/docs/transformers/index"
+        },
+        {
+          "name": "Ollama - Easy Local AI Model Runner",
+          "url": "https://ollama.ai/"
+        },
+        {
+          "name": "LocalAI - OpenAI-compatible local API",
+          "url": "https://github.com/go-skynet/LocalAI"
+        }
+      ],
+      "tags": [
+        "نماذج محلية",
+        "LLM",
+        "الخصوصية",
+        "الأداء"
+      ],
+      "quickRef": "لتشغيل نماذج AI محلياً، اختر نموذجاً صغيراً، ثبّت الأدوات اللازمة، ونزّل الملفات المناسبة ثم قم بتشغيل النموذج باستخدام مكتبة transformers.",
+      "quickRefEn": "To run AI models locally, choose a small model, install necessary tools, download appropriate files, and run the model using the transformers library.",
+      "quiz": [
+        {
+          "q": "ما هو النوع الأفضل من النماذج للبدء بتشغيلها محلياً؟",
+          "options": [
+            "نماذج ضخمة مثل GPT-4",
+            "نماذج متوسطة الحجم مثل Llama 3 70B",
+            "نماذج صغيرة مثل Mistral 7B",
+            "نماذج متخصصة فقط"
+          ],
+          "answer": 2,
+          "explain": "النماذج الصغيرة مثل Mistral 7B هي الأفضل للبدء لأنها تتطلب موارد أقل وتعمل على معظم أجهزة الكمبيوتر الحديثة."
+        },
+        {
+          "q": "ما هو التغيير الذي يمكن إجراؤه لتحسين أداء النموذج المحلي؟",
+          "options": [
+            "زيادة دقة النموذج إلى float64",
+            "تقليل الدقة من float32 إلى float16",
+            "زيادة حجم الدفعة (batch size)",
+            "زيادة درجة الحرارة (temperature)"
+          ],
+          "answer": 1,
+          "explain": "تقليل الدقة من float32 إلى float16 يحسن الأداء دون تقليل جودة النتائج بشكل كبير، مما يسمح بتشغيل النموذج بشكل أسرع واستهلاك ذاكرة أقل."
+        },
+        {
+          "q": "ما هي الميزة الرئيسية لتشغيل النماذج الذكاء الاصطناعي محلياً؟",
+          "options": [
+            "دعم أفضل للغات المتعددة",
+            "سرعة معالجة أعلى",
+            "خصوصية كاملة بلا اتصال بالإنترنت",
+            "تكلفة تشغيل أقل دائماً"
+          ],
+          "answer": 2,
+          "explain": "الميزة الرئيسية لتشغيل النماذج محلياً هي الحصول على خصوصية كاملة حيث لا يتم إرسال البيانات إلى خوادم خارجية، بالإضافة إلى عدم الحاجة لاتصال بالإنترنت."
+        }
+      ],
+      "addedAt": "2026-11-21"
+    },
+    {
       "id": "k-2026-11-20-بناء-أنظمة-توصية-باستخدام-نماذج-التضمين",
       "title": "بناء أنظمة توصية باستخدام نماذج التضمين",
       "titleEn": "Building Recommendation Systems Using Embedding Models",
