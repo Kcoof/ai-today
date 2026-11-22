@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-22-تنفيذ-قواعد-البيانات-المتجهة-لتطبيقات-الذكاء-الاصط",
+      "title": "تنفيذ قواعد البيانات المتجهة لتطبيقات الذكاء الاصطناعي",
+      "titleEn": "Implementing Vector Databases for AI Applications",
+      "why": "تساعد قواعد البيانات المتجهة في تخزين وفهرسة واسترجاع البيانات غير المهيكلة بكفاءة عالية، وهي أساسية لتطبيقات البحث المعتمد على الذكاء الاصطناعي والأنظمة الموصية.",
+      "whyEn": "Vector databases help efficiently store, index, and retrieve unstructured data, which is essential for AI-powered search applications and recommendation systems.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "فهم المفاهيم الأساسية",
+          "detail": "تعلم عن المتجهات (Vectors) والفضمت (Embeddings) وكيفية تمثيل البيانات كنقاط في فضمت متعدد الأبعاد. فهم مبدأ التشابه القائم على المسافة (Cosine Similarity)."
+        },
+        {
+          "title": "اختيار قاعدة البيانات المناسبة",
+          "detail": "قارن بين خيارات مثل Pinecone, Weaviate, Milvus, أو FAI. اختر بناءً على متطلبات التوسع، الأداء، والتكلفة. ابدأ بخدمة سحابية إذا كنت مبتدئًا."
+        },
+        {
+          "title": "إعداد قاعدة البيانات",
+          "detail": "أنشئ حسابًا على منصة الاختيار، وقم بتثبيت المكتبات اللازمة، وتهيئة الاتصال بقاعدة البيانات. قم بإنشاء مساحة (Namespace) أو مجموعة (Collection) لتخزين المتجهات."
+        },
+        {
+          "title": "تحويل البيانات إلى متجهات",
+          "detail": "استخدم نماذج مثل Sentence-BERT, OpenAI embeddings, أو نماذج مفتوحة المصدر لتحويل نصوصك إلى متجهات. قم بتخزين هذه المتجهات مع البيانات الأصلية."
+        },
+        {
+          "title": "تنفيذ عمليات البحث",
+          "detail": "قم بتنفيذ عمليات البحث القائم على التشابه (Similarity Search) باستخدام استعلامات مثل KNN أو Approximate Nearest Neighbor. قم بتحسين النتائج باستخدام المعايير المناسبة."
+        },
+        {
+          "title": "دمج التطبيق",
+          "detail": "قم بربط قاعدة البيانات المتجهة بتطبيقك الرئيسي باستخدام واجهات برمجة التطبيقات (APIs). قم بإضافة طبقات التخزين المؤقت (Caching) والتحسين لتحسين الأداء."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Basic Concepts",
+          "detail": "Learn about vectors and embeddings and how to represent data as points in multi-dimensional space. Understand the principle of similarity based on distance (Cosine Similarity)."
+        },
+        {
+          "title": "Choose the Right Database",
+          "detail": "Compare options like Pinecone, Weaviate, Milvus, or FAI. Choose based on scalability, performance, and cost requirements. Start with a cloud service if you're a beginner."
+        },
+        {
+          "title": "Set Up the Database",
+          "detail": "Create an account on your chosen platform, install necessary libraries, and configure the database connection. Create a namespace or collection to store vectors."
+        },
+        {
+          "title": "Convert Data to Vectors",
+          "detail": "Use models like Sentence-BERT, OpenAI embeddings, or open-source models to convert your text into vectors. Store these vectors along with the original data."
+        },
+        {
+          "title": "Implement Search Operations",
+          "detail": "Implement similarity search operations using queries like KNN or Approximate Nearest Neighbor. Optimize results using appropriate parameters."
+        },
+        {
+          "title": "Integrate with Application",
+          "detail": "Connect the vector database to your main application using APIs. Add caching and optimization layers to improve performance."
+        }
+      ],
+      "code": "import pinecone\nfrom sentence_transformers import SentenceTransformer\n\n# Initialize Pinecone\npinecone.init(api_key='YOUR_API_KEY', environment='YOUR_ENVIRONMENT')\nindex = pinecone.Index('your-index-name')\n\n# Load embedding model\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\n# Convert text to embeddings\ntexts = ['This is the first sentence.', 'This is the second sentence.']\nembs = model.encode(texts)\n\n# Insert vectors into Pinecone\nindex.upsert(vectors=[\n    ('id1', embs[0], {'text': texts[0]}),\n    ('id2', embs[1], {'text': texts[1]})\n])\n\n# Query similar vectors\nquery = 'This is a query sentence'\nquery_emb = model.encode(query)\nresults = index.query(query_emb, top_k=2, include_values=True)\nprint(results)",
+      "resources": [
+        {
+          "name": "Pinecone Documentation",
+          "url": "https://docs.pinecone.io/"
+        },
+        {
+          "name": "Weaviate Documentation",
+          "url": "https://weaviate.io/developers/weaviate"
+        },
+        {
+          "name": "Vector Database Benchmark",
+          "url": "https://github.com/zilliztech/VectorDBBench"
+        }
+      ],
+      "tags": [
+        "قواعد بيانات",
+        "متجهات",
+        "بحث تشابهي",
+        "تطبيقات الذكاء الاصطناعي"
+      ],
+      "quickRef": "1. تعلم عن المتجهات والمفاهيم الأساسية\n2. اختر قاعدة البيانات المناسبة\n3. قم بإعداد وتكوين قاعدة البيانات\n4. حول البيانات إلى متجهات\n5. نفذ عمليات البحث القائمة على التشابه\n6. ادمج مع تطبيقك الرئيسي",
+      "quickRefEn": "1. Learn about vectors and basic concepts\n2. Choose the appropriate database\n3. Set up and configure the database\n4. Convert data to vectors\n5. Implement similarity search operations\n6. Integrate with your main application",
+      "quiz": [
+        {
+          "q": "ما هي الطريقة الأكثر شيوعًا لحساب التشابه بين متجهين؟",
+          "options": [
+            "المسافة الإقليدية",
+            "مؤشر التشابه الزاوي (Cosine Similarity)",
+            "مقارنة القيم المطلقة",
+            "مقارنة الأبعاد"
+          ],
+          "answer": 1,
+          "explain": "مؤشر التشابه الزاوي (Cosine Similarity) هو الطريقة الأكثر شيوعًا لحساب التشابه بين متجهين في قواعد البيانات المتجهة، حيث يقيس زاوية المتجهات بدلاً من مسافتهما."
+        },
+        {
+          "q": "أي من الخيارات التالية ليس من قواعد البيانات المتجهة الشائعة؟",
+          "options": [
+            "Pinecone",
+            "Weaviate",
+            "MongoDB",
+            "Milvus"
+          ],
+          "answer": 2,
+          "explain": "MongoDB هي قاعدة بيانات NoSQL عامة وليست متخصصة في المتجهات مثل Pinecone وWeaviate وMilvus التي صممت خصيصًا للتعامل مع المتجهات."
+        },
+        {
+          "q": "ما هو الهدف الرئيسي من استخدام قواعد البيانات المتجهة في تطبيقات الذكاء الاصطناعي؟",
+          "options": [
+            "تخزين البيانات المهيكلة",
+            "تحسين أداء البحث في البيانات غير المهيكلة",
+            "تقليل حجم التخزين",
+            "زيادة سرعة المعالجة"
+          ],
+          "answer": 1,
+          "explain": "الهدف الرئيسي من استخدام قواعد البيانات المتجهة هو تحسين أداء البحث في البيانات غير المهيكلة من خلال تمثيلها كمتجهات والبحث عن التشابه بينها بكفاءة عالية."
+        }
+      ],
+      "addedAt": "2026-11-22"
+    },
+    {
       "id": "k-2026-11-21-تشغيل-نماذج-الذكاء-الاصطناعي-محلياً",
       "title": "تشغيل نماذج الذكاء الاصطناعي محلياً",
       "titleEn": "Running Local AI Models",
