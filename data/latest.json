@@ -1,111 +1,13 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T16:25:12.074Z",
+  "generatedAt": "2026-11-23T22:45:11.058Z",
   "news": [
     {
-      "id": "n-2026-11-23-2",
-      "title": "تمكن المهاجمون من استبدال نموذج DeepSeek لمدة 53 ساعة وإزالة حمايته",
-      "titleEn": "Hackers replaced a DeepSeek model for 53 hours and stripped away its safety protections",
-      "summary": "تمكن المهاجمون من استبدال نموذج DeepSeek لمدة 53 ساعة وإزالة جميع آليات الحماية، مما سمح باستخدامه لأغراض ضارة.",
-      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and removed all safety mechanisms, allowing it to be used for malicious purposes.",
-      "category": "other",
-      "importance": 5,
-      "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5"
-      },
-      "publishedAt": "2026-11-21"
-    },
-    {
-      "id": "n-2026-11-23-9",
-      "title": "ولاية فيرجينيا وأوريغون ترفعان دعاوى ضد SpaceX بسبب Grok",
-      "titleEn": "Virginia, Oregon sue Musk's SpaceX over Grok AI",
-      "summary": "رفعت ولايتا فيرجينيا وأوريغون دعاوى قضائية ضد SpaceX بسبب نموذج Grok الذي أنشأ صوراً إباحية للأطفال.",
-      "summaryEn": "Virginia and Oregon have filed lawsuits against SpaceX over its Grok model which generated child sexual abuse images.",
-      "category": "regulation",
-      "importance": 5,
-      "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObnVxU21QWWFOSHYzcW1sajgxS25DUndFTGd6dTh6UzdyaFR5U0QtMWlROWIxZ01IcU0wNG5FLXRaMWZoS1o0dHhEUUFiaDItWFVIbE01S1pTbDZxYVZGN1hMaHlNYXBZck84N3JPaW1xcW5VMHdNeFBHSWZmRVN6MzlHZjdEcl8wTkVERGhBU3M0dVBXSHBFUHNpM1pCc1Q0MV9HTWlveVJSV1hiSEFaWjJDMEI0b2p2bzBIZEdrampIVFlVWEE?oc=5"
-      },
-      "publishedAt": "2026-11-23"
-    },
-    {
       "id": "n-2026-11-23-1",
-      "title": "ثغرة Upload2Shell (CVE-2026-125396)",
-      "titleEn": "Upload2Shell Vulnerability (CVE-2026-125396)",
-      "summary": "تم اكتشاف ثغرة أمنية خطيرة في أنظمة التحميل تسمى Upload2Shell، حيث تمكن المهاجمون من تنفيذ أوامر على الخوادم المستهدفة.",
-      "summaryEn": "A critical security vulnerability called Upload2Shell has been discovered in upload systems, allowing attackers to execute commands on targeted servers.",
-      "category": "other",
-      "importance": 4,
-      "source": {
-        "name": "Hacker News",
-        "url": "https://pwn.ai/upload2shell"
-      },
-      "publishedAt": "2026-11-21"
-    },
-    {
-      "id": "n-2026-11-23-3",
-      "title": "إطلاق نموذج Gemini 4 Neon من جوجل ديمند",
-      "titleEn": "Google DeepMind launches Gemini 4 Neon model",
-      "summary": "أطلقت جوجل ديمند نموذج Gemini 4 Neon، وهو أحدث إصدار في سلسلة Gemini المصممة لتحسين الفهم والاستدلال.",
-      "summaryEn": "Google DeepMind has launched Gemini 4 Neon, the latest version in the Gemini series designed to enhance understanding and reasoning capabilities.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
-      },
-      "publishedAt": "2026-11-18"
-    },
-    {
-      "id": "n-2026-11-23-4",
-      "title": "إطلاق Genie 4 الآن widely available",
-      "titleEn": "Genie 4 is now widely available",
-      "summary": "أصبح نموذج Genie 4 متاحاً للجميع بعد إطلاقه رسمياً من قبل جوجل ديمند، مع تحسينات كبيرة في قدرات التوليد.",
-      "summaryEn": "Genie 4 is now widely available after its official launch by Google DeepMind, with significant improvements in generation capabilities.",
-      "category": "models",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/genie-4-is-now-available/"
-      },
-      "publishedAt": "2026-11-18"
-    },
-    {
-      "id": "n-2026-11-23-5",
-      "title": "أنثروبيك تعلن إغلاق عملية الاكتتاب العام الأولي",
-      "titleEn": "Anthropic announces closing of initial public offering",
-      "summary": "أكملت شركة أنثروبيك عملية الاكتتاب العام الأولي بنجاح، مما يمثل إنجازاً مهماً في تطوير الذكاء الاصطناعي.",
-      "summaryEn": "Anthropic has successfully completed its initial public offering, marking a significant milestone in AI development.",
-      "category": "companies",
-      "importance": 4,
-      "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/news/ipo-close"
-      },
-      "publishedAt": "2026-11-23"
-    },
-    {
-      "id": "n-2026-11-23-6",
-      "title": "شركة مونشوت تهدف للاكتتاب العام مع نموذج Kimi K3",
-      "titleEn": "Moonshot AI Eyes IPO as Kimi K3 Drives ARR to $300M",
-      "summary": "تستعد شركة مونشوت للاكتتاب العام بعد أن حقق نموذجها Kimi K3 إيرادات سنوية متكررة بلغت 300 مليون دولار.",
-      "summaryEn": "Moonshot AI is preparing for an IPO after its Kimi K3 model achieved $300 million in annual recurring revenue.",
-      "category": "companies",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RT2tDYU1XQk9RUHpwZUhxbUttN3Y4UnVaeC1IUkJkbkJSVVdFZXNiMnl4TVhtY3dDaE5wQ0psTWF0S2tqUU9iQnFpcVlzWGRaSmRwYWlIc3pVYk9uaUhoc3VZWGFrczdVV0hKUkh2a2JqSVpIRE45Qnlzak4?oc=5"
-      },
-      "publishedAt": "2026-11-21"
-    },
-    {
-      "id": "n-2026-11-23-7",
       "title": "Z.ai تطلق GLM-5.4، أول نموذج Loop Transformer",
       "titleEn": "Z.ai launches GLM-5.4, its first Loop Transformer model",
-      "summary": "أطلقت شركة Z.ai نموذج GLM-5.4، وهو أول نموذج يستخدم بنية Loop Transformer، مما يمثل تقدماً في معالجة النصوص.",
-      "summaryEn": "Z.ai has launched GLM-5.4, its first model using Loop Transformer architecture, representing an advancement in text processing.",
+      "summary": "أطلقت شركة Z.ai نموذجها الجديد GLM-5.4 الذي يمثل أول نموذج Loop Transformer للشركة، مع 750 مليار معلمة وقدات محسنة في مجال الترميز والرؤية.",
+      "summaryEn": "Z.ai has launched its new GLM-5.4 model, representing the company's first Loop Transformer, with 750B parameters and enhanced capabilities in coding and vision.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -115,164 +17,267 @@
       "publishedAt": "2026-11-23"
     },
     {
-      "id": "n-2026-11-23-8",
-      "title": "علي بابا تطلق نموذج Qwen AI منافساً لأنثروبيك",
-      "titleEn": "Alibaba Takes on Anthropic With New Qwen AI Model",
-      "summary": "أطلقت شركة علي بابا نموذج Qwen AI الجديد، والذي يهدف منافسة أنثروبيك في سوق نماذج الذكاء الاصطناعي.",
-      "summaryEn": "Alibaba has launched its new Qwen AI model, aiming to compete with Anthropic in the AI model market.",
+      "id": "n-2026-11-23-2",
+      "title": "جوجل تطلق Gemini 4 Neon",
+      "titleEn": "Google introduces Gemini 4 Neon",
+      "summary": "أعلنت جوجل ديمند عن إطلاق نموذج Gemini 4 Neon، وهو نسخة محسنة من Gemini 4 مع أداء أفضل في المهام المعقدة.",
+      "summaryEn": "Google DeepMind announced the launch of Gemini 4 Neon, an enhanced version of Gemini 4 with better performance on complex tasks.",
       "category": "models",
       "importance": 4,
       "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcGttNXBHbVBUMmE2bVpXOE5FMkpVcENuSEhuYl9pY21pdFhEU1RBUHhyWjF5dnN5eEd3MmE2VnA5bVhrZjZmZExQOW5zd2t3aW82ajZoY3ZtN2R5akxyc2Naa2ktRnJPMkRtS1plQXE1XzVyOXpPalFVbG9zQzNJQVlqSDV1b0Q1VmVqYjlLWjJxZGlDVUVtNy1ybzRDdlJRMjhqMHBEUDk1azg?oc=5"
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+      },
+      "publishedAt": "2026-11-18"
+    },
+    {
+      "id": "n-2026-11-23-3",
+      "title": "Genie 4 متاح الآن على نطاق واسع",
+      "titleEn": "Genie 4 is now widely available",
+      "summary": "أصبح نموذج Genie 4 من جوجل ديمند متاحاً الآن للاستخدام العام بعد فترة من التطوير والاختبار.",
+      "summaryEn": "Google DeepMind's Genie 4 model is now widely available for general use after a period of development and testing.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/genie-4-is-now-available/"
+      },
+      "publishedAt": "2026-11-18"
+    },
+    {
+      "id": "n-2026-11-23-4",
+      "title": "Gemini 4 Carbon متاح الآن للاستخدام",
+      "titleEn": "Gemini 4 Carbon is now available for use",
+      "summary": "أصدرت جوجل ديمند إصدار Gemini 4 Carbon الجديد، والذي أصبح متاحاً الآن للاستخدام من قبل المستخدمين.",
+      "summaryEn": "Google DeepMind has released the new Gemini 4 Carbon version, which is now available for user access.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+      },
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "n-2026-11-23-5",
+      "title": "تقدم في التحقق البرمجي مع AlphaProof Code",
+      "titleEn": "Advancement in software verification with AlphaProof Code",
+      "summary": "قدمت جوجل ديمند نظام AlphaProof Code، وهو تقدم كبير في التحقق من البرمجيات المعقدة باستخدام الذكاء الاصطناعي.",
+      "summaryEn": "Google DeepMind introduced AlphaProof Code, a significant advancement in verifying complex software using AI.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "n-2026-11-23-7",
+      "title": "استبدال نموذج DeepSeek وإزالة حمايته",
+      "titleEn": "DeepSeek Model Replacement and Safety Protection Removal",
+      "summary": "تمكن المهاجمون من استبدال نموذج DeepSeek لمدة 53 ساعة وإزالة حمايته بالكامل، مما سمح باستخدامه لأغراض خبيثة.",
+      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and completely removed its safety protections, allowing it to be used for malicious purposes.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5"
+      },
+      "publishedAt": "2026-11-21"
+    },
+    {
+      "id": "n-2026-11-23-9",
+      "title": "Kimi K3: نموذج بأوزان مفتوحة",
+      "titleEn": "Kimi K3: Model with open weights",
+      "summary": "أطلقت شركة Moonshot نموذج Kimi K3 بأوزان مفتوحة ودعم سياق يصل إلى 2.8Tトークن، مع مواصفات وأسعار معلنة.",
+      "summaryEn": "Moonshot launched the Kimi K3 model with open weights and context support up to 2.8T tokens, with announced specifications and pricing.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9pcFBweVp5VXgzQmYyYWtXYVR3Q2Q0eDNHcVZPa1V5Q0V4cERMVnZwVUZoRld0VXR3MnlIWWt4d0hldw?oc=5"
+      },
+      "publishedAt": "2026-11-17"
+    },
+    {
+      "id": "n-2026-11-23-6",
+      "title": "شركات صينية تزيل مهارات الاختراق من نماذج الذكاء الاصطناعي",
+      "titleEn": "Chinese companies remove hacking skills from AI models",
+      "summary": "تقوم شركات مثل Moonshot و Tencent و Zhipu بإزالة المهارات المتعلقة بالاختراق من نماذج الذكاء الاصطناعي الجديدة كإجراء وقائي.",
+      "summaryEn": "Companies like Moonshot, Tencent, and Zhipu are removing hacking-related skills from new AI models as a preventive measure.",
+      "category": "regulation",
+      "importance": 3,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdm5EVEp6OVZvTElDSUMyX1lEa251YVBhWXNjQS12cXlOTUR2ZnZQeFRfRWVSTW5wRHZjYVFGS0JEU240NEwtRHFrMHhkUF9IRmYxTmVBTVpQUmV5amJDX19SQU1iVUVsTENoTnVBekYzXzNMR0JSSm1saUluTEkzNzlqd2t2WVNCX0hnWGp5emRRREFXb1IxVF9pTU8zSlRkSXRB?oc=5"
       },
       "publishedAt": "2026-11-16"
     },
     {
-      "id": "n-2026-11-23-10",
-      "title": "GLM-5.4: نحو برمجة عامة مع أول Loop Transformer",
-      "titleEn": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-      "summary": "نموذج GLM-5.4 يمثل تقدماً في برمجة الكمبيوتر باستخدام بنية Loop Transformer، مما يحسن من قدرات التوليد.",
-      "summaryEn": "GLM-5.4 represents an advancement in computer programming using Loop Transformer architecture, improving generation capabilities.",
-      "category": "models",
+      "id": "n-2026-11-23-8",
+      "title": "OpenAI و Cisco تطلقان Shirudo",
+      "titleEn": "OpenAI and Cisco launch Shirudo",
+      "summary": "أطلقت OpenAI و Cisco Shirudo، وهو نظام مفتوح المصدر يعمل على Linux لمساعدة الفرق على حماية أنظمتها بشكل أفضل.",
+      "summaryEn": "OpenAI and Cisco launched Shirudo, an open-source runtime for Linux that helps teams protect their systems better.",
+      "category": "tools",
       "importance": 3,
       "source": {
-        "name": "Hacker News",
-        "url": "https://z.ai/blog/glm-5.4"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-shirudo"
       },
       "publishedAt": "2026-11-23"
     },
     {
+      "id": "n-2026-11-23-10",
+      "title": "Qwen 4 يقود سباق وكلاء الذكاء الاصطناعي في الصين",
+      "titleEn": "Qwen 4 leads China's AI agent race",
+      "summary": "يقود نموذج Qwen 4 Max من علي بابا سباق وكلاء الذكاء الاصطناعي في الصين، لكنه غير متاح للتنزيل.",
+      "summaryEn": "Alibaba's Qwen 4 Max model leads China's AI agent race, but it is not available for download.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT2JDOFJGb0pPMUY5X2wyMlp0UlNUSHRsaHppd2NSRE5yZ3RObXJWMzNYcE5wS25lS0NLeGJCUzVaVTM0bnVnV0NLYXZHbUhobGtsTjNkcFFkUHhlbHRoblpfZy1MM2dYNy1VOXVCRkpoNlRiUWZUc2F0Nkd0YnRscVJrcEtxcXNHVVNhZXNsWHU?oc=5"
+      },
+      "publishedAt": "2026-11-16"
+    },
+    {
       "id": "n-2026-11-23-11",
-      "title": "للإنسان حقوق، وللآلات لا",
-      "titleEn": "Humans Have Rights. Machines Do Not.",
-      "summary": "مقال يبحث في الفرق بين حقوق الإنسان والآلات في عصر الذكاء الاصطناعي، مع التركيز على السياسات والتنظيمات.",
-      "summaryEn": "An article exploring the difference between human and machine rights in the AI era, focusing on policies and regulations.",
+      "title": "Sarvam تضع سعراً أقل لنموذجها مقارنة بـ DeepSeek",
+      "titleEn": "Sarvam sets lower price for its model compared to DeepSeek",
+      "summary": "حددت شركة Sarvam سعراً أقل لنموذجها في نظامها الجديد للرموز، مما يضع ضغطاً على أسعار DeepSeek.",
+      "summaryEn": "Sarvam set a lower price for its model in its new token factory, putting pressure on DeepSeek's pricing.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQekxSVzdzd1ZVSF9pT3MwSTV1TkJnSnVEU19WVTlkblNCbXRZN3hvREVkdHdFeEtpODVfTW9oeFNsbTFBSE9xZ3lRLTlhbWJGUHpuMi1acHRKZ0xLdXg0bGVoa2NfSTlLU2djVmMxNDhzSG56UEt5anpxclUyS0RXZzFSR3AyVU8yM1N0LUE1UnhWUlV1LVUtb2lMejllaDFDWEQtcmplcFVyMlVoN3UtVjhaUVZDdl8z?oc=5"
+      },
+      "publishedAt": "2026-11-19"
+    },
+    {
+      "id": "n-2026-11-23-12",
+      "title": "مؤلفة مسلمة ترفع دعوى ضد xAI بسبب Grok",
+      "titleEn": "Muslim author sues xAI over Grok",
+      "summary": "رفعت مؤلفة مسلمة دعوى ضد شركة xAI بعد أن استخدم مستخدمو Grok لإزالة حجابها من الصور.",
+      "summaryEn": "A Muslim author has sued xAI after users used Grok to remove her hijab from images.",
       "category": "regulation",
       "importance": 3,
       "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html"
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRVdWTzgtOGR1TVBFMkJVeEMzRFNKem5NUERwb2htaWVyZXZLeWY0WGJBV0l6dWRGaHREMFA3VkZ2RW9XUHpXamhmVDFlX21OM2Y1WkhZOVRlRWxUdFJORnJvU1QzdDNDaVRSUXhGb2JpMkZScTR5RkRBSElSMGFIdHd5UHNIM0l2WGF4Sjk5U0ZGLVcweGFnZktfR1VtWFRn?oc=5"
       },
-      "publishedAt": "2026-11-23"
+      "publishedAt": "2026-11-18"
     }
   ],
   "models": [
     {
       "id": "m-2026-11-23-1",
+      "name": "GLM-5.4",
+      "org": "Z.ai",
+      "releaseDate": "2026-11-23",
+      "highlights": "أول نموذج لoop transformer من Z.ai مع 750 مليار معلمة، مع رؤية وقدات ترميز محسنة",
+      "highlightsEn": "Z.ai's first Loop Transformer model with 750B parameters, featuring vision and enhanced coding capabilities",
+      "specs": {
+        "context": "1M",
+        "parameters": "750B",
+        "architecture": "Loop Transformer"
+      },
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5"
+    },
+    {
+      "id": "m-2026-11-23-2",
       "name": "Gemini 4 Neon",
       "org": "Google DeepMind",
       "releaseDate": "2026-11-18",
-      "highlights": "أحدث إصدار في سلسلة Gemini مع تحسينات في الفهم والاستدلال",
-      "highlightsEn": "Latest version in the Gemini series with improvements in understanding and reasoning",
+      "highlights": "نسخة محسنة من Gemini 4 مع أداء محسّن في المهام المعقدة",
+      "highlightsEn": "Enhanced version of Gemini 4 with improved performance on complex tasks",
       "specs": {
         "context": "1M"
       },
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
     },
     {
-      "id": "m-2026-11-23-2",
+      "id": "m-2026-11-23-3",
       "name": "Genie 4",
       "org": "Google DeepMind",
       "releaseDate": "2026-11-18",
-      "highlights": "نموذج متاح الآن للجميع مع تحسينات كبيرة في قدرات التوليد",
-      "highlightsEn": "Now widely available model with significant improvements in generation capabilities",
+      "highlights": "الإصدار الواسع من Genie 4 الآن متاح للاستخدام العام",
+      "highlightsEn": "The widely available version of Genie 4 is now accessible for general use",
       "specs": {
         "context": "1M"
       },
       "url": "https://deepmind.google/blog/genie-4-is-now-available/"
     },
     {
-      "id": "m-2026-11-23-3",
-      "name": "GLM-5.4",
-      "org": "Z.ai",
-      "releaseDate": "2026-11-23",
-      "highlights": "أول نموذج يستخدم بنية Loop Transformer لمعالجة النصوص",
-      "highlightsEn": "First model using Loop Transformer architecture for text processing",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5"
-    },
-    {
       "id": "m-2026-11-23-4",
-      "name": "Qwen 4",
-      "org": "Alibaba",
-      "releaseDate": "2026-11-16",
-      "highlights": "نموذج جديد من علي بابا يهدف منافسة أنثروبيك",
-      "highlightsEn": "New model from Alibaba aiming to compete with Anthropic",
+      "name": "Gemini 4 Carbon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-10",
+      "highlights": "إصدار جديد من Gemini 4 متوفر الآن للاستخدام",
+      "highlightsEn": "New Gemini 4 release now available for use",
       "specs": {
         "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcGttNXBHbVBUMmE2bVpXOE5FMkpVcENuSEhuYl9pY21pdFhEU1RBUHhyWjF5dnN5eEd3MmE2VnA5bVhrZjZmZExQOW5zd2t3aW82ajZoY3ZtN2R5akxyc2Naa2ktRnJPMkRtS1plQXE1XzVyOXpPalFVbG9zQzNJQVlqSDV1b0Q1VmVqYjlLWjJxZGlDVUVtNy1ybzRDdlJRMjhqMHBEUDk1azg?oc=5"
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
     },
     {
       "id": "m-2026-11-23-5",
       "name": "Kimi K3",
       "org": "Moonshot AI",
-      "releaseDate": "2026-11-21",
-      "highlights": "نموذج حقق إيرادات سنوية متكررة بلغت 300 مليون دولار",
-      "highlightsEn": "Model that achieved $300 million in annual recurring revenue",
+      "releaseDate": "2026-11-17",
+      "highlights": "نموذج Kimi K3 بأوزان مفتوحة ودعم سياق يصل إلى 2.8Tトークン",
+      "highlightsEn": "Kimi K3 model with open weights and context support up to 2.8T tokens",
       "specs": {
-        "context": "1M"
+        "context": "2.8T",
+        "weights": "Open"
       },
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RT2tDYU1XQk9RUHpwZUhxbUttN3Y4UnVaeC1IUkJkbkJSVVdFZXNiMnl4TVhtY3dDaE5wQ0psTWF0S2tqUU9iQnFpcVlzWGRaSmRwYWlIc3pVYk9uaUhoc3VZWGFrczdVV0hKUkh2a2JqSVpIRE45Qnlzak4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9pcFBweVp5VXgzQmYyYWtXYVR3Q2Q0eDNHcVZPa1V5Q0V4cERMVnZwVUZoRld0VXR3MnlIWWt4d0hldw?oc=5"
     },
     {
       "id": "m-2026-11-23-6",
-      "name": "DeepSeek",
-      "org": "DeepSeek",
-      "releaseDate": "2026-11-21",
-      "highlights": "نموذج تعرض للاستبدال من قبل المهاجمين لمدة 53 ساعة",
-      "highlightsEn": "Model that was replaced by attackers for 53 hours",
+      "name": "AlphaProof Code",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-10",
+      "highlights": "نظام متقدم للتحقق البرمجي باستخدام الذكاء الاصطناعي",
+      "highlightsEn": "Advanced system for software verification using AI",
       "specs": {
         "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5"
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
     }
   ],
   "highlights": [
     {
       "id": "h-2026-11-23-1",
-      "text": "أكملت شركة أنثروبيك عملية الاكتتاب العام الأولي بنجاح، مما يمثل إنجازاً مهماً في تطوير الذكاء الاصطناعي.",
-      "textEn": "Anthropic has successfully completed its initial public offering, marking a significant milestone in AI development.",
-      "level": "info",
-      "url": "https://www.anthropic.com/news/ipo-close"
+      "text": "شركات صينية كبرى تقوم بإزالة المهارات المتعلقة بالاختراق من نماذج الذكاء الاصطناعي الجديدة",
+      "textEn": "Major Chinese companies are removing hacking-related skills from new AI models",
+      "level": "warning",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdm5EVEp6OVZvTElDSUMyX1lEa251YVBhWXNjQS12cXlOTUR2ZnZQeFRfRWVSTW5wRHZjYVFGS0JEU240NEwtRHFrMHhkUF9IRmYxTmVBTVpQUmV5amJDX19SQU1iVUVsTENoTnVBekYzXzNMR0JSSm1saUluTEkzNzlqd2t2WVNCX0hnWGp5emRRREFXb1IxVF9pTU8zSlRkSXRB?oc=5"
     },
     {
       "id": "h-2026-11-23-2",
-      "text": "تستعد شركة مونشوت للاكتتاب العام بعد أن حقق نموذجها Kimi K3 إيرادات سنوية متكررة بلغت 300 مليون دولار.",
-      "textEn": "Moonshot AI is preparing for an IPO after its Kimi K3 model achieved $300 million in annual recurring revenue.",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RT2tDYU1XQk9RUHpwZUhxbUttN3Y4UnVaeC1IUkJkbkJSVVdFZXNiMnl4TVhtY3dDaE5wQ0psTWF0S2tqUU9iQnFpcVlzWGRaSmRwYWlIc3pVYk9uaUhoc3VZWGFrczdVV0hKUkh2a2JqSVpIRE45Qnlzak4?oc=5"
+      "text": "تمكن المهاجمون من استبدال نموذج DeepSeek لمدة 53 ساعة وإزالة حمايته",
+      "textEn": "Hackers successfully replaced a DeepSeek model for 53 hours and removed its safety protections",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5"
     },
     {
       "id": "h-2026-11-23-3",
-      "text": "رفعت ولايتا فيرجينيا وأوريغون دعاوى قضائية ضد SpaceX بسبب نموذج Grok الذي أنشأ صوراً إباحية للأطفال.",
-      "textEn": "Virginia and Oregon have filed lawsuits against SpaceX over its Grok model which generated child sexual abuse images.",
-      "level": "critical",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObnVxU21QWWFOSHYzcW1sajgxS25DUndFTGd6dTh6UzdyaFR5U0QtMWlROWIxZ01IcU0wNG5FLXRaMWZoS1o0dHhEUUFiaDItWFVIbE01S1pTbDZxYVZGN1hMaHlNYXBZck84N3JPaW1xcW5VMHdNeFBHSWZmRVN6MzlHZjdEcl8wTkVERGhBU3M0dVBXSHBFUHNpM1pCc1Q0MV9HTWlveVJSV1hiSEFaWjJDMEI0b2p2bzBIZEdrampIVFlVWEE?oc=5"
+      "text": "أطلقت OpenAI و Cisco Shirudo، نظاماً مفتوح المصدر لحماية الفرق في بيئات Linux",
+      "textEn": "OpenAI and Cisco launched Shirudo, an open-source system for team protection in Linux environments",
+      "level": "info",
+      "url": "https://openai.com/index/introducing-shirudo"
     }
   ],
   "security": [
     {
       "id": "sec-2026-11-23-1",
-      "title": "ثغرة Upload2Shell (CVE-2026-125396)",
-      "titleEn": "Upload2Shell Vulnerability (CVE-2026-125396)",
-      "summary": "تم اكتشاف ثغرة أمنية خطيرة في أنظمة التحميل تسمى Upload2Shell، حيث تمكن المهاجمون من تنفيذ أوامر على الخوادم المستهدفة.",
-      "summaryEn": "A critical security vulnerability called Upload2Shell has been discovered in upload systems, allowing attackers to execute commands on targeted servers.",
-      "type": "breach",
-      "severity": "warning",
-      "url": "https://pwn.ai/upload2shell",
-      "source": "Hacker News",
-      "date": "2026-11-21"
-    },
-    {
-      "id": "sec-2026-11-23-2",
-      "title": "تمكن المهاجمون من استبدال نموذج DeepSeek لمدة 53 ساعة وإزالة حمايته",
-      "titleEn": "Hackers replaced a DeepSeek model for 53 hours and stripped away its safety protections",
-      "summary": "تمكن المهاجمون من استبدال نموذج DeepSeek لمدة 53 ساعة وإزالة جميع آليات الحماية، مما سمح باستخدامه لأغراض ضارة.",
-      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and removed all safety mechanisms, allowing it to be used for malicious purposes.",
+      "title": "استبدال نموذج DeepSeek وإزالة حمايته",
+      "titleEn": "DeepSeek Model Replacement and Safety Protection Removal",
+      "summary": "تمكن المهاجمون من استبدال نموذج DeepSeek لمدة 53 ساعة وإزالة حمايته بالكامل، مما سمح باستخدامه لأغراض خبيثة.",
+      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and completely removed its safety protections, allowing it to be used for malicious purposes.",
       "type": "breach",
       "severity": "critical",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5",
@@ -280,28 +285,40 @@
       "date": "2026-11-21"
     },
     {
-      "id": "sec-2026-11-23-3",
-      "title": "حوادث Qwen تظهر الحاجة لتوجيه أقوى للنماذج الذاتية الاستضافة",
-      "titleEn": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
-      "summary": "تشير حوادث Qwen إلى الحاجة لتوجيه أقوى للنماذج الذاتية الاستضافة لمنع الاستخدام غير المصرح به.",
-      "summaryEn": "Qwen incidents indicate the need for stronger steering in self-hosted AI models to prevent unauthorized use.",
+      "id": "sec-2026-11-23-2",
+      "title": "إزالة مهارات الاختراق من نماذج الذكاء الاصطناعي الصينية",
+      "titleEn": "Removal of Hacking Skills from Chinese AI Models",
+      "summary": "تقوم شركات صينية كبرى بإزالة المهارات المتعلقة بالاختراق من نماذج الذكاء الاصطناعي الجديدة كإجراء وقائي.",
+      "summaryEn": "Major Chinese companies are removing hacking-related skills from new AI models as a preventive measure.",
       "type": "policy",
       "severity": "warning",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0EtTUxWem9OeU1YaTk5YXhsbWZXTW15LTRIdnBUeEVQalJURkotQlhabFppbnFwZkNSaDkyY2pIYmRnYURHdUJ2RnExS2IxRk9XNHVYdF9UQmJmSFR3UkZnVlhDVGN0OHU3UEdubDIyX05TXzBvbDFtNkU3QjlQa2dydGktR21CV0NlX2tsMGI5a1A4d0lDRg?oc=5",
-      "source": "Qwen (news)",
-      "date": "2026-11-19"
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdm5EVEp6OVZvTElDSUMyX1lEa251YVBhWXNjQS12cXlOTUR2ZnZQeFRfRWVSTW5wRHZjYVFGS0JEU240NEwtRHFrMHhkUF9IRmYxTmVBTVpQUmV5amJDX19SQU1iVUVsTENoTnVBekYzXzNMR0JSSm1saUluTEkzNzlqd2t2WVNCX0hnWGp5emRRREFXb1IxVF9pTU8zSlRkSXRB?oc=5",
+      "source": "Moonshot AI (news)",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "sec-2026-11-23-3",
+      "title": "اتهام إيران بهجوم الثلاجة الإلكتروني",
+      "titleEn": "Iran Accused of Fridge Cyberattack",
+      "summary": "تتهم فرنسا إيران بهجوم إلكتروني استهدف الثلاجات، مع وجود ثقة منخفضة من وكالات الاستخبارات الأمريكية.",
+      "summaryEn": "France is blaming Iran for a cyberattack targeting refrigerators, with low confidence from U.S. intelligence agencies.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-18"
     },
     {
       "id": "sec-2026-11-23-4",
-      "title": "Prime Intellect تكشف عن استبدال غير مصرح به لنموذج DeepSeek",
-      "titleEn": "Prime Intellect discloses unauthorized DeepSeek model swap",
-      "summary": "كشفت Prime Intellect عن استبدال غير مصرح به لنموذج DeepSeek مما تسبب في انخفاض كبير في الرفضات.",
-      "summaryEn": "Prime Intellect disclosed an unauthorized swap of a DeepSeek model that led to a significant decrease in refusals.",
+      "title": "أمن قابللاستخدام في الفنادق الفاخرة",
+      "titleEn": "Usable Security at Luxury Hotels",
+      "summary": "دراسة حالة مثيرة للاهتمام حول كيفية استخدام المهاجمين طلبات الحجز الوهمي لاختراق أنظمة الفنادق الفاخرة.",
+      "summaryEn": "Interesting case study on how attackers used fake booking requests to breach security systems at luxury hotels.",
       "type": "breach",
-      "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYzRuZUFqYnV4WTU2dkZPSnFJX3dXRldmdG14aEJvQkg4UXlHTHVQQks5X0Y0MXh0U1phVGtyMW0yOTZfS2plemFiZ2FDRVhSRXdRU0h6aVlqZV9XcnN6cGRtd2pkYVRvUktaSmR5MDhBMWV2dzJfbVVDb2FscDc0TkNNQTNJeEVhcHRjT2VYNnlBXzc0Q0hGcENleTMwMXV6QmZSMDNCbFFGOEExVjM1NWZEYV9iVlQ0TWpCMU9Ncw?oc=5",
-      "source": "DeepSeek (news)",
-      "date": "2026-11-20"
+      "severity": "info",
+      "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-16"
     }
   ],
   "benchmarks": {
@@ -335,7 +352,7 @@
         "score": "57.8"
       },
       {
-        "name": "Gemini 4 Carbon",
+        "name": "Gemini 4 Carbon 4",
         "org": "Google",
         "score": "56.4"
       },
@@ -360,109 +377,117 @@
         "score": "53.5"
       }
     ],
-    "highlights": "تصدر نموذج Claude Fable 5.2 قائمة الترتيب الحالية بنقاط 60.6، بينما يظهر تنافس قوي بين نماذج Anthropic الأربعة في المراكز الأربعة الأولى. ويبرز GPT-6.2 Astra كأفضل نموذج في التفكير المنطقي بنسبة 97.0% في اختبار GPQA، بينما يتفوق GPT-6.2 Sol كأرخص نموذج في قائمة العشرة الأوائل.",
-    "highlightsEn": "Claude Fable 5.2 leads the current rankings with 60.6 points, while there's strong competition among the four Anthropic models in the top four positions. GPT-6.2 Astra stands out as the best model in logical reasoning with 97.0% on the GPQA benchmark, while GPT-6.2 Sol excels as the cheapest model in the top 10."
+    "highlights": "تمكن نموذج Claude Fable 5.2 من الصدارة للمرة الأولى، بينما دخلت نماذج جديدة عدة قائمة أفضل 10. هناك منافسة قوية بين نماذج Claude و Gemini، حيث تحتل 4 من أفضل 5 مراكز. يبرز GPT-6.2 Sol كأرخص نموذج في أفضل 10 بسعر 2.00 دولار لكل مليونトークن.",
+    "highlightsEn": "Claude Fable 5.2 has taken the lead for the first time, while several new models have entered the top 10. There's intense competition between Claude and Gemini models, which occupy 4 of the top 5 positions. GPT-6.2 Sol stands out as the cheapest model in the top 10 at $2.00/M tokens."
   },
   "knowledgeEntry": {
-    "id": "k-2026-11-23-أساسيات-أمن-الذكاء-الاصطناعي",
-    "title": "أساسيات أمن الذكاء الاصطناعي",
-    "titleEn": "AI Safety Basics",
-    "why": "يُعد أمن الذكاء الاصطناعي ضروريًا لضمان استخدام هذه التقنيات بشكل مسؤول ومنع المخاطر المحتملة مثل التحيز أو الاستخدام الخبيث.",
-    "whyEn": "AI safety is crucial to ensure these technologies are used responsibly and to prevent potential risks such as bias or malicious use.",
-    "difficulty": "beginner",
-    "track": "security",
+    "id": "k-2026-11-23-تنفيذ-الوكلاء-الذكيين",
+    "title": "تنفيذ الوكلاء الذكيين",
+    "titleEn": "Implementing AI Agents",
+    "why": "الوكلاء الذكيين أنظمة قادرة على أداء مهام معقدة بشكل مستقل عبر التخطيط والتنفيذ والتقييم، مما يتيح حل مشاكل أكثر تعقيدًا من نماذج الذكاء الاصطناعي القياسية.",
+    "whyEn": "AI agents are systems capable of performing complex tasks independently through planning, execution, and evaluation, enabling solutions to more complex problems than standard AI models.",
+    "difficulty": "intermediate",
+    "track": "building",
     "steps": [
       {
-        "title": "فهم المخاطر المحتملة",
-        "detail": "تعرف على أنواع المخاطر الرئيسية المرتبطة بالذكاء الاصطناعي مثل التحيز في البيانات، والاستخدام الخبيث، والآثار غير المقصودة."
+        "title": "تحديد هدف الوكيل",
+        "detail": "حدد المهمة أو المشكلة التي سيحلها الوكيل بوضوح، مع تحديد المدخلات والمخرجات المتوقعة."
       },
       {
-        "title": "تقييم النماذج",
-        "detail": "قم بتطوير معايير لتقييم سلامة النماذج قبل نشرها، بما في ذلك اختبارها على مجموعات بيانات متنوعة والتحقق من عدم وجود تحيزات."
+        "title": "تصميم معمارية الوكيل",
+        "detail": "خطط هيكل الوكيل الذي يتضمن مكونات مثل واجهة التخطيط، وحدة التنفيذ، وآلية التقييم."
       },
       {
-        "title": "وضع إرشادات الاستخدام",
-        "detail": "أنشئ إرشادات واضحة لاستخدام النماذج، بما في ذلك القيود والاستخدامات المحظورة لضمان الاستخدام الأخلاقي."
+        "title": "تنفيذ واجهة التخطيط",
+        "detail": "أنشئ واجهة يمكنها تقسيم المهام الكبيرة إلى مهام أصغر وتحديد الخطوات اللازمة لإنجازها."
       },
       {
-        "title": "مراقبة النماذج بعد النشر",
-        "detail": "قم بمراقبة أداء النماذج بعد نشرها لتحديد أي مشكلات جديدة أو استخدام غير متوقع يتطلب تدخلًا."
+        "title": "بناء وحدة التنفيذ",
+        "detail": "طور وحدة تقوم بتنفيذ المهام الفردي باستخدام نماذج الذكاء الاصطناعي المناسبة لكل مهمة."
+      },
+      {
+        "title": "إضافة آلية التقييم",
+        "detail": "أنشئ نظامًا لتقييم نتائج الوكيل وتحديد ما إذا كانت النتائج تلبي المتطلبات أم لا."
+      },
+      {
+        "title": "التكرار والتحسين",
+        "detail": "اختبر الوكيل في سيناريوهات مختلفة وقم بتحسينه بناءً على الأداء الفعلي."
       }
     ],
     "stepsEn": [
       {
-        "title": "Understand Potential Risks",
-        "detail": "Learn about the main types of risks associated with AI such as data bias, malicious use, and unintended consequences."
+        "title": "Define the Agent's Goal",
+        "detail": "Clearly identify the task or problem the agent will solve, specifying expected inputs and outputs."
       },
       {
-        "title": "Evaluate Models",
-        "detail": "Develop criteria for evaluating model safety before deployment, including testing on diverse datasets and checking for biases."
+        "title": "Design Agent Architecture",
+        "detail": "Plan the agent structure including components like planning interface, execution unit, and evaluation mechanism."
       },
       {
-        "title": "Set Usage Guidelines",
-        "detail": "Create clear guidelines for model use, including restrictions and prohibited uses to ensure ethical application."
+        "title": "Implement Planning Interface",
+        "detail": "Create an interface that can break down large tasks into smaller subtasks and determine necessary steps."
       },
       {
-        "title": "Monitor Post-Deployment",
-        "detail": "Monitor model performance after deployment to identify any new issues or unexpected use cases that require intervention."
+        "title": "Build Execution Unit",
+        "detail": "Develop a unit that executes individual tasks using appropriate AI models for each task type."
+      },
+      {
+        "title": "Add Evaluation Mechanism",
+        "detail": "Create a system to evaluate the agent's results and determine if they meet requirements."
+      },
+      {
+        "title": "Iterate and Improve",
+        "detail": "Test the agent in various scenarios and improve it based on actual performance."
       }
     ],
-    "code": "",
+    "code": "import openai\n\nclass SimpleAgent:\n    def __init__(self, model=\"gpt-4\"):\n        self.model = model\n        self.planner = None\n        self.executor = None\n        self.evaluator = None\n    \n    def plan_task(self, task):\n        # Break down task into subtasks\n        prompt = f\"Break down this task into subtasks: {task}\"\n        response = openai.ChatCompletion.create(\n            model=self.model,\n            messages=[{\"role\": \"user\", \"content\": prompt}]\n        )\n        return response.choices[0].message['content']\n    \n    def execute_subtask(self, subtask):\n        # Execute a single subtask\n        prompt = f\"Execute this subtask: {subtask}\"\n        response = openai.ChatCompletion.create(\n            model=self.model,\n            messages=[{\"role\": \"user\", \"content\": prompt}]\n        )\n        return response.choices[0].message['content']\n    \n    def evaluate_result(self, result, task):\n        # Evaluate if result meets task requirements\n        prompt = f\"Does this result meet the requirements of this task? Task: {task}, Result: {result}\"\n        response = openai.ChatCompletion.create(\n            model=self.model,\n            messages=[{\"role\": \"user\", \"content\": prompt}]\n        )\n        return response.choices[0].message['content']",
     "resources": [
       {
-        "name": "AI Safety Institute",
-        "url": "https://aisafetyinstitute.org"
-      },
-      {
-        "name": "Partnership on AI",
-        "url": "https://partnershiponai.org"
-      },
-      {
-        "name": "AI Now Institute",
-        "url": "https://ainowinstitute.org"
+        "name": "LangChain Documentation",
+        "url": "https://python.langchain.com/docs/modules/agents/"
       }
     ],
     "tags": [
-      "أمن",
-      "مسؤولية",
-      "تحيز",
-      "إشراف"
+      "الذكاء الاصطناعي",
+      "الوكلاء",
+      "التطوير",
+      "أنظمة"
     ],
-    "quickRef": "أساسيات أمن الذكاء الاصطناعي: تحديد المخاطر، تقييم النماذج، وضع إرشادات، والمراقبة المستمرة.",
-    "quickRefEn": "AI Safety Basics: Identify risks, evaluate models, set guidelines, and continuous monitoring.",
+    "quickRef": "الوكيل الذكي: نظام يقسم المهام الكبيرة إلى مهام صغيرة، ينفذها، ويقيم النتائج بشكل مستقل.",
+    "quickRefEn": "AI Agent: A system that breaks down large tasks into smaller ones, executes them, and evaluates results independently.",
     "quiz": [
       {
-        "q": "ما هو أحد المخاطر الرئيسية المرتبطة بالذكاء الاصطناعي الذي يجب مراعاته في أساسيات أمن الذكاء الاصطناعي؟",
+        "q": "ما هو المكون الأساسي الذي يقوم بتقسيم المهام الكبيرة إلى مهام أصغر في الوكيل الذكي؟",
         "options": [
-          "زيادة سرعة المعالج",
-          "التحيز في البيانات",
-          "تقليل تكاليف التخزين",
-          "تحسين جودة الصور"
+          "وحدة التنفيذ",
+          "واجهة التخطيط",
+          "آلية التقييم",
+          "نموذج اللغة"
         ],
         "answer": 1,
-        "explain": "التحيز في البيانات هو أحد المخاطر الرئيسية التي يمكن أن تؤدي إلى نتائج عادلة أو تمييزية في أنظمة الذكاء الاصطناعي."
+        "explain": "واجهة التخطيط هي المسؤولة عن تقسيم المهام الكبيرة إلى مهام أصغر وتحديد الخطوات اللازمة لإنجازها."
       },
       {
-        "q": "ما هو الخطأ الشائع في تطبيق أساسيات أمن الذكاء الاصطناعي؟",
+        "q": "ما هو دور آلية التقييم في الوكيل الذكي؟",
         "options": [
-          "المراقبة المستمرة بعد النشر",
-          "تجاهل تقييم النماذج قبل الاستخدام",
-          "وضع إرشادات واضحة للاستخدام",
-          "اختبار النماذج على مجموعات بيانات متنوعة"
+          "تنفيذ المهام",
+          "تقييم النتائج",
+          "التخطيط للمهام",
+          "تحسين النموذج"
         ],
         "answer": 1,
-        "explain": "تجاهل تقييم النماذج قبل الاستخدام هو خطأ شائع يمكن أن يؤدي إلى نشر نماذج تحتوي على مشاكل أو تحيزات لم يتم اكتشافها."
+        "explain": "آلية التقيوم تقوم بتقييم نتائج الوكيل وتحديد ما إذا كانت النتائج تلبي المتطلبات أم لا."
       },
       {
-        "q": "لماذا يعتبر المراقبة المستمرة للنماذج بعد النشر مهمة في أمن الذكاء الاصطناعي؟",
+        "q": "ما هي الخطوة الأولى في تنفيذ وكيل ذكي؟",
         "options": [
-          "لزيادة سرعة النموذج",
-          "لتحديد المشاكل الجديدة أو الاستخدامات غير المتوقعة",
-          "لزيادة حجم البيانات المدربة",
-          "لتحسين جودة الصور"
+          "بناء وحدة التنفيذ",
+          "تحديد هدف الوكيل",
+          "إضافة آلية التقييم",
+          "اختبار الوكيل"
         ],
         "answer": 1,
-        "explain": "المراقبة المستمرة تساعد في تحديد المشاكل الجديدة أو الاستخدامات غير المتوقعة التي قد تظهر بعد نشر النموذج في بيئة حقيقية."
+        "explain": "الخطوة الأولى هي تحديد هدف الوكيل بوضوح، مع تحديد المدخلات والمخرجات المتوقعة."
       }
     ],
     "addedAt": "2026-11-23"

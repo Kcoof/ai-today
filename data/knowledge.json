@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-23-تنفيذ-الوكلاء-الذكيين",
+      "title": "تنفيذ الوكلاء الذكيين",
+      "titleEn": "Implementing AI Agents",
+      "why": "الوكلاء الذكيين أنظمة قادرة على أداء مهام معقدة بشكل مستقل عبر التخطيط والتنفيذ والتقييم، مما يتيح حل مشاكل أكثر تعقيدًا من نماذج الذكاء الاصطناعي القياسية.",
+      "whyEn": "AI agents are systems capable of performing complex tasks independently through planning, execution, and evaluation, enabling solutions to more complex problems than standard AI models.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد هدف الوكيل",
+          "detail": "حدد المهمة أو المشكلة التي سيحلها الوكيل بوضوح، مع تحديد المدخلات والمخرجات المتوقعة."
+        },
+        {
+          "title": "تصميم معمارية الوكيل",
+          "detail": "خطط هيكل الوكيل الذي يتضمن مكونات مثل واجهة التخطيط، وحدة التنفيذ، وآلية التقييم."
+        },
+        {
+          "title": "تنفيذ واجهة التخطيط",
+          "detail": "أنشئ واجهة يمكنها تقسيم المهام الكبيرة إلى مهام أصغر وتحديد الخطوات اللازمة لإنجازها."
+        },
+        {
+          "title": "بناء وحدة التنفيذ",
+          "detail": "طور وحدة تقوم بتنفيذ المهام الفردي باستخدام نماذج الذكاء الاصطناعي المناسبة لكل مهمة."
+        },
+        {
+          "title": "إضافة آلية التقييم",
+          "detail": "أنشئ نظامًا لتقييم نتائج الوكيل وتحديد ما إذا كانت النتائج تلبي المتطلبات أم لا."
+        },
+        {
+          "title": "التكرار والتحسين",
+          "detail": "اختبر الوكيل في سيناريوهات مختلفة وقم بتحسينه بناءً على الأداء الفعلي."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define the Agent's Goal",
+          "detail": "Clearly identify the task or problem the agent will solve, specifying expected inputs and outputs."
+        },
+        {
+          "title": "Design Agent Architecture",
+          "detail": "Plan the agent structure including components like planning interface, execution unit, and evaluation mechanism."
+        },
+        {
+          "title": "Implement Planning Interface",
+          "detail": "Create an interface that can break down large tasks into smaller subtasks and determine necessary steps."
+        },
+        {
+          "title": "Build Execution Unit",
+          "detail": "Develop a unit that executes individual tasks using appropriate AI models for each task type."
+        },
+        {
+          "title": "Add Evaluation Mechanism",
+          "detail": "Create a system to evaluate the agent's results and determine if they meet requirements."
+        },
+        {
+          "title": "Iterate and Improve",
+          "detail": "Test the agent in various scenarios and improve it based on actual performance."
+        }
+      ],
+      "code": "import openai\n\nclass SimpleAgent:\n    def __init__(self, model=\"gpt-4\"):\n        self.model = model\n        self.planner = None\n        self.executor = None\n        self.evaluator = None\n    \n    def plan_task(self, task):\n        # Break down task into subtasks\n        prompt = f\"Break down this task into subtasks: {task}\"\n        response = openai.ChatCompletion.create(\n            model=self.model,\n            messages=[{\"role\": \"user\", \"content\": prompt}]\n        )\n        return response.choices[0].message['content']\n    \n    def execute_subtask(self, subtask):\n        # Execute a single subtask\n        prompt = f\"Execute this subtask: {subtask}\"\n        response = openai.ChatCompletion.create(\n            model=self.model,\n            messages=[{\"role\": \"user\", \"content\": prompt}]\n        )\n        return response.choices[0].message['content']\n    \n    def evaluate_result(self, result, task):\n        # Evaluate if result meets task requirements\n        prompt = f\"Does this result meet the requirements of this task? Task: {task}, Result: {result}\"\n        response = openai.ChatCompletion.create(\n            model=self.model,\n            messages=[{\"role\": \"user\", \"content\": prompt}]\n        )\n        return response.choices[0].message['content']",
+      "resources": [
+        {
+          "name": "LangChain Documentation",
+          "url": "https://python.langchain.com/docs/modules/agents/"
+        }
+      ],
+      "tags": [
+        "الذكاء الاصطناعي",
+        "الوكلاء",
+        "التطوير",
+        "أنظمة"
+      ],
+      "quickRef": "الوكيل الذكي: نظام يقسم المهام الكبيرة إلى مهام صغيرة، ينفذها، ويقيم النتائج بشكل مستقل.",
+      "quickRefEn": "AI Agent: A system that breaks down large tasks into smaller ones, executes them, and evaluates results independently.",
+      "quiz": [
+        {
+          "q": "ما هو المكون الأساسي الذي يقوم بتقسيم المهام الكبيرة إلى مهام أصغر في الوكيل الذكي؟",
+          "options": [
+            "وحدة التنفيذ",
+            "واجهة التخطيط",
+            "آلية التقييم",
+            "نموذج اللغة"
+          ],
+          "answer": 1,
+          "explain": "واجهة التخطيط هي المسؤولة عن تقسيم المهام الكبيرة إلى مهام أصغر وتحديد الخطوات اللازمة لإنجازها."
+        },
+        {
+          "q": "ما هو دور آلية التقييم في الوكيل الذكي؟",
+          "options": [
+            "تنفيذ المهام",
+            "تقييم النتائج",
+            "التخطيط للمهام",
+            "تحسين النموذج"
+          ],
+          "answer": 1,
+          "explain": "آلية التقيوم تقوم بتقييم نتائج الوكيل وتحديد ما إذا كانت النتائج تلبي المتطلبات أم لا."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في تنفيذ وكيل ذكي؟",
+          "options": [
+            "بناء وحدة التنفيذ",
+            "تحديد هدف الوكيل",
+            "إضافة آلية التقييم",
+            "اختبار الوكيل"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى هي تحديد هدف الوكيل بوضوح، مع تحديد المدخلات والمخرجات المتوقعة."
+        }
+      ],
+      "addedAt": "2026-11-23"
+    },
+    {
       "id": "k-2026-11-23-أساسيات-أمن-الذكاء-الاصطناعي",
       "title": "أساسيات أمن الذكاء الاصطناعي",
       "titleEn": "AI Safety Basics",
