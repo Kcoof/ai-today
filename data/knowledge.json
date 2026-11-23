@@ -1,6 +1,110 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-23-أساسيات-أمن-الذكاء-الاصطناعي",
+      "title": "أساسيات أمن الذكاء الاصطناعي",
+      "titleEn": "AI Safety Basics",
+      "why": "يُعد أمن الذكاء الاصطناعي ضروريًا لضمان استخدام هذه التقنيات بشكل مسؤول ومنع المخاطر المحتملة مثل التحيز أو الاستخدام الخبيث.",
+      "whyEn": "AI safety is crucial to ensure these technologies are used responsibly and to prevent potential risks such as bias or malicious use.",
+      "difficulty": "beginner",
+      "track": "security",
+      "steps": [
+        {
+          "title": "فهم المخاطر المحتملة",
+          "detail": "تعرف على أنواع المخاطر الرئيسية المرتبطة بالذكاء الاصطناعي مثل التحيز في البيانات، والاستخدام الخبيث، والآثار غير المقصودة."
+        },
+        {
+          "title": "تقييم النماذج",
+          "detail": "قم بتطوير معايير لتقييم سلامة النماذج قبل نشرها، بما في ذلك اختبارها على مجموعات بيانات متنوعة والتحقق من عدم وجود تحيزات."
+        },
+        {
+          "title": "وضع إرشادات الاستخدام",
+          "detail": "أنشئ إرشادات واضحة لاستخدام النماذج، بما في ذلك القيود والاستخدامات المحظورة لضمان الاستخدام الأخلاقي."
+        },
+        {
+          "title": "مراقبة النماذج بعد النشر",
+          "detail": "قم بمراقبة أداء النماذج بعد نشرها لتحديد أي مشكلات جديدة أو استخدام غير متوقع يتطلب تدخلًا."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understand Potential Risks",
+          "detail": "Learn about the main types of risks associated with AI such as data bias, malicious use, and unintended consequences."
+        },
+        {
+          "title": "Evaluate Models",
+          "detail": "Develop criteria for evaluating model safety before deployment, including testing on diverse datasets and checking for biases."
+        },
+        {
+          "title": "Set Usage Guidelines",
+          "detail": "Create clear guidelines for model use, including restrictions and prohibited uses to ensure ethical application."
+        },
+        {
+          "title": "Monitor Post-Deployment",
+          "detail": "Monitor model performance after deployment to identify any new issues or unexpected use cases that require intervention."
+        }
+      ],
+      "code": "",
+      "resources": [
+        {
+          "name": "AI Safety Institute",
+          "url": "https://aisafetyinstitute.org"
+        },
+        {
+          "name": "Partnership on AI",
+          "url": "https://partnershiponai.org"
+        },
+        {
+          "name": "AI Now Institute",
+          "url": "https://ainowinstitute.org"
+        }
+      ],
+      "tags": [
+        "أمن",
+        "مسؤولية",
+        "تحيز",
+        "إشراف"
+      ],
+      "quickRef": "أساسيات أمن الذكاء الاصطناعي: تحديد المخاطر، تقييم النماذج، وضع إرشادات، والمراقبة المستمرة.",
+      "quickRefEn": "AI Safety Basics: Identify risks, evaluate models, set guidelines, and continuous monitoring.",
+      "quiz": [
+        {
+          "q": "ما هو أحد المخاطر الرئيسية المرتبطة بالذكاء الاصطناعي الذي يجب مراعاته في أساسيات أمن الذكاء الاصطناعي؟",
+          "options": [
+            "زيادة سرعة المعالج",
+            "التحيز في البيانات",
+            "تقليل تكاليف التخزين",
+            "تحسين جودة الصور"
+          ],
+          "answer": 1,
+          "explain": "التحيز في البيانات هو أحد المخاطر الرئيسية التي يمكن أن تؤدي إلى نتائج عادلة أو تمييزية في أنظمة الذكاء الاصطناعي."
+        },
+        {
+          "q": "ما هو الخطأ الشائع في تطبيق أساسيات أمن الذكاء الاصطناعي؟",
+          "options": [
+            "المراقبة المستمرة بعد النشر",
+            "تجاهل تقييم النماذج قبل الاستخدام",
+            "وضع إرشادات واضحة للاستخدام",
+            "اختبار النماذج على مجموعات بيانات متنوعة"
+          ],
+          "answer": 1,
+          "explain": "تجاهل تقييم النماذج قبل الاستخدام هو خطأ شائع يمكن أن يؤدي إلى نشر نماذج تحتوي على مشاكل أو تحيزات لم يتم اكتشافها."
+        },
+        {
+          "q": "لماذا يعتبر المراقبة المستمرة للنماذج بعد النشر مهمة في أمن الذكاء الاصطناعي؟",
+          "options": [
+            "لزيادة سرعة النموذج",
+            "لتحديد المشاكل الجديدة أو الاستخدامات غير المتوقعة",
+            "لزيادة حجم البيانات المدربة",
+            "لتحسين جودة الصور"
+          ],
+          "answer": 1,
+          "explain": "المراقبة المستمرة تساعد في تحديد المشاكل الجديدة أو الاستخدامات غير المتوقعة التي قد تظهر بعد نشر النموذج في بيئة حقيقية."
+        }
+      ],
+      "addedAt": "2026-11-23"
+    },
+    {
       "id": "k-2026-11-22-تنفيذ-قواعد-البيانات-المتجهة-لتطبيقات-الذكاء-الاصط",
       "title": "تنفيذ قواعد البيانات المتجهة لتطبيقات الذكاء الاصطناعي",
       "titleEn": "Implementing Vector Databases for AI Applications",
