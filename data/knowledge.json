@@ -1,6 +1,103 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-24-تحسين-النماذج-متعددة-الوسائط",
+      "title": "تحسين النماذج متعددة الوسائط",
+      "titleEn": "Improving Multimodal Models",
+      "why": "النماذج متعددة الوسائط قادرة على معالجة وتوليد أنواع مختلفة من البيانات مثل النصوص والصور والصوت، مما يفتح آفاقاً أوسع للتطبيقات العملية. تحسين هذه النماذج يزيد من دقتها وقدرتها على فهم السياقات المعقدة.",
+      "whyEn": "Multimodal models can process and generate different types of data such as text, images, and audio, opening broader horizons for practical applications. Improving these models enhances their accuracy and ability to understand complex contexts.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "جمع مجموعة بيانات متعددة الوسائط",
+          "detail": "قم بإنشاء مجموعة بيانات متنوعة تحتوي على نصوص وصور وبيانات صوتية مرتبطة بشكل منطقي. تأكد من وجود تنوع في البيانات لتغطية حالات الاستخدام المتعددة."
+        },
+        {
+          "title": "اختيار النموذج الأساسي",
+          "detail": "حدد نموذجاً قابلاً للتحسين يدعم الوسائط المتعددة مثل CLIP أو DALL-E أو نموذج متعدد الوسائط آخر. اختر النموذج بناءً على متطلبات المشروع الخاصة بك."
+        },
+        {
+          "title": "ضبط النموذج (Fine-tuning)",
+          "detail": "قم بتدريب النموذج على مجموعة بياناتك باستخدام تقنيات الضبط الدقيق. استخدم معدل تعلم مناسب ومراقب أداء النموذج أثناء عملية التدريب."
+        },
+        {
+          "title": "التقييم والتكرار",
+          "detail": "اختبر النموذج المحسن على مجموعة بيانات اختبار وقياس الأداء باستخدام مقاييس مناسبة. قم بتعديل المعلمات وتكرار عملية التدريب لتحسين النتائج."
+        },
+        {
+          "title": "النشر والمراقبة",
+          "detail": "نفذ النموذج المحسن في بيئة الإنتاج وقم بمراقبة أدائه بشكل مستمر. قم بتحديث النموذج بانتظام بناءً على تغيرات البيانات أو متطلبات التطبيق."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Collect Multimodal Dataset",
+          "detail": "Create a diverse dataset containing text, images, and audio data that are logically connected. Ensure diversity in the data to cover multiple use cases."
+        },
+        {
+          "title": "Choose Base Model",
+          "detail": "Select an improvable model that supports multiple modalities such as CLIP or DALL-E or another multimodal model. Choose the model based on your project requirements."
+        },
+        {
+          "title": "Fine-tune the Model",
+          "detail": "Train the model on your dataset using fine-tuning techniques. Use an appropriate learning rate and monitor the model's performance during the training process."
+        },
+        {
+          "title": "Evaluation and Iteration",
+          "detail": "Test the improved model on a test set and measure performance using appropriate metrics. Adjust parameters and repeat the training process to improve results."
+        },
+        {
+          "title": "Deployment and Monitoring",
+          "detail": "Implement the improved model in the production environment and monitor its performance continuously. Update the model regularly based on data changes or application requirements."
+        }
+      ],
+      "code": "import torch\nfrom transformers import AutoModel, AutoProcessor\n\n# Load a multimodal model\nmodel_name = 'openai/clip-vit-base-patch32'\nmodel = AutoModel.from_pretrained(model_name)\nprocessor = AutoProcessor.from_pretrained(model_name)\n\n# Prepare input data\ntext = 'A photo of a cat'\nimage = load_image('cat.jpg')  # Assume this function loads an image\n\n# Process inputs\ninputs = processor(text=[text], images=image, return_tensors='pt', padding=True)\n\n# Forward pass\noutputs = model(**inputs)\nlogits_per_image = outputs.logits_per_image\nprobs = logits_per_image.softmax(dim=1)\n\nprint(f'Probability: {probs.item():.4f}')",
+      "resources": [
+        {
+          "name": "CLIP Documentation",
+          "url": "https://huggingface.co/docs/transformers/model_doc/clip"
+        },
+        {
+          "name": "Multimodal AI Research Papers",
+          "url": "https://arxiv.org/list/cs.CL.recent"
+        }
+      ],
+      "tags": [
+        "نماذج متعددة الوسائط",
+        "تحسين النماذج",
+        "معالجة البيانات",
+        "التعلم العميق"
+      ],
+      "quickRef": "تحسين النماذج متعددة الوسائط يتضمن جمع بيانات متنوعة، اختيار نموذج أساسي، ضبط الدقيق، التقييم المستمر، والنشر المراقب.",
+      "quickRefEn": "Improving multimodal models involves collecting diverse data, selecting a base model, fine-tuning, continuous evaluation, and monitored deployment.",
+      "quiz": [
+        {
+          "q": "ما هو الخطأ الأكثر شيوعاً عند تحسين النماذج متعددة الوسائط؟",
+          "options": [
+            "عدم تنوع مجموعة البيانات",
+            "استخدام معدل تعلم مرتفع جداً",
+            "تجاهل تقييم النموذج",
+            "كل ما سبق"
+          ],
+          "answer": 3,
+          "explain": "كل الخيارات المذكورة هي أخطاء شائعة عند تحسين النماذج متعددة الوسائط. عدم تنوع البيانات يؤدي إلى تحيز النموذج، ومعدل التعلم المرتفع قد يسبب عدم استقرار، وتجاهل التقييم يمنع تحديد المشاكل وتحسينها."
+        },
+        {
+          "q": "ما هو أهم مكون في النموذج متعدد الوسائط الذي يربط بين النصوص والصور؟",
+          "options": [
+            "معالج النصوص",
+            "معالج الصور",
+            "جهاز التشفير",
+            "جهاز الربط"
+          ],
+          "answer": 3,
+          "explain": "جهاز الربط (Projection Head) هو المكون المسؤول عن ربط تمثيلات النصوص والصور في فضاء مشترك، مما يسمح للنموذج بفهم العلاقة بين الوسائط المختلفة."
+        }
+      ],
+      "addedAt": "2026-11-24"
+    },
+    {
       "id": "k-2026-11-24-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
       "title": "تقييم أداء نماذج الذكاء الاصطناعي",
       "titleEn": "Evaluating AI Model Performance",
