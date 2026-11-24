@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-24-تقييم-أداء-نماذج-الذكاء-الاصطناعي",
+      "title": "تقييم أداء نماذج الذكاء الاصطناعي",
+      "titleEn": "Evaluating AI Model Performance",
+      "why": "تقييم أداء نماذج الذكاء الاصطناعي أمر بالغ الأهمية لضمان اختيار النموذج المناسب لمهمتك وتحسين جودة النتائج. يساعدك هذا التقييم على فهم نقاط قوة وضعف النموذج واتخاذ قرارات مستنيرة بشأن استخدامه.",
+      "whyEn": "Evaluating AI model performance is crucial for selecting the right model for your task and improving result quality. This evaluation helps you understand the model's strengths and weaknesses and make informed decisions about its use.",
+      "difficulty": "intermediate",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "تحديد مقاييس التقييم المناسبة",
+          "detail": "اختر المقاييس التي تعكس جودة النموذج لمهمتك المحددة، مثل الدقة (accuracy)، والاستدعاء (recall)، والدقة (precision)، ومؤشر F1، أو مقاييس تخصصية أخرى حسب مجال عملك."
+        },
+        {
+          "title": "إعداد مجموعة بيانات للتحقق",
+          "detail": "أنشئ مجموعة بيانات منفصلة للتحقق (validation set) لمقارنة أداء النماذج. يجب أن تكون هذه البيانات ممثلة لمهمة الحقيقية وتحتوي على توزيع متوازن للفئات."
+        },
+        {
+          "title": "تنفيذ الاختبارات",
+          "detail": "قم بتشغيل النموذج على مجموعة بيانات التحقق وقيس أداءه باستخدام المقاييس المحددة. كرر العملية عدة مرات للحصول على نتائج موثوقة."
+        },
+        {
+          "title": "تحليل النتائج",
+          "detail": "قارن النتائج بين النماذج المختلفة وحدد أي نموذج يوفر أفضل أداء لمهمتك. انتبه إلى التوازن بين الدقة والسرعة والتكلفة."
+        },
+        {
+          "title": "تحسين النموذج",
+          "detail": "بناءً على نتائج التقييم، قم بتحسين النموذج عن ضبط المعلمات (hyperparameter tuning) أو إعادة تدريبه ببيانات إضافية."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Select Appropriate Evaluation Metrics",
+          "detail": "Choose metrics that reflect the model's quality for your specific task, such as accuracy, recall, precision, F1 score, or other specialized metrics depending on your domain."
+        },
+        {
+          "title": "Prepare a Validation Dataset",
+          "detail": "Create a separate validation dataset to compare model performance. This data should be representative of your real task and contain a balanced distribution of classes."
+        },
+        {
+          "title": "Run Tests",
+          "detail": "Run the model on the validation dataset and measure its performance using the selected metrics. Repeat the process multiple times to obtain reliable results."
+        },
+        {
+          "title": "Analyze Results",
+          "detail": "Compare results between different models and determine which model provides the best performance for your task. Pay attention to the balance between accuracy, speed, and cost."
+        },
+        {
+          "title": "Improve the Model",
+          "detail": "Based on evaluation results, improve the model by tuning hyperparameters or retraining it with additional data."
+        }
+      ],
+      "code": "from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score\n\ndef evaluate_model(model, X_test, y_test):\n    # Make predictions\n    y_pred = model.predict(X_test)\n    \n    # Calculate metrics\n    accuracy = accuracy_score(y_test, y_pred)\n    precision = precision_score(y_test, y_pred, average='weighted')\n    recall = recall_score(y_test, y_pred, average='weighted')\n    f1 = f1_score(y_test, y_pred, average='weighted')\n    \n    # Print results\n    print(f\"Accuracy: {accuracy:.4f}\")\n    print(f\"Precision: {precision:.4f}\")\n    print(f\"Recall: {recall:.4f}\")\n    print(f\"F1 Score: {f1:.4f}\")\n    \n    return {\n        'accuracy': accuracy,\n        'precision': precision,\n        'recall': recall,\n        'f1': f1\n    }",
+      "resources": [
+        {
+          "name": "Scikit-learn Documentation",
+          "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
+        },
+        {
+          "name": "ML Metrics Guide",
+          "url": "https://neptune.ai/blog/model-evaluation-metrics"
+        },
+        {
+          "name": "Papers with Code - Leaderboards",
+          "url": "https://paperswithcode.com/leaderboard"
+        }
+      ],
+      "tags": [
+        "تقييم النماذج",
+        "مقاييس الأداء",
+        "التعلم الآلي",
+        "اختبار النماذج"
+      ],
+      "quickRef": "حدد المقاييس، جهز بيانات التحقق، نفذ الاختبارات، حلل النتائج، وحسّن النموذج.",
+      "quickRefEn": "Select metrics, prepare validation data, run tests, analyze results, and improve the model.",
+      "quiz": [
+        {
+          "q": "ما هو المقترح الأول لتقييم نموذج ذكاء اصطناعي؟",
+          "options": [
+            "تشغيل النموذج على البيانات",
+            "اختيار المقاييس المناسبة",
+            "شراء النموذج",
+            "تدريب النموذج"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى هي اختيار المقاييس المناسبة لتقييم أداء النموذج حسب مهمتك المحددة."
+        },
+        {
+          "q": "ما هي أهمية مجموعة بيانات التحقق في تقييم النماذج؟",
+          "options": [
+            "تساعد في تدريب النموذج",
+            "تمنع الإفراط في التخصيص (overfitting)",
+            "تقليل تكاليف التدريب",
+            "زيادة سرعة النموذج"
+          ],
+          "answer": 1,
+          "explain": "مجموعة بيانات التحقق تمنع الإفراط في التخصيص وتساعد في تقييم أداء النموذج على بيانات جديدة لم يرها أثناء التدريب."
+        },
+        {
+          "q": "ما هو مؤشر F1؟",
+          "options": [
+            "مؤشر لقياس سرعة النموذج",
+            "متوسط توازن بين الدقة والاستدعاء",
+            "مؤشر لقياس حجم النموذج",
+            "مؤشر لقياس تكلفة التشغيل"
+          ],
+          "answer": 1,
+          "explain": "مؤشر F1 هو متوسط توازن بين الدقة (precision) والاستدعاء (recall)، وهو مفيد عندما يكون للتوزيع غير المتوازن للفئات تأثير على النتائج."
+        }
+      ],
+      "addedAt": "2026-11-24"
+    },
+    {
       "id": "k-2026-11-23-تنفيذ-الوكلاء-الذكيين",
       "title": "تنفيذ الوكلاء الذكيين",
       "titleEn": "Implementing AI Agents",

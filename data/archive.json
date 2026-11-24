@@ -1,6 +1,14 @@
 {
   "editions": [
     {
+      "date": "2026-11-23",
+      "topHeadlines": [
+        "Z.ai تطلق GLM-5.4، أول نموذج Loop Transformer",
+        "جوجل تطلق Gemini 4 Neon",
+        "Genie 4 متاح الآن على نطاق واسع"
+      ]
+    },
+    {
       "date": "2026-11-22",
       "topHeadlines": [
         "إطلاق سلسلة جيميني 4 من جوجل ديمند",
