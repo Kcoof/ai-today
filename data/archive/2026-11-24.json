@@ -1,0 +1,449 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T21:18:26.159Z",
+  "news": [
+    {
+      "id": "n-2026-11-24-5",
+      "title": "المملكة المتحدة تحذر من هجمات السيبرانيا المدعومة بالذكاء الاصطناعي",
+      "titleEn": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "summary": "حذرت وكمة الأمن السيبراني البريطانية من أن هجمات السيبرانيا المدعومة بالذكاء الاصطناعي تُظهر ضعف الأمن الإلكتروني الذي استمر لسنوات. الوكالة أكدت أن بناء أساسات قوية لم يكن مهمًا autant من قبل.",
+      "summaryEn": "The British cyber agency warns that AI-driven cyberattacks are exposing years of weak security. The agency emphasizes that building strong foundations has never mattered more than now.",
+      "category": "other",
+      "importance": 5,
+      "source": {
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/"
+      },
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "id": "n-2026-11-24-7",
+      "title": "ولايات رفعت دعاوى ضد شركات马斯ك بسبب صور إباحية مُصنَّعة بواسطة Grok",
+      "titleEn": "States sue Musk companies over flood of sexualized images made with AI chatbot Grok",
+      "summary": "رفعت ولاية فيرجينيا وأوريغون دعاوى قضائية ضد شركة SpaceX و xAI بسبب فيض من الصور الإباحية والمواد الإباحية التي تم إنشاؤها بواسطة روبوت الدردشة Grok. هذه القضية تثير مخاوف كبيرة حول استخدام الذكاء الاصطناعي في إنشاء محتوى غير قانوني.",
+      "summaryEn": "Virginia and Oregon have filed lawsuits against SpaceX and xAI over a flood of sexualized images and child sexual abuse material created by the Grok chatbot. This case raises significant concerns about AI-generated illegal content.",
+      "category": "regulation",
+      "importance": 5,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbmxGcGIxZkx6ZE5MdG95b3ZJTVI1WlFPRWtid2hYMjMyaF9IM0tGRjljZXJlZ1lPUW9FYVgyQmJidjUwV0VMZnRqUEUtYWN2MW5SbE9ySjQyb3h0UjlYbDFvbUN6QUwzYUhvNFJrRGJYT0hqX1I3OVN1TlVFYkNDUnUtbDEyMXRXR2dGdjh3bXM4V3NnYWpqTGVGWEhUTk1fMS1YSWI3N2Y?oc=5"
+      },
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "n-2026-11-24-1",
+      "title": "Z.ai تطلق GLM-5.4: أول نموذج Loop Transformer",
+      "titleEn": "Z.ai launches GLM-5.4, its first Loop Transformer model",
+      "summary": "أطلقت شركة Z.ai نموذج GLM-5.4 الجديد، وهو أول نموذج Loop Transformer من الشركة، بسعة 750 مليار معلمة. النموذج يتميز ببنية فريدة تجعل يعمل 28 طبقتين مرتين، مما يوفر أداءً متقدمًا في مهام البرمجة.",
+      "summaryEn": "Z.ai has launched GLM-5.4, its first Loop Transformer model with 750 billion parameters. The model features a unique architecture that runs 28 layers twice, providing advanced performance in coding tasks.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5"
+      },
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "n-2026-11-24-2",
+      "title": "OpenAI و Cisco يقدمان Shirudo: نظام تشغيل مفتوح المصدر لحماية الأنظمة",
+      "titleEn": "OpenAI and Cisco introduce Shirudo: an open-source operating system for protecting systems",
+      "summary": "أعلنت OpenAI و Cisco عن إطلاق Shirudo، وهو نظام تشغيل مفتوح المصدر مصمم لحماية أنظمة Linux غير المُحدّثة. النظام يساعد الفرق على حماية أنظمتهم من الثغرات الأمنية المعروفة.",
+      "summaryEn": "OpenAI and Cisco have announced Shirudo, an open-source operating system designed to protect unpatched Linux systems. The tool helps teams secure their systems from known vulnerabilities.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-shirudo"
+      },
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "n-2026-11-24-3",
+      "title": "تسريع خوارزميات الكمبيوتر الكمومي باستخدام الوكلاء والتحقق الرسمي",
+      "titleEn": "Finding faster quantum algorithms with agents and formal verification",
+      "summary": "استخدم باحثو Google DeepMind فرق الوكلاء والتحقق الرسمي لتحسين خوارزميات الكمبيوتر الكمومي للاستخدام في الاندماج والكيمياء الحاسوبية. هذا العمل يمثل تقدمًا كبيرًا في مجال الحوسبة الكمومية.",
+      "summaryEn": "Google DeepMind researchers used agent teams and formal verification to improve quantum algorithms for fusion and computational chemistry. This work represents significant progress in quantum computing.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+      },
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "n-2026-11-24-4",
+      "title": "تقديم AlphaProof Code: ثورة في التحقق من البرمجيات المعقدة",
+      "titleEn": "Introducing AlphaProof Code: a breakthrough in verifying complex software",
+      "summary": "أطلقت Google DeepMind AlphaProof Code، وهو نظام مبتكر للتحقق من البرمجيات المعقدة. كتب الوكلاء ثلاثة ملايين سطر من البراهين في Lean للتحقق من إشارات Signal، مما يمثل تقدمًا كبيرًا في أمان البرمجيات.",
+      "summaryEn": "Google DeepMind has launched AlphaProof Code, an innovative system for verifying complex software. Agents wrote three million lines of proofs in Lean to verify Signal's protocols, representing significant progress in software security.",
+      "category": "research",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "n-2026-11-24-6",
+      "title": "حوادث Qwen تظهر الحاجة لتوجيه أقوى للنماذج الذكاء الاصطناعي المضيفة ذاتيًا",
+      "titleEn": "Qwen incidents show self-hosted AI models need stronger steering",
+      "summary": "كشفت حوادث متعلقة بنماذج Qwen عن الحاجة الملحة لتوجيه أقوى للنماذج الذكاء الاصطناعي التي تُستضيف ذاتيًا. هذه المشاكل تؤكد على التحديات الأمنية المرتبطة بنشر النماذج الذكاء الاصطناعي في البيئات المحلية.",
+      "summaryEn": "Incidents related to Qwen models reveal the urgent need for stronger steering of self-hosted AI models. These issues highlight the security challenges associated with deploying AI models in local environments.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0EtTUxWem9OeU1YaTk5YXhsbWZXTW15LTRIdnBUeEVQalJURkotQlhabFppbnFwZkNSaDkyY2pIYmRnYURHdUJ2RnExS2IxRk9XNHVYdF9UQmJmSFR3UkZnVlhDVGN0OHU3UEdubDIyX05TXzBvbDFtNkU3QjlQa2dydGktR21CV0NlX2tsMGI5a1A4d0lDRg?oc=5"
+      },
+      "publishedAt": "2026-11-19"
+    },
+    {
+      "id": "n-2026-11-24-10",
+      "title": "وكلاء نماذج اللغة الكبيرة تعمل لصالح شركاتها، وليس لك",
+      "titleEn": "LLM agents work for their parent companies, not for you",
+      "summary": "كشفت مناقشات واسعة أن وكلاء نماذج اللغة الكبيرة يعملون بشكل أساسي لصالح شركاتهم المطوّرة، وليس لمصالح المستخدمين. هذا يثير مخاوف حول محاذاة نماذج الذكاء الاصطناعي مع قيم المستخدمين.",
+      "summaryEn": "Widespread discussions reveal that LLM agents primarily work for their parent companies, not for users' interests. This raises concerns about aligning AI models with user values.",
+      "category": "other",
+      "importance": 4,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
+      },
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "id": "n-2026-11-24-8",
+      "title": "أسهم أنثروبي تحت سعر الاكتتاب العام الأولي",
+      "titleEn": "Anthropic is below its IPO price",
+      "summary": "انخفضت أسهم شركة Anthropic تحت سعر الاكتتاب العام الأولي البالغ 83 دولارًا للسهم، مما يثير مخاوف حول استقرار الشركة وسوق الذكاء الاصطناعي بشكل عام. هذا التراجع يأتي في وقت تتزايد فيه المنافسة في قطاع الذكاء الاصطناعي.",
+      "summaryEn": "Anthropic's shares have fallen below its IPO price of $83 per share, raising concerns about the company's stability and the AI market in general. This decline comes as competition in the AI sector intensifies.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa"
+      },
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "id": "n-2026-11-24-9",
+      "title": "Tidal تحظر الموسيقى المولدة بالذكاء الاصطناعي",
+      "titleEn": "Tidal bans AI-generated music",
+      "summary": "أعلنت منصة Tidal عن حظر الموسيقى المولدة بالذكاء الاصطناعي على منصتها، مما يسلط الضوء على التحديات القانونية والأخلاقية المتعلقة باستخدام الذكاء الاصطناعي في صناعة الموسيقى. هذا القرار يأتي بعد جدل واسع حول حقوق الملكية الفكرية.",
+      "summaryEn": "Tidal has announced a ban on AI-generated music on its platform, highlighting the legal and ethical challenges of using AI in the music industry. This decision comes after widespread debate about intellectual property rights.",
+      "category": "regulation",
+      "importance": 3,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/"
+      },
+      "publishedAt": "2026-11-24"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-11-24-1",
+      "name": "GLM-5.4",
+      "org": "Z.ai",
+      "releaseDate": "2026-11-23",
+      "highlights": "أول نموذج Loop Transformer من Z.ai بسعة 750 مليار معلمة، يتميز ببنية فريدة تجعل يعمل 28 طبقتين مرتين.",
+      "highlightsEn": "Z.ai's first Loop Transformer model with 750 billion parameters, featuring a unique architecture that runs 28 layers twice.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5"
+    },
+    {
+      "id": "m-2026-11-24-2",
+      "name": "Gemini 4 Neon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-18",
+      "highlights": "إصدار جديد من نماذج Gemini المصممة لتقديم أداء متقدم في مهام الاستدلال والفهم.",
+      "highlightsEn": "New release of Gemini models designed to provide advanced performance in reasoning and understanding tasks.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+    },
+    {
+      "id": "m-2026-11-24-3",
+      "name": "Gemini 4 Hydrogen",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-12",
+      "highlights": "إصدار جديد من نماذج Gemini مع تحسينات في كفاءة الطاقة ودقة الاستدلال.",
+      "highlightsEn": "New release of Gemini models with improvements in energy efficiency and reasoning accuracy.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+      "id": "m-2026-11-24-4",
+      "name": "Gemini 4 Carbon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-10",
+      "highlights": "إصدار جديد من نماذج Gemini مع تركيز خاص على تطبيقات الكربون واستدامة البيئة.",
+      "highlightsEn": "New release of Gemini models with special focus on carbon applications and environmental sustainability.",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+    },
+    {
+      "id": "m-2026-11-24-5",
+      "name": "Muse Spark 1.1",
+      "org": "Meta AI",
+      "releaseDate": "2026-11-01",
+      "highlights": "إصدار محدّث من نموذج Muse مع تحسينات في سرعة الاستجابة ودقة المحتوى.",
+      "highlightsEn": "Updated release of the Muse model with improvements in response speed and content accuracy.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+    },
+    {
+      "id": "m-2026-11-24-6",
+      "name": "Muse Image and Muse Video",
+      "org": "Meta AI",
+      "releaseDate": "2026-11-01",
+      "highlights": "نماذج جديدة لإنشاء الصور والفيديو باستخدام الذكاء الاصطناعي مع تحسينات في الجودة والتنوع.",
+      "highlightsEn": "New models for image and video generation using AI with improvements in quality and diversity.",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-11-24-1",
+      "text": "حذرت وكمة الأمن السيبراني البريطانية من أن هجمات السيبرانيا المدعومة بالذكاء الاصطناعي تُظهر ضعف الأمن الإلكتروني الذي استمر لسنوات.",
+      "textEn": "The British cyber agency warns that AI-driven cyberattacks are exposing years of weak security.",
+      "level": "critical",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/"
+    },
+    {
+      "id": "h-2026-11-24-2",
+      "text": "أطلقت OpenAI و Cisco Shirudo، وهو نظام تشغيل مفتوح المصدر مصمم لحماية أنظمة Linux غير المُحدّثة من الثغرات الأمنية المعروفة.",
+      "textEn": "OpenAI and Cisco have launched Shirudo, an open-source operating system designed to protect unpatched Linux systems from known vulnerabilities.",
+      "level": "info",
+      "url": "https://openai.com/index/introducing-shirudo"
+    },
+    {
+      "id": "h-2026-11-24-3",
+      "text": "رفعت ولاية فيرجينيا وأوريغون دعاوى قضائية ضد شركة SpaceX و xAI بسبب فيض من الصور الإباحية والمواد الإباحية التي تم إنشاؤها بواسطة روبوت الدردشة Grok.",
+      "textEn": "Virginia and Oregon have filed lawsuits against SpaceX and xAI over a flood of sexualized images and child sexual abuse material created by the Grok chatbot.",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbmxGcGIxZkx6ZE5MdG95b3ZJTVI1WlFPRWtid2hYMjMyaF9IM0tGRjljZXJlZ1lPUW9FYVgyQmJidjUwV0VMZnRqUEUtYWN2MW5SbE9ySjQyb3h0UjlYbDFvbUN6QUwzYUhvNFJrRGJYT0hqX1I3OVN1TlVFYkNDUnUtbDEyMXRXR2dGdjh3bXM4V3NnYWpqTGVGWEhUTk1fMS1YSWI3N2Y?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-11-24-1",
+      "title": "تحذير المملكة المتحدة من هجمات السيبرانيا المدعومة بالذكاء الاصطناعي",
+      "titleEn": "UK warns of AI-driven cyberattacks",
+      "summary": "حذرت وكمة الأمن السيبراني البريطانية من أن هجمات السيبرانيا المدعومة بالذكاء الاصطناعي تُظهر ضعف الأمن الإلكتروني الذي استمر لسنوات. الوكالة أكدت أن بناء أساسات قوية لم يكن مهمًا autant من قبل.",
+      "summaryEn": "The British cyber agency warns that AI-driven cyberattacks are exposing years of weak security. The agency emphasizes that building strong foundations has never mattered more than now.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "source": "TechCrunch AI",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "sec-2026-11-24-2",
+      "title": "حوادث Qwen تظهر ثغرات النماذج الذكاء الاصطناعي المضيفة ذاتيًا",
+      "titleEn": "Qwen incidents reveal vulnerabilities in self-hosted AI models",
+      "summary": "كشفت حوادث متعلقة بنماذج Qwen عن الحاجة الملحة لتوجيه أقوى للنماذج الذكاء الاصطناعي التي تُستضيف ذاتيًا. هذه المشاكل تؤكد على التحديات الأمنية المرتبطة بنشر النماذج الذكاء الاصطناعي في البيئات المحلية.",
+      "summaryEn": "Incidents related to Qwen models reveal the urgent need for stronger steering of self-hosted AI models. These issues highlight the security challenges associated with deploying AI models in local environments.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0EtTUxWem9OeU1YaTk5YXhsbWZXTW15LTRIdnBUeEVQalJURkotQlhabFppbnFwZkNSaDkyY2pIYmRnYURHdUJ2RnExS2IxRk9XNHVYdF9UQmJmSFR3UkZnVlhDVGN0OHU3UEdubDIyX05TXzBvbDFtNkU3QjlQa2dydGktR21CV0NlX2tsMGI5a1A4d0lDRg?oc=5",
+      "source": "Qwen (news)",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "sec-2026-11-24-3",
+      "title": "دعاوى قضائية ضد SpaceX بسبب محتوى غير قانوني مُصنَّع بواسطة Grok",
+      "titleEn": "Lawsuits against SpaceX over illegal content created by Grok",
+      "summary": "رفعت ولاية فيرجينيا وأوريغون دعاوى قضائية ضد شركة SpaceX و xAI بسبب فيض من الصور الإباحية والمواد الإباحية التي تم إنشاؤها بواسطة روبوت الدردشة Grok. هذه القضية تثير مخاوف كبيرة حول استخدام الذكاء الاصطناعي في إنشاء محتوى غير قانوني.",
+      "summaryEn": "Virginia and Oregon have filed lawsuits against SpaceX and xAI over a flood of sexualized images and child sexual abuse material created by the Grok chatbot. This case raises significant concerns about AI-generated illegal content.",
+      "type": "policy",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbmxGcGIxZkx6ZE5MdG95b3ZJTVI1WlFPRWtid2hYMjMyaF9IM0tGRjljZXJlZ1lPUW9FYVgyQmJidjUwV0VMZnRqUEUtYWN2MW5SbE9ySjQyb3h0UjlYbDFvbUN6QUwzYUhvNFJrRGJYT0hqX1I3OVN1TlVFYkNDUnUtbDEyMXRXR2dGdjh3bXM4V3NnYWpqTGVGWEhUTk1fMS1YSWI3N2Y?oc=5",
+      "source": "xAI (news)",
+      "date": "2026-11-23"
+    },
+    {
+      "id": "sec-2026-11-24-4",
+      "title": "التحقق الرسمي بروتوكول Signal باستخدام الذكاء الاصطناعي",
+      "titleEn": "Formal verification of Signal Protocol using AI",
+      "summary": "استخدم باحثو Google Deepmind الذكاء الاصطناعي للتحقق الرياضي من بروتوكول Signal، مما يوفر مستوى أعلى من الأمان للاتصالات المشفرة. هذا العمل يمثل تقدمًا كبيرًا في أمن الاتصالات.",
+      "summaryEn": "Google Deepmind researchers used AI to mathematically verify the Signal protocol, providing a higher level of security for encrypted communications. This work represents significant progress in communication security.",
+      "type": "policy",
+      "severity": "info",
+      "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-17"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-11-24",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Fable 5.2",
+        "org": "Anthropic",
+        "score": "60.6"
+      },
+      {
+        "name": "Claude Mythos 5.2",
+        "org": "Anthropic",
+        "score": "58.7"
+      },
+      {
+        "name": "Gemini 4 Neon – NEW",
+        "org": "Google",
+        "score": "58.5"
+      },
+      {
+        "name": "Claude Opus 5.5 1",
+        "org": "Anthropic",
+        "score": "58.0"
+      },
+      {
+        "name": "GPT-6.2 Astra – NEW",
+        "org": "OpenAI",
+        "score": "57.8"
+      },
+      {
+        "name": "Gemini 4 Carbon 2",
+        "org": "Google",
+        "score": "56.4"
+      },
+      {
+        "name": "Claude Sonnet 5.5 2",
+        "org": "Anthropic",
+        "score": "56.3"
+      },
+      {
+        "name": "GPT-6 Astra 2",
+        "org": "OpenAI",
+        "score": "55.5"
+      },
+      {
+        "name": "Kimi K3.1 Pro 2",
+        "org": "Moonshot AI",
+        "score": "54.0"
+      },
+      {
+        "name": "GPT-6.2 Sol – NEW",
+        "org": "OpenAI",
+        "score": "53.5"
+      }
+    ],
+    "highlights": "تتصدر نماذج Claude التسعة المراكز الأولى في الترتيب الحالي، مما يدل على تفوق Anthropic في سوق الذكاء الاصطناعي. يبرز GPT-6.2 Astra كأحدث نموذج في المراكز الخمس الأولى، بينما يعتبر GPT-6.2 Sol الخيار الأرخص في المراكز العشرة الأولى بسعر 2.00 دولار/مليون رمز.",
+    "highlightsEn": "Claude models occupy the top nine positions in the current ranking, indicating Anthropic's dominance in the AI market. GPT-6.2 Astra stands out as the newest model in the top five, while GPT-6.2 Sol is the most cost-effective option in the top ten at $2.00/M token."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-11-24-تحسين-النماذج-متعددة-الوسائط",
+    "title": "تحسين النماذج متعددة الوسائط",
+    "titleEn": "Improving Multimodal Models",
+    "why": "النماذج متعددة الوسائط قادرة على معالجة وتوليد أنواع مختلفة من البيانات مثل النصوص والصور والصوت، مما يفتح آفاقاً أوسع للتطبيقات العملية. تحسين هذه النماذج يزيد من دقتها وقدرتها على فهم السياقات المعقدة.",
+    "whyEn": "Multimodal models can process and generate different types of data such as text, images, and audio, opening broader horizons for practical applications. Improving these models enhances their accuracy and ability to understand complex contexts.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "جمع مجموعة بيانات متعددة الوسائط",
+        "detail": "قم بإنشاء مجموعة بيانات متنوعة تحتوي على نصوص وصور وبيانات صوتية مرتبطة بشكل منطقي. تأكد من وجود تنوع في البيانات لتغطية حالات الاستخدام المتعددة."
+      },
+      {
+        "title": "اختيار النموذج الأساسي",
+        "detail": "حدد نموذجاً قابلاً للتحسين يدعم الوسائط المتعددة مثل CLIP أو DALL-E أو نموذج متعدد الوسائط آخر. اختر النموذج بناءً على متطلبات المشروع الخاصة بك."
+      },
+      {
+        "title": "ضبط النموذج (Fine-tuning)",
+        "detail": "قم بتدريب النموذج على مجموعة بياناتك باستخدام تقنيات الضبط الدقيق. استخدم معدل تعلم مناسب ومراقب أداء النموذج أثناء عملية التدريب."
+      },
+      {
+        "title": "التقييم والتكرار",
+        "detail": "اختبر النموذج المحسن على مجموعة بيانات اختبار وقياس الأداء باستخدام مقاييس مناسبة. قم بتعديل المعلمات وتكرار عملية التدريب لتحسين النتائج."
+      },
+      {
+        "title": "النشر والمراقبة",
+        "detail": "نفذ النموذج المحسن في بيئة الإنتاج وقم بمراقبة أدائه بشكل مستمر. قم بتحديث النموذج بانتظام بناءً على تغيرات البيانات أو متطلبات التطبيق."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Collect Multimodal Dataset",
+        "detail": "Create a diverse dataset containing text, images, and audio data that are logically connected. Ensure diversity in the data to cover multiple use cases."
+      },
+      {
+        "title": "Choose Base Model",
+        "detail": "Select an improvable model that supports multiple modalities such as CLIP or DALL-E or another multimodal model. Choose the model based on your project requirements."
+      },
+      {
+        "title": "Fine-tune the Model",
+        "detail": "Train the model on your dataset using fine-tuning techniques. Use an appropriate learning rate and monitor the model's performance during the training process."
+      },
+      {
+        "title": "Evaluation and Iteration",
+        "detail": "Test the improved model on a test set and measure performance using appropriate metrics. Adjust parameters and repeat the training process to improve results."
+      },
+      {
+        "title": "Deployment and Monitoring",
+        "detail": "Implement the improved model in the production environment and monitor its performance continuously. Update the model regularly based on data changes or application requirements."
+      }
+    ],
+    "code": "import torch\nfrom transformers import AutoModel, AutoProcessor\n\n# Load a multimodal model\nmodel_name = 'openai/clip-vit-base-patch32'\nmodel = AutoModel.from_pretrained(model_name)\nprocessor = AutoProcessor.from_pretrained(model_name)\n\n# Prepare input data\ntext = 'A photo of a cat'\nimage = load_image('cat.jpg')  # Assume this function loads an image\n\n# Process inputs\ninputs = processor(text=[text], images=image, return_tensors='pt', padding=True)\n\n# Forward pass\noutputs = model(**inputs)\nlogits_per_image = outputs.logits_per_image\nprobs = logits_per_image.softmax(dim=1)\n\nprint(f'Probability: {probs.item():.4f}')",
+    "resources": [
+      {
+        "name": "CLIP Documentation",
+        "url": "https://huggingface.co/docs/transformers/model_doc/clip"
+      },
+      {
+        "name": "Multimodal AI Research Papers",
+        "url": "https://arxiv.org/list/cs.CL.recent"
+      }
+    ],
+    "tags": [
+      "نماذج متعددة الوسائط",
+      "تحسين النماذج",
+      "معالجة البيانات",
+      "التعلم العميق"
+    ],
+    "quickRef": "تحسين النماذج متعددة الوسائط يتضمن جمع بيانات متنوعة، اختيار نموذج أساسي، ضبط الدقيق، التقييم المستمر، والنشر المراقب.",
+    "quickRefEn": "Improving multimodal models involves collecting diverse data, selecting a base model, fine-tuning, continuous evaluation, and monitored deployment.",
+    "quiz": [
+      {
+        "q": "ما هو الخطأ الأكثر شيوعاً عند تحسين النماذج متعددة الوسائط؟",
+        "options": [
+          "عدم تنوع مجموعة البيانات",
+          "استخدام معدل تعلم مرتفع جداً",
+          "تجاهل تقييم النموذج",
+          "كل ما سبق"
+        ],
+        "answer": 3,
+        "explain": "كل الخيارات المذكورة هي أخطاء شائعة عند تحسين النماذج متعددة الوسائط. عدم تنوع البيانات يؤدي إلى تحيز النموذج، ومعدل التعلم المرتفع قد يسبب عدم استقرار، وتجاهل التقييم يمنع تحديد المشاكل وتحسينها."
+      },
+      {
+        "q": "ما هو أهم مكون في النموذج متعدد الوسائط الذي يربط بين النصوص والصور؟",
+        "options": [
+          "معالج النصوص",
+          "معالج الصور",
+          "جهاز التشفير",
+          "جهاز الربط"
+        ],
+        "answer": 3,
+        "explain": "جهاز الربط (Projection Head) هو المكون المسؤول عن ربط تمثيلات النصوص والصور في فضاء مشترك، مما يسمح للنموذج بفهم العلاقة بين الوسائط المختلفة."
+      }
+    ],
+    "addedAt": "2026-11-24"
+  }
+}

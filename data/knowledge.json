@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-25-ضبط-النماذج-الصغيرة-لمهام-محددة",
+      "title": "ضبط النماذج الصغيرة لمهام محددة",
+      "titleEn": "Fine-tuning Small Models for Specific Tasks",
+      "why": "ضبط النماذج الصغيرة يسمح بتخصيص نماذج مفتوحة المصدر لمهام محددة، مما يحسن الدقة والأداء مع تقليل التكاليف الحسابية.",
+      "whyEn": "Fine-tuning small models allows customization of open-source models for specific tasks, improving accuracy and performance while reducing computational costs.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد المهمة ومجموعة البيانات",
+          "detail": "حدد المهمة الدقيقة التي تريد تحسين النموذج لها، وقم بإنشاء مجموعة بيانات متوازنة ذات جودة عالية تتضمن أمثلة متنوعة تغطي جميع السيناريوهات المحتملة."
+        },
+        {
+          "title": "اخيار النموذج الأساس",
+          "detail": "اختر نموذجاً صغيراً مناسباً للمهمة، مثل Phi-2, Mistral 7B, أو Llama 3 8B، مع مراعاة حجم النموذج وقدراته الأساسية."
+        },
+        {
+          "title": "إعداد البيئة",
+          "detail": "قم بتثبيت المكتبات اللازمة مثل transformers, peft, و datasets. تأكد من توفر وحدة معالجة رسومية (GPU) كافية للعمليات."
+        },
+        {
+          "title": "تجهيز البيانات",
+          "detail": "قم بمعالجة مجموعة البيانات وتنظيفها، ثم قم بتقسيمها إلى مجموعات تدريب، تحقق، واختبار. قم بتطبيق التحويلات اللازمة لتنسيق البيانات."
+        },
+        {
+          "title": "تنفيذ الضبط",
+          "detail": "استخدم تقنيات مثل LoRA (Low-Rank Adaptation) أو QLoRA لتحقيق ضبط فعال باستخدام موارد محدودة. قم بتدريب النموذج على مجموعة البيانات مع مراقبة الخسارة."
+        },
+        {
+          "title": "التقييم والتكرار",
+          "detail": "قم بتقييم أداء النموذج على مجموعة الاختبار وقارنه بالنموذج الأصلي. قم بتعديل المعلمات أو زيادة البيانات إذا لزم الأمر."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define the task and dataset",
+          "detail": "Identify the specific task you want to improve the model for, and create a high-quality, balanced dataset that includes diverse examples covering all possible scenarios."
+        },
+        {
+          "title": "Select the base model",
+          "detail": "Choose a suitable small model for the task, such as Phi-2, Mistral 7B, or Llama 3 8B, considering the model size and its basic capabilities."
+        },
+        {
+          "title": "Set up the environment",
+          "detail": "Install necessary libraries like transformers, peft, and datasets. Ensure you have sufficient GPU resources for the operations."
+        },
+        {
+          "title": "Prepare the data",
+          "detail": "Process and clean the dataset, then split it into training, validation, and test sets. Apply necessary transformations to format the data."
+        },
+        {
+          "title": "Implement fine-tuning",
+          "detail": "Use techniques like LoRA (Low-Rank Adaptation) or QLoRA for efficient fine-tuning with limited resources. Train the model on the dataset while monitoring the loss."
+        },
+        {
+          "title": "Evaluate and iterate",
+          "detail": "Evaluate the model's performance on the test set and compare it with the original model. Adjust parameters or increase data if necessary."
+        }
+      ],
+      "code": "from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer\nfrom peft import LoraConfig, get_peft_model\nimport torch\n\n# Load base model and tokenizer\nmodel_name = \"microsoft/phi-2\"\nmodel = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16)\ntokenizer = AutoTokenizer.from_pretrained(model_name)\n\n# Configure LoRA\nlora_config = LoraConfig(\n    r=16,\n    lora_alpha=32,\n    lora_dropout=0.05,\n    bias=\"none\",\n    task_type=\"CAUSAL_LM\"\n)\n\n# Apply LoRA\nmodel = get_peft_model(model, lora_config)\n\n# Training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=4,\n    save_steps=500,\n    logging_steps=50,\n)\n\n# Create trainer and start training\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=your_train_dataset,\n    eval_dataset=your_eval_dataset,\n)\n\ntrainer.train()",
+      "resources": [
+        {
+          "name": "PEFT Documentation",
+          "url": "https://huggingface.co/docs/peft/index"
+        },
+        {
+          "name": "Fine-tuning Tutorials",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "LoRA Paper",
+          "url": "https://arxiv.org/abs/2106.09685"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "LoRA",
+        "نماذج صغيرة",
+        "PEFT"
+      ],
+      "quickRef": "1. اختر نموذجاً صغيراً مناسباً 2. جهز بيانات متوازنة 3. استخدم LoRA للضبط 4. قم بتدريب النموذج 5. قيّم الأداء",
+      "quickRefEn": "1. Choose a suitable small model 2. Prepare balanced data 3. Use LoRA for fine-tuning 4. Train the model 5. Evaluate performance",
+      "quiz": [
+        {
+          "q": "ما هي تقنية الضبط التي تقلل من استخدام الذاكرة بشكل كبير أثناء عملية ضبط النماذج الكبيرة؟",
+          "options": [
+            "Full Fine-tuning",
+            "Transfer Learning",
+            "LoRA",
+            "Reinforcement Learning"
+          ],
+          "answer": 2,
+          "explain": "LoRA (Low-Rank Adaptation) هي تقنية تسمح بضبط النماذج الكبيرة باستخدام موارد محدودة عن طريق تحديث مصفوفات منخفضة الرتبة فقط."
+        },
+        {
+          "q": "ما هو العامل الأكثر أهمية عند اختيار نموذج أساسي لعملية الضبط؟",
+          "options": [
+            "حجم النموذج فقط",
+            "الأداء الأساسي للنموذج فقط",
+            "توثيق النموذج",
+            "كل ما سبق"
+          ],
+          "answer": 3,
+          "explain": "يجب مراعاة عدة عوامل عند اختيار النموذج الأساسي: حجم النموذج، أداءه الأساسي، وجودة التوثيق المتاح له."
+        },
+        {
+          "q": "ما هو الخطأ الشائع عند ضبط النماذج الصغيرة لمهام محددة؟",
+          "options": [
+            "استخدام بيانات غير متوازنة",
+            "اختيار نموذج كبير جداً",
+            "عدم استخدام GPU",
+            "كل ما سبق"
+          ],
+          "answer": 3,
+          "explain": "كل الخيارات خطأ شائع: استخدام بيانات غير متوازنة يؤدي إلى تحيز، اختيار نموذج كبير يزيد التكلفة، وعدم استخدام GPU يبطئ العملية بشكل كبير."
+        }
+      ],
+      "addedAt": "2026-11-25"
+    },
+    {
       "id": "k-2026-11-24-تحسين-النماذج-متعددة-الوسائط",
       "title": "تحسين النماذج متعددة الوسائط",
       "titleEn": "Improving Multimodal Models",
