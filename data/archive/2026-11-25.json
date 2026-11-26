@@ -1,0 +1,472 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T20:45:02.294Z",
+  "news": [
+    {
+      "id": "n-2026-11-25-1",
+      "title": "هاكرز يحلون محل نموذج DeepSeek لمدة 53 ساعة ويحذفون حمايته",
+      "titleEn": "Hackers replaced a DeepSeek model for 53 hours and stripped away its safety protections",
+      "summary": "تمكن هاكرز من استبدال نموذج DeepSeek لمدة 53 ساعة بالكامل وإزالة جميع حمايته الأمنية، مما يمثل تهديدًا كبيرًا لنموذج ذكاء اصطناعي كبير.",
+      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and completely removed all its safety protections, representing a significant threat to a large AI model.",
+      "category": "other",
+      "importance": 5,
+      "source": {
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5"
+      },
+      "publishedAt": "2026-11-21"
+    },
+    {
+      "id": "n-2026-11-25-9",
+      "title": "ولايات رفعت دعاوى ضد شركات马斯ك بسبب صور إباحية مُصنَّعة بواسطة Grok",
+      "titleEn": "States sue Musk companies over sexual images made by Grok",
+      "summary": "رفعت ولايات أمريكية دعاوى قضائية ضد شركات马斯ك بسبب إنشاء Grok لمحتوى جنسي غير قانوني، مما يثير مخاوف أخلاقية وقانونية حول الذكاء الاصطناعي.",
+      "summaryEn": "US states filed lawsuits against Musk's companies over Grok's creation of illegal sexual content, raising ethical and legal concerns about AI.",
+      "category": "regulation",
+      "importance": 5,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbmxGcGIxZkx6ZE5MdG95b3ZJTVI1WlFPRWtid2hYMjMyaF9IM0tGRjljZXJlZ1lPUW9FYVgyQmJidjUwV0VMZnRqUEUtYWN2MW5SbE9ySjQyb3h0UjlYbDFvbUN6QUwzYUhvNFJrRGJYT0hqX1I3OVN1TlVFYkNDUnUtbDEyMXRXR2dGdjh3bXM4V3NnYWpqTGVGWEhUTk1fMS1YSWI3N2Y?oc=5"
+      },
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "n-2026-11-25-2",
+      "title": "نماذج GPT-6 تظهر قدرات تصميم البروتينات",
+      "titleEn": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "summary": "أعلنت OpenAI عن قدرة نماذج GPT-6 على تصميم هياكل و_sequences البروتينات باستخدام التفكير والكود، مع نتائج تجريبية واعدة في المختبر.",
+      "summaryEn": "OpenAI announced that GPT-6 models can design protein structures and sequences using reasoning and code, with promising experimental results in the lab.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+      },
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "id": "n-2026-11-25-3",
+      "title": "OpenAI و Cisco يقدمان Shirudo: نظام تشغيل مفتوح المصدر لحماية الأنظمة",
+      "titleEn": "OpenAI and Cisco introduce Shirudo",
+      "summary": "قدمت OpenAI و Cisco Shirudo، نظام تشغيل مفتوح المصدر لينكس، لمساعدة فرق الحماية على حماية أنظمتهم من التهديدات المتطورة.",
+      "summaryEn": "OpenAI and Cisco introduced Shirudo, an open-source Linux runtime to help security teams protect their systems from evolving threats.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-shirudo"
+      },
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "n-2026-11-25-4",
+      "title": "إطلاق Gemini 4 Neon: أحدث نموذج من Google DeepMind",
+      "titleEn": "Introducing Gemini 4 Neon",
+      "summary": "أعلنت Google DeepMind عن إطلاق Gemini 4 Neon، أحدث نموذجها المتقدم الذي يوفر قدرات محسنة في معالجة اللغات والبيانات.",
+      "summaryEn": "Google DeepMind announced the launch of Gemini 4 Neon, its latest advanced model offering enhanced capabilities in language and data processing.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+      },
+      "publishedAt": "2026-11-18"
+    },
+    {
+      "id": "n-2026-11-25-5",
+      "title": "AlphaProof Code: ثورة في التحقق من البرمجيات المعقدة",
+      "titleEn": "AlphaProof Code: a breakthrough in verifying complex software",
+      "summary": "كتبت وكلاء AlphaProof Code ثلاثة ملايين سطر من البراهين في Lean للتحقق من إشارات Signal، مما يمثل تقدمًا كبيرًا في أمان البرمجيات.",
+      "summaryEn": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal's signals, representing a significant advance in software security.",
+      "category": "tools",
+      "importance": 4,
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "n-2026-11-25-7",
+      "title": "Z.ai تطلق GLM-5.4: أول نموذج Loop Transformer",
+      "titleEn": "Z.ai launches GLM-5.4: first Loop Transformer model",
+      "summary": "أطلقت Z.ai نموذج GLM-5.4، وهو أول نموذج Loop Transformer بحجم 750 مليار معلم، مع تصميم معماري مبتكر يتجاهل معايير المقارنة التقليدية.",
+      "summaryEn": "Z.ai launched GLM-5.4, the first 750-billion parameter Loop Transformer model, with an innovative architecture that bypasses traditional benchmarking standards.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYzVQeVF0STVjTGtOQ251YWpsZWx6VHJOdDUxRHQ2ZG5iTFZacXJ1REtaWXpYR09xT2EtMzQ4WDFsWFluXzRvNTIzWGlzb3BnWEhOSE9jWGk4VjhQbzVDVjF0NWhHQl8wS2o5LUE1WU9qYlV3ZmNtZXFMQXpuUHVPTWxBQnFqWmk2TkZmVHJ1NnM2TmQ1dXZJRE8wclZjbXNJRkVUQ1BIdWZpYmdBQ25jTzdqQWp4c0o1ajlEUnZHSQ?oc=5"
+      },
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "id": "n-2026-11-25-6",
+      "title": "Mistral Large 4: نموذج جديد من Mistral AI",
+      "titleEn": "Introducing Mistral Large 4",
+      "summary": "أطلقت Mistral AI نموذج Mistral Large 4 الجديد، الذي يوفر أداءً متقدمًا في مجموعة واسعة من المهام اللغوية والمعرفية.",
+      "summaryEn": "Mistral AI launched its new Mistral Large 4 model, offering advanced performance across a wide range of language and cognitive tasks.",
+      "category": "models",
+      "importance": 3,
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/mistral-large-4/"
+      },
+      "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "n-2026-11-25-8",
+      "title": "Alibaba تدرب Qwen التالي على رقاقاتها الخاصة",
+      "titleEn": "Alibaba trains next Qwen on own chips",
+      "summary": "أعلنت Alibaba عن تدريب النموذج الجيل التالي من Qwen على رقاقاتها الخاصة، مما يمثل تقدمًا في دمج البرمجيات والعتاد.",
+      "summaryEn": "Alibaba announced training the next-generation Qwen model on its own chips, representing progress in hardware-software integration.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUm9hTGFpeHdXS1gwU2NrSGItT1BYNUJSZ0dMS1hmSjMtQVBoTE9NamdmZkRIVjNvamRkMllja21pSWZhQklITlJjMHlISFdpSDFiaVphYjVrS0NyZ0ozdG8zcGRGQmktS2Q2dy1DNnowaVRtYWZYdkp5d1JTSW1yQ0NvOFJVT2c2UXc3cElVZmk?oc=5"
+      },
+      "publishedAt": "2026-11-20"
+    },
+    {
+      "id": "n-2026-11-25-10",
+      "title": "التحقق الرسمي بروتوكول Signal باستخدام الذكاء الاصطناعي",
+      "titleEn": "Formal Verification of the Signal Protocol Using AI",
+      "summary": "استخدم باحثو Google Deepmind وكلاء ذكاء اصطناعي للتحقق الرياضي من بروتوكول Signal، مما يعزز أمن الاتصالات المشفرة.",
+      "summaryEn": "Google Deepmind researchers used agentic AI to mathematically verify the Signal protocol, enhancing encrypted communications security.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html"
+      },
+      "publishedAt": "2026-11-17"
+    }
+  ],
+  "models": [
+    {
+      "id": "m-2026-11-25-1",
+      "name": "Gemini 4 Neon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-18",
+      "highlights": "يوفر قدرات محسنة في معالجة اللغات والبيانات",
+      "highlightsEn": "Enhanced capabilities in language and data processing",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+    },
+    {
+      "id": "m-2026-11-25-2",
+      "name": "Gemini 4 Hydrogen",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-12",
+      "highlights": "نموذج متخصص في المهام العلمية المعقدة",
+      "highlightsEn": "Specialized model for complex scientific tasks",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    },
+    {
+      "id": "m-2026-11-25-3",
+      "name": "Gemini 4 Carbon",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-10",
+      "highlights": "مصمم للاستخدامات الصناعية والتطبيقات العملية",
+      "highlightsEn": "Designed for industrial use and practical applications",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+    },
+    {
+      "id": "m-2026-11-25-4",
+      "name": "AlphaProof Code",
+      "org": "Google DeepMind",
+      "releaseDate": "2026-11-10",
+      "highlights": "يكتب ملايين سطور البراهين للتحقق من البرمجيات المعقدة",
+      "highlightsEn": "Writes millions of proof lines to verify complex software",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+    },
+    {
+      "id": "m-2026-11-25-5",
+      "name": "Mistral Large 4",
+      "org": "Mistral AI",
+      "releaseDate": "2026-10-06",
+      "highlights": "يوفر أداءً متقدمًا في مجموعة واسعة من المهام اللغوية والمعرفية",
+      "highlightsEn": "Offers advanced performance across wide range of language and cognitive tasks",
+      "specs": {
+        "context": "128K"
+      },
+      "url": "https://mistral.ai/news/mistral-large-4/"
+    },
+    {
+      "id": "m-2026-11-25-6",
+      "name": "GLM-5.4",
+      "org": "Z.ai",
+      "releaseDate": "2026-11-23",
+      "highlights": "أول نموذج Loop Transformer بحجم 750 مليار معلم",
+      "highlightsEn": "First 750-billion parameter Loop Transformer model",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYzVQeVF0STVjTGtOQ251YWpsZWx6VHJOdDUxRHQ2ZG5iTFZacXJ1REtaWXpYR09xT2EtMzQ4WDFsWFluXzRvNTIzWGlzb3BnWEhOSE9jWGk4VjhQbzVDVjF0NWhHQl8wS2o5LUE1WU9qYlV3ZmNtZXFMQXpuUHVPTWxBQnFqWmk2TkZmVHJ1NnM2TmQ1dXZJRE8wclZjbXNJRkVUQ1BIdWZpYmdBQ25jTzdqQWp4c0o1ajlEUnZHSQ?oc=5"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "h-2026-11-25-1",
+      "text": "OpenAI و Cisco يقدمان Shirudo: نظام تشغيل مفتوح المصدر لحماية الأنظمة",
+      "textEn": "OpenAI and Cisco introduce Shirudo: an open-source runtime for protecting systems",
+      "level": "info",
+      "url": "https://openai.com/index/introducing-shirudo"
+    },
+    {
+      "id": "h-2026-11-25-2",
+      "text": "ولايات رفعت دعاوى ضد شركات马斯ك بسبب صور إباحية مُصنَّعة بواسطة Grok",
+      "textEn": "States sue Musk companies over sexual images made by Grok",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbmxGcGIxZkx6ZE5MdG95b3ZJTVI1WlFPRWtid2hYMjMyaF9IM0tGRjljZXJlZ1lPUW9FYVgyQmJidjUwV0VMZnRqUEUtYWN2MW5SbE9ySjQyb3h0UjlYbDFvbUN6QUwzYUhvNFJrRGJYT0hqX1I3OVN1TlVFYkNDUnUtbDEyMXRXR2dGdjh3bXM4V3NnYWpqTGVGWEhUTk1fMS1YSWI3N2Y?oc=5"
+    },
+    {
+      "id": "h-2026-11-25-3",
+      "text": "هاكرز يحلون محل نموذج DeepSeek لمدة 53 ساعة ويحذفون حمايته",
+      "textEn": "Hackers replaced a DeepSeek model for 53 hours and stripped away its safety protections",
+      "level": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5"
+    }
+  ],
+  "security": [
+    {
+      "id": "sec-2026-11-25-1",
+      "title": "هاكرز يحلون محل نموذج DeepSeek لمدة 53 ساعة ويحذفون حمايته",
+      "titleEn": "Hackers replaced a DeepSeek model for 53 hours and stripped away its safety protections",
+      "summary": "تمكن هاكرز من استبدال نموذج DeepSeek لمدة 53 ساعة بالكامل وإزالة جميع حمايته الأمنية، مما سمح للمستخدمين بتجاوز قيود السلامة.",
+      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and completely removed all its safety protections, allowing users to bypass safety constraints.",
+      "type": "breach",
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5",
+      "source": "DeepSeek (news)",
+      "date": "2026-11-21"
+    },
+    {
+      "id": "sec-2026-11-25-2",
+      "title": "تتبع حوacking باستخدام أدوات الذكاء الاصطناعي",
+      "titleEn": "Tracking incidents of hacking using AI tools",
+      "summary": "يدير دانيال ميسلر تتبع حوادث الهاacking المعززة بالذكاء الاصطناعي، حيث يستخدم المهاجمون أدوات متقدمة لتحديد الثغرات.",
+      "summaryEn": "Daniel Meissler is tracking AI-enhanced hacking incidents, where attackers use advanced tools to identify vulnerabilities.",
+      "type": "prompt-injection",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-25"
+    },
+    {
+      "id": "sec-2026-11-25-3",
+      "title": "فرنسا تتهم إيران بتنفيذ هجمات الثلاجة الإلكترونية",
+      "titleEn": "France Is Blaming Iran for the Fridge Cyberattack",
+      "summary": "اتهمت فرنسا إيران بتنفيذ هجمات الثلاجة الإلكترونية، مما يمثل تهديدًا جديدًا للبنية التحتية الحيوية.",
+      "summaryEn": "France is blaming Iran for the fridge cyberattack, representing a new threat to critical infrastructure.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "sec-2026-11-25-4",
+      "title": "الأمن القابل للاستخدام في الفنادق الفاخرة",
+      "titleEn": "Usable Security at Luxury Hotels",
+      "summary": "دراسة حالة مثيرة للاهتمام من الفنادق الفاخرة حيث استخدم المهاجمون طلبات حجز وهمية للحصول على وصول.",
+      "summaryEn": "Interesting case study from luxury hotels where attackers used fake booking requests to gain access.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+      "source": "Schneier on Security",
+      "date": "2026-11-16"
+    }
+  ],
+  "benchmarks": {
+    "asOf": "2026-11-25",
+    "source": "LLM Stats",
+    "url": "https://llm-stats.com/",
+    "topModels": [
+      {
+        "name": "Claude Fable 5.2",
+        "org": "Anthropic",
+        "score": "60.6"
+      },
+      {
+        "name": "Claude Mythos 5.2",
+        "org": "Anthropic",
+        "score": "58.7"
+      },
+      {
+        "name": "Gemini 4 Neon",
+        "org": "Google",
+        "score": "58.5"
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "org": "Anthropic",
+        "score": "58.0"
+      },
+      {
+        "name": "GPT-6.2 Astra",
+        "org": "OpenAI",
+        "score": "57.8"
+      },
+      {
+        "name": "Gemini 4 Carbon",
+        "org": "Google",
+        "score": "56.4"
+      },
+      {
+        "name": "Claude Sonnet 5.5",
+        "org": "Anthropic",
+        "score": "56.3"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "org": "OpenAI",
+        "score": "55.5"
+      },
+      {
+        "name": "Kimi K3.1 Pro",
+        "org": "Moonshot AI",
+        "score": "54.0"
+      },
+      {
+        "name": "GPT-6.2 Sol",
+        "org": "OpenAI",
+        "score": "53.5"
+      }
+    ],
+    "highlights": "تتصدر نماذج Claude من Anthropic الترتيب مع Claude Fable 5.2 في المركز الأول، بينما يظهر GPT-6.2 Astra من OpenAI كأحدث إضافة قوية في المركز الخامس. المنافسة شديدة بين النماذج العشرة الأولى حيث الفارق بين المركز الأول والعاشر لا يتجاوز 7.1 نقطة.",
+    "highlightsEn": "Claude models from Anthropic lead the rankings with Claude Fable 5.2 in first place, while GPT-6.2 Astra from OpenAI appears as a strong new addition in fifth place. Competition is fierce among the top ten models, with the difference between first and tenth place not exceeding 7.1 points."
+  },
+  "knowledgeEntry": {
+    "id": "k-2026-11-25-ضبط-النماذج-الصغيرة-لمهام-محددة",
+    "title": "ضبط النماذج الصغيرة لمهام محددة",
+    "titleEn": "Fine-tuning Small Models for Specific Tasks",
+    "why": "ضبط النماذج الصغيرة يسمح بتخصيص نماذج مفتوحة المصدر لمهام محددة، مما يحسن الدقة والأداء مع تقليل التكاليف الحسابية.",
+    "whyEn": "Fine-tuning small models allows customization of open-source models for specific tasks, improving accuracy and performance while reducing computational costs.",
+    "difficulty": "intermediate",
+    "track": "building",
+    "steps": [
+      {
+        "title": "تحديد المهمة ومجموعة البيانات",
+        "detail": "حدد المهمة الدقيقة التي تريد تحسين النموذج لها، وقم بإنشاء مجموعة بيانات متوازنة ذات جودة عالية تتضمن أمثلة متنوعة تغطي جميع السيناريوهات المحتملة."
+      },
+      {
+        "title": "اخيار النموذج الأساس",
+        "detail": "اختر نموذجاً صغيراً مناسباً للمهمة، مثل Phi-2, Mistral 7B, أو Llama 3 8B، مع مراعاة حجم النموذج وقدراته الأساسية."
+      },
+      {
+        "title": "إعداد البيئة",
+        "detail": "قم بتثبيت المكتبات اللازمة مثل transformers, peft, و datasets. تأكد من توفر وحدة معالجة رسومية (GPU) كافية للعمليات."
+      },
+      {
+        "title": "تجهيز البيانات",
+        "detail": "قم بمعالجة مجموعة البيانات وتنظيفها، ثم قم بتقسيمها إلى مجموعات تدريب، تحقق، واختبار. قم بتطبيق التحويلات اللازمة لتنسيق البيانات."
+      },
+      {
+        "title": "تنفيذ الضبط",
+        "detail": "استخدم تقنيات مثل LoRA (Low-Rank Adaptation) أو QLoRA لتحقيق ضبط فعال باستخدام موارد محدودة. قم بتدريب النموذج على مجموعة البيانات مع مراقبة الخسارة."
+      },
+      {
+        "title": "التقييم والتكرار",
+        "detail": "قم بتقييم أداء النموذج على مجموعة الاختبار وقارنه بالنموذج الأصلي. قم بتعديل المعلمات أو زيادة البيانات إذا لزم الأمر."
+      }
+    ],
+    "stepsEn": [
+      {
+        "title": "Define the task and dataset",
+        "detail": "Identify the specific task you want to improve the model for, and create a high-quality, balanced dataset that includes diverse examples covering all possible scenarios."
+      },
+      {
+        "title": "Select the base model",
+        "detail": "Choose a suitable small model for the task, such as Phi-2, Mistral 7B, or Llama 3 8B, considering the model size and its basic capabilities."
+      },
+      {
+        "title": "Set up the environment",
+        "detail": "Install necessary libraries like transformers, peft, and datasets. Ensure you have sufficient GPU resources for the operations."
+      },
+      {
+        "title": "Prepare the data",
+        "detail": "Process and clean the dataset, then split it into training, validation, and test sets. Apply necessary transformations to format the data."
+      },
+      {
+        "title": "Implement fine-tuning",
+        "detail": "Use techniques like LoRA (Low-Rank Adaptation) or QLoRA for efficient fine-tuning with limited resources. Train the model on the dataset while monitoring the loss."
+      },
+      {
+        "title": "Evaluate and iterate",
+        "detail": "Evaluate the model's performance on the test set and compare it with the original model. Adjust parameters or increase data if necessary."
+      }
+    ],
+    "code": "from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer\nfrom peft import LoraConfig, get_peft_model\nimport torch\n\n# Load base model and tokenizer\nmodel_name = \"microsoft/phi-2\"\nmodel = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16)\ntokenizer = AutoTokenizer.from_pretrained(model_name)\n\n# Configure LoRA\nlora_config = LoraConfig(\n    r=16,\n    lora_alpha=32,\n    lora_dropout=0.05,\n    bias=\"none\",\n    task_type=\"CAUSAL_LM\"\n)\n\n# Apply LoRA\nmodel = get_peft_model(model, lora_config)\n\n# Training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=4,\n    save_steps=500,\n    logging_steps=50,\n)\n\n# Create trainer and start training\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=your_train_dataset,\n    eval_dataset=your_eval_dataset,\n)\n\ntrainer.train()",
+    "resources": [
+      {
+        "name": "PEFT Documentation",
+        "url": "https://huggingface.co/docs/peft/index"
+      },
+      {
+        "name": "Fine-tuning Tutorials",
+        "url": "https://huggingface.co/docs/transformers/training"
+      },
+      {
+        "name": "LoRA Paper",
+        "url": "https://arxiv.org/abs/2106.09685"
+      }
+    ],
+    "tags": [
+      "ضبط النماذج",
+      "LoRA",
+      "نماذج صغيرة",
+      "PEFT"
+    ],
+    "quickRef": "1. اختر نموذجاً صغيراً مناسباً 2. جهز بيانات متوازنة 3. استخدم LoRA للضبط 4. قم بتدريب النموذج 5. قيّم الأداء",
+    "quickRefEn": "1. Choose a suitable small model 2. Prepare balanced data 3. Use LoRA for fine-tuning 4. Train the model 5. Evaluate performance",
+    "quiz": [
+      {
+        "q": "ما هي تقنية الضبط التي تقلل من استخدام الذاكرة بشكل كبير أثناء عملية ضبط النماذج الكبيرة؟",
+        "options": [
+          "Full Fine-tuning",
+          "Transfer Learning",
+          "LoRA",
+          "Reinforcement Learning"
+        ],
+        "answer": 2,
+        "explain": "LoRA (Low-Rank Adaptation) هي تقنية تسمح بضبط النماذج الكبيرة باستخدام موارد محدودة عن طريق تحديث مصفوفات منخفضة الرتبة فقط."
+      },
+      {
+        "q": "ما هو العامل الأكثر أهمية عند اختيار نموذج أساسي لعملية الضبط؟",
+        "options": [
+          "حجم النموذج فقط",
+          "الأداء الأساسي للنموذج فقط",
+          "توثيق النموذج",
+          "كل ما سبق"
+        ],
+        "answer": 3,
+        "explain": "يجب مراعاة عدة عوامل عند اختيار النموذج الأساسي: حجم النموذج، أداءه الأساسي، وجودة التوثيق المتاح له."
+      },
+      {
+        "q": "ما هو الخطأ الشائع عند ضبط النماذج الصغيرة لمهام محددة؟",
+        "options": [
+          "استخدام بيانات غير متوازنة",
+          "اختيار نموذج كبير جداً",
+          "عدم استخدام GPU",
+          "كل ما سبق"
+        ],
+        "answer": 3,
+        "explain": "كل الخيارات خطأ شائع: استخدام بيانات غير متوازنة يؤدي إلى تحيز، اختيار نموذج كبير يزيد التكلفة، وعدم استخدام GPU يبطئ العملية بشكل كبير."
+      }
+    ],
+    "addedAt": "2026-11-25"
+  }
+}

@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-26-تحسين-الأداء-باستخدام-تقنيات-التضمين-المتقدمة",
+      "title": "تحسين الأداء باستخدام تقنيات التضمين المتقدمة",
+      "titleEn": "Performance Optimization Using Advanced Embedding Techniques",
+      "why": "تساعد تقنيات التضمين المتقدمة نماذج الذكاء الاصطناعي على فهم السياق بشكل أفضل وتحسين الدقة في المهام المعقدة مثل البحث الاسترجاعي وتصنيف النصوص.",
+      "whyEn": "Advanced embedding techniques help AI models better understand context and improve accuracy in complex tasks like search retrieval and text classification.",
+      "difficulty": "intermediate",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "فهم أساسيات التضمين",
+          "detail": "التضمين (Embedding) هو عملية تحويل الكلمات أو الجملات إلى متجهات رقمية تمثل المعنى الدلالي. كل متجه يمثل موقف الكلمة في فضاء ذي أبعاد عديدة."
+        },
+        {
+          "title": "اختيار نموذج التضمين المناسب",
+          "detail": "اختر نموذج التضمين بناءً على متطلبات المشروع. النماذج مثل BERT وGPT وSentence-transformers تختلف في الأداء والحجم والسرعة."
+        },
+        {
+          "title": "تحسين التضمين للسياق الخاص",
+          "detail": "قم بتدريب نموذج التضمين على بيانات متخصصة لمجال عملك لتحسين فهمه للمصطلحات والمفاهيم المحددة."
+        },
+        {
+          "title": "دمج تقنيات التجميع",
+          "detail": "استخدم تقنيات مثل FAISS أو Annoy لتسريع عمليات البحث والتشابه بين المتجهات الكبيرة."
+        },
+        {
+          "title": "قياس وتحسين الأداء",
+          "detail": "استخدم مقاييس مثل Precision@K وMAP لتقييم أداء نظام التضمين وقم بتحسينه بناءً على النتائج."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Understanding Embedding Basics",
+          "detail": "Embedding is the process of converting words or sentences into numerical vectors that represent semantic meaning. Each vector represents the word's position in a multi-dimensional space."
+        },
+        {
+          "title": "Choosing the Right Embedding Model",
+          "detail": "Select an embedding model based on your project requirements. Models like BERT, GPT, and Sentence-transformers differ in performance, size, and speed."
+        },
+        {
+          "title": "Fine-tuning Embeddings for Specific Context",
+          "detail": "Train the embedding model on specialized data for your domain to improve its understanding of specific terms and concepts."
+        },
+        {
+          "title": "Implementing Indexing Techniques",
+          "detail": "Use techniques like FAISS or Annoy to speed up search and similarity operations on large vector collections."
+        },
+        {
+          "title": "Measuring and Improving Performance",
+          "detail": "Use metrics like Precision@K and MAP to evaluate your embedding system's performance and improve it based on results."
+        }
+      ],
+      "code": "from sentence_transformers import SentenceTransformer, util\nimport torch\n\n# Load a pre-trained model\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\n# Sample sentences\ncorpus = [\n    'A man is eating food.',\n    'A man is eating a piece of bread.',\n    'A woman is playing guitar.',\n    'A man is playing guitar.'\n]\n\n# Encode sentences\nembeddings = model.encode(corpus, convert_to_tensor=True)\n\n# Compute cosine similarity\ncosine_scores = util.cos_sim(embeddings, embeddings)\n\n# Find most similar pairs\npairs = []\nfor i in range(len(cosine_scores)-1):\n    for j in range(i+1, len(cosine_scores)):\n        pairs.append({'index': [i, j], 'score': cosine_scores[i][j]})\n\n# Sort and show top pairs\npairs = sorted(pairs, key=lambda x: x['score'], reverse=True)\nfor pair in pairs[0:3]:\n    i, j = pair['index']\n    print(f'{corpus[i]} \\t \\t {corpus[j]} \\t -> {pair[\"score\"]:.4f}')",
+      "resources": [
+        {
+          "name": "Sentence Transformers Documentation",
+          "url": "https://www.sbert.net"
+        },
+        {
+          "name": "FAISS Documentation",
+          "url": "https://faiss.ai"
+        },
+        {
+          "name": "Hugging Face Embedding Models",
+          "url": "https://huggingface.co/models"
+        }
+      ],
+      "tags": [
+        "تضمين",
+        "تحسين الأداء",
+        "نماذج لغوية",
+        "استرجاع المعلومات"
+      ],
+      "quickRef": "استخدم نماذج التضمين المتقدمة لتحويل النصوص لمتجهات رقمية، اختر النموذج المناسب، قم بالتدريب على بيانات متخصصة، استخدم تقنيات التجميع، وقم بقياس الأداء باستخدام مقاييس مناسبة.",
+      "quickRefEn": "Use advanced embedding models to convert text to numerical vectors, choose the appropriate model, train on specialized data, implement indexing techniques, and measure performance using suitable metrics.",
+      "quiz": [
+        {
+          "q": "ما هو التضمين (Embedding) في نماذج الذكاء الاصطناعي؟",
+          "options": [
+            "عملية تحويل النصوص إلى كلمات مفتاحية",
+            "عملية تحويل الكلمات أو الجملات إلى متجهات رقمية تمثل المعنى",
+            "عملية تنظيف البيانات النصية",
+            "عملية ترجمة النصوص لغات مختلفة"
+          ],
+          "answer": 1,
+          "explain": "التضمين (Embedding) هو عملية تحويل الكلمات أو الجملات إلى متجهات رقمية تمثل المعنى الدلالي في فضاء ذي أبعاد عديدة."
+        },
+        {
+          "q": "أي من الخيارات التالية هي تقنية فعالة لتسريع عمليات البحث في مجموعات المتجهات الكبيرة؟",
+          "options": [
+            "زيادة حجم النموذج",
+            "استخدام تقنيات التجميع مثل FAISS أو Annoy",
+            "تقليل عدد الأبعاد في المتجهات",
+            "زيادة عدد الجمل في المجموعة"
+          ],
+          "answer": 1,
+          "explain": "تقنيات التجميع مثل FAISS وAnnoy مصممة خصيصاً لتسريع عمليات البحث والتشابه بين المتجهات الكبيرة بكفاءة عالية."
+        },
+        {
+          "q": "ما هي أفضل طريقة لتحسين أداء نموذج التضمين لمجال متخصص؟",
+          "options": [
+            "استخدام نموذج أكبر حجمياً",
+            "تدريب النموذج على بيانات متخصصة في ذلك المجال",
+            "زيادة عدد الأبعاد في المتجهات",
+            "تقليل حجم البيانات المدربة عليها"
+          ],
+          "answer": 1,
+          "explain": "تدريب نموذج التضمين على بيانات متخصصة في المجال المستهدف يساعد النموذج على فهم المصطلحات والمفاهيم المحددة بشكل أفضل."
+        }
+      ],
+      "addedAt": "2026-11-26"
+    },
+    {
       "id": "k-2026-11-25-ضبط-النماذج-الصغيرة-لمهام-محددة",
       "title": "ضبط النماذج الصغيرة لمهام محددة",
       "titleEn": "Fine-tuning Small Models for Specific Tasks",

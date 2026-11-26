@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T20:45:02.294Z",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T15:37:37.391Z",
   "news": [
     {
-      "id": "n-2026-11-25-1",
-      "title": "هاكرز يحلون محل نموذج DeepSeek لمدة 53 ساعة ويحذفون حمايته",
-      "titleEn": "Hackers replaced a DeepSeek model for 53 hours and stripped away its safety protections",
-      "summary": "تمكن هاكرز من استبدال نموذج DeepSeek لمدة 53 ساعة بالكامل وإزالة جميع حمايته الأمنية، مما يمثل تهديدًا كبيرًا لنموذج ذكاء اصطناعي كبير.",
-      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and completely removed all its safety protections, representing a significant threat to a large AI model.",
+      "id": "n-2026-11-26-1",
+      "title": "هاكرز يحلون محل نموذج DeepSeek لمدة 53 ساعة",
+      "titleEn": "Hackers Replaced DeepSeek Model for 53 Hours",
+      "summary": "هاكرنج استبدلوا نموذج DeepSeek لمدة 53 ساعة وحذفوا حمايته، مما يثير مخاوف أمنية كبيرة حول نماذج الذكاء الاصطناعي.",
+      "summaryEn": "Hackers replaced a DeepSeek model for 53 hours and stripped away its safety protections, raising significant security concerns about AI models.",
       "category": "other",
       "importance": 5,
       "source": {
@@ -17,25 +17,25 @@
       "publishedAt": "2026-11-21"
     },
     {
-      "id": "n-2026-11-25-9",
-      "title": "ولايات رفعت دعاوى ضد شركات马斯ك بسبب صور إباحية مُصنَّعة بواسطة Grok",
-      "titleEn": "States sue Musk companies over sexual images made by Grok",
-      "summary": "رفعت ولايات أمريكية دعاوى قضائية ضد شركات马斯ك بسبب إنشاء Grok لمحتوى جنسي غير قانوني، مما يثير مخاوف أخلاقية وقانونية حول الذكاء الاصطناعي.",
-      "summaryEn": "US states filed lawsuits against Musk's companies over Grok's creation of illegal sexual content, raising ethical and legal concerns about AI.",
-      "category": "regulation",
-      "importance": 5,
+      "id": "n-2026-11-26-2",
+      "title": "النماذج الصينية المفتوحة تفوق النماذج المغلقة في اكتشاف الثغرات",
+      "titleEn": "Chinese Open-Weight AI Models Top Closed Ones at Vulnerability Discovery",
+      "summary": "أظهرت دراسة جديدة أن النماذج الصينية المفتوحة المصدر تفوقت على النماذج المغلقة في اكتشاف الثغرات الأمنية، مما يمثل تحولاً في المشهد الأمني للذكاء الاصطناعي.",
+      "summaryEn": "A new study shows Chinese open-weight AI models outperformed closed ones in vulnerability discovery, representing a shift in the AI security landscape.",
+      "category": "other",
+      "importance": 4,
       "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbmxGcGIxZkx6ZE5MdG95b3ZJTVI1WlFPRWtid2hYMjMyaF9IM0tGRjljZXJlZ1lPUW9FYVgyQmJidjUwV0VMZnRqUEUtYWN2MW5SbE9ySjQyb3h0UjlYbDFvbUN6QUwzYUhvNFJrRGJYT0hqX1I3OVN1TlVFYkNDUnUtbDEyMXRXR2dGdjh3bXM4V3NnYWpqTGVGWEhUTk1fMS1YSWI3N2Y?oc=5"
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4QTBzSERCNGZfOC12ZzdrVml0MUw0bFhqZnRFZ2xFcGNwLWx0ZnE4U284bDZYbzR6SDk5QlVOVmJzRFd2VnhqOFlDZFFjdGNzWENkSDFNRlRKQjZrZzNibjQ4MVAxN2dLQ0ZaZ3gxVWtmZjA?oc=5"
       },
-      "publishedAt": "2026-11-23"
+      "publishedAt": "2026-11-24"
     },
     {
-      "id": "n-2026-11-25-2",
+      "id": "n-2026-11-26-3",
       "title": "نماذج GPT-6 تظهر قدرات تصميم البروتينات",
-      "titleEn": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "summary": "أعلنت OpenAI عن قدرة نماذج GPT-6 على تصميم هياكل و_sequences البروتينات باستخدام التفكير والكود، مع نتائج تجريبية واعدة في المختبر.",
-      "summaryEn": "OpenAI announced that GPT-6 models can design protein structures and sequences using reasoning and code, with promising experimental results in the lab.",
+      "titleEn": "GPT-6 Models Demonstrate Protein Design Capabilities",
+      "summary": "أظهرت نماذج GPT-6 قدرات فريدة في تصميم هياكل البروتينات والتسلسلات باستخدام التفكير والبرمجة، مع نتائج تجريبية واعدة في المختبر.",
+      "summaryEn": "GPT-6 models show unique capabilities in designing protein structures and sequences using reasoning and code, with promising lab results.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -45,11 +45,11 @@
       "publishedAt": "2026-11-24"
     },
     {
-      "id": "n-2026-11-25-3",
-      "title": "OpenAI و Cisco يقدمان Shirudo: نظام تشغيل مفتوح المصدر لحماية الأنظمة",
-      "titleEn": "OpenAI and Cisco introduce Shirudo",
-      "summary": "قدمت OpenAI و Cisco Shirudo، نظام تشغيل مفتوح المصدر لينكس، لمساعدة فرق الحماية على حماية أنظمتهم من التهديدات المتطورة.",
-      "summaryEn": "OpenAI and Cisco introduced Shirudo, an open-source Linux runtime to help security teams protect their systems from evolving threats.",
+      "id": "n-2026-11-26-4",
+      "title": "OpenAI و Cisco يقدمان Shirudo: نظام تشغيل مفتوح المصدر",
+      "titleEn": "OpenAI and Cisco Introduce Shirudo: Open-Source Operating System",
+      "summary": "أطلقت OpenAI و Cisco نظام التشغيل المفتوح المصدر Shirudo الذي يساعد الفرق على حماية أنظمتهم من التهديدات الأمنية المتقدمة.",
+      "summaryEn": "OpenAI and Cisco launched the open-source operating system Shirudo to help teams protect their systems from advanced security threats.",
       "category": "tools",
       "importance": 4,
       "source": {
@@ -59,11 +59,11 @@
       "publishedAt": "2026-11-23"
     },
     {
-      "id": "n-2026-11-25-4",
+      "id": "n-2026-11-26-5",
       "title": "إطلاق Gemini 4 Neon: أحدث نموذج من Google DeepMind",
-      "titleEn": "Introducing Gemini 4 Neon",
-      "summary": "أعلنت Google DeepMind عن إطلاق Gemini 4 Neon، أحدث نموذجها المتقدم الذي يوفر قدرات محسنة في معالجة اللغات والبيانات.",
-      "summaryEn": "Google DeepMind announced the launch of Gemini 4 Neon, its latest advanced model offering enhanced capabilities in language and data processing.",
+      "titleEn": "Launch of Gemini 4 Neon: Latest Model from Google DeepMind",
+      "summary": "أعلنت Google DeepMind عن إطلاق نموذج Gemini 4 Neon الجديد الذي يمثل تقدماً كبيراً في قدرات النماذج اللغوية الكبيرة.",
+      "summaryEn": "Google DeepMind announced the launch of new model Gemini 4 Neon, representing significant advancement in large language model capabilities.",
       "category": "models",
       "importance": 4,
       "source": {
@@ -73,12 +73,12 @@
       "publishedAt": "2026-11-18"
     },
     {
-      "id": "n-2026-11-25-5",
+      "id": "n-2026-11-26-6",
       "title": "AlphaProof Code: ثورة في التحقق من البرمجيات المعقدة",
-      "titleEn": "AlphaProof Code: a breakthrough in verifying complex software",
-      "summary": "كتبت وكلاء AlphaProof Code ثلاثة ملايين سطر من البراهين في Lean للتحقق من إشارات Signal، مما يمثل تقدمًا كبيرًا في أمان البرمجيات.",
-      "summaryEn": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal's signals, representing a significant advance in software security.",
-      "category": "tools",
+      "titleEn": "AlphaProof Code: Revolution in Complex Software Verification",
+      "summary": "قدمت Google DeepMind AlphaProof Code، ثورة في التحقق من البرمجيات المعقدة، حيث كتب الوكلاء ثلاثة ملايين سطر من البراهين في Lean للتحقق من Signal.",
+      "summaryEn": "Google DeepMind introduced AlphaProof Code, a revolution in complex software verification, where agents wrote three million lines of proofs in Lean to verify Signal.",
+      "category": "research",
       "importance": 4,
       "source": {
         "name": "Google DeepMind",
@@ -87,166 +87,180 @@
       "publishedAt": "2026-11-10"
     },
     {
-      "id": "n-2026-11-25-7",
-      "title": "Z.ai تطلق GLM-5.4: أول نموذج Loop Transformer",
-      "titleEn": "Z.ai launches GLM-5.4: first Loop Transformer model",
-      "summary": "أطلقت Z.ai نموذج GLM-5.4، وهو أول نموذج Loop Transformer بحجم 750 مليار معلم، مع تصميم معماري مبتكر يتجاهل معايير المقارنة التقليدية.",
-      "summaryEn": "Z.ai launched GLM-5.4, the first 750-billion parameter Loop Transformer model, with an innovative architecture that bypasses traditional benchmarking standards.",
+      "id": "n-2026-11-26-7",
+      "title": "قيود الرقائق الأمريكية تهدد تطوير نماذج الذكاء الاصطناعي الصينية",
+      "titleEn": "US Chip Curbs Threaten Chinese AI Model Development",
+      "summary": "كشفت مصادر أن قيود الرقائق الأمريكية والتصعيد ضد التقطير يهددان تطوير نماذج الذكاء الاصطناعي الصينية، مما يخلق 'شكلاً كبيراً من عدم اليقين'.",
+      "summaryEn": "Sources reveal US chip curbs and crackdown on distillation threaten Chinese AI model development, creating 'very big uncertainty'.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHo5VjlHR1l4UkdCSmFGNUd6WVlZNXlwZXl6Yk5oYUFnTm9ISC1ZSWdmbi1aZ3R1b1Q3bXhpaXVoSXRaNy1hcWdSWHdCd2RFVGx6WlhYN25pZXI4Q2xHWGpQVkJYN2MwTk1ma2NERnBKTHhBUXpHSElLeFdwdEpVZFZZcWhxMm1QUEVpeHRYSXczYXNJelJTUWtHdEkxSGpud2NxeV90R0VjTXVkTmE4U0JRZWVRM1RFUmt3UGhIbw?oc=5"
+      },
+      "publishedAt": "2026-11-26"
+    },
+    {
+      "id": "n-2026-11-26-8",
+      "title": "ولايات ترفع دعاوى ضد马斯ك بسبب صور إباحية مُصنَّعة بواسطة Grok",
+      "titleEn": "States Sue Musk Over Grok-Generated Child Sexual Abuse Images",
+      "summary": "رفعت ولاية فيرجينيا وأوريغون دعاوى ضد SpaceX بسبب إنشاء Grok صور إباحية للأطفال، مما يمثل تحدياً قانونياً كبيراً لشركات الذكاء الاصطناعي.",
+      "summaryEn": "Virginia and Oregon filed lawsuits against SpaceX over Grok's creation of child sexual abuse images, representing a major legal challenge for AI companies.",
+      "category": "regulation",
+      "importance": 4,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObnVxU21QWWFOSHYzcW1sajgxS25DUndFTGd6dTh6UzdyaFR5U0QtMWlROWIxZ01IcU0wNG5FLXRaMWZoS1o0dHhEUUFiaDItWFVIbE01S1pTbDZxYVZGN1hMaHlNYXBZck84N3JPaW1xcW5VMHdNeFBHSWZmRVN6MzlHZjdEcl8wTkVERGhBU3M0dVBXSHBFUHNpM1pCc1Q0MV9HTWlveVJSV1hiSEFaWjJDMEI0b2p2bzBIZEdrampIVFlVWEE?oc=5"
+      },
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "n-2026-11-26-9",
+      "title": "Z.ai تطلق GLM-5.4: أول نموذج محول حلقي",
+      "titleEn": "Z.ai Launches GLM-5.4: First Loop Transformer Model",
+      "summary": "أطلقت Z.ai نموذج GLM-5.4، أول نموذج محول حلقي لها بقدرة 750 مليار معلمة، متجاوزة benchmarks الذكاء الاصطناعي.",
+      "summaryEn": "Z.ai launched GLM-5.4, its first loop transformer model with 750 billion parameters, skipping AI benchmarks entirely.",
       "category": "models",
       "importance": 4,
       "source": {
         "name": "Z.ai (news)",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYzVQeVF0STVjTGtOQ251YWpsZWx6VHJOdDUxRHQ2ZG5iTFZacXJ1REtaWXpYR09xT2EtMzQ4WDFsWFluXzRvNTIzWGlzb3BnWEhOSE9jWGk4VjhQbzVDVjF0NWhHQl8wS2o5LUE1WU9qYlV3ZmNtZXFMQXpuUHVPTWxBQnFqWmk2TkZmVHJ1NnM2TmQ1dXZJRE8wclZjbXNJRkVUQ1BIdWZpYmdBQ25jTzdqQWp4c0o1ajlEUnZHSQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5"
       },
-      "publishedAt": "2026-11-24"
+      "publishedAt": "2026-11-23"
     },
     {
-      "id": "n-2026-11-25-6",
-      "title": "Mistral Large 4: نموذج جديد من Mistral AI",
-      "titleEn": "Introducing Mistral Large 4",
-      "summary": "أطلقت Mistral AI نموذج Mistral Large 4 الجديد، الذي يوفر أداءً متقدمًا في مجموعة واسعة من المهام اللغوية والمعرفية.",
-      "summaryEn": "Mistral AI launched its new Mistral Large 4 model, offering advanced performance across a wide range of language and cognitive tasks.",
-      "category": "models",
-      "importance": 3,
-      "source": {
-        "name": "Mistral AI",
-        "url": "https://mistral.ai/news/mistral-large-4/"
-      },
-      "publishedAt": "2026-11-25"
-    },
-    {
-      "id": "n-2026-11-25-8",
-      "title": "Alibaba تدرب Qwen التالي على رقاقاتها الخاصة",
-      "titleEn": "Alibaba trains next Qwen on own chips",
-      "summary": "أعلنت Alibaba عن تدريب النموذج الجيل التالي من Qwen على رقاقاتها الخاصة، مما يمثل تقدمًا في دمج البرمجيات والعتاد.",
-      "summaryEn": "Alibaba announced training the next-generation Qwen model on its own chips, representing progress in hardware-software integration.",
+      "id": "n-2026-11-26-10",
+      "title": "Alibaba تدرب نموذج Qwen التالي على رقائقها الخاصة",
+      "titleEn": "Alibaba Trains Next Qwen Model on Its Own Chips",
+      "summary": "تدرب Alibaba نموذج Qwen التالي على رقائقها الخاصة، معبرة عن 'شكلاً كبيراً من عدم اليقين' بسبب القيود الأمريكية الجديدة.",
+      "summaryEn": "Alibaba is training its next Qwen model on its own chips, expressing 'very big uncertainty' due to new US curbs.",
       "category": "companies",
       "importance": 3,
       "source": {
         "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUm9hTGFpeHdXS1gwU2NrSGItT1BYNUJSZ0dMS1hmSjMtQVBoTE9NamdmZkRIVjNvamRkMllja21pSWZhQklITlJjMHlISFdpSDFiaVphYjVrS0NyZ0ozdG8zcGRGQmktS2Q2dy1DNnowaVRtYWZYdkp5d1JTSW1yQ0NvOFJVT2c2UXc3cElVZmk?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNEsycWZMbE9LUzk0enYteWx5NmUtSlozR3hpNEg3OTBNaG5OaHljQkFwZHp0S3c3R1A2TVNpeG9POG84T25WMk01bXNtZE43dHNROE9sNTFnNkRkSVp6MzRhT0dvTDJkcmRtaE81aEhhYW1XYmIyMTFNaXljVDJlRTYtY21CaERoblZCWHZmZ1lGTmhjVG9lZ19OeWNvbVBKLVY5QzFHaUdRcUVrLWxnRVRYZmpyc1B5clZZWWhYcUtYV3RJ?oc=5"
       },
-      "publishedAt": "2026-11-20"
+      "publishedAt": "2026-11-19"
     },
     {
-      "id": "n-2026-11-25-10",
-      "title": "التحقق الرسمي بروتوكول Signal باستخدام الذكاء الاصطناعي",
-      "titleEn": "Formal Verification of the Signal Protocol Using AI",
-      "summary": "استخدم باحثو Google Deepmind وكلاء ذكاء اصطناعي للتحقق الرياضي من بروتوكول Signal، مما يعزز أمن الاتصالات المشفرة.",
-      "summaryEn": "Google Deepmind researchers used agentic AI to mathematically verify the Signal protocol, enhancing encrypted communications security.",
-      "category": "tools",
+      "id": "n-2026-11-26-11",
+      "title": "ضغط حسابات DeepSeek يدفع مطوري الذكاء الاصطناعي الصينيين ما وراء النماذج",
+      "titleEn": "DeepSeek's Computing Crunch Pushes Chinese AI Developers Beyond Models",
+      "summary": "يواجه مطورو الذكاء الاصطناعي في الصين ضغطاً كبيراً بسبب احتياجات الحوسبة لـ DeepSeek، مما يدفعهم نحو تطوير حلول بنية تحتية جديدة.",
+      "summaryEn": "Chinese AI developers face significant pressure due to DeepSeek's computing needs, pushing them toward developing new infrastructure solutions.",
+      "category": "companies",
       "importance": 3,
       "source": {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html"
+        "name": "DeepSeek (news)",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZS0zVnZDTDFFbTNGUml6SEREM1U5a1RUOWtVTkNkN3dlckRkbTczUVZzcHBiWjE1SC14Tnd6Vjl6LXJrMDNIYW8tX1lscEp3M21zTXBmU3FLODNsbWo3dWE2WGFXVE9SbG9OY2pSMERNZTRUcXZQcHd0T3I4VWQ0ZUZpTVFTdEg2WGg4czlpelJOTE9SQ2ljYm9tQkM2djhQQW1jcQ?oc=5"
       },
-      "publishedAt": "2026-11-17"
+      "publishedAt": "2026-11-20"
     }
   ],
   "models": [
     {
-      "id": "m-2026-11-25-1",
+      "id": "m-2026-11-26-1",
+      "name": "GPT-6",
+      "org": "OpenAI",
+      "releaseDate": "2026-11-24",
+      "highlights": "قدرات فريدة في تصميم هياكل البروتينات والتسلسلات باستخدام التفكير والبرمجة",
+      "highlightsEn": "Unique capabilities in designing protein structures and sequences using reasoning and code",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+    },
+    {
+      "id": "m-2026-11-26-2",
       "name": "Gemini 4 Neon",
       "org": "Google DeepMind",
       "releaseDate": "2026-11-18",
-      "highlights": "يوفر قدرات محسنة في معالجة اللغات والبيانات",
-      "highlightsEn": "Enhanced capabilities in language and data processing",
+      "highlights": "تمثل تقدماً كبيراً في قدرات النماذج اللغوية الكبيرة",
+      "highlightsEn": "Represents significant advancement in large language model capabilities",
       "specs": {
         "context": "1M"
       },
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
     },
     {
-      "id": "m-2026-11-25-2",
-      "name": "Gemini 4 Hydrogen",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-11-12",
-      "highlights": "نموذج متخصص في المهام العلمية المعقدة",
-      "highlightsEn": "Specialized model for complex scientific tasks",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
-    },
-    {
-      "id": "m-2026-11-25-3",
-      "name": "Gemini 4 Carbon",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-11-10",
-      "highlights": "مصمم للاستخدامات الصناعية والتطبيقات العملية",
-      "highlightsEn": "Designed for industrial use and practical applications",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
-    },
-    {
-      "id": "m-2026-11-25-4",
-      "name": "AlphaProof Code",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-11-10",
-      "highlights": "يكتب ملايين سطور البراهين للتحقق من البرمجيات المعقدة",
-      "highlightsEn": "Writes millions of proof lines to verify complex software",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
-    },
-    {
-      "id": "m-2026-11-25-5",
-      "name": "Mistral Large 4",
-      "org": "Mistral AI",
-      "releaseDate": "2026-10-06",
-      "highlights": "يوفر أداءً متقدمًا في مجموعة واسعة من المهام اللغوية والمعرفية",
-      "highlightsEn": "Offers advanced performance across wide range of language and cognitive tasks",
-      "specs": {
-        "context": "128K"
-      },
-      "url": "https://mistral.ai/news/mistral-large-4/"
-    },
-    {
-      "id": "m-2026-11-25-6",
+      "id": "m-2026-11-26-3",
       "name": "GLM-5.4",
       "org": "Z.ai",
       "releaseDate": "2026-11-23",
-      "highlights": "أول نموذج Loop Transformer بحجم 750 مليار معلم",
-      "highlightsEn": "First 750-billion parameter Loop Transformer model",
+      "highlights": "أول نموذج محول حلقي بقدرة 750 مليار معلمة",
+      "highlightsEn": "First loop transformer model with 750 billion parameters",
       "specs": {
         "context": "1M"
       },
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYzVQeVF0STVjTGtOQ251YWpsZWx6VHJOdDUxRHQ2ZG5iTFZacXJ1REtaWXpYR09xT2EtMzQ4WDFsWFluXzRvNTIzWGlzb3BnWEhOSE9jWGk4VjhQbzVDVjF0NWhHQl8wS2o5LUE1WU9qYlV3ZmNtZXFMQXpuUHVPTWxBQnFqWmk2TkZmVHJ1NnM2TmQ1dXZJRE8wclZjbXNJRkVUQ1BIdWZpYmdBQ25jTzdqQWp4c0o1ajlEUnZHSQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5"
+    },
+    {
+      "id": "m-2026-11-26-4",
+      "name": "Qwen4 Max",
+      "org": "Qwen",
+      "releaseDate": "2026-11-21",
+      "highlights": "نموذج MoE بسعة 2.4T، سيتم تدريبه على رقائق Alibaba الخاصة",
+      "highlightsEn": "MoE model with 2.4T capacity, will be trained on Alibaba's own chips",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUU5rWGZMNHZnSjZaNHo2NW4zcnpsQWxsX091bWJkOVA2ZjFUZnlYYnZaMUNDY0wwMXZHUDJ6NFZtWTFyOHBxRDk3Z0ZaSUZrc256VkI3NmxkbFRIVWdUcV92R2ZDNmZUY19jdlZRNXhGRXJnR3VkRHV4clpSbW9neVFZMjh2WC1MVHVtcHBUUm9NLVFfb0tHWWhQU25fVGtWUENORFZOZmx1RkhvYUE?oc=5"
+    },
+    {
+      "id": "m-2026-11-26-5",
+      "name": "Kimi K3.1 Pro",
+      "org": "Moonshot AI",
+      "releaseDate": "2026-11-20",
+      "highlights": "أوزان مفتوحة 2.8T، سياق 1M",
+      "highlightsEn": "2.8T open weights, 1M context",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFNjQ1dJbHRhTDg0d1ZBYzVlUHI4M1lMeXp4Unk5QThnUVJwd1VuTTlsZmhJVGJQbW1WMkVKWkRSNHRFMV94eFpfcnJkMW0xZ01OYUFDWU1Td3lobzBYX0tJWXRmLWVZQ3Q3WFROTlBReDRVM3FmMHJKckgwaWJLUmtNTW1GRXZwMEQwdkJsSQ?oc=5"
+    },
+    {
+      "id": "m-2026-11-26-6",
+      "name": "Grok 4.7",
+      "org": "xAI",
+      "releaseDate": "2026-11-23",
+      "highlights": "خصم 80% على أسعار الترميز، يضغط المنافسين",
+      "highlightsEn": "80% discount on coding prices, squeezing rivals",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6QWVaYlhRNUlfWVNnME1hMTNqWVlHSmJOeDZYdFBGc3ZkbEZib2w4TEU2UElNOUV1M3hzRHJUdWVtSTNZNzVxWXQtdy1hZmJHaHVFdHB0SmFkeWdodWFaOHN0MERmR1pUZGhV?oc=5"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-11-25-1",
-      "text": "OpenAI و Cisco يقدمان Shirudo: نظام تشغيل مفتوح المصدر لحماية الأنظمة",
-      "textEn": "OpenAI and Cisco introduce Shirudo: an open-source runtime for protecting systems",
+      "id": "h-2026-11-26-1",
+      "text": "تلتزم Anthetic بتخصيص جزء من أسهمها لصندوق المنفعة العامة الجديد",
+      "textEn": "Anthropic commits a portion of its shares to the new public benefit fund",
       "level": "info",
-      "url": "https://openai.com/index/introducing-shirudo"
+      "url": "https://www.anthropic.com/news/public-benefit-fund"
     },
     {
-      "id": "h-2026-11-25-2",
-      "text": "ولايات رفعت دعاوى ضد شركات马斯ك بسبب صور إباحية مُصنَّعة بواسطة Grok",
-      "textEn": "States sue Musk companies over sexual images made by Grok",
+      "id": "h-2026-11-26-2",
+      "text": "رفعت ولاية فيرجينيا وأوريغون دعاوى ضد SpaceX بسبب إنشاء Grok صور إباحية للأطفال",
+      "textEn": "Virginia and Oregon filed lawsuits against SpaceX over Grok's creation of child sexual abuse images",
       "level": "critical",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbmxGcGIxZkx6ZE5MdG95b3ZJTVI1WlFPRWtid2hYMjMyaF9IM0tGRjljZXJlZ1lPUW9FYVgyQmJidjUwV0VMZnRqUEUtYWN2MW5SbE9ySjQyb3h0UjlYbDFvbUN6QUwzYUhvNFJrRGJYT0hqX1I3OVN1TlVFYkNDUnUtbDEyMXRXR2dGdjh3bXM4V3NnYWpqTGVGWEhUTk1fMS1YSWI3N2Y?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObnVxU21QWWFOSHYzcW1sajgxS25DUndFTGd6dTh6UzdyaFR5U0QtMWlROWIxZ01IcU0wNG5FLXRaMWZoS1o0dHhEUUFiaDItWFVIbE01S1pTbDZxYVZGN1hMaHlNYXBZck84N3JPaW1xcW5VMHdNeFBHSWZmRVN6MzlHZjdEcl8wTkVERGhBU3M0dVBXSHBFUHNpM1pCc1Q0MV9HTWlveVJSV1hiSEFaWjJDMEI0b2p2bzBIZEdrampIVFlVWEE?oc=5"
     },
     {
-      "id": "h-2026-11-25-3",
-      "text": "هاكرز يحلون محل نموذج DeepSeek لمدة 53 ساعة ويحذفون حمايته",
-      "textEn": "Hackers replaced a DeepSeek model for 53 hours and stripped away its safety protections",
-      "level": "critical",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5"
+      "id": "h-2026-11-26-3",
+      "text": "قيود الرقائق الأمريكية تهدد تطوير نماذج الذكاء الاصطناعي الصينية",
+      "textEn": "US chip curbs threaten Chinese AI model development",
+      "level": "warning",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHo5VjlHR1l4UkdCSmFGNUd6WVlZNXlwZXl6Yk5oYUFnTm9ISC1ZSWdmbi1aZ3R1b1Q3bXhpaXVoSXRaNy1hcWdSWHdCd2RFVGx6WlhYN25pZXI4Q2xHWGpQVkJYN2MwTk1ma2NERnBKTHhBUXpHSElLeFdwdEpVZFZZcWhxMm1QUEVpeHRYSXczYXNJelJTUWtHdEkxSGpud2NxeV90R0VjTXVkTmE4U0JRZWVRM1RFUmt3UGhIbw?oc=5"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-11-25-1",
-      "title": "هاكرز يحلون محل نموذج DeepSeek لمدة 53 ساعة ويحذفون حمايته",
-      "titleEn": "Hackers replaced a DeepSeek model for 53 hours and stripped away its safety protections",
-      "summary": "تمكن هاكرز من استبدال نموذج DeepSeek لمدة 53 ساعة بالكامل وإزالة جميع حمايته الأمنية، مما سمح للمستخدمين بتجاوز قيود السلامة.",
-      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and completely removed all its safety protections, allowing users to bypass safety constraints.",
+      "id": "sec-2026-11-26-1",
+      "title": "هاكرز يحلون محل نموذج DeepSeek لمدة 53 ساعة",
+      "titleEn": "Hackers Replaced DeepSeek Model for 53 Hours",
+      "summary": "هاكرنج استبدلوا نموذج DeepSeek لمدة 53 ساعة وحذفوا حمايته بالكامل، مما يعرض المستخدمين لمخاطر أمنية كبيرة.",
+      "summaryEn": "Hackers replaced a DeepSeek model for 53 hours and completely removed its safety protections, exposing users to significant security risks.",
       "type": "breach",
       "severity": "critical",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5",
@@ -254,44 +268,56 @@
       "date": "2026-11-21"
     },
     {
-      "id": "sec-2026-11-25-2",
-      "title": "تتبع حوacking باستخدام أدوات الذكاء الاصطناعي",
-      "titleEn": "Tracking incidents of hacking using AI tools",
-      "summary": "يدير دانيال ميسلر تتبع حوادث الهاacking المعززة بالذكاء الاصطناعي، حيث يستخدم المهاجمون أدوات متقدمة لتحديد الثغرات.",
-      "summaryEn": "Daniel Meissler is tracking AI-enhanced hacking incidents, where attackers use advanced tools to identify vulnerabilities.",
-      "type": "prompt-injection",
+      "id": "sec-2026-11-26-2",
+      "title": "النماذج الصينية المفتوحة تفوق النماذج المغلقة في اكتشاف الثغرات",
+      "titleEn": "Chinese Open-Weight AI Models Top Closed Ones at Vulnerability Discovery",
+      "summary": "أظهرت دراسة جديدة أن النماذج الصينية المفتوحة المصدر تفوقت على النماذج المغلقة في اكتشاف الثغرات الأمنية، مما يمثل تحولاً في المشهد الأمني للذكاء الاصطناعي.",
+      "summaryEn": "A new study shows Chinese open-weight AI models outperformed closed ones in vulnerability discovery, representing a shift in the AI security landscape.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4QTBzSERCNGZfOC12ZzdrVml0MUw0bFhqZnRFZ2xFcGNwLWx0ZnE4U284bDZYbzR6SDk5QlVOVmJzRFd2VnhqOFlDZFFjdGNzWENkSDFNRlRKQjZrZzNibjQ4MVAxN2dLQ0ZaZ3gxVWtmZjA?oc=5",
+      "source": "DeepSeek (news)",
+      "date": "2026-11-24"
+    },
+    {
+      "id": "sec-2026-11-26-3",
+      "title": "تتبع حوادث الاختراق باستخدام أدوات الذكاء الاصطناعي",
+      "titleEn": "Tracking Hacking Incidents Using AI Tools",
+      "summary": "دانيال ميسلير يتابع حوادث الاختراق المعززة بالذكاء الاصطناعي، حيث يستخدم المهاجمون أدوات الذكاء الاصطناعي لتحسين هجماتهم.",
+      "summaryEn": "Daniel Meissler is tracking AI-enhanced hacking incidents, where attackers use AI tools to improve their attacks.",
+      "type": "breach",
       "severity": "warning",
       "url": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
       "source": "Schneier on Security",
       "date": "2026-11-25"
     },
     {
-      "id": "sec-2026-11-25-3",
-      "title": "فرنسا تتهم إيران بتنفيذ هجمات الثلاجة الإلكترونية",
-      "titleEn": "France Is Blaming Iran for the Fridge Cyberattack",
-      "summary": "اتهمت فرنسا إيران بتنفيذ هجمات الثلاجة الإلكترونية، مما يمثل تهديدًا جديدًا للبنية التحتية الحيوية.",
-      "summaryEn": "France is blaming Iran for the fridge cyberattack, representing a new threat to critical infrastructure.",
-      "type": "breach",
+      "id": "sec-2026-11-26-4",
+      "title": "نماذج Qwen المضيفة ذاتياً تحتاج إلى توجيه أقوى",
+      "titleEn": "Self-Hosted Qwen Models Need Stronger Steering",
+      "summary": "كشفت حوادث Qwen عن الحاجة إلى توجيه أقوى للنماذج المضيفة ذاتياً، حيث يمكن للمستخدمين التحكم في سلوك النموذج.",
+      "summaryEn": "Qwen incidents reveal the need for stronger steering of self-hosted models, where users can control model behavior.",
+      "type": "prompt-injection",
       "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
-      "source": "Schneier on Security",
-      "date": "2026-11-18"
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV0EtTUxWem9OeU1YaTk5YXhsbWZXTW15LTRIdnBUeEVQalJURkotQlhabFppbnFwZkNSaDkyY2pIYmRnYURHdUJ2RnExS2IxRk9XNHVYdF9UQmJmSFR3UkZnVlhDVGN0OHU3UEdubDIyX05TXzBvbDFtNkU3QjlQa2dydGktR21CV0NlX2tsMGI5a1A4d0lDRg?oc=5",
+      "source": "Qwen (news)",
+      "date": "2026-11-19"
     },
     {
-      "id": "sec-2026-11-25-4",
-      "title": "الأمن القابل للاستخدام في الفنادق الفاخرة",
-      "titleEn": "Usable Security at Luxury Hotels",
-      "summary": "دراسة حالة مثيرة للاهتمام من الفنادق الفاخرة حيث استخدم المهاجمون طلبات حجز وهمية للحصول على وصول.",
-      "summaryEn": "Interesting case study from luxury hotels where attackers used fake booking requests to gain access.",
+      "id": "sec-2026-11-26-5",
+      "title": "كشف Prime Intellect عن تبديل نموذج DeepSeek غير المصرح به",
+      "titleEn": "Prime Intellect Discloses Unauthorized DeepSeek Model Swap",
+      "summary": "كشفت Prime Intellect عن تبديل نموذج DeepSeek غير المصرح به قلل بشكل كبير من حالات الرفض، مما يثير مخاوف أمنية كبيرة.",
+      "summaryEn": "Prime Intellect disclosed an unauthorized DeepSeek model swap that sharply reduced refusals, raising significant security concerns.",
       "type": "breach",
-      "severity": "warning",
-      "url": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
-      "source": "Schneier on Security",
-      "date": "2026-11-16"
+      "severity": "critical",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYzRuZUFqYnV4WTU2dkZPSnFJX3dXRldmdG14aEJvQkg4UXlHTHVQQks5X0Y0MXh0U1phVGtyMW0yOTZfS2plemFiZ2FDRVhSRXdRU0h6aVlqZV9XcnN6cGRtd2pkYVRvUktaSmR5MDhBMWV2dzJfbVVDb2FscDc0TkNNQTNJeEVhcHRjT2VYNnlBXzc0Q0hGcENleTMwMXV6QmZSMDNCbFFGOEExVjM1NWZEYV9iVlQ0TWpCMU9Ncw?oc=5",
+      "source": "DeepSeek (news)",
+      "date": "2026-11-20"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-11-25",
+    "asOf": "2026-11-26",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
@@ -346,127 +372,119 @@
         "score": "53.5"
       }
     ],
-    "highlights": "تتصدر نماذج Claude من Anthropic الترتيب مع Claude Fable 5.2 في المركز الأول، بينما يظهر GPT-6.2 Astra من OpenAI كأحدث إضافة قوية في المركز الخامس. المنافسة شديدة بين النماذج العشرة الأولى حيث الفارق بين المركز الأول والعاشر لا يتجاوز 7.1 نقطة.",
-    "highlightsEn": "Claude models from Anthropic lead the rankings with Claude Fable 5.2 in first place, while GPT-6.2 Astra from OpenAI appears as a strong new addition in fifth place. Competition is fierce among the top ten models, with the difference between first and tenth place not exceeding 7.1 points."
+    "highlights": "يشهد الترتيب الحالي ظهور نماذج جديدة قوية مثل Claude Fable الذي يحتل المركز الأول، بينما يواجه GPT-6.2 Astra منافسة قوية من نماذج جوجل الجديدة. يبرز GPT-6.2 Sol كأرخص نموذج في قائمة العشرة الأوائل بسعر 2.00 دولار لكل مليون رمز، بينما يتفوق Gemini 3 Flash في سرعة الإخراج.",
+    "highlightsEn": "The current ranking sees the emergence of powerful new models like Claude Fable which currently holds the top position, while GPT-6.2 Astra faces strong competition from Google's new models. GPT-6.2 Sol stands out as the cheapest model in the top 10 at $2.00 per million tokens, while Gemini 3 Flash excels in output speed."
   },
   "knowledgeEntry": {
-    "id": "k-2026-11-25-ضبط-النماذج-الصغيرة-لمهام-محددة",
-    "title": "ضبط النماذج الصغيرة لمهام محددة",
-    "titleEn": "Fine-tuning Small Models for Specific Tasks",
-    "why": "ضبط النماذج الصغيرة يسمح بتخصيص نماذج مفتوحة المصدر لمهام محددة، مما يحسن الدقة والأداء مع تقليل التكاليف الحسابية.",
-    "whyEn": "Fine-tuning small models allows customization of open-source models for specific tasks, improving accuracy and performance while reducing computational costs.",
+    "id": "k-2026-11-26-تحسين-الأداء-باستخدام-تقنيات-التضمين-المتقدمة",
+    "title": "تحسين الأداء باستخدام تقنيات التضمين المتقدمة",
+    "titleEn": "Performance Optimization Using Advanced Embedding Techniques",
+    "why": "تساعد تقنيات التضمين المتقدمة نماذج الذكاء الاصطناعي على فهم السياق بشكل أفضل وتحسين الدقة في المهام المعقدة مثل البحث الاسترجاعي وتصنيف النصوص.",
+    "whyEn": "Advanced embedding techniques help AI models better understand context and improve accuracy in complex tasks like search retrieval and text classification.",
     "difficulty": "intermediate",
-    "track": "building",
+    "track": "tools",
     "steps": [
       {
-        "title": "تحديد المهمة ومجموعة البيانات",
-        "detail": "حدد المهمة الدقيقة التي تريد تحسين النموذج لها، وقم بإنشاء مجموعة بيانات متوازنة ذات جودة عالية تتضمن أمثلة متنوعة تغطي جميع السيناريوهات المحتملة."
+        "title": "فهم أساسيات التضمين",
+        "detail": "التضمين (Embedding) هو عملية تحويل الكلمات أو الجملات إلى متجهات رقمية تمثل المعنى الدلالي. كل متجه يمثل موقف الكلمة في فضاء ذي أبعاد عديدة."
       },
       {
-        "title": "اخيار النموذج الأساس",
-        "detail": "اختر نموذجاً صغيراً مناسباً للمهمة، مثل Phi-2, Mistral 7B, أو Llama 3 8B، مع مراعاة حجم النموذج وقدراته الأساسية."
+        "title": "اختيار نموذج التضمين المناسب",
+        "detail": "اختر نموذج التضمين بناءً على متطلبات المشروع. النماذج مثل BERT وGPT وSentence-transformers تختلف في الأداء والحجم والسرعة."
       },
       {
-        "title": "إعداد البيئة",
-        "detail": "قم بتثبيت المكتبات اللازمة مثل transformers, peft, و datasets. تأكد من توفر وحدة معالجة رسومية (GPU) كافية للعمليات."
+        "title": "تحسين التضمين للسياق الخاص",
+        "detail": "قم بتدريب نموذج التضمين على بيانات متخصصة لمجال عملك لتحسين فهمه للمصطلحات والمفاهيم المحددة."
       },
       {
-        "title": "تجهيز البيانات",
-        "detail": "قم بمعالجة مجموعة البيانات وتنظيفها، ثم قم بتقسيمها إلى مجموعات تدريب، تحقق، واختبار. قم بتطبيق التحويلات اللازمة لتنسيق البيانات."
+        "title": "دمج تقنيات التجميع",
+        "detail": "استخدم تقنيات مثل FAISS أو Annoy لتسريع عمليات البحث والتشابه بين المتجهات الكبيرة."
       },
       {
-        "title": "تنفيذ الضبط",
-        "detail": "استخدم تقنيات مثل LoRA (Low-Rank Adaptation) أو QLoRA لتحقيق ضبط فعال باستخدام موارد محدودة. قم بتدريب النموذج على مجموعة البيانات مع مراقبة الخسارة."
-      },
-      {
-        "title": "التقييم والتكرار",
-        "detail": "قم بتقييم أداء النموذج على مجموعة الاختبار وقارنه بالنموذج الأصلي. قم بتعديل المعلمات أو زيادة البيانات إذا لزم الأمر."
+        "title": "قياس وتحسين الأداء",
+        "detail": "استخدم مقاييس مثل Precision@K وMAP لتقييم أداء نظام التضمين وقم بتحسينه بناءً على النتائج."
       }
     ],
     "stepsEn": [
       {
-        "title": "Define the task and dataset",
-        "detail": "Identify the specific task you want to improve the model for, and create a high-quality, balanced dataset that includes diverse examples covering all possible scenarios."
+        "title": "Understanding Embedding Basics",
+        "detail": "Embedding is the process of converting words or sentences into numerical vectors that represent semantic meaning. Each vector represents the word's position in a multi-dimensional space."
       },
       {
-        "title": "Select the base model",
-        "detail": "Choose a suitable small model for the task, such as Phi-2, Mistral 7B, or Llama 3 8B, considering the model size and its basic capabilities."
+        "title": "Choosing the Right Embedding Model",
+        "detail": "Select an embedding model based on your project requirements. Models like BERT, GPT, and Sentence-transformers differ in performance, size, and speed."
       },
       {
-        "title": "Set up the environment",
-        "detail": "Install necessary libraries like transformers, peft, and datasets. Ensure you have sufficient GPU resources for the operations."
+        "title": "Fine-tuning Embeddings for Specific Context",
+        "detail": "Train the embedding model on specialized data for your domain to improve its understanding of specific terms and concepts."
       },
       {
-        "title": "Prepare the data",
-        "detail": "Process and clean the dataset, then split it into training, validation, and test sets. Apply necessary transformations to format the data."
+        "title": "Implementing Indexing Techniques",
+        "detail": "Use techniques like FAISS or Annoy to speed up search and similarity operations on large vector collections."
       },
       {
-        "title": "Implement fine-tuning",
-        "detail": "Use techniques like LoRA (Low-Rank Adaptation) or QLoRA for efficient fine-tuning with limited resources. Train the model on the dataset while monitoring the loss."
-      },
-      {
-        "title": "Evaluate and iterate",
-        "detail": "Evaluate the model's performance on the test set and compare it with the original model. Adjust parameters or increase data if necessary."
+        "title": "Measuring and Improving Performance",
+        "detail": "Use metrics like Precision@K and MAP to evaluate your embedding system's performance and improve it based on results."
       }
     ],
-    "code": "from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer\nfrom peft import LoraConfig, get_peft_model\nimport torch\n\n# Load base model and tokenizer\nmodel_name = \"microsoft/phi-2\"\nmodel = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16)\ntokenizer = AutoTokenizer.from_pretrained(model_name)\n\n# Configure LoRA\nlora_config = LoraConfig(\n    r=16,\n    lora_alpha=32,\n    lora_dropout=0.05,\n    bias=\"none\",\n    task_type=\"CAUSAL_LM\"\n)\n\n# Apply LoRA\nmodel = get_peft_model(model, lora_config)\n\n# Training arguments\ntraining_args = TrainingArguments(\n    output_dir=\"./results\",\n    num_train_epochs=3,\n    per_device_train_batch_size=4,\n    save_steps=500,\n    logging_steps=50,\n)\n\n# Create trainer and start training\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=your_train_dataset,\n    eval_dataset=your_eval_dataset,\n)\n\ntrainer.train()",
+    "code": "from sentence_transformers import SentenceTransformer, util\nimport torch\n\n# Load a pre-trained model\nmodel = SentenceTransformer('all-MiniLM-L6-v2')\n\n# Sample sentences\ncorpus = [\n    'A man is eating food.',\n    'A man is eating a piece of bread.',\n    'A woman is playing guitar.',\n    'A man is playing guitar.'\n]\n\n# Encode sentences\nembeddings = model.encode(corpus, convert_to_tensor=True)\n\n# Compute cosine similarity\ncosine_scores = util.cos_sim(embeddings, embeddings)\n\n# Find most similar pairs\npairs = []\nfor i in range(len(cosine_scores)-1):\n    for j in range(i+1, len(cosine_scores)):\n        pairs.append({'index': [i, j], 'score': cosine_scores[i][j]})\n\n# Sort and show top pairs\npairs = sorted(pairs, key=lambda x: x['score'], reverse=True)\nfor pair in pairs[0:3]:\n    i, j = pair['index']\n    print(f'{corpus[i]} \\t \\t {corpus[j]} \\t -> {pair[\"score\"]:.4f}')",
     "resources": [
       {
-        "name": "PEFT Documentation",
-        "url": "https://huggingface.co/docs/peft/index"
+        "name": "Sentence Transformers Documentation",
+        "url": "https://www.sbert.net"
       },
       {
-        "name": "Fine-tuning Tutorials",
-        "url": "https://huggingface.co/docs/transformers/training"
+        "name": "FAISS Documentation",
+        "url": "https://faiss.ai"
       },
       {
-        "name": "LoRA Paper",
-        "url": "https://arxiv.org/abs/2106.09685"
+        "name": "Hugging Face Embedding Models",
+        "url": "https://huggingface.co/models"
       }
     ],
     "tags": [
-      "ضبط النماذج",
-      "LoRA",
-      "نماذج صغيرة",
-      "PEFT"
+      "تضمين",
+      "تحسين الأداء",
+      "نماذج لغوية",
+      "استرجاع المعلومات"
     ],
-    "quickRef": "1. اختر نموذجاً صغيراً مناسباً 2. جهز بيانات متوازنة 3. استخدم LoRA للضبط 4. قم بتدريب النموذج 5. قيّم الأداء",
-    "quickRefEn": "1. Choose a suitable small model 2. Prepare balanced data 3. Use LoRA for fine-tuning 4. Train the model 5. Evaluate performance",
+    "quickRef": "استخدم نماذج التضمين المتقدمة لتحويل النصوص لمتجهات رقمية، اختر النموذج المناسب، قم بالتدريب على بيانات متخصصة، استخدم تقنيات التجميع، وقم بقياس الأداء باستخدام مقاييس مناسبة.",
+    "quickRefEn": "Use advanced embedding models to convert text to numerical vectors, choose the appropriate model, train on specialized data, implement indexing techniques, and measure performance using suitable metrics.",
     "quiz": [
       {
-        "q": "ما هي تقنية الضبط التي تقلل من استخدام الذاكرة بشكل كبير أثناء عملية ضبط النماذج الكبيرة؟",
+        "q": "ما هو التضمين (Embedding) في نماذج الذكاء الاصطناعي؟",
         "options": [
-          "Full Fine-tuning",
-          "Transfer Learning",
-          "LoRA",
-          "Reinforcement Learning"
+          "عملية تحويل النصوص إلى كلمات مفتاحية",
+          "عملية تحويل الكلمات أو الجملات إلى متجهات رقمية تمثل المعنى",
+          "عملية تنظيف البيانات النصية",
+          "عملية ترجمة النصوص لغات مختلفة"
         ],
-        "answer": 2,
-        "explain": "LoRA (Low-Rank Adaptation) هي تقنية تسمح بضبط النماذج الكبيرة باستخدام موارد محدودة عن طريق تحديث مصفوفات منخفضة الرتبة فقط."
+        "answer": 1,
+        "explain": "التضمين (Embedding) هو عملية تحويل الكلمات أو الجملات إلى متجهات رقمية تمثل المعنى الدلالي في فضاء ذي أبعاد عديدة."
       },
       {
-        "q": "ما هو العامل الأكثر أهمية عند اختيار نموذج أساسي لعملية الضبط؟",
+        "q": "أي من الخيارات التالية هي تقنية فعالة لتسريع عمليات البحث في مجموعات المتجهات الكبيرة؟",
         "options": [
-          "حجم النموذج فقط",
-          "الأداء الأساسي للنموذج فقط",
-          "توثيق النموذج",
-          "كل ما سبق"
+          "زيادة حجم النموذج",
+          "استخدام تقنيات التجميع مثل FAISS أو Annoy",
+          "تقليل عدد الأبعاد في المتجهات",
+          "زيادة عدد الجمل في المجموعة"
         ],
-        "answer": 3,
-        "explain": "يجب مراعاة عدة عوامل عند اختيار النموذج الأساسي: حجم النموذج، أداءه الأساسي، وجودة التوثيق المتاح له."
+        "answer": 1,
+        "explain": "تقنيات التجميع مثل FAISS وAnnoy مصممة خصيصاً لتسريع عمليات البحث والتشابه بين المتجهات الكبيرة بكفاءة عالية."
       },
       {
-        "q": "ما هو الخطأ الشائع عند ضبط النماذج الصغيرة لمهام محددة؟",
+        "q": "ما هي أفضل طريقة لتحسين أداء نموذج التضمين لمجال متخصص؟",
         "options": [
-          "استخدام بيانات غير متوازنة",
-          "اختيار نموذج كبير جداً",
-          "عدم استخدام GPU",
-          "كل ما سبق"
+          "استخدام نموذج أكبر حجمياً",
+          "تدريب النموذج على بيانات متخصصة في ذلك المجال",
+          "زيادة عدد الأبعاد في المتجهات",
+          "تقليل حجم البيانات المدربة عليها"
         ],
-        "answer": 3,
-        "explain": "كل الخيارات خطأ شائع: استخدام بيانات غير متوازنة يؤدي إلى تحيز، اختيار نموذج كبير يزيد التكلفة، وعدم استخدام GPU يبطئ العملية بشكل كبير."
+        "answer": 1,
+        "explain": "تدريب نموذج التضمين على بيانات متخصصة في المجال المستهدف يساعد النموذج على فهم المصطلحات والمفاهيم المحددة بشكل أفضل."
       }
     ],
-    "addedAt": "2026-11-25"
+    "addedAt": "2026-11-26"
   }
 }
