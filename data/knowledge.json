@@ -1,6 +1,126 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-26-تنفيذ-أخلاقيات-الذكاء-الاصطناعي-في-التطبيقات",
+      "title": "تنفيذ أخلاقيات الذكاء الاصطناعي في التطبيقات",
+      "titleEn": "Implementing AI Ethics in Applications",
+      "why": "مع تطور نماذج الذكاء الاصطناعي وتوسيع استخدامها، أصبحت أخلاقيات الذكاء الاصطناعي ضرورة لضمان استخدام هذه التقنيات بطريقة مسؤولة وعادلة.",
+      "whyEn": "As AI models evolve and their applications expand, AI ethics has become essential to ensure these technologies are used responsibly and fairly.",
+      "difficulty": "beginner",
+      "track": "basics",
+      "steps": [
+        {
+          "title": "تحديد القيم الأساسية",
+          "detail": "حدد القيم الأخلاقية الأساسية التي يجب أن يرتكز عليها تطبيقك، مثل العدالة، الشفافية، المساءلة، والخصوصية."
+        },
+        {
+          "title": "تقييم المخاطر الأخلاقية",
+          "detail": "قم بتقييم المخاطر المحتملة لتطبيقك، مثل التحيز في البيانات، التمييز، أو التأثيرات غير المقصودة على المستخدمين."
+        },
+        {
+          "title": "تصميم معايير أخلاقية",
+          "detail": "أنشئ معايير واضحة لاتخاذ القرارات الأخلاقية في تطبيقك، مع مراعاة السياق المستهدف وتأثيره على مختلف الفئات."
+        },
+        {
+          "title": "دمج المراجعة الأخلاقية",
+          "detail": "قم بدمج عمليات مراجعة أخلاقية في دورة تطوير التطبيق، مع تشجيع المشاركة المتعددة التخصصات في هذه المراجعات."
+        },
+        {
+          "title": "الشفافية والتواصل",
+          "detail": "كن شفافاً بشأن استخدام الذكاء الاصطناعي في تطبيقك، وكيفية عمله، والقيود المحتملة، مع توفير قنوات للتواصل مع المستخدمين."
+        },
+        {
+          "title": "المراقبة والتحسين المستمر",
+          "detail": "قم بمراقبة أداء تطبيقك من منظور أخلاقي باستمرار، وقم بتحسينه بناءً على الملاحظات والتجارب الجديدة."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Identify Core Values",
+          "detail": "Determine the core ethical values that should underpin your application, such as fairness, transparency, accountability, and privacy."
+        },
+        {
+          "title": "Assess Ethical Risks",
+          "detail": "Evaluate potential ethical risks of your application, such as data bias, discrimination, or unintended impacts on users."
+        },
+        {
+          "title": "Design Ethical Guidelines",
+          "detail": "Create clear guidelines for ethical decision-making in your application, considering the target context and its impact on different groups."
+        },
+        {
+          "title": "Integrate Ethical Review",
+          "detail": "Incorporate ethical review processes into your development cycle, encouraging multidisciplinary participation in these reviews."
+        },
+        {
+          "title": "Transparency and Communication",
+          "detail": "Be transparent about the use of AI in your application, how it works, and its limitations, while providing channels for user communication."
+        },
+        {
+          "title": "Continuous Monitoring and Improvement",
+          "detail": "Continuously monitor your application's performance from an ethical perspective and improve it based on feedback and new experiences."
+        }
+      ],
+      "code": "",
+      "resources": [
+        {
+          "name": "AI Ethics Guidelines",
+          "url": "https://www.oecd.ai/en/ai-principles"
+        },
+        {
+          "name": "Ethical AI Framework",
+          "url": "https://www.microsoft.com/en-us/ai/responsible-ai"
+        },
+        {
+          "name": "AI Ethics Handbook",
+          "url": "https://hai.stanford.edu/ai-ethics-handbook"
+        }
+      ],
+      "tags": [
+        "أخلاقيات",
+        "مسؤولية",
+        "شفافية",
+        "عادلة"
+      ],
+      "quickRef": "حدد القيم، قيّم المخاطر، صمم المعايير، وادمج المراجعة الأخلاقية في تطوير تطبيقات الذكاء الاصطناعي.",
+      "quickRefEn": "Identify values, assess risks, design guidelines, and integrate ethical review in AI application development.",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في تنفيذ أخلاقيات الذكاء الاصطناعي؟",
+          "options": [
+            "الشفافية",
+            "السرعة في التطوير",
+            "تقليل التكاليف",
+            "زيادة الدقة"
+          ],
+          "answer": 0,
+          "explain": "الشفافية هي العنصر الأهم في أخلاقيات الذكاء الاصطناعي، حيث تسمح للمستخدمين بفهم كيفية عمل النظام وتأثيره عليهم."
+        },
+        {
+          "q": "ما هي الخطوة الأولى في عملية تنفيذ أخلاقيات الذكاء الاصطناعي؟",
+          "options": [
+            "اختبار النظام",
+            "تحديد القيم الأساسية",
+            "نشر التطبيق",
+            "جمع البيانات"
+          ],
+          "answer": 1,
+          "explain": "الخطوة الأولى هي تحديد القيم الأساسية التي يجب أن يرتكز عليها تطبيقك، مثل العدالة والشفافية والمساءلة."
+        },
+        {
+          "q": "كيف يمكن ضمان الاستدامة الأخلاقية لتطبيق الذكاء الاصطناعي؟",
+          "options": [
+            "بعد النشر مباشرة",
+            "من خلال المراقبة والتحسين المستمر",
+            "باستخدام نماذج أكبر فقط",
+            "تجنب جمع بيانات المستخدمين"
+          ],
+          "answer": 1,
+          "explain": "الاستدامة الأخلاقية تتطلب مراقبة مستمرة وتحسينات بناءً على الملاحظات والتجارب الجديدة، وليست مجرد خطوة واحدة."
+        }
+      ],
+      "addedAt": "2026-11-26"
+    },
+    {
       "id": "k-2026-11-26-تحسين-الأداء-باستخدام-تقنيات-التضمين-المتقدمة",
       "title": "تحسين الأداء باستخدام تقنيات التضمين المتقدمة",
       "titleEn": "Performance Optimization Using Advanced Embedding Techniques",
