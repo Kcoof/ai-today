@@ -1,6 +1,118 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-27-ضبط-النماذج-الصغيرة-لمهام-محددة",
+      "title": "ضبط النماذج الصغيرة لمهام محددة",
+      "titleEn": "Fine-tuning Small Models for Specific Tasks",
+      "why": "يساعد ضبط النماذج الصغيرة على تحقيق أداء أفضل في مهام محددة دون الحاجة إلى موارد ضخمة. هذه التقنية تسمح بتخصيص النماذج حسب احتياجاتك المحددة مع الحفاظ على كفاءة تشغيلية.",
+      "whyEn": "Fine-tuning small models helps achieve better performance on specific tasks without requiring massive resources. This technique allows you to customize models according to your specific needs while maintaining operational efficiency.",
+      "difficulty": "intermediate",
+      "track": "building",
+      "steps": [
+        {
+          "title": "تحديد المهمة ونوع البيانات",
+          "detail": "حدد بوضوح المهمة التي تريد تحقيقها ونوع البيانات التي ستحتاجها. تأكد من أن لديك مجموعة بيانات جيدة التنظيم ذات صلة بالمهمة المستهدفة."
+        },
+        {
+          "title": "اخيار النموذج الأساس المناسب",
+          "detail": "اختر نموذجاً صغيراً قوياً كأساس للضبط. النماذج مثل DistilBERT أو TinyBERT مثالية لهذا الغرض بسبب حجمها الصغير وقدراتها الجيدة."
+        },
+        {
+          "title": "تحضير البيانات للتدريب",
+          "detail": "قسّم بياناتك إلى مجموعات تدريب، تحقق، واختبار. تأكد من أن البيانات متناسبة ومعالجة بشكل صحيح قبل بدء عملية الضبط."
+        },
+        {
+          "title": "تنفيذ عملية الضبط",
+          "detail": "استخدم مكتبات مثل Hugging Face Transformers لتنفيذ عملية الضبط. حدد المعلمات المناسبة مثل معدل التعلم وحجم الدفعة لتحقيق أفضل النتائج."
+        },
+        {
+          "title": "تقييم النموذج المحسّن",
+          "detail": "اختبر النموذج بعد الضبط على مجموعة بيانات الاختبار. قارن أداءه بالنموذج الأصلي لتحديد التحسينات التي تم تحقيقها."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Define the task and data type",
+          "detail": "Clearly identify the task you want to accomplish and the type of data you'll need. Ensure you have well-organized data relevant to your target task."
+        },
+        {
+          "title": "Choose an appropriate base model",
+          "detail": "Select a small but powerful model as your base for fine-tuning. Models like DistilBERT or TinyBERT are ideal for this purpose due to their small size and good capabilities."
+        },
+        {
+          "title": "Prepare data for training",
+          "detail": "Split your data into training, validation, and test sets. Make sure your data is balanced and properly processed before starting the fine-tuning process."
+        },
+        {
+          "title": "Implement the fine-tuning process",
+          "detail": "Use libraries like Hugging Face Transformers to implement the fine-tuning process. Set appropriate parameters such as learning rate and batch size to achieve the best results."
+        },
+        {
+          "title": "Evaluate the fine-tuned model",
+          "detail": "Test the fine-tuned model on the test set. Compare its performance with the original model to identify the improvements achieved."
+        }
+      ],
+      "code": "from transformers import Trainer, TrainingArguments, AutoModelForSequenceClassification, AutoTokenizer\n\n# Load base model and tokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased')\ntokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')\n\n# Prepare your dataset (example)\ntrain_dataset = ...  # Your training dataset\n\n# Set training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    evaluation_strategy=\"epoch\"\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n    tokenizer=tokenizer\n)\n\n# Start fine-tuning\ntrainer.train()",
+      "resources": [
+        {
+          "name": "Hugging Face Fine-tuning Tutorial",
+          "url": "https://huggingface.co/docs/transformers/training"
+        },
+        {
+          "name": "DistilBERT Documentation",
+          "url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
+        },
+        {
+          "name": "Fine-tuning Best Practices",
+          "url": "https://huggingface.co/docs/transformers/training_best_practices"
+        }
+      ],
+      "tags": [
+        "ضبط النماذج",
+        "التعلم العميق",
+        "معالجة اللغات الطبيعية",
+        "النماذج الصغيرة"
+      ],
+      "quickRef": "ضبط النماذج الصغيرة: اختيار نموذج مناسب، تحضير البيانات، ضبط المعلمات، تقييم النتائج",
+      "quickRefEn": "Fine-tuning small models: Choose appropriate model, prepare data, tune parameters, evaluate results",
+      "quiz": [
+        {
+          "q": "ما هو الخطأ الأكثر شيوعاً عند ضبط النماذج الصغيرة؟",
+          "options": [
+            "استخدام بيانات غير كافية للتدريب",
+            "اخيار نموذج كبير جداً",
+            "تجاهل معايير التقييم",
+            "كل ما سبق"
+          ],
+          "answer": 0,
+          "explain": "استخدام بيانات غير كافية للتدريب هو الخطأ الأكثر شيوعاً، حيث يؤدي إلى فرط التخصيص (overfitting) ويقلل من قدرة النموذج على التعميم."
+        },
+        {
+          "q": "ما هو أهم عامل يجب مراعاته عند اختيار نموذج أساسي للضبط؟",
+          "options": [
+            "حجم النموذج فقط",
+            "سرعة التدريب فقط",
+            "توافق النموذج مع المهمة المستهدفة",
+            "التكلفة فقط"
+          ],
+          "answer": 2,
+          "explain": "توافق النموذج مع المهمة المستهدفة هو العامل الأهم، حيث يجب أن يكون النموذج الأساسي قوياً في المجال المتعلق بالمهمة التي تريد تحقيقها."
+        },
+        {
+          "q": "ما هو الفرق الرئيسي بين ضبط النموذج (fine-tuning) والتدريب من الصفر (training from scratch)؟",
+          "options": [
+            "الضبط أسرع دائماً",
+            "الضبط يتطلب بيانات أكثر",
+            "الضبط يبدأ من معرفة مسبقة بينما التدrieb من الصفر يبدأ من الصفر",
+            "لا يوجد فرق"
+          ],
+          "answer": 2,
+          "explain": "الضبط يبدأ من نموذج مدرب مسبقاً (معرفة مسبقة) بينما التدريب من الصفر يبدأ بمعلمات عشوائية تماماً، مما يجعل الضبط أكثر كفاءة في معظم الحالات."
+        }
+      ],
+      "addedAt": "2026-11-27"
+    },
+    {
       "id": "k-2026-11-26-تنفيذ-أخلاقيات-الذكاء-الاصطناعي-في-التطبيقات",
       "title": "تنفيذ أخلاقيات الذكاء الاصطناعي في التطبيقات",
       "titleEn": "Implementing AI Ethics in Applications",
