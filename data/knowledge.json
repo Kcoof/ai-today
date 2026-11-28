@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "id": "k-2026-11-28-كتابة-أوامر-فعالة-لنماذج-الذكاء-الاصطناعي",
+      "title": "كتابة أوامر فعالة لنماذج الذكاء الاصطناعي",
+      "titleEn": "Writing Effective Prompts for AI Models",
+      "why": "تأثير جودة الأوامر التي نقدمها لنماذج الذكاء الاصطناعي على جودة النتائج التي نحصل عليها. أوامر جيدة تؤدي إلى إجابات أكثر دقة وملاءمة.",
+      "whyEn": "The quality of prompts we provide to AI models directly impacts the quality of results we get. Good prompts lead to more accurate and relevant responses.",
+      "difficulty": "beginner",
+      "track": "tools",
+      "steps": [
+        {
+          "title": "حدد بوضوح ما تريد تحقيقه",
+          "detail": "ابدأ بفهم هدفك وما هي النتيجة المحددة التي تبحث عنها."
+        },
+        {
+          "title": "استخدم السياق المناسب",
+          "detail": "قدم معلومات خلفية ذات صلة تساعد النموذج على فهم طلبك بشكل أفضل."
+        },
+        {
+          "title": "كن محدداً في توجيهاتك",
+          "detail": "حدد بوضوح التنسيق والطول وأي متطلبات محددة للناتج."
+        },
+        {
+          "title": "استخدم أمثلة توضيحية",
+          "detail": "قدم أمثلة على ما تبحث عنه لتوجيه استجابة النموذج."
+        },
+        {
+          "title": "قم بتجربة وتعديل الأوامر",
+          "detail": "اختبر متغيرات مختلفة من أمرك وقم بتحسينه بناءً على النتائج."
+        }
+      ],
+      "stepsEn": [
+        {
+          "title": "Clearly define what you want to achieve",
+          "detail": "Start by understanding your goal and what specific output you're looking for."
+        },
+        {
+          "title": "Use appropriate context",
+          "detail": "Provide relevant background information that helps the model understand your request better."
+        },
+        {
+          "title": "Be specific in your instructions",
+          "detail": "Clearly specify the format, length, and any specific requirements for the output."
+        },
+        {
+          "title": "Use illustrative examples",
+          "detail": "Provide examples of what you're looking for to guide the model's response."
+        },
+        {
+          "title": "Experiment and refine prompts",
+          "detail": "Test different variations of your prompt and refine based on the results."
+        }
+      ],
+      "code": "# Example of effective prompt engineering\ndef create_effective_prompt(goal, context, instructions, examples=None):\n    prompt = f\"Goal: {goal}\\n\\nContext: {context}\\n\\nInstructions: {instructions}\"\n    if examples:\n        prompt += f\"\\n\\nExamples: {examples}\"\n    return prompt\n\n# Usage\ngoal = \"Generate a marketing email\"\ncontext = \"We're launching a new eco-friendly water bottle\"\ninstructions = \"Write a persuasive email highlighting the product's benefits\"\nexamples = \"Subject: Stay Hydrated, Sustainably!\"\n\nprompt = create_effective_prompt(goal, context, instructions, examples)\nprint(prompt)",
+      "resources": [
+        {
+          "name": "OpenAI Prompt Engineering Guide",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        },
+        {
+          "name": "Anthropic Prompt Library",
+          "url": "https://www.anthropic.com/prompt-library"
+        },
+        {
+          "name": "Prompting Guide by DAIR.AI",
+          "url": "https://www.promptingguide.ai"
+        }
+      ],
+      "tags": [
+        "نماذج الذكاء الاصطناعي",
+        "كتابة الأوامر",
+        "مهارات رقمية",
+        "تحسين النتائج"
+      ],
+      "quickRef": "أوامر جيدة = نتائج أفضل. حدد الهدف، اقدم السياق، كن محدداً، استخدم الأمثلة، واجرب باستمرار.",
+      "quickRefEn": "Good prompts = Better results. Define the goal, provide context, be specific, use examples, and continuously experiment.",
+      "quiz": [
+        {
+          "q": "ما هو العنصر الأهم في كتابة أمر فعال لنموذج الذكاء الاصطناعي؟",
+          "options": [
+            "الطول الطويل للأمر",
+            "الوضوح في تحديد الهدف",
+            "استخدام لغة معقدة",
+            "عدم تقديم أي سياق"
+          ],
+          "answer": 1,
+          "explain": "الوضوح في تحديد الهدف هو العنصر الأهم لأنه يوجه النموذج نحو ما تريد تحقيقه بدقة."
+        },
+        {
+          "q": "كيف يمكن تحسين أوامرك لنماذج الذكاء الاصطناعي؟",
+          "options": [
+            "باستخدام أمثلة توضيحية",
+            "بتجربة وتعديل الأوامر",
+            "بتقديم السياق المناسب",
+            "كل ما سبق"
+          ],
+          "answer": 3,
+          "explain": "كل هذه الاستراتيجيات تساعد في تحسين أوامرك: استخدام الأمثلة، التجربة والتعديل، وتقديم السياق المناسب."
+        }
+      ],
+      "addedAt": "2026-11-28"
+    },
+    {
       "id": "k-2026-11-27-ضبط-النماذج-الصغيرة-لمهام-محددة",
       "title": "ضبط النماذج الصغيرة لمهام محددة",
       "titleEn": "Fine-tuning Small Models for Specific Tasks",

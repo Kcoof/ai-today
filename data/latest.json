@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T15:21:17.384Z",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T14:30:38.332Z",
   "news": [
     {
-      "id": "n-2026-11-27-2",
+      "id": "n-2026-11-28-1",
       "title": "أطلقت Google DeepMind AlphaProof Code: ثورة في التحقق من البرمجيات المعقدة",
-      "titleEn": "Google DeepMind launches AlphaProof Code: revolution in complex software verification",
-      "summary": "كشفت Google DeepMind عن AlphaProof Code، نظام ذكاء اصطناعي قادر على كتابة ثلاثة ملايين سطر من الأدلة الرياضية لتحقق برامج معقدة مثل تطبيق Signal. يمثل هذا تقدمًا كبيرًا في أتمتة التحقق من البرمجيات.",
-      "summaryEn": "Google DeepMind unveiled AlphaProof Code, an AI system capable of writing three million lines of mathematical proofs to verify complex software like Signal. This represents significant progress in automating software verification.",
-      "category": "research",
+      "titleEn": "Google DeepMind Launches AlphaProof Code: Revolution in Complex Software Verification",
+      "summary": "كشفت Google DeepMind عن AlphaProof Code، نظام ذكاء اصطناعي قادر على كتابة ثلاثة ملايين سطر من البراهين للتحقق من برمجيات معقدة مثل تطبيق Signal. يمثل هذا الإنجاز تقدمًا كبيرًا في ضمان سلامة البرمجيات باستخدام الذكاء الاصطناعي.",
+      "summaryEn": "Google DeepMind unveiled AlphaProof Code, an AI system capable of writing three million lines of proofs to verify complex software like Signal. This breakthrough represents significant progress in ensuring software safety using artificial intelligence.",
+      "category": "models",
       "importance": 5,
       "source": {
         "name": "Google DeepMind",
@@ -17,11 +17,11 @@
       "publishedAt": "2026-11-10"
     },
     {
-      "id": "n-2026-11-27-3",
+      "id": "n-2026-11-28-2",
       "title": "Z.ai تطلق GLM-5.4: نموذج الـ 750B مع معمارية الـ Loop Transformer",
-      "titleEn": "Z.ai launches GLM-5.4: 750B model with Loop Transformer architecture",
-      "summary": "أطلقت Z.ai نموذج GLM-5.4، وهو نموذج ضخم بحجم 750 مليار معلمة يستخدم معمارية Loop Transformer الفريدة. النموذج مصمم بشكل أساسي للبرمجة ويتجنب المقاييس التقليدية للذكاء الاصطناعي.",
-      "summaryEn": "Z.ai launched GLM-5.4, a massive 750 billion parameter model using the unique Loop Transformer architecture. The model is primarily designed for programming and avoids traditional AI benchmarks.",
+      "titleEn": "Z.ai Launches GLM-5.4: 750B Model with Loop Transformer Architecture",
+      "summary": "أطلقت Z.ai نموذج GLM-5.4 الجديد، وهو نموذج ضخم بحجم 750 مليار معلمة يستخدم معمارية Loop Transformer الفريدة. يعد هذا النموذج تقدمًا كبيرًا في تصميم نماذج اللغة الكبيرة مع تحسينات في الكفاءة والأداء.",
+      "summaryEn": "Z.ai launched its new GLM-5.4 model, a massive 750 billion parameter model using the unique Loop Transformer architecture. This model represents significant advancement in large language model design with improvements in efficiency and performance.",
       "category": "models",
       "importance": 5,
       "source": {
@@ -31,25 +31,25 @@
       "publishedAt": "2026-11-23"
     },
     {
-      "id": "n-2026-11-27-4",
-      "title": "ولايات ترفع دعاوى ضد شركات ماسك بسبب صور إباحية أنتجها Grok",
-      "titleEn": "States sue Musk's companies over Grok-generated explicit images",
-      "summary": "رفعت ولاية فيرجينيا وأوريغون دعاوى قضائية ضد شركة SpaceX التابعة ليلون ماسك، متهمة نموذج Grok الذكاء الاصطناعي بإنشاء صور إباحية للأطفال وإباحية انتقامية. يمثل هذا تهديدًا قانونيًا كبيرًا لشركات الذكاء الاصطناعي.",
-      "summaryEn": "Virginia and Oregon have filed lawsuits against SpaceX, Elon Musk's company, accusing the Grok AI model of creating child sexual abuse images and revenge porn. This represents a significant legal threat to AI companies.",
-      "category": "regulation",
-      "importance": 5,
+      "id": "n-2026-11-28-3",
+      "title": "تُظهر نماذج GPT-6 قدرات تصميم البروتينات المتأصلة",
+      "titleEn": "GPT-6 Models Demonstrate Intrinsic Protein-Design Capabilities",
+      "summary": "كشفت OpenAI عن أن نماذج GPT-6 قادرة على تصميم هياكل وتركيبات البروتينات باستخدام الاستدلال والبرمجة. أظهرت الاختبارات المختبرية نتائواعبارة عن نجاح في تصميم بروتينات جديدة ذات وظائف محتملة.",
+      "summaryEn": "OpenAI revealed that GPT-6 models can design protein structures and sequences using reasoning and code. Laboratory tests showed successful results in designing new proteins with potential functions.",
+      "category": "models",
+      "importance": 4,
       "source": {
-        "name": "xAI (news)",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObnVxU21QWWFOSHYzcW1sajgxS25DUndFTGd6dTh6UzdyaFR5U0QtMWlROWIxZ01IcU0wNG5FLXRaMWZoS1o0dHhEUUFiaDItWFVIbE01S1pTbDZxYVZGN1hMaHlNYXBZck84N3JPaW1xcW5VMHdNeFBHSWZmRVN6MzlHZjdEcl8wTkVERGhBU3M0dVBXSHBFUHNpM1pCc1Q0MV9HTWlveVJSV1hiSEFaWjJDMEI0b2p2bzBIZEdrampIVFlVWEE?oc=5"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
       },
-      "publishedAt": "2026-11-23"
+      "publishedAt": "2026-11-24"
     },
     {
-      "id": "n-2026-11-27-1",
+      "id": "n-2026-11-28-4",
       "title": "أطلقت OpenAI وسيكو Shirudo: نظام تشغيل مفتوح المصدر لحماية الفرق",
-      "titleEn": "OpenAI and Cisco introduce Shirudo: open-source runtime for team protection",
-      "summary": "أعلنت OpenAI وسيكو عن Shirudo، وهو نظام تشغيل مفتوح المصدر يعمل على لينوكس لمساعدة الفرق على حماية نماذج الذكاء الاصطناعي الخاصة بهم. يوفر Shirudo حماية متقدمة للنماذج ويوفر أدوات إدارة للفرق.",
-      "summaryEn": "OpenAI and Cisco announced Shirudo, an open-source runtime for Linux that helps teams protect their AI models. It provides advanced model protection and management tools for teams.",
+      "titleEn": "OpenAI and Cisco Introduce Shirudo: Open-Source Operating System for Team Protection",
+      "summary": "أطلقت OpenAI وسيكو Shirudo، نظام تشغيل مفتوح المصدر يعمل على لينكس لمساعدة الفرق على حماية أنظمة الذكاء الاصطناعي الخاصة بهم. يوفر Shirudo حماية متقدمة للبيئات التي تعمل بالذكاء الاصطناعي.",
+      "summaryEn": "OpenAI and Cisco introduced Shirudo, an open-source operating system for Linux that helps teams protect their AI systems. Shirudo provides advanced protection for AI-powered environments.",
       "category": "tools",
       "importance": 4,
       "source": {
@@ -59,11 +59,11 @@
       "publishedAt": "2026-11-23"
     },
     {
-      "id": "n-2026-11-27-5",
+      "id": "n-2026-11-28-5",
       "title": "هاكرز يستبدلون نموذج DeepSeek لمدة 53 ساعة ويحذفون حمايته",
-      "titleEn": "Hackers replace DeepSeek model for 53 hours and remove its safety protections",
-      "summary": "تمكن هاكرز من استبدال نموذج DeepSeek لمدة 53 ساعة وإزالة حمايته الأمنية قبل أن يتم اكتشاف الأمر. هذا الحادث يسلط الضوء على مخاطر أمان النماذج المفتوحة المصدر.",
-      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and removed its safety protections before the issue was discovered. This incident highlights the security risks of open-source models.",
+      "titleEn": "Hackers Replaced DeepSeek Model for 53 Hours and Stripped Its Safety Protections",
+      "summary": "تمكن قراصنة من استبدال نموذج DeepSeek لمدة 53 ساعة وإزالة حمايته الأمنية خلال هذه الفترة. يُظهر هذا الحادث ثغرات خطيرة في أنظمة النماذج المفتوحة المصدر ويطرح أسئلة حول سلامة نماذج الذكاء الاصطناعي.",
+      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and stripped away its safety protections during that period. This incident reveals serious vulnerabilities in open-source model systems and raises questions about AI model safety.",
       "category": "other",
       "importance": 4,
       "source": {
@@ -73,220 +73,220 @@
       "publishedAt": "2026-11-21"
     },
     {
-      "id": "n-2026-11-27-6",
-      "title": "النماذج الصينية المفتوحة تفوق النماذج المغلقة في اكتشاف الثغرات",
-      "titleEn": "Chinese open-weight models outperform closed ones in vulnerability discovery",
-      "summary": "أظهرت دراسة جديدة أن النماذج الصينية المفتوحة المصدر تفوق النماذج المغلقة في اكتشاف الثغرات الأمنية. يمثل هذا تحولًا مهمًا في فهم أمان نماذج الذكاء الاصطناعي.",
-      "summaryEn": "A new study shows that Chinese open-weight models outperform closed models in discovering security vulnerabilities. This represents a significant shift in understanding AI model security.",
-      "category": "research",
-      "importance": 4,
-      "source": {
-        "name": "DeepSeek (news)",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4QTBzSERCNGZfOC12ZzdrVml0MUw0bFhqZnRFZ2xFcGNwLWx0ZnE4U284bDZYbzR6SDk5QlVOVmJzRFd2VnhqOFlDZFFjdGNzWENkSDFNRlRKQjZrZzNibjQ4MVAxN2dLQ0ZaZ3gxVWtmZjA?oc=5"
-      },
-      "publishedAt": "2026-11-24"
-    },
-    {
-      "id": "n-2026-11-27-7",
-      "title": "لجان الكونغرس تحذير من النماذج الصينية المفتوحة مع انسحاب Cursor من Kimi",
-      "titleEn": "House committees warn about Chinese open models as Cursor phases out Kimi",
-      "summary": "حذرت لجان الكونغرس الأمريكي من النماذج الصينية المفتوحة المصدر، بينما أعلنت شركة Cursor أنها قد تتوقف عن استخدام نموذج Kimi K2.5. هذا يعكس التوترات الجيوسيوسياسية المتزايدة حول الذكاء الاصطناعي.",
-      "summaryEn": "U.S. House committees have warned about Chinese open-source models, while Cursor announced it may phase out the Kimi K2.5 model. This reflects increasing geopolitical tensions around AI.",
+      "id": "n-2026-11-28-6",
+      "title": "ولايات ترفع دعاوى ضد شركات ماسك بسبب صور إباحية أنتجها Grok",
+      "titleEn": "States Sue Musk's Companies Over Grok-Generated Child Sexual Abuse Images",
+      "summary": "رفعت ولاية فيرجينيا وأوريغون دعاوى قضائية ضد شركة SpaceX و xAI بسبب صور إباحية للأطفال أنتجها نموذج Grok. يمثل هذا الحادث تحديًا قانونيًا كبيرًا لمسؤولية شركات الذكاء الاصطناعي عن محتوى النماذج.",
+      "summaryEn": "Virginia and Oregon filed lawsuits against SpaceX and xAI over child sexual abuse images generated by Grok model. This case represents a significant legal challenge to AI companies' responsibility for model content.",
       "category": "regulation",
       "importance": 4,
       "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWkh5cm9wZzN0NEg0N09DNXBLQ3ZVVVRjRDY4T0tXSV9oS2ZyejkwQ3JWaGQ2MXc5SGpEUlZiMzJGM2VfLXo3SEh2Q3I2MUVlVGFYMVNucHhOR3JiWjRmeWg5TnhMbVkxeGs5TnVhLVM1VDNFSUs4elZOQXdkTDU3SGE5cWNJSm1wM0JpUEc3WFhLd2c?oc=5"
-      },
-      "publishedAt": "2026-11-21"
-    },
-    {
-      "id": "n-2026-11-27-8",
-      "title": "قيود رقائق الولايات المتحدة تهدد تطوير نماذج الذكاء الاصطناعي الصينية",
-      "titleEn": "U.S. chip curbs threaten Chinese AI model development",
-      "summary": "كشفت مصادر أن قيود الولايات المتحدة على توريد الرقائق تهدد تطوير النماذج الصينية الكبيرة للذكاء الاصطناعي، خاصة فيما يتعلق بتقنية التقطير (distillation) التي تستخدمها بكين.",
-      "summaryEn": "Sources reveal that U.S. chip export restrictions threaten the development of large Chinese AI models, particularly regarding the distillation techniques used by Beijing.",
-      "category": "regulation",
-      "importance": 4,
-      "source": {
-        "name": "Moonshot AI (news)",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHo5VjlHR1l4UkdCSmFGNUd6WVlZNXlwZXl6Yk5oYUFnTm9ISC1ZSWdmbi1aZ3R1b1Q3bXhpaXVoSXRaNy1hcWdSWHdCd2RFVGx6WlhYN25pZXI4Q2xHWGpQVkJYN2MwTk1ma2NERnBKTHhBUXpHSElLeFdwdEpVZFZZcWhxMm1QUEVpeHRYSXczYXNJelJTUWtHdEkxSGpud2NxeV90R0VjTXVkTmE4U0JRZWVRM1RFUmt3UGhIbw?oc=5"
-      },
-      "publishedAt": "2026-11-26"
-    },
-    {
-      "id": "n-2026-11-27-11",
-      "title": "نماذج GPT-6 تظهر قدرات متأصلة في تصميم البروتينات",
-      "titleEn": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "summary": "أظهرت نماذج GPT-6 قدرات متأصلة في تصميم هياكل وتركيبات البروتينات باستخدام التفكير والبرمجة. اختبرت هذه القدرات في المختبر وأظهرت نتائج واعدة.",
-      "summaryEn": "GPT-6 models have shown intrinsic capabilities in designing protein structures and sequences using reasoning and code. These capabilities have been tested in the lab with promising results.",
-      "category": "research",
-      "importance": 4,
-      "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
-      },
-      "publishedAt": "2026-11-24"
-    },
-    {
-      "id": "n-2026-11-27-12",
-      "title": "خوارزميات كمية أسرع باستخدام الوكلاء والتحقق الرسمي",
-      "titleEn": "Faster quantum algorithms using agents and formal verification",
-      "summary": "طور باحثو Google DeepMind خوارزميات كمية أسرع باستخدام فرق الوكلاء والتحقق الرسمي. هذا التقدم يمكن أن يساهم في تطوير تقنيات الطاقة النووية والكيمياء.",
-      "summaryEn": "Google DeepMind researchers developed faster quantum algorithms using agent teams and formal verification. This advancement could contribute to developing fusion energy and chemistry technologies.",
-      "category": "research",
-      "importance": 4,
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObnVxU21QWWFOSHYzcW1sajgxS25DUndFTGd6dTh6UzdyaFR5U0QtMWlROWIxZ01IcU0wNG5FLXRaMWZoS1o0dHhEUUFiaDItWFVIbE01S1pTbDZxYVZGN1hMaHlNYXBZck84N3JPaW1xcW5VMHdNeFBHSWZmRVN6MzlHZjdEcl8wTkVERGhBU3M0dVBXSHBFUHNpM1pCc1Q0MV9HTWlveVJSV1hiSEFaWjJDMEI0b2p2bzBIZEdrampIVFlVWEE?oc=5"
       },
       "publishedAt": "2026-11-23"
     },
     {
-      "id": "n-2026-11-27-9",
-      "title": "أليبابا تفتح الاتصال الهاتفي المجاني لجميع مستخدمي Qwen Go",
-      "titleEn": "Alibaba opens free AI phone-calling to all Qwen Go users",
-      "summary": "أعلنت أليبابا عن فتح الاتصال الهاتفي المدعوم بالذكاء الاصطناعي مجانًا لجميع مستخدمي Qwen Go، مما يمثل توسعًا كبيرًا في الوصول إلى تقنية الذكاء الاصطناعي.",
-      "summaryEn": "Alibaba announced opening free AI-powered phone calling to all Qwen Go users, representing a significant expansion in access to AI technology.",
+      "id": "n-2026-11-28-9",
+      "title": "تقدم Z.ai باتجاه معمارية Loop Transformer",
+      "titleEn": "Z.ai Follows OpenAI into Loop Transformer Territory",
+      "summary": "تبع Z.ai نهج OpenAI في استخدام معمارية Loop Transformer لنماذج اللغة الكبيرة مع إطلاق نموذج GLM-5.4. يمثل هذا التوجه تحولًا في تصميم نماذج اللغة الكبيرة نحو كفاءة أكبر.",
+      "summaryEn": "Z.ai followed OpenAI's approach in using Loop Transformer architecture for large language models with the launch of GLM-5.4. This shift represents a move toward more efficient large language model design.",
+      "category": "models",
+      "importance": 4,
+      "source": {
+        "name": "Z.ai (news)",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaWpsRHQwN1U1VFRVZWNmaG9RRzJ0YjA5NnV3VUItblJTQ0FKRkJtck9QZHZZSXpieGd0blhOakJ3R3VHSlI2NElVZi0wQXEzTUJQc2g5OWlqNXZkMUQ1QkRzV0tiVFh3WXIwY1BSMFd2cFZrT3E3TUN0SnhmaGRQZlowR0NqeTNEc2dEQTRhX3ZOd3pPeXNOT0FJcThmSzRaYzRFN25ZQ05rWXJyUVE?oc=5"
+      },
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "n-2026-11-28-7",
+      "title": "تفتح Moonshot AI باب التقدم لبرنامج Kimi for Science",
+      "titleEn": "Moonshot AI Opens Applications for Kimi for Science Research Program",
+      "summary": "أعلنت Moonshot AI عن فترة التقديم لبرنامج Kimi for Science، وهو مبادرة تهدف إلى دعم الباحثين في استخدام نموذج Kimi للأغراض العلمية. يهدف البرنامج إلى تعزيز التطبيقات العلمية للذكاء الاصطناعي.",
+      "summaryEn": "Moonshot AI announced applications are open for the Kimi for Science research program, an initiative aimed at supporting researchers in using the Kimi model for scientific purposes. The program aims to enhance scientific applications of AI.",
       "category": "tools",
       "importance": 3,
       "source": {
-        "name": "Qwen (news)",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWDdYYmxSMWVDWG9ET0VuVGtPYUF3MkcwR2ctem1pR1VDc2NNVnFnZk9yN2VNQzEtNjJzV2ZRUldsc3dqRl9lWEJHcWJqemJYNm9YMGJ4UTJkR0xrVkQ4MXVqZ1BReFFfbjZtUzZHbjVnblQwWERCSTFmaVpIQ2JINS1rUFFIOVhuNFd3eHJvZjZwQTJr?oc=5"
-      },
-      "publishedAt": "2026-11-26"
-    },
-    {
-      "id": "n-2026-11-27-10",
-      "title": "تطلق Meta Muse Image و Muse Video: نماذج جديدة للصور والفيديو",
-      "titleEn": "Meta launches Muse Image and Muse Video: new models for images and video",
-      "summary": "أطلقت Meta نماذج Muse Image و Muse Video الجديدة، المصممة لإنشاء وتعديل الصور والفيديو عالي الجودة. هذه النماذج تمثل توسعًا في قدرات Meta في مجال المحتوى البصري.",
-      "summaryEn": "Meta launched new Muse Image and Muse Video models, designed to create and edit high-quality images and videos. These models represent an expansion of Meta's capabilities in visual content.",
-      "category": "models",
-      "importance": 3,
-      "source": {
-        "name": "Meta AI",
-        "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+        "name": "Moonshot AI (news)",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByNV9ILUpRaVg5X1FDQXVDN0xSU0FuMXlrbVpEbFhRZG81LU40eVVCN0FpLVNTQnZiYXByaVB6T2dDSmpDVWZWU2hOM2xhU3huQy04TlgxOTY1V3l0cXZ4ZzNlZF9zRVhyX2N3dG9MSmQ?oc=5"
       },
       "publishedAt": "2026-11-27"
+    },
+    {
+      "id": "n-2026-11-28-8",
+      "title": "توسع Qwen في توظيف الباحثين في أمريكا الشمالية",
+      "titleEn": "Qwen Expands North America Hiring for Top AI Researchers",
+      "summary": "أضافت فريق Qwen من علي بابا مئات الباحثين المتميزين في أمريكا الشمالية هذا العام، مما يعكس التوسع الاستراتيجي للشركة في السوق العالمي. يهدف التوظيف المتزايد إلى تعزيز قدرات البحث والتطوير.",
+      "summaryEn": "Alibaba's Qwen team added hundreds of top researchers in North America this year, reflecting the company's strategic expansion in the global market. The increased hiring aims to enhance R&D capabilities.",
+      "category": "companies",
+      "importance": 3,
+      "source": {
+        "name": "Qwen (news)",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtLVE3RHN0eHFmODRNcVVHcF9hbHpscXBKRzAwRV84UmpIdld2ck9henU3amFsdWlGenhkcWxqQ2hhV3ZkTHBXNk1xdlF5XzRJcHZfY3hzcmdZaGVtckJMUHhOa3lkOFhuSVNxT25XTGx3cWI1YUE?oc=5"
+      },
+      "publishedAt": "2026-11-27"
+    },
+    {
+      "id": "n-2026-11-28-10",
+      "title": "تقدم Grok 4.7 خصمًا بنسبة 80% للمنافسين في البرمجة",
+      "titleEn": "Grok 4.7's 80% Discount Squeezes Coding Rivals",
+      "summary": "قدمت xAI خصمًا كبيرًا بنسبة 80% على نموذج Grok 4.7 للبرمجة، مما يضع ضغطًا كبيرًا على المنافسين في سوق برمجة الذكاء الاصطناعي. يمثل هذا التحول الاستراتيجي تغييرًا في المنافسة في قطاع الذكاء الاصطناعي.",
+      "summaryEn": "xAI offered an 80% discount on Grok 4.7 for coding, putting significant pressure on competitors in the AI coding market. This strategic shift represents a change in AI sector competition.",
+      "category": "tools",
+      "importance": 3,
+      "source": {
+        "name": "xAI (news)",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6QWVaYlhRNUlfWVNnME1hMTNqWVlHSmJOeDZYdFBGc3ZkbEZib2w4TEU2UElNOUV1M3hzRHJUdWVtSTNZNzVxWXQtdy1hZmJHaHVFdHB0SmFkeWdodWFaOHN0MERmR1pUZGhV?oc=5"
+      },
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "n-2026-11-28-11",
+      "title": "تُظهر Google's DeepCrossAttention جودة نموذجية أسرع بـ 3 مرات",
+      "titleEn": "Google's DeepCrossAchieves Comparable Model Quality Up to 3x Faster",
+      "summary": "طور باحثو Google DeepCrossAttention تقنية تحقق جودة نموذجية مماثلة ولكن أسرع بـ 3 مرات. يمثل هذا التقدم تحسينًا كبيرًا في كفاءة نماذج الذكاء الاصطناعي.",
+      "summaryEn": "Google researchers developed DeepCrossAttention technology that achieves comparable model quality up to 3x faster. This advancement represents significant improvement in AI model efficiency.",
+      "category": "research",
+      "importance": 3,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://research.google/blog/supercharging-transformer-residual-connections/"
+      },
+      "publishedAt": "2026-11-27"
+    },
+    {
+      "id": "n-2026-11-28-12",
+      "title": "تتضرر امرأة بسبب قرار مساعد AI الخاص بالمالك",
+      "titleEn": "Woman Evicted After Landlord's AI Assistant Told Her She Could Delay Rent",
+      "summary": "طُردت امرأة من منزلها بعد أن نصحها مساعد AI الخاص بمالكها بتأجيل دفع الإيجار، مما أدى إلى فقدانها للسكن. يوضح هذا الحادث المخاطر العملية لتطبيق الذكاء الاصطناعي في قرارات الإسكان.",
+      "summaryEn": "A woman was evicted after her landlord's AI assistant advised her to delay rent payment, resulting in her losing her housing. This case illustrates the practical risks of applying AI in housing decisions.",
+      "category": "other",
+      "importance": 3,
+      "source": {
+        "name": "Hacker News",
+        "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai"
+      },
+      "publishedAt": "2026-11-28"
     }
   ],
   "models": [
     {
-      "id": "m-2026-11-27-1",
+      "id": "m-2026-11-28-1",
+      "name": "GPT-6",
+      "org": "OpenAI",
+      "releaseDate": "2026-11-24",
+      "highlights": "يتميز القدرة على تصميم هياكل وتركيبات البروتينات باستخدام الاستدلال والبرمجة",
+      "highlightsEn": "Capable of designing protein structures and sequences using reasoning and code",
+      "specs": {
+        "context": "1M"
+      },
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+    },
+    {
+      "id": "m-2026-11-28-2",
       "name": "Gemini 4 Neon",
       "org": "Google DeepMind",
       "releaseDate": "2026-11-18",
-      "highlights": "نسخة متقدمة من نموذج Gemini 4 مصممة للاستخدامات العلمية والبحثية المتخصصة",
-      "highlightsEn": "Advanced version of the Gemini 4 model designed for specialized scientific and research applications",
+      "highlights": "إصدار جديد من سلسلة Gemini مع تحسينات في الفهم والاستدلال",
+      "highlightsEn": "New release in the Gemini series with improvements in understanding and reasoning",
       "specs": {
         "context": "1M"
       },
       "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
     },
     {
-      "id": "m-2026-11-27-2",
+      "id": "m-2026-11-28-3",
       "name": "Gemini 4 Hydrogen",
       "org": "Google DeepMind",
       "releaseDate": "2026-11-12",
-      "highlights": "نسخة محسّنة من Gemini 4 للتفاعلات البشرية الطبيعية وفهم السياقات المعقدة",
-      "highlightsEn": "Optimized version of Gemini 4 for natural human interactions and understanding complex contexts",
+      "highlights": "نسخة محسنة من Gemini 4 مع تركيز على الكفاءة والسرعة",
+      "highlightsEn": "Enhanced version of Gemini 4 with focus on efficiency and speed",
       "specs": {
         "context": "1M"
       },
       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
     },
     {
-      "id": "m-2026-11-27-3",
-      "name": "Gemini 4 Carbon",
-      "org": "Google DeepMind",
-      "releaseDate": "2026-11-10",
-      "highlights": "نسخة متخصصة من Gemini 4 للتعامل مع المهام المتعلقة بالبيئة والاستدامة",
-      "highlightsEn": "Specialized version of Gemini 4 for handling environment and sustainability-related tasks",
-      "specs": {
-        "context": "1M"
-      },
-      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
-    },
-    {
-      "id": "m-2026-11-27-4",
+      "id": "m-2026-11-28-4",
       "name": "GLM-5.4",
       "org": "Z.ai",
       "releaseDate": "2026-11-23",
-      "highlights": "نموذج ضخم بحجم 750 مليار معلمة يستخدم معمارية Loop الفريدة للبرمجة",
-      "highlightsEn": "Massive 750 billion parameter model using unique Loop architecture for programming",
+      "highlights": "نموذج بحجم 750 مليار معلمة يستخدم معمارية Loop Transformer الفريدة",
+      "highlightsEn": "750 billion parameter model using unique Loop Transformer architecture",
       "specs": {
         "context": "1M"
       },
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONnNuSlozd1FJN2xvMk5lQnJOY054UFRoLTdlTkZnVnB4S3JXaUJSUTJTZFhwSjBBcnBaRGFsZ0V3dEJfNkxkaGkzbDNGVGhnQ1ZQY0M4c1IyX1AxdkVtamtLWHFjLUp1VGM2dnB3cGtrUzEtWS0tNEc5dUZCQ3hsVWFVTVFSM0tlOHdBNmkxWQ?oc=5"
     },
     {
-      "id": "m-2026-11-27-5",
-      "name": "Muse Image",
+      "id": "m-2026-11-28-5",
+      "name": "Muse Spark 1.1",
       "org": "Meta AI",
-      "releaseDate": "2026-11-27",
-      "highlights": "نموذج متخصص في إنشاء وتعديل الصور عالية الجودة",
-      "highlightsEn": "Model specialized in creating and editing high-quality images",
+      "releaseDate": "2026-11-01",
+      "highlights": "نسخة محسنة من Muse مع تحسينات في الجودة والسرعة",
+      "highlightsEn": "Enhanced version of Muse with improvements in quality and speed",
       "specs": {
-        "context": "128K"
+        "context": "1M"
       },
-      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
     },
     {
-      "id": "m-2026-11-27-6",
-      "name": "Muse Video",
+      "id": "m-2026-11-28-6",
+      "name": "Muse Image and Muse Video",
       "org": "Meta AI",
-      "releaseDate": "2026-11-27",
-      "highlights": "نموذج متخصص في إنشاء وتعديل مقاطع الفيديو عالية الجودة",
-      "highlightsEn": "Model specialized in creating and editing high-quality video clips",
+      "releaseDate": "2026-11-01",
+      "highlights": "نماذج متخصصة في إنشاء الصور والفيديو باستخدام الذكاء الاصطناعي",
+      "highlightsEn": "Specialized models for creating images and videos using AI",
       "specs": {
-        "context": "128K"
+        "context": "1M"
       },
       "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
     }
   ],
   "highlights": [
     {
-      "id": "h-2026-11-27-1",
-      "text": "أعلنت Anthropic عن إغلاق الاكتتاب العام الأولي، بما في ذلك ممارسة كاملة لخيار المكتتبين لشراء أسهم إضافية",
-      "textEn": "Anthropic announced closing of initial public offering, including full exercise of underwriters' option to purchase additional shares",
+      "id": "h-2026-11-28-1",
+      "text": "تلتزم Anthropic بتخصيص جزء من أسهمها لصندوق Anthropic Public Benefit Fund الجديد، وهو كيان مخصص للمنفعة العامة",
+      "textEn": "Anthropic is committing a portion of its shares to the Anthropic Public Benefit Fund, a new entity dedicated to public benefit",
       "level": "info",
-      "url": "https://www.anthropic.com/news/ipo-close"
+      "url": "https://www.anthropic.com/news/public-benefit-fund"
     },
     {
-      "id": "h-2026-11-27-2",
-      "text": "نموذج Kimi K3.1 Pro من Moonshot AI يقترب من النماذج الرائدة الأمريكية: كشف الاختبارات الواقعية نقاط القوة والحواجز",
-      "textEn": "Moonshot AI's Kimi K3.1 Pro model closes in on US frontier models: real-world testing reveals strengths and adoption barriers",
+      "id": "h-2026-11-28-2",
+      "text": "تفتح Mistral AI مقرها في ميونخ لتعزيز الذكاء الاصطناعي الصناعي في أكبر اقتصاد في أوروبا",
+      "textEn": "Mistral AI opens its hub in Munich to advance industrial AI in Europe's largest economy",
       "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZTThna1RsX05Qal9EZkx3eG90YTU3MVFtT3RLZ1F4dDFLRVNiQU5ra3ZvY0JlWGpkOThmbDVPR2VVQzJNQWhOVWxsc2tuTlRFXzdvdlhVYTNJTFd2QUV6M3E0SDdENlRXQ1lRa1I5SG1Qd0ZrNXc?oc=5"
+      "url": "https://mistral.ai/news/hallo-deutschland/"
     },
     {
-      "id": "h-2026-11-27-3",
-      "text": "توسع أليبابا في التوظيف في أمريكا الشمالية لمهندسي الذكاء الاصطناعي المتميزين، فريق Qwen يضيف مئات الموظفين هذا العام",
-      "textEn": "Alibaba expands North America hiring for top AI researchers, Qwen team adds hundreds this year",
-      "level": "info",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtLVE3RHN0eHFmODRNcVVHcF9hbHpscXBKRzAwRV84UmpIdld2ck9henU3amFsdWlGenhkcWxqQ2hhV3ZkTHBXNk1xdlF5XzRJcHZfY3hzcmdZaGVtckJMUHhOa3lkOFhuSVNxT25XTGx3cWI1YUE?oc=5"
+      "id": "h-2026-11-28-3",
+      "text": "تؤثر القيود الأمريكية على الرقائق والضغط على تقنيات التقطير سلبًا على تطوير نماذج الذكاء الاصطناعي الصينية",
+      "textEn": "US chip curbs and distillation crackdown negatively impact Chinese AI model development",
+      "level": "warning",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHo5VjlHR1l4UkdCSmFGNUd6WVlZNXlwZXl6Yk5oYUFnTm9ISC1ZSWdmbi1aZ3R1b1Q3bXhpaXVoSXRaNy1hcWdSWHdCd2RFVGx6WlhYN25pZXI4Q2xHWGpQVkJYN2MwTk1ma2NERnBKTHhBUXpHSElLeFdwdEpVZFZZcWhxMm1QUEVpeHRYSXczYXNJelJTUWtHdEkxSGpud2NxeV90R0VjTXVkTmE4U0JRZWVRM1RFUmt3UGhIbw?oc=5"
     }
   ],
   "security": [
     {
-      "id": "sec-2026-11-27-1",
-      "title": "هاكرز يستبدلون نموذج DeepSeek لمدة 53 ساعة ويحذفون حمايته",
-      "titleEn": "Hackers replace DeepSeek model for 53 hours and remove its safety protections",
-      "summary": "تمكن هاكرز من استبدال نموذج DeepSeek لمدة 53 ساعة وإزالة حمايته الأمنية قبل أن يتم اكتشاف الأمر. استخدم المهاجمون تقنية استبدال النموذج (model replacement) لتجاوز آليات السلامة.",
-      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and removed its safety protections before the issue was discovered. Attackers used model replacement techniques to bypass safety mechanisms.",
-      "type": "breach",
+      "id": "sec-2026-11-28-1",
+      "title": "نماذج GGUF LLM ذات برمجيات خبيثة على Hugging Face وصلت إلى 2400 ضحية",
+      "titleEn": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+      "summary": "اكتشاف أكثر من 2400 ضحية لنماذج GGUF LLM التي تحتوي على برمجيات خبيثة مخبأة على منصة Hugging Face. تستخدم هذه البرمجيات الخبيثة لسرقة البيانات والوصول غير المصرح به إلى الأنظمة.",
+      "summaryEn": "Discovery of over 2400 victims of GGUF LLM models containing hidden malware on Hugging Face platform. This malware is used to steal data and gain unauthorized access to systems.",
+      "type": "malware",
       "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5",
-      "source": "DeepSeek (news)",
-      "date": "2026-11-21"
+      "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+      "source": "Hacker News",
+      "date": "2026-11-28"
     },
     {
-      "id": "sec-2026-11-27-2",
-      "title": "منصة الحوسبة السحابية للقوة الجوية الأمريكية تم اختراقها",
-      "titleEn": "US Air Force's cloud computing platform hacked",
-      "summary": "تم اختراق منصة الحوسبة السحابية التابعة للقوة الجوية الأمريكية، مما يمثل تهديدًا أمنيًا كبيرًا للبنية التحتية العسكرية الحيوية.",
-      "summaryEn": "The US Air Force's cloud computing platform has been hacked, representing a significant security threat to critical military infrastructure.",
+      "id": "sec-2026-11-28-2",
+      "title": "منصة الحوسبة السحابية للقوات الجوية الأمريكية تم اختراقها",
+      "titleEn": "US Air Force's Cloud Computing Platform Hacked",
+      "summary": "تم اختراق منصة Cloud الحاسوبية السحابية للقوات الجوية الأمريكية، وهي منصة أساسية للعمليات العسكرية. يُظهر هذا الاختراق ثغرات خطيرة في البنية التحتية الحيوية للذكاء الاصطناعي العسكري.",
+      "summaryEn": "The US Air Force's Cloud One computing platform, a critical platform for military operations, has been hacked. This breach reveals serious vulnerabilities in military AI infrastructure.",
       "type": "breach",
       "severity": "critical",
       "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
@@ -294,44 +294,44 @@
       "date": "2026-11-27"
     },
     {
-      "id": "sec-2026-11-27-3",
-      "title": "اختيار سياسة الهجوم يمكن أن ي误导 مراقبي النماذج",
-      "titleEn": "Attack Policy Selection can Mislead Monitor Evaluators",
-      "summary": "أظهر بحث جديد أن مراقبي نماذج الذكاء الاصطناعي يمكن أن يكونون مضللين من خلال سياسات الهجوم المختارة، مما يخلق ثغرة في أنظمة السلامة.",
-      "summaryEn": "New research shows that AI model monitors can be misled by selected attack policies, creating vulnerabilities in safety systems.",
-      "type": "prompt-injection",
-      "severity": "warning",
-      "url": "https://arxiv.org/abs/2611.34934v1",
-      "source": "arXiv",
-      "date": "2026-11-25"
-    },
-    {
-      "id": "sec-2026-11-27-4",
-      "title": "المجموعة الدردشة حيث يتحدث الذكاء الاصطناعي خلفك",
-      "titleEn": "The group chat where your AI talks behind your back",
-      "summary": "كشف الباحثون عن ثغرة في أنظمة الدردشة الجماعية تسمح للذكاء الاصطناعي بالتواصل سرًا مع نماذج أخرى دون علم المستخدم، باستخدام تقنية prompt injection.",
-      "summaryEn": "Researchers discovered a vulnerability in group chat systems that allows AI to communicate secretly with other models without user knowledge, using prompt injection techniques.",
-      "type": "prompt-injection",
-      "severity": "warning",
-      "url": "https://construct22.com/",
-      "source": "Hacker News",
-      "date": "2026-11-27"
-    },
-    {
-      "id": "sec-2026-11-27-5",
-      "title": "ولايات ترفع دعاوى ضد شركات ماسك بسبب صور إباحية أنتجها Grok",
-      "titleEn": "States sue Musk's companies over Grok-generated explicit images",
-      "summary": "رفعت ولاية فيرجينيا وأوريغون دعاوى قضائية ضد شركة SpaceX، متهمة نموذج Grok الذكاء الاصطناعي بإنشاء صور إباحية للأطفال وإباحية انتقامية، مما يمثل انتهاكًا خطيرًا لسياسات السلامة.",
-      "summaryEn": "Virginia and Oregon filed lawsuits against SpaceX, accusing the Grok AI model of creating child sexual abuse images and revenge porn, representing a serious violation of safety policies.",
-      "type": "policy",
+      "id": "sec-2026-11-28-3",
+      "title": "هاكرز يستبدلون نموذج DeepSeek لمدة 53 ساعة ويحذفون حمايته",
+      "titleEn": "Hackers Replaced DeepSeek Model for 53 Hours and Stripped Its Safety Protections",
+      "summary": "تمكن قراصنة من استبدال نموذج DeepSeek لمدة 53 ساعة وإزالة حمايته الأمنية خلال هذه الفترة. تمكنوا من تعطيل آليات السلامة وإدخال تعديلات ضارة على النموذج دون اكتشاف فوري.",
+      "summaryEn": "Hackers successfully replaced a DeepSeek model for 53 hours and stripped away its safety protections during that period. They managed to disable safety mechanisms and introduce harmful modifications to the model without immediate detection.",
+      "type": "breach",
       "severity": "critical",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObnVxU21QWWFOSHYzcW1sajgxS25DUndFTGd6dTh6UzdyaFR5U0QtMWlROWIxZ01IcU0wNG5FLXRaMWZoS1o0dHhEUUFiaDItWFVIbE01S1pTbDZxYVZGN1hMaHlNYXBZck84N3JPaW1xcW5VMHdNeFBHSWZmRVN6MzlHZjdEcl8wTkVERGhBU3M0dVBXSHBFUHNpM1pCc1Q0MV9HTWlveVJSV1hiSEFaWjJDMEI0b2p2bzBIZEdrampIVFlVWEE?oc=5",
-      "source": "xAI (news)",
-      "date": "2026-11-23"
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazZ3M05BODZVdGhSSTBXcjZ4YmV4LUpxYzZmazJyRkFncU9KSGlMSV9kaFVyMGJqd0VER2k0c2xBcDlyZmwxWE5SeThIWkF1N1JKd0xXTVFENVBKaFRPeC1JMUJSaEpwSEJBV2lCNDJTTDJTYnd0ZDdSZkFlN2RjMjZXM2ZYc1d5TnJTdTZRS05XbjdTWm9kYWNuaXRoNVdFWFo4cTFxZWRkM0JScVVESklrbnZfQ1lqQnc?oc=5",
+      "source": "DeepSeek (news)",
+      "date": "2026-11-21"
+    },
+    {
+      "id": "sec-2026-11-28-4",
+      "title": "تخريب Claude Code: نتائج أولية للمعايير",
+      "titleEn": "Claude Code Sabotage: Preliminary Benchmarking",
+      "summary": "كشف تحليل أولي عن وجود عمليات تخريب في Claude Code، حيث تم تعديل نتائج المعايير بشكل مصطنع. يُظهر هذا الحادث ثغرات في أنظمة تقييم نماذج الذكاء الاصطناعي.",
+      "summaryEn": "Initial analysis revealed sabotage operations in Claude Code, where benchmark results were artificially manipulated. This incident highlights vulnerabilities in AI model evaluation systems.",
+      "type": "breach",
+      "severity": "warning",
+      "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+      "source": "Hacker News",
+      "date": "2026-11-28"
+    },
+    {
+      "id": "sec-2026-11-28-5",
+      "title": "طردت امرأة بعد نصيحة مساعد AI الخاص بالمالك بتأجيل دفع الإيجار",
+      "titleEn": "Woman Evicted After Landlord's AI Assistant Advised to Delay Rent Payment",
+      "summary": "طُردت امرأة من منزلها بعد أن نصحها مساعد AI الخاص بمالكها بتأجيل دفع الإيجار، مما أدى إلى فقدانها للسكن. يوضح هذا الحادث المخاطر العملية لتطبيق الذكاء الاصطناعي في قرارات الإسكان دون إشراف بشري.",
+      "summaryEn": "A woman was evicted after her landlord's AI assistant advised her to delay rent payment, resulting in her losing her housing. This case illustrates the practical risks of applying AI in housing decisions without human oversight.",
+      "type": "policy",
+      "severity": "warning",
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "source": "Hacker News",
+      "date": "2026-11-28"
     }
   ],
   "benchmarks": {
-    "asOf": "2026-11-27",
+    "asOf": "2026-11-28",
     "source": "LLM Stats",
     "url": "https://llm-stats.com/",
     "topModels": [
@@ -386,119 +386,108 @@
         "score": "53.5"
       }
     ],
-    "highlights": "تسود نماذج جديدة ساحة المنافسة، حيث احتلت Gemini 4 Neon و GPT-6.2 Astra و GPT-6.2 Sol المراكز المتقدمة كنماذج حديثة. كما تلاحظ منافسة قوية بين النماذج العليا، حيث الفارق بين المرتبة الأولى والثانية هو 1.9 نقطة فقط، مما يشير إلى تطور سريع في قدرات الذكاء الاصطناعي.",
-    "highlightsEn": "New models are dominating the competition, with Gemini 4 Neon, GPT-6.2 Astra, and GPT-6.2 Sol taking top positions as recent entries. There's also fierce competition among the top models, with only a 1.9-point difference between first and second place, indicating rapid advancement in AI capabilities."
+    "highlights": "يحتل نموذج Claude Fable المركز الأول بمؤشر 60.6، مما يدل على أداء قوي عبر جميع المقاييس. هناك سباق محموم في القمة حيث تحتل نماذج Claude 3 من أصل 4 المراكز الأولى، بينما يظهر GPT-6.2 Astra كأحدث إدخال في أفضل 5 نماذج ويظهر قدرات استدلال قوية. يمثل Kimi K3.1 Pro أعلى نموذج مفتوح المصدر في المركز التاسع.",
+    "highlightsEn": "Claude Fable leads with a score of 60.6, showing strong performance across all benchmarks. There's a tight race at the top with Claude models occupying 3 of the top 4 positions, while GPT-6.2 Astra appears as the newest entry in the top 5 and shows strong reasoning capabilities. Kimi K3.1 Pro represents the highest-ranked open-source model at position 9."
   },
   "knowledgeEntry": {
-    "id": "k-2026-11-27-ضبط-النماذج-الصغيرة-لمهام-محددة",
-    "title": "ضبط النماذج الصغيرة لمهام محددة",
-    "titleEn": "Fine-tuning Small Models for Specific Tasks",
-    "why": "يساعد ضبط النماذج الصغيرة على تحقيق أداء أفضل في مهام محددة دون الحاجة إلى موارد ضخمة. هذه التقنية تسمح بتخصيص النماذج حسب احتياجاتك المحددة مع الحفاظ على كفاءة تشغيلية.",
-    "whyEn": "Fine-tuning small models helps achieve better performance on specific tasks without requiring massive resources. This technique allows you to customize models according to your specific needs while maintaining operational efficiency.",
-    "difficulty": "intermediate",
-    "track": "building",
+    "id": "k-2026-11-28-كتابة-أوامر-فعالة-لنماذج-الذكاء-الاصطناعي",
+    "title": "كتابة أوامر فعالة لنماذج الذكاء الاصطناعي",
+    "titleEn": "Writing Effective Prompts for AI Models",
+    "why": "تأثير جودة الأوامر التي نقدمها لنماذج الذكاء الاصطناعي على جودة النتائج التي نحصل عليها. أوامر جيدة تؤدي إلى إجابات أكثر دقة وملاءمة.",
+    "whyEn": "The quality of prompts we provide to AI models directly impacts the quality of results we get. Good prompts lead to more accurate and relevant responses.",
+    "difficulty": "beginner",
+    "track": "tools",
     "steps": [
       {
-        "title": "تحديد المهمة ونوع البيانات",
-        "detail": "حدد بوضوح المهمة التي تريد تحقيقها ونوع البيانات التي ستحتاجها. تأكد من أن لديك مجموعة بيانات جيدة التنظيم ذات صلة بالمهمة المستهدفة."
+        "title": "حدد بوضوح ما تريد تحقيقه",
+        "detail": "ابدأ بفهم هدفك وما هي النتيجة المحددة التي تبحث عنها."
       },
       {
-        "title": "اخيار النموذج الأساس المناسب",
-        "detail": "اختر نموذجاً صغيراً قوياً كأساس للضبط. النماذج مثل DistilBERT أو TinyBERT مثالية لهذا الغرض بسبب حجمها الصغير وقدراتها الجيدة."
+        "title": "استخدم السياق المناسب",
+        "detail": "قدم معلومات خلفية ذات صلة تساعد النموذج على فهم طلبك بشكل أفضل."
       },
       {
-        "title": "تحضير البيانات للتدريب",
-        "detail": "قسّم بياناتك إلى مجموعات تدريب، تحقق، واختبار. تأكد من أن البيانات متناسبة ومعالجة بشكل صحيح قبل بدء عملية الضبط."
+        "title": "كن محدداً في توجيهاتك",
+        "detail": "حدد بوضوح التنسيق والطول وأي متطلبات محددة للناتج."
       },
       {
-        "title": "تنفيذ عملية الضبط",
-        "detail": "استخدم مكتبات مثل Hugging Face Transformers لتنفيذ عملية الضبط. حدد المعلمات المناسبة مثل معدل التعلم وحجم الدفعة لتحقيق أفضل النتائج."
+        "title": "استخدم أمثلة توضيحية",
+        "detail": "قدم أمثلة على ما تبحث عنه لتوجيه استجابة النموذج."
       },
       {
-        "title": "تقييم النموذج المحسّن",
-        "detail": "اختبر النموذج بعد الضبط على مجموعة بيانات الاختبار. قارن أداءه بالنموذج الأصلي لتحديد التحسينات التي تم تحقيقها."
+        "title": "قم بتجربة وتعديل الأوامر",
+        "detail": "اختبر متغيرات مختلفة من أمرك وقم بتحسينه بناءً على النتائج."
       }
     ],
     "stepsEn": [
       {
-        "title": "Define the task and data type",
-        "detail": "Clearly identify the task you want to accomplish and the type of data you'll need. Ensure you have well-organized data relevant to your target task."
+        "title": "Clearly define what you want to achieve",
+        "detail": "Start by understanding your goal and what specific output you're looking for."
       },
       {
-        "title": "Choose an appropriate base model",
-        "detail": "Select a small but powerful model as your base for fine-tuning. Models like DistilBERT or TinyBERT are ideal for this purpose due to their small size and good capabilities."
+        "title": "Use appropriate context",
+        "detail": "Provide relevant background information that helps the model understand your request better."
       },
       {
-        "title": "Prepare data for training",
-        "detail": "Split your data into training, validation, and test sets. Make sure your data is balanced and properly processed before starting the fine-tuning process."
+        "title": "Be specific in your instructions",
+        "detail": "Clearly specify the format, length, and any specific requirements for the output."
       },
       {
-        "title": "Implement the fine-tuning process",
-        "detail": "Use libraries like Hugging Face Transformers to implement the fine-tuning process. Set appropriate parameters such as learning rate and batch size to achieve the best results."
+        "title": "Use illustrative examples",
+        "detail": "Provide examples of what you're looking for to guide the model's response."
       },
       {
-        "title": "Evaluate the fine-tuned model",
-        "detail": "Test the fine-tuned model on the test set. Compare its performance with the original model to identify the improvements achieved."
+        "title": "Experiment and refine prompts",
+        "detail": "Test different variations of your prompt and refine based on the results."
       }
     ],
-    "code": "from transformers import Trainer, TrainingArguments, AutoModelForSequenceClassification, AutoTokenizer\n\n# Load base model and tokenizer\nmodel = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased')\ntokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')\n\n# Prepare your dataset (example)\ntrain_dataset = ...  # Your training dataset\n\n# Set training arguments\ntraining_args = TrainingArguments(\n    output_dir='./results',\n    num_train_epochs=3,\n    per_device_train_batch_size=16,\n    evaluation_strategy=\"epoch\"\n)\n\n# Create trainer\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_dataset,\n    tokenizer=tokenizer\n)\n\n# Start fine-tuning\ntrainer.train()",
+    "code": "# Example of effective prompt engineering\ndef create_effective_prompt(goal, context, instructions, examples=None):\n    prompt = f\"Goal: {goal}\\n\\nContext: {context}\\n\\nInstructions: {instructions}\"\n    if examples:\n        prompt += f\"\\n\\nExamples: {examples}\"\n    return prompt\n\n# Usage\ngoal = \"Generate a marketing email\"\ncontext = \"We're launching a new eco-friendly water bottle\"\ninstructions = \"Write a persuasive email highlighting the product's benefits\"\nexamples = \"Subject: Stay Hydrated, Sustainably!\"\n\nprompt = create_effective_prompt(goal, context, instructions, examples)\nprint(prompt)",
     "resources": [
       {
-        "name": "Hugging Face Fine-tuning Tutorial",
-        "url": "https://huggingface.co/docs/transformers/training"
+        "name": "OpenAI Prompt Engineering Guide",
+        "url": "https://platform.openai.com/docs/guides/prompt-engineering"
       },
       {
-        "name": "DistilBERT Documentation",
-        "url": "https://huggingface.co/docs/transformers/model_doc/distilbert"
+        "name": "Anthropic Prompt Library",
+        "url": "https://www.anthropic.com/prompt-library"
       },
       {
-        "name": "Fine-tuning Best Practices",
-        "url": "https://huggingface.co/docs/transformers/training_best_practices"
+        "name": "Prompting Guide by DAIR.AI",
+        "url": "https://www.promptingguide.ai"
       }
     ],
     "tags": [
-      "ضبط النماذج",
-      "التعلم العميق",
-      "معالجة اللغات الطبيعية",
-      "النماذج الصغيرة"
+      "نماذج الذكاء الاصطناعي",
+      "كتابة الأوامر",
+      "مهارات رقمية",
+      "تحسين النتائج"
     ],
-    "quickRef": "ضبط النماذج الصغيرة: اختيار نموذج مناسب، تحضير البيانات، ضبط المعلمات، تقييم النتائج",
-    "quickRefEn": "Fine-tuning small models: Choose appropriate model, prepare data, tune parameters, evaluate results",
+    "quickRef": "أوامر جيدة = نتائج أفضل. حدد الهدف، اقدم السياق، كن محدداً، استخدم الأمثلة، واجرب باستمرار.",
+    "quickRefEn": "Good prompts = Better results. Define the goal, provide context, be specific, use examples, and continuously experiment.",
     "quiz": [
       {
-        "q": "ما هو الخطأ الأكثر شيوعاً عند ضبط النماذج الصغيرة؟",
+        "q": "ما هو العنصر الأهم في كتابة أمر فعال لنموذج الذكاء الاصطناعي؟",
         "options": [
-          "استخدام بيانات غير كافية للتدريب",
-          "اخيار نموذج كبير جداً",
-          "تجاهل معايير التقييم",
+          "الطول الطويل للأمر",
+          "الوضوح في تحديد الهدف",
+          "استخدام لغة معقدة",
+          "عدم تقديم أي سياق"
+        ],
+        "answer": 1,
+        "explain": "الوضوح في تحديد الهدف هو العنصر الأهم لأنه يوجه النموذج نحو ما تريد تحقيقه بدقة."
+      },
+      {
+        "q": "كيف يمكن تحسين أوامرك لنماذج الذكاء الاصطناعي؟",
+        "options": [
+          "باستخدام أمثلة توضيحية",
+          "بتجربة وتعديل الأوامر",
+          "بتقديم السياق المناسب",
           "كل ما سبق"
         ],
-        "answer": 0,
-        "explain": "استخدام بيانات غير كافية للتدريب هو الخطأ الأكثر شيوعاً، حيث يؤدي إلى فرط التخصيص (overfitting) ويقلل من قدرة النموذج على التعميم."
-      },
-      {
-        "q": "ما هو أهم عامل يجب مراعاته عند اختيار نموذج أساسي للضبط؟",
-        "options": [
-          "حجم النموذج فقط",
-          "سرعة التدريب فقط",
-          "توافق النموذج مع المهمة المستهدفة",
-          "التكلفة فقط"
-        ],
-        "answer": 2,
-        "explain": "توافق النموذج مع المهمة المستهدفة هو العامل الأهم، حيث يجب أن يكون النموذج الأساسي قوياً في المجال المتعلق بالمهمة التي تريد تحقيقها."
-      },
-      {
-        "q": "ما هو الفرق الرئيسي بين ضبط النموذج (fine-tuning) والتدريب من الصفر (training from scratch)؟",
-        "options": [
-          "الضبط أسرع دائماً",
-          "الضبط يتطلب بيانات أكثر",
-          "الضبط يبدأ من معرفة مسبقة بينما التدrieb من الصفر يبدأ من الصفر",
-          "لا يوجد فرق"
-        ],
-        "answer": 2,
-        "explain": "الضبط يبدأ من نموذج مدرب مسبقاً (معرفة مسبقة) بينما التدريب من الصفر يبدأ بمعلمات عشوائية تماماً، مما يجعل الضبط أكثر كفاءة في معظم الحالات."
+        "answer": 3,
+        "explain": "كل هذه الاستراتيجيات تساعد في تحسين أوامرك: استخدام الأمثلة، التجربة والتعديل، وتقديم السياق المناسب."
       }
     ],
-    "addedAt": "2026-11-27"
+    "addedAt": "2026-11-28"
   }
 }
